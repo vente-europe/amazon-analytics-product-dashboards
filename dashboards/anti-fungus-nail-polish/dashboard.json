@@ -11,588 +11,427 @@
     "totalMarket": {},
     "marketStructure": {},
     "reviews": {
-      "totalReviews": 154,
-      "avgRating": 3.18,
+      "totalReviews": 531,
+      "avgRating": 3.07,
       "starDist": [
-        40,
-        35,
-        24,
-        22,
-        33
+        124,
+        110,
+        90,
+        92,
+        115
       ],
-      "cpSummary": "The customer base primarily consists of individuals seeking effective treatments for persistent, hard-to-treat nail fungus, mostly on toenails. While some praise natural remedies like propolis and appreciate easy-to-use pens, others are highly critical of faulty applicators, slow results, and misleading 'fast-action' marketing claims.",
+      "cpSummary": "Customers seeking treatments for stubborn nail fungus (and some skin pigmentation issues) looking for fast, effective solutions. They value ease of use and cosmetic appearance but are highly sensitive to wasted money on expensive products that yield zero results or take too long.",
       "cpWho": {
         "labels": [
-          "Long-term Sufferers",
-          "Natural Remedy Seekers",
-          "Skeptical Buyers",
-          "Podiatrist Patients",
-          "Elderly Users",
-          "First-Time Users"
+          "Long-term sufferers",
+          "Cost-conscious buyers",
+          "Beauty-focused users",
+          "Patience-tested users",
+          "Natural remedy seekers",
+          "Skeptical buyers"
         ],
         "pos": [
-          32,
-          18,
-          12,
-          5,
-          8,
-          15
+          45,
+          25,
+          40,
+          60,
+          15,
+          20
         ],
         "neg": [
-          40,
+          70,
+          65,
+          30,
+          85,
           5,
-          25,
-          10,
-          5,
-          12
+          50
         ]
       },
       "cpWhen": {
         "labels": [
-          "Twice Daily (Morning/Night)",
-          "After Showering",
-          "After Meds Failed",
-          "Ongoing Maintenance",
-          "Before Summer Season",
-          "Early Stage Symptoms"
+          "After trying other products",
+          "During summer/sandal season",
+          "Daily (morning & night)",
+          "After 6-12 months of use",
+          "In early stages of infection",
+          "After doctor's recommendation"
         ],
         "pos": [
-          35,
-          20,
+          30,
           15,
-          12,
-          8,
+          80,
+          50,
+          20,
           10
         ],
         "neg": [
-          45,
+          40,
           10,
-          30,
-          8,
+          60,
+          75,
           5,
-          5
+          15
         ]
       },
       "cpWhere": {
         "labels": [
-          "Toenails (Big Toe)",
+          "Toenails",
           "Fingernails",
-          "Home Routine",
-          "Travel/On-the-go",
-          "Podiatrist Clinics",
-          "Under Closed Shoes"
+          "Skin/Face (Spots)",
+          "Nail bed/cuticles",
+          "Doctor/Podiatrist office",
+          "At home"
         ],
         "pos": [
-          45,
+          85,
+          20,
           10,
-          50,
+          15,
           12,
-          2,
-          5
+          90
         ],
         "neg": [
-          65,
-          5,
-          40,
-          8,
+          110,
           10,
-          15
+          15,
+          10,
+          5,
+          120
         ]
       },
       "cpWhat": {
         "labels": [
-          "Stubborn Toenail Fungus",
+          "Toenail Fungus",
+          "Fingernail Fungus",
           "Discolored/Yellow Nails",
-          "Thickened/Brittle Nails",
-          "Nail Detachment",
-          "Cuticle Health",
-          "General Preventive Care"
+          "Brittle/Thick Nails",
+          "Hyperpigmentation/Dark Spots",
+          "Psoriasis"
         ],
         "pos": [
-          35,
+          120,
           20,
-          18,
-          5,
+          35,
           15,
-          12
+          10,
+          2
         ],
         "neg": [
-          55,
-          18,
-          25,
-          12,
+          130,
           5,
-          2
+          25,
+          20,
+          20,
+          0
         ]
       },
       "usageScenarios": [
         {
-          "label": "Daily Post-Shower Routine",
-          "reason": "Applying the serum easily onto clean, dry nails",
-          "pct": "35.0%"
+          "label": "Long-Term Daily Treatment",
+          "reason": "Consistent application required for 6-12 months to outgrow the fungus.",
+          "pct": "40%"
         },
         {
-          "label": "Alternative to Oral Meds",
-          "reason": "Avoiding harsh chemicals or liver-toxic prescriptions",
-          "pct": "20.0%"
+          "label": "Cosmetic Concealment",
+          "reason": "Using breathable tinted polish to hide fungus during sandals season.",
+          "pct": "15%"
         },
         {
-          "label": "Long-Term Eradication",
-          "reason": "Months-long treatment for deep nail bed infections",
-          "pct": "15.0%"
+          "label": "Early Intervention",
+          "reason": "Catching mild fungal infections before they spread deeper into the nail bed.",
+          "pct": "10%"
         },
         {
-          "label": "Cosmetic Nail Rehab",
-          "reason": "Fixing ridges, discoloration, and cuticles",
-          "pct": "10.0%"
+          "label": "Post-Doctor Resort",
+          "reason": "Using OTC topicals after prescription oral pills caused liver side effects.",
+          "pct": "10%"
         },
         {
-          "label": "Pre-Summer Prep",
-          "reason": "Trying to get nails clear for sandal season",
-          "pct": "8.0%"
+          "label": "Combined Podiatry Use",
+          "reason": "Using the liquid in combination with an electric file or podiatrist visits.",
+          "pct": "10%"
         },
         {
-          "label": "Combined with Filing",
-          "reason": "Filing down the nail weekly to help serum penetrate",
-          "pct": "5.0%"
-        },
-        {
-          "label": "Travel Routine",
-          "reason": "Using the pen applicator on-the-go",
-          "pct": "3.0%"
-        },
-        {
-          "label": "Podiatrist Supplement",
-          "reason": "Using alongside professional medical foot care",
-          "pct": "2.0%"
-        },
-        {
-          "label": "Preventative Maintenance",
-          "reason": "Continuing application to ensure fungus doesn't return",
-          "pct": "1.0%"
-        },
-        {
-          "label": "Under Polish",
-          "reason": "Attempting to treat fungus while covering it up",
-          "pct": "1.0%"
+          "label": "Failed Previous Attempts",
+          "reason": "Switching brands after pharmacy lacquers or home remedies failed.",
+          "pct": "15%"
         }
       ],
-      "csSummary": "Sentiment is highly polarized, primarily split between the product's effectiveness and its mechanical delivery system. Positive reviews laud the formula for naturally clearing years-old fungus and improving nail appearance, whereas negative reviews heavily criticize faulty twist-pens that run dry almost immediately and the high cost of ineffective treatments.",
+      "csSummary": "Sentiment is heavily polarized: users who set 6-12 month expectations and see slow progress are thrilled, while those expecting quick fixes feel scammed. High prices compounded with empty pens, faulty brushes, and products that refuse to dry drive severe frustration.",
       "negativeTopics": [
         {
-          "label": "Faulty Applicator Pens",
-          "reason": "Twist mechanisms break easily or dispense no liquid",
-          "pct": "25.0%",
+          "label": "Zero Effectiveness Over Time",
+          "reason": "Users apply the product daily for months or even years with no visible reduction in fungal spread.",
+          "pct": "35%",
           "bullets": [
-            "Mechanism spins empty",
-            "Thickened substance inside",
-            "Runs out extremely fast"
+            "Fungus remains completely unchanged",
+            "Condition worsens despite religious application",
+            "Feels like the liquid contains no active ingredients"
           ],
           "quotes": [
-            "The second pen's twist mechanism was completely broken and spun empty, dispensing no liquid.",
-            "The pen was empty after less than a week. The twist mechanism requires endless turning for barely any liquid.",
-            "A disgusting thickened substance formed inside the pen."
+            "Used daily for 1.5 years and it just caused deterioration. Helps absolutely nothing.",
+            "Bottle is empty and no change. Feels like there's no active ingredient inside.",
+            "Used it exactly as directed for 18 months. The effect is zero!"
           ]
         },
         {
-          "label": "Ineffective Formula",
-          "reason": "Users see no reduction in fungal growth after months",
-          "pct": "22.5%",
+          "label": "Overpriced / Poor Value",
+          "reason": "Tiny volumes (e.g., 3.3ml or 6.6ml bottles, or rapidly emptying pens) coupled with high prices.",
+          "pct": "25%",
           "bullets": [
-            "Fungus doesn't stop",
-            "Only works as cosmetic",
-            "No real antifungal agents"
+            "Pens run empty within a week",
+            "Prices are unacceptably high for the volume provided",
+            "Requires constant rebuying, costing hundreds of Euros over the treatment span"
           ],
           "quotes": [
-            "Product had zero effect after 6 weeks of daily use.",
-            "Using it for 3 months, absolutely no improvement.",
-            "Like all other polishes, it is useless. No improvement after 6 weeks of consistent use, save your money."
+            "After less than a week, the pen is completely empty. Hardly any liquid comes out despite minutes of twisting.",
+            "It works, but after 6 months I've spent nearly €500. The price for this tiny amount is almost outrageous.",
+            "Used an entire bottle in a month with zero visible results. 3.3ml for this price is outrageous."
           ]
         },
         {
-          "label": "High Price / Low Value",
-          "reason": "Bottles and pens contain very little product for the high cost",
-          "pct": "15.0%",
+          "label": "Drying Time & Application Hassle",
+          "reason": "Liquids are too oily, or color polishes are too thick, taking hours to dry and sticking to socks.",
+          "pct": "15%",
           "bullets": [
-            "Pen half full",
-            "Huge price increases",
-            "Waste of money"
+            "Oily serums take 30+ minutes to absorb",
+            "Tinted lacquers remain wet for 1-3 hours",
+            "Daily 2x-3x application schedules are tedious"
           ],
           "quotes": [
-            "The liquid was almost empty after 8 applications on one nail. Way too expensive for this amount.",
-            "Total waste of money after many weeks of use. Does absolutely nothing.",
-            "Sadly the price went up 2.5x so I won't repurchase at this high cost."
+            "It takes an incredibly long time to dry. Applying it 3 times daily is a massive effort.",
+            "Took over 3 hours to dry and still wasn't hardened. Chipped on day 2.",
+            "Dries incredibly slowly. Even the next day socks stick to the painted nail."
           ]
         },
         {
-          "label": "Slow Results vs. Marketing",
-          "reason": "Ads promise fast relief, but reality requires months of use",
-          "pct": "12.5%",
+          "label": "Defective Packaging & Applicators",
+          "reason": "Broken twist mechanisms, frayed brushes, or impossibly huge shipping boxes.",
+          "pct": "10%",
           "bullets": [
-            "False 'works day 1' claims",
-            "Requires extreme patience",
-            "Fails within guarantee period"
+            "Twist-pens click endlessly without releasing liquid",
+            "Safety caps are impossible to open for arthritic hands",
+            "Polish brushes are frayed and apply unevenly"
           ],
           "quotes": [
-            "The claim of 'works from day 1' is completely false.",
-            "Consistent use for over a year with zero improvement.",
-            "The promise of fast results is false."
+            "The twist mechanism spins endlessly and no liquid reaches the brush. Wasted money.",
+            "The safety cap is terrible. I have arthritis and struggle to open the bottle.",
+            "Way too viscous and the brush is frayed. Takes over 1 hour to dry and is still wet."
           ]
         },
         {
-          "label": "Worsened Condition",
-          "reason": "Fungus spread or nails became dry and brittle",
-          "pct": "10.0%",
+          "label": "Side Effects & Worsening Conditions",
+          "reason": "The product causes allergic skin reactions, stains the skin, or softens the nail to the point of detachment.",
+          "pct": "8%",
           "bullets": [
-            "Nails turned yellow/orange",
-            "Polish sealed in fungus",
-            "Nails became brittle"
+            "Skin around the nail becomes yellow or peels off",
+            "Nails become brittle and detach entirely",
+            "Moisture softens the nail, accelerating fungal growth"
           ],
           "quotes": [
-            "Doesn't work at all. On the contrary, my nails actually became yellower despite regular use.",
-            "Used for 10 days, nails turned an ugly orange-brown instead of getting better.",
-            "The polish sealed the nail so the serum couldn't penetrate. Made nails dry, brittle, and worsened the condition."
+            "Made my nails totally dry and brittle. The big toe nail detached halfway.",
+            "A sticky liquid that literally softens the nail after 3 weeks. Leaves it constantly damp and more vulnerable.",
+            "Stained the whole skin around my nail horribly yellow. Absolute NoGo."
           ]
         },
         {
-          "label": "Side Effects & Allergies",
-          "reason": "Some users developed skin reactions like eczema",
-          "pct": "5.0%",
+          "label": "Deceptive Cosmetic Colors",
+          "reason": "Tinted breathable polishes do not match the advertised photos and apply unevenly.",
+          "pct": "7%",
           "bullets": [
-            "Skin irritation",
-            "Eczema breakouts",
-            "Podiatrist warned against it"
+            "Colors look like 'window putty' or are unnaturally pink",
+            "Liquid is too runny or too viscous to cover smoothly",
+            "Leaves an orange-brown tint instead of a clean look"
           ],
           "quotes": [
-            "Developed an eczema allergy and had to stop the treatment entirely.",
-            "Didn't help and my podiatrist said it was actually bad for my toes' healing."
-          ]
-        },
-        {
-          "label": "Poor Usability / Oily",
-          "reason": "Takes too long to dry, messy application",
-          "pct": "5.0%",
-          "bullets": [
-            "Serum is too oily",
-            "Doesn't dry fast",
-            "Stains clothes/socks"
-          ],
-          "quotes": [
-            "Very oily, takes way too long to dry.",
-            "Easy to use but takes forever to dry."
-          ]
-        },
-        {
-          "label": "Missing/Poor Instructions",
-          "reason": "Users don't know how to properly apply the product",
-          "pct": "5.0%",
-          "bullets": [
-            "Microscopic text",
-            "No German description",
-            "Confusing directions"
-          ],
-          "quotes": [
-            "Instruction text is microscopic and confusingly describes other products.",
-            "Didn't use it because there was no German description included."
+            "Color 'Nude rose' looks nothing like rose, looks like old window putty. Threw it away.",
+            "After 10 days of use, the only result is an orange-brown discoloration making my nails look worse.",
+            "Unnatural color. Way too pink to be 'nude beige'."
           ]
         }
       ],
       "positiveTopics": [
         {
-          "label": "Clears Stubborn Fungus",
-          "reason": "Successfully eradicates long-term nail bed infections",
-          "pct": "35.0%",
+          "label": "Long-Term Effective Eradication",
+          "reason": "When used patiently over several months, the fungus completely grows out and leaves a healthy nail.",
+          "pct": "35%",
           "bullets": [
-            "Cures 10-year infections",
-            "Replaces chemical meds",
-            "Clear outgrowth"
+            "Nail grows back fully clear after 6-12 months",
+            "Stops fungus from spreading to healthy nail areas",
+            "Works better than prescription oral pills"
           ],
           "quotes": [
-            "Cured my stubborn 10-year fungus after 8 months! Started seeing results in 2 weeks.",
-            "Finally something that helps! Fungus is growing out after 5 months.",
-            "Took 9 months of daily use to clear the fungus, but it absolutely works!"
+            "My 10-year fungus is completely gone after 8 months! Small improvement visible in 2 weeks.",
+            "Takes about 1 year and extreme patience. It is very expensive, but totally worth it combined with podiatry.",
+            "Pieces by piece it gets better. Replaced my toxic oral pills. Fantastic."
           ]
         },
         {
           "label": "Fast Initial Improvements",
-          "reason": "Users see positive visual changes within days or weeks",
-          "pct": "20.0%",
+          "reason": "Users notice the nail looking clearer, harder, or less yellow within the first 1-3 weeks.",
+          "pct": "20%",
           "bullets": [
-            "Visible after 3-5 days",
-            "Fast reaction",
-            "Quick cosmetic lift"
+            "Yellow discoloration fades fast",
+            "Nail ridges flatten out",
+            "Visible difference in a matter of days"
           ],
           "quotes": [
-            "Noticeable improvement in just 3 days!",
-            "Big improvement after just 5 days. Highly recommend taking pictures to track the fast progress.",
-            "Changes visible after just a few days of using the propolis serum."
+            "Unlike other products, I saw changes within a week. The nail looks clearer and healthier already.",
+            "After 3 weeks of applying every evening, the yellow discoloration is almost invisible.",
+            "Amazing product. Saw a big improvement after just 5 days."
           ]
         },
         {
-          "label": "Easy Pen Application",
-          "reason": "When working, the pen format is hygienic and fast",
-          "pct": "15.0%",
+          "label": "Easy & Hygienic Application",
+          "reason": "Pen applicators or fast-drying lacquers fit seamlessly into a daily routine.",
+          "pct": "20%",
           "bullets": [
-            "No mess",
-            "Hygienic tip",
-            "Quick post-shower habit"
+            "Liquids absorb in 30 seconds",
+            "Pen prevents messy spills",
+            "No filing required for some lacquers"
           ],
           "quotes": [
-            "Highly recommended! Easy, hygienic pen application, nails look healthier quickly.",
-            "Great quality and handling.",
-            "Pleasant smell, easy to apply every 2 days. Good product."
+            "Super simple to apply with the pen. Absorbs fast, highly hygienic, and economical.",
+            "Dries in just 30 seconds and goes on invisible. Discreet and easy to use.",
+            "Daily stroke of polish and after a few weeks the fungus is history."
           ]
         },
         {
-          "label": "Natural Ingredients",
-          "reason": "Propolis and natural oils appeal to health-conscious buyers",
-          "pct": "15.0%",
+          "label": "Cosmetic Concealment & Breathability",
+          "reason": "Tinted lacquers allow users to hide ugly nails during treatment without trapping the fungus.",
+          "pct": "15%",
           "bullets": [
-            "Propolis formula",
-            "Pleasant citrus smell",
-            "No liver toxicity"
+            "Covers yellowing perfectly in one coat",
+            "Permeable formula allows serums to penetrate",
+            "Allows users to wear open-toed shoes confidently"
           ],
           "quotes": [
-            "Propolis works! Fast visual improvement after 1 week. Smells nice, nature is amazing.",
-            "Nature is the best medicine. Helped where expensive doctor-prescribed pills didn't.",
-            "Pleasant smell, absorbs well without sticking, and keeps cuticles soft."
+            "Stylishly covers the fungus while remaining permeable for the treatment serum. Dries normally.",
+            "As a man, I chose black to hide my cracked, yellow fungal nails during treatment. Looks great.",
+            "Applies easily, covers beautifully in one coat, doesn't chip, dries fast."
           ]
         },
         {
-          "label": "Improves Nail Aesthetics",
-          "reason": "Softens cuticles, flattens ridges, hardens nails",
-          "pct": "10.0%",
+          "label": "Natural & Gentle Ingredients",
+          "reason": "Users appreciate avoiding harsh chemicals, favoring propolis or natural oils.",
+          "pct": "10%",
           "bullets": [
-            "Flattens ridges",
-            "Hardens weak nails",
-            "General care benefits"
+            "Propolis smells pleasant and nourishes cuticles",
+            "Does not damage the surrounding skin",
+            "Safe alternative to liver-damaging pills"
           ],
           "quotes": [
-            "Nails feel stronger and ridges are flatter. Tolerate it very well.",
-            "Nails are getting more beautiful every day!",
-            "Nails seem harder and ridges are fading."
-          ]
-        },
-        {
-          "label": "Good Value & Support",
-          "reason": "Cheaper than constant doctor visits or expensive pharmacy brands",
-          "pct": "5.0%",
-          "bullets": [
-            "Cheaper than pharmacy",
-            "Refunds provided",
-            "Practical solution"
-          ],
-          "quotes": [
-            "Absolute recommendation! Saved me from a 40 EUR cream.",
-            "Was not satisfied, but I got my purchase price refunded. Thanks for that.",
-            "Cheap, practical, and good."
+            "Works incredibly fast. After one week, visual improvement! Love that it's a natural propolis medicine and smells nice.",
+            "No pills helped me for a year, but with this my nail is finally growing out healthy. Nature is the best medicine.",
+            "Smells pleasantly of citrus and keeps cuticles supple. No discoloration noticed."
           ]
         }
       ],
       "negativeInsights": [
         {
-          "type": "Product Design",
+          "type": "Product Quality",
           "badgeBg": "#fee2e2",
           "badgeColor": "#991b1b",
-          "finding": "The twist mechanism in the pen applicators frequently breaks or dispenses no liquid.",
-          "implication": "Redesign the pen's twist delivery system to ensure reliable fluid flow without mechanical failure."
-        },
-        {
-          "type": "Marketing Claim",
-          "badgeBg": "#fee2e2",
-          "badgeColor": "#991b1b",
-          "finding": "Advertising claims of 'fast results' or 'works from day 1' create severe backlash when treatment takes months.",
-          "implication": "Adjust marketing to set realistic timelines (e.g., 'requires patience and consistent daily use') to manage expectations."
-        },
-        {
-          "type": "Value Perception",
-          "badgeBg": "#fee2e2",
-          "badgeColor": "#991b1b",
-          "finding": "Users feel cheated by the low volume of liquid (4ml) inside seemingly large applicator pens.",
-          "implication": "Increase product volume or offer multi-pen bundle discounts to improve perceived value."
-        },
-        {
-          "type": "Customer Service",
-          "badgeBg": "#fee2e2",
-          "badgeColor": "#991b1b",
-          "finding": "The 365-day money-back guarantee is reportedly voided if purchased through Amazon, causing legal frustration.",
-          "implication": "Clarify guarantee terms on the Amazon listing or honor the guarantee across all retail channels to avoid brand damage."
+          "finding": "Anti-fungus pen mechanisms fail frequently, dispensing nothing or emptying in under a week.",
+          "implication": "Redesign the twist-feed mechanism to guarantee steady flow and increase visual transparency of the liquid volume to rebuild trust."
         },
         {
           "type": "Formulation",
           "badgeBg": "#fee2e2",
           "badgeColor": "#991b1b",
-          "finding": "The oil/serum takes a very long time to dry, making it difficult to put on socks or shoes immediately after.",
-          "implication": "Reformulate to improve absorption rates or clearly advise users to apply before bed."
+          "finding": "Tinted 'breathable' lacquers take hours to dry, remain tacky, and chip easily.",
+          "implication": "The color formulation is too viscous. R&D must improve dry-down times to match standard cosmetic nail polish (under 10 mins)."
         },
         {
-          "type": "Adverse Reactions",
+          "type": "Expectation Management",
           "badgeBg": "#fee2e2",
           "badgeColor": "#991b1b",
-          "finding": "A segment of users experience allergic reactions, eczema, or yellow/orange nail staining.",
-          "implication": "Add clear allergy warnings (especially regarding propolis/essential oils) and note potential temporary discoloration."
+          "finding": "Marketing claims like 'Works from day one' trigger 1-star reviews when users see no results after 4 weeks.",
+          "implication": "Revise copy to emphasize that toenails take 6-12 months to grow out, framing early success as 'clearer growth' rather than instant removal."
         },
         {
-          "type": "Product Efficacy",
+          "type": "Value Perception",
           "badgeBg": "#fee2e2",
           "badgeColor": "#991b1b",
-          "finding": "Using the accompanying 'breathable' polish actually traps the fungus and prevents the serum from penetrating.",
-          "implication": "Reevaluate the polish-serum combo instructions; advise users to apply serum directly to bare nails for best results."
-        },
-        {
-          "type": "Packaging",
-          "badgeBg": "#fee2e2",
-          "badgeColor": "#991b1b",
-          "finding": "Instruction text is microscopically small and confuses users by mentioning other products in the line.",
-          "implication": "Include a dedicated, easy-to-read, step-by-step instruction insert specific to the purchased item."
+          "finding": "Customers are enraged by spending €50-€100+ on 3.3ml or 6.6ml bottles over months with no effect.",
+          "implication": "Consider selling multi-month 'treatment bundles' at a discount, or offer larger bottle sizes to reduce the perceived price-per-ml shock."
         }
       ],
       "positiveInsights": [
         {
-          "type": "Product Formulation",
-          "badgeBg": "#dcfce3",
+          "type": "Product Adoption",
+          "badgeBg": "#dcfce7",
           "badgeColor": "#166534",
-          "finding": "Natural ingredients like Propolis are highly praised as effective alternatives to liver-toxic oral medications.",
-          "implication": "Double down on marketing the natural, bee-derived propolis formulation as a safe and potent remedy."
+          "finding": "Fast-drying, water-soluble lacquers that don't require filing are highly praised for routine integration.",
+          "implication": "Highlight 'No filing required' and 'Dries in 30 seconds' heavily in ad creatives to capture users fatigued by complex care routines."
         },
         {
-          "type": "User Behavior",
-          "badgeBg": "#dcfce3",
+          "type": "Cosmetic Synergy",
+          "badgeBg": "#dcfce7",
           "badgeColor": "#166534",
-          "finding": "Users who commit to twice-daily applications over 6-9 months experience the highest cure rates.",
-          "implication": "Create a 'treatment journey' email campaign or insert that encourages and rewards long-term persistence."
+          "finding": "Customers (including men) value tinted breathable polishes to hide the fungus during the long healing phase.",
+          "implication": "Expand the color range of permeable polishes, ensuring a solid 'nude' and 'matte clear' or 'black' option for diverse demographics."
         },
         {
-          "type": "Cosmetic Benefit",
-          "badgeBg": "#dcfce3",
+          "type": "Ingredient Appeal",
+          "badgeBg": "#dcfce7",
           "badgeColor": "#166534",
-          "finding": "The serum successfully acts as a general nail conditioner, flattening ridges and softening cuticles.",
-          "implication": "Expand marketing to target general nail health and cosmetic repair, not just fungal infections."
-        },
-        {
-          "type": "Sensory Experience",
-          "badgeBg": "#dcfce3",
-          "badgeColor": "#166534",
-          "finding": "Unlike harsh chemical treatments, users love the pleasant citrus/natural smell of the product.",
-          "implication": "Highlight the pleasant scent in product descriptions to differentiate from harsh-smelling pharmacy brands."
-        },
-        {
-          "type": "Application Method",
-          "badgeBg": "#dcfce3",
-          "badgeColor": "#166534",
-          "finding": "When the pen mechanism works, users find it incredibly hygienic and easy to integrate into a post-shower routine.",
-          "implication": "Feature the quick, mess-free pen application prominently in video ads and social media."
-        },
-        {
-          "type": "Early Motivation",
-          "badgeBg": "#dcfce3",
-          "badgeColor": "#166534",
-          "finding": "Many successful users notice a slight visual improvement within the first 5-14 days, which motivates continued use.",
-          "implication": "Encourage users to 'take a Day 1 photo' on the packaging to help them notice early, subtle improvements."
+          "finding": "Formulas smelling of citrus or utilizing propolis win over users traumatized by harsh chemical smells or pills.",
+          "implication": "Lean into the 'Nature meets Science' positioning; highlight cuticle nourishment as a secondary benefit to fungal treatment."
         }
       ],
       "buyersMotivation": [
         {
-          "label": "Cure Stubborn Fungus",
-          "reason": "Desperation to fix years-long nail infections",
-          "pct": "35.0%"
+          "label": "Eradicate stubborn fungus",
+          "reason": "Desire to finally cure a long-term infection.",
+          "pct": "40%"
         },
         {
-          "label": "Avoid Oral Medication",
-          "reason": "Seeking topical alternatives to harsh chemical pills",
-          "pct": "20.0%"
+          "label": "Avoid oral medication",
+          "reason": "Fear of liver damage from prescription pills.",
+          "pct": "20%"
         },
         {
-          "label": "Natural/Herbal Preference",
-          "reason": "Specifically looking for propolis or natural oil solutions",
-          "pct": "15.0%"
+          "label": "Cosmetic appearance",
+          "reason": "Wanting to wear open shoes without shame.",
+          "pct": "15%"
         },
         {
-          "label": "Easy Application",
-          "reason": "Wanting a mess-free pen instead of messy paints or creams",
-          "pct": "10.0%"
+          "label": "Ease of application",
+          "reason": "Seeking a product that takes only seconds a day.",
+          "pct": "15%"
         },
         {
-          "label": "Social Media Influence",
-          "reason": "Convinced by online ads promising quick results",
-          "pct": "8.0%"
-        },
-        {
-          "label": "Improve Nail Appearance",
-          "reason": "Fixing brittle, ridged, or discolored nails",
-          "pct": "5.0%"
-        },
-        {
-          "label": "Summer Sandal Prep",
-          "reason": "Wanting presentable feet for warmer weather",
-          "pct": "4.0%"
-        },
-        {
-          "label": "Podiatrist Recommendation",
-          "reason": "Advised to use supplemental topical oils",
-          "pct": "1.5%"
-        },
-        {
-          "label": "Preventative Care",
-          "reason": "Stopping minor discoloration from becoming full-blown fungus",
-          "pct": "1.0%"
-        },
-        {
-          "label": "Money-Back Guarantee",
-          "reason": "Felt it was a risk-free purchase due to the 365-day policy",
-          "pct": "0.5%"
+          "label": "Natural alternatives",
+          "reason": "Preferring plant-based or bee-derived ingredients.",
+          "pct": "10%"
         }
       ],
       "customerExpectations": [
         {
-          "label": "Visible Eradication of Fungus",
-          "reason": "Expect the infection to completely grow out and disappear",
-          "pct": "30.0%"
+          "label": "Visible progress in weeks",
+          "reason": "Expects to see the yellowing fade or healthy nail base quickly.",
+          "pct": "30%"
         },
         {
-          "label": "Fast Results",
-          "reason": "Misled by marketing to expect a cure in weeks, not months",
-          "pct": "20.0%"
+          "label": "Value for money",
+          "reason": "Expects the high price to correlate with a bottle that lasts at least a month.",
+          "pct": "25%"
         },
         {
-          "label": "Functioning Applicator",
-          "reason": "Expect the twist pen to reliably dispense oil until empty",
-          "pct": "15.0%"
+          "label": "Fast drying time",
+          "reason": "Expects to put socks on quickly without the product wiping off.",
+          "pct": "20%"
         },
         {
-          "label": "Adequate Product Volume",
-          "reason": "Expect the pen/bottle to last at least a full month of daily use",
-          "pct": "12.0%"
+          "label": "No skin irritation",
+          "reason": "Expects the surrounding skin to remain unpeeled and unstained.",
+          "pct": "15%"
         },
         {
-          "label": "No Staining or Brittleness",
-          "reason": "Expect the product not to turn nails yellow or dry them out",
-          "pct": "8.0%"
-        },
-        {
-          "label": "Clear Instructions",
-          "reason": "Need legible, step-by-step guidance on how to use the serum/polish",
-          "pct": "5.0%"
-        },
-        {
-          "label": "Honored Guarantees",
-          "reason": "Expect the money-back guarantee to apply to Amazon purchases",
-          "pct": "4.0%"
-        },
-        {
-          "label": "Pleasant Smell",
-          "reason": "Expect the product to smell natural and not like harsh chemicals",
-          "pct": "3.0%"
-        },
-        {
-          "label": "Fast Absorption",
-          "reason": "Expect the oil to dry quickly so they can put on socks",
-          "pct": "2.0%"
-        },
-        {
-          "label": "No Side Effects",
-          "reason": "Expect a gentle formula that won't cause eczema or irritation",
-          "pct": "1.0%"
+          "label": "Functional applicator",
+          "reason": "Expects the pen twist mechanism to work flawlessly.",
+          "pct": "10%"
         }
       ],
       "themeFilters": [
@@ -626,7 +465,7 @@
         },
         {
           "value": "smell",
-          "label": "Smell/Odor"
+          "label": "Smell / Scent"
         },
         {
           "value": "side_effects",
@@ -634,7 +473,7 @@
         },
         {
           "value": "expensive",
-          "label": "Expensive/Poor Value"
+          "label": "Expensive"
         },
         {
           "value": "good_value",
@@ -642,11 +481,11 @@
         },
         {
           "value": "packaging",
-          "label": "Packaging/Applicator"
+          "label": "Packaging / Applicator"
         },
         {
           "value": "fake_counterfeit",
-          "label": "Fake/Counterfeit"
+          "label": "Fake / Counterfeit"
         },
         {
           "value": "brittle_nails",
@@ -654,7 +493,7 @@
         },
         {
           "value": "cosmetic_look",
-          "label": "Cosmetic Appearance"
+          "label": "Cosmetic Look"
         },
         {
           "value": "natural_ingredients",
@@ -666,22 +505,22 @@
         "effective": "pill-green",
         "slow_results": "pill-orange",
         "fast_results": "pill-green",
-        "easy_use": "pill-teal",
+        "easy_use": "pill-blue",
         "hard_use": "pill-red",
-        "smell": "pill-purple",
+        "smell": "pill-teal",
         "side_effects": "pill-red",
-        "expensive": "pill-orange",
+        "expensive": "pill-red",
         "good_value": "pill-green",
-        "packaging": "pill-blue",
+        "packaging": "pill-purple",
         "fake_counterfeit": "pill-red",
         "brittle_nails": "pill-orange",
-        "cosmetic_look": "pill-teal",
-        "natural_ingredients": "pill-green"
+        "cosmetic_look": "pill-blue",
+        "natural_ingredients": "pill-teal"
       },
       "reviews": [
         {
           "r": 1,
-          "t": "Product had zero effect after 6 weeks of daily use. They also refused the 365-day guarantee because I bought it on Amazon, which is misleading.",
+          "t": "Unfortunately no effect, and the provider does not honor their 365-day money-back guarantee. Deceptive advertising.",
           "tags": [
             "no_effect",
             "expensive"
@@ -689,25 +528,23 @@
         },
         {
           "r": 1,
-          "t": "Disappointing! The pen was empty after less than a week. The twist mechanism requires endless turning for barely any liquid.",
+          "t": "Disappointing! After less than a week, the pen is completely empty. Hardly any liquid comes out despite minutes of twisting.",
           "tags": [
             "packaging",
-            "expensive",
-            "hard_use"
-          ]
-        },
-        {
-          "r": 1,
-          "t": "A flop! The second pen's twist mechanism was completely broken and spun empty, dispensing no liquid. Waste of money.",
-          "tags": [
-            "packaging",
-            "hard_use",
             "expensive"
           ]
         },
         {
           "r": 1,
-          "t": "Doesn't work at all. On the contrary, my nails actually became yellower despite regular use. If I could give 0 stars I would.",
+          "t": "A flop! The twist mechanism spins endlessly and no liquid reaches the brush. Wasted money.",
+          "tags": [
+            "packaging",
+            "expensive"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Does not work... If anything, the nails get even yellower. Would give 0 stars.",
           "tags": [
             "no_effect",
             "side_effects"
@@ -715,41 +552,37 @@
         },
         {
           "r": 1,
-          "t": "Like all other polishes, it is useless. No improvement after 6 weeks of consistent use, save your money.",
+          "t": "Like all other varnishes, this pen is useless. No improvement after 6 weeks of consistent use. Save your money.",
           "tags": [
             "no_effect",
-            "slow_results"
+            "expensive"
           ]
         },
         {
           "r": 1,
-          "t": "Still in the testing phase, but no improvement yet. Bought due to positive reviews but disappointed so far.",
+          "t": "Still in the testing phase, but unfortunately I can't see any improvement yet. Disappointed so far.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Applying the oil works well, but it has no effect whatsoever after 3 months of use. Pity!",
           "tags": [
             "no_effect",
-            "slow_results"
+            "easy_use"
           ]
         },
         {
           "r": 1,
-          "t": "The oil applies well, but it shows absolutely no effect after 3 months of use. A pity!",
+          "t": "A disgusting substance formed inside the pen. Going straight into the trash, I'm not smearing that on my nails.",
           "tags": [
-            "no_effect",
-            "easy_use",
-            "slow_results"
+            "packaging"
           ]
         },
         {
           "r": 1,
-          "t": "A disgusting thickened substance formed inside the pen. Went straight to the trash as I won't smear that on my nails.",
-          "tags": [
-            "packaging",
-            "smell",
-            "hard_use"
-          ]
-        },
-        {
-          "r": 1,
-          "t": "The liquid was almost empty after 8 applications on one nail. Way too expensive for this amount, though it applies well.",
+          "t": "The liquid was almost empty after just 8 applications on one nail. Very disappointed, expected better for the price.",
           "tags": [
             "packaging",
             "expensive",
@@ -758,67 +591,66 @@
         },
         {
           "r": 1,
-          "t": "Total garbage. Used it for 6 months on both thumbs with no change. A waste of money.",
+          "t": "Garbage. Used it for 6 months on both thumbs and it doesn't help at all. A shame about the money.",
           "tags": [
             "no_effect",
-            "expensive",
-            "slow_results"
+            "expensive"
           ]
         },
         {
           "r": 1,
-          "t": "Doesn't help.",
+          "t": "Helps nothing.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 1,
-          "t": "Not particularly helpful.",
+          "t": "Does not help. Not great.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 1,
-          "t": "Did nothing for the fungus.",
+          "t": "Fungus. Brought no results.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 1,
-          "t": "Always the same, not good.",
+          "t": "Unfortunately always the same. Not good.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Didn't feel like it helped at all.",
+          "t": "Did not get the impression that it helped at all.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Made no difference. Ended up using iodine and solved the issue.",
+          "t": "Sorry, made no difference. In the end I put iodine on my toes and the issue was solved.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Unacceptable price-performance. Pen ran out after 14 days of sparse use. Nails look lighter but it barely fights fungus.",
+          "t": "Unacceptable value. The pen looks high-quality, but after 14 days of use on just the big toes, it's empty! You're just paying for the brand.",
           "tags": [
             "expensive",
             "packaging",
-            "cosmetic_look"
+            "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Not recommended for advanced fungus with nail detachment. Pilz keeps growing back despite 2 weeks of use. Wanted a natural product.",
+          "t": "Not recommended for advanced fungus with nail detachment. I wanted a natural product without chemicals, but it doesn't work.",
           "tags": [
             "no_effect",
             "natural_ingredients"
@@ -826,16 +658,15 @@
         },
         {
           "r": 2,
-          "t": "No instructions, pen broke after the second use, and no effect after two weeks. Know better products.",
+          "t": "No instructions included. Something broke off the pen after the second use. No effects after two weeks.",
           "tags": [
             "packaging",
-            "no_effect",
-            "hard_use"
+            "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "No change after 4 weeks. Pen empties very quickly and requires excessive twisting to get fluid out. Not convinced.",
+          "t": "No change after four weeks. The pen empties surprisingly fast; you twist and twist but nothing comes out.",
           "tags": [
             "no_effect",
             "packaging",
@@ -844,7 +675,7 @@
         },
         {
           "r": 2,
-          "t": "It helped, but the pen was only half full and far too expensive to buy again.",
+          "t": "It helped, but I wouldn't buy it again because it contains very little content (half empty) and the price is enormously high!",
           "tags": [
             "effective",
             "packaging",
@@ -853,14 +684,14 @@
         },
         {
           "r": 2,
-          "t": "Didn't use it because there was no German description included.",
+          "t": "Since there were no German instructions included, I will not use the product.",
           "tags": [
-            "hard_use"
+            "packaging"
           ]
         },
         {
           "r": 2,
-          "t": "Spent a lot of money since Feb 2024 with very little success. The promise of fast results is false.",
+          "t": "I've spent a lot of money since February but only see minimal success. Does not work fast as promised.",
           "tags": [
             "slow_results",
             "expensive",
@@ -869,41 +700,40 @@
         },
         {
           "r": 2,
-          "t": "No application instructions included, so I didn't know how to properly use it.",
+          "t": "No application instructions were included, so you don't know how to apply it correctly.",
           "tags": [
-            "hard_use"
-          ]
-        },
-        {
-          "r": 2,
-          "t": "Good applicator but no recognizable effect.",
-          "tags": [
-            "easy_use",
-            "no_effect"
-          ]
-        },
-        {
-          "r": 3,
-          "t": "Product seems to help, but the pen's mechanism is terrible and barely dispenses enough oil despite endless twisting.",
-          "tags": [
-            "effective",
             "packaging",
             "hard_use"
           ]
         },
         {
+          "r": 2,
+          "t": "Ineffective. No noticeable effect, but easy to apply.",
+          "tags": [
+            "no_effect",
+            "easy_use"
+          ]
+        },
+        {
           "r": 3,
-          "t": "Slight improvement but requires very long, expensive treatment. Bottles don't last long, requiring lots of patience.",
+          "t": "The product helps, but the pen function is terrible. Despite minutes of twisting and tapping, hardly any oil reaches the brush.",
           "tags": [
             "effective",
-            "slow_results",
-            "expensive",
             "packaging"
           ]
         },
         {
           "r": 3,
-          "t": "Tried everything else before this. Used it twice daily for 3 months with zero results. Not worth the money.",
+          "t": "Slight improvement but tedious application. Takes a very long time to see changes, making it quite pricey since a bottle doesn't last.",
+          "tags": [
+            "effective",
+            "slow_results",
+            "expensive"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "No help at all! Used it diligently twice a day for 3 months. The result is completely disappointing and a waste of money.",
           "tags": [
             "no_effect",
             "expensive"
@@ -925,22 +755,21 @@
         },
         {
           "r": 3,
-          "t": "It's ok, but didn't work for my toenails.",
+          "t": "It is okay, but not for my toenails.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 3,
-          "t": "Good for nails but not successful against nail fungus for me.",
+          "t": "Good for nails generally, but not very successful for my nail fungus.",
           "tags": [
-            "no_effect",
-            "cosmetic_look"
+            "no_effect"
           ]
         },
         {
           "r": 3,
-          "t": "Easy to use but no noticeable effect as described.",
+          "t": "Easy to use, but the promised effect could not be established.",
           "tags": [
             "easy_use",
             "no_effect"
@@ -948,7 +777,7 @@
         },
         {
           "r": 3,
-          "t": "It helps, but the bottle empties very quickly.",
+          "t": "It helps, but empties very fast.",
           "tags": [
             "effective",
             "packaging"
@@ -956,7 +785,7 @@
         },
         {
           "r": 3,
-          "t": "Item arrived damaged, effectiveness seems to wane, and content feels like less.",
+          "t": "One item was damaged and I feel the volume is less. The effectiveness seems to be fading.",
           "tags": [
             "packaging",
             "no_effect"
@@ -971,7 +800,7 @@
         },
         {
           "r": 4,
-          "t": "Good product. Saw improvements after a short time.",
+          "t": "The product is good. You can see an improvement after a short time.",
           "tags": [
             "effective",
             "fast_results"
@@ -979,7 +808,7 @@
         },
         {
           "r": 4,
-          "t": "Great handling, but sadly little to no noticeable effect.",
+          "t": "Handling is great, but the effect is unfortunately barely noticeable.",
           "tags": [
             "easy_use",
             "no_effect"
@@ -987,10 +816,10 @@
         },
         {
           "r": 4,
-          "t": "Very satisfied with the original, it is a bit tedious and expensive, but it helps.",
+          "t": "I am very satisfied with the original. It is a lengthy process but it helps, even if it's a bit expensive.",
           "tags": [
-            "effective",
             "slow_results",
+            "effective",
             "expensive"
           ]
         },
@@ -1003,23 +832,22 @@
         },
         {
           "r": 4,
-          "t": "Slow but visible improvement on stubborn fungus after months of 2x daily use. Will keep using until it's completely gone.",
+          "t": "Treatment is very lengthy, but with regular use a clear improvement is visible. The fungus has almost vanished.",
           "tags": [
-            "effective",
             "slow_results",
-            "easy_use"
+            "effective"
           ]
         },
         {
           "r": 4,
-          "t": "Still testing, results are mediocre so far. Nail looks good then bad again.",
+          "t": "Effectiveness is mediocre so far. Sometimes the nail looks good, then bad again.",
           "tags": [
-            "slow_results"
+            "no_effect"
           ]
         },
         {
           "r": 4,
-          "t": "Very good pen, nails look nice. Beware of cheap Chinese fakes with entirely different ingredients!",
+          "t": "Very good pen. My nails look beautiful. Beware of counterfeit pens from China with different ingredients!",
           "tags": [
             "effective",
             "cosmetic_look",
@@ -1028,14 +856,14 @@
         },
         {
           "r": 4,
-          "t": "Good medication.",
+          "t": "Good medicine.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 4,
-          "t": "Easy to use for beautiful nails.",
+          "t": "Easy to apply for beautiful nails.",
           "tags": [
             "easy_use",
             "cosmetic_look"
@@ -1043,11 +871,11 @@
         },
         {
           "r": 4,
-          "t": "Noticeable improvement after 3-4 weeks. Taking about 4 months total but confident it will fully solve the problem.",
+          "t": "Easy to use and progress is visible. Noticeable improvement after 3-4 weeks. Confident it will be fully healed soon.",
           "tags": [
+            "easy_use",
             "effective",
-            "slow_results",
-            "easy_use"
+            "slow_results"
           ]
         },
         {
@@ -1059,7 +887,24 @@
         },
         {
           "r": 5,
-          "t": "Top product! Used for 2 months and the problem is almost entirely gone. Clear improvement.",
+          "t": "Actually works, top product! After two months of regular use, my problem is almost entirely gone.",
+          "tags": [
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Finally something that helps! Used it for 5 months and the fungus has grown out. Easy to apply and quite cheap compared to the junk out there.",
+          "tags": [
+            "effective",
+            "good_value",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Very good product. With mild nail fungus, you see improvement very quickly.",
           "tags": [
             "effective",
             "fast_results"
@@ -1067,48 +912,30 @@
         },
         {
           "r": 5,
-          "t": "Finally something that helps! Fungus is growing out after 5 months, much cheaper and better than other junk.",
+          "t": "Small application, huge effect. Super simple to apply with the pen. Absorbs fast, highly hygienic, and economical.",
           "tags": [
-            "effective",
-            "good_value"
-          ]
-        },
-        {
-          "r": 5,
-          "t": "Very good. Quick improvement on light fungus, takes longer for severe cases but it helps.",
-          "tags": [
-            "effective",
-            "fast_results",
-            "slow_results"
-          ]
-        },
-        {
-          "r": 5,
-          "t": "Highly recommended! Easy, hygienic pen application, nails look healthier quickly. Very nourishing oil.",
-          "tags": [
-            "effective",
             "easy_use",
-            "fast_results",
-            "packaging"
+            "effective",
+            "cosmetic_look"
           ]
         },
         {
           "r": 5,
-          "t": "Good as always.",
+          "t": "Top. Good as always.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Absolute blast, highly recommended nail oil.",
+          "t": "Nail oil is an absolute hit, highly recommended.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Shows results after 3 months, can recommend this pen.",
+          "t": "Shows results after 3 months, can highly recommend this pen.",
           "tags": [
             "effective",
             "slow_results"
@@ -1116,7 +943,7 @@
         },
         {
           "r": 5,
-          "t": "Great product.",
+          "t": "Great. Good product.",
           "tags": [
             "effective"
           ]
@@ -1131,7 +958,7 @@
         },
         {
           "r": 5,
-          "t": "Reacts very quickly in the first few days, looks promising and very good so far.",
+          "t": "Very fast reaction in just the first few days. Looks very promising so far.",
           "tags": [
             "effective",
             "fast_results"
@@ -1146,30 +973,74 @@
         },
         {
           "r": 5,
-          "t": "Won't know if it actually works for 3 months.",
+          "t": "Good test results on the net. I will only know if it works in 3 months.",
           "tags": [
             "slow_results"
           ]
         },
         {
           "r": 5,
-          "t": "Absolute recommendation! Saved me from a 40 EUR cream, easy to apply, absorbs fast, and clearly works!",
+          "t": "Absolute purchase recommendation! Super easy to apply, absorbs instantly, and my nail fungus is clean and pretty again.",
           "tags": [
-            "effective",
             "easy_use",
+            "effective",
+            "cosmetic_look",
             "good_value"
           ]
         },
         {
           "r": 1,
-          "t": "Like other 'Nailcare' products, this sadly has no effect. A disappointment.",
+          "t": "Terrible product. It absolutely does not do what it promises. Tried it for over 2 weeks with zero changes.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 1,
-          "t": "No improvement despite regular use, and very expensive.",
+          "t": "Terrible.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Thinking emoji upside down.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Unfortunately completely ineffective. Applied regularly but zero visible effect.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "No no. My skin became very red and itchy.",
+          "tags": [
+            "side_effects"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "I'm torn on whether I should order it or not.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Just expensive with zero effect. I tried hard until it ran out, but it was useless.",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Waste of money. It did nothing for me especially for the amount of money it costs. I will never buy again.",
           "tags": [
             "no_effect",
             "expensive"
@@ -1177,7 +1048,527 @@
         },
         {
           "r": 1,
-          "t": "Didn't help and my podiatrist said it was actually bad for my toes' healing. Never again!",
+          "t": "Happy with the product just not happy with the third party seller.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Been using this for 5 months now for hormonal pigmentation. Has not changed the shade of the spots at all.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Sticky feeling, took a long time to dry. Even after an hour it feels greasy. Expensive as well.",
+          "tags": [
+            "hard_use",
+            "expensive"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "They should pack items without damaging them. Arrived damaged and open.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Awful. Doesn't work, doesn't remove spots, it's a scam.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Item came busted open.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "It takes a lot of time to start making some difference. The results are very soft.",
+          "tags": [
+            "slow_results"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Unfortunately no improvement after about 4 weeks. The pigmentation hasn't gotten any lighter.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "It didn’t help me. Everything is the same as it was.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Consistent on my second tube but still had no results. Honestly felt like a waste of money.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Not worth $25 at all. Absorbs quickly but doesn't do much for my skin aside from lightly moisturizing it.",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Not for me. Very expensive, and I saw zero effects on my spots. Plus, it dries down poorly if you wear makeup.",
+          "tags": [
+            "no_effect",
+            "expensive",
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "First time using it, wanted to wait to see minimal changes but so far no results at all.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Didn't work for me. The size of the spot is the same, just a wee bit lighter.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Saw this on TikTok but don't believe the hype. Hasn't worked for getting rid of dark spots.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "I don't like it.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Good product, though haven’t seen any changes and it’s almost finished.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Don’t really see a difference after a month. I don't like that it’s not thick enough.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "It’s a no for me. The product made me break out.",
+          "tags": [
+            "side_effects"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Be cautious if acne prone. I broke out badly with huge cystic acne. This product was the cause.",
+          "tags": [
+            "side_effects"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "I noticed breakouts near my nose consistently. Once I stopped using it, I stopped breaking out.",
+          "tags": [
+            "side_effects"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "I don't really see any changes except getting acne and the cream making my face oily!",
+          "tags": [
+            "side_effects",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Not a game-changer for dark spots, but started seeing initial results. Social media hype is exaggerated.",
+          "tags": [
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "I see no difference in my face.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Almost done with the tube and I have not seen any changes at all.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "It felt nice on skin, but didn’t notice any change after 3 weeks.",
+          "tags": [
+            "no_effect",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Didn’t erase any of my hyperpigmentation. It did dry up my acne fast, but it is way too expensive.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Have not seen any real results yet.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Not satisfied. My pimples aren't reduced and come back heavy.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "It moisturizes nicely and absorbs well, but did nothing to my dark spots. Just a standard moisturizer.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Expensive and no miracles for me, unlike what I expected.",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Almost finished the tube but it barely lightened anything.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Doesn’t really remove dark spots from your face.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Not sure yet. Haven’t noticed any changes after a week.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "It didn't work.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Leaves my skin feeling smooth and glowy, but don't see any differences on my dark spots yet.",
+          "tags": [
+            "slow_results",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "I didn't notice a difference.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Deeply hydrating but quite thick and takes a little longer to fully absorb. Outstanding active ingredients.",
+          "tags": [
+            "hard_use",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Very good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "It's effective.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "My skin looks younger! Made my skin dry initially, but after 3 weeks my face is glowing.",
+          "tags": [
+            "fast_results",
+            "effective",
+            "side_effects"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Skin is changing after two weeks. Feels a bit dry right now. One star deducted for long shipping time.",
+          "tags": [
+            "effective",
+            "side_effects"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Best product around, my skin is looking good and will repurchase again.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Made my face so smooth but did nothing for hyperpigmentation.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "A cream you must have for spots. It really works.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Promising Korean cream. Absorbs instantly without smell. Leaves a slightly dry feeling under makeup.",
+          "tags": [
+            "easy_use",
+            "smell"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "My skin is clearing up after 1 month of consistent use. Buying again.",
+          "tags": [
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Great, too thick.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Finished my first tube and my skin is much clear than used to be.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Meh for dark spots. It lightens the skin overall but somehow not the spots themselves.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Works really good on my skin.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Very good cream.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Very good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Nice.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Very good experience.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Halfway through my 2nd tube and I find it very good. Pores are smaller, provides lots of moisture.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Everything perfect! Fast delivery.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "The best cream for my rosacea. Does not irritate and actually soothes existing red spots. Super!",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Great product, thrilled with it. My acne scars actually faded from using it daily.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Used it for 2 months, that good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Very disappointed. After 4 weeks of 3x daily application, zero improvement. Smells nice but stays oily for 30 min. Not worth the money.",
+          "tags": [
+            "no_effect",
+            "hard_use",
+            "expensive",
+            "smell"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Where is my order from Dec 7th?",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Applied it for months until empty, but the nail fungus didn't go away.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Zero effect.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "No visible change after a month. Absolutely useless for me.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Waste of money. Does nothing, just stinks.",
+          "tags": [
+            "no_effect",
+            "smell",
+            "expensive"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Pity! Didn't help at all.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Absolute waste of money. Used it forever with zero success. Go to the dermatologist instead.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Very bad products.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Made it even worse! Applied 3 times daily, but within a week the fungus spread completely again.",
           "tags": [
             "no_effect",
             "side_effects"
@@ -1185,30 +1576,224 @@
         },
         {
           "r": 1,
-          "t": "Was not satisfied, but I got my purchase price refunded. Thanks for that.",
+          "t": "Not effective, cannot recommend.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 1,
-          "t": "Used for 10 days, nails turned an ugly orange-brown instead of getting better. Looks worse than before.",
+          "t": "No improvement.",
           "tags": [
-            "no_effect",
-            "side_effects",
-            "cosmetic_look"
+            "no_effect"
           ]
         },
         {
-          "r": 1,
-          "t": "Doesn't work at all, doesn't match the descriptions.",
+          "r": 2,
+          "t": "Ordered 17 times over 1.5 years and saw zero improvement. Switched to an effective pharmacy product and got healthy nails in 2 months.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Brought nothing. Used it for a long time as recommended.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Unfortunately didn't help me despite regular use. Switched to another product.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Could not notice any improvement.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "No effect after 4 months of daily use (sometimes 3x a day). Cannot recommend it.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "The safety cap is terrible. I have arthritis and struggle to open the bottle. Do not buy if you have limited finger mobility.",
+          "tags": [
+            "packaging",
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Like every other product, no effect on me after 2 months. Nice smell and easy application, though.",
+          "tags": [
+            "no_effect",
+            "smell",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "It takes an incredibly long time to dry. Applying it 3 times daily is a massive effort.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "A sticky liquid that literally softens the nail after 3 weeks. Leaves it constantly damp and more vulnerable to fungus.",
+          "tags": [
+            "side_effects",
+            "brittle_nails",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "No effect. The only thing it did was peel the skin around my nail! Empty promises, save your money.",
+          "tags": [
+            "no_effect",
+            "side_effects",
+            "expensive"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "The fill level is a joke for an already tiny bottle.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Like all other tinctures, this does almost nothing. My dermatologist agrees.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "My husband used it for over 9 months and zero improvement.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "It does not help me.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Using this for four months but nothing has improved yet.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 3,
-          "t": "Takes some patience but it helps against nail fungus eventually.",
+          "t": "Unfortunately no improvement on my infected toenails.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Applied it for about four weeks and not much happened.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "No success, cannot recommend.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Seems to help, but warning: this is a white-label product. The original brand is half the price.",
+          "tags": [
+            "expensive",
+            "fake_counterfeit"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Everything ok.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "After 9 months, nothing happened anymore. Mustard oil works better for me.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Only helps for very mild fungus. If the infection is severe, you need pills from the doctor. At least it's cheap.",
+          "tags": [
+            "effective",
+            "good_value"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Not suitable for severe infections. Can be helpful for early stages if you apply it 3 times daily for months.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Did not convince me.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Ok medicine.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Unfortunately did not achieve the desired success.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Too early to tell, but simple and clean application. Results take a long time, but my nail seems more stable.",
+          "tags": [
+            "easy_use",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Works, but patience is required. Price is ok.",
           "tags": [
             "effective",
             "slow_results"
@@ -1216,15 +1801,30 @@
         },
         {
           "r": 4,
-          "t": "First product that shows clear, promising success after the initial applications.",
+          "t": "Is very good.",
           "tags": [
-            "effective",
-            "fast_results"
+            "effective"
           ]
         },
         {
           "r": 4,
-          "t": "Using it for a while and noticing positive changes with my nail fungus.",
+          "t": "Works very well.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Very easy to use. The lightly oily stuff absorbs well and after just one week I see healthy nail growing back.",
+          "tags": [
+            "easy_use",
+            "fast_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Seems to work after 6 weeks. It takes about 12 months to get rid of it entirely.",
           "tags": [
             "effective",
             "slow_results"
@@ -1232,9 +1832,216 @@
         },
         {
           "r": 4,
-          "t": "Still in the test phase but feels good!",
+          "t": "Easy to apply and seems to help, but the price is quite high for the small amount.",
           "tags": [
+            "easy_use",
+            "effective",
+            "expensive"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Have been taking it for a while and hoping for improvement.",
+          "tags": [
+            "slow_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Gentle but effective treatment. Also acts as a nail hardener.",
+          "tags": [
+            "effective",
             "cosmetic_look"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Good remedy, the nail has almost completely grown out. It could absorb better, though.",
+          "tags": [
+            "effective",
+            "slow_results",
+            "hard_use"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Clear effect and the first nail is healthy again. You just need extreme patience.",
+          "tags": [
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Gentle.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Easy to apply. Shows gradual improvement over a longer period.",
+          "tags": [
+            "easy_use",
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Wonderful.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Unlike other products, I saw changes within a week. The nail looks clearer and healthier already.",
+          "tags": [
+            "fast_results",
+            "effective",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "The only remedy that actually helped!",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Small but good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Surprisingly cheap. Better than the online pharmacy.",
+          "tags": [
+            "good_value"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Top.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Excellent product. With regular use the fungus really disappears! Takes a long time though.",
+          "tags": [
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "It works.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Helped immediately.",
+          "tags": [
+            "fast_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Significant improvement after just 4 weeks. Can highly recommend.",
+          "tags": [
+            "fast_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "All good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Like other products, sadly has no effect! Another disappointment.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Did not help me despite regular use, and very expensive too.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Helped nothing. According to my podiatrist, it was actually bad for my toes healing.",
+          "tags": [
+            "no_effect",
+            "side_effects"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Was not satisfied, but I got a refund.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "After 10 days of use, the only result is an orange-brown discoloration making my nails look worse than before.",
+          "tags": [
+            "no_effect",
+            "side_effects"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Does not work at all.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "It helps against nail fungus after some time.",
+          "tags": [
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "The first remedy that promises visibly clear success after the first applications.",
+          "tags": [
+            "fast_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Using it for a while and noticed positive changes against the fungus.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Still testing, but feels good!",
+          "tags": [
+            "effective"
           ]
         },
         {
@@ -1246,14 +2053,14 @@
         },
         {
           "r": 4,
-          "t": "Super, delivered quickly.",
+          "t": "Delivered quickly, super.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 4,
-          "t": "Nails seem harder and ridges are fading, waiting to see if it cures the peeling layers.",
+          "t": "My nails seem to be getting harder and the vertical ridges are fading slowly.",
           "tags": [
             "effective",
             "cosmetic_look"
@@ -1261,10 +2068,10 @@
         },
         {
           "r": 4,
-          "t": "Pleasant care, can't judge the effect on fungus yet.",
+          "t": "Very pleasantly nourishing, can't judge the effect on fungus yet.",
           "tags": [
-            "cosmetic_look",
-            "easy_use"
+            "effective",
+            "cosmetic_look"
           ]
         },
         {
@@ -1277,7 +2084,7 @@
         },
         {
           "r": 4,
-          "t": "Cheap, but packaging arrived completely crushed in the envelope.",
+          "t": "Cheap price, but the packaging was completely crushed in the mail.",
           "tags": [
             "good_value",
             "packaging"
@@ -1285,30 +2092,29 @@
         },
         {
           "r": 4,
-          "t": "Very good serum, but deducted a star because the bottle is very hard to open.",
+          "t": "Very good serum, but the bottle is extremely hard to open.",
           "tags": [
-            "effective",
             "packaging",
             "hard_use"
           ]
         },
         {
           "r": 4,
-          "t": "Thanks.",
+          "t": "Thumbs up. Thanks.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 4,
-          "t": "Can't say much yet at this point.",
+          "t": "Can't say much at this point.",
           "tags": [
-            "slow_results"
+            "no_effect"
           ]
         },
         {
           "r": 5,
-          "t": "Bought a second time, nails are recovering nicely. Takes a while to see success but highly recommended.",
+          "t": "Bought it a second time and I'm thrilled. Nails recover and grow healthy. Takes a while but highly recommended.",
           "tags": [
             "effective",
             "slow_results"
@@ -1316,33 +2122,32 @@
         },
         {
           "r": 5,
-          "t": "Good product for nail fungus.",
+          "t": "Good goods for nail fungus.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Applies well, pleasant citrus scent, great nail care. No staining noticed. Clear recommendation.",
+          "t": "Smells pleasantly of citrus and keeps cuticles supple. No discoloration noticed. Very satisfied.",
           "tags": [
-            "effective",
-            "easy_use",
             "smell",
-            "cosmetic_look"
+            "cosmetic_look",
+            "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Easy to use, good serum if you tolerate propolis.",
+          "t": "Easy to use. Good serum if you tolerate propolis.",
           "tags": [
             "easy_use",
-            "effective",
-            "natural_ingredients"
+            "natural_ingredients",
+            "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Nails feel stronger and ridges are flatter. Tolerate it very well.",
+          "t": "My nails feel firmer and the ridges are visibly flatter. Tolerate it very well.",
           "tags": [
             "effective",
             "cosmetic_look"
@@ -1350,47 +2155,47 @@
         },
         {
           "r": 5,
-          "t": "Propolis works! Fast visual improvement after 1 week. Smells nice, nature is amazing.",
+          "t": "Works incredibly fast. After one week, visual improvement! Love that it's a natural propolis medicine and smells nice.",
           "tags": [
-            "effective",
             "fast_results",
-            "smell",
-            "natural_ingredients"
+            "natural_ingredients",
+            "smell"
           ]
         },
         {
           "r": 5,
-          "t": "Nature is the best medicine. Helped where expensive doctor-prescribed pills didn't.",
+          "t": "No pills helped me for a year, but with this my nail is finally growing out healthy. Nature is the best medicine.",
           "tags": [
-            "effective",
-            "natural_ingredients"
+            "natural_ingredients",
+            "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Changes visible after just a few days of using the propolis serum.",
+          "t": "Changes are visible after just a few days of use.",
           "tags": [
-            "effective",
-            "fast_results"
+            "fast_results",
+            "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Seeing first successes on my toenails. Wait and see.",
+          "t": "Currently seeing the first successes on my toenails.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Skin-friendly and pleasant to use, but see a doctor if fungus is highly advanced.",
+          "t": "Skin-friendly and pleasant to use.",
           "tags": [
-            "easy_use"
+            "effective",
+            "cosmetic_look"
           ]
         },
         {
           "r": 5,
-          "t": "Very good, satisfied.",
+          "t": "Works very well, satisfied.",
           "tags": [
             "effective"
           ]
@@ -1404,81 +2209,76 @@
         },
         {
           "r": 5,
-          "t": "Nails are getting more beautiful every day!",
+          "t": "My nails are getting more beautiful day by day!",
           "tags": [
             "effective",
-            "cosmetic_look",
-            "fast_results"
+            "cosmetic_look"
           ]
         },
         {
           "r": 5,
-          "t": "Product is great and delivered fast.",
+          "t": "Fast delivery. The product is also great.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Worked perfectly.",
+          "t": "Worked fine.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 1,
-          "t": "Expensive and useless. The polish sealed the nail so the serum couldn't penetrate. Made nails dry, brittle, and worsened the condition.",
+          "t": "Made my nails totally dry and brittle. The big toe nail detached halfway. Also, the polish clearly doesn't let the serum through.",
           "tags": [
-            "no_effect",
-            "expensive",
             "brittle_nails",
-            "hard_use"
+            "side_effects",
+            "no_effect"
           ]
         },
         {
           "r": 1,
-          "t": "Bottle almost empty, no healing effect. The claim of 'works from day 1' is completely false.",
+          "t": "Bottle is almost empty and absolutely no healing effect. Promises to work 'from day one' but I noticed nothing.",
           "tags": [
-            "no_effect",
             "packaging",
-            "slow_results"
+            "no_effect"
           ]
         },
         {
           "r": 1,
-          "t": "Followed instructions exactly over the recommended period, zero noticeable effect. Very disappointing.",
-          "tags": [
-            "no_effect",
-            "easy_use"
-          ]
-        },
-        {
-          "r": 1,
-          "t": "Doesn't deliver what it promises.",
+          "t": "Used it exactly as instructed, but absolutely no effect. Highly disappointing.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 1,
-          "t": "No improvement after 2 months. Instead, developed an eczema allergy and had to stop the treatment entirely.",
+          "t": "Does not keep its promises.",
           "tags": [
-            "no_effect",
-            "side_effects",
-            "slow_results"
+            "no_effect"
           ]
         },
         {
           "r": 1,
-          "t": "Absolutely no help after 3 months, would never buy again!",
+          "t": "No real improvement after 2 months of daily use. Additionally, it caused eczema on my instep. Dermatologist told me to stop.",
           "tags": [
+            "slow_results",
             "no_effect",
-            "slow_results"
+            "side_effects"
           ]
         },
         {
           "r": 1,
-          "t": "Bad, doesn't help. Only provides a short-term cosmetic effect, useless long-term.",
+          "t": "Helps absolutely nothing after 3 months of use.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Bad! Doesn't help. Short-term cosmetic effect, but pointless in the long run.",
           "tags": [
             "no_effect",
             "cosmetic_look"
@@ -1486,71 +2286,69 @@
         },
         {
           "r": 1,
-          "t": "Total waste of money after many weeks of use. Does absolutely nothing.",
+          "t": "Absolute waste of money. Does not help.",
           "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Made it worse instead of healing! Very expensive product, helped nothing over 2 years of use.",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Without effect. Used 2x daily for 6 weeks, didn't do anything.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Improvement? No. Used it for 3 months with zero change.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Completely useless! Regret buying it.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Used the polish daily for 6 months, unfortunately no change.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Used consistently for over 1 year with zero improvement. Seems more like a care product than a real treatment. Total waste of time and money.",
+          "tags": [
+            "slow_results",
             "no_effect",
             "expensive"
           ]
         },
         {
-          "r": 1,
-          "t": "No help after 2 years. Going bare-foot and using lactic acid wash worked far better.",
-          "tags": [
-            "no_effect",
-            "slow_results"
-          ]
-        },
-        {
-          "r": 1,
-          "t": "Applied 2x daily for 6 weeks, the nail fungus didn't lessen at all.",
-          "tags": [
-            "no_effect",
-            "slow_results"
-          ]
-        },
-        {
-          "r": 1,
-          "t": "Using it for 3 months, absolutely no improvement.",
-          "tags": [
-            "no_effect",
-            "slow_results"
-          ]
-        },
-        {
-          "r": 1,
-          "t": "Completely useless, I deeply regret buying it! Brought zero progress.",
-          "tags": [
-            "no_effect"
-          ]
-        },
-        {
-          "r": 1,
-          "t": "Applied daily for 6 months, no change whatsoever.",
-          "tags": [
-            "no_effect",
-            "slow_results"
-          ]
-        },
-        {
           "r": 2,
-          "t": "Consistent use for over a year with zero improvement. Acts more like a cosmetic care product than an actual fungal treatment.",
+          "t": "The polish was messy and lifting nails after 1 wear. Serum didn't do much at all over months of use. Switched back to Ciclopoli.",
           "tags": [
-            "no_effect",
-            "slow_results",
-            "cosmetic_look"
-          ]
-        },
-        {
-          "r": 2,
-          "t": "Didn't work. The polish is messy, and the serum-booster combo is odd and ineffective. Switched to medical polish.",
-          "tags": [
+            "side_effects",
             "no_effect",
             "hard_use"
           ]
         },
         {
           "r": 2,
-          "t": "Tried various items, all equally useless.",
+          "t": "Useless, like all the others I tried.",
           "tags": [
             "no_effect"
           ]
@@ -1564,76 +2362,69 @@
         },
         {
           "r": 2,
-          "t": "Doesn't seem to help me, no improvement visible. Maybe depends on the fungus type.",
+          "t": "Didn't help me. Doesn't get worse, but no improvement seen either.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Seemed to help initially, but fungus returned immediately when wearing closed shoes. Without UV light it's useless.",
+          "t": "Unsuccessful. The fungus returned quickly. Without UV light support, I consider it completely ineffective.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Fast delivery, but didn't work for me.",
+          "t": "Didn't work for me.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Not a powerful anti-fungal. Did not work in my case.",
+          "t": "This is not a powerful anti-fungal. In my case it did not work.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Doesn't help, dries very slowly, and is very expensive.",
+          "t": "Doesn't help, dries extremely slowly, and very expensive.",
           "tags": [
-            "no_effect",
             "hard_use",
-            "expensive"
+            "expensive",
+            "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Easy to use but takes forever to dry. Effectiveness leaves much to be desired despite frequent application.",
+          "t": "Easy to handle but takes forever to dry. Effectiveness leaves much to be desired.",
           "tags": [
-            "no_effect",
-            "easy_use",
-            "hard_use"
+            "hard_use",
+            "no_effect"
           ]
         },
         {
           "r": 2,
-          "t": "Waste of money.",
+          "t": "Money wasted.",
           "tags": [
-            "no_effect",
-            "expensive"
+            "expensive",
+            "no_effect"
           ]
         },
         {
           "r": 3,
-          "t": "Easy to apply but no visible improvement yet. Requires very long consistent use.",
+          "t": "Easy to use, but no visible improvement yet. Probably requires very consistent, long-term use.",
           "tags": [
+            "slow_results",
             "no_effect",
             "easy_use"
           ]
         },
         {
           "r": 3,
-          "t": "Takes a bit longer, requires patience.",
-          "tags": [
-            "slow_results"
-          ]
-        },
-        {
-          "r": 3,
-          "t": "Used for months, it only keeps the fungus in check but doesn't actually cure it. Don't expect too much.",
+          "t": "Works barely, but takes quite a bit longer.",
           "tags": [
             "slow_results",
             "effective"
@@ -1641,16 +2432,23 @@
         },
         {
           "r": 3,
-          "t": "Very oily, takes way too long to dry. Good for cosmetic care but not sufficient for advanced fungus.",
+          "t": "Used it for months; it only keeps the fungus under control but doesn't heal it entirely. Don't expect too much.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Natural product, but highly oily so drying takes way too long. Would not buy again due to how long it takes to dry.",
           "tags": [
             "hard_use",
             "natural_ingredients",
-            "cosmetic_look"
+            "no_effect"
           ]
         },
         {
           "r": 3,
-          "t": "Nurtures the nail nicely but completely ineffective against my actual nail fungus.",
+          "t": "Nurtures the nail but is not effective on the nail fungus itself. Did not work on mine.",
           "tags": [
             "no_effect",
             "cosmetic_look"
@@ -1658,63 +2456,59 @@
         },
         {
           "r": 3,
-          "t": "Used over a year. Fungus stopped growing but hasn't disappeared either. I'll keep trying.",
+          "t": "Used it daily for over a year. The fungus didn't spread, but it also hasn't disappeared.",
           "tags": [
-            "slow_results",
-            "effective"
+            "no_effect"
           ]
         },
         {
           "r": 3,
-          "t": "Good application and economical, but maybe I didn't actually have fungus to begin with.",
+          "t": "Good application and yields a lot. Maybe I didn't actually have fungus.",
           "tags": [
             "easy_use"
           ]
         },
         {
           "r": 3,
-          "t": "Slowed the spread after 2 months but didn't stop it. Switched to something more effective.",
+          "t": "Used for 2 months. Slowed the spread but didn't stop it. Switched to another product.",
           "tags": [
-            "no_effect",
-            "slow_results"
+            "no_effect"
           ]
         },
         {
           "r": 3,
-          "t": "Poor instructions, only describes the booster. Unsure how often to apply the serum itself. Big minus.",
+          "t": "Application instructions could be better described. Missing from package, which is a big minus.",
           "tags": [
-            "hard_use",
             "packaging"
           ]
         },
         {
           "r": 3,
-          "t": "Noticeable improvement in just 3 days! Fungus is still visible though, requiring patience, but best product so far.",
+          "t": "Noticeable improvement after just three days. Deducted 2 stars because there is still visible fungus despite 2x daily use.",
           "tags": [
-            "effective",
-            "fast_results"
+            "fast_results",
+            "effective"
           ]
         },
         {
           "r": 3,
-          "t": "Sadly didn't help me.",
+          "t": "No. Sadly didn't help me.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 3,
-          "t": "Doesn't deliver what it promises.",
+          "t": "Does not keep its promises.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 4,
-          "t": "Instruction text is microscopic and confusingly describes other products. Hard to read even with a magnifying glass.",
+          "t": "Instruction manual font is impossibly small, microscopic even. Very confusing. Too early to judge success.",
           "tags": [
-            "packaging",
-            "hard_use"
+            "packaging"
           ]
         },
         {
@@ -1726,17 +2520,18 @@
         },
         {
           "r": 4,
-          "t": "Satisfied.",
+          "t": "Top. I am satisfied.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 4,
-          "t": "Pleasant smell, easy to apply every 2 days. Good product.",
+          "t": "Pleasant smell and easy to apply.",
           "tags": [
+            "smell",
             "easy_use",
-            "smell"
+            "effective"
           ]
         },
         {
@@ -1748,10 +2543,10 @@
         },
         {
           "r": 4,
-          "t": "Better than everything else I tried, visible results in just 2 days.",
+          "t": "Better than everything else I tried... after just 2 days.",
           "tags": [
-            "effective",
-            "fast_results"
+            "fast_results",
+            "effective"
           ]
         },
         {
@@ -1763,72 +2558,55 @@
         },
         {
           "r": 4,
-          "t": "Best so far, but doesn't contain any real medical anti-fungal ingredients.",
+          "t": "Contains no real anti-fungal active ingredient, but okay.",
           "tags": [
             "no_effect"
           ]
         },
         {
           "r": 4,
-          "t": "Pleasant smell, absorbs well without sticking, and keeps cuticles soft. Takes time but works well.",
+          "t": "Smells pleasant, doesn't harden so it sinks deep in, and doesn't stick to socks. Takes longer but works.",
           "tags": [
-            "easy_use",
             "smell",
-            "cosmetic_look"
-          ]
-        },
-        {
-          "r": 4,
-          "t": "Works but needs patience and filing. Sadly the price went up 2.5x so I won't repurchase at this high cost.",
-          "tags": [
-            "effective",
             "slow_results",
-            "expensive"
+            "easy_use"
           ]
         },
         {
           "r": 4,
-          "t": "Effective against the nail fungus. Good product.",
+          "t": "Patience needed, but visible results after first bottle. Too bad the price jumped 2.5x to over €50, so I'm switching.",
+          "tags": [
+            "slow_results",
+            "expensive",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Good product, effective against nail fungus.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 4,
-          "t": "Very good but you have to wait patiently for the treatment to work.",
+          "t": "Very good but you have to wait for the treatment to finish.",
           "tags": [
-            "effective",
-            "slow_results"
-          ]
-        },
-        {
-          "r": 5,
-          "t": "Took 9 months of daily use to clear the fungus, but it absolutely works! Requires immense patience but saves you from harsh chemicals.",
-          "tags": [
-            "effective",
-            "slow_results"
-          ]
-        },
-        {
-          "r": 5,
-          "t": "Applied twice daily after showering, fungus is almost completely grown out. It really works if you are patient!",
-          "tags": [
-            "effective",
             "slow_results",
-            "easy_use"
+            "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Big improvement after just 5 days. Highly recommend taking pictures to track the fast progress.",
+          "t": "Takes a long time, but truly helps! Used 3 bottles over 9 months with zero interruptions. Requires immense patience.",
           "tags": [
-            "effective",
-            "fast_results"
+            "slow_results",
+            "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Clear improvement after 2 months of 2x daily use. Ordering a second batch to finish it off completely.",
+          "t": "Worked for me! You definitely have to be patient and apply it every day. Fungus is almost all grown out.",
           "tags": [
             "effective",
             "slow_results"
@@ -1836,7 +2614,23 @@
         },
         {
           "r": 5,
-          "t": "Cheap, practical, and good.",
+          "t": "Amazing product. Saw a big improvement after just 5 days.",
+          "tags": [
+            "fast_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Ordered twice now because I noticed a significant improvement on my toenails after 2 months. Applied twice daily.",
+          "tags": [
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Cheap, practical, good.",
           "tags": [
             "effective",
             "good_value"
@@ -1844,17 +2638,17 @@
         },
         {
           "r": 5,
-          "t": "Good quality, highly recommended.",
+          "t": "Good quality as described.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Great quality and handling.",
+          "t": "Great handling and quality.",
           "tags": [
-            "easy_use",
-            "effective"
+            "effective",
+            "easy_use"
           ]
         },
         {
@@ -1866,7 +2660,16 @@
         },
         {
           "r": 5,
-          "t": "Cured my stubborn 10-year fungus after 8 months! Started seeing results in 2 weeks. Far better than any standard pharmacy remedy.",
+          "t": "My 10-year fungus is completely gone after 8 months! Small improvement visible in 2 weeks. Can wholeheartedly recommend it.",
+          "tags": [
+            "fast_results",
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Fungus is gone after 2 months of treatment. Thank you!",
           "tags": [
             "effective",
             "slow_results"
@@ -1874,7 +2677,472 @@
         },
         {
           "r": 5,
-          "t": "Fungus is completely gone after 2 months of treatment. Super product!",
+          "t": "Everything great.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Totally satisfied with the goods.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Useless stuff! Absolute waste of money. Even with mild fungus and 10 months of use, zero improvement.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "No effect after 2 weeks, feels worse. Stained the whole skin around my nail horribly yellow. Absolute NoGo.",
+          "tags": [
+            "side_effects",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Used it exactly as directed for 18 months. The effect is zero!",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "After a year of daily use, the fungus is worse than when I started.",
+          "tags": [
+            "side_effects",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Fake product? Feels like pure water with zero smell. Total waste of money with no effect after four months.",
+          "tags": [
+            "fake_counterfeit",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Overpriced and useless. Used an entire bottle in a month with zero visible results. 3.3ml for this price is outrageous.",
+          "tags": [
+            "expensive",
+            "packaging",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Hands off this stuff. Everything got worse after 40 days of application.",
+          "tags": [
+            "side_effects",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Absolutely exaggeratedly huge packaging.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Particularly expensive but didn't help at all. YogaMedic worked much better for me.",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Used daily for 4 weeks with no improvement. Just as useless as Canesten.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Used daily for 1.5 years and it just caused deterioration. Helps absolutely nothing.",
+          "tags": [
+            "side_effects",
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Bottle is empty and no change. Feels like there's no active ingredient inside. Pure rip-off.",
+          "tags": [
+            "fake_counterfeit",
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Did not help.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Used daily for 3 years, consuming 9 bottles. Very little benefit for a ton of money. Not recommended.",
+          "tags": [
+            "slow_results",
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Promises more than it delivers. Achieved nothing for me.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Hardly effective, just a cash grab. A homemade mix of vinegar and oil works 1000x better for me.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "€25 is a lot of money for a few drops. Hydrogen peroxide gives more success.",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Rip-off... On my second bottle and still no improvement.",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "2 stars not for the item, but for the completely exaggerated packaging madness! Unbelievable.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "No result after more than a year of use.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Brings nothing for me. Zero effect.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Works, but concentration is so low you have to keep rebuying. A Greek product works better for a third of the price.",
+          "tags": [
+            "expensive",
+            "packaging"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Husband took it for half a year. Still no improvement, total waste of money so far.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Didn't help me despite months of use.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Very expensive and no success visible.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Huge packaging! At least 30 times too big.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Hasn't really worked yet. Not convinced, especially not for this price.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Never.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "It didn't work for me. Ciclopirox as an ingredient failed, I had better luck with Terbinafine.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "It helps, but takes an unbelievably long time.",
+          "tags": [
+            "slow_results"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Works only conditionally.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Used it for almost 1 year and progress is very marginal.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Concentration is too low, resulting in only partial success against the fungus.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Fungus vanished, but returned as soon as I stopped using it. Had to buy a second bottle.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Unfortunately did not have the desired effect.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Does what it should but applying it daily is a hassle.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "No experience yet, just started testing.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Product is good, but sending it in a shoebox-sized package is completely unnecessary.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "It's ok, but there are better products out there.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Complete relapse after initial success. Feels like the latest bottle contains no active ingredient.",
+          "tags": [
+            "no_effect",
+            "fake_counterfeit"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Doctor told me it's safe during pregnancy. Helped stop the fungus from spreading on my finger.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Good, bought before.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Thrilled! Effect is visible quite quickly within 3 days.",
+          "tags": [
+            "fast_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Needs patience (4-6 months) and a lot of bottles, which gets expensive. But it does work.",
+          "tags": [
+            "slow_results",
+            "expensive",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "After 3 weeks of applying every evening, the yellow discoloration is almost invisible.",
+          "tags": [
+            "fast_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "It does not help me very much.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Treatment takes time. On my 4th bottle, but I see successes in mini-steps. You just need patience!",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Used it for months and it improved. You must have patience.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Taking it for a few months but I am not very convinced.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Good effect with low consumption.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Works flawlessly!",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Price-performance is right.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Satisfied with effect.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Amazingly good! Fungus spots disappeared in just a few days. Absorbs super fast without filing, though price is high.",
+          "tags": [
+            "fast_results",
+            "easy_use",
+            "expensive"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Requires patience and stamina, but nails are clearly healthier. Very satisfied.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Saw first successes very quickly. Piece by piece it gets better, avoiding the chemical pills my doctor wanted.",
+          "tags": [
+            "fast_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Using it for years and it works flawlessly, but my fungus keeps coming back from infected socks.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Dries very fast. Cheaper than the pharmacy. Good topical addition to strong prescription pills.",
+          "tags": [
+            "good_value",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "My savior! It's quickly applied, absorbs well, and eradicated the fungus even in the nail folds.",
+          "tags": [
+            "easy_use",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "After 4 weeks, the affected area has already halved. The small bottle is surprisingly economical.",
           "tags": [
             "effective",
             "fast_results"
@@ -1882,16 +3150,1405 @@
         },
         {
           "r": 5,
-          "t": "All best.",
+          "t": "Daily stroke of polish and after a few weeks the fungus is history. Highly recommended over expensive pharmacy brands.",
+          "tags": [
+            "easy_use",
+            "fast_results"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Mega! Daily use for 2 months and already an improvement. Super easy: apply, wait 30 seconds to dry.",
+          "tags": [
+            "slow_results",
+            "effective",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Recommended by dermatologist. Fungus is gone and the polish is practically invisible. Don't cover it with regular polish!",
+          "tags": [
+            "effective",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Everything went top.",
           "tags": [
             "effective"
           ]
         },
         {
           "r": 5,
-          "t": "Totally satisfied with the product.",
+          "t": "Super product - immediate effect.",
+          "tags": [
+            "effective",
+            "fast_results"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Ordered 3 times, helps for foot fungus.",
           "tags": [
             "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Very satisfied!",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "It works.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Best product against nail fungus.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "All the best!",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Very good, though not cheap.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Great effect, but the price is completely overpriced for me.",
+          "tags": [
+            "effective",
+            "expensive"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Did not fix the issue despite 2x daily use. Just moisturized the cuticles. Disappointed because it costs quite a lot.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "No effect, completely useless.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "First pen was empty, second pen only had a few drops. Absolute rip-off for so much money.",
+          "tags": [
+            "packaging",
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "No effect after 6 months of tedious daily use. In fact, the nail got worse. Going to a doctor now.",
+          "tags": [
+            "hard_use",
+            "side_effects",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Meets my expectations.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "No visible success against my fungus.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "nan",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Cannot recommend. It didn't bring any changes whatsoever.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Garbage, doesn't work.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Not as described after first uses.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Pen was empty far too quickly.",
+          "tags": [
+            "no_effect",
+            "packaging"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Emptied 3 pens applying morning and night. The fungus just got worse! Never been this bad.",
+          "tags": [
+            "side_effects",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Doesn't seem to have any effect after more than 2 months of treatment.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Does not work, not very effective.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Very watery not like the original orivelle.",
+          "tags": [
+            "fake_counterfeit"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "One out of two was broken.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "No effect after 6 months! Nor after 3 more.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "My wife is very satisfied with the medication.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Mediocre. Precise application description.",
+          "tags": [
+            "easy_use"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Took a bit longer than expected for a severe case, but confident it will end well with more patience.",
+          "tags": [
+            "effective",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Improvement is visible, still using it.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Application is very easy.",
+          "tags": [
+            "easy_use"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Excellent product, easily applicable.",
+          "tags": [
+            "easy_use",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Worked brilliantly! Application was super simple daily. Took several weeks to see improvement, completely healed after 3 months.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Easy to use good product.",
+          "tags": [
+            "easy_use",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Super, as always.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Best thing I've used so far, even my dermatologist is satisfied.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Easy to apply. Improvement is finally in sight but you need 12-15 months of patience.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Brittle yellow nail is growing back beautifully white after 6 weeks! Watch out for fake cheap ones though, huge difference.",
+          "tags": [
+            "effective",
+            "slow_results",
+            "cosmetic_look",
+            "fake_counterfeit"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Helped me a lot compared to all the pharmacy creams and varnishes.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Very easy to apply.",
+          "tags": [
+            "easy_use"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Wow! One pen lasted 4 weeks with 2x daily use. Visible results after just two weeks.",
+          "tags": [
+            "good_value",
+            "fast_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Works quite well, but is still a longer process.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Everything ok.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Super.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Spent over 100 Euros on 5 bottles for 5 months. Zero improvement, completely useless and overpriced.",
+          "tags": [
+            "slow_results",
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Pharmacy product was useless. Pure vinegar works way better and is much cheaper.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Only a rip-off! Result is zero! And at this horror price!",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "After a year, the nails have gotten much worse. All the money was spent for nothing.",
+          "tags": [
+            "side_effects",
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "On my third bottle with zero success. Plus they shipped a tiny 7ml bottle in a massive 33x25x8cm box stuffed with junk.",
+          "tags": [
+            "no_effect",
+            "packaging"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Tested for almost a year and no change. Fast drying is the only positive.",
+          "tags": [
+            "no_effect",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Even on a completely new healthy nail, the fungus formed again despite using this 2x daily for 4 weeks. Total fail.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Completely ineffective, nothing more to say.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Bought it 8 times and applied consistently for 2 years with absolutely zero effect. Disappointing.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Wasted money, finished the bottle and it's like day one.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Doesn't work at all. Tried for 7 months with no improvement.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Expensive.",
+          "tags": [
+            "expensive"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Bottle empty, fungus hasn't budged a millimeter.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Did not deliver on its promises.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Useless. Used it for 2 years, got worse.",
+          "tags": [
+            "no_effect",
+            "side_effects"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Almost no effect and the price is mercilessly exaggerated.",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Using it for about 18 months, success is yet to be seen.",
+          "tags": [
+            "slow_results",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Using it for almost a year and I notice nothing. Won't buy again.",
+          "tags": [
+            "slow_results",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Don't understand the hype. No change at all, and daily application is annoying.",
+          "tags": [
+            "no_effect",
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Expensive with little effect. Did not eliminate it completely, just too expensive for partial results.",
+          "tags": [
+            "expensive",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Product is fine, but DPD shipping is catastrophic.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "No success after 1-2 years of use.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Finally shows success after months. Nails become white though.",
+          "tags": [
+            "slow_results",
+            "effective",
+            "side_effects"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Effect?? Switched to another product that actually helps.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Both the shipping box and product box were torn open.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Water-soluble polish is not effective.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Dries quickly, but the fungus actually spread over the entire nail during my 2 months of use! Very expensive.",
+          "tags": [
+            "expensive",
+            "side_effects",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Wasted years and huge money on Ciclopoli and pills. An electric nail file solved it in months instead.",
+          "tags": [
+            "no_effect",
+            "expensive",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Helps only moderately.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "It works, but takes months and is extremely expensive.",
+          "tags": [
+            "slow_results",
+            "expensive"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "It works but takes an eternity.",
+          "tags": [
+            "slow_results"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Nail looks healthy, but after 3 months I fear residual fungus remains deep down.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Best quality.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Very easy to apply, but a long treatment.",
+          "tags": [
+            "easy_use",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Very expensive and the brush is really cheap and frays easily.",
+          "tags": [
+            "packaging",
+            "expensive"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "There are better options for the money.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Husband taking it for years, success is incredibly slow.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Worked for the first 2-3 bottles, but after restarting a year later it has no effect.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Mediocre result despite precise use. Too expensive.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Painted twice a day for 4 months, zero visible success.",
+          "tags": [
+            "no_effect",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Works, but requires meticulous daily application over a very long time.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "No success at first, but slowly and surely working towards the end of the bottle.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Didn't help me, maybe I did something wrong.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Takes forever to see an effect, and these varnishes are anything but cheap.",
+          "tags": [
+            "slow_results",
+            "expensive"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Great price, but definitely takes weeks or months of daily use.",
+          "tags": [
+            "good_value",
+            "slow_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Takes time and strict continuity! After over a year I can encourage you that it works.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "The only product that brought success. Took about a year and is quite expensive, though.",
+          "tags": [
+            "slow_results",
+            "effective",
+            "expensive"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "It works, but after 6 months I've spent nearly €500. The price for this tiny amount is almost outrageous.",
+          "tags": [
+            "slow_results",
+            "effective",
+            "expensive"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Hopeful.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Delivered in a massive box. Not eco-friendly at all.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "It helps, but the tiny amount for this high price is a bad joke.",
+          "tags": [
+            "expensive",
+            "packaging"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Useful.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Dries in just 30 seconds and goes on invisible. Discreet and easy to use.",
+          "tags": [
+            "easy_use",
+            "fast_results",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Treatment is simple.",
+          "tags": [
+            "easy_use"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Helps... but takes its time.",
+          "tags": [
+            "slow_results"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Takes about 1 year and extreme patience. It is very expensive, but totally worth it combined with podiatry.",
+          "tags": [
+            "slow_results",
+            "expensive",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Using it for over a year and the nail is almost entirely healthy. Treatment is tedious, but it's the best.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Pieces by piece it gets better. Replaced my toxic oral pills. Fantastic.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Helps very well. Initially got slightly worse, but powered through.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Can take up to a year, requires immense patience. Completely healed after months.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "After 3 months, nails are half grown out healthy. Absorbs instantly.",
+          "tags": [
+            "effective",
+            "slow_results",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Took 10 months, but my nail is finally clear again.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Takes up to 6 months for the new nail to grow, but success is guaranteed!",
+          "tags": [
+            "slow_results"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Process takes approx 3 months. Works super well.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Hardly any improvement after the first bottle, but outstanding results by the third. Patience pays off.",
+          "tags": [
+            "slow_results",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Efficient help.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "First-class support.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Good article.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "All good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Very good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Thumbs up.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Helps well.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Everything great.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Would buy again.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "The polish is great, but Amazon tossed the glass bottles loose into a box. They shattered and ruined the order.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Made my nails totally dry and brittle, half detached. This polish does NOT let the serum through.",
+          "tags": [
+            "brittle_nails",
+            "side_effects",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Turned my nail yellow after a few days! Now I have to start my fungus treatment from scratch.",
+          "tags": [
+            "side_effects",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Looks like it was already used, letters on the bottle rubbed off. Wouldn't buy again.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Applied it, and hours later washed 3 plates... and the polish peeled right off.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Color 'Nude rose' looks nothing like rose, looks like old window putty. Threw it away.",
+          "tags": [
+            "cosmetic_look",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Arrived without packaging or seal, looks old and used!",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Terrible coverage. Needed 3 thick layers and it still didn't dry after 2 hours. Smeared by morning.",
+          "tags": [
+            "hard_use",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Arrived with a loose lid and most of the product dried up/missing. Brush was stuck inside. Unusable.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "After removing the polish, the fungus had spread heavily again. Not recommended.",
+          "tags": [
+            "side_effects",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Helps absolutely nothing.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Does not cover evenly. Don't like it.",
+          "tags": [
+            "cosmetic_look",
+            "hard_use"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Runs everywhere and doesn't stick. Dries too slowly.",
+          "tags": [
+            "hard_use",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Doesn't last long. Color is pale and matte.",
+          "tags": [
+            "cosmetic_look",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Too viscous to apply properly and the brush is very strange. Unusable.",
+          "tags": [
+            "packaging",
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Way too viscous and the brush is frayed. Takes over 1 hour to dry and is still wet. Annoying!",
+          "tags": [
+            "hard_use",
+            "packaging"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Almost impossible to remove, even with acetone remover.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Unnatural color. Way too pink to be 'nude beige'.",
+          "tags": [
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Nice color, but won't cure your fungus. Save your money and get pills from the doctor.",
+          "tags": [
+            "no_effect",
+            "expensive"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Dries super fast inside the bottle, but takes almost 1 hour to dry on the nail! Chips off easily.",
+          "tags": [
+            "packaging",
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Dries incredibly slowly. Even the next day socks stick to the painted nail.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Not good.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Took over 3 hours to dry and still wasn't hardened. Chipped on day 2. Very disappointing.",
+          "tags": [
+            "hard_use",
+            "no_effect"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Way too expensive. Too liquidy to apply well and takes longer to dry than normal polish.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Nice color but just does not harden properly.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Very thin liquid, very pale color, and stinks like the plague!",
+          "tags": [
+            "hard_use",
+            "smell",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Doesn't come off completely, my toenails are stained pink.",
+          "tags": [
+            "hard_use",
+            "side_effects"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Long-lasting polish, but otherwise doesn't help the fungus.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Sticky texture. Hard to dry.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Covers well, dries fast. Color is more beige than pink.",
+          "tags": [
+            "easy_use",
+            "fast_results"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Way too thick. Sticks to the nail like paste.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Too runny, looks unsightly. Unsuitable for my thin nails.",
+          "tags": [
+            "hard_use",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Color 'raspberry' is deceptive, it's actually pink.",
+          "tags": [
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Nice color but removing it is a hassle.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Color does not pop well if your nails are discolored.",
+          "tags": [
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Doesn’t reduce the fungus at all.",
+          "tags": [
+            "no_effect"
+          ]
+        },
+        {
+          "r": 3,
+          "t": "Very liquid and takes quite a while to dry.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Good polish, no more yellow tint on the nails.",
+          "tags": [
+            "cosmetic_look",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Color completely different than pictured. Halfway through the bottle it gets thick and viscous.",
+          "tags": [
+            "packaging",
+            "hard_use",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Covers beautifully on the very first coat.",
+          "tags": [
+            "easy_use",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Flows so fast it flooded my entire nail bed. Needed a second coat.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Arrived loose in a bag without packaging. Color is accurate.",
+          "tags": [
+            "packaging"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Good product.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "As a man, I chose black to hide my cracked, yellow fungal nails during treatment. Looks great.",
+          "tags": [
+            "cosmetic_look",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Feels good, just slightly too expensive.",
+          "tags": [
+            "expensive"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Takes some practice before getting the best result.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Holds up very well and covers perfectly.",
+          "tags": [
+            "cosmetic_look",
+            "effective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Super! Dries very fast.",
+          "tags": [
+            "easy_use",
+            "fast_results"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Takes a very long time to dry.",
+          "tags": [
+            "hard_use"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Applies very easily and provides beautiful coverage.",
+          "tags": [
+            "cosmetic_look",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Stylishly covers the fungus while remaining permeable for the treatment serum. Dries normally.",
+          "tags": [
+            "easy_use",
+            "effective",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Practical and beautiful color.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Lasts 14 days and my nails don't splinter anymore. Can finally let them grow.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Really good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Psoriasis cure on 2 nails succeeded.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Highly satisfied. Finally found the right thing.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Thumbs up.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Does what it should and covers wonderfully and smoothly.",
+          "tags": [
+            "effective",
+            "cosmetic_look"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Applies easily, covers beautifully in one coat, doesn't chip, dries fast. Price is justified.",
+          "tags": [
+            "effective",
+            "cosmetic_look",
+            "easy_use"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Really good.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Beautiful color, dries fast.",
+          "tags": [
+            "effective",
+            "cosmetic_look",
+            "easy_use"
           ]
         }
       ]
