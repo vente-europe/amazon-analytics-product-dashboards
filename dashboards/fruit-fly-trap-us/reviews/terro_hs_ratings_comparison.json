@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Terro Fruit Fly Traps",
+      "overall_rating": 4.1,
+      "total_ratings": 24106,
+      "distribution_percent": {
+        "5_star": 60,
+        "4_star": 15,
+        "3_star": 10,
+        "2_star": 4,
+        "1_star": 11
+      }
+    },
+    {
+      "name": "Hot Shot Fruit Fly Traps",
+      "overall_rating": 2.4,
+      "total_ratings": 1946,
+      "distribution_percent": {
+        "5_star": 23,
+        "4_star": 8,
+        "3_star": 10,
+        "2_star": 10,
+        "1_star": 49
+      }
+    }
+  ]
+}

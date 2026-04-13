@@ -1,0 +1,157 @@
+<!-- Keyword Analysis Tab Template -->
+<div id="kwa-root"></div>
+
+<script>
+(function kwaInit() {
+  // Data is injected by hub.js into window._TAB_DATA before this runs
+  var D = window._TAB_DATA;
+  if (!D || !D.competitors || !D.keywords) {
+    document.getElementById('kwa-root').innerHTML =
+      '<div class="card"><h3>Keyword Analysis</h3>' +
+      '<p style="color:#64748b;font-size:.85rem">No keyword data loaded. Upload a Helium 10 Niche export to populate this tab.</p></div>';
+    return;
+  }
+
+  var comps = D.competitors;
+  var root = document.getElementById('kwa-root');
+  var h = '';
+
+  function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+  // Description
+  h += '<p class="sec-summary" style="margin-bottom:16px">Competitive intelligence from ' + esc(D.source) + '. ' + comps.length + ' competitors ranked by 30-day sales. ' + D.keywords.length + ' tracked keywords with ranking positions.</p>';
+
+  // Niche Median KPIs
+  h += '<div style="display:flex;gap:16px;flex-wrap:wrap;margin-bottom:20px">';
+  h += '  <div class="card" style="padding:10px 16px;border-left:4px solid #64748b;flex:1;min-width:140px">';
+  h += '    <div style="font-size:.68rem;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">Niche Median</div>';
+  h += '    <div style="display:flex;gap:20px;flex-wrap:wrap;font-size:.75rem">';
+  h += '      <div><span style="font-weight:700">' + esc(D.nicheMedians.price) + '</span> <span style="color:#94a3b8">Price</span></div>';
+  h += '      <div><span style="font-weight:700">' + esc(D.nicheMedians.rating) + '</span> <span style="color:#94a3b8">Rating</span></div>';
+  h += '    </div></div></div>';
+
+  // Competitor table
+  h += '<div class="sec-header" style="margin-bottom:12px"><div class="sec-title">Competitor Details</div></div>';
+  h += '<div class="card" style="padding:0;overflow:hidden;margin-bottom:24px"><div style="overflow-x:auto">';
+  h += '<table style="width:100%;border-collapse:collapse;font-size:.72rem"><thead><tr>';
+  h += '<th class="kwa-sticky-th">Metric</th>';
+
+  comps.forEach(function(c) {
+    h += '<th class="kwa-comp-th">';
+    h += '<img src="' + c.image + '" alt="' + esc(c.brand) + '" class="kwa-comp-img">';
+    h += '<a href="https://www.amazon.com/dp/' + c.asin + '" target="_blank" class="kwa-comp-link">' + esc(c.brand) + '</a>';
+    h += '<br><span style="opacity:.5;font-weight:400;font-size:.55rem">' + c.asinShort + '</span></th>';
+  });
+  h += '</tr></thead><tbody>';
+
+  var metrics = [
+    { label: 'Price', key: 'price' },
+    { label: '30d Sales', key: 'sales30d' },
+    { label: '30d Revenue', key: 'revenue30d' },
+    { label: 'Rating', key: 'rating', format: 'star' },
+    { label: 'Reviews', key: 'reviews' },
+    { label: 'KWs on P1', key: 'kwsOnP1' }
+  ];
+
+  metrics.forEach(function(m) {
+    h += '<tr><td class="kwa-sticky-td">' + m.label + '</td>';
+    comps.forEach(function(c) {
+      var val = c[m.key];
+      if (m.format === 'star') val = '\u2B50 ' + val;
+      h += '<td class="kwa-metric-td">' + val + '</td>';
+    });
+    h += '</tr>';
+  });
+  h += '</tbody></table></div></div>';
+
+  // Master Keyword List
+  h += '<div class="sec-header" style="margin-bottom:12px"><div class="sec-title">Master Keyword List</div></div>';
+  h += '<div class="card" style="padding:0;overflow:hidden"><div style="overflow-x:auto;max-height:650px;overflow-y:auto">';
+  h += '<table class="kw-table" id="kwTable"><thead><tr>';
+  h += '<th class="kwa-kw-sticky-th kwa-kw-sort" data-col="t">Keyword \u25B2\u25BC</th>';
+  h += '<th class="kwa-kw-sort" style="width:65px" data-col="sv">SV \u25B2\u25BC</th>';
+  h += '<th class="kwa-kw-sort" style="width:50px" data-col="rl">Rel. \u25B2\u25BC</th>';
+
+  comps.forEach(function(c) {
+    h += '<th class="kwa-kw-sort" style="min-width:70px" data-col="r_' + c.asin + '">';
+    h += '<img src="' + c.image + '" alt="' + esc(c.brand) + '" class="kwa-kw-comp-img">';
+    h += '<span style="font-size:.55rem">' + esc(c.brand) + '</span><br>';
+    h += '<span style="opacity:.5;font-size:.5rem">' + c.asinShort + ' \u25B2\u25BC</span></th>';
+  });
+  h += '</tr></thead><tbody id="kwBody"></tbody></table></div>';
+
+  // Legend
+  h += '<div class="kw-legend">';
+  h += '<span><i style="background:#16a34a"></i> 1\u201310</span>';
+  h += '<span><i style="background:#22c55e"></i> 11\u201320</span>';
+  h += '<span><i style="background:#86efac"></i> 21\u201350</span>';
+  h += '<span><i style="background:#fde68a"></i> 51\u2013100</span>';
+  h += '<span><i style="background:#fca5a5"></i> 101\u2013200</span>';
+  h += '<span><i style="background:#ef4444"></i> 201\u2013306</span>';
+  h += '<span><i style="background:#f1f5f9;border:1px solid #e2e8f0"></i> Not ranked</span>';
+  h += '</div></div>';
+
+  root.innerHTML = h;
+
+  // Keyword sorting & rendering
+  var KW = D.keywords;
+  var sortCol = 'sv', sortDir = -1;
+
+  function rankColor(rank) {
+    if (!rank || rank <= 0 || rank > 305) return { bg: '#f8fafc', fg: '#cbd5e1' };
+    if (rank <= 10) return { bg: '#16a34a', fg: '#fff' };
+    if (rank <= 20) return { bg: '#22c55e', fg: '#fff' };
+    if (rank <= 50) return { bg: '#86efac', fg: '#064e3b' };
+    if (rank <= 100) return { bg: '#fde68a', fg: '#78350f' };
+    if (rank <= 200) return { bg: '#fca5a5', fg: '#7f1d1d' };
+    return { bg: '#ef4444', fg: '#fff' };
+  }
+
+  function renderKW() {
+    var sorted = KW.slice().sort(function(a, b) {
+      var va, vb;
+      if (sortCol === 't') { va = a.t.toLowerCase(); vb = b.t.toLowerCase(); }
+      else if (sortCol === 'sv') { va = a.sv; vb = b.sv; }
+      else if (sortCol === 'rl') { va = a.rl; vb = b.rl; }
+      else if (sortCol.indexOf('r_') === 0) {
+        var idx = 0;
+        for (var i = 0; i < comps.length; i++) { if ('r_' + comps[i].asin === sortCol) { idx = i; break; } }
+        va = a.r[idx] || 999; vb = b.r[idx] || 999;
+      } else { va = a.sv; vb = b.sv; }
+
+      if (typeof va === 'string') return sortDir * va.localeCompare(vb);
+      return sortDir * (va - vb);
+    });
+
+    var body = document.getElementById('kwBody');
+    if (!body) return;
+    var html = '';
+    sorted.forEach(function(kw) {
+      html += '<tr>';
+      html += '<td class="kwa-kw-sticky-td">' + kw.t + '</td>';
+      html += '<td style="font-weight:700;color:#0f2942;border-bottom:1px solid #f1f5f9;text-align:center">' + kw.sv.toLocaleString() + '</td>';
+      var relStyle = kw.rl >= 0.8 ? 'font-weight:700;color:#16a34a' : 'color:#64748b';
+      html += '<td style="border-bottom:1px solid #f1f5f9;text-align:center;' + relStyle + '">' + kw.rl.toFixed(2) + '</td>';
+      kw.r.forEach(function(rank) {
+        var c = rankColor(rank);
+        var label = (!rank || rank <= 0 || rank > 305) ? '\u2013' : rank;
+        html += '<td style="border-bottom:1px solid #f1f5f9;text-align:center"><span class="kwa-rank-cell" style="background:' + c.bg + ';color:' + c.fg + '">' + label + '</span></td>';
+      });
+      html += '</tr>';
+    });
+    body.innerHTML = html;
+  }
+
+  // Attach sort handlers to header cells
+  document.querySelectorAll('.kwa-kw-sort').forEach(function(th) {
+    th.addEventListener('click', function() {
+      var col = th.dataset.col;
+      if (sortCol === col) sortDir *= -1;
+      else { sortCol = col; sortDir = col === 'sv' ? -1 : 1; }
+      renderKW();
+    });
+  });
+
+  renderKW();
+})();
+</script>

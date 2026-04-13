@@ -1,0 +1,393 @@
+<!-- Total Market Tab Template -->
+<div id="tm-root"></div>
+
+<script>
+(function tmInit() {
+  var dashData = window._DASH_DATA;
+  var root = document.getElementById('tm-root');
+
+  if (!dashData || !dashData._computed) {
+    root.innerHTML = '<div class="card"><h3>Total Market</h3><p style="color:#64748b;font-size:.85rem">No X-Ray data loaded. Place an X-Ray CSV in <code>data/x-ray/</code> and configure <code>xray.file</code> in dashboard.json.</p></div>';
+    return;
+  }
+
+  var C = dashData._computed;
+  var h = '';
+  var cur = C.currency || '$';
+  var segments = C.segments;
+  var segNames = segments.map(function(s) { return s.name; });
+  var segColors = segments.map(function(s) { return s.color; });
+  var segUnits = segments.map(function(s) { return s.units12m; });
+  var segRevenue = segments.map(function(s) { return s.revenue12m; });
+  var totalUnits = C.totals.totalUnits12m;
+  var totalRev = C.totals.totalRevenue12m;
+  var totalAsins = C.totals.totalAsins;
+  var seasonality = C.seasonality;
+  var salesFilesFound = C.salesFilesFound || 0;
+  var salesFilesMissing = C.salesFilesMissing || 0;
+  var monthNames = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  var exportMonthName = monthNames[C.exportMonth || 0];
+
+  function fmtMoney(v) {
+    if (v >= 1e6) return cur + (v / 1e6).toFixed(1) + 'M';
+    if (v >= 1e3) return cur + (v / 1e3).toFixed(0) + 'K';
+    return cur + v;
+  }
+
+  function fmtUnits(v) {
+    if (v >= 1e6) return (v / 1e6).toFixed(1) + 'M';
+    if (v >= 1e3) return Math.round(v / 1e3) + 'K';
+    return v.toLocaleString();
+  }
+
+  // ── Title ──
+  h += '<h2>Main Segments \u2014 Total Market (12M)</h2>';
+
+  // ── Total Category KPI bar ──
+  h += '<div class="card" style="border-left:4px solid #1e293b;padding:14px 20px;display:flex;align-items:center;gap:36px;flex-wrap:wrap;margin-bottom:14px">';
+  h += '<div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#64748b;min-width:120px">Total Category</div>';
+  h += '<div><div style="font-size:1.6rem;font-weight:700;color:#1e293b;line-height:1">' + fmtMoney(totalRev) + '</div>';
+  h += '<div style="font-size:.75rem;color:#64748b;margin-top:3px">Revenue \u00b7 12M' + (seasonality ? ' (seasonality-adjusted)' : ' (30d \u00d712)') + '</div></div>';
+  h += '<div><div style="font-size:1.6rem;font-weight:700;color:#1e293b;line-height:1">' + totalUnits.toLocaleString() + '</div>';
+  h += '<div style="font-size:.75rem;color:#64748b;margin-top:3px">Units Sold \u00b7 12M</div></div>';
+  h += '<div><div style="font-size:1.6rem;font-weight:700;color:#1e293b;line-height:1">' + totalAsins + '</div>';
+  h += '<div style="font-size:.75rem;color:#64748b;margin-top:3px">ASINs Tracked</div></div>';
+  h += '</div>';
+
+  // ── Per-segment KPI cards ──
+  var cols = segments.length <= 2 ? '1fr 1fr' : segments.length === 3 ? '1fr 1fr 1fr' : 'repeat(auto-fill,minmax(280px,1fr))';
+  h += '<div style="display:grid;grid-template-columns:' + cols + ';gap:14px;margin-bottom:22px">';
+  segments.forEach(function(seg) {
+    h += '<div class="card" style="border-left:4px solid ' + seg.color + ';padding:14px 16px">';
+    h += '<div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:' + seg.color + ';margin-bottom:10px">' + seg.name + ' <span style="font-weight:400;color:#94a3b8">(' + seg.asins + ' ASINs)</span></div>';
+    h += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">';
+    h += '<div class="kpi" style="box-shadow:none;background:#f8fafc;padding:8px 10px"><div class="kpi-v" style="font-size:.95rem">' + fmtUnits(seg.units12m) + '</div><div class="kpi-l">Units sold (12M)</div></div>';
+    h += '<div class="kpi" style="box-shadow:none;background:#f8fafc;padding:8px 10px"><div class="kpi-v" style="font-size:.95rem">' + fmtMoney(seg.revenue12m) + '</div><div class="kpi-l">Segment Value (12M)</div></div>';
+    h += '</div></div>';
+  });
+  h += '</div>';
+
+  // ── Auto-generated insight box ──
+  h += '<div class="insight">' + generateInsight(segments, totalUnits, totalRev, totalAsins, cur) + '</div>';
+
+  function generateInsight(segs, totU, totR, totAsins, c) {
+    var n = segs.length;
+    var byRev = segs.slice().sort(function(a, b) { return b.revenue12m - a.revenue12m; });
+    var byUnits = segs.slice().sort(function(a, b) { return b.units12m - a.units12m; });
+
+    var topRev = byRev[0];
+    var topUnits = byUnits[0];
+    var topRevShare = (topRev.revenue12m / totR * 100).toFixed(1);
+    var topUnitShare = (topUnits.units12m / totU * 100).toFixed(1);
+
+    var parts = [];
+    var methodNote = salesFilesFound > 0
+      ? salesFilesFound + ' ASINs with actual sales data (seasonality-adjusted), ' + salesFilesMissing + ' projected from X-Ray ' + exportMonthName + ' snapshot.'
+      : 'All ASINs projected from X-Ray 30d snapshot (\u00d712).';
+    parts.push('<strong>Segment-level view.</strong> ' + totAsins + ' ASINs across ' + n + ' segments. ' + methodNote);
+
+    // Dominant segment
+    if (topRev.name === topUnits.name) {
+      parts.push(topRev.name + ' dominates both revenue (' + topRevShare + '%) and units (' + topUnitShare + '%).');
+    } else {
+      parts.push(topRev.name + ' leads revenue (' + topRevShare + '%), while ' + topUnits.name + ' leads units (' + topUnitShare + '%).');
+    }
+
+    // Compare top 2 if close
+    if (byRev.length >= 2) {
+      var r1 = byRev[0].revenue12m / totR * 100;
+      var r2 = byRev[1].revenue12m / totR * 100;
+      if (r1 - r2 < 5) {
+        parts.push(byRev[0].name + ' and ' + byRev[1].name + ' are nearly equal in revenue share (' + r1.toFixed(1) + '% vs ' + r2.toFixed(1) + '%).');
+      }
+    }
+
+    // Smallest segment
+    var smallest = byRev[byRev.length - 1];
+    var smallShare = (smallest.revenue12m / totR * 100).toFixed(1);
+    if (parseFloat(smallShare) < 5) {
+      parts.push(smallest.name + ' is a niche segment (' + smallShare + '% revenue share).');
+    }
+
+    // Revenue vs unit share divergence (indicates pricing differences)
+    segs.forEach(function(s) {
+      var uPct = s.units12m / totU * 100;
+      var rPct = s.revenue12m / totR * 100;
+      if (rPct - uPct > 10) {
+        parts.push(s.name + ' captures ' + rPct.toFixed(1) + '% of revenue with only ' + uPct.toFixed(1) + '% of units \u2014 higher price point.');
+      } else if (uPct - rPct > 10) {
+        parts.push(s.name + ' has ' + uPct.toFixed(1) + '% of units but only ' + rPct.toFixed(1) + '% of revenue \u2014 lower price point.');
+      }
+    });
+
+    return parts.join(' ');
+  }
+
+  // ── Revenue & Units pies ──
+  h += '<div class="g2" style="align-items:start">';
+  h += '<div class="card"><h3>Revenue by Segment (12M)</h3><div class="cw" style="height:280px"><canvas id="tmFocusRevPie"></canvas></div>';
+  h += '<div class="note">Revenue figures = 12M units \u00d7 listed ASIN price.</div></div>';
+  h += '<div class="card"><h3>Units by Segment (12M)</h3><div class="cw" style="height:280px"><canvas id="tmFocusUnitsPie"></canvas></div>';
+  h += '<div class="note">Unit volumes by segment (12M).</div></div>';
+  h += '</div>';
+
+  // ── Segment Summary table ──
+  h += '<div class="card"><h3>Segment Summary (12M)</h3>';
+  h += '<div class="tbl-wrap"><table class="num-right" id="tmSegTable">';
+  h += '<thead><tr><th style="text-align:left">Segment</th><th>Units (12M)</th><th>Revenue (12M)</th><th>Unit Share</th><th>Rev Share</th></tr></thead>';
+  h += '<tbody>';
+  segments.forEach(function(seg) {
+    var uShare = (seg.units12m / totalUnits * 100).toFixed(1);
+    var rShare = (seg.revenue12m / totalRev * 100).toFixed(1);
+    h += '<tr><td><span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:' + seg.color + ';margin-right:6px"></span>' + seg.name + '</td>';
+    h += '<td data-val="' + seg.units12m + '">' + seg.units12m.toLocaleString() + '</td>';
+    h += '<td data-val="' + seg.revenue12m + '">' + cur + seg.revenue12m.toLocaleString() + '</td>';
+    h += '<td data-val="' + uShare + '">' + uShare + '%</td>';
+    h += '<td data-val="' + rShare + '">' + rShare + '%</td></tr>';
+  });
+  h += '</tbody></table></div>';
+  h += '<div class="note">Revenue = 12M units \u00d7 listed ASIN price.</div></div>';
+
+  // ── Brand Share by Segment — Units ──
+  var brandsBySegment = C.brandsBySegment || {};
+  h += '<div class="g2" style="align-items:start;margin-top:18px">';
+  segments.forEach(function(seg) {
+    var bd = brandsBySegment[seg.name];
+    if (!bd || bd.length === 0) return;
+    h += '<div class="card"><h3>Brand Share \u2014 ' + seg.name + ' (Units, 12M)</h3>';
+    h += '<div class="cw" style="height:340px"><canvas id="tmBrand' + seg.name.replace(/\s/g,'') + 'UnitPie"></canvas></div>';
+    h += '<div class="note">' + seg.name + ' segment. ' + seg.units12m.toLocaleString() + ' total units (12M). ' + seg.asins + ' ASINs.</div></div>';
+  });
+  h += '</div>';
+
+  // ── Brand Share by Segment — Revenue ──
+  h += '<div class="g2" style="align-items:start">';
+  segments.forEach(function(seg) {
+    var bd = brandsBySegment[seg.name];
+    if (!bd || bd.length === 0) return;
+    h += '<div class="card"><h3>Brand Share \u2014 ' + seg.name + ' (Revenue, 12M)</h3>';
+    h += '<div class="cw" style="height:340px"><canvas id="tmBrand' + seg.name.replace(/\s/g,'') + 'RevPie"></canvas></div>';
+    h += '<div class="note">' + seg.name + ' segment. ' + fmtMoney(seg.revenue12m) + ' total revenue (12M). ' + seg.asins + ' ASINs.</div></div>';
+  });
+  h += '</div>';
+
+  // ── Segment × Marketplace heatmap (revenue + units, 12M) ──
+  // Skipped when only one marketplace is present (single-market dashboards).
+  var heatProducts = (C.products || []).filter(function(p) { return p.marketplace; });
+  var uniqueMarkets = {};
+  heatProducts.forEach(function(p) { uniqueMarkets[p.marketplace] = true; });
+  if (heatProducts.length > 0 && Object.keys(uniqueMarkets).length > 1) {
+    var marketSet = {};
+    heatProducts.forEach(function(p) { marketSet[p.marketplace] = (marketSet[p.marketplace] || 0) + p.revenue12m; });
+    var markets = Object.keys(marketSet).sort(function(a, b) { return marketSet[b] - marketSet[a]; });
+
+    function buildPivot(metric) {
+      var grid = {};
+      var colTotals = {}; var rowTotals = {}; var grandTotal = 0;
+      segments.forEach(function(seg) { grid[seg.name] = {}; rowTotals[seg.name] = 0; });
+      markets.forEach(function(m) { colTotals[m] = 0; });
+      heatProducts.forEach(function(p) {
+        var seg = p.type || 'Other';
+        if (!grid[seg]) { grid[seg] = {}; rowTotals[seg] = 0; }
+        grid[seg][p.marketplace] = (grid[seg][p.marketplace] || 0) + p[metric];
+        rowTotals[seg] += p[metric];
+        colTotals[p.marketplace] += p[metric];
+        grandTotal += p[metric];
+      });
+      return { grid: grid, rowTotals: rowTotals, colTotals: colTotals, grandTotal: grandTotal };
+    }
+
+    function maxCellValue(pivot) {
+      var max = 0;
+      Object.keys(pivot.grid).forEach(function(seg) {
+        markets.forEach(function(m) {
+          var v = pivot.grid[seg][m] || 0;
+          if (v > max) max = v;
+        });
+      });
+      return max;
+    }
+
+    function heatColor(v, max) {
+      if (!v || max === 0) return '#ffffff';
+      var ratio = v / max;
+      if (ratio >= 0.8) return '#1e40af';
+      if (ratio >= 0.6) return '#3b82f6';
+      if (ratio >= 0.4) return '#93c5fd';
+      if (ratio >= 0.2) return '#dbeafe';
+      return '#eff6ff';
+    }
+    function heatTextColor(v, max) {
+      if (!v || max === 0) return '#cbd5e1';
+      return (v / max) >= 0.6 ? '#fff' : '#1e293b';
+    }
+
+    function renderHeatTable(title, fmt, metric) {
+      var pivot = buildPivot(metric);
+      var max = maxCellValue(pivot);
+      var s = '<div class="card" style="margin-top:18px"><h3>' + title + '</h3>';
+      s += '<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:.78rem">';
+      s += '<thead><tr><th style="text-align:left;padding:8px 12px;background:#f8fafc;font-size:.65rem;font-weight:600;color:#475569;text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid #e2e8f0">Segment</th>';
+      markets.forEach(function(m) {
+        s += '<th style="text-align:right;padding:8px 12px;background:#f8fafc;font-size:.65rem;font-weight:600;color:#475569;text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid #e2e8f0">' + m + '</th>';
+      });
+      s += '<th style="text-align:right;padding:8px 12px;background:#f8fafc;font-size:.65rem;font-weight:600;color:#475569;text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid #e2e8f0">Total</th>';
+      s += '</tr></thead><tbody>';
+      var sortedSegs = Object.keys(pivot.rowTotals).sort(function(a, b) { return pivot.rowTotals[b] - pivot.rowTotals[a]; });
+      sortedSegs.forEach(function(segName) {
+        s += '<tr><td style="text-align:left;padding:8px 12px;font-weight:600;color:#1e293b;border-bottom:1px solid #f1f5f9">' + segName + '</td>';
+        markets.forEach(function(m) {
+          var v = pivot.grid[segName][m] || 0;
+          var bg = heatColor(v, max);
+          var fg = heatTextColor(v, max);
+          s += '<td style="text-align:right;padding:8px 12px;background:' + bg + ';color:' + fg + ';font-weight:600;border-bottom:1px solid #f1f5f9">' + (v > 0 ? fmt(v) : '<span style="color:#cbd5e1">—</span>') + '</td>';
+        });
+        s += '<td style="text-align:right;padding:8px 12px;font-weight:700;color:#0f172a;border-bottom:1px solid #f1f5f9;background:#f8fafc">' + fmt(pivot.rowTotals[segName]) + '</td>';
+        s += '</tr>';
+      });
+      s += '<tr style="background:#f8fafc"><td style="text-align:left;padding:10px 12px;font-weight:700;color:#0f172a;border-top:2px solid #e2e8f0">Total</td>';
+      markets.forEach(function(m) {
+        s += '<td style="text-align:right;padding:10px 12px;font-weight:700;color:#0f172a;border-top:2px solid #e2e8f0">' + fmt(pivot.colTotals[m]) + '</td>';
+      });
+      s += '<td style="text-align:right;padding:10px 12px;font-weight:700;color:#0f172a;border-top:2px solid #e2e8f0">' + fmt(pivot.grandTotal) + '</td>';
+      s += '</tr></tbody></table></div></div>';
+      return s;
+    }
+
+    h += renderHeatTable('Revenue by Segment & Marketplace \u2014 12M', fmtMoney, 'revenue12m');
+    h += renderHeatTable('Units by Segment & Marketplace \u2014 12M', function(v) { return fmtUnits(v); }, 'units12m');
+  }
+
+  // ── Seasonality chart ──
+  if (seasonality && seasonality.orderedIndices) {
+    h += '<div class="card" style="margin-top:18px"><h3>Monthly Seasonality Index (1.0 = average month)</h3>';
+    h += '<div class="cw" style="height:260px"><canvas id="tmSeasIdxChart"></canvas></div>';
+    h += '<div class="note">Built from ' + salesFilesFound + ' ASINs with full daily sales history. Months ordered from export month (' + exportMonthName + '). Index above 1.0 = above-average month, below 1.0 = below-average. Used to project 12M units for ASINs without sales history (baseline = 30d ÷ export-month index, then × sum of all 12 indices).</div></div>';
+  }
+
+  // ── Methodology note (auto-generated) ──
+  h += '<div class="note" style="margin-top:18px">';
+  h += '<strong>Data source:</strong> Helium 10 X-Ray (30-day snapshot, ' + exportMonthName + ') + per-ASIN daily sales CSVs. ';
+  if (salesFilesFound > 0) {
+    h += '<strong>Methodology:</strong> ' + salesFilesFound + ' ASINs with sales history \u2014 12M units summed from actual daily data. ';
+    if (salesFilesMissing > 0) {
+      h += salesFilesMissing + ' ASINs without sales files \u2014 projected using category seasonality index (derived from ASINs with data). ';
+    }
+  } else {
+    h += '<strong>Methodology:</strong> 30-day X-Ray \u00d712 flat projection (no sales data available). ';
+  }
+  h += 'Revenue = 12M units \u00d7 listed ASIN price. ';
+  h += totalAsins + ' ASINs across ' + segments.length + ' segments (' + segNames.join(', ') + ').';
+  h += '</div>';
+
+  root.innerHTML = h;
+
+  // ═══ CHART RENDERING ═══
+  Chart.register(ChartDataLabels);
+
+  var PALETTE = ['#2563eb','#dc2626','#16a34a','#d97706','#7c3aed','#0891b2','#ea580c','#059669','#e11d48','#8b5cf6','#94a3b8'];
+
+  function makePie(id, labels, data, colors, fmtLeg, fmtTip) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var total = data.reduce(function(a, b) { return a + b; }, 0);
+    new Chart(el, {
+      type: 'doughnut',
+      data: { labels: labels, datasets: [{ data: data, backgroundColor: colors, borderWidth: 2, borderColor: '#fff' }] },
+      options: {
+        maintainAspectRatio: false, cutout: '48%',
+        plugins: {
+          legend: {
+            position: 'right',
+            labels: {
+              font: { size: 10.5 }, padding: 7, boxWidth: 11, boxHeight: 11,
+              generateLabels: function(chart) {
+                return chart.data.labels.map(function(label, i) {
+                  var val = chart.data.datasets[0].data[i];
+                  var pct = (val / total * 100).toFixed(1);
+                  return { text: label + '  ' + (fmtLeg ? fmtLeg(val) : pct + '%'), fillStyle: colors[i], strokeStyle: colors[i], lineWidth: 0, index: i, hidden: false };
+                });
+              }
+            }
+          },
+          tooltip: { callbacks: { label: function(ctx) { var pct = (ctx.parsed / total * 100).toFixed(1); return fmtTip ? ' ' + fmtTip(ctx.parsed) + ' (' + pct + '%)' : ' ' + pct + '%'; } } },
+          datalabels: {
+            display: function(ctx) { return (ctx.dataset.data[ctx.dataIndex] / total * 100) >= 5; },
+            formatter: function(v) { return (v / total * 100).toFixed(1) + '%'; },
+            color: '#fff', font: { size: 10.5, weight: '700' }
+          }
+        }
+      }
+    });
+  }
+
+  // Segment pies
+  makePie('tmFocusRevPie', segNames, segRevenue, segColors,
+    function(v) { return fmtMoney(v); }, function(v) { return cur + v.toLocaleString(); });
+  makePie('tmFocusUnitsPie', segNames, segUnits, segColors,
+    function(v) { return v.toLocaleString(); }, function(v) { return v.toLocaleString() + ' units'; });
+
+  // Brand pies per segment (from computed data)
+  segments.forEach(function(seg) {
+    var bd = brandsBySegment[seg.name];
+    if (!bd || bd.length === 0) return;
+    var bLabels = bd.map(function(b) { return b.name; });
+    var bColors = bd.map(function(_, i) { return PALETTE[i % PALETTE.length]; });
+
+    makePie('tmBrand' + seg.name.replace(/\s/g,'') + 'UnitPie', bLabels,
+      bd.map(function(b) { return b.units; }), bColors,
+      function(v) { return v.toLocaleString(); }, function(v) { return v.toLocaleString() + ' units'; });
+
+    makePie('tmBrand' + seg.name.replace(/\s/g,'') + 'RevPie', bLabels,
+      bd.map(function(b) { return b.rev; }), bColors,
+      function(v) { return fmtMoney(v); }, function(v) { return cur + v.toLocaleString(); });
+  });
+
+  // Seasonality bar chart
+  if (seasonality && seasonality.orderedIndices) {
+    var seasEl = document.getElementById('tmSeasIdxChart');
+    if (seasEl) {
+      var seasColors = seasonality.orderedIndices.map(function(v) {
+        return v >= 1.15 ? '#16a34a' : v >= 0.95 ? '#3b82f6' : v >= 0.75 ? '#f59e0b' : '#dc2626';
+      });
+      new Chart(seasEl, {
+        type: 'bar',
+        data: {
+          labels: seasonality.orderedMonths,
+          datasets: [{
+            data: seasonality.orderedIndices.map(function(v) { return Math.round(v * 100) / 100; }),
+            backgroundColor: seasColors,
+            borderRadius: 4,
+            borderSkipped: false,
+          }]
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: { callbacks: { label: function(ctx) { return 'Index: ' + ctx.parsed.y.toFixed(2); } } },
+            datalabels: {
+              anchor: 'end', align: 'end',
+              formatter: function(v) { return v.toFixed(2); },
+              font: { size: 10, weight: '600' }, color: '#1e293b'
+            }
+          },
+          layout: { padding: { top: 18 } },
+          scales: {
+            x: { grid: { display: false }, ticks: { font: { size: 11 } } },
+            y: {
+              beginAtZero: true,
+              grid: { color: '#e2e8f0' },
+              ticks: { stepSize: 0.25, font: { size: 10 } },
+              title: { display: true, text: 'Seasonality Index', font: { size: 11 } }
+            }
+          }
+        }
+      });
+    }
+  }
+
+  // Make all tables sortable
+  DataEngine.makeAllTablesSortable(root);
+})();
+</script>

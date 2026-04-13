@@ -1,0 +1,114 @@
+<!-- TopLine Dashboard Template -->
+<div class="dashboard-header">
+  <h2></h2>
+  <span></span>
+</div>
+
+<div class="dashboard-body">
+
+  <!-- KPI Row -->
+  <div class="kpi-row"></div>
+
+  <!-- Revenue & Unit Charts -->
+  <div class="charts-row">
+    <div class="card">
+      <h3 id="tlBarTitle"></h3>
+      <div class="chart-wrap"><canvas id="tlBarChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3 id="tlPieTitle"></h3>
+      <div class="chart-wrap"><canvas id="tlPieChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Marketplace Table -->
+  <div class="card">
+    <h3 id="tlTableTitle"></h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Marketplace</th>
+          <th>Currency</th>
+          <th class="sortable" style="text-align:right" data-sort="units30d">30-Day Units</th>
+          <th style="text-align:right" id="tlMultiplierHeader">Multiplier</th>
+          <th class="sortable" style="text-align:right" data-sort="units12m">12M Units</th>
+          <th class="sortable" style="text-align:right" data-sort="revenue12m">12M Revenue</th>
+          <th class="sortable" style="text-align:right" data-sort="share">Share</th>
+        </tr>
+      </thead>
+      <tbody id="tlTableBody"></tbody>
+    </table>
+  </div>
+
+  <!-- Brand Share Charts -->
+  <div id="tlBrandSection">
+    <div class="charts-row">
+      <div class="card">
+        <h3>Brand Share by Revenue &mdash; 12M</h3>
+        <div class="chart-wrap"><canvas id="tlBrandRevPie"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Brand Share by Units &mdash; 12M</h3>
+        <div class="chart-wrap"><canvas id="tlBrandUnitsPie"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Segment Section (optional — shown if dashboard.json has segments) -->
+  <div id="tlHeatmapSection">
+    <!-- Segment Pie Charts -->
+    <div class="charts-row">
+      <div class="card">
+        <h3>Revenue Share by Segment &mdash; 12M</h3>
+        <div class="chart-wrap"><canvas id="tlSegRevPie"></canvas></div>
+      </div>
+      <div class="card">
+        <h3>Unit Share by Segment &mdash; 12M</h3>
+        <div class="chart-wrap"><canvas id="tlSegUnitsPie"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Revenue Heatmap -->
+    <div class="card">
+      <h3>Revenue by Segment &amp; Marketplace &mdash; 12M</h3>
+      <table class="heatmap" id="tlRevHeatmap">
+        <thead><tr></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div style="margin-top:10px;display:flex;align-items:center;gap:6px;font-size:.68rem;color:#64748b">
+        <span>Low</span>
+        <div style="display:flex;gap:1px">
+          <span style="width:18px;height:10px;background:#eff6ff;border-radius:2px;display:inline-block"></span>
+          <span style="width:18px;height:10px;background:#bfdbfe;border-radius:2px;display:inline-block"></span>
+          <span style="width:18px;height:10px;background:#93c5fd;border-radius:2px;display:inline-block"></span>
+          <span style="width:18px;height:10px;background:#3b82f6;border-radius:2px;display:inline-block"></span>
+          <span style="width:18px;height:10px;background:#1d4ed8;border-radius:2px;display:inline-block"></span>
+        </div>
+        <span>High</span>
+      </div>
+    </div>
+
+    <!-- Units Heatmap -->
+    <div class="card">
+      <h3>Units by Segment &amp; Marketplace &mdash; 12M</h3>
+      <table class="heatmap" id="tlUnitsHeatmap">
+        <thead><tr></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div style="margin-top:10px;display:flex;align-items:center;gap:6px;font-size:.68rem;color:#64748b">
+        <span>Low</span>
+        <div style="display:flex;gap:1px">
+          <span style="width:18px;height:10px;background:#eff6ff;border-radius:2px;display:inline-block"></span>
+          <span style="width:18px;height:10px;background:#bfdbfe;border-radius:2px;display:inline-block"></span>
+          <span style="width:18px;height:10px;background:#93c5fd;border-radius:2px;display:inline-block"></span>
+          <span style="width:18px;height:10px;background:#3b82f6;border-radius:2px;display:inline-block"></span>
+          <span style="width:18px;height:10px;background:#1d4ed8;border-radius:2px;display:inline-block"></span>
+        </div>
+        <span>High</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="note" id="tlNote"></div>
+
+</div>

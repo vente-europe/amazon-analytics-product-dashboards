@@ -1,0 +1,38 @@
+{
+  "name": "Keyword Analysis",
+  "id": "keyword-analysis",
+  "prefix": "kwa",
+  "version": "1.0",
+
+  "dataSources": [
+    { "type": "helium10-niche", "required": true, "description": "Helium 10 Niche export — competitor + keyword ranking data" },
+    { "type": "xray", "required": false, "description": "X-Ray for ASIN metadata enrichment" }
+  ],
+
+  "dataVariable": "KW_ANALYSIS_DATA",
+  "dataKey": "keyword-analysis",
+
+  "requiredFields": [
+    "category",
+    "market",
+    "source",
+    "nicheMedians.price",
+    "nicheMedians.rating",
+    "competitors",
+    "keywords"
+  ],
+
+  "renders": {
+    "kpis": [
+      { "id": "kwaMedianKpi", "label": "Niche Median Price", "field": "nicheMedians.price" },
+      { "id": "kwaRatingKpi", "label": "Niche Median Rating", "field": "nicheMedians.rating" }
+    ],
+    "tables": [
+      { "id": "kwaCompetitorTable", "label": "Competitor Details", "sortable": false, "description": "Horizontal table with product images, price, sales, revenue, rating, reviews, KWs on P1" },
+      { "id": "kwaKeywordTable", "label": "Master Keyword List", "sortable": true, "description": "Keyword × competitor rank matrix with color-coded cells" }
+    ],
+    "charts": []
+  },
+
+  "emptyStateMessage": "No keyword data loaded. Upload a Helium 10 Niche export to populate this tab."
+}

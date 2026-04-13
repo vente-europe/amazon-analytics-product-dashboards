@@ -1,0 +1,29 @@
+{
+  "dashboards": [
+    {
+      "id": "fruit-fly-trap-us",
+      "title": "Fruit Fly Trap \u2014 US",
+      "group": "detailed",
+      "template": "detailed"
+    },
+    {
+      "id": "anti-fungus-nail-polish",
+      "title": "Anti-Fungus Nail Polish",
+      "group": "detailed",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
+      "id": "ants-eu-topline",
+      "title": "Ants \u2014 EU Top Line",
+      "group": "topline",
+      "template": "topline"
+    },
+    {
+      "id": "fruit-flies-other",
+      "title": "Fruit Flies \u2014 International",
+      "group": "topline",
+      "template": "topline"
+    }
+  ]
+}

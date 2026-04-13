@@ -1,0 +1,11 @@
+{
+  "name": "Anti-Fungus Nail Polish",
+  "type": "detailed",
+  "marketplace": "DE",
+  "created": "2026-04-13",
+  "tabs": [
+    { "position": 1, "id": "total-market", "source": "base" },
+    { "position": 2, "id": "market-structure", "source": "base" },
+    { "position": 3, "id": "reviews", "source": "base" }
+  ]
+}

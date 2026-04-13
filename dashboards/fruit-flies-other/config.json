@@ -1,0 +1,71 @@
+{
+  "name": "Fruit Flies International",
+  "type": "topline",
+  "marketplace": "EU",
+  "created": "2026-04-07",
+  "title": "Fruit Fly Traps — International Markets",
+  "subtitle": "12-Month Projection  |  Data: Helium 10 X-Ray (30-day snapshot)",
+  "currency": "€",
+  "seasonality": {
+    "method": "custom",
+    "multiplier": 21,
+    "explanation": "EU & UK markets — Jan–May and Sep–Dec use 30-day data as monthly baseline; Jun–Aug assumed 4× higher (peak season). Total multiplier = 5 + (3 × 4) + 4 = 21 months."
+  },
+  "note": "<strong>Data source:</strong> Helium 10 X-Ray — 30-day snapshot per marketplace. <strong>Methodology:</strong> Custom ×21 multiplier (peak season Jun–Aug at 4×). <strong>FX rate:</strong> GBP → EUR 1.195.",
+  "markets": [
+    {
+      "code": "DE",
+      "flag": "🇩🇪",
+      "name": "Germany (DE)",
+      "color": "#2563eb",
+      "currencyLabel": "EUR",
+      "file": "Fruit_Flies_DE.csv",
+      "fxRate": 1.0
+    },
+    {
+      "code": "UK",
+      "flag": "🇬🇧",
+      "name": "United Kingdom (UK)",
+      "color": "#dc2626",
+      "currencyLabel": "GBP → EUR",
+      "file": "Fruit_Flies_UK.csv",
+      "fxRate": 1.195
+    },
+    {
+      "code": "FR",
+      "flag": "🇫🇷",
+      "name": "France (FR)",
+      "color": "#0891b2",
+      "currencyLabel": "EUR",
+      "file": "Fruit_Flies_FR.csv",
+      "fxRate": 1.0
+    },
+    {
+      "code": "IT",
+      "flag": "🇮🇹",
+      "name": "Italy (IT)",
+      "color": "#7c3aed",
+      "currencyLabel": "EUR",
+      "file": "Fruit_Flies_IT.csv",
+      "fxRate": 1.0
+    },
+    {
+      "code": "ES",
+      "flag": "🇪🇸",
+      "name": "Spain (ES)",
+      "color": "#d97706",
+      "currencyLabel": "EUR",
+      "file": "Fruit_Flies_ES.csv",
+      "fxRate": 1.0
+    },
+    {
+      "code": "NL",
+      "flag": "🇳🇱",
+      "name": "Netherlands (NL)",
+      "color": "#ea580c",
+      "currencyLabel": "EUR",
+      "file": "Fruit_Flies_NL.csv",
+      "fxRate": 1.0
+    }
+  ]
+}

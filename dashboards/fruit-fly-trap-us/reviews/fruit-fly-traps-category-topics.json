@@ -1,0 +1,159 @@
+{
+  "category": "Fruit Fly Traps",
+  "marketplace": "US",
+  "data_source": "Amazon Rufus / Review Summaries (3-star & 4-star focus)",
+  "products_analyzed": [
+    {"asin": "B0D5DJW9BY", "title": "Super Ninja Fruit Fly Traps", "reviews": 13819},
+    {"asin": "B0CJ3Z5TKN", "title": "Fly Away Fruit Fly Liquid Lure", "reviews": 286},
+    {"asin": "B01JIRNEQW", "title": "TERRO T2502 Ready-to-Use Indoor Fruit Fly Trap", "reviews": 68006},
+    {"asin": "B00WMZMHPW", "title": "Aunt Fannie's FlyPunch Fruit Fly Trap", "reviews": 12501},
+    {"asin": "B07V7GC46D", "title": "TERRO Fruit Fly Traps (12 Pack)", "reviews": 652},
+    {"asin": "B0BX4GQF68", "title": "TERRO Fruit Fly Traps", "reviews": 23693},
+    {"asin": "B07VYPGHFW", "title": "TERRO Fruit Fly Traps (variant)", "reviews": 8575, "note": "No Rufus data provided"}
+  ],
+  "total_reviews_in_scope": 127532,
+  "top_10_positive_topics": [
+    {
+      "rank": 1,
+      "topic": "Fast & Effective Fly Catching",
+      "description": "Catches fruit flies quickly, often within 24 hours. Many customers report dramatic reductions in fly populations within days of setup.",
+      "sub_themes": ["catches flies fast", "works within 24h", "eliminates 99% of flies", "dramatic decrease"],
+      "mentioned_in": ["B0D5DJW9BY", "B0CJ3Z5TKN", "B01JIRNEQW", "B0BX4GQF68", "B07V7GC46D"]
+    },
+    {
+      "rank": 2,
+      "topic": "Quick & Easy Setup",
+      "description": "Simple ready-to-use designs requiring minimal effort. Peel-and-stick, pour-and-place, or open-and-set. Under 30 seconds for some products.",
+      "sub_themes": ["easy setup", "ready to use", "simple pour and place", "adhesive backing", "under 30 seconds"],
+      "mentioned_in": ["B0D5DJW9BY", "B01JIRNEQW", "B0BX4GQF68", "B07V7GC46D", "B00WMZMHPW"]
+    },
+    {
+      "rank": 3,
+      "topic": "Safe & Non-Toxic Ingredients",
+      "description": "Natural, food-safe formulas that customers feel comfortable using around kids, pets, and kitchen/food prep areas.",
+      "sub_themes": ["non-toxic", "food safe", "safe around kids and pets", "natural formula"],
+      "mentioned_in": ["B0D5DJW9BY", "B0CJ3Z5TKN"]
+    },
+    {
+      "rank": 4,
+      "topic": "Attractive & Discreet Design",
+      "description": "Products blend into kitchen decor rather than looking like pest control. TERRO's apple shape and Super Ninja's compact size praised for aesthetics.",
+      "sub_themes": ["cute apple design", "blends with kitchen decor", "discreet placement", "compact size", "doesn't look like pest control"],
+      "mentioned_in": ["B01JIRNEQW", "B0BX4GQF68", "B07V7GC46D", "B0D5DJW9BY"]
+    },
+    {
+      "rank": 5,
+      "topic": "Clean & Mess-Free Operation",
+      "description": "No stickiness, no spills, no staining. Contained designs keep the lure inside without leaking or creating cleanup issues.",
+      "sub_themes": ["no mess", "no stickiness", "non-staining formula", "clean operation", "contained design"],
+      "mentioned_in": ["B0D5DJW9BY", "B07V7GC46D", "B0BX4GQF68"]
+    },
+    {
+      "rank": 6,
+      "topic": "No Strong Odor",
+      "description": "Several products praised for having minimal or no noticeable smell, making them suitable for kitchen counters and living spaces.",
+      "sub_themes": ["no strong odor", "little to no smell", "odor neutral"],
+      "mentioned_in": ["B0CJ3Z5TKN", "B07V7GC46D", "B0D5DJW9BY"]
+    },
+    {
+      "rank": 7,
+      "topic": "Good Quality for the Price",
+      "description": "Customers who rate positively feel the product delivers good value — effective results at a reasonable price point.",
+      "sub_themes": ["good price", "great product quality", "worth it"],
+      "mentioned_in": ["B0CJ3Z5TKN", "B0D5DJW9BY"]
+    },
+    {
+      "rank": 8,
+      "topic": "Long-Lasting Lure Formula",
+      "description": "When working as advertised, some lures last 30-45 days per fill, reducing the need for constant replacement.",
+      "sub_themes": ["lasts 45 days", "long lasting", "refresh every 3 weeks"],
+      "mentioned_in": ["B0CJ3Z5TKN", "B01JIRNEQW"]
+    },
+    {
+      "rank": 9,
+      "topic": "Easy to Monitor Progress",
+      "description": "Built-in viewing windows or transparent designs let customers see catches and know the trap is working.",
+      "sub_themes": ["built-in window", "easy to monitor", "see when it's working"],
+      "mentioned_in": ["B01JIRNEQW", "B0BX4GQF68"]
+    },
+    {
+      "rank": 10,
+      "topic": "Convenience Over DIY",
+      "description": "Ready-made traps save time vs homemade vinegar solutions. Appreciated by customers who want a grab-and-go solution.",
+      "sub_themes": ["ready to use", "no mixing needed", "convenient vs homemade"],
+      "mentioned_in": ["B00WMZMHPW", "B01JIRNEQW", "B0BX4GQF68"]
+    }
+  ],
+  "top_10_negative_topics": [
+    {
+      "rank": 1,
+      "topic": "Lure Evaporates Too Fast",
+      "description": "The dominant complaint across the category. Liquid lures dry up far faster than advertised (sometimes 6-7 days vs claimed 45 days), making traps useless prematurely.",
+      "sub_themes": ["dries up fast", "evaporates in a week", "liquid level drops", "much shorter than 45 days", "loses potency over time"],
+      "mentioned_in": ["B01JIRNEQW", "B0BX4GQF68", "B07V7GC46D", "B00WMZMHPW"]
+    },
+    {
+      "rank": 2,
+      "topic": "Overpriced vs DIY Vinegar Traps",
+      "description": "Many customers feel these products are essentially expensive apple cider vinegar in decorative packaging. Homemade alternatives work equally well or better at a fraction of the cost.",
+      "sub_themes": ["expensive vinegar", "DIY works better", "not worth the cost", "homemade traps catch more", "overpriced for what it is"],
+      "mentioned_in": ["B01JIRNEQW", "B00WMZMHPW", "B07V7GC46D", "B0BX4GQF68"]
+    },
+    {
+      "rank": 3,
+      "topic": "Inconsistent & Unreliable Effectiveness",
+      "description": "Results vary widely between customers. Works great for some, catches almost nothing for others. Hit-or-miss performance undermines confidence.",
+      "sub_themes": ["works for some not others", "inconsistent results", "hit or miss", "mixed effectiveness", "minimal catches"],
+      "mentioned_in": ["B0D5DJW9BY", "B01JIRNEQW", "B0BX4GQF68", "B07V7GC46D", "B00WMZMHPW"]
+    },
+    {
+      "rank": 4,
+      "topic": "Doesn't Eliminate Full Infestations",
+      "description": "Traps catch some flies but fail to solve the entire problem. Customers still see fruit flies after days/weeks of use. Works 'to a degree' but not completely.",
+      "sub_themes": ["doesn't eliminate problem", "catches some but not all", "works to a degree", "still have flies"],
+      "mentioned_in": ["B01JIRNEQW", "B0BX4GQF68", "B07V7GC46D", "B00WMZMHPW", "B0D5DJW9BY"]
+    },
+    {
+      "rank": 5,
+      "topic": "Unpleasant Vinegar Smell",
+      "description": "Strong apple cider vinegar odor that fills rooms. Effective at attracting flies but off-putting for household use, especially in kitchens.",
+      "sub_themes": ["strong vinegar smell", "smells like ACV", "unpleasant odor", "fills entire rooms", "tolerable but not pleasant"],
+      "mentioned_in": ["B00WMZMHPW", "B01JIRNEQW", "B0CJ3Z5TKN"]
+    },
+    {
+      "rank": 6,
+      "topic": "Too Small / Limited Catching Capacity",
+      "description": "Products are physically tiny, limiting how many flies they can trap. Small size means they fill up quickly or don't attract flies from a wide enough area.",
+      "sub_themes": ["very small", "tiny but effective", "limited capacity", "doesn't catch a lot due to size"],
+      "mentioned_in": ["B0D5DJW9BY"]
+    },
+    {
+      "rank": 7,
+      "topic": "Slower Results Than Advertised",
+      "description": "Products often promise fast results but take longer than expected. Some customers wait a week or more before seeing meaningful fly reduction.",
+      "sub_themes": ["takes longer than promised", "slow results", "need a week to work", "not as fast as claimed"],
+      "mentioned_in": ["B0D5DJW9BY", "B00WMZMHPW", "B0BX4GQF68"]
+    },
+    {
+      "rank": 8,
+      "topic": "No Refill / Replacement Lure Option",
+      "description": "Customers must buy entirely new traps when the lure runs out. No standalone refill available, increasing ongoing cost and waste.",
+      "sub_themes": ["no refill option", "must buy whole new traps", "wasteful", "can't buy replacement lure"],
+      "mentioned_in": ["B07V7GC46D", "B0BX4GQF68"]
+    },
+    {
+      "rank": 9,
+      "topic": "Frequent Replacement Needed",
+      "description": "Between evaporation and declining effectiveness, traps need replacing far more often than expected, driving up long-term cost.",
+      "sub_themes": ["needs frequent replacement", "costly to maintain", "change every few days", "short effective lifespan"],
+      "mentioned_in": ["B0CJ3Z5TKN", "B01JIRNEQW", "B0BX4GQF68", "B0D5DJW9BY"]
+    },
+    {
+      "rank": 10,
+      "topic": "Hard to Know When to Replace",
+      "description": "Difficulty monitoring trap status — unclear when the lure has lost effectiveness or when the trap is full. No clear indicator for replacement timing.",
+      "sub_themes": ["hard to tell when to replace", "monitoring difficulties", "unclear if still working"],
+      "mentioned_in": ["B07V7GC46D", "B0BX4GQF68"]
+    }
+  ]
+}

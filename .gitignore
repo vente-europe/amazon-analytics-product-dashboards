@@ -1,0 +1,26 @@
+# Build artifacts and intermediate files
+_*.json
+_*.txt
+_*.csv
+**/scripts/_*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Secrets
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

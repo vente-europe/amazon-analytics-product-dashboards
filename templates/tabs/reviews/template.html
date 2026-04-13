@@ -1,0 +1,349 @@
+<!-- Reviews VOC Tab Template -->
+<div id="voc-root"></div>
+
+<script>
+(function vocInit() {
+  var D = window._TAB_DATA;
+  var root = document.getElementById('voc-root');
+
+  console.log('[reviews] _TAB_DATA:', D ? 'exists, totalReviews=' + D.totalReviews : 'NULL');
+  console.log('[reviews] _DASH_DATA:', window._DASH_DATA ? 'exists' : 'NULL');
+  console.log('[reviews] _DASH_DATA.baseTabs.reviews:', window._DASH_DATA && window._DASH_DATA.baseTabs ? (window._DASH_DATA.baseTabs.reviews ? 'exists' : 'NULL') : 'no baseTabs');
+
+  // Fallback: if _TAB_DATA is null, try getting it from _DASH_DATA directly
+  if (!D && window._DASH_DATA && window._DASH_DATA.baseTabs && window._DASH_DATA.baseTabs.reviews) {
+    D = window._DASH_DATA.baseTabs.reviews;
+    console.log('[reviews] Fallback to _DASH_DATA.baseTabs.reviews, totalReviews=' + D.totalReviews);
+  }
+
+  if (!D || !D.totalReviews) {
+    root.innerHTML = '<div class="card"><h3>Reviews</h3><p style="color:#64748b;font-size:.85rem">No review data loaded. Populate <code>baseTabs.reviews</code> in dashboard.json with VOC_DATA structure.</p></div>';
+    return;
+  }
+
+  var STAR_COLORS = { 1: '#dc2626', 2: '#ea580c', 3: '#f59e0b', 4: '#22c55e', 5: '#16a34a' };
+
+  // Bar width helper — must be before HTML building
+  function bw(pctStr, maxPct) {
+    var v = parseFloat(pctStr);
+    return Math.round(v / maxPct * 100) + '%';
+  }
+
+  var h = '';
+
+  // ── KPI ROW ──
+  var total = D.totalReviews;
+  var pos = D.starDist[3] + D.starDist[4];
+  var neg = D.starDist[0] + D.starDist[1] + D.starDist[2];
+  var posPct = (pos / total * 100).toFixed(1);
+  var negPct = (neg / total * 100).toFixed(1);
+  var ratio = neg > 0 ? (pos / neg).toFixed(1) : 'N/A';
+
+  h += '<div class="kpis">';
+  h += '<div class="kpi"><div class="kpi-v">' + total.toLocaleString() + '</div><div class="kpi-l">Total Reviews</div></div>';
+  h += '<div class="kpi"><div class="kpi-v">' + ratio + ' : 1</div><div class="kpi-l">Sentiment Ratio (pos:neg)</div></div>';
+  h += '<div class="kpi"><div class="kpi-v" style="color:#16a34a">' + posPct + '%</div><div class="kpi-l">Positive (4\u2605+5\u2605)</div></div>';
+  h += '<div class="kpi"><div class="kpi-v" style="color:#dc2626">' + negPct + '%</div><div class="kpi-l">Negative (1\u2605\u20133\u2605)</div></div>';
+  h += '</div>';
+
+  // ── Star Distribution Bar ──
+  var dist = D.starDist;
+  h += '<div class="card" style="padding:12px 16px;margin-bottom:20px">';
+  h += '<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">';
+  h += '<div style="font-size:.78rem;font-weight:600;color:#475569;white-space:nowrap">Star Distribution</div>';
+  h += '<div style="font-size:1.1rem;font-weight:800;color:#0f2942">' + D.avgRating.toFixed(2) + ' <span style="font-size:.7rem;font-weight:400;color:#64748b">avg</span></div>';
+  h += '<div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;min-width:200px">';
+  dist.forEach(function(count, i) {
+    var star = i + 1;
+    var pct = (count / total * 100).toFixed(1);
+    h += '<div style="width:' + pct + '%;background:' + STAR_COLORS[star] + ';display:flex;align-items:center;justify-content:center;color:#fff;font-size:.68rem;font-weight:600">' + (parseFloat(pct) >= 5 ? pct + '%' : '') + '</div>';
+  });
+  h += '</div>';
+  h += '<div style="display:flex;gap:10px;flex-wrap:wrap;font-size:.68rem;color:#475569">';
+  dist.forEach(function(count, i) {
+    h += '<span><span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:' + STAR_COLORS[i+1] + ';margin-right:3px"></span>' + (i+1) + '\u2605 ' + count + '</span>';
+  });
+  h += '</div></div></div>';
+
+  // ── Sub-tab bar ──
+  h += '<div class="voc-sub-tabs">';
+  h += '<div class="voc-sub-tab active" data-panel="voc-ci">Customer Insights</div>';
+  h += '<div class="voc-sub-tab" data-panel="voc-ca">Review Browser</div>';
+  h += '</div>';
+
+  // ══════════ SUB-PANEL: Customer Insights ══════════
+  h += '<div id="voc-ci" class="voc-sub-panel active">';
+
+  // Anchor navigation
+  h += '<div class="voc-anchor-nav">';
+  h += '<a href="#voc-sec-cp" class="active" data-target="voc-sec-cp">Customer Profile</a>';
+  h += '<a href="#voc-sec-us" data-target="voc-sec-us">Usage Scenario</a>';
+  h += '<a href="#voc-sec-cs" data-target="voc-sec-cs">Customer Sentiment</a>';
+  h += '<a href="#voc-sec-bm" data-target="voc-sec-bm">Buyers Motivation</a>';
+  h += '<a href="#voc-sec-ce" data-target="voc-sec-ce">Customer Expectations</a>';
+  h += '</div>';
+
+  // ── Customer Profile ──
+  h += '<div id="voc-sec-cp">';
+  h += '<div class="sec-header"><div class="sec-title">Customer Profile</div></div>';
+  if (D.cpSummary) h += '<div class="sec-summary">' + D.cpSummary + '</div>';
+  h += '<div class="cp-charts">';
+  h += '<div class="cp-chart-box"><h4>Who</h4><div class="cp-chart-wrap"><canvas id="vocCpWho"></canvas></div></div>';
+  h += '<div class="cp-chart-box"><h4>When</h4><div class="cp-chart-wrap"><canvas id="vocCpWhen"></canvas></div></div>';
+  h += '<div class="cp-chart-box"><h4>Where</h4><div class="cp-chart-wrap"><canvas id="vocCpWhere"></canvas></div></div>';
+  h += '<div class="cp-chart-box"><h4>What</h4><div class="cp-chart-wrap"><canvas id="vocCpWhat"></canvas></div></div>';
+  h += '</div>';
+  h += '<div class="cp-legend">\u25A0 reviews 4-5 stars \u00b7 <span style="color:#ef4444">\u25A0</span> reviews 1-3 stars</div>';
+  h += '</div>';
+
+  // ── Usage Scenario ──
+  h += '<div id="voc-sec-us" style="margin-top:36px">';
+  h += '<div class="sec-header"><div class="sec-title">Usage Scenario</div></div>';
+  h += '<div class="card" style="padding:0;overflow:hidden"><table class="us-table"><thead><tr><th style="width:22%">Usage Scenario</th><th>Reason</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody>';
+  if (D.usageScenarios) {
+    var usMax = parseFloat(D.usageScenarios[0].pct);
+    D.usageScenarios.forEach(function(s) {
+      h += '<tr><td class="us-label">' + s.label + '</td><td class="us-reason">' + s.reason + '</td>';
+      h += '<td class="us-pct"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(s.pct, usMax) + '"></div></div><span>' + s.pct + '</span></td></tr>';
+    });
+  }
+  h += '</tbody></table></div></div>';
+
+  // ── Customer Sentiment ──
+  h += '<div id="voc-sec-cs" style="margin-top:36px">';
+  h += '<div class="sec-header"><div class="sec-title">Customer Sentiment</div></div>';
+  if (D.csSummary) h += '<div class="sec-summary">' + D.csSummary + '</div>';
+
+  // Negative zone
+  h += '<div class="cs-neg-zone">';
+  h += '<div class="card" style="padding:0;overflow:hidden;border:1.5px solid #fecaca"><table class="us-table"><thead><tr style="background:#fef2f2"><th style="width:22%;border-left:3px solid #dc2626">Negative Feedback Topic</th><th>Reasons for Negative Feedback</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody id="vocNegBody"></tbody></table></div>';
+  // Negative insights
+  h += '<div class="card" style="margin-top:22px;border:1.5px solid #fca5a5"><div class="sec-header" style="margin-bottom:10px"><div class="sec-title">Negative Review Insights \u2014 Strategy</div></div>';
+  h += '<table class="si-table"><thead><tr><th style="width:130px">Analysis Type</th><th>Finding (from 1\u2605+2\u2605 reviews)</th><th>Strategic Implication</th></tr></thead><tbody id="vocNegInsights"></tbody></table></div>';
+  h += '</div>';
+
+  // Positive zone
+  h += '<div class="cs-pos-zone">';
+  h += '<div class="card" style="padding:0;overflow:hidden;border:1.5px solid #bbf7d0"><table class="us-table"><thead><tr style="background:#f0fdf4"><th style="width:22%;border-left:3px solid #16a34a">Positive Feedback Topic</th><th>Reasons for Positive Feedback</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody id="vocPosBody"></tbody></table></div>';
+  // Positive insights
+  h += '<div class="card" style="margin-top:22px"><div class="sec-header" style="margin-bottom:10px"><div class="sec-title">Positive Review Insights \u2014 Strategy</div></div>';
+  h += '<table class="si-table"><thead><tr><th style="width:130px">Analysis Type</th><th>Finding (from 4\u2605+5\u2605 reviews)</th><th>Strategic Implication</th></tr></thead><tbody id="vocPosInsights"></tbody></table></div>';
+  h += '</div>';
+  h += '</div>'; // end sec-cs
+
+  // ── Buyers Motivation ──
+  h += '<div id="voc-sec-bm" style="margin-top:36px">';
+  h += '<div class="sec-header"><div class="sec-title">Buyers Motivation</div></div>';
+  h += '<div class="card" style="padding:0;overflow:hidden"><table class="us-table"><thead><tr><th style="width:22%">Buyers Motivation</th><th>Reason</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody>';
+  if (D.buyersMotivation) {
+    var bmMax = parseFloat(D.buyersMotivation[0].pct);
+    D.buyersMotivation.forEach(function(m) {
+      h += '<tr><td class="us-label">' + m.label + '</td><td class="us-reason">' + m.reason + '</td>';
+      h += '<td class="us-pct"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(m.pct, bmMax) + '"></div></div><span>' + m.pct + '</span></td></tr>';
+    });
+  }
+  h += '</tbody></table></div></div>';
+
+  // ── Customer Expectations ──
+  h += '<div id="voc-sec-ce" style="margin-top:36px">';
+  h += '<div class="sec-header"><div class="sec-title">Customer Expectations</div></div>';
+  h += '<div class="card" style="padding:0;overflow:hidden"><table class="us-table"><thead><tr><th style="width:22%">Unmet Need</th><th>Reason</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody>';
+  if (D.customerExpectations) {
+    var ceMax = parseFloat(D.customerExpectations[0].pct);
+    D.customerExpectations.forEach(function(e) {
+      h += '<tr><td class="us-label">' + e.label + '</td><td class="us-reason">' + e.reason + '</td>';
+      h += '<td class="us-pct"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(e.pct, ceMax) + '"></div></div><span>' + e.pct + '</span></td></tr>';
+    });
+  }
+  h += '</tbody></table></div></div>';
+
+  h += '</div>'; // end voc-ci
+
+  // ══════════ SUB-PANEL: Review Browser ══════════
+  h += '<div id="voc-ca" class="voc-sub-panel">';
+  h += '<div class="card"><h3>Review Browser <span style="font-size:.72rem;font-weight:400;color:#64748b;margin-left:8px">Filter by rating, theme, or keyword</span></h3>';
+  h += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">';
+  h += '<select id="vocFilterRating" style="font-size:.73rem;border:1.5px solid #cbd5e1;border-radius:5px;padding:4px 8px;background:#fff"><option value="">All Ratings</option><option value="1">1\u2605</option><option value="2">2\u2605</option><option value="3">3\u2605</option><option value="4">4\u2605</option><option value="5">5\u2605</option></select>';
+  h += '<select id="vocFilterTheme" style="font-size:.73rem;border:1.5px solid #cbd5e1;border-radius:5px;padding:4px 8px;background:#fff"></select>';
+  h += '<input id="vocFilterSearch" placeholder="Search keyword..." style="font-size:.73rem;border:1.5px solid #cbd5e1;border-radius:5px;padding:4px 8px;width:160px">';
+  h += '<button id="vocClearBtn" style="font-size:.73rem;border:1.5px solid #cbd5e1;border-radius:5px;padding:4px 10px;background:#f8fafc;cursor:pointer">Clear</button>';
+  h += '</div>';
+  h += '<div id="vocResultCount" style="font-size:.72rem;color:#64748b;margin-bottom:6px"></div>';
+  h += '<div class="tbl-wrap" style="max-height:520px"><table><thead><tr><th style="width:40px">\u2605</th><th>Review</th></tr></thead><tbody id="vocReviewBody"></tbody></table></div>';
+  h += '</div></div>';
+
+  root.innerHTML = h;
+
+  // ══════════ RENDERING ══════════
+  Chart.register(ChartDataLabels);
+
+  // ── Sub-tab switching ──
+  root.querySelectorAll('.voc-sub-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      root.querySelectorAll('.voc-sub-tab').forEach(function(t) { t.classList.remove('active'); });
+      root.querySelectorAll('.voc-sub-panel').forEach(function(p) { p.classList.remove('active'); });
+      tab.classList.add('active');
+      var panel = document.getElementById(tab.dataset.panel);
+      if (panel) panel.classList.add('active');
+      Object.values(Chart.instances).forEach(function(c) { c.resize(); });
+    });
+  });
+
+  // ── Anchor scroll ──
+  root.querySelectorAll('.voc-anchor-nav a').forEach(function(a) {
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      var target = document.getElementById(a.dataset.target);
+      if (target) {
+        var y = target.getBoundingClientRect().top + window.pageYOffset - 90;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+      root.querySelectorAll('.voc-anchor-nav a').forEach(function(x) { x.classList.remove('active'); });
+      a.classList.add('active');
+    });
+  });
+
+  // ── Customer Profile stacked bars ──
+  function makeStackedBar(canvasId, data) {
+    var ctx = document.getElementById(canvasId);
+    if (!ctx || !data) return;
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: data.labels,
+        datasets: [
+          { label: '4-5 stars', data: data.pos, backgroundColor: '#22c55e', borderRadius: { topLeft: 3, topRight: 3 }, barPercentage: 0.7 },
+          { label: '1-3 stars', data: data.neg.map(function(v) { return -v; }), backgroundColor: '#ef4444', borderRadius: { bottomLeft: 3, bottomRight: 3 }, barPercentage: 0.7 }
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { display: false }, datalabels: { display: false },
+          tooltip: { callbacks: { label: function(ctx) { return ctx.dataset.label + ': ' + Math.abs(ctx.raw); } } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 10 }, color: '#64748b', maxRotation: 35 } },
+          y: { grid: { color: '#f1f5f9', drawBorder: false }, ticks: { font: { size: 10 }, color: '#94a3b8', callback: function(v) { return Math.abs(v); } } }
+        }
+      }
+    });
+  }
+  if (D.cpWho) makeStackedBar('vocCpWho', D.cpWho);
+  if (D.cpWhen) makeStackedBar('vocCpWhen', D.cpWhen);
+  if (D.cpWhere) makeStackedBar('vocCpWhere', D.cpWhere);
+  if (D.cpWhat) makeStackedBar('vocCpWhat', D.cpWhat);
+
+  // ── Negative topics (expandable rows) ──
+  if (D.negativeTopics) {
+    var negMax = parseFloat(D.negativeTopics[0].pct);
+    var negHtml = '';
+    D.negativeTopics.forEach(function(t) {
+      var bullets = (t.bullets || []).map(function(b) { return '<li>' + b + '</li>'; }).join('');
+      var quotes = (t.quotes || []).map(function(q) { return '<p>' + q + '</p>'; }).join('');
+      negHtml += '<tr class="nf-row" style="cursor:pointer"><td class="us-label"><span class="nf-arrow">\u25B6</span> ' + t.label + '</td>';
+      negHtml += '<td class="us-reason">' + t.reason + '</td>';
+      negHtml += '<td class="us-pct"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(t.pct, negMax) + ';background:#fca5a5"></div></div><span>' + t.pct + '</span></td></tr>';
+      negHtml += '<tr class="nf-detail"><td colspan="3"><div class="nf-body"><ul>' + bullets + '</ul><div class="nf-quotes">' + quotes + '</div></div></td></tr>';
+    });
+    document.getElementById('vocNegBody').innerHTML = negHtml;
+  }
+
+  // ── Negative insights ──
+  if (D.negativeInsights) {
+    document.getElementById('vocNegInsights').innerHTML = D.negativeInsights.map(function(i) {
+      return '<tr><td><span class="si-badge" style="background:' + i.badgeBg + ';color:' + i.badgeColor + '">' + i.type + '</span></td><td>' + i.finding + '</td><td>' + i.implication + '</td></tr>';
+    }).join('');
+  }
+
+  // ── Positive topics (expandable rows) ──
+  if (D.positiveTopics) {
+    var posMax = parseFloat(D.positiveTopics[0].pct);
+    var posHtml = '';
+    D.positiveTopics.forEach(function(t) {
+      var bullets = (t.bullets || []).map(function(b) { return '<li>' + b + '</li>'; }).join('');
+      var quotes = (t.quotes || []).map(function(q) { return '<p>' + q + '</p>'; }).join('');
+      posHtml += '<tr class="pf-row" style="cursor:pointer"><td class="us-label"><span class="pf-arrow">\u25B6</span> ' + t.label + '</td>';
+      posHtml += '<td class="us-reason">' + t.reason + '</td>';
+      posHtml += '<td class="us-pct"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(t.pct, posMax) + ';background:#86efac"></div></div><span>' + t.pct + '</span></td></tr>';
+      posHtml += '<tr class="pf-detail"><td colspan="3"><div class="pf-body"><ul>' + bullets + '</ul><div class="pf-quotes">' + quotes + '</div></div></td></tr>';
+    });
+    document.getElementById('vocPosBody').innerHTML = posHtml;
+  }
+
+  // ── Positive insights ──
+  if (D.positiveInsights) {
+    document.getElementById('vocPosInsights').innerHTML = D.positiveInsights.map(function(i) {
+      return '<tr><td><span class="si-badge" style="background:' + i.badgeBg + ';color:' + i.badgeColor + '">' + i.type + '</span></td><td>' + i.finding + '</td><td>' + i.implication + '</td></tr>';
+    }).join('');
+  }
+
+  // ── Toggle expandable rows ──
+  root.querySelectorAll('.nf-row').forEach(function(row) {
+    row.addEventListener('click', function() {
+      var detail = row.nextElementSibling;
+      var isOpen = row.classList.contains('open');
+      root.querySelectorAll('.nf-row.open').forEach(function(r) { r.classList.remove('open'); r.nextElementSibling.classList.remove('open'); });
+      if (!isOpen) { row.classList.add('open'); detail.classList.add('open'); }
+    });
+  });
+  root.querySelectorAll('.pf-row').forEach(function(row) {
+    row.addEventListener('click', function() {
+      var detail = row.nextElementSibling;
+      var isOpen = row.classList.contains('open');
+      root.querySelectorAll('.pf-row.open').forEach(function(r) { r.classList.remove('open'); r.nextElementSibling.classList.remove('open'); });
+      if (!isOpen) { row.classList.add('open'); detail.classList.add('open'); }
+    });
+  });
+
+  // ── Review Browser ──
+  if (D.themeFilters) {
+    document.getElementById('vocFilterTheme').innerHTML = D.themeFilters.map(function(f) {
+      return '<option value="' + f.value + '">' + f.label + '</option>';
+    }).join('');
+  }
+
+  var reviews = D.reviews || [];
+
+  function vocFilter() {
+    var rating = document.getElementById('vocFilterRating').value;
+    var theme = document.getElementById('vocFilterTheme').value;
+    var search = (document.getElementById('vocFilterSearch').value || '').toLowerCase();
+    var filtered = reviews.filter(function(r) {
+      if (rating && r.r != rating) return false;
+      if (theme && r.tags.indexOf(theme) === -1) return false;
+      if (search && r.t.toLowerCase().indexOf(search) === -1) return false;
+      return true;
+    });
+    document.getElementById('vocResultCount').textContent = 'Showing ' + filtered.length + ' of ' + reviews.length + ' reviews';
+    var html = '';
+    var limit = Math.min(filtered.length, 200);
+    for (var i = 0; i < limit; i++) {
+      var r = filtered[i];
+      var starHtml = '<span style="color:' + STAR_COLORS[r.r] + ';font-weight:700">' + r.r + '\u2605</span>';
+      var tagsHtml = (r.tags || []).map(function(t) {
+        return '<span class="pill ' + ((D.tagStyles && D.tagStyles[t]) || 'pill-blue') + '">' + t.replace(/_/g, ' ') + '</span>';
+      }).join('');
+      html += '<tr><td>' + starHtml + '</td><td><div class="review-text">' + r.t.replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</div>' +
+        (tagsHtml ? '<div style="margin-top:4px">' + tagsHtml + '</div>' : '') + '</td></tr>';
+    }
+    if (filtered.length > 200) html += '<tr><td colspan="2" style="text-align:center;color:#64748b;font-size:.72rem;padding:12px">Showing first 200 of ' + filtered.length + '. Use filters to narrow.</td></tr>';
+    document.getElementById('vocReviewBody').innerHTML = html;
+  }
+
+  document.getElementById('vocFilterRating').addEventListener('change', vocFilter);
+  document.getElementById('vocFilterTheme').addEventListener('change', vocFilter);
+  document.getElementById('vocFilterSearch').addEventListener('input', vocFilter);
+  document.getElementById('vocClearBtn').addEventListener('click', function() {
+    document.getElementById('vocFilterRating').value = '';
+    document.getElementById('vocFilterTheme').value = '';
+    document.getElementById('vocFilterSearch').value = '';
+    vocFilter();
+  });
+
+  vocFilter();
+
+  // Make tables sortable
+  DataEngine.makeAllTablesSortable(root);
+})();
+</script>

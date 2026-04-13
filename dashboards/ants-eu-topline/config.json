@@ -1,0 +1,62 @@
+{
+  "name": "Ants EU Top Line",
+  "type": "topline",
+  "marketplace": "EU",
+  "created": "2026-04-07",
+  "title": "Ant Control — EU Markets Top Line",
+  "subtitle": "12-Month Projection  |  Data: Helium 10 X-Ray (30-day snapshot)",
+  "currency": "€",
+  "seasonality": {
+    "method": "flat",
+    "multiplier": 12,
+    "explanation": "30-day figures × 12 = annual projection. No seasonal adjustment applied."
+  },
+  "note": "<strong>Data source:</strong> Helium 10 X-Ray — 30-day snapshot per marketplace. Only ASINs tagged as Ant products included. <strong>Methodology:</strong> 30-day units (derived from Revenue ÷ Price) × 12 = annual projection. <strong>FX rate:</strong> GBP → EUR 1.195.",
+  "markets": [
+    {
+      "code": "UK",
+      "flag": "🇬🇧",
+      "name": "United Kingdom (UK)",
+      "color": "#dc2626",
+      "currencyLabel": "GBP → EUR",
+      "file": "Ants - UK - X-Ray.csv",
+      "fxRate": 1.195
+    },
+    {
+      "code": "DE",
+      "flag": "🇩🇪",
+      "name": "Germany (DE)",
+      "color": "#2563eb",
+      "currencyLabel": "EUR",
+      "file": "Ants -DE - X-Ray.csv",
+      "fxRate": 1.0
+    },
+    {
+      "code": "FR",
+      "flag": "🇫🇷",
+      "name": "France (FR)",
+      "color": "#0891b2",
+      "currencyLabel": "EUR",
+      "file": "Ants - FR - X-Ray.csv",
+      "fxRate": 1.0
+    },
+    {
+      "code": "ES",
+      "flag": "🇪🇸",
+      "name": "Spain (ES)",
+      "color": "#d97706",
+      "currencyLabel": "EUR",
+      "file": "Ants - ES - X-Ray.csv",
+      "fxRate": 1.0
+    },
+    {
+      "code": "IT",
+      "flag": "🇮🇹",
+      "name": "Italy (IT)",
+      "color": "#7c3aed",
+      "currencyLabel": "EUR",
+      "file": "Ants - IT - X-Ray.csv",
+      "fxRate": 1.0
+    }
+  ]
+}

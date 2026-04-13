@@ -1,0 +1,5 @@
+{
+  "name": "Amazon Product Analytics Dashboard",
+  "description": "A multi-tab dashboard system for analyzing Amazon products across different markets with consistent templating.",
+  "requestFramePermissions": []
+}

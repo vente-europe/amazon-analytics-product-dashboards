@@ -1,0 +1,245 @@
+<!-- Marketing Deep-Dive Tab Template -->
+<div id="mdd-root"></div>
+
+<style>
+  #mdd-root .mdd-section { margin-bottom: 32px; }
+  #mdd-root .mdd-sec-header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 12px; }
+  #mdd-root .mdd-sec-title { font-size: 1.05rem; font-weight: 700; color: #0f172a; }
+  #mdd-root .mdd-sec-sub { font-size: .72rem; color: #64748b; }
+
+  /* Competitor grid */
+  #mdd-root .mdd-comp-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:14px; }
+  #mdd-root .mdd-comp-card { background:#fff; border:1px solid #e2e8f0; border-radius:8px; padding:12px; display:flex; flex-direction:column; gap:8px; transition: box-shadow .15s; cursor:pointer; }
+  #mdd-root .mdd-comp-card:hover { box-shadow: 0 4px 12px rgba(15,42,66,.08); border-color:#cbd5e1; }
+  #mdd-root .mdd-comp-img { width:100%; height:140px; background:#f8fafc; border-radius:6px; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+  #mdd-root .mdd-comp-img img { max-width:100%; max-height:100%; object-fit:contain; }
+  #mdd-root .mdd-comp-brand { font-size:.7rem; font-weight:700; color:#475569; text-transform:uppercase; letter-spacing:.04em; }
+  #mdd-root .mdd-comp-title { font-size:.74rem; color:#1e293b; line-height:1.35; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  #mdd-root .mdd-comp-meta { display:flex; flex-wrap:wrap; gap:6px 10px; font-size:.68rem; color:#64748b; margin-top:auto; }
+  #mdd-root .mdd-comp-meta b { color:#0f172a; }
+  #mdd-root .mdd-comp-themes { display:flex; flex-wrap:wrap; gap:3px; }
+  #mdd-root .mdd-theme-pill { font-size:.6rem; padding:2px 6px; border-radius:10px; background:#eff6ff; color:#1e40af; font-weight:600; }
+
+  /* Claims matrix */
+  #mdd-root .mdd-matrix-wrap { overflow-x:auto; border:1px solid #e2e8f0; border-radius:8px; }
+  #mdd-root table.mdd-matrix { width:100%; border-collapse:collapse; font-size:.72rem; }
+  #mdd-root table.mdd-matrix th, #mdd-root table.mdd-matrix td { padding:8px 6px; border-bottom:1px solid #f1f5f9; text-align:center; }
+  #mdd-root table.mdd-matrix th { background:#f8fafc; font-weight:600; color:#475569; font-size:.65rem; text-transform:uppercase; letter-spacing:.03em; position:sticky; top:0; z-index:1; }
+  #mdd-root table.mdd-matrix th.mdd-row-h, #mdd-root table.mdd-matrix td.mdd-row-h { text-align:left; font-weight:600; color:#0f172a; min-width:140px; position:sticky; left:0; background:#fff; z-index:2; border-right:1px solid #e2e8f0; }
+  #mdd-root table.mdd-matrix th.mdd-row-h { background:#f8fafc; z-index:3; }
+  #mdd-root .mdd-cell-yes,
+  #mdd-root .mdd-cell-no { display:inline-block; width:18px; height:18px; border-radius:50%; vertical-align:middle; }
+  #mdd-root .mdd-cell-yes { background:#16a34a; }
+  #mdd-root .mdd-cell-no { background:#e5e7eb; }
+
+  /* Claims summary bars */
+  #mdd-root .mdd-bar-row { display:grid; grid-template-columns:160px 1fr 60px; gap:10px; align-items:center; padding:6px 0; font-size:.74rem; }
+  #mdd-root .mdd-bar-track { background:#f1f5f9; height:14px; border-radius:7px; overflow:hidden; }
+  #mdd-root .mdd-bar-fill { height:100%; background:linear-gradient(90deg,#3b82f6,#1e40af); border-radius:7px; }
+  #mdd-root .mdd-bar-row .mdd-brands { font-size:.66rem; color:#64748b; margin-left:170px; margin-bottom:4px; }
+
+  /* VOC gap table */
+  #mdd-root table.mdd-gap { width:100%; border-collapse:collapse; font-size:.74rem; background:#fff; border:1px solid #e2e8f0; border-radius:8px; overflow:hidden; }
+  #mdd-root table.mdd-gap th, #mdd-root table.mdd-gap td { padding:10px 12px; border-bottom:1px solid #f1f5f9; text-align:left; vertical-align:top; }
+  #mdd-root table.mdd-gap th { background:#f8fafc; font-size:.66rem; font-weight:600; color:#475569; text-transform:uppercase; letter-spacing:.03em; }
+  #mdd-root .mdd-sev { display:inline-block; padding:2px 8px; border-radius:10px; font-size:.62rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em; }
+  #mdd-root .mdd-sev-HIGH { background:#fee2e2; color:#991b1b; }
+  #mdd-root .mdd-sev-MEDIUM { background:#fef3c7; color:#92400e; }
+  #mdd-root .mdd-sev-LOW { background:#dcfce7; color:#166534; }
+
+  /* Whitespace + saturation grid */
+  #mdd-root .mdd-ws-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px; }
+  #mdd-root .mdd-ws-card { background:#fff; border:1px solid #e2e8f0; border-radius:8px; padding:14px; }
+  #mdd-root .mdd-ws-card h4 { margin:0 0 6px; font-size:.85rem; color:#0f172a; }
+  #mdd-root .mdd-ws-rationale { font-size:.74rem; color:#475569; line-height:1.45; }
+  #mdd-root .mdd-ws-evidence { font-size:.68rem; color:#64748b; margin-top:8px; padding-top:8px; border-top:1px dashed #e2e8f0; }
+
+  /* Strategic insights */
+  #mdd-root .mdd-insight-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:12px; }
+  #mdd-root .mdd-insight-card { background:#fff; border:1px solid #e2e8f0; border-radius:8px; padding:14px; }
+  #mdd-root .mdd-insight-badge { display:inline-block; padding:3px 10px; border-radius:10px; font-size:.62rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em; margin-bottom:8px; }
+  #mdd-root .mdd-insight-card h4 { margin:0 0 6px; font-size:.78rem; color:#0f172a; line-height:1.4; }
+  #mdd-root .mdd-insight-card p { margin:6px 0 0; font-size:.72rem; color:#475569; line-height:1.5; }
+
+  /* Modal for deep card */
+  #mdd-modal { display:none; position:fixed; inset:0; background:rgba(15,42,66,.7); z-index:1000; align-items:flex-start; justify-content:center; padding:40px 20px; overflow-y:auto; }
+  #mdd-modal.open { display:flex; }
+  #mdd-modal .mdd-modal-body { background:#fff; max-width:1000px; width:100%; border-radius:10px; padding:24px; max-height:calc(100vh - 80px); overflow-y:auto; }
+  #mdd-modal .mdd-modal-close { float:right; cursor:pointer; font-size:1.4rem; color:#64748b; line-height:1; padding:4px 8px; }
+  #mdd-modal .mdd-modal-close:hover { color:#0f172a; }
+  #mdd-modal .mdd-modal-imgs { display:grid; grid-template-columns:repeat(auto-fill,minmax(120px,1fr)); gap:10px; margin:16px 0; }
+  #mdd-modal .mdd-modal-imgs img { width:100%; aspect-ratio:1; object-fit:contain; background:#f8fafc; border-radius:6px; border:1px solid #e2e8f0; }
+  #mdd-modal .mdd-bullets { list-style:none; padding:0; margin:0; }
+  #mdd-modal .mdd-bullets li { padding:8px 12px; background:#f8fafc; border-left:3px solid #3b82f6; margin-bottom:6px; font-size:.78rem; line-height:1.5; color:#1e293b; border-radius:0 6px 6px 0; }
+</style>
+
+<script>
+(function mddInit() {
+  var D = window._TAB_DATA;
+  var root = document.getElementById('mdd-root');
+  if (!D || !D.competitors) {
+    root.innerHTML = '<div class="card"><h3>Marketing Deep-Dive</h3><p style="color:#64748b;font-size:.85rem">No data loaded. Drop competitor listings into <code>data/competitor-listings/raw/</code> and run <code>scripts/build_mdd.py</code>.</p></div>';
+    return;
+  }
+
+  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function fmtMoney(n) { return D.currency + Number(n || 0).toFixed(0); }
+
+  var h = '';
+  // Intro
+  h += '<p class="sec-summary" style="margin-bottom:24px">Marketing intelligence across <b>' + D.totalCompetitors + ' top competitors</b> on <b>' + esc(D.marketplace) + '</b>. Listings pulled from SP-API Catalog. Claims tagged across 10 themes and cross-referenced with VOC findings from Tab 3 Reviews.</p>';
+
+  /* ─────────────── 1. Competitor Overview Grid ─────────────── */
+  h += '<div class="mdd-section">';
+  h += '<div class="mdd-sec-header"><div class="mdd-sec-title">1. Competitor Overview — Top ' + D.totalCompetitors + ' by 30d Revenue</div><div class="mdd-sec-sub">Click a card to see full bullets, claims, and image stack</div></div>';
+  h += '<div class="mdd-comp-grid">';
+  D.competitors.forEach(function(c, idx) {
+    h += '<div class="mdd-comp-card" data-idx="' + idx + '">';
+    h += '  <div class="mdd-comp-img">' + (c.mainImage ? '<img src="' + esc(c.mainImage) + '" alt="">' : '<span style="color:#cbd5e1;font-size:.7rem">no image</span>') + '</div>';
+    h += '  <div class="mdd-comp-brand">' + esc(c.brand) + '</div>';
+    h += '  <div class="mdd-comp-title">' + esc(c.title) + '</div>';
+    h += '  <div class="mdd-comp-themes">';
+    c.themes.forEach(function(t) {
+      h += '<span class="mdd-theme-pill">' + esc(t.replace(/_/g, ' ')) + '</span>';
+    });
+    h += '  </div>';
+    h += '  <div class="mdd-comp-meta">';
+    h += '    <span><b>' + fmtMoney(c.price) + '</b> price</span>';
+    h += '    <span><b>★' + (c.rating || 0).toFixed(1) + '</b> · ' + (c.reviews || 0).toLocaleString() + '</span>';
+    h += '    <span><b>' + fmtMoney(c.rev30d) + '</b> 30d rev</span>';
+    h += '  </div>';
+    h += '</div>';
+  });
+  h += '</div></div>';
+
+  /* ─────────────── 2. Claims Matrix ─────────────── */
+  var cm = D.claimsMatrix;
+  h += '<div class="mdd-section">';
+  h += '<div class="mdd-sec-header"><div class="mdd-sec-title">2. Claims Matrix</div><div class="mdd-sec-sub">Rows = competitors, columns = claim themes. Filled = theme present in title/bullets.</div></div>';
+  h += '<div class="mdd-matrix-wrap"><table class="mdd-matrix">';
+  h += '<thead><tr><th class="mdd-row-h">Brand · ASIN</th>';
+  cm.themes.forEach(function(t) { h += '<th>' + esc(t.label) + '</th>'; });
+  h += '</tr></thead><tbody>';
+  cm.rows.forEach(function(r) {
+    h += '<tr><td class="mdd-row-h">' + esc(r.brand) + '<br><span style="font-weight:400;color:#94a3b8;font-size:.62rem">' + esc(r.asin) + '</span></td>';
+    r.cells.forEach(function(c) {
+      h += '<td>' + (c ? '<span class="mdd-cell-yes"></span>' : '<span class="mdd-cell-no"></span>') + '</td>';
+    });
+    h += '</tr>';
+  });
+  h += '</tbody></table></div>';
+
+  /* Claims summary bars */
+  h += '<div style="margin-top:20px"><div class="mdd-sec-sub" style="margin-bottom:8px">Claim frequency across all 20 listings</div>';
+  D.claimsSummary.forEach(function(s) {
+    h += '<div class="mdd-bar-row">';
+    h += '  <div style="font-weight:600;color:#1e293b">' + esc(s.label) + '</div>';
+    h += '  <div class="mdd-bar-track"><div class="mdd-bar-fill" style="width:' + s.pct + '"></div></div>';
+    h += '  <div style="text-align:right;color:#475569"><b>' + s.count + '</b> · ' + s.pct + '</div>';
+    h += '</div>';
+    h += '<div class="mdd-brands">Top brands: ' + s.topBrands.map(esc).join(' · ') + '</div>';
+  });
+  h += '</div></div>';
+
+  /* ─────────────── 3. VOC ↔ Claims Gap Analysis ─────────────── */
+  h += '<div class="mdd-section">';
+  h += '<div class="mdd-sec-header"><div class="mdd-sec-title">3. VOC ↔ Claims Gap Analysis</div><div class="mdd-sec-sub">Customer concerns from Tab 3 reviews vs how many of the 20 competitors address them</div></div>';
+  h += '<table class="mdd-gap"><thead><tr>';
+  h += '<th>VOC Topic</th><th>Customer %</th><th>Addressed by</th><th>Severity</th><th>Whitespace</th>';
+  h += '</tr></thead><tbody>';
+  D.vocGap.forEach(function(g) {
+    h += '<tr>';
+    h += '<td><b>' + esc(g.vocTopic) + '</b></td>';
+    h += '<td><b>' + esc(g.customerConcernPct) + '</b></td>';
+    h += '<td><b>' + g.addressedByCount + ' / ' + D.totalCompetitors + '</b><br><span style="font-size:.66rem;color:#64748b">' + g.addressedByBrands.map(esc).join(', ') + '</span></td>';
+    h += '<td><span class="mdd-sev mdd-sev-' + g.gapSeverity + '">' + g.gapSeverity + '</span></td>';
+    h += '<td>' + esc(g.whitespace) + '</td>';
+    h += '</tr>';
+  });
+  h += '</tbody></table></div>';
+
+  /* ─────────────── 4. Whitespace + Saturation ─────────────── */
+  h += '<div class="mdd-section">';
+  h += '<div class="mdd-sec-header"><div class="mdd-sec-title">4. Whitespace Opportunities</div><div class="mdd-sec-sub">High customer demand × low competitor coverage</div></div>';
+  h += '<div class="mdd-ws-grid">';
+  D.whitespaceOpportunities.forEach(function(w) {
+    h += '<div class="mdd-ws-card">';
+    h += '  <h4>' + esc(w.opportunity) + '</h4>';
+    h += '  <div class="mdd-ws-rationale">' + esc(w.rationale) + '</div>';
+    h += '  <div class="mdd-ws-evidence">' + esc(w.evidence) + '</div>';
+    h += '</div>';
+  });
+  h += '</div></div>';
+
+  h += '<div class="mdd-section">';
+  h += '<div class="mdd-sec-header"><div class="mdd-sec-title">Saturated Claims — Diminishing Returns</div><div class="mdd-sec-sub">Most-used claims where adding the same message no longer differentiates</div></div>';
+  h += '<div class="mdd-ws-grid">';
+  D.saturation.forEach(function(s) {
+    h += '<div class="mdd-ws-card">';
+    h += '  <h4>' + esc(s.label) + ' <span style="float:right;color:#dc2626;font-size:.78rem">' + s.saturationPct + '</span></h4>';
+    h += '  <div class="mdd-ws-rationale">' + esc(s.advice) + '</div>';
+    h += '</div>';
+  });
+  h += '</div></div>';
+
+  /* ─────────────── 5. Strategic Recommendations ─────────────── */
+  h += '<div class="mdd-section">';
+  h += '<div class="mdd-sec-header"><div class="mdd-sec-title">5. Strategic Recommendations</div><div class="mdd-sec-sub">Synthesized findings + actionable implications</div></div>';
+  h += '<div class="mdd-insight-grid">';
+  D.strategicRecommendations.forEach(function(r) {
+    h += '<div class="mdd-insight-card">';
+    h += '  <span class="mdd-insight-badge" style="background:' + esc(r.badgeBg) + ';color:' + esc(r.badgeColor) + '">' + esc(r.type) + '</span>';
+    h += '  <h4>' + esc(r.finding) + '</h4>';
+    h += '  <p><b>→</b> ' + esc(r.implication) + '</p>';
+    h += '</div>';
+  });
+  h += '</div></div>';
+
+  /* Modal */
+  h += '<div id="mdd-modal"><div class="mdd-modal-body"><span class="mdd-modal-close">×</span><div id="mdd-modal-content"></div></div></div>';
+
+  root.innerHTML = h;
+
+  // Card click → modal
+  var modal = document.getElementById('mdd-modal');
+  var modalContent = document.getElementById('mdd-modal-content');
+  root.querySelectorAll('.mdd-comp-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      var c = D.competitors[parseInt(card.dataset.idx, 10)];
+      var m = '';
+      m += '<div style="font-size:.72rem;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">' + esc(c.brand) + ' · ' + esc(c.asin) + '</div>';
+      m += '<h2 style="margin:0 0 12px;font-size:1.1rem;color:#0f172a;line-height:1.4">' + esc(c.title) + '</h2>';
+      m += '<div style="display:flex;gap:14px;font-size:.78rem;color:#475569;flex-wrap:wrap;margin-bottom:14px">';
+      m += '  <span><b>' + fmtMoney(c.price) + '</b> price</span>';
+      m += '  <span>★ <b>' + (c.rating || 0).toFixed(1) + '</b> (' + (c.reviews || 0).toLocaleString() + ' reviews)</span>';
+      m += '  <span>BSR <b>' + (c.bsr || '—').toLocaleString() + '</b></span>';
+      m += '  <span><b>' + fmtMoney(c.rev30d) + '</b> 30d revenue</span>';
+      m += '</div>';
+      m += '<div style="margin-bottom:14px">';
+      c.themes.forEach(function(t) { m += '<span class="mdd-theme-pill" style="margin-right:4px">' + esc(t.replace(/_/g, ' ')) + '</span>'; });
+      m += '</div>';
+      if (c.images && c.images.length) {
+        m += '<div class="mdd-modal-imgs">';
+        c.images.forEach(function(u) { m += '<img src="' + esc(u) + '" alt="">'; });
+        m += '</div>';
+      }
+      m += '<h3 style="font-size:.82rem;color:#0f172a;margin:18px 0 8px">Bullet Points</h3>';
+      if (c.bullets && c.bullets.length) {
+        m += '<ul class="mdd-bullets">';
+        c.bullets.forEach(function(b) { m += '<li>' + esc(b) + '</li>'; });
+        m += '</ul>';
+      } else {
+        m += '<p style="font-size:.74rem;color:#94a3b8">No bullets available</p>';
+      }
+      if (c.description) {
+        m += '<h3 style="font-size:.82rem;color:#0f172a;margin:18px 0 8px">Description</h3>';
+        m += '<p style="font-size:.76rem;color:#475569;line-height:1.55;white-space:pre-wrap">' + esc(c.description) + '</p>';
+      }
+      modalContent.innerHTML = m;
+      modal.classList.add('open');
+    });
+  });
+  modal.querySelector('.mdd-modal-close').addEventListener('click', function() { modal.classList.remove('open'); });
+  modal.addEventListener('click', function(e) { if (e.target === modal) modal.classList.remove('open'); });
+})();
+</script>

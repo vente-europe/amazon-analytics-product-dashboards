@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Amazon Analytics — Dashboard Hub</title>
+<link rel="stylesheet" href="css/hub.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+</head>
+<body>
+
+<!-- Sidebar -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <svg class="sidebar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+      <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>
+    </svg>
+    <div>
+      <h1 class="sidebar-title">Amazon Analytics</h1>
+      <p class="sidebar-subtitle">Product Dashboards</p>
+    </div>
+  </div>
+
+  <nav class="sidebar-nav" id="sidebarNav">
+    <!-- Populated by hub.js -->
+  </nav>
+
+  <div class="sidebar-footer" id="sidebarFooter" style="display:none">
+    <button class="btn-add" id="btnAddDashboard">+ Add Dashboard</button>
+  </div>
+</aside>
+
+<!-- Sidebar toggle (mobile) -->
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+  </svg>
+</button>
+
+<!-- Main content -->
+<main class="main-content" id="mainContent">
+  <div class="empty-state" id="emptyState">
+    <svg class="empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+      <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>
+    </svg>
+    <p>Select a dashboard to view analytics</p>
+  </div>
+
+  <div id="dashboardContainer" style="display:none"></div>
+
+  <div class="loading" id="loading" style="display:none">
+    <div class="spinner"></div>
+    <p>Loading dashboard...</p>
+  </div>
+</main>
+
+<script src="js/data-engine.js"></script>
+<script src="js/hub.js"></script>
+</body>
+</html>

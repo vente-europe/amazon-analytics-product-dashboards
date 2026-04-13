@@ -1,0 +1,39 @@
+{
+  "title": "Ant Control \u2014 EU Markets Top Line",
+  "subtitle": "12-Month Projection  |  Data: Last 30 Days (27 Mar 2026)",
+  "currency": "\u20ac",
+  "barTitle": "Revenue by Marketplace \u2014 12M (\u20ac)",
+  "pieTitle": "Unit Share by Marketplace \u2014 12M",
+  "tableTitle": "Units & Revenue by Marketplace \u2014 12M",
+  "seasonality": {
+    "method": "flat",
+    "multiplier": 12,
+    "explanation": "30-day figures \u00d7 12 = annual projection. No seasonal adjustment applied."
+  },
+  "kpis": [
+    { "value": "\u20ac13.1M", "label": "Total 12M Revenue (all markets)" },
+    { "value": "1,038,720", "label": "Total 12M Units Sold" },
+    { "value": "5 Markets", "label": "UK \u2022 DE \u2022 FR \u2022 IT \u2022 ES" }
+  ],
+  "markets": [
+    { "code": "UK", "flag": "\ud83c\uddec\ud83c\udde7", "name": "United Kingdom (UK)", "color": "#dc2626", "currency": "GBP \u2192 EUR", "units30d": 32171, "units12m": 386052, "revenue12m": 4991658 },
+    { "code": "DE", "flag": "\ud83c\udde9\ud83c\uddea", "name": "Germany (DE)", "color": "#2563eb", "currency": "EUR", "units30d": 18140, "units12m": 217680, "revenue12m": 3255012 },
+    { "code": "FR", "flag": "\ud83c\uddeb\ud83c\uddf7", "name": "France (FR)", "color": "#0891b2", "currency": "EUR", "units30d": 23848, "units12m": 286176, "revenue12m": 3114699 },
+    { "code": "ES", "flag": "\ud83c\uddea\ud83c\uddf8", "name": "Spain (ES)", "color": "#d97706", "currency": "EUR", "units30d": 8102, "units12m": 97224, "revenue12m": 1006045 },
+    { "code": "IT", "flag": "\ud83c\uddee\ud83c\uddf9", "name": "Italy (IT)", "color": "#7c3aed", "currency": "EUR", "units30d": 4299, "units12m": 51588, "revenue12m": 734510 }
+  ],
+  "brands": [
+    { "name": "NOPE!", "rev": 1093708, "units": 65952 },
+    { "name": "Patronus", "rev": 890135, "units": 35004 },
+    { "name": "Vitax Ltd", "rev": 635206, "units": 77280 },
+    { "name": "Raid", "rev": 600120, "units": 69264 },
+    { "name": "FERRIS", "rev": 567043, "units": 47856 },
+    { "name": "Barri\u00e8re \u00e0 Insectes", "rev": 566754, "units": 56196 },
+    { "name": "KB HOME DEFENSE", "rev": 502597, "units": 49236 },
+    { "name": "ARDAP", "rev": 375858, "units": 24396 },
+    { "name": "HOME DEFENCE", "rev": 360032, "units": 15552 },
+    { "name": "Generisch", "rev": 337145, "units": 24876 },
+    { "name": "Other", "rev": 7173326, "units": 503304 }
+  ],
+  "note": "<strong>Data source:</strong> Helium 10 X-Ray extension \u2014 30-day snapshot exported 27 Mar 2026, per marketplace keyword extraction with duplicates removed by ASIN. Only ASINs tagged as \u201cAnt\u201d products included (UK: 61, DE: 42, FR: 63, IT: 23, ES: 31 ASINs).  <strong>Methodology:</strong> 30-day figures \u00d7 12 = annual projection. Units estimated from ASIN Revenue \u00f7 Price.  <strong>FX rate (ECB, Mar 2026):</strong> GBP \u2192 EUR 1.195.  Revenue figures are category-level (all Ant-focus ASINs in each marketplace file summed)."
+}

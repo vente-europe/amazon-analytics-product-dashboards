@@ -1,0 +1,39 @@
+{
+  "title": "Fruit Fly Traps \u2014 International Markets",
+  "subtitle": "12-Month Projection  |  Data: Last 30 Days (Mar 2026)",
+  "currency": "\u20ac",
+  "barTitle": "Revenue by Marketplace \u2014 12M (\u20ac)",
+  "pieTitle": "Unit Share by Marketplace \u2014 12M",
+  "tableTitle": "Units & Revenue by Marketplace \u2014 12M",
+  "seasonality": {
+    "method": "custom",
+    "multiplier": 21,
+    "explanation": "EU & UK markets \u2014 Jan\u2013May and Sep\u2013Dec use 30-day data as monthly baseline; Jun\u2013Aug assumed 4\u00d7 higher (peak season). Total multiplier = 5 + (3 \u00d7 4) + 4 = 21 months."
+  },
+  "kpis": [
+    { "value": "\u20ac21.3M", "label": "Total 12M Revenue (all segments)" },
+    { "value": "2,347,212", "label": "Total 12M Units Sold (all segments)" },
+    { "value": "6 Markets", "label": "DE \u2022 UK \u2022 FR \u2022 ES \u2022 IT \u2022 NL" }
+  ],
+  "markets": [
+    { "code": "DE", "flag": "\ud83c\udde9\ud83c\uddea", "name": "Germany (DE)", "color": "#2563eb", "currency": "EUR", "units30d": 61507, "units12m": 1291647, "revenue12m": 11124230 },
+    { "code": "UK", "flag": "\ud83c\uddec\ud83c\udde7", "name": "United Kingdom (UK)", "color": "#dc2626", "currency": "GBP \u2192 EUR", "units30d": 34496, "units12m": 724416, "revenue12m": 6821108 },
+    { "code": "FR", "flag": "\ud83c\uddeb\ud83c\uddf7", "name": "France (FR)", "color": "#0891b2", "currency": "EUR", "units30d": 8667, "units12m": 182007, "revenue12m": 1910862 },
+    { "code": "IT", "flag": "\ud83c\uddee\ud83c\uddf9", "name": "Italy (IT)", "color": "#7c3aed", "currency": "EUR", "units30d": 4088, "units12m": 85848, "revenue12m": 813538 },
+    { "code": "ES", "flag": "\ud83c\uddea\ud83c\uddf8", "name": "Spain (ES)", "color": "#d97706", "currency": "EUR", "units30d": 2835, "units12m": 59535, "revenue12m": 568446 },
+    { "code": "NL", "flag": "\ud83c\uddf3\ud83c\uddf1", "name": "Netherlands (NL)", "color": "#ea580c", "currency": "EUR", "units30d": 179, "units12m": 3759, "revenue12m": 81631 }
+  ],
+  "brands": [],
+  "segments": {
+    "names": ["Lure", "Sticky", "Electric", "Fruit-Bait", "Other"],
+    "colors": ["#2563eb", "#16a34a", "#d97706", "#7c3aed", "#94a3b8"],
+    "data": {
+      "Lure":       { "rev": [2479624, 2243209, 942938, 88252, 84886, 81631], "units": [186480, 161217, 63756, 5208, 5985, 3759] },
+      "Sticky":     { "rev": [7097843, 3583917, 933179, 252177, 593780, 0], "units": [1022826, 537705, 116739, 33243, 73584, 0] },
+      "Electric":   { "rev": [1220910, 314196, 34745, 107267, 79741, 0], "units": [50694, 8169, 1512, 6804, 4557, 0] },
+      "Fruit-Bait": { "rev": [325853, 0, 0, 0, 0, 0], "units": [31647, 0, 0, 0, 0, 0] },
+      "Other":      { "rev": [0, 679786, 0, 120750, 55131, 0], "units": [0, 17325, 0, 14280, 1722, 0] }
+    }
+  },
+  "note": "<strong>Data source:</strong> Helium 10 X-Ray extension \u2014 30-day snapshot exported 02/03/2026, extracted per marketplace based on the 2 biggest keywords with duplicates removed.  <strong>Methodology:</strong> EU & UK markets \u2014 Jan\u2013May and Sep\u2013Dec use 30-day data as monthly baseline; Jun\u2013Aug assumed 4\u00d7 higher (peak season). Total multiplier = 5 + (3 \u00d7 4) + 4 = <strong>21 months</strong>. <strong>FX rates (official ECB, Mar 2026):</strong> GBP \u2192 EUR 1.195. Revenue figures are category-level (all ASINs in each marketplace file summed)."
+}

@@ -1,0 +1,49 @@
+{
+  "id": "product-b",
+  "title": "Wireless Earbuds Pro",
+  "market": "Amazon.com",
+  "group": "top-line",
+  "description": "High-end audio product performance in the US market. High competition but strong brand loyalty.",
+  "tabs": {
+    "marketStructure": {
+      "lineChartData": [
+        { "date": "2026-01", "sales": 450, "revenue": 45000, "units": 450 },
+        { "date": "2026-02", "sales": 420, "revenue": 42000, "units": 420 },
+        { "date": "2026-03", "sales": 510, "revenue": 51000, "units": 510 },
+        { "date": "2026-04", "sales": 480, "revenue": 48000, "units": 480 }
+      ],
+      "pieChartData": [
+        { "name": "Social Media", "value": 55, "color": "#8b5cf6" },
+        { "name": "Affiliates", "value": 25, "color": "#ec4899" },
+        { "name": "Email", "value": 20, "color": "#06b6d4" }
+      ]
+    },
+    "category": {
+      "tableData": [
+        { "id": "1", "metric": "Market Volume", "current": 1000000, "previous": 950000, "change": 50000 }
+      ]
+    },
+    "segmentation": {
+      "pieChartData": [
+        { "name": "Tech Enthusiasts", "value": 70, "color": "#3b82f6" },
+        { "name": "Casual Users", "value": 30, "color": "#10b981" }
+      ]
+    },
+    "segments": {
+      "tableData": [
+        { "id": "1", "metric": "Tech Segment Growth", "current": 15, "previous": 12, "change": 3 }
+      ]
+    },
+    "reviewAnalysis": {
+      "lineChartData": [
+        { "date": "2026-01", "sales": 4.8, "revenue": 50, "units": 50 },
+        { "date": "2026-02", "sales": 4.7, "revenue": 45, "units": 45 },
+        { "date": "2026-03", "sales": 4.9, "revenue": 60, "units": 60 },
+        { "date": "2026-04", "sales": 4.8, "revenue": 55, "units": 55 }
+      ],
+      "tableData": [
+        { "id": "1", "metric": "Avg Rating", "current": 4.8, "previous": 4.7, "change": 0.1 }
+      ]
+    }
+  }
+}
