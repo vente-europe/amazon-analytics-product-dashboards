@@ -11,7 +11,7 @@ def find(names):
             if c.strip().lower() == n.lower(): return c
     return None
 asin_col=find(['ASIN']); title_col=find(['Product Details']); brand_col=find(['Brand'])
-type_col=find(['Type']); price_col=next((c for c in df.columns if 'price' in c.lower()), None)
+type_col=find(['Type','Segment','Focus']); price_col=next((c for c in df.columns if 'price' in c.lower()), None)
 sales_col=find(['ASIN Sales']); rev_col=find(['ASIN Revenue']); bsr_col=find(['BSR'])
 rating_col=find(['Ratings']); review_col=find(['Review Count'])
 
@@ -143,9 +143,15 @@ shell = '''<!DOCTYPE html>
 </style>
 </head>
 <body>
-<div class="dashboard-header" style="background:#0f2942;color:#fff;padding:18px 28px">
-  <h2 id="hdrTitle" style="margin:0;font-size:1.35rem;font-weight:600;color:#fff"></h2>
-  <span id="hdrSub" style="font-size:.78rem;color:#cbd5e1;display:block;margin-top:4px"></span>
+<div class="dashboard-header" style="background:#0f2942;color:#fff;padding:18px 28px;display:flex;justify-content:space-between;align-items:center;gap:24px">
+  <div style="flex:1;min-width:0">
+    <h2 id="hdrTitle" style="margin:0;font-size:1.35rem;font-weight:600;color:#fff"></h2>
+    <span id="hdrSub" style="font-size:.78rem;color:#cbd5e1;display:block;margin-top:4px"></span>
+  </div>
+  <a href="https://docs.google.com/spreadsheets/d/1QxFPXmRscsLhsVi9nop3WLEzkjriJx1Ks5UAdBjbjJY/edit?gid=1702510194#gid=1702510194" target="_blank" rel="noopener" style="background:#16a34a;color:#fff;padding:10px 16px;border-radius:6px;font-size:.82rem;font-weight:600;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:8px;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:background .15s">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="16" y2="17"/></svg>
+    Edit X-Ray data
+  </a>
 </div>
 <div class="dashboard-body" style="max-width:1600px;margin:0 auto;padding:24px">
   <div class="tabs" id="tabBar"></div>

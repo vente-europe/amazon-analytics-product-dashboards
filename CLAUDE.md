@@ -22,6 +22,12 @@ Unified Dashboard Hub — a single app where the team accesses all Amazon produc
 - **Templates** — `templates/topline/` (fixed layout), `templates/detailed/` (tab shell)
 - **Tab templates** — `templates/tabs/{name}/template.html` (modular, pluggable)
 
+## Convention: Segment column
+
+- **Always name the segment column `Segment`** (not `Type` or `Focus`). Old dashboards may still use `Type` — the data engine accepts both, but new ones must use `Segment`.
+- **Always place it as the 3rd column** in the X-Ray CSV: `Product Details`, `ASIN`, `Segment`, ...
+- Add it during the X-Ray combine step, immediately after the ASIN column. Build scripts and templates look up the column by name, so position doesn't affect rendering — but consistent placement keeps CSVs readable in spreadsheet editors.
+
 ## CRITICAL RULE: Zero Hardcoded Values
 
 **Every single number in the dashboard must come from data files or their analysis.** Nothing is manually typed into JSON or templates.
