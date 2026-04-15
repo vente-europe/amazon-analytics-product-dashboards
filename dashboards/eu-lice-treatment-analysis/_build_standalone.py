@@ -130,6 +130,83 @@ def compute_seasonality(daily_by_asin):
         'endDate': SEASONALITY_WINDOW_END.isoformat(),
     }
 
+def compute_brand_monthly_share(daily_by_asin, products, top_n=8):
+    """Per-brand monthly unit share over the 12-month seasonality window.
+
+    Only ASINs with a sales history CSV contribute (true monthly data). Brands
+    are ranked by total units across the window; brands beyond top_n collapse
+    into 'Other'. Returns None if no history is available."""
+    if not daily_by_asin:
+        return None
+    asin_brand = {p['asin']: p['brand'] for p in products}
+
+    # Build 12 month buckets matching SEASONALITY_WINDOW (Mar 2025 → Feb 2026)
+    months = []
+    y, m = SEASONALITY_WINDOW_START.year, SEASONALITY_WINDOW_START.month
+    for _ in range(12):
+        months.append((y, m))
+        m += 1
+        if m > 12:
+            m = 1
+            y += 1
+    month_labels = [date(y, m, 1).strftime('%b %Y') for (y, m) in months]
+    month_index = {ym: i for i, ym in enumerate(months)}
+
+    brand_monthly = {}   # brand -> [12 floats]
+    total_monthly = [0.0] * 12
+    for asin, series in daily_by_asin.items():
+        brand = asin_brand.get(asin, 'Unknown')
+        bucket = brand_monthly.setdefault(brand, [0.0] * 12)
+        for d, u in series.items():
+            if SEASONALITY_WINDOW_START <= d <= SEASONALITY_WINDOW_END:
+                idx = month_index.get((d.year, d.month))
+                if idx is not None:
+                    bucket[idx] += u
+                    total_monthly[idx] += u
+    if sum(total_monthly) == 0:
+        return None
+
+    brand_totals = [(b, sum(v)) for b, v in brand_monthly.items()]
+    brand_totals.sort(key=lambda x: x[1], reverse=True)
+    top = brand_totals[:top_n]
+    rest = brand_totals[top_n:]
+    out_brands = []
+    for b, _t in top:
+        units = brand_monthly[b]
+        share = [
+            round(units[i] / total_monthly[i] * 100, 2) if total_monthly[i] > 0 else 0.0
+            for i in range(12)
+        ]
+        out_brands.append({
+            'brand': b,
+            'units': [round(u, 1) for u in units],
+            'share': share,
+        })
+    if rest:
+        other_units = [0.0] * 12
+        for b, _t in rest:
+            for i in range(12):
+                other_units[i] += brand_monthly[b][i]
+        other_share = [
+            round(other_units[i] / total_monthly[i] * 100, 2) if total_monthly[i] > 0 else 0.0
+            for i in range(12)
+        ]
+        out_brands.append({
+            'brand': f'Other ({len(rest)})',
+            'units': [round(u, 1) for u in other_units],
+            'share': other_share,
+        })
+
+    return {
+        'monthLabels': month_labels,
+        'totalMonthly': [round(u, 1) for u in total_monthly],
+        'brands': out_brands,
+        'asinCount': len(daily_by_asin),
+        'brandCount': len(brand_totals),
+        'startDate': SEASONALITY_WINDOW_START.isoformat(),
+        'endDate':   SEASONALITY_WINDOW_END.isoformat(),
+    }
+
 def asin_12m_from_history(series):
     """Sum daily Sales in [ASIN_12M_WINDOW_START, ASIN_12M_WINDOW_END]."""
     total = 0.0
@@ -246,12 +323,15 @@ def build_country(code, csv_name):
     total_units = sum(s['units'] for s in segments)
     total_rev = sum(s['revenue'] for s in segments)
 
+    brand_monthly_share = compute_brand_monthly_share(daily_by_asin, products)
+
     return {
         'segments': segments,
         'totalUnits': total_units,
         'totalRevenue': total_rev,
         'asinCount': len(products),
         'seasonality': seasonality,
+        'brandMonthlyShare': brand_monthly_share,
         'projectionCounts': proj_counts,
         'xrayExportDate': XRAY_EXPORT_DATE.isoformat(),
         'marketStructurePrevention': market_structure([p for p in products if p['focus'] == 'Prevention']),
@@ -425,10 +505,11 @@ def market_structure(seg_products):
     # Types
     types_map = {}
     for p in seg_products:
-        t = types_map.setdefault(p['type'], {'asins': 0, 'units': 0, 'revenue': 0, 'ratingsSum': 0, 'ratingsN': 0, 'brands': {}})
+        t = types_map.setdefault(p['type'], {'asins': 0, 'units': 0, 'revenue': 0, 'ratingsSum': 0, 'ratingsN': 0, 'brands': {}, 'products': []})
         t['asins']   += 1
         t['units']   += p['units12m']
         t['revenue'] += p['revenue12m']
+        t['products'].append(p)
         if p['rating'] > 0:
             t['ratingsSum'] += p['rating']
             t['ratingsN']   += 1
@@ -453,6 +534,7 @@ def market_structure(seg_products):
 
     types = []
     for name, t in types_map.items():
+        top3_by_units = sorted(t['products'], key=lambda p: p['units12m'], reverse=True)[:3]
         types.append({
             'name': name,
             'asins': t['asins'],
@@ -463,6 +545,13 @@ def market_structure(seg_products):
             'avgRating': round(t['ratingsSum'] / t['ratingsN'], 2) if t['ratingsN'] else 0,
             'brandsByUnits':   top_brands_in_type(t['brands'], 'units'),
             'brandsByRevenue': top_brands_in_type(t['brands'], 'revenue'),
+            'topAsinsByUnits': [{
+                'asin':  p['asin'],
+                'brand': p['brand'],
+                'title': p['title'],
+                'price': p['price'],
+                'units': p['units12m'],
+            } for p in top3_by_units],
         })
     types.sort(key=lambda x: x['revenue'], reverse=True)
 
@@ -1048,14 +1137,20 @@ window._DASH_DATA = /*<<BUNDLE>>*/;
     html += '  <div class="card"><h3>Brand Share by Segment \u2014 Prevention (Revenue, 12M)</h3><div class="cw" style="height:340px"><canvas id="prevBrandRevPie"></canvas></div><div class="note">Brand revenue share within Prevention segment. ' + fmtMoneyShort(prev.revenue) + ' total revenue (12M).</div></div>';
     html += '</div>';
 
-    // ── Placeholder: % Unit Share — Brand vs. Total (All) (12M) line chart ──
-    html += '<div class="card" style="margin-top:18px">';
-    html += '  <h3>% Unit Share \u2014 Brand vs. Total (All) (12M)</h3>';
-    html += '  <div class="cw" style="height:420px;display:flex;align-items:center;justify-content:center;background:#f8fafc;border:2px dashed #cbd5e1;border-radius:6px;color:#94a3b8;font-size:.85rem">';
-    html += '    Placeholder \u2014 waiting for per-ASIN daily sales data. Will render monthly unit share per brand as % of total market units.';
-    html += '  </div>';
-    html += '  <div class="note">Monthly unit share per brand as % of total market units (trailing 12M). Click legend to show/hide brand.</div>';
-    html += '</div>';
+    // ── % Unit Share — Brand vs. Total (All) (12M) ──
+    var bms = D2.brandMonthlyShare;
+    if (bms && bms.brands && bms.brands.length) {
+      html += '<div class="card" style="margin-top:18px">';
+      html += '  <h3>% Unit Share \u2014 Brand vs. Total (All) (12M)</h3>';
+      html += '  <div class="cw" style="height:420px"><canvas id="brandShareLine"></canvas></div>';
+      html += '  <div class="note">Monthly unit share per brand as % of total market units across the ' + bms.asinCount + ' ASINs with sales history (' + esc(bms.startDate) + ' \u2192 ' + esc(bms.endDate) + '). Top 8 brands shown; remaining brands collapsed into "Other". Click legend to show/hide a brand.</div>';
+      html += '</div>';
+    } else {
+      html += '<div class="card" style="margin-top:18px">';
+      html += '  <h3>% Unit Share \u2014 Brand vs. Total (All) (12M)</h3>';
+      html += '  <div class="cw" style="height:220px;display:flex;align-items:center;justify-content:center;background:#f8fafc;border:2px dashed #cbd5e1;border-radius:6px;color:#94a3b8;font-size:.85rem">No sales history available for ' + esc(country.name) + '.</div>';
+      html += '</div>';
+    }
 
     // ── Total Market Seasonality (one chart per country, not split by segment) ──
     var season = D2.seasonality;
@@ -1144,6 +1239,54 @@ window._DASH_DATA = /*<<BUNDLE>>*/;
         charts.push(seasChart);
       }
     }
+
+    // Brand vs Total monthly share line chart
+    if (bms && bms.brands && bms.brands.length) {
+      var bmsCtx = document.getElementById('brandShareLine');
+      if (bmsCtx) {
+        var datasets = bms.brands.map(function(b, i) {
+          var color = b.brand.indexOf('Other') === 0
+            ? '#94a3b8'
+            : (D.brandColors[b.brand] || BRAND_PALETTE_JS[i % BRAND_PALETTE_JS.length]);
+          return {
+            label: b.brand,
+            data: b.share,
+            borderColor: color,
+            backgroundColor: color,
+            borderWidth: 2,
+            tension: 0.3,
+            pointRadius: 3,
+            pointHoverRadius: 5,
+            fill: false,
+          };
+        });
+        var bmsChart = new Chart(bmsCtx, {
+          type: 'line',
+          data: { labels: bms.monthLabels, datasets: datasets },
+          options: {
+            responsive: true, maintainAspectRatio: false,
+            interaction: { mode: 'nearest', intersect: false },
+            plugins: {
+              legend: { position: 'bottom', labels: { font: { size: 11 }, boxWidth: 14, padding: 10 } },
+              datalabels: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: function(ctx) {
+                    var b = bms.brands[ctx.datasetIndex];
+                    return ctx.dataset.label + ': ' + ctx.parsed.y.toFixed(1) + '% (' + Math.round(b.units[ctx.dataIndex]) + ' units)';
+                  }
+                }
+              }
+            },
+            scales: {
+              x: { grid: { display: false }, ticks: { font: { size: 10 }, color: '#475569' } },
+              y: { beginAtZero: true, grid: { color: '#f1f5f9' }, ticks: { font: { size: 10 }, color: '#94a3b8', callback: function(v) { return v + '%'; } } }
+            }
+          }
+        });
+        charts.push(bmsChart);
+      }
+    }
   }
 
   // Palette for Type pies (Market Structure tabs)
@@ -1213,11 +1356,15 @@ window._DASH_DATA = /*<<BUNDLE>>*/;
     });
     html += '</div></div>';
 
-    // Price positioning placeholder
-    html += '<div class="card" style="margin-top:18px">';
-    html += '  <h3>Price Positioning \u2014 TOP 3 ASINs by 12M Units per Product Type (' + segName + ')</h3>';
-    html += '  <div class="cw" style="height:280px;display:flex;align-items:center;justify-content:center;background:#f8fafc;border:2px dashed #cbd5e1;border-radius:6px;color:#94a3b8;font-size:.85rem">Placeholder \u2014 scatter of top-3 ASINs per type (price vs units). Waiting for per-ASIN daily sales data.</div>';
-    html += '</div>';
+    // Price Positioning — TOP 3 ASINs by 12M Units per Product Type
+    var hasScatter = types.some(function(t) { return t.topAsinsByUnits && t.topAsinsByUnits.length; });
+    if (hasScatter) {
+      html += '<div class="card" style="margin-top:18px">';
+      html += '  <h3>Price Positioning \u2014 TOP 3 ASINs by 12M Units per Product Type (' + segName + ')</h3>';
+      html += '  <div class="cw" style="height:420px"><canvas id="msPriceScatter"></canvas></div>';
+      html += '  <div class="note">Each Product Type contributes its top 3 ASINs ranked by 12M units. X = listed price (' + D.currency + '), Y = 12M units. Hover a point to see brand, ASIN, title.</div>';
+      html += '</div>';
+    }
 
     // Brand Summary table
     html += '<div class="card" style="margin-top:20px"><h3>Brand Summary \u2014 ' + segName + ' (12M)</h3><div class="tbl-wrap"><table class="num-right">';
@@ -1267,6 +1414,59 @@ window._DASH_DATA = /*<<BUNDLE>>*/;
       var rColors = t.brandsByRevenue.map(function(b, j){ return brandColor(b.brand, j); });
       pie('msTypeBrandRev_' + i, rLabels, rData, rColors, true);
     });
+
+    // Price Positioning scatter (top 3 ASINs per type, by 12M units)
+    if (hasScatter) {
+      var scatCtx = document.getElementById('msPriceScatter');
+      if (scatCtx) {
+        var scatDatasets = types.map(function(t, i) {
+          var color = BRAND_PALETTE_JS[i % BRAND_PALETTE_JS.length];
+          return {
+            label: t.name,
+            data: (t.topAsinsByUnits || []).map(function(p) {
+              return { x: p.price, y: p.units, asin: p.asin, brand: p.brand, title: p.title };
+            }),
+            backgroundColor: color,
+            borderColor: color,
+            pointRadius: 7,
+            pointHoverRadius: 10,
+          };
+        }).filter(function(ds) { return ds.data.length > 0; });
+        var scatChart = new Chart(scatCtx, {
+          type: 'scatter',
+          data: { datasets: scatDatasets },
+          options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: {
+              legend: { position: 'bottom', labels: { font: { size: 11 }, boxWidth: 14, padding: 10 } },
+              datalabels: {
+                align: 'top', anchor: 'end', offset: 4,
+                color: '#475569', font: { size: 9, weight: '600' },
+                formatter: function(v) { return v.brand; }
+              },
+              tooltip: {
+                callbacks: {
+                  title: function(ctx) { return ctx[0].dataset.label; },
+                  label: function(ctx) {
+                    var p = ctx.raw;
+                    return [
+                      p.brand + ' \u00b7 ' + p.asin,
+                      D.currency + p.x.toFixed(2) + '  \u00b7  ' + Math.round(p.y).toLocaleString() + ' units (12M)',
+                      (p.title || '').slice(0, 80),
+                    ];
+                  }
+                }
+              }
+            },
+            scales: {
+              x: { title: { display: true, text: 'Price (' + D.currency + ')', font: { size: 11, weight: '600' }, color: '#475569' }, beginAtZero: true, grid: { color: '#f1f5f9' }, ticks: { font: { size: 10 }, color: '#64748b', callback: function(v) { return D.currency + v; } } },
+              y: { title: { display: true, text: 'Units (12M)', font: { size: 11, weight: '600' }, color: '#475569' }, beginAtZero: true, grid: { color: '#f1f5f9' }, ticks: { font: { size: 10 }, color: '#64748b' } }
+            }
+          }
+        });
+        charts.push(scatChart);
+      }
+    }
   }
 
   // ── Treatment Methods renderer ────────────────────────────────────────────
