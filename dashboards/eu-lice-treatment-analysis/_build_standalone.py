@@ -347,10 +347,11 @@ def treatment_methods(classified):
     # Per-method totals
     methods = {}
     for p in classified:
-        m = methods.setdefault(p['method'], {'units': 0, 'revenue': 0, 'asins': 0, 'brands': {}, 'types': {}})
+        m = methods.setdefault(p['method'], {'units': 0, 'revenue': 0, 'asins': 0, 'brands': {}, 'types': {}, 'products': []})
         m['units']   += p['units12m']
         m['revenue'] += p['revenue12m']
         m['asins']   += 1
+        m['products'].append(p)
         b = m['brands'].setdefault(p['brand'], {'units': 0, 'revenue': 0})
         b['units']   += p['units12m']
         b['revenue'] += p['revenue12m']
@@ -377,6 +378,7 @@ def treatment_methods(classified):
     for name in ['Physical', 'Chemical', 'Physical + Chemical']:
         if name not in methods: continue
         m = methods[name]
+        top3_by_units = sorted(m['products'], key=lambda p: p['units12m'], reverse=True)[:3]
         methods_out.append({
             'name': name,
             'units': m['units'],
@@ -387,6 +389,13 @@ def treatment_methods(classified):
             'avgPrice': (m['revenue'] / m['units']) if m['units'] else 0,
             'brandsByUnits':   top_brands(m['brands'], 'units'),
             'brandsByRevenue': top_brands(m['brands'], 'revenue'),
+            'topAsinsByUnits': [{
+                'asin':  p['asin'],
+                'brand': p['brand'],
+                'title': p['title'],
+                'price': p['price'],
+                'units': p['units12m'],
+            } for p in top3_by_units],
         })
 
     # Type × Method breakdown for the summary table
@@ -1553,11 +1562,15 @@ window._DASH_DATA = /*<<BUNDLE>>*/;
     });
     html += '</div></div>';
 
-    // Price positioning placeholder
-    html += '<div class="card" style="margin-top:18px">';
-    html += '  <h3>Price Positioning \u2014 TOP 3 ASINs by 12M Units per Method</h3>';
-    html += '  <div class="cw" style="height:280px;display:flex;align-items:center;justify-content:center;background:#f8fafc;border:2px dashed #cbd5e1;border-radius:6px;color:#94a3b8;font-size:.85rem">Placeholder \u2014 scatter of top-3 ASINs per method (price vs units). Waiting for per-ASIN daily sales data.</div>';
-    html += '</div>';
+    // Price Positioning — TOP 3 ASINs by 12M Units per Method
+    var hasMethodScatter = methods.some(function(m) { return m.topAsinsByUnits && m.topAsinsByUnits.length; });
+    if (hasMethodScatter) {
+      html += '<div class="card" style="margin-top:18px">';
+      html += '  <h3>Price Positioning \u2014 TOP 3 ASINs by 12M Units per Method</h3>';
+      html += '  <div class="cw" style="height:420px"><canvas id="methPriceScatter"></canvas></div>';
+      html += '  <div class="note">Each Treatment Method contributes its top 3 ASINs ranked by 12M units. X = listed price (' + D.currency + '), Y = 12M units. Hover a point to see brand, ASIN, title.</div>';
+      html += '</div>';
+    }
 
     // Brand Summary table
     html += '<div class="card" style="margin-top:20px"><h3>Brand Summary \u2014 Treatment Method (12M)</h3><div class="tbl-wrap"><table class="num-right">';
@@ -1613,6 +1626,59 @@ window._DASH_DATA = /*<<BUNDLE>>*/;
       var rColors = m.brandsByRevenue.map(function(b, j){ return brandColor(b.brand, j); });
       pie('methBrandRev_' + i, rLabels, rData, rColors, true);
     });
+
+    // Price Positioning scatter (top 3 ASINs per Method, by 12M units)
+    if (hasMethodScatter) {
+      var mScatCtx = document.getElementById('methPriceScatter');
+      if (mScatCtx) {
+        var mScatDatasets = methods.map(function(m) {
+          var color = (METHOD_COLORS[m.name] || {}).pie || '#64748b';
+          return {
+            label: m.name,
+            data: (m.topAsinsByUnits || []).map(function(p) {
+              return { x: p.price, y: p.units, asin: p.asin, brand: p.brand, title: p.title };
+            }),
+            backgroundColor: color,
+            borderColor: color,
+            pointRadius: 7,
+            pointHoverRadius: 10,
+          };
+        }).filter(function(ds) { return ds.data.length > 0; });
+        var mScatChart = new Chart(mScatCtx, {
+          type: 'scatter',
+          data: { datasets: mScatDatasets },
+          options: {
+            responsive: true, maintainAspectRatio: false,
+            plugins: {
+              legend: { position: 'bottom', labels: { font: { size: 11 }, boxWidth: 14, padding: 10 } },
+              datalabels: {
+                align: 'top', anchor: 'end', offset: 4,
+                color: '#475569', font: { size: 9, weight: '600' },
+                formatter: function(v) { return v.brand; }
+              },
+              tooltip: {
+                callbacks: {
+                  title: function(ctx) { return ctx[0].dataset.label; },
+                  label: function(ctx) {
+                    var p = ctx.raw;
+                    return [
+                      p.brand + ' \u00b7 ' + p.asin,
+                      D.currency + p.x.toFixed(2) + '  \u00b7  ' + Math.round(p.y).toLocaleString() + ' units (12M)',
+                      (p.title || '').slice(0, 80),
+                    ];
+                  }
+                }
+              }
+            },
+            scales: {
+              x: { title: { display: true, text: 'Price (' + D.currency + ')', font: { size: 11, weight: '600' }, color: '#475569' }, beginAtZero: true, grid: { color: '#f1f5f9' }, ticks: { font: { size: 10 }, color: '#64748b', callback: function(v) { return D.currency + v; } } },
+              y: { title: { display: true, text: 'Units (12M)', font: { size: 11, weight: '600' }, color: '#475569' }, beginAtZero: true, grid: { color: '#f1f5f9' }, ticks: { font: { size: 10 }, color: '#64748b' } }
+            }
+          }
+        });
+        charts.push(mScatChart);
+      }
+    }
   }
 
   // ── Reviews VOC renderer (segment-aware: Prevention / Treatment) ─
