@@ -27,8 +27,13 @@ SEGMENT_COLORS = {
     'Oil':   '#d97706',  # pomarańczowy
 }
 
-# Linki do Google Sheets dla każdego rynku — placeholdery (# = nie podłączone)
-XRAY_LINKS = {'DE': '#', 'FR': '#', 'IT': '#', 'ES': '#'}
+# Linki do Google Sheets dla każdego rynku (kolejność: DE, FR, IT, ES)
+XRAY_LINKS = {
+    'DE': 'https://docs.google.com/spreadsheets/d/1_i9_eaJUx9YhG0XFUOWb97YEn_Jj79U6wqcapMYK9Yw/edit?gid=1649983910#gid=1649983910',
+    'FR': 'https://docs.google.com/spreadsheets/d/1fD-QisOAi2_GUpHItXgeUu2bN19iti9w0KrtbOP51Jc/edit?gid=2058240202#gid=2058240202',
+    'IT': 'https://docs.google.com/spreadsheets/d/1coY3TXsKNt-z_ruNg5Krdm-UPNywG5wIwep9XqZFlOo/edit?gid=1574144490#gid=1574144490',
+    'ES': 'https://docs.google.com/spreadsheets/d/1u-S0NnaPOJB2qh0KSvxOum4bvQt5Ydrp7-VPNngGvKI/edit?gid=1593778489#gid=1593778489',
+}
 
 # Mnożnik 30d → 12M. Topline używa flat ×12 (prosty, bez sezonowości).
 # Dla szczegółowego dashboardu można potem podmienić na sezonalność.
