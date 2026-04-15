@@ -1064,7 +1064,7 @@ const TP_COLS = [
   {{key:'rev30d',  label:'Rev 30d',  num:true,  fmt:fmtMoneyInt}},
   {{key:'rev12m',  label:'Rev 12M',  num:true,  fmt:fmtMoneyInt}},
   {{key:'units30d',label:'Units 30d',num:true,  fmt:fmtInt}},
-  {{key:'rating',  label:'Rating',   num:true,  fmt:v=>v?v.toFixed(2):'—'}},
+  {{key:'units12m',label:'Units 12M',num:true,  fmt:fmtInt}},
   {{key:'reviews', label:'Reviews',  num:true,  fmt:fmtInt}},
 ];
 
