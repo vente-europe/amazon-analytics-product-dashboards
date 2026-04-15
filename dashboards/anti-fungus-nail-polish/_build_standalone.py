@@ -106,7 +106,7 @@ reviews = dash['baseTabs']['reviews']
 mdd = dash['addonTabs']['marketing-deep-dive']
 
 bundle = {
-    'title': 'Anti-Fungus Nail Polish — Market Analysis',
+    'title': 'Antifungal varnish (DE)',
     'subtitle': f'Data: Helium 10 X-Ray (amazon.de, 30-day snapshot, 2026-04-08) · {len(sales_data)}/{len(products)} ASINs with sales history · 12M projected via x{mult:.2f} median multiplier',
     'currency': '€', 'exportMonth': 3,
     'salesFilesFound': len(sales_data),
@@ -128,13 +128,15 @@ body { display: block !important; min-height: auto !important; }
 .dashboard-header { width: 100% !important; }
 .dashboard-body { width: 100% !important; max-width: none !important; margin: 0 !important; padding: 24px 32px !important; }
 .insight { background: #f8fafc !important; border-left: none !important; color: #475569 !important; padding: 12px 16px; border-radius: 6px; }
+/* Sticky tab bar */
+.tabs { position: sticky !important; top: 0 !important; z-index: 30 !important; background: #f1f5f9 !important; width: 100% !important; max-width: none !important; border-radius: 0 !important; padding: 8px 4px !important; margin: 0 -32px 18px !important; padding-left: 32px !important; padding-right: 32px !important; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
 '''
 
 shell = '''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Anti-Fungus Nail Polish — Market Analysis</title>
+<title>Antifungal varnish (DE)</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <style>

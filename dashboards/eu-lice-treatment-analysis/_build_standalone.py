@@ -1,4 +1,4 @@
-"""Build standalone index.html for EU Lice Treatment Analysis.
+"""Build standalone index.html for Lice Treatment (DE, ES, FR, IT).
 Phase 2 — Main Segments tab populated (data-driven from per-country X-Ray CSVs).
 Other 3 tabs still show Phase 1 placeholder.
 """
@@ -644,7 +644,7 @@ _ordered_brands = sorted(_brand_totals.keys(), key=lambda k: _brand_totals[k], r
 brand_colors = {b: BRAND_PALETTE_PY[i % len(BRAND_PALETTE_PY)] for i, b in enumerate(_ordered_brands)}
 
 bundle = {
-    'title': 'EU Lice Treatment Analysis',
+    'title': 'Lice Treatment (DE, ES, FR, IT)',
     'subtitle': 'Data: Helium 10 X-Ray (30-day snapshot \u00d7 12 projection) \u00b7 4 markets (DE, FR, IT, ES)',
     'currency': '\u20ac',
     'xrayLinks': xray_links,
@@ -666,7 +666,7 @@ shell = r'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>EU Lice Treatment Analysis</title>
+<title>Lice Treatment (DE, ES, FR, IT)</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <style>
@@ -689,13 +689,14 @@ shell = r'''<!DOCTYPE html>
   .dashboard-body { padding: 24px 32px; }
 
   /* Tabs */
-  .tabs { display: flex; gap: 4px; border-bottom: 2px solid #e2e8f0; margin-bottom: 20px; flex-wrap: wrap; }
+  .tabs { display: flex; gap: 4px; border-bottom: 2px solid #e2e8f0; margin-bottom: 0; flex-wrap: wrap; position: sticky; top: 0; z-index: 30; background: #f1f5f9; padding-top: 12px; margin-left: -32px; margin-right: -32px; padding-left: 32px; padding-right: 32px; }
   .tab { padding: 10px 18px; background: transparent; border: none; cursor: pointer; font-size: .85rem; font-weight: 600; color: #64748b; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: color .15s, border-color .15s; white-space: nowrap; }
   .tab:hover { color: #0f172a; }
   .tab.active { color: #0f2942; border-bottom-color: #0f2942; }
 
   /* Country pills */
-  .country-row { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; align-items: center; }
+  .country-row { display: flex; gap: 8px; margin-bottom: 0; flex-wrap: wrap; align-items: center; position: sticky; top: 47px; z-index: 29; background: #f1f5f9; padding: 14px 32px; margin-left: -32px; margin-right: -32px; border-bottom: 1px solid #e2e8f0; }
+  #panel { padding-top: 18px; }
   .country-row .label { font-size: .72rem; font-weight: 600; color: #64748b; text-transform: uppercase; letter-spacing: .04em; margin-right: 6px; }
   .country-pill { padding: 8px 16px; border: 2px solid #cbd5e1; background: #fff; border-radius: 22px; cursor: pointer; font-size: .8rem; font-weight: 600; color: #475569; transition: all .15s; display: inline-flex; align-items: center; gap: 8px; }
   .country-pill:hover { border-color: #94a3b8; color: #1e293b; }
