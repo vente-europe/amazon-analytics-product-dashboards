@@ -1,12 +1,6 @@
 {
   "dashboards": [
     {
-      "id": "fruit-fly-trap-us",
-      "title": "Fruit Fly Trap \u2014 US",
-      "group": "detailed",
-      "template": "detailed"
-    },
-    {
       "id": "anti-fungus-nail-polish",
       "title": "Antifungal varnish (DE)",
       "group": "detailed",
@@ -21,16 +15,11 @@
       "file": "index.html"
     },
     {
-      "id": "ants-eu-topline",
-      "title": "Ants \u2014 EU Top Line",
+      "id": "dermo-products",
+      "title": "Atopic Skin (DE, FR, IT, ES)",
       "group": "topline",
-      "template": "topline"
-    },
-    {
-      "id": "fruit-flies-other",
-      "title": "Fruit Flies \u2014 International",
-      "group": "topline",
-      "template": "topline"
+      "template": "standalone",
+      "file": "index.html"
     }
   ]
 }

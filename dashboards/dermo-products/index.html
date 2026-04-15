@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dermo Products (Atopic / Sensitive Skin) — International Markets (12M)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f1f5f9;color:#1e293b;font-size:13px}
+header{background:#0f2942;color:#fff;padding:18px 32px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+header .titles h1{font-size:1.1rem;font-weight:700;letter-spacing:.01em;margin-bottom:4px}
+header .titles span{font-size:.75rem;color:#94a3b8}
+.xray-btn-row{display:flex;gap:8px;flex-wrap:wrap}
+.xray-btn{background:#16a34a;color:#fff;padding:8px 14px;border-radius:6px;font-size:.76rem;font-weight:600;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:background .15s}
+.xray-btn:hover{background:#15803d}
+.xray-btn svg{width:14px;height:14px}
+.main{max-width:1200px;margin:0 auto;padding:28px 24px}
+.kpi-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:24px}
+.kpi{background:#fff;border-radius:8px;padding:14px 18px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.kpi-v{font-size:1.25rem;font-weight:700;color:#0f2942;line-height:1.2}
+.kpi-l{font-size:.68rem;color:#64748b;margin-top:5px;text-transform:uppercase;letter-spacing:.05em}
+.charts-row{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-bottom:24px}
+.card{background:#fff;border-radius:8px;padding:18px 20px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px}
+.card h3{font-size:.83rem;font-weight:600;color:#475569;margin-bottom:16px}
+.chart-wrap{position:relative;height:300px}
+table{width:100%;border-collapse:collapse}
+th{background:#f8fafc;text-align:left;padding:8px 10px;font-weight:600;color:#475569;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:2px solid #e2e8f0}
+td{padding:7px 10px;border-bottom:1px solid #f1f5f9;font-size:.82rem}
+tr:hover td{background:#f8fafc}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;flex-shrink:0}
+.note{font-size:.7rem;color:#64748b;margin-top:18px;padding:10px 13px;background:#f8fafc;border-radius:6px;border-left:2px solid #cbd5e1;line-height:1.6}
+.total-row td{font-weight:700;color:#0f2942;background:#f8fafc;border-top:2px solid #e2e8f0}
+.heatmap td.hm{text-align:center;font-size:.78rem;font-weight:600;padding:10px 8px;min-width:70px}
+.heatmap td.hm-total{text-align:center;font-size:.78rem;font-weight:700;padding:10px 8px;min-width:70px;border-left:2px solid #e2e8f0;background:#f8fafc;color:#0f2942}
+.heatmap .seg-label{font-weight:600;color:#1e293b;padding:10px 12px;white-space:nowrap}
+.heatmap .total-row td{font-weight:700;border-top:2px solid #e2e8f0;background:#f8fafc;color:#0f2942}
+/* Executive summary block — 3 kolumny insight cardów */
+.summary{background:#fff;border-radius:8px;padding:18px 22px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px;border-left:4px solid #0f2942}
+.summary h2{font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.summary h2::before{content:'';display:inline-block;width:22px;height:2px;background:#0f2942}
+.summary-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.summary-col h3{font-size:.7rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #f1f5f9}
+.summary-col p{font-size:.82rem;line-height:1.55;color:#334155;margin-bottom:8px}
+.summary-col p:last-child{margin-bottom:0}
+.summary-col strong{color:#0f2942}
+.summary-col .big{font-size:1.15rem;font-weight:700;color:#0f2942;display:block;margin-bottom:2px}
+.summary-col .small{font-size:.72rem;color:#64748b;margin-top:4px;font-style:italic}
+@media (max-width: 980px) { .summary-cols { grid-template-columns: 1fr; gap: 16px; } }
+/* Keywords block */
+.kw-block{background:#fff;border-radius:8px;padding:18px 22px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px;border-left:4px solid #16a34a}
+.kw-block h2{font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.kw-block h2::before{content:'';display:inline-block;width:22px;height:2px;background:#16a34a}
+.kw-block .kw-intro{font-size:.78rem;color:#475569;line-height:1.5;margin-bottom:14px}
+.kw-cols{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.kw-market{border:1px solid #e2e8f0;border-radius:6px;padding:12px 14px;background:#fafafa}
+.kw-market-header{font-size:.78rem;font-weight:700;color:#0f2942;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;gap:6px}
+.kw-group{margin-bottom:10px}
+.kw-group:last-child{margin-bottom:0}
+.kw-group-label{font-size:.68rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+.kw-list{font-size:.72rem;color:#334155;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.kw-list code{display:block;background:#f1f5f9;padding:3px 7px;border-radius:3px;margin:2px 0;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.7rem;color:#0f2942}
+@media (max-width: 980px) { .kw-cols { grid-template-columns: 1fr 1fr; gap: 14px; } }
+@media (max-width: 600px) { .kw-cols { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="titles">
+    <h1>Dermo Products (Atopic / Sensitive Skin) &mdash; International Markets</h1>
+    <span>12-Month Projection (30-day &times; 12) &nbsp;|&nbsp; Data: Helium 10 X-Ray (2026-04-15)</span>
+  </div>
+  <div class="xray-btn-row">
+    <a class="xray-btn" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      DE X-Ray
+    </a>
+    <a class="xray-btn" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      FR X-Ray
+    </a>
+    <a class="xray-btn" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      IT X-Ray
+    </a>
+    <a class="xray-btn" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      ES X-Ray
+    </a>
+  </div>
+</header>
+
+<div class="main">
+
+  <!-- KPI Row -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-v">&euro;49.4M</div>
+      <div class="kpi-l">Total 12M Revenue (Cream + Wash + Oil)</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">1,432,352</div>
+      <div class="kpi-l">Total 12M Units Sold (all segments)</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">4 Markets</div>
+      <div class="kpi-l">DE &bull; FR &bull; IT &bull; ES</div>
+    </div>
+  </div>
+
+  <!-- Executive summary — automatycznie generowany z danych -->
+  <div class="summary">
+    <h2>Podsumowanie — kluczowe wnioski (12M)</h2>
+    <div class="summary-cols">
+
+      <div class="summary-col">
+        <h3>Rynki</h3>
+        <p>Zdecydowanym liderem kategorii są <strong>Niemcy</strong>, które generują <strong>€24.9 mln</strong> rocznego przychodu i odpowiadają za <strong>50%</strong> całego rynku europejskiego (DE+FR+IT+ES). To ponad <strong>2.0-krotnie</strong> więcej niż drugi największy rynek.</p>
+        <p>Pełna hierarchia: <strong>Niemcy</strong> (€24.9 mln), następnie <strong>Włochy</strong> (€12.4 mln), <strong>Francja</strong> (€6.3 mln) i na końcu <strong>Hiszpania</strong> (€5.8 mln). Rynek niemiecki jest dojrzały i rozdrobniony, natomiast we Włoszech obserwujemy najwyższy średni przychód przypadający na jeden produkt — co oznacza mniej graczy, ale silniejsze pozycje każdego z nich.</p>
+      </div>
+
+      <div class="summary-col">
+        <h3>Segmenty (forma produktu)</h3>
+        <p>Krem jest niekwestionowanym liderem kategorii z udziałem <strong>73%</strong> w przychodzie (<strong>€35.8 mln</strong>). Przy średniej cenie <strong>€37</strong> za sztukę jest to klasyczny segment premium, kierowany głównie do osób zmagających się ze skórą atopową, suchą lub podrażnioną.</p>
+        <p>Produkty do mycia (<strong>Wash</strong> — żele, emulsje, olejki pod prysznic) stanowią solidne drugie miejsce z <strong>25%</strong> udziału (€12.6 mln, średnia cena €30). Olejki do ciała (<strong>Oil</strong>) to natomiast wąska nisza — zaledwie <strong>2.0%</strong> rynku, głównie obecna w Niemczech. Łącznie po filtrze ≥€1 000/30 dni w analizie znalazło się <strong>460</strong> produktów w czterech krajach.</p>
+      </div>
+
+      <div class="summary-col">
+        <h3>Konkurencja i ceny</h3>
+        <p>Kategoria jest umiarkowanie rozproszona — trzy największe marki odpowiadają łącznie za <strong>37%</strong> całego przychodu. Liderem jest <strong>La Roche-Posay</strong> z udziałem <strong>22%</strong> (€11.0 mln rocznie). W całej niszy aktywnie działa <strong>131</strong> unikalnych marek, ale każdy rynek ma swoją odrębną hierarchię — co widać w tabeli cieplnej marek poniżej.</p>
+        <p>Średnia cena produktu w kategorii wynosi <strong>€34</strong> za sztukę, co potwierdza premium charakter segmentu. Dominują marki o pozycjonowaniu aptecznym i dermatologicznym (La Roche-Posay, Eucerin, Bioderma, Avène, CeraVe), a także silne marki lokalne w poszczególnych krajach.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Keywords used per marketplace -->
+  <div class="kw-block">
+    <h2>Słowa kluczowe użyte w analizie</h2>
+    <p class="kw-intro">Dla każdego z czterech rynków wykonano 12 osobnych przeszukiwań w narzędziu Helium 10 X-Ray &mdash; po <strong>4 słowa kluczowe dla każdej z trzech form produktu</strong> (Cream / Wash / Oil). Wyniki zostały zmerge'owane per rynek, odduplikowane po ASIN i odfiltrowane do produktów z przychodem ≥€1 000 w ciągu ostatnich 30 dni. Poniżej pełna lista fraz &mdash; pozwala to zweryfikować, czy nie pominęliśmy żadnego istotnego kąta wyszukiwania.</p>
+    <div class="kw-cols">
+
+      <div class="kw-market">
+        <div class="kw-market-header">🇩🇪 Niemcy (DE)</div>
+        <div class="kw-group">
+          <div class="kw-group-label">Cream</div>
+          <div class="kw-list">
+            <code>creme neurodermitis</code>
+            <code>creme atopische haut</code>
+            <code>pflegecreme trockene empfindliche haut</code>
+            <code>ekzem creme körper</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Wash</div>
+          <div class="kw-list">
+            <code>waschlotion neurodermitis</code>
+            <code>duschöl atopische haut</code>
+            <code>waschsyndet empfindliche haut</code>
+            <code>reinigungsöl trockene haut</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Oil</div>
+          <div class="kw-list">
+            <code>körperöl neurodermitis</code>
+            <code>pflegeöl atopische haut</code>
+            <code>hautöl trockene empfindliche haut</code>
+            <code>körperöl ekzem</code>
+          </div>
+        </div>
+      </div>
+
+      <div class="kw-market">
+        <div class="kw-market-header">🇫🇷 Francja (FR)</div>
+        <div class="kw-group">
+          <div class="kw-group-label">Cream</div>
+          <div class="kw-list">
+            <code>crème peau atopique</code>
+            <code>crème peau sèche irritée</code>
+            <code>crème émolliente</code>
+            <code>crème dermatite atopique</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Wash</div>
+          <div class="kw-list">
+            <code>gel lavant peau atopique</code>
+            <code>huile lavante peau atopique</code>
+            <code>nettoyant surgras</code>
+            <code>syndet peau atopique</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Oil</div>
+          <div class="kw-list">
+            <code>huile corps peau sèche</code>
+            <code>huile peau atopique</code>
+            <code>huile corps dermatologique</code>
+            <code>huile apaisante corps</code>
+          </div>
+        </div>
+      </div>
+
+      <div class="kw-market">
+        <div class="kw-market-header">🇮🇹 Włochy (IT)</div>
+        <div class="kw-group">
+          <div class="kw-group-label">Cream</div>
+          <div class="kw-list">
+            <code>crema pelle atopica</code>
+            <code>crema pelle secca sensibile</code>
+            <code>crema emolliente</code>
+            <code>crema dermatite atopica</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Wash</div>
+          <div class="kw-list">
+            <code>detergente pelle atopica</code>
+            <code>bagno doccia pelle atopica</code>
+            <code>olio detergente corpo</code>
+            <code>sapone pelle atopica</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Oil</div>
+          <div class="kw-list">
+            <code>olio pelle atopica</code>
+            <code>olio corpo pelle secca</code>
+            <code>olio doccia pelle secca</code>
+            <code>olio emolliente corpo</code>
+          </div>
+        </div>
+      </div>
+
+      <div class="kw-market">
+        <div class="kw-market-header">🇪🇸 Hiszpania (ES)</div>
+        <div class="kw-group">
+          <div class="kw-group-label">Cream</div>
+          <div class="kw-list">
+            <code>crema piel atópica</code>
+            <code>crema piel seca irritada</code>
+            <code>crema emoliente</code>
+            <code>crema dermatitis atópica</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Wash</div>
+          <div class="kw-list">
+            <code>gel limpiador piel atópica</code>
+            <code>gel baño piel atópica</code>
+            <code>aceite limpiador corporal</code>
+            <code>syndet piel atópica</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Oil</div>
+          <div class="kw-list">
+            <code>aceite piel atópica</code>
+            <code>aceite corporal piel seca</code>
+            <code>aceite emoliente corporal</code>
+            <code>aceite ducha piel seca</code>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Charts -->
+  <div class="charts-row">
+    <div class="card" style="margin:0">
+      <h3>Revenue by Marketplace &mdash; 12M (&euro;)</h3>
+      <div class="chart-wrap"><canvas id="barChart"></canvas></div>
+    </div>
+    <div class="card" style="margin:0">
+      <h3>Unit Share by Marketplace &mdash; 12M</h3>
+      <div class="chart-wrap"><canvas id="pieChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Units Table -->
+  <div class="card">
+    <h3>Units &amp; Revenue by Marketplace &mdash; 12M</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Marketplace</th>
+          <th>Currency</th>
+          <th style="text-align:right">30-Day Units</th>
+          <th style="text-align:right">Multiplier</th>
+          <th style="text-align:right">12M Units (est.)</th>
+          <th style="text-align:right">12M Revenue &euro;</th>
+          <th style="text-align:right">Share</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="dot" style="background:#2563eb"></span>🇩🇪 Germany (DE)</td>
+          <td>EUR</td>
+          <td class="num">44,627</td>
+          <td class="num">12×</td>
+          <td class="num">535,519</td>
+          <td class="num">&euro;24,894,497</td>
+          <td class="num">50.4%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#0891b2"></span>🇫🇷 France (FR)</td>
+          <td>EUR</td>
+          <td class="num">25,320</td>
+          <td class="num">12×</td>
+          <td class="num">303,845</td>
+          <td class="num">&euro;6,284,094</td>
+          <td class="num">12.7%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#7c3aed"></span>🇮🇹 Italy (IT)</td>
+          <td>EUR</td>
+          <td class="num">29,040</td>
+          <td class="num">12×</td>
+          <td class="num">348,480</td>
+          <td class="num">&euro;12,407,971</td>
+          <td class="num">25.1%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#d97706"></span>🇪🇸 Spain (ES)</td>
+          <td>EUR</td>
+          <td class="num">20,376</td>
+          <td class="num">12×</td>
+          <td class="num">244,508</td>
+          <td class="num">&euro;5,771,918</td>
+          <td class="num">11.7%</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="2"><strong>Total</strong></td>
+          <td class="num">119,363</td>
+          <td class="num">—</td>
+          <td class="num">1,432,352</td>
+          <td class="num">&euro;49,358,480</td>
+          <td class="num">100%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Brand Share Pie Charts -->
+  <div class="charts-row">
+    <div class="card" style="margin:0">
+      <h3>Brand Share by Revenue &mdash; 12M</h3>
+      <div class="chart-wrap" style="height:340px"><canvas id="brandRevPie"></canvas></div>
+    </div>
+    <div class="card" style="margin:0">
+      <h3>Brand Share by Units &mdash; 12M</h3>
+      <div class="chart-wrap" style="height:340px"><canvas id="brandUnitsPie"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Brand Revenue Heatmap: Brand × Marketplace -->
+  <div class="card">
+    <h3>Revenue by Brand &amp; Marketplace &mdash; 12M (&euro;)</h3>
+    <table class="heatmap" id="brandRevHeatmap">
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th class="num">DE</th>
+          <th class="num">FR</th>
+          <th class="num">IT</th>
+          <th class="num">ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div style="margin-top:10px;font-size:.68rem;color:#64748b">Top 10 marek po łącznym revenue + Other. Zielone komórki = brand dominuje na tym rynku.</div>
+  </div>
+
+  <!-- Brand Units Heatmap: Brand × Marketplace -->
+  <div class="card">
+    <h3>Units by Brand &amp; Marketplace &mdash; 12M</h3>
+    <table class="heatmap" id="brandUnitsHeatmap">
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th class="num">DE</th>
+          <th class="num">FR</th>
+          <th class="num">IT</th>
+          <th class="num">ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- Segment Share Pie Charts -->
+  <div class="charts-row">
+    <div class="card" style="margin:0">
+      <h3>Revenue Share by Segment &mdash; 12M (&euro;)</h3>
+      <div class="chart-wrap"><canvas id="segRevPie"></canvas></div>
+    </div>
+    <div class="card" style="margin:0">
+      <h3>Unit Share by Segment &mdash; 12M</h3>
+      <div class="chart-wrap"><canvas id="segUnitsPie"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Revenue Heatmap: Segment × Marketplace -->
+  <div class="card">
+    <h3>Revenue by Segment &amp; Marketplace &mdash; 12M (&euro;)</h3>
+    <table class="heatmap" id="revHeatmap">
+      <thead>
+        <tr>
+          <th>Segment</th>
+          <th class="num">DE</th>
+          <th class="num">FR</th>
+          <th class="num">IT</th>
+          <th class="num">ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div style="margin-top:10px;display:flex;align-items:center;gap:6px;font-size:.68rem;color:#64748b">
+      <span>Low</span>
+      <div style="display:flex;gap:1px">
+        <span style="width:18px;height:10px;background:#eff6ff;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#bfdbfe;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#93c5fd;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#3b82f6;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#1d4ed8;border-radius:2px;display:inline-block"></span>
+      </div>
+      <span>High</span>
+    </div>
+  </div>
+
+  <!-- Units Heatmap: Segment × Marketplace -->
+  <div class="card">
+    <h3>Units by Segment &amp; Marketplace &mdash; 12M</h3>
+    <table class="heatmap" id="unitsHeatmap">
+      <thead>
+        <tr>
+          <th>Segment</th>
+          <th class="num">DE</th>
+          <th class="num">FR</th>
+          <th class="num">IT</th>
+          <th class="num">ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div style="margin-top:10px;display:flex;align-items:center;gap:6px;font-size:.68rem;color:#64748b">
+      <span>Low</span>
+      <div style="display:flex;gap:1px">
+        <span style="width:18px;height:10px;background:#eff6ff;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#bfdbfe;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#93c5fd;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#3b82f6;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#1d4ed8;border-radius:2px;display:inline-block"></span>
+      </div>
+      <span>High</span>
+    </div>
+  </div>
+
+  <div class="note">
+    <strong>Źródło danych:</strong> Helium 10 X-Ray &mdash; snapshot 30-dniowy (2026-04-15), dane zmerge'owane i odduplikowane per rynek, odfiltrowane do produktów z przychodem &ge;&euro;1 000 w ciągu ostatnich 30 dni. Metryki 30-dniowe zostały przeskalowane na 12 miesięcy przez prosty mnożnik ×12 (bez korekty sezonowości).
+    <br><br>
+    <strong>Segmentacja:</strong> każdy produkt dostał etykietę na podstawie jego listingu SP-API (tytuł + bullet points + opis). W agregacji dashboardu uwzględniamy wyłącznie trzy kategorie formy: <strong>Cream</strong> (kremy, balsamy, lotiony, maści), <strong>Wash</strong> (żele, emulsje i olejki do mycia, także pod prysznic) oraz <strong>Oil</strong> (olejki do pielęgnacji ciała). Dwie pozostałe etykiety są celowo wyłączone z liczb powyżej:
+    <br><br>
+    &bull; <strong>&bdquo;Check&rdquo;</strong> &mdash; produkty, których listing zawiera wprawdzie sygnały niszy dermo (sucha / atopowa / podrażniona skóra), ale nie zawiera wyraźnego słowa kluczowego określającego formę w tytule, LUB produkty, gdzie w ogóle nie ma mocnego sygnału skóry atopowej — czyli klasyczne kremy na suchą skórę od masowych marek jak Nivea, Vaseline czy Palmer's, które są kierowane do zdrowej, lecz przesuszonej skóry, a nie do skóry atopowej. Te wiersze są flagowane do ręcznej weryfikacji przez zespół, żeby nie zanieczyszczały obrazu niszy.
+    <br><br>
+    &bull; <strong>&bdquo;Other&rdquo;</strong> &mdash; produkty, które jednoznacznie leżą poza zakresem analizy: szampony dla zwierząt, balsamy do ust, kosmetyki do włosów i skóry głowy, kremy przeciwsłoneczne (SPF), dezodoranty i produkty anti-age. Nawet jeśli zawierają frazy typu &bdquo;wrażliwa skóra&rdquo;, nie pasują do żadnego z trzech segmentów kategorii dermo-pielęgnacyjnej dla skóry atopowej.
+    <br><br>
+    <strong>Rynki w analizie:</strong> Niemcy (słowo kluczowe: Neurodermitis), Francja (peau atopique), Włochy (pelle atopica), Hiszpania (piel atópica). Wielka Brytania nie jest częścią tej analizy.
+  </div>
+
+</div>
+
+<script>
+Chart.register(ChartDataLabels);
+
+const LABELS = ["DE", "FR", "IT", "ES"];
+const REVENUE = [24894497, 6284094, 12407971, 5771918];
+const UNITS = [535519, 303845, 348480, 244508];
+const COLORS = ["#2563eb", "#0891b2", "#7c3aed", "#d97706"];
+
+// Bar chart — Revenue by Marketplace
+new Chart(document.getElementById('barChart'), {
+  type: 'bar',
+  data: { labels: LABELS, datasets: [{ data: REVENUE, backgroundColor: COLORS, borderRadius: 4, borderSkipped: false }] },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => ' €' + ctx.parsed.y.toLocaleString('en-EU',{maximumFractionDigits:0}) } },
+      datalabels: {
+        anchor:'end', align:'end',
+        formatter: v => '€' + (v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K'),
+        font:{size:11,weight:'600'}, color:'#1e293b'
+      }
+    },
+    layout: { padding: { top: 22 } },
+    scales: {
+      x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+      y: { grid: { color: '#e2e8f0' }, ticks: { callback: v => '€' + (v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K') } }
+    }
+  }
+});
+
+// Doughnut — Unit share by Marketplace
+new Chart(document.getElementById('pieChart'), {
+  type: 'doughnut',
+  data: { labels: LABELS, datasets: [{ data: UNITS, backgroundColor: COLORS, borderWidth: 2, borderColor: '#fff' }] },
+  options: {
+    responsive: true, maintainAspectRatio: false, cutout: '52%',
+    plugins: {
+      legend: {
+        position:'bottom',
+        labels: {
+          font:{size:11}, padding:10, boxWidth:12, boxHeight:12,
+          generateLabels: chart => {
+            const total = UNITS.reduce((a,b)=>a+b,0);
+            return LABELS.map((label,i) => {
+              const pct = (UNITS[i]/total*100).toFixed(1);
+              return { text: label + '  ' + pct + '%', fillStyle: COLORS[i], strokeStyle: COLORS[i], lineWidth:0, index:i, hidden:false };
+            });
+          }
+        }
+      },
+      tooltip: { callbacks: { label: ctx => { const pct=(ctx.parsed/UNITS.reduce((a,b)=>a+b,0)*100).toFixed(1); return ' '+ctx.parsed.toLocaleString()+' units ('+pct+'%)'; } } },
+      datalabels: {
+        display: ctx => (ctx.dataset.data[ctx.dataIndex] / UNITS.reduce((a,b)=>a+b,0)) > 0.05,
+        formatter: v => (v/UNITS.reduce((a,b)=>a+b,0)*100).toFixed(1) + '%',
+        color: '#fff', font: { size: 11, weight: '700' }
+      }
+    }
+  }
+});
+
+// === Brand pies (top 12 + Other, across all 4 markets combined) ===
+const BRAND_REV_LABELS  = ["La Roche-Posay", "CeraVe", "Eucerin", "Mixa", "Rilastil", "Cetaphil", "Topicrem", "Bioderma", "Dermovitamina", "Uriage", "DEXERYL", "SVR", "Other (119)"];
+const BRAND_REV_VALUES  = [10993440, 4446533, 2598370, 2533583, 1849475, 1511971, 1290342, 1248773, 1119131, 1114321, 1032903, 864125, 18755512];
+const BRAND_UNITS_LABELS = ["La Roche-Posay", "Eucerin", "Mixa", "Uriage", "Dermovitamina", "Cetaphil", "SVR", "DEXERYL", "Rilastil", "Sebamed", "BioNike", "NIVEA", "Other (119)"];
+const BRAND_UNITS_VALUES = [129717, 104856, 95104, 61476, 49832, 46948, 44417, 44085, 43608, 43017, 32772, 31232, 705293];
+const BRAND_COLORS = ["#2563eb", "#dc2626", "#0891b2", "#d97706", "#7c3aed", "#16a34a", "#db2777", "#0284c7", "#ca8a04", "#059669", "#4f46e5", "#be123c", "#94a3b8"];
+
+function brandPie(id, labels, values, fmtVal) {
+  const total = values.reduce((a,b)=>a+b,0);
+  new Chart(document.getElementById(id), {
+    type: 'doughnut',
+    data: { labels: labels, datasets: [{ data: values, backgroundColor: BRAND_COLORS, borderWidth: 2, borderColor: '#fff' }] },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '52%',
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: {
+            font:{size:10}, padding:6, boxWidth:10, boxHeight:10,
+            generateLabels: chart => labels.map((label,i) => {
+              const pct = (values[i]/total*100).toFixed(1);
+              return { text: label + '  ' + pct + '%', fillStyle: BRAND_COLORS[i % BRAND_COLORS.length], strokeStyle: BRAND_COLORS[i % BRAND_COLORS.length], lineWidth:0, index:i, hidden:false };
+            })
+          }
+        },
+        tooltip: { callbacks: { label: ctx => { const pct=(ctx.parsed/total*100).toFixed(1); return ' '+fmtVal(ctx.parsed)+' ('+pct+'%)'; } } },
+        datalabels: {
+          display: ctx => (ctx.dataset.data[ctx.dataIndex]/total) > 0.03,
+          formatter: v => (v/total*100).toFixed(1)+'%',
+          color: '#fff', font: { size: 10, weight: '700' }
+        }
+      }
+    }
+  });
+}
+brandPie('brandRevPie',   BRAND_REV_LABELS,   BRAND_REV_VALUES,   v => '€'+(v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K'));
+brandPie('brandUnitsPie', BRAND_UNITS_LABELS, BRAND_UNITS_VALUES, v => v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(1)+'K');
+
+// === Heatmap data: Segment × Marketplace ===
+const SEG_DATA = {
+  "Cream": {
+    "rev": [
+      20230915,
+      4221402,
+      7886671,
+      3471868
+    ],
+    "units": [
+      397287,
+      218844,
+      200707,
+      141532
+    ]
+  },
+  "Wash": {
+    "rev": [
+      3787091,
+      2062690,
+      4439298,
+      2274575
+    ],
+    "units": [
+      91904,
+      85003,
+      138809,
+      102317
+    ]
+  },
+  "Oil": {
+    "rev": [
+      876492,
+      0,
+      82004,
+      25473
+    ],
+    "units": [
+      46329,
+      0,
+      8965,
+      660
+    ]
+  }
+};
+const SEG_NAMES = ["Cream", "Wash", "Oil"];
+const SEG_COLORS = ["#2563eb", "#16a34a", "#d97706"];
+const HM_COLORS = ['#eff6ff','#bfdbfe','#93c5fd','#3b82f6','#1d4ed8'];
+const HM_TEXT   = ['#1e40af','#1e40af','#1e3a5f','#ffffff','#ffffff'];
+
+function hmColor(val, max) {
+  if (val === 0) return { bg: '#f8fafc', fg: '#94a3b8' };
+  const idx = Math.min(4, Math.floor((val / max) * 4.99));
+  return { bg: HM_COLORS[idx], fg: HM_TEXT[idx] };
+}
+function fmtRev(v) {
+  if (v === 0) return '—';
+  if (v >= 1e6) return '€' + (v/1e6).toFixed(1) + 'M';
+  return '€' + (v/1e3).toFixed(0) + 'K';
+}
+function fmtUnits(v) {
+  if (v === 0) return '—';
+  if (v >= 1e6) return (v/1e6).toFixed(1) + 'M';
+  return (v/1e3).toFixed(1) + 'K';
+}
+
+function buildHeatmap(tableId, field, fmtFn) {
+  const tbody = document.querySelector('#' + tableId + ' tbody');
+  let allVals = [];
+  SEG_NAMES.forEach(s => SEG_DATA[s][field].forEach(v => { if (v > 0) allVals.push(v); }));
+  const maxVal = allVals.length ? Math.max(...allVals) : 1;
+
+  SEG_NAMES.forEach(seg => {
+    const vals = SEG_DATA[seg][field];
+    const total = vals.reduce((a,b)=>a+b,0);
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td class="seg-label">' + seg + '</td>';
+    vals.forEach(v => {
+      const c = hmColor(v, maxVal);
+      tr.innerHTML += '<td class="hm" style="background:'+c.bg+';color:'+c.fg+'">'+fmtFn(v)+'</td>';
+    });
+    tr.innerHTML += '<td class="hm-total">' + fmtFn(total) + '</td>';
+    tbody.appendChild(tr);
+  });
+
+  // Total row
+  const nCols = LABELS.length;
+  const totals = Array(nCols).fill(0).map((_,i) => SEG_NAMES.reduce((s,seg)=>s+SEG_DATA[seg][field][i],0));
+  const grandTotal = totals.reduce((a,b)=>a+b,0);
+  const tr = document.createElement('tr');
+  tr.className = 'total-row';
+  tr.innerHTML = '<td class="seg-label">Total</td>';
+  totals.forEach(v => { tr.innerHTML += '<td class="hm" style="background:#f8fafc;color:#0f2942">'+fmtFn(v)+'</td>'; });
+  tr.innerHTML += '<td class="hm-total">' + fmtFn(grandTotal) + '</td>';
+  tbody.appendChild(tr);
+}
+buildHeatmap('revHeatmap', 'rev', fmtRev);
+buildHeatmap('unitsHeatmap', 'units', fmtUnits);
+
+// === Brand × Marketplace heatmaps ===
+const BRAND_HM_DATA = {
+  "La Roche-Posay": {
+    "rev": [
+      6047875,
+      278358,
+      4059227,
+      607980
+    ],
+    "units": [
+      62309,
+      9924,
+      35413,
+      22071
+    ]
+  },
+  "CeraVe": {
+    "rev": [
+      3064891,
+      389805,
+      439164,
+      552673
+    ],
+    "units": [
+      7846,
+      2319,
+      9254,
+      8530
+    ]
+  },
+  "Eucerin": {
+    "rev": [
+      1874361,
+      0,
+      706449,
+      17560
+    ],
+    "units": [
+      60684,
+      0,
+      43020,
+      1152
+    ]
+  },
+  "Mixa": {
+    "rev": [
+      1726278,
+      417862,
+      272934,
+      116509
+    ],
+    "units": [
+      18014,
+      59724,
+      38,
+      17328
+    ]
+  },
+  "Rilastil": {
+    "rev": [
+      0,
+      0,
+      1626854,
+      222621
+    ],
+    "units": [
+      0,
+      0,
+      28644,
+      14964
+    ]
+  },
+  "Cetaphil": {
+    "rev": [
+      1223749,
+      0,
+      119537,
+      168685
+    ],
+    "units": [
+      33270,
+      0,
+      22,
+      13656
+    ]
+  },
+  "Topicrem": {
+    "rev": [
+      0,
+      1290342,
+      0,
+      0
+    ],
+    "units": [
+      0,
+      23866,
+      0,
+      0
+    ]
+  },
+  "Bioderma": {
+    "rev": [
+      639967,
+      127151,
+      445149,
+      36506
+    ],
+    "units": [
+      14643,
+      5820,
+      4002,
+      2604
+    ]
+  },
+  "Dermovitamina": {
+    "rev": [
+      0,
+      0,
+      1119131,
+      0
+    ],
+    "units": [
+      0,
+      0,
+      49832,
+      0
+    ]
+  },
+  "Uriage": {
+    "rev": [
+      222176,
+      223430,
+      518458,
+      150257
+    ],
+    "units": [
+      11532,
+      15456,
+      25152,
+      9336
+    ]
+  },
+  "Other (121)": {
+    "rev": [
+      10095201,
+      3557144,
+      3101070,
+      3899125
+    ],
+    "units": [
+      327222,
+      186738,
+      153104,
+      154868
+    ]
+  }
+};
+const BRAND_HM_ORDER = ["La Roche-Posay", "CeraVe", "Eucerin", "Mixa", "Rilastil", "Cetaphil", "Topicrem", "Bioderma", "Dermovitamina", "Uriage", "Other (121)"];
+function buildBrandHeatmap(tableId, field, fmtFn) {
+  const tbody = document.querySelector('#' + tableId + ' tbody');
+  let allVals = [];
+  BRAND_HM_ORDER.forEach(b => BRAND_HM_DATA[b][field].forEach(v => { if (v > 0) allVals.push(v); }));
+  const maxVal = allVals.length ? Math.max(...allVals) : 1;
+  BRAND_HM_ORDER.forEach(brand => {
+    const vals = BRAND_HM_DATA[brand][field];
+    const total = vals.reduce((a,b)=>a+b,0);
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td class="seg-label">' + brand + '</td>';
+    vals.forEach(v => {
+      const c = hmColor(v, maxVal);
+      tr.innerHTML += '<td class="hm" style="background:'+c.bg+';color:'+c.fg+'">'+fmtFn(v)+'</td>';
+    });
+    tr.innerHTML += '<td class="hm-total">' + fmtFn(total) + '</td>';
+    tbody.appendChild(tr);
+  });
+  const nCols = LABELS.length;
+  const totals = Array(nCols).fill(0).map((_,i) => BRAND_HM_ORDER.reduce((s,b)=>s+BRAND_HM_DATA[b][field][i],0));
+  const grandTotal = totals.reduce((a,b)=>a+b,0);
+  const tr = document.createElement('tr');
+  tr.className = 'total-row';
+  tr.innerHTML = '<td class="seg-label">Total</td>';
+  totals.forEach(v => { tr.innerHTML += '<td class="hm" style="background:#f8fafc;color:#0f2942">'+fmtFn(v)+'</td>'; });
+  tr.innerHTML += '<td class="hm-total">' + fmtFn(grandTotal) + '</td>';
+  tbody.appendChild(tr);
+}
+buildBrandHeatmap('brandRevHeatmap',   'rev',   fmtRev);
+buildBrandHeatmap('brandUnitsHeatmap', 'units', fmtUnits);
+
+// === Segment pie charts ===
+const SEG_REV_TOTALS = SEG_NAMES.map(s => SEG_DATA[s].rev.reduce((a,b)=>a+b,0));
+const SEG_UNIT_TOTALS = SEG_NAMES.map(s => SEG_DATA[s].units.reduce((a,b)=>a+b,0));
+
+function segPie(id, data, fmtVal) {
+  const total = data.reduce((a,b)=>a+b,0);
+  new Chart(document.getElementById(id), {
+    type: 'doughnut',
+    data: { labels: SEG_NAMES, datasets: [{ data, backgroundColor: SEG_COLORS, borderWidth: 2, borderColor: '#fff' }] },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '52%',
+      plugins: {
+        legend: {
+          position:'bottom',
+          labels: {
+            font:{size:11}, padding:10, boxWidth:12, boxHeight:12,
+            generateLabels: chart => SEG_NAMES.map((label,i) => {
+              const pct = (data[i]/total*100).toFixed(1);
+              return { text: label+'  '+pct+'%', fillStyle: SEG_COLORS[i], strokeStyle: SEG_COLORS[i], lineWidth:0, index:i, hidden:false };
+            })
+          }
+        },
+        tooltip: { callbacks: { label: ctx => { const pct=(ctx.parsed/total*100).toFixed(1); return ' '+fmtVal(ctx.parsed)+' ('+pct+'%)'; } } },
+        datalabels: {
+          display: ctx => (ctx.dataset.data[ctx.dataIndex]/total) > 0.05,
+          formatter: v => (v/total*100).toFixed(1)+'%',
+          color: '#fff', font: { size: 11, weight: '700' }
+        }
+      }
+    }
+  });
+}
+segPie('segRevPie', SEG_REV_TOTALS, v => '€'+(v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K'));
+segPie('segUnitsPie', SEG_UNIT_TOTALS, v => v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(1)+'K');
+</script>
+</body>
+</html>
