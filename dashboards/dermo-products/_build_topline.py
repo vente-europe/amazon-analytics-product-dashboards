@@ -40,15 +40,18 @@ XRAY_LINKS = {
 MULTIPLIER = 12
 
 def numv(v):
-    """Parsuje liczbę z CSV (usuwa EUR/USD/$, przecinki tysięczne, itd.)"""
+    """Parsuje liczbę z CSV w angielskim formacie Helium 10.
+    H10 eksportuje: przecinek = separator tysięcy, kropka = dziesiętna.
+    Przykłady: '7,543' → 7543, '78,977.16' → 78977.16, '10.48' → 10.48.
+    """
     if v is None: return 0.0
     s = str(v).strip()
     if not s or s.lower() == 'nan': return 0.0
-    s = re.sub(r'[^\d.,-]', '', s).replace(',', '.')
-    # jeśli jest wiele kropek, to ostatnia jest dziesiętna a wcześniejsze tysięczne
-    if s.count('.') > 1:
-        parts = s.split('.')
-        s = ''.join(parts[:-1]) + '.' + parts[-1]
+    # Usuń symbole walut, spacje, wszystko poza cyframi, . , -
+    s = re.sub(r'[^\d.,-]', '', s)
+    if not s: return 0.0
+    # Przecinki w H10 to zawsze separator tysięcy — usuwamy je
+    s = s.replace(',', '')
     try: return float(s)
     except: return 0.0
 
@@ -81,7 +84,12 @@ def load_market(code):
                 'segment':  seg,
                 'sales30d': sales30d,
                 'rev30d':   rev30d,
+                'price':    price,
                 'brand':    (row.get('Brand') or 'Unknown').strip() or 'Unknown',
+                'title':    (row.get('Product Details') or '').strip()[:180],
+                'rating':   numv(row.get('Ratings')),
+                'reviews':  int(numv(row.get('Review Count'))),
+                'bsr':      int(numv(row.get('BSR'))),
             })
     return rows
 
@@ -89,8 +97,11 @@ def load_market(code):
 data_by_market = {}
 # Globalny agregat marek (wszystkie rynki razem) do pie charts poniżej tabeli
 global_brand = {}  # brand -> {'rev12m': X, 'units12m': Y}
+# Raw product rows per market — do top 10 per segment tables
+market_rows = {}
 for m in MARKETS:
     rows = load_market(m['code'])
+    market_rows[m['code']] = rows
     units30d = sum(r['sales30d'] for r in rows)
     rev30d   = sum(r['rev30d']   for r in rows)
     units12m = round(units30d * MULTIPLIER)
@@ -138,11 +149,38 @@ brand_units_labels, brand_units_values = top_brands('units12m')
 # Reagregujemy rynki → (brand, market) → rev12m/units12m
 brand_market = {}  # brand -> {market_code -> {'rev12m', 'units12m'}}
 for m in MARKETS:
-    rows = load_market(m['code'])
+    rows = market_rows[m['code']]
     for r in rows:
         bm = brand_market.setdefault(r['brand'], {c['code']: {'rev12m': 0, 'units12m': 0} for c in MARKETS})
         bm[m['code']]['rev12m']   += round(r['rev30d']   * MULTIPLIER)
         bm[m['code']]['units12m'] += round(r['sales30d'] * MULTIPLIER)
+
+# ── Top 10 produktów per segment per rynek ──────────────────────────────
+# Struktura: {market_code: {segment: [top10 products, ranked by 30d revenue]}}
+top_products = {}
+for m in MARKETS:
+    rows = market_rows[m['code']]
+    by_seg = {s: [] for s in SEGMENTS}
+    for r in rows:
+        if r['segment'] in by_seg:
+            by_seg[r['segment']].append(r)
+    top_products[m['code']] = {}
+    for s in SEGMENTS:
+        seg_rows = sorted(by_seg[s], key=lambda x: x['rev30d'], reverse=True)[:10]
+        # Dla każdego produktu projektuj 12M
+        top_products[m['code']][s] = [{
+            'asin':   r['asin'],
+            'brand':  r['brand'],
+            'title':  r['title'],
+            'price':  round(r['price'], 2),
+            'rev30d': round(r['rev30d']),
+            'rev12m': round(r['rev30d'] * MULTIPLIER),
+            'units30d': int(round(r['sales30d'])),
+            'units12m': int(round(r['sales30d'] * MULTIPLIER)),
+            'rating': r['rating'],
+            'reviews': r['reviews'],
+            'bsr':    r['bsr'],
+        } for r in seg_rows]
 
 # Top 10 marek po łącznym revenue (wspólne dla obu heatmap)
 top10_by_rev = sorted(global_brand.items(), key=lambda kv: kv[1]['rev12m'], reverse=True)[:10]
@@ -240,6 +278,19 @@ brand_hm_order_json = json.dumps(hm_brand_order, ensure_ascii=False)
 
 # Nagłówki kolumn heatmap — dynamiczne, zgodne z posortowanym porządkiem MARKETS
 heatmap_th_cols = ''.join(f'<th class="num">{m["code"]}</th>' for m in MARKETS)
+
+# Top products — przekazujemy do JS jako jeden obiekt
+top_products_json = json.dumps(top_products, ensure_ascii=False, indent=2)
+# Flat lista dla advanced view (wszystkie 120 produktów z dodanym market+segment)
+top_products_flat = []
+for mcode, by_seg in top_products.items():
+    for seg, prods in by_seg.items():
+        for p in prods:
+            top_products_flat.append({**p, 'market': mcode, 'segment': seg})
+top_products_flat_json = json.dumps(top_products_flat, ensure_ascii=False)
+
+# Lista kodów rynków w posortowanej kolejności
+market_codes_json = json.dumps([m['code'] for m in MARKETS])
 
 # ── Automatyczne wyliczenie insightów do summary box ────────────────────
 # Sortowanie rynków po 12M revenue
@@ -348,6 +399,37 @@ td.num{{text-align:right;font-variant-numeric:tabular-nums}}
 .kw-list code{{display:block;background:#f1f5f9;padding:3px 7px;border-radius:3px;margin:2px 0;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.7rem;color:#0f2942}}
 @media (max-width: 980px) {{ .kw-cols {{ grid-template-columns: 1fr 1fr; gap: 14px; }} }}
 @media (max-width: 600px) {{ .kw-cols {{ grid-template-columns: 1fr; }} }}
+/* Top products block */
+.tp-block{{background:#fff;border-radius:8px;padding:18px 22px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px;border-left:4px solid #7c3aed}}
+.tp-block h2{{font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;display:flex;align-items:center;gap:8px}}
+.tp-block h2::before{{content:'';display:inline-block;width:22px;height:2px;background:#7c3aed}}
+.tp-block .tp-intro{{font-size:.75rem;color:#475569;line-height:1.5;margin-bottom:14px}}
+.tp-pills{{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center}}
+.tp-pills .label{{font-size:.7rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-right:4px}}
+.tp-pill{{padding:7px 14px;border:2px solid #cbd5e1;background:#fff;border-radius:18px;cursor:pointer;font-size:.75rem;font-weight:600;color:#475569;transition:all .15s}}
+.tp-pill:hover{{border-color:#94a3b8;color:#1e293b}}
+.tp-pill.active{{background:#0f2942;border-color:#0f2942;color:#fff}}
+.tp-seg-title{{font-size:.78rem;font-weight:700;color:#0f2942;margin:18px 0 8px;display:flex;align-items:center;gap:8px;padding-bottom:4px;border-bottom:1px solid #e2e8f0}}
+.tp-seg-title .badge{{font-size:.62rem;background:#f1f5f9;color:#475569;padding:2px 8px;border-radius:10px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}}
+.tp-table{{width:100%;border-collapse:collapse;font-size:.74rem}}
+.tp-table th{{background:#f8fafc;text-align:left;padding:7px 8px;font-weight:600;color:#475569;font-size:.66rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:2px solid #e2e8f0;cursor:pointer;user-select:none}}
+.tp-table th.sortable:hover{{background:#f1f5f9}}
+.tp-table th.sortable::after{{content:' ⇅';color:#cbd5e1;font-size:.7rem}}
+.tp-table th.sort-asc::after{{content:' ▲';color:#0f2942}}
+.tp-table th.sort-desc::after{{content:' ▼';color:#0f2942}}
+.tp-table td{{padding:7px 8px;border-bottom:1px solid #f1f5f9;vertical-align:top}}
+.tp-table tr:hover td{{background:#f8fafc}}
+.tp-table td.num{{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}}
+.tp-table td.title{{max-width:380px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}}
+.tp-table td.asin a{{display:inline-flex;align-items:center;gap:3px;background:#dbeafe;color:#1d4ed8;padding:2px 7px;border-radius:3px;font-size:.68rem;font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:600;text-decoration:none;transition:background .12s}}
+.tp-table td.asin a:hover{{background:#bfdbfe;text-decoration:underline}}
+.tp-table td.asin a::after{{content:'↗';font-size:.65rem;opacity:.7}}
+.tp-advanced{{margin-top:20px;padding-top:18px;border-top:1px dashed #e2e8f0}}
+.tp-advanced summary{{cursor:pointer;font-size:.75rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.04em;padding:6px 0;list-style:none;display:flex;align-items:center;gap:8px}}
+.tp-advanced summary::-webkit-details-marker{{display:none}}
+.tp-advanced summary::before{{content:'▸';display:inline-block;transition:transform .2s;font-size:.9rem;color:#94a3b8}}
+.tp-advanced[open] summary::before{{transform:rotate(90deg)}}
+.tp-advanced summary:hover{{color:#0f2942}}
 </style>
 </head>
 <body>
@@ -681,6 +763,44 @@ td.num{{text-align:right;font-variant-numeric:tabular-nums}}
     </div>
   </div>
 
+  <!-- Top 10 produktów per segment per rynek -->
+  <div class="tp-block">
+    <h2>Top 10 produktów per segment per rynek</h2>
+    <p class="tp-intro">Wybierz rynek pigułką poniżej, żeby zobaczyć 10 najlepiej sprzedających się produktów w każdym z 3 segmentów (Cream / Wash / Oil), posortowane po przychodzie 30-dniowym. Klikaj nagłówki kolumn żeby zmienić sortowanie. Na dole sekcji pełny widok zaawansowany — wszystkie 120 produktów z filtrami (do cross-market comparison).</p>
+
+    <div class="tp-pills">
+      <span class="label">Rynek:</span>
+      <button class="tp-pill active" data-mkt="{MARKETS[0]['code']}">{MARKETS[0]['flag']} {MARKETS[0]['code']}</button>
+      <button class="tp-pill" data-mkt="{MARKETS[1]['code']}">{MARKETS[1]['flag']} {MARKETS[1]['code']}</button>
+      <button class="tp-pill" data-mkt="{MARKETS[2]['code']}">{MARKETS[2]['flag']} {MARKETS[2]['code']}</button>
+      <button class="tp-pill" data-mkt="{MARKETS[3]['code']}">{MARKETS[3]['flag']} {MARKETS[3]['code']}</button>
+    </div>
+
+    <div id="tpTables"></div>
+
+    <!-- Advanced: wszystkie rynki razem z filtrami -->
+    <details class="tp-advanced">
+      <summary>🔍 Widok zaawansowany — wszystkie 120 produktów z filtrami</summary>
+      <div class="tp-intro" style="margin-top:10px">Filtruj po rynku i segmencie, sortuj dowolną kolumną. Przydatne do porównywania produktów cross-market.</div>
+      <div class="tp-pills">
+        <span class="label">Rynek:</span>
+        <button class="tp-pill active" data-adv-mkt="All">All</button>
+        <button class="tp-pill" data-adv-mkt="{MARKETS[0]['code']}">{MARKETS[0]['code']}</button>
+        <button class="tp-pill" data-adv-mkt="{MARKETS[1]['code']}">{MARKETS[1]['code']}</button>
+        <button class="tp-pill" data-adv-mkt="{MARKETS[2]['code']}">{MARKETS[2]['code']}</button>
+        <button class="tp-pill" data-adv-mkt="{MARKETS[3]['code']}">{MARKETS[3]['code']}</button>
+      </div>
+      <div class="tp-pills">
+        <span class="label">Segment:</span>
+        <button class="tp-pill active" data-adv-seg="All">All</button>
+        <button class="tp-pill" data-adv-seg="Cream">Cream</button>
+        <button class="tp-pill" data-adv-seg="Wash">Wash</button>
+        <button class="tp-pill" data-adv-seg="Oil">Oil</button>
+      </div>
+      <div id="tpAdvTable"></div>
+    </details>
+  </div>
+
   <div class="note">
     <strong>Źródło danych:</strong> Helium 10 X-Ray &mdash; snapshot 30-dniowy (2026-04-15), dane zmerge'owane i odduplikowane per rynek, odfiltrowane do produktów z przychodem &ge;&euro;1 000 w ciągu ostatnich 30 dni. Metryki 30-dniowe zostały przeskalowane na 12 miesięcy przez prosty mnożnik ×12 (bez korekty sezonowości).
     <br><br>
@@ -917,6 +1037,153 @@ function segPie(id, data, fmtVal) {{
 }}
 segPie('segRevPie', SEG_REV_TOTALS, v => '€'+(v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K'));
 segPie('segUnitsPie', SEG_UNIT_TOTALS, v => v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(1)+'K');
+
+// === Top Products Tables ===
+const TOP_PRODUCTS = {top_products_json};
+const TOP_PRODUCTS_FLAT = {top_products_flat_json};
+const TP_MKT_CODES = {market_codes_json};
+const TP_SEGMENTS = ['Cream','Wash','Oil'];
+
+function fmtMoneyInt(v) {{ return '€' + Math.round(v).toLocaleString('en-EU'); }}
+function fmtInt(v) {{ return Math.round(v).toLocaleString('en-EU'); }}
+function escHtml(s) {{ return String(s || '').replace(/[&<>"']/g, c => ({{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}})[c]); }}
+// Mapa rynek → domena Amazon (dla klikalnych ASIN-ów)
+const AMAZON_DOMAIN = {{ DE: 'de', FR: 'fr', IT: 'it', ES: 'es' }};
+function asinLink(asin, marketCode) {{
+  const dom = AMAZON_DOMAIN[marketCode] || 'de';
+  return '<a href="https://www.amazon.' + dom + '/dp/' + encodeURIComponent(asin) + '" target="_blank" rel="noopener">' + escHtml(asin) + '</a>';
+}}
+
+// Kolumny tabeli top 10 (główny widok per rynek)
+const TP_COLS = [
+  {{key:'rank',    label:'#',        num:true,  w:'32px'}},
+  {{key:'asin',    label:'ASIN',     num:false, w:'110px'}},
+  {{key:'brand',   label:'Brand',    num:false, w:'120px'}},
+  {{key:'title',   label:'Title',    num:false, w:'auto', cls:'title'}},
+  {{key:'price',   label:'Price',    num:true,  fmt:v=>'€'+v.toFixed(2)}},
+  {{key:'rev30d',  label:'Rev 30d',  num:true,  fmt:fmtMoneyInt}},
+  {{key:'rev12m',  label:'Rev 12M',  num:true,  fmt:fmtMoneyInt}},
+  {{key:'units30d',label:'Units 30d',num:true,  fmt:fmtInt}},
+  {{key:'rating',  label:'Rating',   num:true,  fmt:v=>v?v.toFixed(2):'—'}},
+  {{key:'reviews', label:'Reviews',  num:true,  fmt:fmtInt}},
+];
+
+function buildTopTable(products, containerId, segLabel, includeMarketCol, fixedMarketCode) {{
+  // Sort state per table (stored on element)
+  const cols = includeMarketCol ? [{{key:'market',label:'Mkt',num:false,w:'42px'}}, {{key:'segment',label:'Seg',num:false,w:'58px'}}, ...TP_COLS.slice(1)] : TP_COLS;
+  let sortKey = includeMarketCol ? 'rev30d' : 'rev30d';
+  let sortDir = 'desc';
+  const rows = products.map((p, i) => ({{ ...p, rank: i + 1 }}));
+
+  function render() {{
+    rows.sort((a, b) => {{
+      const va = a[sortKey]; const vb = b[sortKey];
+      const na = (typeof va === 'number'); const nb = (typeof vb === 'number');
+      if (na && nb) return sortDir === 'asc' ? va - vb : vb - va;
+      return sortDir === 'asc' ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
+    }});
+    // Re-rank after sort
+    rows.forEach((r, i) => r.rank = i + 1);
+    let html = '<table class="tp-table"><thead><tr>';
+    cols.forEach(c => {{
+      const cls = c.num ? 'num' : '';
+      const sortCls = (c.key === sortKey) ? (sortDir === 'asc' ? 'sortable sort-asc' : 'sortable sort-desc') : 'sortable';
+      html += '<th class="' + cls + ' ' + sortCls + '" data-k="' + c.key + '"' + (c.w ? ' style="width:' + c.w + '"' : '') + '>' + c.label + '</th>';
+    }});
+    html += '</tr></thead><tbody>';
+    rows.forEach(r => {{
+      html += '<tr>';
+      cols.forEach(c => {{
+        let cls = c.num ? 'num' : (c.cls || '');
+        let val = r[c.key];
+        if (c.key === 'asin') {{
+          const mkt = fixedMarketCode || r.market || TP_MKT_CODES[0];
+          val = asinLink(val, mkt);
+          cls = 'asin';
+        }}
+        else if (c.key === 'title') val = escHtml(val);
+        else if (c.key === 'brand') val = escHtml(val);
+        else if (c.fmt) val = c.fmt(val || 0);
+        else val = escHtml(val);
+        html += '<td class="' + cls + '"' + (c.key === 'title' ? ' title="' + escHtml(r.title) + '"' : '') + '>' + val + '</td>';
+      }});
+      html += '</tr>';
+    }});
+    html += '</tbody></table>';
+    const container = document.getElementById(containerId);
+    container.innerHTML = html;
+    container.querySelectorAll('th.sortable').forEach(th => {{
+      th.onclick = () => {{
+        const k = th.dataset.k;
+        if (sortKey === k) sortDir = (sortDir === 'asc' ? 'desc' : 'asc');
+        else {{ sortKey = k; sortDir = 'desc'; }}
+        render();
+      }};
+    }});
+  }}
+  render();
+}}
+
+// === Main view: 3 sections per selected market ===
+let currentMarket = TP_MKT_CODES[0];
+function renderTopTablesForMarket(code) {{
+  currentMarket = code;
+  const wrap = document.getElementById('tpTables');
+  let html = '';
+  TP_SEGMENTS.forEach((seg, i) => {{
+    const n = (TOP_PRODUCTS[code] && TOP_PRODUCTS[code][seg]) ? TOP_PRODUCTS[code][seg].length : 0;
+    html += '<div class="tp-seg-title">' + seg + ' <span class="badge">' + n + ' produktów</span></div>';
+    html += '<div id="tpTable_' + seg + '"></div>';
+  }});
+  wrap.innerHTML = html;
+  TP_SEGMENTS.forEach(seg => {{
+    const prods = (TOP_PRODUCTS[code] && TOP_PRODUCTS[code][seg]) || [];
+    if (prods.length === 0) {{
+      document.getElementById('tpTable_' + seg).innerHTML = '<p style="font-size:.74rem;color:#94a3b8;padding:8px 0">Brak produktów w tej kategorii dla ' + code + '.</p>';
+    }} else {{
+      buildTopTable(prods, 'tpTable_' + seg, seg, false, code);
+    }}
+  }});
+}}
+document.querySelectorAll('.tp-pill[data-mkt]').forEach(btn => {{
+  btn.onclick = () => {{
+    document.querySelectorAll('.tp-pill[data-mkt]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderTopTablesForMarket(btn.dataset.mkt);
+  }};
+}});
+renderTopTablesForMarket(TP_MKT_CODES[0]);
+
+// === Advanced view: all 120 products with filters ===
+let advMkt = 'All';
+let advSeg = 'All';
+function renderAdvancedTable() {{
+  let filtered = TOP_PRODUCTS_FLAT.slice();
+  if (advMkt !== 'All') filtered = filtered.filter(p => p.market === advMkt);
+  if (advSeg !== 'All') filtered = filtered.filter(p => p.segment === advSeg);
+  if (filtered.length === 0) {{
+    document.getElementById('tpAdvTable').innerHTML = '<p style="font-size:.74rem;color:#94a3b8;padding:8px 0">Brak produktów dla wybranego filtra.</p>';
+  }} else {{
+    buildTopTable(filtered, 'tpAdvTable', 'Advanced', true);
+  }}
+}}
+document.querySelectorAll('.tp-pill[data-adv-mkt]').forEach(btn => {{
+  btn.onclick = () => {{
+    document.querySelectorAll('.tp-pill[data-adv-mkt]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    advMkt = btn.dataset.advMkt;
+    renderAdvancedTable();
+  }};
+}});
+document.querySelectorAll('.tp-pill[data-adv-seg]').forEach(btn => {{
+  btn.onclick = () => {{
+    document.querySelectorAll('.tp-pill[data-adv-seg]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    advSeg = btn.dataset.advSeg;
+    renderAdvancedTable();
+  }};
+}});
+renderAdvancedTable();
 </script>
 </body>
 </html>
