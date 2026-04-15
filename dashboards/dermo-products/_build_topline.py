@@ -115,6 +115,10 @@ for m in MARKETS:
     }
     print(f'  [{m["code"]}] {len(rows)} ASIN, {units30d:,.0f} szt/30d, €{rev30d:,.0f}/30d')
 
+# ── Sortuj rynki po 12M revenue (largest first) — zachowujemy konsystentną
+#    kolejność we wszystkich wizualizacjach: bar chart, tabela, heatmapy ──
+MARKETS.sort(key=lambda m: data_by_market[m['code']]['rev12m'], reverse=True)
+
 # ── Top 12 marek + "Other" (osobno dla revenue i units) ─────────────────
 def top_brands(metric, n=12):
     items = sorted(global_brand.items(), key=lambda kv: kv[1][metric], reverse=True)
@@ -233,6 +237,9 @@ import json
 seg_data_json = json.dumps(seg_data_js, indent=2)
 brand_hm_data_json  = json.dumps(brand_hm_data, indent=2, ensure_ascii=False)
 brand_hm_order_json = json.dumps(hm_brand_order, ensure_ascii=False)
+
+# Nagłówki kolumn heatmap — dynamiczne, zgodne z posortowanym porządkiem MARKETS
+heatmap_th_cols = ''.join(f'<th class="num">{m["code"]}</th>' for m in MARKETS)
 
 # ── Automatyczne wyliczenie insightów do summary box ────────────────────
 # Sortowanie rynków po 12M revenue
@@ -586,10 +593,7 @@ td.num{{text-align:right;font-variant-numeric:tabular-nums}}
       <thead>
         <tr>
           <th>Brand</th>
-          <th class="num">DE</th>
-          <th class="num">FR</th>
-          <th class="num">IT</th>
-          <th class="num">ES</th>
+          {heatmap_th_cols}
           <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
         </tr>
       </thead>
@@ -605,10 +609,7 @@ td.num{{text-align:right;font-variant-numeric:tabular-nums}}
       <thead>
         <tr>
           <th>Brand</th>
-          <th class="num">DE</th>
-          <th class="num">FR</th>
-          <th class="num">IT</th>
-          <th class="num">ES</th>
+          {heatmap_th_cols}
           <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
         </tr>
       </thead>
@@ -635,10 +636,7 @@ td.num{{text-align:right;font-variant-numeric:tabular-nums}}
       <thead>
         <tr>
           <th>Segment</th>
-          <th class="num">DE</th>
-          <th class="num">FR</th>
-          <th class="num">IT</th>
-          <th class="num">ES</th>
+          {heatmap_th_cols}
           <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
         </tr>
       </thead>
@@ -664,10 +662,7 @@ td.num{{text-align:right;font-variant-numeric:tabular-nums}}
       <thead>
         <tr>
           <th>Segment</th>
-          <th class="num">DE</th>
-          <th class="num">FR</th>
-          <th class="num">IT</th>
-          <th class="num">ES</th>
+          {heatmap_th_cols}
           <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
         </tr>
       </thead>
