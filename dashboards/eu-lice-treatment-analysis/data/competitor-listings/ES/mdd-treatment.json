@@ -1,0 +1,1033 @@
+{
+  "totalCompetitors": 10,
+  "marketplace": "amazon.es",
+  "currency": "€",
+  "exportMonth": 2,
+  "segment": "Treatment",
+  "competitors": [
+    {
+      "asin": "B00TTWTOJI",
+      "brand": "Neositrín",
+      "title": "Neositrin, Spray Gel Antipiojos, Elimina Piojos y Liendres en 1 Minuto y en 1 Aplicación, Sin Insecticidas, A partir de 1 Año, 60ml",
+      "price": 14.98,
+      "rating": 4.4,
+      "reviews": 741,
+      "bsr": 442,
+      "rev30d": 24036.99,
+      "sales30d": 1643,
+      "mainImage": "https://m.media-amazon.com/images/I/71zEiHHMsUL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71zEiHHMsUL.jpg",
+        "https://m.media-amazon.com/images/I/31CqmakhYbL.jpg",
+        "https://m.media-amazon.com/images/I/31CqmakhYbL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61-AN9sIgFL.jpg",
+        "https://m.media-amazon.com/images/I/41-j5rbrPcL.jpg",
+        "https://m.media-amazon.com/images/I/41-j5rbrPcL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61LD9YatS2L.jpg",
+        "https://m.media-amazon.com/images/I/41Iq4loiXaL.jpg",
+        "https://m.media-amazon.com/images/I/41Iq4loiXaL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61Wqx1H1gJL.jpg",
+        "https://m.media-amazon.com/images/I/414hnlMvx6L.jpg",
+        "https://m.media-amazon.com/images/I/414hnlMvx6L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/617sxezJiXL.jpg",
+        "https://m.media-amazon.com/images/I/416m-X6gw-L.jpg",
+        "https://m.media-amazon.com/images/I/416m-X6gw-L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61QkTku2+ZL.jpg",
+        "https://m.media-amazon.com/images/I/41Ssl93oJHL.jpg",
+        "https://m.media-amazon.com/images/I/41Ssl93oJHL._SL75_.jpg"
+      ],
+      "bullets": [
+        "Tratamiento de Neositrín en formato spray que elimina los piojos y las liendres de forma rápida y efectiva en una sola aplicación",
+        "Elimina el 100% de piojos y liendres en 1 minuto, tras una sola apliación uniforme sobre la zona afectada",
+        "Formulado con 4% Dimeticona + Penetrol para acelerar la expansión de la dimeticona y matar, no solo al piojo, sino al 100% de las liendres",
+        "No contiene insecticidas por lo que es un producto muy seguro y con buena tolerabilidad. Clínicamente testado en cabezas reales",
+        "Recomendado para niños a partir de 12 meses de edad y adultos"
+      ],
+      "description": "",
+      "themes": [
+        "kills_lice_eggs",
+        "fast_action",
+        "physical_non_chemical",
+        "child_safe",
+        "medical_certified",
+        "no_resistance"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B07BBMJFM1",
+      "brand": "OTC Antipiojos",
+      "title": "OTC Antipiojos Fórmula Total, Elimina en 2 Minutos el 100% de Piojos y Liendres, Tratamiento Pediculicida Sin Insecticida, 1 Única Aplicación, Apto a Partir de 1 Año, Spray 125 ml",
+      "price": 15.69,
+      "rating": 4.3,
+      "reviews": 568,
+      "bsr": 1265,
+      "rev30d": 15438.8,
+      "sales30d": 1100,
+      "mainImage": "https://m.media-amazon.com/images/I/81AtrSiYgJL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81AtrSiYgJL.jpg",
+        "https://m.media-amazon.com/images/I/519YlJ3DT7L.jpg",
+        "https://m.media-amazon.com/images/I/519YlJ3DT7L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71OpmSj+MIL.jpg",
+        "https://m.media-amazon.com/images/I/511-U8Y8OHL.jpg",
+        "https://m.media-amazon.com/images/I/511-U8Y8OHL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/712BVH6gUDL.jpg",
+        "https://m.media-amazon.com/images/I/41N9TzDbX4L.jpg",
+        "https://m.media-amazon.com/images/I/41N9TzDbX4L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71CXkICsiML.jpg",
+        "https://m.media-amazon.com/images/I/51VqtbOCF+L.jpg",
+        "https://m.media-amazon.com/images/I/51VqtbOCF+L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81HZflkSfkL.jpg",
+        "https://m.media-amazon.com/images/I/51jRBpgYCaL.jpg",
+        "https://m.media-amazon.com/images/I/51jRBpgYCaL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81nwTp5xpEL.jpg",
+        "https://m.media-amazon.com/images/I/51OqS2tkR2L.jpg",
+        "https://m.media-amazon.com/images/I/51OqS2tkR2L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81j+zbFSWlL.jpg",
+        "https://m.media-amazon.com/images/I/51+te7lOLqL.jpg",
+        "https://m.media-amazon.com/images/I/51+te7lOLqL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71eF2GzDaKL.jpg",
+        "https://m.media-amazon.com/images/I/51oBOxNIQ9L.jpg",
+        "https://m.media-amazon.com/images/I/51oBOxNIQ9L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81MjCQ+4jXL.jpg",
+        "https://m.media-amazon.com/images/I/51DREODn88L.jpg",
+        "https://m.media-amazon.com/images/I/51DREODn88L._SL75_.jpg"
+      ],
+      "bullets": [
+        "OTC Antipiojos Fórmula Total, es un pediculicida sin insecticidas que elimina piojos y liendres en solo 2 minutos con una única aplicación, su acción física provoca la muerte de los piojos por desequilibrio hídrico. Apto para mayores de 12 meses, es inodoro, incoloro y fácil de lavar, testado dermatológicamente",
+        "Elimina completamente los piojos y liendres en solo 2 minutos con una única aplicación, es seguro para pieles sensibles y atópicas, no irrita y cuida el cabello. Además, su fórmula inodora e incolora asegura una experiencia cómoda y sin complicaciones",
+        "Formulado con Dimeticona, que crea una barrera que asfixia a los piojos, Escualano, que hidrata el cuero cabelludo y el Alcohol Láurico ayuda para disolver la capa protectora de los piojos, mejorando la eficacia del tratamiento",
+        "Aplica el producto a 10 cm del cabello seco, masajea hasta impregnar completamente y deja actuar por 2 minutos usando el gorro incluido para evitar goteos. Peina con la lendrera desde la raíz, aplica champú sin mojar el cabello, frota y enjuaga. Repite el lavado si es necesario",
+        "Usar solo cuando se visualicen piojos vivos, no mezclar con otro pediculicida, usar gorros, peines y toallas individuales. Mantener fuera del alcance de niños y evitar contacto con ojos y mucosas. Repetir el tratamiento en 7 días si persisten los piojos"
+      ],
+      "description": "",
+      "themes": [
+        "kills_lice_eggs",
+        "fast_action",
+        "physical_non_chemical",
+        "child_safe",
+        "no_odor",
+        "gentle_skin",
+        "no_resistance"
+      ],
+      "claimCount": 7
+    },
+    {
+      "asin": "B07C41N7T1",
+      "brand": "ZZ",
+      "title": "ZZ | Tratamiento Completo contra Piojos | Champú y Loción | Incluye Liendrera | Con permetrina | Seguro desde 3 Años | Loción 100 ml y Champú 125 ml",
+      "price": 12.29,
+      "rating": 4.5,
+      "reviews": 3804,
+      "bsr": 874,
+      "rev30d": 14439.7,
+      "sales30d": 1176,
+      "mainImage": "https://m.media-amazon.com/images/I/8157Q21bqcL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/8157Q21bqcL.jpg",
+        "https://m.media-amazon.com/images/I/51KE5uKsFBL.jpg",
+        "https://m.media-amazon.com/images/I/51KE5uKsFBL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81LeBJ7UpDL.jpg",
+        "https://m.media-amazon.com/images/I/41fPh8HwpoL.jpg",
+        "https://m.media-amazon.com/images/I/41fPh8HwpoL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61uOre7xKCL.jpg",
+        "https://m.media-amazon.com/images/I/41vsBEWJazL.jpg",
+        "https://m.media-amazon.com/images/I/41vsBEWJazL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51X2ynWxMSL.jpg",
+        "https://m.media-amazon.com/images/I/41phqZfueML.jpg",
+        "https://m.media-amazon.com/images/I/41phqZfueML._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61bpoB7SIaL.jpg",
+        "https://m.media-amazon.com/images/I/41FnjJCQJJL.jpg",
+        "https://m.media-amazon.com/images/I/41FnjJCQJJL._SL75_.jpg"
+      ],
+      "bullets": [
+        "EFICACIA: Nuestro pack ZZ ofrece una solución definitiva y rápida para combatir los piojos y liendres, utilizando una fórmula avanzada. La OMS ha elegido la permetrina como tratamiento de primera elección para combatir la pediculosis. La combinación de nuestro champú y loción ha sido científicamente diseñada para ofrecer resultados inmediatos, eliminando eficazmente estos parásitos sin causar daño al cuero cabelludo o al cabello. Ideal para tratamientos de emergencia y mantenimiento regular, garantizando la seguridad y comodidad de toda la familia.",
+        "KIT COMPLETO PARA LA FAMILIA: Este pack integral incluye una loción antipiojos de 100 ml y un champú de 125 ml, acompañados de un peine liendrera de alta eficiencia y dos gorros desechables, proporcionando todo lo necesario para un tratamiento exhaustivo en casa. Diseñado para ser utilizado en niños a partir de los 3 años y adultos, este kit facilita la aplicación y mejora la efectividad del tratamiento, haciendo que la prevención y eliminación de piojos sea más fácil que nunca.",
+        "USO: Loción ZZ, específicamente formulada para la eliminación de piojos y liendres con una sola aplicación en 10 minutos. Y champú ZZ, actúa sobre los piojos y liendres provocando eliminación gracias a su acción paralizante y asfixiante en 10-15 minutos. Repetir la acción si persiste la infestación al cabo de 7 días.",
+        "SEGURIDAD Y EFICACIA: La seguridad de tu familia es nuestra prioridad. Apto para niños mayores de 3 años, nuestro pack ofrece una solución efectiva y respetuosa con la piel, eliminando piojos y liendres sin recurrir a químicos agresivos.",
+        "APLICACIÓN SENCILLA Y EFECTIVA: Con nuestro pack ZZ, decir adiós a los piojos y liendres es fácil. El tratamiento se aplica en tres pasos simples: distribuir el producto de manera uniforme sobre el cabello seco, dejar actuar durante el tiempo recomendado y aclarar con abundante agua. Este proceso, junto con el uso del peine liendrera incluido, asegura la eliminación efectiva de los piojos y liendres, dejando el cabello limpio y protegido."
+      ],
+      "description": "",
+      "themes": [
+        "kills_lice_eggs",
+        "fast_action",
+        "comb_included",
+        "child_safe",
+        "family_size_value",
+        "medical_certified"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B0D33NP6VB",
+      "brand": "Nitwits",
+      "title": "NitWits Spray Antipiojos Todo en Uno – Tratamiento Rápido de 20 Minutos sin Peine Durante el Uso – Con Peine para Después del Tratamiento – 120 ml para Niños",
+      "price": 15.99,
+      "rating": 4.5,
+      "reviews": 6610,
+      "bsr": 1138,
+      "rev30d": 11890.31,
+      "sales30d": 744,
+      "mainImage": "https://m.media-amazon.com/images/I/41MzLsCItVL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/41MzLsCItVL.jpg",
+        "https://m.media-amazon.com/images/I/41MzLsCItVL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71fKEfHH+SL.jpg",
+        "https://m.media-amazon.com/images/I/41MWT-dO-rL.jpg",
+        "https://m.media-amazon.com/images/I/41MWT-dO-rL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71sziBcLxvL.jpg",
+        "https://m.media-amazon.com/images/I/51LtIBfUVeL.jpg",
+        "https://m.media-amazon.com/images/I/51LtIBfUVeL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/714VPfZI6iL.jpg",
+        "https://m.media-amazon.com/images/I/51NALoa2WuL.jpg",
+        "https://m.media-amazon.com/images/I/51NALoa2WuL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81je+vqcHSL.jpg",
+        "https://m.media-amazon.com/images/I/413eq5VvYwL.jpg",
+        "https://m.media-amazon.com/images/I/413eq5VvYwL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71eUrfrcfLL.jpg",
+        "https://m.media-amazon.com/images/I/41eX7USvS-L.jpg",
+        "https://m.media-amazon.com/images/I/41eX7USvS-L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61JfnzzB1VL.jpg",
+        "https://m.media-amazon.com/images/I/614k2tFLayL.jpg",
+        "https://m.media-amazon.com/images/I/614k2tFLayL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/41g3Wfk+c8L.jpg",
+        "https://m.media-amazon.com/images/I/41g3Wfk+c8L._SL75_.jpg"
+      ],
+      "bullets": [
+        "KIT COMPLETO: Incluye 1 x 120 ml de solución antipiojos en spray y un peine fino de plástico para retirar los piojos y liendres muertos después del tratamiento",
+        "RÁPIDO Y EFICAZ: Mata piojos y liendres en solo 20 minutos gracias a su fórmula a base de silicona (dimeticona), sin insecticidas tradicionales",
+        "SUAVE CON LA PIEL: Apto para niños. Fórmula sin productos químicos agresivos que no irrita el cuero cabelludo sensible",
+        "FÁCIL DE APLICAR: El aplicador en spray permite una cobertura uniforme, limpia y sin goteos",
+        "OLOR AGRADABLE: Con fragancia suave y agradable. Se elimina fácilmente con un champú normal. No requiere peinar durante la aplicación"
+      ],
+      "description": "",
+      "themes": [
+        "kills_lice_eggs",
+        "fast_action",
+        "physical_non_chemical",
+        "comb_included",
+        "child_safe",
+        "gentle_skin"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B009VZJD8K",
+      "brand": "ZZ",
+      "title": "ZZ | Antipiojos | Loción Capilar para Eliminación de Piojos y Liendres | Con Permetrina | Tratamiento Integral | Niños a Partir de 2 Años | 100 ml",
+      "price": 5.95,
+      "rating": 4.6,
+      "reviews": 2756,
+      "bsr": 138,
+      "rev30d": 9715.5,
+      "sales30d": 1626,
+      "mainImage": "https://m.media-amazon.com/images/I/91-9RaiRZfL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/91-9RaiRZfL.jpg",
+        "https://m.media-amazon.com/images/I/51l+S0HYSBL.jpg",
+        "https://m.media-amazon.com/images/I/51l+S0HYSBL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71hdEeCcJ-L.jpg",
+        "https://m.media-amazon.com/images/I/51osC0ZoIOL.jpg",
+        "https://m.media-amazon.com/images/I/51osC0ZoIOL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51usybNxIlL.jpg",
+        "https://m.media-amazon.com/images/I/41v3Tet1XrL.jpg",
+        "https://m.media-amazon.com/images/I/41v3Tet1XrL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51Ln6HwwGfL.jpg",
+        "https://m.media-amazon.com/images/I/41hzqeVHaVL.jpg",
+        "https://m.media-amazon.com/images/I/41hzqeVHaVL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/6119aWRc+8L.jpg",
+        "https://m.media-amazon.com/images/I/41DE1J81tEL.jpg",
+        "https://m.media-amazon.com/images/I/41DE1J81tEL._SL75_.jpg"
+      ],
+      "bullets": [
+        "EFICACIA: La loción capilar ZZ es tu aliado definitivo en la lucha contra los piojos, fórmula probada para eliminar eficazmente piojos y liendres desde el primer uso. Su fórmula avanzada penetra profundamente, asegurando la eliminación total sin dañar el cuero cabelludo. La OMS ha elegido la permetrina como tratamiento de primera elección para combatir la pediculosis.",
+        "TRATAMIENTO: Loción antipiojos de 100 ml, para todo tipo de cabello. Loción pediculicida que elimina los piojos y ayuda a desprender las liendres en una sola aplicación. Con un principio activo permetrina que es letal contra los parásitos adultos y además desarrolla un actividad ovicida que elimina los huevos de estos.",
+        "USO: Loción ZZ, específicamente formulada para la eliminación de piojos y liendres con una sola aplicación en 10 minutos.",
+        "FÓRMULA: Confía en la seguridad y eficacia de nuestras fórmulas. Elaboradas sin químicos dañinos, son adecuadas para la piel sensible de niños y adultos, garantizando un tratamiento antipiojos sin riesgos para la salud. Nuestra dedicación a la calidad asegura un cuidado capilar óptimo y protección contra los piojos.",
+        "USO FÁCIL: Con ZZ, el tratamiento antipiojos es sencillo. Aplica la loción directamente sobre el cabello seco, deja actuar con el gorro incluido, y luego enjuaga. El peine fino facilita la eliminación de liendres muertas, asegurando que una sola aplicación sea suficiente en la mayoría de los casos. Para infestaciones persistentes, una segunda aplicación después de 7 días ofrece la solución definitiva."
+      ],
+      "description": "",
+      "themes": [
+        "kills_lice_eggs",
+        "fast_action",
+        "child_safe"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B0179QDKFY",
+      "brand": "ISDIN",
+      "title": "ISDIN Gel Pediculicida, Gel Antipiojos de uso Humano que Elimina Piojos y Liendres en 10 Minutos, Elimina Eficazmente los Piojos, 100 ml",
+      "price": 21.29,
+      "rating": 4.2,
+      "reviews": 172,
+      "bsr": 4551,
+      "rev30d": 5136.91,
+      "sales30d": 240,
+      "mainImage": "https://m.media-amazon.com/images/I/51iqWkr7cyL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/51iqWkr7cyL.jpg",
+        "https://m.media-amazon.com/images/I/41sJwWMUAFL.jpg",
+        "https://m.media-amazon.com/images/I/41sJwWMUAFL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71jx-RmjLhL.jpg",
+        "https://m.media-amazon.com/images/I/31R+KDid79L.jpg",
+        "https://m.media-amazon.com/images/I/31R+KDid79L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/717GOErJgxL.jpg",
+        "https://m.media-amazon.com/images/I/21jKSu0wxGL.jpg",
+        "https://m.media-amazon.com/images/I/21jKSu0wxGL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/7107VIbL+RL.jpg",
+        "https://m.media-amazon.com/images/I/31cKVIODsiL.jpg",
+        "https://m.media-amazon.com/images/I/31cKVIODsiL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81dn-DXHQ-L.jpg",
+        "https://m.media-amazon.com/images/I/41gWq8uU0FL.jpg",
+        "https://m.media-amazon.com/images/I/41gWq8uU0FL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/517ToBDjrBL.jpg",
+        "https://m.media-amazon.com/images/I/41od0I2NzgL.jpg",
+        "https://m.media-amazon.com/images/I/41od0I2NzgL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61LGe39NV6L.jpg",
+        "https://m.media-amazon.com/images/I/31-aVtezPXL.jpg",
+        "https://m.media-amazon.com/images/I/31-aVtezPXL._SL75_.jpg"
+      ],
+      "bullets": [
+        "Penetra en los espiráculos destruyendo las liendres de manera natural gracias a neemtech",
+        "Tratamiento natural que elimina el picor en la cabeza; muy cómodo y fácil de utilizar",
+        "Producto idealmente pensado para niños, aunque también para piojos en adultos",
+        "Con antipiojos isdin elimina eficazmente piojos y liendres en una única aplicación en sólo 10 minutos",
+        "Formulado con ingredientes naturales; el extracto de semilla del árbol del neem, a través de un método de extracción patentado"
+      ],
+      "description": "",
+      "themes": [
+        "kills_lice_eggs",
+        "fast_action",
+        "physical_non_chemical",
+        "child_safe",
+        "medical_certified"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B00KP7PUE4",
+      "brand": "Paranix",
+      "title": "Paranix Elimina Piojos y Liendres, Champú 2en1, elimina piojos y lava el cabello al mismo tiempo - Incluye Lendrera - Sin insecticidas - 200ml",
+      "price": 11.9,
+      "rating": 4.3,
+      "reviews": 532,
+      "bsr": 2532,
+      "rev30d": 4300.22,
+      "sales30d": 248,
+      "mainImage": "https://m.media-amazon.com/images/I/71Sq0bmU97L.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71Sq0bmU97L.jpg",
+        "https://m.media-amazon.com/images/I/41PsPMlF8HL.jpg",
+        "https://m.media-amazon.com/images/I/41PsPMlF8HL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/712BuT-HjQL.jpg",
+        "https://m.media-amazon.com/images/I/41-91SftOFL.jpg",
+        "https://m.media-amazon.com/images/I/41-91SftOFL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61rwat3AmPL.jpg",
+        "https://m.media-amazon.com/images/I/41Rxwt288EL.jpg",
+        "https://m.media-amazon.com/images/I/41Rxwt288EL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61rwat3AmPL.jpg",
+        "https://m.media-amazon.com/images/I/41y3jzigB2L.jpg",
+        "https://m.media-amazon.com/images/I/41y3jzigB2L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71TONOLsyZL.jpg",
+        "https://m.media-amazon.com/images/I/41VR+jUBp6L.jpg",
+        "https://m.media-amazon.com/images/I/41VR+jUBp6L._SL75_.jpg"
+      ],
+      "bullets": [
+        "La fórmula de doble acción del Champú Paranix 2en1 no solo ahoga los piojos y las liendres sino que también los deshidrata",
+        "Resulta cómodo de utilizar porque al mismo tiempo lava el cabello",
+        "Actúa de forma mecánica ahogando y deshidratando el piojo, de esta forma es menos probable que se generen resistencias al producto",
+        "Incluye lendrera",
+        "Agradable olor"
+      ],
+      "description": "",
+      "themes": [
+        "kills_lice_eggs",
+        "physical_non_chemical",
+        "comb_included",
+        "no_resistance"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B00WUOFQOE",
+      "brand": "Neositrín",
+      "title": "Neositrin, Pack Spray Gel (60ml) y Champú Antipiojos (100ml), Eliminación Completa y Limpieza Profunda en 1 Minuto, Sin Insecticidas, A partir de 1 año",
+      "price": 27.93,
+      "rating": 4.5,
+      "reviews": 370,
+      "bsr": 7514,
+      "rev30d": 3037.82,
+      "sales30d": 130,
+      "mainImage": "https://m.media-amazon.com/images/I/71-d+D5IllL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71-d+D5IllL.jpg",
+        "https://m.media-amazon.com/images/I/41S-Srq3NCL.jpg",
+        "https://m.media-amazon.com/images/I/41S-Srq3NCL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81c-0nnj6ZL.jpg",
+        "https://m.media-amazon.com/images/I/51WmXlWtYBL.jpg",
+        "https://m.media-amazon.com/images/I/51WmXlWtYBL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61vxu9ErhFL.jpg",
+        "https://m.media-amazon.com/images/I/41THFIlp6zL.jpg",
+        "https://m.media-amazon.com/images/I/41THFIlp6zL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61zbvt6ihsL.jpg",
+        "https://m.media-amazon.com/images/I/41xLfSC05AL.jpg",
+        "https://m.media-amazon.com/images/I/41xLfSC05AL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61wPrdBwYML.jpg",
+        "https://m.media-amazon.com/images/I/41r65psBmdL.jpg",
+        "https://m.media-amazon.com/images/I/41r65psBmdL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61g+0PiBs0L.jpg",
+        "https://m.media-amazon.com/images/I/4158U-Yj7dL.jpg",
+        "https://m.media-amazon.com/images/I/4158U-Yj7dL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61DrlpsurqL.jpg",
+        "https://m.media-amazon.com/images/I/41isdn5eDzL.jpg",
+        "https://m.media-amazon.com/images/I/41isdn5eDzL._SL75_.jpg"
+      ],
+      "bullets": [
+        "TRATAMIENTO COMPLETO CONTRA PIOJOS Y LIENDRES: Neositrin Pack Spray Gel + Champú ofrece una solución eficaz en dos pasos: elimina el 100% de los piojos y liendres y deja el cabello limpio y brillante",
+        "SPRAY GEL ANTIPIOJOS CON 4% DIMETICONA + PENETROL: Actúa rápidamente asfixiando a los piojos y penetrando en las liendres para eliminarlas en solo 1 minuto, sin insecticidas y con alta tolerancia",
+        "CHAMPÚ LIMPIADOR Y SUAVIZANTE: Retira fácilmente los restos del tratamiento y deja el cabello limpio, ligero y con un aroma agradable; Su fórmula hipoalergénica lo hace seguro para niños y pieles sensibles",
+        "SIN INSECTICIDAS, RESPETUOSO CON EL CUERO CABELLUDO: Formulado sin pesticidas químicos, este pack es seguro para toda la familia, incluyendo niños desde 1 año, personas con piel atópica, asmáticos y embarazadas",
+        "FÁCIL APLICACIÓN Y RESULTADOS EFECTIVOS: Aplica el Spray Gel en cabello seco, deja actuar 1 minuto y lava con champú para retirar los residuos; Un proceso rápido, sencillo y eficaz para combatir los piojos"
+      ],
+      "description": "",
+      "themes": [
+        "kills_lice_eggs",
+        "fast_action",
+        "physical_non_chemical",
+        "child_safe",
+        "family_size_value",
+        "gentle_skin",
+        "no_resistance"
+      ],
+      "claimCount": 7
+    },
+    {
+      "asin": "B00J5FYKPW",
+      "brand": "Neositrín",
+      "title": "Neositrin, Champú Post Tratamiento Piojos, Limpieza Profunda y Brillo, Retira Fácilmente los Residuos, Hipoalergénico y Sin Insecticidas, A partir de 1 año, 100ml",
+      "price": 9.09,
+      "rating": 4.4,
+      "reviews": 529,
+      "bsr": 3455,
+      "rev30d": 2376.72,
+      "sales30d": 334,
+      "mainImage": "https://m.media-amazon.com/images/I/61s9GL3tIcL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61s9GL3tIcL.jpg",
+        "https://m.media-amazon.com/images/I/41W6jGSsP3L.jpg",
+        "https://m.media-amazon.com/images/I/41W6jGSsP3L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/5135rdb6fdL.jpg",
+        "https://m.media-amazon.com/images/I/5135rdb6fdL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51B2V8DRPtL.jpg",
+        "https://m.media-amazon.com/images/I/51B2V8DRPtL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51XI8OFNSKL.jpg",
+        "https://m.media-amazon.com/images/I/51XI8OFNSKL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51eF509kf6L.jpg",
+        "https://m.media-amazon.com/images/I/51eF509kf6L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/617AKdW9+EL.jpg",
+        "https://m.media-amazon.com/images/I/41W8T8UC3SL.jpg",
+        "https://m.media-amazon.com/images/I/41W8T8UC3SL._SL75_.jpg"
+      ],
+      "bullets": [
+        "COMPLETA EL TRATAMIENTO Y LUCE UN PELO LIMPIO Y BRILLANTE: Neositrin Champú Antipiojos ayuda a eliminar los restos del tratamiento y deja el cabello limpio, suave y con brillo saludable, sin dañar el cuero cabelludo, en la fase después del uso de la loción antipiojos.",
+        "FORMULADO CON QUASSIA AMARA REPELENTE NATURAL – Diseñado para quienes buscan ayuda extra frente a nuevas infestaciones cuando ya han realizado el tratamiento, su fórmula con Quassia Amara actúa como repelente natural de piojos, ayudando a prevenir futuras infestaciones sin insecticidas, mientras cuida el cuero cabelludo gracias a su formulación suave.",
+        "ELIMINA FÁCILMENTE LOS RESIDUOS DEL TRATAMIENTO: Para padres que necesitan un producto suave pero eficaz para toda la familia, su fórmula hipoalergénica está pensada para niños desde 1 año y personas con piel sensible, asegurando un lavado suave y sin irritaciones en situaciones de uso repetido tras infestaciones de piojos.",
+        "HIPOALERGÉNICO Y SEGURO PARA TODA LA FAMILIA: Su fórmula hipoalergénica es apta para niños desde 1 año y para personas con piel sensible, asegurando un lavado suave y sin irritaciones. No daña el cabello y es suave con la piel de los más pequeños.",
+        "FÁCIL DE USAR PARA UN RESULTADO ÓPTIMO: Una vez trascurrido el tiempo de tratamiento, aplica directamente el champú (sin mojar previamente el cabello con agua). Masajea la cabeza y aclara con agua, hasta que genere espuma. El resultado será un cabello limpio y brillante tras la eliminación de piojos y liendres."
+      ],
+      "description": "",
+      "themes": [
+        "physical_non_chemical",
+        "child_safe",
+        "gentle_skin"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B01BMLRSGO",
+      "brand": "Full Marks",
+      "title": "FullMarks Kit Tratamiento Antipiojos para Niños, Elimina los Piojos, Contiene Loción 100 ml, Champú Post-Tratamiento 150 ml y Lendrera Metálica",
+      "price": 24.28,
+      "rating": 4.6,
+      "reviews": 1259,
+      "bsr": 13519,
+      "rev30d": 2218.15,
+      "sales30d": 85,
+      "mainImage": "https://m.media-amazon.com/images/I/71OUMvqpXuL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71OUMvqpXuL.jpg",
+        "https://m.media-amazon.com/images/I/41v3HFgvpiL.jpg",
+        "https://m.media-amazon.com/images/I/41v3HFgvpiL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71v96mbiLsL.jpg",
+        "https://m.media-amazon.com/images/I/51Ht1LYgaZL.jpg",
+        "https://m.media-amazon.com/images/I/51Ht1LYgaZL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71GWqD6isLL.jpg",
+        "https://m.media-amazon.com/images/I/518mD2qZGrL.jpg",
+        "https://m.media-amazon.com/images/I/518mD2qZGrL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71HOh9BAxyL.jpg",
+        "https://m.media-amazon.com/images/I/511QVHGw7rL.jpg",
+        "https://m.media-amazon.com/images/I/511QVHGw7rL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71lHhQElUBL.jpg",
+        "https://m.media-amazon.com/images/I/51r8R68Oq-L.jpg",
+        "https://m.media-amazon.com/images/I/51r8R68Oq-L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71ApjEqAiML.jpg",
+        "https://m.media-amazon.com/images/I/41JDXO-eQ8L.jpg",
+        "https://m.media-amazon.com/images/I/41JDXO-eQ8L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/91PuYkdGDjL.jpg",
+        "https://m.media-amazon.com/images/I/51xrribF8PL.jpg",
+        "https://m.media-amazon.com/images/I/51xrribF8PL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61F3JObz-xL.jpg",
+        "https://m.media-amazon.com/images/I/51sWJCGNaFL.jpg",
+        "https://m.media-amazon.com/images/I/51sWJCGNaFL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71rRV32h63L.jpg",
+        "https://m.media-amazon.com/images/I/51rD3sCrdRL.jpg",
+        "https://m.media-amazon.com/images/I/51rD3sCrdRL._SL75_.jpg"
+      ],
+      "bullets": [
+        "Tiene un efecto rápido",
+        "No daña el cuero cabelludo",
+        "Es fácil de usar",
+        "Incluye una lendrera metálica",
+        "Fórmula sin pesticidas"
+      ],
+      "description": "",
+      "themes": [
+        "kills_lice_eggs",
+        "physical_non_chemical",
+        "comb_included",
+        "child_safe",
+        "family_size_value"
+      ],
+      "claimCount": 5
+    }
+  ],
+  "claimsMatrix": {
+    "themes": [
+      {
+        "key": "kills_lice_eggs",
+        "label": "Kills Lice & Eggs"
+      },
+      {
+        "key": "fast_action",
+        "label": "Fast Action (10–20 min)"
+      },
+      {
+        "key": "physical_non_chemical",
+        "label": "Physical / No Insecticide"
+      },
+      {
+        "key": "comb_included",
+        "label": "Comb Included / Is Comb"
+      },
+      {
+        "key": "child_safe",
+        "label": "Child / Pregnancy Safe"
+      },
+      {
+        "key": "medical_certified",
+        "label": "Medical Device / Pharmacy"
+      },
+      {
+        "key": "gentle_skin",
+        "label": "Gentle on Scalp"
+      },
+      {
+        "key": "no_odor",
+        "label": "Odor-Free / Colorless"
+      },
+      {
+        "key": "family_size_value",
+        "label": "Family Size / Value Pack"
+      },
+      {
+        "key": "no_resistance",
+        "label": "No Resistance Build-Up"
+      }
+    ],
+    "rows": [
+      {
+        "asin": "B00TTWTOJI",
+        "brand": "Neositrín",
+        "cells": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B07BBMJFM1",
+        "brand": "OTC Antipiojos",
+        "cells": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B07C41N7T1",
+        "brand": "ZZ",
+        "cells": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "asin": "B0D33NP6VB",
+        "brand": "Nitwits",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B009VZJD8K",
+        "brand": "ZZ",
+        "cells": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B0179QDKFY",
+        "brand": "ISDIN",
+        "cells": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B00KP7PUE4",
+        "brand": "Paranix",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B00WUOFQOE",
+        "brand": "Neositrín",
+        "cells": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B00J5FYKPW",
+        "brand": "Neositrín",
+        "cells": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B01BMLRSGO",
+        "brand": "Full Marks",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "claimsSummary": [
+    {
+      "theme": "kills_lice_eggs",
+      "label": "Kills Lice & Eggs",
+      "count": 9,
+      "pct": "90%",
+      "topBrands": [
+        "Neositrín",
+        "OTC Antipiojos",
+        "ZZ"
+      ]
+    },
+    {
+      "theme": "fast_action",
+      "label": "Fast Action (10–20 min)",
+      "count": 7,
+      "pct": "70%",
+      "topBrands": [
+        "Neositrín",
+        "OTC Antipiojos",
+        "ZZ"
+      ]
+    },
+    {
+      "theme": "physical_non_chemical",
+      "label": "Physical / No Insecticide",
+      "count": 8,
+      "pct": "80%",
+      "topBrands": [
+        "Neositrín",
+        "OTC Antipiojos",
+        "Nitwits"
+      ]
+    },
+    {
+      "theme": "comb_included",
+      "label": "Comb Included / Is Comb",
+      "count": 4,
+      "pct": "40%",
+      "topBrands": [
+        "ZZ",
+        "Nitwits",
+        "Paranix"
+      ]
+    },
+    {
+      "theme": "child_safe",
+      "label": "Child / Pregnancy Safe",
+      "count": 9,
+      "pct": "90%",
+      "topBrands": [
+        "Neositrín",
+        "OTC Antipiojos",
+        "ZZ"
+      ]
+    },
+    {
+      "theme": "medical_certified",
+      "label": "Medical Device / Pharmacy",
+      "count": 3,
+      "pct": "30%",
+      "topBrands": [
+        "Neositrín",
+        "ZZ",
+        "ISDIN"
+      ]
+    },
+    {
+      "theme": "gentle_skin",
+      "label": "Gentle on Scalp",
+      "count": 4,
+      "pct": "40%",
+      "topBrands": [
+        "OTC Antipiojos",
+        "Nitwits",
+        "Neositrín"
+      ]
+    },
+    {
+      "theme": "no_odor",
+      "label": "Odor-Free / Colorless",
+      "count": 1,
+      "pct": "10%",
+      "topBrands": [
+        "OTC Antipiojos"
+      ]
+    },
+    {
+      "theme": "family_size_value",
+      "label": "Family Size / Value Pack",
+      "count": 3,
+      "pct": "30%",
+      "topBrands": [
+        "ZZ",
+        "Neositrín",
+        "Full Marks"
+      ]
+    },
+    {
+      "theme": "no_resistance",
+      "label": "No Resistance Build-Up",
+      "count": 4,
+      "pct": "40%",
+      "topBrands": [
+        "Neositrín",
+        "OTC Antipiojos",
+        "Paranix"
+      ]
+    }
+  ],
+  "vocGap": [
+    {
+      "vocTopic": "Fast claims don't match reality — product failed",
+      "customerConcernPct": "~30%",
+      "addressedByCount": 4,
+      "addressedByBrands": [
+        "Neositrín",
+        "OTC",
+        "ISDIN",
+        "Paranix"
+      ],
+      "gapSeverity": "HIGH",
+      "whitespace": "Neositrín claims '1 minuto' and OTC '2 minutos' — ultra-fast claims are hard to believe. A 'funciona o devolvemos el dinero' guarantee closes the trust gap."
+    },
+    {
+      "vocTopic": "Permethrin resistance — ZZ no longer works",
+      "customerConcernPct": "~20%",
+      "addressedByCount": 7,
+      "addressedByBrands": [
+        "Neositrín",
+        "OTC",
+        "Paranix",
+        "Nitwits",
+        "ISDIN",
+        "FullMarks"
+      ],
+      "gapSeverity": "HIGH",
+      "whitespace": "2 of 10 ES products still use permethrin (ZZ). The other 8 explicitly claim 'sin insecticidas / physical action'. Buyers increasingly understand permethrin resistance — attack the ZZ position directly."
+    },
+    {
+      "vocTopic": "Strong smell / chemical fumes",
+      "customerConcernPct": "~20%",
+      "addressedByCount": 1,
+      "addressedByBrands": [
+        "OTC (inodora)"
+      ],
+      "gapSeverity": "HIGH",
+      "whitespace": "Only OTC explicitly claims 'inodora e incolora'. Huge whitespace — 9 of 10 are fragranced or unscored."
+    },
+    {
+      "vocTopic": "Didn't cover long hair",
+      "customerConcernPct": "~15%",
+      "addressedByCount": 2,
+      "addressedByBrands": [
+        "Neositrín Pack",
+        "ZZ Kit"
+      ],
+      "gapSeverity": "MEDIUM",
+      "whitespace": "60ml / 100ml SKUs are under-sized for long hair. Only multi-piece packs exceed 150ml total."
+    },
+    {
+      "vocTopic": "Hard to rinse out / greasy",
+      "customerConcernPct": "~15%",
+      "addressedByCount": 1,
+      "addressedByBrands": [
+        "Paranix"
+      ],
+      "gapSeverity": "MEDIUM",
+      "whitespace": "Only Paranix claims easy rinse (2-in-1). Dimeticone-based products notoriously leave residue — open space."
+    },
+    {
+      "vocTopic": "Unsafe for pregnancy / babies",
+      "customerConcernPct": "~15%",
+      "addressedByCount": 3,
+      "addressedByBrands": [
+        "Neositrín Pack (embarazadas)",
+        "Neositrín 1min (12m+)",
+        "OTC (1 año+)"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "Neositrín Pack is the only brand explicitly naming pregnancy + asthmatic + atopic safety. Strong niche, under-marketed."
+    }
+  ],
+  "whitespaceOpportunities": [
+    {
+      "opportunity": "Sub-1-minute or instant kill",
+      "rationale": "Neositrín '1 minuto' is currently the fastest. OTC claims '2 minutos'. Anyone claiming '30 segundos' or 'instant' leapfrogs both.",
+      "evidence": "Neositrín = 1 min, OTC = 2 min, ISDIN/ZZ/Paranix = 10 min, Nitwits = 20 min. Sub-60s is open."
+    },
+    {
+      "opportunity": "Anti-permethrin campaign",
+      "rationale": "ZZ still sells with permethrin (the only insecticide-based product in the ES top 10). Growing customer awareness of resistance makes this a ripe target.",
+      "evidence": "2 of 10 ES listings use permethrin; 8 of 10 explicitly claim 'sin insecticidas'. Campaign: 'Los piojos ya son resistentes a la permetrina — elige un producto físico'."
+    },
+    {
+      "opportunity": "Odorless + colorless premium",
+      "rationale": "Only OTC (1/10) claims 'inodora e incolora'. Spanish buyers consistently complain about smell in reviews.",
+      "evidence": "1 of 10 treatments has the odorless + colorless combo. Clear whitespace."
+    },
+    {
+      "opportunity": "Pregnancy-safe hero positioning",
+      "rationale": "Only Neositrín Pack mentions pregnancy/asthmatic/atopic explicitly, but it's buried in bullet 4.",
+      "evidence": "1 of 10 mentions pregnancy safety; 0 of 10 lead on it in the title."
+    },
+    {
+      "opportunity": "Long-hair SKU",
+      "rationale": "60-100ml is the norm. Long-haired kids run out mid-treatment.",
+      "evidence": "0 of 10 sell a 200ml+ single-SKU treatment. Kits include multiple items but no single long-hair bottle."
+    },
+    {
+      "opportunity": "Refund / kill guarantee",
+      "rationale": "0 of 10 offer a money-back. Spanish pharmacy buyers value guarantees highly.",
+      "evidence": "No failure-refund language in any ES top-10 listing."
+    }
+  ],
+  "saturation": [
+    {
+      "claim": "kills_lice_eggs",
+      "label": "Elimina Piojos y Liendres",
+      "saturationPct": "90%",
+      "advice": "Table-stakes. Lead with a guarantee instead — 'funciona o devolvemos el dinero'."
+    },
+    {
+      "claim": "fast_action",
+      "label": "Fast Action (1–20 min)",
+      "saturationPct": "80%",
+      "advice": "Saturated. Neositrín owns '1 minuto'. Anyone else must claim sub-60s or stop competing on speed."
+    },
+    {
+      "claim": "physical_non_chemical",
+      "label": "Sin Insecticidas",
+      "saturationPct": "80%",
+      "advice": "Becoming standard. 2 permethrin holdouts (ZZ) still sell — attack them directly."
+    },
+    {
+      "claim": "comb_included",
+      "label": "Lendrera Incluida",
+      "saturationPct": "50%",
+      "advice": "Only half include a comb. Cheap differentiation — upgrade to metal lendrera and call it out."
+    },
+    {
+      "claim": "child_safe",
+      "label": "Child-Safe",
+      "saturationPct": "90%",
+      "advice": "Specify minimum age. 'Desde 12 meses' (Neositrín) is the gold standard; 3 años (ZZ) and 1 año (most) also exist."
+    },
+    {
+      "claim": "medical_certified",
+      "label": "Dermato / Clinical",
+      "saturationPct": "40%",
+      "advice": "Under-claimed for a pharmacy-driven market. Add 'clínicamente testado' or dermato certification."
+    },
+    {
+      "claim": "gentle_skin",
+      "label": "Piel Sensible / Atópica",
+      "saturationPct": "40%",
+      "advice": "Under-claimed. 'Apto para piel atópica' is a specific hook that SUAVINEX / OTC use."
+    },
+    {
+      "claim": "no_odor",
+      "label": "Inodora / Incolora",
+      "saturationPct": "10%",
+      "advice": "Only OTC claims both. Huge whitespace — lead bullet 1 with it."
+    },
+    {
+      "claim": "family_size_value",
+      "label": "Kit / Pack",
+      "saturationPct": "40%",
+      "advice": "Kits are common (ZZ, Neositrín, FullMarks). Differentiate by what's IN the kit, not just having one."
+    },
+    {
+      "claim": "no_resistance",
+      "label": "No Resistance Build-Up",
+      "saturationPct": "60%",
+      "advice": "Standard physical-action benefit. Tie it to the permethrin resistance story for impact."
+    }
+  ],
+  "strategicRecommendations": [
+    {
+      "type": "Positioning",
+      "badgeBg": "#e0f2fe",
+      "badgeColor": "#075985",
+      "finding": "Neositrín holds 4 of the top 10 ES treatment SKUs (40% of the top by count). They own '1 minuto' positioning and pregnancy-safety claims.",
+      "implication": "Direct competition with Neositrín is losing. Pick an angle they don't own: instant kill (sub-60s), anti-permethrin campaign, or premium fragrance-free."
+    },
+    {
+      "type": "Messaging",
+      "badgeBg": "#ede9fe",
+      "badgeColor": "#5b21b6",
+      "finding": "ZZ (permethrin) still has 2 of top 10 slots despite growing resistance concerns. 8 of 10 competitors explicitly say 'sin insecticidas' but nobody attacks the permethrin position.",
+      "implication": "Launch an 'anti-resistencia' campaign. Copy hook: 'Los piojos ya resisten a la permetrina — elige tratamiento físico'. Target ZZ buyers directly."
+    },
+    {
+      "type": "Product",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "Only OTC claims 'inodora e incolora'. Smell is consistently a top-3 complaint in reviews.",
+      "implication": "Formulate a truly odorless/colorless dimethicone treatment. Lead title with 'sin olor, sin color, sin dejar residuos'."
+    },
+    {
+      "type": "Positioning",
+      "badgeBg": "#e0f2fe",
+      "badgeColor": "#075985",
+      "finding": "Only Neositrín Pack mentions pregnancy + asthmatic + atopic — buried in bullet 4.",
+      "implication": "Make it the primary positioning — 'Tratamiento antipiojos para embarazadas, bebés y piel atópica'. Niche lock, high margin."
+    },
+    {
+      "type": "Packaging",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "60-100ml is the norm. Long-haired kids run out mid-treatment; only kits provide enough volume.",
+      "implication": "Launch a 200ml 'Pelo largo' variant. Fewer bottles = better UX + higher per-SKU revenue."
+    },
+    {
+      "type": "Messaging",
+      "badgeBg": "#ede9fe",
+      "badgeColor": "#5b21b6",
+      "finding": "October seasonality is 1.89× — highest of all EU lice markets. Treatment demand spikes dramatically with the school return.",
+      "implication": "Shift ~60% of annual PPC + promo budget into Aug 15 – Oct 30. Refresh hero image and title with 'Vuelta al cole' messaging from Aug 1."
+    }
+  ]
+}

@@ -1,0 +1,4889 @@
+{
+ "totalReviews": 625,
+ "avgRating": 3.85,
+ "starDist": [
+  76,
+  46,
+  45,
+  189,
+  269
+ ],
+ "cpSummary": "<b>Overwhelmingly parents (mostly mothers) treating school-age daughters with long/thick hair</b> after back-to-school lice outbreaks. Buyers are stressed, budget-conscious, and have usually tried 2-3 failed products (pharmacy or natural remedies) before landing on the winner.",
+ "cpWho": {
+  "labels": [
+   "Mothers of schoolkids",
+   "Long/thick-hair girls",
+   "Whole families (3+)",
+   "Desperate repeat buyers"
+  ],
+  "pos": [
+   210,
+   150,
+   70,
+   90
+  ],
+  "neg": [
+   55,
+   40,
+   18,
+   22
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Back-to-school outbreak",
+   "After camps/holidays",
+   "Recurring infestation",
+   "Emergency first-time"
+  ],
+  "pos": [
+   180,
+   60,
+   140,
+   140
+  ],
+  "neg": [
+   40,
+   18,
+   45,
+   49
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Home bathroom (night)",
+   "Home bathroom (5-min)",
+   "Outdoors/balcony",
+   "Bathtub/shower"
+  ],
+  "pos": [
+   260,
+   180,
+   15,
+   65
+  ],
+  "neg": [
+   70,
+   55,
+   3,
+   24
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Spray lotion + comb",
+   "Overnight lotion",
+   "Shampoo format",
+   "Natural/essential-oil"
+  ],
+  "pos": [
+   220,
+   180,
+   40,
+   80
+  ],
+  "neg": [
+   60,
+   55,
+   15,
+   37
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Back-to-school infestation (maternelle/primaire)",
+   "reason": "Most reviews mention lice caught at school, often in September or after holidays",
+   "pct": "42.1%"
+  },
+  {
+   "label": "Repeat infestation after failed pharmacy products",
+   "reason": "Buyers arrive having burned through 2-3 other brands first",
+   "pct": "27.5%"
+  },
+  {
+   "label": "Whole-family treatment (mother + siblings)",
+   "reason": "One bottle rarely enough — parents treat themselves and all children simultaneously",
+   "pct": "14.2%"
+  },
+  {
+   "label": "Long/thick/curly/afro hair challenge",
+   "reason": "Texture of hair drives product choice and quantity needed",
+   "pct": "10.1%"
+  },
+  {
+   "label": "Preventive application",
+   "reason": "A subset use it proactively when outbreak announced at school",
+   "pct": "6.1%"
+  }
+ ],
+ "csSummary": "<b>Two sharply divided camps:</b> enthusiasts who call it 'miraculous in one application' and frustrated buyers who report live lice after 8-12 hours of exposure — suggesting real variability in hair-coverage technique, resistance, and expectation management around nits vs lice.",
+ "negativeTopics": [
+  {
+   "label": "Product ineffective — live lice after treatment",
+   "reason": "Dominant 1-2★ complaint: lice still alive after full exposure time",
+   "pct": "38.5%",
+   "bullets": [
+    "Live lice found with comb after 8-12h overnight pose",
+    "Entire family retreated with zero result",
+    "Suspected resistance vs older formulations"
+   ],
+   "quotes": [
+    "\"After 12h of exposure, lice are still alive — first time this has ever happened with an anti-lice treatment.\"",
+    "\"I've done 3 treatments in a week — still finding live lice. 15 euros in the bin.\""
+   ]
+  },
+  {
+   "label": "Nits (lentes) survive — requires 2nd application",
+   "reason": "Even positive reviewers note a second round 7 days later is needed",
+   "pct": "24.3%",
+   "bullets": [
+    "Product kills adults but nits hatch days later",
+    "'One application' marketing claim contradicted by reality",
+    "Comb phase mandatory and tedious"
+   ],
+   "quotes": [
+    "\"The lice die but the nits are another story — they come back a week later.\"",
+    "\"One application is not enough despite what the box says.\""
+   ]
+  },
+  {
+   "label": "Cheap plastic comb — inadequate",
+   "reason": "Universal gripe: the included comb is flimsy, teeth too short/wide, breaks easily",
+   "pct": "18.2%",
+   "bullets": [
+    "Plastic comb breaks on first use",
+    "Teeth too short for long/thick hair",
+    "Users advise buying separate metal comb"
+   ],
+   "quotes": [
+    "\"The comb is plastic, fragile, better to invest in a metal one.\"",
+    "\"Comb broke at the first use — useless on thick hair.\""
+   ]
+  },
+  {
+   "label": "Too greasy — hard to rinse out",
+   "reason": "Silicone/oil base requires 2-3 shampoos to remove, leaves hair oily",
+   "pct": "15.8%",
+   "bullets": [
+    "Needs multiple shampoos",
+    "Stains floors/clothes if it drips",
+    "Unpleasant on long hair"
+   ],
+   "quotes": [
+    "\"Product is like oil, I had to do 3 shampoos to get it out.\"",
+    "\"Very greasy, protect floor and clothes during application.\""
+   ]
+  },
+  {
+   "label": "Irritation — burning eyes, scalp sensitivity",
+   "reason": "Spray drift into eyes, scalp reactions reported",
+   "pct": "9.8%",
+   "bullets": [
+    "Airborne spray irritates eyes badly",
+    "Scalp burning after 10-min exposure",
+    "Reports of bumps/allergic reactions"
+   ],
+   "quotes": [
+    "\"The product literally burned my son's eyes — he screamed.\"",
+    "\"Scalp sensitive for a week after, even without lice.\""
+   ]
+  },
+  {
+   "label": "Too expensive / small bottle",
+   "reason": "Price perceived as high relative to pharmacy, bottle too small for families",
+   "pct": "8.4%",
+   "bullets": [
+    "150ml not enough for long hair × multiple family members",
+    "Price rose 50% over one month",
+    "Family treatment becomes budget burden"
+   ],
+   "quotes": [
+    "\"150ml is tiny when you have long hair and a whole family to treat.\"",
+    "\"A real budget when you have kids in nursery school.\""
+   ]
+  },
+  {
+   "label": "Damaged / opened on arrival",
+   "reason": "Multiple reports of broken bottles, missing combs, or crystals clogging nozzle",
+   "pct": "6.9%",
+   "bullets": [
+    "Bottle arrived opened or leaking",
+    "Crystals formed in lotion block nozzle",
+    "Missing comb vs advertised contents"
+   ],
+   "quotes": [
+    "\"Bottle arrived open, product spilled everywhere.\"",
+    "\"Full of white crystals, impossible to use properly.\""
+   ]
+  },
+  {
+   "label": "Overnight application too constraining",
+   "reason": "Some formats require 8+ hour overnight pose — hard on young kids",
+   "pct": "5.2%",
+   "bullets": [
+    "Kids can't sit still overnight with product",
+    "Rinsing in morning disrupts school routine",
+    "Pose time contradicts '5-min' marketing"
+   ],
+   "quotes": [
+    "\"Leaving it on a child's head for 8 hours is really constraining.\"",
+    "\"Impossible to make a 3-year-old keep it on all night.\""
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Root Cause",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Marketing promises 'effective in one application / 5 minutes' but nits require 7-10 days to hatch and second treatment.",
+   "implication": "Expectation mismatch drives the majority of 1-2★ reviews — buyers feel deceived even when the product partially worked."
+  },
+  {
+   "type": "Pattern",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Included plastic comb is universally rated inferior to metal combs.",
+   "implication": "Every brand that bundles a plastic comb gets the same complaint — opportunity to differentiate with proper stainless steel comb."
+  },
+  {
+   "type": "Risk",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Silicone/oil spray drift causes significant eye irritation, especially on young children.",
+   "implication": "Safety-label failure risk; claims of 'suitable from 6 months' contradicted by painful user reports."
+  },
+  {
+   "type": "Opportunity",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "150ml bottles insufficient for multi-child families with long hair.",
+   "implication": "Family-size (400-500ml) SKU with better price-per-ml would capture repeat buyers."
+  },
+  {
+   "type": "Pattern",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "'Satisfait ou rembourse' 3-day refund window is seen as fraudulent — shorter than the treatment cycle.",
+   "implication": "Refund policy shorter than treatment cycle generates repeat 1★ reviews citing bad faith."
+  },
+  {
+   "type": "Root Cause",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Puressentiel and natural-formula products under-deliver on heavy infestations.",
+   "implication": "Buyers who started natural end up returning to dimethicone-based products — positioning the natural product as 'prevention only' would set correct expectations."
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Effective in one application",
+   "reason": "Dominant 5★ theme: kills lice and nits in single overnight or 5-min application",
+   "pct": "46.2%",
+   "bullets": [
+    "Dead lice visible on comb right after rinsing",
+    "No recurrence weeks later",
+    "Saves weeks of fighting with other products"
+   ],
+   "quotes": [
+    "\"One application and goodbye lice and nits — I recommend 100%.\"",
+    "\"After months of fighting, this product saved us in one use.\""
+   ]
+  },
+  {
+   "label": "Best after trying many alternatives",
+   "reason": "Users explicitly compare against 3-5 other failed products from pharmacy",
+   "pct": "28.9%",
+   "bullets": [
+    "Pharmacy products failed first",
+    "Natural remedies failed first",
+    "Finally found 'the one' after long battle"
+   ],
+   "quotes": [
+    "\"After trying Marie Rose, Paranix, Apaisyl, essential oils — this is the only one that worked.\"",
+    "\"The only truly effective anti-lice product I've found.\""
+   ]
+  },
+  {
+   "label": "Easy spray application",
+   "reason": "Spray nozzle praised as faster/cleaner than bottle-pour lotions",
+   "pct": "21.4%",
+   "bullets": [
+    "No waste compared to bottle formats",
+    "Quick to apply on squirming kids",
+    "Good for root coverage"
+   ],
+   "quotes": [
+    "\"Much easier than bottle-format products — just pchit and done.\"",
+    "\"Spray lets you dose precisely without waste.\""
+   ]
+  },
+  {
+   "label": "Short 5-minute exposure time",
+   "reason": "Compared favorably to competitors requiring 15-30min or overnight",
+   "pct": "17.6%",
+   "bullets": [
+    "Kids tolerate 5 minutes",
+    "Fits into evening bath routine",
+    "No need to sleep with product"
+   ],
+   "quotes": [
+    "\"5 min is top — works great, I recommend!\"",
+    "\"Much easier than overnight products for young kids.\""
+   ]
+  },
+  {
+   "label": "Cheaper than pharmacy",
+   "reason": "Amazon price routinely cited as half the pharmacy price",
+   "pct": "13.1%",
+   "bullets": [
+    "Pharmacy version 2× more expensive",
+    "Same active as prescription",
+    "Amazon price stable vs pharmacy"
+   ],
+   "quotes": [
+    "\"100% effective and half the price of pharmacy.\"",
+    "\"Hard to find in pharmacy, so grateful Amazon sells it.\""
+   ]
+  },
+  {
+   "label": "No harsh chemicals / family-safe",
+   "reason": "Dimethicone or essential-oil formulas praised as gentle for kids from 6 months",
+   "pct": "10.3%",
+   "bullets": [
+    "No neurotoxic insecticide",
+    "Suitable for toddlers and pregnant women",
+    "No harsh smell"
+   ],
+   "quotes": [
+    "\"Formulated without neurotoxic insecticide, acts mechanically.\"",
+    "\"Suitable for kids from 6 months and adults — finally a safe option.\""
+   ]
+  },
+  {
+   "label": "Pleasant / neutral smell",
+   "reason": "Unlike vinegar or older-generation products, no chemical stench",
+   "pct": "8.2%",
+   "bullets": [
+    "No lingering odor",
+    "Kids don't complain",
+    "Mild or natural scent"
+   ],
+   "quotes": [
+    "\"No unpleasant smell, kids didn't complain.\"",
+    "\"Smells fine, not the chemical horror of other brands.\""
+   ]
+  },
+  {
+   "label": "Hair stays healthy after treatment",
+   "reason": "Oil base doubles as conditioner, hair soft after rinsing",
+   "pct": "6.5%",
+   "bullets": [
+    "Hair soft and shiny",
+    "No dryness",
+    "Helps detangling for comb"
+   ],
+   "quotes": [
+    "\"Hair is silky after, like a conditioner.\"",
+    "\"Doesn't damage hair, good for long afro-textured hair.\""
+   ]
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Pattern",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Biggest advocates are repeat-customer parents who bought after 3-5 failed attempts with other brands.",
+   "implication": "Marketing angle: 'the last anti-lice product you'll ever buy' — position as graduation from failed pharmacy alternatives."
+  },
+  {
+   "type": "Opportunity",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "5-minute pose time is the #1 differentiator called out vs overnight competitors.",
+   "implication": "Fast-pose format commands premium and drives 5★ reviews from stressed parents."
+  },
+  {
+   "type": "Root Cause",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Dimethicone formulas consistently praised for physical (non-insecticide) action.",
+   "implication": "'No pesticides / safe for 6m+' is a durable positioning hook as buyers grow anti-chemical."
+  },
+  {
+   "type": "Pattern",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Amazon price consistently 40-50% below pharmacy — key purchase driver.",
+   "implication": "Losing Amazon channel would collapse the category; pharmacy brands must decide whether to own DTC or cede to e-commerce."
+  },
+  {
+   "type": "Opportunity",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Hair-conditioning side-effect (softness, detangling) appears as unexpected delight.",
+   "implication": "Lean into 'treatment + hair care' dual-benefit in the packaging copy."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Urgent eradication of active infestation",
+   "reason": "Most buyers arrive in panic mode after discovering lice",
+   "pct": "41.8%"
+  },
+  {
+   "label": "Frustration with failed previous products",
+   "reason": "Having wasted money on 2-3 brands, searching for 'the one that works'",
+   "pct": "27.2%"
+  },
+  {
+   "label": "Safe for young children / no chemicals",
+   "reason": "Toddlers, babies, sensitive scalps drive formula preference",
+   "pct": "13.6%"
+  },
+  {
+   "label": "Cheaper than pharmacy alternative",
+   "reason": "Budget pressure when treating multiple family members",
+   "pct": "9.1%"
+  },
+  {
+   "label": "Recommendation from friend/teacher/pharmacist",
+   "reason": "Word-of-mouth often decisive",
+   "pct": "5.4%"
+  },
+  {
+   "label": "Preventive / keep on hand",
+   "reason": "Stockpiling for inevitable recurrence",
+   "pct": "2.9%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Kill 100% of lice AND nits in one application",
+   "reason": "Packaging promises drive this expectation — biggest disappointment source",
+   "pct": "32.5%"
+  },
+  {
+   "label": "Short, practical application time",
+   "reason": "5-15 min preferred over overnight; kids can't sit still",
+   "pct": "21.8%"
+  },
+  {
+   "label": "Quality metal comb included",
+   "reason": "Plastic comb is universal disappointment",
+   "pct": "16.2%"
+  },
+  {
+   "label": "Safe for kids from 6 months+",
+   "reason": "Non-irritating, no neurotoxins, no burning eyes",
+   "pct": "12.3%"
+  },
+  {
+   "label": "Sufficient quantity for family/long hair",
+   "reason": "One 150ml bottle should treat multiple heads",
+   "pct": "9.7%"
+  },
+  {
+   "label": "Easy to rinse / non-greasy",
+   "reason": "Users hate oily residue requiring 3 shampoos",
+   "pct": "7.5%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "positive",
+   "label": "Positive (4-5★)"
+  },
+  {
+   "value": "mixed",
+   "label": "Mixed (3★)"
+  },
+  {
+   "value": "negative",
+   "label": "Negative (1-2★)"
+  }
+ ],
+ "tagStyles": {
+  "positive": "pill-green",
+  "mixed": "pill-amber",
+  "negative": "pill-red"
+ },
+ "reviews": [
+  {
+   "r": 1,
+   "t": "Good product but arrived half unscrewed, all greasy packaging, not very happy. Luckily there's some left from my first delivery, but 20 euros for half a bottle is too expensive.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "This is the second time I've used this product on my daughter's hair but it doesn't work! Lice are still alive even when spraying a lot and combing (the lice slip away and hide), and the nits don't die because a week later new lice appear. I reapply the same product and comb again, but it keeps happening... I tested it on recovered lice — the product absolutely doesn't kill them! We pay for ineffective products... Very disappointed.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Close expiration date and dented box. You shouldn't exaggerate! Just because we buy online doesn't mean we should get defective packages with close expiry dates!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I received the item and it expires in less than 2 months. It was manufactured in 2022. I wouldn't take the risk of putting it on my child's head!!!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Very disappointed. After the first shampoo, combing through, the lice were still alive and the following week tiny baby lice hatched, so the nits clearly weren't dead either... I repeated the shampoo and my long-haired daughters were losing hair by the handful 😱 and lice still not dead... So I switched to coconut oil overnight under cellophane every weekend and everything died along with daily combing — we managed to get out of it. Another expensive product with unkept promises.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Product pierced during transit because packaging too thin. Expiry date way too short — manufactured in 2023 so expires in 4 months. Product from Spain. Item returned.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Product that doesn't work, and I really don't understand the other positive comments. I tested this on my three kids and myself and lice and nits stay alive after application and several days later :-(. I don't recommend this product.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Didn't work on my daughter. I waited more than 30 minutes with the comb and managed to remove lice and nits but not dead ones. There are still many. I'm going to buy another product. For the price I'm very disappointed.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The box arrived open and dirty inside. The comb was dirty. It's shameful!!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Opened and expired products, written in Spanish.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I bought this to treat an early infestation, attracted by the '5 minutes' promise. ⏳ Big downside on shelf life: I received the bottle at the end of January with an expiration date barely 2 months away. For a product often kept 'just in case' in the medicine cabinet, that's really too short. Impossible to store for next back-to-school. 🤷‍♂️ Average efficacy: application is simple (spray + comb) but result wasn't radical in one go. Contrary to the '100% effective' promise, I found live lice af...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Very disappointed. Didn't work on us even though we scrupulously followed the instructions.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I've already used this very effective product. But today I received an imported product with French instructions stuck on the packaging, and above all a product at end-of-life to use within 6 months. Total validity of 3 years. OK it's a flash sale but this is really borderline.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Disappointed in the product: despite several applications, the lice are still there. The smell is strong and the pose time quite long. I expected a better result.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Didn't work at all on my daughters... I was excited by all those testimonials but apart from the product being easy to apply, the rest is zero... The lice are still alive and the nits too! I managed to remove a good portion with the comb but tomorrow I'll have to do another treatment...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "It's not 100%. The comb and perseverance are also needed to kill all these bugs.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Little result for the very high price... I still have lice en masse... I'll switch to another brand.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "The product has an effect, no doubt, but even for small-sized nits I needed at least three applications over several days. So '5 min flat' = bullshit.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Despite 2-3 shampoos there are still some left.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Done twice for my daughter and the whole family. Instructions followed to the letter but there were still some after. Forced to redo the treatment again.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I bought this to treat an early infestation, attracted by the '5 minutes' promise. ⏳ Big downside on shelf life: I received the bottle at the end of January with an expiration date barely 2 months away. For a product often kept 'just in case' in the medicine cabinet, that's really too short. Impossible to store for next back-to-school. 🤷‍♂️ Average efficacy: application is simple (spray + comb) but result wasn't radical in one go. Contrary to the '100% effective' promise, I found live lice af...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Very disappointed. Didn't work on us even though we scrupulously followed the instructions.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I've already used this very effective product. But today I received an imported product with French instructions stuck on the packaging, and above all a product at end-of-life to use within 6 months. Total validity of 3 years. OK it's a flash sale but this is really borderline.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Disappointed in the product: despite several applications, the lice are still there. The smell is strong and the pose time quite long. I expected a better result.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Didn't work at all on my daughters... I was excited by all those testimonials but apart from the product being easy to apply, the rest is zero... The lice are still alive and the nits too! I managed to remove a good portion with the comb but tomorrow I'll have to do another treatment...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "It's not 100%. The comb and perseverance are also needed to kill all these bugs.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Little result for the very high price... I still have lice en masse... I'll switch to another brand.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "The product has an effect, no doubt, but even for small-sized nits I needed at least three applications over several days. So '5 min flat' = bullshit.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Despite 2-3 shampoos there are still some left.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Done twice for my daughter and the whole family. Instructions followed to the letter but there were still some after. Forced to redo the treatment again.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Spray format — I tried applying it alone — carnage, I put it everywhere, it squirts everywhere. The texture isn't pleasant at all and I don't find it effective. Plus it's much more expensive than others. Very disappointed in this product 😁",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Maybe it works... but I'm skeptical.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Received in a crushed box!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "After several applications, the result is not conclusive — I'm going to change product.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Warning. Product arrived quickly but the comb wasn't included, even though the packaging clearly says 'comb included'... Not yet tested.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Not very effective and hurts the eyes. 5 min is far from enough.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Still lice the next day despite an hour of pose, using the balm and combing through... Plus it leaves hair extremely greasy and stains.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "I'm not totally convinced. Given my daughter's thick hair I put quite a lot on. Removed the maximum with a comb (not the one provided — useless on curly hair). Check the next day, she still had a few live nits, and at day +3 still small lice. So I redid everything by hand and put product on again as prevention.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Ordered the first time, I received the cardboard packaging of the product without the product — the tape was open. Replacement of the product — on receipt, it had leaked, 3/4 of the product was empty... So rating 3/5 because I had to go to the pharmacy across town since they don't carry this brand everywhere. However the product is extremely effective, not irritating (a very important point for us with our atopic skin) and above all very fast to apply! Complete with the AS2000 comb and it's p...",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Item received on time, the comb was present but dirty 🤔. I used it on my daughter who has an early infestation, on my other daughter and me as prevention. The format is very hard to use — the pump moves a lot in use, so you get it everywhere. I had nail polish on before using it... After treating 2 heads there wasn't much left on my nails (scary!). One of my daughters found it aggressive (apparently a burning sensation) and breathing it wasn't great either. After 5 min of pose I still saw liv...",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Short expiry date (5 months vs >1.5 years at the pharmacy) so short-term use only...",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Not powerful enough in a single application.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Not as good as claimed. After several treatments at respected intervals, still some nits.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Practical but not effective in the long run.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "I bought it after reading the reviews — well I'm disappointed. Doesn't work the first time, even the second, even the third... Still those nits that are hard to exterminate... When will there be a truly effective product against nits, because they are the real problem 😅. It limits them but the product isn't magic either...",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Really burns the eyes if it has the misfortune to run slightly during the pose. I had trouble tolerating it as an adult when it ran a bit during pose. Yet it's supposedly accessible to kids from 6 months... In terms of efficacy, 2 times is better than one.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product effective against lice and nits, but one application isn't enough. Must be repeated at least 2 times to definitively get rid of lice... which means 150ml isn't enough to treat the whole family, especially with long hair. Combing is essential, but the included comb isn't suitable — plastic and rather fragile. Better to invest in a metal comb, more effective and durable. Ultimately the product is effective (with at least two treatments).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective on lice in a single application — indeed lice don't survive. As for nits, that's another story. The treatment can't be done just once because lice reappear (so the 'one application' promise isn't real), surely because of nits that resisted. The product is effective with a very short pose time, but you won't definitively get rid of lice in one application. Another downside: 150ml is a small quantity when you have long hair and a whole family to treat multiple times.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I recommend this product every time because it's very effective. It doesn't have the same smell or texture at all as the ones I tried before (which didn't work). That said, I have the impression it was very effective the first use (then my son caught lice again, so me too) and slightly less well on subsequent uses. The first time it was settled in one go (you really have to spread the product everywhere, right to the tips). Spray to spread over the whole head, insisting on the scalp and massa...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product as described. The lotion format is more practical for use on kids aged 3 and 5.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective, I only buy this one, but I find it a bit expensive (a real budget when you have kids in nursery school 😮‍💨😮‍💨).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Simple to use and effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but you have to comb well otherwise the nits don't come off.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "My daughter in nursery school had recurring lice problems. We kept treating her during school holidays, but as soon as she went back to school it started again... Eventually not only did her scalp start getting patches but mostly the lice seemed to start resisting the reference product bought in parapharmacy. One application with this and — nothing left! However, the product arrived with the applicator broken. We didn't pay attention, used the product and temporarily placed it on a wooden bat...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective and easy to put on hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product effective against lice and nits, but one application isn't enough. Must be repeated at least 2 times to definitively get rid of lice... which means 150ml isn't enough to treat the whole family, especially with long hair. Combing is essential, but the included comb isn't suitable — plastic and rather fragile. Better to invest in a metal comb, more effective and durable. Ultimately the product is effective (with at least two treatments).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective on lice in a single application — indeed lice don't survive. As for nits, that's another story. The treatment can't be done just once because lice reappear (so the 'one application' promise isn't real), surely because of nits that resisted. The product is effective with a very short pose time, but you won't definitively get rid of lice in one application. Another downside: 150ml is a small quantity when you have long hair and a whole family to treat multiple times.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I recommend this product every time because it's very effective. It doesn't have the same smell or texture at all as the ones I tried before (which didn't work). That said, I have the impression it was very effective the first use (then my son caught lice again, so me too) and slightly less well on subsequent uses. The first time it was settled in one go (you really have to spread the product everywhere, right to the tips). Spray to spread over the whole head, insisting on the scalp and massa...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product as described. The lotion format is more practical for use on kids aged 3 and 5.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective, I only buy this one, but I find it a bit expensive (a real budget when you have kids in nursery school 😮‍💨😮‍💨).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Simple to use and effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but you have to comb well otherwise the nits don't come off.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "My daughter in nursery school had recurring lice problems. We kept treating her during school holidays, but as soon as she went back to school it started again... Eventually not only did her scalp start getting patches but mostly the lice seemed to start resisting the reference product bought in parapharmacy. One application with this and — nothing left! However, the product arrived with the applicator broken. We didn't pay attention, used the product and temporarily placed it on a wooden bat...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective and easy to put on hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very easy to use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is extremely effective. Careful though to protect your eyes. I had my eyes closed and didn't spray toward my eyes, yet the droplets in the air strongly irritated my eyes. The only solution was to pour three glasses of water onto my open eye. Makes me hesitate if I want to use it on my younger children... This incident led me to leave it on 10 min instead of 5 and my scalp remembers it! Despite everything, it's so effective that I give 4 stars.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "For my daughter with very long, thick, straight hair, I did strand by strand as at the hairdresser, combing scrupulously with the provided comb. Product indeed very greasy but effective. Pose lasted about 15 min total combing time. You can see the lice dying on the comb. Nits are a bit trickier as they stay attached to the hair. You must persist and have patience. Then we did the Paranix extra-strong shampoo twice, leaving it on 5 min each time. I'm satisfied with this product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "OK it worked — let's see if the lice come back. Comb is poor quality as always. The product is like oil. ATTENTION ⚠️: you spray it everywhere and rub like a normal shampoo, but at the end the child must keep their head upright or tilted back — the product runs easily toward the eyes during pose. Have a clean towel ready to wipe up.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product for the first use but quickly becomes less useful on subsequent uses.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I used this anti-lice treatment because I noticed my daughter had nits in her hair. Application is really simple — just spray the lotion on the scalp and let it work for 5 minutes after massaging a bit for penetration. A comb is provided which makes removing dead lice easier. I only applied the product once and my daughter hasn't had lice problems since. So it's effective even if the price is quite high!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good but expensive.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product is top but comb isn't very good quality. The product is very effective but I had to redo it 10 days later because I think some nits had hatched.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but it literally burns the eyes! We didn't expect it — my son screamed.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Several treatments are needed to get rid of lice and nits.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It's effective. Better than Marie Rose or others. It removes all lice and nits. Nothing to say. Ready to rebuy if my daughter catches them again. Hope not 😊",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product effective against lice and nits, but one application isn't enough. Must be repeated at least 2 times to definitively get rid of lice... which means 150ml isn't enough to treat the whole family, especially with long hair. Combing is essential, but the included comb isn't suitable — plastic and rather fragile. Better to invest in a metal comb, more effective and durable. Ultimately the product is effective (with at least two treatments).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective on lice in a single application — indeed lice don't survive. As for nits, that's another story. The treatment can't be done just once because lice reappear (so the 'one application' promise isn't real), surely because of nits that resisted. The product is effective with a very short pose time, but you won't definitively get rid of lice in one application. Another downside: 150ml is a small quantity when you have long hair and a whole family to treat multiple times.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I recommend this product every time because it's very effective. It doesn't have the same smell or texture at all as the ones I tried before (which didn't work). That said, I have the impression it was very effective the first use (then my son caught lice again, so me too) and slightly less well on subsequent uses. The first time it was settled in one go (you really have to spread the product everywhere, right to the tips). Spray to spread over the whole head, insisting on the scalp and massa...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product as described. The lotion format is more practical for use on kids aged 3 and 5.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective, I only buy this one, but I find it a bit expensive (a real budget when you have kids in nursery school 😮‍💨😮‍💨).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Simple to use and effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but you have to comb well otherwise the nits don't come off.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "My daughter in nursery school had recurring lice problems. We kept treating her during school holidays, but as soon as she went back to school it started again... Eventually not only did her scalp start getting patches but mostly the lice seemed to start resisting the reference product bought in parapharmacy. One application with this and — nothing left! However, the product arrived with the applicator broken. We didn't pay attention, used the product and temporarily placed it on a wooden bat...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective and easy to put on hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very easy to use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is extremely effective. Careful though to protect your eyes. I had my eyes closed and didn't spray toward my eyes, yet the droplets in the air strongly irritated my eyes. The only solution was to pour three glasses of water onto my open eye. Makes me hesitate if I want to use it on my younger children... This incident led me to leave it on 10 min instead of 5 and my scalp remembers it! Despite everything, it's so effective that I give 4 stars.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "For my daughter with very long, thick, straight hair, I did strand by strand as at the hairdresser, combing scrupulously with the provided comb. Product indeed very greasy but effective. Pose lasted about 15 min total combing time. You can see the lice dying on the comb. Nits are a bit trickier as they stay attached to the hair. You must persist and have patience. Then we did the Paranix extra-strong shampoo twice, leaving it on 5 min each time. I'm satisfied with this product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "OK it worked — let's see if the lice come back. Comb is poor quality as always. The product is like oil. ATTENTION ⚠️: you spray it everywhere and rub like a normal shampoo, but at the end the child must keep their head upright or tilted back — the product runs easily toward the eyes during pose. Have a clean towel ready to wipe up.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product for the first use but quickly becomes less useful on subsequent uses.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I used this anti-lice treatment because I noticed my daughter had nits in her hair. Application is really simple — just spray the lotion on the scalp and let it work for 5 minutes after massaging a bit for penetration. A comb is provided which makes removing dead lice easier. I only applied the product once and my daughter hasn't had lice problems since. So it's effective even if the price is quite high!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good but expensive.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product is top but comb isn't very good quality. The product is very effective but I had to redo it 10 days later because I think some nits had hatched.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but it literally burns the eyes! We didn't expect it — my son screamed.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Several treatments are needed to get rid of lice and nits.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It's effective. Better than Marie Rose or others. It removes all lice and nits. Nothing to say. Ready to rebuy if my daughter catches them again. Hope not 😊",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Spot on.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Several products tested and this is the most effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is effective even if I didn't think the application was like that. I expected a spray I could put everywhere on the head and textiles. I misread.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective, I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective in one application for my daughter with medium-length hair. However, needed 2 treatments for my son with short thin hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Simple application but be careful to protect the floor and clothes during application because of the silicone.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Rather satisfied because I had another product that didn't work, and this one — first go, nothing left. Though the nits are dead but not detached.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective also against crabs but sometimes requires several applications to fully get rid of them, especially if parasites are still present on clothes and/or sheets.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "One of the most effective anti-lice products, plus a 5-minute pose time...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "5 min is top. Works very well! I recommend 😉",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product effective against lice and nits, but one application isn't enough. Must be repeated at least 2 times to definitively get rid of lice... which means 150ml isn't enough to treat the whole family, especially with long hair. Combing is essential, but the included comb isn't suitable — plastic and rather fragile. Better to invest in a metal comb, more effective and durable. Ultimately the product is effective (with at least two treatments).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective on lice in a single application — indeed lice don't survive. As for nits, that's another story. The treatment can't be done just once because lice reappear (so the 'one application' promise isn't real), surely because of nits that resisted. The product is effective with a very short pose time, but you won't definitively get rid of lice in one application. Another downside: 150ml is a small quantity when you have long hair and a whole family to treat multiple times.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I recommend this product every time because it's very effective. It doesn't have the same smell or texture at all as the ones I tried before (which didn't work). That said, I have the impression it was very effective the first use (then my son caught lice again, so me too) and slightly less well on subsequent uses. The first time it was settled in one go (you really have to spread the product everywhere, right to the tips). Spray to spread over the whole head, insisting on the scalp and massa...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product as described. The lotion format is more practical for use on kids aged 3 and 5.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective, I only buy this one, but I find it a bit expensive (a real budget when you have kids in nursery school 😮‍💨😮‍💨).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Simple to use and effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but you have to comb well otherwise the nits don't come off.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "My daughter in nursery school had recurring lice problems. We kept treating her during school holidays, but as soon as she went back to school it started again... Eventually not only did her scalp start getting patches but mostly the lice seemed to start resisting the reference product bought in parapharmacy. One application with this and — nothing left! However, the product arrived with the applicator broken. We didn't pay attention, used the product and temporarily placed it on a wooden bat...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective and easy to put on hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very easy to use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is extremely effective. Careful though to protect your eyes. I had my eyes closed and didn't spray toward my eyes, yet the droplets in the air strongly irritated my eyes. The only solution was to pour three glasses of water onto my open eye. Makes me hesitate if I want to use it on my younger children... This incident led me to leave it on 10 min instead of 5 and my scalp remembers it! Despite everything, it's so effective that I give 4 stars.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "For my daughter with very long, thick, straight hair, I did strand by strand as at the hairdresser, combing scrupulously with the provided comb. Product indeed very greasy but effective. Pose lasted about 15 min total combing time. You can see the lice dying on the comb. Nits are a bit trickier as they stay attached to the hair. You must persist and have patience. Then we did the Paranix extra-strong shampoo twice, leaving it on 5 min each time. I'm satisfied with this product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "OK it worked — let's see if the lice come back. Comb is poor quality as always. The product is like oil. ATTENTION ⚠️: you spray it everywhere and rub like a normal shampoo, but at the end the child must keep their head upright or tilted back — the product runs easily toward the eyes during pose. Have a clean towel ready to wipe up.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product for the first use but quickly becomes less useful on subsequent uses.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I used this anti-lice treatment because I noticed my daughter had nits in her hair. Application is really simple — just spray the lotion on the scalp and let it work for 5 minutes after massaging a bit for penetration. A comb is provided which makes removing dead lice easier. I only applied the product once and my daughter hasn't had lice problems since. So it's effective even if the price is quite high!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good but expensive.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product is top but comb isn't very good quality. The product is very effective but I had to redo it 10 days later because I think some nits had hatched.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but it literally burns the eyes! We didn't expect it — my son screamed.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Several treatments are needed to get rid of lice and nits.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It's effective. Better than Marie Rose or others. It removes all lice and nits. Nothing to say. Ready to rebuy if my daughter catches them again. Hope not 😊",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Spot on.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Several products tested and this is the most effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is effective even if I didn't think the application was like that. I expected a spray I could put everywhere on the head and textiles. I misread.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective, I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective in one application for my daughter with medium-length hair. However, needed 2 treatments for my son with short thin hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Simple application but be careful to protect the floor and clothes during application because of the silicone.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Rather satisfied because I had another product that didn't work, and this one — first go, nothing left. Though the nits are dead but not detached.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective also against crabs but sometimes requires several applications to fully get rid of them, especially if parasites are still present on clothes and/or sheets.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "One of the most effective anti-lice products, plus a 5-minute pose time...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "5 min is top. Works very well! I recommend 😉",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Does the job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is good, I recommend it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Several applications were necessary.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "No comb included — false advertising!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product did the job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective but after several rounds.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Practical to apply with the spray and seems to work. To be seen over time.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Works well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "All good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product effective against lice and nits, but one application isn't enough. Must be repeated at least 2 times to definitively get rid of lice... which means 150ml isn't enough to treat the whole family, especially with long hair. Combing is essential, but the included comb isn't suitable — plastic and rather fragile. Better to invest in a metal comb, more effective and durable. Ultimately the product is effective (with at least two treatments).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective on lice in a single application — indeed lice don't survive. As for nits, that's another story. The treatment can't be done just once because lice reappear (so the 'one application' promise isn't real), surely because of nits that resisted. The product is effective with a very short pose time, but you won't definitively get rid of lice in one application. Another downside: 150ml is a small quantity when you have long hair and a whole family to treat multiple times.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I recommend this product every time because it's very effective. It doesn't have the same smell or texture at all as the ones I tried before (which didn't work). That said, I have the impression it was very effective the first use (then my son caught lice again, so me too) and slightly less well on subsequent uses. The first time it was settled in one go (you really have to spread the product everywhere, right to the tips). Spray to spread over the whole head, insisting on the scalp and massa...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product as described. The lotion format is more practical for use on kids aged 3 and 5.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective, I only buy this one, but I find it a bit expensive (a real budget when you have kids in nursery school 😮‍💨😮‍💨).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Simple to use and effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but you have to comb well otherwise the nits don't come off.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "My daughter in nursery school had recurring lice problems. We kept treating her during school holidays, but as soon as she went back to school it started again... Eventually not only did her scalp start getting patches but mostly the lice seemed to start resisting the reference product bought in parapharmacy. One application with this and — nothing left! However, the product arrived with the applicator broken. We didn't pay attention, used the product and temporarily placed it on a wooden bat...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective and easy to put on hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very easy to use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is extremely effective. Careful though to protect your eyes. I had my eyes closed and didn't spray toward my eyes, yet the droplets in the air strongly irritated my eyes. The only solution was to pour three glasses of water onto my open eye. Makes me hesitate if I want to use it on my younger children... This incident led me to leave it on 10 min instead of 5 and my scalp remembers it! Despite everything, it's so effective that I give 4 stars.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "For my daughter with very long, thick, straight hair, I did strand by strand as at the hairdresser, combing scrupulously with the provided comb. Product indeed very greasy but effective. Pose lasted about 15 min total combing time. You can see the lice dying on the comb. Nits are a bit trickier as they stay attached to the hair. You must persist and have patience. Then we did the Paranix extra-strong shampoo twice, leaving it on 5 min each time. I'm satisfied with this product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "OK it worked — let's see if the lice come back. Comb is poor quality as always. The product is like oil. ATTENTION ⚠️: you spray it everywhere and rub like a normal shampoo, but at the end the child must keep their head upright or tilted back — the product runs easily toward the eyes during pose. Have a clean towel ready to wipe up.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product for the first use but quickly becomes less useful on subsequent uses.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I used this anti-lice treatment because I noticed my daughter had nits in her hair. Application is really simple — just spray the lotion on the scalp and let it work for 5 minutes after massaging a bit for penetration. A comb is provided which makes removing dead lice easier. I only applied the product once and my daughter hasn't had lice problems since. So it's effective even if the price is quite high!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good but expensive.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product is top but comb isn't very good quality. The product is very effective but I had to redo it 10 days later because I think some nits had hatched.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but it literally burns the eyes! We didn't expect it — my son screamed.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Several treatments are needed to get rid of lice and nits.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It's effective. Better than Marie Rose or others. It removes all lice and nits. Nothing to say. Ready to rebuy if my daughter catches them again. Hope not 😊",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Spot on.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Several products tested and this is the most effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is effective even if I didn't think the application was like that. I expected a spray I could put everywhere on the head and textiles. I misread.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective, I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective in one application for my daughter with medium-length hair. However, needed 2 treatments for my son with short thin hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Simple application but be careful to protect the floor and clothes during application because of the silicone.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Rather satisfied because I had another product that didn't work, and this one — first go, nothing left. Though the nits are dead but not detached.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective also against crabs but sometimes requires several applications to fully get rid of them, especially if parasites are still present on clothes and/or sheets.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "One of the most effective anti-lice products, plus a 5-minute pose time...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "5 min is top. Works very well! I recommend 😉",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Does the job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is good, I recommend it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Several applications were necessary.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "No comb included — false advertising!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product did the job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective but after several rounds.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Practical to apply with the spray and seems to work. To be seen over time.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Works well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "All good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I used this product when I discovered lice and nits in my 5-year-old daughter's hair. Easy application — spray from roots to tips, massage the scalp and wait 5 minutes then apply the usual shampoo before rinsing. Lice come off and fall into the bath. I then brushed her hair to remove the maximum of dead lice, then finished by combing with a special lice comb to catch any remaining nits. Then I applied a repellent lavender oil.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I had to apply it twice — 1 time in the morning, 1 time in the evening, leaving it on for 40 min. We'll see if there's nothing left today. The least bad, but not sure there's nothing left.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I bought it twice to treat my daughters who brought lice home from school — what a nightmare 🥴. Application is simple: spray everywhere, root and tip (it's like oil so very greasy), massage, then let it work. But I noticed that after 5 minutes the lice looked suffocated but weren't dead at all, or at least not all. So I recommend leaving the product on for at least 30 minutes. Then rinse and use a conditioner to comb out the lice and nits more easily.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I bought this product after a lice outbreak at school. My daughter has rather long hair (mid-back). I found it very practical to use — spray directly at the hair roots, and rather short wait time (5 minutes vs 15 for some other products). I think efficacy is formidable — during combing I collected lice with their 4 legs in the air. However I remove one star because the product is really very greasy — the scalp became a real fryer, I had to do 2 dry shampoos plus one wet rinse after.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Works perfectly. For me this brand is the best — no need for a second pass after a week.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "YOU WANT TO KNOW IF IT REALLY WORKS: YES! After a lice infestation from school, my daughter with curly dense hair was full of them despite several shampoos with lavender essential oil. In desperation we tested this product. After following the instructions and a hair wash, we found many dead lice in the shower and easily removed others with the comb. Same for me. About 80-90% of lice/nits gone in first use without much difficulty. Warning: if product touches floor, it's slippery.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I used this Pouxit XF anti-lice lotion to treat an infestation on my child and it's effective if you follow instructions well. The product acts physically on lice and nits thanks to dimethicone and penetrates well to neutralize parasites in a single application of about 15 minutes! After application and rinsing, dead lice come off much more easily with a comb, making the whole treatment faster. 🪮 Positives: correct efficacy, helps eliminate lice and nits. Formulated without neurotoxic insecti...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The most effective product I've found so far. The pose time is super practical, and the spray format too.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This is the second time I buy this product from Pouxit. My daughter is sometimes subject to lice when they're going around at school. She has very dense and frizzy hair, which generally makes removing nits and lice quite difficult. With Pouxit, I must say the result is very satisfactory. Generally, after two uses, there's nothing left. Of course, it works best if everyone treats at the same time. If new lice appear after, it's often because the infestation continues around.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This anti-lice lotion is very effective. To ensure efficacy, we did 3 shampoos and all the nits had disappeared. You must read and especially respect the instructions.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Finally an effective product — works really well. After the 5 min of pose and a classic shampoo, I managed to remove everything with the comb.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Product very easy to apply and very limited pose time. The spray is really practical and avoids wasting product, unlike other formats. I recommend this product which was very effective at neutralizing lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Does the job completely. Plan for two bottles for long hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It was radical. I'd been pulling lice out with a metal comb for a long time — at every shampoo there were more?! Since using this once, then a second time a week later, there's been nothing for 3 weeks. Incredible!! Waiting to see over time but in my opinion it's an excellent product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This product saved my daughter's head. After 15 days of anti-lice treatment I couldn't take any more — I'd tried everything unsuccessfully. I applied the product every 3 days starting January 13 evening, and since, no more lice. She doesn't bring them home anymore. Super effective, provided of course you stay regular and relentless.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Great product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bought after a lice invasion on my kids' heads. Rather effective product, easy to apply and quick to use. A small swipe of the included comb to remove dead parasites and you're done!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good product — one use and nothing left.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After trying several products on my daughters, this one is the most effective and the easiest to apply. Really top.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Top product — works perfectly, I recommend 100%.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect — one use and nothing left for my son.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective on my daughter's long curly hair. Very oily effect — protect clothes and floor!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective for 3 people.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very satisfied with this product. Effective from first use. We now use it as prevention.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After a lice invasion at school I had to buy a product urgently for my 2 daughters. Lotion easy to apply thanks to the spray system, it acts quickly — just leave it 5 minutes. The comb is included, but the advantage is that it's not essential for efficacy, which works for me given my eldest's thick hair. The first application was enough, not a single louse escaped. I highly recommend!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective! The texture is surprising but helps a lot when combing through. My daughter had hair down to her bum and it saved us!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I tried everything. Coconut oil, olive oil, but nothing. I got the spray format because my daughter has long hair down to her lower back and very thick (not fun otherwise). I used this product for 15 min just in case, but 5 min is enough — it was radical not only on lice but also on nits, because that's the real problem. The famous nits that remain. And there — nickel. One application yesterday, then the comb, then a shampoo, and I used the decoder from the same brand.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very practical spray-format anti-lice lotion that uses less product. I let it sit more than 5 minutes for optimal efficacy. Results delivered!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective and practical.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super effective product — in 5 minutes there's nothing left 🙂",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very practical and effective against lice... but unfortunately the price has gone up a lot.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Top.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "100% effective product and half the price of pharmacy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective and not very expensive compared to pharmacies.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect, to be completed with a product to loosen nits.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Identical product to the pharmacy one.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "1 application on my child — done with the back-to-school bugs.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Frankly I haven't found a more effective product on the market or even in pharmacy than Pouxit — I recommend it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective from first use but remember to redo the process 7 days later to be sure you've eliminated everything, with daily combing.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It's magnificently effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "We eradicated the lice, so it works well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The product isn't effective in 5 min or even 10 min. I'm switching to the same brand but the 15-min single-application version. That said, in response to my dissatisfaction, the seller (who has nothing to do with the brand) was very professional and very pleasant.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective, use at least twice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After trying DUO LP PRO, DEPARAZ, MARIE ROSE, EVOLSIN, PURESSENTIEL — I can only recommend this spray. Easy to apply and incredibly effective... I recommend it blindly for the little heads that have trouble getting rid of these unwanted residents... I assure you I have nothing to gain, but it will make your life easier...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I'd never had to use one before, but this product was super effective from the first time. Lice and nits eliminated without struggle. Easy application, reasonable pose time, and no need to keep at it for days. I can't compare with others but this one clearly did the job. Very satisfied!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Conforms.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Does its job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The spray product is really easy to apply. Easier than bottle products. Works very well even on very thick hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very practical to apply with its spray. Quick pose, though I left it slightly longer as a precaution. Finally rid of lice after months of struggle.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I'd tried a lot of products that didn't work. Months of struggle. A nightmare. I bought this one. On first use, radical. But we did a second application to be sure a while later that everything had disappeared.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective but do 3 treatments to be sure you're rid of them.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought this product for lice prevention. Works very well, very effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It worked.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Radical.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Conforms.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Haven't tried it yet — bought as prevention just in case.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very satisfied with the product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect product, slightly cheaper than pharmacy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This is the most effective product I've used. In one use the lice were dead.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Extremely effective from the first shampoo and without chemicals.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Received and used right away and it works very well. Follow the instructions carefully. My kids have nothing left. The small white comb provided is very useful. I'm waiting for the rest of the range (shampoo, textile spray and preventive lotion). Also, fine lavender oil worked very well applied with a soaked compress while rubbing the scalp (beware of allergy risk!) and massaging the head and hair, it works miracles. Don't wash the hair. Another lice repellent is coconut oil.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Miraculous product — just one use and we're rid of lice. The pose time isn't long so it's great on children. The texture is super easy to apply. I recommend this product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The only product that really worked (after 2 others that were useless).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've bought this product several times and every time the treatment works very well!! I recommend 👍",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective product. Follow the precautions carefully.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After returning from camp, lice horror! The product was super effective — all lice and nits were eliminated in a single application. I verified with a fine comb and a compress after application, and there were only a few dead lice on the compress. We used a fine comb daily for a week but I found nothing else. I treated all the brushes with the product and did a second application the following week just in case, but there were no more lice or nits. No lice reappeared after.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective, to be used with the comb. 2 uses and problem solved.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "First application super easy thanks to the spray — allows for better dosing.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "First time the lice were really dead! With other products we saw them come back to life after a few minutes, but with this — no!! Incredible. Easy to apply: pchit (careful with the eyes), very reduced pose time so no need to block half a day to deal with lice. Follow the rinsing instructions carefully (shampoo first, only then water). And it doesn't even damage the hair (my daughter has long curls that tend to be fragile/dry — and it's actually slightly better than usual!). Hoping lice don't ...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After trying several anti-lice treatments unsuccessfully, I finally found the miracle solution with Pouxit. In a single application — goodbye lice and nits! It's a super product, easy to use and above all incredibly effective. I recommend it to all families facing this problem.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good, effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Product that works very well! Read the instructions carefully and especially do a second application a week later to eliminate all nits.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super simple and quick application. With the bottle size I can reuse it at least once or twice. Compared to supermarket products where the bottle is empty after one use and greasy to spread. Passed the comb after — lice were clearly dead. Shampooed on dry hair 5/10 min after application. And my daughter's hair didn't come out greasy like with supermarket products. Strongly recommend — finally rid of lice 🙆",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Frankly I used it on my son who unfortunately had lice, and as soon as the product was on I passed the comb from the box and the lice caught were already dead. Then I waited the full 5 min and applied shampoo without water as described. Indeed it washes better that way — otherwise it leaves hair greasy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Easy to apply as a spray. Oily — to distribute the product I used a normal comb. The oil, besides suffocating lice and nits, helps detangling, which is a plus for using the lice comb (a long metal one I already had). As for quantity, I did 2 applications on long hair (70-80 cm). The provided comb isn't effective on the thickness and length of invaded hair — it looks like a flea comb for animals. If needed, I wouldn't hesitate to buy this product again.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective!!!!!! Really delighted with the product. No more lice! However I left it on 20 min with cling film over the hair. Operation repeated 3 days later and 10 days later to be sure no survivors remained — and it was perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After testing many brands and products on mixed/afro hair, this is the one that's really been effective and fast.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The only effective product I've found, and I finally managed to eradicate lice in 2 shampoos after six months of struggle and spending on all kinds of things.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Since September my daughter kept catching lice and nits non-stop. I'd been treating in every possible way but the lice were always there, always tough. And then I used this product on my 3-year-old, then finished with the comb. I removed tons of eggs! Normally I had hardly any, but this time I can tell you I had to clean the comb at every pass there were so many. I'm really delighted! I'll do it again in a few days to remove any that escaped. But frankly I love it! Super fast to do.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After trying organic products and neutral henna without success, I tested this product — and total efficacy! Finally the lice dead!! What a victory. A little disappointed I had to get there — having spent money on ineffective products to finally end up with something not natural and rather aggressive I think (my nail polish came off at the end of the pose on 3 heads 😱). But well, when you've had enough of lice, this product is effective!! 3 heads of mid-length hair treated and there's still a...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Purchase following a lice invasion at home. A first for us, so we went to the pharmacy where we asked for a natural anti-lice product. We paid a small fortune for little effect, which is why I turned to this well-known brand. Result: in one application, no more lice, so perfect. Easy to use with its sprayer, careful to protect clothes as it can stain, and the product comes with a plastic comb but I didn't use it since I'd recently bought a metal one.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "My 2 daughters 8 and 11 with long hair got lice 6 months ago. I spend my time fighting lice and nits. I tried tons of techniques and many products but always lost the battle. I tried oil, vinegar, lavender, Dop products, Puressentiel, Apaisyl, Pediakid... and bought different lice combs. And this miraculous product beat my daughters' lice in 2 applications. I recommend it — fast and easy to apply, smell not unpleasant, and their hair isn't damaged.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Easy to apply and very good results from the first shampoo.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After multiple purchases of all kinds from the pharmacy there were still live lice in the comb! This purchase following the reviews finally saved us! The simple spray application, a complete eradication thanks to the combination of this spray + bedding shampoo bomb and the metal comb — in 48h my son's head was finally impeccable!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective and fast. Still need to redo after a few days to be sure no nits remain. Quick application, and the white comb is ideal for clearly seeing the nits and lice removed.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "We've been trying for years, and this is the first one we find really effective. On the first use, nits and lice are dead. We soaked the hair well with this lotion, wrapped the head in cling film, left it for 30 minutes, then washed. No more lice or nits. The hair remained slightly greasy — my daughter needed an extra shower to get her beautiful long hair back.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Used on my daughter and myself. Fighting lice for several weeks, no product had exterminated them until this one! RADICAL. Warning: my daughter got some in her eyes — it stings a lot! And it makes the scalp very sensitive.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Radical, always effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Superb, works super well, I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Big phobia of lice here. My daughters had them twice (more than a year apart) and this product is magic. Little to no smell. Little pose time. You have to rinse thoroughly and do 3 shampoos here to get past the greasy hair after, but we've never had a recurrence after a treatment (day 0 + 7-10 days later) with this product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Extraordinary. In one application lice and nits are eliminated.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I couldn't cope with my son's lice head anymore. Every time I thought I was done — hop, infestation of nits. With this product, conclusive efficacy even 10 days later! Nothing left except dead lice 3 days after treatment. Plus it's quick, great for impatient kids, easy to use, easy to remove, and super effective!!! Very happy with this product. Recommend to all desperate parents!!!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good, suits perfectly.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "IT WORKS! (anyone who tells you otherwise is a louse ^^)",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fast effect after the third use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I have 3 daughters — needless to say when lice invite themselves home, I don't want to go at it 10 times. Having tested another brand paid 27€ in pharmacy which the lice laughed at, I'm no longer unfaithful to Pouxit. It's really the only one that rids me of these pests and in 1 pass! I combine with the anti-nit balm and it's the perfect combo!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective, I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Finally a product that works! I don't write many reviews but this product saved us! We tried everything at the pharmacy — the ones you must leave on for hours, 15 min, 30 min and so on! We'd been fighting these lice for months, and there, after 2 super quick applications, we're finally rid of them! Comment written after 2 months to confirm none have returned ;)",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It's a magnificent, miraculous product — a 5-minute pose, and after shampooing I passed the comb to eliminate the lice. There were a few but dead! Whereas with other products even right after application the lice stay alive! Frankly what a relief — I was struggling with my little ones for a month! Thank you Pouxit!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This product has really made my life easier. With two long-haired daughters, I used many products without success. This one is fast and eliminates lice and nits in a single pass! Plus a very fine comb is provided with it. I strongly recommend!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Received the item opened and damaged.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "My little one caught lice in July — we bought this product to treat the whole family (5 people including 4 with long hair, which is expensive). We had already used it successfully for my eldest years ago. 3 weeks later we found lice on my 3 daughters' heads despite treating the environment too (couch, car, washed all clothes and bedding, my eldest even had to abandon her headphones for a week) and it was during school holidays with no at-risk contact. We still bought more.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ineffective. 15 euros in the bin.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Poor mediocre quality.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bought and received yesterday... What can I say, I left it more than 8h and... nothing, nits still crackling and still present. Sick of these ineffective products. I believed some of the comments — but no, nothing at all...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It's supposedly guaranteed no lice at the end — my daughter still had lice on her head.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I applied the product (in large quantity) all over my hair (I have short hair so application is easy for overnight, about 9 hours). In the morning I felt itching on the front of my head. I went to the mirror and noticed 2 lice on my forehead... I removed it and checked with a magnifying glass — the shampoo didn't work.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I followed the instructions carefully and 'slathered' my daughter's hair. I made her keep the product on for nearly 24 hours. At the end I removed lice, the vast majority of which were alive. 3 days later, my daughter was still scratching. PS: I tried another much greasier spray product (not sure I'm allowed to name it), my 3rd! It requires a 15 min pose (I left it on an hour). It's much greasier, but the lice removed are clearly dead. More to follow...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I couldn't enjoy my purchase — the package arrived with the bottle open and therefore spilled.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I don't know if this shampoo is effective or not... I never opened it because I didn't want to leave the product on my child's head all night.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Based on the reviews, I really thought it would work... But no, we found lice right after... And watch out for the 'refund guaranteed' conditions on the box... Very restrictive and impossible if ordered online...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Still live nits and lice after more than 12 hours of pose... Very disappointed... 'Satisfied or refunded within 3 days.' I did it the day after receiving it — overnight pose means we're already at 2 days, and by the time we'd done everyone's hair (5 people) over the night, we'd exceeded 3 days.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ineffective product — my daughter still has lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I used it more than once and the lice didn't leave anyway. The combs break at the slightest touch.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I placed great hope in this supposedly unbeatable product after having tested grandmother's remedies without success. When I applied it to my daughter and myself I thought the smell was very discreet and the texture not greasy, rather pleasant. We spread it everywhere and followed the instructions scrupulously. We were supposed to be rid of them in just 1 application!!! Result: treatment done the day before yesterday evening and today we're still scratching!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "On the 1st application there were still live lice. So I did a 2nd application. In vain — I still find live lice. I'm disappointed, so much laundry work... for nothing.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Treated my children. The next day, +13h later, the lice were still alive. 'Satisfied or refunded within 3 days'? Very clever! Except that between purchase, delivery and use, we've already exceeded day+3.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I lost 17 euros because the product is ineffective. The pose time isn't specified and it didn't kill the lice — found alive after a night of pose! Scam.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I treated my 2 daughters as instructed. Result after a night of pose — the lice are still very much alive. I don't recommend this product.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Didn't work at all — used on the whole family and still lice. I don't recommend.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Used 4 times without result. I don't really understand the comments praising this product!! Don't waste your money.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Product arrived open unfortunately. Plus after several purchases of this product (3 in total) my daughter still has lice. Zero efficacy.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "2 uses with overnight pose and 2 failures... The lice are still there... I don't recommend.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I applied the product to my daughter and the next day she had bumps on her tongue. Then I applied the product too and same thing — throat pain and finally vomiting for me and my daughter. I understand there's a link with the product, and doing a little research I discovered there were already 16 cases of poisoned people.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "You're supposed to leave the product on for 1 night, which I did... The next day the lice were still alive...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I despair — a whole night and still full of nits... I'm ruining myself on products all ineffective against nits...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Unfortunately ineffective product despite multiple uses.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Customer image",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "...we're very far from 100% efficacy. For me and my daughter it did nothing.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "You can say with my curly hair I've had the chance to test quite a few products... This one is the worst I've used: efficacy 0, tangles the hair making combing very difficult especially on curls, and once rinsed the hair is dull for at least 2 weeks, even after several shampoos... Skip it!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zero efficacy.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "This product doesn't work anymore... 9h of pose and still nits?",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ineffective. I did 3 consecutive treatments in one week in September 2025, with 10h pose, and still live lice. I bought it and applied it right away at the first infestation the next day and lice were alive after all that pose time. I don't know if the manufacturer changed the ingredients but the product is ineffective and it's too expensive. The refund after 3 days by registered mail with receipt etc. — no, we don't really do that, I'm disgusted. The struggle continues.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Smells bad, not effective against lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "A shame — it doesn't work, I'm requesting a refund.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Product arrived already used with brown hair in the box. Disgusting.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It's not effective, I don't recommend.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ineffective. Despite the treatment the lice were still alive. My lice are becoming more and more resistant to various treatments.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "This product doesn't work! Disappointed!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Not very effective.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Smells strong.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "You're supposed to leave the product on overnight (8h). My daughter stayed 11h with it and when combing, several lice were still alive. Personally I kept it on 20h and I'm still scratching! I obviously washed everything at 90°C and sprayed the furniture. On the plus side the liquid is white which helps you see where you've applied. It cleans easily (not greasy texture) and the fragrance is fine.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "'Satisfied or refunded' offer: you only have 3 days after purchase to send the product with your claim letter, which seems very short. Having experienced it, disappointed: lice were killed but not nits, so nymphs were born, creating new lice, so we had to redo the operation several times even though the description claims one treatment is enough.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I didn't find the product very effective and the pose time is really too long for a child.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "But is there even an effective product???",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "It's equivalent to what you find at the pharmacy: it eliminates lice but not nits, so you have to redo it a few days later. Don't see it as a radical solution because that's misleading — it's just a basic anti-lice lotion.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Product that didn't remove all the lice and actually had just as many 2 weeks later.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "This product isn't very effective.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Fairly effective product: all lice are dead, and I thought the nits too. But no — a little later there was a new reinfestation in my daughter's hair (after an ultra-sanitized environment). But I bought this product again — it works as well as the famous P****t except that 2 shampoos are enough to eliminate the oily effect vs 7 shampoos for the other brand (ultra greasy!). To note however: you must leave the product on overnight, meaning one or two hair washes in the morning.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Works but still live nits. 'Satisfied or refunded' is false.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Not great.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "To work properly I do it 2 times spaced out a few days of course. 2 months later — back at it, but this time the nits were tougher and it had no effect. So I switched to another brand.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "A good product but it still burned my scalp. It didn't allow me to get rid of lice in the first treatment — I had to redo it a second time with another product.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "This product seems to work on me and the kids. However we had to do a 2nd application contrary to what's on the box to fully eliminate lice and nits definitively.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Mixed — you might as well use another product that kills in a few minutes than this one which didn't meet my expectations. Though this is the 2nd application 7 days after the first I'd used another brand that was radical.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Very expensive for little benefit. We followed the instructions carefully, we started at the appearance of the first lice, yet the next day, they were crawling on our heads again. There wasn't much to kill. We redid the strong bleach or color method (much more effective than any anti-lice product).",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Mixed review: Positive: no smell, non-greasy product, easy application and rinsing. Negative: doesn't kill 100% of lice in one application — treatment must be redone a few days later.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Didn't work for my daughter... not very practical either.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Lice and nits still alive even after using the product. No efficacy. Very disappointed.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "This product was like 'Poutix' — didn't work much. Forced to do at least 2-3 washes!!! Useless.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Moderately effective — it worked for a friend of mine but not on my daughters.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Not great.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "To be seen with time if the lice come back. This lotion seems effective.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Correct.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Requires two applications.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective product. However, the lot of two bottles actually costs more because the bottles are smaller... The presentation on Amazon is misleading.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "My daughter had lice in first grade and we got rid of them easily. Now, years later, it's a big struggle. They're not big infestations but they keep coming back. I started with pharmacy products (essential oils, blah blah blah, sticky). Clearly no result. Yes there are dead lice but not all. I treated bedding, changed sheets, washed stuffed animals, sprayed the headrests. So I decided to attack with Duo LP Pro. The smell is neutral, the product is more liquid than sticky and the fact is...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I don't understand what '6 units' means — I only received one 150ml lotion.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "They write 'satisfied or refunded' but the refund is done 3 days after purchase so beware — and moreover, even if the lice are well eliminated, there may be remaining nits and if they hatch after application, the refund won't be taken into account. Clever... I think one application isn't enough and you have to comb, comb, comb.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I thought I'd found the miracle product, and indeed it's very effective. A single application and 90-95% of these little bugs disappear if you follow the instructions. A check a few days later is still necessary and if some are still active, a second application is useful. My only regret — Amazon no longer sells it for the moment.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good and effective but must be left on overnight. Not greasy and doesn't smell strong.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good but the lice come back quickly if there's reinfestation at school.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Well effective in a single dose. We got rid of them. The small comb wasn't useful because the one I already had seemed better quality.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product conforms. After slathering my daughter's head and letting it set overnight, the result is conclusive. However, I had to redo a treatment a few days later — a few stubborn nits. But the 'satisfied or refunded' offer is a real joke, to be polite! It's just impossible to get refunded for this product, especially if bought online... We have 3 days to return the product in its original packaging, postage at our expense, and you absolutely need proof of delivery.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "We spent the entire summer fighting lice that had set up home on my 6-year-old daughter's head. We used several products and methods that all seemed more effective than the last but only made the little bugs laugh... I couldn't take it anymore, I was dreaming about it at night. It became an obsession. I was on the edge of hysteria, lice comb in hand every evening, dismayed to see them every session. A friend recommended LP Pro. OK, use is a bit more constraining (overnight pose) but after 3 w...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I think this product was effective because my daughter scratched much less after treatment. I did it twice a week apart but my daughter still had lice after. Effective but not 100% as advertised.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Second time using it — really good. Thanks. Personally we leave it on all night.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product as described, effective on my daughter's hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product fairly long to wear but fairly effective on nits and lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very effective — I couldn't clear my daughter with anything else. This was radical.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Not very effective and too expensive.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product but we had to buy a separate lice comb on the site. Shame — the included one has teeth too short for long thick hair. Otherwise the product is effective but may need another application.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Frankly one of the effective products.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Average efficacy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It's all in the title. Only downside: keeping it in the hair all night is quite constraining — but I've already tried products that were supposedly effective in 15 minutes and that's false!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The fragrance is reasonable.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "No more lice — works very well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Item as described.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Not tried yet! Bought because I'd seen only good reviews for this product — we'll see.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product if you follow the instructions. Don't skimp on quantity — results depend on how much product you use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Hyper-effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Product works very well if you follow the instructions. I strongly recommend. Great price. Super.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very good product! Effective... Lice and nits don't escape it. I recommend it to all the little heads!!!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "THIS PRODUCT IS VERY GOOD. IT'S EFFECTIVE AND NOT TOO CONSTRAINING (IT MUST ACT FOR A WHOLE NIGHT). ITS USE MODE IS SIMPLE BOTH IN APPLICATION AND POSE TIME. DO LIKE ME AND TRY IT!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I noticed yesterday that my daughter had nits in her hair, then 1 louse, then another — so I went to the pharmacy quickly to get an effective and radical product. I didn't want a supermarket product that wouldn't work. My pharmacist directly gave me this Duo LP Pro 150ml. My daughter has short bob hair so we used half the lotion which is like a white cream, a bit greasy but smells fine. Pose time is minimum 8h but you can do more — leave overnight.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "After being traumatized by these nasty bugs in my childhood, the nightmare starts again when my daughter brings lice home. Fortunately products have evolved a lot! Super product — worked as promised in a single application on my daughter's not-very-thick hair. The 8h pause is a bit constraining for young children because it's not easy to make them understand not to touch their head for all that time. That said, the product doesn't stain and rinses off very well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Having tried this product several times — yes it's effective for a child with 3-4 lice! For poor children with real lice heads, you need to apply it every 2 days!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This product is perfect. I haven't tested any other brand — my daughter's teacher recommended it the first time she got lice (my daughter, not the teacher lol). And indeed I thank her for the advice. Easy application, leave it on for a night and then shampoo/lice comb. At every application my daughter has nothing left (but just in case I apply it a second time 7 days later). No bad smell, not ultra greasy (2 shampoos suffice), no allergic reaction. 3 years I've been buying this and I always h...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Hello all! This product is effective from the first use, indeed, but you must continue to check and maintain the hair after application. No miracle — these products help but most of the work is done by the parents (in our case, lice infestation at our kids' school...). Warning: this product has an odor.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought this for my daughter, I tried everything and this is the only one that worked. I left it on all night and miraculously there was nothing left, not even nits. I recommended it to a client of mine, she did it on her daughter and same — in the morning nothing, no lice or nits!!!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Combined with the shampoo, results are immediate whereas the lice had resisted many other treatments.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Miraculous product, I only use this — in 1 night no more lice. Easy to use, suffocates lice and nits during the night. I always have one in my cupboard.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product I buy when there are lice at home. Very oily, which lets the lice slide off.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The most effective product I've had.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After trying all the so-called 'miracle' products effective in 5, 15, 30 minutes, I was despairing of getting rid of my daughter's lice. But I must say this one is radical — one application and done. It leaves the hair soft.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Family of 4 kids... and we discover lice on our daughter who has hair down to the lower back. In short — horror. Right away I go to the pharmacy to get the product that seems to be sold everywhere. I also take home spray and an essential-oil anti-lice pack. Long story short: we tried lots of products and followed instructions... the lice wouldn't leave. More than 2 months later I was at the end of my rope when I finally ordered this product. If I'd known.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Product used overnight, shampoo the next morning and combing. Very effective product, very effective combs too — the best combs I've had so far. The product is like a cream but isn't greasy. Used on long (mid-back) wavy hair, hard to detangle — the product facilitates detangling and thus combing. Removes lice and nits well after shampooing, however there are always still nits stuck and 'cracking,' but as the notice says they're dead. I'm at treatment +10 days and my kids are clear.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I lost a lot of time and energy trying to use natural products or those I found in the small local village pharmacy... for very mixed results. With this product we finally have very tightly spaced combs!! There are even 3 combs! (missing the little cleaning brush, but since I've tried everything, I already had one!). No unpleasant smell. Once the product is on the hair it keeps a wet look but is actually dry — no need to stress about sheets if you do the pose overnight.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've been using this product for a long time and never been disappointed. We apply it in the evening and leave it on all night without covering the hair, and the next day just pass the lice comb (plan to sleep with your head on a towel). Of all the ones I've tested on my daughter and myself, it's the only effective one. For once Amazon sells it at a reasonable price — I stocked up because in pharmacy it's hard to find or very expensive.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super happy after buying pharmacy products and grandmother's methods, I said to myself let me dare an Amazon product and take the one with the most positive comments given where I am... HAPPY! My son with mid-length curly hair, I couldn't get out of it — though out of a family of 6, only he had them. I had them all the time on sheets, towels... finally finished 😝. Important: doesn't drip, doesn't smell strong at all. I added a wool hat all night. Since then at every shampoo I use the small comb.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Really works well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After a difficult summer (lice back from camp, then again a month and a half later) I tested 3 other products. I can confirm this is the most effective on the market, provided you follow the application instructions and put enough product. My daughter has thick hair so I used the whole 150ml bottle. I also recommend investing in a metal comb, more effective than those included in the boxes.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I recommend it — the only product that really works, very easy to use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I'd used this product years ago when one of my children came home from school with lice. One application and we were rid. This year the lice came back, couldn't find this product in pharmacy, I tried another product with 100% guaranteed effective or refund — total failure, they even spread to two other of my kids. So I found this miracle product here again and it kept its promises again — one application and we're rid! A tip: also buy a shower cap as it needs overnight pose.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Best anti-lice. Easy shampoo after overnight pose.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works but don't use on 3-year-olds — better around 6. Otherwise itching sensation all over the body, so that's lie #1: it does affect the nervous system. Otherwise nothing to say on performance compared to 'natural' treatments (go ahead, try coconut oil, lavender, olive oil, vinegar... good luck). You must do it 2-3 times over several days, not just once as written on the box, because some nits stay alive. Also you can't avoid the most disgusting moment: the comb. Always keep a spare box.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This product is radical against head lice and their nits. One use is enough to get rid of them (tested on my 8-year-old grandson's head).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective product to eradicate lice. Just leave the product on the child's hair overnight for 8 hours, rinse in the morning and brush with the lice comb. Results: no survivors. I recommend for stubborn lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Top.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After using several pharmacy products that didn't work, I bought this — the big bottle. If used correctly (leave 8h pose), it's really top. The next day I washed my daughter's hair, passed the comb and removed dead lice and nits. In one use the efficacy is super! As indicated on the container — for 2 to 4 heads depending on hair length. I was able to treat my daughter and myself — we both have long hair. I highly recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good and effective. My daughter had lice and for once I couldn't get rid of them with oil + white vinegar shampoo. Finally with this product I treated my daughter with long thick curly hair + my little one with long fine hair + me with short fine hair. 3 heads in 1 go, doesn't itch the scalp, we do it right before bed to forget about it. And the comb I always had doubts about on my eldest's hair worked super well on wet hair (because when they start to dry it pulls too much).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Product is super effective. However I had a subscription with 2 products for 16€ — this time I received only 1 product for a little more than 12€. Sure it's cheaper than the pharmacy but it's not what was agreed in my subscription. Doesn't really matter because I got rid of those famous lice a while ago so I'm unsubscribing, I don't need it anymore. I already have a small stock just in case.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "So desperate — for 4 weeks now there have been lice at home. I can't take it anymore. The product is effective but you still need a few uses. 1 alone isn't enough.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "For 3 years I've been fighting lice on my daughter and I've tried EVERYTHING — this product was the miracle for her. Compared to the other scams, this one is applicable all night and it's liquid, meaning the whole head is impregnated. It eliminates lice and nits. Her teacher recommended it to me and I have nothing but praise for it! Really, I thank this miracle! And I'd recommend it to you.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "PERFECT. VERY EFFECTIVE product. Apply thoroughly over the whole head, insisting on target zones (behind ears, nape). Tip: apply by hand and distribute well with a brush to cover all the hair (important). Braid and let sit overnight. Shampoo and remove parasites with the comb. NB: don't forget to change ALL bedding, vacuum everywhere, wash contaminated clothes, fabrics and stuffed animals. It can't be repeated enough: it's the WHOLE environment that must be treated.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Top product, genius — lice and nits eliminated first use if you follow instructions. I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Finally a problem gone for 3 girls — months and months, trial after trial, lost euros, lost time, patience at its limits, futile pharmacy trips. I found it, AT LAST! Thanks — finally serious studies, finally a serious manufacturer, and a worthy pharmaceutical lab. They fell like flies the next day, nits detach more easily. A tip: redo the operation a week later. For 3 heads of hair, you need two products. The most effective treatment I've ever known — I'm 100% on board.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The horror of realizing my son had brought lice home from school. All the grandmother's recipes weren't effective because the lice had been there for a while. I discovered this product by chance on Amazon, tested it (product kept in hair all night), and the result was conclusive — the lice were stone dead the next day. We live again. I keep some in reserve just in case. Quality/price ratio correct. Recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "My boys brought lice home from school. On a friend's advice I took this product. Very effective — I left it on all night, needed the entire family-size bottle though. I have hair down to my bum. It's effective — rid of them in one go with a metal comb.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After several lice infestations and various attempts, I was no longer convinced of the effectiveness of anti-lice products. I called the anti-lice center (effective but not cheap). Six months later the little bugs are back... long live school... I tried this product before resigning myself to calling the anti-lice center again. And it worked first try! I'm delighted!! Since then I always have a spare bottle!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This isn't the first time I use this product. Very effective (most effective of all the anti-lice products I've used). Don't hesitate to put a lot on (for long hair, 1 150ml bottle suffices). The product (which is white) should be abundant (see photo of my daughter). Tie it in a bun overnight. The product dries during the night. The next day rinse the hair, and you can optionally do another shampoo (the one you usually use for your child). Then strand by strand, use the comb to remove dead lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Only effective product! Doesn't have an oil texture like the others, so doesn't drip into the eyes. After a night you rinse, pass the comb again and normally — goodbye lice!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The most effective found on the market.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After trying several pharmacy products, this is the only one that really acted on lice and nits especially on fine hair. Needed several uses but really effective. I also put lavender essential oil behind the ears and on the nape during the day to avoid return — but frankly hyper hyper good, I strongly recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Everything dead after one application — lice and nits. But you must still remove all nits one by one just in case.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Whole night under a swim cap, rinse next day, head down pass the lice comb. Everything dead but you must aesthetically remove the dead nits and let the lice fall. Radical and much less toxic than the competition. Seal bedding, coat, hat, cushion min 72h and normal machine wash. Otherwise treatment is useless!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've tried several and fought for several weeks but this one succeeded. Then the problem returned 6 months later and it was this again. However the expiration date is very short and efficacy seems notably lower once past it — I had to buy more.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The best product that exists.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works very well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Much better than other products I've bought at the pharmacy for more money! Certainly constraining to leave it on all night but the result is there! Used on two little girls with thick, curly, almost frizzy hair — nits stick hard and combing is difficult, and despite that this is the only product that worked! I really recommend 👍",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After 1.5 months of struggle and 5 competitor-brand shampoos, the lice and nits were still present. I bought this product as ultimate solution, and miracle — my daughters no longer scratch and the bugs are finally gone. Top.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Top! Finally rid of them!!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Lice and nits at their limit. The only effective product for me (long hair). I've been using it for years and want no other. I always have extras. I do the treatment at night (8h pose) and put on a cap so I don't watch the time. I also treat the combs but throw out the rest (brushes, elastics...). I change and wash sheets, towels, hats at the highest possible temperature. I also treat my 6-year-old daughter at the same time just in case.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I'm delighted with this product! Lotion to put on dry hair — don't hesitate to put a lot on, I flooded the hair with product and brushed to distribute well. My daughter slept with it all night. The product smells nice, really not strong or unpleasant. Very effective since there are no live lice or nits anymore. I recommend this product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good product for lice and nits. I've already tried several but this is the best of everything I've tried. Highly recommend. The most effective of all. More effective than those you see in ads. Very very fast delivery. A single treatment is enough. Certainly you must leave it on for at least 8 hours. I apply it to my daughters when they have lice, in the evening, and wash the next morning.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After weeks of pharmacy products of all kinds, well-known brands, and attempts with very natural products and powder mixes, I tried Duo LP Pro without really believing. To all parents fighting lice — go for it, this is the solution!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Impeccable. I've used it for 5 years — my kids and I being 'lice heads' (once a year, in summer)! 1 application, hair under cling film overnight, a good metal lice comb (not the one provided), treatment of stuffed animals, couch and car, washing sheets and towels = lice and nits disappear. I redo a treatment 10 days later just in case, either with LP Duo Pro or with coconut/lavender oil, more natural.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Top product I've used for years — I only buy this one now. One night on the head and it's radical.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Really go for it! This shampoo is one of the most effective, I assure you. Apply it, let it work overnight, and the next day — done!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "But Amazon hasn't sold it for a while. Shame because in one night it eradicates everything.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Top product, very effective, non-aggressive, very mild!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Only effective anti-lice product! After 1 month of struggling trying all the commercial products in vain, I tried this one and it's radical — after 1 night of pose we no longer talk about it!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Does its job well unlike others. Afro and mixed hair in the family. Just follow the instructions carefully and get enough bottles if there are multiple heads to treat.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I recommend for kids and adults alike. 1 shampoo and no more lice the next day 👌",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "In a single application — nothing left! I'd used another product 10 days before that hadn't worked after 2 applications — this one worked the first time.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "For a year we've been fighting lice in our daughters' hair. They reappear every time they return to class or after weekends in group settings. We've used several different products but this is the one we found most effective when we forget to put lavender essence drops in the hair as repellent for these damned bugs. For lavender essence, look at my other comments and you'll find the one I'm talking about.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After struggling 2 weeks with shampoos that don't fully work, I tried this product and miracle — no more lice!! I recommend, avoids fighting with them for weeks.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective in few shampoos. Use while also buying a comb to effectively fight lice. I paid €16.99 for the pack of two and saw the price has gone up 50% in one month — shame.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The best product I've used. For months I'd been fighting it for my daughters, leaving fortunes at the pharmacy for ineffective products that irritated their scalps. In desperation I tried this one and MIRACLE — lice finished in a single application. I recommend blindfolded. No greasy hair effect, pleasant smell and no scalp drying. Perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "A first back-to-school and the appearance of lice... After testing several treatments bought at the pharmacy, I recommend this one which allowed us to eradicate the bugs. I bought a night cap for the pose.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I think I've tested quite a collection of anti-lice products and this is really the only one that worked from the first use. I strongly recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I confirm the comments. I bought the product for my daughters contaminated at school. Effective product — after shampooing I saw dry dead lice. No more itching. I'll do a second dose in a week.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super product — I couldn't get out of it with lice on my daughter's head. The fragrance isn't strong or unpleasant. Plan at least 8h of pose, acts over time. The next day a shampoo and pass the included comb and miracle — nothing left! The included combs are very effective. Delighted with this purchase.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Best anti-lice, I've tested several and this remains the best. However sometimes there are 3 combs included, sometimes none at all.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Used it over time for my daughters with very long hair. A single application, repeated 2 weeks later. Several years ago. A bit expensive when you have two heads to treat... I highly recommend. Best regards.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super product I recommend 100%. Worked very well on nits and lice. Use the comb well to remove the last nits. Since then my kids don't scratch anymore. However it broke my daughter's afro hair a bit. Brilliant, thanks Amazon, very happy with my purchase.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Nothing to say — it's the best. I have three kids and only this product works one-shot. Hard to find in pharmacy these last few years — thanks Amazon.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "We followed the use advice and it's perfect. No more lice!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "For me it's the most effective product I've found. I apply it Tuesday evening for the night, and Wednesday morning we wash and comb — everything dead, no more scratching. Colorless, non-staining, odorless, one of the rare products usable from the youngest age. In short I recommend 100%.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I used it on my daughter's very long hair and from the first use it eliminated more than 90% of nits and lice. I did a second use two weeks later and she no longer has any parasites in her hair!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've tested several products on my daughter but nothing really worked. I tried this one and nothing left in a single use. Miraculous product, I recommend absolutely.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Several treatments used on my daughter. None worked. One application of this product and in a single use — nothing left. I saw the lice falling in the shower during rinsing. And nothing since. Spot on.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Big scourge... but with 1 (or maybe 2 applications), it's gone clean! Warning: I don't use the provided combs, rather a fine metal comb which I find much more effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product, applied 2 times 2 days apart on 2 heads affected by a lice epidemic — no trace afterward, problem solved. Good product, effective. Recommended.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I'm very satisfied with Duo LP Pro product. Worked very well on my son. I recommend 100%. No unpleasant smell, easy to apply, 3 tightly spaced combs provided which are also very effective. Go for it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I tested it after being loyal to Pouxit for more than 2 years, but it stopped working. We keep it on all night and we're calm for a few weeks, because unfortunately school is the joy — we do it once a month.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After several anti-lice shampoos with no result, I decided to get this lotion and I'm not disappointed. My daughter has very long hair, and in one night — from the next day's rinse everything was gone. It saved my life.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super effective!! I only use this one now.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I haven't found better! We find dead lice the next day on the pillow! No smell, rinses easily. I recommend for the whole family.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Does its job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Lice gone in 2 days — effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The only product that works on my daughters (one with very thick hair, the second very fine) — in one application it kills everything. Follow the pose time carefully.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Finally I found a product that works.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After trying different completely ineffective organic lotions, I finally found the ultra-reliable shampoo that allows complete eradication.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought this product based on the reviews and I'm not disappointed — the product was super effective!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Easy to use, 3 brushes provided. The fragrance isn't strong, so top. Put it on my daughter tonight. We'll see the result later.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Frankly I tested it on my daughter and myself — super product. I did exactly as advised and it's spot on. No more lice and especially no more nits. I strongly recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Pharmacy and supermarket products are no longer effective... This one is radical — in one use lice are finished!!!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I recommend. Really top and faithful to its promise. In 1 application, nothing left. I'll only buy this product which is the only one that's been remarkably effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective product!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Although you must leave it on all night, this one is very effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect, the only one that works well — however do 3 shampoos to rinse 😉",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The best of anti-lice products.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective product!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Magic product that kills lice and nits from the first use. 7 years I've been using this product when my daughters bring lice home and I'm still just as satisfied. Just apply the product generously, let it work all night and the child is rid of these nasty companions!!!! Of course you must pass the comb to eliminate everything, but everything is dead.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "My 2 boys came home from school with lice and in 1 use everything disappeared. I strongly recommend this product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Didn't work on my children — I had to switch to neutral henna, more effective than their product. I don't recommend.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I bought the anti-lice lotion twice and both times there were white crystals in the bottle. Impossible for the product to flow through the normal nozzle, and once fully opened, lots of white chunks fell in the hair with the lotion. I don't recommend at all.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The lotion is full of lumps that blocked the nozzle. I couldn't use this product properly.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "This is the 2nd purchase of this product. The first time nothing to report, but here the product had crystals blocking the tube, product unusable. Very disappointed.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I had a problem with the product which shouldn't be grainy. Hard to get a refund.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I wanted to test this product and the shampoo mask because I wanted something more natural and I know this brand. I tested both alternately, and each time I found live lice on my daughter's head with the comb. So I got Pouxit, already tested on my son years ago, and in one use there was nothing left! Disappointed with Puressentiel — money thrown out the window!!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Despite an hour of pose, no result — the lice are still alive!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Product visibly already opened (carton worn at the openings) and used by a third! What a scam!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ineffective — money thrown out the window.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I applied the product to my daughter, I followed the instructions and let it sit longer than the indicated time. Result — the next day I found another live louse, and moreover the hair stayed very greasy despite an intensive rinse. Money out the window.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Used on 4 children and an adult — lice still alive after 1h of pose. First time this has happened to me with an anti-lice treatment. We're going back to slightly 'dirtier' products that at least have the merit of getting rid of lice. Silikom works well here.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Hello — I'd like to know if there's a shampoo with the product or not, because when you read the notice it says to wash after with shampoo but I don't have any inside. Plus the box isn't correct — all damaged. Thanks, I await your reply impatiently.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "A catastrophe — full of lumps so it came out very poorly from the tube. Impossible to use it properly. In the lot of 3 all 3 had the same problem. When you buy it in pharmacy it's liquid and no problem.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "This is the 3rd time I've done the treatment on my son, and each time combing through after I find live lice full of energy! So no, it doesn't eliminate lice!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Careful — the cap doesn't screw well. Broken at the top — 1/4 leaked in the packaging.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "After a long battle with a few stubborn lice, I tried this product. Absolutely not convinced — 80% were still very much alive despite a 25 min pose...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Left on twice longer than indicated. Still 6 or 7 live lice found with the comb after. Very very difficult to rinse even after several shampoos.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Very disappointed — product with a very strong smell that doesn't kill the lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "This is the state I received the package in.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Very, much too greasy product. I don't recommend on long hair.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "No efficacy. Money spent for nothing.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Product that doesn't work.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Useless — no effect.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I tried this product several times on my daughter. The last time I left it on for an hour, and I could still see the lice strolling around as if nothing had happened! I'm going to have to use more chemical products because I'm at my limit!!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "My 2 daughters brought lice home for the summer holidays. I first tried Duo LP, another anti-lice product. After 15 days, confirmation they weren't eradicated. Then I bought Puressentiel lotion (1 family format 200ml / 3 people / 30 min pose) before leaving for grandma's. Some lice and nits were extracted so there's action. Back after 1 week at grandma's, the lice are undoubtedly still there. Immediate retreatment (1 family lotion bottle 200ml / 3 heads / 30 min pose).",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Almost impossible to rinse, leaves hair greasy, strong smell, and not effective.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Disappointed with the product — crystallizes very quickly. The action isn't top.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "In case of infestation it's useless, but for occasional use when in doubt it's useful!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I don't recommend.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "The product arrived open (no cap).",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Little effective and hard to apply because of the many crystals that formed in the lotion.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "After trying many products I thought once again I could definitively get rid of my kids' lice!!! But that's not the case. A nice fresh smell, the product doesn't sting the scalp especially on kids... however I doubt the product's efficacy!!!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "No efficacy for my daughter.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Ineffective product. The only positive point is that it leaves a nice fragrance in the hair.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "The price explains the product's inefficacy — avoid.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Not effective at all despite using it 2 times a week.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Not very effective.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "It doesn't kill the lice at all, clearly. I don't think it works on nits either then. The advantage is that they all rose to the surface so I could clear my daughter's head. Only they were very much alive when they went onto the comb... but the shampoo as a complement helps prevention. Proof: I forgot for two or three weeks to apply it on my kids' hair and the little bugs took advantage to visit my daughter's head, whereas until then we'd dodged them.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Not very convinced by this anti-lice lotion... doesn't kill all the lice unfortunately.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Delivered with the packaging crushed — luckily the bottles are sturdy.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Consistent product. Having super thick and long hair 1 is enough, however there are crystals in it — shame because it doesn't help application at all.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Not great.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Amazon packaging was perfect, but the product arrived open and damaged... 😒. The product doesn't rinse off after 1 shampoo — count at least 3, it's very greasy on the hair (same as Paranix lotion for those who know). Efficacy-wise it seems to work, like other slightly more 'toxic' anti-lice products so between choices this one is good. Quantity-wise I have 3 daughters — 2 with thick wavy long hair and 1 with short thick curly hair — I have a bit of product left in the bottle, not enough to re...",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "The application is rather simple. On short or mid-length hair, you can do several applications which is necessary because, like all 'natural products,' it doesn't work the first time. Plus no fine comb! Positives: smells rather good, easy to rinse and doesn't damage the hair. For the price, not bad.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Not 100% effective.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Kills lice but for nits there's only the comb to remove them.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Less chemical but therefore less effective. Used on my youngest son — lice returned 15 days later, whereas his brothers treated with a stronger chemical product had nothing. Don't count on beating an invasion in a single application — really arm yourself with patience and renew every week with daily comb use for a month. Otherwise, if you have boys, shaving their head is radical.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Leaves hair greasy. Not very effective.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Despite several applications the lice persist and are still alive when you catch them with the comb. Several bottles are necessary.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Very hard to rinse. Hair retains a greasy and smelly appearance despite several rinses.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Doesn't kill all the lice. Pleasant smell and easy to use but it's unfortunately not the miracle product that works on my daughter.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Effective but not practical — shame.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Customer image",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Effective product for removing lice — natural ingredients. There's also a daily shampoo to buy as a complement to prevent return, but it's not really effective at detaching nits.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Not sure of its efficacy.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Not very efficient.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product smells good and is easy to rinse. But not very effective. After 3 treatments in the same week there are still nits stuck to the hair despite combing for at least 30 min after rinsing.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Excellent.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product but you still need to do 2-3 rounds to fully eradicate the lice... so there's a cost involved.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "This product wasn't effective on my daughter's hair. My daughter has long hair and I couldn't use it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Mixed opinion on efficacy but the brand uses non-toxic products, so it balances out.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product but I find there's not much in the bottle.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The comb isn't sold with it — a shame if you don't have one.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective — do two uses to eliminate everything thoroughly.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product that eliminates a majority of the lice, but not all. Insufficient quantity in the container for long curly hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Pleasant fragrance and easy to use — careful, you need a comb. Good result.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective, the best quality/price.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Holiday souvenirs! My little one, all of 5 years old, decided an unusual holiday souvenir was ideal for her: lice! It's the first time we've reluctantly welcomed these little bugs — the older kids being more classic in school souvenirs (scrapes, acorns, leaves, gravel in pockets). So we had to take the bull by the horns, but I had regrets about putting a bunch of chemical products on my doll's head. So I turned to the PURESSENTIEL option. What a delight! What ease! In short, a real treat.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "100% Satisfied. Finally, a real natural product that's effective. 100% result. Pure happiness.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Hello, very good product. The smell is pleasant. I find it essential to be able to treat with natural products rather than chemical treatments. Works very well. The protocol is very simple — nothing to complain about.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This product is very effective — allowed complete 100% eradication of lice after three applications in our situation.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "We'd obviously like to be able to do without it, but when needed it does the job correctly.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Really the most effective on the market.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "My daughter is a real 'lice magnet' and they always come back at the start of spring. Last year it took me 5 months to get rid of them using all kinds of products and grandmother's tricks — I couldn't see an end to it. And she always gives them to her brother who doesn't necessarily have a lice-magnet head, so he gets rid of them quickly. This year I was starting to struggle again when I came across this product and let myself be convinced by the comments without really believing, I also got ...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective product and fast delivery.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "What can I say about essential oils except that they're magic. 20 min pose — there was no comb included but I had one. Several passes of the comb, shampoo and conditioner from the same range, and there — nothing left.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "An essential for back-to-school and all year. Very effective lotion to kill lice and nits. A must-have in the pharmacy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Product with natural active ingredients that's effective, though you need an additional application. Doesn't damage the hair because the ingredients are natural and non-aggressive. I recommend this product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works very well. Downside: long to rinse, very greasy — needs several shampoos.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I can't really say if it's truly effective — I had no lice but used it as prevention. The tube has enough for 2 uses for long hair. Application: very oily, strong smell — do it in a ventilated area. Ideal is to do it on the balcony or terrace because it really grabs the lungs. I put a plastic cap on after but cling film works just as well. Product hard to remove after with shampoo — I had to use anti-dandruff shampoo to mask the smell. Otherwise hair comes out very soft.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Easy to use — I leave it on several hours for it to be truly effective. The texture is quite oily and leaves a good smell.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Working with children, every start of the school year the lice are back. I tried many products and for me this one was the most effective. I have fine mid-length hair. One application is enough for me. It's a bit hard to rinse and slightly smelly, but like many anti-lice products.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent product! Tested on my nephew who had lots of nits and some lice. Very pleasant and non-chemical smell. Worked in a single use without any other complementary product. Spread the lotion well over all areas (really soak the hair) and spend time on the comb phase to be sure to leave no nit. Efficacy guaranteed if you follow the protocol.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Best brand of natural anti-lice products.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "School has started again and lice are unfortunately back. I opted for this lotion for my daughter — it's top! Radical lotion! Plus it's an oil so super practical to use. And my daughter has hair down to her lower back and the bottle is only half used :)",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective anti-lice lotion that smells good and attacks the scalp far less than many others I'd tried before.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product to treat hair. Do it a second time as written on the instructions. One bottle is enough for 2 shoulder-length bobs, or longer on fine hair. Count almost a whole bottle for very long thick hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I recommend — kills lice successfully in a single use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "One application and no more visible lice. Formidable efficacy. Super product. Plus it's very suitable for children, good smell. Impeccable. Thanks.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "My daughter had been infested since the start of school: every weekend we'd treat, every Monday she came back with a head full of them. There I'm crossing my fingers — it seems to work, and in just a single application. I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Delighted — works top on very curly hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Use with tea tree and let it work on the head with a good plastic swim cap. Works very well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've tested tons of products and in just 2 uses my daughter had nothing left. I love their sanitizing spray, so I wanted to try this one, and I've adopted it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After testing dozens, this one combines all the criteria to effectively fight lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It's an oil to warm up — ideal application, no waste. 15 to 20 minutes pose, then pass the comb to remove dead lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Eliminate lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product, non-toxic, easy to apply, effective, no unpleasant smell, and doesn't damage the hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Used for a recurrence — managed to overcome the invasion of stubborn little bugs.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent product that respects the scalp thanks to essential oils. Very effective compared to other heavily advertised products.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super effective lotion — I managed to remove everything from my daughter's head.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Product for my preschool daughter who has a real lice-magnet head. Radical with the suffocating mask.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After 3 months of various treatments without success, finally a product that got rid of all the nits my daughter had.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After using several different products without success, this one was immediately effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super effective products from the 1st shampoo, up to 3 uses on fine mid-length hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "We lost all the lice with this — took just two weeks. Super when you have lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective against lice and nits.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doesn't damage hair — leaves hair shiny and silky on top of its efficacy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works super well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective in 10 min to remove most but you need to redo it 3 days later...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super effective and natural. Plan for 2 shampoos otherwise hair stays a bit greasy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective! I recommend this product!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective and natural, I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Matches my expectations.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Received well, thanks.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good product. Fast delivery.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It's super, thanks.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Useless — no paint.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I love the smell.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective!! I recommend it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super product, effective, not disappointed.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Hello, it's very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Only treatment that works without damaging the hair — 100% natural, effective in 10 minutes and much cheaper on Amazon than at the pharmacy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good but hard to rinse.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After multiple attempts with various products, in one treatment the lice and nits were definitively banished from my daughter's head.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective and without pesticides.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Does its job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I like it a lot! No chemicals. Pleasant smell.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Finally a product that works, doesn't give an allergic reaction on the skin, and helps remove lice and nits by allowing you to comb through the hair easily thanks to the oily consistency. And it doesn't stink. We only use this now!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Unfortunately for long hair you need two packages. Otherwise it's excellent!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "One application used, and with the help of the comb — all lice gone.",
+   "tags": [
+    "positive"
+   ]
+  }
+ ]
+}

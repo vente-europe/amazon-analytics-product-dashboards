@@ -1,0 +1,872 @@
+{
+  "totalCompetitors": 9,
+  "marketplace": "amazon.es",
+  "currency": "€",
+  "exportMonth": 2,
+  "segment": "Prevention",
+  "competitors": [
+    {
+      "asin": "B01BN0QUUE",
+      "brand": "Neositrín",
+      "title": "Neositrin, Protect Spray Acondicionador, Protección Diaria Contra Piojos, Desenreda sin Aclarado, Aroma Frutal, A partir de 1 Año, 200ml",
+      "price": 12.73,
+      "rating": 4.5,
+      "reviews": 2721,
+      "bsr": 75,
+      "rev30d": 42133.38,
+      "sales30d": 2860,
+      "mainImage": "https://m.media-amazon.com/images/I/31HHwGcbHQL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/31HHwGcbHQL.jpg",
+        "https://m.media-amazon.com/images/I/31HHwGcbHQL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71BNi0KvwmL.jpg",
+        "https://m.media-amazon.com/images/I/412RIdNo53L.jpg",
+        "https://m.media-amazon.com/images/I/412RIdNo53L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61regDEziLL.jpg",
+        "https://m.media-amazon.com/images/I/31v0GBaXXmL.jpg",
+        "https://m.media-amazon.com/images/I/31v0GBaXXmL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51SlLrajo-L.jpg",
+        "https://m.media-amazon.com/images/I/517maCl6syL.jpg",
+        "https://m.media-amazon.com/images/I/517maCl6syL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61L9+vLujUL.jpg",
+        "https://m.media-amazon.com/images/I/61L9+vLujUL._SL75_.jpg"
+      ],
+      "bullets": [
+        "PROTECCIÓN DIARIA CONTRA PIOJOS: Forma una barrera protectora en el cabello, ayudando a reducir el riesgo de infestaciones en colegios y campamentos; Su uso frecuente mantiene el cabello protegido sin esfuerzo",
+        "FÓRMULA CON ACTIVDIOL PARA MAYOR PROTECCIÓN: Contiene Activdiol (Caprylyl Glycol), un ingrediente que ayuda a proteger el cabello en situaciones de riesgo; Su uso diario mantiene el cabello saludable sin afectar su suavidad ni brillo",
+        "SPRAY ACONDICIONADOR SIN ACLARADO, CABELLO SUAVE: Su textura ligera facilita el desenredado sin apelmazar, dejando un acabado sedoso; Se integra en la rutina diaria sin necesidad de aclarado, Optimo para niños y adultos",
+        "APTO PARA NIÑOS Y ADULTOS, USO SEGURO Y EFECTIVO: Diseñado para niños desde 12 meses y adultos, su fórmula suave permite aplicarlo con frecuencia sin dañar el cuero cabelludo ni dejar residuos molestos, protegiendo el cabello",
+        "AGRADABLE AROMA FRUTAL QUE PERMANECE EN EL CABELLO: Su fragancia a naranja y mango deja un aroma fresco y duradero, Optimo para el uso diario; Aporta frescura y limpieza, convirtiéndose en un complemento Optimo para la rutina capilar"
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "pleasant_fragrance",
+        "registered_approved"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B01ADEMJFQ",
+      "brand": "Neositrín",
+      "title": "Neositrin, Protect Spray Acondicionador, Protección Diaria Contra Piojos, Desenreda sin Aclarado, Aroma Frutal, A partir de 1 Año, 100ml",
+      "price": 12.79,
+      "rating": 4.5,
+      "reviews": 1295,
+      "bsr": 492,
+      "rev30d": 21064.43,
+      "sales30d": 1687,
+      "mainImage": "https://m.media-amazon.com/images/I/41twFk5JYiL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/41twFk5JYiL.jpg",
+        "https://m.media-amazon.com/images/I/41twFk5JYiL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/615tnUC8n+L.jpg",
+        "https://m.media-amazon.com/images/I/41U2W8mYDBL.jpg",
+        "https://m.media-amazon.com/images/I/41U2W8mYDBL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61eMt+ACu1L.jpg",
+        "https://m.media-amazon.com/images/I/21xRiMxYJyL.jpg",
+        "https://m.media-amazon.com/images/I/21xRiMxYJyL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/41tqxot+KmL.jpg",
+        "https://m.media-amazon.com/images/I/41ZgAYGDAQL.jpg",
+        "https://m.media-amazon.com/images/I/41ZgAYGDAQL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61mQSV4Y01L.jpg",
+        "https://m.media-amazon.com/images/I/410lT2MRAlL.jpg",
+        "https://m.media-amazon.com/images/I/410lT2MRAlL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61nSZ7yCM+L.jpg"
+      ],
+      "bullets": [
+        "PROTECCIÓN DIARIA CONTRA PIOJOS: Forma una barrera protectora en el cabello, ayudando a reducir el riesgo de infestaciones en colegios y campamentos; Su uso frecuente mantiene el cabello protegido sin esfuerzo",
+        "FÓRMULA CON ACTIVDIOL PARA MAYOR PROTECCIÓN: Contiene Activdiol (Caprylyl Glycol), un ingrediente que ayuda a proteger el cabello en situaciones de riesgo; Su uso diario mantiene el cabello saludable sin afectar su suavidad ni brillo",
+        "SPRAY ACONDICIONADOR SIN ACLARADO, CABELLO SUAVE: Su textura ligera facilita el desenredado sin apelmazar, dejando un acabado sedoso; Se integra en la rutina diaria sin necesidad de aclarado, Optimo para niños y adultos",
+        "APTO PARA NIÑOS Y ADULTOS, USO SEGURO Y EFECTIVO: Diseñado para niños desde 12 meses y adultos, su fórmula suave permite aplicarlo con frecuencia sin dañar el cuero cabelludo ni dejar residuos molestos, protegiendo el cabello",
+        "AGRADABLE AROMA FRUTAL QUE PERMANECE EN EL CABELLO: Su fragancia a naranja y mango deja un aroma fresco y duradero, Optimo para el uso diario; Aporta frescura y limpieza, convirtiéndose en un complemento Optimo para la rutina capilar"
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "pleasant_fragrance",
+        "registered_approved"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B07QDNBKV4",
+      "brand": "OTC Antipiojos",
+      "title": "OTC Protect Spray Desenredante Fresa, Protege, Desenreda e Hidrata el Cabello, con Queratina, Árbol de Té y Vinagre de Quassia, Apto a Partir de 1 Año, 250 ml",
+      "price": 9.28,
+      "rating": 4.4,
+      "reviews": 1157,
+      "bsr": 822,
+      "rev30d": 7749.02,
+      "sales30d": 792,
+      "mainImage": "https://m.media-amazon.com/images/I/61TFmN6bUfL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61TFmN6bUfL.jpg",
+        "https://m.media-amazon.com/images/I/31dXBGYul2L.jpg",
+        "https://m.media-amazon.com/images/I/31dXBGYul2L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51glbaMBCrL.jpg",
+        "https://m.media-amazon.com/images/I/51glbaMBCrL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/413dKhqPAaL.jpg",
+        "https://m.media-amazon.com/images/I/413dKhqPAaL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51mRamdRevL.jpg",
+        "https://m.media-amazon.com/images/I/51mRamdRevL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/515WCPGUdDL.jpg",
+        "https://m.media-amazon.com/images/I/515WCPGUdDL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/41HLYbPBmRL.jpg",
+        "https://m.media-amazon.com/images/I/41HLYbPBmRL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/41eRW0a4AsL.jpg",
+        "https://m.media-amazon.com/images/I/41eRW0a4AsL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51WHIoJkhEL.jpg",
+        "https://m.media-amazon.com/images/I/51WHIoJkhEL._SL75_.jpg"
+      ],
+      "bullets": [
+        "OTC Protect Spray Desenredante Fresa, es un spray cosmético de uso diario con triple acción protectora, desenredante e hidratante. Apto para niños a partir de 1 año y para pieles sensibles y atópicas, está testado dermatológica y pediátricamente",
+        "Deja el cabello suave, manejable y sin tirones gracias a su fórmula desenredante. También, protege e hidrata en profundidad el cabello, mejorando su salud y apariencia. Con aroma a fresa que proporciona una aplicación agradable y frutal, perfecta para el uso diario",
+        "Contiene Queratina, que suaviza e hidrata el cabello, el Árbol de Té y el Vinagre de Quassia, actúan como protector natural, ayudando a mantener el cabello saludable y bien cuidado. Estos ingredientes trabajan en conjunto para proporcionar una triple acción efectiva",
+        "Pulveriza el spray sobre el cabello seco o mojado, deja secar de forma natural sin necesidad de aclarar. Evitar el contacto con los ojos durante la aplicación. Su uso diario facilitará el peinado y mantendrá el cabello protegido, hidratado y desenredado",
+        "Conservar el producto en un lugar fresco y seco, fuera del alcance de los niños. Evitar el contacto con los ojos y mucosas. En caso de contacto, enjuagar con abundante agua"
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "family_safe",
+        "daily_use",
+        "pleasant_fragrance",
+        "registered_approved"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B0CBPW3M74",
+      "brand": "ANIAN",
+      "title": "ANIAN KIDS - Acondicionador Bifásico Árbol de Té, 250 ml, Ideal para Niños, Acondicionador sin Aclarado de Uso Diario, Protege Contra los Piojos, Desenreda y Facilita el Peinado",
+      "price": 2.99,
+      "rating": 4.4,
+      "reviews": 183,
+      "bsr": 6845,
+      "rev30d": 2041.01,
+      "sales30d": 854,
+      "mainImage": "https://m.media-amazon.com/images/I/61w99YoLBKL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61w99YoLBKL.jpg",
+        "https://m.media-amazon.com/images/I/31WKddfwNVL.jpg",
+        "https://m.media-amazon.com/images/I/31WKddfwNVL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71oTbwhs58L.jpg",
+        "https://m.media-amazon.com/images/I/412NCmT-GBL.jpg",
+        "https://m.media-amazon.com/images/I/412NCmT-GBL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/711m8BCxJ2L.jpg",
+        "https://m.media-amazon.com/images/I/41ACTkwzrTL.jpg",
+        "https://m.media-amazon.com/images/I/41ACTkwzrTL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81Mo6-bw3dL.jpg",
+        "https://m.media-amazon.com/images/I/513ECJvS7WL.jpg",
+        "https://m.media-amazon.com/images/I/513ECJvS7WL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81sxrKroKcL.jpg",
+        "https://m.media-amazon.com/images/I/51WDwOaycbL.jpg",
+        "https://m.media-amazon.com/images/I/51WDwOaycbL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81lRYTg5VaL.jpg",
+        "https://m.media-amazon.com/images/I/51b-FPTHkJL.jpg",
+        "https://m.media-amazon.com/images/I/51b-FPTHkJL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81hnThjnmmL.jpg",
+        "https://m.media-amazon.com/images/I/515GLMfmYAL.jpg",
+        "https://m.media-amazon.com/images/I/515GLMfmYAL._SL75_.jpg"
+      ],
+      "bullets": [
+        "ACONDICIONADOR SIN ACLARADO NIÑOS: El acondicionador bifásico Árbol de Té de Anian Kids funciona como prevención contra los piojos, al igual que acondiciona y desenreda el cabello de los más pequeños. Protección de uso diario en niños mayores de 3 años.",
+        "PREVENCIÓN CONTRA PIOJOS: El Árbol de Té, presente en la fórmula, protege y cuida el cabello de los más pequeños actuando como prevención contra los piojos. Además, estimula el crecimiento del cabello y protege el cuero cabelludo de agentes externos.",
+        "DESENREDA Y CONTROLA EL ENCRESPAMIENTO: El Aloe Vera hidrata y fortalece el cabello evitando el encrespamiento, mientras que la manzanilla con su efecto calmante repara las zonas más secas del cabello eliminando los enredos y facilitando el peinado.",
+        "MODO DE EMPLEO: Agítalo bien antes de usar para mezclar las dos fases, pulveriza sobre el cabello seco o húmedo y peina como de costumbre. No necesita aclarado y se puede utilizar a diario. Para mejores resultados, úsalo junto al champú de Árbol de Té.",
+        "SOBRE NOSOTROS: En ANIAN nos comprometemos a ofrecer productos de higiene personal de alta calidad con un 90% de origen natural. Por ello, apostamos por la naturaleza combinada con la investigación e innovación, para conseguir los mejores beneficios."
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "daily_use"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B0BPCZLPC2",
+      "brand": "BACTERISAN",
+      "title": "BACTERISAN Champú protector desenredante 250 ml, Protege de piojos y liendres, Champú de uso diario con árbol de té",
+      "price": 5.95,
+      "rating": 4.6,
+      "reviews": 389,
+      "bsr": 2929,
+      "rev30d": 1595.57,
+      "sales30d": 269,
+      "mainImage": "https://m.media-amazon.com/images/I/618NnJ8pzcL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/618NnJ8pzcL.jpg",
+        "https://m.media-amazon.com/images/I/31aAWLncAWL.jpg",
+        "https://m.media-amazon.com/images/I/31aAWLncAWL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61IQNfj-HUL.jpg",
+        "https://m.media-amazon.com/images/I/61IQNfj-HUL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/511p4hoSwQL.jpg",
+        "https://m.media-amazon.com/images/I/511p4hoSwQL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51DidfBLUjL.jpg",
+        "https://m.media-amazon.com/images/I/51DidfBLUjL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51K20xSMtiL.jpg",
+        "https://m.media-amazon.com/images/I/51K20xSMtiL._SL75_.jpg"
+      ],
+      "bullets": [
+        "CONTRA PIOJOS Y LIENDRES: El champú protector desenredante es un tratamiento efectivo para proteger y prevenir de los piojos y liendres. Tiene una fragancia frutal muy agradable.",
+        "INGREDIENTES NATURALES: Este champú de uso diario contiene árbol de té y vinagre de quassia que protegen de piojos y liendres. Además, contiene activos acondicionadores que facilitan el peinado y desenredan el pelaje sin tirones.",
+        "TRIPLE EFECTO: Desenreda el cabello gracias a su fórmula con queratina que facilita el peinado reparando las cutículas. Gracias a sus ingredientes nutre el pelaje en profundidad además de aportar brillo y suavidad.",
+        "MODO DE EMPLEO: Humedecer el cabello con abundante agua tibia. Aplicar el champú enjabonando con la mano. Masajear circularmente hasta conseguir una abundante y cremosa espuma y dejar actuar unos instantes. Aclarar y secar con una toalla o secador y peinar con un cepillo.",
+        "SIN PARABENOS: Este champú protector de piojos y liendres está libre de parabenos.",
+        "Apto para uso público general"
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "daily_use",
+        "pleasant_fragrance"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B075KDM9XH",
+      "brand": "Tahe",
+      "title": "Tahe Acondicionador Niños con Árbol del Té Prevención Piojos/Acondicionador Infantil Kids Preventivo Escolar, 300 ml",
+      "price": 12.95,
+      "rating": 4.4,
+      "reviews": 320,
+      "bsr": 6362,
+      "rev30d": 1577.47,
+      "sales30d": 132,
+      "mainImage": "https://m.media-amazon.com/images/I/61dXbzSNyKL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61dXbzSNyKL.jpg",
+        "https://m.media-amazon.com/images/I/31BwIrmKbSL.jpg",
+        "https://m.media-amazon.com/images/I/31BwIrmKbSL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/612ZSDLgxEL.jpg",
+        "https://m.media-amazon.com/images/I/41fG-0UVnEL.jpg",
+        "https://m.media-amazon.com/images/I/41fG-0UVnEL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61ydm7xCAML.jpg",
+        "https://m.media-amazon.com/images/I/416AUhGNJVL.jpg",
+        "https://m.media-amazon.com/images/I/416AUhGNJVL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/610VQQYP1JL.jpg",
+        "https://m.media-amazon.com/images/I/41zqfaaBhyL.jpg",
+        "https://m.media-amazon.com/images/I/41zqfaaBhyL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61FdTdetsEL.jpg",
+        "https://m.media-amazon.com/images/I/41reEwOR4pL.jpg",
+        "https://m.media-amazon.com/images/I/41reEwOR4pL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51ds195RgWL.jpg",
+        "https://m.media-amazon.com/images/I/31zSdOijQkL.jpg",
+        "https://m.media-amazon.com/images/I/31zSdOijQkL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71fSFPY7pCL.jpg",
+        "https://m.media-amazon.com/images/I/41vD6o6B2EL.jpg",
+        "https://m.media-amazon.com/images/I/41vD6o6B2EL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51D7QNvafxL.jpg",
+        "https://m.media-amazon.com/images/I/418rK73DX+L.jpg",
+        "https://m.media-amazon.com/images/I/418rK73DX+L._SL75_.jpg"
+      ],
+      "bullets": [
+        "Acondicionador para el cabello: proporciona una manera rápida y fácil de controlar el encrespamiento y añadir brillo a todo tipo de cabello",
+        "Tratamiento preventivo: ayuda a proteger el cabello de daños causados por el calor y factores ambientales",
+        "Resultados instantáneos: acondiciona el cabello al contacto y lo deja suave y manejable",
+        "Listo para la escuela y los viajes: fórmula ligera fácil de aplicar y no deja residuos",
+        "Calidad de peluquería: deja el cabello con aspecto y sensación como si acabara de salir del salón"
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "family_safe",
+        "daily_use"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B0FZW1M61S",
+      "brand": "Essenciales",
+      "title": "Repelente Piojos con Árbol de Te 100% Natural - Sin Piretrinas ni Permetrinas - Tratamiento antipiojos eficaz para niños con olor agradable y efecto desenredante pelo niñas",
+      "price": 9.95,
+      "rating": 4.5,
+      "reviews": 6,
+      "bsr": 3915,
+      "rev30d": 1514.0,
+      "sales30d": 152,
+      "mainImage": "https://m.media-amazon.com/images/I/71XJJLDZ6HL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71XJJLDZ6HL.jpg",
+        "https://m.media-amazon.com/images/I/51v-FY6SOQL.jpg",
+        "https://m.media-amazon.com/images/I/51v-FY6SOQL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71txaJdRdSL.jpg",
+        "https://m.media-amazon.com/images/I/519tdeFvsNL.jpg",
+        "https://m.media-amazon.com/images/I/519tdeFvsNL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71mni+XrDjL.jpg",
+        "https://m.media-amazon.com/images/I/41ekCmif7YL.jpg",
+        "https://m.media-amazon.com/images/I/41ekCmif7YL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81KQINGzoIL.jpg",
+        "https://m.media-amazon.com/images/I/51h3b8GD1EL.jpg",
+        "https://m.media-amazon.com/images/I/51h3b8GD1EL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71nbvjdKLcL.jpg",
+        "https://m.media-amazon.com/images/I/418oX-MWdjL.jpg",
+        "https://m.media-amazon.com/images/I/418oX-MWdjL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81VlaP7oqpL.jpg",
+        "https://m.media-amazon.com/images/I/519OcXVKChL.jpg",
+        "https://m.media-amazon.com/images/I/519OcXVKChL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71UJR9+BfrL.jpg",
+        "https://m.media-amazon.com/images/I/41wcqhLpsQL.jpg",
+        "https://m.media-amazon.com/images/I/41wcqhLpsQL._SL75_.jpg"
+      ],
+      "bullets": [
+        "✅ Sin piojos - Evita que los niños cojan piojos, con este repelente de piojos de uso diario. Además de su agradable olor a manzana, que le encanta a los niños, ayuda con su efecto desenredante a las niñas para un peinado más sencillo.",
+        "⛔ Sin Insecticidas Químicos - Solo contiene productos 100% naturales. El aceite esencial de árbol de té ha demostrado su eficacia tanto como repelente como eliminador de piojos y neutralizador de liendres.",
+        "🌱 Producto 100% natural y libre de tóxicos, sin piretrinas y sin ácido acético. No ha sido sometido a ningún tratamiento adicional de refinado por lo que no contiene aditivos conservantes o colorantes.",
+        "🌟 Calidad garantizada: todos nuestros productos se testan en laboratorios y cumplen con la estricta normativa sanitaria de la UE. Puedes ponerte en contacto con nosotros si deseas solicitar los documentos que lo acreditan.",
+        "👉 Uso diario - Al ser un producto natural puede usarse de forma intensiva como prevención especialmente en la época de clases cuando es más probable contagiarse de piojos. Su agradable olor, permite ser utilizado como colonia infantil"
+      ],
+      "description": "<p><strong>Antipiojos Natural de Árbol de Té para Niños – 100 ml</strong></p> <p>Protege el cabello de los más pequeños con una fórmula natural, suave y eficaz. Nuestro <strong>spray antipiojos con árbol de té</strong> ha sido especialmente desarrollado para uso diario durante las épocas escolares, cuando el riesgo de contagio de piojos es mayor. Un cuidado que combina prevención, suavidad y un aroma fresco que encantará a niños y padres.</p> <p><strong>🌿 Protección natural y eficaz</strong><br> El <strong>aceite esencial de Árbol de Té</strong> es conocido por su poder repelente natural frente a los piojos. Usado de forma regular, ayuda a prevenir el contagio sin necesidad de productos agresivos.</p> <p><strong>🍏 Fragancia fresca a manzana</strong><br> A diferencia de otros productos antipiojos con olor intenso, este spray tiene una <strong>agradable fragancia a manzana verde</strong> que deja el cabello con un aroma limpio y fresco. Ideal para su uso diario antes de ir al colegio.</p> <p><strong>🥥 Cabello suave y fácil de peinar</strong><br> Gracias al <strong>aceite de coco</strong>, el spray tiene un <strong>efecto desenredante</strong> que facilita el cepillado y deja el cabello brillante, sedoso y sin tirones. Perfecto para niñas con el pelo largo.</p> <p><strong>👧 Uso diario, sin aclarado</strong><br> Su textura ligera permite aplicarlo sobre el cabello seco o húmedo sin engrasar. Pulveriza, peina ¡y listo! Apto para niños y niñas a partir de 2 años.</p> <p><strong>✨ Beneficios principales:</strong></p> <ul> <li>Previene la aparición de piojos de forma natural.</li> <li>Desenreda y suaviza el cabello gracias al coco.</li> <li>Olor agradable y duradero a manzana verde.</li> <li>Fórmula suave, sin parabenos ni siliconas.</li> <li>Apto para uso frecuente durante todo el año.</li> </ul> <p>Protege, cuida y perfuma el cabello infantil con una sola aplicación diaria... Y olvídate de los piojos.</p>",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "pleasant_fragrance",
+        "registered_approved"
+      ],
+      "claimCount": 7
+    },
+    {
+      "asin": "B086BB8N14",
+      "brand": "PRANAROM",
+      "title": "Pranarôm Spray Protector Capilar BIO con Árbol de Té y Lavandín – Repelente Natural de Piojos para Niños y Toda la Familia – Cuidado Diario, 30 ml",
+      "price": 11.18,
+      "rating": 4.6,
+      "reviews": 106,
+      "bsr": 2122,
+      "rev30d": 1389.92,
+      "sales30d": 104,
+      "mainImage": "https://m.media-amazon.com/images/I/61Jj0U5-bhL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61Jj0U5-bhL.jpg",
+        "https://m.media-amazon.com/images/I/41knnpx-yEL.jpg",
+        "https://m.media-amazon.com/images/I/41knnpx-yEL._SL75_.jpg"
+      ],
+      "bullets": [
+        "🌿 PROTECCIÓN NATURAL EFECTIVA – Despídete de la preocupación por los piojos con nuestra fórmula BIO enriquecida con árbol de té y lavandín, ingredientes conocidos por sus propiedades repelentes. Disfruta de la tranquilidad de un escudo natural y seguro para el cabello de tus hijos cada día.",
+        "✨ FÓRMULA BIO CERTIFICADA & SUAVE – Confía en un producto 100% natural, sin químicos agresivos ni pesticidas. Este spray protector es ideal para el cuero cabelludo sensible de los niños, ofreciendo cuidado y respeto por su salud capilar, ¡garantizando la máxima seguridad y eficacia!",
+        "🎒 IDEAL PARA EL DÍA A DÍA ESCOLAR – Prepara a tus pequeños para el colegio con una aplicación rápida y sencilla que los protege durante toda la jornada. Su formato de 30 ml es perfecto para llevar a cualquier parte, asegurando una barrera constante contra la pediculosis con total comodidad.",
+        "💧 CABELLO NUTRIDO Y LIGERO – No solo protege, sino que también cuida. Nuestro spray no engrasa ni apelmaza el cabello, dejándolo suave, brillante y con un agradable aroma a lavanda que encantará a todos. Mantén el pelo fresco y manejable sin residuos, ¡una solución práctica y agradable!",
+        "👨👩👧👦 PREVENCIÓN FAMILIAR CON AROMA FRESCO – Utiliza este spray como parte de la rutina de higiene de toda la familia, creando un ambiente desfavorable para los piojos de forma natural. Su suave fragancia a lavanda proporciona una sensación de frescura y limpieza, ¡tu aliado perfecto para la protección diaria!"
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "pleasant_fragrance"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B0F2TDVCBT",
+      "brand": "SUAVINEX",
+      "title": "Suavinex, Champú Antipiojos, Champú Protector con Árbol del Té, Pantenol y Betaína, Protege, Limpia y Suaviza el Cabello, Testado, Apto Pieles Sensibles y Atópicas, Uso Diario, +6 Meses, 250 ml",
+      "price": 11.3,
+      "rating": 4.3,
+      "reviews": 21,
+      "bsr": 7045,
+      "rev30d": 981.77,
+      "sales30d": 89,
+      "mainImage": "https://m.media-amazon.com/images/I/61G6+kgvGVL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61G6+kgvGVL.jpg",
+        "https://m.media-amazon.com/images/I/313Z08kDNIL.jpg",
+        "https://m.media-amazon.com/images/I/313Z08kDNIL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81oI6IIwYaL.jpg",
+        "https://m.media-amazon.com/images/I/51TXfKYCUHL.jpg",
+        "https://m.media-amazon.com/images/I/51TXfKYCUHL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/818kNLu10gL.jpg",
+        "https://m.media-amazon.com/images/I/51RIR1VUMtL.jpg",
+        "https://m.media-amazon.com/images/I/51RIR1VUMtL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81yjuPi7VkL.jpg",
+        "https://m.media-amazon.com/images/I/51xhsaL80sL.jpg",
+        "https://m.media-amazon.com/images/I/51xhsaL80sL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81vRVYcv4ML.jpg",
+        "https://m.media-amazon.com/images/I/41Zx6VEx6lL.jpg",
+        "https://m.media-amazon.com/images/I/41Zx6VEx6lL._SL75_.jpg"
+      ],
+      "bullets": [
+        "PREVIENE. Champú protector antipiojos y liendres. Ideal para usar después del tratamiento con la loción antipiojos",
+        "APTO PIELES SENSIBLES Y CON TENDENCIA ATÓPICA. Testado bajo control dermatológico y pediátrico",
+        "TRIPLE ACCIÓN. Champú antipiojos que protege, limpia y suaviza",
+        "CON ÁRBOL DEL TÉ Y VINAGRE DE QUASSIA AMARA. Ingredientes conocidos por sus propiedades repelentes y beneficios para el cabello. Ayudan a hidratar el cabello y el cuero cabelludo aportando brillo y suavidad, acondicionan y refuerzan el pelo y lo protegen evitando la adherencia y fijación de piojos y liendres",
+        "CON PANTENOL Y BETAÍNA. El pantenol calma la piel irritada y enrojecida, proporciona volumen e hidratación. La betaína ayuda a proteger de las agresiones ambientales y refuerza la barra epidérmica",
+        "USO DIARIO. Puede utilizarse en todo tipo de cabellos",
+        "PARA BEBÉS Y NIÑOS +6 MESES. Puede utilizarse por toda la familia, bebés, niños y adultos",
+        "¿A QUÉ HUELE? Champú antipiojos y liendres con aroma a granada"
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "family_safe",
+        "daily_use",
+        "pleasant_fragrance",
+        "registered_approved"
+      ],
+      "claimCount": 6
+    }
+  ],
+  "claimsMatrix": {
+    "themes": [
+      {
+        "key": "efficacy_prevention",
+        "label": "Blocks / Repels Lice"
+      },
+      {
+        "key": "natural_ingredients",
+        "label": "Natural Actives"
+      },
+      {
+        "key": "chemical_free",
+        "label": "No Pesticides / DEET-Free"
+      },
+      {
+        "key": "family_safe",
+        "label": "Family & Child Safe"
+      },
+      {
+        "key": "daily_use",
+        "label": "Daily / Leave-In"
+      },
+      {
+        "key": "textile_environment",
+        "label": "Textile / Environment"
+      },
+      {
+        "key": "long_lasting",
+        "label": "Long-Lasting Protection"
+      },
+      {
+        "key": "pleasant_fragrance",
+        "label": "Pleasant Fragrance"
+      },
+      {
+        "key": "registered_approved",
+        "label": "Medically / Dermatologically Tested"
+      },
+      {
+        "key": "made_in_local",
+        "label": "Made in Spain"
+      }
+    ],
+    "rows": [
+      {
+        "asin": "B01BN0QUUE",
+        "brand": "Neositrín",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "asin": "B01ADEMJFQ",
+        "brand": "Neositrín",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "asin": "B07QDNBKV4",
+        "brand": "OTC Antipiojos",
+        "cells": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "asin": "B0CBPW3M74",
+        "brand": "ANIAN",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B0BPCZLPC2",
+        "brand": "BACTERISAN",
+        "cells": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B075KDM9XH",
+        "brand": "Tahe",
+        "cells": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B0FZW1M61S",
+        "brand": "Essenciales",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      {
+        "asin": "B086BB8N14",
+        "brand": "PRANAROM",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B0F2TDVCBT",
+        "brand": "SUAVINEX",
+        "cells": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "claimsSummary": [
+    {
+      "theme": "efficacy_prevention",
+      "label": "Blocks / Repels Lice",
+      "count": 9,
+      "pct": "100%",
+      "topBrands": [
+        "Neositrín",
+        "Neositrín",
+        "OTC Antipiojos"
+      ]
+    },
+    {
+      "theme": "natural_ingredients",
+      "label": "Natural Actives",
+      "count": 7,
+      "pct": "78%",
+      "topBrands": [
+        "OTC Antipiojos",
+        "ANIAN",
+        "BACTERISAN"
+      ]
+    },
+    {
+      "theme": "chemical_free",
+      "label": "No Pesticides / DEET-Free",
+      "count": 6,
+      "pct": "67%",
+      "topBrands": [
+        "Neositrín",
+        "Neositrín",
+        "ANIAN"
+      ]
+    },
+    {
+      "theme": "family_safe",
+      "label": "Family & Child Safe",
+      "count": 8,
+      "pct": "89%",
+      "topBrands": [
+        "Neositrín",
+        "Neositrín",
+        "OTC Antipiojos"
+      ]
+    },
+    {
+      "theme": "daily_use",
+      "label": "Daily / Leave-In",
+      "count": 9,
+      "pct": "100%",
+      "topBrands": [
+        "Neositrín",
+        "Neositrín",
+        "OTC Antipiojos"
+      ]
+    },
+    {
+      "theme": "textile_environment",
+      "label": "Textile / Environment",
+      "count": 0,
+      "pct": "0%",
+      "topBrands": []
+    },
+    {
+      "theme": "long_lasting",
+      "label": "Long-Lasting Protection",
+      "count": 0,
+      "pct": "0%",
+      "topBrands": []
+    },
+    {
+      "theme": "pleasant_fragrance",
+      "label": "Pleasant Fragrance",
+      "count": 7,
+      "pct": "78%",
+      "topBrands": [
+        "Neositrín",
+        "Neositrín",
+        "OTC Antipiojos"
+      ]
+    },
+    {
+      "theme": "registered_approved",
+      "label": "Medically / Dermatologically Tested",
+      "count": 5,
+      "pct": "56%",
+      "topBrands": [
+        "Neositrín",
+        "Neositrín",
+        "OTC Antipiojos"
+      ]
+    },
+    {
+      "theme": "made_in_local",
+      "label": "Made in Spain",
+      "count": 0,
+      "pct": "0%",
+      "topBrands": []
+    }
+  ],
+  "vocGap": [
+    {
+      "vocTopic": "Doesn't actually prevent infestation",
+      "customerConcernPct": "~30%",
+      "addressedByCount": 2,
+      "addressedByBrands": [
+        "Neositrín",
+        "Essenciales"
+      ],
+      "gapSeverity": "HIGH",
+      "whitespace": "Only Neositrín quantifies with 'Activdiol' and only Essenciales says 'clinically tested'. Cite a % reduction or repeat-purchase stat to beat 'barrera invisible' vagueness."
+    },
+    {
+      "vocTopic": "Perfume too strong / allergic reactions",
+      "customerConcernPct": "~20%",
+      "addressedByCount": 1,
+      "addressedByBrands": [
+        "SUAVINEX"
+      ],
+      "gapSeverity": "MEDIUM",
+      "whitespace": "Only SUAVINEX targets atopic/sensitive skin explicitly. Launch a 'sin fragancia' variant."
+    },
+    {
+      "vocTopic": "Too concentrated on tea tree — kids hate smell",
+      "customerConcernPct": "~15%",
+      "addressedByCount": 3,
+      "addressedByBrands": [
+        "Neositrín",
+        "OTC",
+        "Essenciales"
+      ],
+      "gapSeverity": "MEDIUM",
+      "whitespace": "Fruit-scented products win. Naranja/fresa/manzana are under-explored vs tea tree oil."
+    },
+    {
+      "vocTopic": "Not safe for babies",
+      "customerConcernPct": "~20%",
+      "addressedByCount": 1,
+      "addressedByBrands": [
+        "SUAVINEX (6m+)"
+      ],
+      "gapSeverity": "MEDIUM",
+      "whitespace": "SUAVINEX is the only 6-months-plus product. Everyone else is 12m+. A '0m+' or dermato-tested infant variant is open."
+    }
+  ],
+  "whitespaceOpportunities": [
+    {
+      "opportunity": "Clinically-proven prevention",
+      "rationale": "Every listing claims 'barrera protectora' but only Neositrín cites an active (Activdiol/Caprylyl Glycol) and Essenciales mentions EU lab testing.",
+      "evidence": "0 of 9 show a school-year efficacy study or % infestation reduction."
+    },
+    {
+      "opportunity": "Fragrance-free / hypoallergenic",
+      "rationale": "Every ES prevention product is either tea-tree-heavy or fruit-scented. Atopic families have only SUAVINEX, which still uses tea tree.",
+      "evidence": "0 of 9 offer a true fragrance-free variant."
+    },
+    {
+      "opportunity": "Infant-safe (0-6 months)",
+      "rationale": "SUAVINEX is the only 6-months-plus product. Every other locks out under-12-month babies.",
+      "evidence": "1 of 9 targets babies explicitly."
+    },
+    {
+      "opportunity": "Textile / environment prevention",
+      "rationale": "Zero textile prevention sprays in ES. The category doesn't exist locally despite strong DE presence.",
+      "evidence": "0 of 9 ES vs 4 of 9 DE sell textile prevention sprays."
+    },
+    {
+      "opportunity": "School-themed back-to-school bundle",
+      "rationale": "October seasonality peak (1.89× — highest of all 4 EU markets). Nobody bundles shampoo + spray + textile spray + comb for the school season.",
+      "evidence": "9 of 9 sell single SKUs; none offer a 'Vuelta al cole' kit."
+    }
+  ],
+  "saturation": [
+    {
+      "claim": "efficacy_prevention",
+      "label": "Protects Against Lice",
+      "saturationPct": "100%",
+      "advice": "Completely saturated. Quantify — 12h, 24h, % reduction — none do."
+    },
+    {
+      "claim": "natural_ingredients",
+      "label": "Natural Actives (Tea Tree / Quassia)",
+      "saturationPct": "78%",
+      "advice": "7 of 9 lead with tea tree. The whitespace is the OPPOSITE direction — synthetic or non-EO alternatives for allergy-prone."
+    },
+    {
+      "claim": "chemical_free",
+      "label": "No Pesticides / Paraben-Free",
+      "saturationPct": "67%",
+      "advice": "Saturated. Move beyond 'sin químicos' to a specific named molecule excluded ('sin permetrina', 'sin piretrinas')."
+    },
+    {
+      "claim": "family_safe",
+      "label": "Child-Safe",
+      "saturationPct": "89%",
+      "advice": "Table-stakes. Specify minimum age in the title — most say 'niños' vaguely. 'Desde 6 meses' (SUAVINEX only) wins parents of babies."
+    },
+    {
+      "claim": "daily_use",
+      "label": "Daily Use",
+      "saturationPct": "100%",
+      "advice": "Universal. Differentiate with frequency guidance — 'uso diario' vs '2-3 veces/semana'."
+    },
+    {
+      "claim": "pleasant_fragrance",
+      "label": "Pleasant Fragrance",
+      "saturationPct": "67%",
+      "advice": "Fruit scents (fresa, naranja, mango) are winning vs tea tree. Strawberry and apple are under-used."
+    },
+    {
+      "claim": "registered_approved",
+      "label": "Dermatologically Tested",
+      "saturationPct": "44%",
+      "advice": "Only 4 of 9 cite dermatological testing. Add 'testado dermatológicamente' — quick win."
+    }
+  ],
+  "strategicRecommendations": [
+    {
+      "type": "Product",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "Neositrín has 2 of top 9 Prevention SKUs at €42k + €21k 30d revenue — 2× the next competitor. Their 'Activdiol' moat is pure branding around a standard ingredient.",
+      "implication": "Neositrín is the price-setter. Any challenger must either (a) beat them on a specific clinical claim or (b) attack an under-served niche (infants, atopic, textile)."
+    },
+    {
+      "type": "Positioning",
+      "badgeBg": "#e0f2fe",
+      "badgeColor": "#075985",
+      "finding": "7 of 9 ES prevention products lead with tea tree. Atopic / sensitive-skin families are essentially locked out.",
+      "implication": "Launch an 'Atopic / Sensitive Skin' SKU — fragrance-free, no tea tree, dermato-pediatric certified. Compete directly with SUAVINEX but go further (0m+)."
+    },
+    {
+      "type": "Packaging",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "0 of 9 ES listings are textile sprays. This category doesn't exist locally despite high DE adoption.",
+      "implication": "Launch a textile prevention spray for ES with 'spray para sofás, coches y ropa'. Price €14-16 to match single SKUs. First-mover category creation."
+    },
+    {
+      "type": "Messaging",
+      "badgeBg": "#ede9fe",
+      "badgeColor": "#5b21b6",
+      "finding": "October seasonality is 1.89× — the highest of the 4 EU markets. ES has the most pronounced back-to-school pattern, yet no brand refreshes for 'vuelta al cole'.",
+      "implication": "Refresh title + A+ content Aug 15 with 'Vuelta al cole 2026' hook. PPC spike Aug 15 — Oct 15. Opportunity is largest in ES."
+    },
+    {
+      "type": "Product",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "Only SUAVINEX targets 6m+ infants. Everyone else is 12m+ or vaguely 'for children'.",
+      "implication": "Partner with a dermato-pediatric lab (ES trusts these) to certify a 0-month variant. Hero claim: 'desde el nacimiento'."
+    }
+  ]
+}

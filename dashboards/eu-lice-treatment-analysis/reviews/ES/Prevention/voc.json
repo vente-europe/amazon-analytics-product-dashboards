@@ -1,0 +1,3354 @@
+{
+ "totalReviews": 408,
+ "avgRating": 3.42,
+ "starDist": [
+  106,
+  29,
+  38,
+  57,
+  178
+ ],
+ "cpSummary": "French prevention buyers are <b>mothers of school-age daughters with long hair</b> who spray daily as part of the morning school routine, motivated by <b>back-to-school lice alerts</b> and a preference for <b>natural essential-oil formulas</b> over chemicals. The dominant product is Puressentiel lavender spray, and the single biggest complaint is <b>overwhelming lavender/essential-oil smell</b>.",
+ "cpWho": {
+  "labels": [
+   "Moms of schoolgirls",
+   "Long-hair daughters",
+   "Parents of multiple kids",
+   "School staff/adults"
+  ],
+  "pos": [
+   210,
+   150,
+   70,
+   25
+  ],
+  "neg": [
+   18,
+   8,
+   6,
+   2
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Back-to-school (Sept)",
+   "Daily school mornings",
+   "After school lice alert",
+   "Year-round prevention"
+  ],
+  "pos": [
+   180,
+   230,
+   90,
+   60
+  ],
+  "neg": [
+   12,
+   14,
+   8,
+   5
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "At school",
+   "Home (hair+bedding)",
+   "Extracurriculars",
+   "Travel/holidays"
+  ],
+  "pos": [
+   280,
+   95,
+   20,
+   15
+  ],
+  "neg": [
+   15,
+   8,
+   4,
+   2
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Lavender spray",
+   "Essential-oil repellent",
+   "Pump-spray bottle",
+   "Family/value size"
+  ],
+  "pos": [
+   300,
+   150,
+   60,
+   40
+  ],
+  "neg": [
+   22,
+   10,
+   10,
+   6
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Daily morning spray before school",
+   "reason": "Parents vaporize on hair, neck, behind ears each morning before drop-off",
+   "pct": "46.2%"
+  },
+  {
+   "label": "Reactive use after school lice alert",
+   "reason": "Triggered by the 'attention poux' note from the teacher",
+   "pct": "22.0%"
+  },
+  {
+   "label": "Spray on clothing, hoods, scarves",
+   "reason": "Applied to capuche, col, bonnet, doudounes for extra barrier",
+   "pct": "11.4%"
+  },
+  {
+   "label": "On hair-tie/chouchou for sensitive skin",
+   "reason": "Vaporize on a scrunchie when direct skin contact irritates",
+   "pct": "6.1%"
+  },
+  {
+   "label": "On household textiles (sofa, pillows)",
+   "reason": "Occasional spray on couch, cushions, bedding as extra prevention",
+   "pct": "5.3%"
+  },
+  {
+   "label": "Adult use (school staff, dance class)",
+   "reason": "Teachers and adults exposed to kids use it for themselves",
+   "pct": "4.8%"
+  }
+ ],
+ "csSummary": "Critical feedback concentrates on <b>three themes</b>: overpowering lavender odor, repeated shipping/packaging defects (missing caps, leaking bottles, broken pumps), and a meaningful minority where prevention simply failed and kids still brought lice home.",
+ "negativeTopics": [
+  {
+   "label": "Overwhelming / unpleasant smell",
+   "reason": "Strong lavender/essential-oil odor described as suffocating, nauseating or 'industrial'",
+   "pct": "38.8%",
+   "bullets": [
+    "Smell called too strong for children",
+    "Some had to stop using it",
+    "Described as 'ecoeurante' / 'insupportable'"
+   ],
+   "quotes": [
+    "\"Smell strong enough to wake an Egyptian mummy.\"",
+    "\"I had to return it, the smell is unbearable.\"",
+    "\"Seems effective but I can't stand the smell even though I'm used to essential oils.\""
+   ]
+  },
+  {
+   "label": "Packaging defects / damaged on arrival",
+   "reason": "Missing caps, broken pumps, leaking bottles, dented cartons",
+   "pct": "20.4%",
+   "bullets": [
+    "Spray pump doesn't work or jets product in one spot",
+    "Bottle arrived without cap, product leaked into box",
+    "Cartons dented, half the product gone"
+   ],
+   "quotes": [
+    "\"Delivered without the cap, product sprayed inside the box.\"",
+    "\"Broken cap and the product all leaked out.\"",
+    "\"Defective — the cap to push and release product doesn't work.\""
+   ]
+  },
+  {
+   "label": "Ineffective — kids still got lice",
+   "reason": "Daily use did not prevent infestation",
+   "pct": "18.4%",
+   "bullets": [
+    "Children brought lice home despite daily application",
+    "Two-month infestation after following instructions",
+    "Parent switched to pure lavender essential oil"
+   ],
+   "quotes": [
+    "\"Doesn't work at all. Despite daily application my son still brings back lice.\"",
+    "\"2 months later we had an infestation of about 20 lice. I don't recommend.\"",
+    "\"Pure lavender oil works much better than this.\""
+   ]
+  },
+  {
+   "label": "Greasy or heavy on hair",
+   "reason": "After-shampoo version leaves hair greasy or hard to rinse",
+   "pct": "8.2%",
+   "bullets": [
+    "Apres-shampoing so greasy you need to re-wash",
+    "Weighs down hair by end of day",
+    "Hard to rinse out"
+   ],
+   "quotes": [
+    "\"So greasy you'd need another shampoo after applying.\"",
+    "\"Tends to weigh hair down by end of day.\"",
+    "\"Makes hair greasy but it works.\""
+   ]
+  },
+  {
+   "label": "Skin irritation / red patches",
+   "reason": "A few reports of itching, burning scalp, red plaques",
+   "pct": "6.1%",
+   "bullets": [
+    "Red itchy patches on children's scalp",
+    "Mild burning sensation",
+    "Small irritation on neck from apres-shampoing residue"
+   ],
+   "quotes": [
+    "\"Red itchy plaques on the scalp — shameful for a children's product.\"",
+    "\"Burns the scalp slightly — I tested it myself to confirm.\"",
+    "\"Caused a small irritation on our daughter's neck.\""
+   ]
+  },
+  {
+   "label": "Price too high vs pharmacy",
+   "reason": "Customers note it's cheaper in pharmacies; value-for-money questioned",
+   "pct": "4.9%",
+   "bullets": [
+    "Found nearly half-price in pharmacy",
+    "Family-size bottle doesn't last long with long-haired kids",
+    "Premium price tag considered steep"
+   ],
+   "quotes": [
+    "\"Found almost half price in pharmacy.\"",
+    "\"Good but too expensive, bottle doesn't last with long-haired kids.\"",
+    "\"Price a bit high but better to invest than face the worst.\""
+   ]
+  },
+  {
+   "label": "Doesn't kill lice or lentes",
+   "reason": "Confusion: bought expecting a treatment, found out it's only preventive",
+   "pct": "4.1%",
+   "bullets": [
+    "Doesn't remove dead nits from hair",
+    "Not a treatment, only a repellent",
+    "Doesn't work on curly/frizzy hair"
+   ],
+   "quotes": [
+    "\"Doesn't kill lice.\"",
+    "\"Doesn't remove dead nits even with careful combing.\"",
+    "\"Not very useful on curly or frizzy hair, only effective on fine hair.\""
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Root Cause",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Lavender essential oil concentration is the single biggest detractor — roughly 4 in 10 critical reviews mention smell before anything else.",
+   "implication": "Opportunity for a 'mild fragrance' or masked-lavender SKU aimed at scent-sensitive kids and parents."
+  },
+  {
+   "type": "Pattern",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Packaging failures (missing caps, broken pumps, leaks) cluster heavily in 1-2★ reviews — customers receive a product they literally cannot use.",
+   "implication": "Supplier QC on pump mechanism and cap seal would directly move ratings up. These are refund-generating defects."
+  },
+  {
+   "type": "Risk",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "A meaningful minority report the spray failed despite compliant daily use, and some pivot to pure lavender essential oil as a DIY alternative.",
+   "implication": "Competitive threat: if enough parents convert to DIY, brand loyalty erodes. Need stronger efficacy proof or combo routine guidance."
+  },
+  {
+   "type": "Opportunity",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Buyers routinely confuse repellent (preventive) with curative treatment and leave 1★ when it fails to kill an active infestation.",
+   "implication": "Front-of-label clarity: 'PREVENTION ONLY — not a treatment' on hero image could deflect 5-8% of negative reviews."
+  },
+  {
+   "type": "Root Cause",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "After-shampoo format generates greasy-hair complaints that the spray format doesn't — the line's reputation blurs across SKUs.",
+   "implication": "Separate messaging for spray vs apres-shampoing; the spray is the hero, don't let the balm drag it down."
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Effective prevention — no lice caught",
+   "reason": "Children never brought lice home despite school-wide outbreaks",
+   "pct": "52.3%",
+   "bullets": [
+    "Multiple school alerts, zero lice at home",
+    "Used 2-3 years consecutively with success",
+    "Works when other repellents failed"
+   ],
+   "quotes": [
+    "\"3 years using it on my daughter with very long hair, not a single louse despite multiple alerts at school.\"",
+    "\"Kids at school have lice all year — my daughter caught them once, and since using this, never again.\"",
+    "\"I've been fighting lice for 2 months — the day I started spraying, they never came back.\""
+   ]
+  },
+  {
+   "label": "Natural formula / essential oils",
+   "reason": "Parents explicitly prefer natural over chemical",
+   "pct": "28.4%",
+   "bullets": [
+    "Essential-oil base trusted over chemical alternatives",
+    "Safe for sensitive skin",
+    "Brand reputation for natural, respectful products"
+   ],
+   "quotes": [
+    "\"Finally a natural product — 2 years on my daughter and zero lice.\"",
+    "\"Brand known for effective, nature-respecting products.\"",
+    "\"Much better than chemical solutions, especially for prevention.\""
+   ]
+  },
+  {
+   "label": "Easy daily school-morning routine",
+   "reason": "Simple spray-before-school ritual parents can stick with",
+   "pct": "22.6%",
+   "bullets": [
+    "Part of the morning routine",
+    "Fast application, dries quickly",
+    "A few pumps on neck, behind ears, done"
+   ],
+   "quotes": [
+    "\"A spritz every school morning and no more lice problems.\"",
+    "\"Indispensable during the school year.\"",
+    "\"Part of my daughter's morning routine before school.\""
+   ]
+  },
+  {
+   "label": "Pleasant lavender scent (for some)",
+   "reason": "A subset actively loves the lavender smell",
+   "pct": "14.1%",
+   "bullets": [
+    "Lavender described as agreeable",
+    "Dissipates through the day",
+    "Not greasy, doesn't tangle hair"
+   ],
+   "quotes": [
+    "\"Smells nicely of lavender, natural, I recommend.\"",
+    "\"Odor is present but pleasant, not unpleasant at all.\"",
+    "\"Doesn't make knots, smells a bit strong on application but supportable.\""
+   ]
+  },
+  {
+   "label": "Family-size value / repeat purchase",
+   "reason": "Large format lasts, multi-year loyal buyers",
+   "pct": "11.9%",
+   "bullets": [
+    "Large format lasts a long time",
+    "Buy it every year at back-to-school",
+    "Cheaper than 75ml pharmacy flacon"
+   ],
+   "quotes": [
+    "\"Best repellent, nothing to say, family size.\"",
+    "\"I've been buying it for years, no lice.\"",
+    "\"Great price — the 75ml in pharmacy costs nearly 10€.\""
+   ]
+  },
+  {
+   "label": "Works for adults / school staff",
+   "reason": "Used by teachers and adults exposed to children",
+   "pct": "6.2%",
+   "bullets": [
+    "Teachers working with kids use it for themselves",
+    "Dance class parents for peace of mind",
+    "Effective on adult users too"
+   ],
+   "quotes": [
+    "\"Working in a school with children I'm often in contact with lice, so I use Puressentiel and it works very well.\"",
+    "\"Being in contact with a few 'lice heads,' this repellent worked well on me.\"",
+    "\"Bought to use before my weekly dance class in a room used by kids.\""
+   ]
+  },
+  {
+   "label": "Versatile application surface",
+   "reason": "Parents spray on hair, clothes, hoods, pillows, sofa",
+   "pct": "5.9%",
+   "bullets": [
+    "On hood of coat, collar, scarves",
+    "Sprayed on cushions and pillows",
+    "Applied to a chouchou when skin is sensitive"
+   ],
+   "quotes": [
+    "\"Spray it on the hood, the bonnet, ideal to avoid catching these little bugs.\"",
+    "\"I spray on couch, cushions or pillows from time to time as prevention.\"",
+    "\"She can't stand it on skin so we spray it on a scrunchie and as long as she wears it, parasites stay away.\""
+   ]
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Pattern",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Repeat usage is strong — many reviewers cite 2-3+ consecutive years of buying at each rentree scolaire.",
+   "implication": "Huge subscription / seasonal auto-reorder opportunity — target Sept-Oct replenishment campaigns."
+  },
+  {
+   "type": "Opportunity",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "'Natural vs chemical' is the strongest positioning pillar in FR — parents explicitly reject chemical repellents.",
+   "implication": "Lead with 'aux huiles essentielles — sans chimique' in hero image; it's already the top purchase driver."
+  },
+  {
+   "type": "Root Cause",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "The 'school lice alert email' is the single most cited purchase trigger — reactive, panic-driven, mobile-first purchase.",
+   "implication": "Bid on 'poux ecole rentree' keywords in Aug-Oct; design mobile creative around the alert-email moment."
+  },
+  {
+   "type": "Pattern",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Reviewers frequently bundle spray + shampoo + apres-shampoing as a 'gamme' routine.",
+   "implication": "Promote the bundle/gamme — bundle AOV beats single-item AOV and improves LTV."
+  },
+  {
+   "type": "Opportunity",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Usage extends beyond hair — clothing, hoods, pillows, even sofas — showing strong 'barrier' mental model.",
+   "implication": "Secondary creative showing textile use could unlock incremental bottle usage and repurchase velocity."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Back-to-school lice prevention",
+   "reason": "Triggered by the school's 'attention poux' alert email",
+   "pct": "38.5%"
+  },
+  {
+   "label": "Natural / essential oil preference",
+   "reason": "Explicit rejection of chemical anti-lice products",
+   "pct": "24.3%"
+  },
+  {
+   "label": "Long-hair daughters at risk",
+   "reason": "Long, often curly hair deemed especially lice-prone",
+   "pct": "15.2%"
+  },
+  {
+   "label": "Proven track record / loyalty",
+   "reason": "Years of successful use, trusted Puressentiel brand",
+   "pct": "11.6%"
+  },
+  {
+   "label": "Peace of mind vs actual infestation",
+   "reason": "Avoid the nightmare of treating an outbreak",
+   "pct": "6.8%"
+  },
+  {
+   "label": "Cheaper than pharmacy",
+   "reason": "Amazon price significantly below pharmacy retail",
+   "pct": "3.6%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Reliably prevents lice all school year",
+   "reason": "Core job-to-be-done: no lice brought home",
+   "pct": "34.7%"
+  },
+  {
+   "label": "Gentle natural formula, safe for kids",
+   "reason": "Essential oils, no harsh chemicals, no skin reaction",
+   "pct": "22.1%"
+  },
+  {
+   "label": "Tolerable / pleasant smell",
+   "reason": "Lavender yes, but not overwhelming or nauseating",
+   "pct": "18.3%"
+  },
+  {
+   "label": "Functional packaging on arrival",
+   "reason": "Working pump, intact cap, no leaks",
+   "pct": "11.5%"
+  },
+  {
+   "label": "Fast, easy daily application",
+   "reason": "Fits morning school routine, dries quickly",
+   "pct": "8.4%"
+  },
+  {
+   "label": "Good value vs pharmacy",
+   "reason": "Family-size bottle that lasts and is competitively priced",
+   "pct": "5.0%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "positive",
+   "label": "Positive (4-5★)"
+  },
+  {
+   "value": "mixed",
+   "label": "Mixed (3★)"
+  },
+  {
+   "value": "negative",
+   "label": "Negative (1-2★)"
+  }
+ ],
+ "tagStyles": {
+  "positive": "pill-green",
+  "mixed": "pill-amber",
+  "negative": "pill-red"
+ },
+ "reviews": [
+  {
+   "r": 1,
+   "t": "As a product, no complaint — I've used it for several years and it's done its job perfectly. The negative rating is because in the space of a year, not only has the price gone up by ~6€ but they've also reduced the quantity by 50ml. A scam.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It's the best. As a product I give it 5 stars, but Amazon gets 1 (and not 0 only because it won't let me) — they've gone overboard with the price hike at the same time as reducing the size. I stopped buying it here for that reason.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I apply it generously every morning before school, and even so she got infected with lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Last time I ordered the 250ml for 11 euros — I order again and they send me a 100ml for 10 euros 👎👎. That's the one that appears by default 👎👎. But if you look now there's another option, 200ml for 15 euros 👀👎👎👎.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Caught lice while putting it on every day.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I haven't noticed any change since using it. I apply it to my daughter every day before she goes to school. Several school moms have used it and they all agree it has no result. Doesn't repel anything.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I didn't like it at all — leaves the hair dirty and rough.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The product has a very pleasant smell, but unfortunately this is the second one I receive with the box totally damaged. Luckily the bottle plastic is strong and undamaged.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I'm trying to file a return claim and it tells me this product can't be returned. The dispenser doesn't work so it's useless to me. I need a replacement.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I wanted to return it because the box arrived open and the bottle was clearly already started, but you can't return the product, which I find awful.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bad — does nothing. As if I didn't even use it, she keeps catching lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nowhere does it say it protects against lice — that's not what it describes. I tried to return the product and Amazon charges to come pick it up at my house, even though the reason is I feel scammed. If it were on a whim or another reason I'd understand, but it's because the article isn't what's advertised. It says it protects... but against what???? Very dissatisfied with the product and with Amazon.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Don't buy this product, they cheat on the ml.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Very bad — the product can't be returned and isn't shampoo, it's some kind of conditioner.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The product I received no longer says anything about lice — it doesn't match the description on Amazon. It no longer mentions keeping lice at bay, the word 'lice' doesn't even appear on the packaging or the bottle. The composition also doesn't match what appears in the product description. It seems they've changed it for some reason.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The box arrived open and as if already used. They won't let me return it.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The product arrived broken, contents spilled, and they don't accept return or replacement.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The sprayer doesn't work and they don't accept returns. It should be banned, especially because it's not that I regret the purchase — it just doesn't work.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I'm going to return it because it doesn't match the website description. The product I received doesn't specify anywhere that it works to prevent lice — it's a simple conditioner. The ingredient list is different — it doesn't have the active ingredient that makes it a lice repellent. A scam.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Received with the box broken and wet from the product...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "We use the product daily during the school year and this year my daughter has already had lice twice. It promises to repel them and kill them if they're caught, but apparently neither.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I trusted it because a very well-known pharmacist recommended it. Normally I pass the lice comb (Assy brand, the best for me) once a week during bath time as prevention. But I trusted this product because of the excellent reviews. Yesterday my daughter came home with one louse and a bunch of nits. And it's not that we use a little — we soak her hair and comb every morning before school. So no more preventive inventions — the only thing that really works is passing the comb once a week.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "We've put it on every morning before school and they still got lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Basically, at the first lice warning at school, she brought them home despite us using it religiously. The mango smell is somewhat sickly and you don't notice softness in the hair, though all that would be tolerable if it did its job. I won't buy it again.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "They've changed the composition and it's no longer a lice repellent but a simple leave-in conditioner. The ingredient description doesn't match what arrives at home, and on top of that you can't return it. A real scam, don't buy it.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It's supposedly to use on dry hair but it leaves the hair dirty and foamy.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The bottle containing the product is defective — no spray comes out, so it's unusable.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I don't understand the positive ratings. First, it has nothing of a conditioner — leaves the hair rough as a scouring pad. And after using it several days in a row the lice came back, so it doesn't work as a repellent either.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Just arrived, haven't used it yet, but I didn't like that the box came without any plastic wrap and the bottle has no seal or plastic to break to use it for the first time... I don't know if I bought a new, used or returned product. Not happy at all with this.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The product nowhere says it protects against lice!!! It's a conditioner and nothing more. It has no protective effect against contagion! Don't fall for the trap!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "They've changed the composition — it no longer contains octanediol, and the bottle no longer says anything about keeping lice at bay as it did with the other composition, so we don't know if it still works.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Upset because even using this and the other product (which is like an oil), she still catches them. Hasn't worked for me.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I threw it out — the hair stays dry and tangled. The smell isn't what I expected either.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "In our case, despite using the product daily, she's caught lice on two occasions, so it seems to me as useful/useless as other products we've also tried.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Doesn't work for lice or nits. I've been using it for 10 days and it neither removes them nor serves as prevention. I won't buy it again.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Can someone explain why the packaging no longer says 'lice at bay'??? Does it not work against lice anymore??? Because if so I don't want it...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Maybe I didn't use it well or something (which seems hard to do wrong) but in my opinion money down the drain.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I don't like it because I have to put a lot of product on and the hair stays like it has soap on it.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I bought this repellent for my two daughters after the little one got lice at school. A month after starting to use this product, the older one came home with lice — and the funny thing is she'd never had them, not even when her little sister did. However, the older one then passed them to the little one. A disaster — for me it doesn't work at all.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The product's ingredients don't match Neositrin's.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Every day we put it on for daycare and 5 months later the teacher tells us he caught lice — meaning it prevents nothing. I won't buy it again!!",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "My experience after going through 2 bottles with my daughters is that it does absolutely nothing — neither repels lice nor kills them. A few hours after flooding the girl's hair with product, I pulled out live lice with the comb — not one dead. So it definitely doesn't kill them.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Useless — every morning I put it on my daughter and she caught lice... money lost.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I've used it every day on my two daughters and it served absolutely no purpose — they caught lice the same. I'd say like never. Anyway, money thrown away.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I can't use it on my kids — it dirties their hair a lot, leaves it sticky and wet (in summer maybe, but in winter no way), because it's like putting soap on them. Actually it foams when you put it on. The smell isn't bad but isn't anything to write home about either — peachy, sweet.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Awful — if you wash the hair every day great, otherwise the next day the hair smells rancid.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Doesn't work. Every day I put it on her during the school year but she caught them anyway. I stopped using it.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It's a bad product since it neither kills nor repels lice. After giving it to my daughter she got lice again. I don't recommend it and don't understand the good reviews. Strong, very artificial smell. My daughters don't like it. I'm taking it almost entirely to the recycling point.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I barely used it — it gave my daughter a lot of dandruff.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Shipping issue.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I still don't know how it works, but it arrived in really bad condition.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It took a week to bring lice home. I had to buy another product to remove them and another anti-lice lotion that worked super well. Smells very good but didn't work for us. I wouldn't recommend it.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Seemed to work the first few days, but without a real treatment it neither repels nor eliminates anything...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Very bad. Did nothing. Neither repels nor kills lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Doesn't work. I've been applying it to my daughter every day for a month and she's continued catching lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "We've put it on every morning before school but she's still come home with the annoying bugs. Wasn't worth much.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Good product but it came open and half the bottle was empty.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It hasn't done much for me... I put it on the kids the day it arrived and they still have lice as always.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Open.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I've bought this product as a lice repellent before, and this time the bottle and box no longer mention lice at all — they just say conditioning spray. It says 'formula with activdiol' but I look at the composition and it's not there.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I don't like that I bought the 200ml and it came half empty. The product had leaked out of the bottle.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It's not effective and my daughter keeps bringing lice home. I applied it after removing all nits and with hair perfectly clean. Doesn't work — money wasted.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Shrinkflation. Less quantity (200ml now, 250ml a few months ago) and more price. They take 50ml (a 20% reduction, no less) and raise the price. Pity I only saw it after opening the product, otherwise instant return. As for the product, I've bought others in the past with no issues. With this one no issues either (hence two stars and not one): smells good and so far 0 bugs.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Does its job. I bought it intending to use it daily and it's actually quite good.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I wanted to put it on my daughter to protect against lice but I found that the packaging and label don't say this clearly (as it does on the Amazon page) — only the application method, precautions and ingredients. In contrast, the spray gel clearly says it eradicates lice in 1 minute (for comparison). I deduce it's just a conditioner that protects somewhat but not against lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I had read it in other reviews — the spray comes broken. I don't know if the product itself is effective since I haven't tried it yet.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I was very happy with the product — there were persistent lice problems at the start of the school year and we had no problem. We continued using it constantly but 6 months later we've been stuck catching them at home for weeks.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Didn't work for me — they caught them again.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Maybe it's because of the resistance the bugs have built up, but the product doesn't work, like another one I bought with permethrin.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "The product box arrived tampered with. The top of the package was cut with scissors. Since it's a liquid, I'll proceed to return it.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "If I use it daily the hair becomes matted.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "She hasn't caught lice but who knows if it's because of this or why. The thing is it burns the hair. Maybe because she has very fine hair, but it hasn't gone well for us.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "The product is fine but the shipping was disastrous... arrived practically burst. Doesn't take away its efficacy but leaves much to be desired.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "My kids haven't caught lice — it seems to be effective.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "I've tried better.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Since I've been using it on my daughter she hasn't caught anything. If it weren't for the price it would be a 10.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "I was recommended this product at a parapharmacy (to prevent lice, since we were warned there were some in the class). I got it on Amazon since I found it cheaper. The smell is pleasant. I can say it has worked for me since we've avoided them (and we've had them close by). But I don't really like the effect it leaves when you put it on the hair — it stays as if soap had been left on after washing. But I'd use it again.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "I bought it because according to the pharmacy it's currently the most recommended one due to an active ingredient it has, and so far it has worked well and done its job — but I don't like that it foams when you apply it to the hair and brush.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "So far my son hasn't caught the lice that were at school. Has a good smell. What I don't like is that it leaves the hair too wet even when using a small amount, and at this time of year it's cold to have hair so wet. I don't know if it's the same with all these types of products.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "I've been buying it for years and it's fairly effective — so far my kids haven't caught lice. The 'but' is the price — too expensive for 200ml of a product you use daily.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Supposedly does its job because our daughter hasn't caught lice, but the hair stays very greasy and the smell goes away in nothing — smells good but lasts very little. If it stays this effective I'll keep three stars, but if she catches lice I'll change the review and put one star.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Pleasant smell, doesn't grease, helps comb — but it's more a mild preventive barrier for very fine hair.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Does its job — they haven't caught lice and it smells very good unlike other repellents. The format is comfortable but it's not at all economical for its size.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I don't know its effectiveness but the price seems a bit high for what it is.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "We love the product and it does its job, but it's important not to put too much on because it can leave the hair a bit dirty or heavy. Used moderately it's very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The smell I don't like much, but otherwise it's very good — at the pharmacy they charge double.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective product for what it is, with a good smell.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Expensive but does its job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I can't be sure to what extent it has worked with lice — I put it on her when she's at a sleepover or excursion. Since then she hasn't had any. It's very pleasant to apply and comb, no bad smells or textures. Ideal that it doesn't need rinsing.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product, does its job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I bought this spray to prevent lice for the kids' return to school and the aroma is fruity with a very good smell. It doesn't smell of chemicals at all like others, plus it's natural and contains no chemicals. Ideal.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "For school season especially I always have different colognes or sprays of this type to prevent lice. One of my kids has quite a lot of long hair, and since he caught lice once (always wearing preventive colognes from other brands), I go over it at least once a week so I don't get any nasty surprises. I've tried this one too and I think it's the one that works best, but to cover his whole hair I have to spray quite a bit more than with other products, so it lasts less... and this product is m...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought the Neositrin Protect Spray Conditioner Daily Protection Against Lice 200ml to use daily with my son and we're really happy with the result. In his class there are usually quite a few lice cases during the year, and since we use it regularly, my son has never caught them, so for now we're delighted. One of the things I like most is the smell — a very pleasant fruity aroma not too strong, so it isn't annoying for kids or adults. Plus it leaves the hair soft and helps detangle, which i...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works very well for lice, smells good and doesn't dirty the hair. I put it on my daughter in the morning for school and she's never caught lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I'm delighted with this Neositrin Protect spray. I bought it to prevent lice and it has become a staple in my routine, especially when the kids go to school or to activities with other children. It gives me huge peace of mind to know they're protected simply and quickly. Super easy to apply, no rinsing needed, plus it leaves hair soft, shiny and very easy to comb. Doesn't weigh down at all and the smell is really pleasant — that fruity touch makes it not feel like a 'medicated' product but mo...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I don't know if it really works but we put it on the little one every day before school and so far she's never brought lice home. I was worried about the smell but it's actually quite pleasant and mild. We'll keep using it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "We use it daily as a conditioner to detangle, and since using it we've had no bugs (also none around us). It lasts well and smells good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It's the one that worked best for our little one.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "My favorite to prevent lice — the most effective, though it's getting more expensive.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective for kids.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I can't stand the smell, plus it's very intense — I had to put it on outside on the terrace and ended up throwing it out.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Came without a cap. Amazing it comes without a cap. No specific packaging or box. Loose and capless.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Awful — switched to this product and my daughter caught lice. She'd never had any, and switching to this she did right away. I won't buy it again.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The product arrived like this — no box, no seal, no cap. Looks used or second-hand. They won't let me return it. I tried it and the hair stays matted and it doesn't detangle.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I don't know if it works to avoid catching lice — I've used it twice and no more. Leaves the hair greasy and matted. Once and no more.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Doesn't work. The only thing it's good for is detangling hair, and it has a nice aroma, but it didn't protect my daughter — she still caught them.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Greases the hair, exactly what I didn't want. Smells very good but dirties the hair.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I bought it desperately looking for a styling water that, even if not very strong, would give some protection — and got neither. The product really stains the hair and stays very sticky, like you'd put some kind of gel on. Not for daily use at all because of the effect on the hair. I didn't expect much in protection but this is one of those products that does nothing.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I didn't like it at all — doesn't smell of apple, doesn't remove tangles well and I don't like how it leaves the hair. Plus it can't be returned. I won't buy it again.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I received it without the plastic cap protecting the sprayer to prevent it from being activated.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Arrived open with no cap.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I put it on my kids before school, with clean hair, and they come back from school with lice — plus filthy hair. Only good for greasing the hair.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Comes without a safety cap.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Won't buy it again — leaves the hair as if you'd put sugar water on it.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "My girl has fine semi-curly hair. It leaves her hair super greasy and ugly. I don't like it at all. Efficacy I don't know but in that sense — terrible.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "What a shame — leaves the hair very sticky. I contacted customer service and they ignored me. I don't recommend.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Used it for the first time — smell very strong and lasting. I don't recommend, it even gives me a headache.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "We didn't like it at all. Leaves the hair sticky and with a bad smell. We won't use it again. We don't recommend.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I bought it because of the reviews and it doesn't even tickle the bugs. In my case it doesn't work at all — they stick the same. I use it daily on my daughter, has a nice aroma, detangles, but leaves the hair looking dirty plus doesn't work against the unwanted bugs.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Doesn't smell good, leaves the hair a bit greasy, and on top of that isn't effective. We've detected lice even using it daily. I don't recommend.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I received the product without seal and without cap — I find that very bad.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The smell it leaves is fairly unpleasant and as a detangler I've tried better. I hope it at least fulfills its function of keeping lice away.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Leaves hair greasy and is useless.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "As a detangler phenomenal, as a repellent completely useless.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I bought it for my 3-year-old and I think this product isn't suitable.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Putting it on every day and they still get lice. Plus it leaves the hair a bit sticky. Won't repeat.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "This product seems watered down because it has lots of foam, and doesn't smell of strawberry or anything.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Leaves the hair disgusting like you'd put hairspray in it. The Orion one is better.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The kids put it on every day before school and they kept getting lice. Detangles the hair and smells good but as a lice repellent — nothing at all. Now they're using a product from another brand and not a single louse.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Smells a lot like vinegar, more than apple.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Leaves the hair dirty and rough.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "They don't repel anything — I've been using it daily for a month and a half and we've had 3 visits from the bugs.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I bought it basically because the listing presented it as an anti-lice product. Surprise — when it arrived today, nowhere on the bottle (small print included) does it say anything about being anti-lice. It only says it's a conditioner. So they sold me a conditioner at gold price under false pretenses. It's NOT anti-lice. I'm going to return it.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It has this cheap fruity smell and it is very very strong. I washed my hands several times but the smell stayed for hours. My poor child had it on his head. Even though it didn't seem to bother him I only used it once. Therefore I can't really comment on its effectiveness. Maybe it works because the awful smell keeps potentially infected children away. It's the only product we ever used — I hope there are other options on the market that won't make a small room uninhabitable within minutes.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Product leaked, delivered damaged and no right to exchange it. As for the spray's effect, I can't comment because I'm so annoyed I didn't use it. So much money for damaged goods! Better stay away.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Description entirely in Spanish. No idea what it is, so I won't put it on me or my children. Returns aren't possible, so it went straight in the trash.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "A lot of money, no effect, no return possible. Fail.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It has an unbearable nauseating artificial smell. I would never have bought it had I known.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Click to play video.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "It hasn't worked well for us. I bought it as preventive but really it didn't work and in the end I had to use a treatment on them. At least I'll admit it smells good and helps detangle, but its main function it doesn't fulfill.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Detangles the hair but leaves a residue that makes it look greasy. Smells very strongly of strawberry, much more than other alternatives. I won't buy it again.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Intense smell.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "The smell is unpleasant — really, lasts all day. Doesn't detangle, or rather, you have to put on so much product that the smell becomes even stronger and on top of that it dirties the hair. So you use it after washing and you can wash again. As for keeping lice away, I don't know — I hope at least it does. I won't buy or recommend again. For much less price I'm going back to the one from Mercadona.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Hasn't worked as a lice repellent for us, and leaves a strong tea-tree smell.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Smells very bad — definitely not apple. Smells of very strong, very unpleasant chemicals. Leaves the hair sticky like you'd sprayed dirty oil. I don't know if it's effective at preventing lice because we haven't even used a third. We've ended up buying another brand.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Doesn't work very well. What's certain is no one comes near you with the stink you give off...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Smells like a thousand demons, no apple anywhere — seems very much like medicine. The other strawberry or grapefruit brands hide the smell better.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Product comes without cap.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I bought it to use daily to comb my daughter. The smell is unpleasant — at first the girl couldn't stand it. Doesn't help with combing. I don't know if it'll prevent lice contagion, though with the stink it makes I imagine no one and nothing will come near.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Smells good, like strawberry, but I'm not sure it really works... My daughter used it for a while but kept getting lice...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Leaves hair nice but my daughter keeps catching lice even though I put it on her every day.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I like it because it's gentle and leaves shine, but the smell doesn't fully convince me.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I received it without a box. Loose and with the cap removed. As if it had been used.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "I don't know if it repels lice but it dries the hair and creates knots instead of detangling them.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "It hasn't worked for us.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Leaves the hair greasy.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "I don't even know how to define it... helps with combing and leaves a good aroma. As for lice I don't know if it's true since fortunately no one with them came near us 😅😅",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Says apple aroma but you only feel the intense tea-tree smell.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Smells good but I don't think it repels lice much, and doesn't detangle either. I put it on her every day and she still got lice.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "I've been using the product on a girl. The product may have an effect — the problem is how it leaves the hair, as if greasy/gelled. I'll finish the product but won't buy again.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Hasn't worked for me — they caught them anyway.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "The smell isn't very pleasant. I don't feel a big difference when combing.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "I don't notice more shine in the hair, and for detangling — the same as if you put water on. That said, leaves a fantastic smell. Against lice I can't say — true, she's never caught them, but I don't know if from the spray or because she just wasn't lucky.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Strawberry smell. Detangles but in my view leaves the hair greasy, and if lice want to settle in this won't stop them.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "It's a product that fulfills basic functions. Smells of strawberry and knocks you over if you go overboard. I haven't been able to verify what effect it has on lice yet, don't know if it repels them. What I do see isn't true is the detangling claim. In my case it doesn't detangle anything and I see little hydration. The bottle is fine, comfortable and a good amount.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "In the time I've been buying this kind of product he hasn't caught lice once. But this product, while overall fine, leaves my son's hair stiff and the smell isn't bad but not the best. It's economical compared to other products.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Smells good but leaves my daughter's hair super sticky — I always have to wet her hair first otherwise it stays sticky.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "She doesn't really like the smell, but it does what it's supposed to.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "As a lice repellent it works well and the aroma is pleasant.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "We haven't yet verified if it's effective for lice or not. So far yes! What I haven't liked much is the smell — not very pleasant.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "My son can't stand the smell — doesn't smell of apple.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "The smell is somewhat irritating.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Leaves the hair sticky.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "The product came without the cap.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Has a good smell, detangles the hair... the shine claim, I don't see it clearly, because on my girl I notice it duller... and it leaves it greasy as if dirty. Leaves a lot to be desired really. To the touch it's also annoying — seems dirty. I'm not very happy.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Good smell but I wonder if it's really effective.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "No success so far, but it's really good and the kids like to use it.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "My child didn't like it. The smell is 'too sweet.' Maybe I should have tried the apple scent instead.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Smells very strong, but so far it does what it promises.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Smell too strong but 100% effective.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Has a very pleasant smell and works very well for lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I like it because my daughter hasn't caught lice since we've used it, but it has a very strong smell. I prefer the strawberry one — the smell is more pleasant.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Tea-tree smell.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It's a detangler that helps avoid parasites and the girl loves the strawberry smell. We use it as a complement to the shampoo and between the two she hasn't caught any parasite.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I don't know if it protects but it detangles quite a lot. My girl caught lice but maybe it had expired.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Has a very pleasant strawberry smell and I don't know if it's because of putting it on or not, but she hasn't caught lice at any point. The only thing I don't notice is the hair being less tangled than before.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product, recommended.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "We use it every day. Has a very intense apple smell. Works correctly, though I have the feeling it leaves the hair somewhat rigid.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The listing says it's to prevent lice, however the bottle says nothing. The month I've been using it on him he hasn't caught them, so so far so good. Smells too much of strawberry — sometimes makes me nauseous. The smell lingers until you wash the hair. And it does remove tangles.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I bought it on a friend's recommendation. Pleasant smell and the detangling effect is potent. The bad thing about this product is that it greases the hair quite a bit.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It has fulfilled — it's perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I put it on her hair after the bath. Has tea tree (before I used a tea-tree shampoo that smelled a bit) — now this smell is camouflaged by the strawberry. I think that's why no lice come.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It's the second bottle I've bought for my daughter. Detangles well and smells great.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I really like the strawberry smell and how well it detangles the hair. Easy-to-use children's sprayer. I don't give 5 stars because I haven't been able to verify 100% effectiveness since there are no kids with lice in my daughter's school. But I'm sure this brand's reputation is its guarantee.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I don't know if it's thanks to the product but there were lice in my son's class and he didn't catch them. The smell is a bit cloying but doesn't last long.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The smell is very nice, it smells a lot, hopefully it works as well as it smells.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I haven't noticed any change in the baby's hair. So far no lice but the cloying strawberry smell is horrible. I'm about to throw it away.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It's a good product. This apple-aroma variety is a bit cheaper than the strawberry one. We've bought it and the aroma is also very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "For a repellent product it has a pleasant smell, but you have to be careful to apply little because it greases the hair quite a bit.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Has a very strong smell of tea tree with a touch of apple. But it does its job 👍",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Slightly greases the hair but well, like all typical detanglers. Smells good — hopefully it really does its function of scaring lice away.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very good price. The smell, because very strong.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Everything perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Does its job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product. 3 years using it and to this day no bug protection issues — and my daughter's class has had visits every year.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good against lice. The packaging is fairly large so it'll last quite a while. Contains tea tree which is the best against lice. The apple aroma — not quite right, smells terrible to me, but well...",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Has a good sprayer and decent size — the product lasts quite a while even when used often. What could be improved is the smell of these products — not very pleasant when sprayed.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Works very well, but sticky texture.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good but the smell isn't my thing.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The spray is definitely effective and a good preventive against lice. It also serves as hair conditioner. Kids love the strawberry smell. One point off because it slightly dries the hair and scalp.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "No new lice, nits moving toward the outside of the scalp but still present. However the product seems effective after two weeks of use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Smells good and suitable for use, just a bit sticky.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good product, effective and smells good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I use OTC Protect spray every day before taking my daughter to school or summer camp, and honestly: not a trace of lice since we've used it. It gives me peace of mind, especially in seasons when you know they're going around. The best part is it smells great — nothing like other strong or unpleasant products. Doesn't leave the hair greasy or sticky, and my daughter happily lets me apply it. For parents who want to prevent without drama — highly recommended!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells great and you can comb the little one much more easily. I hope it's as good a repellent as the rest.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works super well... prevents lice from sticking to my daughter.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells fairly good compared to other lice-protection products. Since we've been using it they haven't caught lice again. Hopefully it stays that way.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells like a lollipop and detangles wonderfully.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells good!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Arrived well and in perfect condition.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Already the second time I've bought it — very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "A wonder. Unfortunately my daughter already had a few, but as soon as we put it on, since they didn't like the smell, they started clumping together and were quickly removed.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product, does its job without leaving the hair greasy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good repellent. I read in reviews it smelled very good but for me the smell is too cloying. Next one I'll buy in apple.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've been using it for 3 years and not only does it smell good, it also conditions the hair and protects.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It's great. My daughter loves the strawberry smell, and I love that I can spray it and prevent lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Arrived fast and in good condition. Some say it doesn't work for lice, but mine hasn't caught any again since she started using it. With product and lice comb in difficult times (she had a year with a lice-prone class), we had everything under control.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doesn't fail in my hygiene routine for my kids. My daughter has fairly long hair and it detangles quite well with a very pleasant smell. Best of all, works perfectly as a repellent. Lasts quite a while and I use it almost daily — will buy again without doubt.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I usually buy it to comb my daughter for school — smells super nice and detangles great. She has very long hair. As for lice I'm not 100% sure but it's true she hasn't caught them.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good product, easy to use and my kids love the smell. Since using it the lice haven't come back.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "As a detangler not much use, but it prevents catching lice which is what I wanted. We've been using it for 3 years and not one caught. Smells good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've been using it for a very long time. My son has afro hair and it works great as a repellent. I 100% recommend. I alternate strawberry and apple. I love it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells very good and does its job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "We bought this detangler product and ended up using it for the whole family. Not only is it a detangler but having keratin it cares for the hair, giving it a healthy hydrated look. Plus its prevention effect against lice. The strawberry aroma stands out — quite pleasant. A great find, recommended 👍",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I love the green-apple smell, the detangling power, and most importantly it repels the annoying bugs. I'll definitely buy again.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Either no one washes at home, or lice are the next plague that will hit the West. This year has been a constant cycle of washing bedding, hats etc. We use this product as a touch-up and so far we're very happy because our kids haven't been infected again, unlike the rest of the kids. Should mention that constant use produces dandruff and some irritation in the kids — otherwise no problems.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "So far working well and we haven't had any scares. Just get used to putting a bit on before combing and done. The smell is good and not unpleasant. Update: we've been using it since the start of this school year and combined with tied-back hair it's been a saint's hand — nothing like last year when, despite using repellent all year, every other day we had to do treatment.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good spray, incredible smell and detangles wonderfully.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The smell is spectacular and leaves the hair soft.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells good. We use it as styling water in the mornings before school and so far we haven't had any visitors.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good and fragrant.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The smell is pleasant but I don't like that it leaves residue in the hair — won't buy again.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought it in September and used it every day Mon-Fri on my daughter (4 years old) until end of school year — not a single louse. I don't know if it was luck or it's effective but next school year I'll keep using it (just in case!). Has a good smell and as for quantity, I transferred it to a bigger bottle and diluted in water — doing that it lasted me a school year.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've been using it for years on two girls and they've never caught anything. Smells very good of strawberry, plus helps detangle while protecting.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Since I've been taking my daughter to nursery there have been many lice warnings and I still don't even know what these bugs look like. I'm delighted because it works as a repellent. Hope next year at school it works just as well!!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Because during the period when there were lice at school, I put it on and she didn't catch them.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Not a single louse on my kids — smells delicious! 100% recommended.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "After my girl had lice, I started spraying this on her and it works great. Second one I'm buying — gets through the whole school year without problem even when others end up with lice in class.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "My daughter's hair is very protected with this product so she doesn't catch lice, so I'll keep buying this brand. Others I tried did nothing. The smell is apple but strong, so it's no obstacle to its function. RECOMMEND.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The smell is pleasant unlike other repellents. For us at home it works.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Second spray I'm buying. I always comb my granddaughter with it. Leaves the hair soft, smells very good and protects from lice. I love it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "At school you always have to prevent, more so with the girls' long hair. They don't understand and share everything, so this can't be missing at home. I liked it because it has apple smell, though the tea-tree smell is also noticeable. I spray a bit all over her little head and then tie up her hair. I highly recommend it because I'm panicked about her catching that. The bottle is medium-sized, lasts quite a while, and arrived correctly.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Besides acting against lice, detangles the hair super well and the smell is pleasant. I highly recommend it for daily use on kids.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells phenomenal.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells great — the only 'but' is the hair stays oily.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Does its job and the smell is pleasant.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells very good and gives you peace of mind your child is protected against those bugs.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good product. I use it on my daughter for birthdays and school — doesn't dry the hair and most importantly we haven't seen a louse again. It's for protection.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I loved it for its smell and it does what it says. I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Satisfied with the smell and from recommendations it's also a good lice repellent.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I really liked this product because it protects against lice and leaves the hair soft. The smell is strong but not unpleasant.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It saved us from catching lice this summer.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good 👍",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good smell that lasts for hours, detangles wonderfully and not greasy at all.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super effective. I always put it on my daughter and it has a delicious aroma.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very pleasant smell — slightly greases the hair but so far its purpose is good, no problems for now.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works for what it's made for, thanks.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good smell and so far lice-free.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells very good and seems to be working against lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This product has a strong but pleasant and lasting smell. Combing the hair is easy and so far it seems to work as a repellent.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Pleasant smell and so far has fulfilled its function.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "So far it works.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I buy it often because we use it every day. The girl can comb her own hair because it detangles very well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells super good, protects and detangles.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells very good and detangles also very well. Good buy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "If you spray it well behind the ears, on the nape and over all your child's hair, it's hard for them to catch lice — for that it's great. Stains the hair a bit and although the smell isn't as strong as tea-tree oil, it's still noticeable.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Detangles the hair at the same time.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I like the product and it leaves a very good smell. Now we'll see if it's effective.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bought out of necessity, since there are several nearby lice cases. Since I've used it we haven't had this problem again. I've bought it again and recommended it to my acquaintances. I recommend it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Big bottle and easy to use. The smell is pleasant so the kids don't complain. As for efficacy, I think it works, though for much more effective prevention you should do a weekly check at most with a lice comb taking your time.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells super good and helps prevent.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Been using it for years on my daughter and she's never caught anything. Super happy with this product. Good smell and doesn't leave hair dirty.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The product is very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective and smells good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fulfills its function with maximum efficacy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I had used the pink one for girls and since none was left, I ordered this one. Has a stronger smell than the pink — maybe this one is more unisex. Besides protecting against lice, helps detangle and leaves hair very soft.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "My daughter has never caught any in two years of school but her best friends had caught them — better to prevent so I don't know if it's because of this or not having them.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells very good. I don't know if it works.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Detangles and the smell is incredible.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The most effective I've tried so far against lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The product is very good but I don't like how it leaves the hair — opaque and dull. But you can't have it all. As long as the lice are far away, I'm happy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Everything perfect... what I expected and it does its job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good smell and effective. In my daughter's class there were lice cases and so far she hasn't caught them. I'll keep buying it. Product arrived in good condition on the scheduled day.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "What I expected.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells very nice and just regular washing removes it. Doesn't irritate the skin and does scare lice away. I really like it.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've been using it since the kids were little — doesn't avoid possible lice contagion but with a good protocol it keeps them at bay, passing the lice comb once a week. The smell is pleasant. I always repeat. 100% recommended.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Detangles fairly well and smells phenomenal.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect to prevent and incidentally detangle. Better the shampoo anyway.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I use it daily to detangle my daughter's hair and also to prevent lice, and so far it works. She's never caught any.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought it again because it works very well for my daughter as protection, hair softness and good smell.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good product with a very pleasant smell. Great for combing and detangling hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It's a great product. Once you've kicked out the unwanted guests, this keeps them at bay. I spray the kids like cologne before school. HIGHLY RECOMMENDED.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product with a very pleasant smell.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Yes, effectiveness and aroma.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Doesn't repel — bad.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Doesn't work. A month after purchase my son comes home from school scratching, and there he already had lice.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I bought this Bacterisan shampoo based on positive reviews and the 'Amazon Choice' label, hoping to find an effective preventive solution for my daughter's return to school. Unfortunately, the experience was disastrous in almost every respect and I don't understand the general enthusiasm for this product. The main 'protection' promise was completely missed. Despite daily and scrupulous use following the instructions to the letter to create a barrier...",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Personally, was not at all effective as prevention. Smells nice though.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "As a shampoo, fine, but doesn't protect against lice. Neither tea tree nor quassia vinegar are effective. Better a conditioner protector with octanediol.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Pros: -Generates lots of foam. -Softness in your child's hair. -Mild lasting apple smell. Cons: -Cannot get in children's eyes. -Small container for daily use.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Like all 'preventive' products, it has no efficacy. Preventive shampoos and sprays absolutely don't help (or at most have negligible efficacy). Caught lice twice despite daily use of both products. The only way to prevent the problem is to comb every day and treat as soon as you find an egg or parasite. Otherwise I can say it has good fragrance and leaves hair very soft.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "We were doing nothing but shampoos with this preventive. The lice — it didn't stop them, they always came back. Or maybe their anti-lice doesn't work. After spending 100 bucks on these ineffective products, I switched to grandmother's methods (which is basically applying an oil-vinegar mixture) and there I got results. I have 5 kids including 4 girls, all with frizzy hair, which admittedly demands much more efficacy than I'd needed for one boy with short straight hair.",
+   "tags": [
+    "negative"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Excellent product for kids.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "50/100 :/",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Good.",
+   "tags": [
+    "mixed"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Very good shampoo.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I hope it has a result, we're testing.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "We have a lice and nit repellent shampoo of 250 ml. Has a fairly comfortable cap to apply the desired amount of shampoo. Box contents: 250ml repellent shampoo bottle. First impressions: First thing standing out is its fruity smell and easy hair application. I didn't use a mask or detangler and I had fewer tugs than usual. Also left the hair clean and not greasy. The only thing I missed was a bit more shampoo smell when the hair dries.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I use it as part of my kids' daily bath routine. Its fresh, pleasant aroma ensures a good morning start. It also doesn't irritate the scalp, which is important to me since my kids have sensitive skin. The main advantage is the ability to protect against lice and nits. Not only does it clean hair effectively, but also acts as a preventive shield. This gives me peace of mind knowing my kids have additional protection at school or in areas where they may be exposed.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Last year, after summer camps, my kids came home with more guests than we wanted... we had to put the whole family through anti-lice treatment. This year, we hope this shampoo will go better for us. We sent it for the camp. They'll use it and hopefully it works. It's a 250ml bottle, paraben-free, with natural ingredients and a smell that isn't bad.. so for now all positive. I hope my review has been useful.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "I wanted to order this protective shampoo mainly because my kids were going to spend a week at camp with their schoolmates and I thought it would be a good option to prevent them from catching lice. I can say it passed the test. They took it and washed their hair daily with it and everything went great. At home they continued washing their hair several days more, and it's a shampoo that produces quite a lot of foam and its fruity fragrance leaves a nice scent.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "🌿 BACTERISAN protective detangling shampoo: Protects against lice and nits. Formula with tea tree. 💆‍♀️ Soft and detangling. 🦟 Lasting protection. 🧴 Daily use. 🌱 Natural ingredients.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Delicate and fragrant shampoo, makes lots of foam. Leaves hair soft and shiny. Ideal after lice treatment.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The shampoo lathers well — a hazelnut-sized amount is enough to lather the hair well. The smell isn't transcendent but not unpleasant. As for efficacy, my child hasn't had lice 🤞. However, all info on the bottle has become illegible — the label doesn't resist water. Plus the contents stay correct as you don't need much product. Note that it's not at all detangling — combing can be complicated.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Excellent preventive shampoo, has a pleasant fragrance.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good product that doesn't dry hair. We'll see about the efficacy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "The product is very useful for eliminating lice and nits, very fragrant — the only problem is that the hair gets electric, so a conditioner becomes necessary.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "As a complement to anti-lice treatment, has a repellent action that's also very pleasant.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells very good. Since we've used it lice haven't reappeared, with less aggressive ingredients than other brands. Thanks Amazon for providing such effective products, especially in cases like this where I wouldn't have access to this shampoo in stores in my area. Plus the hair is silky and tangle-free.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "For my taste — makes foam, leaves the hair soft and I have no complaints about its function to date. Smells good. I'd buy again.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "A pleasant smell and so far no lice 💪🏻",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I always buy it and the truth is in two years of nursery and one of school, my daughter hasn't caught lice even when her friends have. I'll keep buying.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works and is very gentle.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Not bad, the smell is pleasant.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Leaves hair soft.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "100% effective on first application combined with the NitWits spray.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It's great, leaves the hair clean and soft and protects very well.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "You see them go crazy.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It's the first time I'm using it on her — left her hair shiny and smelling good. I'll comment more later as I see about the lice issue!!! I bought it because of the positive comments I read.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fulfills its function very well and isn't too strong for kids.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The packaging arrives well vacuum-sealed in plastic to avoid accidental opening or spillage during shipping. Once in use, the easy open-and-close cap button makes it easy to extract the right amount (you only need a small hazelnut-sized amount per use) and harder to spill, which is usually very common with other types of caps with kids around. Plus the bottle comes well filled, practically full.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "We have a shampoo with fairly natural ingredients, perfectly sealed, that promises to be a good lice repellent with tea tree and quassia vinegar as main components for that purpose. I want to emphasize that, like the detangling lotion from the same range, it doesn't kill if there are lice or nits — it simply keeps them away. Contains several oils plus emulsifiers needed to wash well (doesn't produce much foam) that protect the cuticles and tips of the hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought this daily-use shampoo with tea tree and quassia vinegar for my eldest son who's always with lice he catches at school and ends up sticking to others. They recommended this one specifically for its effectiveness, since it protects against lice and nits. Plus it has keratin to avoid tangles and smells very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This shampoo is suitable for prolonged use in lice elimination, plus offers an extra to facilitate combing — appreciated especially if you have kids with curly hair. The product gives off a pleasant aroma and is easy to apply and rinse, especially important for kids so there are no complaints during washing. The scent stays slightly even after rinsing and drying. Plus stands out for its preventive approach thanks to tea tree oil.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "My daughter has tried the shampoo and the first thing she commented on is the pleasant smell. She also liked that it's a detangler, which makes subsequent combing much easier. My daughter often suffers with tangles and is very happy with this shampoo because she has noticed a difference. It's the second thing she mentioned after trying it. Makes lots of foam with little shampoo, making the product go further. As for efficacy against lice and nits I can't say yet (we'll cross our fingers).",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Shampoo with fairly liquid texture, transparent color and pleasant smell. Foams and cleans adequately. Hair stays soft and hydrated. I'll update my opinion on the anti-lice effect in a few weeks once the first weeks of school pass. ✅️ Pleasant candy/lollipop smell ✅️ Foams ✅️ Hydrated and soft hair, easy to detangle ✅️ Spanish lab ✅️ 12 months of use once opened ✅️ Bottle fully sealed with protective plastic ❌️ Doesn't indicate expiration date or batch.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "💦 Shampoo to prevent lice and nits in children. Smells very good of fresh soap. 💦 Leaves the hair fine, clean, fresh, loose and not greasy. It's unisex. Since I started using it my kids have zero lice, so I'm happy. 💦 The brand is Spanish. And doesn't smell sour like vinegar at all, which is much appreciated. ❤️ 100% recommended. Thanks for reading me.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The shampoo has a very pleasant smell and the hair stays soft, not at all greasy. Neither this shampoo nor the lotion of the same brand kills lice or nits — they act as repellents thanks to ingredients (tea tree and vinegar). Don't expect to apply it to eliminate them but as protection so they don't catch them.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The Bacterisan preventive school children's detangling protective shampoo is designed to help prevent the spread of lice in children 🧒. The product contains active ingredients known to be effective against lice, like tea tree oil and quassia vinegar essence. This shampoo is good and non-irritating to children's scalps. It's free of parabens, sulfates and dyes, making it less likely to cause irritation or allergic reactions on sensitive skin.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Summer comes and the camps come and we all want to be calm so we ordered this protective shampoo. It arrived in 250ml format, perfectly sealed to prevent spillage, and on opening the first thing we notice is a very pleasant smell. When washing the girls' hair we see it doesn't sting their eyes (which I think is important) and despite having tea tree among its ingredients, the smell is pleasant. The hair has a pleasant feel and detangles well. I recommend it for not having unexpected visitors.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Repellent shampoo for lice and nits, 250ml format. The aroma is mild and pleasant, not chemical at all. Despite having tea tree among its ingredients (which serves as a natural repellent but doesn't have an excessively pleasant aroma to my taste), that characteristic smell isn't perceptible in this shampoo, so good. Acts as a repellent to prevent — if they already have bugs you have to look for other solutions. We liked it, but to verify real efficacy we'll have to wait.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Camp passed, 0 lice and good smell. Best of all, my daughter's head wasn't irritated and the price matches what it is.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "In the season we're in and with kids in the house it's a must. So when I saw it I didn't hesitate to grab it. To start, the shampoo doesn't have parabens — a very favorable point. It's a lice and nit repellent thanks to the tea tree and vinegar it contains. Unlike other shampoos, to get its full efficacy you have to wait 10 min with the product on the hair before rinsing. The smell is pleasant and fruity and the price is fairly good — currently doesn't reach 7 euros a bottle.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This lice shampoo can be used by kids from 2 years old. The shampoo has 250ml and will last us a while since we only use it during lice season. You lather the head and let it act for a few minutes, then rinse. The shampoo also leaves the hair soft and helps detangle.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought it because there's not much time before school starts and lice are lurking — that's a fact. Formulated with quassia vinegar and tea tree oil which lice don't like, so I don't think they'll come near my girl's head. The shampoo has no parabens, leaves the hair soft, shiny and easy to comb. My girl's hair is below shoulder length, fine and straight, and it leaves it very nice. The aroma isn't bad, not unpleasant — important is it's effective. Good quality-price ratio.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Comes in a well-sealed plastic bottle with shampoo dispenser cap. Contains 250ml. Info is in Spanish and English. It's a shampoo with tea tree oil and quassia vinegar. Practically no conditioner is needed after washing the hair, nor mask — it's so soft you can comb without tangling. Texture is thick and the fruity smell strong, then disappears leaving a slight aroma. The little ones love it — they don't have to cut their hair because of possible.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good shampoo.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Has a good smell. The kids love it and it suits the daily routine.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smells nice and seems to do the job.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought this shampoo as I recently had an itchy scalp for an undiagnosed reason. In a week of daily use the itchiness has gone. I can only state that it worked well for me. It has a pump-action bottle, lathers extremely well, leaving hair literally squeaky clean. It feels mild and has delicate pleasant smell. I am an adult, but I was thinking due to its mild nature it would also suit children (obviously after reading the instructions). I would buy it again without hesitation.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Really effective. My daughter was twice in contact with kids with lice and none ended up on her head. Smells very good. Gentle on the hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very foamy shampoo, detangles well and leaves the hair pleasant to the touch. So far no lice in sight.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent product, delicate in smell but effective also for combing longer hair.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect for detangling and as anti-lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good shampoo, smells nice and detangles the hair, leaving it soft and silky. I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Honestly a shampoo quickly adapted for the whole family — fragrance is delicious and the hair is light.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought the BACTERISAN protective detangling shampoo 250ml and I'm very satisfied. It has a pleasant, delicate fragrance kids appreciate, and leaves hair soft and easy to comb, greatly reducing knots. The formula is designed to help protect against lice and nits, so it's ideal in risky periods like school or summer camps. Used consistently after each wash, gives a pleasant feeling of cleanliness and 'orderly hair' without weighing down the mane.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bought for my son for prevention — very fragrant!",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Happy with the product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The shampoo's fragrance is very pleasant.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good product.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Foams well, smells good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent, not too aggressive, good preventive or curative maintenance.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super effective — my daughter has never caught lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "As prevention for lice alerts at school. My little one has never caught any.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I think the credit goes to this shampoo... my daughter no longer caught lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent shampoo. Good fragrance. Works.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very pleasant smell, nicely foamy, leaves the hair soft and shiny. Frequent use — hope it works as preventive action. I'll use it for the whole school year. 😅",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent shampoo specifically for preventing lice and nits thanks to tea tree and quassia vinegar. Leaves the hair soft, easy to comb and with a light fruity fragrance. Gentle on the scalp, no parabens — perfect for eliminating lice.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good item and good quality/price ratio.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I've been using it on my daughter for 2 years and very good.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Shampoo used initially to chase lice away, now daily. The smell is pleasant and the hair is very soft. I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent but used only for prevention — I haven't tested treatment.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought it for my daughter because lice are going around her school and so far she hasn't caught any. I highly recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Shampoo gentle on the hair, leaves it soft and has a good fragrance. As for lice prevention I don't know — used it today for the first time. So far OK.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I gave her this shampoo from time to time and as a complement a lavender spray before school, and she didn't get lice during her whole school year.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I bought this product for my child as prevention. I'm not certain it's really effective — luckily we don't have to test its efficacy — but we like its smell.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I use it on my 3-year-old daughter, the smell is pleasant and not too strong, her hair isn't aggressed and stays soft, and so far no nasty bug to report after 1 month of use.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent product. Unlike other shampoos it also has a good fragrance and leaves the hair clean.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "I just reordered this shampoo because it's super for my long-haired daughter. Smells divinely for kids, foams with little product, good detangler too. I discovered this product thanks to Amazon and I'm delighted.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect, I recommend.",
+   "tags": [
+    "positive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good price.",
+   "tags": [
+    "positive"
+   ]
+  }
+ ]
+}

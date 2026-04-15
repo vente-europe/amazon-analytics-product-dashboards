@@ -14,6 +14,13 @@
       "file": "index.html"
     },
     {
+      "id": "eu-lice-treatment-analysis",
+      "title": "EU Lice Treatment Analysis",
+      "group": "detailed",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
       "id": "ants-eu-topline",
       "title": "Ants \u2014 EU Top Line",
       "group": "topline",

@@ -1,0 +1,983 @@
+{
+  "totalCompetitors": 10,
+  "marketplace": "amazon.fr",
+  "currency": "€",
+  "exportMonth": 2,
+  "segment": "Prevention",
+  "competitors": [
+    {
+      "asin": "B002GYIZPA",
+      "brand": "Pediakid",
+      "title": "PEDIAKID - Balépou Spray - Répulsif aux huiles essentielles 100% pures & naturelles (Lavandin, Géraniol) - Repousse les poux tout en douceur - Sans paraben ni alcool - 100ml",
+      "price": 12.9,
+      "rating": 4.6,
+      "reviews": 493,
+      "bsr": 929,
+      "rev30d": 14885.38,
+      "sales30d": 1155,
+      "mainImage": "https://m.media-amazon.com/images/I/31MfTHe8yBL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/31MfTHe8yBL.jpg",
+        "https://m.media-amazon.com/images/I/31MfTHe8yBL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/51iI2PWcsoL.jpg",
+        "https://m.media-amazon.com/images/I/5170i8TBb3L.jpg",
+        "https://m.media-amazon.com/images/I/5170i8TBb3L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/710jzrfvsKL.jpg",
+        "https://m.media-amazon.com/images/I/41XFS70tl2L.jpg",
+        "https://m.media-amazon.com/images/I/41XFS70tl2L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71Mn89TTAhL.jpg",
+        "https://m.media-amazon.com/images/I/416uMad358L.jpg",
+        "https://m.media-amazon.com/images/I/416uMad358L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71hlI0Hwa6L.jpg",
+        "https://m.media-amazon.com/images/I/611E1FUeFdL.jpg",
+        "https://m.media-amazon.com/images/I/611E1FUeFdL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81fj27mysIL.jpg",
+        "https://m.media-amazon.com/images/I/515CYD7IdIL.jpg",
+        "https://m.media-amazon.com/images/I/515CYD7IdIL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71rererJyAL.jpg"
+      ],
+      "bullets": [
+        "SPRAY ANTI-POUX PREVENTIF POUR ENFANTS : Spray répulsif à action préventive qui agit de manière douce et efficace contre les poux. Ce traitement est parfaitement adapté aux enfants.",
+        "EFFICACE CONTRE L'APPARITION DES POUX : Balépou Spray agit en douceur pour éviter l'apparition des poux. Idéal en usage quotidien tout au long de l'année scolaire.",
+        "COMPOSITION : AQUA, LAVANDULA HYBRIDA FLOWER WATER, LAURYL GLUCOSIDE, POLYGLYCERYL-2 DIPOLYHYDROXYSTEARATE, BENZYL ALCOHOL, GLYCERIN, LAVANDULA ANGUSTIFOLIA OIL, DEHYDROACETIC ACID, CEDRUS ATLANTICA BARK OIL, CITRUS AURANTIUM DULCIS PEEL OIL, PELARGONIUM GRAVEOLENS FLOWER OIL, MELALEUCA ALTERNIFOLIA LEAF OIL, SODIUM HYDROXIDE, GERANIOL 0.022% (M/M) (CAS 106-24-1), RAVENSARA AROMATICA LEAF OIL. Contient de l'eau florale biologique de lavandin, du géraniol et des huiles essentielles naturelles : C",
+        "CONSEILS D'UTILISATION : Agiter, vaporiser 8 pulvérisations sur la chevelure, masser 3 minutes. Réappliquer après coiffage et sur les textiles (bonnet, écharpe...). Usage quotidien. À associer au Shampoing Balépou en cas de poux.",
+        "UNE MARQUE DE CONFIANCE : Depuis plus de 20 ans, PEDIAKID fournit des solutions de santé de qualité pour les enfants, soutenues par la recherche scientifique et l'innovation."
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "made_in_local"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B01G4WNA6S",
+      "brand": "Puressentiel",
+      "title": "Puressentiel - Spray Protection Répulsif Anti-Poux - Eloigne les poux et prévient l'infestation - Efficacité 24h - Actif 100 pourcent d'origine naturelle - Format Familial - Dès 3 ans - 200 ml",
+      "price": 18.98,
+      "rating": 4.6,
+      "reviews": 604,
+      "bsr": 1564,
+      "rev30d": 12055.39,
+      "sales30d": 797,
+      "mainImage": "https://m.media-amazon.com/images/I/514knkmQKHL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/514knkmQKHL.jpg",
+        "https://m.media-amazon.com/images/I/31std5BYpCL.jpg",
+        "https://m.media-amazon.com/images/I/31std5BYpCL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/816Su3rl5AL.jpg",
+        "https://m.media-amazon.com/images/I/51LBGHKRPdL.jpg",
+        "https://m.media-amazon.com/images/I/51LBGHKRPdL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71-s+kvMEGL.jpg",
+        "https://m.media-amazon.com/images/I/41npsZTKHpL.jpg",
+        "https://m.media-amazon.com/images/I/41npsZTKHpL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81h4M7PXhmL.jpg",
+        "https://m.media-amazon.com/images/I/51qIl2c1yCL.jpg",
+        "https://m.media-amazon.com/images/I/51qIl2c1yCL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71bMl9+9DuL.jpg",
+        "https://m.media-amazon.com/images/I/41CUZzVsu2L.jpg",
+        "https://m.media-amazon.com/images/I/41CUZzVsu2L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71pnLqDz8aL.jpg",
+        "https://m.media-amazon.com/images/I/51UAkrlTMPL.jpg",
+        "https://m.media-amazon.com/images/I/51UAkrlTMPL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/818bWEKAu9L.jpg",
+        "https://m.media-amazon.com/images/I/515mCr6vBxL.jpg",
+        "https://m.media-amazon.com/images/I/515mCr6vBxL._SL75_.jpg"
+      ],
+      "bullets": [
+        "PROTECTION ANTI-POUX 24H EFFICACE : Ce spray répulsif préventif qui aide à éviter l’infestation du cuir chevelu en période d’épidémie. Son actif d’origine végétale protège efficacement contre les poux jusqu’à 24 heures pour accompagner les enfants à l’école en toute sérénité.",
+        "ACTION RÉPULSIVE D’ORIGINE VÉGÉTALE : formulé avec de l’Eucalyptus citriodora, reconnu pour son action répulsive mécanique sur les poux. 0% insecticide neurotoxique. Les parasites sont éloignés sans agresser le cuir chevelu ni provoquer de résistance.",
+        "UTILISATION QUOTIDIENNE SANS GRAISSER LES CHEVEUX : texture légère, non collante et non grasse. Laisse un parfum frais et agréable. N’abîme pas la fibre capillaire et convient à un usage tous les matins pendant les périodes à risque.",
+        "MODE D’EMPLOI : vaporiser 5 à 7 pulvérisations sur les cheveux en insistant derrière les oreilles et la nuque. Laisser sécher naturellement sans rincer. À renouveler chaque jour pour maintenir une barrière protectrice anti-poux.",
+        "ADAPTÉ AUX ENFANTS DÈS 3 ANS : usage externe. Ne pas utiliser chez la femme enceinte ou allaitante. Éviter le contact avec les yeux. Fabriqué en France, en complément d’un traitement anti-poux et du shampooing pour prévenir la réinfestation."
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "long_lasting",
+        "pleasant_fragrance",
+        "made_in_local"
+      ],
+      "claimCount": 8
+    },
+    {
+      "asin": "B0070X37DW",
+      "brand": "Puressentiel",
+      "title": "Laboratoire Puressentiel Spray Répulsif Poux",
+      "price": 11.25,
+      "rating": 4.6,
+      "reviews": 1758,
+      "bsr": 0,
+      "rev30d": 11030.2,
+      "sales30d": 1382,
+      "mainImage": "https://m.media-amazon.com/images/I/61Y8NIl+BbL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61Y8NIl+BbL.jpg",
+        "https://m.media-amazon.com/images/I/316TGA6g2oL.jpg",
+        "https://m.media-amazon.com/images/I/316TGA6g2oL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81I5oIh+tWL.jpg",
+        "https://m.media-amazon.com/images/I/51r77POjHNL.jpg",
+        "https://m.media-amazon.com/images/I/51r77POjHNL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71D8y8j-BsL.jpg",
+        "https://m.media-amazon.com/images/I/41evO8DZxAL.jpg",
+        "https://m.media-amazon.com/images/I/41evO8DZxAL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81h4M7PXhmL.jpg",
+        "https://m.media-amazon.com/images/I/51qIl2c1yCL.jpg",
+        "https://m.media-amazon.com/images/I/51qIl2c1yCL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71bMl9+9DuL.jpg",
+        "https://m.media-amazon.com/images/I/41CUZzVsu2L.jpg",
+        "https://m.media-amazon.com/images/I/41CUZzVsu2L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71pnLqDz8aL.jpg",
+        "https://m.media-amazon.com/images/I/51UAkrlTMPL.jpg",
+        "https://m.media-amazon.com/images/I/51UAkrlTMPL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/818bWEKAu9L.jpg",
+        "https://m.media-amazon.com/images/I/515mCr6vBxL.jpg",
+        "https://m.media-amazon.com/images/I/515mCr6vBxL._SL75_.jpg"
+      ],
+      "bullets": [
+        "Eloigne les poux et prévient l'infestation",
+        "Protège efficacement jusqu'à 24 heures",
+        "Actif 100% d'origine naturelle",
+        "0% insecticide neurotoxique",
+        "Dès 3 ans"
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "long_lasting"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B0DQ1M471N",
+      "brand": "Panteer",
+      "title": "Spray anti-poux - 500 ml - Spray anti-poux pour textiles et meubles - Protection à l'extrait d'eucalyptus et de chrysanthème - Spray anti-poux - Prévient l'infestation de poux - Fabriqué e",
+      "price": 19.97,
+      "rating": 4.1,
+      "reviews": 132,
+      "bsr": 2257,
+      "rev30d": 7894.31,
+      "sales30d": 396,
+      "mainImage": "https://m.media-amazon.com/images/I/81ITg6GC95L.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81ITg6GC95L.jpg",
+        "https://m.media-amazon.com/images/I/41pNNBDZOwL.jpg",
+        "https://m.media-amazon.com/images/I/41pNNBDZOwL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81WykeF9irL.jpg",
+        "https://m.media-amazon.com/images/I/51b3rCDpN2L.jpg",
+        "https://m.media-amazon.com/images/I/51b3rCDpN2L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81pFt4fBDIL.jpg",
+        "https://m.media-amazon.com/images/I/51XKr6fGnqL.jpg",
+        "https://m.media-amazon.com/images/I/51XKr6fGnqL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/91B6Q13AtsL.jpg",
+        "https://m.media-amazon.com/images/I/51wy4f1SkVL.jpg",
+        "https://m.media-amazon.com/images/I/51wy4f1SkVL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/91ZUckhnQqL.jpg",
+        "https://m.media-amazon.com/images/I/51Chlm8Rn3L.jpg",
+        "https://m.media-amazon.com/images/I/51Chlm8Rn3L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81HaDMfVQFL.jpg",
+        "https://m.media-amazon.com/images/I/51nXOHMdG4L.jpg",
+        "https://m.media-amazon.com/images/I/51nXOHMdG4L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81-5DqyXV6L.jpg",
+        "https://m.media-amazon.com/images/I/41eaI6zM-CL.jpg",
+        "https://m.media-amazon.com/images/I/41eaI6zM-CL._SL75_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "textile_environment"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B00FOSNOF6",
+      "brand": "Puressentiel",
+      "title": "Puressentiel - Anti Poux - Shampoing Pouxdoux - Bio - Idéal en complément du traitement anti-poux - Usage quotidien - 200 ml",
+      "price": 8.56,
+      "rating": 4.6,
+      "reviews": 3261,
+      "bsr": 487,
+      "rev30d": 5047.95,
+      "sales30d": 581,
+      "mainImage": "https://m.media-amazon.com/images/I/717J8mqHVDL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/717J8mqHVDL.jpg",
+        "https://m.media-amazon.com/images/I/31ni0RVHQ3L.jpg",
+        "https://m.media-amazon.com/images/I/31ni0RVHQ3L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71Qhb4BjI0L.jpg",
+        "https://m.media-amazon.com/images/I/413Aah+k1vL.jpg",
+        "https://m.media-amazon.com/images/I/413Aah+k1vL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71vCIvKRr-L.jpg",
+        "https://m.media-amazon.com/images/I/51QbBg55dlL.jpg",
+        "https://m.media-amazon.com/images/I/51QbBg55dlL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71TgU43qGOL.jpg",
+        "https://m.media-amazon.com/images/I/51xlLUs1FML.jpg",
+        "https://m.media-amazon.com/images/I/51xlLUs1FML._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/91jP8rZ9P6L.jpg",
+        "https://m.media-amazon.com/images/I/51ZgF0m6BoL.jpg",
+        "https://m.media-amazon.com/images/I/51ZgF0m6BoL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81+TYt4TwKL.jpg",
+        "https://m.media-amazon.com/images/I/51fGSv540rL.jpg",
+        "https://m.media-amazon.com/images/I/51fGSv540rL._SL75_.jpg"
+      ],
+      "bullets": [
+        "HYGIÈNE QUOTIDIENNE & PRÉVENTION ANTI-POUX : ce shampooing certifié BIO protège toute la famille au quotidien et aide à décoller les lentes et poux morts après un traitement anti-poux. En complément de la lotion anti-poux pour limiter la réinfestation et garder des cheveux propres et sains.",
+        "FORMULE CERTIFIÉE BIO 99,4% D’ORIGINE NATURELLE : enrichi en huiles essentielles de lavande vraie, lavandin, géranium et ylang-ylang, avec aloe vera. N’assèche pas les cheveux, respecte le cuir chevelu et permet un usage fréquent. Cosmétique certifié Ecocert.",
+        "APAISANT & ASSAINISSANT POUR LE CUIR CHEVELU : nettoie en douceur, apaise les démangeaisons liées aux poux et facilite le retrait des lentes après traitement. Testé sous contrôle dermatologique et ophtalmologique, parfum frais agréable pour enfants et parents.",
+        "MODE D’EMPLOI SIMPLE : appliquer sur cheveux mouillés, faire mousser puis rincer abondamment. À utiliser régulièrement en relais de la lotion anti-poux pour une hygiène capillaire naturelle et une élimination facilitée des lentes et poux morts.",
+        "ADAPTÉ AUX ENFANTS DÈS 3 ANS : usage familial. Éviter le contact avec les yeux. Déconseillé chez la femme enceinte ou allaitante. Produit cosmétique à usage externe, fabriqué en France. En période d’épidémies de poux à l’école."
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "pleasant_fragrance",
+        "registered_approved",
+        "made_in_local"
+      ],
+      "claimCount": 8
+    },
+    {
+      "asin": "B0FPGH8B66",
+      "brand": "Déparaz",
+      "title": "DEPARAZ-POUX® – Shampooing Préventif 2-en-1 | Protection Quotidienne Contre Poux & Lentes |100% Efficace | Lave et Protège | Usage Familial | 150Ml",
+      "price": 12.0,
+      "rating": 4.7,
+      "reviews": 15,
+      "bsr": 2844,
+      "rev30d": 2847.66,
+      "sales30d": 237,
+      "mainImage": "https://m.media-amazon.com/images/I/61Eu15WOzpL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61Eu15WOzpL.jpg",
+        "https://m.media-amazon.com/images/I/41utgY4p63L.jpg",
+        "https://m.media-amazon.com/images/I/41utgY4p63L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71hqKtAsL+L.jpg",
+        "https://m.media-amazon.com/images/I/5113xCysokL.jpg",
+        "https://m.media-amazon.com/images/I/5113xCysokL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71QSYi37+tL.jpg",
+        "https://m.media-amazon.com/images/I/41ZLKt9t-iL.jpg",
+        "https://m.media-amazon.com/images/I/41ZLKt9t-iL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71VlVZGKSGL.jpg",
+        "https://m.media-amazon.com/images/I/51ppwZKUyZL.jpg",
+        "https://m.media-amazon.com/images/I/51ppwZKUyZL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71ztMSfVCNL.jpg",
+        "https://m.media-amazon.com/images/I/51VzHL5ZkxL.jpg",
+        "https://m.media-amazon.com/images/I/51VzHL5ZkxL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61i3fM9SEvL.jpg",
+        "https://m.media-amazon.com/images/I/41PswAlhOoL.jpg",
+        "https://m.media-amazon.com/images/I/41PswAlhOoL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/710JReS8ZTL.jpg",
+        "https://m.media-amazon.com/images/I/51XZNtDkCYL.jpg",
+        "https://m.media-amazon.com/images/I/51XZNtDkCYL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71wRZodluEL.jpg",
+        "https://m.media-amazon.com/images/I/51CO9JrGWfL.jpg",
+        "https://m.media-amazon.com/images/I/51CO9JrGWfL._SL75_.jpg"
+      ],
+      "bullets": [
+        "🛡️ PROTECTION QUOTIDIENNE 100% EFFICACE CONTRE LES POUX ET LES LENTES : Grâce à son complexe végétal protecteur, DEPARAZ-POUX Shampooing Préventif 2-en-1 offre une protection quotidienne efficace pour empêcher poux et lentes de s’installer. Sa formule préventive lave les cheveux tout en déposant un film protecteur naturel, réduisant le risque d’adhésion des parasites. En usage régulier, il aide à limiter les infestations, notamment en période scolaire. Adapté aux enfants comme aux adultes, il convient à tous les types de cheveux. Son format 150 mL offre une utilisation durable pour protéger toute la famille. 👨‍👩‍👧‍👦✨",
+        "✨ DITES ADIEU AUX RISQUES D’INFESTATION AVANT QU’ILS N’ARRIVENT ! Grâce à son complexe protecteur d’actifs naturels, cette formule préventive crée une barrière invisible qui gêne l’installation des poux sur la fibre capillaire (2). Les actifs végétaux agissent naturellement pour rendre le cuir chevelu moins attractif pour les parasites, réduisant ainsi les risques d’infestation au quotidien (1),(5). Une utilisation régulière est particulièrement recommandée lors de périodes à risque : école, crèche, activités de groupe, colonies… 👧🧒🌿",
+        "🧴 UNE ROUTINE SIMPLIFIÉE POUR UNE PROTECTION CONTINUE Appliquer le shampooing sur cheveux mouillés, masser soigneusement pour imprégner la chevelure et activer la protection préventive. Laisser agir quelques instants, puis rincer abondamment. Pour une protection optimale, renouveler l’utilisation plusieurs fois par semaine ou quotidiennement en cas d’alerte poux. Grâce à sa fonction 2-en-1, il lave et protège en un seul geste, facilitant son intégration dans la routine capillaire familiale. 💦🛡️ Convient parfaitement aux enfants sensibles ou aux parents souhaitant une solution simple, douce et naturelle.",
+        "🌿 UNE FORMULE VÉGÉTALE RESPECTUEUSE POUR TOUTE LA FAMILLE : Sans insecticide chimique, sans silicone et sans paraben, DEPARAZ-POUX Préventif s’appuie sur une technologie douce respectueuse du cuir chevelu et de la fibre capillaire. Testé sous contrôle dermatologique, il convient aux cuirs chevelus sensibles et peut être utilisé en prévention régulière. Sa formule légère et son parfum agréable en font un soin facile à adopter au quotidien. 💚🌱",
+        "👨‍👩‍👧‍👦 L’ALLIÉ PRÉVENTIF DE TOUTE LA FAMILLE DEPARAZ-POUX accompagne les familles dans la prévention des infestations, grâce à une solution douce, naturelle et adaptée à toutes les chevelures. En complément d’un traitement curatif lorsque nécessaire, le shampooing préventif permet de maintenir une protection continue. Son format pratique, sa tolérance élevée et son efficacité en font un indispensable pour éviter les mauvaises surprises à la maison ou à l’école. ✨🏫"
+      ],
+      "description": "DEPARAZ-POUX – Shampooing Préventif 2-en-1 est spécialement formulé pour protéger efficacement les cheveux de toute la famille contre les poux et les lentes. Grâce à sa technologie végétale, il forme une barrière protectrice qui rend l’environnement capillaire moins attractif pour les parasites. Tout en apportant cette protection essentielle, sa formule douce nettoie le cuir chevelu, laisse les cheveux souples, brillants et délicatement parfumés. Idéal pour les enfants exposés quotidiennement aux risques d’infestation, notamment à l’école. Utilisé régulièrement, DEPARAZ-POUX aide à prévenir l’apparition des poux et à maintenir des cheveux propres et protégés, jour après jour.",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "registered_approved"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B071DR2SRZ",
+      "brand": "Puressentiel",
+      "title": "Puressentiel - Anti Poux - Après-Shampoing Protecteur Pouxdoux - Soin démêlant aux Huiles Essentielles Bio - Idéal en complément du traitement anti-poux - 200 ml",
+      "price": 7.75,
+      "rating": 4.6,
+      "reviews": 3251,
+      "bsr": 421,
+      "rev30d": 2388.11,
+      "sales30d": 267,
+      "mainImage": "https://m.media-amazon.com/images/I/51r8u42T-4L.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/51r8u42T-4L.jpg",
+        "https://m.media-amazon.com/images/I/310N72sUxSL.jpg",
+        "https://m.media-amazon.com/images/I/310N72sUxSL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/41aTIoJtphL.jpg",
+        "https://m.media-amazon.com/images/I/41aTIoJtphL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71ZXAD95GhL.jpg",
+        "https://m.media-amazon.com/images/I/51+bz4m3DvL.jpg",
+        "https://m.media-amazon.com/images/I/51+bz4m3DvL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71uDTcfJDJL.jpg",
+        "https://m.media-amazon.com/images/I/51kvSYYwf0L.jpg",
+        "https://m.media-amazon.com/images/I/51kvSYYwf0L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71To5Nq4mNL.jpg",
+        "https://m.media-amazon.com/images/I/51Gm9U2WBdL.jpg",
+        "https://m.media-amazon.com/images/I/51Gm9U2WBdL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/718esmLdoUL.jpg",
+        "https://m.media-amazon.com/images/I/51kM6Srp4hL.jpg",
+        "https://m.media-amazon.com/images/I/51kM6Srp4hL._SL75_.jpg"
+      ],
+      "bullets": [
+        "FACILITE L’ÉLIMINATION DES LENTES ET POUX MORTS : après-shampooing anti-poux spécialement conçu après un traitement. Il améliore le passage du peigne à poux et aide à retirer efficacement lentes, larves et poux morts pour compléter l’action de la lotion anti-poux.",
+        "DÉMÊLAGE IMMÉDIAT & CHEVEUX PROTÉGÉS : assouplit la fibre capillaire pour un démêlage facile sans casser les cheveux. Les cheveux sont doux et faciles à coiffer, pour les enfants aux cheveux longs.",
+        "FORMULE 98,3% D’ORIGINE NATURELLE : enrichi en huiles essentielles BIO de lavande, lavandin, géranium et ylang-ylang. Apaise le cuir chevelu sensibilisé après infestation et laisse un parfum frais et agréable.",
+        "MODE D’EMPLOI : appliquer sur cheveux mouillés et essorés, laisser agir 3 minutes puis rincer. Démêler ensuite avec un peigne anti-poux pour éliminer les derniers parasites et éviter la réinfestation.",
+        "ADAPTÉ AUX ENFANTS DÈS 3 ANS : usage fréquent en complément du shampooing et de la lotion anti-poux. Éviter le contact avec les yeux. Déconseillé chez la femme enceinte ou allaitante. Fabriqué en France, en période d’épidémie scolaire."
+      ],
+      "description": "",
+      "themes": [
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "pleasant_fragrance",
+        "made_in_local"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B0B7RMDKPB",
+      "brand": "Pediakid",
+      "title": "PEDIAKID - Balépou Spray - Répulsif aux huiles essentielles 100% pures & naturelles (Lavandin, Géraniol) - Repousse les poux tout en douceur - Sans paraben ni alcool - 2 flacons de 100ml",
+      "price": 18.52,
+      "rating": 4.6,
+      "reviews": 495,
+      "bsr": 525,
+      "rev30d": 2164.5,
+      "sales30d": 112,
+      "mainImage": "https://m.media-amazon.com/images/I/61dipmYp81L.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61dipmYp81L.jpg",
+        "https://m.media-amazon.com/images/I/41zVPXkfy7L.jpg",
+        "https://m.media-amazon.com/images/I/41zVPXkfy7L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/710jzrfvsKL.jpg",
+        "https://m.media-amazon.com/images/I/5170i8TBb3L.jpg",
+        "https://m.media-amazon.com/images/I/5170i8TBb3L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71Mn89TTAhL.jpg",
+        "https://m.media-amazon.com/images/I/41XFS70tl2L.jpg",
+        "https://m.media-amazon.com/images/I/41XFS70tl2L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71hlI0Hwa6L.jpg",
+        "https://m.media-amazon.com/images/I/416uMad358L.jpg",
+        "https://m.media-amazon.com/images/I/416uMad358L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81fj27mysIL.jpg",
+        "https://m.media-amazon.com/images/I/611E1FUeFdL.jpg",
+        "https://m.media-amazon.com/images/I/611E1FUeFdL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71rererJyAL.jpg",
+        "https://m.media-amazon.com/images/I/515CYD7IdIL.jpg",
+        "https://m.media-amazon.com/images/I/515CYD7IdIL._SL75_.jpg"
+      ],
+      "bullets": [
+        "SPRAY ANTI-POUX PREVENTIF POUR ENFANTS : Spray répulsif à action préventive qui agit de manière douce et efficace contre les poux. Ce traitement est parfaitement adapté aux enfants.",
+        "EFFICACE CONTRE L'APPARITION DES POUX : Balépou Spray agit en douceur pour éviter l'apparition des poux. Idéal en usage quotidien tout au long de l'année scolaire.",
+        "COMPOSITION : AQUA, LAVANDULA HYBRIDA FLOWER WATER, LAURYL GLUCOSIDE, POLYGLYCERYL-2 DIPOLYHYDROXYSTEARATE, BENZYL ALCOHOL, GLYCERIN, LAVANDULA ANGUSTIFOLIA OIL, DEHYDROACETIC ACID, CEDRUS ATLANTICA BARK OIL, CITRUS AURANTIUM DULCIS PEEL OIL, PELARGONIUM GRAVEOLENS FLOWER OIL, MELALEUCA ALTERNIFOLIA LEAF OIL, SODIUM HYDROXIDE, GERANIOL 0.022% (M/M) (CAS 106-24-1), RAVENSARA AROMATICA LEAF OIL. Contient de l'eau florale biologique de lavandin, du géraniol et des huiles essentielles naturelles : C",
+        "CONSEILS D'UTILISATION : Agiter, vaporiser 8 pulvérisations sur la chevelure, masser 3 minutes. Réappliquer après coiffage et sur les textiles (bonnet, écharpe...). Usage quotidien. À associer au Shampoing Balépou en cas de poux.",
+        "UNE MARQUE DE CONFIANCE : Depuis plus de 20 ans, PEDIAKID fournit des solutions de santé de qualité pour les enfants, soutenues par la recherche scientifique et l'innovation."
+      ],
+      "description": "Lot de 2 : Pediakid Balépou Spray : repousse les poux tout en douceur ! Composition : eau florale biologique de Lavandin, Géraniol (actif d'origine naturelle aux effets répulsifs démontrés) et huiles essentielles 100% pures et naturelles. Dès 3 ans Balépou Spray est un spray répulsif anti-poux à action préventive. Il agit de manière douce et efficace : Repousse les poux et assure une protection au quotidien Formule exclusive aux huiles essentielles Formule non agressive, douce pour le cuir chevelu sensible des enfants Sans alcool, sans paraben, sans phénoxyéthanol Très facile d'utilisation Idéal en complément du Shampoing Balépou ! Conditionnement : 2 X Flacon spray de 100 ml. Délicatement parfumé à la Lavande.",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "made_in_local"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B0B7RHRNKV",
+      "brand": "Pediakid",
+      "title": "PEDIAKID - Balépou Spray - Répulsif aux huiles essentielles 100% pures & naturelles (Lavandin, Géraniol) - Repousse les poux tout en douceur - Sans paraben ni alcool - 3 flacons de 100ml",
+      "price": 23.9,
+      "rating": 4.6,
+      "reviews": 495,
+      "bsr": 525,
+      "rev30d": 1932.74,
+      "sales30d": 71,
+      "mainImage": "https://m.media-amazon.com/images/I/71GgWfNqNJL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71GgWfNqNJL.jpg",
+        "https://m.media-amazon.com/images/I/41NIFo7oqBL.jpg",
+        "https://m.media-amazon.com/images/I/41NIFo7oqBL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/710jzrfvsKL.jpg",
+        "https://m.media-amazon.com/images/I/5170i8TBb3L.jpg",
+        "https://m.media-amazon.com/images/I/5170i8TBb3L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71Mn89TTAhL.jpg",
+        "https://m.media-amazon.com/images/I/41XFS70tl2L.jpg",
+        "https://m.media-amazon.com/images/I/41XFS70tl2L._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71i4aZbGIQL.jpg",
+        "https://m.media-amazon.com/images/I/51gqlBbqjnL.jpg",
+        "https://m.media-amazon.com/images/I/51gqlBbqjnL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/81fj27mysIL.jpg",
+        "https://m.media-amazon.com/images/I/611E1FUeFdL.jpg",
+        "https://m.media-amazon.com/images/I/611E1FUeFdL._SL75_.jpg"
+      ],
+      "bullets": [
+        "SPRAY ANTI-POUX PREVENTIF POUR ENFANTS : Spray répulsif à action préventive qui agit de manière douce et efficace contre les poux. Ce traitement est parfaitement adapté aux enfants.",
+        "EFFICACE CONTRE L'APPARITION DES POUX : Balépou Spray agit en douceur pour éviter l'apparition des poux. Idéal en usage quotidien tout au long de l'année scolaire.",
+        "COMPOSITION : AQUA, LAVANDULA HYBRIDA FLOWER WATER, LAURYL GLUCOSIDE, POLYGLYCERYL-2 DIPOLYHYDROXYSTEARATE, BENZYL ALCOHOL, GLYCERIN, LAVANDULA ANGUSTIFOLIA OIL, DEHYDROACETIC ACID, CEDRUS ATLANTICA BARK OIL, CITRUS AURANTIUM DULCIS PEEL OIL, PELARGONIUM GRAVEOLENS FLOWER OIL, MELALEUCA ALTERNIFOLIA LEAF OIL, SODIUM HYDROXIDE, GERANIOL 0.022% (M/M) (CAS 106-24-1), RAVENSARA AROMATICA LEAF OIL. Contient de l'eau florale biologique de lavandin, du géraniol et des huiles essentielles naturelles : C",
+        "CONSEILS D'UTILISATION : Agiter, vaporiser 8 pulvérisations sur la chevelure, masser 3 minutes. Réappliquer après coiffage et sur les textiles (bonnet, écharpe...). Usage quotidien. À associer au Shampoing Balépou en cas de poux.",
+        "UNE MARQUE DE CONFIANCE : Depuis plus de 20 ans, PEDIAKID fournit des solutions de santé de qualité pour les enfants, soutenues par la recherche scientifique et l'innovation."
+      ],
+      "description": "Lot de 2 : Pediakid Balépou Spray : repousse les poux tout en douceur ! Composition : eau florale biologique de Lavandin, Géraniol (actif d'origine naturelle aux effets répulsifs démontrés) et huiles essentielles 100% pures et naturelles. Dès 3 ans Balépou Spray est un spray répulsif anti-poux à action préventive. Il agit de manière douce et efficace : Repousse les poux et assure une protection au quotidien Formule exclusive aux huiles essentielles Formule non agressive, douce pour le cuir chevelu sensible des enfants Sans alcool, sans paraben, sans phénoxyéthanol Très facile d'utilisation Idéal en complément du Shampoing Balépou ! Conditionnement : 3 X Flacon spray de 100 ml. Délicatement parfumé à la Lavande.",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "chemical_free",
+        "family_safe",
+        "daily_use",
+        "made_in_local"
+      ],
+      "claimCount": 6
+    },
+    {
+      "asin": "B0099L8GIO",
+      "brand": "Pouxit",
+      "title": "POUXIT - Spray préventif anti-poux actif végétal - Eloigne les poux et évite la réinfestation - Protection anti-poux - 75 ml",
+      "price": 8.78,
+      "rating": 4.1,
+      "reviews": 28,
+      "bsr": 2675,
+      "rev30d": 1236.6,
+      "sales30d": 134,
+      "mainImage": "https://m.media-amazon.com/images/I/51+ip1YSvIL.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/51+ip1YSvIL.jpg",
+        "https://m.media-amazon.com/images/I/31bChZke9wL.jpg",
+        "https://m.media-amazon.com/images/I/31bChZke9wL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61o3vM4+BRL.jpg",
+        "https://m.media-amazon.com/images/I/31VfhFdydfL.jpg",
+        "https://m.media-amazon.com/images/I/31VfhFdydfL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71UCGc9DiyL.jpg",
+        "https://m.media-amazon.com/images/I/417fGpFBYsL.jpg",
+        "https://m.media-amazon.com/images/I/417fGpFBYsL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/71jYOBgirbL.jpg",
+        "https://m.media-amazon.com/images/I/419e-FVrqzL.jpg",
+        "https://m.media-amazon.com/images/I/419e-FVrqzL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61oqJ9B3xFL.jpg",
+        "https://m.media-amazon.com/images/I/41Syol5E+mL.jpg",
+        "https://m.media-amazon.com/images/I/41Syol5E+mL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61aCRPeV5bL.jpg",
+        "https://m.media-amazon.com/images/I/41aosurPstL.jpg",
+        "https://m.media-amazon.com/images/I/41aosurPstL._SL75_.jpg",
+        "https://m.media-amazon.com/images/I/61ArHXaef4L.jpg",
+        "https://m.media-amazon.com/images/I/41VDJMGR+2L.jpg",
+        "https://m.media-amazon.com/images/I/41VDJMGR+2L._SL75_.jpg"
+      ],
+      "bullets": [
+        "HALTE AUX ENVAHISSEURS ! Restez à distance des poux pendant les périodes les plus à risque avec le spray répulsif anti-poux Pouxit ! Il s’utilise chez les enfants dès l’âge de 3 ans ainsi que chez les adultes pour prévenir l’infestation ou la réinfestation après un traitement anti-poux adapté. Format spray pour une application facile et rapide sur tous types de cheveux. Il se vaporise à distance des cheveux et sèche à l’air libre.",
+        "ACTION IMMÉDIATE ET EFFICACITÉ 12 HEURES1. « Les poux sont de retour à l’école ! » : c’est le message tant redouté de la rentrée scolaire. Appliqué une fois par jour sur les cheveux, Pouxit Répulsif offre un effet protecteur contre les poux jusqu’à 12 heures1.",
+        "CITRIODIOL, UN ACTIF RÉPULSIF D'ORIGINE VÉGÉTALE A L'EFFICACITÉ RECONNUE. Le Citriodiol est extrait de la plante Eucalyptus Citriodora (ou Eucalyptus citronné). Cette substance d’origine végétale a démontré son efficacité répulsive contre une large variété d’insectes piqueurs (moustiques, tiques…) dont les poux.",
+        "UTILISATION : Pulvériser la lotion à 10-15 cm de distance des cheveux. Appliquer Pouxit Répulsif uniformément et en quantité suffisante sur les cheveux de façon à rcouvrir entièrement la chevelure en insistant sur les endroits sensibles (la nuque et le contour des oreilles). Laisser sécher à l'air libre. Se laver les mains après usage. Appliquer une fois par jour avant d'aller à l'école durant la période d'infestation. Ce produit est un répulsif à action immédiate qui éloigne les poux, il ne les tue pas.",
+        "LEADER DES TRAITEMENTS ANTI-POUX EN FRANCE2 depuis 2006, POUXIT est l’allié des familles. POUXIT dispose d’une large gamme de produits traitants et préventifs permettant une prise en charge complète de la pédiculose. La marque s'appuie sur des formules testées conçues pour toute la famille. POUXIT innove régulièrement pour s’assurer de continuer à offrir les meilleures solutions anti-poux les plus adaptées à chaque étape de l'infestation."
+      ],
+      "description": "",
+      "themes": [
+        "efficacy_prevention",
+        "natural_ingredients",
+        "family_safe",
+        "long_lasting",
+        "daily_use"
+      ],
+      "claimCount": 5
+    }
+  ],
+  "claimsMatrix": {
+    "themes": [
+      {
+        "key": "efficacy_prevention",
+        "label": "Blocks / Repels Lice"
+      },
+      {
+        "key": "natural_ingredients",
+        "label": "Natural Actives"
+      },
+      {
+        "key": "chemical_free",
+        "label": "No Pesticides / DEET-Free"
+      },
+      {
+        "key": "family_safe",
+        "label": "Family & Child Safe"
+      },
+      {
+        "key": "daily_use",
+        "label": "Daily / Leave-In"
+      },
+      {
+        "key": "textile_environment",
+        "label": "Textile / Environment"
+      },
+      {
+        "key": "long_lasting",
+        "label": "Long-Lasting Protection"
+      },
+      {
+        "key": "pleasant_fragrance",
+        "label": "Pleasant Fragrance"
+      },
+      {
+        "key": "registered_approved",
+        "label": "Medically / Dermatologically Tested"
+      },
+      {
+        "key": "made_in_local",
+        "label": "Made in France"
+      }
+    ],
+    "rows": [
+      {
+        "asin": "B002GYIZPA",
+        "brand": "Pediakid",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B01G4WNA6S",
+        "brand": "Puressentiel",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0070X37DW",
+        "brand": "Puressentiel",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B0DQ1M471N",
+        "brand": "Panteer",
+        "cells": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B00FOSNOF6",
+        "brand": "Puressentiel",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B0FPGH8B66",
+        "brand": "Déparaz",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "asin": "B071DR2SRZ",
+        "brand": "Puressentiel",
+        "cells": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0B7RMDKPB",
+        "brand": "Pediakid",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0B7RHRNKV",
+        "brand": "Pediakid",
+        "cells": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0099L8GIO",
+        "brand": "Pouxit",
+        "cells": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "claimsSummary": [
+    {
+      "theme": "efficacy_prevention",
+      "label": "Blocks / Repels Lice",
+      "count": 9,
+      "pct": "90%",
+      "topBrands": [
+        "Pediakid",
+        "Puressentiel",
+        "Puressentiel"
+      ]
+    },
+    {
+      "theme": "natural_ingredients",
+      "label": "Natural Actives",
+      "count": 10,
+      "pct": "100%",
+      "topBrands": [
+        "Pediakid",
+        "Puressentiel",
+        "Puressentiel"
+      ]
+    },
+    {
+      "theme": "chemical_free",
+      "label": "No Pesticides / DEET-Free",
+      "count": 8,
+      "pct": "80%",
+      "topBrands": [
+        "Pediakid",
+        "Puressentiel",
+        "Puressentiel"
+      ]
+    },
+    {
+      "theme": "family_safe",
+      "label": "Family & Child Safe",
+      "count": 9,
+      "pct": "90%",
+      "topBrands": [
+        "Pediakid",
+        "Puressentiel",
+        "Puressentiel"
+      ]
+    },
+    {
+      "theme": "daily_use",
+      "label": "Daily / Leave-In",
+      "count": 7,
+      "pct": "70%",
+      "topBrands": [
+        "Pediakid",
+        "Puressentiel",
+        "Puressentiel"
+      ]
+    },
+    {
+      "theme": "textile_environment",
+      "label": "Textile / Environment",
+      "count": 1,
+      "pct": "10%",
+      "topBrands": [
+        "Panteer"
+      ]
+    },
+    {
+      "theme": "long_lasting",
+      "label": "Long-Lasting Protection",
+      "count": 3,
+      "pct": "30%",
+      "topBrands": [
+        "Puressentiel",
+        "Puressentiel",
+        "Pouxit"
+      ]
+    },
+    {
+      "theme": "pleasant_fragrance",
+      "label": "Pleasant Fragrance",
+      "count": 3,
+      "pct": "30%",
+      "topBrands": [
+        "Puressentiel",
+        "Puressentiel",
+        "Puressentiel"
+      ]
+    },
+    {
+      "theme": "registered_approved",
+      "label": "Medically / Dermatologically Tested",
+      "count": 2,
+      "pct": "20%",
+      "topBrands": [
+        "Puressentiel",
+        "Déparaz"
+      ]
+    },
+    {
+      "theme": "made_in_local",
+      "label": "Made in France",
+      "count": 6,
+      "pct": "60%",
+      "topBrands": [
+        "Pediakid",
+        "Puressentiel",
+        "Puressentiel"
+      ]
+    }
+  ],
+  "vocGap": [
+    {
+      "vocTopic": "Strong lavender/essential oil scent",
+      "customerConcernPct": "~30%",
+      "addressedByCount": 2,
+      "addressedByBrands": [
+        "Puressentiel",
+        "Pediakid"
+      ],
+      "gapSeverity": "HIGH",
+      "whitespace": "Offer a low-scent or fragrance-free variant. 8 of 10 lead with essential oils; scent-sensitive buyers have no option."
+    },
+    {
+      "vocTopic": "Prevention doesn't work — kid still got lice",
+      "customerConcernPct": "~35%",
+      "addressedByCount": 3,
+      "addressedByBrands": [
+        "Puressentiel",
+        "Pouxit",
+        "Pediakid"
+      ],
+      "gapSeverity": "HIGH",
+      "whitespace": "Cite a clinical efficacy figure (% repelled, school-year study). Only Puressentiel quantifies protection (24h) and Pouxit (12h); rest are vague."
+    },
+    {
+      "vocTopic": "Not suitable for under-3s",
+      "customerConcernPct": "~20%",
+      "addressedByCount": 7,
+      "addressedByBrands": [
+        "Pediakid",
+        "Puressentiel",
+        "Pouxit",
+        "Déparaz"
+      ],
+      "gapSeverity": "MEDIUM",
+      "whitespace": "Only Pediakid targets youngest kids explicitly. A 'from 12 months' claim is a clean differentiator."
+    },
+    {
+      "vocTopic": "Makes hair greasy / sticky",
+      "customerConcernPct": "~15%",
+      "addressedByCount": 2,
+      "addressedByBrands": [
+        "Puressentiel",
+        "Déparaz"
+      ],
+      "gapSeverity": "MEDIUM",
+      "whitespace": "Lead with 'non-greasy / light texture' — rarely called out."
+    }
+  ],
+  "whitespaceOpportunities": [
+    {
+      "opportunity": "Clinically-proven prevention",
+      "rationale": "Only Puressentiel and Pouxit quantify protection duration (24h / 12h). None cite a school-year study or % infestation reduction.",
+      "evidence": "0 of 10 show a clinical % reduction; 2 of 10 mention a protection-duration hour figure."
+    },
+    {
+      "opportunity": "Essential-oil-free alternative",
+      "rationale": "8 of 10 Prevention listings lead with essential oils (lavender, eucalyptus, geraniol). Anyone allergic or scent-sensitive has nowhere to go.",
+      "evidence": "Only Panteer and Déparaz use non-EO actives as lead ingredients."
+    },
+    {
+      "opportunity": "School-ready bundle",
+      "rationale": "Rentrée scolaire (Aug-Sept) is the category's biggest demand window. Nobody sells a 'back-to-school kit' combining spray + shampoo + textile spray + comb.",
+      "evidence": "10 of 10 FR Prevention listings sell single SKUs."
+    },
+    {
+      "opportunity": "Under-12-month safe",
+      "rationale": "Every listing specifies 'dès 3 ans' or 'dès 6 mois'. Parents of toddlers are locked out.",
+      "evidence": "0 of 10 FR Prevention products claim safety under 6 months."
+    },
+    {
+      "opportunity": "Textile + hair combo",
+      "rationale": "Only Panteer (1/10) is a textile spray. The French market under-indexes on environmental treatment vs DE.",
+      "evidence": "1 of 10 FR vs 4 of 9 DE sell textile prevention sprays — huge whitespace."
+    }
+  ],
+  "saturation": [
+    {
+      "claim": "efficacy_prevention",
+      "label": "Repels / Blocks Lice",
+      "saturationPct": "90%",
+      "advice": "Table-stakes. Quantify protection — 12h, 24h, 72h, or % reduction. Only Puressentiel + Pouxit do."
+    },
+    {
+      "claim": "natural_ingredients",
+      "label": "Essential Oils / Natural",
+      "saturationPct": "100%",
+      "advice": "Completely saturated. Every brand leads with essential oils — the whitespace is going the OTHER direction (EO-free)."
+    },
+    {
+      "claim": "chemical_free",
+      "label": "No Pesticides / Paraben-Free",
+      "saturationPct": "70%",
+      "advice": "Standard French pharmacy language. Not a differentiator."
+    },
+    {
+      "claim": "family_safe",
+      "label": "Child-Safe",
+      "saturationPct": "90%",
+      "advice": "Specify the minimum age in the title. 'Dès 12 mois' is rarer than 'dès 3 ans' and wins younger families."
+    },
+    {
+      "claim": "daily_use",
+      "label": "Daily / Leave-In",
+      "saturationPct": "70%",
+      "advice": "Back-to-school timing wins. Change copy Aug 1 for rentrée scolaire."
+    },
+    {
+      "claim": "long_lasting",
+      "label": "Long-Lasting Protection",
+      "saturationPct": "30%",
+      "advice": "Under-claimed — only 3/10 quantify duration. Putting '24h' or '72h' in the title is a quick win."
+    },
+    {
+      "claim": "made_in_local",
+      "label": "Made in France",
+      "saturationPct": "50%",
+      "advice": "French origin matters in this market — 5/10 claim it. Clear price premium justifier."
+    },
+    {
+      "claim": "textile_environment",
+      "label": "Textile / Environment",
+      "saturationPct": "10%",
+      "advice": "Wide open — only Panteer plays here. Big opportunity for a textile-spray entrant."
+    }
+  ],
+  "strategicRecommendations": [
+    {
+      "type": "Product",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "10 of 10 claim 'prevention', but only Puressentiel (24h) and Pouxit (12h) quantify duration. Zero cite a school-year efficacy study.",
+      "implication": "Run one in-vitro repellent study (€3-5k) and put '88% reduction in re-infestation' or similar in the title. Becomes the only 'proven' prevention spray in France."
+    },
+    {
+      "type": "Positioning",
+      "badgeBg": "#e0f2fe",
+      "badgeColor": "#075985",
+      "finding": "8 of 10 are essential-oil formulas. Scent-sensitive and allergy-prone families have no alternative.",
+      "implication": "Launch an EO-free variant — synthetic or mineral-oil-based — with 'sans parfum, sans huiles essentielles' as the hero claim. Clean differentiator in a saturated natural-oils market."
+    },
+    {
+      "type": "Packaging",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "1 of 10 is a textile spray (Panteer). The French category is ~10% textile vs 44% in DE — undersupplied.",
+      "implication": "Launch a textile prevention spray for FR. Reference customer pain ('poux dans le canapé / voiture / doudou'). Price €15-18 to match Pouxit/Puressentiel single SKUs."
+    },
+    {
+      "type": "Messaging",
+      "badgeBg": "#ede9fe",
+      "badgeColor": "#5b21b6",
+      "finding": "Seasonality peaks in Oct (1.27×). Every listing uses 'période d'épidémie' / 'rentrée scolaire' but nobody refreshes content for August.",
+      "implication": "Hard-code 'Rentrée 2026 — prêt pour l'école' in A+ content and refresh title on Aug 1. Ride the Aug-Oct search surge."
+    },
+    {
+      "type": "Product",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "0 of 10 claim safety under 6 months. Every listing locks out infants.",
+      "implication": "Source an EO-free, dermatologically tested formula safe 'dès la naissance' or '0 mois'. Niche lock for the youngest-kids segment."
+    }
+  ]
+}
