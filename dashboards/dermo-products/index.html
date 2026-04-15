@@ -37,10 +37,16 @@ td.num{text-align:right;font-variant-numeric:tabular-nums}
 .heatmap td.hm-total{text-align:center;font-size:.78rem;font-weight:700;padding:10px 8px;min-width:70px;border-left:2px solid #e2e8f0;background:#f8fafc;color:#0f2942}
 .heatmap .seg-label{font-weight:600;color:#1e293b;padding:10px 12px;white-space:nowrap}
 .heatmap .total-row td{font-weight:700;border-top:2px solid #e2e8f0;background:#f8fafc;color:#0f2942}
-/* Executive summary block — 3 kolumny insight cardów */
-.summary{background:#fff;border-radius:8px;padding:18px 22px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px;border-left:4px solid #0f2942}
-.summary h2{font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;margin-bottom:14px;display:flex;align-items:center;gap:8px}
-.summary h2::before{content:'';display:inline-block;width:22px;height:2px;background:#0f2942}
+/* Executive summary block — 3 kolumny insight cardów, collapsible */
+.summary{background:#fff;border-radius:8px;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:14px;border-left:4px solid #0f2942;overflow:hidden}
+.summary > summary, .kw-block > summary{cursor:pointer;padding:14px 22px;font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;list-style:none;display:flex;align-items:center;gap:10px;user-select:none;transition:background .15s}
+.summary > summary:hover, .kw-block > summary:hover{background:#f8fafc}
+.summary > summary::-webkit-details-marker, .kw-block > summary::-webkit-details-marker{display:none}
+.summary > summary::before, .kw-block > summary::before{content:'▸';display:inline-block;transition:transform .2s;font-size:.9rem;color:#64748b;width:14px}
+.summary[open] > summary::before, .kw-block[open] > summary::before{transform:rotate(90deg)}
+.summary > summary .hint, .kw-block > summary .hint{font-size:.66rem;font-weight:500;color:#94a3b8;text-transform:none;letter-spacing:0;margin-left:auto;font-style:italic}
+.summary-inner{padding:2px 22px 18px}
+.summary h2{display:none}
 .summary-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
 .summary-col h3{font-size:.7rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #f1f5f9}
 .summary-col p{font-size:.82rem;line-height:1.55;color:#334155;margin-bottom:8px}
@@ -49,11 +55,11 @@ td.num{text-align:right;font-variant-numeric:tabular-nums}
 .summary-col .big{font-size:1.15rem;font-weight:700;color:#0f2942;display:block;margin-bottom:2px}
 .summary-col .small{font-size:.72rem;color:#64748b;margin-top:4px;font-style:italic}
 @media (max-width: 980px) { .summary-cols { grid-template-columns: 1fr; gap: 16px; } }
-/* Keywords block */
-.kw-block{background:#fff;border-radius:8px;padding:18px 22px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px;border-left:4px solid #16a34a}
-.kw-block h2{font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;display:flex;align-items:center;gap:8px}
-.kw-block h2::before{content:'';display:inline-block;width:22px;height:2px;background:#16a34a}
-.kw-block .kw-intro{font-size:.78rem;color:#475569;line-height:1.5;margin-bottom:14px}
+/* Keywords block — collapsible */
+.kw-block{background:#fff;border-radius:8px;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:22px;border-left:4px solid #16a34a;overflow:hidden}
+.kw-block h2{display:none}
+.kw-inner{padding:2px 22px 18px}
+.kw-inner .kw-intro{font-size:.78rem;color:#475569;line-height:1.5;margin-bottom:14px}
 .kw-cols{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .kw-market{border:1px solid #e2e8f0;border-radius:6px;padding:12px 14px;background:#fafafa}
 .kw-market-header{font-size:.78rem;font-weight:700;color:#0f2942;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;gap:6px}
@@ -112,8 +118,9 @@ td.num{text-align:right;font-variant-numeric:tabular-nums}
   </div>
 
   <!-- Executive summary — automatycznie generowany z danych -->
-  <div class="summary">
-    <h2>Podsumowanie — kluczowe wnioski (12M)</h2>
+  <details class="summary">
+    <summary>Podsumowanie &mdash; kluczowe wnioski (12M) <span class="hint">kliknij żeby rozwinąć</span></summary>
+    <div class="summary-inner">
     <div class="summary-cols">
 
       <div class="summary-col">
@@ -135,11 +142,13 @@ td.num{text-align:right;font-variant-numeric:tabular-nums}
       </div>
 
     </div>
-  </div>
+    </div>
+  </details>
 
   <!-- Keywords used per marketplace -->
-  <div class="kw-block">
-    <h2>Słowa kluczowe użyte w analizie</h2>
+  <details class="kw-block">
+    <summary>Słowa kluczowe użyte w analizie <span class="hint">kliknij żeby rozwinąć</span></summary>
+    <div class="kw-inner">
     <p class="kw-intro">Dla każdego z czterech rynków wykonano 12 osobnych przeszukiwań w narzędziu Helium 10 X-Ray &mdash; po <strong>4 słowa kluczowe dla każdej z trzech form produktu</strong> (Cream / Wash / Oil). Wyniki zostały zmerge'owane per rynek, odduplikowane po ASIN i odfiltrowane do produktów z przychodem ≥€1 000 w ciągu ostatnich 30 dni. Poniżej pełna lista fraz &mdash; pozwala to zweryfikować, czy nie pominęliśmy żadnego istotnego kąta wyszukiwania.</p>
     <div class="kw-cols">
 
@@ -268,7 +277,8 @@ td.num{text-align:right;font-variant-numeric:tabular-nums}
       </div>
 
     </div>
-  </div>
+    </div>
+  </details>
 
   <!-- Charts -->
   <div class="charts-row">
