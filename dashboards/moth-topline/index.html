@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moth Control — International Markets (Skeleton)</title>
+<style>
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:#f1f5f9; color:#0f172a; }
+  .header { background:#0f2942; color:#fff; padding:18px 28px; }
+  .header h1 { margin:0; font-size:1.4rem; }
+  .header p { margin:4px 0 0; font-size:.85rem; opacity:.85; }
+  .container { max-width:900px; margin:32px auto; padding:0 24px; }
+  .empty-card { background:#fff; border:1px solid #e2e8f0; border-radius:10px; padding:32px; box-shadow:0 1px 3px rgba(15,42,66,.04); }
+  .empty-card h2 { margin:0 0 12px; font-size:1.1rem; color:#1e293b; }
+  .empty-card p { margin:0 0 16px; line-height:1.6; color:#475569; font-size:.92rem; }
+  .empty-card code { background:#f1f5f9; padding:2px 6px; border-radius:4px; font-size:.85rem; color:#0f172a; }
+  ol { padding-left:22px; line-height:1.7; }
+  ol li { margin-bottom:6px; color:#334155; }
+  .pill { display:inline-block; padding:2px 10px; border-radius:12px; background:#dbeafe; color:#1e40af; font-size:.7rem; font-weight:600; letter-spacing:.04em; text-transform:uppercase; margin-left:8px; vertical-align:middle; }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Moth Control — International Markets <span class="pill">Skeleton</span></h1>
+  <p>Topline dashboard placeholder · DE / FR / IT / ES (matches Atopic Skin layout)</p>
+</div>
+<div class="container">
+  <div class="empty-card">
+    <h2>No data loaded yet</h2>
+    <p>This dashboard is an empty skeleton copied from the Atopic Skin (dermo-products) topline build.
+       Drop the X-Ray CSVs and run the build script to populate it.</p>
+    <ol>
+      <li>Drop <code>Moth-DE.csv</code> into <code>data/x-ray/DE/</code> (and the same for FR, IT, ES)</li>
+      <li>Open <code>_build_topline.py</code> and update <code>SEGMENTS</code> to match the actual moth-control segments in your X-Ray (e.g. Pheromone trap, Sticky trap, Repellent)</li>
+      <li>Update <code>XRAY_LINKS</code> with the Google Sheet URLs (top-right header buttons)</li>
+      <li>Run <code>py _build_topline.py</code> from this folder to regenerate <code>index.html</code></li>
+    </ol>
+    <p style="margin-top:20px;font-size:.82rem;color:#64748b">Once data is in, this placeholder will be replaced by the standard topline view: market-by-market revenue/units, segment × market heatmap, top brands per segment, and X-Ray edit buttons in the header.</p>
+  </div>
+</div>
+</body>
+</html>
