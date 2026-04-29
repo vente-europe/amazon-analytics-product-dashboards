@@ -59,9 +59,9 @@ countries = [
 # X-Ray Google Sheet URLs shown as buttons in the header (one per country).
 # Replace '#' with the sheet URL once it's set up.
 xray_links = {
-    'DE': '#',
-    'FR': '#',
-    'UK': '#',
+    'DE': 'https://docs.google.com/spreadsheets/d/19JaQuJckuObXUGrUHWHhPrRzS3V6Um9qZqg2ct1jWLg/edit?usp=drive_link',
+    'FR': 'https://docs.google.com/spreadsheets/d/11oTRdP0EWlqbK18BorQdW2ATaLAbsCq65aut_g4bP9U/edit?usp=drive_link',
+    'UK': 'https://docs.google.com/spreadsheets/d/1cx3r5fZNXDVbh6lrZ0qkvmh4UG_dpee0f_wt77XBvxE/edit?usp=drive_link',
 }
 
 # Currency conversion to EUR. UK X-Ray prices are in £ · converted at build
