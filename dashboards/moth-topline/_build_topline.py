@@ -1,8 +1,8 @@
 """
-Buduje standalone index.html dla moth-topline (topline, 4 rynki DE/FR/IT/ES).
+Buduje standalone index.html dla moth-topline (topline, 5 rynków UK/DE/ES/FR/IT).
 
 SKELETON — skopiowany z dermo-products. TODO przed użyciem:
-  1. Wrzuć X-Ray CSV do data/x-ray/{CODE}/Moth-{CODE}.csv (4 rynki)
+  1. Wrzuć X-Ray CSV do data/x-ray/{CODE}/Moth-{CODE}.csv (5 rynków)
   2. Zmień SEGMENTS na właściwe segmenty rynku moli (np. Pheromone trap,
      Sticky trap, Spray, Cedar/Lavender repellent)
   3. Wpisz prawdziwe URL-e Google Sheets w XRAY_LINKS (obecnie '#')
@@ -16,12 +16,13 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 
-# Rynki w kolejności dominacji (DE największy, ES najmniejszy)
+# Rynki w kolejności wskazanej przez użytkownika: UK, DE, ES, FR, IT
 MARKETS = [
-    {'code': 'DE', 'name': 'Germany', 'name_pl': 'Niemcy',    'flag': '🇩🇪', 'color': '#2563eb'},
-    {'code': 'FR', 'name': 'France',  'name_pl': 'Francja',   'flag': '🇫🇷', 'color': '#0891b2'},
-    {'code': 'IT', 'name': 'Italy',   'name_pl': 'Włochy',    'flag': '🇮🇹', 'color': '#7c3aed'},
-    {'code': 'ES', 'name': 'Spain',   'name_pl': 'Hiszpania', 'flag': '🇪🇸', 'color': '#d97706'},
+    {'code': 'UK', 'name': 'United Kingdom', 'name_pl': 'Wielka Brytania', 'flag': '🇬🇧', 'color': '#dc2626'},
+    {'code': 'DE', 'name': 'Germany',        'name_pl': 'Niemcy',          'flag': '🇩🇪', 'color': '#2563eb'},
+    {'code': 'ES', 'name': 'Spain',          'name_pl': 'Hiszpania',       'flag': '🇪🇸', 'color': '#d97706'},
+    {'code': 'FR', 'name': 'France',         'name_pl': 'Francja',         'flag': '🇫🇷', 'color': '#0891b2'},
+    {'code': 'IT', 'name': 'Italy',          'name_pl': 'Włochy',          'flag': '🇮🇹', 'color': '#7c3aed'},
 ]
 
 # Segmenty do pokazania — TODO: zmień na rzeczywiste segmenty rynku moli
@@ -35,10 +36,11 @@ SEGMENT_COLORS = {
 
 # Linki do Google Sheets dla każdego rynku — TODO: wstaw prawdziwe URL-e
 XRAY_LINKS = {
+    'UK': '#',
     'DE': '#',
+    'ES': '#',
     'FR': '#',
     'IT': '#',
-    'ES': '#',
 }
 
 # Mnożnik 30d → 12M. Topline używa flat ×12 (prosty, bez sezonowości).
