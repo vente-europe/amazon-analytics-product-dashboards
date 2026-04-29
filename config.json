@@ -15,6 +15,13 @@
       "file": "index.html"
     },
     {
+      "id": "eu-wasp-analysis",
+      "title": "Wasp Traps (DE, FR, UK)",
+      "group": "detailed",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
       "id": "dermo-products",
       "title": "Atopic Skin (DE, FR, IT, ES)",
       "group": "topline",

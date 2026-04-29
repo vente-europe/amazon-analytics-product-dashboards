@@ -1,0 +1,3279 @@
+{
+  "totalReviews": 1405,
+  "avgRating": 3.12,
+  "starDist": [
+    401,
+    179,
+    156,
+    194,
+    475
+  ],
+  "cpSummary": "<b>1,405</b> reviews analysed across <b>9 Lure ASINs</b> in the FR market (BSI dominates with 3 SKUs and 672 reviews; Protecta, Mice&Co and Barrière à Insectes round out the top). Buyers are mostly <b>homeowners with a garden/patio</b>, with a strong presence of families looking for an <b>insecticide-free solution</b> around outdoor living spaces.",
+  "cpWho": {
+    "labels": [
+      "Homeowners",
+      "Garden/patio users",
+      "Parents with kids",
+      "Allergy sufferers",
+      "Restaurant/cafe owners",
+      "Beekeepers"
+    ],
+    "pos": [
+      34,
+      67,
+      4,
+      0,
+      14,
+      6
+    ],
+    "neg": [
+      63,
+      65,
+      0,
+      2,
+      14,
+      2
+    ]
+  },
+  "cpWhen": {
+    "labels": [
+      "Spring start",
+      "Summer peak",
+      "BBQ season",
+      "After spotting nest",
+      "Pre-emptive (before season)",
+      "End of season"
+    ],
+    "pos": [
+      180,
+      40,
+      2,
+      8,
+      1,
+      6
+    ],
+    "neg": [
+      236,
+      47,
+      1,
+      18,
+      0,
+      1
+    ]
+  },
+  "cpWhere": {
+    "labels": [
+      "Garden/patio",
+      "Balcon",
+      "Fruit trees",
+      "Outdoor dining",
+      "Near doors/windows",
+      "Eaves/overhang"
+    ],
+    "pos": [
+      35,
+      3,
+      8,
+      35,
+      13,
+      5
+    ],
+    "neg": [
+      31,
+      2,
+      1,
+      30,
+      8,
+      10
+    ]
+  },
+  "cpWhat": {
+    "labels": [
+      "Hanging trap with bait",
+      "Bait sachet",
+      "Reusable bell trap",
+      "Bottle trap",
+      "Disposable bag trap",
+      "Window sticky trap"
+    ],
+    "pos": [
+      3,
+      9,
+      2,
+      12,
+      0,
+      11
+    ],
+    "neg": [
+      10,
+      4,
+      5,
+      19,
+      1,
+      16
+    ]
+  },
+  "usageScenarios": [
+    {
+      "label": "Pre-emptive before summer",
+      "reason": "Set up early in the season to intercept founding queens.",
+      "pct": "30.0%"
+    },
+    {
+      "label": "Garden / pool protection",
+      "reason": "Hung in the garden or around the pool to reduce wasp pressure.",
+      "pct": "7.7%"
+    },
+    {
+      "label": "Patio meals and drinks",
+      "reason": "Placed near tables to enjoy outdoor meals without wasp harassment.",
+      "pct": "6.2%"
+    },
+    {
+      "label": "Fruit trees at end of season",
+      "reason": "Hung in apple, pear or fig trees to protect ripe fruit.",
+      "pct": "0.9%"
+    },
+    {
+      "label": "Apartment balcony",
+      "reason": "Compact format for balconies and small urban spaces.",
+      "pct": "0.4%"
+    },
+    {
+      "label": "Family with children",
+      "reason": "Insecticide-free solution placed near play areas.",
+      "pct": "0.3%"
+    }
+  ],
+  "csSummary": "Top frustration: <b>lack of efficacy</b>. Top strength: <b>very effective</b>. FR market expectations converge on quick visible results, selectivity (sparing bees), and discreet integration into the patio — fertile ground for a long-lasting gel-bait trap, sugar-free, in a sober hanging format.",
+  "negativeTopics": [
+    {
+      "label": "Doesn't catch wasps / ineffective",
+      "reason": "Many buyers report the trap catches no or very few wasps.",
+      "pct": "44.3%",
+      "bullets": [
+        "No wasps caught even after several weeks of exposure.",
+        "Wasps see the trap but don't enter it.",
+        "More effective for flies than for wasps, according to several reviews.",
+        "Disappointing compared to a DIY trap (bottle + syrup)."
+      ],
+      "quotes": [
+        "\"Not practical, not very effective... The product does not work well. Only caught 2 wasps in 3 months. On the other hand, the wasps turn...\"",
+        "\"Not effective. The item is not at all effective, installed for almost a week and no flies have been caught. I am very...\"",
+        "\"… FFET. Product without effect, after a week of installation, not a wasp inside, but continue to fly and drink nearby\"",
+        "\"Way too expensive for what it is. Terrible!!!! It really doesn't work well and leaves a foul smell all over the house\""
+      ]
+    },
+    {
+      "label": "Attracts the wrong insects",
+      "reason": "Attracts flies, gnats, bees or hornets instead of wasps.",
+      "pct": "42.0%",
+      "bullets": [
+        "Lots of flies and gnats trapped instead of wasps.",
+        "Real risk for bees, which end up trapped.",
+        "A few cases of hornets caught — useful but also dangerous.",
+        "Misleading if you're looking for a wasp-specific trap."
+      ],
+      "quotes": [
+        "\"ineffective. I tested the product not even a fly in it I went back to a homemade mixture and the hornets, wasps. filled\"",
+        "\"Effective but!. 100% effective on green flies, but I still have so many little black flies inside... From...\"",
+        "\"Complaint. Hello, I tried this fly trap which doesn't work at all... I'm very disappointed... And what's more, it doesn't smell...\"",
+        "\"Not effective as expected. Just a few midges in the trap equipped with the bait supplied with it, when at 1m50 I had installed e...\""
+      ]
+    },
+    {
+      "label": "Bad smell",
+      "reason": "Bait smell rated nauseating or unbearable near living spaces.",
+      "pct": "7.1%",
+      "bullets": [
+        "Very strong smell that prevents enjoying nearby areas.",
+        "Fermented-sugar smell hard to tolerate on the patio.",
+        "Smell of decomposing wasps after a few days.",
+        "Needs to be kept away from windows and the dining table."
+      ],
+      "quotes": [
+        "“… hes but does not prevent some from entering the house, nauseating smell which requires keeping it away therefore necessarily less effective”",
+        "“…cat loves it. And then, hang on to empty the stinking liquid and the cloud of slimy flies. Avoid before a meal”",
+        "\"Evaluation of the fly trap product. Bad. The product stinks and the flies divert the bottle. I regret having bought it\"",
+        "“To work it works, BUT horrible smell!. So, yes, it traps flies on the terrace, but the smell is nauseating…”"
+      ]
+    },
+    {
+      "label": "Overpriced",
+      "reason": "Price rated excessive given the results delivered.",
+      "pct": "3.4%",
+      "bullets": [
+        "High price for the amount of bait included.",
+        "Combined cost of refills + trap rated excessive over the season.",
+        "Compared to a DIY bottle trap, the price/result ratio disappoints.",
+        "Several buyers find the price/efficacy gap too wide."
+      ],
+      "quotes": [
+        "\"Effective but consumable too expensive. Very effective but I remove 2 stars because of the price of the sachets which is exce...\"",
+        "\"… stalled only a few centimeters away. Big disappointment! Scam? Have there been any tests carried out to show the effectiveness of this product?\"",
+        "“Good but much too expensive in terms of price/effectiveness. In 2 identical traps placed at the same e…”",
+        "\"… lying, no response to all my complaints, scam, and after-sales service ???? So disappointed by your silence, you have the m...\""
+      ]
+    },
+    {
+      "label": "Weather durability",
+      "reason": "Discolouration, breakage or efficacy loss after rain, sun or wind.",
+      "pct": "3.1%",
+      "bullets": [
+        "Colour yellows or plastic cracks after a few weeks in the sun.",
+        "Wind knocks over the ground-standing models.",
+        "Rain dilutes the liquid bait and reduces efficacy.",
+        "Durability limited to one season for many users."
+      ],
+      "quotes": [
+        "\"Disappointed!. For a product that customers find perfect, I can say that this is not my case. I work in my garden 5 …\"",
+        "\"… this product works but in the middle of summer with the heat the smell is horrible! The feeling of being in a landfill\"",
+        "\"…this. Tested in Portugal in November is this the lack of strong heat 23 to 24 but we found the product moderately effective\"",
+        "“… fills you up. attracts flies, so a swarm of flies come from everywhere, a lot more than usual is horrible to empty”"
+      ]
+    },
+    {
+      "label": "Trap design",
+      "reason": "Hard to clean, fragile, leaks or complicated assembly.",
+      "pct": "1.9%",
+      "bullets": [
+        "Hard to clean once filled with dead wasps.",
+        "Plastic too thin, breaks during assembly or use.",
+        "Attractant liquid leaks and stains the patio.",
+        "Closing system inconvenient when emptying the trap."
+      ],
+      "quotes": [
+        "“The idea is good, my cost is too fragile.. The idea of ​​having a big container is good, perched on the single bottle in…”",
+        "\"lamentable.... The manufacturing of this item is very poorly designed and its use is very complicated. The tutorials are proof of this. Highly decorative...\"",
+        "\"… very very strong!. Product received with part of the lid broken. However, this does not affect its very basic operation. The …\"",
+        "\"... absolutely, the tank does not hold on to the lid and breaks when dropped: camel. we have just received the items in very good condition. Filled...\""
+      ]
+    },
+    {
+      "label": "Bait dries out",
+      "reason": "Bait dries out or crystallises quickly, losing its attractiveness.",
+      "pct": "1.0%",
+      "bullets": [
+        "Liquid bait evaporates within days in hot weather.",
+        "Sugar crystallisation blocks the trap entrance.",
+        "Refills needed far more often than advertised.",
+        "Hidden cost: refills add up over the season."
+      ],
+      "quotes": [
+        "\"I'm still looking for the usefulness. The product evaporates and no wasps in the trap... After changing its place several times...\"",
+        "“… èges (purchased from Amazon) and absolutely nothing. The product evaporates very quickly. I prefer the formula that I make with beer, gren syrup…”",
+        "\"Evaporates quickly. Hello, this product evaporates very quickly and attracts ants, it is ineffective\"",
+        "“… us. I wait until the summer months to reapply the product which evaporates quite quickly”"
+      ]
+    },
+    {
+      "label": "Arrived damaged",
+      "reason": "Product received broken, cracked or damaged in transit.",
+      "pct": "0.7%",
+      "bullets": [
+        "Traps received broken or cracked on opening the package.",
+        "Packaging too flimsy to protect a thin-plastic product.",
+        "Bait liquid spilled during transit.",
+        "Returns/refunds sometimes complicated to obtain."
+      ],
+      "quotes": [
+        "\"Jars blocked. I have just received the package delivered very quickly. Big disappointment: the 2 containers are nested one in the ...\"",
+        "\"a little upset about this setback when I opened the package. The bottle was punctured and leaked everywhere. I have the impression that the product...\"",
+        "\"Product poorly packaged. I received the package but with the broken lid I could do better in terms of packaging\"",
+        "“…to say about the product itself However, it arrived damaged and the bottle was leaking😡”"
+      ]
+    }
+  ],
+  "negativeInsights": [
+    {
+      "type": "Promesse",
+      "badgeBg": "#fee2e2",
+      "badgeColor": "#991b1b",
+      "finding": "44.3% of negative reviews say the trap 'catches nothing' or attracts no wasps — top dissatisfaction driver on the FR market.",
+      "implication": "Over-communicate the priming time (5–10 days to saturate the bait with scent) and state realistic coverage (~20 m²) to align expectations pre-purchase."
+    },
+    {
+      "type": "Sélectivité",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "42.0% of complaints are about attracting other insects — especially flies and bees, a very French friction point.",
+      "implication": "Lead with a 'sugar-free/honey-free' bait (protein- or pheromone-based) and clearly state 'does not trap bees' on the hero image — differentiating argument on this market."
+    },
+    {
+      "type": "Conception",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9f1239",
+      "finding": "1.9% mention a fragile trap, leaks or hard to clean (BSI and regional brands targeted).",
+      "implication": "Invest in a hermetic screw-off emptying system and a French photo guide. Whitespace versus the 3 dominant BSI ASINs (672 reviews) that suffer from this recurring complaint."
+    },
+    {
+      "type": "Appât",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#854d0e",
+      "finding": "1.0% complain the bait dries or crystallises — hidden refill cost.",
+      "implication": "Offer a long-lasting gel bait (8 weeks guaranteed) or multi-season refill at calibrated pricing, entry point for building a recurring relationship."
+    },
+    {
+      "type": "Odeur",
+      "badgeBg": "#e0e7ff",
+      "badgeColor": "#3730a3",
+      "finding": "7.1% report an unbearable smell near the table or windows — direct friction with the 'patio dining' use case.",
+      "implication": "Launch a 'masked-odour' version (sealed capsule, controlled diffusion) and recommend placement distances in the product description to avoid this disappointment."
+    },
+    {
+      "type": "Intempéries",
+      "badgeBg": "#cffafe",
+      "badgeColor": "#155e75",
+      "finding": "3.1% report degradation after rain or UV exposure (yellowing, breakage).",
+      "implication": "Communicate a 'whole season' warranty (June → September) and use UV-stabilised plastic. 'Weather-resistant' label highly expected by FR buyers."
+    }
+  ],
+  "positiveTopics": [
+    {
+      "label": "Very effective",
+      "reason": "Catches many wasps quickly, sometimes within days.",
+      "pct": "53.5%",
+      "bullets": [
+        "Traps fill within days of being set up.",
+        "Clear reduction in wasps around outdoor meals.",
+        "Works particularly well in mid-summer and BBQ season.",
+        "Many buyers order a second trap after trying it."
+      ],
+      "quotes": [
+        "\"FLY TRAP. THIS FLY TRAP IS VERY EFFECTIVE ON THE PATH BUT NOT NEXT TO THE WINDOWS SMELL OF INFECTION\"",
+        "“Reported as being reusable. Effective product, reported as being reusable but unfortunately impossible to find refills…”",
+        "“Ideal for capturing hornets. Very effective for capturing hornets. I made a mixture of white wine and spawn syrup…”",
+        "\"Bottle, great! But refills not effective..... Extremely effective product, which must be placed away from places where you...\""
+      ]
+    },
+    {
+      "label": "Perfect for outdoor use",
+      "reason": "Perfectly suited for the patio, garden, around outdoor meals.",
+      "pct": "11.7%",
+      "bullets": [
+        "Perfect hung from a tree or under a pergola.",
+        "Heavily used around patio meals and by the pool.",
+        "Appreciated by fruit-tree owners at end of season.",
+        "Highly praised for BBQs and outdoor drinks."
+      ],
+      "quotes": [
+        "“… remember to keep it away from your dining areas or garden furniture because it attracts flies and it has a strong odor (hence the 4*).”",
+        "\"Attractive. Super attractive used in the garden next to the summer kitchen and the dining table attacked by lots of Asian hornets...\"",
+        "\"Super effective. Product used for the terrace of a restaurant! It captured all the pests! RAS You can go there as soon as...\"",
+        "\"…and white wine). Easy to install, easy to attach to a tree, and easy to clean: they empty like a bucket. I recommend\""
+      ]
+    },
+    {
+      "label": "Safe for kids & pets",
+      "reason": "Non-toxic, insecticide-free solution, reassuring around children or pets.",
+      "pct": "5.2%",
+      "bullets": [
+        "Reassuring solution with children or pets nearby.",
+        "No insecticide sprayed into the ambient air.",
+        "Preferred over sprays by families.",
+        "Suited to gardens visited by dogs and cats."
+      ],
+      "quotes": [
+        "\"… rs. On the other hand, the smell is similar to that of a decomposing animal corpse. So keep it away from the kitchen!\"",
+        "“Complementary bait to fly traps, a killer. Purchase made after testing the fly trap. I do not regret my purchase in any way. …”",
+        "\"Effective product. ecological and efficient product No unpleasant surprises when using except not putting …\"",
+        "\"... supplied with and above all especially that the cap does not have child safety..... while there are notches on the neck... incomprehensible\""
+      ]
+    },
+    {
+      "label": "Easy to use",
+      "reason": "Simple assembly and installation, ready to use in minutes.",
+      "pct": "3.7%",
+      "bullets": [
+        "A few minutes is enough to assemble and hang it.",
+        "No tools needed, clear instructions.",
+        "Quick refill/emptying from one season to the next.",
+        "Works even for users who've never used a trap."
+      ],
+      "quotes": [
+        "\"Very good product!. Not too strong scent. Practical to use with the insect trap. Very effective on wasps and large …\"",
+        "\"… good material - simple and functional.. Perfect for us. Easy to assemble and install. We are eagerly awaiting arrivals!\"",
+        "\"… ctes present in the pot! Very resistant to the wind and very practical, we only refilled it once. The water does not enter. We are delighted\"",
+        "\"Great product 👍. The results are incredible. Easy to use. Gives off a strong odor but super effective\""
+      ]
+    },
+    {
+      "label": "Discreet design",
+      "reason": "Sober or decorative appearance that fits in well on the patio or in the garden.",
+      "pct": "3.3%",
+      "bullets": [
+        "Discreet look that fits in well on a patio or balcony.",
+        "Compact hanging format, barely visible from a distance.",
+        "Several decorative models rated prettier than a DIY bottle trap.",
+        "Particularly appealing to those who want a visible but tasteful product."
+      ],
+      "quotes": [
+        "\"…s of all the flies it's impossible...but you'll have a lot less of them...but don't place it too close to you!! it stinks\"",
+        "\"…Very effective Doesn't always smell very good Is not super aesthetic But it works! So the little drawbacks are quickly forgotten\"",
+        "“… effective in a few days the flies are in the box Much less in the house. I really recommend”",
+        "\"...and flies. Very good for wasps and I also had a lot of flies. I'm going to buy a second one for the back of the house because the first...\""
+      ]
+    },
+    {
+      "label": "Long-lasting",
+      "reason": "The trap or bait lasts several weeks, sometimes the whole season.",
+      "pct": "1.8%",
+      "bullets": [
+        "Lasts the whole summer season without intervention.",
+        "Withstands several weeks of outdoor exposure.",
+        "Reusable model from year to year with a simple refill.",
+        "Bait effectiveness duration appreciated compared to other brands."
+      ],
+      "quotes": [
+        "“Wasp and hornet trap. Good capacity, solid despite the plastic material, very effective with 200ml dark beer + 200ml wine…”",
+        "\"Perfect. Large volume and very resistant. Wasps, flies etc. come in without any problem, of course with a good product...\"",
+        "“Reported as being reusable. Effective product, reported as being reusable but unfortunately impossible to return…”",
+        "“… get stung. Especially since it nests in the barbecue. Nb: solid with the wind of more than 112km/h that we had”"
+      ]
+    }
+  ],
+  "positiveInsights": [
+    {
+      "type": "Force #1",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "53.5% of 4-5★ reviews praise real-world efficacy, often with photos of full traps.",
+      "implication": "Capitalise on UGC photos ('before/after', 'trap full in X days') in A+ images and PPC. Over-index on visual proof — it's the #1 trigger on the FR market."
+    },
+    {
+      "type": "Onboarding",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "3.7% praise the simplicity of installation — a cross-brand strength of BSI, Protecta, Mice&Co.",
+      "implication": "Keep 'ready to use' as bullet 1, add a 30-sec mini-tutorial video as image 7 to amplify this already-positive signal."
+    },
+    {
+      "type": "Sécurité",
+      "badgeBg": "#cffafe",
+      "badgeColor": "#155e75",
+      "finding": "5.2% reassure about the absence of insecticide, a key purchase driver among French families.",
+      "implication": "Lead with an 'insecticide-free' / 'family-friendly' badge on the hero image. Storytelling around children playing in the garden protects against churn."
+    },
+    {
+      "type": "Durée",
+      "badgeBg": "#fef9c3",
+      "badgeColor": "#854d0e",
+      "finding": "1.8% confirm the trap lasts the whole season.",
+      "implication": "Clearly promise '1 trap = 1 season' with a calendar icon in the images. Reassures on ROI versus the weekly DIY trap."
+    },
+    {
+      "type": "Usage",
+      "badgeBg": "#ede9fe",
+      "badgeColor": "#5b21b6",
+      "finding": "11.7% detail patio/garden/outdoor-meal use — deeply rooted in French culture.",
+      "implication": "Build lifestyle visuals around these 3 scenes (set table, summer garden, pergola). The US/UK market doesn't have the same attachment to outdoor dining."
+    },
+    {
+      "type": "Design",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9d174d",
+      "finding": "3.3% appreciate a discreet design, a differentiating signal versus DIY bottle traps.",
+      "implication": "Test a terracotta or sage-green colourway in the range: premium niche underserved by BSI/Protecta, aligned with the aesthetic sensibility of FR patio buyers."
+    }
+  ],
+  "buyersMotivation": [
+    {
+      "label": "Seasonal control",
+      "reason": "Anticipating the summer season or reacting to a local invasion.",
+      "pct": "7.3%"
+    },
+    {
+      "label": "Recommended / previously tried",
+      "reason": "Bought on recommendation from family/friends or repurchase of a previously successful product.",
+      "pct": "3.0%"
+    },
+    {
+      "label": "Alternative to DIY traps",
+      "reason": "Looking for a ready-to-use product rather than the classic bottle + syrup.",
+      "pct": "2.8%"
+    },
+    {
+      "label": "Protect children / pets",
+      "reason": "Concern about stings on children or pets in the garden.",
+      "pct": "2.6%"
+    },
+    {
+      "label": "Enjoying the outdoors in peace",
+      "reason": "Being able to eat outside, garden or entertain without wasp harassment.",
+      "pct": "0.9%"
+    },
+    {
+      "label": "Insecticide-free solution",
+      "reason": "No desire to spray chemicals near children, pets or food.",
+      "pct": "0.6%"
+    }
+  ],
+  "customerExpectations": [
+    {
+      "label": "Weather resistance",
+      "reason": "Withstand sun, rain and wind throughout the summer season.",
+      "pct": "11.8%"
+    },
+    {
+      "label": "Immediate visible capture",
+      "reason": "Buyers expect to see wasps trapped within hours to days.",
+      "pct": "3.3%"
+    },
+    {
+      "label": "Wasp-only selectivity",
+      "reason": "Strong desire that the trap doesn't catch flies, bees or hornets.",
+      "pct": "2.8%"
+    },
+    {
+      "label": "Easy cleaning",
+      "reason": "Emptying and rinsing the trap must stay quick and contact-free with dead insects.",
+      "pct": "1.1%"
+    },
+    {
+      "label": "Visual discretion",
+      "reason": "Must blend into the patio or garden without being too conspicuous.",
+      "pct": "0.8%"
+    },
+    {
+      "label": "Long-lasting bait",
+      "reason": "Bait must last several weeks without refill, even in hot weather.",
+      "pct": "0.2%"
+    }
+  ],
+  "themeFilters": [
+    {
+      "value": "no_efficacy",
+      "label": "🔴 Doesn't catch wasps / ineffective"
+    },
+    {
+      "value": "attracts_wrong",
+      "label": "🔴 Attracts the wrong insects"
+    },
+    {
+      "value": "bait_dries",
+      "label": "🔴 Bait dries out"
+    },
+    {
+      "value": "bad_design",
+      "label": "🔴 Trap design"
+    },
+    {
+      "value": "smell_bad",
+      "label": "🔴 Bad smell"
+    },
+    {
+      "value": "overpriced",
+      "label": "🔴 Overpriced"
+    },
+    {
+      "value": "shipping_damaged",
+      "label": "🔴 Arrived damaged"
+    },
+    {
+      "value": "weather",
+      "label": "🔴 Weather durability"
+    },
+    {
+      "value": "effective",
+      "label": "🟢 Very effective"
+    },
+    {
+      "value": "easy_use",
+      "label": "🟢 Easy to use"
+    },
+    {
+      "value": "safe_kids_pets",
+      "label": "🟢 Safe for kids & pets"
+    },
+    {
+      "value": "design_good",
+      "label": "🟢 Discreet design"
+    },
+    {
+      "value": "value",
+      "label": "🟢 Good value for money"
+    },
+    {
+      "value": "bait_good",
+      "label": "🟢 Bait works"
+    },
+    {
+      "value": "lasts_long",
+      "label": "🟢 Long-lasting"
+    },
+    {
+      "value": "outdoor_use",
+      "label": "🟢 Perfect for outdoor use"
+    }
+  ],
+  "tagStyles": {
+    "no_efficacy": "pill-red",
+    "attracts_wrong": "pill-orange",
+    "bait_dries": "pill-amber",
+    "bad_design": "pill-rose",
+    "smell_bad": "pill-purple",
+    "overpriced": "pill-pink",
+    "shipping_damaged": "pill-red",
+    "weather": "pill-cyan",
+    "effective": "pill-green",
+    "easy_use": "pill-blue",
+    "safe_kids_pets": "pill-teal",
+    "design_good": "pill-violet",
+    "value": "pill-yellow",
+    "bait_good": "pill-lime",
+    "lasts_long": "pill-emerald",
+    "outdoor_use": "pill-indigo"
+  },
+  "reviews": [
+    {
+      "r": 1,
+      "t": "Totally ineffective trap and/or bait. (item received on 5/6 and directly installed). The wasps pass by the trap, sometimes circle around it, but none deign to enter. In 5 days, 4 harmless midges measuring 3 mm drowned. Unless factually demonstrated to the contrary, I strongly advise against the purchase of this item.",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "bad_design",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Pass your turn!. After 1 week of use: in fact it attracts all the flies in the neighborhood, we had to wait 3 days for the flies to be attracted. I confirm the nauseating smell of putrefaction (fish, trash, sewers, etc.) it starts as soon as the flies start to get trapped, having \"only\" 80m2 of outdoor space, even installed at the bottom of the garden the smell invades you 🤮 So perfect fly attraction after a few days but regarding the usefulness near your place of meal, aperitif or animal food, to be avoided! Your guests will flee before the...",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work.... I made exactly the mixture indicated on the bottle. It's no use. I had a window invaded by flies at the store, I left the container right in the middle of the flies. The twentysomethings gravitated around for the rest of the day without ever being attracted by the product. As for the same wasps, another container hanging near a nest, they don't go there at all. It's been 4 days since everything was in place, there are still so many wasps and flies bothering us, and nothing in my traps... I'm going to put the good homemade stuff back in the confit vase...",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "product to absolutely avoid, the tank does not hold on to the lid and breaks when dropped: camel. we have just received the items in very good condition. Filling the 1st with water and sugar to the required level: the tank fell and broke. 2nd tank the same, taking care that the lid is screwed on tightly: the whole thing hangs on a peg outside, everything looks ok!... except that, 1/2 hour later, we realize that the second tank has also failed! : by the lid I mean, that means that it does not resist the weight of the water, even without wind! We are not…",
+      "tags": [
+        "bad_design",
+        "weather",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffectiveness. Very unfortunate. The product purchased in a garden center was very very effective. The one ordered from Amazon must certainly have had a change in manufacturing because the one purchased in a garden center the liquid was white and the one received was pink purple. What happened??? Still, it doesn't attract anything at all Placed in the same place Why did you change the manufacturing?,,,, If by the end of the month there are no critters I will return the other two bottles Too bad because it was very very very effective",
+      "tags": [
+        "no_efficacy",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective liquid for me. Installed wasp traps: one next to their water point, another on a nearby tree. The wasps have passed by the traps dozens of times. The liquid had completely evaporated and no wasps were in the trap! I added water, syrup and wine vinegar, and there the traps filled. I probably have drunken and diabetic wasps! In short, useless for me",
+      "tags": [
+        "no_efficacy",
+        "bait_dries",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not attractive at all! Lots of wasps and hornets since the start of summer, they arrive at the table in no time but don't care about this \"attractant\"!!! However, I installed 2 traps, one high up in a big house invaded by these undesirables and 1 other on a table.... Not a single insect trapped... For the price of the attractant it's annoying!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not effective on hornets. For the moment this product is completely ineffective. I've been outside for 5-6 days to attract two large hornets. But nothing can be done, they don't even come close... I managed to catch two or three wasps... What a great deal! For the moment, I am very disappointed with the effectiveness of this product on hornets.",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Design to be reviewed: ineffective lid and separation. Hello, It took me more than 10 minutes to separate the two buckets, despite the sheet of paper inserted. Then, when I tried to attach the trap to a branch, it opened in two (the lid of the bucket came off), and all my bait fell to the ground, splashing. The lid closing system is not at all reliable and deserves to be reviewed, as does the sheet of paper, which does not seem to do much to facilitate the separation of the two buckets",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "INEFFECTIVE. I obviously bought the liquid product that goes with it and nothing worked. I hung it in the way of the wasps coming and going, and ........... nothing except one poor unfortunate woman who must have fallen into it by chance. I called on a professional, ultimately the intervention is not that expensive compared to the price of this accessory with the product",
+      "tags": [
+        "no_efficacy",
+        "weather",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "The product is ineffective. No, ineffective, false advertising, no response to all my complaints, scam, and after-sales service???? So disappointed by your silence, you have the monopoly on nothing to do with one customer among so many other unhappy ones.😡😡😡",
+      "tags": [
+        "no_efficacy",
+        "overpriced",
+        "weather",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Bad product: does not work at all on wasps. This product does not work on wasps at all. We installed the product in the container of the same brand provided for this purpose. It doesn't attract any wasps! Wasps continue to come to our plates but do not even seem attracted to this product installed only a few centimeters away. Big disappointment! Scam? Have there been any tests carried out to show the effectiveness of this product?",
+      "tags": [
+        "no_efficacy",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Formula changed. The formula has changed since last year. I ordered exactly the same product as last year which was devilishly effective. The product has practically no effect, practically zero flies, zero wasps. In short, extremely disappointed…",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It doesn't work for me. Not even a star. No insects, not even a gnat! I placed this product in different traps (purchased from Amazon) and absolutely nothing. The product evaporates very quickly. I prefer the formula that I make with beer, grenadine syrup and white wine and above all it doesn't cost me that much!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "bait_dries"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It really doesn't just kill flies, a danger for biodiversity. Unlike another from another brand that I bought and which only selects flies, this one has an entry hole that is too big and kills a lot of beetles and others, it is a real threat to biodiversity (here I had just added water, but unlike the other which was filled with flies, this one is filled with beetles)",
+      "tags": [
+        "attracts_wrong",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "ineffective. totally ineffective, we are in the countryside surrounded by fields, and a lot of flies this year again, full of them in the house, the garage, the workshop, none of them have visited the traps!! . waste of money",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "absolutely no effectiveness. In an area where with a small trap and another product I was constantly capturing, I bought 2 larger traps I installed one with this product, no capture so I installed the second trap right next to it with the old product After 3 days the difference is very clear as you can see in the photos no catch with the k-pro product This product is a scam",
+      "tags": [
+        "no_efficacy",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not effective at all.. Not effective at all. Tested for several months alternating with another solution. Results: a few wasps and flies captured with this one compared to dozens/hundreds with another product",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Wasps blah blah... extraordinary flies. Doesn't work at all... I ordered it following the good comments and also because I had the one for flies which works very well..just the smell of death. but no wasps in this one, just moths.. ... after 1 week of installation",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "frustrating and impossible to use. The plastic containers are completely stuck together, impossible to separate. Why not put some packaging between the two? I spent 1 hour trying to separate them but they won't budge. I tried with hot water on the outside, ice on the inside, trying to pour water between the 2 containers, nothing worked. I'm going to have to return them, which is very annoying because I have a big wasp problem in my garden",
+      "tags": [
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective product. Mediocre product. In the same place I posted several traps with different formulas including KPRO. The recipe with syrup, beer and wine trapped 50 hornets in a week While the K-pro over the same period only trapped 3, plus a butterfly and flies. To be banned!!!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Scam. The wasps around my pool were absolutely not attracted to this product, contrary to the seller's arguments. This really seems to be a total scam like many products of this type sold commercially to scare away or lure wasps into a trap. So avoid",
+      "tags": [
+        "overpriced",
+        "design_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "NULL. Ineffective product, ten days since it was installed and no flies or anything else has been attracted with this product: saying = you don't catch flies with vinegar... And what's more with a high price",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "overpriced",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "product that also attracts bees, be careful. In order to trap hornets and wasps, I wanted to try this product. It doesn't work any better than the traditional mixture of beer, wine and grenadine syrup, but the worst part is that it also attracts bees! Whereas the traditional mix does not attract them. Since it traps bees, I strongly advise against this product",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "ridiculous. no funzionadata:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzgiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzOCAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3Jn LzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0xMy41MDcgMTIuOTQ3TDEzLjc5ODQgMTIuOTE5OEwxMy45MTczIDEyLjY1MjRMMTguOTk4IDEuMjMwMDhMMjQuMDgwNyAxMi42NTI1TDI0LjE5OTc gMTIuOTE5OUwyNC40OTEyIDEyLjk0NzFMMzYuNzk0IDE0LjA5MjhMMjcuMzY4NCAyMi4zNDk3 TDI3LjE0MTcgMjIuNTQ4M0wyNy4yMTE0IDIyLjg0MTVMMzAuMTAxNiAzNC45ODkxTDE5LjI1M zYgMjguNzQ4M0wxOS4wMDQyIDI4LjYwNDhMMTguNzU0OSAyOC43NDgzTDcuOTM0NDEgMzQuOTc1NUwxMS4wMzE2IDIyLjg0OTVMMTEuMTA4NiAyMi41NDhMMTAuODcyMSAyMi4zNDU4TDEuMjI…",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Null !!!!!. Null!!!!! Completely ineffective against flies!!!! It has been in place for 2 weeks and 1 fly must have fallen on it by chance. To flee!! At the same time a product with 46% discount even though it's the time of year when we are invaded by these pests I should have thought twice about it",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Total inefficiency. No effectiveness purchased for four days set up in full sun in different locations. Flies go everywhere, except in the BSI don't buy it. It's not worth anything at all. I'm super disappointed not even a fly catch Buy our product but not this one",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "weather"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "no questionable product taken. I bought this product thinking it would work. Unfortunately the verdict. After a week of zero catches, I live in the countryside and usually with the traditional method of beer, strawberry or blackcurrant syrup I catch a lot so don't spend your money unnecessarily. In any case for me zero results, I do not recommend this product",
+      "tags": [
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No wasps or hornets, but flies by the hundreds. Buy specially for wasps, none catch but flies by the hundreds and given the smell it gives off I think it's normal, we don't catch wasps with that! ! ! Product to avoid..... I advise against the purchase!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective. Useless. Useless. I respected the dosage and no wasps unlike my other trap with beer syrup and white wine. Expensive purchase for no effectiveness",
+      "tags": [
+        "no_efficacy",
+        "overpriced",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Totally ineffective. Totally ineffective product After 4 days no fly wasps have been captured in the BSI trap even though there is a large wasp nest less than 3 meters from the trap The dosage of the product has been completely respected according to the manufacturer's instructions",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Nullllll. Tested and not approved at all. A disaster. It didn't work. I followed what was asked to the letter. Even the flies laugh. So I specify, I have fields next to my house, so the flies take refuge in my house in the summer. There aren't many but even that, your pro***t didn't work. I request a refund. And I don't recommend",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work at all, move on. Absolutely doesn't work. Trap set up for 24 hours and the flies are not interested in it at all... I haven't caught or attracted any... move on, it's completely useless... nothing beats the good old swatter or the sticky strip... I'm really disappointed with this product... I don't recommend it at all",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Less effective than last year. This is the 2nd year I have purchased this product. The 1st year the product was much more concentrated and thicker. He was very efficient. This year the product is very clear and attracts wasps much less. I am very disappointed",
+      "tags": [
+        "no_efficacy",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Disappointed. Disappointed, I had the basic fly trap which worked really well, so I said to myself that this one too, but not at all.. it catches nothing other than a few midges *I modify my comment* to say that the trap actually captured an Asian hornet, but that the latter managed to escape, so that proves the effectiveness of the trap...",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "To finish!!. A big piece of crap installed for 4 days and a fly installed it inside and outside, nothing frankly, don't lose your money and don't buy this item, you should be satisfied or refunded to avoid this kind of scam",
+      "tags": [
+        "attracts_wrong",
+        "overpriced",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. 5 days in place a fly caught They land on it and leave I have lots of flies It stinks in the house but no effect yet I respected the dosage and placed it at 2 m high as requested I strongly advise against",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "smell_bad"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Poor. D-2 of its installation…. And what can I say, other than ineffective as possible!!!!!!!! 0 flies inside, while there are lots of flies flying nearby. A good old-fashioned sticky tape is a thousand times more effective. I would have liked to be reimbursed",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective. Totally ineffective, lots of flies present. Installed for over 48 hours and still no flies attracting. Useless product",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Failure!. This works well if you place the trap outside the house. But inside, it didn’t attract any flies! In 2 days the product inside smelled like rot. Impossible to keep in the house. Brief failure for me",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Totally ineffective. Tested for a whole week on 2 wasp/hornet traps, 3 flies and 2 moths in total. I added beer, 24 hours later, about ten wasps and hornets in each trap. Given the price, buy beer 🍺",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No ricomprei. However, there is always the birth without due container and, however, it is not necessary to control the wear and tear, otherwise the product will be damaged. The green part of the male: if it does not fit on any edge, it is a little bit bigger than that (see photo). The bottom of the bottle is not combaciano with the bottle, but it must be used to dry the water inside, and there is a foot inside and the other side does not...meglio the bottle is in 1.5 liters and the tap is in the Tap-Trap bottle and it is always valid.",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Ineffective for my taste. After all the advertisements which seemed super effective on Tik Tok I let myself be tempted... it's been hanging for three days... there are three wasps in it and no flies yet I'm invaded by flies!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Absolutely ineffective. Absolutely ineffective! I am not returning the product because the bait sachet was used but not a single midge was captured... I live in an apartment with many flies... therefore a product to avoid!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless, doesn't work, not even a fly.... Useless, doesn't work, not even a fly... You have to follow the instructions carefully, the product needs to be diluted and renewed quite often.... if only it worked",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "weather"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Blah blah delivery. And the packaging is not great. No bin fits one into the other and very very very difficult to undo on top of that super late delivery to finally arrive late! Product reimbursed by Amazon in terms of effectiveness I can't say but the pot is a little big for my taste. In addition to this it is indicated that there is a book with it if I understood correctly from the photo but I did not have it with",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Null.. Nulisime. Used in 2 traps the result is very bad. Using syrup and beer, it will be much cheaper and the result will be nothing to compare. The third photo illustrates the result with fly bait",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective. I set a trap with this bait and another with apple juice and beer at the same time, I didn't catch anything with the bait, and I had a few wasps and hornets with the homemade mixture. Completely unnecessary expense",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective. Wasps absolutely do not come into the bottle and are always in the garden. Purchase for nothing I do not recommend",
+      "tags": [
+        "no_efficacy",
+        "effective",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "DOES NOT WORK. I bought this product because we have a lot of hornets and wasps. I installed them near a corner of the garden where they are. Unfortunately, this trap catches FLIES but not hornets",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "POOR, DOES NOT WORK!!!. No good, with a similar product, in 2 days my trap was full of wasps and hornets. With this product in the same trap, in one week I caught 3 flies... No, don't buy!!!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective. I don't understand all these bombastic comments. For my part, no effect. Already 70 hours and nothing convincing. Proof... the flies settle quietly on the traps and go about their lives",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective inside a house.. The trap is totally ineffective inside a house, 5 flies inside in 4 days. After 3 days the traps give off a smell of putrefaction that makes you vomit",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Zero effectiveness for my case. Useless, doesn't work at all. Zero hornets after several days. Does not compare with an equivalent from the DIY store: around thirty hornets (common and Asian) caught in two days... Perhaps the composition is not suitable for the local hornets",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Totally ineffective product. Product poured into the trap 3 weeks ago: 2 flies and 1 mosquito while wasps are very present. Completely useless attractant. Feeling like I've been fooled",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Totally ineffective. Doesn't attract anything at all, dosed in half the bottle as said for the low season, in 2 weeks I had 3 flies while dozens of wasps wandered around on the table without being attracted to them...",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective! Shameful for the price!!!!. Ineffective!!! 2 traps placed next to a wasp's nest And the other next to a hornet's nest and after 2 weeks 0 corpses inside!!!! A shame for the price!!!!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No use. It's bogus, sugar and vinegar are very expensive... does NOT attract the many flies in my house Crumbs of old tuna or old ham work much better",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Absolutely does not attract flies. How is it possible to read all these comments saying that this trap is a good product. In one week of use, zero flies caught. They fly around but are absolutely not attracted. I'll put some fruit and water in it and it will work much better. But hey I could have done it with a plastic bottle for zero euros…",
+      "tags": [
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective and useless products. It doesn't work, I have all the hornets circling the trap but not a single one that fits in, ineffective product, I'm asking for a refund",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Disappointed! For a product that customers find perfect, I can say that this is not the case for me. I work in my garden 5 to 8 hours a day. Whether I hang the trap 5m from where I am or place it very close to me, nothing helps, I am constantly attacked by these damn flies which bite me until I bleed! Although the smell of manure and septic tanks is unpleasant, I am ready to do anything to no longer endure their presence. How do you expect me to progress in my work when I have to constantly wave my arms, stamp my feet, fidget...",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "design_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "🪰 Total disappointment: ineffective and nauseating! I bought this fly repellent product hoping for a modern and effective solution, but what a disappointment... After several days of use, barely ten flies captured, even though I live in the countryside. Nothing to do with the good old sticky ribbons that we hang from the ceiling. The worst? The smell! A really unpleasant smell that spreads throughout the room. Result: still so many flies... but now as a bonus, an unbearable smell. Totally useless purchase, except to make me lose money. I don’t…",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Very effective but not for me. My opinion is mixed, it works but it stinks a lot, to vomit so do not put near a window or an opening. So I put it far away but I think it attracts all the flies in the neighborhood and I'm going to get rid of this thing very quickly. That didn't stop a few flies from getting in. The most effective for the home is a diffuser of peppermint, lemongrass and lavender essential oils, they no longer come in since I diffuse these oils and it smells good. Finally, even after keeping him away from my mouth...",
+      "tags": [
+        "attracts_wrong",
+        "bad_design",
+        "smell_bad",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Works BUT.... You have all read the positive comments about this trap, and they are right to be positive. But there is a huge BUT. I confirm that this trap is formidable, but it is absolutely not functional for small house flies, those that are generally found at home, smaller than the others which are attracted by animals or trash cans for example. Don't expect to catch the houseflies that hover around your kitchen because with those, it is absolutely of no use. On the other hand, for the other flies, I can guarantee…",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Uh!!!! It's a fly trap or just a plastic bottle. 5 days after installation, only one mosquito, probably suicidal, is in the “trap”. In short, no smell but no flies. I would like to return it but I used it. I'm going to ask Amazon. I am correcting my first draft of this article. It took more than 10 days for the product to work and as said in other reviews, very bad. Since then I have put it outside and the flies actually love it and fall into it. So it works but it stinks and you can't put it inside, it was...",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Good but... no. The product works very well. It attracts flies well. And the problem is actually there. It attracts flies so well that they flock everywhere. I have a lot more than usual. The other big disadvantage is that there is no emptying system. How do you empty it and where? Because the smell is infamous! And by emptying it you will get liquid everywhere (with the pile of dead flies...sickening). There is no closure system to block the contents and empty it elsewhere. I decided to throw it away straight away. I would not recommend. Damage",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "No interest. So indeed it catches a lot of flies but the trap has no interest in itself, the smell is horrible, so you can't leave it at home, so all the flies that fly into your home will continue, even if you put it outside not too far away, and the same if you want to put it near your table outside to be peaceful during a meal in your garden, impossible to eat with this thing close to you, so it catches flies but there will always be as many flies in your house and during your meals outdoors",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Only works outdoors in windy conditions. Took a long time to activate but once outside in the wind caught quite a few flies, evaporated very quickly",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "bait_dries",
+        "weather",
+        "design_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Of no interest. After reading the various comments on the product I wanted to form my own opinion. Even by scrupulously following the instructions to the letter, the result was laborious and far from being as glorious as some claim. I use dark beer, blackcurrant syrup and especially white wine so that the bees don't drown in the trap. It works wonderfully and is much cheaper.",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "prohibited indoors.. this product is very effective for flies but on the terrace or balcony, because indoors it stinks like death. so what's the point of putting a fly repellent outside? frankly be clearer about your announcements. fast and careful shipping but I do not recommend this product, although it is effective externally",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Ineffective. The concept is nice... But after a day installed, 10 flies flying quietly in the house, 0 in the trap... If the result changes I will change my opinion but for the moment it is completely ineffective. Well after a few days I confirm my previous opinion. Completely ineffective",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Poor result. Having lots of flies in the house I thought that this product would be more effective and more aesthetic than the ribbons that are in the house. But no, the product does not attract flies, barely 2 in 72 hours. Overall, I am very disappointed and I will stay with my ribbons hanging in the house",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "⭐⭐ Leider enttäuschend – keine Wirkung trotz korrekter Anwendung. Ich hatte hohe Erwartungen an die BSI Professionelle Fliegenfalle, vor allem aufgrund der positiven Bewertungen und der Productbeschreibung, die eine zuverlässige Bekämpfung von Fliegen versprach. Leider wurde ich enttäuscht: Die Falle hat bei mir überhaupt nicht funktioniert – trotz mehrmaliger, correkter Anwendung. 📦 Verpackung & Anwendung Die Falle kam gut verpackt an, die Anleitung war verständlich. Ich habe sie wie beschrieben mit Wasser befüllt, gut geschüttelt and draußen an einem sonnigen, fliegenreichen Ort aufgehängt …",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Good but much too expensive in terms of price/effectiveness ratio. In 2 identical traps placed in the same place, I configured this product in one of the traps and composed the other with a mixture of beer, blackcurrant syrup and water. Results after 3 weeks: no significant difference in grip, as they say in the thickness of the line... The only very significant difference: the price! We can therefore do just as well for much less.",
+      "tags": [
+        "overpriced",
+        "design_good"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "The idea is good, my cost is too fragile.. The idea of ​​having a large container is good, perched the single container in PET if it responds quickly to the calabroni when it is stationary. These are due to the following points: a) the assembly of the foot of the ball b) the mechanism of the iron of the tappo giallo, it is simply attached to the ballerina's foot and if it is easily removed. Although it lasted 2 days, it was all the same, and then what I saw in the photo. The price is taken into account when it comes to plastic parts.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Very very disappointed 😔😔😔. So really very disappointed 😔 I still have so many flies that don't work, attracts a few bees and a few midges, but otherwise on my terrace I still have those damn flies, so disappointing. I was proud of the comment, well I shouldn't have. No efficiency occurs",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Doesn't work. The device has been in place for 5 days, the Asian hornets pass by but go to the hive, I catch lots of them with a mixture and plastic bottle but I wanted this trap because supposedly it only catches Asians and not the French unlike mine",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Doesn't really work, disappointment. Desperately I had bet on this product but test over one day ineffective, no results and no flies caught in the trap! I would like to point out that I took the time to follow the recommendations and the instructions etc. but it doesn't work, it's a disappointment.",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Not practical, not very effective. The product does not work well. Only caught 2 wasps in 3 months. On the other hand, wasps move around without any problem. In addition, the color of the dark brown product does not allow the captured insects to be properly observed. I do not recommend",
+      "tags": [
+        "no_efficacy",
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Effectively kills flies but attracts a lot of them! Not suitable for a terrace in Paris! Terrible smell! Effectively kills flies but attracts a lot of them!",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Horrible smell. At the first use the smell was bearable but when we changed the liquid the smell very quickly became nauseating, I didn't think it would be this bad. The smell was not caused by dead flies as we didn't have any on the second dose. It was really the product gave off a fake septic smell",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Nauseous odor. The article is not as effective as expected, not all flies are trapped there. But above all, the flies stuck in it quickly rot and give off a foul, horrible odor. I had to quickly throw the product away.",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Not effective against wasps and hornets but great for flies. I am a little disappointed with this product because I almost only catch flies while wasps and hornets do not seem attracted to this product and continue to bother me",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "the product delivered with the device does not attract flies. I bought two of these devices, I quickly noticed that the product delivered with the device does not attract flies. I therefore, in the second device, replaced this product with a little jam diluted in water. the result is better. this is not normal. jcp",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Is filled quickly. attracts flies, so a swarm of flies arrive from everywhere, many more than usual is horrible to empty",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Ineffective. Practical but of no use After a few days the mixture smells very bad Did not catch any flies",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Questionable effectiveness.... During the summer, I was infested by wasps and especially Asian hornets. In my traps, I put a mixture of 1/4 white wine, 1/4 grenadine syrup, half beer. The mixture worked well. I let myself be seduced by the “tempting” promises of this product. Nay! On the other hand, it is excellent for flies...So I returned to my good old mixture",
+      "tags": [
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Useless. apart from a horrible smell no results, no flies in the trap after 3 weeks. On the other hand, after contact with the supplier, reimbursement directly; according to him it is a manufacturing problem",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "smell_bad"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Ineffective. Product installed for 3 days, and no connection. The flies gravitate around and are in no way attracted to the trap. No particular odor... However, I respected the instructions for use",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Be careful, very strong corpse smell! Product received with part of the lid broken. However, this does not affect its very basic operation. The problem is the horrible dead smell that comes from the product. I bought it for the interior of the house. But impossible to approach even placed outside the smell and unbearable. I don't understand the positive reviews. To flee",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Effective, but be careful of the smell and the long-term price. Not for internal invasion!. Invaded by flies in our living room and kitchen, we were looking for solutions. Having already tried EVERYTHING (hanging sticky rollers, essential oils, lavender, etc.) we wanted to go for something solid. The reviews on this product appealed to us, users announced great results. The PROS: - easy installation. Installation of the product very well indicated. We fill the jar to the indicated level, we put the sachet without opening it (it dissolves in water) and... it…",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "design_good",
+        "value",
+        "lasts_long",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Does not affect small black flies. Bought to get rid of small flies that were swarming indoors this summer. At first, the product did not capture any flies after 3-4 days and I told myself that it only traps pigeons, at least their bank accounts.... Then it started to give off a rather unpleasant smell and it was placed outside. And there, that's the beginning of the massacre. Many flies rush there, especially those with green abdomens. But also other insects, including 1 hornet. A layer of corpses formed after a few days. In the end, the mo…",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "smell_bad",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Effective but.... I am updating my comment because I indicated that this trap was ineffective after 24 hours of installation, I was wrong. After a few days, dozens and dozens and dozens of flies were going in and getting trapped However... I had small house flies in my logia with this trap all the big green flies from the neighborhood invaded my logia to end up in the trap and the trap gives off a terrible smell of rotten fish surely the maceration of the fly corpses from the bait and the heat, I finally...",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "smell_bad",
+        "weather",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Works…but not as much as I hoped. The product is quite well designed and the idea is good. It actually attracts a few wasps, especially in the first days of use. I noticed a slight decrease in their presence around the terrace, so it's not completely ineffective. However, I expected better results. The trap does not fill as quickly as expected and some wasps seem to be completely disinterested in it. Perhaps the attractant is not strong enough, or it depends a lot on where you place it. In summary: it can help,…",
+      "tags": [
+        "no_efficacy",
+        "effective",
+        "design_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "System ineffective at the moment. Before purchasing I looked at the reviews and the associated photos. Positive reviews and photos with lots of trapped flies. For me it is nothing! the trap caught 3 flies in a week and around ten in two weeks. The other flies have fun and circle around without entering the bottle! For the moment, objectively speaking, for me, it's not working as well as I thought it would. However, if the system improves over time I will change my opinion. In addition to this system I bought the granules... I will test. I hope for a…",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Don't work at my house, too bad! The product appears to be of quality. I had heard a lot of good things about traps like this but it doesn't work for me. I am really disappointed... I read the instructions carefully, I followed everything that was indicated to the letter... but not a wasp came into the trap while we continued to be attacked. We have at least 4 wasps at the same time at each meal and they do not seem attracted to the trap, they pass by without even slowing down. Perhaps the product supplied has a problem with its composition or a problem during…",
+      "tags": [
+        "no_efficacy",
+        "design_good",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Very effective but short lifespan. With the bait, they kill large numbers of flies, but after two summers out in the sun, the caps disintegrate and the traps are unusable. I continue to buy the traps because they are effective but it is a shame that they are not more solid. (Picture shows yellow wasp trap as Amazon will replace it when bluebottle traps are out of stock)",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Does not work on all fly varieties. Worked well on blue flies, not at all on black flies. I live in an old stone country house, facing south. When the cold sets in, hundreds of flies take refuge on the warm facade and on the car. This trap caught absolutely none. On the other hand, the bluebottle which lay eggs in cow droppings were actually well captured. So I think it comes from the bait. But hey, the trap is reusable",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "To work it works, BUT horrible smell!. So, yes, it traps flies on the terrace, but the smell is nauseating! About fifty flies in the trap after a few days, but the smell also increases, forcing the trap to be placed tens of meters away and what's more, the flies seem to be dying in the trap, it's buzzing inside, in short, I regret my purchase!!",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Effective, but at what price? Yes, wasps and flies are attracted and the trap is effective at this level. But the absolutely abominable smell that emerges after two days prohibits its use indoors or on a terrace. Unless you like the smell of rotting meat. On the other hand, I keep the container, very practical with a much less nauseating homemade mixture.",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "easy_use",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Not effective as expected. Just a few midges in the trap equipped with the bait supplied with it, when at 1m50 I had installed at the same time the yellow \"wasp\" and hornet trap with my \"beer-white wine-grenadine\" mixture, which attracts everyone, except the bees. So I threw away the ineffective bait and replaced it with my own. It's a rush to get home: midges, flies, hornets, Asian hornets. No wasps yet. And above all the bees don't come near it",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Kills flies, that's for sure...but is it useful? I put the product a few meters from my windows (I tried 1m then 5m) and we cannot deny that the product is effective, it attracts flies and kills them, the pot was filled in 2-3 weeks but I still have as many flies in my home... so I imagine that it captures the neighborhood flies but not enough for there to be more of them in my home",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Cosi cosi. Diciamo che la cattura delle vespe et dei calabroni richie de alcuni piccoli accorgimenti che esto prodotto non aveva, ou non aveva en pieno. No, I do not have the chiusra system, but it does not turn on the chiuso and if it is staccato in the tap it precipitates and causes a slight disastrous situation. When the chiusura è bocciata, does it seem like a tap with a quick tap? O con dei fermi? Questo pressed invece unconvinced. Another good option is non-transparent plastic. Io avevo necessità di monitorare eventuali catture my questo era so impossibile dalla plasti…",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Avoid… indoors. Inside, it's useless: 3 flies in 5 days. For comparison, my wife with a swatter: 70 flies. I keep my wife. On the other hand, as it didn't smell very good, my wife took it out. Result: in 2 days, several dozen or even hundreds of flies were stuck and therefore ultimately dead. Great efficiency therefore… but outside!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Mixed opinion. I wanted to use it inside the house because as soon as the bay windows are open the flies come in quickly. The slight smell did not suit me and the effectiveness is less compared to sticky strips (unsightly). However, I put the bottles outside on the terraces and a lot of flies and other flying insects were trapped.",
+      "tags": [
+        "attracts_wrong",
+        "design_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Captures flies but does not keep them out. This trap attracts flies after a few days. I place them outside, under the kitchen window because the smell is strong. It attracts many flies; it is full of them but does not prevent them from entering",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Doubtful. Put in the house. Completely ineffective. After 3 days. No flies. Nothing. Yet invaded by these critters. After 20 days, nauseating smell. Put out. Attracts all the flies in the neighborhood. But not to leave in the house., It stinks too much",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "smell_bad",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Reusable???. Effective, yes, on the other hand, it was also unavoidable, a smell of rotten fish emanated from the trap, although it was quite far from us, as soon as there was a bit of foul wind. Forced to throw it away, impossible for us to empty it without vomiting because of the smell",
+      "tags": [
+        "smell_bad",
+        "weather",
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Exterior only. Does not attract flies indoors at all. But is only effective outdoors. I don't know why. The smell is just as nauseating in the house as in the garden. But it's inside that I need to eliminate them",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Top but pestilential. Received in way too big packaging! As a result, the cardboard is in poor condition. Top product for trapping flies, we have much fewer of these harmful insects around us. The big BUT is this pestilential smell!!!. Horrible. Having a small garden, I no longer know where to put it so that the smell does not reach our noses. 🤢",
+      "tags": [
+        "attracts_wrong",
+        "design_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Violent outdoors, unusable indoors because it stinks. Excellent fly trap... Wait a few days for the product to develop and work and then it's a disaster!!! UNUSABLE INDOOR it stinks so much... Hence the note. With it, you can kill flies from an entire herd of cows, or even from your village!",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "New formula much less effective. I recommended the product to all my friends because it was so effective last year. Unfortunately the formula has changed and I hardly trap any wasps anymore, they bother us again during our meals. I can no longer find the old formula (more yellow color), I am very disappointed",
+      "tags": [
+        "no_efficacy",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Very good but..... I bought this product to protect animals against flies in their shelter although this product is very effective it was sent with a heavy container which broke one... Too bad!",
+      "tags": [
+        "attracts_wrong",
+        "bad_design",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Effective but!. 100% effective on green flies, but I still have so many little black flies inside... Plus a very strong smell, even if outside, an open window lets the smell in! And then after 10 days, worms came out of the box... I ended up throwing it away, too bad",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Old zu big. Als das Paket mit der Wespenfalle kam, war ich doch ein wenig überrascht, wie groß es ist. Beim Auspacken hat sich dies auch bestätigt. Die Boxen sind echt riesig. However, when the Artikelbestreibung comes to light, the Artikelbild is already irrefutable. Ich bin von kleinen Boxen ausgegangen, die ungefähr einen Liter Flüssigkeit haben. Doch in diese Boxen passen mindsen fünf bis zehn Liter Flüssigkeit und sind echt riesig. Mit diesen Boxen kann man gefühlt einen ganzen Wespen-Schwarm auf einmal fangen. The functions can be found at no time…",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Works great but smells horrible! Works very well, no doubts about it. But the smell.... really foul. At first it's okay but after 2 weeks it becomes unbearable... Nauseous! Too bad because the quantity of flies trapped in 2 weeks is incredible!",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Be careful, it stinks. We used it to catch flies in the house but it is not suitable because as soon as flies die inside, it stinks very badly. I was disappointed with this purchase",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "smell_bad",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "mixed. 1 week for the product to activate... foul and unbearable smells.. But it works, finally let me explain: A LOT of flies inside is undeniable, but it also attracts all the flies in the area given the smell.. It doesn't attract them all, because I always have them at home. In short, I'm still satisfied but it's not perfect",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "̧It attracts all the flies in the neighborhood. I installed it and in less than three days it was completely filled. It attracts flies from your home and all from the neighborhood. It gives off a good smell of rot that came into the house because I have a very small plot of land. Recommended for large gardens where neighbors' flies are not attracted to this device",
+      "tags": [
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Fly trap. Nauseous odor. Cannot be installed near the entrance. Otherwise installed further from the house this product attracts flies well",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective but. I give this fly trap 4 stars, it is indeed extremely effective. The number of flies trapped inside is impressive. Which makes me think that the product inside must not be that natural. The weak points: - The design (we're not going to lie, the trap is not very pretty) - The fact that we can observe the (hundreds of) dead or dying flies inside via the transparent plastic (horrible) - personally but maybe I placed it wrong, there are no more flies outside, on the other hand in…",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "weather",
+        "effective",
+        "safe_kids_pets",
+        "design_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Bluffing. I thought I had been fooled. For more than a week nothing happened. Then suddenly an invasion of flies inside. I had placed it near my French window so the flies where they entered the house were attracted by the trap but I quickly moved it to the bottom of the garden because the smell is so nauseating after a few days....it's not the product that smells bad, it's the decomposing flies. But even further from home. I feel like I have fewer flies in my house since I got the trap. The best part is that it…",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "design_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "works but will not prevent flies from entering your home. we set it up in our small garden the smell is quite strong so be careful around the neighborhood, the trap works well we are less annoying in the garden but it's not miraculous either. Be careful if you put it in your garden with the aim of deterring flies from entering your home, I'm telling you right away it won't work... we have as many as before and I've tested a whole bunch of products, it's only the fly killer paper and the good old fly swatters that work for...",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very effective! After a relatively calm start, it takes several days for the product to attract the flies, the trap fills up very quickly. We were invaded and this trap allows us to enjoy the outdoors again. As previously noted, the product smells very strongly of rotten eggs, so keep it well away from eating areas. I am removing one star because I still think that the trap which fills very quickly could be delivered with 2 bags given the high price of the set",
+      "tags": [
+        "attracts_wrong",
+        "overpriced",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Excellent. Despite a small downside... Until now I made my mixture myself and it worked well. But I wanted to try this product by purchasing the bsi trap. And frankly not disappointed at all! Very good quality product. It's impressive the number of hornets caught with this. And no bees found in the trap. Only hornets (mainly hornets by the way), flies and a few wasps. I advise. Small downside on the other hand is the fact that there is no dispenser supplied with it and above all that the cap does not have child safety..... while…",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Easy to use and very practical for catching wasps and hornets. A set of 2 wasp and hornet traps that are easy to use and easy to set up. The traps are entirely made of plastic. To use the trap, simply put 1 liter of water in the trap and add a special wasp and hornet bait to the water. Then, hang the trap high up in a sunny location. I find it easy to use and the price seems right so I recommend these wasp and hornet traps",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Inefficient and poorly designed. I correct my first evaluation which was very bad. In the end. These plastic buckets are stamped on the chain, a priori we say that it is not premium, but in reality the large capacity means that the traps are effective and attract large hornets and wasps very well. Well placed as indicated on the instructions (in height and with sufficient light) it is very effective",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "bad_design",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Efficient, clean and discreet. The container is quite large, I made a mixture of 1/3 dark beer, 1/3 grenadine syrup and 1/3 white wine up to the mark, it seems effective for 4 days of installation on a branch of a laburnum tree about 10 meters from the terrace and at 1.70 meters in height, without suspecting the presence of an Asian hornet, 3 specimens are trapped. Obvious effectiveness",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "design_good",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Trappole used effectively. Now you have just passed this type of trap. Let's decide to make another decision. With the most attractive liquid the fan does not need, it is the most precious liquid. Io ho scelto un attractive liquido biologico per vespe, calabroni e mosche che evita invece di risultare palatable per le api, che non voglio invece catturare. This is the first time you have been able to register your first debt. Contains a good quantity of attractive liquid and some catturati. If it behaved well in a year all the way with pioggia, sole beaten and vento. He cordino per appenderle non t…",
+      "tags": [
+        "weather",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Useful, works well.. One star less for the impractical fastening system and the bag not easy to open. Other than that, nothing to complain about. It works well, it's the least polluting I've found and it's odorless. Good. On the box, it is marked that it will only be effective for 11 days and that it must be hung 2 meters high. And without the photos of other users, I would probably have left the active product in its sachet (so remember to open it carefully). I recommend - even if I would need at least 5 around the house given the incredible number of pests at the moment!",
+      "tags": [
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very effective fly trap, provided you expose it well. The BSI trap works really well for me. With the attractant provided, it fills very quickly and captures a lot of flies, which clearly reduces the problem around the house. On the other hand, it is absolutely necessary to expose it to the sun, otherwise the effectiveness is significantly less good. Once placed in the right place, it is formidable. I give 4 stars because of this placement constraint, but the result is there",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Be careful of odors. Catches flies really well, but doesn't attract them 100%, it's more like 90% as far as I'm concerned. But once in the insect is a little too stupid, \"panicked\" without counting the product, to find the exit you have to put the trap far enough from your openings because it gives off a strong odor. what is interesting about this product is the trap system and the product which attracts flies, otherwise it remains a simple plastic bottle",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective product. ecological and efficient product No unpleasant surprises when using it except not putting it too close to the house or the swimming pool because of the bad smell. At least 7 to 8 cms of rectified flies!",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Exterior not interior. I wanted a trap for indoors, without light and without crackling noises. This trap was marked as ok inside and outside. On arrival, on the product it is written only for outdoors and, in fact, used indoors, even in a well-ventilated living room, the smell is disturbing. So I put it on the window sill outside the kitchen window and it was crawling with flies.",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Work surprisingly well. I wanted some free standing traps that were large enough to be robust enough to not get knocked over easily in the garden. I was a little dubious about how well these would work, but they've turned out to be really effective. I've baited one with grated pear and apple juice and one with just apple juice (both with a few drops of detergent to break the surface tension). They've only been in use for a couple of days and the amount of flies and wasps that they've trapped is disgustingly impressive. I've knocked one star off the overall score as the rain cover lid is a lit…",
+      "tags": [
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "effective...and inexpensive. you won't get rid of all the flies, that's impossible...but you'll have a lot less of them...but don't place it too close to you!! it stinks",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "design_good",
+        "value"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Top trap, attractive product less so. Product matches the presentation well. I'm happy with it. On the other hand, the attractant liquid is not great. Attracts flies more than hornets. But hey, that’s not what I wanted here, but the trap itself. And I'm going to put the classic mixture of 1/3 dark beer, 1/3 white wine, 1/3 blackcurrant syrup. Which works very well",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Good product, effective with various types of inserts. The coppia di trappole arrived in a semplice sacchetto millebolle. The configuration does not include instructions or other instructions, only a link to a video on YouTube with a tutorial in Spain. The mountain communicates very easily and quickly. It is enough to pour around a liter of birra or succo of sweet fruit, and add the trappola with a ramo to attract vespe, calabroni and other insetti. As a product that is efficient, it is due to the fact that it is well-heated and robust, and the delivery is very spartan and does not include instructions.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very effective! Very effective trap!! The first week I was perplexed because no flies, then suddenly flies started to be caught and we couldn't stop them!! In 2 weeks it was full of flies and I clearly noticed a reduction in the population on my terrace! Great product I recommend, only downside, I find that it smells a little strong",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Super good but.... Super good, I put it on a table outside and it really attracts all the flies. the only slightly negative point is that it smells extremely bad, like dog piss.... But otherwise it works great",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "I modify... effective in the end. Personally 48 hours later still flies but none in the professional trap...lol very disappointed I'm going to wait a little before putting it in the trash despite its price.. rectification after 4 days for me the flies throw themselves in. So I recommend but a little patience at the beginning",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works very well. Very effective in one week, more than a hundred flies. I put it indoors the first days but the smell is unbearable so placed it on the terrace and still as effective. Do not regret my purchase",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Good product for hornets. I give 5 stars for the hornets: the trap was installed on the day it was received. It was effective almost immediately. On the other hand, it is ineffective for wasps. I cannot comment on Asian hornets because, a priori, there would not be any in Corsica (information to be confirmed)",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective. VERY effective product but has a vomit-inducing smell. I thought I could put it in the house or on a windowsill. It's impossible given the nauseating smell, between rotten fish and meat. It fulfills its function well but you have to put it really far from where you are at least 7-8 meters",
+      "tags": [
+        "smell_bad",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Fearsome! I was skeptical about the effectiveness but in a week days for days, there are hundreds! It's really effective, especially on green flies. The number of flies in the house has greatly reduced but there are still a few still... For the price, it could use at least 2 refills, because it comes with a refill, i.e. only 11 days of use according to the instructions",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Good product, be careful when using. Purchased a few days ago. Not disappointed. Very happy even, the explanation is not great on the other hand. You have to leave the system in the sun while it ferments. The photo speaks for itself. FYI there is not a lot of water because I dropped the system and the water spilled out. There is a slight fermentation smell but not too bothersome. So I recommend",
+      "tags": [
+        "no_efficacy",
+        "weather"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Incredibly stunning! No more flies in the house! This year again we are invaded by flies in our house. So I opted for this solution and I must say that I am amazed! See for yourself with the video. Installed outside at the kitchen bay window, flies no longer come into the house! Be careful, yes the smell is not pleasant at all! But we have to put him out! (I don't give 5 stars because the refills, however, are expensive in my opinion)",
+      "tags": [
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "The wasps in my garden are not interested. I was really hoping to be able to get rid of some of these invasives. Unfortunately this product does not attract them, any more than a beer and jam mixture. But what’s wrong with my wasp!! Update: a hornet and 3 wasps caught. Patience",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective trap. At first, for a few days, nothing happened. I had set the trap on the side balcony. And yesterday surprise. A lot of flies from everywhere are trapped. The thing smells really bad. You should use a spatula to remove the bed of flies that forms",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Super effective. After 15 days of use, the trap was full of hornets. My only regret is that it also attracted unrelated insects which caused collateral damage. But without that, we would never have been able to enjoy the garden and we would have been invaded by dozens of hornets!",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Ideal for high heat but avoid near a front door!. It is ideal for high temperatures with bins outside but should absolutely be avoided near a door or near a terrace because the product gives off a strong, repugnant odor which with the wind quickly reaches your nostrils... Ideally, it is better to put it in hedges or at the 4 ends of your house!",
+      "tags": [
+        "weather",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very very very effective.. Hyper effective, we filled the entire bottle with flies to tell you the incredible quantity of traps! But 2 small points to know, the mixture takes 2-3 days to activate. And the mixture after 4-5 days with a few flies inside gives off a very very strong smell of rotten fish, away from the passage, the smell can persist in an area of ​​10 to 15m",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective against flies and wasps if fresh. This product attracts wasps and especially flies when it is freshly renewed. But when it is stale the catches become rare. Good product",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Top bottle but not the bait. The design of the trap is great for trapping flies…..but not the attached product!!!!! Used outdoors for 8 days and not a single fly!!!!! I threw the product away and put back my usual mixture (beer, white wine, grenadine and honey at the top of the bottle for bait) and in 15 days the fishing was very good 👍 the photo speaks for itself!!!!",
+      "tags": [
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very good outside. Inside, the trap does not work, and smells quite strong, but outside, it has caused carnage. It was full of flies in just a few days",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Expensive but very effective! A formidable product for trapping hornets, wasps and flies without attracting bees. The shots are spectacular. Be sure to install the traps as soon as the temperature warms up at the end of winter (April) to catch the queens and thus avoid the creation of the nest. A star lost for the price a little too high although I recommend",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Formidably effective. This is the third one I've purchased because it's so effective. I have a 5 cm layer of green flies after a few days. On the other hand, the smell is similar to that of a decomposing animal corpse. So keep it away from the kitchen!",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective product as well as fly trap. It was a place where there were still quite a few flies and I had difficulty getting rid of them. I used this very effective product, in case of high heat the water evaporates it is necessary to make the supplement",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works outdoors. I put this trap inside my house for about a week, the smell is unpleasant and it didn't catch anything. So I put it behind the bay window outside, and it worked! Dozens of flies were trapped. It's not ideal for indoors, but I imagine it reduces their entry into my home.",
+      "tags": [
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective. Very effective. Wait at least 24 hours to see the first flies in it but then it's crazy. On the other hand, remember to keep it away from your dining areas or garden furniture because it attracts flies and it is very odorous (hence the 4*).",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very good fly trap for individuals. I bought this trap because I have chickens and I had a lot of flies. This is a very effective solution and works for a few weeks. Just be careful to anticipate the smell after a few weeks which becomes quite disturbing, do not put indoors",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective but a little expensive given the quantity used each time.. effective product, attracts hornets, wasps, flies, mosquitoes.... Good on the other hand a little expensive given the quantity used each time",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works well. Attractant that works, however it takes a lot and it evaporates quickly in the sun",
+      "tags": [
+        "bait_dries",
+        "weather",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Fly catcher. Very effective products whether indoors or outdoors.... On the other hand, for indoors you have to be able to tolerate the smell of the product... so it ended up outside!",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective, but unpleasant smell. Effective after a few days. But as said by other buyers the smell is very unpleasant, we installed it from the kitchen, to the living room then finally outside. It's stupid that the smell is so annoying because it works very well, hence the 4 stars",
+      "tags": [
+        "smell_bad",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "VERY EFFECTIVE. Good product: very effective! The problem I encounter is that its smell attracts flies... and in the end: there are more of them than this trap can catch!!!",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Anti fly. Product that actually works well. Even if it is placed on the terrace as explained in the description and video, this does not prevent flies within the house.",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "quality product. The quality of the product is good, the plastic is very stable. Cierra bien, but hay que hacer a poco de fuerza para cerrarlo bien. In my opinion, the yellow cabbage was a little bit on the upper side, but the seller explained the motive to me, so I could accept it. The seller responds quickly and professionally",
+      "tags": [
+        "smell_bad"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Bottle, great! But refills not effective..... Extremely effective product, which must be placed away from living spaces because of the very strong smell. Very satisfied. On the other hand, I bought refills to reuse the bottle, same Bsi brand, marked new formula, even more attractive... And it didn't work at all",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Large, perfect capacity and patience to separate the pots. 06/2025 still difficult to separate the 2 pots. To add a little problem to the manufacturing. In fact, the 2 holes for passing the hanging string are narrower than the clips on the green pot. As a result, the yellow lid tends to lift. Otherwise, the large capacity and very convenient for not recharging every week, that's perfect",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Hornet trap. For the moment we have not had any visits from hornets since we bought the trap. I hope the trap will do its job because hornets scare me very much especially with small children",
+      "tags": [
+        "attracts_wrong",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Exterior only. I was looking for a useful trap for indoor flies. This is not the product for that.... On the other hand, placed outside in front of the kitchen door, it drastically reduces their entry",
+      "tags": [
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Pretty and big, very big. Surprised by the size but for me it's not a problem. A little explanation for example to prepare an effective mixture would be welcome and adapted to the capacity",
+      "tags": [
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Easy to use. The product is more effective “PURE” than diluted in water, for Asian hornets 😉",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Put it outside 😉. Very effective product this year with large numbers of flies",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works very well but... Does the job however the product provided smells bad which is a shame. A foul smell spreads throughout the home... I hope to find a less odorous product to use",
+      "tags": [
+        "smell_bad",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Fly trap. After 3 days the flies get caught in it and I am very happy because we are invaded because we live next to a farm I recommend and I will take refills on the price side a little expensive but given the result because I have tried several things",
+      "tags": [
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Reliable product. Compliant product which attracts Asian hornets in particular. To recommend",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Reported as reusable. Effective product, reported as being reusable but unfortunately impossible to find refills of attractive product... precisely to reuse it",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very very effective. Incredible, it captured a lot of flies (see photo). The only downside is the smell if you are near the device with flies inside.",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Incredibly effective!. This trap is formidable! It retains a phenomenal quantity of flies that is hard to imagine. I've never seen anything even remotely close to it! Well, it's true that it stinks but it is made for outdoors and must be installed high up. In these conditions, it is bearable. When put into service, you have to wait 1 to 2 days for the attractant to ferment and become really effective, but after that it's crazy! I leave them for several weeks, even 2 or 3 months: it starts with a layer of fly 10 cm thick, then the new ones…",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "lasts_long",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very satisfied. Coming back from vacation, I realized that in my garden I had an invasion of green flies, so I bought this product given the positive reviews and the price which is more than reasonable, and I do not regret my purchase at all. Indeed, I would say that the first two days I was skeptical but as soon as the sun started to beat down on the trap, the smell arrived and we are not looking at something very pleasant, I admit, it smells like rotten fish but then it has been radical since then. I don't have any more flies!! he even captured a few Asian hornets I…",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "weather",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "To be purchased with the top trap +++++++++++++++. Very useful and ecological The hornets come in and can no longer come out It's great on the terrace it's the second bottle that I've ordered I'm very satisfied with it and I recommend it it's a very effective trap for wasps and hornets but also flies and moth butterflies no bees in it and that's the aim it's much more effective and ecological than the bombs than happiness and I recommend it with the trap of course on the third order always super delighted fourth bottle order always just as delighted",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "“Simple, practical and extremely effective”. After trying several products without success, this one is by far the most effective. The results are visible within 24 hours, until the product dissolves properly in water. Little advice: install it a good distance from the terrace and windows, because the smell which attracts flies is quite strong. I empty it about once a week then add a new refill. To prevent the smell from lingering, I empty it into an old barbecue and put a little bleach in it, which quickly neutralizes the scent. A product…",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "easy_use",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective start to the season.. We are facing south, it is currently starting to get hot again and the wasps (the Asian hornets will soon) are arriving. And it works. I was tired of getting stung. Especially since it nests in the barbecue. Nb: solid with the wind at more than 112km/h that we had",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "lasts_long",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Amazing!. I am editing my comment! I left a negative comment because nothing was happening. So you should know that for 3 days nothing happens. The time for the product to macerate and then it’s a party for the flies!!!! My husband has already removed a 3cm layer of dead flies! I added a little water and off we went again! Barely reinstalled when several flies invited themselves to the feast! So yes it smells. You just have to move the object according to your presence but it's super effective!!!! Another thing, just remove the fly layer…",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great and relieved! I ordered another batch, made this year: April 16, 2026. Thanks again to Mice&Co, for its great professional trap. Great and relieved! Really very surprised by the speed of catching the hornets, a very effective trap, the hornets do not escape the trap! It's really great in 1 month! Put it high! “Quality product and very good study, if you take care of it!” The most effective selective bait consists of: 1/4 volume of grenadine or blackcurrant syrup, used pure. 1/2 volume of dark beer. 1/4 volume of white wine…",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective trap. Super effective fly trap, so much so that even Asian wasps and hornets have been trapped in it. Full after not even 2 weeks, I bought bait again. As said in the other comments, put it far enough from your terrace or your entrance because it really stinks, it's horrible 😂 but hey you can't have everything, at least it's effective",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective after a few days. You have to wait a few days to see the effect. We were invaded by flies and after following the advice in the reviews, we placed the trap outside in a higher place. After 5 days it's radical, the trap is full of flies and there are no more flies inside. I highly recommend. Traps smell bad when you're close. We placed them in the garden hanging on tree branches and the smell is imperceptible from the terrace",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Solid and efficient. 2024 season they have been in place for more than 2 months. We only caught hornets for 80% of the insects present in the pot! Very wind resistant and very practical, we only recharged once. The water doesn't come in. We are delighted",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "easy_use",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "useful and effective. very effective, the day after installation, price 3 Asian hornets and flies as many people say, impossible to separate the two tanks caught one in the other, my husband succeeded ouffffff, otherwise easy to install, nylon rope, large capacity I put water, vinegar, a little beer and sugar. I am very happy with this product",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "easy_use",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "10/10. After testing \"homemade\" tips with natural products, and not catching a single fly, I went ahead and bought the product. 10/10 it is super effective for outdoors, the smell doesn't bother me that much contrary to some comments, I will buy it again for sure 🤌🏻",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Death. I have tried several fly traps this year. This one is by far the most effective. Thousands of insects died. The downside is the smell, it stinks! That’s why flies love it, of course. However, reducing the number of flies outside really helped indoors",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great. At the top. I had already bought one, which works really, really well, when I read the comments to empty it, which said that it smells very bad, I confirm, it smells very, very bad and it is very complicated to empty it to recharge it. I made the option of leaving it until it dries completely, and then I just had to open it and throw away the flies, dead and dry without any smell, that's why I bought two more so that I could do the rolling, while one dries to put the other with the products inside I highly recommend...",
+      "tags": [
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective. Hanging on the apple and cherry tree last weekend, the 2 traps allowed me to capture 4 hornets in a few days. The size is perfect and saves us from changing the contents (Shandy Mixture and syrup) too often. I am very happy with my purchase and recommend these traps",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "100% effective! Incredibly effective! It smells horribly bad as soon as a certain number of insects have been trapped, so it must be installed accordingly to the odor it will generate. You should also plan to perhaps move the pot if it doesn't work after 2 or 3 days. Once the right place is found, it's magical, all the flies jump in!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective products. I was a little skeptical when I ordered this product but I have so many flies on my terrace that I tried and well I am not disappointed, it is very effective, I recommended one and also refills because this is the solution that works best",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works... Works very well, even too well. I even wonder if it doesn't attract flies from the neighborhood as well... The trap was quickly full, amazing the number that had them. On the other hand, keep away from outdoor dining areas because it gives off a foul smell.",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "FUNZIONANO ALLA GRANDEEE. Live in Sicily and there is no problem in the Mediterranean. What's more, it's incredibile... a gallon of a qualsiasi birra with aggiunta di zucchero, rinforzate il cordino con un giro di spago, appendetele agli agliberi da frutto, comme una bella lanterna e dopo qualche giorno vedrete che l'esca funziona alla grande. In Corsica and in Greece, there is an aggressive approach and it is safe to say that it can also intervene with some piccoli hopes to limit proliferation.",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective. Put in a container also purchased on Amazon, this product is miraculous for us! By respecting the dosage, we captured at least a hundred Asian hornets in our traps! And what's great is that it doesn't attract our friends the bees 🐝 This product is effective very quickly in our case. I recommend it without hesitation",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent trap! 10 Asian hornets caught in just over a week. Unfortunately, also 2 wasps and a few flies. Homemade cocktail: 1/4 white wine, 1/4 blackcurrant syrup, 1/4 dark beer, I did not use the mixture provided. Place a sponge at the bottom and let it overflow from the liquid. FA do not drown immediately, their agitation attracts others (pheromones), increases the evaporation surface, more attractive and stronger smell when macerating",
+      "tags": [
+        "attracts_wrong",
+        "bait_dries"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great, very practical article. Really great article just installed already caught hornets… very easy to use a third of white wine, a third of grenadine syrup and a third of beer. Very effective. These are very large boxes. Indeed, according to the comments, the boxes were between two sheets of cardboard to be able to fit the dice together.",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Efficient and large capacity 👍. Conform to the description and of good manufacturing and design, these two wasp and hornet traps are very practical and easy to install and manage 👍 For €24.99 we have a decent quality/price ratio 👍 Thank you for reading 😉",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "easy_use",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective !. Very effective on green flies. The trap took 1 day to become attractive to flies. And in 15 days, I will have to empty it because it is so full of flies! That's always one less thing to come and hang around the house. The trap must be outside because there is a smell of a mix between trash juice and fish 😂",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Walk the fire of God, but what does it stink..... To be reserved only outside the house, and several meters from it. The product smells very strong, but that's what makes it effective. It is about 3 m from my facade, and in a week I no longer have a single fly inside, they are all attracted by this trap",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Practical. The product appears to effectively attract wasps but also flies and hornets it seems. Once the product is used up, simply mix white wine, beer and fruit syrup. In 48 hours there were already a lot of people in the trap (see photo: the liquid is normally clear) I am satisfied",
+      "tags": [
+        "attracts_wrong",
+        "easy_use",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great, it works great! It's great, last night I put the paste from the bag to macerate with water and this morning at the end of the morning it's swarming with flies. I will be able to eat on the terrace peacefully and my dogs will also be happy, they were literally being eaten by these flies that come from who knows where",
+      "tags": [
+        "attracts_wrong",
+        "safe_kids_pets",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works very well on wasps and hornets. Works wonderfully, when wasps are in circulation the trap becomes a real wasp aviary. Also works great for hornets, an occasional fly or horsefly. After 3 days, the product still works but disappears through evaporation and absorption by dead wasps. There are quite a few hives near my house and no bees in the trap",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective! Super effective! But not indoors, only outdoors because it smells very bad... good for the \"nose\" of flies but not for that of humans 🥵. I place it on the exterior windowsill..the flies prefer to go into the trap first rather than going inside",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "BSI fly trap. BEST BUY against flies. The product takes a little time to activate, has a smell of rotten fish but is super EFFECTIVE. Thanks to it, no flies in my home during hot weather",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Ideal fly trap. Perfect fly catcher It doesn't take long for flies to be attracted by the smell and find themselves trapped in the trap The trap is placed in a tree or placed on a base Perfect for making a fly-free meal Do not put inside because of the smell given off by the product But outside no smell overcomes I highly recommend",
+      "tags": [
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Ad conforms to the product - currently being tested. Advertisement explains the Product well: Yes Quality Product: Received Quickly: No Package in Good condition: Yes Packaging (Cardboard): Amazon Safety label or tape on the item: No Heat shrink packaging on the item: No I can't tell you, if it works, it's a bit too early, 05/20/2025 8:25 p.m. Mr Hello",
+      "tags": [
+        "shipping_damaged",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective. It's amazing. A month after installation, it is full of wasps and especially hornets. Even when full, it continues to attract loads of them. Important, no bees trapped even though I have plenty of them in my garden. Do not hesitate to use it for hornets",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "51 calabroni in 7 days. Tanti di noi hanno provato con bass improvise con bottiglie tagliate ecc. Si capisco che qui si spende ma sarà per i 3 ingressi, il colore, la forma o non so che altro, stessa miscela ma risultati incredibili rispetto ad un metodo tradizionale. Che dire, non ci credevo nemmeno io. Contains 51 calabroni in 7 days. Miscela di birra, zucchero e appena a po' di aceto, una point, to avoid taking it api. The result was that it seemed to have good resistance to the material. Ha preso solo calabroni, qualche vespa, qualche Mosca and qualche farfalla notturna",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Great efficiency.... A really effective trap for Asian hornets!! Just be careful to secure the lid with its bayonet locking system, it is quite hard but it is necessary... Fair price and reduced delivery times!! I recommend",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "FREAKING!!!!. I never comment, but I have to. The price is a bit expensive, which is the only downside. Diluted 1 to 2 with water in wasp traps, the result is spectacular, the first 48 hours will make you doubt but when it starts to take effect it doesn't stop. No bees seen in any of the traps. Truly an excellent product",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works great!!. the trap and the bait work very well, many large wasps captured (not the bees), for peaceful meals in the garden, but the trap also attracts many flies. To be placed outdoors, not in the house",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "I have never seen this effective... A product of formidable effectiveness, a mix of 40ml of product with 100ml of water in the BSI Wasp and Hornet Trap, in not even 2 days the product turned black because there were so many flies, midges, wasps and Asian hornets",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "effective product. I am very satisfied with the product, it destroys around 25 to 30 hornets per week. I live on the edge of a forest which is conducive to the presence of hornets, often they hang around in the evening or in the morning at daybreak, the product attracts them very well...;",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "The ideal product for the summer season. The product you need to control a fly infestation for me. Economical because the product lasts 10 days and ecological because the product is natural. I can no longer do without it during the summer season",
+      "tags": [
+        "attracts_wrong",
+        "safe_kids_pets",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Amazing !. This product is incredible! I have never seen a product that works so well, sincerely it is great for a little smell but honestly I prefer that to having I don't know how many flies, whether inside or outside on the terrace.",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Add the right mixture and let the trap set. 0.5l of dark beer 0.25l of grenadine 0.25l of white wine Bam, I hung them in the vines at 1m80 high. In 2 weeks at the end of October, I had decimated the Asian hornet population. More than 100 insects captured. Does the job really well. Once inside it doesn't come out again and you can easily close it to let it finish drowning for a few days before emptying it.",
+      "tags": [
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Beekeeper satisfied with this purchase. I am very satisfied with this purchase. Since I installed them with white wine and grenadine syrup, the pressure has greatly reduced on my hives. Remember to put your traps all in the same place and at least 20 meters from your hives. Great, I recommend, I play the racket a lot less",
+      "tags": [
+        "safe_kids_pets",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Radical. Excellent, almost radical. In 5 days almost no more hornets, wasps and flies in my garden. Almost fearsomely effective. I'm almost delighted. To be continued. To date I have only taken one dose and it is promising before summer",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective on wasps, hornets and large flies. You must respect the dosage, very effective on wasps and even on large flies, emptying the trap is a little tricky. Very satisfied, reasonable price",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "FLY TRAP. THIS FLY TRAP IS VERY EFFECTIVE ON THE TRAJECTORY BUT NOT NEXT TO WINDOWS SMELL OF INFECTION",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective. The product really works, I had tried several recipes found on the internet (fruit syrup, beer, sugar water... but nothing really works. In 2 days I already have around fifteen wasps and hornets",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective product. I discovered this product last year, it helped us keep away wasps and hornets which were particularly aggressive. And it doesn't attract bees, fortunately! I recommend",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great. Great! You have to wait 2 or 3 days to see the flies accumulate inside. I have a lot fewer flies inside and on the terrace. Major drawback: it smells very bad. So I had to put it at a reasonable distance from the outdoor table. But it’s impressive what’s inside!",
+      "tags": [
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Awesome. Dozens of Asian frolon per trap after fermentation. I followed the recipe found in another review to trap only Asian frolons. You have to be patient because the dark beer must ferment with the grenadine and a little wine. As soon as the first frolons come in, the others will follow. The construction is superb. Funnel effect animals can go in but never come out",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective. Set up at the beginning of spring with apple juice, I caught a lot of hornets, a few wasps and no bees and at the beginning of July I no longer see any hornets except in the trap from time to time 👍",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "I recommend these traps. Very effective trap for flies, wasps and hornets that lurk around my fruit trees. I'm going to buy more to continue capturing",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Impressive product. For those who give 1 star who only catches flies! Here is a sample shot with this product. 8 Asian queens and \"a few\" catches of common hornets. You still need to have the right trap!! I have been using this product for 2 years and still have the same results. And again, we are at the beginning of the year, in a while I will triple my collection. :))",
+      "tags": [
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective !. Installed at noon, photo in the evening, and at least 7 wasps inside. I already used it this summer and it captures a lot of wasps and hornets, no bees and that's very positive! I recommend",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Ideal for capturing hornets. Very effective for capturing hornets. I made a mixture of white wine and strawberry syrup. The results were not long in coming. I am delighted with my purchase",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Trap for hornets, wasps. this trap and its product are very effective for hornets, wasps and flies. I have been using this product since 2023, I am very satisfied with it over several summer months",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wow!. Hyper effective when well placed. Put it in a sunny place and above all don't forget the bait. When you judge that it is full enough and that all the insects are dead, empty it and clean the property. Don't forget to dry it and put bait back inside",
+      "tags": [
+        "weather",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "effective. very effective traps, I have already trapped several Asians and moreover being near hives I can confirm that I do not trap any bees! I recommend because effective and inexpensive",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent product. Excellent product which is so impressive it attracts flies (see photo) far from imagining that I had so many flies around me, outside around the trash cans, on the terrace and even inside (intended for outside) I recommend this product",
+      "tags": [
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Quite effective. Placed between the neighbor's chicken coop and my terrace, I collect hundreds of flies in the summer. Do not put too close to the living area as it produces a certain odor",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Prevention trapping. Very very effective. With grenadine beer white wine yes yes. The hornets destroyed my hive but I had several hundred. I set the trap too late",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective. Works very well. Several hornets were captured in a few minutes According to the downside, the two tanks arrive nested one inside the other, not easy to separate",
+      "tags": [
+        "attracts_wrong",
+        "weather",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "This quality product is effective!!!. I have used this product several times...it always does a good job attracting many Asian and European hornets, as well as wasps. I am satisfied with the effectiveness of this product. I recommend",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good product. Works great for trapping hornets and Asian hornets, flies. Doesn't attract bees, fortunately. Very good product, I recommend",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect. The 2 pieces are quite big. They worked perfectly this summer with a big score on Asian hornets (syrup and white wine mixture). Easy to install, easy to attach to a tree, and easy to clean: they empty like a bucket. I recommend",
+      "tags": [
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Impressive results. I don't usually leave messages, but I must admit that it deserves it. The effectiveness after five days is crazy. The smell is not very pleasant, so keep it away. I would like to find this effective for mosquitoes",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Gorgeous. We are in Seine et Marne and the product attracts hornets (Asian and European), wasps and flies well. We are very happy with this product!",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good product!. Not too strong scent. Convenient to use with the insect trap. Very effective on wasps and large flies and no bees neutralized",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasp and hornet trap. Good capacity, solid despite the plastic material, very effective with 200ml dark beer + 200ml sweet white wine + 200ml strawberry syrup",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Attractive. Super Attractant used in garden next to summer kitchen and dining table attacked full of Asian hornet, wasps, moths and mold. A 1 cm bottom with expired Coca Cola. I change it every 10 days and the trap is filled",
+      "tags": [
+        "attracts_wrong",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Do not hesitate to buy. Terrific efficient, best purchases of my life!! Wasp, flies and even hornet queens, everything goes! I am amazed at the efficiency",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good efficiency. Very attractive product for trapping wasps Works perfectly well Catches wasps to keep them away from your outdoor table and you will eat in complete peace of mind I supplemented with other traps, mixing beer and apple juice",
+      "tags": [
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective fly trap.. Very effective, on the other hand do not take it next to the door strong smell, even the wasps go there, does its job very well. I am satisfied. I recommend this product to those around me. In about a month of use",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Extraordinary efficiency... the trap works perfectly!! to be placed outside and not in the house!! No more wasps or hornets in the house!",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective product. Since our use we have caught a large number of flies and hornets. It does not attract bees. Very good product",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Ottimo. You can use it to release the Asian calabroni that has been installed on the roof of the pergola, and you have to say that it works, obviously it's the truth that it's the truth that many times it's there. Conviene svuotarla a. So it's almost perched where it's going to be the ultimate non-affiliated and very complicated thing to do.",
+      "tags": [
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective. Once a hornet is trapped, it's impressive. I can't count the number imprisoned!!! Very effective. Little tip: to remove the two containers, do not force them. Run them under hot water and they come out without any problem.",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Tremendous efficiency. Installed one on a windowsill and the other in the vegetable garden. After a week the hornet harvest is impressive",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Top..... Product used since last year.... Very effective against hornets.... Very satisfied hence the purchase of this can.... I recommend",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect. Large volume and very durable. Wasps, flies etc. come in without any problem, of course with a good product inside. 1/2 blackcurrant syrup and 1/2 super non-alcoholic mixed beer, no more hornets, it even catches big flies",
+      "tags": [
+        "attracts_wrong",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Outdoor use only!. Effective….outside because of the odor, impossible indoors (rotten meat to attract flies)",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective bait. I bought this bait for my hornet trap. It is very efficient. After 2 hours of installation already 5 hornets inside. I'm delighted because we were very concerned to see so many hornets roaming around. I recommend!",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Catches wasps and flies. Very good for wasps and I also had a lot of flies I'm going to buy a second one for the back of the house because the first one is in front In less than a week the liquid was filled with animals",
+      "tags": [
+        "attracts_wrong",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect object in its field. This very simple trap to use (if you follow the instructions precisely) fulfilled its role and allowed me to put hundreds of Asian hornets out of harm's way. I highly recommend",
+      "tags": [
+        "attracts_wrong",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective. Indeed no bees were caught! I have 3 for different areas and even the one at home next to the dining area doesn't bother me because the wasps go directly to it and not to our plates.",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective product. Effective product even if beer and jam would have done the job well. Measuring bottle (4 doses per bottle). Around fifty wasps (as well as flies) trapped. No bees, which is great!",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective. Very effective for hornet wasps and flying insects, do not leave within reach of children, handle with gloves",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective. I am very satisfied with my purchase, the trap is effective. He has already trapped a few Asian hornets",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super effective. Hyper efficient, the trap filled at a speed that I didn't even imagine. I have just purchased the product (delivered with) not wanting to risk being disappointed with a personal composition",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect!. Works perfectly with the Bsi trap.. Hornets, wasps and flies.. Does not attract bees!",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "At the top. Super powerful and effective product, in a wasp trap, any flying insect is attracted by the smell. This allows you to be peaceful outside without fear of being stung by a wasp or a hornet",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super effective. Awesome ! A real massacre: except for the bluebottles, the wasps... a real massacre. Besides, I have just recommended two new ones. I have another brand and it is less effective",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective !. The trap and the liquid product provided are very effective, barely 10 minutes after installation several insects were already trapped inside. To be installed from February for hornets",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasp and Hornet Trap. Captured with this trap more than 200 Asian hornets last year, thanks to a simple but very effective mixture: beer, white wine and blackcurrant syrup in equal proportions",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works really well!. Works very very well but on the other hand you absolutely have to put it outside because it gives off a strong smell, I put it 2 m from my entrance and it works well",
+      "tags": [
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works very well. Put the product this am in two traps and already catches but I didn't see any in my garden. It works well. I recommend. Now to see in the longer term",
+      "tags": [
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective!. These wasp traps are very good. Effective. Their large size allows them to be taken care of only once in 2-3 weeks. The downside is that their large size makes them less aesthetic.",
+      "tags": [
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Impressive. Clearly effective product! Nothing more to say, barely installed and 3 days later we had the container full to bursting! Fly, wasp, hornet, gadfly, just incredible!",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "super effective product! used for years, only traps flies, wasps and hornets",
+      "tags": [
+        "no_efficacy",
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "effective but fragile. Fulfills its function but seems fragile especially when screwing on the lid. Labels that hide the visibility of wasps trapped below should be avoided.",
+      "tags": [
+        "bad_design",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "very effective. hello, at the sight of the hornets and wasps caught with this product it is undeniably very effective. I will keep this product in mind for other summers to come, thank you",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasp catcher. Top product, it's been 4 days since I installed it. I didn't use the 200ml, I only used 100ml and I am impressed by the number of wasps in the trap... I was mixed when reading the comments but really not disappointed yet. I recommend",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Alright. This product is very effective, it attracts wasps and hornets ++++",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super effective. Initially septic because 2 flies and a butterfly after 3 days filled with western hornets and wasps!! Impressive so I only use this product",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fly and mosquito catcher. I use ribbons, 🎀 but it's not 😂 very aesthetic So that's 😁 why, these traps Now 😂 to see the effectiveness when I have flies",
+      "tags": [
+        "attracts_wrong",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective. Works very well. After 3 months, no more hornets in our garden",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect fly trap. Hi, a very effective fly trap after a few days the flies and Asian hornets are in the jar! In 12 days see photos, video",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good trap for Asian hornets. Top Trap lots of Asian hornets",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great. Works great, it attracts hornets and flies well, I recommend",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fly trap. Very effective. Do not put too close because it smells bad",
+      "tags": [
+        "attracts_wrong",
+        "smell_bad",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "The hornets are trapped. Attracts hornets well, but very expensive product",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "bait_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Harvest in 10 days. This container works extremely well! I tried for years with bottles, I never had this result! For the recipe, I simply added shandy and peach syrup and in 10 days I had more than forty hornets!",
+      "tags": [
+        "attracts_wrong"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works perfectly!. To be coupled with the attractant, top efficiency. Too bad for the price. Very small container!!! In one week, around 200 hornets and wasps",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great. Excellent. I was doubtful. The flies are really attracted to the liquid, they don't know how to get out of the trap. Fly pressure has really decreased",
+      "tags": [
+        "attracts_wrong",
+        "weather"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective and reasonably priced. Very effective for hornets and wasps",
+      "tags": [
+        "attracts_wrong",
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "A killing. Impeccable for attracting wasps and hornets. His march of thunder. Too bad the price is a little high and the quantity to attract them",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Kapo Wasp trap attractant. This product works well, but it is a little expensive... more economical to make a mixture of beer, red fruit syrup, white wine",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "It works!. Very effective Doesn't always smell very good Is not super aesthetic But it works! So the little inconveniences are quickly forgotten",
+      "tags": [
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective product. Very effective product for capturing harmful insects as described in the product sheet. just a little too expensive for my taste",
+      "tags": [
+        "overpriced",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great product. This attractant for wasp and hornet traps is very effective, I immediately had in 2 days, 2 hornets and 3 wasps caught in the trap. Well done !",
+      "tags": [
+        "attracts_wrong",
+        "effective"
+      ]
+    }
+  ]
+}

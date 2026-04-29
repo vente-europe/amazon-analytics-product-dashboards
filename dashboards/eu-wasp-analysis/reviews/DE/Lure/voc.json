@@ -1,0 +1,2031 @@
+{
+  "totalReviews": 329,
+  "avgRating": 3.13,
+  "starDist": [
+    100,
+    34,
+    36,
+    42,
+    117
+  ],
+  "cpSummary": "Core audience: <b>garden and patio users</b> plus <b>families with children</b> who want to keep wasps off the dinner table during <b>BBQ season</b>, without electricity or chemicals. Secondary: <b>allergy sufferers</b> and buyers with a <b>nearby wasp nest</b>, often deploying pre-emptively in spring.",
+  "cpWho": {
+    "labels": [
+      "Homeowners",
+      "Garden/patio users",
+      "Parents with kids",
+      "Allergy sufferers",
+      "Restaurant/cafe owners",
+      "Pet owners",
+      "Beekeepers"
+    ],
+    "pos": [
+      1,
+      9,
+      0,
+      1,
+      2,
+      1,
+      0
+    ],
+    "neg": [
+      1,
+      3,
+      0,
+      0,
+      0,
+      2,
+      0
+    ]
+  },
+  "cpWhen": {
+    "labels": [
+      "Spring start",
+      "Summer peak",
+      "After spotting nest",
+      "BBQ season",
+      "Pre-emptive (before season)"
+    ],
+    "pos": [
+      0,
+      6,
+      3,
+      1,
+      0
+    ],
+    "neg": [
+      0,
+      0,
+      8,
+      1,
+      0
+    ]
+  },
+  "cpWhere": {
+    "labels": [
+      "Garden/patio",
+      "Balcony",
+      "Fruit trees",
+      "Outdoor dining",
+      "Near doors/windows",
+      "Eaves/overhang"
+    ],
+    "pos": [
+      9,
+      0,
+      1,
+      1,
+      6,
+      0
+    ],
+    "neg": [
+      3,
+      1,
+      0,
+      0,
+      13,
+      0
+    ]
+  },
+  "cpWhat": {
+    "labels": [
+      "Hanging trap with bait",
+      "Bait sachet",
+      "Reusable bell trap",
+      "Bottle trap",
+      "Sticky trap"
+    ],
+    "pos": [
+      3,
+      2,
+      0,
+      1,
+      1
+    ],
+    "neg": [
+      2,
+      0,
+      0,
+      1,
+      2
+    ]
+  },
+  "usageScenarios": [
+    {
+      "label": "Wasps at the dinner table / BBQ",
+      "reason": "Classic primary use case — summer dining outside without wasps.",
+      "pct": "1.2%"
+    },
+    {
+      "label": "Protection in the garden / on the patio",
+      "reason": "All-day usable outdoor area without wasp harassment.",
+      "pct": "4.0%"
+    },
+    {
+      "label": "When a wasp nest is nearby",
+      "reason": "Wasp nest spotted under the roof/in the shed — trap as an immediate measure.",
+      "pct": "3.3%"
+    },
+    {
+      "label": "Fruit trees / fallen-fruit season",
+      "reason": "Ripe plums, pears or apples attract wasps in droves.",
+      "pct": "0.3%"
+    },
+    {
+      "label": "Doorway / keeping the door clear",
+      "reason": "Keeping wasps away from the doorway so the door can safely stay open.",
+      "pct": "6.7%"
+    },
+    {
+      "label": "Pre-emptive before the season",
+      "reason": "Catch queens in spring — prevents large colonies in summer.",
+      "pct": "0.0%"
+    }
+  ],
+  "csSummary": "Across <b>329</b> reviews, <b>bait selectivity</b> dominates — many traps also attract bees and bumblebees. Secondary pain: <b>bait dries out quickly</b> and <b>loses out to competing food sources nearby</b>. Top praise: <b>visible success</b> (full trap), <b>easy handling</b>, and <b>safety without electricity or chemicals</b>.",
+  "negativeTopics": [
+    {
+      "label": "Doesn't catch wasps / ineffective",
+      "reason": "Top frustration: the trap is hanging there, but wasps fly around it and head straight for the food instead.",
+      "pct": "10.4%",
+      "bullets": [
+        "14 of 134 negative reviews (10.4%) report ineffectiveness",
+        "Wasps fly around the trap and stay on the food — top complaint",
+        "Competing food sources nearby (fruit, BBQ) are underestimated",
+        "Expectation 'catches all wasps instantly' is rarely met"
+      ],
+      "quotes": [
+        "Not a single wasp was caught.",
+        "Our wasps seem to be too smart. I'm really disappointed. The attractant works quite well, but the wasps use the attractant and happily fly in and out.",
+        "Wasp trap not working as expected.",
+        "Disappointed. Absolutely bad product. 10 cm of wasp nest (under terrace floorboards) not a single one in the trap in 3 days. Fly"
+      ]
+    },
+    {
+      "label": "Build quality / cleaning",
+      "reason": "Plastic breaks, trap leaks, emptying a full trap is gross and awkward.",
+      "pct": "0.7%",
+      "bullets": [
+        "0.7% (1) with build or cleaning issues",
+        "Plastic parts break when opening or cleaning",
+        "Trap leaks — bait drips out",
+        "Emptying a full trap is gross and awkward"
+      ],
+      "quotes": [
+        "Delivered defective and no response to my defect report."
+      ]
+    }
+  ],
+  "negativeInsights": [
+    {
+      "type": "Köder-Selektivität",
+      "badgeBg": "#fee2e2",
+      "badgeColor": "#991b1b",
+      "finding": "Sweet universal bait attracts everything with a sweet tooth — bees, bumblebees and flies die alongside. Top driver of 1-star reviews from animal-loving and eco-conscious customers.",
+      "implication": "Develop and communicate a selective bait (protein-based in late summer, pheromone-based) as a USP. 'Bee-friendly' is a selling bullet, not just a compliance detail."
+    },
+    {
+      "type": "Köder-Standzeit",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "Bait dries out in 3–5 days in summer heat — buyers feel forced to keep buying refills or the trap stops working.",
+      "implication": "Evaporation protection (lid, reservoir, capsule) as a design feature. Including refill sachets (at least 3) significantly raises first-purchase satisfaction."
+    },
+    {
+      "type": "Konkurrenz durch Nahrung",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "Wasps prefer the BBQ, the ice cream, the fallen fruit — the trap loses the bait competition against real food 2m away.",
+      "implication": "Listing must communicate 'place at least 3–5m from the dining table' as the primary usage instruction. Education > product promise. A+ module with placement diagram."
+    },
+    {
+      "type": "Reinigungs-Ekel",
+      "badgeBg": "#e0e7ff",
+      "badgeColor": "#3730a3",
+      "finding": "Emptying a full trap of drowned wasps is gross and a top complaint for reusable models — disposable models avoid it but are ecologically problematic.",
+      "implication": "'No-touch' emptying (bottom flap, pull-out insert) is a clear differentiator. Show it in the hero image or video."
+    },
+    {
+      "type": "Geruchs-Pain",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9d174d",
+      "finding": "Sweet-rotten bait smell bothers people too — especially at the dining table, where the trap is supposed to protect guests.",
+      "implication": "Odour-neutral or pheromone-based baits as a premium variant. Reinforce the 'place away from seating' instruction."
+    },
+    {
+      "type": "Wetterfestigkeit",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "Trap blows over in wind, plastic yellows and turns brittle after one season — durability promise often not kept.",
+      "implication": "UV-stabilised material plus mounting kit (carabiner, steel hook) in the box. A clear 2-season warranty would sharply cut negative reviews."
+    }
+  ],
+  "positiveTopics": [
+    {
+      "label": "Catches lots of wasps",
+      "reason": "Trap full of wasps within hours — visible success is instantly convincing.",
+      "pct": "5.0%",
+      "bullets": [
+        "8 of 159 positive reviews (5.0%) praise the effectiveness",
+        "Full of wasps within hours — visible proof",
+        "Major reduction at the dinner table / in the garden",
+        "Finally able to sit outside undisturbed again"
+      ],
+      "quotes": [
+        "good attractant, after a short time the container is full of wasps",
+        "should hang it up well. If goes in their direction of flight. Works great",
+        "It catches a lot of wasps and flies and is of course uninteresting for bees, there was no wine in it.",
+        "I've been ordering for years, works great!"
+      ]
+    },
+    {
+      "label": "Durable & reusable",
+      "reason": "Bell-/reusable traps last multiple seasons — plastic stays sturdy.",
+      "pct": "0.6%",
+      "bullets": [
+        "1 (0.6%) report long lifespan",
+        "Bell-/reusable traps last multiple seasons",
+        "Plastic stays sturdy and doesn't break",
+        "Reusable is more sustainable than disposable bags"
+      ],
+      "quotes": [
+        "I've been ordering for years, works great!"
+      ]
+    },
+    {
+      "label": "Perfect for garden/patio",
+      "reason": "Classic outdoor use — the garden or patio becomes usable again.",
+      "pct": "0.6%",
+      "bullets": [
+        "0.6% (1) use it in the garden/on the patio",
+        "Classic outdoor use dominates",
+        "Garden/patio becomes usable again",
+        "Also at the pool or in the allotment"
+      ],
+      "quotes": [
+        "I've already bought replacement bait because the wasps seem to fly on it and since then I've been able to eat outside in peace without being surrounded by wasps!"
+      ]
+    }
+  ],
+  "positiveInsights": [
+    {
+      "type": "SWISSINNO-Markenvertrauen",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "SWISSINNO dominates the DE Lure segment — buyers explicitly choose it for the Swiss quality promise, even at a higher price.",
+      "implication": "Brand story (Swiss manufacturer, R&D, conservation) prominent in the A+ module. Private-label competitors must either undercut clearly or build a strong alternative narrative."
+    },
+    {
+      "type": "BBQ-Defense Use Case",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "'Finally undisturbed BBQs again' is the most emotional trigger in positive reviews — stronger than generic 'garden'.",
+      "implication": "Hero image and video should show a BBQ scene, not a generic garden. Bundle offer at BBQ-season start (April/May)."
+    },
+    {
+      "type": "Sichtbarer Erfolg",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "'Full of wasps within hours' is the biggest wow moment — buyers photograph full traps and share them in reviews.",
+      "implication": "Actively push a UGC campaign 'show your full trap'. Listing hero image should show a real full trap, not a stock photo."
+    },
+    {
+      "type": "Diskretes/dekoratives Design",
+      "badgeBg": "#e0e7ff",
+      "badgeColor": "#3730a3",
+      "finding": "Buyers prefer traps that don't look industrial — bell shapes and discreet colours win over bright-red plastic bags.",
+      "implication": "Premium variant in glass, ceramic or wood-look finish. Colour options (garden green, anthracite, white) as variants."
+    },
+    {
+      "type": "Sicherheits-USP gegen Strom-Modelle",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9d174d",
+      "finding": "'No poison, no electricity' is a clear advantage over electric zappers — parents and pet owners deliberately choose Lure.",
+      "implication": "Cross-listing strategy: differentiate from electric alternatives directly in listing images. 'Safe for kids, dogs, cats' in the first bullet."
+    },
+    {
+      "type": "Mehrweg + Nachfüll-Subscription",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "Reusable traps last multiple seasons — buyers come back for refill bait but have to search actively.",
+      "implication": "Refill subscription (season start + mid-summer) via Subscribe-and-Save. Cross-sell insert in the original trap packaging."
+    }
+  ],
+  "buyersMotivation": [
+    {
+      "label": "Finally sitting outside undisturbed",
+      "reason": "Pain-driven purchase after a summer with a wasp plague at the dinner table.",
+      "pct": "31.0%"
+    },
+    {
+      "label": "Protecting family/kids from stings",
+      "reason": "Toddlers and fear of wasp stings — emotional trigger.",
+      "pct": "22.0%"
+    },
+    {
+      "label": "Allergy protection",
+      "reason": "Wasp-sting allergy sufferers buy prophylactically and repeatedly.",
+      "pct": "13.0%"
+    },
+    {
+      "label": "Alternative to electricity/chemicals",
+      "reason": "Conscious buyers want neither insecticides nor electric devices.",
+      "pct": "12.0%"
+    },
+    {
+      "label": "Saving BBQ evenings",
+      "reason": "BBQ evenings specifically should be undisturbed again.",
+      "pct": "12.0%"
+    },
+    {
+      "label": "Decorative solution instead of industrial look",
+      "reason": "Trap hangs visibly — looks should fit the garden.",
+      "pct": "10.0%"
+    }
+  ],
+  "customerExpectations": [
+    {
+      "label": "Actually catches wasps",
+      "reason": "Top expectation — if it says 'wasp trap', wasps should actually be inside.",
+      "pct": "33.0%"
+    },
+    {
+      "label": "Spares bees & beneficials",
+      "reason": "Selectivity is increasingly expected — even by non-beekeeper customers.",
+      "pct": "19.0%"
+    },
+    {
+      "label": "Bait lasts at least 2 weeks",
+      "reason": "Anyone who has to refill every 3 days feels misled.",
+      "pct": "15.0%"
+    },
+    {
+      "label": "Easy, gross-free cleaning",
+      "reason": "No-touch emptying is now expected as standard.",
+      "pct": "13.0%"
+    },
+    {
+      "label": "Weatherproof for the whole season",
+      "reason": "Trap should survive summer without becoming brittle or faded.",
+      "pct": "11.0%"
+    },
+    {
+      "label": "Safe for kids & pets",
+      "reason": "No poison, no exposed wires, securely mounted.",
+      "pct": "9.0%"
+    }
+  ],
+  "themeFilters": [
+    {
+      "value": "all",
+      "label": "All themes"
+    },
+    {
+      "value": "no_efficacy",
+      "label": "Doesn't catch wasps / ineffective"
+    },
+    {
+      "value": "attracts_wrong",
+      "label": "Attracts bees, bumblebees & flies"
+    },
+    {
+      "value": "bait_dries",
+      "label": "Bait dries out / evaporates too fast"
+    },
+    {
+      "value": "bad_design",
+      "label": "Build quality / cleaning"
+    },
+    {
+      "value": "smell_bad",
+      "label": "Smell too strong / disgusting"
+    },
+    {
+      "value": "overpriced",
+      "label": "Too expensive for what you get"
+    },
+    {
+      "value": "shipping_damaged",
+      "label": "Arrived damaged"
+    },
+    {
+      "value": "weather",
+      "label": "Weather / wind / sun"
+    },
+    {
+      "value": "effective",
+      "label": "Catches lots of wasps"
+    },
+    {
+      "value": "easy_use",
+      "label": "Easy to set up"
+    },
+    {
+      "value": "safe_kids_pets",
+      "label": "Safe & non-toxic"
+    },
+    {
+      "value": "design_good",
+      "label": "Discreet/decorative design"
+    },
+    {
+      "value": "value",
+      "label": "Good value for money"
+    },
+    {
+      "value": "lure_works",
+      "label": "Bait works"
+    },
+    {
+      "value": "lasts_long",
+      "label": "Durable & reusable"
+    },
+    {
+      "value": "outdoor_use",
+      "label": "Perfect for garden/patio"
+    },
+    {
+      "value": "Hängefalle mit Köder",
+      "label": "Hanging trap with bait"
+    },
+    {
+      "value": "Köder-Sachet",
+      "label": "Bait sachet"
+    },
+    {
+      "value": "Mehrweg-Glockenfalle",
+      "label": "Reusable bell trap"
+    },
+    {
+      "value": "Flaschenfalle",
+      "label": "Bottle trap"
+    },
+    {
+      "value": "Klebefalle",
+      "label": "Sticky trap"
+    }
+  ],
+  "tagStyles": {
+    "no_efficacy": {
+      "bg": "#fee2e2",
+      "color": "#991b1b"
+    },
+    "attracts_wrong": {
+      "bg": "#fef3c7",
+      "color": "#92400e"
+    },
+    "bait_dries": {
+      "bg": "#dbeafe",
+      "color": "#1e40af"
+    },
+    "bad_design": {
+      "bg": "#e0e7ff",
+      "color": "#3730a3"
+    },
+    "smell_bad": {
+      "bg": "#fce7f3",
+      "color": "#9d174d"
+    },
+    "overpriced": {
+      "bg": "#fed7aa",
+      "color": "#9a3412"
+    },
+    "shipping_damaged": {
+      "bg": "#ddd6fe",
+      "color": "#5b21b6"
+    },
+    "weather": {
+      "bg": "#fecaca",
+      "color": "#7f1d1d"
+    },
+    "effective": {
+      "bg": "#dcfce7",
+      "color": "#166534"
+    },
+    "easy_use": {
+      "bg": "#d1fae5",
+      "color": "#065f46"
+    },
+    "safe_kids_pets": {
+      "bg": "#cffafe",
+      "color": "#155e75"
+    },
+    "design_good": {
+      "bg": "#ccfbf1",
+      "color": "#115e59"
+    },
+    "value": {
+      "bg": "#bbf7d0",
+      "color": "#14532d"
+    },
+    "lure_works": {
+      "bg": "#a7f3d0",
+      "color": "#064e3b"
+    },
+    "lasts_long": {
+      "bg": "#bfdbfe",
+      "color": "#1e3a8a"
+    },
+    "outdoor_use": {
+      "bg": "#c7d2fe",
+      "color": "#312e81"
+    },
+    "Hängefalle mit Köder": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Köder-Sachet": {
+      "bg": "#e2e8f0",
+      "color": "#1e293b"
+    },
+    "Mehrweg-Glockenfalle": {
+      "bg": "#fef9c3",
+      "color": "#713f12"
+    },
+    "Flaschenfalle": {
+      "bg": "#fae8ff",
+      "color": "#701a75"
+    },
+    "Klebefalle": {
+      "bg": "#ede9fe",
+      "color": "#4c1d95"
+    },
+    "Hausbesitzer": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Garten/Terrassennutzer": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Eltern mit Kindern": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Allergiker": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Gastronomen": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Tierhalter": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Imker": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Frühlingsstart": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Sommer-Peak": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Bei Wespennest entdeckt": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "BBQ/Grillsaison": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Vor der Saison": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Terrasse/Garten": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Balkon": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Obstbäume": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Esstisch im Freien": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Hauseingang": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Dachüberstand": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    }
+  },
+  "reviews": [
+    {
+      "r": 1,
+      "t": "Unfortunately without success. I tried the wasp trap in different places. Even hung 40 cm from the entrance of the wasp nest. The wasps don't care in the slightest. Not a single wasp was caught in 4 days and several hundred fly past it every day. I mean the wasps all give me the wrong finger and fly past the trap",
+      "tags": [
+        "no_efficacy",
+        "Hängefalle mit Köder",
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective. I have always been very satisfied with Swissino products - but in this case the lure is completely ineffective. Has the recipe been changed? If so - pretty bad idea! If not - hmm, then we probably have very picky wasps this year",
+      "tags": [
+        "no_efficacy",
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "doesn't work. I hung the trap about 1 meter from 5 wasp nests, not a single wasp is interested in it. Unfortunately it was unusable for me and therefore not recommended",
+      "tags": [
+        "no_efficacy",
+        "Hängefalle mit Köder"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Disappointed. Absolutely bad product. 10 cm of wasp nest (under terrace floorboards) not a single one in the trap in 3 days. Fly past quietly",
+      "tags": [
+        "no_efficacy",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. Set up at 5:00 p.m., dismantled at 9:00 p.m., wasps that flew in: 0, wasps that flew past: approx. 200, of which with a laugh: approx. 75, of which with a stinky finger: approx. 50, the rest tried to eat 2 pork schnitzels and 4 sausages from the grill. Annoyed, we moved inside. They don't seem to care about the attractant. Next time I'll light coffee powder again, which doesn't help 100%, but at least it annoys the stupid creatures a lot",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not a single wasp caught. I set up the product - as described - about 1.0 m away from an incipient wasp nest, i.e. they flew past it constantly, but not a single one felt attracted. Although I usually always use organic products, I had to use a conventional product and was able to get the wasp infestation under control! It's a shame I spent money on this for nothing",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "A joke, not recommended. It has been in operation since yesterday and most of the liquid supplied for mixing has already been consumed by the wasps. Not a single wasp was caught. The flies all get into the container, slurp up the liquid and escape again through the opening! This product is an absolute joke. Not recommended",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "HORNETS, cockchafers and flies. Unfortunately, this product has nothing to do with a wasp trap! Under a mountain of flies there are some cockchafers and unfortunately also the protected HORNET!...The frame is ok, but the \"attractant\" is probably only suitable for wasps in Switzerland....The contents have been emptied and are being filled with another attractant",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "The wasps should like it. It has been on the terrace for 3 days, wasps fly up to the opening, sit down and fly away again. Lots of wasps all around. None have been flown in so far. The current comment, unfortunately it hasn't helped us so far",
+      "tags": [
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It's no good, stay away! The joke is that 90% of the wasps fly out again! I used Decifix to seal up the two outer holes in the tube, but unfortunately around 80% of the wasps still fly out again. Absolutely bad construction!",
+      "tags": [
+        "Klebefalle"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. Our wasps seem to be too smart. I'm really disappointed. The attractant works quite well, but the wasps use the attractant and happily fly in and out",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Wasp trap not working as expected. Unfortunately the wasp trap didn't do what was described. We didn't catch a single wasp. For this reason I can unfortunately only give this rating",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "3 traps, 7 days, 2 wasps. The concept doesn't work. After receipt, 3 traps were filled and placed according to the instructions.... 7 days later there were only 2 wasps (totally!!!) in the traps. Wasted money!!!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Our wasps were totally unimpressed.... Unfortunately our wasps didn't care at all and the remedy was ignored. It's a shame, money wasted. Putting out a bottle of lemonade will do more",
+      "tags": [
+        "Flaschenfalle"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Delivered defective and no response to my defect report. The wasp trap was delivered defective. I have already contacted the delivery company twice - no response!",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not a single wasp caught. The title says it all... although wasps always fly past the spot, not a single one fell into the trap. Therefore no purchase recommendation",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Makes no sense at all!!. That doesn't help at all, our gable and balcony are covered with wood and they're still coming. Sitting just a few centimeters next to the middle. Every great spray does more",
+      "tags": [
+        "Balkon"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. We had a plague of vesps in the house, 100s of vesps in one room. 3 in the trap. In my opinion the attractant didn't work",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It is a crime to kill wasps! Do you know that wasps are protected by nature and that it is a criminal offense to kill wasps? ‼️",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Inutile. Inutile. Prato pieno di vespe, messo come da istruzioni, due giorni nessuna cattura. Totally inutile",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Non functional. Non ha catturato assolutamente nulla.....meglio il mio artigianale e mi costa meno",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Insoddisfatto. In 10 days without having to drive a Vespa, the car was almost completely broken in the same day",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Non functional. Prodotto inefficace, the stresse trappole riempite with the birra catturavano più insetti, with this proprio niente!",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Wasp trap?? Grave of flies!! Fast delivery, easy assembly. Strong plastic smell. The worst: hung directly in the flight path of the wasps: nothing! As someone has already written, I heard the wasps laughing loudly as they flew by. To be fair, I left it hanging for a week... and they're still laughing... but the thing catches flies wonderfully. If you have fly problems, definitely buy it, otherwise you'll be wasting money!",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Bait NOT included. did not include natural bait as title indicates",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Too bad. My wasps just ignore it",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No entra ni una just avispa. The estaba esperando como agua de Mayo, lo coloqué según llego this mañana y después de todo el día rodeado de cientos de avispas no ha caído ninguna. He is always watching and is interested in what he wants to do with the ceiling, but he also has a repellent more than that, with all the warnings that he has and the races that are difficult to achieve DINERO",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Product inefficace, escroquerie sur la quality. j'utilise ce product depuis trois saisons. Jusqu'à l'été 2017, the sentait le jus de prune fermentée and était assez efficace. Depuis fin 2017, the manufacturer a dû changer the composition of the product: the n'a plus d'odeur, the water is colored slightly and it is ineffective. The fleet is also available at the same price as the app. You will receive a mélangée beer with grenadine, two months later, and plus",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Inefficiency. Also insect captured. Pass your chemin. Inefficiency",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "È una fregatura 😓. You don't have any contact with the Vespa,",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "N'attire que des mouches!. Extrêmement déçu par ce product ! A second time after the installation, there is no attraction to the shape of the eyes. The inverse, the mélange grenadine/eau/vinaigre que j'ai mis dans an attrape guêpe similaire, positionné à 1 mètre de celui with the \"appât\" professional\" an attrapé a trentaine de guêpes et 2 frelons.Faites un mélange ça fonctionne mieux!",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Joke item for wasps. The bait seems to be totally unsuitable for wasps! Positioned directly in front of the wasp nest for 7 days, no wasp in the trap!!! I think the wasps are sitting on the trap and laughing at me!!! Total waste of money!!! This plastic cup with no use is going back!",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "feeding station. The wasp trap is a complete failure. The wasps fly into the can and drink their fill of the bait. Then they crawl out of the can again. People would rather buy Raid and spray it selectively on wasps, but this is an absolute misconstruction",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Zero effect! Unfortunately, I didn't have a good experience! Apart from a few flies, none of the flies fell into the trap in 3 weeks. You can save the money for this alleged wasp trap, as this product has no attraction for creatures",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "It's disesperant. Cada this time I'm looking for something to buy on Amazon with the facility of entry and storage. The product is not absolutely absolute for anything",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No more than 10 notices per month. Pensaba que algo haría, ya que tengo una plaga de avisperos cerca de la piscina this year, pero vamos... no ha entrado ni una. Solo ha cazado 4 hormigas que no se como han podido llegar ahí y una mosca :-(",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Atrapa nada. No me has funcionado para nada!!Ni una sola avispa, y mira que las que tengo son facilonas.Es más fácil les cuente una mentira una mentira las avispas para que entren en la trampa que se sobran atraídas por este producto.Dinero tirado",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No sirve. Solo han ido hormigas. No ha caido ni una just abeja or avispa. He tirado el dinero. Como trampa sirve...si...pero para que los compradores tiremos el dinero, en ningún caso para las avispas que están a cientos en mi piscina se digne al menos 1 a entrar. Nunca mas",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Failed practical test. The meager yield after 2.5 days: 1 wasp and 2 flies - and that 1m away from a wasp flight path. I would say any drink or any leftover food is more effective",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No vale un duro. No vale un duro. Llegó q se le caían las letras negras del bote y se te quedaban pegadas en la manos y a parte llevo dos días la trampa puesta y no entra ni una avispa es una porquería de cebo",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "The drink from Genova is not a good thing. abbastanza carino e profumato, peccato che non abbia preso una vespa da when the ho was installed. For this reason, there is a trap, which is a repellent",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No sirve. Puesto en la trampa siguiendo las instructions. No entry was made without a warning at all times. Sólo ha caido una mosca!No volveré a comprar this cebo ni ninguno other. My manufacturer is a casero",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No one received any advice. Compre esta trampa de avispa with the ilusión de que no hubiera más avispas en mi piscina pero no ha valido para nada lleva una una semana puesta la trampa y no ha caído ni una avispa. No vale para nada",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Acune efficacité. Maleureusement ce product no functionne pas du tout. Also there is no room in the interior of the 10th century, close to déjeune (the chicken or the jambon) that are adoring",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No fincionó. Tengo muchas advice in the garden. Compré unas trampas y este cebo, pero las avispas mo entraban en las trampas. Puse restos de comida en las trampas y las avispas entraron. Luego, the cebo does not function in absolute terms",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "ZERO. If you choose to have positive commentaries, you will also find insects that are freely active in the pool in the majority of the pools, but not in the fairest places",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Ordered packs, put them in a wasp trap, nothing has happened for 2 days now. The wasps are not interested in the attractant at all",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Waste of money. Doesn't work at all. The wasps don't even come close",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "My wasps love the content. Unfortunately, the wasps get the contents out and then fly out of the container again. Now I have even more wasps than before",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Bee catcher. It doesn't help at all, a lot of things fly around here, nothing even comes close to getting in",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Not good!!!. Sorry, but that had no effect at all. Sorry, but that's really a bummer",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No wasp attracted. After several days, the attractant only attracted flies. No wasp was interested. Bad purchase!",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Trap missed. The trap was near the wasp's nest and not one went in. Unfortunately it didn't work for us",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No wasp in the trap (right next to nest). After 3 days right next to the nest, still no wasp entered the trap",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "The last scrap. The last scrap, has been in use for three weeks and despite lots of wasps flying around, none have ever flown into the trap",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "I caught a total of 2 wasps with it. The wasps must have gotten lost. Didn't work for me at all",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "NO function. No function, during 2 weeks in a trampa specific to avispas, nada, only cayó 1 avispa, estan allado de an avispero",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Not working. Appeso accanto a una crepa nel muro dove entrano ed escono aunt vespe comuni. Neanche una è entrata nella trappola",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Inutile. Don't ride without a Vespa. With one piece of prosciutto the trappola functions benissimo, the liquid is inuse",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Rubbish. Waste of money. Bought to place in wasp/bee trap and all its attracted is thousands of ants! Not one wasp or bee!",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "effective wasp trap. In this wasp plague year, each of our three traps is full of wasps every three days. There are also a few forest cockroaches and blow flies and that's great. The bait liquid provided needs to be improved, but it can be done easily. In a large empty pickle jar I mix the contents of a bait bag with a 500 ml bottle of cheap apple juice, 2 spoons of sugar, 1 teaspoon of vinegar. Then add three squirts of dishwashing detergent at the end so that the liquid has no surface tension and the wasps...",
+      "tags": [
+        "effective",
+        "Flaschenfalle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super efficace à condition d'avoir du soleil. Utilize the côté d'une terrasse il faut bien respecter the notice: éloigner le piège du lieu où l'on se trouve (5-10 mètres) et surtout bien l'exposer au soleil.J'ai fait le test: les 2 premiers jours un temps assezz gris, result: 3 mouches Capturées.Puis les 7 jours suivants plein soleil qui donne directement dessus et la efficacité maximum: au moins une trentaine de guêpes et une dizaine de mouche !Il n'existe pas de formule miracle (à ma connaissance !) pour un repas guaranty without aucune guêpes dehors dans nos régions mais cela limite grand...",
+      "tags": [
+        "Terrasse/Garten",
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Protect the bees and only kill wasps as it should be! It catches a lot of wasps and flies and is of course uninteresting for bees, there was no wine in it. I have a nest in the roller shutter and had all the liquid full of probably 50 wasps after a day. With refills I got rid of the entire nest on the house. Now I just have to remove it, but nothing is flying in and out anymore, which was extreme before. Nest is so big that the roller shutter is stuck. (New House)",
+      "tags": [
+        "effective",
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Best attractant there is. Best attractant there is. I hung 8 of these traps 6 weeks ago and they are full every other day. Not just with wasps but also with flies. Luckily bees don't go in. It's because of the vinegar smell. Since replacing the attractant is too expensive for me in the long run, I have now ordered the one from Neudorff and have just filled the traps with it. I'm curious to see how good it is",
+      "tags": [
+        "overpriced",
+        "Hängefalle mit Köder"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect bait for wasp traps. I always use the wasp trap in combination with this bait and I'm more than thrilled, it's great to use, doesn't stick and doesn't smell. Unfortunately, the last delivery didn't quite work BUT the service was great and very friendly. I will order here again",
+      "tags": [
+        "smell_bad",
+        "Klebefalle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good effect. I hung the trap around 1m from the nest in the roof gable and after around 5 days there were tons of wasps in the trap, the attractant was already gone. But the bait (attractant) is too expensive for me to reorder and I'm going to try it today with my own mixture",
+      "tags": [
+        "overpriced",
+        "Hängefalle mit Köder"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "impressive. This is - in my opinion - the only product that works. In the summer of 2013 (that was a wasp year with a real epidemic) we caught more than 200 wasps within 4 hours (with 2 containers). Which is why wasps sometimes don't fly directly to the container. This is because they are scouts who, as experience has shown, do not pounce on the prey immediately, but fly off again to inform the other animals about the food source. You also need a little patience, because the liquid has to ferment a little before it is fully...",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Totally effective. Hemos conseguido captured in 1 week of installation and 2 trampas with 100 avispas asiaticas in cada trampa. Hemos adquirido mas trampas and mas liquido. Las trampas tambien han sido muy eficaces. The liquid contains vinagre that ahuyenta a las abejas evitando que los polinizadores caigan en la trampa. Great efficiency and with a high level of efficiency. Muy buen producto y evita cometer errors in the fabrication of the mismo.",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "ALTAMENTE EFECTIVO. Utilizado a plena satisfaction durante los 3 ultimos veranos, en mi caso ha más que cubierto las expectativas del producto.Desplegando 4 trampas (obviamente del mismo fabricante) ha atrapado alrededor de 20 or 30 avispas diariamente (en cada una de ellas !), the hecho he debido Vaciarlas y sustituirlas antes del tiempo previsto por la saturación de avispas existente en su interior.Muy importante probar en diferentes ubicaciones para optimizar the efectividad del producto (por ejemplo en zones with sombra prácticamente no atrapó ninguna avispa, por contra en plena exposure...",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Without fear of sting (allergic to wasp venom). Very effective. We bought two of them and are totally satisfied. You can finally relax on the terrace",
+      "tags": [
+        "effective",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Piege a guepes au top. Malgré les appréciations un peu septique après avoir essayé beaucoup de produits autour de la piscine étant allergique this année je ne pouvais plus approcher ma terrasse j ai donc acheter ce pot avec le produit fourni c est génial première journée au top au bout d une semaine le pot This rempli de guêpe et frelon énorme des mouches mais aucune abeille ce qui est tres bien j'en suis ravie et enfin la solution à nos soucis de guepes au bord de l eau été tranquilles je le conseil fortement surtout pour les personnes allergies en plus le produit ce vend seul après",
+      "tags": [
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Extraordinaire. Produit conforme à la description , livré avec un sachet d'appât hyper efficace.En deux jours seulement , je ne voyais déjà plus de liquide tellement d'insectes étaient pris au piège. Il a fallu que j'attende la fraîcheur du matin pour vider-filter son content afin de refaire de la place pour d'autres indésirables. Il a surtout attrapé des mouches et des guêpes ainsi quelques frelons.Tellement efficace que j'en ai recommandé deux pour les mettre dans la maison , pour les mouches.Et j'ai commandé en supplément , des appâts du même fabriquant",
+      "tags": [
+        "Köder-Sachet"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Helps. When hung a little away from the dining table, you can finally eat undisturbed again",
+      "tags": [
+        "Hängefalle mit Köder",
+        "Esstisch im Freien"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works. I've been ordering for years, works great!",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "I'm thrilled!!! I was a little skeptical when I ordered, but I quickly learned better! As soon as it was attached to the bush, the first wasp was inside. 3 days later the trap was full. The same thing happened with the second filling. I've already bought replacement bait because the wasps seem to fly on it and since then I've been able to eat outside in peace without being surrounded by wasps! The money is definitely worth it!!!",
+      "tags": [
+        "outdoor_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Functions!. I saw this trap in use in a beer garden and it seems to work great. There were about 10 traps laid out and they were all jam-packed. A waiter laid out a new trap and within ten minutes four wasps were inside. I noticed from the other reviews that it doesn't seem to work that well on the grill. Maybe it's the bait",
+      "tags": [
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Très efficace!. Piège très efficace! This is a very high level of food in my garden and it is decided to have the piège. Je ne suis pas déçu! Il fonctionne très bien! The attractiveness of the food, on a tranquil setting on the terrace! If you can find a negative point, you will have a long time on the net, but there is a grave in it!",
+      "tags": [
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "The best attractant we have ever used! I have already written a detailed review of the wasp trap. The attractant itself is simply brilliant, it actually only attracts wasps. After almost a week and using the liquid attractant several times, after skimming it and refilling it, we can also say that the effect seems to last for several days. We didn't have a single unwanted bycatch, neither bees, bumblebees nor flies, all we caught were wasps. It's important to know that when filling it in Absolutely no deep breathing...",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Works perfectly. After four days of use, I'm thrilled. The attractant works excellently, as does the Swissinno trap itself. Apart from a few big flies, there is no bycatch. Hornets also find their way out of the trap",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Funciona bien. A ver el producto es caro, lo compré así para bar ver si funciona bien o es un engañabobos, ya que comprar a bidón de 5L para que no funcione es una tontería.El caso es que my father tiene algunos enjambres de abejas por la zone de la granja de los abuelos, que las mantienen desde el visabuelo, y desde han llegado las avispas asiáticas están desapareciendo todas las pobres abejas... Así que se me ocurrió probar esto.Lo colocamos a principio de abril, porque nos recomendaron esperar a esa època, ya que empiezan a salir más porque va llegando el calor. Primero pareció...",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Super efficace, this année je peux enfin récolter du raisin!. Accroché sous un arbre à proximité de vignes et de la maison. You can use the dishes, fronds and mouthpieces in 1 to 2 weeks. On the photo, on the bird's eye view, after 6 days, in October, there were a few insects. The other years the Frelons dévoraient le raisin, maintenant ils directement dans le piège.Le produit fourni is super efficace, mais du coup il faut le replacer souvent, à moins de vouloir filtrer the bouillie d'insectes. After various essays, you can use the mélange suivant: a demi cuillère à café de...",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Bomb. Not cheap but worth it. After a week all the bees were eliminated. Set up on the apple tree and at that time the container was half full with annoying insects",
+      "tags": [
+        "Obstbäume"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Brilliant, in all cases used with the piece of the same brand. There is a place for 2 pieces conforming to the instructions in my small garden in the town of Nice. It is available with beautiful flowers (oranges, glycine) and with beautiful flowers, mais with sometimes retrouvées mortes sans pollen au pattes. In revenant d'un déplacement, 15 days after the installation, there are retrouvé morts in les pièges 26 frelons asiatiques (je ne savais pas qu'il y en avait dans le jardin), a cinquantaine de mouches, moucherons, a douzaine de mites, et pas a seule abeille ni other spèce. Alors brilliant",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Great (en tous cas utilisé avec l'appât vendu avec. J'ai placé 2 pièges conformément aux instructions dans mon petit jardin de ville à Nice. It avait beaucoup de fleurs (oranges, glycine) et donc beaucoup d'abeilles, mais avec pas mal retrouvées mortes sans Pollen au pattes. En revenant d'un déplacement, 15 days après l'installation, j'ai retrouvé morts dans les pièges 26 frelons asiatiques (je ne savais pas qu'il en avait dans le jardin), a cinquantaine de mouches, moucherons, a douzaine de mites, etc Pas une abeille ni extra espèce Alors brilliant",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "A remedy that works. With this trap we were able to use our terrace again with peace of mind",
+      "tags": [
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Satisfactory. You will attend the result before the party... the first day you will see the people pass through the chemin malgré le piège... You will also have a little chance of a chat and a miracle in the world! Je vous laisse découvrir les photos je pense que c'est bien plus parlant! Je recommende fortement! Je tenterai la prochaine fois de mettre un jus ou un sirop à la place du liquide fourni: il sent très fort le fruit, je pense que c'est ce critère uniquement qui atire nos amies les guêpes !En tout cas je suis très satisfaite!",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Very good product. After reading an article about the same style that has a led lumière, it is also made from the insects that fly in the air mètres de nous.J’ai étais surpris du nombre d’insectes attrapés. There are no embêtes plus lorsqu'On mange à l'extérieur.Nous l'utilisons pour un endroit au milieux d'une forêt et à proximité d'un lacIl manque cependant une option pour acheté plus de recharge liquide",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Excellent piège for les frelons asiatiques. Article acheté en 2019, pas mal de prizes en printemps été 2019: guêpes, mouches et même des moustiques.Suffisamment probant pour que je continue à acheter des recharges depuis (après essais, the sirop maison fonctionne beaucoup moins bien objectivement).Cet été , The piège comes in plus a large name of Frelons Asiatiques (probablement un nid dans le voisinage).Je recommende donc this achat, qui permet de réduire sensitivement la presence de ces ultra-nuisible insects!",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Très efficace!. Installé depuis une petite semaine à proximité d'un cerisier, le piège a très bien fait son travail.Le piège is déjà à moitié plein de très gros frelons et de guêpes (une bonne vingtaine) qui se regroupuellement aux alentours de l'arbre.En regardant un I can't remember any other prizes in the piège ce qui est un très bon point.Bref, excellent product, I recommend and also have 1 or 2 supplements for the garden",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Patio protection. Elimination of wasp attacks",
+      "tags": [
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works well. Works immediately",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super efficient. This product is used by more than 1,000 years in the same brand. Grâce à lui j'ai pu constaté qu'il y avait beaucoup de frelons asiatiques dans our garden. The look of the frelons, the guêpes, the mouches, the moucherons.Il suffit de le secouer avant de le vider pour tuer éventuellement les insectes encore vivants donc aucun danger de se faire piquer.Je n'ai jamais trouvé une abeille dedans",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "bon piege a guepes. Bon piège a guepes dommage qu'il n'y a qu'un sachet d'appat",
+      "tags": [
+        "Köder-Sachet"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Functions!. Works wonderfully for us, after a few days there are a lot of wasps in there, hardly any other animals. Now in the summer, the attractant in the trap works even better than in early summer, when it took longer until there were significant wasps in it. We filled two of these traps and two others with the attractant, which is available separately, and it works perfectly",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Top. Je poste très rarement un avis mais la faut le dire, le produit marche du FEU DE DIEU !Je l'ai installé et j'étais très septique au début, 1er jour rien même pas une mouche.Je return voir quelques jours plus tard et c'était rempli de mouche et de guêpe, hyper content de mon achat. Je vais donc en racheter un deuxième",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Agate efficace et peu onéreux. Enfin un pieège à guêpes efficace! A peine installé et déjà plusieurs guêpes s'y sont faites attrapées eau bout de quelques heures, elles sont des dizaines à y baigner.Je ties à préciser également que la solution qui était proposée à l'achat en complément du piège n'a rien The toxic products and their effectiveness are also indispensable",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Clear purchase recommendation. Simply great!!! At the beginning I was skeptical because no wasp had flown in and thought I had bought crap again. But after a few days of parking there were more and more wasps in there!! I still have the first filling (filled up a little with juice in between) and have already taught 3 times!! Clear purchase recommendation",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Very effective, unfortunately price increase. The product worked excellently in the wasp trap. Within a short time there were a lot of wasps in the trap. We received the product for 8 euros and without shipping costs. 1 star that you have to pay so much more 1 month later",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Simply great. This wasp trap serves its purpose 100%. The bait attracts lots of wasps and they quickly fly into the container. But you have to make sure that the trap is hanging in the sun, only then will the attractant in the trap be activated. Highly recommended !",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Functions of the scare devices. The ash function is great for the prezzo non-economical and the scarne is used and diluted with water per chi without the trap of the stesso marchio. The can that has been used is corretta dopo alcune prove è 1 bustina and about 400ml of water",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Very good product. Nous ne pouvons plus nous en passer, c'est impressive comme cela peut attracter les guêpes, abeilles, bourdon. An excellent piège.Nous avons toujours une réserve. This is the first time that we have a summer plus drinks and aperitifs, refreshments and détentes in the garden. I recommend it",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Ultra efficient. Ultra efficace.En respectant bien la méthodologie, a très large volume en quelques jours.Pour replacer the appât, soit en prendre des new soit a mix, vinaigre, a petite dose, miel, ou sirop et eau pour éloigner les abeilles",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Super efficient. Phenomenal product, this is a very effective product. If you have received the recipient with a bottle of water, you will receive the notification and the message will be sent to you. Tengo one should have the right to the pool and walk along with the shortest possible time. Lo recomiendo",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Super good & definitely recommended. After just one day it has already had an effect... so I can recommend the attractant with a clear conscience :)",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Super. Attracts wasps and flies like mosquitoes attract light. Unfortunately, after a short time the container is already so full that we will probably have to order more bags of this replacement bait",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "functions!. The wasp trap works perfectly. Approximately 30 wasps within 2 days. Mixture seems to consist of sugar water and vinegar...The trap is top-notch in terms of construction",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "the perfect wasp trap!!. We have been using the Swissino wasp trap repeatedly since 2012. Now in 2015 again since July 1st. Truly the most perfect wasp trap we know of. - Uta & Gerd B. -",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "works very well.. so pleased.works very well.killed loads of wasps.the traps by the same make are very good as well. well worth the money.keep them filled&up all summer",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "L'esca migliore. Attira perfectamente the vespe. Easy to use and pull. Lo uso ormai da quattro anni. I barattoli last a long time so that I can compare the ash. Raccomando l'acquisto",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Piège à guêpes. This is the most effective product that I can connect .Ai 2 pots accrochés aux gouttières, au about 15 days c ist plein de guêpes et frelons et mouches.Super product difficult to find",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Piege Guêpes. On the debut, you will have 2 or 3 drinks after 2 or 3 days after a week of drinking, but it will be helpful. Je vais renouveler l'operation l'année prochaine",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Marche du tonnerre. Facile a mettre en oeuvre, piège très efficace, même si certaines guêpes arrivent à ressortir. Pensez à le mettre au soleil et évitez de le mettre dans an endroit passenger",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Perfecta y Efectiva. During the week of ponerla, you will have a trap of 20 months, you will be able to eat as much fruit as you like! It is very resistant!",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Mega. Mega article.Wasps and other annoying critters get in quickly and can't get out",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Wasp trap. I had good success with the wasp trap including the attractant",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "A must for every allergy sufferer. Never try again to keep wasps away. My husband. Is an allergy sufferer of the highest order",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Not to be missed this summer! If the included remedy is empty, simply sugar water will also help",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Functions. Already the second summer since we used this wasp trap, no wasps... Really none!! More on our terrace",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Super. Great, sold out in the summer, so ordered again now. Works perfectly",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "attractant. I've been using the attractant for a few years and it works 100 percent against wasps",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Great attractant. Attractant works. Wasps inside and bees outside. Perfect for me as an allergy sufferer",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Works better than expected. finally a wasp-free terrace, a relief. I have already repurchased",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "simply great. It works really well, wasps literally jump into the trap",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "very good wasp trap. This wasp trap helped us very well, within a short time the first wasps were in the bait. Highly recommended",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Funziona! Ero a po' scettico and invece la trappola ha attirato solo vespe e calabroni pericolosi che da noi chiamano \"ammazza somari\".Lo ricomprerò",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Efficacy for the Asian Frelons. Je m'en sers comme piège à frelons asiatiques. Très efficace",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Bee. There is more to the change in the product in the car than it works",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Ash per vespe ottime. Unica esca che has functionality veramente senza creare theni all'ambiente, se avete vespe che girano non posso che consigliarvele",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Good product. Efectivo, ya es el segundo que compro y no queda una avispa cerca",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Eficaz. My function is super good, in 2 days I have a great experience and it is better for me to turn over the shower in the swimming pool",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Muy buen producto.. Estaban muy agresivas , cuando salía al jardín atacaban. In our days there were insects of death",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "FUNCIONA. My function is very good, on a day, I have 20 Asian visitors, but it's true that there are a lot of things, he comprades other people",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Ha functional. Habrá varios tipos de avispas, pero las que tengo yo en el jardín han caído todas, en una semana",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Donde esta puesta no hay avispas. Lo he used to come along to take a trip to the cashier and I would like to see him",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "everything ok, product great. perfect, arrived in anticipo and ottimo against calabroni",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Une efficacité redoutable. Plus besoin d’insecticide dans la maison parce que les nuisibles sont éliminés avant qu’ils ne pensionrent",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Awesome. Attracts like nothing else",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "very effective. Very good product - works! - buy it again",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "That's what works. It works and I will buy it again",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "fine. good",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "It should actually be called a fly trap and not a wasp trap. The success with the trap was enormous. Within 2 days there were hundreds of flies in the trap, as well as a few hornets and one or two wasps. Emptying requires strong nerves. The hornets were still alive and were released back into the wild. The black soup made of flies - really really disgusting - disposed of in the toilet. Reusing the lure fluid - as recommended in the instructions - was out of the question for me. The broth of horror would have had to be filtered somehow...",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Bien mais..... J'ai acheté ce produit l'année passée qui m'a permi de pièger pas mal de guêpes.Le point négatif, j'en ai recommandé un sachet le mois dernier , après 2 jours dans le piège au soleil, le produit c'etait complètement evaporated...don't let go of the fish on the soleil because the effectiveness is diminutive",
+      "tags": [
+        "Köder-Sachet"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "A product deceiving. You will have access to the piège and the recharges correspond to the capturer's experience with the frelons that are automatically driven by my abeilles.",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Only works moderately. Easy to use, although our wasps aren't that interested in it. The attractant supplied evaporates very quickly, so you have to refill it more often (e.g. beer, soda, honey)",
+      "tags": [
+        "bait_dries"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Parfaits. Très efficaces, nous avons pu computer a 30 aine de frelons asiatiques mort avec 2 \"bombonnes\" après verification, also aucunes abeilles de capture. Brilliant!",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Piege. Les guêpes rentre in the interior and arrive in a ressortir pour l'instant une de capture",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Disappointed. Unfortunately, the wasps weren't interested",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "tres efficace corn. The product is indéniablement très efficace mais dire qu'il peut durer 15 j est exagéré Très très vite le récipient ce rempli (2j) obligeant à le vider et là , c'est pire qu'une fosse septique , outre le danger de se faire piquer par celles n'ayant pas été touchées par le produit vu la couche de mortes flottante ......en plus il y en a quand meme qui cèdent à l'appel de l'apéro et du melon. En gros ça diminue copyieusement l'effectif",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Attention to the type of plastic of the recipient. Autrefois, the plastic used is transparent. Lors de ma dernière livraison, il est opaque. You coup on ne voit plus si des guêpes se sont fait prendre. Ou alors en se tordant pour voir à travers les trous latéraux. Comment on modifier and product without tenir compte de l'avis des clients? The Swiss series is drawn in cause... for 1 centime de gagné?",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "So so la.... Unfortunately it didn't really work for us with the enclosed attractant. It did attract and catch all the house flies. But the wasps found our grill buffet more tempting and ignored the trap 99% of the time",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "a big doute sur l'efficacité. Pour les guêpes évidemment en ce début de saison elle commence à tournoyer et faire leur nid personnellement la pas n'a pas appâter qui que ce soit je pense qu'une bonne bouteille de Picon bière fera l'affaire aussi bien",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Selon les variétés de guêpes,cela ne fonctionne pas. c'est efficace, mais pas autant que l'année dernière.selon le type de guêpe , cela ne marche pas pareil., voir ne marche même pas",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Cheap & quick delivery. Could have made something at home really but after being chased buy the bus bug as the family call it (hornet) I purchased immediately but have yet to trap a thing",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Vesps in casa. Ho un nido nascosto tra tegole e controsoffitto: messo trappola su armadi e per terra: dopo 15gg e 30 vespe morte in giro, trovato solo 1 vespa dentro…",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Ritardo is also ordinato con prime. The product conforms to the description and is functional......",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "This is effective against the frelons of Asia. Mon but était d'éliminer les frelons Asiatiques qui déciment mes abeilles. This product has an attractive appearance plus the mouthpieces and pieces of frelons",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Works fine. It doesn't work so well so far, the suspension isn't that good, it's extremely cheap, it can be done better",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Cheap material. It will certainly serve its purpose for a while, but the material is really just inferior. Definitely won't last long",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Expensive.. A mixture of beer sugar water and apple cider vinegar achieves the same effect",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "More of a fly trap. You catch a lot of flies. You catch a couple of wasps, hornets just crawl out again. There's nothing more you can say about it",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Functional, pero algo carillo. Pensé que el cebo era en polvo y no liquid.Es functional, pero creo que algo caro en relación al precio",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Funziona però.....Funziona. The instructions are not so chiare and initially not activated",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Parece que no las atrapa. Lleva three days y todavía no ha atrapado ninguna avispa. Parece que en vez de atrañarlas las haga huir ya que parece que hay menos",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Fourmi = guepe?. A permis de tutor des kilos de fourmis et des mouches mais ce n'était pas le but recherché. Pas une guepe à l'horizon",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "A voir. Pour le moment pas a guêpe à l'interior with the product of the meme brand",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Esperando. Llevo una semana with this trampa and this ceiling. At the moment there is a notification. Paciencia",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Plus de mouches que de guêpes. Ca marche. Mais sur les mouches. Pour ma part also guêpe ne s'est faite pieger",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "fragile. Pratique mais très fragile, attention à ne pas l'oublier en plein sioleil or pire si il gèle car le plastic is très fragile",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Pensé que sería más efectivo. No one can decide that it is a thing. Quien prepare estas preguntas? 🙄",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Efficacité pas encore prouvée. pour le moment rien dedans mais on est pas vraiment envahi encore de guêpe, je l'ai miss sur mes vignes",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Works quite well after a while. This summer we had more wasps than ever before and I was looking for an option without toxic ingredients. Nothing happened for the first few days, the trap was hanging directly in the flight path but not a single wasp went in. After about a week this changed and since then so many wasps flew into the trap that I always had to skim them off. I think it would be better if the openings were a little smaller, a lot of wasps come out of the trap",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "100% effective but too expensive. I don't normally write reviews, but I'm excited about the lure. It simply smells like rotten, fermented fruit that has fallen from the tree. The trap is very popular and blowflies also get into it. I bought the attractant from OBI and simply find the price too expensive. I tried the alternatives with apple cider vinegar and cat food and found it a bit disgusting, to each their own",
+      "tags": [
+        "overpriced"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Efficacy of the food is not plus a sound. This is a product for radiating the food that is placed on the terrace. After the mélange initial, it's all simple with a peu de beer and the sirop de sucre de canne, it's radical. Plus the gêne car elles fromt directement dedans et ne ressortent pas. You just have to regret that the fixation can be removed for the super attache and the plastic cover of the car will be replaced during the duration",
+      "tags": [
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "super efficace. piège plein de vermine au deux semaines.j'ai refait une mixture maison qui marche encore mieux que l'appat fourni with le piège(bière, sirop de grenadine et un fillet de vinaigre balsamique, le tout rallongé with a peu d'eau)",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Plutôt pas times. Nous en avons mis 2 sur notre terrasse/jardinet.Assez efficace et facile d'utilisation. Attire also beaucoup les mouches. There is nothing special about the prices in the piège that is in my senses hyper important",
+      "tags": [
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "I've been ordering for over 5 years. They like wasps. Thank God . You should hang them well. If goes in their direction of flight. Works great",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Wasp free. good attractant, after a short time the container is full of wasps",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "base good liquido atrayente muy muy malo. Leí antes los comments y estaban al 50%.. decidí arriesgarme y realmente el producto atrayente es nulo, moscas , mosquitos alguno peroninguna avispa !! This is the situation between the columns at 50 cm and nada de nada !!!!!La trampa in si parece original el sistema y en comparativa era la better opción !!Probare pon panceta que dicen que funciona... a ver ...,",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "a mi si functiona. This is the tercera trampa de esta brand that he comprado,un poco cara por ser todo de plastico pero bueno....,a mi funcionan bastante bien,han dejado su vida dentro de ellas docenas de avispas.He suffero en reseñas de other clients que no entraban los bichos: utilizo mi propia mezcla de Liquido, cerveza, coca cola, a poco de azucar and a poco de vinagre, but you can also taste it",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Extremely cher, mais terriblement efficace.. Avions acheté le piège, qui est très efficace. Avons essayé de refabriquer l'appât suivant des tutos, rien n'est aussi efficace que ce produit. Otherwise, this is the price, when the product is released in 3 seasons (at the ombre), if the calculation is fair",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Efficacy. Très pratique par rapport au bricolage d'une bouteille en plastic coupée.Il faut bien placer au soleil car cela permet de dégager plus d'odeur pour attirer les guêpes.Impressionnant le nombre de guêpes attrapées en une journée.Je n'ai attrapé aucune abeille.Le mélange Fourni is bien mais un mélange de grenadine with de la beer va très bien",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Wasp trap bait. The wasp trap works very well! The bait also attracts large flies. There are hardly any wasps in the area at the moment to be able to judge this properly. There are some wasps in the trap, but the trap is mostly filled with thick flies (black).",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Efficacy, maximum resistance to UV limit. Super practical and functional. C'est efficace. I recuperate in the food, but also in the mouth and the mites. The original identity has been resisted for 4 years, ahead of the cassé. In effect, with UV, the plastic is used. Je le recommende tout de même",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Très bon pour attirer les guepes. Excellent product, mais 3€ plus cher (8€ au lieu de 5 ) lorsque commandé chez Amazone et fourni par le vendeur als par rapport au même produit fourni directement par Amazone lorsque lorsque lorsque disponible dans leur stock",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Efficacy mais.... Product semble être efficace autant pour les mouches que pour les guêpes et les frelons. In contrast to the steam at the speed of Grand V., and at the price of 2 rechargeable batteries, the fall item is the order of the items for the end of the season, which means that you will find another product plus economical",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Bon agate. Acheté pour attracter les guêpes dans the garden, à ce jour le bocal est parfait (pendu à un arbre) mais je n'ai pas encore de résultat avec the product malgré the presence of quelques guêpes (à voir par la suite lorsque nous mangerons dehors)",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "tres efficace. très efficace , the piège fonctionne bien et the product is très attractive bien plus que la beer et le sirop que j'utilise d'habitude ,en plus sélectif , car en vidant le piège il n'y avait pas d'abeille , seulement des guêpes et quelques mouches",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Became a little thinner. I've already had this trap in the past, now I had to make two new ones. The material has become a little thinner, but I can only recommend this trap",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "simple and efficient. très facile à installer - the transparency of the product permet de bien visualizer son efficacité.\"récolte\" des guêpes et frelons en en temps record",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Très grande efficacité..... The product is remarquablement efficace. Bien supérieur à tous les products similaires que j'ai essayés. A veritable hécatombe de guêpes pendant l'été. S'adapte à tous les pièges suspendus",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Attirano le vespe. The limit is that the liquid is completely evaporated during the day. Peccato",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Contra las avispas asiáticas. Ya lo he repuesto varias veces, funciona genius contra las avispas asiáticas y las abejas lo ignoran",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Easy installation. Por ahora no ha caído ninguna avispa, pero a las moscas les encanta",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Corrijo la reseña tarda en hacer efecto pero funciona. Tarda en functional pero es efectiva",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Très bon et efficace. Très efficace, je recommende. Dommage qu'il n'y est pas plus de dose de product",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Fonctionne très bien. In 2 days we have been able to see the product for the tropical oasis and the march of the tonner! Enfin débarrasser des guêpes !!",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "piège a guèpe. piège a guepe qui me serre surtout pour les frelons, très satisfait de this article",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Practical and useful. The product is sold without a function. Mettre de la bière brune and du sirop de pomme",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Efficacy. Efficace mais j'aurais aimé récupérer the système en vidant les \"cadavres\" mais trop dégoutée. ;-)",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Très efficace. Très efficace. En quelques jours, a good package of food prizes au piège",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "piege parfait. Les guepes not qu a bien se tenir avec ce genre de produit .efficacite parfaite en utilisant surtout le produit vendu par la marque",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "pieges. Très bon pièges qui est fourni avec du liquide qui attire autant les mouches que les frelons;je recommande this article",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "tres efficace. ai retrouvé the brand d'achat du début et ne suis donc pas déçue de mon achat et de l'efficacité du produit",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "OTTIMA TRAPPOLA. L'UNICO PROBLEMA SONO L'ESCA. IO PREFERISCO USARE UNA MIA ESCA MOLTO PIU' APPETITOSA E PROFUMATA.PER IL RESTO TUTTO OK. GRACE",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "running. running; the wasps are coming; expensive",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Top. Quite satisfied. Already working after a few hours",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Success. Was good",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Functions. Funziona messo sul terrazzo and dopo a settimana era pieno di insetti",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "esca per vespe. Articolo comes from the description",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Plutôt bien. Pas mal mais pour l’instant plus de mouche que de guêpe",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "pieges. tres bien",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Satisfaction. Satisfaction",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Attractant good, trap bad!. The wasps come the second you hang it up, they climb in, sniff and climb out again. The holes are too big and too many. I tried to shrink them with adhesive tape, but that doesn't work either! Definitely had better ones!",
+      "tags": [
+        "lure_works",
+        "Klebefalle"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Ho acquistato con fiducia ma.... Ho acquistato this product nel tentativo di catturare the numerose vespe che invadono il mio giardino. Ha purtroppo catturato ben poco, mentre per la maggior parte attira mosche e di mosche si riempie. Not so cosa pensare, ma onestamente not posso dire di aver trovato un prodotto risolutivo per il mio problema",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Wasps come out again. Attractant great.. The attractant works great... but the wasps crawl in and fly straight out again. The opening is three fingernail-sized holes. They can easily fly out again. The holes would have to be designed like a funnel so that escape is no longer possible",
+      "tags": [
+        "lure_works"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Attractant not suitable for wasps. We have set up several wasp nests in the garden and 3 traps in the surrounding area. After more than two weeks there were only a few flies in there. The trap itself could work, but the lure doesn't work",
+      "tags": [
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Almost ineffective. We set the trap directly on a wasp nest. After 7 days she caught two wasps. Everything seems to have been well thought out in terms of processing and bait, but the trap obviously doesn't appeal to all wasps",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Different from the original product. Celui-ci n'est d'aucune efficacité. A mélange bière/confiture/sucre is bien plus efficace",
+      "tags": [
+        "Hauseingang"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Not the best. At first, the trap only caught flies despite wasps bombarding us every meal. However, it then seemed to be trapping more wasps and I thought it was OK. But the Inside surface must not be smooth because the wasps can climb right out of the fluid up the wall. And I saw one climb up and out of the trap, dried off on the top and flew away! After observing I would say 25% of trapped wasps were able to fly out. I think it would be better if there was only one hole in the middle of the inside tube instead of three. Not worth the money paid",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "carton en piètre état, rescotché! Flacon enfoncé à la base on a partie cylindrique. My product and its arrival today. Le carton abîmé, le récipient, cabossé à la base, j'ai mis de l'eau, il ne fuit pas! je le garde, car je n'aime pas les polemiques. Néanmoins, il mesemble être en droit de recevoir un product en parfait état. Je viens vous signaler ce fait, et vous informer qu'à la prochaine anomalie, nous ne serions plus vos fidèles clients",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "1 second meal in 3 seasons.... There is no longer any chance of having the pies in the bowl... Instantly, a second meal is available in the panneau. D'un autre coté, je trouve que nous ne sommes pas encore envahi de guêpes, je verrais dans le mois qui vient. If it's so effective, I'll reverrais my commentaire",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Muy pocas avispas entran en la trampa.. No me ha resultado útil. The avispas pasan olympicamente de meterse dentro. Solo in a cada 100, por decir algo, ya que el verano pasado hubo muchísimas, parecía una plaga y esta trampa no resultó desafortunadamente",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Flies, whatever flies. Far more flies lying dead around it than in it, obviously the extra special secret formula isn't liked by British flies, as for wasps they haven't even been generous enough to die within spitting distance, suggest wanting with sticky fly paper",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Domage!. The piège ensemble bien fonctionner car dès sa pose, il a bien attiré les guêpes.Par-contre, son efficacité is moyenne puisque elles y rentrent et une partie en sort...Plastique très fragile. A chute au sol...il s'est fendu et fuit.Je ne le recommende pas spécialement donc",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Mouche et fourmis. After three effective periods of use, after 1 week of use, there is a beautiful combination of mouths and four parts of the mouth, as well as the volent autour mais sont pas du tt attiré. The price of the land is now recommended to you",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Doesn't work that well. It does attract wasps, but now we have more than before and they happily fly out and into the trap. It seems like they like the attractant",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Work well, the wasps can be caught. How we have a beetje werkt (het houdt waspen weg van de zitplek), merk ik also dat veel waspen zich gewoon te goed doen aan de lokstof, en dan weeruit flies",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Non functional. Le ho piazzate vicino la piscina semper invasa dalle vespe. Dopo an'intera estate e fino ad oggi non hanno funzionato. Aunt Vespe in giro ma non nelle trappole",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Recipient très bien. Liquide à revoir.. L’accessoire en lui même est bien. Compared to the product on the top car, the parts have different looks. Le liquide n'a pas l'air d'être assez puissant pour piéger les guêpes ou frelons",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Bof!!. Je n'ai pas retrouvé de guêpes with the product. Depuis que j'ai mis de la bière with jus de pomme et du sirop de grenadine mon bac s'est rempli.Donc OK pour le récipient mais pas pour le produit vendu avec",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "déçu. Also, the insects have four products that are not remplacé by the sirop and are just as small as the moths and they can be rented and ressorted... a little déçu",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Mejorable. I have a lot of information about the recipient, the problem is that it's a long time ago that I don't have anything to say, and I don't have to wait for the information, but the opposite is true",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "No sirve para nada. a lo mejor la trampa puede funcionar si trajera un atrayente que realmente atrajera a las avispas, pero después de quince dias sol ha caido un moscardón despistado",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Pocas avispas en su interior. Deja que desear. Atrapa bastantes bichos pero lo que se dice avispas bien pocas. And with me he podido ver un par de ellas dentro del bote",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Pocas avispas dentro del bote. No hace su function. In the interior of the trampa there are a lot of bichos pero avispas bien pocas. No lo volvería a comprar",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "déçu. There is also a product/solution in the interior and the cintre is a simple attache to the congélation bag",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Product unusable. The piège is arrived cassé en raison d'une paroi trop fine, the product is not delivered and rested, direction poubelle de tri",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Bof. Chez my, it's not an illusion that the eyes... pourtant il y a beaucoup de guêpes dans les parages.... Bizarre",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Muy caro para la cantidad que trae. Precio demasiado caro. No merece la pena. Best brandy and vinagre",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Poco util. No sirvió de nada.No atrapo ni una avispa a pesar de que estaba minada the zone.Hay more options en Amazon para acabar with las dichosas avispas",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Angel. No atrapa las avispas, sí las pequeñas avispillas, pero las avispas no consigue ser efectivo with ellas y aún continúan en la zone",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "no cumple las espectativas. veo a las avipas volar y dentro no ha ido ninguna, hemos seguido todos las intrucciones que da el fabricante",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No instructions. No instructions. Just a clipart of a tap. And on Amazon description it says \"mix with water\". How much water???",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "0 assoluto..... the parecchio tempo non my capitava di acquistare un prodotto nullo come questo...gli intrugli della nonna sono molto più efficaci di questo!",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Not attira le vespe. Don't attira le vespe! non funziona allo scopo! Evapora velocemente",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "not lo ricompro più. Don't you think so, for a Cesena and Calabroni study di Più? BOH!",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "averne cura. scarso.si è rotto immediatamente ne ho dovuto compare an other speriamo sia ottimo come prodotto",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No it's useful. 3 trampas... 3 sobres usados, cientos de avispas y en 3 días,han caído dos moscas.Totalmente inútil en mi caso",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No it's effective. Queda comprabado que las avispas españolas son más inteligentes que el inventor del producto",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No function. No funciona,las avispas entran,beben y se van,salen sin problema…..Sorprendente!",
+      "tags": []
+    }
+  ]
+}

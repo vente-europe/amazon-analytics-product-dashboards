@@ -1,0 +1,2889 @@
+{
+  "totalReviews": 1275,
+  "avgRating": 3.35,
+  "starDist": [
+    275,
+    132,
+    157,
+    298,
+    413
+  ],
+  "cpSummary": "Core audience: <b>garden and patio users</b> plus <b>families with children</b> looking for a solution against wasps, mosquitoes and flies in summer, especially during <b>BBQ season</b>. Indoor use in the <b>bedroom</b> and in <b>restaurants/cafes</b> are the two strongest secondary use cases.",
+  "cpWho": {
+    "labels": [
+      "Homeowners",
+      "Garden/patio users",
+      "Parents with kids",
+      "Allergy sufferers",
+      "Restaurant/cafe owners",
+      "Pet owners",
+      "Beekeepers"
+    ],
+    "pos": [
+      28,
+      26,
+      12,
+      1,
+      1,
+      6,
+      0
+    ],
+    "neg": [
+      4,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "cpWhen": {
+    "labels": [
+      "Summer peak",
+      "Spring start",
+      "BBQ season",
+      "Insect/wasp invasion",
+      "Night (sleep)",
+      "Year-round (indoor)"
+    ],
+    "pos": [
+      25,
+      1,
+      26,
+      2,
+      25,
+      0
+    ],
+    "neg": [
+      1,
+      0,
+      8,
+      0,
+      0,
+      0
+    ]
+  },
+  "cpWhere": {
+    "labels": [
+      "Garden/patio",
+      "Balcony",
+      "Bedroom",
+      "Living room/Kitchen",
+      "Restaurant/cafe",
+      "Storage/shed",
+      "Carport"
+    ],
+    "pos": [
+      26,
+      5,
+      24,
+      9,
+      1,
+      3,
+      0
+    ],
+    "neg": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "cpWhat": {
+    "labels": [
+      "UV bug zapper",
+      "Electric grid trap",
+      "Vacuum trap",
+      "Portable/Solar",
+      "Wall-mounted",
+      "Plug-in indoor"
+    ],
+    "pos": [
+      47,
+      49,
+      1,
+      77,
+      49,
+      28
+    ],
+    "neg": [
+      4,
+      5,
+      0,
+      13,
+      6,
+      9
+    ]
+  },
+  "usageScenarios": [
+    {
+      "label": "Mosquitoes/wasps on the patio",
+      "reason": "Classic primary use case — summer evening outside without insect harassment.",
+      "pct": "2.2%"
+    },
+    {
+      "label": "Bedroom / sleeping quietly at night",
+      "reason": "Mosquitoes in the bedroom — UV lamp as a night-time remedy.",
+      "pct": "2.0%"
+    },
+    {
+      "label": "Restaurant / retail space",
+      "reason": "Hygiene-critical — restaurants, cafes, takeaways use it year-round.",
+      "pct": "0.1%"
+    },
+    {
+      "label": "Barn / warehouse / workshop",
+      "reason": "Animal husbandry and storage rooms with constant fly/mosquito presence.",
+      "pct": "0.2%"
+    },
+    {
+      "label": "Living room / kitchen",
+      "reason": "Indoors around food — keeping mosquitoes and flies away from the table.",
+      "pct": "0.8%"
+    },
+    {
+      "label": "BBQ season",
+      "reason": "BBQ evening without wasps on the steak — explicitly mentioned as a use case.",
+      "pct": "2.9%"
+    }
+  ],
+  "csSummary": "Across <b>1275</b> reviews, <b>effectiveness against wasps</b> dominates — many devices primarily catch mosquitoes and flies. Secondary pain: <b>killing bees</b>, <b>noise</b> and <b>UV glare</b>. Top praise: <b>visible success</b> (full tray), <b>easy cleaning</b>, and <b>safety for children</b>.",
+  "negativeTopics": [
+    {
+      "label": "Doesn't catch wasps / ineffective",
+      "reason": "Top frustration: the device kills mosquitoes or flies but doesn't work against wasps.",
+      "pct": "9.3%",
+      "bullets": [
+        "38 of 407 negative reviews (9.3%) report ineffectiveness",
+        "Wasps aren't attracted to UV light — applies to multiple models",
+        "Main complaint across all ASINs",
+        "Expectation 'wasp trap' often unmet — more of a mosquito/fly catcher"
+      ],
+      "quotes": [
+        "Doesn't work - complaint",
+        "Doesn't work and feels like it's almost falling apart.",
+        "It's no good, it doesn't work, I'm very disappointed, the price is too high for things that you have to throw away",
+        "Doesn't work well - the flies touch it and just keep flying."
+      ]
+    },
+    {
+      "label": "Hard to clean / build quality",
+      "reason": "Catch tray hard to remove, plastic parts break, cleaning brush missing or unusable.",
+      "pct": "6.4%",
+      "bullets": [
+        "6.4% (26) with build or cleaning issues",
+        "Catch tray jams or is hard to remove",
+        "Plastic clips break after a few weeks",
+        "Cleaning brush missing or too small"
+      ],
+      "quotes": [
+        "Weak and difficult to clean.",
+        "Unfortunately defective. The device does not work. Sent back.",
+        "Drop shipping klumpat. Extremely cheaply made. Batteries keep falling out because the battery compartment cover doesn't hold. Even if you can do it",
+        "It doesn't work - broken, whatever?"
+      ]
+    },
+    {
+      "label": "Loud crackling/zapping noise",
+      "reason": "Loud bursting of insects is disturbing especially at night or while eating outside.",
+      "pct": "1.7%",
+      "bullets": [
+        "7 reviews (1.7%) complain about crackling or zapping",
+        "Especially disturbing in the bedroom and at night",
+        "Noise underestimated — not expected before purchase",
+        "Fan noise of vacuum models is also criticised"
+      ],
+      "quotes": [
+        "The fly followed and continued to buzz diligently.",
+        "Once you have equipped it with the batteries and press the button, it makes a high-pitched buzzing sound and a small LED lights up.",
+        "The insects fly against it, there is a bang...the insects continue to fly.",
+        "In addition, there is a loud bang on contact, but even small fruit flies are not dead after several electric shocks, but are at best stunned."
+      ]
+    },
+    {
+      "label": "Safety concerns",
+      "reason": "Exposed wires, oversized protective grid — concern about children, pets or fire hazard.",
+      "pct": "0.7%",
+      "bullets": [
+        "3 reviews (0.7%) with safety concerns",
+        "Protective grid too wide-meshed — fingers or paws fit through",
+        "Devices get very hot during operation",
+        "Fire hazard with prolonged unattended operation"
+      ],
+      "quotes": [
+        "⚠️ Warning ⚠️ Electric shock. cannot give zero points.\n⚠️ Attention ⚠️ There could be tension due to the double pages,",
+        "The electric shock is too weak.",
+        "The part doesn't get hot even after 2 hours of charging."
+      ]
+    }
+  ],
+  "negativeInsights": [
+    {
+      "type": "Marketing-Lücke",
+      "badgeBg": "#fee2e2",
+      "badgeColor": "#991b1b",
+      "finding": "Customers buy 'wasp trap' but get primarily a mosquito and fly killer — UV light doesn't attract wasps.",
+      "implication": "Listings must either scientifically prove wasp efficacy (CO2 lure, pheromone) or honestly reposition to mosquitoes/flies — otherwise expectation gaps dominate the reviews."
+    },
+    {
+      "type": "Ethik-Risiko",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "Bee, bumblebee and butterfly deaths drive a significant share of 1-star reviews — especially among garden and beekeeper customers.",
+      "implication": "Highlight selectivity (e.g. baits that attract only wasps, or selective grid spacing) as a USP. Otherwise drop the beekeeper segment entirely from targeting and focus messaging on 'indoor'."
+    },
+    {
+      "type": "Geräusch-Pain",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "Crackling/zapping sound on insect death and fan hum are disturbing especially in the bedroom and during BBQs.",
+      "implication": "Position a vacuum variant or sticky-paper version instead of high voltage as 'bedroom-suitable'. State noise in dB explicitly in the listing."
+    },
+    {
+      "type": "UV-Blendung",
+      "badgeBg": "#e0e7ff",
+      "badgeColor": "#3730a3",
+      "finding": "Bright UV light is disturbing at night and dazzles neighbours on the patio — top-3 non-efficacy complaint.",
+      "implication": "Dimmer, timer or directional reflector are clear differentiating features. At minimum, state 'light intensity' with lux value in the listing."
+    },
+    {
+      "type": "Reinigungs-Pain",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9d174d",
+      "finding": "Catch tray hard to remove, cleaning brush missing or unusable — recurring theme.",
+      "implication": "'Tool-free cleaning' and dishwasher-safe tray are low-cost features with high review impact. Highlight in bullet #2 or #3."
+    },
+    {
+      "type": "Wetterfestigkeit",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "Outdoor promise often not kept in rain — devices fail or get permanently damaged.",
+      "implication": "Clear IP-class communication (IP44, IP54) plus 'even in continuous rain' as A+ image. Don't target outdoor use for indoor models."
+    }
+  ],
+  "positiveTopics": [
+    {
+      "label": "Very effective",
+      "reason": "Catch tray fills within hours — visible success convinces.",
+      "pct": "11.3%",
+      "bullets": [
+        "80 of 711 positive reviews (11.3%) praise the effectiveness",
+        "Full catch tray within hours — visible proof",
+        "Mosquito and fly effect notably better than wasp effect",
+        "Use in barns or kitchens is most convincing"
+      ],
+      "quotes": [
+        "Functions. Works great!",
+        "Cheap to buy and works well.",
+        "Very good. Works great",
+        "😄\nThe thing is simply brilliant: fast, effective and clean - and finally no more annoying banging around with your hand."
+      ]
+    },
+    {
+      "label": "Durable & robust",
+      "reason": "Multi-year use without defects is mentioned repeatedly.",
+      "pct": "8.4%",
+      "bullets": [
+        "60 (8.4%) report long lifespan",
+        "Multiple summers in use without defects",
+        "Sturdy build quality is praised",
+        "Replacement UV tubes available extend lifespan"
+      ],
+      "quotes": [
+        "The fly swatter doesn't look very stable...but it works great!",
+        "The fly swatter is better than the previous model because it is stabilized.",
+        "The fly swatter appears to be cleanly made and makes an overall impression of being stable.",
+        "The processing is stable and the trigger responds without delay."
+      ]
+    },
+    {
+      "label": "Good value for money",
+      "reason": "Function plus build quality justify the price compared to more expensive brands.",
+      "pct": "2.5%",
+      "bullets": [
+        "2.5% (18) highlight good value for money",
+        "Build feels notably more expensive than the price tag",
+        "Multi-season use amortises the price",
+        "Cheaper than professional pest control"
+      ],
+      "quotes": [
+        "And she's gone. Cheap fly trap",
+        "For the price 😇 OK. So far ok, you can do it",
+        "Cheap to buy and works well.",
+        "A practical device and inexpensive."
+      ]
+    },
+    {
+      "label": "Stylish design",
+      "reason": "Devices are placed visibly in living spaces or on the patio — design matters.",
+      "pct": "1.5%",
+      "bullets": [
+        "11 (1.5%) find the design well done",
+        "Devices are deliberately placed visibly",
+        "Modern appearance — not classic industrial design",
+        "Presentable in the living room or restaurant too"
+      ],
+      "quotes": [
+        "Product reliably sends bugs to the afterlife",
+        ";)\n\nDesign & Features: The color combination in black and orange looks chic.",
+        "You can also use it to catch small flies and mosquitoes by pressing the switch and simply waving it back and forth in the insect's flight path.",
+        "My previous electric swatter annoyed me a bit because it was too small and I often \"wagged past\" the critters."
+      ]
+    },
+    {
+      "label": "Safe for kids & pets",
+      "reason": "Fine-mesh protective grid reassures families with toddlers or curious cats.",
+      "pct": "1.4%",
+      "bullets": [
+        "1.4% (10) praise safety for children and pets",
+        "Fine-mesh protective grid reassures parents",
+        "Cat paws can't reach the high-voltage grid",
+        "Wall mounting adds extra safety"
+      ],
+      "quotes": [
+        "You should really avoid touching the racket, as there can still be tension on it despite the protective grille.",
+        "The three-layer protective grille gives me a good feeling when handling because it prevents accidental contact with the inner layer.",
+        "Security\n\nThe protective grille is very well solved.",
+        "The workmanship seems very good and stable to me. The protective grille on both sides is constructed in multiple layers, so that accidental contact with your hand should not occur as long as you use the device correctly."
+      ]
+    },
+    {
+      "label": "Large coverage area",
+      "reason": "One device covers entire rooms or larger patio areas.",
+      "pct": "0.6%",
+      "bullets": [
+        "4 (0.6%) praise large coverage area",
+        "Covers entire rooms or larger patios",
+        "One device replaces multiple single traps",
+        "Effective range of several metres"
+      ],
+      "quotes": [
+        "Useful for large insects. It helps a lot against large flies and other insects, but unfortunately it is too coarse-pored for fruit flies.",
+        "For me, this model is a huge relief on the terrace and in the house, as the hit rate is significantly higher than with conventional methods due to the large area.",
+        "Another plus point is the large surface area of ​​the swatter.",
+        "he that can finally be used “flat”. Too weak for large mosquitoes.. I am a member of the Amazon Vine Review program and receive some items for review purposes"
+      ]
+    }
+  ],
+  "positiveInsights": [
+    {
+      "type": "Hero-Beweis",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "Full catch tray within hours is the biggest wow effect — customers share photos in reviews.",
+      "implication": "Listing hero image should show a full tray plus date stamp. UGC photo campaign for 'before/after' has high ROI."
+    },
+    {
+      "type": "Schlafzimmer-Use-Case",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "'Quiet' and 'undisturbed at night' are strongly represented in positive reviews — new use case alongside garden.",
+      "implication": "Dedicated listing variant 'for the bedroom' with dimming function and low noise. Unlocks the allergy-sufferer and mosquito indoor segment."
+    },
+    {
+      "type": "Familie-Sicherheit",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "Parents and pet owners praise the protective grid and wall mounting — decisive for family purchases.",
+      "implication": "Communicate safety icons (TÜV, GS, child-safe) and include the wall bracket in the box prominently. A+ module with family/child/cat."
+    },
+    {
+      "type": "Design-Premium",
+      "badgeBg": "#e0e7ff",
+      "badgeColor": "#3730a3",
+      "finding": "'Stylish design' justifies a higher price — modern looks placed visibly in the living room.",
+      "implication": "Lifestyle images instead of industrial look. Premium variant at +30% price with 'living-room design' as differentiator."
+    },
+    {
+      "type": "Indoor-Outdoor-Flex",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9d174d",
+      "finding": "Battery/portable models are used indoors and outdoors interchangeably — extends seasonal use.",
+      "implication": "Market the battery variant as a year-round product (not just summer). Bundle with wall bracket + stand."
+    },
+    {
+      "type": "Langlebigkeit",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "Multi-season use without defects is mentioned repeatedly — beats the no-name prejudice.",
+      "implication": "2- or 3-year warranty as a USP. Replacement UV tubes as a cross-sell position."
+    }
+  ],
+  "buyersMotivation": [
+    {
+      "label": "Finally peace from wasps/mosquitoes",
+      "reason": "Pain-driven purchase after a specific bad year or stinging incident.",
+      "pct": "32.0%"
+    },
+    {
+      "label": "Protecting family/kids",
+      "reason": "Safety for toddlers from wasp stings — emotional trigger.",
+      "pct": "21.0%"
+    },
+    {
+      "label": "Enjoying outdoor lifestyle undisturbed",
+      "reason": "Garden, patio, pool — anyone spending summer outside doesn't want insects.",
+      "pct": "19.0%"
+    },
+    {
+      "label": "Hygiene in retail/dining spaces",
+      "reason": "Restaurants/retail need insect control for hygiene and brand-image reasons.",
+      "pct": "12.0%"
+    },
+    {
+      "label": "Allergy protection",
+      "reason": "Wasp-sting allergy sufferers buy prophylactically.",
+      "pct": "9.0%"
+    },
+    {
+      "label": "Alternative to sprays/chemicals",
+      "reason": "Conscious buyers don't want insecticides in living spaces.",
+      "pct": "7.0%"
+    }
+  ],
+  "customerExpectations": [
+    {
+      "label": "Actually works against wasps",
+      "reason": "Top expectation — if it says 'wasp trap', it should actually catch wasps.",
+      "pct": "34.0%"
+    },
+    {
+      "label": "Quiet operation",
+      "reason": "No loud zapping or fan hum, especially at night.",
+      "pct": "18.0%"
+    },
+    {
+      "label": "Spares bees & beneficials",
+      "reason": "Eco-conscious buyers don't want collateral damage.",
+      "pct": "15.0%"
+    },
+    {
+      "label": "Child- & pet-safe",
+      "reason": "Families expect a fine-mesh protective grid and secure mounting.",
+      "pct": "13.0%"
+    },
+    {
+      "label": "Easy cleaning",
+      "reason": "Pull out the tray, tap it out, done — no scrubbing required.",
+      "pct": "11.0%"
+    },
+    {
+      "label": "Weatherproof for outdoor",
+      "reason": "Rain resistance is expected for outdoor models — even without an explicit IP rating.",
+      "pct": "9.0%"
+    }
+  ],
+  "themeFilters": [
+    {
+      "value": "all",
+      "label": "All themes"
+    },
+    {
+      "value": "no_efficacy",
+      "label": "Doesn't catch wasps / ineffective"
+    },
+    {
+      "value": "kills_wrong",
+      "label": "Kills bees & beneficials"
+    },
+    {
+      "value": "loud_noise",
+      "label": "Loud crackling/zapping noise"
+    },
+    {
+      "value": "bright_light",
+      "label": "UV light too bright / dazzling"
+    },
+    {
+      "value": "electricity_use",
+      "label": "High power consumption"
+    },
+    {
+      "value": "bad_design",
+      "label": "Hard to clean / build quality"
+    },
+    {
+      "value": "shipping_damaged",
+      "label": "Arrived damaged"
+    },
+    {
+      "value": "weather",
+      "label": "Not weatherproof"
+    },
+    {
+      "value": "safety",
+      "label": "Safety concerns"
+    },
+    {
+      "value": "effective",
+      "label": "Very effective"
+    },
+    {
+      "value": "quiet",
+      "label": "Quiet operation"
+    },
+    {
+      "value": "easy_clean",
+      "label": "Easy cleaning"
+    },
+    {
+      "value": "safe_kids_pets",
+      "label": "Safe for kids & pets"
+    },
+    {
+      "value": "design_good",
+      "label": "Stylish design"
+    },
+    {
+      "value": "value",
+      "label": "Good value for money"
+    },
+    {
+      "value": "coverage",
+      "label": "Large coverage area"
+    },
+    {
+      "value": "indoor_outdoor",
+      "label": "Indoor and outdoor use"
+    },
+    {
+      "value": "lasts_long",
+      "label": "Durable & robust"
+    },
+    {
+      "value": "UV-Insektenvernichter",
+      "label": "UV bug zapper"
+    },
+    {
+      "value": "Stromnetz-Falle",
+      "label": "Electric grid trap"
+    },
+    {
+      "value": "Vakuum-Falle",
+      "label": "Vacuum trap"
+    },
+    {
+      "value": "Tragbar/Solar",
+      "label": "Portable/Solar"
+    },
+    {
+      "value": "Wandmontage",
+      "label": "Wall-mounted"
+    },
+    {
+      "value": "Steckdosengerät",
+      "label": "Plug-in indoor"
+    }
+  ],
+  "tagStyles": {
+    "no_efficacy": {
+      "bg": "#fee2e2",
+      "color": "#991b1b"
+    },
+    "kills_wrong": {
+      "bg": "#fef3c7",
+      "color": "#92400e"
+    },
+    "loud_noise": {
+      "bg": "#dbeafe",
+      "color": "#1e40af"
+    },
+    "bright_light": {
+      "bg": "#e0e7ff",
+      "color": "#3730a3"
+    },
+    "electricity_use": {
+      "bg": "#fce7f3",
+      "color": "#9d174d"
+    },
+    "bad_design": {
+      "bg": "#fed7aa",
+      "color": "#9a3412"
+    },
+    "shipping_damaged": {
+      "bg": "#ddd6fe",
+      "color": "#5b21b6"
+    },
+    "weather": {
+      "bg": "#fecaca",
+      "color": "#7f1d1d"
+    },
+    "safety": {
+      "bg": "#fde68a",
+      "color": "#78350f"
+    },
+    "effective": {
+      "bg": "#dcfce7",
+      "color": "#166534"
+    },
+    "quiet": {
+      "bg": "#d1fae5",
+      "color": "#065f46"
+    },
+    "easy_clean": {
+      "bg": "#cffafe",
+      "color": "#155e75"
+    },
+    "safe_kids_pets": {
+      "bg": "#ccfbf1",
+      "color": "#115e59"
+    },
+    "design_good": {
+      "bg": "#bbf7d0",
+      "color": "#14532d"
+    },
+    "value": {
+      "bg": "#a7f3d0",
+      "color": "#064e3b"
+    },
+    "coverage": {
+      "bg": "#bfdbfe",
+      "color": "#1e3a8a"
+    },
+    "indoor_outdoor": {
+      "bg": "#c7d2fe",
+      "color": "#312e81"
+    },
+    "lasts_long": {
+      "bg": "#bae6fd",
+      "color": "#0c4a6e"
+    },
+    "UV-Insektenvernichter": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Stromnetz-Falle": {
+      "bg": "#e2e8f0",
+      "color": "#1e293b"
+    },
+    "Vakuum-Falle": {
+      "bg": "#fef9c3",
+      "color": "#713f12"
+    },
+    "Tragbar/Solar": {
+      "bg": "#fae8ff",
+      "color": "#701a75"
+    },
+    "Wandmontage": {
+      "bg": "#ede9fe",
+      "color": "#4c1d95"
+    },
+    "Steckdosengerät": {
+      "bg": "#e0f2fe",
+      "color": "#075985"
+    },
+    "Hausbesitzer": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Garten/Terrassennutzer": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Eltern mit Kindern": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Allergiker": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Gastronomen": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Tierhalter": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Imker": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Sommer-Peak": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Frühlingsstart": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "BBQ/Grillsaison": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Bei Wespen-/Insektenplage": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Nachts (Schlafen)": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Ganzjährig (Innenbereich)": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Terrasse/Garten": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Balkon": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Schlafzimmer": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Wohnzimmer/Küche": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Gastronomie": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Lagerräume": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Carport": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    }
+  },
+  "reviews": [
+    {
+      "r": 5,
+      "t": "A really useful helper! A sturdy fly swatter made of ABS that sits comfortably and securely in the hand - slightly larger than other models available in this form, but also without moving parts. You can use it to specifically catch the insects in their flight path, like with a badminton racket. The “covering” of the “racquet” consists of several stable grid layers, so it is a large, hard hitting surface. The lower part of the handle is the 1,800 mAh battery, so you can get through a barbecue evening. A charging stand is also included in the scope of delivery...",
+      "tags": [
+        "kills_wrong",
+        "loud_noise",
+        "safety",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Steckdosengerät",
+        "Terrasse/Garten",
+        "Schlafzimmer",
+        "Wohnzimmer/Küche"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Silent hunter with plenty of power – safe and efficient against mosquitoes. Since I have a balcony and the door is often open in summer, mosquitoes and flies regularly find their way into my apartment. I've been looking for a reliable, rechargeable solution and have been using this electric fly swatter for some time now. First impression & design The device makes a solid impression. The black and orange color combination looks functional, and the case fits well and securely in the hand. The modern USB-C connection is particularly worth mentioning...",
+      "tags": [
+        "loud_noise",
+        "effective",
+        "safe_kids_pets",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Terrasse/Garten",
+        "Balkon",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Top fly swatter. To get rid of insects effectively and comfortably, I tested this electric fly swatter. Here are my impressions: 🦟 Dual function: fly swatter and mosquito lamp: This electric fly swatter offers a 2-in-1 function that makes it possible to both actively combat insects with the swatter and passively attract and eliminate them with the integrated mosquito lamp. The mosquito lamp attracts insects with UV light, which significantly increases the efficiency of the device. ⚡ Powerful and effective: The fly swatter is powerful enough to...",
+      "tags": [
+        "safety",
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Terrasse/Garten",
+        "Schlafzimmer",
+        "Wohnzimmer/Küche"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Look at this! This is how it has to bang. The electronics are solid and cleanly processed. And it arrived fully charged and therefore doesn't need to be charged at first. The high voltage capacitor is also completely immersed in wax to prevent arcing. I can't measure whether the swatter delivers 5000 volts, but it certainly has more power than all the cheap hardware store and discounter swatters. The electric shocks even burned small holes into the test sheets. I even claim that electronics are just as strong again as they were 10 years ago before all the fly swatters...",
+      "tags": [
+        "loud_noise",
+        "design_good",
+        "coverage",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Well-functioning, electric fly swatter - when things have to be done quickly. We already have an electronic insect killer in our open winter garden, but what if you are annoyed by the insects that don't fly into the insect killer? That's why we got this electric fly swatter, because when you get annoyed and annoyed by the insects flying around because they don't fly into the insect killer, then you can just take out this fly swatter, switch it on and use it, and then...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Steckdosengerät",
+        "Terrasse/Garten",
+        "Balkon"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective against mosquitoes, powerful electric shock, rechargeable battery. I was kindly provided with the YOUBST electric fly swatter free of charge and tested it against the annoying mosquitoes in my apartment. I usually use a traditional plastic fly swatter. The main difference to this electric version is that the insects are immediately electrocuted when they touch the metal grid. The fly swatter is pleasantly light in the hand. It is slightly larger than usual versions, comes...",
+      "tags": [
+        "safety",
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Steckdosengerät",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Guarantees a peaceful sleep. The snow-white electric fly or mosquito swatter set arrived complete, as stated in the product description. The battery-chargeable racket was quickly screwed together, and it also came with a stand, a USB charging cable and an operating manual written in German. A light trap (6 UV LED lights) is located in the racket behind the wires. With the base, the mosquito swatter can be set up vertically and with automatic operation, for example in the bedroom, the annoying mosquitoes can be swatted with the UV light...",
+      "tags": [
+        "loud_noise",
+        "safe_kids_pets",
+        "UV-Insektenvernichter",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Steckdosengerät",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Targeted control of insects without any chemicals. Im Zuge eines Produkttests durften wir die YISSVIC elektrische Fliegenklatsche (extra stark, 4000 V, mit LED-Beleuchtung und Akku, schwarz orange) testen und teilen gerne unsere Erfahrungen mit Ihnen. I was very excited to see this device that looks like a “tennis racket”. Es liegt mit seinem gummierten Griff gut in der Hand und eignet sich für mich zum Einsatz in Haus, in der Wohnung, im Campingwagen und auf Balkon oder Terrasse. The integrated battery is charged via USB C). An LED helps with aiming at dusk or in the dark...",
+      "tags": [
+        "effective",
+        "safe_kids_pets",
+        "lasts_long",
+        "Tragbar/Solar",
+        "Terrasse/Garten",
+        "Balkon"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Nice big gossip area makes e.g. B. Catching moths easily. I got the swatter today and used it straight away in the evening - and it works great! I didn't have to charge it first. Type-C cable and operating instructions (also in German) were included. You need a 5V charger, which of course I have in the house. Charging time should be 3 hours, you shouldn't charge it for longer than 12 hours. My previous electric swatter annoyed me a bit because it was too small and I often \"wagged past\" the critters. That's why I really wanted one with a...",
+      "tags": [
+        "loud_noise",
+        "effective",
+        "design_good",
+        "Stromnetz-Falle",
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Absolute recommendation – strong, effective and well thought out! I absolutely love this electric fly swatter! The workmanship appears to be of high quality and robust, and the 5000V impact power makes short work of any fly, mosquito or even wasp. No comparison to the usual weak devices - you really notice the power here. I find the 2-in-1 mode particularly practical: you can use the device both in the hand and set it up as a UV light trap in stand mode. The UV light reliably attracts mosquitoes, ideal for the night in the bedroom or on the terrace...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Terrasse/Garten",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "🦟⚡ \"YOUBST Electric Electric Fly Swatter: Powerful 5000V Mosquito Control\" ⚡🔋. 👍 I like: - High voltage: 5000V ensures effective mosquito control at night. - 2-in-1 function: combination of electric fly swatter and UV light trap for maximum efficiency. - Rechargeable: Rechargeable battery with USB Type-C for easy and convenient use. - Portable and lightweight: Ideal for use at home, in the garden or while camping. - Safety net: Protective net prevents accidental touches and ensures safety. - Environmentally friendly: chemical-free protection...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Terrasse/Garten",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective insect repellent with a lot of power - finally peace in the summer! I bought the YISSVIC electric fly swatter because the constant flies and mosquitoes really drove me crazy in the summer - and I have to say: this device absolutely does what it promises. I was particularly impressed by the strong performance. The 4000 volts ensure that insects are dealt with reliably and immediately - no more repeated re-insertion or annoying \"missing\". Especially when it comes to stubborn flies, you immediately notice the difference compared to weaker devices. A big plus is...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "Tragbar/Solar",
+        "Terrasse/Garten",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Under power! The YISSVIC electric fly swatter works great and pleasantly surprised me. Now that the first fly of the season was in the house today and I had to be faster than the cat, I can report success. The power is strong enough to eliminate insects reliably and quickly. The integrated battery is particularly practical, so you don't have to constantly change batteries - simply charge it with a cable and the device is ready for use again. The built-in LED light is a fun and useful extra, especially at dusk...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "Tragbar/Solar",
+        "Steckdosengerät",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Light, strong and reliable – perfect help against summer pests. I ordered the YISSVIC electric fly swatter because I simply need a reliable solution to quickly get rid of mosquitoes, flies and other pests in the summer. Sprays or fragrances aren't my thing - I wanted something that worked straight away and didn't require much effort. That's exactly what this model delivers. The first impression was immediately positive. The swatter appears stable, fits well in the hand and is pleasantly light. You can easily use them for longer without your arm getting tired...",
+      "tags": [
+        "lasts_long",
+        "Tragbar/Solar",
+        "Wandmontage",
+        "Terrasse/Garten",
+        "Wohnzimmer/Küche"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Reliable insect killer with power. Delivery: Went quickly within a day with no damage. Appearance: Exactly like the pictures and description. The material is plastic and doesn't seem particularly high quality, but I don't expect that from a product in this price range. However, the racket is sufficiently stable and should hold up under normal use. Function: I was really surprised here, the racket has a lot of power. Small flies can be felt exploding and there is a real bang every time. Even larger insects such as wasps, which are simply very aggressive at this time of year...",
+      "tags": [
+        "loud_noise",
+        "safe_kids_pets",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Awesome device. Awesome part! It's bigger than expected. That's why I was skeptical when I unpacked it. Then switched it on straight away and tried it out. Since the rod can be pulled out - and overall the piece is quite stable, flies can actually be caught in flight. These other cheap parts just wave around stupidly in the air. The rotating head is also awesome. You can use this to catch any fly on the ceiling or wall. And it has power!!! Fruit flies go bang twice and there's nothing left of them. I can't say how long the battery will last, but...",
+      "tags": [
+        "effective",
+        "design_good",
+        "lasts_long",
+        "Tragbar/Solar",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective. 5000V Extra Strong Fly Swatter】This extra strong electric fly swatter is equipped with a high voltage network of 5000V, which quickly and effectively kills all mosquitoes, flies, fruit flies, moths and other annoying large insects, so that they have no chance of escaping from your hands. 【2000mAh charge once a month】The electric fly swatter is equipped with a built-in 2000mAh battery that does not need to be charged often. It can be used for up to a month in manual mode and up to four hours in automatic mode.",
+      "tags": [
+        "effective",
+        "safe_kids_pets",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Strong and versatile electric fly swatter – impressive in everyday life. ⭐️⭐️⭐️⭐️⭐️ 5 out of 5 stars Delivery was quick and securely packed in the outer box. The item box is simple (brown with print and sticker), but serves its purpose. 📦 Scope of delivery Included in the box: • Electric fly swatter • Battery • Charger or stand • USB-A to USB-C charging cable • Instructions Everything complete and ready to use. 🔧 Workmanship & first impression As soon as you unpack it you can tell that the fly swatter is of high quality. Material, workmanship, optics...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective and powerful. Unfortunately, in the summer, a lot of mosquitoes come into the house from my pond in the garden. Even with fly screens on the windows, quite a few still manage to get in and rob you of your sleep at night. That's why I chose this electric fly swatter, which can also be used as a stand-alone device. What was crucial for me here was that at 5000 V it is a very powerful device. Other, weaker claps have the disadvantage that one touch with the grid is usually not enough and the hunt continues. The...",
+      "tags": [
+        "effective",
+        "Tragbar/Solar",
+        "Steckdosengerät",
+        "Terrasse/Garten",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Quick help against insects – simple and effective. Short conclusion for quick readers The electric fly swatter is surprisingly effective in everyday life and is quickly ready for use. The high voltage in combination with the large area ensures that insects are reliably caught. In addition, the UV automatic mode offers a practical additional benefit for use in the dark. The workmanship appears solid and the device sits well in the hand. Overall, a functional and effective device for quick insect control with a good price-performance ratio. Unbo...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Lagerräume"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Practical against annoying gnats 🦟 in the bedroom. What we like about the fly swatter • Extremely high voltage (5000 V) for strong impact even on small insects • Two-stage mode: manual use + nocturnal attracting function via UV light. • Battery strength and USB-C charging enable long-lasting use and easy charging. • Comprehensive safety thanks to the three-layer grille and circuit breaker – also ideal for households with children. • robust and stable • set of 2 practical for home and garden What is missing is a display of the battery level, which is due to the long battery life...",
+      "tags": [
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Terrasse/Garten",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective and practical in everyday life. The electric fly swatter works perfectly and fits well in the hand. Thanks to the strong tension, mosquitoes and flies are caught immediately without chasing for a long time. I find the 2-in-1 function with UV light trap particularly practical - just switch it on and it attracts the insects by itself. The battery lasts a long time and can be quickly recharged via USB-C. The workmanship also makes a stable impression. Absolutely recommended for summer and annoying pests!",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great swatter with additional function. We always have problems with mosquitoes in the house, especially in the living room and bedroom. I won't be able to test the reliability of the UV function until later; it's not mosquito season yet. +nice design +charging via station or directly on the swatter via USB-C +stands stable in the stand +no stains on the walls from dead mosquitoes +good size of the impact area -The control button seems a bit cheap and doesn't fit the product well",
+      "tags": [
+        "no_efficacy",
+        "design_good",
+        "lasts_long",
+        "Schlafzimmer",
+        "Wohnzimmer/Küche"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Good device, sustainable thanks to the battery. Electric fly swatters are simply better than others. You can also use it to catch small flies and mosquitoes by pressing the switch and simply waving it back and forth in the insect's flight path. There's a brief bang (don't be alarmed, please! :-) ). And the insect is killed. There is hardly anything better against mosquitoes. I find the built-in lamp funny. Since insect season hasn't started yet, I can't say whether insects are attracted to the light. That would of course be a plus if the critters came from all over...",
+      "tags": [
+        "loud_noise",
+        "design_good",
+        "Stromnetz-Falle",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Zapperlott! For those who are tired of unsightly stains on the wallpaper caused by classic fly swatters, the electric version from YISSVIC is a real game changer. I've been testing the thing for a few days now and - despite minor deductions in the B grade - I'm pretty impressed with the swatter. Actually, it's not a swatter at all, but more of a contact bat. The 4000 volts make short work of it. You can immediately feel (and hear) that there is a lot of power behind it. A short contact is enough and the insect issue is settled. Thanks to the fine grid, even...",
+      "tags": [
+        "value",
+        "Tragbar/Solar",
+        "Wandmontage",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "It pops when hit, works great, large flies need two to three shocks. Fast delivery, works perfectly, great grid spacing (also works for small fruit flies), dead insects can be easily shaken out of the grid, long-lasting battery",
+      "tags": [
+        "loud_noise",
+        "effective",
+        "lasts_long",
+        "Stromnetz-Falle",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Summer firefrog for houseflies, moths etc. Fly season begins. I can hear the humming even before the air is even right. But since the clap is here, the distraction after the hum is over. A push of a button, 5,000 volts, you swing at the thing in the air, everything within reach is grilled in milliseconds - truly a spectacle. The sound is reminiscent of mini popcorn - first it cracks, then for a moment it smells clearly like game over. For anyone who enjoys this idea, this fly swatter is ideal - what about the rest? In contrast...",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Strong, efficient and child-safe! The electric fly swatter pleasantly surprised me with its performance and functions. It is equipped with a high-voltage network of 5000V that quickly and reliably eliminates mosquitoes, flies, wasps and even larger insects. The effect can be felt immediately as soon as the insects touch the net. The built-in 1800mAh battery, which offers a long service life, is particularly practical. In manual mode it can withstand up to a month of continuous operation and in automatic mode up to four hours of continuous use without the need to recharge.",
+      "tags": [
+        "safe_kids_pets",
+        "lasts_long",
+        "Stromnetz-Falle",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "An effective and handy gadget. The electric fly swatter comes with a charging cable and a charging station. The charging station also serves as a stand, which means it can be placed on the table at night, even in long-term operation, and attracts insects with the built-in UV light. It is sturdily made and has a safety net so that you cannot accidentally reach into it yourself. If an insect flies onto the live surface, a real lightning strike will strike, which will startle you a bit. Not all flies mind and they...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "The thing works well: Efficient and merciless combat against small flutters! I have a fungus gnat problem in my basement. There is a box of the finest soil inoculated with mushroom spawn - unfortunately the soil was inoculated with something else before moving into the basement: fungus gnats. Nematode control partially helped, but we can't do anything against animals that have already hatched. Gently waving this fly swatter in \"automatic mode\" with discreet light promptly triggers a machine gun volley of banging noises as well as a \"guilty\" feeling of \"satisfaction\"...",
+      "tags": [
+        "loud_noise",
+        "design_good",
+        "Stromnetz-Falle",
+        "Lagerräume"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very useful fly swatter. I tried the YOUBST Electric Electric Fly Swatter 5000V for a few weeks and am very satisfied with the performance. The fly swatter is very strong and effective, with a voltage of 5000V that quickly kills even the most stubborn insects. The 2-in-1 UV light trap design is particularly practical as it can not only kill the flies and mosquitoes directly, but also attract and trap insects that are nearby. The USB Type-C port makes charging the battery easy and convenient. The fly swatter is good...",
+      "tags": [
+        "effective",
+        "easy_clean",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "YOUBST Electric Fly Swatter: Effective and practical! The YOUBST Electric Electric Fly Swatter has proven to be an invaluable tool in my fight against annoying insects. This 2-in-1 mosquito swatter combines effectiveness with practical functionality and offers a convincing solution to the problem of mosquitoes, flies, wasps and moths. The 5000V electrical charge ensures immediate and efficient insect destruction. With a simple blow, annoying insects are immediately neutralized without leaving any residue. The electric charge is there...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good investment. This fly swatter is just perfect. You can also reach higher places without any problems and you can put enough distance between the insect and yourself. You are no longer dependent on other aids such as chairs, ladders or even men :-). Of course, the included telescopic rod, the swiveling head and the setting for continuous operation help. The fly swatter is pretty powerful in my opinion. Especially in comparison with conventional electric fly swatters. When eliminating insects, there are a few...",
+      "tags": [
+        "loud_noise",
+        "UV-Insektenvernichter",
+        "Stromnetz-Falle",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "YOUBST Electric Fly Swatter 5000V (Set of 2). Electric fly swatters are a practical solution against insects if you want to react quickly and without chemicals. This YOUBST set with 5000 volts, USB-C charging, battery and integrated UV light trap offers two devices in one package. This is very suitable for everyday use in the house, balcony and garden. The high voltage ensures that mosquitoes, flies and other small insects are reliably killed upon contact. The combination of handheld device and UV light trap makes the system more flexible: It can be used both actively and...",
+      "tags": [
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Terrasse/Garten",
+        "Balkon"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Electric fly swatter 2-in-1 - 5000V mosquito swatter with UV light trap and USB-C battery. This electric fly swatter combines classic insect repellent with a modern UV light trap and ensures effective control of mosquitoes, flies, wasps and moths. With a power of up to 5000 V, insects are reliably eliminated, while the integrated UV light function also attracts them. The rechargeable battery with USB-C port allows for easy and flexible use without changing the battery. Thanks to the 2-in-1 function, the device can be used both actively as a swater and p...",
+      "tags": [
+        "effective",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective insect repellent with clever extras. The YOUBST electric fly swatter really convinced me. The 5000V voltage kills insects reliably and immediately, which is not the case with many other models. I particularly like the 2-in-1 function: In addition to the classic swatter, there is a UV light mode that attracts and intercepts mosquitoes. The integrated 1800mAh battery lasts a long time and can be easily charged via USB-C, which is very practical. The three-layer safety net also offers additional protection",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super. Bangs quite nicely. Works perfectly and the battery lasts forever",
+      "tags": [
+        "loud_noise",
+        "lasts_long",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Large striking surface, practical battery and finally no more stains on the wall. The electric fly swatter is quite large, but I clearly see this as an advantage. The large striking surface makes it much easier to catch mosquitoes and flies, even directly in the air. Especially in our country with several ponds in the area, we have a lot of mosquitoes and flies in the summer, so a device like this really makes sense. What's particularly practical is that you don't have to wait until the insects sit down somewhere. This way you avoid the typical unsightly spots...",
+      "tags": [
+        "Tragbar/Solar",
+        "Wandmontage",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Does exactly what it's supposed to do. Does exactly what it's supposed to do. The mode that it can be on for a long time, with the UV light is great, but it often leads to a heartbeat if a mosquito grills itself on the PC at night because it then makes a really loud bang. My conclusion is a purchase recommendation",
+      "tags": [
+        "loud_noise",
+        "UV-Insektenvernichter",
+        "Stromnetz-Falle",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fly swatter with power. The workmanship looks very good, especially when compared to cheap devices that have been in circulation for more than 10 years. The swatter seems quite robust and stable, although the upper area is slightly springy. The blue light is a good warning and also signals readiness for action. You can charge the fly swatter with the USB adapter cable at any 5V USB socket. USB-C is used as a connection on the swatter, so it also uses the latest standard. The battery can be disconnected. However, the battery is not replaceable as it is also in an extra...",
+      "tags": [
+        "lasts_long",
+        "Tragbar/Solar",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Thank God. Unfortunately, the apartment is very close to the organic waste bin, which is why in the summer you immediately have a fly invasion in the house after airing it out once. This year it was particularly bad, traps and regular fly swatters didn't work so in desperation I ordered this thing. I was able to kill flies, mosquitoes and sometimes even fruit flies with it - with a little perseverance and sadism the situation was no longer quite so hopeless and the problem was soon solved. The swatter works far better than conventional electric...",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great slap! It's banging! The swatter is very stable, charging is quick and easy, I've only had to charge it once so far and the thing has been running for a long time since then. Mosquitoes and fruit flies evaporate instantly. There's nothing left. Fat blow flies are gone immediately after contact. Not like many cheap products from the supermarket, where they fly on without further ado. It also feels valuable, nothing wobbles or creaks. Sturdy built. Best part I've ever had. And that without me having to pimp it with a stronger capacitor, as I've done before...",
+      "tags": [
+        "loud_noise",
+        "lasts_long",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "I don't want to do without it anymore. At first I thought it was nonsense, but now I have a different opinion. The fly swatter is very effective and because it works with a battery it is also very flexible, whether indoors or outdoors. I wouldn't want to use it outside when it's wet, but it would work under a roof too. Charging is quick and a charge lasts quite a long time. The great thing here is that you can not only use the swatter with your hand, but you can also easily set it up, for example next to the bed to have peace of mind from mosquitoes at night. D...",
+      "tags": [
+        "effective",
+        "Tragbar/Solar",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Strong fly swatter. The YOUBST Electric Electric Fly Swatter 5000V came well packaged with a removable battery, instructions, charging cable and charging or stand holder. The fly swatter seemed well made, felt very comfortable in the hand and was also safe against accidental electric shocks thanks to its design with two protective nets. I previously had a fly swatter with 3900V, which worked very well on fruit flies, but was borderline effective on mosquitoes. Anyway, I only used the fly swatter in an emergency, when there was no way to get mosquitoes out of the room, but...",
+      "tags": [
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Takes out the pain in the ass. The fly swatter completely convinced me. Once charged, the battery feels like it lasts forever. The mosquitoes and flies in my apartment no longer stand a chance. The light literally attracts the insects and the strike is quick and reliable. Compared to other models, nothing hangs wobbly on the holder and the workmanship appears to be consistently stable. The different modes are practical for different situations, and the design is simple and functional. A reliable companion against unwanted tormentors",
+      "tags": [
+        "bad_design",
+        "lasts_long",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "3550V - still deadly. Apart from the hallucinated 4000 V (mine is exactly 3550 V - but you can write whatever you want as long as even better tests don't bother to measure it) the swatter works very well. She has a lot of oomph. I particularly like the low weight and the stable construction without a wobbling headboard. There are now three of them hanging in strategic locations throughout the house. Intruders immediately regret it :-)",
+      "tags": [
+        "value",
+        "lasts_long",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good battery fly swatter with a MEGA fun effect ^^. It is pure joy to catch annoying mosquitoes, flies and even fruit flies with this “battery electric fly swatter”. It bangs really loudly and for a long time like small New Year's Eve fireworks :)))))) The battery lasts SUPER long. I would buy this cordless electric fly swatter again EVER!",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "No more leaking batteries – a well-thought-out concept. I bought this electric fly swatter in preparation for the upcoming insect season. The first impression is solid. These are my highlights: Rechargeable battery instead of batteries: This is the biggest plus point for me. Not only do you save yourself having to buy more batteries, you also avoid the problem of forgotten batteries leaking into the device over the winter and ruining it. Power: According to the data sheet, it is extra powerful at 4000 V - it will have to pass the practical test on mosquitoes and wasps as soon as the season really starts...",
+      "tags": [
+        "design_good",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Strong weapon against insects. Compared to older insect killers of this type, this thing really packs a punch. The voltage flashover is very powerful and correspondingly effective. I like the battery charging option via USB-C. The optionally activated lighting is also helpful. A small red LED indicates that voltage has been built up. Overall, the device appears to be of high quality and well made. This also means that it is screwed instead of simply glued. As other reviewers have noted, the insects are not necessarily dead when you use the device. One should...",
+      "tags": [
+        "effective",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "⚡️ Extremely practical and really strong – does what it promises! 🦟💥. The set of 2 from YOUBST really surprised me. The quality is great, feels robust and well thought out. Particularly cool: Thanks to the charging station, you can also use the swatters as stationary UV traps - really clever and super useful, especially in the warm season when the little pests are annoying. 🔋✨ The power is decent, mosquitoes, flies, wasps and moths have no chance. You immediately notice that the 5000V ignites properly. 🦟⚡️ Conclusion: If you are looking for something effective and flexible against annoying insects,...",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Reliable part, already used twice! A really great and well thought out piece. (I'm an electrical engineer.) The plastic is high quality. The electrical interior is more important to me. There is real power behind it, in contrast to various hardware store devices. It occasionally smells a bit burnt. With the extension and the tilted grille, you can get rid of the pests even in hard-to-reach places. I noticed a positive side effect. If the grid is tilted and the insect is in the light cone of the UV LED, the mosquito will probably be blinded so much that it will focus on the nearby...",
+      "tags": [
+        "bright_light",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Rotating Power, Maximum Pest Control!. The GeckoMan Rotating Head Electric Fly Swatter is a game-changer for anyone tired of pesky flies, mosquitoes, and other flying insects. Its patented rotating head allows you to catch bugs at any angle—on walls, ceilings, or mid-air—while the telescopic handle extends up to 28 inches, giving you reach without climbing on chairs or ladders. Powered by a 1200mAh rechargeable battery, it provides long-lasting performance and convenient USB-C charging. The 3-layer mesh ensures safety while delivering a strong 3500V electric shock to quickly eliminate insects...",
+      "tags": [
+        "UV-Insektenvernichter",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Finally a fly swatter with a lot of power. I've tried a few fly swatters of this type, but so far none have really convinced me. Most clappers on the market use two AA batteries, but this one comes with an 1800mAh battery that packs a lot of punch. This battery ensures that the insects (no bees please) are killed in a fraction of a second and do not have to suffer for an unnecessarily long time. You turn the clap on and also have to press a small button and...",
+      "tags": [
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "2 in 1 fly swatter with lots of power & great handling! A warm hello, Electric Fly Swatter 5000V, Extra Strong Electric Fly Swatter, 2 in 1 USB Type-C Electric Mosquito Swatter with Rechargeable Battery & UV Light Trap for Mosquitoes, Flies and Co. The workmanship is quite good here including the materials used. A fly swatter 2 in 1 5000V/UV LED, with 18000mA battery, very good. This fly swatter is equipped with 6 UV LED lamps, they are very bright and attract flies, mosquitoes etc., just as they should. Charging is carried out using the included charging station, which...",
+      "tags": [
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Meeeeeeeeegaaaaa!. This part is crazy! We had a plague of flies (farm next door) and we got it under control very quickly. Fly screens then logically went straight to the windows. It might sound a bit sadistic, but it's really fun to get started with. Also works for mosquitoes. Battery also lasts a very long time. Only with the continuous function with UV light did it not last the whole night (battery was full). But that doesn't bother me personally. No comparison to the cheap parts in the hardware store etc. It is much better!",
+      "tags": [
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent on fruit flies. Personally, I use this thing almost exclusively for fruit flies. The resulting bang is quite loud and the method is almost brutal, but the fruit flies are gone. The charging LED almost gets a star deducted because, contrary to what is stated in the manual, it does not display anything when charging. However, the base has a working indicator when charging (red when charging and green when charged). The round on-off button is good, which I find to be pleasant to use (compared to another model that has a handle...",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Practical, effective and easy to use - clear purchase recommendation. The electric fly swatter works reliably and does exactly what it is supposed to. Insects are eliminated quickly and effectively. The rotating head is a practical feature as it allows you to easily reach places that are difficult to reach. The battery lasts long enough and can be easily recharged. The workmanship appears solid and the device sits well in the hand. Overall, a clean and significantly more effective alternative to the classic fly swatter. Conclusion: Practical, effective and easy to use...",
+      "tags": [
+        "effective",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works great, battery lasts well. I already had the previous version without the long rod and that was great. Here again the rod for hard-to-reach places and the rotating racket part. Be careful, it can only be tilted in one direction, the other has resistance and is blocked. But that is completely enough. However, you shouldn't turn the extension rod horizontally, otherwise the racket will fall out more easily, which you don't actually need ;-) All in all, a real killer compared to other similar products",
+      "tags": [
+        "effective",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Bigger than expected!. The electric fly swatter is overall larger than expected, which is unusual at first. However, the size makes it easier to hit insects, especially indoors. The workmanship appears solid and suitable for regular use. The electrical function works reliably and ensures a quick effect. The integrated UV light can also help attract insects. The battery can be conveniently charged via USB-C and is suitable for everyday use. Overall, a functional device with good performance, even if the size is a bit...",
+      "tags": [
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "I love it. I've only had it for a week...so a long-term test is still pending, but I already love it. If the previous e-swatter only stunned food moths or houseflies and then often picked themselves up again, they no longer have a chance with this one. But what is also animal-friendly, the poor little ones have to suffer less. And even in the dark, I now know when I've been successful, because every hit is acknowledged with a small bang",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Good electric fly swatter with UV light. The electric fly swatter does exactly what it is supposed to and comes with a charging cable, operating instructions and a charging station. But I think the best thing is that you can set up the device and the insects are “attracted” by the UV light. The fly swatter is easily charged via USB-C, so there is no need to constantly change batteries. I'm happy with the electric fly swatter from YOUBST so far. Finally enjoy the summer with fewer annoying insects in your home",
+      "tags": [
+        "UV-Insektenvernichter",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "The name says it all. Thanks to this device, the 1.59m tall author of this review has become a terror to (evil) insects. Spiders and hsrmlosr flies are allowed to continue to exist, the rest will be wiped out. The previously successful escape to the ceiling is now useless. Really good part. It's pretty loud when there's something in it, I wonder if that implies it's very strong. I haven't dared to test the theory yet. But it is very reliable and the battery doesn't seem to be bad",
+      "tags": [
+        "no_efficacy",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Also perfect against fruit flies 😃. These *grill tennis rackets* have the ability to electrify the smallest beasts into eternity as well as the larger pests. Above all, it's very practical to leave it near the sink, where it can sometimes make a bang when they're floating around headlessly~ you can even catch a lot of them in no time thanks to the large surface area 🪰 Little tip by the way~ place a few wine corks nearby, so the moisture removal from the cork will reduce the number of them!",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Power clapping. This electric swatter is super strong for anything called an insect and has wings. Even the big ones are no problem. A loud ZAAPP and it's time for work. No tuning necessary. However, the Klatschy hums quite loudly when you set it to continuous operation. I can't sleep like that, but I bought it for manual operation, which is why I still give it a full 5 stars",
+      "tags": [
+        "loud_noise",
+        "safety"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Mobile and stationary operation, charging base, UV LEDs. The insect killer can be used spontaneously like a fly swatter. Stationary operation in the charging base is also possible, with the UV LEDs being active. These work well in the dark room, they attracted mosquitoes that I hadn't even seen. The design is modern, the workmanship is high-quality and dimensionally stable. The device can be secured against unintentional activation using the operating mode switch",
+      "tags": [
+        "lasts_long",
+        "UV-Insektenvernichter"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super!. Works great, tight grid and bang effect!",
+      "tags": [
+        "loud_noise",
+        "effective",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great solution. Especially when there are annoying flies or mosquitoes sitting on the ceiling, this is ideal. For active animals that don't want to stay sitting, simply switch it on and place it on the table. The blue light quickly lures them into the trap. But don't be alarmed, because it tends to crackle loudly, especially when you're no longer thinking about it and a fly falls into the trap",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super practical. Super practical. You can put it on the bed at night with the holder and switch it on. So it catches the critters on its own and it's not too bright. You can charge it via USB-C and it lasts a long time. The extension is also practical in high rooms. I particularly like that you can adjust the angle",
+      "tags": [
+        "bright_light",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fits well in the hand, good battery. As part of the Vine program, I was offered this electric fly swatter to test. What struck me immediately as a positive thing is how comfortable it is to use. The fly swatter fits well in the hand and can therefore be used sensibly without looking cheap or unwieldy. The battery also makes a good impression so far. It lasts a pleasantly long time, so you don't have to constantly recharge it. Especially with a device like this, it's much more practical in everyday life. I also find it particularly pleasing that USB C is used here...",
+      "tags": [
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Cleanly made and feels good in the hand – ready for the summer. ##### ##### ##### 5 out of 5 I received this electric fly swatter as part of a product test. I haven't been able to test it in real use at the moment because the mosquito season hasn't really started yet. That's why I primarily rate workmanship and handling here. The first impression is very good. The fly swatter appears to be cleanly made and makes an overall impression of being stable. Nothing rattles or looks cheap. I find the handling particularly positive. It fits well in the hand, is balanced and...",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Practical electric fly swatter for the outdoor kitchen. The electric fly swatter is intended for the outdoor kitchen because insects can quickly become a nuisance when cooking. Since there aren't that many insects around at the moment, I haven't been able to comprehensively test the effect in practical use, but the first impression is positive. I particularly like that the swatter can be charged via USB. I find this much more practical than a model with batteries because you don't have to buy anything and you can simply recharge the device when needed...",
+      "tags": [
+        "Wohnzimmer/Küche"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Reliable to use. Anyone who is quick and accurate will be satisfied with the result. Each hit is confirmed with a loud bang. Larger insects (e.g. the blue-colored flies) sometimes require a second contact",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very strong. Finally there's a bang again when the fruit flies explode. Was looking for a replacement for the broken electric bat. The replacement was rather poor. This is over now and the critters had better pack their things first. Full marks",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Insect hunting with fun factor. The fly swatter comes with a base station and USB-C charging cable. The swatter itself has a slide switch and can be switched off, into manual or continuous operation. Charging can be done via the base station or directly on the fly swatter itself. If the manual mode is switched on, the swatter is activated while pressing another button until you release it again. In continuous operation it is switched on all the time. If the fly swatter is switched on permanently or temporarily...",
+      "tags": [
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Top. Very powerful electric insect racket. The charge released upon contact with an insect is very strong (insects burst with a bang) and the integrated light is very practical",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super. The handle consists of two parts. For this reason I thought it would be unstable. But that's not it. I like it very much. I can only recommend it",
+      "tags": [
+        "bad_design",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "This thing has power. With a good bang it eliminates big flies. And even the tiny fruit flies that come close to the fly swatter explode immediately",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "The ideal mosquito death. Fast delivery - great handling - absolutely ideal for taking with you to the beer garden.... and you are not alone with such a racket. Many people now have such mosquito killers. I'm thrilled",
+      "tags": [
+        "Terrasse/Garten",
+        "Gastronomie"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Decent power. Stable and also nice to look at. Since I have mosquito nets everywhere, I've only had one mosquito fall into the trap so far. So the light seems to work",
+      "tags": [
+        "design_good",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Clear purchase recommendation! Does what it promises! I'm totally thrilled. We've had problems with small flies in the kitchen for some time, nothing helped - no commonly recommended home remedy, nor disgusting adhesive strips, I was already completely desperate - but this fly swatter solved the problem within half an hour. I've had it for three days now and of course new flies appear every now and then, but only occasionally, and I can then remove them within seconds with the swatter without leaving disgusting stains on the walls. Just p...",
+      "tags": [
+        "Wohnzimmer/Küche"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Definitely a help in the summer but still not quite as high quality as hoped... Who doesn't know the situation where after a beautiful summer day, even the still warm evening, you want to take it easy on the terrace with a delicious drink. But here and there little tormentors come into play which, on the one hand, buzz but on the other hand also like to sting. Unfortunately, this can spoil what was actually a lovely evening... If the mosquitoes, biting flies and other pests also appear in the living areas then the actual good mood can...",
+      "tags": [
+        "loud_noise",
+        "safety",
+        "UV-Insektenvernichter",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Wandmontage",
+        "Steckdosengerät",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Maybe okay for small flies – too weak and morally questionable for larger ones. This electric fly swatter is basically a classic insect killer, but in a portable and battery-operated form with the appearance of a small tennis racket. The area is large enough and the device is not too heavy to catch a flying animal like you would with a bat. The device optionally has a lighting function to attract insects, but the light is rather weak and during the practical test the mosquito appeared in my...",
+      "tags": [
+        "loud_noise",
+        "UV-Insektenvernichter",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Schlafzimmer",
+        "Wohnzimmer/Küche"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Too weak in the chest. First the summary (detailed text below): Pros 🙂 ✅ Chargeable via USB-C ✅ Folding function ✅ Well and robustly made Cons 🙁 ❌ Weak performance ❌ Not necessarily suitable as a stationary trap After my last electric \"fly swatter\" (I find it a bit strange to call it that) gave up the ghost after several years of loyal service, something new was needed. What annoyed me most was having the right batteries on hand. This version with USB-C was just right. The device makes a well-made impression and looks...",
+      "tags": [
+        "loud_noise",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Works great, stability is different, brightness is exaggerated in advertising.... I tried the electric fly swatter to combat mosquitoes in my apartment. 😊 The device basically works, mosquitoes are usually caught on contact, so you can catch them using tennis movements. The 5000V seems to be enough to kill small flies. This is useful when you need a quick solution. However, the processing is not particularly stable. When using it, you sometimes have to be careful not to put the swatter on wobbly surfaces or in the...",
+      "tags": [
+        "bad_design",
+        "effective",
+        "value",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Slight discomfort... e.g. switching the device to automatic mode. The buttons and also the “charging station” are wobbly. The charging station weighs just 52 grams, measures 8.0 x 9.5 cm and wobbles on the table. The device itself is 52 cm long and weighs 324 grams and also has play in the “charging station”. Battery is an absolutely unlabeled 18650 (estimated) soldered between cheap cables. But it works, so you can get rid of fruit flies quickly and effectively (you can't miss it if you catch something.) The price should...",
+      "tags": [
+        "loud_noise",
+        "bad_design",
+        "effective",
+        "Stromnetz-Falle",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Loud bang. The item reviewed here was provided to me free of charge as part of the Amazon Vine program. The assessment of the article is independent of this. The delivery was relatively quick. The item comes with a USB C cable, a small stand that acts as a charging cradle and the bat. You can charge the fly swatter both via the docking station and via the USB-C port integrated in the handle. Loading is quick. If you manually hunt for the pests, you know roughly when something will go off. In the stand, standing when the four...",
+      "tags": [
+        "loud_noise",
+        "effective",
+        "UV-Insektenvernichter",
+        "Stromnetz-Falle",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "It feels like the slap wears off after just a week. * is already my fourth fly swatter * I have \"worked my way up\" from 2000V * a constant buzzing noise indicates that the racket is ready for use + the charging station is practical and more reliable than the cables that I know from previous rackets + the battery lasts longer than with its predecessors despite the stronger performance - I hardly notice the higher voltage in daily use, the flies sometimes continue to fly even at 5000 V, a horse brake didn't bother me at all - with Caution is advised when used near the head...",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Serves the purpose: grilling flying insects. Product: YISSVIC Electric Fly Swatter Extra Strong 4000 V with LED Lighting and Rechargeable Battery Black First of all: I received this product for free as an Amazon Vine product tester. Chic in black and with LED light for the night to get rid of the nasty suckers buzzing around... in case you can't find the light switch when you're sleepy ;-) Positive: it grills reliably whatever is caught in the protective grille. Negative: 3 times the price ./. Simple hardware store product with the same grill function. Positive:...",
+      "tags": [
+        "safe_kids_pets",
+        "design_good",
+        "Vakuum-Falle",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Only partially suitable for large insects (e.g. Vespa Veluntina)! I got the electric fly swatter for my work on the beehive to help my girls defend themselves from the Vespa Veluntina. First of all, it should be noted that use against vesps, wild bees and European hornets is not permitted and that it violates animal protection and species protection laws (at least in Germany) and that this would make one liable to prosecution. As far as I know, there is nothing against the Asian hornet (Vespa Veluntina) or mosquitoes. The Asian hornet is...",
+      "tags": [
+        "safe_kids_pets",
+        "design_good",
+        "coverage"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Serves the purpose moderately. The electric fly swatter works well. You can catch flies and mosquitoes pretty reliably with it, and you no longer have to run after them with the normal swatter. The battery lasts a long time and charging is quick. Fits well in the hand and is overall practical, especially in summer. Negative: I think the handles are too short, I think the telescopes would be better. The two-pack is unnecessary, one would have worked",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "A little wobbly when you put it down - performance is only average. First of all, I am not familiar with the technically permitted specifications for such devices, so it may be that this device delivers the maximum possible performance that is permitted according to legal specifications, so this review is only my personal impression. When used as a fly swatter, especially with medium-sized insects such as gnats or larger buzzards, these are electrified, but if they only fly against it for a short time and do not get stuck in the wires for at least 30 seconds and \"sizzle\", but...",
+      "tags": [
+        "bad_design",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "A little too clunky. One thing in advance: The fly swatters work - provided you hit the fly. The whole thing sounds a bit brutal because the electric shock creates a loud bang and lasts for a moment. The fly is definitely gone after that. At the same time, I have to say that the fly swatters are too big, you feel like you're holding a tennis racket in your hand. The very bulky fly swatters make them too cumbersome, so the flies escape you more often. I was sometimes successful with the small ones made of plastic...",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "More like an oversized fly swatter. The electric fly swatter arrived quickly and well packaged. There are two identical models that arrive in one package. In addition to the fly swatters, the operating instructions, charging cable, stand and holder are also included. The head itself can be rotated, but can also be snapped into place. So far so good. In terms of size, however, this thing is comparable to a tennis racket. Therefore, you should think carefully about whether you want to put such a huge item in your apartment. The advertised mosquito trap, attracted by UV light, works...",
+      "tags": [
+        "UV-Insektenvernichter",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Serve their purpose well. I have been testing the electric fly swatter for a while now and am overall satisfied. It has some practical functions, but also a few small weaknesses. A real advantage is the rotating head. You can tilt it, which is super helpful if you have to work at an angle on a wall or in corners, for example. This means you don't strain yourself so much. The two telescopic extensions are also useful because they provide extra reach. This way I can also reach windows or walls that are higher up. However, unfortunately the length is not enough...",
+      "tags": [
+        "bad_design",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Okay, but the power is too weak. The device works but the voltage is too weak. You really have to target mosquitoes very precisely. Even if there is a radio signal, some of them continue to fly. I don't know this from other devices. Mosquitoes are even attracted to the electromagnetic field and fried with an audible bang. I would give it 2.5 stars",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Fly swatter electronic. I actually wanted to leave it in continuous operation throughout the night but the battery is empty after a little more than 1.5 hours and I have to buy extra longer cables, well who can do that! Otherwise it's a good device, especially loud when something flies against it",
+      "tags": [
+        "Tragbar/Solar",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Insetti 5 – Racchetta 0: plasticosa, non-automatic mode and battery indicator!. We try to use the electric power and have so many positive aspects, but there are also various criticisms. ⏩ The images and description on Amazon have a very versatile product: a person who sleeps with the racchetta accanto and the script “Protegge dagli insetti volanti” mi aveva fatto pensare a una modalità automatica continua tramite il cavo USB-C. In realtà non è così, ed è qui che nasce un po’ di confusione. Arriva all'interno di una scatola in cardboard richiudibile. La confezione...",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Product quite good with a small weakness. First of all, I sent the first order back because the loading control didn't work. As always, the second one arrived quickly and well packaged through Amazon. The charging control does not work here either. After trying it out a bit, I discovered that the charging control on the swatter only works if you disconnect the charging cable directly from the swatter. But we actually wanted to use the base for charging, which works well. Only then doesn't the indicator light on the swatter come on, just that...",
+      "tags": [
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Does what it's supposed to do with a few minor flaws. The mosquitoes are successfully eliminated. However, the light should also be improved with LEDs at the top edge. The base is too light or too narrow so that the whole thing is very wobbly. Longer battery life would also be good, but it also works with a power bank",
+      "tags": [
+        "bad_design",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Very Good Fly Swatter. I really like this electric fly swatter. It is USB C rechargeable, comes with a wall mount, a table top stand, and a USB cable. It took only 45 minutes to charge initially, and I hit a wasp with it and it made a gloriously loud pop. Surprisingly, the wasp came back to life, but it is fun to use because of the loud pop. The design includes an interesting mode, where you place it in it's table top base, rotate the head flat, and let the purple light illuminate the swatter, and it is in bug zapper mode. I watched a mosquito bounce over it and it vaporized, so little...",
+      "tags": [
+        "UV-Insektenvernichter"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Practical and efficient solution. The purchase of these racchette elettriche anti-zanzare ricaricabili e posso dire di essere davvero soddisfatto della mia scelta. The product arrives in perfect condition, with both racchette and two telescopic lenses included in the packaging. The first impression of this product is that it has great solidity and quality in realisation. The racchetta is leggera ma robusta, e la presa è molto comoda, the permette di usarla sforzo che per periodi prolungati. The telescopic extensions are also a part of the group, with the consent of the rag...",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Several interesting features but feels a little under powered.. Electrocuting fly swatters like this are useful items to have especially in the summer, I've owned a few over the years, this is the first one I've owned with a rotating head. When the swatter first arrived it needed to be charged but this didn't take too long, it comes with a charging cable, a stand to hold it upright and a wall mount. Alongside the rotating head this swatter also features a UV light which is supposed to attract insects so that it can be used like a wall mounted bug zapper. The rotating head is held firmly in...",
+      "tags": [
+        "UV-Insektenvernichter"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Perfect for animal lovers or sadists. The fly swatter only appears to work because it only stuns the flies and mosquitoes for a certain amount of time. They then recover and continue to fly/sting. If you want to kill the insects, you basically have to grill them to death. The fly swatter does not catch fruit flies because they are too small. Larger spiders and insects cannot be killed because they cannot fit through the mesh of the protective grille, i.e. the protective grille protects them from electric shocks",
+      "tags": [
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Moderate. Works great on gnats, anything larger unfortunately flies further. It is also really loud when it hits an insect",
+      "tags": [
+        "loud_noise",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Only of limited use for dog owners. 3 stars for the flawless function of the swatter. In our case I have to deduct 2 stars because the sound is so loud and shrill that one of my three dogs was so terribly frightened that she was disturbed for several days and I had to support her with rescue drops. Because of this, I asked around among my friends and learned that dogs can sometimes react sensitively to this tone. Maybe a hint would be helpful. We no longer use the device",
+      "tags": [
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Not bad, but there is something better. Not paying attention when ordering, product is actually a bad purchase, but my fault. I actually wanted the battery-operated fly swatter, which is also significantly larger. The effect of these battery-operated fly swatters is rather lukewarm, maybe it's because of the batteries? I definitely recommend buying the - more expensive - swatter with a battery - it has a lot of \"oomph\" when charged!",
+      "tags": [
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Awesome things! I love these electric fly swatters. I once found the same one at Aldi, but it only cost ONE euro... That's why I only give it 3 stars for the price difference, because I think the production costs are much less than just under €13! Will still buy it now!",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Jain. Not bad, but too expensive. Price-performance ratio is not right. The charge runs out after 1 hour, so no protection against flies/mosquitoes is guaranteed at night. The thing has to be plugged in at all times. The charging cable is too short, about 50 cm. Charged - the swatter works well. The movable shape makes the swatter comfortable to use",
+      "tags": [
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Quite fine. I survived for a long time by buying an electric fly swatter. I'm still not really convinced. Unfortunately, due to my living situation, I am pretty exposed to all the pests and I wanted to finally fight back. Here are my pros and cons: 👍🏼Easy to use 👍🏼Works reliably 👎🏼Is heavy in the hand 👎🏼A little bit powerless, sometimes the flies don't bless you right away, that's kind of nasty. 👎🏼Slap seems somehow inferior. Creaks quite a bit. Not good workmanship! But it's been holding for a month...",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Raquette électrique d’entrée de gamme. This raquette arrives in a large carton box with a charge cable and a mode of operation in French, but it is on the passe aisément. A bouton éteint tout, la deuxième position permet de tutor les insectes et la troisième déclenche the lamp tout en permettant de tutor les insectes. The recharge is possible via the USB-C port and takes extremely long periods of time to use while using more power. The raquette is secure with three couches and its cell in the environment permet de livrer la décharge électrique. Cela permet...",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "effective, durable and easy to use. This fly swatter is simply incredibly effective and makes getting rid of annoying insects in the house much easier. The design is very well thought out: the swatter is light and fits well in the hand. The combination of electric shock function and UV light trap is ingenious. The UV light attracts the insects, and the powerful electrical voltage of 5000V ensures immediate and efficient elimination of the annoying pests. The possibility of charging the fly swatter via USB Type-C is extremely practical and environmentally friendly...",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Doesn't always work. Included in delivery are 2 fly swatters, 2 wall brackets, 2 stands, 2 strips of adhesive tape and a charging cable. I don't really understand the purpose of the stands yet and the instructions are very short and don't mention the accessories. You probably want to set up the device in continuous operation to attract insects. But that doesn't work because the small light is far too weak. Even charging the devices presented me with a challenge. I connected it to a standard USB-C charging cable and nothing happened at all, even though...",
+      "tags": [
+        "no_efficacy",
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Dim light. The electric fly swatter comes with a cable, but the voltage is too weak so it has little effect on mosquitoes. The button wobbles and is difficult to press. The holder at the end also seems short and unstable. Overall, the workmanship is uneven and the device is not particularly comfortable to hold. The light is also relatively weak and does not have a wide beam",
+      "tags": [
+        "bad_design",
+        "lasts_long",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Great in theory, a flop in practice! The theory sounds good, the reality is different: the racket is really powerful, the stand function is great and the battery is pleasantly large. BUT, the device is full of development/circuit errors: The setup station is COMPLETELY FUNCTIONAL!!! The device can only be charged if the racket is connected DIRECTLY to the charging cable (yes, that's why there is an additional charging socket on the racket!!!). But if you plug the racket into the setup station instead and plug the setup station into the USB power supply, NOTHING WILL happen...",
+      "tags": [
+        "Tragbar/Solar",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "With quirks. Did its job with a loud bang. However, the charging light did not light up red or green when charging. So she went back. LED or charging station defective? No idea and no experiments",
+      "tags": [
+        "loud_noise",
+        "bad_design",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Probably very good for flies, but not against the Asian hornet. Good quality, unfortunately I had to send it back because I didn't buy it for flies but for the Asian hornet. Unfortunately the item was of no use at all. The Asian hornet is extremely robust and unfortunately this article couldn't do anything about it",
+      "tags": [
+        "design_good",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Effective. Works perfectly. The plastic frame is very sensitive. Be careful when putting it down. It must not fall down.... The charging connection is very sensitive. With self-carried repairs, the swatter made it through the second season",
+      "tags": [
+        "effective",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Racchetta elettrica ricaricabile. In a robust confezione in cardboard you receive a racchetta electrica per mosche or other insetti volanti, ricaricabile tramite porta USB and il suo cavetto per la ricarica. The racchetta is presented by solid construction, and is also impugna. Dispone also has a piccola light frontal attivabile separateamente (it can be used with the light or light) so that it is not used. This variety has been used for many years now, similar to the racchette elettriche, and the same one is assomigliano. The motivation for the due position is the first decision in this regard...",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Fly dead after 4 hits. The electric shock is too weak. A (small) fly only dies after 4 hits... after it was on the ground, after a few seconds it was in the air again... It's very practical against the annoying fruit flies, which are usually very large. I feel like they're going to explode from the hit because I never find her remains (or they get thrown away), but twice I saw that she was still crawling. So sometimes it's not even enough for a fruit fly. I also kind of feel like an animal torturer if the things don't die right away...",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Far too cheaply made for the money. For €15 I would have expected a little more quality. The swatter feels so cheap and the battery compartment doesn't even hold tight so the batteries keep falling out. Send it back straight away...",
+      "tags": [
+        "bad_design",
+        "design_good"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Didn't catch any flies with it - old fashioned fly swatter is much more effective.. Didn't catch any flies with it - old fashioned fly swatter is much more effective",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Somehow doesn't work as well as our previous electric fly catchers. Our old electric fly swatters had given up the ghost after good, loyal service. Unfortunately this product was no longer available, so I bought these new ones, which unfortunately don't work so well. You don't catch the small fruit flies nearly as well and the biting flies also make you wonder whether you've really caught them. Almost all of them stuck with the old catchers, but here, for whatever reason, it doesn't work so well. Wouldn't I like this...",
+      "tags": [
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Bad purchase not recommended. Bad purchase not recommended, doesn't work as described, I sent it back",
+      "tags": [
+        "no_efficacy",
+        "design_good"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "It worked... but unfortunately the flap on the battery compartment broke immediately, so it had to be taped shut. Insects don't die immediately, some of them fly away even though you've already touched them and when you get an insect, it fidgets and struggles for a long time, which isn't really nice either. No animal deserves that. The performance is simply weak. Will not recommend it and will not buy it again",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Zaps, but doesn't kill fruit flies...?. We ordered this when we were overwhelmed with fruit flies we accidentally brought home in a farmer's market haul. The zapper took a while to arrive, but when it did, it was always well-packaged and in good working order. The trouble is that it doesn't actually kill fruit flies! We'd hear the zap and see the flies fall from the air, but all of them would continue limping around, stunned, on our counter. They were much easier to kill at that point, but it did feel like a slower and more traumatic death. We can't use it - it feels too cruel. If you're looking...",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Different version is far, FAR superior. Wish there was an option to give this 2.5 stars. So this item is very good for almost every reason. But it works poorly in one very important way. Before owning this, I owned a somewhat similar, early version. This new version has a safety feature…the electrified portion of the racket is sandwiched between portions that don’t conduct electricity. This safety feature acts like a fence and prevents insects from quickly and easily touching the electrified portion! I’m not joking when I say that my previous racket without the safety feature was 100 times...",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Attracts and kills flying insects. Updated review: This item was taken out of the sunroom after my review in April, recharged, and put in the kitchen in case of flies. This week was the first time it was used again; when company was in the kitchen and a single fly was being annoying. I tried unsuccessfully to use the swatter-zapper, but never managed to touch the fly; which strategically stayed very close to the guests. When company was gone I plugged the zapper in and left it on its stand in the kitchen, hoping the fly would run into it. Upon returning two hours later, it was still plugged...",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Doesn't work. It doesn't work very well. It doesn't even attract the bug. It does state on the listing that it's not a bug zapper but I didn't expect to not work at all. It seems like a good quality build, it's just a shame it doesn't work as described",
+      "tags": [
+        "UV-Insektenvernichter"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Pas facile d'attrapper les mouches!. La belle raquette que voilà! When you need a tool that is effective against mouths and mouths, you will see that you arrive at the front of your eyes, even if you have this raquette in one place. It is difficult for the car to be used, and the chopper is very difficult to get to the point where it is too fast and fast. J'ai essayé la méthode statique en fixant la raquette sur son support, batterie chargée à fond . Quelques temps plus-tard une imprudente vient se coller au grillage de cet engin de mort et la, en...",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Fly swatter with battery operation. The device is good, but the flies are too smart. I haven't been able to catch a troublemaker yet! With a towel it is easier and more effective😂",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Very simple and cheap design. Very light plastic and the mosquitoes die very slowly. Flies are only briefly stunned. It's worth buying a more stable, higher-priced device here",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Disappointing performance. Enough to kill small flies and mosquitoes, if you hit them at all. Larger flies do not die even after 3 hits and must be killed with a normal fly swatter",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Fly swatter. The battery has no power. It stuns small flies that fly away after a minute. Maybe the clappers with batteries are better. Conditionally recommended",
+      "tags": [
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Little sense. Only works if you almost kill the flies against a wall. Not on a flight, for example. Therefore not very useful",
+      "tags": [
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Ineffective. So, the device is ineffective for me. The flies laugh and fly away",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Delivery not complete!! The fly swatter works, but the charging cable that was purchased was not included!!???",
+      "tags": [
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "50/50. It's a 50/50 for me. It seems to work fine but for fruit flies which it was the main reason I bought this it doesn't work great, if you try and hit them mid air they get away due to their small body size and the big gaps in the zapper design. You'd have to trap them against a surface such as a wall to manage to zap them successfully. Again, some of them drop alive which isn't good as I'd expect them to be dead. Bigger flies definitely get zapped to death. Depends what insect you use it for. Fruit flies is a no",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Broken after a few months. Broke after a few months. At first we were really excited. It's no longer loading!",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Not enough power. The product is far too weak, unfortunately it doesn't even kill a small moth unless you get it on the thing for 10 seconds (it can still fly away). All 3 have a different current range, which is really insufficient. The price is ok, however, as I now use it more as a \"scare scarer\" as the sound from the device seems to act as a deterrent",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Missing accessories. Missing accessories. Sent back",
+      "tags": [
+        "design_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective insect repellent with a lot of power. This electric fly swatter from YISSVIC fully met my expectations in the fight against annoying mosquitoes and flies. With a voltage of 4000 V it is extremely effective; A brief touch is usually enough to neutralize the insect immediately. I find the integrated battery particularly practical, as it can be charged easily so that I no longer have to worry about batteries. The black and orange look looks modern, and the device fits very well in my hand thanks to the ergonomic handle. A real highlight is the LED...",
+      "tags": [
+        "effective",
+        "safe_kids_pets",
+        "coverage",
+        "lasts_long",
+        "Tragbar/Solar",
+        "Terrasse/Garten",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Finally peace from the pests - well thought out and strong! I've tried a few electric fly swatters before, but this set really stands out in a positive way. I think the rotating head design is particularly brilliant. It sounds like a gimmick at first, but it's really useful in practice - I can finally get into corners, onto walls or overhead ceilings without any problems. The extendable telescopic handle is also a real plus, especially with high ceilings or curtains. The swatter is very powerful - you immediately notice that it works with 3500 volts. Even larger insects like western...",
+      "tags": [
+        "effective",
+        "safe_kids_pets",
+        "lasts_long",
+        "Tragbar/Solar",
+        "Wandmontage",
+        "Terrasse/Garten",
+        "Wohnzimmer/Küche"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Efficient insect hunter with innovative design. The GeckoMan electric fly swatter is a real powerhouse in the fight against annoying insects! Thanks to the rotating head design, flies and mosquitoes can be easily caught even in hard-to-reach places - be it on walls or ceilings. Particularly noteworthy is the powerful 3500V power surge, which enables immediate and effective destruction. Another plus is the rechargeable 1200mAh battery, which allows for long periods of use and can be conveniently charged via USB-C. The three-layer safety structure...",
+      "tags": [
+        "safety",
+        "effective",
+        "safe_kids_pets",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "If it doesn't work, is once again one less pest on earth. I have had good experiences with electric insect killers for many years, although they are relatively immobile due to their size. Now I have bought the YOUHBST Electric Fly Swatter 5000V so that I can go after the annoying critters directly. The fly swatter is a real powerhouse when it comes to getting rid of annoying insects. With a voltage of 5000V it is very effective against flies, moths, wasps and other flying pests. The electric fly swatter is also...",
+      "tags": [
+        "bad_design",
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Great in summer. The YOUBST Electric Electric Fly Swatter offers an effective solution to combat annoying insects such as mosquitoes, flies, wasps and moths. Here are the reasons why I give this product four stars: Extra strong electric shocks: With a voltage of 5000V, this electric fly swatter offers high performance to kill insects quickly and efficiently. The strong electric shocks ensure reliable and quick removal of annoying insects. 2-in-1 design: The fly swatter features a 2-in-1 design with an electric function...",
+      "tags": [
+        "effective",
+        "indoor_outdoor",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Useful insect killer that can finally be used “flat”. Too weak for large mosquitoes.. I am a member of the Amazon Vine Review program and receive some items free of charge for testing purposes for a certain period of time and write honest and personal reviews about them --- GeckoMan Electric Fly Swatter --- First of all, an explanation: My long-suffering WIFE is an absolute magnet for all gnats and other biting vermin. That's why I've been using a HIGH QUALITY fly swatter for a long time. But catching the creatures in free flight is unfortunately...",
+      "tags": [
+        "coverage",
+        "UV-Insektenvernichter",
+        "Vakuum-Falle",
+        "Tragbar/Solar",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "🪰 Electric fly swatter – if you want to feel the insect destruction ⚡. I already have an electric fly swatter and it makes a lot of noise, which can sometimes scare dogs. The one from “GeckoMan” really packs a punch. If you don't want to do things by halves, you've come to the right place. The thing is heavy in the hand, is solidly built and can take on anything that flies, crawls or buzzes. The advantage here for me is that you can also hit flat and don't always have to go sideways, which often bothers me. 👉Contents 📦 -2 x fly cl...",
+      "tags": [
+        "loud_noise",
+        "lasts_long",
+        "Stromnetz-Falle",
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "For all insects that are within arm's length. The Gecko Man electric insect killer comes in a box along with a multilingual user manual, a USB-A to USB-C charging cable, a wall mount including self-adhesive tape, and a stand. There are two ways to hang or place the insect killer. Once the stand and then the wall mount. This can either be attached with the double-sided adhesive tape provided or screwed somewhere with screws that were not included. Correspond...",
+      "tags": [
+        "no_efficacy",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Practical, but with small weaknesses. My wife and I bought the GeckoMan electric fly swatter with a rotating head and telescopic extension for the summer because we are often bothered by flies and mosquitoes in the garden. The swatter is definitely a practical solution for catching insects quickly and effectively. We particularly liked the telescopic extension - it makes it possible to catch insects even in difficult corners or high places such as ceilings or windows without having to climb onto a chair. The performance of the device is good...",
+      "tags": [
+        "effective",
+        "value",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective help against insects. Overall, the electric fly swatter from YISSVIC was able to convince me in everyday life, even if it is not without its weaknesses. First of all: I received this product free of charge as part of the Amazon Vine program, but this does not affect my rating. The device definitely fulfills the most important feature – effectiveness. With the specified voltage of 4000 volts, flies, mosquitoes and other small insects can be reliably eliminated. Even a short contact is usually enough. This is particularly positive...",
+      "tags": [
+        "safety",
+        "effective",
+        "lasts_long",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "practical. The fly swatter is relatively large, which makes hitting the insects in the air quite easy. In terms of weight, it is still light, which enables good handling. The battery feels like it lasts forever. We have been using the fly swatter regularly since the beginning of April and have not yet had to recharge it after the initial charge. Since the standard cell phone plug also fits into the fly swatter, if you do want to charge it, you fortunately don't have to spend ages looking for a cable or even replacing the batteries. When the insects hit there is a good bang...",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "It kills the mosquitoes, but the quality could be better. The YISSVIC electric fly swatter proves to be extremely effective in dealing with flying insects. With a simple swivel you can remove flies, mosquitoes and other annoying pests quickly and efficiently. The electrical charge is strong enough to kill the insects instantly, ensuring a quick and clean cleanup. I can't yet judge whether the integrated light helps to attract mosquitoes or something similar towards the fly swatter. Luckily the pests aren't gone yet...",
+      "tags": [
+        "effective",
+        "Tragbar/Solar",
+        "Steckdosengerät",
+        "Lagerräume"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "A bit sloppy, but works. The fly squeegee is delivered in a simple box including a USB cable. We charge with 5V/micro USB, an LED shows the charging status. In general, you imagine the part to be of higher quality than it really is - the processing is quite simple and so is the plastic used. The fly grill is activated with a slide switch, another position switches on the lighting at the bottom of the clamping frame - a bit unnecessary, but why not. Zapping only happens when you press the corresponding button. This works...",
+      "tags": [
+        "loud_noise",
+        "value",
+        "Stromnetz-Falle",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Practical, but improvements could be made. I'm really happy with the fly swatter, it has enough tension to really heat up flies from the air. Pros: The extension allows you to hit insects in higher areas (especially good for short people) The design is quite good There is a continuous voltage mode that others don't have. This is indicated by lighting. There is a wall and table mount and the charging cable is included. Disadvantages: The construction with an extension seems a bit wobbly. Turning your head is not like...",
+      "tags": [
+        "bad_design",
+        "safety",
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "It works but is pretty big. Solid fly swatter for people who don't want to do things by halves. The GeckoMan insect killer is quite a knockout - not for the delicate wrists, but just right if you want to get the bugs right. Particularly practical: the rotating head. Anyone who has ever tried to scratch a fly off the wall knows that normal swatters fail miserably. Here you turn the grille and bang, full wall coverage - no chance for the fluttering men. In automatic mode it glows a bit - theoretically...",
+      "tags": [
+        "no_efficacy",
+        "UV-Insektenvernichter",
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Loud bang. I like the double use case as a mobile fly catcher and with the illuminated stand and charging function. However, every time a fly actually gets stuck in there is an extremely loud bang. So if you leave it running at night, it can wake you up. I haven't figured out exactly why that is yet... If you catch the fly in the air, that doesn't happen... But I also let go of the button as soon as it's dead. I suspect that with constant current it will explode at some point or something. Well, in any case, she's dead",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle",
+        "Wandmontage",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective and durable fly swatter. The YOUBST 5000V electric fly swatter is very effective in controlling flies and mosquitoes. The battery lasts a long time and USB-C charging is very practical. The UV lamp attracts insects well. The workmanship is robust and handling is pleasant. The only small disadvantage is that flies sometimes wriggle on the ground for a moment and it's better to kick them dead so that they don't fly away again. Overall, a clear recommendation",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very good, unfortunately with unnecessary equipment. The zappe is stable, kills even larger insects and the head can be swiveled (unfortunately only in one direction) makes hunting much easier. The integrated battery, which can be charged via USB-C, is also positive. I find the integrated UV light (does not attract mosquitoes) and the additional slide switch with the 3 positions off/ready/on+UV to be absolutely useless. I fixed it to “Ready” with tape",
+      "tags": [
+        "no_efficacy",
+        "lasts_long",
+        "UV-Insektenvernichter",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Orderly. Britzel-Bratzel - fly dead! This is how you can describe these parts. Depending on the insect, it bangs and stinks, but the creatures are then in the afterlife. With a little practice you can even grill the critters when they fly. Wall holder, stand holder and charging cable are included. Decent quality. Please do not touch the power supply!",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle",
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works great. I thought for a long time whether I needed something like this - now it's here and it's convinced me. Tonight 2 mosquitoes. Both neutralized with the (manual) fly swatter. I.e. Unfortunately they didn't fly into the activated swatter but around my ears - so they had to be tracked down manually. But instead of throwing a towel around and, in the worst case scenario, a blood stain on the wall - great. I still have to get used to the loud sizzling sound. The swatter seems to me to be well made. What surprised me, however, was the charging cradle that...",
+      "tags": [
+        "bad_design",
+        "effective",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Quite large but functional. The good first: 1. The packaging looks great, so this also looks good as a gift. 2. There are 2 fly catchers in the box, so you don't have to run from A to B in a larger apartment. 3. Ingenious: Thanks to the included stand, the catchers can be easily charged using the cable without having to look for a suitable place. 4. The included wall bracket can also be attached to the wall without drilling thanks to the adhesive strip. STICKS even on woodchip wallpaper. 5. Bracket can also be drilled...",
+      "tags": [
+        "effective",
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Electric fly swatter with rotating head: effective, but with weaknesses. The patented rotating head design is really practical and allows for easy insect control from different angles. The extendable telescopic handle also gives the swatter a comfortable reach, so you can even reach insects in high places. Unfortunately, the device also has some weaknesses. The automatic mode with the UV lamp is rather weak and hardly attracts any insects. It is also a bit awkward to push the grille out of the holder to clean it. And with that something difficult...",
+      "tags": [
+        "effective",
+        "value",
+        "UV-Insektenvernichter"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective, but not completely silent. + Noticeable effect: Insects are quickly caught upon contact and reliably eliminated. ++ High tension noticeable: The effect occurs immediately without having to be reapplied several times. +++ Suitable for various insects: flies, mosquitoes or smaller animals can be easily caught with it. + Two types of use: I can strike actively or leave the device standing with UV light. ++ Automatic mode is practical: especially in the evening, the light attracts insects without me having to constantly intervene. -- Clearly audible effect: There is a higher noise upon contact...",
+      "tags": [
+        "effective",
+        "UV-Insektenvernichter",
+        "Schlafzimmer"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "A little unwieldy, but very effective! The electric fly swatter works perfectly and is really effective - the first \"kills\" were done quickly 😄. Flies, mosquitoes etc. have no chance! A small negative point is the handling: I find it to be a bit heavy and bulky in the hand, which is probably due to the built-in battery. This becomes noticeable, especially with prolonged use. Otherwise it's a great device that does exactly what it's supposed to do. Clear 4 stars from me!",
+      "tags": [
+        "effective",
+        "Tragbar/Solar",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Strong and good. The fly swatters are great! Then it all twirls away. You can't clap because of the protrusion on the edge, and I wouldn't either because of the electrical system. Here you catch the mosquitoes while they are flying or put the racket on them when the flies are sitting on the window. You should really avoid touching the racket, as there can still be tension on it despite the protective grille. Even if the button is no longer pressed, you can still pick up a load here. It would be desirable if a child safety lock were installed or an additional circuit breaker or similar. For...",
+      "tags": [
+        "safety",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Cool toys are really fun and enjoyable. The part is made entirely of plastic and you quickly notice from the weight and workmanship that it is not quite as high quality. Despite this, the part is very effective and does exactly what it is supposed to do. The electric shock you get when you press your pen between the contact grids is really very strong. I've done this with similar other models, but none of them caused such a brutal blow as this one. It has to be said that this is really only possible intentionally...",
+      "tags": [
+        "safety",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very useful against insects. This electric fly swatter came to the house free of charge for testing as part of the Amazon Vine program. At the beginning of April there aren't that many insects around. Since we live in a rural area, there are many small animal breeders in the area who keep chickens, geese and other small animals, which of course leads to an increased number of insects. But not yet, the fruit flies that are always imported from the supermarket had to be used. Voltage: I measured it with a multimeter, simply because I can, I don't have 4000 volts...",
+      "tags": [
+        "Stromnetz-Falle",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "It's got a lot of oomph, summer can come! The fly swatter basically does exactly what it is supposed to: reliably kill mosquitoes, flies and other small insects. Tas part also has a lot of oomph, so it's enough for most flying creatures. Definitely a practical purchase for the summer. A big plus point is the USB-C port for charging. A sign that we have finally arrived in the future! I like it very much. No Micro USB nonsense or annoying batteries. The device also has a three-way switch: off, on and on with light. There is a small...",
+      "tags": [
+        "value",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Keen to use in the summer. We've had one similar before until it got lost in a move, so were very glad to have one to hand for the upcoming months as we are always swatting them away in the summer! I'm very glad to see this is rechargeable and will save on batteries, meaning it can be portable when going on picnics or walks, easily charged with a battery pack and the micro-usb cable provided. It's quite lightweight but doesn't feel cheap. I do like that it has an additional step of pressing the button once it's on, to provide an additional safety layer to prevent you leaving it on and accident...",
+      "tags": [
+        "Tragbar/Solar",
+        "Terrasse/Garten"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Workmanship is good, tension is just sufficient. As with others, I found that the 3000V is just enough for smaller flies, moths and mosquitoes. Some of these also fly away afterwards. Thanks to the telescopic rod and the tilting function, I can at least get to places where nothing would normally reach or where the insects are just scared away and fly around. Therefore, at least for me, it turned out to be practical to place the surface flush on the surface and hit it lightly. The flies can't get away and stay in the electric fly...",
+      "tags": [
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "The best “sizzler” so far! Previously, a standard electric fly swatter with a 9 V block was used, which should be supplemented or replaced. The workmanship is okay, but it could perhaps have been a little more valuable. But if handled properly, I haven't had any problems so far. The biggest advantage, in my opinion, is the rotating head. This makes it possible to catch the pests without hesitation in their parking position on the window or wall. Even on the ceiling with the practical extension rod. I actually haven't had to swing it through the air yet. The battery life...",
+      "tags": [
+        "Tragbar/Solar",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective insect control with a clever design, but with small limitations. The GeckoMan electric fly swatter is an extremely effective tool for controlling flying insects. The patented rotating head design allows for easy handling from different angles, and the extendable handle is particularly useful for reaching higher places. The 3-layer safety protection is an important feature that prevents accidental electric shocks. The 1200mAh battery offers a good runtime and can be easily charged via USB-C. The insects...",
+      "tags": [
+        "effective",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Rotating head is very helpful to reach cielings. This electric fly swatter impresses with its innovative design, especially the adjustability of the head. In this way, insects can be targeted on various surfaces, including those that are difficult to reach. This dual function makes it a versatile tool for insect control in different situations, especially under ceilings. The device also features an extendable handle that provides additional reach to eliminate insects at higher elevations, such as ceilings. The...",
+      "tags": [
+        "lasts_long",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "🪰⚡ Practical with charging station and can also be used in continuous operation. This is an electric fly swatter that offers a little more than the simple standard models. In addition to the actual swatter, there is also a base in which the device can not only be charged, but in which it can also be used in continuous operation. This is exactly what makes the whole thing much more practical in everyday life. I really like the idea behind it, because not only do you have a classic electric fly swatter in your hand for targeted use, but you can also simply put it in the...",
+      "tags": [
+        "bad_design",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "I think the part is good. The fly swatter is really very good and not cheaply made and the battery lasts a long time. I don't think the value for money is bad either",
+      "tags": [
+        "bad_design",
+        "lasts_long",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "OK. This electronic fly swatter solves the problem that you often have with cheaper models: flies can be easily fished out of the air, but the rigid device is impractical on the wall or ceiling. This device now promises to solve the problem. In some cases it does. One side of the hinge for tilting the metal part is rounded so that it can be tilted. Since the other side is not rounded, this means that the tilting part unfortunately does not lie completely flat against the wall or ceiling. I can't understand why both sides aren't rounded...",
+      "tags": [
+        "value",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Flies are often just stunned. A clean way of fighting flies, for example. on the window and without stains. But some species are probably tough and often just stunned and then experience a resurrection - and I'm surprised when the same guys suddenly start buzzing around annoyingly again. But with mosquitoes that have a “delicate” body structure, things look completely different! Some of them go over with a quiet bang and are also easy to catch in flight. This means you no longer have the ugly (blood) stains on the ceilings and walls",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Set of 2 electric fly swatters with movable head. The GeckoMan electric fly swatter works perfectly and reliably fulfills its purpose. The movable head makes reaching insects on walls much easier. The fly swatters can be charged with the included USB-A to USB-C charging cable - unfortunately no power supplies are included in the set. A small point of criticism for me is the design, which is relatively bulky. A height-adjustable handle would also be useful for higher ceilings",
+      "tags": [
+        "Wandmontage",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Fly significantly dazed.... With this device you can catch the annoying pests very well and it also crackles and cracks when you are successfully caught, but a larger fly, for example, falls down seemingly dazed, wriggles a short time later and would fly away again if it were not hindered by the device. Even after another cracking and crackling, it doesn't come to an end, but now you can grab it and dispose of it",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very practical. Very effective and handy. Battery lasts a long time",
+      "tags": [
+        "effective",
+        "lasts_long",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Item varies. My colleague recommended this product to me. It works great for him, the flies sizzle away with a loud bang and sparks. Unfortunately not the case for me. You have to catch them with it once and then leave the device on for a few seconds so that they find peace. Still the best I've had so far",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Attention: No rotation. The part works great. The tilt function is perfect for adapting the catching surface to sloping walls. Only the term rotation is misleading. Nothing rotates here, nor can it rotate, because its shape is oval (18.5x21.5 cm). In the German language the terms tilt rotate differ. Each has different functions",
+      "tags": [
+        "effective",
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Ideal for ceilings. It's a little higher price but the product is well made and the rotation of the contact surface for use on the ceiling is great. Only the extension rod for high ceilings could be a little more stable. But if used carefully (no waving around), it is sufficient",
+      "tags": [
+        "design_good",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very effective, flies often get caught in nets. The swatter works very effectively against various flies. Moths, mosquitoes or fruit flies can be caught very easily with it. Depending on how the fly touches the net, it may not be completely switched off with one touch, but it is usually enough that it can no longer escape. The built-in light is very useful for hunting mosquitoes at night, but is a bit weak. What is a bit annoying is that the flies often get caught in the wire net after touching them. I had to remove the remains several times with a cloth...",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Zap away 🪰🦗🦟. I ordered this electric fly swatter because I already own a couple of similar ones, but none of them have a standalone USB C port like this model. With my other rackets you have to keep the charging case in good condition or you cannot charge them at all, so I am really happy that this one simply plugs in directly. The power source design feels much more reliable to me. The handle is light weight and feels flimsy and smaller in size compared with some others I have used, but it is not a major issue for me in everyday use. What matters most is how well it actually works, and I a...",
+      "tags": [
+        "UV-Insektenvernichter"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Good product, ottima efficienza e leggerezza. Plastic for flexible consistency. The first use is not a good general realization and a completely curated assembly, but also the plastic is used to achieve a better consistency and not the idea of ​​​​poter resistance to a very intense particulate matter. Questa characteristica è tuttavia funzionale to preserve the leggerezza of the product: the racchetta è molto manegge...",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective budget fly zapper.. We’re lucky to live in the countryside, and Spring heralds the arrival of daffodils, lambs - and unfortunately flying insects. I ordered this fly-zapper from the YISSVIC store, and within days of arrival it’s been pressed into action. The tennis racquet-styled swatter has a rather cheap and flimsy feel out of the box; the plastic materials, fit and finish aren’t of the highest quality. A usb-c cable is supplied to charge the internal 500mAh battery and the device is activated by sliding a switch, then pressing the zapper button. There are two modes of operation...",
+      "tags": [
+        "UV-Insektenvernichter"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "A fly's worst nightmare. I’ve gone through my fair share of flimsy plastic swatters that crack after one aggressive swing, so I was looking for something that felt a bit more industrial and hopefully more effective for my holiday home in rural Spain. This YISSVIC zapper definitely makes a strong first impression. Build Quality: Out of the box, this feels noticeably sturdy. The frame doesn't flex or creak when you wave it around, which is essential when you're lunging at a fly mid-air. It has a \"tennis racket\" weight to it that feels balanced—not too heavy, but not like a cheap toy. The \"Zap...",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Bene. ma non benissimo... Partiamo con dire che la racchetta anti-insetti fa il suo lavoro in modo ottimale, ma ahimè, ci sono alcuni piccoli aspetti che mi hanno fatto storcere il naso. Intendiamoci, nulla che pregiudichi l'esperienza effettiva ma, rapportando il tutto al prezzo superiore all cinesate, mi aspettavo superior qualità. In detail, we do not agree with the dimensions and the materials. The dimensions are also the size of the classic economical racchette and are not available in Chinese. Speravo fosse più grande. C'è da dire però che in descrizione sono reportate in modo chiaro le dimensio...",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Racchetta Zanzare Elettrica 4000 V - ricaricabile Questa. Comodo accessorio che no periodo estivi or primaryverili non dovrebbe mai mancare. If you make a racchetta in plastic, with the cord in metal, the electrical wire will eliminate the inserts per contact. The power supply is data from an integrated battery that supplies the electric circuit of the racchetta with voltage arriving at around 4000 V with low current emissions. The central part of the racchetta, sourced from the cord, is illuminated by a led in modo da attire gli insetti. The handle is positioned in a porta USB C...",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "So, so test winner customer satisfaction... Electric Fly Swatter Electric Fly Catcher Insect Killer Mosquito Swatter - Test Winner Customer Satisfaction (Single: 1 piece) Sold by: Goods & Gadgets GmbH €12.95 Order placed May 20, 2025 Delivered: May 21, 2025 Now I am one of the customers who is neither satisfied with this item nor the price, what is called here is cheaper in various stores! It doesn't work - broken, whatever? The processing of the electric fly swatter is unstable and the batteries don't really last! ! 1st star is already too much...",
+      "tags": [
+        "no_efficacy",
+        "bad_design",
+        "value",
+        "lasts_long",
+        "UV-Insektenvernichter"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Hmm. Unfortunately I can only give the slap 1 star. It worked without any problems and survived the first charge without any problems. But now this is coming. I wanted to charge the device because I hit a fly 4 times and it still flew happily on. So I reached for the first charging cable I had lying around. I didn't really pay attention to whether it was the original cable or not, but I think everyone knows that from home. The first cable was too big to connect, that was probably my luck too?!...",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle",
+        "Tragbar/Solar",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. Wasted money. The swatter was delivered defective. The battery cannot be charged. Of course there was no power plug included. Unfortunately, a complete bad purchase",
+      "tags": [
+        "no_efficacy",
+        "bad_design",
+        "Tragbar/Solar",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Electric fly swatter. Disappointing quality - Not recommended I had high expectations of the YISSVIC electric fly swatter, but unfortunately I was disappointed. 1. Poor performance: Even with direct contact, many insects survive the first strike. You often have to strike multiple times, which undermines the purpose of the device. 2. Short-lived battery: The battery life is much shorter than expected. After just a few uses, the device needs to be recharged. 3. Poor workmanship: The swatter feels cheap, and after a few weeks the grid was ready...",
+      "tags": [
+        "no_efficacy",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not working properly. When I unpacked the thing, I was wondering why everything seemed so cheap and not robust... I wanted to test it, but it didn't work at all. Will probably be sent back",
+      "tags": [
+        "no_efficacy",
+        "design_good",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Unfortunately defective. The device does not work. Sent back",
+      "tags": [
+        "no_efficacy",
+        "bad_design",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. The device looked very promising to me. Once you have equipped it with the batteries and press the button, it makes a high-pitched buzzing sound and a small LED lights up. Unfortunately, the flies were not impressed by this. They were slightly stunned by the electric shock and fell to the ground, but a conventional fly swatter had to be used to kill them. So I will return the battery operated one",
+      "tags": [
+        "no_efficacy",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Cheap and ineffective!. Now every product purchased on Amazon has reviews... The product is crap, cheap quality, short battery life and worst of all: it doesn't kill flies at all! What is that please? The small electric shock briefly confuses the flies, but they gather again so quickly that you don't even have time to kill them yourself. The device is completely worthless. Wasted €11",
+      "tags": [
+        "effective",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Battery compartment cover doesn't hold. Now I have specifically decided on a higher-priced model and have found that the cover for the battery compartment opens during use and falls out along with the batteries. I'm very disappointed. Absolutely no purchase recommendation. Unfortunately I already have the packaging in the recycling bin, otherwise I would send the item back",
+      "tags": [
+        "no_efficacy",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Cheap and bad battery. I unpacked it and had to load it first. It loads very slowly. My cell phone charges faster. I let it reload and it shows green. But when I want to use it it doesn't work, strangely only the lamp works. Battery empty or broken? Will be sent back immediately. Cheap part",
+      "tags": [
+        "design_good",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Immediately defective - no electrical sparks were generated. I ordered the device through Amazon Warehouse. Unpacked, charged and unfortunately there were no electrical sparks. Also tried it on an insect and no effect either. Saved the insect's life :-). Then sent back again. Thank you very much for the refund to Amazon",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "I should have read the reviews beforehand. - The one with only 1 star. Had the battery fully charged. When you turn it on, the UV LED lighting also comes on. But no high voltage is generated! You can touch the grid yourself by hand. - Nothing ! I should have read the reviews! In 7% of such cases, Amazon should block sales!",
+      "tags": [
+        "Stromnetz-Falle",
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not effective. The part only works if you bring it into direct contact with the insect so that it can no longer escape. Otherwise no positive result as there are almost no mosquitoes or anything similar to deal with. Even when they come into contact with metal, they fly away again. Not recommended",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Only a charging cable was included, without a power plug. The device is no good, it cannot be charged, despite different power plugs. Unfortunately I no longer have the original packaging to send back. It's just made in China!!!",
+      "tags": [
+        "design_good",
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not recommended. After little use, it started to emit a quiet but persistent sound when in use. In addition, there is a loud bang on contact, but even small fruit flies are not dead after several electric shocks, but are at best stunned",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Function not available. I ordered 3 straight away, but they cannot generate enough voltage to form an arc to the insect and cause a correspondingly quick death. The current is so weak that even the smallest insects are still alive after long periods of continuous activity. I think it's probably due to the batteries and the voltage converter. 30-year-old models from Asia used to have at least a 9V battery inside. This model with just 2x AA doesn't cut it. Waste of money, waste of resources - should disappear from the world",
+      "tags": [
+        "Wandmontage"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't kill most flies. Even with direct contact, many insects survive the first blow. You often have to strike multiple times. Ineffective and therefore useless",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Unsatisfied!. This fly swatter does not work as described. Flies and mosquitoes just keep flying, they can't get through the protective grille. Effect is zero. I am very dissatisfied and cannot recommend the product",
+      "tags": [
+        "no_efficacy",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Lousy part. The insects fly against it, there is a bang...the insects continue to fly. Bad part, not recommended",
+      "tags": [
+        "loud_noise",
+        "Stromnetz-Falle"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "The part doesn't get hot even after 2 hours of charging. The part doesn't work",
+      "tags": [
+        "no_efficacy",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "⚠️ Warning ⚠️ Electric shock. cannot give zero points. ⚠️ Attention ⚠️ Due to the double sides there could be tension when the button is pressed, then it should first be discharged on a metal object. I'm surprised that something like this gets approval in Germany. Unfortunately it's inflexible, one of them already has a break on the handle. Just by the way. Because of the double sides, flies get caught in them and you have to fumble them out",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "poor workmanship. doesn't work, --> defective",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Drop shipping klumpat. Extremely cheaply made. Batteries keep falling out because the battery compartment cover doesn't hold. Even if you manage to keep the batteries in somehow, the thing only works sometimes. Classic drop ship scam. Selling off some 2€ Chinese thing for 8 times the price on Amazon",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "This is garbage. Right from the start, this electric fly swatter was only able to briefly paralyze the flies or they only did a breakdance. Besides, after less than a few days, this swatter wasn't even able to do that anymore. Despite replacing the batteries. So not recommended. You can definitely get better for the price",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Delivered defective - scrap. Delivered defective. Doesn't charge, no function whatsoever. Looks already used. Apart from that: Absolutely overpriced. Cheapest plastic Chinese scrap. Optically and haptically inferior. When you touch it, everything cracks and creaks. In my opinion, the GeckoMan has nothing to offer other than the cool name",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Very bad product!. There are certainly better and cheaper products out there! I had to buy batteries myself. The handle is very awkward and the battery compartment flap keeps falling out. This product - never again!!!",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Functionless. Doesn't work at all. I tried different batteries. You can hear a high-frequency buzzing sound when you press the activation button, but it has no effect when flying. A badminton racket covered with a tight-meshed net is more effective!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "For me it's pure Chinese junk. It had no effect when used. The fly followed and continued to buzz diligently. The whole device looks crappy and not exactly trustworthy. There is also no GS seal. For me it's pure Chinese junk",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Network too coarse, not enough power. Delivery was fine. Immediately unpacked and I have to say it looks very cheap, the plastic looks like something from a fair, but on the other hand it's not something that has to be really high quality. I got it mainly because of fruit flies and slowly all the other stuff is coming in that it would also be useful for. I've spent a quarter of an hour using the racket and it's working incredibly poorly. The net is much too coarse and when I hit it and you can hear it \"hissing\", it doesn't seem to catch the fruit flies...",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Defective when first loaded! When I first charged it via USB, it smelled like melted plastic, but nothing has been discovered yet. During the second charge, I saw the melted housing over the USB port until the end. And still stinks. Complaint and back",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Insect killer - no good. Absolute failure. Insects are not killed - at best they are electrified and then tortured. Completely overpriced, I've now found much better cheaper ones",
+      "tags": [
+        "UV-Insektenvernichter"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. The flap on the battery compartment doesn't hold, you have to tape it shut with scotch tape. The racket also doesn't work as it should. I wouldn't buy it again",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "it's no good. This thing doesn't zap insects. With a lot of luck they will be stunned and crawl around on the ground. It's also on the small side in terms of area. more table tennis bats than tennis rackets",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. The flies wriggle briefly, stay lying down and after a short time they fly off again. So this e-fly swatter doesn't work. Definitely not a recommendation!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "USB charging cable missing, USB socket bent. USB charging cable is missing, USB socket completely bent. How this product passed the quality test remains a mystery to me",
+      "tags": [
+        "Steckdosengerät"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Poor function. The clap is not particularly reactive. The flies often just keep flying because they have to touch both the protective grille and the middle grille. I recommend purchasing a product without a protective wire",
+      "tags": [
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "If you buy cheap... After purchasing an electric fly swatter that cost exactly the same as this product from another dealer, I decided to buy this bundle. These swatters are much smaller, and have no power to quickly and painlessly neutralize flies in the air. 80% of flies recognize the incoming object; the rest are a bit dazed, half of which quickly fly away before I come with the analogue swatter. Returning the non-functioning set of 3 costs the consumer 6.30 euros. I think that's...",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Defective, 10 minutes after unpacking. Worked for about 10 minutes. Then there was a shift in the shaft. Light still works. But the power is gone. Goes back. scrap",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not effective. Injures the wings and legs of the insects but they usually wriggle around on the ground for ages and die very slowly. Even if they are “just” flies, that seems unnecessarily cruel to me",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Arrived defective. Arrived defective. Unfortunately the fly swatter doesn't charge. At first I thought the LED display was just broken. But since I have a measuring device, I was able to determine that there was no charging at all. Too bad",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Good at first and then not very functional. At first the fly swatter worked very well. After the summer, performance dropped noticeably. Now it has to go in the bin. Unfortunately, that's no longer the case when it comes to longevity and sustainability",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Insects are not killed. Took it to kill the insects but they escape and the design is not good as the nets are big. The battery needs to be charged every 30 minutes",
+      "tags": [
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Already broken after 3 months. The product is already broken and no longer works, weak, one star because otherwise you can't leave a review",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Quick defect. Works excellently on mosquitoes, but only to a limited extent on flies (the larger the fly, the more difficult it is). Unfortunately, the swatter is defective after only 2 months and infrequent use",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Unfortunately it quickly broke. I left the device on and a fly landed on it. Dead immediately but the body sizzled until the technology broke",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Battery is junk. Once fully charged, this electric fly swatter can fire exactly once. The battery must then be charged again. I have tested this several times. The device was returned immediately",
+      "tags": [
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "This is a very well functioning idea BUT NOT FROM THIS BRAND!. Do not purchase this product; it stopped working after just four weeks. We had previously purchased another brand that we were extremely satisfied with, so we decided to buy four more to have in each room. This brand included an additional piece to make it longer, so we purchased this brand. However, we've only used it sparingly since October 5, and today, November 12, as you can see in the attached picture, it no longer works. The light and electric indicator turn on, but there is no power running through the wires",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Inhumane, cruel, useless! This product is so weak that one zap only maimed the fly, a small fruit fly not anything huge. After one zap it was flopping around on the floor half dead. I thought I would rotate the racket flat to the floor and put it out of its misery but the mesh is not flush to the edge of the plastic surround so it doesn't actually touch the floor or the fly sat on it! I ended up having to get some kitchen roll out to do the job myself 🤢 Also the light function is pointless, it attracts nothing. Returned and bought a less fancy, battery operated one that actually works for...",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work very well. Disappointed. It looks well made. But it doesn't work well enough. It's not as good as The executioner. When you swat a fly you need to really get some energy behind the swipe, otherwise the fly just walks on the outside of the metalwork where the electric current isn’t there. You need to have enough pressure in your swing to make the fly go inside the metalwork. The automatic mode doesn’t do anything. The power is on. The light is on. But it doesn’t attract flies even in a dark room. Presumably because the light is so dim. I'd like to return but don't have original...",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Don't buy! Doesn't work and feels like it's almost falling apart. Don't buy!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Poor quality. It's no good, it doesn't work, I'm very disappointed, the price is too high for things that you have to throw away",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Protective grille incorrect construction. Unfortunately, the protective grille is too fine-meshed. You can't catch a fly like this",
+      "tags": [
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Way too weak. Doesn't work well - the flies touch it and just keep flying. Bad purchase",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Weak and difficult to clean. Unfortunately it only has very little power and this dual business makes it difficult to get the insects out again",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Garbage to be disposed of. The design of all 3 items does not correspond to the operating instructions. There is no switch described and therefore the product cannot be used. Even if the button lights up, the grille remains inactive when the button is pressed. Unfortunately, it was only now that I wanted to use this unusable Atokel from you. P.S. To beat the manufacturer, the device is good to use. I don't want to know what the consumer center would say about the device. M.h.G. K. Kraski",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. Unfortunately the fly swatter doesn't work. Very annoying 😕",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Bad purchase. The battery has now been charged for 24 hours, but is still empty again after one or two uses. Just doesn't work",
+      "tags": [
+        "Tragbar/Solar"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Quality is zero! Extremely poor workmanship, the part looked like it had already been used! Sent back straight away!!",
+      "tags": [
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It doesn't work!!!!!!. The electric fly swatter doesn't work!!! Can I exchange them? I am very disappointed",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not a good function. Really bad, it doesn't work, you catch the animals faster by hand",
+      "tags": [
+        "no_efficacy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2557 @@
+{
+  "totalReviews": 1107,
+  "avgRating": 2.88,
+  "starDist": [
+    332,
+    186,
+    143,
+    176,
+    270
+  ],
+  "_meta": {
+    "_built": "Hand-curated by Claude — quotes/tags cleaned to fix regex over-match in earlier auto-build (see scripts/_build_voc_fr_electric.py for re-run with fixed patterns).",
+    "_inputs": [
+      "B0C5R5YHMZ_FR_Electric_all_reviews.csv (YISSVIC, 493)",
+      "B0DS8SK65N_FR_Electric_all_reviews.csv (GeckoMan, 220)",
+      "B0DS8SY1KZ_FR_Electric_all_reviews.csv (GeckoMan variant)",
+      "B0FXX1W6W5-FR-Reviews-20260429.xlsx (Jawlark, ~334)"
+    ],
+    "_dedup": "by review_id (CSVs) — GeckoMan two ASINs share most review_ids and collapse to ~280 unique"
+  },
+  "cpSummary": "The <b>1,107 buyers</b> of electric swatters/lamps on amazon.fr are mostly <b>individuals</b> who want to eliminate flies and mosquitoes at home (kitchen, living room, bedroom) — not wasp hunters. Key sub-segments: <b>families with children/pets</b> (alternative to sprays), <b>vanlifers and campers</b> (portable USB format), and <b>hoteliers/restaurateurs</b> who buy in multipacks to equip several rooms.",
+  "cpWho": {
+    "labels": [
+      "Homeowners / individuals",
+      "Garden/patio users",
+      "Parents with kids",
+      "Allergy sufferers / bite-prone",
+      "Restaurant/hotel owners",
+      "Travellers / vanlife",
+      "Pet owners"
+    ],
+    "pos": [
+      112,
+      60,
+      26,
+      13,
+      16,
+      20,
+      10
+    ],
+    "neg": [
+      88,
+      37,
+      12,
+      20,
+      4,
+      6,
+      6
+    ]
+  },
+  "cpWhen": {
+    "labels": [
+      "Summer peak",
+      "Spring start",
+      "BBQ season / outdoor meals",
+      "Insect invasion",
+      "Night (sleep)",
+      "Year-round (indoor)"
+    ],
+    "pos": [
+      78,
+      30,
+      18,
+      54,
+      36,
+      26
+    ],
+    "neg": [
+      66,
+      20,
+      8,
+      68,
+      56,
+      12
+    ]
+  },
+  "cpWhere": {
+    "labels": [
+      "Garden/patio",
+      "Balcon",
+      "Bedroom",
+      "Living room/Kitchen",
+      "Restaurant/hotel",
+      "Van / Camper",
+      "Storage/shed"
+    ],
+    "pos": [
+      58,
+      12,
+      36,
+      52,
+      13,
+      18,
+      6
+    ],
+    "neg": [
+      42,
+      9,
+      46,
+      40,
+      3,
+      4,
+      7
+    ]
+  },
+  "cpWhat": {
+    "labels": [
+      "Rechargeable electric swatter",
+      "UV bug zapper",
+      "Pivoting / foldable",
+      "2-in-1 model (swatter + base)",
+      "USB rechargeable",
+      "With extension pole"
+    ],
+    "pos": [
+      192,
+      26,
+      80,
+      40,
+      96,
+      73
+    ],
+    "neg": [
+      223,
+      17,
+      31,
+      23,
+      112,
+      26
+    ]
+  },
+  "usageScenarios": [
+    {
+      "label": "Kill flies/mosquitoes indoors (living room/kitchen/bedroom)",
+      "reason": "Most frequent use: swatter in hand to eliminate flying insects in the home, especially in summer when windows are open.",
+      "pct": "32.4%"
+    },
+    {
+      "label": "Ceiling insects — reach without climbing",
+      "reason": "Differentiating use case for models with extension + pivoting head (GeckoMan).",
+      "pct": "21.8%"
+    },
+    {
+      "label": "Patio/garden protection during meals",
+      "reason": "Swatter or lamp on stand to protect outdoor drinks and BBQs, mainly in summer.",
+      "pct": "16.2%"
+    },
+    {
+      "label": "Passive light-trap on stand 24/7",
+      "reason": "Swatter on stand, lit in auto mode to attract insects at night (efficacy contested).",
+      "pct": "11.7%"
+    },
+    {
+      "label": "Families with kids / pets — chemical-free solution",
+      "reason": "Mechanical alternative to insecticide sprays, chosen by parents and pet owners.",
+      "pct": "10.1%"
+    },
+    {
+      "label": "Nomadic life — van / camping / hotel",
+      "reason": "Mobile use in camper, van, or to equip several rooms in a hotel or B&B.",
+      "pct": "7.8%"
+    }
+  ],
+  "csSummary": "Sentiment is strongly <b>polarised</b>: <b>40.3%</b> positive (4-5★) vs. <b>59.7%</b> negative (1-3★), with a huge concentration on 1★ (30%). When the unit works, it's described as 'devastating' (flies, mosquitoes) and the buyer sometimes orders 4-6 more to equip hotels/rooms. When it fails (dead battery, won't recharge, breakage), it's drastic: return, 1-star, and in several cases a safety alert (overheating, melted USB-C connector). The 3 brands (YISSVIC, GeckoMan, Jawlark) show the same pattern — it's a category defect, not a brand one. Battery/charge module quality is the only real durable differentiator possible on this market.",
+  "negativeTopics": [
+    {
+      "label": "Ineffective — doesn't kill flies or mosquitoes",
+      "reason": "Complaint #1: the swatter/lamp doesn't kill anything, insects fly off or are merely 'stunned' then leave.",
+      "pct": "41.8%",
+      "bullets": [
+        "276 reviews (41.8% of negatives) report the swatter or light trap simply doesn't kill — insects touch the grid then fly off.",
+        "Recurring pattern: audible zap but the insect recovers after a few seconds — voltage rated too low for large insects (green flies, wasps).",
+        "Auto mode on stand: the light is rated too weak to attract anything, especially in a lit room.",
+        "Recurring comparison: 'might as well use a €5 swatter' — the expected gap vs. the traditional solution is not perceived."
+      ],
+      "quotes": [
+        "“No effectiveness on mosquitoes with auto mode, in any case the autonomy does not exceed 30 minutes. Tested on a fly, it took several contacts for it to be a little stunned but not dead. »",
+        "“I just discovered, thanks to this product, that the flies in my home were mutants resistant to electricity! Makes noise, sparks...but doesn't kill flies. »",
+        "“Useless because it doesn't attract mosquitoes, you have to follow them everywhere and it's frustrating. »",
+        "“No flies caught in 1 week of use. And it's not for lack of being invaded by flies in the house. »"
+      ]
+    },
+    {
+      "label": "Battery dies / won't recharge",
+      "reason": "After a few weeks to a few months, the device no longer holds charge or refuses to recharge — turning the product into 'single-use'.",
+      "pct": "32.4%",
+      "bullets": [
+        "214 reviews (32.4% of negatives) report the battery no longer holds a charge or refuses to recharge after a few weeks.",
+        "Most-cited failure mode: charges normally (red LED OK) then won't switch on once unplugged — the device becomes 'disposable after 1-2 months'.",
+        "USB-C connector crushes or deforms — several 1-star photos show the charging port melted or detached.",
+        "Amazon's 30-day return window often exceeded by the time the failure occurs — frustration amplified by inability to return."
+      ],
+      "quotes": [
+        "“After 2 months of using this electric racket it lost all charging autonomy. Now for it to work it must remain plugged into a power outlet. »",
+        "“I bought two in a row and each time the same problem: once discharged it no longer recharges. So single-use racket. A bit expensive, therefore. »",
+        "“Very disappointed with the product!! I bought it in June and used it during the month. Returned from leave in September, impossible to make it work. Charging does not work. »",
+        "\"1 week will have been the time for this racket to no longer charge and therefore no longer work... that's expensive for the mosquito...\""
+      ]
+    },
+    {
+      "label": "Breaks after 1-3 months",
+      "reason": "Widespread early failure: base, wires, plastic, USB connector — the swatter dies well before the end of the first usage season.",
+      "pct": "26.8%",
+      "bullets": [
+        "177 reviews (26.8% of negatives) report a permanent failure between 1 week and 6 months after purchase.",
+        "Failures hit every part: grid (broken wire), base (wobbly, breaks), charger (won't plug in), battery (dead).",
+        "Several buyers are on their 2nd or 3rd swatter (sometimes the same brand) — accepted as seasonal consumable, but frustrating at this price point."
+      ],
+      "quotes": [
+        "“To flee!” No longer works after 3 months, light and charging ok but no longer burns the insects… at this price it's a real scam »",
+        "“Walk more after a month. »",
+        "“Very poor quality product. Not very robust, in 3 months the racket was broken. To avoid »",
+        "“The first time I use it, I realize that the racket has a hole, the wires no longer touch each other. It’s quite shameful that this happens from the first use”"
+      ]
+    },
+    {
+      "label": "UV light too weak — attracts nothing",
+      "reason": "Lamp mode is rated useless: the blue LED is too weak to attract flies and mosquitoes, especially outdoors or in a lit room.",
+      "pct": "18.7%",
+      "bullets": [
+        "124 reviews complain the UV blue LED is too weak to attract flies and mosquitoes in passive mode.",
+        "The 'light trap' mode (swatter on stand, lit at night) is rated ineffective — insects completely ignore the light.",
+        "Outdoors (patio, balcony), no effect — the brightness is drowned out by ambient lighting."
+      ],
+      "quotes": [
+        "“Light up nothing at all to attract mosquitoes”",
+        "“Blue light during the day is non-existent. The lamp lasts barely 3 hours on full charge. »",
+        "“Only 2 illuminating LEDs on this model. Unless you are in absolute darkness, mosquitoes are not attracted. »",
+        "“Lack of power because it only works at night, ideally in the dark. In the evening with the TV on, efficiency is limited. »"
+      ]
+    },
+    {
+      "label": "Loud zap / annoying at night",
+      "reason": "With every insect zapped, a sharp 'crack' — prevents sleep if the device stays in auto mode at night.",
+      "pct": "11.0%",
+      "bullets": [
+        "73 reviews mention the loud 'crack' on each insect zapped — to the point of waking people at night.",
+        "Auto mode (swatter on all night in the bedroom) is made impractical by the noise — paradox: the mode meant to protect sleep prevents it.",
+        "Adding a 'silent night' mode or a visual LED indicator in place of the crack is a clear product need."
+      ],
+      "quotes": [
+        "“If the device is left on standby overnight in a bedroom, the backfiring can be quite stressful and disruptive to sleep. »",
+        "“You have to imagine that every time an insect is killed, it makes the sound of a firecracker. What follows is a nice burning smell...\"",
+        "“As soon as I received it, I fully charged it and one of the two rackets made a continuous crackling noise when it was under tension... So unusable at night. »",
+        "“It makes a loud clicking sound that wakes you up if an insect gets caught.”"
+      ]
+    },
+    {
+      "label": "Design flaws (grid, base, charger)",
+      "reason": "Thick frame stopping insects from touching the grid, wobbly base, charger faulty out of the box — the product isn't designed to last.",
+      "pct": "9.6%",
+      "bullets": [
+        "63 reviews identify design flaws: protective grid too thick (insects don't touch the active grid), wobbly base, charger faulty out of the box.",
+        "Buyers compare unfavourably with 'the old €5 swatter' which had fewer gadgets but actually touched the insect.",
+        "The USB cord is rated too short to reach high outlets — several 4★ reviews drop because of this detail."
+      ],
+      "quotes": [
+        "“Does not work, the anti-chestnut protection grid means that if we do not block the insect in the racket (against a wall for example) it does not kill it, therefore useless and ineffective! »",
+        "“Difficult to reload, the base is unstable and the racket falls over all the time. Very disappointed. »",
+        "“The charger does not engage so it is impossible to use the racket. Return requested. »",
+        "“The charging cord is really too short”"
+      ]
+    },
+    {
+      "label": "Overpriced for what it is",
+      "reason": "At €25-30, disappointed buyers compare with €5 supermarket models that 'last just as well'.",
+      "pct": "7.0%",
+      "bullets": [
+        "46 reviews (7.0% of negatives) rate the price (€25-30) as unjustified given real-world durability.",
+        "Spontaneous comparison: 'Leclerc sells one for €5' — perceived value heavily eroded by failures.",
+        "Several reviews question the marketing: 'the plastic extension is strictly useless, pure marketing!'"
+      ],
+      "quotes": [
+        "“No longer works after 15 days of use. To avoid, it’s better to buy Leclerc’s for €5”",
+        "“30€ is a high price for a month of use - trying to get feedback from the seller and amazon”",
+        "“Expensive for what they’re worth”",
+        "“Expensive for what it is. The problem with these items is the battery which will not last over time. »"
+      ]
+    },
+    {
+      "label": "Dangerous — overheats, melts, catches fire",
+      "reason": "Several 1-star reviews report the device heats abnormally, melts at the USB-C connector or even catches fire while charging.",
+      "pct": "5.8%",
+      "bullets": [
+        "38 reviews (5.8% of negatives) report the device melted while charging, overheated, or caught fire — real safety risk.",
+        "One customer reports her swatter, plugged into the same power strip as a PC, 'fried' the €700 PC — possible defect in surge protection.",
+        "Demand to clarify certifications (CE, RoHS) on the product page — safety trust is currently low."
+      ],
+      "quotes": [
+        "“Item melted while he was in charge…luckily we noticed”",
+        "“A fly got caught in it and my PC, which was on the same surge-protected power strip, and the PC fried. Result: 2 lamps for €29, ineffective and dangerous, and I lost a PC for €700... Very dangerous, to be avoided. »",
+        "“Beim erstmaligem Aufladen per USB stank es nach geschmolzenem Plastik. Bei der zweiten Aufladung dann das geschmolzene Gehäuse über dem USB Anschluss gesehen. »",
+        "“I don’t think it passes European standards. Very dangerous, to avoid...\""
+      ]
+    }
+  ],
+  "negativeInsights": [
+    {
+      "type": "Pain Point",
+      "badgeBg": "#fee2e2",
+      "badgeColor": "#b91c1c",
+      "finding": "Battery/USB charge fails between 1 week and 6 months after purchase — defect #1 seen across the 3 brands (YISSVIC, GeckoMan, Jawlark).",
+      "implication": "Improving the battery module + USB-C connector is the absolute priority to reduce returns. Communicate an explicit 12-month battery warranty on the product page to reassure."
+    },
+    {
+      "type": "Risque sécurité",
+      "badgeBg": "#fde2e7",
+      "badgeColor": "#9d174d",
+      "finding": "Several 1-star reviews report overheating, USB-C connector melting while charging, even fire — product-recall risk.",
+      "implication": "Factory quality audit + add thermal protection + highlight CE/RoHS certifications on the page. A single viral incident (TikTok / forum) can kill a brand in this category."
+    },
+    {
+      "type": "Mismatch positionnement",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#b45309",
+      "finding": "Sold/searched as a 'wasp' solution but designed/used mainly for flies and mosquitoes — inevitable disappointment for wasp-focused buyers.",
+      "implication": "Explicitly reposition the page: 'effective against flies, mosquitoes, gnats — limited use against wasps (multiple zaps needed)'. Aligns expectations and reduces 1-star reviews for wrong reasons."
+    },
+    {
+      "type": "Bruit nocturne",
+      "badgeBg": "#f3e8ff",
+      "badgeColor": "#6b21a8",
+      "finding": "The crack on each zap prevents using auto mode at night in the bedroom — paradoxical for an anti-mosquito product.",
+      "implication": "Add a 'silent night mode' (reduced voltage / visual LED instead of sound) — simple, differentiating product innovation on Amazon."
+    },
+    {
+      "type": "Lumière UV inopérante",
+      "badgeBg": "#fef9c3",
+      "badgeColor": "#854d0e",
+      "finding": "The passive light-trap mode doesn't work: blue LED too weak to attract in a lit room or outdoors.",
+      "implication": "Either drop the 'light-trap' promise from marketing, or upgrade to a real UV-A LED (365 nm) with more power. Otherwise the feature undermines the product."
+    },
+    {
+      "type": "Reviews internationales polluent",
+      "badgeBg": "#e0e7ff",
+      "badgeColor": "#3730a3",
+      "finding": "30-40% of FR reviews actually come from UK/US/DE/ES/IT/AE — many generic '1-star' English-language reviews dragging down the FR average.",
+      "implication": "Marketing: French customers' perception is more positive than the overall score suggests. Highlight FR-filtered reviews in the A+ storytelling."
+    }
+  ],
+  "positiveTopics": [
+    {
+      "label": "Very effective — exterminates flies & mosquitoes",
+      "reason": "Fans report 'devastating' efficacy against flies and mosquitoes, especially in active mode (swatter in hand).",
+      "pct": "63.7%",
+      "bullets": [
+        "284 4-5★ reviews call the device 'super effective' / 'devastating' against flies and mosquitoes in active mode.",
+        "The 'swatter in hand' mode is highly praised: instant zap, visual satisfaction (blue spark + crack) — users 'love' the gesture.",
+        "Particularly effective indoors at night — the combination of low ambient light + handheld swatter gives the best catch rate."
+      ],
+      "quotes": [
+        "“Goodbye mosquitoes with this electric racket with different operating modes and above all battery charging. Perfect. »",
+        "“But it’s THE fly racket, midge, mosquito, anything goes, it’s incredible!! I'm so happy, I had lots of midges and in 5 minutes I eradicated a lot of corpses lol thank you!!! »",
+        "“Here, the mosquitoes no longer bite… they crisp. Welcome to the special insect electric barbecue. 🔥⚡ »",
+        "“Super effective! What a brilliant invention! I was able to rid my apartment of nuisances in record time! Radical. »"
+      ]
+    },
+    {
+      "label": "Pivoting head reaches the ceiling",
+      "reason": "GeckoMan's key USP: the extension + pivoting head lets you kill ceiling insects without climbing on a chair.",
+      "pct": "26.5%",
+      "bullets": [
+        "118 5★ reviews cite the removable extension + pivoting head as the main reason for choosing GeckoMan over competitors.",
+        "Recurring use case: replacement of a previous swatter without extension — 'climbing on a chair' was the friction point.",
+        "Particularly praised for ceiling gnats, but also spiders, hornets, flies in high corners."
+      ],
+      "quotes": [
+        "“I had already bought a squeegee but it did not swivel and it was extremely annoying. It's killed on the ceiling, I don't have a single one left. I highly recommend. »",
+        "“Very handy and efficient racket which, thanks to its rotating head and long handle, allows you to reach insects in corners and on ceilings. »",
+        "“With the adjustable racket we destroy them in 1s both on the wall and on the ceiling thanks to the extension and the orientation of the sieve, 2 essential options. »",
+        "“The extension and swivel head are ideal for MASSACRING mosquitoes, and even hornets on ceilings. »"
+      ]
+    },
+    {
+      "label": "USB rechargeable — no more batteries",
+      "reason": "USB battery autonomy is hailed as a real step forward vs. old battery-powered swatters.",
+      "pct": "23.0%",
+      "bullets": [
+        "102 positive reviews welcome the move to USB rechargeable (vs. AA batteries) — autonomy of several weeks in normal use.",
+        "The ability to leave it permanently on its charging dock is an appreciated comfort.",
+        "Particularly useful for portable use (van, camping, hotels)."
+      ],
+      "quotes": [
+        "“Very effective, holds the load well, stores easily with the support provided, has a removable extension for the ceiling. »",
+        "“Good product, I use it often and I very rarely recharge it, it’s good. »",
+        "“The rackets are powerful and rechargeable, perfect for chasing away mosquitoes and flies. »",
+        "“I have it in my van, the charge lasts a really long time. The possibility of leaving it on with the purple light is a real plus. »"
+      ]
+    },
+    {
+      "label": "Versatile — home, patio, van, camping",
+      "reason": "Used everywhere: kitchen, bedroom, patio, balcony, van, camper — battery autonomy makes it a portable companion.",
+      "pct": "18.6%",
+      "bullets": [
+        "83 reviews mention indoor use (kitchen, bedroom, living room) AND mobile use (van, camper, camping).",
+        "Interesting hotel use case: one review mentions equipping 5 hotel rooms — clear B2B multipack opportunity.",
+        "Multiplies purchases: 'one in each room', '4 rooms equipped', proof of engagement effect."
+      ],
+      "quotes": [
+        "“I bought 2 to experiment and as I have a 5 room hotel I bought another 4 to equip all the rooms. »",
+        "“I like the double pack, it allows me to have one in each room. »",
+        "“The mosquitoes better watch out. It's super powerful. I have it in my van, the charge lasts a long time. »",
+        "“Practical in summer”"
+      ]
+    },
+    {
+      "label": "Chemical-free — OK for families & pets",
+      "reason": "Mechanical mode (electric zap vs. spray) reassures parents and pet owners — no chemicals in the home.",
+      "pct": "14.1%",
+      "bullets": [
+        "63 reviews emphasise the 'chemical-free' angle — mechanical mode (zap) vs. insecticide sprays.",
+        "Decisive health argument for parents, allergy sufferers, pet owners.",
+        "Anti-spray customer base: 'insecticide bomb, cider vinegar, black soap, nothing worked. I bought this swatter and the gnats were wiped out.'"
+      ],
+      "quotes": [
+        "“Probably my best purchase of 2025. Beautiful and very effective! And less harmful than mosquito repellent products »",
+        "“Very practical, especially for midges that are insensitive to aerosols, and therefore less toxic. »",
+        "“Insecticide bomb, cider vinegar, black soap, nothing helped. I bought this super handy racket and not only did I eradicate them and what a relief!!! »",
+        "“No more swatters crushing mosquitoes on walls with residual stains. »"
+      ]
+    },
+    {
+      "label": "Good value (when it works)",
+      "reason": "For units that work reliably, the price is rated justified — natural alternative to chemical sprays.",
+      "pct": "9.5%",
+      "bullets": [
+        "42 reviews: for units that last, the price (€25-30) is rated justified vs. repeated chemical sprays over the season.",
+        "Several buyers (hoteliers, restaurateurs) buy 4-6 units at once to equip all rooms — proof of product confidence.",
+        "Repurchase cases: 'TIPTOP bought a second one', 'never disappointed, 2nd purchase'."
+      ],
+      "quotes": [
+        "“It took me a while to decide because of the price. I find it really too expensive. I bought the same racket without an extension, it's so practical with the extension. »",
+        "“TIPTOP bought a second one”",
+        "“never disappointed, very efficient. 2nd purchase »",
+        "“Recommended by my family, so I bought this racket. Perfect against mosquitoes and flies. »"
+      ]
+    }
+  ],
+  "positiveInsights": [
+    {
+      "type": "USP — Plafond",
+      "badgeBg": "#bae6fd",
+      "badgeColor": "#075985",
+      "finding": "Reaching ceiling insects is the #1 5★ argument for GeckoMan (extension + pivoting head).",
+      "implication": "Hero shot: hand zapping a fly on the ceiling, no chair. Main video: 'no more ceiling flies'. This use case alone justifies the premium price vs. basic swatters."
+    },
+    {
+      "type": "Usage nomade",
+      "badgeBg": "#bbf7d0",
+      "badgeColor": "#166534",
+      "finding": "Strong demand among vanlifers, campers, hoteliers — USB autonomy makes it a useful portable product, not just a kitchen gadget.",
+      "implication": "2x bundle (van + home) or 4x pack for hoteliers/Airbnb. Dedicated 'camper pack' marketing. Expands TAM well beyond the 'home' market."
+    },
+    {
+      "type": "Sans chimie",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#15803d",
+      "finding": "Strong health argument among parents and pet owners — credible alternative to insecticide sprays.",
+      "implication": "'Chemical-free — 100% mechanical' badge prominently visible on the hero image. Reinforces family targeting, a high-LTV segment (repeat purchases)."
+    },
+    {
+      "type": "Geste satisfaisant",
+      "badgeBg": "#fae8ff",
+      "badgeColor": "#86198f",
+      "finding": "Several 5★ reviews emphasise the 'pleasure' of the zap — blue spark + crack = satisfying audio/visual feedback.",
+      "implication": "Emotional marketing: aim for the 'satisfying clip' TikTok style. The category is under-invested in social content — marketing differentiation opportunity."
+    },
+    {
+      "type": "Bundle hôtellerie",
+      "badgeBg": "#fef08a",
+      "badgeColor": "#854d0e",
+      "finding": "Repeated reviews from hoteliers/restaurateurs buying 4-6 units at a time to equip every room.",
+      "implication": "List a 4x or 6x pack at reduced unit price for the B2B target. Possible AOV uplift (+150-200%) without cannibalising the consumer target."
+    },
+    {
+      "type": "Mode auto-socle",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1d4ed8",
+      "finding": "The 2-in-1 function (swatter + lamp on stand) is a purchase argument — even if lamp-mode efficacy is contested.",
+      "implication": "Clearly communicate both modes but avoid over-selling the lamp function (see negative insight). Stay with 'main swatter + bonus auxiliary lamp'."
+    }
+  ],
+  "buyersMotivation": [
+    {
+      "label": "Eliminate flies/mosquitoes from the home",
+      "reason": "Motivation #1: get rid of flying insects indoors, especially in summer when windows are open.",
+      "pct": "38.0%"
+    },
+    {
+      "label": "Reach ceiling insects",
+      "reason": "Specific to models with extension — solving the 'climb on a chair to kill the fly' problem.",
+      "pct": "18.0%"
+    },
+    {
+      "label": "Alternative to chemical sprays (health)",
+      "reason": "Parents and pet owners want to avoid spraying insecticides in the home.",
+      "pct": "14.0%"
+    },
+    {
+      "label": "Nomadic use — van / camping",
+      "reason": "Vanlifers, campers, travellers — battery autonomy + compact format.",
+      "pct": "10.0%"
+    },
+    {
+      "label": "Multi-room equipment (hotel / B&B)",
+      "reason": "Bulk purchase by hoteliers, rural B&Bs and seasonal rentals.",
+      "pct": "8.0%"
+    },
+    {
+      "label": "Replacement of an old battery-powered swatter",
+      "reason": "Upgrade from an older model — move to USB rechargeable + features.",
+      "pct": "7.0%"
+    },
+    {
+      "label": "Gift / curiosity (satisfying gadget)",
+      "reason": "Impulse buy or gift — the 'visual satisfaction of the zap' dimension is a driver.",
+      "pct": "5.0%"
+    }
+  ],
+  "customerExpectations": [
+    {
+      "label": "Battery lasts multiple seasons",
+      "reason": "Top expectation: battery should last at least 12 months of normal use. Today, 1 in 3-4 swatters fails before then.",
+      "pct": "32.0%"
+    },
+    {
+      "label": "Kills insects on the first hit",
+      "reason": "Sufficient voltage to kill a fly/mosquito in one zap — no need to 'hit multiple times'.",
+      "pct": "22.0%"
+    },
+    {
+      "label": "Robust USB-C connector",
+      "reason": "The charging port shouldn't crush, melt or deform after a few recharges — the 2nd most-cited defect.",
+      "pct": "16.0%"
+    },
+    {
+      "label": "UV lamp that actually attracts",
+      "reason": "If light-trap mode is advertised, it should work — otherwise drop it from marketing.",
+      "pct": "13.0%"
+    },
+    {
+      "label": "Silent mode for night",
+      "reason": "Alternative to the loud 'crack' so the device can be left on in the bedroom.",
+      "pct": "10.0%"
+    },
+    {
+      "label": "Explicit 12-month warranty",
+      "reason": "Amazon's 30-day return window inadequate vs. real lifespan — extended coverage demanded.",
+      "pct": "7.0%"
+    }
+  ],
+  "themeFilters": [
+    {
+      "value": "no_efficacy",
+      "label": "Ineffective / doesn't kill"
+    },
+    {
+      "value": "battery_dies",
+      "label": "Battery / charge dead"
+    },
+    {
+      "value": "breaks_quickly",
+      "label": "Breaks quickly"
+    },
+    {
+      "value": "weak_light",
+      "label": "Light too weak"
+    },
+    {
+      "value": "loud_noise",
+      "label": "Noise / crack"
+    },
+    {
+      "value": "safety",
+      "label": "Dangerous / overheats"
+    },
+    {
+      "value": "design_flaws",
+      "label": "Design flaws"
+    },
+    {
+      "value": "shipping_damaged",
+      "label": "Arrived damaged"
+    },
+    {
+      "value": "overpriced",
+      "label": "Overpriced"
+    },
+    {
+      "value": "kills_wrong_or_useless",
+      "label": "Kills wrong insects / useless"
+    },
+    {
+      "value": "effective",
+      "label": "Very effective"
+    },
+    {
+      "value": "reaches_ceiling",
+      "label": "Reaches ceiling"
+    },
+    {
+      "value": "usb_charge",
+      "label": "USB rechargeable"
+    },
+    {
+      "value": "design_good",
+      "label": "Stylish design"
+    },
+    {
+      "value": "value",
+      "label": "Good value for money"
+    },
+    {
+      "value": "multi_use_indoor_outdoor",
+      "label": "Indoor & outdoor"
+    },
+    {
+      "value": "safe_kids_pets",
+      "label": "Safe for kids/pets"
+    },
+    {
+      "value": "mode_auto",
+      "label": "Auto / standby mode"
+    }
+  ],
+  "tagStyles": {
+    "no_efficacy": {
+      "bg": "#fee2e2",
+      "color": "#b91c1c"
+    },
+    "battery_dies": {
+      "bg": "#fde68a",
+      "color": "#92400e"
+    },
+    "breaks_quickly": {
+      "bg": "#fecaca",
+      "color": "#7f1d1d"
+    },
+    "weak_light": {
+      "bg": "#fef9c3",
+      "color": "#854d0e"
+    },
+    "loud_noise": {
+      "bg": "#f3e8ff",
+      "color": "#6b21a8"
+    },
+    "safety": {
+      "bg": "#fee2e2",
+      "color": "#7f1d1d"
+    },
+    "design_flaws": {
+      "bg": "#fde2e7",
+      "color": "#9d174d"
+    },
+    "shipping_damaged": {
+      "bg": "#e0e7ff",
+      "color": "#3730a3"
+    },
+    "overpriced": {
+      "bg": "#ffedd5",
+      "color": "#c2410c"
+    },
+    "kills_wrong_or_useless": {
+      "bg": "#fef3c7",
+      "color": "#b45309"
+    },
+    "effective": {
+      "bg": "#dcfce7",
+      "color": "#15803d"
+    },
+    "reaches_ceiling": {
+      "bg": "#bae6fd",
+      "color": "#075985"
+    },
+    "usb_charge": {
+      "bg": "#dbeafe",
+      "color": "#1d4ed8"
+    },
+    "design_good": {
+      "bg": "#fae8ff",
+      "color": "#86198f"
+    },
+    "value": {
+      "bg": "#d9f99d",
+      "color": "#3f6212"
+    },
+    "multi_use_indoor_outdoor": {
+      "bg": "#bbf7d0",
+      "color": "#166534"
+    },
+    "safe_kids_pets": {
+      "bg": "#ccfbf1",
+      "color": "#0f766e"
+    },
+    "mode_auto": {
+      "bg": "#fef08a",
+      "color": "#854d0e"
+    }
+  },
+  "reviews": [
+    {
+      "r": 1,
+      "t": "Null. To avoid. Doesn't work at all. — I only gave 1 star because it is not possible to give zero!!! The rackets are totally useless, they don't work at all. This evening alone I was bitten by mosquitoes 8 times in less than 5 minutes even though I had the racket literally within reach!!! Let's not even talk about the battery which lasts at best 90 minutes on a full charge.",
+      "tags": [
+        "no_efficacy",
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Defective — I ordered it on October 12, and 1 month later it no longer works. It no longer charges, although I have tried other chargers. Very disappointed",
+      "tags": [
+        "battery_dies",
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Very limited or even non-existent effectiveness - For slightly larger flies, they will at best be stunned but certainly not killed instantly, for some, I had to put 6 'chestnuts' on them before they died. If you were hoping to kill bigger than a green fly, move on, don't tickle a wasp with it, you'll lose...",
+      "tags": [
+        "no_efficacy",
+        "kills_wrong_or_useless"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No effectiveness — No effectiveness on mosquitoes with auto mode, in any case the autonomy does not exceed 30 minutes. Tested on a fly, it took several contacts for it to be a little stunned but not dead.",
+      "tags": [
+        "no_efficacy",
+        "battery_dies",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "HS after 3 months — Avoid! No longer works after 3 months, light and charging ok but no longer burns insects... at this price it's a real scam",
+      "tags": [
+        "breaks_quickly",
+        "no_efficacy",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Poor quality: no longer works very quickly — Already out of order: just after 5 weeks of use. To flee!!! Charging ok light ok but the insects land on the grid without risk, they are no longer killed.",
+      "tags": [
+        "breaks_quickly",
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Quickly out of order — Expensive for what they're worth",
+      "tags": [
+        "breaks_quickly",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No electricity — The racket does not work. It does not make the electric shock when the fly touches.",
+      "tags": [
+        "no_efficacy",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Trash Can — I had an amazing racket that attracted mosquitoes with light. Not her. Light illuminates nothing, attracts nothing.",
+      "tags": [
+        "weak_light",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No more charging autonomy after 2 months — After 2 months of using this electric racket it lost all charging autonomy. Now for it to work it must remain plugged in.",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "DE LA DAUBE — It’s really a rotten article. After 1 month, it no longer works. Run away!!! Don't buy.",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Good at first but... — The racket works well, but when an insect is caught there is a sharp click at the same time, like the sound of a firecracker. If the device is left on standby overnight in a bedroom, the backfiring can be quite stressful and disruptive to sleep. Six months later, the item became useless, the battery died.",
+      "tags": [
+        "loud_noise",
+        "battery_dies",
+        "breaks_quickly",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Gadget, just a gadget — I just discovered, thanks to this product, that the flies in my home were mutants resistant to electricity! Makes noise, sparks...but doesn't kill flies.",
+      "tags": [
+        "no_efficacy",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Item that can catch fire — Item melted while charging...luckily we noticed this",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No use — Unless you wave your racket in your hand to catch flies and mosquitoes, it's no use. Knocks out the fly which gets up immediately if you don't kill it. It takes 3 electric shocks to kill a fly. In addition, it makes a loud clicking sound that wakes you up if an insect gets caught.",
+      "tags": [
+        "no_efficacy",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Mosquito Repellent — Lights up nothing to attract mosquitoes",
+      "tags": [
+        "weak_light"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless — Don't kill any flies, don't waste your money",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless — Completely useless!!!! Insects don't go on it!!! In addition, it doesn't seem solid, very light, very plastic!!!!",
+      "tags": [
+        "no_efficacy",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Defective charger — The charger does not engage so the racket cannot be used. Return requested.",
+      "tags": [
+        "battery_dies",
+        "design_flaws",
+        "shipping_damaged"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective — Does not work, the anti-chestnut protection grid means that if you do not block the insect in the racket it does not kill it, therefore useless and ineffective!",
+      "tags": [
+        "no_efficacy",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "July 14 — You have to imagine that every time an insect is killed, it makes the sound of a firecracker. What follows is a nice burning smell...",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Defective — The racket worked for 2 days! Even when recharged to the maximum, it no longer roasts insects: it is out of order.",
+      "tags": [
+        "breaks_quickly",
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Dangerous... — A fly got caught in it and my PC, which was on the same power strip protected against surges, and the PC fried. Result: 2 lamps for €29, ineffective and dangerous, and I lost a PC for €700. I don't think it passes European standards. Very dangerous, to avoid...",
+      "tags": [
+        "safety",
+        "weak_light",
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "The product no longer charges 😔 — After 1 year of problem-free use, the product no longer charges. We have tried the original cable, other cables and different plugs and nothing fixes the problem.",
+      "tags": [
+        "battery_dies",
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No effectiveness despite the 4000 v indicated - The product does not catch midges or mosquitoes, it does not correspond to the description",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work at all — Already the racket discharges in 3 hours and it doesn't catch any mosquitoes. The racket does not light up all the way, just a little bit towards the bottom. Big disappointment.",
+      "tags": [
+        "battery_dies",
+        "no_efficacy",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not great — The product discharges very quickly. In addition, the grids are too small for mosquitoes and midges. I don't recommend it at all.",
+      "tags": [
+        "battery_dies",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No longer charges after a week - 1 week will have been the time for this racket to no longer charge and therefore no longer work... that's expensive for the mosquito...",
+      "tags": [
+        "battery_dies",
+        "breaks_quickly",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "One of the rackets crackles from the first use - One of the two rackets makes a continuous crackling noise when it is under tension... Therefore unusable at night.",
+      "tags": [
+        "loud_noise",
+        "shipping_damaged"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Too bad — Perfect racket the first 3 days. After 3 days the insects touch the grid but do not die, it seems that it no longer works, yet all the buttons light up, the blue light too.",
+      "tags": [
+        "breaks_quickly",
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Scam — Used once and no longer works. I charge it but the blue light no longer comes on... as it's been over a month no return possible. The balls!!",
+      "tags": [
+        "breaks_quickly",
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Never recharged — The racket worked once then never recharged. Amazon took care of the return so it's okay but disappointed with the product.",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Damaged charging cable — Appears very fragile, the charging cable is completely crushed and therefore unusable.",
+      "tags": [
+        "shipping_damaged",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Very poor quality — Snowshoes purchased mid-July. At the end of August both rackets no longer work… Move on!!!!",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not effective in a static position — Not at all effective against flies and mosquitoes except in mobile use.",
+      "tags": [
+        "weak_light",
+        "no_efficacy",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Single use — Impossible to recharge the racket! And since I received it over a month ago, I can no longer return it! Hidden defect, a real scam!!!",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Unreliable — Unreliable disposable racket. No longer charges after less than 1 year of use, direction trash.",
+      "tags": [
+        "battery_dies",
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Lighting — Racket is working properly. On the other hand, the lighting is non-existent even in the middle of the night. Which makes automatic mode completely useless.",
+      "tags": [
+        "weak_light",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Reliability 0 — The racket no longer works after 4 months of use!!!! Big stew",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Disappointed — No longer works after 15 days of use. To avoid, it’s better to buy Leclerc’s for €5",
+      "tags": [
+        "breaks_quickly",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Prout — Go your way. Weak light, no effect near us, within range the mosquitoes are laughing...",
+      "tags": [
+        "weak_light",
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not against mosquitoes — Does not work against mosquitoes",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Very low brightness — Only 2 illuminating LEDs on this model. Unless you are in absolute darkness, mosquitoes are not attracted.",
+      "tags": [
+        "weak_light"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not working — No light, nothing. I charged it and then nothing. It no longer lights up",
+      "tags": [
+        "battery_dies",
+        "weak_light"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Defective device — The device did not turn on, I returned it",
+      "tags": [
+        "shipping_damaged"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Avoid because it does not recharge! — To be avoided because it does not recharge!",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It attracts nothing it's false - I bought this racket when I read the comments I think they are really false comments it really attracts no mosquitoes the light is too weak",
+      "tags": [
+        "weak_light",
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "1 year and HS — Like many products today, unusable after barely 1 year because the base no longer works, making it impossible to charge the racket...",
+      "tags": [
+        "breaks_quickly",
+        "battery_dies",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Insect Racket — Difficult to reload, the base is unstable and the racket falls over all the time. Very disappointed.",
+      "tags": [
+        "design_flaws",
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Dissatisfied — 1 racket out of 2 does not work",
+      "tags": [
+        "shipping_damaged"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless — It doesn't work. Does not kill any insects",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No effectiveness — Despite the spectacular number of flies we had this device did not attract any of them, it is of no use. We returned the item.",
+      "tags": [
+        "no_efficacy",
+        "weak_light"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Obsolete — It worked for 2 weeks and then nothing...",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not great — So what can I say except that it worked for 2 days without catching a single mosquito. They continued to bite me and on the 3rd day nothing more. It is stored at the bottom of the cupboard",
+      "tags": [
+        "no_efficacy",
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "SHAMEFUL — A SHAME EVERYTHING IS BAD IN ONE MONTH NOT WORKING ONCE IN SHORT A SCAM",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No flies killed in 1 week of use — Absolutely does not work. No flies caught for 1 week. And it's not for lack of being invaded by flies in the house",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Return Request — The racket only lights slightly near the handle and is ineffective.",
+      "tags": [
+        "weak_light",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Disappointing — No longer works after a month.",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work! — Doesn't work at all",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Impossible to recharge! Total scam — Very disappointed with the product!! I bought it in June and used it for the month, without needing to charge it, before going on vacation. Returned in September, impossible to make it work. Charging does not work.",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Bad product — It's very poor quality plastic like children's toys, I'm not convinced by the safety, the racket was left to charge for a day, use for 1 minute the light turns directly to red.",
+      "tags": [
+        "design_flaws",
+        "battery_dies",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Really not great — Out of two rackets, one arrived broken on the USB. In addition, they are heavy and unwieldy and in no way suitable for mosquitoes unless you like to do aerobatics.",
+      "tags": [
+        "shipping_damaged",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Defective product — I received this product on July 15, 2025. It is July 30 and the product no longer works even though I tried to charge it overnight.",
+      "tags": [
+        "breaks_quickly",
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No — On first use, I realize that the racket has a hole, the wires no longer touch each other. It's quite shameful that this happens from the first use",
+      "tags": [
+        "shipping_damaged",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Battery gone in less than a month — Battery seems to have gone after just a month - the item will not turn on - 30€ is a high price for a month of use",
+      "tags": [
+        "battery_dies",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Does not recharge — I bought two in a row and each time the same problem: once discharged it no longer recharges. So single-use racket. A bit expensive, therefore.",
+      "tags": [
+        "battery_dies",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Avoid 😡 — Stopped working after a week 😡",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Bad item - No good, doesn't stop discharging as soon as you use it, it's out of charge, I don't recommend it at all.",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Battery does not hold — The product no longer holds a charge after a few days of use. Too bad the return date has passed because I didn't use it directly upon purchase.",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Manual function does not work — Manual function does not work",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Defective — No longer charging...",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Bad quality — Broken after 1 month…",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "The product looked good but... — No longer working after a few hours of use",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Quality to be reviewed — No longer works after 3 uses.",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Avoid — No longer works after 2 uses.",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Choose another model — Does not hold a charge, and is not practical to use",
+      "tags": [
+        "battery_dies",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Hoax — Doesn't work at all",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "More Fliegenkitzel als Fliegenkiller — Es macht einen kleinen Funken, ein leises Plopp – und dann… stirbt nichts. If you have a flight, you will see it – if the flog is still there, then it will not be light genervt.",
+      "tags": [
+        "no_efficacy",
+        "kills_wrong_or_useless"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Beim ersten Laden gleich defectt! — Beim erstmaligem Aufladen per USB stank es nach geschmolzenem Plastik. Bei der zweiten Aufladung dann das geschmolzene Gehäuse über dem USB Anschluss gesehen. Stinkt immer night.",
+      "tags": [
+        "safety",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Schrott — Es ist nach nicht mal 2 Monaten kaputt. Aufladen und neu starten geht gar nicht mehr. Amazon has the option to replace or change the status.",
+      "tags": [
+        "breaks_quickly",
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Tötet nicht — Der GeckoMan hat selbst kleinste Insekten (Fruchtfliegen) nicht getötet sondern nur verstümmelt. Das geht gar nicht!",
+      "tags": [
+        "no_efficacy",
+        "kills_wrong_or_useless"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Inhumane, cruel, useless! — This product is so weak that one zap only targets the fly. After one zap it was flopping around on the floor half dead. Also the light function is pointless, it attracts nothing.",
+      "tags": [
+        "no_efficacy",
+        "weak_light"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work very well — The automatic mode doesn't do anything. The power is on. The light is on. But it doesn't attract flies even in a dark room. Presumably because the light is so dim.",
+      "tags": [
+        "weak_light",
+        "mode_auto",
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Don't waste your time or money — Bought this and it worked. Ran out of charge and charged it up and now the zapper part doesn't work at all. This is a very cheaply made product.",
+      "tags": [
+        "battery_dies",
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Design flawed — Absolute rubbish. Thickness of the frame to the mesh and its rigidity (not at all flexible) means it leaves a gap to the surface and the flies escape without being killed.",
+      "tags": [
+        "design_flaws",
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Wouldn't harm a fly — I ended up using it like a tennis racket as it Wouldn't harm a fly. In fact I think it gave them super powers after zapping them - they got stronger!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Flimsy, Ineffective, and Falls Apart — The parts literally started falling apart after minimal use. The unit is extremely flimsy and falls over with the slightest bump. The battery barely holds a charge.",
+      "tags": [
+        "breaks_quickly",
+        "design_flaws",
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Poor performance — The voltage is insufficient to kill a fly in one go, you have to try it several times. The auto function with blue light doesn't attract anyone.",
+      "tags": [
+        "no_efficacy",
+        "weak_light",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Disappointing — Bought for a gift, broke down in 2 months. The extension cord is nice but useless if the battery doesn't hold a charge.",
+      "tags": [
+        "battery_dies",
+        "breaks_quickly",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Blah — Blah!",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Battery doesn't last — Used a few times then needed to recharge. After 3 charges, the battery wouldn't hold any longer. Returning.",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Don't bother — Lights up, light is blue. There is an extender, then it does absolutely nothing. Easy to charge. Doesn't kill flies. A fly flew right through it and nothing happened.",
+      "tags": [
+        "no_efficacy",
+        "weak_light",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "DIY — The protective grid is too thick, the insects touch the plastic before the electrical wire. Design to be completely revised.",
+      "tags": [
+        "design_flaws",
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Pointless — Pointless, save your money and buy a £1 swatter",
+      "tags": [
+        "no_efficacy",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Doesn't actually kill flies — Ineffective. Don't waste your money.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Garbage — Broke after 8 weeks",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Flop — Next 2 days without any functions",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Don't bother — Does not move like that hasn't 'killed' anything light isn't bright enough to attract anything",
+      "tags": [
+        "no_efficacy",
+        "weak_light"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Not impressed — I had such high hopes, but I'm not impressed. Didn't really zap anything despite the fact that we charged it for at least 2 hours as instructed. Finally, we placed a dead fly on it, and still it didn't zap it.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Schon Kaputt, nach 3 Monaten — Das Product ist bereits jetzt schon kaputt und funktioniert nicht mehr.",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Not very powerful and limited battery — Lack of power because it only works at night, ideally in the dark. In the evening with the TV on, efficiency is limited. Plus, the battery only lasts an hour or two. Had to leave it plugged in.",
+      "tags": [
+        "weak_light",
+        "battery_dies",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Does the job — Does the job. A little noisy when grilling",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Very efficient — After more than a year of good and loyal service. She has just given up the ghost. It was a great investment! The base is a plus so you don't have to make any effort.",
+      "tags": [
+        "effective",
+        "battery_dies",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Fly Killer — Effective for killing flies in 'hands' mode. So far has not killed a single mosquito in blue automatic mode. Discharges very very quickly in blue mode",
+      "tags": [
+        "weak_light",
+        "battery_dies",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Fly screen — Effective against flying insects… provided that they concentrate on the windows….",
+      "tags": [
+        "weak_light"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Average quality — It works, it kills gnats but breaks very quickly when it falls.",
+      "tags": [
+        "design_flaws",
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Not very effective — Effective when used in the hand like a racket. Ineffective when the device is simply placed, its blue light is unattractive.",
+      "tags": [
+        "weak_light",
+        "no_efficacy",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Not 100 percent — I use it against mosquitoes and flies but I don't catch many of them. I find that they are not really attracted to the light emitted.",
+      "tags": [
+        "weak_light"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Good for mosquitoes but not flies — Maybe for mosquitoes but not flies",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Effective but... — Too bad the racket remains charged for such a short time. For the rest it fulfills its function",
+      "tags": [
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Recent acquisition — I just received it, the blue light is not on the entire racket.",
+      "tags": [
+        "weak_light",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Anything larger than a mosquito just gets stunned — I wacked a common house fly multiple times with the satisfied pop sound, only for it to get up moments later and start flying again.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Works good but lifespan is short — This is a good product and does the work. However, it stopped working in a year, the light would still on but it didn't kill any flying insects.",
+      "tags": [
+        "breaks_quickly"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Fly spray — Bought the double pack. Good, in that they zap flies. Poor in that one charger cable didn't actually charge either zapper. Poor, in that, you leave it on with the charging cable out, charge doesn't last all night.",
+      "tags": [
+        "effective",
+        "loud_noise",
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "UV Licht nuts aber sonst echt Top — Das Ding hat richtig Power. Das UV Licht unten ist minderwertig und broughtt selbst bei vielen Mücken nichts. Trotzdem absolutely ok.",
+      "tags": [
+        "weak_light",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Betäubt nur die Fliegen — Diese Fliegenklatsche betäubt die Fliegen nur kurz. Der Stromschlag scheint zu schwach um sie zu töten. Außerdem knallt es echt laut wenn man ein Insekt erwischt.",
+      "tags": [
+        "no_efficacy",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Stunned only — It shocks the fly but doesn't instantly 'paralyze' them. I've noticed it really gets rid of flies if the flies get stuck in the metal.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Not a strong enough zap — Up until today I would have said that it was one of the best purchases I've ever made. But today after I zapped like five, two of them landed near me. To my surprise one of them got up and flew away.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "There is no unbeding with the Light Insekten an — Leider ist das blau Licht nicht unbedingt da für da das Mücken im dunklen Schlafzimmer da einfach so rein fliegt. Anzugskraft gleich Null. Es knallt schon recht laut.",
+      "tags": [
+        "weak_light",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Get rid of mosquitoes – Effective on mosquitoes, not tested on wasps",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Kill mosquito — A pleasure to kill mosquitoes in summer.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Does the job — Good product but lacks a little power. Sometimes it clicks but the insects leave or are just stunned. But that's more than enough.",
+      "tags": [
+        "effective",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective — Racket used for an entire summer. It is powerful and therefore effective. On the other hand, the light supposed to attract insects, sometimes it works very well and sometimes not at all.",
+      "tags": [
+        "effective",
+        "weak_light"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Good price — The function is great if the lights are off",
+      "tags": [
+        "value",
+        "weak_light"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Limited effectiveness — The racket appears solid and of good quality. Use is easy. You have to hit the wasps several times to knock them out, too bad! The design is pretty.",
+      "tags": [
+        "effective",
+        "design_good",
+        "kills_wrong_or_useless"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Anti-vampire weapon — Terrible against mosquitoes, watch out for the first victims because the noise of the electric shock is very loud. Sleep mode on useful but drains the battery very quickly.",
+      "tags": [
+        "effective",
+        "loud_noise",
+        "battery_dies",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Very good product — The plastic extension is strictly unnecessary since the power button is positioned on the main body. Pure marketing! I appreciate the adjustable head for working on ceilings.",
+      "tags": [
+        "reaches_ceiling",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Cord too short — Charging cord is definitely too short",
+      "tags": [
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super efficient — Say goodbye to mosquitoes with this electric racket with different operating modes and above all battery charging (no need to change batteries). Perfect.",
+      "tags": [
+        "effective",
+        "usb_charge"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective with blue light — Very good product. I bought 2 to experiment and as I have a 5 room hotel I bought another 4 to equip all the rooms. Very efficient and good battery.",
+      "tags": [
+        "effective",
+        "multi_use_indoor_outdoor",
+        "usb_charge"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective — Perfect, very good, I recommend. I added cardboard on one side, this prevents insects from being caught if used on the ceiling.",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "The insect exterminator — The insect exterminator 😁. This mosquito racket works perfectly. You can leave it installed and running continuously and you don't have to worry about anything.",
+      "tags": [
+        "effective",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Sublime - Super effective.... no insect can resist it.... In addition, when you reach your target, you are informed immediately with this power of electric discharge",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great THE RACKET — But it's THE racket for flies, midges, mosquitoes, everything goes, it's incredible!! I'm so happy I had lots of midges and in 5 minutes I eradicated a lot of corpses lol thank you!!!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Top — We can't do without it anymore. Very effective",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Good quality — It's the best",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Efficient and very practical — Construction that appears light. But if you pay attention, it is a very effective product. On its base it works 24 hours a day. When a mosquito passes through the system it slams loudly",
+      "tags": [
+        "effective",
+        "mode_auto",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective even on very small flying insects — I've had rackets of these, but this one is effective even on midges. TOP",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Impressed by the power — Mosquitoes better watch out. It's super powerful. I have it in my van, the charge lasts a long time. The possibility of leaving it on with the purple light is a real plus. It backfires when a mosquito passes.",
+      "tags": [
+        "effective",
+        "multi_use_indoor_outdoor",
+        "usb_charge",
+        "mode_auto",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "I love it — Very effective against mosquitoes",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Goodbye flies — It works perfectly! Flies/mosquitoes don't last long",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super effective — Super effective at the Top",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Bravo – Great",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Quality — On an electric racket. Not a single mosquito comes to bite me anymore",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Mosquito Barbecue — What a pleasure to grill these nasty insects",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective and practical — Very practical and very effective device. No more swatters crushing mosquitoes on walls with residual stains. Ceilings can also be easily reached. Very good purchase.",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Essential — Probably my best purchase of 2025. Beautiful and very effective! And less harmful than mosquito repellent products",
+      "tags": [
+        "effective",
+        "safe_kids_pets",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very efficient, USB charging, long battery life — Very efficient, holds the charge well, stores easily with the support provided, has a removable extension for the ceiling.",
+      "tags": [
+        "effective",
+        "usb_charge",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfectly effective — Perfectly effective!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "I recommend — It took me a while to decide because of the price. I find it really too expensive. I bought the same racket without an extension, it's so practical with the extension. Good product, I use it often and very rarely recharge it.",
+      "tags": [
+        "reaches_ceiling",
+        "usb_charge",
+        "value",
+        "overpriced"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Always available — Very practical with its removable extension to reach the ceiling.",
+      "tags": [
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Top — Really very good quality! I am delighted",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Extremely effective with the swivel head — I had already bought a squeegee but it didn't swivel and it was extremely annoying. It's killed on the ceiling, I don't have a single one left. I highly recommend.",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Efficiency — At the top! Works great",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Does its job perfectly - Brilliant",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Saved my life! — Racket bought for mosquitoes but was much more useful to me! Every summer we are attacked by European hornets, this racket is very useful, charges for a long time and can even be left on to attract insects.",
+      "tags": [
+        "effective",
+        "usb_charge",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect — Recommended by my family, so I bought this racket. Perfect against mosquitoes and flies.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "To have at home - Great item, effective against flying insects. I recommend it.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Spider racket — Very good very satisfied with my purchase",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective — Terrific effectiveness... and there is no need to clean the walls since there is no longer any need to crush the mosquitoes.",
+      "tags": [
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super effective — I recommend.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective — Super efficient and convenient. Also for midges",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Efficient — Very efficient",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Awesome — It changed my life :) The rotation functionality and the long arm ended up being very useful for the spiders!",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Top — No more fly infestations, a good sorting and done!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fly racket — Top of the line racket, very practical swivel effect and especially the pole for the ceiling, I recommend",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "A racket that does the job! - Effective ! I recommend!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective — Effective in eliminating ruffles",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective electric insect racket — Very handy and efficient racket which, thanks to its rotating head and long handle, allows you to reach insects in corners and on ceilings. Its aesthetic is pleasant. It can be placed on its base on a piece of furniture, or flat. Delighted with this purchase.",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "design_good",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Top — Practical in summer",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super — SUPER a snowshoe dream, works impeccably",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Satisfied — Very satisfied, it meets my expectations. Very good product",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective — Never disappointed, very effective. 2nd purchase",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "A great racket for gnats and more — My infestation is small kitchen gnats. With this racket, GREAT! Finally all destroyed!",
+      "tags": [
+        "effective",
+        "multi_use_indoor_outdoor"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "For the ceiling — At the top in all positions, it's practical",
+      "tags": [
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective racket — Excellent, very effective article",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "VERY USEFUL — Phew!! Finally free of all flying and invasive insects. Good handling. THANKS",
+      "tags": [
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Anti-midges — So good",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Top — Super effective",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good — Very good",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Easy to use and very effective — It was very useful to me this summer because I was invaded by small fruit flies. Every morning I caused carnage and I was able to get rid of it.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent — Good quality and very effective material, I do not regret my purchase. You can buy with confidence.",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Exterminator - Super effective, I have already done a lot of harm to the midge species",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Nickel — Nickel",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Don't hesitate! It saves your nights! — Very effective and great for high ceilings!",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Practical — Very effective for flies and midges, I have nothing left",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective but very low battery life - How good does it feel to be able to get rid of these damn flies without leaving a trace. On the other hand, the autonomy is very low and absolutely does not attract mosquitoes.",
+      "tags": [
+        "effective",
+        "battery_dies",
+        "weak_light"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Best investment — BEST mosquito repellent racket. Allowed me to exterminate lots of mosquitoes",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Deadly — Very good product. Goodbye flies and mosquitoes.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective product for destroying small midges — Very effective product for destroying the small midges that have invaded us since the fall! With the adjustable racket you destroy them in 1s both on the wall and on the ceiling thanks to the extension and the orientation of the sieve, 2 essential options.",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect — Complies with effective product",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "The best thing ever for flies — I was accustomed to the ones from china... this is american made... and it shows... better faster, and it really does a stronger zap... no more flies on the roof...",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "My BFF — My best friend! Very satisfying noise, especially when you don't like critters 😅 Very practical for those who think they'll escape us when they're on the ceiling. Just remember to turn it off once the target is reached otherwise it continues to burn and the smell is not pleasant.",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Too practical — Ideal for catching everything even from the ceiling",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "TOP — Impeccable, works perfectly. Just a small detail that reduces the effectiveness is the thickness of the plastic frame which means that the insect can potentially escape. The adjustable side is great and really a plus compared to equivalent products.",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect — Revolutionary! For midges on the ceiling it's great/radical.",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super effective — Really great. Especially the mode without pressing. A little heavy to handle.",
+      "tags": [
+        "effective",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective — Practical and efficient",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective — At the top. I love it when a plan goes smoothly.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good — Practical",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Compliant item — Compliant item",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Effective — Very good quality.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great — Great I had midges and with the device I have more",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Brilliant racket — Brilliant! It even works on midges! I highly recommend",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "In motion or simply placed with light activated — It's very effective. You can use it like a racket, in motion, or put it down and turn on the light which attracts insects. Battery life is short but enough",
+      "tags": [
+        "effective",
+        "mode_auto",
+        "battery_dies"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective — Powerful, instantly kills flies and all insects.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good product — Great product and too practical to kill insects",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Electric racket — Very practical, especially for midges that are insensitive to aerosols, and therefore less toxic.",
+      "tags": [
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super fast and efficient! — Great! I was invaded by about thirty specks. In just a few minutes I was able to overcome it. How could I live without such an accessory for so many years 😄",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works but seems fragile — Works well against Asian hornets too. Does its job but the blue light doesn't attract many people. Rather fragile lengthwise",
+      "tags": [
+        "effective",
+        "weak_light",
+        "design_flaws"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect Product — Works perfectly for my dear and loving Asian hornets. I recommend this product.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Mosquito barbecue — Here, the mosquitoes no longer bite… they crisp. Welcome to the special insect electric barbecue. 🔥⚡",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Best find of the month! - Awesome ! The charge lasts a long time. And the long pole allows you to reach spiders even if you are phobic.",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "usb_charge"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Good — Interesting for the price! Works well. Be careful of electrocution. When it is turned on, there is no security like in other models.",
+      "tags": [
+        "effective",
+        "value",
+        "safety"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works very well — Meets my expectations",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Insect Invasion — Awesome way to get rid of insects 👍👍",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Good quality — Good quality product. Works. Even tested on evil bugs",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Flexibility is great — This product is worth the extra cost because it can turn in angles to get bugs on ceilings or other flat surfaces.",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Top — The first one received didn't charge, I received another one, and it works perfectly. The telescopic handle is great, the inclination of the racket is perfect! And my purple light night light is the best!",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Clean and long-lasting battery — The rackets are powerful and rechargeable, perfect for chasing away mosquitoes and flies. I like the double pack, it allows me to have one in each room. Telescopic extensions are handy for reaching insects further away.",
+      "tags": [
+        "effective",
+        "usb_charge",
+        "multi_use_indoor_outdoor",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Bug racket — So awesome!!! This summer I was invaded by midges. Insecticide spray, cider vinegar, black soap, nothing helped. I bought this super handy racket and not only did I eradicate them and what a relief!!!",
+      "tags": [
+        "effective",
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Too good! — It saves us with these horrible summers invaded by mosquitoes!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "TGood — It's very easy and very useful and very effective in killing flies and mosquitoes.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "No more mosquitoes — No more being eaten by mosquitoes. Very effective on all flying insects, even hornets.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect — Exactly as expected and advertised",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasp racket — Perfect",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Electric racket for mosquitoes, flies & midges - Super good although scary especially when you see a fly slowly burn on contact with the racket. Very effective.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent, very practical product — Excellent, very practical product",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "TIPTOP bought a second one — TIPTOP bought a second one",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasp killer — Very practical, easy to use and very effective in getting rid of wasps",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very functional and efficient — Excellent product! The swivel system is super practical. The light attracts insects well in the evening, especially mosquitoes. The pole makes it easy to reach those placed on the ceiling. The battery lasts very well over time.",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "mode_auto",
+        "usb_charge"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super effective! Brilliant invention! — Super effective! What a brilliant invention! I was able to rid my apartment of nuisances in record time! Radical.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Mosquito Death Notice — Very Effective and Convenient",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Ok — Compliant article. The wings of mosquitoes cannot resist it",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good — Totally meets my expectations and is very efficient and practical with its extension.",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super effective even against hornets! — Very effective and radical thanks to its powerful voltage. Manual and automatic possibilities. Also great for its rotation which allows you to destroy insects in all directions. And with its telescopic handle, it's perfect for almost inaccessible places. Finally peace!",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "mode_auto"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "THE RACKET of death! — Product with a solid appearance, extremely efficient and ergonomic. The extension and swivel head are ideal for MASSACRING mosquitoes, and even hornets on ceilings.",
+      "tags": [
+        "effective",
+        "reaches_ceiling",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very efficient, very satisfied — So great. I really appreciate that the racket is pivoting and now I can catch the flies on the ceiling and all high places where I couldn't reach before.",
+      "tags": [
+        "effective",
+        "reaches_ceiling"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective — Very effective",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent article — Perfect. Powerful, robust, light, practical. I recommend this article",
+      "tags": [
+        "effective",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Mosquito racket — Effective product and super fast delivery",
+      "tags": [
+        "effective"
+      ]
+    }
+  ]
+}

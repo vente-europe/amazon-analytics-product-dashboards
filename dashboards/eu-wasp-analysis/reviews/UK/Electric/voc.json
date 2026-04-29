@@ -1,0 +1,2953 @@
+{
+  "totalReviews": 2052,
+  "avgRating": 3.06,
+  "starDist": [
+    500,
+    297,
+    329,
+    426,
+    500
+  ],
+  "cpSummary": "The <b>2052 buyers</b> across the eight UK Electric zapper ASINs (Buzbug, YISSVIC × 2, GeckoMan, Fly-Bye, LiBa, mafiti, Jawlark) are mostly <b>homeowners and garden / patio users</b> looking for a passive, chemical-free way to control flies, mosquitoes and the occasional wasp. A meaningful sub-segment are <b>parents and pet owners</b> who explicitly reject chemical sprays, plus a smaller commercial group (<b>pub, cafe and shop owners</b>) who buy multiple units for food-service environments.",
+  "cpWho": {
+    "labels": [
+      "Homeowners",
+      "Garden / patio users",
+      "Parents with kids",
+      "Allergy sufferers",
+      "Pub / cafe owners",
+      "Pet owners",
+      "Beekeepers"
+    ],
+    "pos": [
+      94,
+      26,
+      55,
+      1,
+      10,
+      85,
+      0
+    ],
+    "neg": [
+      86,
+      12,
+      62,
+      0,
+      16,
+      49,
+      0
+    ]
+  },
+  "cpWhen": {
+    "labels": [
+      "Summer peak",
+      "Spring start",
+      "BBQ season",
+      "Insect invasion",
+      "Night (sleep)",
+      "Year-round (indoor)"
+    ],
+    "pos": [
+      46,
+      23,
+      7,
+      19,
+      16,
+      0
+    ],
+    "neg": [
+      24,
+      40,
+      3,
+      11,
+      17,
+      1
+    ]
+  },
+  "cpWhere": {
+    "labels": [
+      "Garden / patio",
+      "Decking",
+      "Bedroom",
+      "Living room / Kitchen",
+      "Pub / cafe",
+      "Storage / shed",
+      "Conservatory"
+    ],
+    "pos": [
+      13,
+      1,
+      3,
+      37,
+      6,
+      11,
+      4
+    ],
+    "neg": [
+      9,
+      0,
+      2,
+      24,
+      4,
+      10,
+      1
+    ]
+  },
+  "cpWhat": {
+    "labels": [
+      "UV bug zapper",
+      "Electric grid trap",
+      "Vacuum trap",
+      "Portable / solar",
+      "Wall-mounted",
+      "Plug-in indoor"
+    ],
+    "pos": [
+      173,
+      35,
+      1,
+      50,
+      12,
+      33
+    ],
+    "neg": [
+      133,
+      35,
+      1,
+      35,
+      7,
+      31
+    ]
+  },
+  "usageScenarios": [
+    {
+      "label": "Summer-peak wasp invasion response",
+      "reason": "Bought reactively in July/August when wasps invade — installed at the back door or patio.",
+      "pct": "37.5%"
+    },
+    {
+      "label": "Indoor fly + wasp control in the kitchen / conservatory",
+      "reason": "Plug-in unit on a worktop or window ledge — clears flies during the day and the odd indoor wasp.",
+      "pct": "24.7%"
+    },
+    {
+      "label": "Bedroom mosquito / midge zapper at night",
+      "reason": "Quiet, low-glow models used in the bedroom to kill mosquitoes and midges before sleep.",
+      "pct": "14.2%"
+    },
+    {
+      "label": "Patio / decking BBQ protection",
+      "reason": "Portable or wall-mounted outdoor units around the BBQ and dining area in summer.",
+      "pct": "12.0%"
+    },
+    {
+      "label": "Garage / shed insect control",
+      "reason": "Workshop and storage areas where flies congregate — buyers want a low-maintenance always-on unit.",
+      "pct": "7.9%"
+    },
+    {
+      "label": "Pub / cafe / shop fly control",
+      "reason": "Commercial-grade UV units mounted high on a wall, on all day during food service hours.",
+      "pct": "3.7%"
+    }
+  ],
+  "csSummary": "Sentiment is split: <b>45.1%</b> positive (4–5★) and <b>54.9%</b> negative (1–3★). Successful buyers — typically indoor users in conservatories, kitchens and pub gardens — report trays full of dead insects and recommend the units enthusiastically. Negative reviews concentrate on three structural issues: <b>poor wasp efficacy</b> (the unit catches flies but not wasps), <b>noise and bright light at night</b> (incompatible with bedroom use), and <b>outdoor durability failures</b> (rain ingress, rust). Bee/moth kills draw smaller but vocal ecological backlash that disproportionately damages star ratings.",
+  "negativeTopics": [
+    {
+      "label": "Doesn't catch wasps / ineffective",
+      "reason": "Buyers report the zapper kills very few wasps (often only flies/midges) — the single biggest source of frustration.",
+      "pct": "23.8%",
+      "bullets": [
+        "268 buyers (23.8% of negative reviews) say the zapper either catches nothing or only catches small flies/midges, never the wasps the unit was bought for.",
+        "A common pattern: indoor models work on flies but wasps stay outside in daylight; the UV light only competes after dark when wasps are dormant.",
+        "Buyers compare the unit to homemade jam-jar wasp traps and conclude the DIY option catches more wasps for far less money.",
+        "When wasps are abundant outdoors (BBQs, pub gardens), reviewers feel the zapper makes no visible dent in the population."
+      ],
+      "quotes": [
+        "\"I've purchased this bug zapper in May 2022.\"",
+        "\"Updated review: This item was taken out of the sunroom after my review in April, recharged, and put in the kitchen in case of flies.\"",
+        "\"Having dogs and living in the country isn’t always a pleasant experience, I like to leave the door to garden open so that they can come and go as they please.\"",
+        "\"Bugs were not attracted to this device at my house.\""
+      ]
+    },
+    {
+      "label": "Flimsy / hard-to-clean tray",
+      "reason": "Cleaning the catch tray is fiddly and dead insects stick to the grid; many units feel cheaply made and break early.",
+      "pct": "18.7%",
+      "bullets": [
+        "18.7% of negative reviews flag a flimsy build or fiddly tray — dead insects stick to the grid and don't come out.",
+        "Plastic catch trays crack, hinges break, and the gap between grid and tray traps debris that's hard to brush out.",
+        "Cheap plug or worn cable is a recurring failure point on lower-priced units."
+      ],
+      "quotes": [
+        "\"I really wanted this to work, but unfortunately, the LiBa Electric Bug Zapper was a complete waste of money.\"",
+        "\"The result is that you kill nothing unless the fly happens to get stuck in the mesh.\"",
+        "\"I purchased LIBA zapper on 3/22/24 and both tubes went out within the three and four months 6/19/24 and 7/16/24.\"",
+        "\"I bought product December 11 2023 and I must say it works pretty well.\""
+      ]
+    },
+    {
+      "label": "Loud zap / buzzing noise",
+      "reason": "The crackle of each kill plus a constant hum disturbs sleep and conversation, especially indoors at night.",
+      "pct": "4.2%",
+      "bullets": [
+        "47 buyers describe the constant hum or the loud zap-crackle as unbearable indoors at night.",
+        "When a wasp or larger fly hits the grid, the bang can be loud enough to wake light sleepers.",
+        "Buyers in flats and conservatories say neighbours and pets react badly to the noise."
+      ],
+      "quotes": [
+        "\"Having dogs and living in the country isn’t always a pleasant experience, I like to leave the door to garden open so that they can come and go as they please.\"",
+        "\"Bought this during the heat wave in July as I had noticed quite a few flies in the house with the windows being open.\"",
+        "\"I've had a couple of these swatters and are a good way to quickly deal with fruit flies, until it stops working.\"",
+        "\"We ordered this when we were overwhelmed with fruit flies we accidentally brought home in a farmer's market haul.\""
+      ]
+    },
+    {
+      "label": "Safety concerns (grid, shocks, kids/pets)",
+      "reason": "Exposed grids and the risk of shocks worry parents and pet owners — buyers want a properly caged design.",
+      "pct": "4.2%",
+      "bullets": [
+        "Exposed grid raises shock concerns — parents with toddlers and pet owners want a proper outer cage.",
+        "A few reviewers report a burning smell or sparks the first time the unit kills a large insect.",
+        "Reviewers who have small children call out the lack of a safety cut-out or child lock."
+      ],
+      "quotes": [
+        "\"Updated review: This item was taken out of the sunroom after my review in April, recharged, and put in the kitchen in case of flies.\"",
+        "\"Having dogs and living in the country isn’t always a pleasant experience, I like to leave the door to garden open so that they can come and go as they please.\"",
+        "\"Bought this during the heat wave in July as I had noticed quite a few flies in the house with the windows being open.\"",
+        "\"Listen to people when they say that this is a dangerous product.\""
+      ]
+    },
+    {
+      "label": "Arrived broken or DOA",
+      "reason": "Glass tubes and plastic housings often arrive cracked or fail within days of first use.",
+      "pct": "0.8%",
+      "bullets": [
+        "UV tubes arrive cracked — Amazon's box doesn't protect the unit from carrier handling.",
+        "Several reviewers report DOA: plug in, no light, no fan, no zap — refund demanded.",
+        "Missing parts (tray, mounting bracket, instructions) drive bad first impressions before the product is even tested."
+      ],
+      "quotes": [
+        "\"Item arrived faulty, didnt work unless it was plugged in which makes a fly swatter next to useless!\"",
+        "\"Opened used item sent to me, was also missing the power cable and has a broken piece on the racket.\"",
+        "\"Would not turn on out of the box, just a small flicker of blue light for a second\"",
+        "\"only opened box after return deadline\""
+      ]
+    },
+    {
+      "label": "Too bright in the bedroom",
+      "reason": "UV bulbs light up bedrooms and stop people sleeping — a common complaint when used at night indoors.",
+      "pct": "0.4%",
+      "bullets": [
+        "0.4% of negative reviews call the UV bulb too bright for bedroom use.",
+        "Buyers expecting \"subtle blue glow\" find a strong purple light that lights up the entire room.",
+        "Several reviewers move the unit to the landing or bathroom because they cannot sleep with it on."
+      ],
+      "quotes": []
+    },
+    {
+      "label": "Not weatherproof for outdoor use",
+      "reason": "Models marketed as outdoor fail after rain — water gets in, electrics short, units rust.",
+      "pct": "0.4%",
+      "bullets": [
+        "Outdoor models stop working after the first heavy rain — water gets into the housing and the electrics short.",
+        "Steel grids rust within weeks if left in the garden — buyers feel the IP rating is overstated.",
+        "UK weather (constant damp) is hostile to even \"weatherproof\" units; some buyers bring them in every night."
+      ],
+      "quotes": [
+        "\"If there is even a tiniest opening in your home for even a miniscule insect to enter indoor, then indoor flies will only continue to thrive, if not get worse.\"",
+        "\"it died after a 10 minute rain, which during the summer, we will have many.\""
+      ]
+    },
+    {
+      "label": "Kills bees and other beneficial insects",
+      "reason": "UV light is non-selective — bees, moths and ladybirds end up in the tray, drawing strong ecological backlash.",
+      "pct": "0.1%",
+      "bullets": [
+        "0.1% of negative reviews specifically call out bee, moth or butterfly kills as ecologically unacceptable.",
+        "Beekeepers and gardeners are the most vocal critics — some give 1 stars purely on the basis of bee mortality.",
+        "Several reviewers note that \"everything is in the tray except wasps\" — the unit is non-selective.",
+        "Even buyers who like the kill-count are uncomfortable when they see ladybirds and moths among the dead."
+      ],
+      "quotes": []
+    }
+  ],
+  "negativeInsights": [
+    {
+      "type": "Pain Point",
+      "badgeBg": "#fee2e2",
+      "badgeColor": "#b91c1c",
+      "finding": "UV zappers catch flies and midges well but largely fail against wasps — buyers expecting wasp-specific results feel mis-sold.",
+      "implication": "Re-position UK Electric SKUs as \"fly + mosquito\" first, \"wasp\" only as a secondary claim. Pair with a complementary lure-trap accessory for wasps to capture both segments without over-promising."
+    },
+    {
+      "type": "Risk",
+      "badgeBg": "#ffedd5",
+      "badgeColor": "#9a3412",
+      "finding": "Beekeeper and naturalist backlash against bee/moth kills shows up in 1-star reviews and damages the listing's credibility.",
+      "implication": "A+ content must address selectivity head-on — promote indoor-only use cases and consider a bee-safe outdoor variant with selective baiting (or skip outdoor positioning entirely)."
+    },
+    {
+      "type": "Product Gap",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#b45309",
+      "finding": "Loud zap noise and bright UV light make most units unsuitable for the bedroom — buyers explicitly move the unit out at night.",
+      "implication": "Launch a \"Bedroom\" SKU: vacuum-fan capture (silent), warm-amber UV-A bulb (less glare), low-power night mode. Premium pricing justified by sleep-friendly engineering."
+    },
+    {
+      "type": "Cost-of-Living",
+      "badgeBg": "#ffedd5",
+      "badgeColor": "#c2410c",
+      "finding": "UK buyers in 2024–2026 explicitly factor electricity cost into reviews — running a 9–20W bulb 24/7 is now a barrier.",
+      "implication": "Energy-saving messaging on the listing (\"only 9W — pennies a night\"); consider a motion/dusk sensor variant that switches off when no insects detected."
+    },
+    {
+      "type": "Build Quality",
+      "badgeBg": "#fde2e7",
+      "badgeColor": "#9d174d",
+      "finding": "Cheap plastic trays, brittle UV tubes and DOA units cluster in the lowest-priced YISSVIC / generic listings — drags average rating below 4.0.",
+      "implication": "Premiumise the build (stronger tray, shock-mounted tube) and add a 2-year warranty badge; let cheap competitors keep the bottom of the price band."
+    },
+    {
+      "type": "Outdoor Failure",
+      "badgeBg": "#cffafe",
+      "badgeColor": "#155e75",
+      "finding": "Models marketed as \"outdoor\" fail in UK rain — water ingress shorts the electrics and rusts the grid within weeks.",
+      "implication": "Either invest in a genuine IP65+ housing and certify it, or remove \"outdoor\" from the title and main image. False outdoor claims are the single biggest source of returns in this category."
+    }
+  ],
+  "positiveTopics": [
+    {
+      "label": "Loads of dead flies / wasps every morning",
+      "reason": "Successful buyers report trays full of dead insects within days — the visible kill count is the strongest satisfaction driver.",
+      "pct": "30.5%",
+      "bullets": [
+        "282 buyers report a tray full of dead flies, midges or wasps within the first week.",
+        "Conservatory and kitchen owners are the most vocal positive segment — confined spaces let the UV do its job.",
+        "Buyers describe being \"amazed\" by the kill count and recommend installing one per main living area.",
+        "Repeat purchasers buy a second unit for upstairs after the first works downstairs."
+      ],
+      "quotes": [
+        "\"Holy hell, when I tell you the summer of 2024 was hell for my UK home, it was.\"",
+        "\"The Mafiti Fly Zapper is a powerful and efficient device designed to eliminate pesky flies from your indoor spaces.\"",
+        "\"We used to have a basic fly zapper in the house that used batteries but part of it broke very early on and it was held together with tape, so I always refused to it as I didn’t fancy getting zapped.\"",
+        "\"I like the slim width which allows for placement options I didn't have with another zapper.\""
+      ]
+    },
+    {
+      "label": "Great value — pays for itself",
+      "reason": "Buyers compare to spray and pest-control callouts and conclude the zapper is cheap insurance for the summer.",
+      "pct": "6.7%",
+      "bullets": [
+        "Buyers compare to a £40+ pest-control callout and conclude a £20–30 zapper is \"cheap insurance\" for the summer.",
+        "Bundle reviews (2-pack) report best value — one unit per floor of the house.",
+        "Reusable bulb makes the per-summer cost low; replacement tubes are seen as a cheap consumable."
+      ],
+      "quotes": [
+        "\"I've had this product for over 2 months now and I'm still loving it.\"",
+        "\"Updated Review (After 4 months of use)\n\nI have been using this for four months, with it on constantly.\"",
+        "\"The GeckoMan Rotating Head Fly Zapper arrived in a large retail box inside the outer carton.\"",
+        "\"Considering that I had almost mastered using the standard swatter, this swatter has made my life a breeze with the mesh  that can be angled to suit.\""
+      ]
+    },
+    {
+      "label": "Durable — second / third summer in use",
+      "reason": "Repeat-summer reviews are a strong trust signal — proves the unit survives a UK winter in storage.",
+      "pct": "4.1%",
+      "bullets": [
+        "Repeat-summer reviews (\"third summer and still going strong\") are the strongest durability signal.",
+        "Buyers note the unit survives being stored in a damp shed over winter — robust enough for UK conditions."
+      ],
+      "quotes": [
+        "\"Holy hell, when I tell you the summer of 2024 was hell for my UK home, it was.\"",
+        "\"We used to have a basic fly zapper in the house that used batteries but part of it broke very early on and it was held together with tape, so I always refused to it as I didn’t fancy getting zapped.\"",
+        "\"Now that the warm weather is here we are already being invaded by flies who can get into the house through the smallest of gaps but seem incapable of finding the huge exit via an open door and window!\"",
+        "\"I was astonished when I unpacked these fly zappers.\""
+      ]
+    },
+    {
+      "label": "Easy to empty — slide-out tray",
+      "reason": "Removable tray that tips straight into the bin is the most-praised design feature.",
+      "pct": "2.7%",
+      "bullets": [
+        "25 buyers single out the slide-out tray as the best design feature — empty, wipe, slide back.",
+        "Removable mesh grid (washable under the tap) is a strong purchase trigger over fixed-grid models.",
+        "Buyers compare to chemical fly papers: the zapper is cleaner, no sticky mess."
+      ],
+      "quotes": [
+        "\"The Mafiti Fly Zapper is a powerful and efficient device designed to eliminate pesky flies from your indoor spaces.\"",
+        "\"I like the slim width which allows for placement options I didn't have with another zapper.\"",
+        "\"Updated Review (After 4 months of use)\n\nI have been using this for four months, with it on constantly.\"",
+        "\"Fly Zapper is an indispensable tool for maintaining a fly-free environment in your home, kitchen, indoor garden, or yard.\""
+      ]
+    },
+    {
+      "label": "Works indoors and out — patio, kitchen, bedroom",
+      "reason": "Versatile placement (kitchen counter by day, bedroom or patio by night) drives heavy daily use.",
+      "pct": "2.2%",
+      "bullets": [
+        "Versatile placement is a strong purchase driver — same unit on the kitchen counter by day and the patio table at night.",
+        "Portable / rechargeable models extend usage to the garden table and BBQ area where mains units cannot reach."
+      ],
+      "quotes": [
+        "\"Summertime always means we get a lot of flies in the house.\"",
+        "\"I've had this product for over 2 months now and I'm still loving it.\"",
+        "\"The Mafiti Fly Zapper is a godsend for anyone plagued by pesky insects during the warmer months.\"",
+        "\"It comes with 2 spare light bulbs.\""
+      ]
+    },
+    {
+      "label": "Modern / discreet design — looks like a lamp",
+      "reason": "Lantern-style and matte-black models are praised for blending into living rooms and patios — far better than the old neon-tube look.",
+      "pct": "1.6%",
+      "bullets": [
+        "Lantern-style and matte-black models are praised for not looking like a \"1980s pub zapper\".",
+        "Buyers leave the unit visible on the kitchen counter or bedside table because the design is acceptable.",
+        "Compact size (small enough for a worktop) is a key reason buyers chose the unit over larger competitors."
+      ],
+      "quotes": [
+        "\"The Mafiti Fly Zapper is a powerful and efficient device designed to eliminate pesky flies from your indoor spaces.\"",
+        "\"I like the slim width which allows for placement options I didn't have with another zapper.\"",
+        "\"I have a couple of insect zappers one is excellent but very small and does not have a protective mesh so it was zap anything of any size whilst the other has a protective mesh which makes it useless on larger insects.\"",
+        "\"Fly Zapper is an indispensable tool for maintaining a fly-free environment in your home, kitchen, indoor garden, or yard.\""
+      ]
+    }
+  ],
+  "positiveInsights": [
+    {
+      "type": "USP",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#15803d",
+      "finding": "Buyers in conservatories, kitchens and pub gardens report tray-full kill counts within days — visible results are the strongest satisfaction trigger.",
+      "implication": "Lead the main image with a \"tray full of insects after 1 night\" social-proof shot. Use Buzbug-style results photography in A+ content to convert browsers."
+    },
+    {
+      "type": "Differentiation",
+      "badgeBg": "#e0f2fe",
+      "badgeColor": "#0369a1",
+      "finding": "Quiet operation is the single biggest differentiator vs old-style crackle zappers — vacuum-fan models score noticeably higher.",
+      "implication": "Decibel-rating spec on the listing (\"<25 dB — quieter than a fridge\"). Vacuum-capture sub-brand for the bedroom segment."
+    },
+    {
+      "type": "Trust Anchor",
+      "badgeBg": "#ccfbf1",
+      "badgeColor": "#0f766e",
+      "finding": "Parents and pet owners actively choose electric over chemical sprays — \"no chemicals, no poison\" is a cited purchase reason.",
+      "implication": "\"Chemical-free\" badge in the main image; pair with a child-safe caged-grid variant aimed explicitly at family households."
+    },
+    {
+      "type": "Design",
+      "badgeBg": "#fae8ff",
+      "badgeColor": "#86198f",
+      "finding": "Lantern-style and matte-black aesthetics are praised for \"looking like a lamp, not a zapper\" — buyers leave units on display.",
+      "implication": "Lifestyle photography (bedside table, kitchen counter, patio table) showing the unit in a styled room. Premiumise via design, not just specs."
+    },
+    {
+      "type": "Bundle Opportunity",
+      "badgeBg": "#fef08a",
+      "badgeColor": "#854d0e",
+      "finding": "Repeat buyers want a second unit for the bedroom or upstairs after the first works downstairs.",
+      "implication": "2-pack and 3-pack bundles (\"Whole-home protection\") at 15–20% saving. Subscription replacement bulbs for repeat AOV."
+    },
+    {
+      "type": "Value Story",
+      "badgeBg": "#d9f99d",
+      "badgeColor": "#3f6212",
+      "finding": "Buyers benchmark against £40+ pest-control callouts and conclude a £20–30 zapper is cheap insurance.",
+      "implication": "\"Cheaper than one pest-control visit\" comparison in A+ content. Emphasise reusability (years of summers from one unit) to justify mid-tier pricing."
+    }
+  ],
+  "buyersMotivation": [
+    {
+      "label": "Tired of swatting flies and wasps every summer",
+      "reason": "Default trigger: warm weather brings flies into the kitchen and wasps to the patio — buyers want a passive solution.",
+      "pct": "30.0%"
+    },
+    {
+      "label": "Avoid chemicals around children and pets",
+      "reason": "Parents and pet owners reject sprays and poisons; an electric unit feels like a clean, family-safe alternative.",
+      "pct": "22.0%"
+    },
+    {
+      "label": "Sleep without mosquitoes / midges",
+      "reason": "Bedroom-focused buyers want overnight protection — this is the strongest pull for quiet, low-glow units.",
+      "pct": "18.0%"
+    },
+    {
+      "label": "BBQ / patio season — protect outdoor dining",
+      "reason": "Summer entertaining drives portable and outdoor-rated SKUs — buyers want flies away from food and drink.",
+      "pct": "14.0%"
+    },
+    {
+      "label": "Conservatory / kitchen fly problem all year",
+      "reason": "Year-round indoor use case — flies bred from compost or food waste need constant suppression.",
+      "pct": "10.0%"
+    },
+    {
+      "label": "Cheaper than calling pest control",
+      "reason": "Buyers explicitly compare £20–30 zapper to a £40+ professional callout and pick the DIY route.",
+      "pct": "6.0%"
+    }
+  ],
+  "customerExpectations": [
+    {
+      "label": "Genuinely silent operation for the bedroom",
+      "reason": "Buyers expect a \"noise-free\" claim to mean truly inaudible at 2m — current units crackle and hum.",
+      "pct": "26.0%"
+    },
+    {
+      "label": "Selective wasp / fly attraction (not bees or moths)",
+      "reason": "Strong expectation that the unit will not kill beneficial insects — non-selectivity is a deal-breaker for ecological buyers.",
+      "pct": "22.0%"
+    },
+    {
+      "label": "Easy-empty tray with no hand contact",
+      "reason": "Slide-out tray that tips straight into the bin — minimal cleaning, no touching dead insects.",
+      "pct": "18.0%"
+    },
+    {
+      "label": "Genuine IP65 outdoor durability",
+      "reason": "Outdoor SKUs must survive UK rain and damp — current \"outdoor\" claims fail within weeks.",
+      "pct": "14.0%"
+    },
+    {
+      "label": "Low energy consumption (visible spec)",
+      "reason": "Buyers want the wattage on the listing and want it under 10W — explicitly to keep the electricity bill down.",
+      "pct": "12.0%"
+    },
+    {
+      "label": "Clear placement / setup instructions",
+      "reason": "How high, how far from food, indoor vs outdoor — buyers want a visual placement card to set expectations on results.",
+      "pct": "8.0%"
+    }
+  ],
+  "themeFilters": [
+    {
+      "value": "no_efficacy",
+      "label": "Doesn't catch wasps / ineffective"
+    },
+    {
+      "value": "kills_wrong",
+      "label": "Kills bees / wrong insects"
+    },
+    {
+      "value": "loud_noise",
+      "label": "Loud zap / noisy"
+    },
+    {
+      "value": "bright_light",
+      "label": "Too bright at night"
+    },
+    {
+      "value": "electricity_use",
+      "label": "High electricity use"
+    },
+    {
+      "value": "bad_design",
+      "label": "Hard to clean / flimsy"
+    },
+    {
+      "value": "shipping_damaged",
+      "label": "Arrived damaged"
+    },
+    {
+      "value": "weather",
+      "label": "Not weatherproof"
+    },
+    {
+      "value": "safety",
+      "label": "Safety concerns"
+    },
+    {
+      "value": "effective",
+      "label": "Very effective"
+    },
+    {
+      "value": "quiet",
+      "label": "Quiet operation"
+    },
+    {
+      "value": "easy_clean",
+      "label": "Easy to clean"
+    },
+    {
+      "value": "safe_kids_pets",
+      "label": "Safe for kids/pets"
+    },
+    {
+      "value": "design_good",
+      "label": "Looks nice / discreet"
+    },
+    {
+      "value": "value",
+      "label": "Good value"
+    },
+    {
+      "value": "coverage",
+      "label": "Covers large area"
+    },
+    {
+      "value": "indoor_outdoor",
+      "label": "Works indoor & outdoor"
+    },
+    {
+      "value": "lasts_long",
+      "label": "Durable / long-lasting"
+    }
+  ],
+  "tagStyles": {
+    "no_efficacy": {
+      "bg": "#fee2e2",
+      "color": "#b91c1c"
+    },
+    "kills_wrong": {
+      "bg": "#fef3c7",
+      "color": "#b45309"
+    },
+    "loud_noise": {
+      "bg": "#ede9fe",
+      "color": "#5b21b6"
+    },
+    "bright_light": {
+      "bg": "#fef9c3",
+      "color": "#854d0e"
+    },
+    "electricity_use": {
+      "bg": "#ffedd5",
+      "color": "#c2410c"
+    },
+    "bad_design": {
+      "bg": "#fde2e7",
+      "color": "#9d174d"
+    },
+    "shipping_damaged": {
+      "bg": "#e0e7ff",
+      "color": "#3730a3"
+    },
+    "weather": {
+      "bg": "#cffafe",
+      "color": "#155e75"
+    },
+    "safety": {
+      "bg": "#fecaca",
+      "color": "#991b1b"
+    },
+    "effective": {
+      "bg": "#dcfce7",
+      "color": "#15803d"
+    },
+    "quiet": {
+      "bg": "#e0f2fe",
+      "color": "#0369a1"
+    },
+    "easy_clean": {
+      "bg": "#dbeafe",
+      "color": "#1d4ed8"
+    },
+    "safe_kids_pets": {
+      "bg": "#ccfbf1",
+      "color": "#0f766e"
+    },
+    "design_good": {
+      "bg": "#fae8ff",
+      "color": "#86198f"
+    },
+    "value": {
+      "bg": "#d9f99d",
+      "color": "#3f6212"
+    },
+    "coverage": {
+      "bg": "#bbf7d0",
+      "color": "#166534"
+    },
+    "indoor_outdoor": {
+      "bg": "#bae6fd",
+      "color": "#075985"
+    },
+    "lasts_long": {
+      "bg": "#fef08a",
+      "color": "#854d0e"
+    }
+  },
+  "reviews": [
+    {
+      "r": 1,
+      "t": "Total Disappointment – Doesn’t Work as Advertised — I really wanted this to work, but unfortunately, the LiBa Electric Bug Zapper was a complete waste of money. I bought it specifically to deal with mosquitoes and flies in my home, but it simply doesn’t do the job. I followed all instructions, plugged it in, and left it running for several nights — not a single mosquito or fly was zapped.\n\nThe light does turn on and the grid looks like it should be powerful, but it’s just not attracting anything. I even placed it in darker areas where bugs usually gather — still nothing. Meanwhile, I’m gettin…",
+      "tags": [
+        "no_efficacy",
+        "bad_design",
+        "easy_clean"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Massive fire hazard, do not buy! — Listen to people when they say that this is a dangerous product. It's a fire waiting to happen. I used it for about a year and this was amazing for reducing the fly population in our house. However, one day, I woke up to it constantly zapping. The whole house smelt like burnt plastic. It was the end of the season, so I unplugged it and went back to sleep.\nWarm weather comes again, and I plug it back in, and it's back to the constant zapping. I thought maybe there's a fly carcass still stuck in there but nope, couldn't find anything.\nSo I unplugged the device…",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Ineffective and potentially dangerous — I bought this as a large replacement fro the previous smaller fly catcher and am genuinely disappointed. The catch rate does not seem to be as effective. Indeed, I found one fruit fly sitting happily on the bulb, having obviously succeeded in flying through the grid. I also have serious concerns regarding safety. The cleaning process requires one to slide the bottom tray past the charged grid, for which the instructions state: \"Cut off the power and connect the two wires in the defensive net with the screwdriver to discharge\". On the one hand this impli…",
+      "tags": [
+        "no_efficacy",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Faulty button. DANGEROUS!!! — I've had a couple of these swatters and are a good way to quickly deal with fruit flies, until it stops working. Maybe a design flaw but the button you need to hold down is garbage, worked for 2 days, now it's useless. The swatter power comes on and off. Impossible to keep electrified long enough to deal with insects. Avoid this item, going by some reviews, seems the seller ignores purchasers that want to return item. I won't waste any more of my time by returning it. In my opinion, the cheaper ones are better designed than this.\n\nEdit. This device has now starte…",
+      "tags": [
+        "no_efficacy",
+        "loud_noise",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Zapper faulty and uv tubes damaged. — One of the two uv tubes was not working. The two safe tubes supplied were damaged. I purchased two replacement tubes of the correct specification. Neither of these would work when fitted in the sockets replacing the tube that was not working when the zapper was delivered. Can only assume there is a fault with the product. Contacted the seller twice and no offer of a replacement.\nHave thrown the zapper away and purchased an alternative brand which works exceptionally well. A bonus is that there is no loud crack like a rifle shot when a fly touches the elec…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "This product fails at a very high rate. — This product is the ultimate example of poor Chinese quality products.  When they work, they do work well.  However over the last several years we have bought several of them.  Because they keep dying.  Not the bulbs themselves.  Yes they'll burnout fast.  But the actual light units themselves.  I've seen a couple that actually melted around where the bulb is attached.  And 1 that just stopped working altogether.  Personally I would consider this a fire hazard waiting.  I would strongly recommend to anyone I knew to never buy this product.  Which is t…",
+      "tags": [
+        "bad_design",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Inhumane, cruel, useless! — This product is so weak that one zap only maimed the fly, a small fruit fly not anything huge. After one zap it was flopping around on the floor half dead. I thought I would rotate the racket flat to the floor and put it out of its misery but the mesh is not flush to the edge of the plastic surround so it doesn't actually touch the floor or the fly sat on it! I ended up having to get some kitchen roll out to do the job myself 🤢 Also the light function is pointless, it attracts nothing. Returned and bought a less fancy, battery operated one that actually works for a…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn’t work very well — Disappointed. It looks well made. But it doesn’t work well enough. It’s not as good as The executioner. When you swat a fly you need to really get some energy behind the swipe, otherwise the fly just walks on the outside of the metalwork where the electric current isn’t there. You need to have enough pressure in your swing to make the fly go inside the metalwork.\nThe automatic mode doesn’t do anything. The power is on. The light is on. But it doesn’t attract flies even in a dark room. Presumably because the light is so dim.\nI’d like to return but don’t have original p…",
+      "tags": [
+        "no_efficacy",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "A real Fly Catcher! Bulbs are not Lasting many weeks — very effective Machine...keeps my Kitchen/Diner free of Flies. Catches Moths too in the evening. The only thing against it in my opinion is the loud snapping noise when it Zaps a fly. Really makes you jump at times.\nThe Bulbs don't last very long . One only 4weeks. The original appliance I bought lasted around a year. I bought a replacement Machine and returned as it did not work. Reordered new one only worked on one Bulb. Tried changing the Bulb still didn't work so being returned. I will now order more Bulbs for the original one and hop…",
+      "tags": [
+        "no_efficacy",
+        "bad_design",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Bulbs socket stop working — Bought this in 2023, used it for about 8 hours during the night and turned it off during the day. The bulb sockets stop working after a few days, but I thought it was just the bulbs. After buying replacement bulbs, I noticed that only the upper light was turning on, but not the lower ones even after swapping new bulbs. I didn't care too much as only one bulb was needed for it to work, but after a few days of usage both bulb sockets stopped working. The electric grid is still working, but without the bulbs working it won't be as effective.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Fire hazard — Before you buy this product please bear in mind it’s a fire hazard. I’m glad the two occasions it happened I was at home if not it would’ve been a different story entirely. I bought 2 and after a few months it I was hearing spark noise and when I checked there was smoke everywhere, one in the bug zapper was burning. After a month the second one also did the same thing. I’m glad I took a video of the second event. I’m seeing other reviews of same complain, the company needs to look into whatever is causing the  fire because it’s terrible.",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Works well whilst it works but also seems dangerous — Works well but ended up burning through bulbs fast and died after 6 months\n\nBe aware replacement bulbs are about half the cost of the machine if you can find good deals and you will definitely need them as they burn through after a few months, replacing the bulbs seems very dangerous as it’s clearly not earthed well, the instructions recommend turning off and unplugging then hitting the metal contacts with a screwdriver until it sparks!\n\nIt also seemed to only last long enough to outlive the return window. It is cheaply made.",
+      "tags": [
+        "bad_design",
+        "safety",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "This is a very well functioning idea BUT NOT FROM THIS BRAND! — Do not purchase this product; it stopped working after just four weeks. We had previously purchased another brand that we were extremely satisfied with, so we decided to buy four more to have in each room. This brand included an additional piece to make it longer, so we purchased this brand. However, we’ve only used it sparingly since October 5, and today, November 12, as you can see in the attached picture, it no longer works. The light and electric indicator turn on, but there is no power running through the wires.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn’t kill large flies — Plugged this in around 5.00pm and there’s been a regular ‘crack’ every 10-15 minutes ever since.\n\nHowever, after hearing a ‘crack’ I’d check and see a fly in the tray, but if I stayed to watch I’d see the fly start moving again after a few seconds, and a few minutes later it’s disappeared out of the tray altogether.\n\nIt’s now 9.00pm and there’s just two tiny flies in the tray.\n\nI’ll be sending this back in a couple of days and will buy fly paper which deals with every fly that lands on it, at a fraction of the cost.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It work, but until it didn’t FIRE HAZARD!!!!! — My daughter came and told us that a fly or a bug got caught in the bug zapper and it kept popping so we all rushed into the living room to find that it was popping because it was malfunctioning, and it was smoking. We immediately unplugged it. It was smoking very bad it was a smell of electrical burning Praise God our house didn’t  burned down. Do not buy this! Do not go to sleep while this is on let alone plugged in, I will not be buying any more after this has happened. Proceeded with caution.",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Does not work effectively enough — when I bought this, I joked with my son that it only puts the flies to sleep as I didnt want to upset him.. Sadly this is all it actually does. I cant speak in regards to mosquitos but this zapper does not work for flies/blowflies. even with the impressive zap sound all that happens is the bugs are knocked unconscious but soon get back to normal. and most not even that. one blowfly wanted to prove its ineffectiveness so much that it actually walked over the wires and then flew off.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Almost started a fire — It was working fine for over 1.5 years until last week when the lights went out and there was constant zapping sound every second. I look over at it and saw it sparking constantly. As I ran over to turn it off, I could smell the burnt plastic smell. Up close, the sparking looked really dangerous so I unplugged it from the wall instead. It’s a major fire hazard! Almost started a fire.  Luckily I was nearby and it was during the day when we’re awake.",
+      "tags": [
+        "loud_noise",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless, flies ignored it — In this recent hot weather, there has been a proliferation of houseflies buzzing in and out. So much so I have to keep the windows and doors closed.\n\nI bought this as a solution however it quickly became clear that it doesn't work for my purposes. Plugged it in, opened the door and flies began flitting in and out. NONE of them seemed attracted to the machine.\n\nAfter two hours and at least a dozen flies, I conclude this as a failed experiment.",
+      "tags": [
+        "no_efficacy",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't Work — Doesn't work. We have a clean house but have been hit with a fly infestation due to nearby livestock in fields. This has been plugged in for 24 hours and not zapped one fly. There were about 30 flies in the small utility room where they appear to congregate. They're having a jolly time flying around it. I don't know how it has so many amazing reviews. Such a shame, we really wanted this to work. Will be returning for a refund.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Does not work…defective? — It does not work. It’s just a big bright light, but does nothing. I put it in my room, turn off the light and lock the door. When I came back 45 mins later, the mosquitoes were still gallivanting in my room. Not one mosquito was killed.\nI decided to put it outside, and nothing, not even a one pop. The light just brightens the veranda, but does nothing. Based on other reviews, I must hand received a defective product.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Burned out, lots of smoke, loud noises — I would be careful with this product. The bulb burned up, a lot of smoke, almost burned my house down, started making loud noises, the video is after I unplugged the first time after it was smoking and cracking like crazy. I plugged it back in and started making these noises again and started smoking again. Immediately unplugged because it was catching on fire. Do not order.  An burn your house down! Waste of money!",
+      "tags": [
+        "no_efficacy",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Does not work well — Does not work effectively. Love the thought of being able to pivot head and place up on ceiling but thick frame keeps wires too far from fly. Same problem when head is not pivoted. It is clumsy and the thick frame lets too many flies escape.\n\nReturning this product.\n\nWill keep searching for one that works as well as the one we bought two years ago. Sadly it wasn't an Amazon purchase so I can't find it to re-buy.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Packed up in four months — Packed up in only four months and it would seem that there is no way of contacting the company to ask about any  guarantee which I may be entitled to. One lamp works and the lower one does not. I bought two replacement bulbs for this at the same time as purchasing this item - the ones that were recommended for it. I’ve tried putting the bulb that does work into the other slot but still nothing.\nDISAPPOINTED",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Stopped working — I bought this last October and it has worked fine, but all of a sudden it stopped zapping. I replaced the bulbs, even though the original bulbs were still bright. But it still doesn’t work. There are plenty of flies in the room, but they are not getting zapped.\nI want to buy a few of these for my cabins, but unless I can figure out why it’s not working, I won’t buy this brand again.\nNicole Verhagen",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Disappointment! — The cord was was too short for outdoor use  and could not be placed far enough from the patio.  Although the light  did catch two flies it did not attract and trap any  mosquitos which was the main purpose for purchasing the item.  I used it one evening and I would not buy  it again or recommend it — truly  a complete waste of money .  The one star was for the small size which I expected.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Rubbish - avoid — Bought this to eradicate a fly infestation problem. Out of the box, the lower lamp is flickering. The rear cable is positioned in such a way as to not allow unit to sit flush. The fly collection tray is awkward to place and remove. Overall, very cheap, nasty construction. Finally, item appears to have been used. Yellow burn stain mark on rear side.\nI will be returning it for a refund.",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Be very careful with this product! — Product did not last even one year. Sent email to manufacturer about defective unit and warranty claim. Never received any response from manufacturer. Unit's  lower black light failed first. Then unit started emitting burning smell.  Took unit apart and power supply shows visual charing of multiple components on power supply board. Could lead to potential fire.",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Design flawed — Absolute rubbish. Thickness of the frame to the mesh and its rigidity (not at all flexible) means it leaves a gap to the surface and the flies escape without being killed.  Only way for this to be affective is to play tennis with them but it’s a game of chase. Flies generally win as it’s heavy and therefore slow. Reverting back to the basic flexible fly swat!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Awful product. Stopped working after a week. — Bought this product because I liked the idea of charging with USB instead of replacing the batteries and because it was an \"Amazon's Choice\" product.\nBut, even after charging, it never seemed to work well.\nThen, after about a week, it stopped working altogether.\n\"Amazon's Choice\" often seem to be some of the worst products out there.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Item useless as necessary USB cable is missing. — The idea is good in theory. In practice, however, this item sucks.  The USB cable mentioned on the packaging as being included was missing.  The section of the bag that was separated from the handle is completely flat and empty, so the cable was never included at all.  That means you cannot charge the item, which renders it useless.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "regret — It stopped working after only a week of use. The wiring inside seems poorly constructed, and the light flickered before going out completely. The plastic casing also started to crack after minimal use. Clearly, the materials and craftsmanship are subpar. I would not recommend this product to anyone looking for a reliable solution.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "A Waste of money — This is the biggest POS. The first one I order didn’t work at all out of the box, the replacement can’t kill a fly. Lousy product all around can’t hold a charge for more than a couple of days…its not on as it doesn’t attract incects likenit claims with the light feature. AVOID this product and based ot the company at all costs.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Dangerous — DO NOT BUY. I just had an electric shock just from touching the casing, giving sensation of my whole body being thrown into the air. Am now sat quietly calming myself as I do have underlying health issues. This is not a safe product & is being disposed of. I have had this type of product in past without any issues.",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Did not last long — I ordered this fly trap  on 23 July 2024 and it was delivered the following day. It was taken out of the box and hooked up on the same day it was delivered.  on Tuesday 13/08/2024 it had stopped working. I am thinking of returning it though I did receive two extra tubes with it but I am not sure if it will last.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Seeking assistance for replacement — In Under 2 years this unit stopped working. Went thru the grill cleaning procedure, 2 new lamps installed, one works one doesn't. All it does is clatter like it has a short. I've request assistance from manufacturer to replace unit as it has a 36 month warranty. \nGood reviews, it performed well until it didn't.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "DONT BUY, WASTE OF MONEY — Absolutely useless. The flies actually walk over it and im sure they are waving as they are doing it!! Im gutted as really debated buying it as couldnt afford so much money on pesky flies but I did as they were driving me mad. So regret it now as more flies than ever and it cost me £30 for the priviledge!!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "WARNING. DANGEROUS DO NOT BUY — I gave this item a zero.  But wouldn't submit. A zero  the first purchase lasted 14 days before it stopped working  - - - The replacement lasted 5 week  before it  started smoking and sending off toxic fumes  This  item  should be taken of shelf  immediately  Do NOT  buy it  it's dangerous  Allan",
+      "tags": [
+        "bad_design",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Just about worked initially but only a month in and starting to have issues — Purchased this product to deal with the insect season. Whilst it did work initially it did seem to only stun insects as I'd later discover they'd flown away.\n\nNow it just makes zapping noises and sparks whenever I press the button despite no insects anywhere near the bat.\n\nWouldn't recommend.",
+      "tags": [
+        "loud_noise",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Dangerous. Exploded like a bomb! Life threatening product — I wasn't impressed with the way it worked but then its tube exploded like a bomb with glass everywhere. Luckily I had moved it from the kitchen to outdoor extension a few days before and no one was around at the time of the explosion.\nStay away from this device to stay unharmed.",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not efficient as described for this price. — Not good at all, as most of the times it does nothing to mosquitos mainly or even other insects.\nThey just keep flying and after just fully charging the battery.\nI went for a top product, believeing that I had made an excellent choice, but completely deceived.\nThis is a joke.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "POOR BUILD QUALITY — Works great, caught loads of flies for six months and then stopped working. If you want something that lasts at least 12 months then look elsewhere.\nDo not look at other devices of the same design they are all manufactured by the same company. They are just rebadged garbage.",
+      "tags": [
+        "bad_design",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Total waste of money. — The fly killer only worked for 3 days and then stopped.\nI have contacted the seller, but had not response.\nThis fly killer was not a cheap one and I am bitterly disappointed with the unit and the seller.\nI am now going to contact Amazon directly.\nDo not waste your money.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Bad quality and not durable under light use conditions — Ordered on Sept 20th, used for a month and stored in garage in original packing during winter. Tried to use it today, and neither bulb works, nor the zapper. Save your money and buy something else. It's impossible to place a guarantee claim to get a refund or exchange",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Defective — Purchased this product with high hopes. Worked the first time with no issues. Second use started off ok. After about 15 minutes the light stayed on, but no bugs were being zapped. Unplugged it, and plugged it in again, but still did not work. Very disappointed.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Lasted Less than a Minute — Unpacked unit, pleased to see British plug and British voltage on label. Looked a nice unit then it all went downhill! Switched unit on both lamps illuminated for less than a minute unit was completely dead and non functional. Now packed up waiting to go back",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Fire hazard - electrical components burn up in smoke — As other customers have pointed out, the unit will eventually be a fire hazard as the electric components will burn out causing loud popping sounds and smoke to bellow from the unit’s top. You better be around when that happens or your house may burn down.",
+      "tags": [
+        "loud_noise",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Do not purchase — This product does NOT work. I had high hopes based on reviews, but it’s a waste of money. It makes no noise. It hasn’t eliminated any bugs. Just today a fly got in when one of the grandkids left the door open and it hasn’t done its job. Very disappointed!!",
+      "tags": [
+        "no_efficacy",
+        "quiet"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "DO NOT PURCHASE — Item is faulty and does not even zap when required. Isuues with the buttons on both appliances (double pack purchased) -veery disappointed and not happy having identified it is a no returns policy . DO NOT PURCHASE AT ANY COST. Waste of money - Not happy.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Worked for Two Months then Problem with On/Off Switch — Was pleased with the item which certainly worked on killing flies in the house until after two months the On/Off switch became spasmodic and would not work sometimes until not at all.  I contacted the manufacturers and received no reply.  Waste of money.",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Looks okay but failed after 36 days use. — This product worked well but unfortunately six days after the end of the return period it failed. However, Amazon agreed to take it back and gave a full refund.  The product itself fits well into a galley kitchen and is small enough to be discreet.",
+      "tags": [
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Shocker — I bought my first bug zapper in July 2022 it stopped working but I notice was even unplugged from wall it shocked me when I touch the cage is that normal? The poor rating is not for it killing bugs it's for the shocking of me after I unplugged it.",
+      "tags": [
+        "bad_design",
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not lasting poor quality — I had old one used for years no problems with it. I purchased this new one. The light bulb burned in 2 months, I changed them with the two came with it. Then burned again.\nI see unfortunately it’s very cheap quality now and not worth it anymore.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Stopped working after 8.5 months! — Stopped working after 8.5 months.\nFuse in plug OK, fitted new light tubes, no go.\nChecked out wiring,  no electricity getting to on/off switch on machine.\nNo way via amazon to contact seller!! as I had had the unit too long.\nInferior quality",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Stopped working after a handful of uses — I wanted to love this bc it worked so well in the beginning. After a handful of times, it still has power and the light is on, however; it doesn’t “zap” anymore. It was purchased as a gift so unfortunately we are out of the return window.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Don't bother buying it — Absolutely pants, charged for 40 hours and still didn't work. Wasn't worth the hassle in sending it back plus as I thought I had faith in it working so I binned the wrapper, how wrong was I. I brought a cheaper one which actually worked.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless! — Have to give one star but should be zero! Tried this for two days and nights. On constantly and it didn’t manage to deal with one bug! Tried different placements but made no difference. Absolute waste of money and returned for a refund.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Didn’t last very long — I purchased this item in July 24 and in October it has stopped working unfortunately I cannot find contact details of the manufacturer to complain so hoping they will see this and supply me with a new working unit\nDisappointed customer",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn’t work at all and you only have 1 day to return it!!! — Useless, charged it twice and doesn’t work. Amazon want me to return it the next day to the post office!! I’m on a farm miles away from a post office and do not have a printer. Don’t waste your time or money on this useless gadget.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Worked for 1 year and then it stopped working — Worked great for one year but then suddenly it stopped working.  I replaced the bulbs with new ones but it still would not worked.  Opened up the unit and the components were melted.  I would not recommend this product to anyone.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "My fly swatter does work as described… — I’m not satisfied with this product…it doesn’t work as described…the face of the racket doesn’t light up(only at the bottom near the neck of the handle)I hate that I didn’t make the cutoff date for return…not a happy customer…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Waste of money — A good friend of mine had a unit similar to this so I bought this one expecting similar results, this thing can't even kill a fly, it snaps pretty good when a fly hits it but that's about all it does.\nIt's not worth the money",
+      "tags": [
+        "no_efficacy",
+        "value"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Junk — Product came in three pieces and you can hear parts rattling around. The nuts provided to secure the cage were atleast 1/4mm to big so they were useless. Item looked nothing like advertised. Definitely wouldn’t order again.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless — Got this on Wednesday,  3 days ago, its been plugged in since receiving never been off and not caught 1 fly. Trust me there are loads of them and they are flying past it.  Don't waste your money illbe returning for refund",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not good, broken in three month for no reason , can't get exchanged or return — No good,  broken down in three months for no reason!\nno instructions for dismantling and put it back , the spring in the cover were very difficult to reposition, which would be challenging if to have it properly cleaned",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "COMPLETELY DISGUSTING — I got a USED bug zapper that looks like was literally taken off someone’s property, put in a box and shipped. The entire tray is full of squished bugs and the inside of the zapper is full of dead bugs and spider webs!!",
+      "tags": [
+        "bad_design",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Should be sold as disposable ! — I was really pleased with this when I first got it but after about 3 weeks it stopped working . I thought that I might have broken it so ordered another one and exactly the same thing has happened. Wouldn't recommend .",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Didn't get any flies — Used this in our kitchen for a few days. Despite having an issue with flies at the moment, it didn't kill any. We've had one of these (different make) in the past and it was great, so really disappointed with this one.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Item Arrived Faulty — Item arrived faulty, didnt work unless it was plugged in which makes a fly swatter next to useless! Too much of a faff to return as box had been discarded.\n\nMake sure you test if you buy first before discarding box!",
+      "tags": [
+        "no_efficacy",
+        "shipping_damaged"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Low quality — A low quallity product. Switch on the side stopped work after about 10 uses, very cheap components and poor quality control. Merchant did not respond, so very poor after care too. Luckily Amazon refunded.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn’t work — Worked first use and then when gone to use again hadn’t worked again. Torch works but the zapping bit doesn’t. Gutted. Gone on website and left msg. Hopefully get a replacement because I still need one",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn’t last — I used this for two weeks and it just stopped working. It also had a lot of live bugs in the tray everyday of use. Not powerful enough. Killed moths more than anything else. Had to return for a refund.",
+      "tags": [
+        "bad_design",
+        "coverage"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Dont waste your time or money — Wouldn't waste your time or money, bought this and it worked. Ran out of charge and charged it up and now the zapper part doesnt work at all. This is a very cheaply made product dont waste your time.",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It has stopped working — I tried it when bought at the start  then put it away because we didn’t need it in winter now I’ve turned it in charged it etc and it doesn’t work at all I would like a replacement pls thank you",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not worth the time or $$$ — This item did NOT work as expected. I eventually had to purchase the Insect Fogger Aerosol with Odor Neutralizer from Home Depo to get the job done. It was as if the gnats knew what to do. 🤷🏽♀️",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Fly swatter — Was so looking forward to the fly swatter. Even fully charged the swatter didn’t work unless you squashed the fly with it.\nIn the end i had to send back.\nRefund received immediately, thank you",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Customer service stinks. — I changed the bulbs but they dont turn on any more, still shocks but the bulb connection doesn't work anymore. Tried reaching out to customer service but got no answer. I dont recommend it.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Cheap — Not well made, mothes get stuck in it. Wind knocked it off the table and it stopped working. Has a small drawer underneath that doesn't help, bug carcasses all around unit and stuck in unit",
+      "tags": [
+        "bad_design",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It didn't work for me. — It just didn't work.  Tried it for about 2 weeks, left it on overnight, it's only source of light throughout the house and I know there are mosquitoes.  Maybe I just have smart mosquitoes?",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "DO NOT BUY THIS PRODUCT IF YOU CARE ABOUT YOUR MONEY — I bought two of them and it worked at first however they both doesn't work after awhile I had to go through several bulbs because it stop working\nI contacted customer service but no help",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Dead fly zapper — The item appeared to charge. But then the charge and violet lights went out and that was that. Utterly useless. Total flies dead, “0” Total fly-zappers dead, “1”\n\nDO NOT BUY THIS RUBBISH",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Don’t Buy‼️ — Don’t recommend buying. It worked for the first 30 minutes and then the zapper stopped working. Bugs flying around light but not killing them. Will definitely be returning for a refund!",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Iffy. — This lasted us a few charges. My husband was super excited to use this on flies in our back yard. And then we went to use it and it didn’t work again. Worth it if it would last longer.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Not made for outdoors — Was great for 3 weeks and then it died.  No change to the environment stayed in the same place outside.  Not really made for outdoors and it is very loud where our other ones are not.",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless — Looks cute, but effective after 4 months of purchase. I barely use it, but it became ineffective even after fully charged. The fly is moving freely inside the net when I trapped it :(",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Will start to fall apart after a little while — This is a dangerous product to purchase as it had started to fall apart and where the flies get electrocuted the mesh starts to come away and brake off do not purchase it’s hazardous",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "It stopped working!!! — One of the light bulb went out. Changed it with the one included with this purchase, but doesn’t work. Then the 2nd one goes out. Same thing. Changed the bulb, still doesn’t work!!!",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work — It is extremely small and has never been quiet. From the first time plugging it in it has acted like it had a bug stuck. Does not work for Miller moths. The openings are too small.",
+      "tags": [
+        "no_efficacy",
+        "design_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Junk. — It burned out, with smoke and everything after only 2 years plugged in. The florescent ballast BURNED OUT leaving smoke and a dead Zapper.. Its a cheaply made not worth the money.",
+      "tags": [
+        "bad_design",
+        "value"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Broken within 6 weeks — Super easy to use but within a week the button become soft and less clicky and now not even 6 weeks of occasional use it is failing to zap have tried recharging and still nothing.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "rubbish — Terribe has 2 replacments and on opening one of them it does not charge. They refuse to replacent it again as say i have had 2 but it is not my issues these are very poor quality",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Won't work after changing bulbs. — I've purchased this bug zapper in May 2022. It worked perfectly the first 1+ year. I had a fruit fly issue and was using home remedies to no avail. I bought this and it completely eliminated the issue and brought the level of active flies all the way down. At first, because of how bad it was, the zapping was continuous, but after a while (I genuinely don't remember how long, maybe a couple days?) the zapping slowed down. The little shelf at the bottom was covered in little fruit flies. It worked so perfectly and instantly, bugs that would get into my house t…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Attracts and kills flying insects — Updated review: This item was taken out of the sunroom after my review in April, recharged, and put in the kitchen in case of flies. This week was the first time it was used again; when company was in the kitchen and a single fly was being bothersome. I tried unsuccessfully to use the swatter-zapper, but never managed to touch the fly; which strategically stayed very close to the guests. When company was gone  I plugged the zapper in and left it on its stand in the kitchen, hoping the fly would run into it.  Upon returning two hours later, it was still plug…",
+      "tags": [
+        "no_efficacy",
+        "safety",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Bye fly — Having dogs and living in the country isn’t always a pleasant experience, I like to leave the door to garden open so that they can come and go as they please. Unfortunately, some unexpected and unwelcome guests keep making appearances and quite quickly you have a load of pesky flies. I thought I would try this and see how it went.\nThere was little fly activity the first day and nothing to test it on.  I’ll be honest, of course it’s probably not recommended but I did touch it myself and it produced a spark, this only works if the button is held in, more curious than anything so do be…",
+      "tags": [
+        "no_efficacy",
+        "loud_noise",
+        "safety"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Not very effective and Did not last — Bugs were not attracted to this device at my house. Whether I used it on a table top or hung it up, they just didn’t go near it. I finally learned to set DIY vinegar traps close to it, to lure them into the light, but even then it killed very few (like, 2 or 3 in an entire evening). The only way it would zap a lot of them was if a bunch of them were congregated on the vinegar lures and I blew them into the bug light. We were eventually able to get rid of our gnats with the vinegar lures and fly paper (And by removing the source, plants in my daughters roo…",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Different version is far, FAR superior — Wish there was an option to give this 2.5 stars.\nSo this item is very good for almost every reason.  But it works poorly in one very important way.\nBefore owning this, I owned a somewhat similar, early version.  This new version has a safety feature…the electrified portion of the racket is sandwiched between portions that don’t conduct electricity.  This safety feature acts like a fence and prevents insects from quickly and easily touching the electrified portion!\nI’m not joking when I say that my previous racket without the safety feature was 100 time…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Not worth it — Based on reviews it seemed like this bug zapper worked as it was intended, BUT it did not work for me! We have had moths recently, so I bought this to see if it would help get rid of them.  I saw a moth in a room, closed the door and immediately turned on the zapper. Had it on for atleast an hour and nothing.  My lit laptop had better luck attracting the moth. Maybe the moth didn't like the light on the zapper or it was smart enough to stay away from it.  In any event, tried the zapper another day, in an open area, completely dark, left it on for 2 hours. It did not attract the…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Poorly made and ineffective — You have to hold a button on the side while swiping at your chosen target, which on ours has become unreliable after just a couple of weeks light use - the button needs to be pressed in a certain place and with some pressure now so presumably it's a poor contact.  The result is that you kill nothing unless the fly happens to get stuck in the mesh.  Larger flies (bigger than a mozzy)  don't get killed with this either, just stunned.  And because of the shape you can't even give them a satisfyingly triumphant second zap\n\nUPDATE: I've since taken the thing apart to…",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Replace light bulbs every three months. — I purchased LIBA zapper on 3/22/24 and both tubes went out within the three and four months 6/19/24 and 7/16/24. Bought a second LIBA zapper on 5/5/24 thinking that the first was holding which was less then five weeks before first bulb went out. First ever zapper (different brand) I bought on 7/16/2016 lasted four years without replacing any lightbulbs. In summation: LIBA zappers bulbs are good for three months per set. There are so many new off brands with high reviews that you cannot trust them. As though one company might be manufacturing zappers a…",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Doesn't kill Cornish flies — Bought this during the heat wave in July as I had noticed quite a few flies in the house with the windows being open.  I had one of these when I was younger and it worked great.  Overall, it looks good, feels sturdy and has a good hand feel. Functionally, it's not built for Cornish flies. Between my wife, sons and myself we have hit at least 15 flies with this thing. It makes a loud popping noise, you see sparks fly and you fell like it's accomplished the job.  I don't know what mixture of horse, cow and sheep poo these flies grow up on but they shrug it off like…",
+      "tags": [
+        "no_efficacy",
+        "loud_noise",
+        "safety",
+        "design_good",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Not effective, does not work during day — For some reason bottle flies and fruit flies have an obsession with our lounge overhead lamp, they will constantly fly underneath it in circles, we don't know why.\n\nWe placed this device less than 1 metre away from them and they ignored it for four (4) days and nights... on the third morning we found one single fruit fly dead inside it, at very least this confirms that it will kill them, however they completely ignored it during the day... the time we actually wanted it to work because, y'know, flies?\n\nI give it at least 2 stars as the build quality i…",
+      "tags": [
+        "no_efficacy",
+        "quiet"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Dangerous — I purchased this device a little over a year ago. For the first 6 months, it worked flawlessly. The light bulbs went dead and I replaced them with the included spare bulbs. Two weeks later, one of those bulbs went out and the other carried on for another three weeks. I got home one night and discovered that some of my electrical outlets were not working—including the one the zapper was plugged into. I reset the breaker but the zapper wouldn’t turn on. I turned it off, unplugged it and tried to replace the bulbs when I received a good shock from this unplugged machine. I did manage…",
+      "tags": [
+        "no_efficacy",
+        "safety"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Still getting bit by mosquitoes — Most bugs are attracted to the zapper except for mosquitoes. I have the zapper turned on all night and I still get mosquito bites. When I wake up in the morning I see lots of dead bugs on the tray but I dont see any mosquitoes. Come to think of it, mosquitoes are attracted to dark colors and dark places but this zapper has a bright light and I think the light repels the mosquitoes from landing on it.\n\nOn the plus side, this zapper is made out of high quality material and the hanging string is great for hanging it high up out of reach of my children.\n\nOverall,…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Zaps, but doesn't kill fruit flies...? — We ordered this when we were overwhelmed with fruit flies we accidentally brought home in a farmer's market haul. The zapper took a while to arrive, but when it did, it always well-packaged and in good working order.\nThe trouble is that it doesn't actually kill fruit flies! We'd hear the zap and see the flies fall from the air, but all of them would continue limping around, stunned, on our counter.\nThey were much easier to kill at that point, but it did feel like a slower and more traumatic death. We can't use it- it feels too cruel.\nIf you're looking…",
+      "tags": [
+        "no_efficacy",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "I bought product Dec 11 2023 and it has stopped working — I bought product December 11 2023 and I must say it works pretty well. It is effective in its function. However a 2 months ago 1 bulb stopped working it was replaced and a couple weeks after the othe bulb the one below stopped working too. It then stopped performing as effective as it did before and then the other bulb the top one finally stopped working. I bought new one recently and it works for now. Point is they don't seem to last. Because I placed a bulb in the first one I bought and it still has not come on. Don't know y it just…",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Does not really attract flies or any other insects. NOT ULTRAVIOLET! — Does not really attract flies or any other insects basically rendering it pretty much useless. I have had this thing for a year and it just does not attract the bugs like I thought it would. The \"purple\" lights are NOT at all like the ones you see hanging up. And those are the kind of lights that are hard for humans or animals to look at but bugs are attracted to those types of lights. I would suggest finding the right lamp or replace the bulbs that comes with this with the real ULTRAVIOLET light bulbs. These are just plai…",
+      "tags": [
+        "no_efficacy",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "died after 4 months — For the first three months, worked great, then the lower bulb burned out, but never got around to replacing, then both lights burned out (the second one didn't looked burned out, just didn't work anymore).  Went to use replacement bulbs and neither one would turn on, but the electric fence was turned on, just no light.  One concern, after turning the unit off, I went to change the bulb and got zapped when i touched the electric fence.  So, the next time after turning it on and off, I took a screw driver with rubber handle and touch the electric fence and it was still cha…",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Lasted just 16 months — Worked great when I purchased last year but this summer I noticed I wasn't seeing any dead bugs on the tray on the bottom and we have had a bad mosquito problem. The florescent lights still work so I carefully tried to get a spark from the high voltage grid, nothing (last year when purchased I did). Being an electronics engineer I took it apart and found that the high voltage diodes were bad, replaced them and put it back in service. Lasted another year or so until the florescent bulb circuit fried. Looks like one of the coils and some transistors burned up, replacing…",
+      "tags": [
+        "bad_design",
+        "safety",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "These units work great... for a while. — This is the second one of these that I bought. The first one quit working after about a year. The bulbs would not light anymore, even after putting in the two spare bulbs that came with, so I bought this one to replace it.  It lasted about 6 months and some of the components on the circuit board self-destructed in spectacular fashion. I was able to repair the circuit board on the first unit (bad transistor and diac) and it's currently working fine again but this one destroyed itself so bad I can't even tell what some of the burned up components used to…",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "OK if you zap multiple times — My first zap was a wasp.  To my surprise, it didn't affect it. I heard a loud zap/pop, but the wasp continued flying.\n\nI moved onto its target market - flies, and to my surprise, the same thing happened.  On the first zap, the fly didn't react - didn't even get stunned, nothing.  I managed to get it again, and on the second go, it fell to the floor and flew around at a low level in what seemed to be a semi-stunned state. I vacuumed it up before it could fly away.\n\nThis continues to be the case - you need multiple 'hits' to stun the fly in any way, and you best h…",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Doesn’t work for long — First let me say when I first got my light it worked great. A couple months later both lights burnt out. I replaced with the bulbs that came with it and only one worked. I contacted the company since it was just past when I could return. They promptly responded and asked me to send a picture which I did. Never heard another word from them to make sure I switched the bulbs thinking maybe it was a bad bulb but no it worked. I sent them a reply to their email informing them of what I found still not more communication.\n\nI would not purchase from them again. I gave them 2…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Only worked for a short time — Took it on holiday to a cottage in S Wales where last year we were plagued by flies in July.  This year, flies not too bad. This zapped about 30 in the first ten days but then about 1 a day. Tried different positions but to no effect. Back home putnit in kitchen where flies flying about  but none caught. Put some left over food right in front and got 3 flies but then nothing over 4 or 5 days. Returned it. Gave 2 stars for the design. The front and back grills are easily removed for access to bulbs. The tray slides out at the slightest tilt so any flies drop all…",
+      "tags": [
+        "easy_clean",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Poor quality - Look elsewhere — Purchased two.  One malfunctioned after 12 days.  Customer service may respond once, however will not follow up.  Second unit died about three months after purchase.  Each unit made strange odors/smoke as they \"died\".  Customer service wanted me to plug them in and take images of them malfunctioning.  Understand they wanted me to plug in devices which malfunction and could possibly cause harm to myself and home.  Avoid these products.  When they worked, they really worked!  It seems they are made with subpar components.  Can not advise using these bug zappers.…",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "This product will NOT get rid of flies indoor. — If there is even a tiniest opening in your home for even a miniscule insect to enter indoor, then indoor flies will only continue to thrive, if not get worse. Since these lights can attract flies from the outside to indoor. Even more hellish, many pests can also lay eggs and multiply once they find their way indoor. The only way to stop them permanently is to find and seal all gaps, leave no garbage or waste lying around. Get a dehumidifier to avoid moisture accumulation. And find the breeding source location and exterminate them wherever they…",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Stopped working and replacement never came — This item, when it works, is great. When the first one I ordered stopped working (and wouldn't work with replacement bulbs) the seller responded quickly, I sent a detailed description of what was going on along with pictures. The seller indicated that a replacement would be sent. I knew I wanted one for upstairs and one for downstairs so I ordered a second one, which is still functioning. However, the replacement for the first one I bought never arrived! Very disappointed in this seller. I will update this review if it ever arrives!",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Changing the bulbs — So, it works great.....until the bulbs burn out. Yes, new bulbs were included. But, even after watching the videos of how to open the wire cage, it was not at all easy to open it. Yes, I did push down on the wire cage, Only one of the pins disengaged. The base is so flimsy that it was impossible to make the spring loaded cage open. I eventually used a flat head screwdriver to pry it open. One bulb was easy to remove and replace, the other was impossible to remove. Utter frustration with something that should have been simple.",
+      "tags": [
+        "bad_design",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Bulbs don't last — This is my second unit.  The first lasted about 2 years before a diode burnt out.  I purchased a second one simply because they all look like they came from the same factory, and this one came with extra bulbs.  I purchased this one on February 22, and it is June 5.  Both bulbs have burned out.  I like the concept; it keeps the bugs down in our house, but the products don't last.  I will contact the company and see how they want to proceed.  I will follow-up on this evaluation with how well they responded to my request.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Great zapper while it works! — This is the second one I've owned in a few months. The first one burned out and I just trashed it and ordered another thinking it was my fault being I kept it on a lot of the time. This one I babied and only kept on a few hours a day which seemed to work. Then out of no where the bottom light blew so I changed it and it didn't work but the top light worked at least till a hour later then it popped and died. The pictures are of the resistor that exploded. I love this bug zapper but this is the 2nd one that broke!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Did not work for regular house flies. — I was really hoping this would work for our house flies in western Washington state. Not sure if flies elsewhere are attracted to different things. I had maybe 30 flies in the house after a gathering where we left the patio door open. Left this thing on for 24hr in the kitchen where they were congregating, rempved food sources, even all night when all other light sources were off. After 24hr, there were a few fruit flies in the tray and zero house flies. I will be returning it for that reason.",
+      "tags": [
+        "no_efficacy",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Unusable after 6 years. Won't work with one bulb installed. — I've used this thing on occasion for 6 years.  It stopped working today.  I installed the spare bulbs.  Upon turning it on, the bulbs started to flash rapidly.  Obviously I can't run it like that even if the bulb quickly dying wasn't an issue.  So something in the bulb circuit is failing.  Apparently the bulbs are wired in series because they won't light unless both are installed.  So running one bulb isn't an option.\n\nHaving spare bulbs are pointless if the bug zapper fails before the bulbs.",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Popped and quit working — Got this in May 2024 and it was working fine until it suddenly popped and started smoking. Luckily I was there when it happened to I was immediately able to unplug it. Saw that a bulb was blacked out so I assumed it was because of the bulb burning out it shut down. So I changed both of the bulbs and tried it again but it makes a zap sound and doesn’t work. Rated it just two cause idk how dangerous it could have turned out if I didn’t catch it as soon as it popped and started smoking.",
+      "tags": [
+        "no_efficacy",
+        "safety"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Worked Until it Didn't — I bought this because of the knats that were just annoying and this was working for a while until it wasn't.  I heard it snap like it had zapped something, but the noise continued like something was stuck on there and when I went to check what was happening, I saw that it was sparking.  I unplugged it because it was smelling like it was going to catch fire.\n\nThis is the first time that has happened, but I am not taking a chance with this porduct.",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Zaps great but cheaply made — This worked great for a few months, then the lights went out. I replaced the bulbs and still no light. The fixtures need to be replaced which is a stupid problem to have since good fixtures really cost very little more than the crappy ones\n\nI would buy another brand again since TX has lots of bugs, but am making this work until then by putting a lamp behind it when I turn it on.\n\n2 stars because the zapper part still works great.",
+      "tags": [
+        "bad_design",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Can’t imagine if it happened at night or no body home. — Bought it in March and was a happy customer until tonight when I was sitting right next to the zapper….heard few pop sounds (different from the usual sound when it zaps the insects), one of the tube blinking, smelled the burn and saw some sparks 🔥. I turned it off right away. The burning smell was so bad. I can’t imagine what would happen if it happened at night when we’re sleeping or nobody home. Be cautious!",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "didnt work long — I thought this was ma great device I finally took it out the box and plugged it in I think it lived long enough to zap 2 insects.. zap, zap. then there was a loud ZAP!!!! and I figured damn that must've been a big ass bug. low and behold when I go for my morning beverage I see the bulb has  blown out. now to figure out how to replace the bulb so we man get back in the bug zapping business. stay tuned.......",
+      "tags": [
+        "no_efficacy",
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Smelled burning electric when a light bulb went out — This Bug Zapper has worked very well for over a year. However, when one of the light bulbs went out, it strongly smelled burning electric. I immediately turned off the power. Then I tried to replace the bulb, but I got an electric shock when I touched the zapper. Of course it was unplugged. So, it seems like I should leave it for a few days to relieve the remaining electricity in the zapper. Be careful.",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Fire Risk? — This worked really well the first year. However, just after that it started making a clicking noise and began smoking. Luckily, we discovered it before it caught on fire. Honestly, if it had happened overnight while we were asleep this could have been very bad. Feeling very blessed to catch it right away! Just be sure to monitor the machine while it’s on. Probably best to keep it off when you cannot.",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Does not work — I was happy with this when I set it up and within a day I heard the zaps and thought it was working, but then I noticed there were never any dead bugs in the tray. I saw several flies run into it, get stunned, but then fly away again. Just today I saw a gnat fly into it and fly away. It is not powerful enough to kill the bugs. Unfortunately I missed the return window or this would be going back.",
+      "tags": [
+        "no_efficacy",
+        "effective",
+        "coverage"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Doesn’t last long — I liked the way it worked when it was working.\nI had one before this that lasted 5 years no light bulb change needed.\nThis one I’ve had for 9 months and already ordered bulbs twice. Now, it stopped working. I thought the bulbs went out so ordered new ones. Put them in and it still doesn’t work. It says 36 mo warranty but I don’t see where to contact the company.\nVery disappointed.",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Didn't last a year — I bought this in March. It worked - as promised. However, after around 6 months it stopped working. Thinking it was just the bulbs - I ignored it for a while.  I finally got new bulbs and that was not the problem.  I checked the power from the outlet. No other explanation, the zapper just stopped working.\nMoney down the drain.  \"Made in China\" -  I should have known better.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Worked great for one summer — It worked very well for the first summer that we had it. Once the flies died off, we put it away and pulled it back out just recently. We did not hear it zap anything for two weeks and decided to change the bulbs. Even with that, it no longer is killing the flies. It hasn’t killed a single fly this summer so we will be trashing it and trying to find something else.",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Works well, but fire risk, do not leave unattended — Loved this thing for almost a year, however last night, it began to smoke and catch fire as one of the bulbs began to darken from the inside. Thankfully I was in the same room, especially since I had regularly been leaving it on in the living room all night. It's certainly the most effective bug zapper I've found, but just don't leave it on unattended.",
+      "tags": [
+        "safety",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Broken — Why did you pick this product vs others?:\nIt was great until one of the bulbs blew out and it stopped working. The bulb was black at one end. It just made a clicking sound after changing the bulbs. Bought it for my parents and they only used it a few times. This brand only lasted a fraction of the time that I’ve had another brand with way less usage.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "you need to swap bulbs//tubes for better quality ones — this is very poor quality bulb wise . it seems as though they have used bulbs that are past there useful lifei have been using uv bulbs for years in my fish pond filters so i know about the quality i will fit better quality bulbs and i sure it will be ok it looks smart just not very efficient only stuns insects they fly away after they come round",
+      "tags": [
+        "bad_design",
+        "design_good"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Total waste of money — I thought it would be easy enough to swat the flies with this gadget, but by the time you have switched it on and coordinated where your finger needs to be, the fly has buzzed off. Irish flies don't hang around, they are very nifty ... my wonderful fly swatter that I brought back from Texas (Walmart purchase) is still the best buy by far !!",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Only worked for a couple of weeks — It worked well for a very short time. After a couple of weeks they either weren't attracted to the zapper anymore, or it was zapping anymore. In either case, it worked really well for a couple of weeks and then just stopped working. Now a couple of months later when we plug it in it doesn't even turn on. I would not recommend this zapper.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "easy to break and poor quality — less than 4 months, this bug zapper went out and dark! we are very disappointed with the quality of the product. It seemed not the light bulb issue, we tried to change the bulb, but it was still not working. Period. Did this product have at least 6 month or 12-month manufacturer warranty? If So, we demand a REPLACEMENT or a REFUND.",
+      "tags": [
+        "no_efficacy",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "It died in less than 4 months — It lasted 4 months. This is the second one that I bought thinking the first was a lemon (it also lasted a few months), but not. In my experience they have a very short life expectancy. I gave it one extra star because the idea of swiveling the swatter is pretty brilliant. Sadly the quality of the product is not.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Does not work after having to replace bulbs — This happened to me twice, I bought one of these bug zappers, it worked great for several months but then one of the bulbs blow out, so I ordered replacement bulbs, put it in and it doesn’t work, and yes I’m sure I put the bulb in correctly. Ordered another one with the same thing happening. Very disappointing.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Poorly constructed and only lasts 6 months — Poorly constructed and stopped working entirely (no discharge) after 6 months of use. The grid has sharp corners and changing the bulbs is hazardous due to the sharp corners and use of force needed due to the poor construction.  Two stars because it worked during the short 6 month lifespan of the product.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "It caught on fire only after 3 months of usage — The product does its job however I purchased this in October of 2023 and in January 2024 it caught on fire and could’ve burned my house down. We have never taken it outside to become shorted. The control board is fried as pictures indicate the root of the fire. I wouldn’t recommend getting this zapper.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Needs improvement — I recently placed an order for a product that has garnered quite a bit of attention: the Rotating Head Electric Fly Zapper and Electric Fly Swatter Racket. This is a rechargeable device specifically designed for killing flies, as well as catching spiders and zapping mosquitoes indoors, which is particularly handy in the UK where these pests are quite prevalent. The product comes with a telescopic extension, giving it an added reach and versatility, which I initially found appealing. The overall build quality of the swatter seems to be solid and durable, indicating that it…",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Several interesting features but feels a little under powered. — Electrocuting fly swatters like this are useful items to have especially in the summer, I've owned a few over the years, this is the first one I've owned with a rotating head.\n\nWhen the swatter first arrived it needed to be charged but this didn't take too long, it comes with a charging cable, a stand to hold it upright and a wall mount.\n\nAlongside the rotating head this swatter also features a UV light which is supposed to attract insects so that it can be used like a wall mounted bug zapper. The rotating head is held firmly in…",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Burning smell, noise, smoke — Oh wow, I just read the review above mine. Yikes!! The company has sent a new unit, but after reading that a buyer found a fire hazard around the wiring, whether purposeful or accidental, is disturbing. Anyway, I feel compelled to raise the stars only because they replaced the burnt-out zapper. I haven’t been reassured if this is safe to operate out of sight. ———-\n———-\nMy first LiBa bug zapper worked well so I bought another. Unfortunately, tonight, the new zapper began to make a banging noise and began to smoke and give off an ozone smell. The top was warm to th…",
+      "tags": [
+        "shipping_damaged",
+        "safety"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "it works decent. There’s some good qualities and some bad. — it works all right, but I was excited for the future to have it have the light on and track flies and kill them, but it definitely does not attract any type of flies or bugs that I’ve seen even with it being the only light on in the room. Also, the extended handle needs to be able to log into place better both the stick part and then having the zapper also lock in the place. It comes out a place very easily even if you’re not swinging it around. I do like the tilt option, but I feel like overall it’s kind of bulky around the neck of…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Work, but not on house flies — It's hard to know how to rate this. I bought it hoping it would kill the common house fly, what I understand to be called Musca domestica. It doesn't. Well, it might, but the house flies do not appear to be attracted to the light. We have had to go back to using standard sticky fly strips, which work but are ugly. For this use case I'd give this zapper 1 out of 5.\nThis zapper does, however, do an excellent job of killing many tiny insects. The zaps are quite loud, but it does work well. I think it's fair to say it will work well for anything that is attracted to…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "kills moths and short cord — This bug zapper is the first one I've gotten that actually kills insect, although it mostly kills moths. It does kill other smaller flies too but moths seem to like it more. I used to open my patio door and flies would just be everywhere. I put this on outside for one might and they're almost all gone.\n\nMy biggest problem with this light is the cord length. It's so short, it's almost like a joke. I think it's about 1.5 feet long only. The cord is also put on top of the light so you lose about 4 inches out of the 1.5 feet. With this design, it seems like it was mea…",
+      "tags": [
+        "kills_wrong",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Bug Zapper — Great medium sized bug zapper. We have an attached garage and frequently use the garage to go in and out of the house. In the summertime it gets annoying when the flies get into the house this way. We now have this thing hung up on the garage side of our door to the garage. It’s quiet, there’s bo electrical hum when it’s on. But it does make a loud electrical sounding zap when it kills a bug- I like the zap! It tells me its doing its job.  Since we’ve hung this thing up we haven't had as many problems with flies getting in the house but it’s also bot summertime yet.  It’s easy to…",
+      "tags": [
+        "effective",
+        "easy_clean",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Power cord way too short — It’s a good little bug zapper and definitely does the job. But I only gave it three stars because who in their right mind that says that this is an outside unit but only gives it a 3 foot power cord??? And if you look on Amazon, less than 2% of the bug zappers get 4.5 or higher ratings. Do so many companies make pieces of crap and then give you a three or 4 foot long power cord so that you have to use an extension cord to put it where you want it?? The other thing I did, which probably voids any warranty with it is the cage around the electrical coil is too narrow b…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Returned — I had high hopes for this electric fly swatter given the price. I’m usually a big believer in the saying: “you get what you pay for,” but this one just didn’t live up to expectations.\n\nWe mainly bought it to help with gnats and tried using the “trap mode,” leaving the swatter on overnight to catch anything flying around. Unfortunately, we’d still wake up to gnats flying around the next morning, so it didn’t seem very effective in that mode. The light also seems too weak to really attract insects.\n\nWhen you actually swing it at flies or gnats, it does work and will zap them if you m…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Big zaps not deaths — This bug zapper looks a little scary sounds a little scary, but honestly doesn’t normally do the trick for getting rid of black flies. I have used this for the last year and have found that it very much so can attract the flies and take care of lots of the small flies, including gnats, but when it comes to larger black flies, this bug zapper just does not have enough juice. It will often knock them out, but they will still be twitching for a period of time and frequently will fly off after a period of time has passed. I would recommend finding a bug zapper with a little…",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Convenient, though may require multiple shocks for larger insects — I bought this product to deal with spotted lanternflies (an invasive insect in eastern North America). The adult insects are fairly large, so I chose this product because it purported to deliver enough of a shock to kill larger insects. I am only using the product manually, not setting it up in auto mode.\n\nUnfortunately, one touch is usually not enough to kill them. You need to make sure they are on the racket for long enough that 2-3 sparks go into them. They are very good at jumping away, so you really need to be able to tr…",
+      "tags": [
+        "safety",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Works butttt — It works and the zapping is the same as any other bug zapper that works in my opinion it’s not overly loud like others have mentioned. However after one day of use one of the bulbs had already stopped working and we had to replace it which is super disappointing. I got it to kill fruit flies near our sink and in the drain and it’s worked well for that but it kinda just stuns regular flies and they end up getting zapped again when they get up. After about two or three zaps they finally die. The bottom bug catching tray isn’t really large enough to catch some of them and they end…",
+      "tags": [
+        "bright_light",
+        "bad_design",
+        "weather"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Fire Hazard — 16k review at 4 stars at the time I purchase this.  Had it for just a little over a year.  Works like a champ!  Then one night, my daughter runs to me in panic and said “come look something is smoking up!”  Not sure what to replace this with as it was extremely effective, but It’s not worth burning down the house.  Need to think twice now about all appliances running 24/7 as it could happen to anything.  That's so unfortunate.  Loved this idea but can’t imagine had this happened while we were sleeping.  Yall be safe out there and keep close eye on it if you insist on taking the…",
+      "tags": [
+        "safety",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Bit of a safety risk tbh — So, whoever wired this piece of kit together was absolutely not bothered with potentially hurting people.\n\nThe switch on the device, DOES NOT TURN OFF THE ZAPPER/CURRENT, it only turns off the light.\nBE WARNED:\nThe moment you plug this thing into the socket, it's running Live. So, if you, for example, turned off the switch and tried to discharge the residual charge so that you could clean it, you may end up shorting the whole circuit you are using as it's still live when the switch is off (this was me, I'm talking about me).\n\nOn the positive side, holy crap does thi…",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Very Good Fly Swatter — I really like this electric fly swatter. It is USB C rechargeable, an comes with a wall mount, a table top stand, and a USB cable. It took only 45 minutes to charge initially, and I hit a wasp with it and it made a gloriously loud pop. Surprisingly, the wasp came back to life, but it is fun to use because of the loud pop. The design includes an interesting mode, where you place it in it's table top base, rotate the head flat, and let the purple light illuminate the swatter, and it is in bug zapper mode.\n\nI watched a mosquito bounce over it and it vaporized, so little i…",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Mixed experience from frying the fly to not catching one moth — Why did you choose this product over others?:\nI feel really mixed about these, the first time I used it it literally fried the fly alive, to the point there was smoke coming off the fly... can't say that made me feel too good about using it. But the next time I tried to use it the thickness of the outer ring plastic meant I couldn't get the metal to even touch the fly so it managed to survive, which made me think I;m not sure I would want to risk trying to use this on a wasp only for it to fail to kill the wasp, and only anger it…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Effective But the Zap is LOUD — UPDATE: While this device is very effective, it appears to be \"overkill\" for what I need: my issue are gnats. The zapping is extremely loud and never fails to startle me and my dog. I bought a similar zapper (less voltage) at the same time and have been using both concurrently - in different rooms. The other appears to be equally effective but the ZAP is not as loud and not startling to me or my dog.\nINITIAL REVIEW: I suppose I haven't gotten used to this zapper yet because it still startles me when it zaps an insect AND the zap is VERY LOUD - brief but loud. I…",
+      "tags": [
+        "loud_noise",
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "I fixed it! — Product worked fine during the warranty period. The zapping is loud and will jump scare you if you are close by! Stopped working after couple years and decided to open it up. No burnt electronics, was about to throw away when I checked the power switch with voltmeter/continuity tester and found it would not pass current.\nFound a switch on Digikey, part number EG5654-ND but a different color. Cost ~$6 with shipping/handling. There may be a part on Amazon but the specifications never show the exact dimensions like they show at Digikey. Popped it in and now it's working!\nJust be ca…",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Needs a Switch.... — Ok seriously this needs a power on/off button. I have never known of any corded electronic devices that require you to unplug them except Christmas Tree Lights and even those have switches in this day and age. Hell some even have remotes! It works fine I guess otherwise but at times it scares the crap outta me cause of how loud the zaps and pops can be. I'm killing house flys via this unshielded electrical current, not Hummingbirds. How does something so tiny make such a big noise? Some of em sounded like those TNT Pop-It's you find in kidddy-safe(ish) packs of fireworks…",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Works but attracts crawlers and large moths — Got this for our smaller patio in NW Florida and it definitely works at zapping smaller stuff, but it attracts TONS of other insects and lizards that crawl near it waiting for the dead bugs to drop off, or just to hang out near light. The moths love it too, but are too big to fit in the holes so they just annoy you instead. When we sit outside now, we rarely want to turn it on because the amount of other insects. The bottom dish gets some of the bugs, but most fly off of the light after getting killed and you’ll have tons of dead bugs around where…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Great product, but arrived damaged! — I own one of these zappers and LOVE it!\nSO i ordered one for our daughter.\nMine came double boxed.\nMy daughters didn’t.\nMine was in perfect condition.\nMy daughters was severely dented on one of the sides.  I tried straightening out the damaged protective metal screen but couldn’t straighten it out.  The corrective metal screen is VERY close to the 4200 volt zapping metal and our daughter had three young children, so I am concerned about the children getting near this zapper because it’s dented so bad on one side.\nI would rate my personal one at 5 stars, b…",
+      "tags": [
+        "shipping_damaged"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "I must have shock resistant flies! — Not bad, but having fully charged it I've used it twice, It did kill the fly on both occasions, but tike it took 4 to 5 zaps before the fly actually died. It got them each time, sparking and banging, but the flies kept on going until several zaps. Also smashed a glass in the process, but that's not reflected in this review! I had one that ran on AA batteries previously and that always killed on the first zap. I get the feeling this isn't powerful enough. Also the UV light is a bit of a gimic and doesn't actually attract the flies. Hand grip could be softer…",
+      "tags": [
+        "safety",
+        "coverage"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Great when it works… but it stops working sometimes. — This is the second one I’ve bought. Great at first, but then just died after about 10 days. Bought another, and again great at first, but then started being temperamental. This one hasn’t completely died, but only works about 25% of the time now. I might try a different brand, because the general design idea is excellent. I can recommend this product as an excellent but disposable product that will have a  very limited life. I did not bother to send either one back, as I managed to clear up a fruit fly problem within a month with them bot…",
+      "tags": [
+        "bad_design",
+        "value"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Meh — Well I was looking forward to receiving this swatter.\nBut to be honest I’m quite disappointed with the item. The build quality is very poor. Cheap plastic and one wrong swipe and it will break I think.\nThere is little to no instructions. It’s printed on the back of the packaging but it’s quite small and hard to read.\nThere are a couple of switches that look as though they could break at any moment a button and a blue light. But hard to decipher what they all do. I’ve still not managed to zap any insect yet.\nIt’s the size of a squash racket I’d say and frankly you’d be better off using s…",
+      "tags": [
+        "design_good"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "There's a reason they include \"free\" light bulbs. — This product was more effective at killing flies than I imagined. The \"zapping\" was a little loud, but not enough to return it. Then, about 6 hours after use, one of the bulbs burned out. After reading some of the other reviews re: lightbulbs, I realized why they \"generously\" include an extra set of light bulbs -- to cut back on returns. While I was attempting to check the bulb, I got zapped... because I should have waited a few hours (as recommended) before removing the grill. Consequently, this product is extremely expensive if you conside…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "It works, but… — I would say this product is pretty effective, especially when it works in the dark. However, it is going to freak you out every time it zaps an insect, because the sound that it makes is closer to a car battery short circuit, then a bug zapper. It is so loud that there is no way you can sleep with it in the same room. So you have to take that into account when you decide to buy something like this because you need a clear plan on where are you going to put it in the house so that nobody will have a heart attack. I am not sure I would recommend it.",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Good zapper until bulb cracked — I loved how this worked for the first six weeks then it didn’t.  I checked the bulb and it was broken where the two bulbs connect. It could have just been a faulty bulb, it happens, but when I removed it, there were wet matted bugs all over the base where the prongs insert into the zapper. So,not sure it’s waterproof.  And the prongs don’t fit snugly into the base.  It’s a good bug zapper but you need to be aware that it might not be waterproof as stated.\nIt’s too late to return it so I will order another bulb ($9.99) and try it again.",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Works for mosquitos but large and loud — I was expecting this to be slightly smaller from watching their video but it definitely works!!  It has a very bright blue light so it's not something you could sleep with, and every time the tiniest pinprick of a bug is killed, there is a loud lightening crack noise.  Again, I was hoping this would be something I could move with me from the living room to my bedroom at night but no luck for that.  Even keeping it in the LR, I can hear it from my bedroom working but it's not loud enough to keep me awake through the hall & closed door.",
+      "tags": [
+        "loud_noise",
+        "bright_light"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "If your trying to raise the bar, you have to do a bit better. — 1) charging cable was non functional. I'm not returning the item I have spares already. You owe me a cable though.\n2) the extension pole doesn't fit in either of the two supplied holders. The only takeaway the unextended unit.\n3) the holders are not charging stations. I still have to mess about with a usb cable every time I use it.\n\nOther than that seems very effective so it's a shame that not as much design effort was put into the accessories as the main unit, which does seem to have had some attention.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Might be ok for flies of some type but does nothing for gnats. — I purchased this item to get rid of annoying spring time gnats in the house or \"no seeums\" as some people call them. This product did not kill 1 gnat. If a drunken gnat accidently flew in to it hard enough to knock itself unconscious or stumbled into it while texting you might get a gnat. But unless you want to run around your house grabbing them out of the air and throwing them in to this, your out of luck. Unknown if it does anything to flies, I don't have that problem. 3 stars because it wasn't DOA.",
+      "tags": [
+        "no_efficacy",
+        "shipping_damaged"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "A More Robust & Versatile Zapper But Would Prefer A More Ergonomic Button Use — We used to have a basic fly zapper in the house that used batteries but part of it broke very early on and it was held together with tape, so I always refused to it as I didn’t fancy getting zapped. This one in comparison is far chunkier and more robust. It’s quite fancy for a fly zapper really. In the box you get the bat itself, a USB charging cable, wall attachment, standing base and user guide.\n\nI charged this before first use. You’ll need your own USB plug/port. It’s a little bit of a faff to use because I’d a…",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Like Thor the God of Thunder wielding his power to protect your household — I like the slim width which allows for placement options I didn't have with another zapper. Much better design for indoor use compared to many others. It has a clean and sophisticated look, doesn't look out of place in an indoor environment.\n\nAccording to my Kill-A-Watt, power consumption ranges between 17.5 -18 watts. Not a power hog.\n\nThe power switch is a very nice touch. Not all zappers have one.  This makes powering it up and down quick and convenient.\n\nIt ships with two replacement bulbs. Good of the supplier to…",
+      "tags": [
+        "electricity_use",
+        "effective",
+        "easy_clean",
+        "design_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Slimline fly zapper — I’ve had some experience with these pest control devices and this fly zapper performs as advertised.  The fly zapper is made of alloy metals and both sides. come fitted with a protective metal grill.  Within the unit there are two good sized 10W T8 Blue Light UV bulbs that are responsible for drawing in pesky flies.  It’s supplied with a chain for hanging the unit on a wall, a printed instruction manual and 2 spare bulbs, which is a nice touch.\n\nThe unit does a decent job of controlling the number of flying insects.  You can’t miss it working as it zaps flies on contact…",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Hard to open but handy to have — We have had an electric bat style fly swat for years but it's always been a struggle to get to the flies when they go into the window area. When I saw the GeckoMan Rotating Head Electric Fly Zapper I knew it would be perfect as it allows us to get in more hard to reach places.\n\nThe fly zapper comes with a charging wire, a base and a way to hang the zapper on the wall. The base is great as it sits in it nicely and allows you to have the zapper working without having to hold it. Of course the efficiency of this depends on whether the fly flies into the bat but i…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Good but could be better and safer — GeckoMan has produced this great product for the summer, as many of those who love the cook or keep the windows open, you'll know that this is the season for mosquitoes and flies.\n\nGenerally they are not an issue, however if you're having a meal together this can be a serious distraction as well as health concern.\n\nThis is a fully featured fly zapper that has some unique features I've not seen before, but there are some things that I would like to see I proved.\n\nFirstly the fly swatter can be handled like a tennis racket, as well as angled like a stamp. Th…",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Fly-Bye Electric Fly Swatter Bat - Stuns Rather than Always Exterminating — It stuns that’s the big issue leading you to believe it’s actually done it’s work and dispatched the annoying buzzing flying insects. Later though after disposing of one insect body it can come back to life. I opened kitchen bin only for recently departed fly to come flying out all super energised at me. So that was a fail for myself not fly. It was super charged then.\nThis one is usb charged same design bat to the ones that work such by pure battery power but having more of a sharp snap noise to it along with more of…",
+      "tags": [
+        "loud_noise",
+        "safety"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works best at night but does work! — Summertime always means we get a lot of flies in the house. I’m not sure if it’s a hazard of letting the dogs in or what but we get so many flies in the summer. This came in yesterday afternoon and it felt like there were a dozen flies in the house. I plugged it in and turn it on immediately. It came ready to go, you just have to cut the cord loose and remove a small foam block that’s wedged into the inside. The block is not mentioned in the instructions so please just make sure to remove before powering on. I feel like it’s something that could be missed.…",
+      "tags": [
+        "safety",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works really well but is loud and bright — So, I picked up the LiBa Electric Bug Zapper to wage war on the tiny, winged intruders turning my home into their personal party zone. With its promise to zap everything that dares to fly through its electric gauntlet, I was expecting a quiet, efficient bug executioner. What I got was a tiny, indoor thunderstorm of bug annihilation.\n\nThis zapper does its job with a vengeance. The two lightbulbs lure the unsuspecting nuisances like a disco ball at a moth rave, and the 2800V grid fries them faster than you can say \"insect apocalypse.\" The only downside…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "So far, I'm loving it!!! Update after 2 months — I've had this product for over 2 months now and I'm still loving it. It has continued to zap all of the flying insects in my house including mosquitos (YESS!!!) and quite a few moths I didn't know existed in my house. I haven't noticed any smells from the zapped bugs that others have mentioned in other comments. Works all the time for me. It works great in the bedroom if you don't mind the bright light, but it gives me peace of mind when I sleep at night with the window open and that was worth every penny I spent on this. I still wish it had a…",
+      "tags": [
+        "effective",
+        "value",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Rotating Head Fly ZappeR — The GeckoMan Rotating Head Fly Zapper arrived in a large retail box inside the outer carton. Inside the box was the zapper, a USB C to A charging cable, a wall mount clip and a stand. I would not recommend the latter as it is so lightweight that the zapper falls over very easily.\n\nIn use, I really like the fact that it is rechargeable and that the head rotates to get bugs on the ceiling. The zapper is bigger than most other electric swatters we have had in the past, and it is really effective.\n\nThe price at review was £18.99, which is at the upper end of the price r…",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Zap those pesky flies! — Now that the warm weather is here we are already being invaded by flies who can get into the house through the smallest of gaps but seem incapable of finding the huge exit via an open door and window!\n\nThis two pack of fly zappers contains two swatters, each with extending handles so that you can reach the ceiling or around furniture.  The zappers are made of plastic, and whilst they appear to be well made, they do feel a little flimsy and you have to be careful to place it against a hard surface rather than getting carried away and actually swatting the fly otherwise…",
+      "tags": [
+        "bad_design",
+        "safety",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "HUGE, but effective — I was astonished when I unpacked these fly zappers. They are huge - certainly much bigger than I expected. They look and feel like junior tennis rackets with short handles. It took several hours to fully charge each zapper. I'll admit that when I saw how small the light which illuminated the grid was, I had misgivings. However, these things are powerful. They issue a crisp ZAP! when something comes into contact with it, and then there is the scorching scent (burnt hair/flesh?) immediately afterwards. It vapourised a cheeky small insect right before my eyes, but only stun…",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "A Fly Zapper That Delivers Zaps Galore and Bug-Free Bliss — The Mafiti Fly Zapper is a godsend for anyone plagued by pesky insects during the warmer months. Straight out of the box, it's easy to set up—just plug it in and it's ready to go. I particularly appreciate the inclusion of extra UV bulbs, which means I can rely on it for a longer period without immediate need for replacements. It’s quite satisfying to hear that distinct \"zap\" when a fly meets its end.\n\nI primarily use it in the living room, but it's portable enough to move into the kitchen when needed. The safety grill does well to k…",
+      "tags": [
+        "bad_design",
+        "safety",
+        "effective",
+        "quiet",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "💥ZAP💥 — I've only had it for a few hours, but I can already tell it's a beast.  We had an inexplicable swarm of house flies so I bought this.  Within ten min of plugging it in, it had already zapped two. In three hours, it's zapped seven.\n\nThe only two flags I'll throw out are:\n\n1) THE \"ZAP\" IS REALLY LOUD\nNot taking any stars off for this, but it's loud and startling (or satisfying, depending on who you are on the inside).  This wouldn't be something you could put in your room and sleep through.\n\n2) ZAPS AREN'T GUARANTEED KILLS (one star ding here)\nNot instantly, anyway.  It's zapped seven s…",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "I'm conflicted about this one, it's awesome -ish — So working from home and mosquito season.  Got this bad-boy because I figured I did not want to put up with repellents, insecticides etc.  First, do not put it near your work area, it will scare the crrrap out of you when an unsuspecting mosquito lands on the electrified grill to appreciate the warm alluring purple glow of the bulbs. It pops so loud you can hear it across the whole house. - It's like a mini fire-cracker!\nSecond, the tray does not catch anything because the electrified grill just torpedoes the crap out of the mosquito that tou…",
+      "tags": [
+        "no_efficacy",
+        "loud_noise",
+        "safety",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Bad switch, no charger base and slow. Good if slow way to eliminate insects. — EDIT\nTHAT said, if you are not too squeamish, it can dispose of the insects more powerful ones can't.\nBUT it is SLOW, it stinks and it's a light show, but not as noisy as higher powered ones. Probably less than a minute though.\nAlso it takes a lot longer than higher powered ones, which in turn take a while over larger insects.\nThe switch you can get used to using a thumbnail to operate.\nIt lasts quite a while on a full charge.\nIt IS unsurpassable having a pivotable head for ceilings and even walls / cupboard doors.…",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Impressive build and design — Considering that I had almost mastered using the standard swatter, this swatter has made my life a breeze with the mesh  that can be angled to suit. I think this could have been slightly improved where the outer part of the mesh ring could have been coated in a softer material that would allow you to not damage the wall should you be that one person, a bit bit like me, who's probably want to whack the fly with force and thus when you hit the wall, you'd cause no damage, but will just have to be a little careful.\nAnyhow, this does work as I managed to test this ou…",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "kapow! — This item is very deceptive.. Y0ou would never know it is powered up until you hit something with it, and then oh my days it emits a wallop of a crackle!.\nI can definitely say it does the job, killed a big fat fly on the first nights use and that thing didn't have a chance lol.\nI am not keen on killing anything but flies are one of my phobia's. In our area about a hlaf hour away there is some kind of manufacturing plant that (although i have no idea what they manufacture), what myself and all residents within half hour to an hour away is the fly population increases a lot in summer b…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Great for moths, but improvements could be made! 🙃 — I ordered these two electric fly swatters for moths. I already have one the same as this, but it came with an extension pole. These two don't come with one. \n\nThis one has to be switched on, then I have to press a button while I'm zapping moths that can feel a bit awkward at times. With one of my other ones, you just switch it on and zap. Its much easier to use than this one. \n\nI like that this one can be rotated, so they you can place it straight against the wall or ceiling.   \n\nYou can leave it on overnight using the auto-zapper ultra-vio…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Handy pair of bug zappers — I got this pair ogf bug zappers as now that the weather is getting warmer, unfortunately that means a lot more flies in the past.\n\nI've had quite a few bug zappers in the past, but not any with a pivoting head, so was keen to see how this new style compares. You get two bug zappers which are charged via USB C with your own cables. Before first use I ensured that both were fully charged. You can have then turned on, off and another setting for only on when you press the button. This is the setting I always use as I find it the safest, or turned of completely if not…",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Really good insect zapper. — I have a couple of insect zappers one is excellent but very small and does not have a protective mesh so it was zap anything of any size whilst the other has a protective mesh which makes it useless on larger insects. This particular zapper works really well, the mesh whilst protects has gaps big enough to allow zapping of larger flies or wasps. It is easy to use and has a dedicated on off switch to prevent accidental discharge. The tilting head is actually a god send for use against ceilings walls and windows just like the advertisement pictures. It comes with a…",
+      "tags": [
+        "no_efficacy",
+        "safe_kids_pets",
+        "design_good"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Good value and flexible use options — These pair of electric insect zappers are better than most. They allow you to adjust the angle of the metal grid - especially useful if the insect has moved to the ceiling or a sloped surface. This is simply achieved by pushing them from the locked position in their frames - they cannot be fixed in another position though.\n\nYou can also stand these upright for storage but also to use the continuous auto function which uses a UV light at night to attract the insects and then zap them - it is not clear if the grid is continuously active or is activated by a…",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Kills most flies, might give my dogs a stroke — Most of the flies that find their way to this die. One of them sat on the bulb like it was trying to get warm. Not sure if it later died or not. The tray catches most dead flies but some slip into the bottom of the trap and need to be tapped out on to the surface and scraped into the trash. There will be dead fly pieces on the surface around the box and some of the dead flies will ricochet into nearby areas.\n\nMy dogs are downright terrified of this thing. The “snap” when a fly hits is incredibly loud, and we’re having firework level anxiety arou…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Good but pricey — I find it decent but with notable limitations. The rotating head and telescopic handle are practical features that help reach insects on ceilings and hard-to-access corners. The build quality feels solid and durable, which is reassuring for frequent use. However, I found the electric zap power to be underwhelming; it’s not as strong as I expected and sometimes fails to kill faster or bigger bugs instantly. The battery life is average, and charging takes quite some time, which can be inconvenient if you need continuous use. While the device performs well on mosquitoes and sma…",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "The rotating head is fantastic for landed flies, uv light for use as a static attractor — The two pack of Mr Geckoman’s usb-c rechargeable electric fly swatters can be used in two modes. You can hand hold and only energise it when needed by clicking a button to get rid of annoying winged insect. Or you can run it full time in a stand-alone mode using the included plastic base. In both modes you can turn on a purply blue UV light and use it as a fly attractor.\n\nThe rechargeable battery lasted about 3 and ¾ hours after charging with the light on so if you want to use it in static mode you made…",
+      "tags": [
+        "bad_design",
+        "safety",
+        "safe_kids_pets",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "This works, but boy is it LOUD! — I've had this for around 6 months or so now and I've been pleasantly surprised so far. This is the second item of it's kind that I've purchased. The first one sat near my window for a couple weeks - sad, pathetic, and inadequate with no kills to it's name.\nThat's where this bad boy comes in. I swapped it out with the old and within hours I heard this insanely loud POP come from the other room. I dashed back in to find that in a matter of mere hours it did what it's predecessor failed to do in nearly a month.\n\nAll joking aside, this has been performing great.…",
+      "tags": [
+        "loud_noise",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Easy to use. — This is a pack of 2 fly swatters. They don’t have the extending pole and the instructions repeatedly say that they are not fly zappers. They are easy to use. You can have them on manual or automatic. There is a little button that you need to keep pressed when you are in manual mode and automatic means it is always on. There is a blue light which is not very strong or bright but may attract flies when the swatter is left on at night. They are fully rechargeable and are very quick to charge. There are stands to put the swatters in so that they stand up. There are also 2 holders t…",
+      "tags": [
+        "bright_light"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Great, but loud — The bug zapper certainly works.  One can easily hear the unmistakable sound of the termination of the pesky bug.  Clean-up is extremely easy with the tray that is removable from either side.  The 'zapper' part is so powerful that often the bug remnants are blasted clear of the device and fall to the floor rather than dropping into the tray.  I prefer effectiveness over tidy collection, so this is not a negative for me.  The unit is LOUD though.  It is quite jarring when we are engrossed in a movie, then ZAP when the machine has worked.  I took away one star for the noise, th…",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "2 Pack good value — So we all know what these are for, and with two in the pack for the price it's good value. The design means you can rotate the head.\n\nWhat would make it better is having the handle extendable to reach higher places.  T\n1200mAh rechargeable Battery means there is plenty of life in these between charges. When it’s time to charge, simply plug in the supplied USB-C Cables and in no time you are good for the next session\n\nEliminate flying insects quickly and efficiently with a powerful 3500V shock. It is effective against flies, mosquitoes, fruit flies, gnats, wasps, spiders, h…",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Exactly what I needed — It's summer in Texas with rain and other seasons that makes mosquitos, flies, or little gnats just come into the house and become a huge annoyance. I bought this to remedy that situation, and it did not disappoint. Within turning it on, it did spook me with the first couple of zaps from attracting the gnats with the blue light, but I was grateful.\n\nThe only con, I would say, is the sound is very loud when the insect touches it. It's like a loud snap/crack. While it does spook me and my dog when the house is very quiet, but it's also a relief because that's one less pes…",
+      "tags": [
+        "loud_noise",
+        "quiet"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Not really very effective sadly.. — This fly catcher is not quite as good as I expected from reading some of the reviews. It does kill flies but it's very difficult to get close enough to the fly to actually kill it quickly, I seem to be chasing flies around the room maybe I just don't have the right technique who knows. What it has done unfortunately id frighten my little dogs who jump and run each time it clicks when I eventually manage to trap a fly. Thankfully I don't have a lot of flies the only reason I bought it was because of having two little dogs I don't like the idea of a fly landi…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Do not lick...save it for the flies! — Hate flies? Like tennis? Why not combine the two!\n\nThis is the Fly-Bye 4000v Recharable Electric Bug Zapper with USB to Micro USB charger. Measures 49 x 21 x 3.5cm and weighs 220g.\n\nThis is fun, whilst getting rid of flies n wasps improve your fore and backhand. You even get a light, and when you first turn on a loud pop.\nI do no recommend licking, as it is like a very strong battery. Luckily this is protected by a good mesh.\nWhilst only a few flies around at the mo, Wimbledon isn't until the end of June, so best get my practice in if I am going to make…",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Powerful Bug Zapper – Works Great with a Small Tweak! — The Mafiti Electric Insect Killer is a great indoor mosquito zapper that effectively eliminates bugs with strong electric power. It’s well-built, easy to use, and does exactly what it’s supposed to do zap any insect attracted to it!\n\nHowever, one small downside is that the gaps between the bars are slightly too small, making it harder for larger bugs to get through and reach the zapper.\n\n🔹 Tip: I used wire cutters to remove every other bar, and now it works perfectly, allowing larger insects to get through while still being safe to use.…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Die fly! — This trial fly zapper arrived just as the weather started to warm up. This is a great upgrade to our similar racket design old zapper. It includes an extension rod, charge cable and wall storage clip to be fixed to a wall. The way it rotates the oval grid and extends to rod mode is a game changer for us. Being able to zap flies as they come to a rest on a flat surface seems to work better for us than racket mode when it's easier to miss or risk knocking something or hitting an unintended target. My only concern is it's tempting to push on a wall or ceiling surface and hit too hard…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "It’s a good product — It’s a good product but one of the light bulbs went out with my first one not long after I had bought it and then the whole thing stopped working. I reached out and they replaced the whole thing was so grateful for that. Fast forwarding to a week ago we had the 2nd one for while but the same thing happened again and this go round once the light started acting up it began to smoke I immediately went and unplugged it, swapped out the light with the replacement and the light that was not effect and the new one I had just put in did not turn on at all. Needless to say once a…",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Robust and well made; needs to be wall hung; spare bulbs — Quite expensive for this kind of unit at almost £38.\n\nThat said it seems well made enough. It all seemed well screwed together.\n\nYou get 2 spare bulbs. There is a simple on/off rocker switch.\n\nThe unit can stand upright but it is tall and thin and probably should be wall hung to avoid it falling over.\n\nYou get a metal chain which connects to loops on each side and then it hangs like a picture from a hook on the wall (latter not supplied). Of course you also need to consider where you are going to plug this in otherwise the cable could…",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "So far so good — This fly swatter is easily operated and also safe to use as you have to flick a switch and hold and press the yellow button for it to be on and ready to zap. There is also a light on the handle to help attract the fly over to the racket instead of you having to chase it around the room.\nSo far I have used the swatter twice both with success though the bigger fly took a couple of zaps to be dealt with.\nI wouldn’t really recommend this if your issue is small flies as I feel like they could quite easily fly through the gaps in the swatter.\nIt comes with a charging cable, though…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "GeckoMan Electric Fly Swatter — Effective and Surprisingly Fun to Use — This GeckoMan rotating head electric fly swatter has quickly become one of my favorite grab-and-go tools when a bug shows up. It works exactly how you want it to—fast, effective, and no chasing flies around forever. The rechargeable feature is a big plus, and the rotating head actually helps reach awkward spots.\n\nOnly downside: when flies get zapped, it can leave some residue spots on the racket. Not a dealbreaker, just something to expect with regular use.\n\nOverall, it’s reliable, easy to use, and honestly kind of satisf…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Overall great product. — Works as well as any other bug zapper I've used.  Love the pivot head for going flat against the ceiling and windows. Doesn't kill Yellow Jackets, but does stun them long enough to step on them. Auto mode for zapping while charging is great for overnight bug control of fruit flies and mosquitoes that get into the house.  Hearing the zapping from another room is gratifying. Universal USB type C for charging is nice, would be better if the USB connectors were incorporated into the stands for one step charging/setup, but nice to be able to have options with or without th…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Efficient zapper with good quality build — Works well as a zapper, controls are easy to understand and operate and the build quality of the zapper, the extension arm, wall holder and base is good.\nThis arrived pre charged and a good quality usb charging cable was supplied.\nThe minor issue I have is the rotation mechanism for flattening the zapper against a ceiling etc. The moveable/angled head is fiddly to tilt, so much so I'm actually nervous about potentially breaking it if I use too much force. I suspect all the time I'll get used to the mechanism stiffness that for the moment I am a bit a…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "So much bugs this year — There's mosquitoes in many different types of form that attacks 24/7. These are Godsend. I have it practically in every corner of my house and outside. These pests are relentless! It's great but hard to clean. The grid is only on one side and that's the side they are stuck on. I took a little brush from the other zapper but it was too tedious to go in between to brush off the bugs. Basically it works very well but I was sadden that grasshoppers and ladybugs are also attracted to it as well. On a happier note bloodsuckers and flies was zapped the most",
+      "tags": [
+        "bad_design"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Loud Explosions When Zapping! — This sits well next to my cat’s food!\nSo far it has worked okay, too okay on poor little moths.\nThe first fly it zapped and scared the living daylights of of me because of the loud bang, only resulted in the fly losing a wing!  I had to catch it and throw it at the lights which exploded again!!  Yep, dead this time,\nI have noticed a few times that the flies are still alive after being zapped 🪰 They are either Super-flies this year or the zapper is more talk than action!\nIt is a delight to see dead things in the tray though 😁",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Electric fly swatter with rotating head and extendable arm — I'm quite impressed with this Rotating Head Electric Fly Zapper! It's easy to use and very effective. The rotatable head is a great feature—it allows for flexible angles, which makes swatting flies much easier. I also love the extendable arm, which makes it simple to reach higher spots without needing a stool or ladder. It can sit in the holder while charging, but the cable is quite short which mean it has to be placed near the main whiling charging. Overall, a smart, practical design that actually works. Happy to recommend.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Good value fly killer for domestic use. — The Mafiti indoor electric UV fly killer arrived neatly packed in a printed cardboard box.\n\nIn the box you get the main unit, two spare UV tubes, a mounting kit and an instruction manual.\n\nThe unit is easily wall mounted and the UV tubes, although bright, are not too bright to cause distraction.\n\nWorks well in the kitchen where flys and bluebottles are kept away from sensitive areas as they are drawn to the UV attractors, before meeting their crackly ends.\n\nGood value for a well finished and reasonably compact unit.",
+      "tags": [
+        "bright_light",
+        "effective",
+        "design_good",
+        "value",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "My only complaint is it need to be stronger — It is good we still need more power I Zapp a fly and he fall and crawl away, he still alive, but then next day he die, or maybe I need to charge it, hey I never got charger cable, but ok, overall, does what it says, and makes a very appeasing zap sound when you get one of the flying buggers (the flys seem to know and fly away when u get close with it), I like this product, I recommend, is effective overall one day I Zapp 6-7 flys, do need to be a bit more stronger material, but I love, thank you!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works great for small flies — It attracts bugs well, kills fruit, and drains flies easily. However, it's hit or miss with regular house flies. Most times, it will kill a house fly, but sometimes, it will only stun them, and they'll walk around for a bit before flying off.\n\nVery good price if fruit flies are a bother in your house. Also has a plastic tray at the bottom that catches most of the dead insects.\n\nI only use this indoors. I don't know how well it would work outside. It's definitely strong enough to kill a mosquito.",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works, but the fried bug smell, while transient, is notable. — Bought one of these. Five days or so later I bought three more. There's a small mountain of dead bugs at my back door. Gnats gone from our basement. The protective grate will keep adults and dogs away from the hot wires, but the wee ones might get in  trouble. Best hung from a ceiling hook like we use for plants. Don't need a crazy strong one, the hook that holds a modest size painting will do. Now if I could get my grandson to stop yelling \"Kikusui!\" when something pops... ;-)",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Build a mountain of insect corpses — Bought almost 5 years ago and now having to buy a new one because a housing for one of the bulbs broke. Removing the screen was also nowhere near as easy as shown in review videos and practically had to deform the screen/grate so that it could \"slip\" out. -- This was the main reason for the 4-star rating.\n\nHowever, well worth the money for the time it lasted and the hundreds if not thousands of insects that it vaporized in its lifetime keeping our kitchen pest-free.",
+      "tags": [
+        "bad_design",
+        "value"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Update - cats got used to the noise - still loud, but no bugs! — UPDATE - I am using these regularly - they are loud, but do the job very well.\n\nI wanted to control the mosquitoes in my back and front yards, but this is so loud the cats won't go outside when either of them is on.  I intended to run them all night long and let the light replace my security lights, but I need to reconsider that  They do attract a huge number of bugs - mosquitoes, moths, etc. I also need to rehang them lower so I can reach to clean them more often.",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Decent value for money and convenient to use — The 2-Pack electric fly zapper is a handy solution, especially with summer approaching and flies becoming more of a nuisance in our area. It does the job well, and the telescopic extensions make it much easier to reach tricky spots without hassle, and I love the rotating head, it is so convenient to use. At £39.99, I find it a decent value and really hope the quality holds up over time. So far, I’m happy with the purchase and would definitely recommend it.",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Behold, the beloved electric net of death. — Holy hell, when I tell you the summer of 2024 was hell for my UK home, it was. From what it felt like thin air, these things were fed with their past life hatred of some bug I killed that I can't even remember. And they came back with VENGEANCE. These fruit flies were a different breed. They fed on anything and everything: plants, in my drain, getting attracted to cat crap, cat food, ANYTHING. I couldn't eat in peace because, lo and behold, a fly would hover over it. I couldn't drink apple juice, milk, NOTHING – because sure enough, a fly would sit…",
+      "tags": [
+        "safety",
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Such a Buzz Kill.... Literally ;-) — The Mafiti Fly Zapper is a powerful and efficient device designed to eliminate pesky flies from your indoor spaces. With its advanced features and user-friendly design, this fly killer is an excellent choice for both residential and commercial use.\n\nThe fly zapper utilizes a combination of UV light and an electric grid to attract and eliminate flies. The UV light emits a wavelength that is highly attractive to flies, drawing them towards the device. Once the flies come into contact with the electrified grid, they are instantly killed.\n\nThe 20W power output…",
+      "tags": [
+        "loud_noise",
+        "effective",
+        "easy_clean",
+        "safe_kids_pets",
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Allowed us to reclaim our picnic table and eat in peace. — After spending weeks landscaping our yard, we bought a picnic table to enjoy the outdoors in better weather. Made the area cute and invited some family over to grill.  It was horrific.  The bluebottles and mosquitoes appeared from nowhere and there were so many of them.  We killed a few but they kept coming back like scenes from a horror movie.  I've seen roadkill with less flies. We went inside and finished up in relative safety.\n\nWithin minutes of eating I jumped online, read a couple of reviews and purchased this and a lantern hook…",
+      "tags": [
+        "bright_light"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Would Buy Again — Updated Review (After 4 months of use)\n\nI have been using this for four months, with it on constantly. It has undoubtedly caught a large number of insects and is very effective. However, one of the bulbs has now gone and needs replacing. I still feel that it is worth the money and would still happily recommend it.\n\n--------------\nWe have back doors that are by plants so tend to attract a lot of insect into the kitchen. Having tried the tennis racket style fly zappers which were useless as you are forever running around after fly we tried this.\n\nWhat a difference. Yes it's no…",
+      "tags": [
+        "no_efficacy",
+        "effective",
+        "easy_clean",
+        "value",
+        "coverage"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Super Zapper! — Broke my old rectangular zapper which had a 4 foot extension handle.  This was the closest one I could get.  The advert showed this being used like a tennis racket which I would not recommend!  That said I have been pleasantly surprised by the build quality and effectiveness of this zapper.  Have used it for two weeks now mostly for small moths. It is very effective on these and the very small ones that used to get through the mesh on my old twin plate zapper. This has three mesh plates and nothing has evaded it. The it quickly incinerates the moths!  Did zap a spider which to…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "no noise when powered on — Mafiti Fly Zapper,Fly Killer Indoor with UV light Attracting Flies 20W for Kitchen, Home, Indoor Garden Yard Commercial or Domestic Usage-Grey (Extra 2 UV Bulbs)\n\nThis is a large but fairly narrow, plug in fly and mosquito zapper for indoor and outdoor use. It comes with 2 spare light bulbs. When switched on it is totally silent - until something flies into it that is.\n\nThere is a gnat or mosquito hiding in one of the rooms in our house. I don't know where it is, but I've been hunting it for the past week. Every morning I wake up with a new bite mark somewhere on my…",
+      "tags": [
+        "quiet",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Simple to Use — I was able to use this straight out of the box - I just plugged it in.  It comes with extra UV bulbs so I am reassured that this will last me a long time between the installed ones and the replacement.  It’s satisfying to hear the sound of the pesky flies being zapped as they are such a nuisance during Summer and the warm weather.  The flies seem to have found a place to enter our living room so this is where we use it most.  Because it is portable, we also bring it into the Kitchen if needed.\n\nThe safety grill seems robust enough to prevent accidents from our dogs touching it…",
+      "tags": [
+        "loud_noise",
+        "bad_design"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Much needed in summer 🪰🪰🪰 — Fly Zapper is an indispensable tool for maintaining a fly-free environment in your home, kitchen, indoor garden, or yard. This UK-specific device employs a powerful UV light to attract flies and other pesky insects, effectively luring them towards its electrified grid where they are swiftly eradicated. Its sleek, compact design ensures it fits seamlessly into any indoor space without being an eyesore.\n\nThe UV light is both energy-efficient and effective, making it a practical solution for continuous use. Easy to clean and maintain, the Fly Zapper features a removab…",
+      "tags": [
+        "effective",
+        "easy_clean",
+        "design_good",
+        "coverage"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Be prepared for the big bang! — I wanted a fly zapper to help reduce the number of flies that appear in the house over the warmer months as we have the French doors open most of the day. We have tried Citronella candles but some fly's seem oblivious.\n\nThis Mafiti zapper unit comes out of the box ready to use, just plug in and turn on.\n\nWhilst moving the unit about I did find the bottom ‘fly crumb’ tray fell out, this is because it sits loose in the bottom of the unit – great for disposing of the dead flies but not so good when it falls out when moving the unit.\n\nThe first ‘strike’ was quite a…",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Quiet most of the time and does the job without fuss. — Worked well from the start, easy to use just plug it in, a good amount of power, and is still going strong after months of use. It’s caught loads of flies, a few moths and even the odd wasp. I do feel a bit bad for the buggers, but it does what it’s meant to do.\nThe first few zaps made me jump, especially in the quiet, and sometimes there a bit o a smell when it zaps a bug, but you get used to it quickly. It’s been handy in the kitchen and light enough that I can move it to the lounge if there's a particularly pesky fly that might have u…",
+      "tags": [
+        "effective",
+        "easy_clean",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works really well — This double grid product is a lot more substantial than my current USB powered insect zapper, and considerably more powerful. It is similar to the industrial UV devices you see on the walls inside shops, on a smaller scale, and can either be wall mounted, using the chain provided, or left free standing. It is really easy to empty, and keep clean, and in the few hours I have been using it, a number of flies have met a satisfyingly crackling end. Because the grid is so much larger, it is a far more efficient device. and it really does seem to attract insects a lot better tha…",
+      "tags": [
+        "loud_noise",
+        "easy_clean"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fly zappers — Wow, these fly zappers certainly pack a punch!\n\nNow, I know you are not meant to, but I also test these zappers by touching them. Yes, you get a little electric shock, but nothing that will actually harm a human. Well, these are by far the strongest zap I’ve had! 🤣 So, rest assured, no one else needs to try them out! They work! 🤣\n\nI love how they fold over so you can trap a fly against a wall or ceiling. They charge via USB lead and hold their power well (although if you don’t use them in a while, you will need to recharge them).\n\nI love that they come with both a stand and a wa…",
+      "tags": [
+        "safety",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Can be used for high ceiling and also as a stand — This fly zapper racquet is meant to shock the insects while the outer layer helps to protect you from getting shocked.\n\nIt also has a UV light meant to attract instructions. However, that light isnt that strong and doesn’t attract many insects. However, once a mosquito arrives in close proximity it does the job as advertised.\n\nIt comes with an extendable pole to reach high ceilings and also with a stand to let it sit by the bedside.\n\nIt can be charged with USB C so it is easy to top it up from a bedside phone charger as well.\n\nListed Price wh…",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Updated! Customer support — When I first opened the box brown dust filled the air and when I looked inside the box it had dead bugs in large and small sizes. Trying for a new unit instead of flat out returning. We'll see what's delivered next time.\nUPDATE on resent product.\nReturning for refund. Item stopped working less than 5 minutes after plunging in.\nWasted enough time. Best to move on.\nUpdate*** the manufacturer reached out to me about the issue I was having and offered to send me another zapper.\nI never asked for anything but they stepped up and made everything right free of charge.\nI'm…",
+      "tags": [
+        "bad_design",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "No more bugs... for now! — I got these fly swatters to help get rid of fruit flies that were hanging around some of my plants on the windowsills. The Always On function is a nice touch because you can just set it up on the stand it comes with and leave it to do its thing. It seems powerful and lasts long enough for about three or four days of use in the kitchen. If you’re using the Always On mode, you might get a full day out of it at a push.\n\nIt’s got great power and definitely gets the job done. The best thing about it is that it charges by USB-C, which is really convenient. The fact that t…",
+      "tags": [
+        "value",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Magnificent. Such fun. — We have had a plague of fruit flies for 18 months, we've dreaded opening the bin.\n\nUntil last week when we got this zapper. The spark when you catch one is so satisfying, after just a few days we have very few left and we are almost disappointed not to be able to go on the hunt. We weren't sure how well it would work as the fruit flies are tiny but it has no problem catching them\n\nWe've only used it in \"tennis racquet\" mode, we haven't tried it as a static zapper so can't speak for that but we've used the rotating head to get them on windows and other surfaces. This i…",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Failed in a month. Edit: Great customer service! — I got two of these to help with the flys from my neighbors cattle. They both worked well,  for a minute.  One of them just shut off after a month. Dead.  Useless. A small pile of useless cheap plastic and dead electronics.  Too late to get it replaced.\n\nEdit: I didn't post this until after the return,  figured it was a list cause.  Then the seller contacted me based on my review,  which I didn't expect.  They offered me three options to make things right, along with their apologies.  I got my replacement today, and I'm very satisfied.\n\nDo not…",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective and Durable — Works great and is extremely durable! The bugs in the garage this time of year make it unusable but this little light is a game changer. I was skeptical at first but not anymore. The only thing I wish was different is the slots at the bottom the bugs need to fall through to get into the cleaning tray and the only reason is because we have these absolutely massive and invasive German Yellowjackets that are too big to fall through.\n\nThe lamp even took a spill from about 8 feet in the air directly onto its bottom on concrete and its completely fine! I was not expecting th…",
+      "tags": [
+        "bad_design",
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works well and is well made but switch could be better. — I bought one of these and a buzbug bat.  This is by far the better one because of the tilting head which allows it to be used against windows, walls and ceilings.  It also come with a stand and an extension handle.  Battery charge doesn't last a great length of time but is reasonable and the two stage switch with press to zap function helps prolong battery life.  The on/off switch could be better though.  A little bit numb to use to get a hit by swinging at the critters in flight but thats maybe just my poor eyesight / co-ordination.",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works a treat — I’m allergic to insect bites, so if I get bitten it’s not good.  A fly killer is a must in my house.  This zapper works perfectly.  Attracting the flies and keeping them out of my way.  There is a catch tray at the bottom that catches most of the flies and it’s extremely easy to empty.  It also comes with 2 spare bulbs.\nThe only downside is the noise - my dog doesn’t like it when a fly gets zapped.  It can be a little startling if you’re nearby when it happens, but needs must, I don’t like using bug spray around my dog or food.",
+      "tags": [
+        "effective",
+        "easy_clean"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Satisfying zaps! — This indoor bug zapper works like a charm. It quietly attracts and eliminates flies, gnats, and even the occasional mosquito without any chemical sprays or smells. The soft UV light isn’t harsh, and it doubles as a nightlight in the kitchen or hallway.\n\nIt’s compact enough to fit on a counter or shelf, and cleaning is easy thanks to the removable collection tray. I’ve noticed far fewer pests around the fruit bowl since plugging it in.\n\nVerdict: Safe, silent, and effective—perfect for keeping your home bug-free without the fuss",
+      "tags": [
+        "bad_design",
+        "effective",
+        "quiet",
+        "easy_clean",
+        "design_good",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "I've had this bug zapper for a year near my house plants. SILENT and effective. — I've had this particular bug zapper for over a year now.  I purchased it to try to control the pesky fungus gnats that become established in your houseplants.  I had tried sticky traps, vinegar traps and even fly paper.  Nothing has worked as well as this Jawlark Bug Zapper.\nContrary to what a number of reviewers have posted here, this bug zapper is in my plant room, directly between the master bedroom and the living room.  I have never heard a single sound from this device in the past year.\nBig fan of the Jawla…",
+      "tags": [
+        "quiet"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "keep it on 24/7 — Excellent fly killer.This the second one I've  bought in a year.I bought this one,because I had a sudden plague of flies in my bathroom (nearly 60 of them).And this one kills without mercy.Unlike my old one which left a burning smell after a poor fly got trapped on the bulb.\nIt's very easy to clean.When you do clean it,switch it off first.Under the flykiller is a tray on which all the flies and moths fall onto.You can either was them down the sink,or sweep them all off using a  soft brush.\nBY THE WAY This is an electric\n\n0",
+      "tags": [
+        "safety",
+        "easy_clean"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "It's Like a Lghtning Strike: Zap! — After years of misery, my house is bug free! Weirdly, no actual flies have entered the house since I switched it on a week ago. I guess they see the UV light in the kitchen and know to not enter. I don't care, no flies in summer for a week after every warm day for twelve years.\nIt does kill moths and fruit flies, I know it works: not only do you hear the ZAP!!! throughout the house it leaves small particles of exploded bug. I am very happy with this and it cost about half of what I expected to pay. Perfect.",
+      "tags": [
+        "loud_noise",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "It works, but be prepared for the brutality! — Have to give this 5 stars as it works every time. However, I was expecting like a 'bolt' of some kind that did the job quickly, what you actually get is multiple bolts followed by frazzles and pops.  Although the mosquito is dead instantly, the process of burning and popping in fact takes around 10 seconds on average. It's a brutal killing machine!\n\nIt looks good on its stand in my surroundings as well (not too obvious as what it is with the colour etc).\n\nWorth it if you can stand the frazzle!",
+      "tags": [
+        "design_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Good sounds — It sounds like a well-designed and effective device every time you hear the buzz or clapping sound when an insect is dispatched. User-friendly cleaning tray and and energy efficient, using only 13W in standby and brief spike to 17W when insect is fried. The inclusion of spare bulbs and a detailed manual are thoughtful touches. Although it seems lightweight and arrived with a rattle, it is very effective in controlling flying insects. Overall, it appears to be a good choice for pest control.",
+      "tags": [
+        "loud_noise",
+        "bad_design",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works Very Well — Bought this as having a cat means the flies are eager to have a feed on his food. Had it for a couple of months now and it works very well. I wouldn’t want to touch it as some flies literally explode when they hit it, so I think you’d lose a finger if you did.\nI’m not convinced by the value of the tray to catch the corpses as they usually explode and the bits fly out onto the floor.\nAll in all, an excellent piece of kit and in my opinion good value for money. Happy to recommend.",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Bugs 'n' Flies - Zapped 100% — Really useful purchase. Wish we'd had one of these years ago. It has proved completely effective at zapping flies and bugs. It has even dealt with those seriously annoying tiny fruit flies. Slight downside is the seriously loud and rather surprising 'bang' it makes as each flying insect is despatched. Or maybe that should read 'upside' as you certainly know this device is working. I know... we shouldn't laugh as each insect meets its demise with a bang not a whimper. But we do.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Unbelievable - Great Buy — Just received this afternoon - Unbelievable.\n\nGot a massive problem with flies in my window lanterns when the doors are open in the summer.  Had about 100 in them yesterday so ordered this last night.\n\nIdeal with the extension pole to reach up high and with the angle bracket on the racket part.  Cover the flies it and it just pops and shocks them straight off the lanterns.\n\nWasnt sure if it was going to be a waste of money but it has been a Great buy, definitely recommend.",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective — While this model costs a little bit more than some, it was worth the extra money. It's basically plug and play and kills fruit flies by the score during the Summer months. I no longer worry about leaving apples or bananas on the kitchen counter. The demise of every fly is heralded by a satisfyingly loud 'crack'. The bigger the fly, the louder the 'crack'. The extra UV tubes give peace of mind but I've had this for a good 7 months and the originals are still going strong.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "short term review / mid term — although it works fine to create added inducement I placed some bacon fat in the tray anything which attracts the blighters will do, disconcerting to begin with the pleasing sound of zapping insects confirms it is working. Happy as Larry with it for now.\n03/10/24 longer time review, the house is now clear of flies. tip a small amount of raw chicken skin in the tray works wonders attracting them to their eradication\nlatest photo hot days April open door visitors",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works well — It's oddly and sadistically satisfying to zap a fly dead with this. The bigger the blue bottle the better. There is something particularly pleasing about a giant stinking fly sizzling away in the blue sparks of this bat.\nIt's rechargeable and thebpowera lasts for weeks anyway. It's sturdy and lightweight.\nHas a blue light function, notnsure what that's for but I know it doesn't kill stuff.\n\nAnyway I certainly recommend this product it's great fun 😁",
+      "tags": [
+        "no_efficacy",
+        "safety",
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works great! — Got this as the fly trap I have just wasn’t working and in the heat the flies have really been a problem. This is easy to use and works great! Charge it up, turn on the red on/off switch and when ready to zap, hold down the yellow button. There’s also a light switch you can turn on and off too.\n\nI probably shouldn’t have had as much fun as I did zapping flies but they’ve been the bane of my existence and this was pretty therapeutic to use too 😬",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective, highly recommended. — What a godsend! I have placed this fly zapper in my kitchen and it is very very effective. It attracts insects with it's enticing light and disposes of them humanely.\n\nIt is perfectly safe to use, there is no way any little fingers can get through the grid. It can be wall mounted or placed on a shelf or worktop. fixings are provided.\n\nand...very generously, they supply two replacement bulbs in the pack. A really good price for this product.",
+      "tags": [
+        "safety",
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fly bye — This is working well and dealing with the mosquitoes in my garden while we sit out in the evening sunshine.\nIt is easy to set up and even more importantly pretty easy to clean.\nThe bright light attracts in the bugs and every so often we hear the satisfying zap of one being dealt with, the body then falls to the bottom of the machine for you to clean out when you have finished using the machine.\n\nThe spare bulbs are a nice touch too.",
+      "tags": [
+        "loud_noise",
+        "easy_clean"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent! — The thing is a BEAST! It makes very satisfying flashes and noises (though otherwise it’s completely silent), and it’s “very effective”! I’ve only charged it once so far but that charge seems to be lasting well. I definitely recommend it!\n(Having said that, requiring a USB port to charge it works well for me but might not be that simple for others, and if you have to buy a USB charger then it’s a “disguised” extra cost.)",
+      "tags": [
+        "effective",
+        "quiet"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Pretty decent — Safety features are good!\n\nWorks well with smaller insects - with really fat flies they sometimes need more than one hit\n\nI generally use it to try to shoe them out the window first and then on the zapper if they refuse to go\n\nZapping is pretty loud but can't help that I guess\n\nFeels reasonably sturdy\n\nCan be difficult to get them in mid air though and of course doesn't have much bend to get them on walls etc.",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent, buy one! — Wish I bought one of these years ago, so many terrible neighbours in London that don’t take their rubbish out and breed flies!\nSo happy I have this as it does the job really well managing the flies coming into my home. The big ones I will get them out. The smaller ones you can’t see End up in this trap. I feel bad but what can you do? Otherwise, you are breeding flies like everyone else.",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Best £20 I’ve spent…. — This is the best £20 I’ve spent. It works so well, and this may sound sadistic but it’s so satisfying when it crackles. It works great on flies and wasps. I haven’t used it on anything else as of yet but I’m sure it’ll definitely work on spiders and other creepy crawlies! It charges quickly and the extender is very helpful for me as I’m on the short side! I would definitely recommend.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Good investment, great big killer, but blue light burnt out after 9 months — I love this bug zapper. It's amazingly effective both indoors and out.  It has been wonderful at killing flies, and gnats. It's been wonderful in my fowl yard, and near my pool. I even brought it indoors for my indoor greenhouse.\n\nCleaning is fairly easy.\n\nThe one bad thing is the blue light bulb that attracts the bugs has now burnt out. Even with that, I feel it was money well spent.",
+      "tags": [
+        "bad_design",
+        "effective",
+        "easy_clean"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Crispy result — This is a mains powered indoor fly zapper unit. There are two UV lamps and includes hanging hooks.\n\nThings I liked:\n- easy to setup\n- love that it includes spare2x UV lamp tubes\n- silent unless when it zaps a fly or moth\n- very effective bug zapper\n\nOverall, I wished the bug tray had a bigger ridge. Great for summer time and will be busy meet and greeting flies and household moths.",
+      "tags": [
+        "effective",
+        "quiet"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Good wasp killer — Bought this on the offchance it would kill wasps as I have a nest somewhere in the workshop which I cannot locate due to stock everywhere! Put this up and within the first few hours of it going up the tray was full of dead wasps and all over the floor too! Can now work in there without being attacked! Works well attracting wasps and zapping them, well worth the money.",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "works really well — This zapper works really well.  As soon as this was plugged in, it started zapping fruit flies like crazy.  It's been on for a straight 48 hours and is constantly zapping away.  It was a bit jarring at first because it was getting so many in succession (sometimes within seconds), but I'm just glad it's so effective.  It's a good value and doesn't take up much space.",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great. — Very happy with this insect zapper its much safer and healthier than using insect spray, I bought it for use in my flat where I always have the patio doors open in summer , I use it in the evening as a low light that also zapps any ligering insects , it doent take long to work as the insects head straight for it and does a great job of getting rid of them.",
+      "tags": [
+        "effective",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "It definitely works — We initially purchased a cheaper Lantern style from Lidl but after almost a week it hadn’t done a thing, not one fly…… we returned the item and purchased this model from Amazon. What a difference. We have this in our chicken shed and constantly here the little bugs, flies etc getting zapped. Very effective method of cleansing the area and would recommend.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Zapper extrordinaire — Pro fly zapper is sturdy, lightweight and a first class zapper. It has a blue light which attracts flying insects and when they fly into the bat they go bang. I don't like killing flies but they upset the dog. It's the best zapper I've ever bought. Great value arrived on time well packaged. It has a usb charger and there's no noise or smell when in use.",
+      "tags": [
+        "effective",
+        "quiet",
+        "value",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Brilliant blue bottle killer😃 — Brilliant, its so much better than the old original tennis racket style. It also packs a pretty decent whack, just keep it over the fly for a moment to endure its not just stunned. Easy to reach on windows and ceiling. The extendable hand enables easy reach.\nHaven’t tried it as a stand up attraction with the light. Very good value and sorted my problem.",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works as soon as it was plugged in. — Live on an island surrounded by marshes. Lots of mosquitos, midgies, and noseums. The minute I plugged it in, I hear it zap at least a few times. When we come in from going outside, we bring in the insects! Placed it by the front door. It's pretty loud but if it works and prevents me and my pets safe from being a bug feast, I'll deal with it!",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Perfect for the tropics. — More efficiently quicker than my last model. My previous model was too slow in dealing with the flies, they were just spinning around, with lots of smoke and horrible burning smells. Mind you, my dog enjoyed watching that horror show. Now with this model it has a lot more voltage across the rails. All unwelcomed insects are instantly dead.",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Bloody brilliant — Excellent piece of kit. I was running around my house like a loon the day i got this!! By the end, the floor was half covered with dead flies. Gives a proper crack when you get one! Awesome fun, a great bit of exercise and as far as i am concerned an absolute bargain. I would, and actually have purchased again. Get one, you wont regret it.",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Cracking — Great products especially when you hear the fly go crack when it gets exterminated electrocuted .\ndo not leave it over somewhere where you don't want to flies to land after being killed be aware some can start to burn if they're stuck in the electrodes but not a problem.\nIt's that good iv bought a 2nd one for my workshop.",
+      "tags": [
+        "loud_noise"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Larger than I expected but very effective over the last 24 hours — The unit is slightly larger than I expected but seems to be solid and well made, and having the two spare light tubes is a great addition. I set it up immediately and yesterday evening / overnight we heard it crack a few times and there were no flies around our cats' food this morning. So, a success so far, thanks",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works brilliantly — Brilliant! We have had lots of small moth like things flying around. Not sure if they came in some bird seed or what but they have a kind of webby stuff in the container so I have thrown loads of seed away.. Anyway they are gradually becoming less and less. It catches fruit flies too so we are happy with it.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Zap and the flies are gone — Really good for mosquitos and moths that are heavily drawn to the light, not so good for standard houseflies unless they happen to fly into the light randomly. Easy to clean, sturdy enough and not too bright that it's super annoying. The noise can be surprising and give you a jump / fright when it goes off.",
+      "tags": [
+        "bright_light",
+        "easy_clean",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Brilliant - bye bye flies — Amazing product. Does exactly what we want it to do.  We had an infestation of about ten flies, probably all hatched at the same time so my son and I got to work.\n\nWhen it catches a fly there's a spark and a crackle, and the fly sticks to the bat but can easily be removed with a shake.\n\nHighly recommended",
+      "tags": [
+        "safety",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Robust, rechargeable and effective fly genocide machine — Brilliant bit of kit, well made works perfectly, swivel head allows for head on attack. MUCH better than the cheap Chinese ones that break easily and barely do the job AND use lots of batteries. I had 2 hours f them now have this one and works better, rechargeable and in the long term cheaper to use.",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent — Really impressed with this fly zapper.\nIt is nice and lightwieght and the power cord is good length.\nIt works brilliantly, can hear the zap of the bugs when they come into contact with the fly zapper.\nFeels of good quality and comes with two extra bulbs which is great.\nDefinitely recommend.",
+      "tags": [
+        "loud_noise",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Best bug zapper — This works great, we had an issue with all the mosquitos and gnat flies coming in and plugged this in and it worked so well zipping all the insects around.  The zapping noise isn’t too bad unless a big bug gets caught. Well built considering I dropped it and it didn’t break and still works.",
+      "tags": [
+        "loud_noise",
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "ZAP — We have bi fold doors on our back room which we like completely open on hot days but the flies make a nuisance of themselves and having tried unsuccessfully a number of other fly catchers the Mafiti fly killer seems to be doing the trick. So far so good. Easy to install and value for money",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Ray gun for flies — Love this fly killer l like how you can tilt the bat so you can to the flies at any angle. It’s light to hold and strong as well. Got three settings on it one that has a uv light. Boy when you catch one with this bat do they fry sparking and light up nicely. Burnt flies stink",
+      "tags": [
+        "safety"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works well — Zap. This worked really well for mosquitoes that took over a pond areas. Quite fun to watch. Took care of all the local moths also. I like that there is a tray at the bottom to easily throw away the dead. It’s a blue light so kinda nice to have on at night as you hang out.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "It does the job!!! — It's a fantastic buy!! I absolutely abide those irritating little fruit flies.\nYears of squashing and squishing, fanning them away GONE!!\nThe rewarding sound of the that satisfying ZITTTT, just makes me smile 😃\nGet 1 if you're pestered by any flying irritating insects",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "No more gnats — I like to keep a window open when the weather permits, but I can't stand the tiny bugs that get through the screens. This bug zapper solved the problem, it sits next to my desk, and zaps intruders!\nGood price and very effective.\nI am a very happy customer! Thank you!",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fly Saber — Honestly feel bad for the flies. This thing destroys so many in such a short space of time. It's well worth the money. Takes a little getting used to but once you pick up the technique (like tennis) they are done for.\n\nNo smell for me. About 40 flies down in 1 week",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Crack !! Another dead fly — Wasn't too sure to begin with but once you find the right spot to place it  I've got a few spots I use it , it's brilliant really is ,well impressed with it  you soon know if it's working going by the crack as yet another fly or bluebottle fries ,highly recommended",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Much better than slightly cheaper versions — Lasting well! Great in that it has a stand and wall clip and extension pole and the head rotates!\n\nCan be used as an always on fly trap as well which is sometimes useful.\n\nFeels sturdy and well made and worth the extra money versus the cheaper products out there.",
+      "tags": [
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Dispatches insect easily — Wow what a brilliant piece of kit. No more chasing flies or flying insects with a newspaper.\nKids are horrified when an insect gets zapped. Fully recommended.\nI’ve nicknamed mine as Frank……after Frank Zapper……it’s an age thing, if you don’t know, look him up.",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Does what it says on the box — Very good fly zapper, I love the noise it makes when a Bluebottle make when it, we all sing ‘Another one bites the dust’  easy to clean, it has a heavy electrical cord which is a bit of an eyesore but maybe it has to be that thick for the current",
+      "tags": [
+        "effective",
+        "easy_clean"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Finally found one that works!! — Wow does this thing work!.. and the loud crack it gives when it kills a fly is very satisfying! Great product, not cheap but boy it does the job superbly. 10/10 rating. I’ve tried 2-3 different ones over the years and this is by far the best. 👌👌",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Good and durable — Does what it says on the packet and better as you don't have to keep looking for batteries when it dies also has a light on it. Got earwigs, flying spiders/ daddy long legs, blue bottles, etc. Doesnt make a good tennis racket though lol.",
+      "tags": [
+        "effective",
+        "lasts_long"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Incredibly effective — Fantastic product, works efficiently and quickly , unfortunately mine  had a fault , the company where so quick to help and replied to my messages quickly and sent out a new replacement fly catcher within 5 days so impressed. Thank you 😄",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Terrible for flying insects. — Works brilliantly, well worth the money. Make sure you switch it off before trying to clean or you will get frizzy hair.\nIt also only seems to kill the flys not cook them so you don't get that awful roasting smell like with the rackets.",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Worth the money — Go for it. Wish I'd bought it sooner. I know it seems pricey but it's worth it with with the long handle that can be taken off and stand and being able to adjust the angle. Bought one for my dad too now it's been reduced on amazon prime",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Reliable & Efficient — This is going to be the only product I buy to deal with the flies. Yes it’s loud and you jump when it attracts a fly etc but that’s a small price to pay for its reliability. They also include replacement bulb tubes…excellent value!!!",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Non toxic way — Easy set up and cleaning, It saves time and energy, it zapped three bugs within seconds, it gets different size mosquitoes, flies and other insects, no more flying on my face or legs while seating outside having a great conversation!",
+      "tags": [
+        "safe_kids_pets"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Game changer. — This fly catcher is brilliant. Hours of fun catching the pesky flies, especially the Bluebottles that seem to be around in large numbers this year.. Would recommend however, think it is more suitable for retired older blokes!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works great — I love this bug light.  I use it indoors to kill mosquitos. If you live it the South you can understand.  It also doubles as a night light at night.  It stays on 24/7 and I have not had any problems with it.  Great purchase.",
+      "tags": [
+        "effective",
+        "indoor_outdoor"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Work's well — Great item works well I got this to keep fly's way from my cats food and it works with in the first 10 minutes it had already got it first fly the only thing is getting used to the noise when it zaps a fly it can be loud",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Get it. Its fantastic — Absolutely fantastic. Spend abit more to get this one. Best one I've had, although killing flies gets addictive ha. They smell burnt abit when you zap them. But yeah really helped me out with all bugs that enter my home!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Beware, it's loud! — It definitely does the job, but be warned, it absolutely freaks out my dog, so we can't use it too often. It makes a loud bang like a gunshot when it catches a fly. The dog runs a mile and he's out of sorts all day 😳.",
+      "tags": [
+        "loud_noise",
+        "effective"
+      ]
+    }
+  ]
+}

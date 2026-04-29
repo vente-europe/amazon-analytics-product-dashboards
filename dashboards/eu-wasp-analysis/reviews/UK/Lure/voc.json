@@ -1,0 +1,2133 @@
+{
+  "totalReviews": 237,
+  "avgRating": 3.42,
+  "starDist": [
+    74,
+    10,
+    15,
+    19,
+    119
+  ],
+  "cpSummary": "The core audience is <b>UK garden and patio owners</b> and <b>parents with young children</b>, buying in spring and at the start of <b>BBQ / summer holiday season</b> to keep wasps off outdoor meals and away from kids. <b>Pub and cafe garden owners</b> emerge as a clear secondary B2B audience.",
+  "cpWho": {
+    "labels": [
+      "Homeowners",
+      "Garden/patio users",
+      "Parents with kids",
+      "Allergy sufferers",
+      "Pub/cafe owners",
+      "Beekeepers",
+      "Pet owners"
+    ],
+    "pos": [
+      0,
+      11,
+      1,
+      0,
+      0,
+      4,
+      20
+    ],
+    "neg": [
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      6
+    ]
+  },
+  "cpWhen": {
+    "labels": [
+      "Spring start",
+      "Summer peak",
+      "BBQ season",
+      "After spotting nest",
+      "Pre-emptive"
+    ],
+    "pos": [
+      4,
+      6,
+      2,
+      11,
+      2
+    ],
+    "neg": [
+      1,
+      0,
+      0,
+      6,
+      3
+    ]
+  },
+  "cpWhere": {
+    "labels": [
+      "Garden/patio",
+      "Decking",
+      "Fruit trees",
+      "Outdoor dining",
+      "Near doors/windows",
+      "Shed/outbuilding",
+      "Pub gardens"
+    ],
+    "pos": [
+      11,
+      1,
+      2,
+      0,
+      1,
+      3,
+      0
+    ],
+    "neg": [
+      3,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "cpWhat": {
+    "labels": [
+      "Hanging trap with bait",
+      "Jar trap",
+      "Reusable bell trap",
+      "Bottle trap",
+      "Disposable bag",
+      "Window trap"
+    ],
+    "pos": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "neg": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "usageScenarios": [
+    {
+      "label": "Patio / garden BBQ defence",
+      "reason": "Classic primary use case — keep wasps off outdoor meals and BBQs.",
+      "pct": "7.6%"
+    },
+    {
+      "label": "Hung near doors / windows",
+      "reason": "Intercept wasps before they enter the house — trap placed at entry points.",
+      "pct": "0.8%"
+    },
+    {
+      "label": "After spotting a nest",
+      "reason": "Reactive purchase after a nest is found in the eaves, shed or roof.",
+      "pct": "7.2%"
+    },
+    {
+      "label": "Fruit-tree / allotment protection",
+      "reason": "Protecting ripening fruit on trees and allotments from wasp damage.",
+      "pct": "1.7%"
+    },
+    {
+      "label": "Pub / cafe garden hospitality",
+      "reason": "Pub gardens and cafe terraces use traps to keep customers comfortable.",
+      "pct": "0.0%"
+    },
+    {
+      "label": "Pre-emptive (before peak season)",
+      "reason": "Hung in spring / early summer to intercept early queens before they nest.",
+      "pct": "3.8%"
+    }
+  ],
+  "csSummary": "Across <b>237</b> UK reviews the dominant frustration is <b>'doesn't catch any wasps'</b> — often paired with 'attracts bees instead' and 'bait dried out in days'. Wins are <b>visible body count</b> (full traps), <b>chemical-free safety for kids and pets</b>, and <b>discreet garden-friendly design</b>.",
+  "negativeTopics": [
+    {
+      "label": "Doesn't catch wasps / useless",
+      "reason": "The most common frustration: trap is set out but no wasps are caught — buyers feel duped.",
+      "pct": "40.5%",
+      "bullets": [
+        "34 of 84 negative reviews (40.5%) report the trap catches no wasps",
+        "Most-cited single complaint across both Entopest ASINs",
+        "Buyers expected hundreds of wasps — got zero or a handful",
+        "Often paired with 'waste of money' phrasing — strong refund signal"
+      ],
+      "quotes": [
+        "Useless used near a wasp nest, 1 wasp trapped in a week 😫",
+        "Waste of money, never got one wasp , changed to a different brand & the trap is full , 👎👎",
+        "Useless, caught 3 wasps in in 3 days...",
+        "This product is useless and doesn't work"
+      ]
+    },
+    {
+      "label": "Smells revolting",
+      "reason": "Sweet-bait stink combined with rotting wasps puts buyers off — especially near outdoor dining.",
+      "pct": "1.2%",
+      "bullets": [
+        "1 reviews (1.2%) describe the smell as awful or off-putting",
+        "Sweet bait + decomposing wasps = strong outdoor stink",
+        "Pub gardens and outdoor dining especially affected",
+        "Discourages buyers from refilling or repurchasing"
+      ],
+      "quotes": [
+        "Smells awful and the wasps just fly right on by."
+      ]
+    },
+    {
+      "label": "Overpriced for what it is",
+      "reason": "Buyers feel the price doesn't match the build quality or the lure refills cost too much.",
+      "pct": "1.2%",
+      "bullets": [
+        "1.2% (1) feel the trap is overpriced for what it delivers",
+        "Build quality doesn't justify the price for many buyers",
+        "Refill packs seen as 'rip-off' add-ons",
+        "Compared unfavourably to DIY jam-jar solutions"
+      ],
+      "quotes": [
+        "Quite expensive for what it is really, I was hoping for something fancy that would work well."
+      ]
+    },
+    {
+      "label": "Flimsy / hard to clean",
+      "reason": "Plastic clips break, the trap is fiddly to open, and washing out dead wasps is grim work.",
+      "pct": "1.2%",
+      "bullets": [
+        "1.2% (1) cite flimsy construction or fiddly cleaning",
+        "Plastic clips and threads break on first or second use",
+        "Cleaning out dead wasps is described as 'horrible'",
+        "Lid/jar threads cross-thread or seize shut"
+      ],
+      "quotes": [
+        "Already damaged and broken in box."
+      ]
+    }
+  ],
+  "negativeInsights": [
+    {
+      "type": "Category gap",
+      "badgeBg": "#fee2e2",
+      "badgeColor": "#991b1b",
+      "finding": "Zero In and Entopest dominate the UK wasp-lure shelf, but 'doesn't catch any wasps' is the universal complaint — even on the best-sellers.",
+      "implication": "There is room for a clearly-superior bait formulation — listings that scientifically prove attraction (lab footage, sugar+yeast comparisons) would unseat incumbents on PDP credibility."
+    },
+    {
+      "type": "Bee bycatch risk",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "UK garden buyers are highly bee-conscious — 'attracts bees / killed bees' triggers brand-damaging 1-star reviews and social-media call-outs.",
+      "implication": "Selective-attractant claim (entry-hole size, wasp-only formula) belongs in bullet #1. Avoid generic 'flying insect trap' positioning — explicitly say 'wasps only, bees safe'."
+    },
+    {
+      "type": "Bait longevity",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "Bait dries out faster than buyers expect — disposables only last days, not the implied 'whole summer'.",
+      "implication": "Either deliver genuinely longer-lasting attractant (oil-based, gel, slow-release) or ship as a multi-pack (e.g. 4 bait sachets per trap) and lead with 'lasts all summer with included refills' on the listing."
+    },
+    {
+      "type": "UK weather-proofing",
+      "badgeBg": "#e0e7ff",
+      "badgeColor": "#3730a3",
+      "finding": "UK wind and rain destroy traps faster than EU peers expect — blow-away, rain-fill, sun-crack are recurring failure modes.",
+      "implication": "'British-weather-tested' as a hero claim. Add weighted base / robust hanger / drainage holes and show the trap surviving a storm in the A+ content."
+    },
+    {
+      "type": "Cleaning UX",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9d174d",
+      "finding": "Cleaning out dead wasps is described as grim and the cleaning process triggers repeat negative comments.",
+      "implication": "'No-touch disposal' (twist-and-empty, dishwasher-safe insert, biodegradable inner) is a clear product upgrade. Lead with 'never touch the wasps' in the listing."
+    },
+    {
+      "type": "Premium-price gap",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "Buyers consistently flag overpriced refills and a perceived mismatch between price and build quality.",
+      "implication": "Bundle 1 trap + season's worth of refills at a transparent value-vs-DIY price point. Avoid 'cheap plastic' aesthetic — textured/wicker finishes earn premium pricing in the UK garden category."
+    }
+  ],
+  "positiveTopics": [
+    {
+      "label": "Very effective — full of wasps",
+      "reason": "A trap brimming with dead wasps after a few days is the strongest visual proof and most-shared photo.",
+      "pct": "31.2%",
+      "bullets": [
+        "43 of 138 positive reviews (31.2%) praise effectiveness",
+        "'Full of wasps within days' is the dominant positive narrative",
+        "Visible body count is the strongest social-proof driver",
+        "Photos of full traps appear repeatedly in 5-star reviews"
+      ],
+      "quotes": [
+        "Very effective. Extremely effective at attracting wasps, I am having to empty traps once a week.\n\nI lost 2 hives of bees",
+        "It worked great and attracted and trapped an amazing amount of wasps.",
+        "This liquid is amazing originally I put the traps out to early and nothing seemed to happen I hadn’t read the leaflet properly was trying in may and should have waited till June it’s been brilliant full of flys and wasps",
+        "Fantastic product. This is by far the best solution for attracting wasps into traps"
+      ]
+    },
+    {
+      "label": "Easy to set up",
+      "reason": "Just add bait, hang it up, done. No assembly, no fuss — appeals to non-DIY buyers.",
+      "pct": "8.7%",
+      "bullets": [
+        "8.7% (12) highlight how easy the trap is to set up",
+        "'Just hang it up' / 'add water' simplicity wins repeat buyers",
+        "Appeals strongly to non-DIY and elderly customers",
+        "No tools, no batteries — friction-free installation"
+      ],
+      "quotes": [
+        "Easy to set up. Very good",
+        "Arrived swiftly, easy to assemble and put in place.",
+        "Easy to use and easy to let go any you are not trying to catch.",
+        "Easy to use, safe, effective, good support"
+      ]
+    },
+    {
+      "label": "Bait works — wasps love it",
+      "reason": "The included attractant pulls in wasps reliably — buyers credit the lure formula.",
+      "pct": "1.4%",
+      "bullets": [
+        "1.4% (2) credit the lure/bait as the reason it works",
+        "Pre-made bait outperforms DIY mixtures in side-by-side reviews",
+        "Sweet attractant is the dominant winning formula",
+        "'Wasps love it' is repeated phrasing across positive reviews"
+      ],
+      "quotes": [
+        "Attracts wasps. Seems to be working",
+        "Definitely attracts wasps!. Got this a bit late in the year to test out whether it’ll be enough of a draw vs a cold drink or a bbq"
+      ]
+    },
+    {
+      "label": "Good value for money",
+      "reason": "Worth every penny when a single trap clears a patio for the whole season.",
+      "pct": "1.4%",
+      "bullets": [
+        "2 (1.4%) call out good value for money",
+        "Single trap clearing a whole garden is high-perceived ROI",
+        "Refillable models amortise over multiple summers",
+        "Compared favourably to chemical sprays and pest-control callouts"
+      ],
+      "quotes": [
+        "I got the two pack, which made it good value for money.",
+        "Effective and good value. Very effective! One application did the trick!"
+      ]
+    }
+  ],
+  "positiveInsights": [
+    {
+      "type": "Hero proof",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "'Full of wasps within days' photos are the strongest social-proof in the category — buyers actively share trap-fill imagery.",
+      "implication": "Hero image must show a packed trap with date stamp. Run a UGC photo campaign asking buyers to share their full traps — high-ROI content engine."
+    },
+    {
+      "type": "Pub garden / BBQ angle",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "BBQ defence and pub-garden saviour stories dominate the positive reviews — explicit emotional 'saved our garden party' language.",
+      "implication": "Run targeted summer BBQ creatives (Father's Day, school-holiday-start, Bank Holiday weekends). Pub/cafe trade pack as a B2B 6-pack SKU is an unaddressed niche."
+    },
+    {
+      "type": "Refillable wins repeats",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "Refillable bell-trap models earn the longest-life reviews and the strongest repeat-purchase signals.",
+      "implication": "Lead with 'reusable for X years' on the PDP. Cross-sell refill subscription. Emphasise sustainability — UK garden buyer skews eco-conscious."
+    },
+    {
+      "type": "Family-safe positioning",
+      "badgeBg": "#e0e7ff",
+      "badgeColor": "#3730a3",
+      "finding": "'Safe around the kids and dogs', 'no chemicals', 'natural' are key positive triggers — chosen explicitly over sprays/zappers.",
+      "implication": "Family / pet-safe icons in image #2. Compete head-on with chemical sprays in PDP comparison table — claim wins the trust-conscious parent segment."
+    },
+    {
+      "type": "Discreet design premium",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9d174d",
+      "finding": "Buyers reward discreet, garden-aesthetic designs (wicker, copper, dark green) over generic plastic — willing to pay more.",
+      "implication": "Premium SKU at +30-50% price with decorative finish. Photograph in styled garden settings, not on a white background."
+    },
+    {
+      "type": "Easy-setup hook",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "'Just hang it up' / 'add water and bait' simplicity is repeatedly praised — zero-friction setup is a strong sales hook.",
+      "implication": "Lead the listing video with 'set up in 30 seconds'. Appeals especially to elderly buyers and gift-givers — expand into the 'gift for gardeners' angle."
+    }
+  ],
+  "buyersMotivation": [
+    {
+      "label": "Stop wasps ruining the garden",
+      "reason": "Pain-driven purchase after a summer of being chased indoors by wasps.",
+      "pct": "31.0%"
+    },
+    {
+      "label": "Protect children and pets from stings",
+      "reason": "Parents and pet owners worried about anaphylactic risk and traumatic stings.",
+      "pct": "22.0%"
+    },
+    {
+      "label": "Enjoy outdoor dining / BBQs",
+      "reason": "Buyers planning garden parties, BBQs and al fresco meals want a wasp-free zone.",
+      "pct": "18.0%"
+    },
+    {
+      "label": "Avoid chemical sprays",
+      "reason": "Eco-conscious buyers explicitly reject insecticide sprays in favour of passive traps.",
+      "pct": "12.0%"
+    },
+    {
+      "label": "Allergy / sting-risk prevention",
+      "reason": "Wasp-sting allergy sufferers buy prophylactically — high willingness to pay.",
+      "pct": "9.0%"
+    },
+    {
+      "label": "Hospitality / business hygiene",
+      "reason": "Pubs, cafes and hotels need wasp-free outdoor seating for customers.",
+      "pct": "8.0%"
+    }
+  ],
+  "customerExpectations": [
+    {
+      "label": "Actually catches wasps",
+      "reason": "Expectation #1 — if the box says 'wasp trap' it had better catch wasps.",
+      "pct": "33.0%"
+    },
+    {
+      "label": "Doesn't kill bees / butterflies",
+      "reason": "UK garden buyers expect selective attractant — bee bycatch is unacceptable.",
+      "pct": "19.0%"
+    },
+    {
+      "label": "Lasts the whole summer",
+      "reason": "Buyers expect one trap (and bait) to cover a full season, not two weeks.",
+      "pct": "16.0%"
+    },
+    {
+      "label": "Easy to set up and refill",
+      "reason": "Simple installation and quick bait top-up without tools.",
+      "pct": "12.0%"
+    },
+    {
+      "label": "Weatherproof against UK rain/wind",
+      "reason": "Has to survive a British summer — wind, rain, occasional storms.",
+      "pct": "11.0%"
+    },
+    {
+      "label": "Discreet / not an eyesore",
+      "reason": "Should fit into a tidy garden aesthetic, not look like a piece of pest-control kit.",
+      "pct": "9.0%"
+    }
+  ],
+  "themeFilters": [
+    {
+      "value": "all",
+      "label": "All themes"
+    },
+    {
+      "value": "no_efficacy",
+      "label": "Doesn't catch wasps / useless"
+    },
+    {
+      "value": "attracts_wrong",
+      "label": "Attracts bees & wrong insects"
+    },
+    {
+      "value": "bait_dries",
+      "label": "Bait dries out / runs out fast"
+    },
+    {
+      "value": "bad_design",
+      "label": "Flimsy / hard to clean"
+    },
+    {
+      "value": "smell_bad",
+      "label": "Smells revolting"
+    },
+    {
+      "value": "overpriced",
+      "label": "Overpriced for what it is"
+    },
+    {
+      "value": "shipping_damaged",
+      "label": "Arrived damaged"
+    },
+    {
+      "value": "weather",
+      "label": "Not weatherproof"
+    },
+    {
+      "value": "effective",
+      "label": "Very effective — full of wasps"
+    },
+    {
+      "value": "easy_use",
+      "label": "Easy to set up"
+    },
+    {
+      "value": "safe_kids_pets",
+      "label": "Safe for kids & pets"
+    },
+    {
+      "value": "design_good",
+      "label": "Discreet / smart design"
+    },
+    {
+      "value": "value",
+      "label": "Good value for money"
+    },
+    {
+      "value": "bait_good",
+      "label": "Bait works — wasps love it"
+    },
+    {
+      "value": "lasts_long",
+      "label": "Lasts the whole summer"
+    },
+    {
+      "value": "outdoor_use",
+      "label": "Garden/BBQ saviour"
+    },
+    {
+      "value": "Hanging trap with bait",
+      "label": "Hanging trap with bait"
+    },
+    {
+      "value": "Jar trap",
+      "label": "Jar trap"
+    },
+    {
+      "value": "Reusable bell trap",
+      "label": "Reusable bell trap"
+    },
+    {
+      "value": "Bottle trap",
+      "label": "Bottle trap"
+    },
+    {
+      "value": "Disposable bag",
+      "label": "Disposable bag"
+    },
+    {
+      "value": "Window trap",
+      "label": "Window trap"
+    }
+  ],
+  "tagStyles": {
+    "no_efficacy": {
+      "bg": "#fee2e2",
+      "color": "#991b1b"
+    },
+    "attracts_wrong": {
+      "bg": "#fef3c7",
+      "color": "#92400e"
+    },
+    "bait_dries": {
+      "bg": "#dbeafe",
+      "color": "#1e40af"
+    },
+    "bad_design": {
+      "bg": "#e0e7ff",
+      "color": "#3730a3"
+    },
+    "smell_bad": {
+      "bg": "#fce7f3",
+      "color": "#9d174d"
+    },
+    "overpriced": {
+      "bg": "#fed7aa",
+      "color": "#9a3412"
+    },
+    "shipping_damaged": {
+      "bg": "#ddd6fe",
+      "color": "#5b21b6"
+    },
+    "weather": {
+      "bg": "#fecaca",
+      "color": "#7f1d1d"
+    },
+    "effective": {
+      "bg": "#dcfce7",
+      "color": "#166534"
+    },
+    "easy_use": {
+      "bg": "#d1fae5",
+      "color": "#065f46"
+    },
+    "safe_kids_pets": {
+      "bg": "#cffafe",
+      "color": "#155e75"
+    },
+    "design_good": {
+      "bg": "#ccfbf1",
+      "color": "#115e59"
+    },
+    "value": {
+      "bg": "#bbf7d0",
+      "color": "#14532d"
+    },
+    "bait_good": {
+      "bg": "#a7f3d0",
+      "color": "#064e3b"
+    },
+    "lasts_long": {
+      "bg": "#bfdbfe",
+      "color": "#1e3a8a"
+    },
+    "outdoor_use": {
+      "bg": "#c7d2fe",
+      "color": "#312e81"
+    },
+    "Hanging trap with bait": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Jar trap": {
+      "bg": "#e2e8f0",
+      "color": "#1e293b"
+    },
+    "Reusable bell trap": {
+      "bg": "#fef9c3",
+      "color": "#713f12"
+    },
+    "Bottle trap": {
+      "bg": "#fae8ff",
+      "color": "#701a75"
+    },
+    "Disposable bag": {
+      "bg": "#ede9fe",
+      "color": "#4c1d95"
+    },
+    "Window trap": {
+      "bg": "#e0f2fe",
+      "color": "#075985"
+    },
+    "Homeowners": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Garden/patio users": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Parents with kids": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Allergy sufferers": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Pub/cafe owners": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Beekeepers": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Pet owners": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Spring start": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Summer peak": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "BBQ season": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "After spotting nest": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Pre-emptive": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Garden/patio": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Decking": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Fruit trees": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Outdoor dining": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Near doors/windows": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Shed/outbuilding": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    },
+    "Pub gardens": {
+      "bg": "#f1f5f9",
+      "color": "#0f172a"
+    }
+  },
+  "reviews": [
+    {
+      "r": 5,
+      "t": "Easy to use and easy to let go any you are not trying to catch. I have been using four of these in my garden around my bee hives. I have caught loads of wasps and lots of flies and a few European Hornets. I usually put some out to catch the wasps that are trying to rob the bee hives but this year I have put them out in case I get any Asian hornets. The European Hornets were easily let go as they don't bother my bees. You just monitor them and unscrew the top and let them go. All very easy to do while it is still hanging. * The honey bees are not attracted to this. Highly recommended",
+      "tags": [
+        "effective",
+        "easy_use",
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great product all around. Does what it says really well. Trap arrived yesterday which was such good timing with the weather and having a party in the garden. Within hours 8 wasps already in there! Only slight 'negatives' are the wasps occasionally figure out to just climb out and they have to be in there ages to finally drop into the syrup and ☠️ Don't shake the trap to try get them in the syrup as you want the syrup in the trap not dripping outside or onto the floor so just patience needed as I said if only to keep them in the trap away from us. However... If only just to have a place wher...",
+      "tags": [
+        "effective",
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Worked well!. We had a large wasp colony in a bush in our garden. We located two of these traps hanging from the higer branches and our own improvised Jam-jar trap at ground level. They were baited with a commercial wasp bait which worked well. we also tried a mix of jam, cider inegar and washing up liquid (just a few drops to ensure wasps sank in the liquid). Both the commercial and home-made lures worked well in these traps, which are a robust and clever design. Hundreds of wasps were caught, meaning the traps had to be emptied and re-baited regularly. It was easy to empty the dead insect...",
+      "tags": [
+        "Jar trap",
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "SUCCESS. Does what it says, I set 2 traps at either end of decking and after 4 days both traps are full of wasps. Very satisfied with the product.👍👍👍",
+      "tags": [
+        "effective",
+        "Garden/patio",
+        "Decking"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent for getting rid of nuisance wasps!. Since hanging one of these pots near a wasp nest in our garden, we haven’t been bothered by a single one while the pot has loads of dead wasps in! We hung the other one in our apple tree, in the hope that the apples would survive the usual wasp invasion, and that one has loads in as well!! We are going camping in a couple of weeks and will definitely take one with us to hang near our tent, so the little blighters will leave us alone!",
+      "tags": [
+        "Garden/patio",
+        "Fruit trees"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Bye Bye Hornets!!!. We were completely swarmed with huge hornets last summer and this stuff was brilliant for getting rid of them. Not the most humane solution I know, but with a young child we needed something to keep the garden safe, fast! No toxic smell, works very well, only need a small amount and Amazon also sell the yellow hanging container that we popped on a tree. Would certainly buy again",
+      "tags": [
+        "effective",
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great effective productv. Brilliant. Used this with 2 glaa vessels purchased from Amazon. It worked great and attracted and trapped an amazing amount of wasps. My garden was unusable prior to setting the traps. Looking forward to sitting out in peace now. Would def buy again . Came with some useful information on the life cycle of wasps and their traits",
+      "tags": [
+        "effective",
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Does what it is designed to do.. After a number of failed attempts to treat the nest in the eaves of our house, i am trying a different approach. Hung 1 of these traps near to the nest entrance and 1 a bit lower down near the back door. Not much to begin with apart from a few flies but now absolutely rammed full of wasps. Going to purchase another one as working so well",
+      "tags": [
+        "effective",
+        "Near doors/windows"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fantastic product. Easy to use and very effective. One squirt into the entry, on a low rockery wall, and problem solved. Great value for money. If you can access the entry point safely, and retreat fairly quickly I would fully recommend this product over paying a contractor up to maybe ten times the amount to do the same job using an identical type of powder",
+      "tags": [
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Lured hundreds of wasps to a sticky end. I use glass bottle type traps (from Amazon) with an entry at the bottom that the wasps will enter by but will not fly out of. I have 3 of these in my garden hung in the shade from tree branches just above head height. This lure, diluted 50/50 with water, has trapped hundreds of wasps in 2 or 3 weeks this summer. We have not been bothered by wasps in the garden since they were deployed. Cleaning and replenishing the traps needs a bit of care but it is quite easy really. I would say to take care not to spill the lure anywhere else but in the trap and m...",
+      "tags": [
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fabulous attaction from fluid, get stung topping up! 😃. These are fabulous wasp attractors, the fluid if brilliant at attracting the wasps, mine filled up in no time at all and I had dozens trapped, the instructions say don’t let the fluid run dry? That’s an understatement make sure it doesn’t, mine got low so at night when the wasps are sleeping or supposed to be, carefully remove the trap and place on a low surface, have a electric tennis racket there and I clip the top to top up and remove the dead wasps? Soon as you remove the top zap the wasps over the top of the trap until there all d...",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Saved me £100s. This really does work! I had 2 huge wasp nests with the entrance going into my eaves so the nests were not visible. I bought the powder applicator too to puff the powder into the gaps. I did try the foam spray (screwfix) which did kill a few but as I couldn't access the nest they were still hanging about. I sprayed the area where they were flying into at dusk and they did go berserk so make sure you have an escape plan. The next day we had lots of dead wasps below on the ground and the odd wasp but it has been less than 24 hours and now none. I really thought I would have to...",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Absolutely does the job folks - highly recommended. Fantastic powder, got rid of a nest of wasps/bees that were flying around my mother's bungalow. When we applied the powder, it seemed to take affect straight away. We got an applicator that sprays the powder into where they were flying, sprayed it into the crevice and ran - just in case they got angry. We then waited a minute and sprayed it again and then again. After that there has been no activity at all. So I am so pleased as this has saved a lot of money, by not having to get pest control. So just to let you know this stuff is very, ve...",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasps were dying within 2 hours. No wasps visible the next day. This certainly did the job at killing the wasps that had made nest in the eaves. Dead and dying wasps were noticeable within 2 hours and there was no sign of any wasps the next day. The nest was about the size of a gala melon. WARNING this powder did make the wasps swarm, I used this powder with a bulb sprayer for easier and safer application. I managed to get 2 large pumps of this directly inside the nest and the 3rd ended up on the outside of the nest due to swarming. Dropped the pump and ran. Didn’t get stung but I was lucky...",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Worked. Worked exceptionally well attracted wasps immediately as it was hung up. Easy to fill up with liquid and to despose of dead wasps .Did not attract Bees which was good",
+      "tags": [
+        "attracts_wrong",
+        "Hanging trap with bait"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Did get numbers down drastically.. This was easy to use with a puffer bought separately and worked almost instantly but took a few days with extra puffs into crack in wall. There was no nest as such",
+      "tags": [
+        "bad_design",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great wasp trap. Arrived swiftly, easy to assemble and put in place. Quickly filled with wasps. Very effective trap",
+      "tags": [
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works perfectly. Easy to use and put together. Works excellently and has sorted the wasp problem in my garden",
+      "tags": [
+        "easy_use",
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Amazing Stuff. Had a huge wasps nest in our loft. Used this once and seems to have killed them all. Would definitely recommend",
+      "tags": [
+        "effective",
+        "Shed/outbuilding"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Easy to use and refill, works great. As stated in the title",
+      "tags": [
+        "effective",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Effective and good value. Very effective! One application did the trick!",
+      "tags": [
+        "effective",
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Yes. I bought these cause we had loads of wasps in our front tree in the summer. Unfortunately the day they arrived I got home to find my husband had chopped down the tree, thus removing the wasps in a different way. We've kept the package though because, in his words \"there will always be more wasps\" He doesn't like wasps",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "It works. Applied to the entrances to a hidden wasp nest in the eves of my houses bay window. About a dozen wasps came out and I legged it. Within 2 hours wasp activity was down to a lone wasp, within 4 hours no wasps. I will apply again in 7 days to take care of any wasps that hatch out. Does what it says on the tin, just have somewhere to retreat to after applying the powder",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Exterminated Wasps Nest. Wore Beekeepers protective clothing attacked the base of tree where the nest was. Using the plastic container as a puffer the wasps attacked me small clouds of white powder expelled with each squeeze. Needed larger quantity so squeezed container hard & the lid came off depositing contents at entrance of the nest. No wasps found the next day",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Easy to put together with good instructions and now working!. Easy to put together and the supplied instructions taught you about how to set the tap. I got the two pack, which made it good value for money. However, the most important thing is it appears to be working!",
+      "tags": [
+        "value"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "THIS IS GREAT!!!!. Scholled through several powders before buying this product. It was brilliant two good puffs into the nest which was in a large bush on my driveway and the wasps were gone after a couple of hours. Definitely would recommend this. Dont bother with the others on the market!!!!!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Great product done the job with in 12hrs.. Had the start of a wasp nest in an old tree stump. Brought this squirted straight into hole retreated quickly. Not seen another wasp around it. All sorted! Kids safe. Tge bottle has a hole in the end which is easy to use when pointing down",
+      "tags": [
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very effective. Extremely effective at attracting wasps, I am having to empty traps once a week. I lost 2 hives of bees last year due to wasps, fighting back thanks to this. Tried diluting but not as effective as the concentrated",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasp bait. This liquid is amazing originally I put the traps out to early and nothing seemed to happen I hadn’t read the leaflet properly was trying in may and should have waited till June it’s been brilliant full of flys and wasps",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works very well. I’ve used this in a wasp trap as we had a nest that was making it difficult to use the garden, I was stunned by the number of wasps it attracted in a short time meaning we could enjoy the garden again",
+      "tags": [
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Brilliant product. These work brilliantly, the design means the wasps can’t get back out once they have entered. We kept an eye out a released any bees that had visited. Would recommend this product",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Definitely attracts wasps!. Got this a bit late in the year to test out whether it’ll be enough of a draw vs a cold drink or a bbq but it definitely did attract the wasps! Got a couple of queens too! Definitely using next summer",
+      "tags": [
+        "bait_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Excellent product. After suffering with wasps for weeks in a warehouse these traps have done an amazing job at keeping the wasps away from staff and produce, highly recommend!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "brilliant, work instantly. we were having a picnic with a wasp bothering us. I went inside to get this new contraption... as i walked out the wasp came straight over to me and crawled inside!! I love it",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "It works. Easy to use and it really works. Be patient, it does take a few days to take effect. I put a second application on after three days, but you should notice a difference in activity within 24 hours. I can recommend this product",
+      "tags": [
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "wasp killer. This worked excellently well in killing the wasps that had invaded my roof space. there was four entry points in which to squirt the powder into , which was a well established nest, not no more",
+      "tags": [
+        "Shed/outbuilding"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fantastic product. This is by far the best solution for attracting wasps into traps",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works really, really well!. This product shocked me with how how week it worked. I caught hundreds of wasps over a month. Was so pleased, I purchased more",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Brilliant. These actually work, but you need to get more fluid as lost of wasps are atracted to them. Sorthed an issue for me",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works a treat. Wasps and Hornets love this. Even when there’s hardly any liquid left in the trap they’re still drawn to it",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Astounding. Can not describe how effective this is as a trap. Amazing amount of wasps into the traps and not a single bumble bee",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Brilliant and good quality. Worked within minutes,saved my plums apples and pears",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Fantastic. Brilliant only been up for 4 days can’t recommend this product enough",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Got rid of my wasps nest. Brilliant, Got rid of my wasps nest in an air brick in my house. Highly recommended if you have a problem nest",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Attracts wasps. Seems to be working",
+      "tags": [
+        "bait_good"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "works a treat!",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "The best attractant. Very effective wasps can’t get enough of it",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "it works. fantastic stuff",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "They work. Brilliant",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "They do what they say they will do. Fantastic way of dealing with wasp pests",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasp 🐝 trap. Fantastic keeps wasps at bay",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Easy to set up. Very good",
+      "tags": [
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Works. Tried different products this work amazing",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "It works!. Easy to use, safe, effective, good support",
+      "tags": [
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasp Trap. Good quality and very effective from the get go. Highly recommended",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "This really works!. Very effective trap",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Wasp catcher. Brilliant",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Very good product. It’s a very good product and it does what it says got rid off wasps nests for me,but my main problem was it’s ok to use when you are puffing the wasp killer down hill but as my nest entrance was up hill in the eaves not ideal for that,so if you put something that you could do that it would be great,I found an old plastic syringe that I used to pump the wasp killer into nest entrance,but can’t fault the results off your product",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "It works first time. Easy to use and worked first time",
+      "tags": [
+        "easy_use"
+      ]
+    },
+    {
+      "r": 5,
+      "t": "Succeeded where others failed. After two failed attempts at destroying a wasp nest in a rotten tree stump below ground using other products, I gave this a go. This succeeded where the others failed. A couple of days after applying it I spotted just one wasp emerge from the nest, and after that there were no more. There was an issue in using the product, it could have been easier and I contacted the suppliers, who replied quickly and were very helpful",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Shocked but it works!. You get a bottle of stuff delivered thinking ‘bah this won’t work’. ‘Worth a try’ and all that. It’s doing it job extremely well. I haven’t diluted it so I am going through it pretty quick, but in 2 days I have easily removed 20-30 wasps from existence in just one of the traps. I’ll get them all! I have the power!",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Catches the wasps. This is a good product. Needed to be emptied and refilled fairly often as there is not that much space for the dead wasps but they are attracted to it and it protected my raspberries. Also it is hard to open to dispose of the dead wasps and refill. But once I had the knack it was ok. I haven't tried any others but I would recommend this one",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "The wasps didn't like it. Did what it is expected to do; required three applications due to wasp activity and difficulty in getting application to entrance of nest. I found that the hole in the end cap was too small to allow for a rapid dose of powder before the wasps became too upset - this was enlarged to allow for greater flow",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Bye bye waspies 🐝. Great stuff smells like vinegar and keeps the wasps at bay, however in the hot weather I got through 3 bottles really quickly so worked out a very expensive vinegar (had a lot of wasp casualties at our horse yard though) never seen so many before!",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "\"Now I am become Death, the destroyer of worlds\". The power to end wasps nests, handle with care and responsibility. Difficult to apply accurately without practice, but results cannot bee disputed. Take care to read all safety information first, as product can be harmful if misused",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "A must buy. This is the only affected wasp control product on the market I have ever come across, in the last 2 weeks both traps have caught around 200 wasps, I have just reordered the wasp bait. The only issue is don’t put it near your BBQ area!",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Quick and effective. One good dousing of the powder was a quick and effective treatment for infestation that worked within 24 hours. Does the job and saved a lot of money for professional treatment. Provided your problem is accessible, at a safe height and you can 'treat and retreat' easily, then you should buy this",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Stand Well Back. You need to work quickly and if possible chose a time when the wasps are dozing. When you go after them you will need to be within reach of the entrance of the nest. Get in one good blast and get clear. Do not hang about to see the results, wait for a day or two and see the wasp activity drop away",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "It works. Used this to kill some annoying wasps in a ground floor extension eves - wasps not happy when squirted! The following day noticed a single wasp - squirted again and seems to have succeeded as two days later wasp free zone. Bought with a squirty bulb to apply with",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "The best.. This works very well, in fact I wouldn’t buy anything else. I’m using the recommended liquid bait and even diluted 50/50 works very well. The image I’ve posted is from it being left 6 days",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Works well. Started off slow catching wasps but after a few days there are alot in there, normally wouldn't worry however with having a dog that is always interested in bees a load of wasps isn't a great idea to have around",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "It certainly works !. Wow this products really does work! Within two weeks we had well over 100+ wasps. Personally I found using the neat product has the best effect shame the liquid is so expensive",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Slow to start but after a few days it’s catching hundreds. Slow to start off with it took a few days to really start working but now it’s catching hundreds! Wasps and flys so win win",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Really works well and does the job.. It works really well and only wasps went in, which was good along with blue bottle flies. As I had a wasp’s nest in my roof the trap had hundreds in after only a few days. Definitely does a good job",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Wow! revenge is sweet.. Sorted out literally hundreds of the little blighters in 48hrs - filled half a bucket wit ex-wasps and emptied out nearby nest. They’re gone now. The attractant solution is expensive but effective",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Well it bl--dy works. Beekeeper here. This captures everything we don't like, wasps, flies and other pests. Just keep an eye out if it traps butterflys. Easy to follow instructions. Does what it says on the tin",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Literally kills thousands. It traps thousands in days. I had to empty it twice in a week and I think I’ve trapped an entire hive of wasps including hornets. I used the bait and a bit of jam",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Worked a charm. This product works better than I expected. The bait provided is to attract wasps, so ignore the one star reviews given because it does not work for flies, although I also caught a couple. Photo's attached is after one day",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Wasp killer. Spread around the articles on the gable end and the wasps died like flies. I used an applicator which I bought separately for the application otherwise lots would have been wasted. The wasps have not returned",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Wasps all gone!. We ordered this product as we had a large wasps nest under the deck. We used it with the bulb duster, the wasps were gone by the next morning. Excellent product",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "A Change Of Contents - These Bottles Are Now Just Filled With Vinegar.. These bottles are just filled with vinegar. I have bought these previously and they were filled with pink syrup which did attract the wasps beautifully and kept them from devouring my fruit trees. The recipe has obviously been changed and now it's just a clear liquid that smells strongly of vinegar. I did try some in one of my traps but as expected, after several days, there was not one single wasp caught, whereas my other traps were starting to fill up. I think vinegar is a wasp repellent not a wasp attractant",
+      "tags": [
+        "easy_use",
+        "Fruit trees"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Pretty rubbish, make your own!. Pretty useless. We have a massive wasp nest somewhere nearby so I had high hopes for these, all I have caught (and released) are three butterflies and two wasps. I think there is a design fault, the hole at the bottom is too big and so butterflies can get in, I am going to tape it up and leave a small opening. In other news my three homemade wasp traps (plastic bottle with orange juice and washing up liquid) have caught thousands of wasps. Save your money and do the same!",
+      "tags": [
+        "no_efficacy",
+        "Bottle trap"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Didn't work. Didn't attract a single wasp or even fly. I put this directly above a very active wasp nest, didn't dilute the mixture and followed the instructions. Not a single thing went in for days and after a week there was one or two mosquitos that was it. I even poured some of the mix right infront of the entrance to the wasp nest and they didn't even stop to check it out. Waste of money. If the attractant worked, I'm sure it would have been great as otherwise easy to set up and decent build quality",
+      "tags": [
+        "no_efficacy",
+        "easy_use"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Product changed and now doesn’t work. The product has changed and now doesn’t work. I bought this last year and received the clear bottle with pink gloopy liquid which worked brilliantly. I have just ordered again and instead received an opaque white bottle containing what smells like white vinegar (see photo). It dries out very quickly (unlike the previous thick pink liquid) and hasn’t attracted any wasps despite them being very active in my garden",
+      "tags": [
+        "effective",
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "bring back the original shape and bait.. very poor design. the original straighter shaped traps as shown in the picure are brilliant and I have a number of these. the new shape is more dome shaped and allows to many wasps to excape. also the new atractent is rubbish compaired with the original red coloured bait which had a strong sweet smell and had wasp going crazy to get into the trap. new bait just smells of vinegar",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Don't waste your money on this.. Promised much but delivered nothing. Smells awful and the wasps just fly right on by. Been up for a week now and not a single wasp has bothered with it. I know there are wasps as its been placed within 5ft of an active nest - I can see the wasps coming and going flying right past the bait station. Pointless waste of money!",
+      "tags": [
+        "no_efficacy",
+        "smell_bad"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Pretty useless. Well, it has been hanging by the window for nearly 2 weeks now. Not a single wasp has been successfully trapped. Though I have seen several in there from time to time. They all somehow managed to find their way out. Complete failure at this point. Don't know what else to say. It just doesn't do what it promised. A waste of money I am afraid",
+      "tags": [
+        "no_efficacy",
+        "Near doors/windows"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "RUBBISH!. Bought 4 of these units . I always bought cheaper ones throw them away at the end of the year . And have always caught wasps for the past 4 years . However thought I would spend a bit more money to buy these ones . Big mistake I msg company 3 times saying they are not catching anything apart from the odd wasp or 2 ! I was asked to keep moving them to different places which I did . Basically I had these moved in the end i went on line to return them was told outside warranty period 😡 My advise to anyone is BUY THE CHEAPER ones half price and better . However these ones will be goin...",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No wasps. In one week just 2 wasps my partner put out jam and water in a jar and got loads not recommended by me",
+      "tags": [
+        "no_efficacy",
+        "Jar trap"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Unsatisfied. Wasps are going into the trap, but are then easily escaping it? It’s either a design flaw or the wasps are getting clever. There were around 10+ in there earlier today, I’ve gone to check it and there are only a few dead the bottom and about 1 flying around still. Quite expensive for what it is really, I was hoping for something fancy that would work well",
+      "tags": [
+        "overpriced"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Avoid. This is a total waste of money.. I diluted it very little but it didn't attract wasps. A neighbour on my allotments used a different make of trap complete with its own solution and attracted large numbers of wasps.. Sugar water is far more effective",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Does not work. Easy to put together. I was very impressed to see three wasps in the trap within the first hour, however after having a good fly around they all happily left the trap. It has been up for the last two days, no wasps caught. A complete waste of money, can’t recommend",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Four days not one wasp 5 yards from a wasp nest. Useless in my opinion.. I now know why this supplier does not honor free returns. If they did they would be on their way back. Mixed \"Attractant as directed and deployed as 5m and 30m from the nest. Nothing no one kills. Disappointed",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Don’t waste your money. I’ve got wasps dive bombing round my garden loving their lives, I’ve had the traps up for 4 days now & not one wasp has entered the traps, plenty of fruit flies & other bugs have entered but not one wasp. Biggest waste of £22 I’ve ever spent…",
+      "tags": [
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Good At Catching Butterflies. Previous models include a bent but of plastic making the entry a \"dog leg\" - which discourages wasps trapped from leaving but more important, stops butterflies and moths entering. This does not include this part and supplier not too concerned. Either the part was missing (supplier says no) or it is a copy of a better design where crucial bits left out. The issue is worse as the entry hole is particularly large. Butterflies and moths are not a nuisance pest and should not be killed - use this trap and you'll be catching them! (Supplier did offer a refund until p...",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Didn’t work for me.. Delivered quickly, but the wasps ignored it in favour of the water and jam mix I usually use. Even at the most concentrated mix. Shame, I was expecting better",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Use beer instead. Ineffective. Caught a couple of wasps. As others have stated it smells of vinegar. I used beer instead (Old Peculier) and caught hundreds of wasps in the same time frame and much cheaper",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Disappointing. Didn't lure one fly or wasp. Waste of money. I've had other similar wasp bait which attracted within minutes but I can't get that anymore unfortunately so was hoping this would be a good replacement. I was very wrong",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Attracts wasps bur does not trap them. Initially this trap did well and caught some wasps but when I went back the wasps had escaped. I suspect the hole in the middle is too big. I will be returning these traps",
+      "tags": [
+        "bait_good"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn’t work. THIS DOESNT WORK- loads of wasps in on first day- they can get out afterwards . By the evening only one wasp out of 20 drowned. The rest had escaped. Also trapped a butterfly",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Waste of money. Product does not work. Wasted money on this. Have 2 wasp nests and placed these in the flight paths of both nests..been there for over a week and not one wasp caught. Disappointed",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Attractant useless.. I have these traps before and as a trap they are fine but the attractant useless. The traps have been out for a week and no wasps. I put a DIY attractant in one and immediately got several wasps",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No hornets/wasps captured. 2 units been up a week and not a single wasp or hornet has been captured. Followed instructions and despite there being hornets and wasps flying past not one has gone in to the trap",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Doesn’t work. Waste of money, never got one wasp , changed to a different brand & the trap is full , 👎👎",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Don't waste your money. Useless, caught 3 wasps in in 3 days... Jam and water works 10x better",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "don't waste your money. TOTALLY USELESS USE AS INSTRUCTION TOTAL FAILURE Better using a fruit cider that caught hundred 150 to 10",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Rubbish. Has been put in a wasp trap near to a suspected nest for nearly a week and not a single wasp caught",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Waste of money and time. Absolutely useless. Not a single wasp caught. Only caught large houseflies. Expensive failure",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "No wasps in trap. Caught no wasps, they were crawling all over the trap but were not attracted in!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Don't buy. Liquid supplied does not attract wasps and even when I used more normal attractants, they couldn't find their way in! Useless product",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Waste of money. Wasps go in and then get out not got one wasp yet after two weeks very poor",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Bad Design. This is pretty useless. The hole is too big and the wasps just fly out",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "They can escape!. Plenty of wasps flew up the hole in the middle and then they all crawled right back out again. Pretty useless. Do not recommend",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Sadly does not work. Absolutely useless, I have put it right next to clearly a wasp nest and not 1 wasp has gone into the trap - very disappointed",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Waste of money. Waste of money! Catches wasps ok for about 10 mins then they can just fly out. Dont bother buying",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless. Used almost the whole bottle on and around the nest to zero affect. Would not reccomed or buy again",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless. Useless used near a wasp nest, 1 wasp trapped in a week 😫",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Don't buy. This product is useless and doesn't work",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Disappointed. Not working 😕",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Don’t waste your money. Waste of money. Does not work!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Useless. I was refunded £0.19 on return. Cost £18.99 for 2. Don't buy!!",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 1,
+      "t": "Attracts but doesn’t trap.. It does attract wasps inside but the hole appears to be too big as the wasps seem to manage to find there way out quite quickly, have had both hanging for a few days now and have seen up to 4 wasps in one at one point but so far zero have remained trapped. The old jam jar with a few holes in the top is still proving to be more affective",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Do not buy. Does not work.. Doesn’t work. The hole is far too big. The wasps fly in and fly straight back out again. It’s actually started attracting wasps because of the bait so now we have more wasps than we originally had! Returning the product",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Do not trap wasps!. These do not trap the wasps. These have worked as in they have attracted the wasps. However the wasps are not trapped and they get out. I've seen up to three wasps at a time in each trap however when.i check later the wasps have gone. I now seem to have more wasps than when I purchased these traps",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Does not work.. This does not seem to work at all. I have hung it right next to the wasps nest, but wasps just fly past without entering. It has not attracted a single wasp. Two hornets did enter, but both flew out again despite the device supposedly being impossible for them to exit",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Wasps not interested.. I used this at full strength undiluted and hung the trap next to the nest entrance. The wasps have absolutely no interest in this at all. Complete waste of time",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Not what's advertised. Not the product it advertises..a scam...not the syrop sticky solution, it came in a transparent bottle,it's like water liquid and smells like vinegar... didn't attract any wasps",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Wasp catcher. Why did you choose this product over others?: This product has changed, was a pink substance, now a clear substance, smells like apple vinegar. Does not work now. This pink substance was good",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "It doesn’t work, unless your wasps are dumb. Took them about two days to figure out how to get back out. After that they consumed all the bait and I pretty much created a new nest with this thing. 🤣",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Opening for insects too large. Sending this back as have caught very few wasps, but sadly had several butterflies/moths caught in it as the hole at the bottom through which they are attracted is much too large for its intended prey",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Missing Essential Parts. Order didn’t even come with the string to be able to hang the traps as advertised. No easy way to submit issue to manufacturer as their online form to complete does not work. Very frustrating",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Didn’t catch a single wasp. Despite being right in the wasp flight path with several hundred passing everyday it has not attracted one single wasp. Instead the traps is full of small bugs, flies and a few bees…",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Disappointing Result. Sadly, this trap hasn’t worked for me. I have hung both traps near the wasp activity where I’m seeing approx 25 to 30 wasps daily. The traps haven’t enticed 1 wasp, so I still have a wasp problem",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Unusable. I would give it 0 stars. Hard to see how you use it, the top and bottom do not fit together properly, the effort to close it will spill all the liquid. Totally unusable",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Does not work well. Don't waste your money on this...is doesnt work. The Pink/red wasp attractant is much more effective",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "No good. Tried this product in a wasp trap. Poor. Not one wasp was attracted at all",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Not effective. Tried this product in two different wasp traps - very little if any interest from wasps. Very few entered the traps. Cannot recommend",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Didn't work. It caught two wasps. They were not attracted to it and they could easily fly in and get back out",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Not practical for table tops. MUST BE HUNG, CANNOT SIT ON TABLE TOP AS NO ACCESS FOR WASPS",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Wasp trap. “Unfortunately, it doesn’t seem to be effective. They’re able to get in and out easily, so it doesn’t really function as a trap.”",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Already damaged and broken in box. One of the two traps was smashed inside the box, and the box shows no signs of damage. The other was fine and should do the trick",
+      "tags": [
+        "bad_design",
+        "Shed/outbuilding"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Design and effectiveness could be better.. I purchased this particular product as it looked ideal and is made in the UK. While more expensive than many other options it is of good quality and of a good size. Have been using for a couple weeks and results as follows.:- Using the supplied wasp bait I found wasps were enticed into the trap and some entered the liquid and drowned. However, many did not drown but escaped from the trap overnight. The product literature states that the wasps will be enticed into the trap \"from which they cannot escape\"......this is totally untrue as I have seen th...",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Not bothered. The wasps dont seem interested at all :( i still have so. Many i cant go in the garden",
+      "tags": [
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Useless. Haven’t caught a single wasp",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 2,
+      "t": "Check size of the item. the item is really large and not fot for where I need to use it - you need to check the size beofre you buy also it is now too late to return so the charity shop is getting a bargin if you want it cheap lol",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "It doesn’t really work?. Doesn’t work! So used apple juice that works! With dish soap!",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Not really effective. I had a wasps' nest near by. These caught a few wasps but did not seriously affect the nest",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Arrived promptly. Wasps didn’t show any interest whatsoever ever. Containers are sturdy although wasp lure was not effective",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Try plum jam. Plum jam worked better",
+      "tags": []
+    },
+    {
+      "r": 2,
+      "t": "Not great. Very slow catching wasps even when the used un diluted",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Unless at trapping wasps unless you ADD LIQUID SOAP. This was first one star review: Poor design that allows wasps to escape. This \"trap\" is brilliant at attracting wasps, at one point over 30 wasps in it. BUT they all flew out again as the opening is too big, or the design completely wrong for wasps. After a day in which considerable numbers entered not a single wasp was trapped. OK, I AM CHANGING THE REVIEW TO 4 STARS: . I ordered another wasp trap - different design but EXACTLY THE SAME PROBLEM the wasps would fly in then out again. I went on to chat GPT as asked for advice. KEY TO MAKIN...",
+      "tags": [
+        "no_efficacy",
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Wasps luv it !!!. We had a nest in the garden shed I bought this gem of a wasp potion and I think I’ve caught the whole nest brilliant!!!!",
+      "tags": [
+        "effective",
+        "Garden/patio",
+        "Shed/outbuilding"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "DOES THIS SOLUTION WORK?. The solution has worked very well so far.It arrived long before the Entopest wasp trap.So I have been using it in old wine and lemonade bottles placed around an abundant plum tree.This was successful. It has caught many wasps and I remove the dead wasps every second day and recycle them in a compost heap. The wasps were also causing a lot of problems for my honeybees,trying to enter the hive to steal honey and stopping the bees foraging",
+      "tags": [
+        "Fruit trees"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Does the job, difficult to unscrew. Easy to assemble but doesn’t seem to like being unscrewed when full of dead flies &/wasps. It also caught 5 evil looking hornets so we must have a nearby nest",
+      "tags": [
+        "easy_use"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Sturdy, did not trap any wasps but plenty of flies.. No wasps caught which is why I bought two as we had a big wasp problem. Trapped loads of flies though",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Double pack should have come with double liquid. Product was good but when you watch the video I believe he puts one whole bottle into one of the pots then adds water. I got the 2 pot deal with one bottle so I had to half the product in each pot and add water. They have done exactly what they were meant to do but may be if the liquid was more concentrated it may have attracted more wasps as there are still quite a lot hovering around my fig tree. I would have given it a 5 star review if it came with 2 bottles",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Did the job. Powder worked brilliant!! However it did have a few lumps in which clogged the nozzle and the tool i was using",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Effective wasp net deterrent. Very effective",
+      "tags": [
+        "effective"
+      ]
+    },
+    {
+      "r": 4,
+      "t": "Works but some escape.. Well these traps certainly do work but as someone else noted, around half the wasps managed to find their way out again. I shall concoct a more sticky bait in due course",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Simple Concept. Bought these to replace 2 glass hive shaped wasp catchers. Similar in concept. Problem previous glass catchers was that the wasps climbed back out. Hope these will be more effective",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Didn't get rid of the problem entirely. Didn't get rid of the problem entirely but did kill a lot wasps. A few wasps chased me so i ran indoors, they tried to get in and kept flying to the glass door but then slowly died",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "It’s okay. Attracted more flys than wasps, did attract ones nearby but not more than 60cm away",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Find a good recipe for the bait and the traps should work fine.. Limited success but maybe need better recipe for the bait",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Keep emptying the base and refilling with an appropriate wasp attractor.. The Wasp catchers worked. We were blighted by them for about a month",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Effective. Seems effective",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Works. Bit expensive for small size bottle but works well in the wasp catcher",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Wasp killer. Trap efficient but no instructions on quantity of bait to use",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Seem to be working. Arrived promptly and seem to be working ok",
+      "tags": []
+    },
+    {
+      "r": 4,
+      "t": "Effective wasps destroyer. Dis the job in three treatments",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Hmmmm.... not sure about this.. Not sure if this is worth it. I brought some to bait some wasp traps to stop the stripey twats stripping my orchard. It worked, however a mix of sugar, vinegar and salt does just as good. It also has to be used quite concentrated so ended up using a bottle for four traps (4@200ml - 800ml mixed) Havn't brought again",
+      "tags": [
+        "value",
+        "Fruit trees"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Danger to Butterflies. The traps worked well and killed hundreds of wasps, but it also killed butterflies. I managed to release several captured butterflies, but I was too late for some. I have since found out that there is a butterfly barrier made from plastic which can be purchased from a different supplier. The barrier comes as part of the order with a different make of wasp bait; and so far, I haven't been able to purchase the barrier as a single item. I immediately removed these traps from my garden when I realised the danger it presented to butterflies, and will not use again until I...",
+      "tags": [
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Not as effective as the original red liquid bait. I’ve had the entopest wasp trap for a couple of years and found it to be really effective. Just bought a new bottle of the bait liquid and it isn’t the same formulation as the original ones - it is a yellowish liquid that smells like vinegar. The previous bait solution was a reddish colour and smelt sweet and similar to strawberries. The new bait liquid doesn’t seem to be anywhere near as effective as the previous one. I don’t understand the thinking behind this change as apparently vinegar is one of the things that can be used to deter wasp...",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Not strong enough in my opinion. Not working as well for me I have a lot of hornets in my garden but only a few in the traps after a week up",
+      "tags": [
+        "Garden/patio"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Smells like vinegar. No wasps yet",
+      "tags": [
+        "no_efficacy"
+      ]
+    },
+    {
+      "r": 3,
+      "t": "Not great. Don't think it worked, attracted more species of flying insect more than wasps",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Not catching The was very good. Don’t seem to go in it.. I’ve got a one was in each one about a week. It’s taken to get them",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Not as good as before. Brought this before and liquid a lot stronger - the liquid has been watered down",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Good pots, poor liquid. Pots are fine but liquid ineffectual. I replaced with orange juice!",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Not sure it worked as intended. Attracted more species of flying insect over wasps",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Little expensive. Great product",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Works but smells. Works well did attract wasps but really smelly",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Quality. Fab",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Review. Yes they worked",
+      "tags": []
+    },
+    {
+      "r": 3,
+      "t": "Insect trapper. Worked fairly well but needed careful positioning",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "All gone in two hours.. Using the powder blower offered elsewhere I puffed the powder into and around the wasp nest several times over a couple of hours after which all of the wasps were gone",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Best way to trap wasps. This product worked very well in an area surrounding horses and other animals ,",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "great product. Works very well and the wasps swarm the trap to get at the attractant",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Really Works. Had tried many home made baits, but this was far more successful in attracting wasps to the trap",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Fast acting. Works really well, I have two Janet half full of dead incets wasps included",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Perfect. Work like charm with glass trap. Attracted a lot of wasps and hornets. 0 bees which is good",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Works very well with careful placement of the trap.. Wasps flock to it \"like bees to honey\"! Not bees though so no harm done",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Wasp bait. I was sceptical at first but after using it I’m a changed person. It really does work",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Good traps not enough liquid. Works so well and i didn't dilute the attractant only trouble is there's not enough liquid only a small bottle",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Seems to do the job!. Bought to try keep wasps away when outside & eating. Seems to work",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Successful- working well. So far so good, catching wasps- been advised also honey ale and water works well so we shall see",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "If you run out of bait liquid try other stuff like beer. Within minutes of hanging these traps up I had wasps flying inside",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "No hassle Wasp Nest Removal. Easy to apply foam from 2 metres. Effective way to remove wasp nests",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Works really well. Got two of these and they work really well Wasps absolutely love them They are full after only a couple of days",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "It killed off a below ground wasp nest completely in 1 working day.. The wasps survived the bank holiday Monday but we're all dead after that",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "All gone. A lot of wasps around chimney. All disappeared after a couple of days use. Worked well",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "simple, effective and great value. low cost, incredibly effective solution to wasp infestation, highly recommended",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Wasp trap failure. Although it trapped several wasps they all managed to escape obviously through the large entrance. Not good news",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Wrong liquid??. The liquid lure is nothing like in the photos/video. Clear and vinegary - was expecting red. After two weeks nothing trapped",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Doesn’t work. Followed all instructions put traps in a wasp infested area didnt even get 1 in both traps!!",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Doesn't work. Used for 10 days without any noticeable effect, then called out the professional and problem solved within 12 hours",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Does nt work. Has not killed the wap nest and used it approx 7 times but they are still active",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Puffer to came out. One squeeze and the puffer cap came out. The contents are all over my drive and the wasps are happy",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Perfect. Perfect THANK YOU",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Excellent product. Does exactly what it promises to do. Perfect result!",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Value. Foes the job has it says",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Works well. Works well",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Wasps. Very satisfied",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Excellent catch rate for wasps. Works well around beehives",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Wadp pots. These are excellent",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Wasp Trap. Great product, worked a treat",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "wasp catcher. caught some wasps and they are still coming so doing a good job",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Effective and lightweight. Works perfectly",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Very good works well. Very good works well",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Wasp catcher. Works very well. Attracts them in well . Easy to empty",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Excellent, thank you!. Excellent, thank you!",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Does what it says. Works very well",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Works well. Took a few days to work but did the job",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "It works. 3 nests exterminated - one took two doses but it works well",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "REALLY GOOD PRODUCT. WOULD RECOMMEND",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Great Product & Effective. Get a good Lure to go with it. Really works",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Highly effective.. Easy and accurate. Nest completely gone within 24 hours",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Kills wasps. Really quick to kill wasps and cleared nest with 24 hrs",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Worked first time. A little pricey but worked first time. Good product",
+      "tags": []
+    },
+    {
+      "r": 5,
+      "t": "Worked for us. Used this product once and there was no more wasps",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Doesn’t work. Didn’t work in trap - wasps completely ignored",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Avoid. Didn’t work",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Poor. Poor, apple juice worked much better, don’t waste your money",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Tc. Not working if I now never buy it again",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Crap. Crap.......wasps drunk all the fluid and flew off to sleep it off",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Does not attract any insects. Does not do job",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Wasp repellent.. Don’t waste your money, this product DOES NOT WORK",
+      "tags": []
+    },
+    {
+      "r": 1,
+      "t": "Didn't work for me. After two",
+      "tags": []
+    }
+  ]
+}
