@@ -25,13 +25,11 @@ MARKETS = [
     {'code': 'IT', 'name': 'Italy',          'name_pl': 'Włochy',          'flag': '🇮🇹', 'color': '#7c3aed'},
 ]
 
-# Segmenty do pokazania — TODO: zmień na rzeczywiste segmenty rynku moli
-# (np. 'Pheromone trap', 'Sticky trap', 'Spray', 'Cedar/Lavender repellent')
-SEGMENTS = ['Pheromone trap', 'Sticky trap', 'Repellent']
+SEGMENTS = ['Physical Trap', 'Killer Spray', 'Repellent']
 SEGMENT_COLORS = {
-    'Pheromone trap': '#2563eb',  # niebieski — dominujący segment
-    'Sticky trap':    '#16a34a',  # zielony
-    'Repellent':      '#d97706',  # pomarańczowy
+    'Physical Trap': '#2563eb',  # niebieski — dominujący segment (sticky/pheromone/light)
+    'Killer Spray':  '#dc2626',  # czerwony — agresywne insektycydy
+    'Repellent':     '#16a34a',  # zielony — naturalne (lawenda/cedr/saszetki)
 }
 
 # Linki do Google Sheets dla każdego rynku — TODO: wstaw prawdziwe URL-e
@@ -100,6 +98,10 @@ def load_market(code):
                 'bsr':      int(numv(row.get('BSR'))),
             })
     return rows
+
+# ── Filtruj rynki tylko do tych, które mają dane (Moth-{CODE}.csv exists) ──
+MARKETS = [m for m in MARKETS if os.path.exists(os.path.join(BASE, 'data', 'x-ray', m['code'], f'Moth-{m["code"]}.csv'))]
+print(f'Active markets: {[m["code"] for m in MARKETS]}')
 
 # ── Zbierz dane dla wszystkich rynków ───────────────────────────────────
 data_by_market = {}
@@ -308,7 +310,7 @@ markets_ranked = sorted(
 )
 top_mkt, top_mkt_data = markets_ranked[0]
 top_mkt_share = top_mkt_data['rev12m'] / total_rev12m * 100
-m2 = markets_ranked[1]; m3 = markets_ranked[2]; m4 = markets_ranked[3]
+m2 = markets_ranked[1] if len(markets_ranked) > 1 else markets_ranked[0]
 
 # Revenue per ASIN per rynek (efficiency)
 rev_per_asin = {m['code']: (data_by_market[m['code']]['rev12m'] / data_by_market[m['code']]['asin_count']) for m in MARKETS}
@@ -334,13 +336,33 @@ avg_price_category = total_rev12m / total_units12m if total_units12m else 0
 # Total ASIN count
 total_asins = sum(data_by_market[m['code']]['asin_count'] for m in MARKETS)
 
+# Pre-rendered HTML fragment for the markets-ranked sentence (avoids quote nesting in f-string)
+markets_ranked_html = ' &middot; '.join(
+    f'<strong>{m["name"]}</strong> &euro;{d["rev12m"]/1e6:.1f}M'
+    for m, d in markets_ranked
+)
+
+# Top-products section pill HTML (dynamic over MARKETS / SEGMENTS)
+market_pills_html = '\n      '.join(
+    f'<button class="tp-pill{" active" if i == 0 else ""}" data-mkt="{m["code"]}">{m["flag"]} {m["code"]}</button>'
+    for i, m in enumerate(MARKETS)
+)
+advanced_market_pills_html = '\n        '.join(
+    f'<button class="tp-pill" data-adv-mkt="{m["code"]}">{m["code"]}</button>'
+    for m in MARKETS
+)
+advanced_segment_pills_html = '\n        '.join(
+    f'<button class="tp-pill" data-adv-seg="{s}">{s}</button>'
+    for s in SEGMENTS
+)
+
 # ── Szablon HTML (samowystarczalny, bez fetch) ──────────────────────────
 HTML = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Moth Control — International Markets (12M)</title>
+<title>Moth Control &mdash; International Markets (12M)</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <style>
@@ -445,7 +467,7 @@ td.num{{text-align:right;font-variant-numeric:tabular-nums}}
 <header>
   <div class="titles">
     <h1>Moth Control &mdash; International Markets</h1>
-    <span>12-Month Projection (30-day &times; 12) &nbsp;|&nbsp; Data: Helium 10 X-Ray (2026-04-15)</span>
+    <span>12-Month Projection (30-day &times; 12) &nbsp;|&nbsp; Data: Helium 10 X-Ray (2026-05-08)</span>
   </div>
   <div class="xray-btn-row">
 {xray_buttons}  </div>
@@ -457,175 +479,41 @@ td.num{{text-align:right;font-variant-numeric:tabular-nums}}
   <div class="kpi-row">
     <div class="kpi">
       <div class="kpi-v">&euro;{total_rev12m/1e6:.1f}M</div>
-      <div class="kpi-l">Total 12M Revenue (Cream + Wash + Oil)</div>
+      <div class="kpi-l">Total 12M Revenue ({' + '.join(SEGMENTS)})</div>
     </div>
     <div class="kpi">
       <div class="kpi-v">{total_units12m:,}</div>
       <div class="kpi-l">Total 12M Units Sold (all segments)</div>
     </div>
     <div class="kpi">
-      <div class="kpi-v">4 Markets</div>
-      <div class="kpi-l">DE &bull; FR &bull; IT &bull; ES</div>
+      <div class="kpi-v">{len(MARKETS)} Markets</div>
+      <div class="kpi-l">{' &bull; '.join(m['code'] for m in MARKETS)}</div>
     </div>
   </div>
 
-  <!-- Executive summary — automatycznie generowany z danych -->
+
+  <!-- Executive summary — auto-generated from data -->
   <details class="summary">
-    <summary>Podsumowanie &mdash; kluczowe wnioski (12M) <span class="hint">kliknij żeby rozwinąć</span></summary>
+    <summary>Summary &mdash; key findings (12M) <span class="hint">click to expand</span></summary>
     <div class="summary-inner">
     <div class="summary-cols">
 
       <div class="summary-col">
-        <h3>Rynki</h3>
-        <p>Zdecydowanym liderem kategorii są <strong>{top_mkt['name_pl']}</strong>, które generują <strong>€{top_mkt_data['rev12m']/1e6:.1f} mln</strong> rocznego przychodu i odpowiadają za <strong>{top_mkt_share:.0f}%</strong> całego rynku europejskiego (DE+FR+IT+ES). To ponad <strong>{top_mkt_data['rev12m']/m2[1]['rev12m']:.1f}-krotnie</strong> więcej niż drugi największy rynek.</p>
-        <p>Pełna hierarchia: <strong>{top_mkt['name_pl']}</strong> (€{top_mkt_data['rev12m']/1e6:.1f} mln), następnie <strong>{m2[0]['name_pl']}</strong> (€{m2[1]['rev12m']/1e6:.1f} mln), <strong>{m3[0]['name_pl']}</strong> (€{m3[1]['rev12m']/1e6:.1f} mln) i na końcu <strong>{m4[0]['name_pl']}</strong> (€{m4[1]['rev12m']/1e6:.1f} mln). Rynek niemiecki jest dojrzały i rozdrobniony, natomiast we Włoszech obserwujemy najwyższy średni przychód przypadający na jeden produkt — co oznacza mniej graczy, ale silniejsze pozycje każdego z nich.</p>
+        <h3>Markets</h3>
+        <p>The moth-control category leader is <strong>{top_mkt["name"]}</strong> with <strong>&euro;{top_mkt_data["rev12m"]/1e6:.1f}M</strong> in 12M revenue, accounting for <strong>{top_mkt_share:.0f}%</strong> of the analyzed market &mdash; <strong>{top_mkt_data["rev12m"]/m2[1]["rev12m"]:.1f}&times;</strong> the next market.</p>
+        <p>Ranked: {markets_ranked_html}.</p>
       </div>
 
       <div class="summary-col">
-        <h3>Segmenty (forma produktu)</h3>
-        <p>Krem jest niekwestionowanym liderem kategorii z udziałem <strong>{seg_rev_shares['Cream']:.0f}%</strong> w przychodzie (<strong>€{seg_totals_rev['Cream']/1e6:.1f} mln</strong>). Przy średniej cenie <strong>€{seg_avg_price['Cream']:.0f}</strong> za sztukę jest to klasyczny segment premium, kierowany głównie do osób zmagających się ze skórą atopową, suchą lub podrażnioną.</p>
-        <p>Produkty do mycia (<strong>Wash</strong> — żele, emulsje, olejki pod prysznic) stanowią solidne drugie miejsce z <strong>{seg_rev_shares['Wash']:.0f}%</strong> udziału (€{seg_totals_rev['Wash']/1e6:.1f} mln, średnia cena €{seg_avg_price['Wash']:.0f}). Olejki do ciała (<strong>Oil</strong>) to natomiast wąska nisza — zaledwie <strong>{seg_rev_shares['Oil']:.1f}%</strong> rynku, głównie obecna w Niemczech. Łącznie po filtrze ≥€1 000/30 dni w analizie znalazło się <strong>{total_asins}</strong> produktów w czterech krajach.</p>
+        <h3>Segments</h3>
+        <p>Across {len(MARKETS)} markets, the leading segment by revenue is <strong>{max(SEGMENTS, key=lambda s: seg_totals_rev[s])}</strong> with <strong>{max(seg_rev_shares.values()):.0f}%</strong> share. Killer Spray products typically command higher unit prices; physical traps dominate by SKU count; repellents (lavender, cedar, mothballs) anchor the natural-products tier.</p>
+        <p>Total ASINs analyzed (after &ge;&euro;1k/30d filter): <strong>{total_asins}</strong>.</p>
       </div>
 
       <div class="summary-col">
-        <h3>Konkurencja i ceny</h3>
-        <p>Kategoria jest {'silnie skoncentrowana' if top3_brand_share >= 40 else 'umiarkowanie rozproszona'} — trzy największe marki odpowiadają łącznie za <strong>{top3_brand_share:.0f}%</strong> całego przychodu. Liderem jest <strong>{top_brand_name}</strong> z udziałem <strong>{top_brand_share:.0f}%</strong> (€{top_brand_data['rev12m']/1e6:.1f} mln rocznie). W całej niszy aktywnie działa <strong>{n_unique_brands}</strong> unikalnych marek, ale każdy rynek ma swoją odrębną hierarchię — co widać w tabeli cieplnej marek poniżej.</p>
-        <p>Średnia cena produktu w kategorii wynosi <strong>€{avg_price_category:.0f}</strong> za sztukę, co potwierdza premium charakter segmentu. Dominują marki o pozycjonowaniu aptecznym i dermatologicznym (La Roche-Posay, Eucerin, Bioderma, Avène, CeraVe), a także silne marki lokalne w poszczególnych krajach.</p>
-      </div>
-
-    </div>
-    </div>
-  </details>
-
-  <!-- Keywords used per marketplace -->
-  <details class="kw-block">
-    <summary>Słowa kluczowe użyte w analizie <span class="hint">kliknij żeby rozwinąć</span></summary>
-    <div class="kw-inner">
-    <p class="kw-intro">Dla każdego z czterech rynków wykonano 12 osobnych przeszukiwań w narzędziu Helium 10 X-Ray &mdash; po <strong>4 słowa kluczowe dla każdej z trzech form produktu</strong> (Cream / Wash / Oil). Wyniki zostały zmerge'owane per rynek, odduplikowane po ASIN i odfiltrowane do produktów z przychodem ≥€1 000 w ciągu ostatnich 30 dni. Poniżej pełna lista fraz &mdash; pozwala to zweryfikować, czy nie pominęliśmy żadnego istotnego kąta wyszukiwania.</p>
-    <div class="kw-cols">
-
-      <div class="kw-market">
-        <div class="kw-market-header">🇩🇪 Niemcy (DE)</div>
-        <div class="kw-group">
-          <div class="kw-group-label">Cream</div>
-          <div class="kw-list">
-            <code>creme neurodermitis</code>
-            <code>creme atopische haut</code>
-            <code>pflegecreme trockene empfindliche haut</code>
-            <code>ekzem creme körper</code>
-          </div>
-        </div>
-        <div class="kw-group">
-          <div class="kw-group-label">Wash</div>
-          <div class="kw-list">
-            <code>waschlotion neurodermitis</code>
-            <code>duschöl atopische haut</code>
-            <code>waschsyndet empfindliche haut</code>
-            <code>reinigungsöl trockene haut</code>
-          </div>
-        </div>
-        <div class="kw-group">
-          <div class="kw-group-label">Oil</div>
-          <div class="kw-list">
-            <code>körperöl neurodermitis</code>
-            <code>pflegeöl atopische haut</code>
-            <code>hautöl trockene empfindliche haut</code>
-            <code>körperöl ekzem</code>
-          </div>
-        </div>
-      </div>
-
-      <div class="kw-market">
-        <div class="kw-market-header">🇫🇷 Francja (FR)</div>
-        <div class="kw-group">
-          <div class="kw-group-label">Cream</div>
-          <div class="kw-list">
-            <code>crème peau atopique</code>
-            <code>crème peau sèche irritée</code>
-            <code>crème émolliente</code>
-            <code>crème dermatite atopique</code>
-          </div>
-        </div>
-        <div class="kw-group">
-          <div class="kw-group-label">Wash</div>
-          <div class="kw-list">
-            <code>gel lavant peau atopique</code>
-            <code>huile lavante peau atopique</code>
-            <code>nettoyant surgras</code>
-            <code>syndet peau atopique</code>
-          </div>
-        </div>
-        <div class="kw-group">
-          <div class="kw-group-label">Oil</div>
-          <div class="kw-list">
-            <code>huile corps peau sèche</code>
-            <code>huile peau atopique</code>
-            <code>huile corps dermatologique</code>
-            <code>huile apaisante corps</code>
-          </div>
-        </div>
-      </div>
-
-      <div class="kw-market">
-        <div class="kw-market-header">🇮🇹 Włochy (IT)</div>
-        <div class="kw-group">
-          <div class="kw-group-label">Cream</div>
-          <div class="kw-list">
-            <code>crema pelle atopica</code>
-            <code>crema pelle secca sensibile</code>
-            <code>crema emolliente</code>
-            <code>crema dermatite atopica</code>
-          </div>
-        </div>
-        <div class="kw-group">
-          <div class="kw-group-label">Wash</div>
-          <div class="kw-list">
-            <code>detergente pelle atopica</code>
-            <code>bagno doccia pelle atopica</code>
-            <code>olio detergente corpo</code>
-            <code>sapone pelle atopica</code>
-          </div>
-        </div>
-        <div class="kw-group">
-          <div class="kw-group-label">Oil</div>
-          <div class="kw-list">
-            <code>olio pelle atopica</code>
-            <code>olio corpo pelle secca</code>
-            <code>olio doccia pelle secca</code>
-            <code>olio emolliente corpo</code>
-          </div>
-        </div>
-      </div>
-
-      <div class="kw-market">
-        <div class="kw-market-header">🇪🇸 Hiszpania (ES)</div>
-        <div class="kw-group">
-          <div class="kw-group-label">Cream</div>
-          <div class="kw-list">
-            <code>crema piel atópica</code>
-            <code>crema piel seca irritada</code>
-            <code>crema emoliente</code>
-            <code>crema dermatitis atópica</code>
-          </div>
-        </div>
-        <div class="kw-group">
-          <div class="kw-group-label">Wash</div>
-          <div class="kw-list">
-            <code>gel limpiador piel atópica</code>
-            <code>gel baño piel atópica</code>
-            <code>aceite limpiador corporal</code>
-            <code>syndet piel atópica</code>
-          </div>
-        </div>
-        <div class="kw-group">
-          <div class="kw-group-label">Oil</div>
-          <div class="kw-list">
-            <code>aceite piel atópica</code>
-            <code>aceite corporal piel seca</code>
-            <code>aceite emoliente corporal</code>
-            <code>aceite ducha piel seca</code>
-          </div>
-        </div>
+        <h3>Brands &amp; Pricing</h3>
+        <p>The category is {"highly concentrated" if top3_brand_share >= 40 else "moderately fragmented"} &mdash; the top three brands account for <strong>{top3_brand_share:.0f}%</strong> of revenue. Leader: <strong>{top_brand_name}</strong> with <strong>{top_brand_share:.0f}%</strong> share (&euro;{top_brand_data["rev12m"]/1e6:.1f}M). <strong>{n_unique_brands}</strong> unique brands compete in this niche.</p>
+        <p>Average product price across the category: <strong>&euro;{avg_price_category:.0f}</strong>.</p>
       </div>
 
     </div>
@@ -773,52 +661,40 @@ td.num{{text-align:right;font-variant-numeric:tabular-nums}}
 
   <!-- Top 10 produktów per segment per rynek -->
   <div class="tp-block">
-    <h2>Top 10 produktów per segment per rynek</h2>
-    <p class="tp-intro">Wybierz rynek pigułką poniżej, żeby zobaczyć 10 najlepiej sprzedających się produktów w każdym z 3 segmentów (Cream / Wash / Oil), posortowane po przychodzie 30-dniowym. Klikaj nagłówki kolumn żeby zmienić sortowanie. Na dole sekcji pełny widok zaawansowany — wszystkie 120 produktów z filtrami (do cross-market comparison).</p>
+    <h2>Top 10 products per segment per market</h2>
+    <p class="tp-intro">Pick a market below to see the 10 best-selling products in each of the {len(SEGMENTS)} segments ({' / '.join(SEGMENTS)}), sorted by 30-day revenue. Click column headers to re-sort. The advanced view at the bottom shows all products with filters for cross-market comparison.</p>
 
     <div class="tp-pills">
-      <span class="label">Rynek:</span>
-      <button class="tp-pill active" data-mkt="{MARKETS[0]['code']}">{MARKETS[0]['flag']} {MARKETS[0]['code']}</button>
-      <button class="tp-pill" data-mkt="{MARKETS[1]['code']}">{MARKETS[1]['flag']} {MARKETS[1]['code']}</button>
-      <button class="tp-pill" data-mkt="{MARKETS[2]['code']}">{MARKETS[2]['flag']} {MARKETS[2]['code']}</button>
-      <button class="tp-pill" data-mkt="{MARKETS[3]['code']}">{MARKETS[3]['flag']} {MARKETS[3]['code']}</button>
+      <span class="label">Market:</span>
+      {market_pills_html}
     </div>
 
     <div id="tpTables"></div>
 
-    <!-- Advanced: wszystkie rynki razem z filtrami -->
+    <!-- Advanced view: all markets with filters -->
     <details class="tp-advanced">
-      <summary>🔍 Widok zaawansowany — wszystkie 120 produktów z filtrami</summary>
-      <div class="tp-intro" style="margin-top:10px">Filtruj po rynku i segmencie, sortuj dowolną kolumną. Przydatne do porównywania produktów cross-market.</div>
+      <summary>&#128269; Advanced view &mdash; all products with filters</summary>
+      <div class="tp-intro" style="margin-top:10px">Filter by market and segment, sort any column. Useful for cross-market product comparison.</div>
       <div class="tp-pills">
-        <span class="label">Rynek:</span>
+        <span class="label">Market:</span>
         <button class="tp-pill active" data-adv-mkt="All">All</button>
-        <button class="tp-pill" data-adv-mkt="{MARKETS[0]['code']}">{MARKETS[0]['code']}</button>
-        <button class="tp-pill" data-adv-mkt="{MARKETS[1]['code']}">{MARKETS[1]['code']}</button>
-        <button class="tp-pill" data-adv-mkt="{MARKETS[2]['code']}">{MARKETS[2]['code']}</button>
-        <button class="tp-pill" data-adv-mkt="{MARKETS[3]['code']}">{MARKETS[3]['code']}</button>
+        {advanced_market_pills_html}
       </div>
       <div class="tp-pills">
         <span class="label">Segment:</span>
         <button class="tp-pill active" data-adv-seg="All">All</button>
-        <button class="tp-pill" data-adv-seg="Cream">Cream</button>
-        <button class="tp-pill" data-adv-seg="Wash">Wash</button>
-        <button class="tp-pill" data-adv-seg="Oil">Oil</button>
+        {advanced_segment_pills_html}
       </div>
       <div id="tpAdvTable"></div>
     </details>
   </div>
 
   <div class="note">
-    <strong>Źródło danych:</strong> Helium 10 X-Ray &mdash; snapshot 30-dniowy (2026-04-15), dane zmerge'owane i odduplikowane per rynek, odfiltrowane do produktów z przychodem &ge;&euro;1 000 w ciągu ostatnich 30 dni. Metryki 30-dniowe zostały przeskalowane na 12 miesięcy przez prosty mnożnik ×12 (bez korekty sezonowości).
+    <strong>Data source:</strong> Helium 10 X-Ray &mdash; 30-day snapshot (2026-05-08), merged and deduplicated per market, filtered to products with &ge;&euro;1 000 revenue over the last 30 days. 30-day metrics scaled to 12 months via a flat &times;12 multiplier (no seasonality correction).
     <br><br>
-    <strong>Segmentacja:</strong> każdy produkt dostał etykietę na podstawie jego listingu SP-API (tytuł + bullet points + opis). W agregacji dashboardu uwzględniamy wyłącznie trzy kategorie formy: <strong>Cream</strong> (kremy, balsamy, lotiony, maści), <strong>Wash</strong> (żele, emulsje i olejki do mycia, także pod prysznic) oraz <strong>Oil</strong> (olejki do pielęgnacji ciała). Dwie pozostałe etykiety są celowo wyłączone z liczb powyżej:
+    <strong>Segmentation:</strong> each product received a label based on its Amazon listing (title + bullet points + description, fetched via SP-API). The aggregation includes three category forms: <strong>Physical Trap</strong> (sticky / pheromone / light traps, parasitic-wasp cards), <strong>Killer Spray</strong> (insecticide sprays, foggers, biocides), and <strong>Repellent</strong> (lavender sachets, cedar wood, mothballs, essential-oil based repellents).
     <br><br>
-    &bull; <strong>&bdquo;Check&rdquo;</strong> &mdash; produkty, których listing zawiera wprawdzie sygnały niszy dermo (sucha / atopowa / podrażniona skóra), ale nie zawiera wyraźnego słowa kluczowego określającego formę w tytule, LUB produkty, gdzie w ogóle nie ma mocnego sygnału skóry atopowej — czyli klasyczne kremy na suchą skórę od masowych marek jak Nivea, Vaseline czy Palmer's, które są kierowane do zdrowej, lecz przesuszonej skóry, a nie do skóry atopowej. Te wiersze są flagowane do ręcznej weryfikacji przez zespół, żeby nie zanieczyszczały obrazu niszy.
-    <br><br>
-    &bull; <strong>&bdquo;Other&rdquo;</strong> &mdash; produkty, które jednoznacznie leżą poza zakresem analizy: szampony dla zwierząt, balsamy do ust, kosmetyki do włosów i skóry głowy, kremy przeciwsłoneczne (SPF), dezodoranty i produkty anti-age. Nawet jeśli zawierają frazy typu &bdquo;wrażliwa skóra&rdquo;, nie pasują do żadnego z trzech segmentów kategorii dermo-pielęgnacyjnej dla skóry atopowej.
-    <br><br>
-    <strong>Rynki w analizie:</strong> Niemcy (słowo kluczowe: Neurodermitis), Francja (peau atopique), Włochy (pelle atopica), Hiszpania (piel atópica). Wielka Brytania nie jest częścią tej analizy.
+    <strong>Markets in scope:</strong> {' &middot; '.join(f"{m['flag']} {m['name']}" for m in MARKETS)}.
   </div>
 
 </div>
@@ -1050,7 +926,7 @@ segPie('segUnitsPie', SEG_UNIT_TOTALS, v => v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3
 const TOP_PRODUCTS = {top_products_json};
 const TOP_PRODUCTS_FLAT = {top_products_flat_json};
 const TP_MKT_CODES = {market_codes_json};
-const TP_SEGMENTS = ['Cream','Wash','Oil'];
+const TP_SEGMENTS = {json.dumps(SEGMENTS)};
 
 function fmtMoneyInt(v) {{ return '€' + Math.round(v).toLocaleString('en-EU'); }}
 function fmtInt(v) {{ return Math.round(v).toLocaleString('en-EU'); }}
@@ -1201,7 +1077,7 @@ out_path = os.path.join(BASE, 'index.html')
 with open(out_path, 'w', encoding='utf-8') as f:
     f.write(HTML)
 print(f'\nindex.html: {os.path.getsize(out_path):,} bajtów')
-print(f'Total 12M revenue (Cream+Wash+Oil): €{total_rev12m:,.0f}')
+print(f'Total 12M revenue ({"+".join(SEGMENTS)}): €{total_rev12m:,.0f}')
 print(f'Total 12M units:   {total_units12m:,}')
 for s in SEGMENTS:
     rev = sum(data_by_market[m["code"]]["per_seg"][s]["rev12m"] for m in MARKETS)

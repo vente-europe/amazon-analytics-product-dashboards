@@ -37,7 +37,7 @@
     },
     {
       "id": "moth-topline",
-      "title": "Moth (UK, DE, ES, FR, IT)",
+      "title": "Moth Control (UK, DE, FR, ES)",
       "group": "topline",
       "template": "standalone",
       "file": "index.html"

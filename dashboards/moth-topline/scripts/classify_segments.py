@@ -1,227 +1,241 @@
-"""
-Klasyfikator segmentów dla dashboardu dermo-products (skóra atopowa / sucha / podrażniona).
+"""Classify each ASIN in Moth-{CODE}.csv as Killer Spray / Physical Trap / Repellent.
 
-ZASADA GŁÓWNA: produkt dostaje automatyczny segment (Cream / Wash / Oil) TYLKO jeśli:
-  1. Opis listingu (tytuł + bullet points + description z SP-API) zawiera MOCNY
-     sygnał niszy atopowej — czyli jedno z poniższych:
-       • słowo kliniczne: eczema, neurodermitis, atopic, atopique, dermatitis
-       • określenie "empfindlich/sensible/sensitive skin"
-       • "dermatologisch / medical / hypoallergen"
-       • znana linia produktowa atopowa (Atoderm, AtopiControl, Xemose, Lipikar,
-         Exomega, Haut Ruhe, Sensiderm, AT4, Locobase Repair, Dexeryl itd.)
-  2. Tytuł zawiera jednoznaczne słowo określające formę produktu
-     (creme/lotion/baume → Cream; waschgel/gel douche → Wash; körperöl/huile corps → Oil)
+Reads SP-API listing JSON from data/competitor-listings/{CODE}/raw/{ASIN}.json
+(produced by scripts/fetch_listings.py) and scores title + bullets + description
+against multilingual keyword sets per segment. The highest-scoring segment wins;
+ties or all-zero rows are marked "Check" for manual review.
 
-Jeśli brak sygnału niszy LUB brak jasnej formy → "Check" (ręczna weryfikacja).
-Twarde wykluczenia (pet / usta / włosy / SPF / anti-age / dezodoranty) → "Other".
+Output: rewrites data/x-ray/{CODE}/Moth-{CODE}.csv with a new "Segment" column
+inserted as the 3rd column (after ASIN), per Console convention.
 
-DLACZEGO TO DZIAŁA W OBIE STRONY:
-  - Masowe marki typu Nivea / Vaseline / Palmer's reklamują się jako "dry skin"
-    ale nie celują w skórę atopową — brak sygnału niszy → Check, nie Cream.
-  - Produkty niszowe bez słów klucza w tytule (np. "Cerat", "Baume") lądują w Check
-    zamiast zostać niepoprawnie zaklasyfikowane.
-
-Użycie:
+Usage:
     py scripts/classify_segments.py DE
-    py scripts/classify_segments.py FR
-    py scripts/classify_segments.py IT
-    py scripts/classify_segments.py ES
 """
-import csv, json, glob, os, sys
+import csv
+import glob
+import json
+import os
+import sys
 from collections import Counter
 
 sys.stdout.reconfigure(encoding='utf-8')
 
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
-# ── SYGNAŁY NISZY ATOPOWEJ ───────────────────────────────────────────────
-# Lista słów, które muszą wystąpić w tytule/bullets/description żeby uznać
-# produkt za kierowany do skóry atopowej (nie tylko "suchej"). Obejmuje terminy
-# kliniczne we wszystkich 4 językach (DE/FR/IT/ES/EN) + nazwy znanych linii
-# produktowych, które same w sobie są dowodem na niszę atopową.
-NICHE_STRONG = [
-    'atopisch','atopie','atopic','atopica','atopique','atopiques','atopic',
-    'neurodermitis','eczema','ekzem','ekzeme','eczema','dermatitis','dermatite',
-    'hautbarriere','hautschutzbarriere','lipidbarriere','barriere cutanee','lipidique',
-    'hypoallergen','hypoallergenique','hipoalergenico','ipoallergenico','hypoallergenic',
-    'dermatologisch','dermatologique','dermatologico','dermatologically',
-    'medizinisch','medical','medico',
-    'juckreiz','prurit','prurito','picor','itch',
-    'hautirritation','gereizte haut','peau irritee','pelle irritata','piel irritada','irritated skin',
-    'reizung','irritacion','irritazione',
-    'empfindliche haut','peau sensible','pelle sensibile','piel sensible','sensitive skin',
-    'peau atopique','pelle atopica','piel atopica','peau tres seche','piel muy seca',
-    'pelle molto secca','sehr trockene haut','very dry skin',
-    # known atopic product lines / brands
-    'atopicontrol','atoderm','xemose','xeracalm','lipikar','exomega','cicabiafine',
-    'sensiderm','haut ruhe','at4','locobase repair','sensitive pflege','dexeryl',
-    'hydrolotio','allergika','eubos','phametra','dermoscent','dermocapillaire',
-    'stelatopia','a-derma','topialyse','trixera','cold cream','cicaplast',
+# Manual overrides — ASINs the keyword classifier can't disambiguate.
+# Keyed by ASIN, value is the segment to assign. Resolved BEFORE scoring.
+OVERRIDES = {
+    # DE
+    'B07VJGXFLN': 'Physical Trap',  # Legona ichneumon wasps (biological control)
+    'B0CQP6L1HC': 'Physical Trap',  # Raid Lichtfalle (light trap) refill
+    # UK
+    'B01HZ7LLYE': 'Repellent',      # Rentokil Moth Balls
+    'B09Q99YWG6': 'Physical Trap',  # Lakeland Moth Stop trap refills
+    'B0CV7YYMRD': 'Physical Trap',  # Premium pheromone moth traps
+    # ES
+    'B073ZLH82Y': 'Repellent',      # ZUM Polillas — perfumes/protects (sachet-style)
+    'B0BH98V4VJ': 'Killer Spray',   # Panteer Spray antipolillas 500ml
+    'B0DGY19Q3N': 'Physical Trap',  # Orion Trampa Polilla Alimentos (food moth trap)
+}
+
+# ── PHYSICAL TRAP — pheromone / sticky / glue traps ────────────────────────
+TRAP = [
+    'pheromon', 'pheromone', 'feromon', 'lockstoff',
+    'klebefalle', 'mottenfalle', 'kleidermottenfalle', 'lebensmittelmottenfalle',
+    'mottenfallen', 'klebepad', 'klebepads', 'klebestreifen', 'klebeband',
+    'sticky trap', 'glue trap', 'monitoring trap', 'pheromone trap',
+    'piege', 'piege a mites', 'piege a phéromones', 'piege a teignes', 'piege adhesif',
+    'trampa', 'trampa adhesiva', 'trampa de feromonas', 'trampa para polillas',
+    'trappola', 'trappola adesiva', 'trappola a feromoni',
+    'fallen', 'falle ',
 ]
 
-# ── SŁOWA FORMY: WASH (emulsja/żel/olejek do mycia) ─────────────────────
-# Żele do mycia, syndety, mydła dermatologiczne, olejki pod prysznic.
-# UWAGA: olejek pod prysznic ("shower oil", "huile de douche") to WASH, nie OIL —
-# dlatego ta lista jest sprawdzana PRZED listą FORM_OIL w funkcji classify().
-FORM_WASH = [
-    'waschgel','duschol','duschgel','waschlotion','reinigungsol','dusch- und badeol',
-    'dusch und badeol','wash gel','shower oil','shower gel','body wash','waschsyndet',
-    'waschemulsion','waschmittel','gel lavant','gel douche','huile lavante','nettoyant',
-    'syndet','savon','soin lavant','gel nettoyant','pain lavant','pain dermatologique',
-    'detergente','bagno doccia','bagnoschiuma','bagno','doccia','olio detergente',
-    'olio doccia','sapone','gel limpiador','gel bano','gel de bano','gel de ducha',
-    'aceite limpiador','aceite ducha','jabon','limpiador',
-    # also catch German with proper umlauts
-    'waschol','reinigungsol','dusch- und badeol','dusch- & badeol','badeol',
-]
-# ── SŁOWA FORMY: OIL (olejek do ciała) ──────────────────────────────────
-# Tylko prawdziwe olejki pielęgnacyjne do ciała (body oil, Pflegeöl, huile corps).
-# Olejki pod prysznic są obsługiwane wyżej w FORM_WASH.
-FORM_OIL = [
-    'korperol','pflegeol','babyol','massageol','body oil','nachtol','hautol',
-    'huile corps','huile corporelle','huile seche','huile soin','huile de soin','huile massage',
-    'olio corpo','olio corporeo','olio secco','olio massaggio',
-    'aceite corporal','aceite cuerpo','aceite seco','aceite masaje',
-]
-# ── SŁOWA FORMY: CREAM (krem / balsam / lotion) ────────────────────────
-# Najszersza kategoria — kremy, balsamy, lotiony, maści, mleczka do ciała.
-# To jest kategoria "fallback" — sprawdzana ostatnia, bo słowa typu "lotion"
-# mogą się pojawić również w nazwach produktów do mycia.
-FORM_CREAM = [
-    'creme','crema','cream','lotion','balsam','baume','balsamo',
-    'korpermilch','korperlotion','salbe','pommade','pomata','pomada',
-    'gel-creme','pflegecreme','hautcreme','intensivcreme',
-    'feuchtigkeitscreme','handcreme','gesichtscreme','akutcreme','korperemulsion',
-    'emulsion','emulsion','emulsione','korpermilk','body milk','leche corporal',
-    'latte corpo','lait corps','lait corporel','leche','latte',
+# ── KILLER SPRAY — insecticide sprays, foggers, killing agents ─────────────
+KILLER = [
+    'spray', 'spruh', 'sprueh', 'sprühen', 'sprühdose', 'aerosol',
+    'insektizid', 'insecticide', 'insetticida', 'insecticida',
+    'killer', 'kills', 'kill ', 'totet', 'tötet', 'abtotend', 'abtötend', 'vernichtet',
+    'mottenspray', 'mottenfrei', 'mottenkiller', 'anti-motten spray',
+    'permethrin', 'pyrethrum', 'pyrethroid', 'transfluthrin', 'cypermethrin',
+    'pulverizador', 'aerosol antipolillas', 'spray antimotti', 'spray anti-mites',
+    'fogger', 'nebler', 'vernebler', 'foam', 'schaum',
+    'biozid', 'biocide', 'biocida',
+    'elimina', 'eliminates', 'erradica', 'extermine',
 ]
 
-# ── WYKLUCZENIA TWARDE (trafiają do "Other") ───────────────────────────
-# Produkty, które nawet jeśli mają w liście SP-API sygnał "atopowy", są poza
-# zakresem dashboardu (dla zwierząt, do ust, do włosów, przeciwsłoneczne itd.).
-# Sprawdzane NAJPIERW w tytule — jeśli trafią, klasyfikacja się kończy.
-EXCLUDE = [
-    ('hundeshampoo','pet'),('fur hunde','pet'),('for dogs','pet'),('dogs and cats','pet'),
-    ('pour chien','pet'),('pour chat','pet'),('per cani','pet'),('para perros','pet'),
-    ('pferde','pet'),('equine','pet'),('chien','pet'),
-    ('lippen-balsam','lip'),('lip balm','lip'),('baume levres','lip'),('stick levres','lip'),
-    ('labbra','lip'),('labios','lip'),('levres','lip'),
-    ('kopfhaut','scalp'),('shampoo','hair'),('shampooing','hair'),('haarpflege','hair'),
-    ('cheveux','hair'),('capelli','hair'),('cabello','hair'),('scalp','hair'),
-    ('sonnenschutz','sunscreen'),('sunscreen','sunscreen'),('solaire','sunscreen'),
-    ('solar','sunscreen'),('lsf','sunscreen'),('spf ','sunscreen'),('spf50','sunscreen'),
-    ('anti-age','anti-age'),('anti-ride','anti-age'),('anti-rides','anti-age'),
-    ('anti age','anti-age'),('rughe','anti-age'),('arrugas','anti-age'),
-    ('deodorant','deodorant'),('desodorante','deodorant'),('deo ','deodorant'),
-    ('bicarbonate','other'),
+# ── REPELLENT — lavender, cedar, sachets, mothballs, natural deterrents ────
+REPELLENT = [
+    'lavendel', 'lavender', 'lavande', 'lavanda',
+    'zedernholz', 'zeder', 'zedern', 'cedar', 'cedarwood', 'cedro', 'bois de cedre',
+    'sachet', 'sachets', 'sackchen', 'säckchen', 'duftbeutel', 'duftsackchen',
+    'pochette', 'bolsita', 'bustina', 'bustine',
+    'mottenkugeln', 'mothballs', 'mottenkugel', 'palline antitarme', 'naphthalin',
+    'mottenring', 'mottenringe', 'cedar ring', 'cedar ball', 'cedar block',
+    'kugel', 'kugeln', 'block', 'blocke', 'blöcke', 'rings',
+    'duftspender', 'duft', 'aromatic', 'scented',
+    'naturlich', 'natürlich', 'natural', 'naturel', 'naturale',
+    'atherisch', 'ätherisch', 'essential oil', 'huile essentielle', 'aceite esencial',
+    'olio essenziale', 'essenziale',
+    'abwehr', 'repell', 'repellent', 'repellente', 'repulsif', 'anti-mite', 'antimite',
+    'mottenschutz', 'mottenabwehr', 'mottenpapier', 'mothproofer',
+    'bio', 'organic', 'biologisch',
+    'minze', 'mint', 'menthe', 'menta', 'eucalyptus', 'eukalyptus', 'rosmarin', 'rosemary',
+    'patchouli', 'tea tree', 'teebaum',
+    'wardrobe protection', 'kleiderschutz', 'kleidermotten schutz',
 ]
 
-# ── HELPER: normalizacja tekstu ────────────────────────────────────────
-# Usuwa znaki diakrytyczne (umlauty, akcenty) żeby porównania działały niezależnie
-# od wariantu pisowni. Przykład: "crème" i "creme" są traktowane jak to samo słowo.
-def text_lower(s):
-    return (s or '').lower().replace('ö','o').replace('ü','u').replace('ä','a').replace('ß','ss')\
-        .replace('é','e').replace('è','e').replace('ê','e').replace('à','a').replace('â','a')\
-        .replace('î','i').replace('ô','o').replace('û','u').replace('ç','c').replace('ñ','n')\
-        .replace('á','a').replace('í','i').replace('ó','o').replace('ú','u')
 
-# ── GŁÓWNA FUNKCJA KLASYFIKACYJNA ──────────────────────────────────────
-# Wejście: słownik JSON z danymi SP-API (title, bullet_points, description, brand).
-# Wyjście: (segment, reason) — segment to jeden z: Cream, Wash, Oil, Check, Other.
-#
-# KROKI:
-#   1) Sprawdź wykluczenia twarde (zwierzęta/usta/włosy/SPF) → Other
-#   2) Wykryj formę produktu patrząc na tytuł — kolejność: Wash → Oil → Cream
-#      (żeby "huile de douche" poszło do Wash, nie Oil)
-#   3) Sprawdź sygnał niszy atopowej w pełnym tekście listingu
-#   4) Decyzja:
-#      - brak sygnału niszy → Check (podejrzenie produktu masowego typu Nivea)
-#      - sygnał jest, ale forma nieznana → Check (niejednoznaczny tytuł)
-#      - sygnał + forma → auto-przypisanie do segmentu
-def classify(d):
-    title_raw = (d.get('title') or '')
-    title = text_lower(title_raw)
-    bullets = text_lower(' '.join(d.get('bullet_points') or []))
-    desc = text_lower(d.get('description') or '')
-    full = title + ' ' + bullets + ' ' + desc
+def normalize(s):
+    if not s:
+        return ''
+    s = s.lower()
+    repl = {'ö':'o','ü':'u','ä':'a','ß':'ss','é':'e','è':'e','ê':'e','à':'a','â':'a',
+            'î':'i','ô':'o','û':'u','ç':'c','ñ':'n','á':'a','í':'i','ó':'o','ú':'u'}
+    for k, v in repl.items():
+        s = s.replace(k, v)
+    return s
 
-    # Krok 1: wykluczenia twarde (sprawdzamy tylko tytuł — musi być wprost)
-    for pat, reason in EXCLUDE:
-        if pat in title:
-            return ('Other', reason)
 
-    # Krok 2: wykrywanie formy (Wash wygrywa nad Oil — shower oil = Wash!)
-    form = None
-    for t in FORM_WASH:
-        if t in title:
-            form = 'Wash'; break
-    if not form:
-        for t in FORM_OIL:
-            if t in title:
-                form = 'Oil'; break
-    if not form:
-        for t in FORM_CREAM:
-            if t in title:
-                form = 'Cream'; break
+def score(text, keywords):
+    return sum(1 for kw in keywords if kw in text)
 
-    # Krok 3: sygnał niszy atopowej — sprawdzamy CAŁY tekst (title+bullets+description)
-    has_niche = any(n in full for n in NICHE_STRONG)
 
-    # Krok 4: finalna decyzja
-    if not has_niche:
-        # Produkt może wyglądać jak dermo-kosmetyk, ale nie ma w opisie żadnego
-        # sygnału atopowego — to jest typowy case "Nivea pielęgnacja suchej skóry".
-        # Nie klasyfikujemy automatycznie, tylko flagujemy do weryfikacji.
-        return ('Check', 'no niche signal')
-    if form is None:
-        # Nisza OK, ale tytuł nie zdradza formy (np. "Lipikar AP+" bez słowa creme).
-        return ('Check', 'niche OK form unclear')
-    return (form, 'ok')
+def classify(d, csv_title=''):
+    asin = d.get('asin', '')
+    if asin in OVERRIDES:
+        return (OVERRIDES[asin], 'override', {})
+    title_raw = d.get('title') or csv_title or ''
+    bullets = ' '.join(d.get('bullet_points') or [])
+    desc = d.get('description') or ''
+    title_n = normalize(title_raw)
+    full_n = normalize(title_raw + ' ' + bullets + ' ' + desc)
 
-# ── ORCHESTRATOR ───────────────────────────────────────────────────────
-# 1. Wczytuje wszystkie pliki JSON z SP-API dla danego kraju
-# 2. Uruchamia classify() na każdym produkcie
-# 3. Zapisuje wyniki do kolumny Segment w scalonym pliku X-Ray
-# 4. Drukuje podsumowanie (ile Cream/Wash/Oil/Check/Other)
+    # Title carries more signal — weight it 2x
+    s_trap     = score(title_n, TRAP)     * 2 + score(full_n, TRAP)
+    s_killer   = score(title_n, KILLER)   * 2 + score(full_n, KILLER)
+    s_repel    = score(title_n, REPELLENT) * 2 + score(full_n, REPELLENT)
+
+    # Spray + repellent terms together usually = repellent spray (e.g. lavender spray).
+    # Only count as Killer Spray if there's a kill/insecticide signal beyond just "spray".
+    kill_signal_only = sum(1 for kw in KILLER if kw != 'spray' and kw in full_n)
+    if s_killer > 0 and kill_signal_only == 0 and s_repel > 0:
+        s_killer = 0
+
+    scores = {'Physical Trap': s_trap, 'Killer Spray': s_killer, 'Repellent': s_repel}
+    best = max(scores, key=scores.get)
+    if scores[best] == 0:
+        return ('Check', 'no keywords matched', scores)
+    # Tie between top two?
+    sorted_scores = sorted(scores.values(), reverse=True)
+    if sorted_scores[0] == sorted_scores[1]:
+        return ('Check', f'tie {scores}', scores)
+    return (best, f'score={scores[best]}', scores)
+
+
+def insert_segment_column(rows, header, asin_to_segment):
+    """Return (new_header, new_rows) with Segment inserted after ASIN."""
+    if 'ASIN' not in header:
+        sys.exit('CSV has no ASIN column')
+    a_idx = header.index('ASIN')
+
+    if 'Segment' in header:
+        # Already present — just refresh values
+        s_idx = header.index('Segment')
+        new_rows = [list(r) for r in rows]
+        for r in new_rows:
+            asin = (r[a_idx] if len(r) > a_idx else '').strip()
+            if asin in asin_to_segment:
+                while len(r) <= s_idx:
+                    r.append('')
+                r[s_idx] = asin_to_segment[asin]
+        return header, new_rows
+
+    # Insert at position a_idx + 1
+    insert_at = a_idx + 1
+    new_header = list(header[:insert_at]) + ['Segment'] + list(header[insert_at:])
+    new_rows = []
+    for r in rows:
+        asin = (r[a_idx] if len(r) > a_idx else '').strip()
+        seg = asin_to_segment.get(asin, 'Check')
+        new_rows.append(list(r[:insert_at]) + [seg] + list(r[insert_at:]))
+    return new_header, new_rows
+
+
 def main():
     if len(sys.argv) < 2:
-        print('Usage: py scripts/classify_segments.py {DE|FR|IT|ES}')
-        sys.exit(1)
+        sys.exit('Usage: py scripts/classify_segments.py <CODE>')
     code = sys.argv[1].upper()
+
     raw_dir = os.path.join(BASE, 'data', 'competitor-listings', code, 'raw')
-    csv_path = os.path.join(BASE, 'data', 'x-ray', code, f'Dermo-Products-{code}.csv')
+    csv_path = os.path.join(BASE, 'data', 'x-ray', code, f'Moth-{code}.csv')
     if not os.path.isdir(raw_dir):
-        print(f'No raw folder: {raw_dir}'); sys.exit(1)
+        sys.exit(f'No raw folder: {raw_dir}')
     if not os.path.isfile(csv_path):
-        print(f'No merged CSV: {csv_path}'); sys.exit(1)
+        sys.exit(f'No merged CSV: {csv_path}')
 
-    results = {}
-    for fp in sorted(glob.glob(os.path.join(raw_dir, '*.json'))):
-        d = json.load(open(fp, encoding='utf-8'))
-        asin = d.get('asin','')
-        seg, reason = classify(d)
-        results[asin] = (seg, reason, (d.get('brand','') or '')[:22], (d.get('title') or '')[:90])
-
+    # Load CSV first (we'll need title fallback for ASINs missing JSON)
     with open(csv_path, encoding='utf-8-sig', newline='') as f:
-        rows = list(csv.reader(f))
-    hdr = rows[0]
-    a_i = hdr.index('ASIN')
-    s_i = hdr.index('Segment')
-    filled = 0
-    for row in rows[1:]:
-        asin = (row[a_i] or '').strip()
-        if asin in results:
-            row[s_i] = results[asin][0]
-            filled += 1
+        rows_in = list(csv.reader(f))
+    header = rows_in[0]
+    body = rows_in[1:]
+    asin_idx = header.index('ASIN')
+    title_idx = header.index('Product Details') if 'Product Details' in header else None
+
+    csv_titles = {}
+    for r in body:
+        if len(r) > asin_idx:
+            asin = r[asin_idx].strip()
+            if asin and title_idx is not None and len(r) > title_idx:
+                csv_titles[asin] = r[title_idx]
+
+    # Classify every JSON we have
+    results = {}  # asin → (segment, reason, scores)
+    json_files = sorted(glob.glob(os.path.join(raw_dir, '*.json')))
+    print(f'Classifying {len(json_files)} listings...')
+    for fp in json_files:
+        try:
+            d = json.load(open(fp, encoding='utf-8'))
+        except Exception as e:
+            print(f'  skip {os.path.basename(fp)}: {e}')
+            continue
+        asin = d.get('asin', '') or os.path.splitext(os.path.basename(fp))[0]
+        results[asin] = classify(d, csv_titles.get(asin, ''))
+
+    # ASINs in CSV without a JSON fall back to title-only classification
+    title_only = 0
+    for r in body:
+        asin = (r[asin_idx] if len(r) > asin_idx else '').strip()
+        if asin and asin not in results:
+            results[asin] = classify({'title': csv_titles.get(asin, '')}, csv_titles.get(asin, ''))
+            title_only += 1
+    if title_only:
+        print(f'  ({title_only} ASINs classified from title only — no SP-API data)')
+
+    asin_to_seg = {a: r[0] for a, r in results.items()}
+
+    new_header, new_body = insert_segment_column(body, header, asin_to_seg)
     with open(csv_path, 'w', encoding='utf-8-sig', newline='') as f:
-        csv.writer(f).writerows(rows)
+        w = csv.writer(f)
+        w.writerow(new_header)
+        w.writerows(new_body)
 
     cnt = Counter(r[0] for r in results.values())
-    print(f'{code} segment counts:')
-    for k in ['Cream','Wash','Oil','Check','Other']:
-        print(f'  {k}: {cnt.get(k,0)}')
-    print(f'  TOTAL classified: {sum(cnt.values())}')
-    print(f'  Filled in CSV: {filled} / {len(rows)-1} rows')
+    print(f'\n{code} segment counts:')
+    for k in ['Killer Spray', 'Physical Trap', 'Repellent', 'Check']:
+        print(f'  {k}: {cnt.get(k, 0)}')
+    print(f'  TOTAL: {sum(cnt.values())}')
+    print(f'\nWrote {csv_path}')
+
+    # Show Check rows so user can review
+    check_rows = [(a, r) for a, r in results.items() if r[0] == 'Check']
+    if check_rows:
+        print(f'\n{len(check_rows)} rows flagged "Check" (manual review):')
+        for asin, (seg, reason, scores) in check_rows[:15]:
+            t = (csv_titles.get(asin, '') or '')[:80]
+            print(f'  {asin}  [{reason}]  {t}')
+        if len(check_rows) > 15:
+            print(f'  ... and {len(check_rows) - 15} more')
+
 
 if __name__ == '__main__':
     main()

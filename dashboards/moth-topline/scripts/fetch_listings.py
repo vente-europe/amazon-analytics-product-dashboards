@@ -25,6 +25,7 @@ MARKETPLACES = {
     'FR': 'A13V1IB3VIYZZH',
     'IT': 'APJ6JRA9NG5V4',
     'ES': 'A1RKKUPIHCS9HS',
+    'UK': 'A1F83G8C2ARO7P',
 }
 ENDPOINT = 'https://sellingpartnerapi-eu.amazon.com'
 BASE = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -103,16 +104,17 @@ def parse_item(raw):
 
 def read_asins_from_xray(code):
     folder = os.path.join(BASE, 'data', 'x-ray', code)
-    files = sorted(glob.glob(os.path.join(folder, f'Dermo-Products-{code}*.csv')))
-    if not files:
-        files = sorted(glob.glob(os.path.join(folder, '*.csv')))
-    if not files:
+    path = os.path.join(folder, f'Moth-{code}.csv')
+    if not os.path.exists(path):
         return []
-    path = files[0]
     print(f'Reading ASINs from: {os.path.basename(path)}')
+    seen, asins = set(), []
     with open(path, encoding='utf-8-sig') as f:
-        r = csv.DictReader(f)
-        return [(row.get('ASIN') or '').strip() for row in r if (row.get('ASIN') or '').strip()]
+        for row in csv.DictReader(f):
+            a = (row.get('ASIN') or '').strip()
+            if a and a not in seen:
+                seen.add(a); asins.append(a)
+    return asins
 
 def main():
     if len(sys.argv) < 2:
