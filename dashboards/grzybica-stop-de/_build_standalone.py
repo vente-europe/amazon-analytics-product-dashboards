@@ -110,7 +110,7 @@ mdd = (dash.get('addonTabs', {}) or {}).get('marketing-deep-dive') or None
 
 bundle = {
     'title': 'Grzybica Stop (DE)',
-    'subtitle': f'Data: Helium 10 X-Ray (amazon.de, 30-day snapshot, 2026-05-08) · {len(sales_data)}/{len(products)} ASINs with sales history · 12M projected via x{mult:.2f} median multiplier · keywords: Fußpilz behandeln / Creme / Spray, Antimykotikum Fuß',
+    'subtitle': f'Data: Helium 10 X-Ray (amazon.de, 30-day snapshot, 2026-05-08) · {len(sales_data)}/{len(products)} ASINs with sales history · 12M projected via x{mult:.2f} median multiplier · Keywords: Fußpilz behandeln · Fußpilz Creme · Fußpilz Spray · Antimykotikum Fuß',
     'currency': '€', 'exportMonth': 3,
     'salesFilesFound': len(sales_data),
     'salesFilesMissing': len(products) - len(sales_data),
@@ -153,7 +153,7 @@ shell = '''<!DOCTYPE html>
     <h2 id="hdrTitle" style="margin:0;font-size:1.35rem;font-weight:600;color:#fff"></h2>
     <span id="hdrSub" style="font-size:.78rem;color:#cbd5e1;display:block;margin-top:4px"></span>
   </div>
-  <a href="#" target="_blank" rel="noopener" style="background:#16a34a;color:#fff;padding:10px 16px;border-radius:6px;font-size:.82rem;font-weight:600;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:8px;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:background .15s">
+  <a href="https://docs.google.com/spreadsheets/d/141KkpEFF8Cyje_RSwOQKLpIU9dkxOwX38_0UqTXX7B4/edit?gid=2105271150#gid=2105271150" target="_blank" rel="noopener" style="background:#16a34a;color:#fff;padding:10px 16px;border-radius:6px;font-size:.82rem;font-weight:600;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:8px;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:background .15s">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="16" y2="17"/></svg>
     Edit X-Ray data
   </a>
