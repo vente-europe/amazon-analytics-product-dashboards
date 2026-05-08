@@ -36,6 +36,12 @@ OVERRIDES = {
     'B073ZLH82Y': 'Repellent',      # ZUM Polillas — perfumes/protects (sachet-style)
     'B0BH98V4VJ': 'Killer Spray',   # Panteer Spray antipolillas 500ml
     'B0DGY19Q3N': 'Physical Trap',  # Orion Trampa Polilla Alimentos (food moth trap)
+    # IT
+    'B0822HYBT4': 'Physical Trap',  # Schädlingsmeister Pheromone Moth Trap
+    'B0FKBTC9WQ': 'Physical Trap',  # Veddelholzer Clothes Moth Trap (triangular)
+    'B00UCB67YK': 'Physical Trap',  # Polil Food Moth Detector Trap
+    'B00DJ7D8UA': 'Physical Trap',  # Autan Trappola Antitarme (sticky food moth trap)
+    'B00FKRFZVW': 'Repellent',      # Nuncas Antitarme sheets (passive cabinet protection)
 }
 
 # ── PHYSICAL TRAP — pheromone / sticky / glue traps ────────────────────────
@@ -206,7 +212,7 @@ def main():
     for r in body:
         asin = (r[asin_idx] if len(r) > asin_idx else '').strip()
         if asin and asin not in results:
-            results[asin] = classify({'title': csv_titles.get(asin, '')}, csv_titles.get(asin, ''))
+            results[asin] = classify({'asin': asin, 'title': csv_titles.get(asin, '')}, csv_titles.get(asin, ''))
             title_only += 1
     if title_only:
         print(f'  ({title_only} ASINs classified from title only — no SP-API data)')
