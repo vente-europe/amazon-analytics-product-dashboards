@@ -136,13 +136,12 @@
     // ── Brand Summary table ──
     s += '<div class="card"><h3>Brand Summary \u2014 ' + seg.name + ' (12M)</h3>';
     s += '<div class="tbl-wrap"><table class="num-right" id="' + prefix + 'BrandTable">';
-    s += '<thead><tr><th style="text-align:left">Brand</th><th>Rev (12M)</th><th>Share</th><th>Units (12M)</th><th>ASINs</th><th>Avg Price</th><th>Avg Rating</th><th>Total Reviews</th></tr></thead>';
+    s += '<thead><tr><th style="text-align:left">Brand</th><th>Rev (12M)</th><th>Share</th><th>Units (12M)</th><th>ASINs</th><th>Avg Rating</th><th>Total Reviews</th></tr></thead>';
     s += '<tbody>';
 
     var brands = DataEngine.aggregateByBrand(products);
     brands.forEach(function(b) {
       var bProducts = products.filter(function(p) { return p.brand === b.name; });
-      var avgPrice = bProducts.length > 0 ? bProducts.reduce(function(a, p) { return a + p.price; }, 0) / bProducts.length : 0;
       var avgRating = bProducts.length > 0 ? bProducts.reduce(function(a, p) { return a + p.rating; }, 0) / bProducts.length : 0;
       var totalReviews = bProducts.reduce(function(a, p) { return a + p.reviewCount; }, 0);
       var share = totalSegRev > 0 ? (b.rev / totalSegRev * 100).toFixed(1) : '0.0';
@@ -153,7 +152,6 @@
       s += '<td data-val="' + share + '">' + share + '%</td>';
       s += '<td data-val="' + b.units + '">' + b.units.toLocaleString() + '</td>';
       s += '<td data-val="' + b.asins + '">' + b.asins + '</td>';
-      s += '<td data-val="' + avgPrice.toFixed(2) + '">' + cur + avgPrice.toFixed(2) + '</td>';
       s += '<td data-val="' + avgRating.toFixed(2) + '">' + avgRating.toFixed(1) + '</td>';
       s += '<td data-val="' + totalReviews + '">' + totalReviews.toLocaleString() + '</td>';
       s += '</tr>';
@@ -199,16 +197,34 @@
     var totalSegUnits = seg.units12m;
 
     // ── Brand pies ──
+    // Each pie is sorted by its own metric (units for the unit pie, revenue for the
+    // revenue pie). "Other" is always pinned last regardless of size. Brand colors are
+    // keyed by brand name so the same brand has the same color in both pies.
     var brands = DataEngine.topBrandsWithOther(DataEngine.aggregateByBrand(products), 8);
-    var bLabels = brands.map(function(b) { return b.name; });
-    var bColors = brands.map(function(_, i) { return BRAND_PALETTE[i % BRAND_PALETTE.length]; });
+    var brandColorMap = {};
+    brands.forEach(function(b, i) { brandColorMap[b.name] = BRAND_PALETTE[i % BRAND_PALETTE.length]; });
 
-    makePie(prefix + 'BrandUnitPie', bLabels,
-      brands.map(function(b) { return b.units; }), bColors,
+    function sortForPie(arr, metric) {
+      return arr.slice().sort(function(a, b) {
+        if (a.name === 'Other') return 1;
+        if (b.name === 'Other') return -1;
+        return b[metric] - a[metric];
+      });
+    }
+
+    var unitSorted = sortForPie(brands, 'units');
+    var revSorted  = sortForPie(brands, 'rev');
+
+    makePie(prefix + 'BrandUnitPie',
+      unitSorted.map(function(b) { return b.name; }),
+      unitSorted.map(function(b) { return b.units; }),
+      unitSorted.map(function(b) { return brandColorMap[b.name]; }),
       function(v) { return v.toLocaleString(); }, function(v) { return v.toLocaleString() + ' units'; });
 
-    makePie(prefix + 'BrandRevPie', bLabels,
-      brands.map(function(b) { return b.rev; }), bColors,
+    makePie(prefix + 'BrandRevPie',
+      revSorted.map(function(b) { return b.name; }),
+      revSorted.map(function(b) { return b.rev; }),
+      revSorted.map(function(b) { return brandColorMap[b.name]; }),
       function(v) { return DataEngine.fmtMoney(v, cur); }, function(v) { return cur + v.toLocaleString(); });
 
     // ── Price vs Revenue scatter ──

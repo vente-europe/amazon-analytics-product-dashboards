@@ -1,0 +1,34 @@
+{
+  "asin": "B00DIWM9QA",
+  "title": "Clotrimazol 1% Creme 1A Pharma",
+  "brand": "1A PHARMA",
+  "browse_classification": "Ekzeme, Schuppenflechte & Gesichtsrose",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51IdxdwALRL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/315xwaX2cqL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/315xwaX2cqL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "02409006",
+    "apothekenpflichtig",
+    "Zu Risiken und Nebenwirkungen lesen Sie die Packungsbeilage und fragen Sie Ihre Ärztin, Ihren Arzt oder in Ihrer Apotheke!",
+    "Dieses Produkt darf nicht an Personen unter dem gesetzlichen Mindestalter abgegeben werden."
+  ],
+  "description": "PZN: 02409006 CLOTRIMAZOL 1% Creme 1A Pharma 50 g",
+  "product_type": "MEDICATION"
+}

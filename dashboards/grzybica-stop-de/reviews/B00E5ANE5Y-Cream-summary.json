@@ -1,0 +1,17 @@
+{
+  "total_reviews": 216,
+  "average_rating": 4.16,
+  "rating_distribution": {
+    "5_star": 119,
+    "4_star": 53,
+    "3_star": 20,
+    "2_star": 8,
+    "1_star": 16
+  },
+  "scrape_timestamp": "2026-05-08T14:43:36.074283",
+  "asin": "B00E5ANE5Y",
+  "marketplace": "amazon.de",
+  "country": "Germany",
+  "collection": "B00E5ANE5Y Germany",
+  "actor": "direct"
+}

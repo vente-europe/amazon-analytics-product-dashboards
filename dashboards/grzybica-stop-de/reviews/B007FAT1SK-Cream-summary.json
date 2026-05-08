@@ -1,0 +1,17 @@
+{
+  "total_reviews": 249,
+  "average_rating": 3.67,
+  "rating_distribution": {
+    "5_star": 101,
+    "4_star": 66,
+    "3_star": 25,
+    "2_star": 14,
+    "1_star": 43
+  },
+  "scrape_timestamp": "2026-05-08T14:29:31.591798",
+  "asin": "B007FAT1SK",
+  "marketplace": "amazon.de",
+  "country": "Germany",
+  "collection": "B007FAT1SK Germany",
+  "actor": "direct"
+}

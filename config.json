@@ -8,6 +8,13 @@
       "file": "index.html"
     },
     {
+      "id": "grzybica-stop-de",
+      "title": "Grzybica Stop (DE)",
+      "group": "detailed",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
       "id": "eu-lice-treatment-analysis",
       "title": "Lice Treatment (DE, ES, FR, IT)",
       "group": "detailed",

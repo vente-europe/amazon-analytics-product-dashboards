@@ -327,19 +327,37 @@
   makePie('tmFocusUnitsPie', segNames, segUnits, segColors,
     function(v) { return v.toLocaleString(); }, function(v) { return v.toLocaleString() + ' units'; });
 
-  // Brand pies per segment (from computed data)
+  // Brand pies per segment — each pie is sorted by its own metric so the largest
+  // slice always appears first. "Other" is pinned last. Colors are keyed by brand
+  // name so the same brand has the same color across the units and revenue pies.
   segments.forEach(function(seg) {
     var bd = brandsBySegment[seg.name];
     if (!bd || bd.length === 0) return;
-    var bLabels = bd.map(function(b) { return b.name; });
-    var bColors = bd.map(function(_, i) { return PALETTE[i % PALETTE.length]; });
 
-    makePie('tmBrand' + seg.name.replace(/\s/g,'') + 'UnitPie', bLabels,
-      bd.map(function(b) { return b.units; }), bColors,
+    var brandColorMap = {};
+    bd.forEach(function(b, i) { brandColorMap[b.name] = PALETTE[i % PALETTE.length]; });
+
+    function sortForPie(arr, metric) {
+      return arr.slice().sort(function(a, b) {
+        if (a.name === 'Other') return 1;
+        if (b.name === 'Other') return -1;
+        return b[metric] - a[metric];
+      });
+    }
+
+    var unitSorted = sortForPie(bd, 'units');
+    var revSorted  = sortForPie(bd, 'rev');
+
+    makePie('tmBrand' + seg.name.replace(/\s/g,'') + 'UnitPie',
+      unitSorted.map(function(b) { return b.name; }),
+      unitSorted.map(function(b) { return b.units; }),
+      unitSorted.map(function(b) { return brandColorMap[b.name]; }),
       function(v) { return v.toLocaleString(); }, function(v) { return v.toLocaleString() + ' units'; });
 
-    makePie('tmBrand' + seg.name.replace(/\s/g,'') + 'RevPie', bLabels,
-      bd.map(function(b) { return b.rev; }), bColors,
+    makePie('tmBrand' + seg.name.replace(/\s/g,'') + 'RevPie',
+      revSorted.map(function(b) { return b.name; }),
+      revSorted.map(function(b) { return b.rev; }),
+      revSorted.map(function(b) { return brandColorMap[b.name]; }),
       function(v) { return fmtMoney(v); }, function(v) { return cur + v.toLocaleString(); });
   });
 

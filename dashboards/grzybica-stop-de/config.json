@@ -1,0 +1,11 @@
+{
+  "name": "Grzybica Stop",
+  "type": "detailed",
+  "marketplace": "DE",
+  "created": "2026-05-08",
+  "tabs": [
+    { "position": 1, "id": "total-market", "source": "base" },
+    { "position": 2, "id": "market-structure", "source": "base" },
+    { "position": 3, "id": "reviews", "source": "base" }
+  ]
+}
