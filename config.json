@@ -29,6 +29,12 @@
       "file": "index.html"
     },
     {
+      "id": "fruit-fly-trap-us",
+      "title": "Fruit Fly Trap (US)",
+      "group": "detailed",
+      "template": "detailed"
+    },
+    {
       "id": "dermo-products",
       "title": "Atopic Skin (DE, FR, IT, ES)",
       "group": "topline",
