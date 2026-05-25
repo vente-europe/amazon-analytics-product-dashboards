@@ -1,0 +1,487 @@
+<!-- u-marketing-deep-dive tab template
+==============================================================================
+Tom's standalone-composition Marketing Deep-Dive tab — ported from
+eu-wasp-analysis renderMarketingDeepDive() (Lure variant). Renders ONE bucket
+(one country × one segment). The caller is responsible for scoping
+window._TAB_DATA to the right competitor-listings file BEFORE this template's
+<script> runs.
+
+Sections rendered (each is optional — guarded against missing data):
+  1. Competitor Overview Grid · cards open a modal with bullets + image stack
+  2. Claims Matrix (heatmap)  · plus per-theme adoption-rate bars below
+  3. VOC ↔ Claims Gap Analysis · highlights HIGH/MED/LOW severity rows
+  4. Whitespace Opportunities  · ≤25% competitor coverage
+     + Saturated Claims        · ≥60% coverage (parity bullets)
+  5. Strategic Recommendations · synthesized findings + implications
+
+REQUIRED CSS — this template uses #mdd-root .mdd-* classes (sections,
+explainers, comp-grid, matrix, sev-HIGH/MEDIUM/LOW, ws-grid, insight-grid,
+modal). The eu-wasp-analysis _build_standalone.py inlines this CSS into the
+shell; if you're composing this template into a new standalone, copy the
+"Marketing Deep-Dive template styles" block from that build script.
+
+DATA CONTRACT — window._TAB_DATA shape:
+{
+  // ── Identity / display (used in headings + note text) ────────────────
+  countryName: "Germany",       // string — displayed in title
+  countryCode: "DE",            // string — used to build amazon.{tld} fallback
+  segmentName: "Lure",          // string — displayed in title; may be ""
+  currency: "€",                // string — competitor prices/revenue
+  marketplace: "amazon.de",     // string — displayed in intro paragraph;
+                                //          falls back to amazon.{countryCode}
+
+  // ── Headline figure ─────────────────────────────────────────────────
+  totalCompetitors: 20,         // number — matches competitors.length
+
+  // ── 1. Competitor Overview Grid ────────────────────────────────────
+  competitors: [
+    {
+      asin: "B0XXXXXXXX",
+      brand: "BrandName",
+      title: "Full product title …",
+      mainImage: "https://m.media-amazon.com/...jpg",  // string OR null
+      images: [ "https://...", … ],            // string[] — opens in modal
+      themes: ["lure_passive","weatherproof",…], // string[] — pills on card
+      price: 24.99,                             // number — in D.currency
+      rating: 4.3,                              // number — 1-5
+      reviews: 1203,                            // number
+      bsr: 287,                                 // number — opens in modal
+      rev30d: 12450,                            // number — 30d revenue
+      bullets: [ "Bullet 1", "Bullet 2", … ],  // shown in modal
+      description: "Long form description…"     // shown in modal
+    }, …
+  ],
+
+  // ── 2. Claims Matrix ───────────────────────────────────────────────
+  claimsMatrix: {
+    themes: [ { id: "weatherproof", label: "Weatherproof" }, … ],
+    rows:   [ { brand, asin, cells: [true, false, true, …] }, … ]
+                          // cells.length === themes.length, one bool per theme
+  },
+  claimsSummary: [               // adoption-rate bars below the matrix
+    { label: "Weatherproof", count: 14, pct: 70,    // pct = 0–100 (raw number)
+      topBrands: ["BrandA", "BrandB", "BrandC"] }, …
+  ],
+
+  // ── 3. VOC ↔ Claims Gap Analysis ───────────────────────────────────
+  vocGap: [
+    { vocTopic: "Smell complaints", customerConcernPct: "23.4%",
+      addressedByCount: 1, addressedByBrands: ["BrandX"],
+      gapSeverity: "HIGH" | "MEDIUM" | "LOW",
+      whitespace: "true" | "false"   // string — rendered as-is
+    }, …
+  ],
+
+  // ── 4. Whitespace + Saturation ─────────────────────────────────────
+  whitespaceOpportunities: [
+    { opportunity: "Outdoor weatherproofing",
+      rationale: "Only 2/20 mention…",
+      evidence: "Current brands: BrandA, BrandB" }, …
+  ],
+  saturation: [
+    { label: "Easy to use", saturationPct: "85%",
+      advice: "Treat as parity bullet…" }, …
+  ],
+
+  // ── 5. Strategic Recommendations ───────────────────────────────────
+  strategicRecommendations: [
+    { type: "Listing rewrite", badgeBg: "#fee2e2", badgeColor: "#991b1b",
+      finding: "…", implication: "…" }, …
+  ]
+}
+============================================================================== -->
+
+<style>
+  /* === Inlined Marketing Deep-Dive styles (self-contained — no external CSS dependency) ===
+     Modal CSS (#u-mdd-modal) is injected dynamically by the renderer below.    */
+  #mdd-root .mdd-section { margin-bottom: 32px; }
+  #mdd-root .mdd-sec-header { display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 12px; }
+  #mdd-root .mdd-sec-title { font-size: 1.05rem; font-weight: 700; color: #0f172a; }
+  #mdd-root .mdd-sec-sub { font-size: .72rem; color: #64748b; }
+  #mdd-root .mdd-explainer { background:#f1f5f9; border-left:3px solid #2563eb; padding:10px 12px; border-radius:4px; margin:0 0 14px; font-size:.78rem; line-height:1.55; color:#334155; }
+  #mdd-root .mdd-explainer b { color:#0f172a; }
+  #mdd-root .mdd-explainer code { background:#e2e8f0; padding:1px 5px; border-radius:3px; font-size:.72rem; }
+  #mdd-root .mdd-comp-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:14px; }
+  #mdd-root .mdd-comp-card { background:#fff; border:1px solid #e2e8f0; border-radius:8px; padding:12px; display:flex; flex-direction:column; gap:8px; transition: box-shadow .15s; cursor:pointer; }
+  #mdd-root .mdd-comp-card:hover { box-shadow: 0 4px 12px rgba(15,42,66,.08); border-color:#cbd5e1; }
+  #mdd-root .mdd-comp-img { width:100%; height:140px; background:#f8fafc; border-radius:6px; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+  #mdd-root .mdd-comp-img img { max-width:100%; max-height:100%; object-fit:contain; }
+  #mdd-root .mdd-comp-brand { font-size:.7rem; font-weight:700; color:#475569; text-transform:uppercase; letter-spacing:.04em; }
+  #mdd-root .mdd-comp-title { font-size:.74rem; color:#1e293b; line-height:1.35; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+  #mdd-root .mdd-comp-meta { display:flex; flex-wrap:wrap; gap:6px 10px; font-size:.68rem; color:#64748b; margin-top:auto; }
+  #mdd-root .mdd-comp-meta b { color:#0f172a; }
+  #mdd-root .mdd-comp-themes { display:flex; flex-wrap:wrap; gap:3px; }
+  #mdd-root .mdd-theme-pill { font-size:.6rem; padding:2px 6px; border-radius:10px; background:#eff6ff; color:#1e40af; font-weight:600; }
+  #mdd-root .mdd-matrix-wrap { overflow-x:auto; border:1px solid #e2e8f0; border-radius:8px; }
+  #mdd-root table.mdd-matrix { width:100%; border-collapse:collapse; font-size:.72rem; }
+  #mdd-root table.mdd-matrix th, #mdd-root table.mdd-matrix td { padding:8px 6px; border-bottom:1px solid #f1f5f9; text-align:center; }
+  #mdd-root table.mdd-matrix th { background:#f8fafc; font-weight:600; color:#475569; font-size:.65rem; text-transform:uppercase; letter-spacing:.03em; position:sticky; top:0; z-index:1; }
+  #mdd-root table.mdd-matrix th.mdd-row-h, #mdd-root table.mdd-matrix td.mdd-row-h { text-align:left; font-weight:600; color:#0f172a; min-width:140px; position:sticky; left:0; background:#fff; z-index:2; border-right:1px solid #e2e8f0; }
+  #mdd-root table.mdd-matrix th.mdd-row-h { background:#f8fafc; z-index:3; }
+  #mdd-root .mdd-cell-yes, #mdd-root .mdd-cell-no { display:inline-block; width:18px; height:18px; border-radius:50%; vertical-align:middle; }
+  #mdd-root .mdd-cell-yes { background:#16a34a; }
+  #mdd-root .mdd-cell-no { background:#e5e7eb; }
+  #mdd-root .mdd-bar-row { display:grid; grid-template-columns:160px 1fr 60px; gap:10px; align-items:center; padding:6px 0; font-size:.74rem; }
+  #mdd-root .mdd-bar-track { background:#f1f5f9; height:14px; border-radius:7px; overflow:hidden; }
+  #mdd-root .mdd-bar-fill { height:100%; background:linear-gradient(90deg,#3b82f6,#1e40af); border-radius:7px; }
+  #mdd-root .mdd-brands { font-size:.66rem; color:#64748b; margin-left:170px; margin-bottom:4px; }
+  #mdd-root table.mdd-gap { width:100%; border-collapse:collapse; font-size:.74rem; background:#fff; border:1px solid #e2e8f0; border-radius:8px; overflow:hidden; }
+  #mdd-root table.mdd-gap th, #mdd-root table.mdd-gap td { padding:10px 12px; border-bottom:1px solid #f1f5f9; text-align:left; vertical-align:top; }
+  #mdd-root table.mdd-gap th { background:#f8fafc; font-size:.66rem; font-weight:600; color:#475569; text-transform:uppercase; letter-spacing:.03em; }
+  #mdd-root .mdd-sev { display:inline-block; padding:2px 8px; border-radius:10px; font-size:.62rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em; }
+  #mdd-root .mdd-sev-HIGH { background:#fee2e2; color:#991b1b; }
+  #mdd-root .mdd-sev-MEDIUM { background:#fef3c7; color:#92400e; }
+  #mdd-root .mdd-sev-LOW { background:#dcfce7; color:#166534; }
+  #mdd-root .mdd-ws-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:12px; }
+  #mdd-root .mdd-ws-card { background:#fff; border:1px solid #e2e8f0; border-radius:8px; padding:14px; }
+  #mdd-root .mdd-ws-card h4 { margin:0 0 6px; font-size:.85rem; color:#0f172a; }
+  #mdd-root .mdd-ws-rationale { font-size:.74rem; color:#475569; line-height:1.45; }
+  #mdd-root .mdd-ws-evidence { font-size:.68rem; color:#64748b; margin-top:8px; padding-top:8px; border-top:1px dashed #e2e8f0; }
+  #mdd-root .mdd-insight-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:12px; }
+  #mdd-root .mdd-insight-card { background:#fff; border:1px solid #e2e8f0; border-radius:8px; padding:14px; }
+  #mdd-root .mdd-insight-badge { display:inline-block; padding:3px 10px; border-radius:10px; font-size:.62rem; font-weight:700; text-transform:uppercase; letter-spacing:.04em; margin-bottom:8px; }
+  #mdd-root .mdd-insight-card h4 { margin:0 0 6px; font-size:.78rem; color:#0f172a; line-height:1.4; }
+  #mdd-root .mdd-insight-card p { margin:6px 0 0; font-size:.72rem; color:#475569; line-height:1.5; }
+</style>
+
+<div id="u-mdd-tab-root"></div>
+
+<script>
+(function(){
+  var D = window._TAB_DATA;
+  var root = document.getElementById('u-mdd-tab-root');
+  if (!D) { root.innerHTML = '<div class="card"><p style="color:#64748b;font-size:.85rem">No data loaded for this tab.</p></div>'; return; }
+
+  // ─── inline helpers (self-contained) ───────────────────────────────────
+  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function fmtInt(n) { return Math.round(+n || 0).toLocaleString('en-US'); }
+  function fmtMoney(n) { return (D.currency || '') + Math.round(+n || 0).toLocaleString('en-US'); }
+  function fmtMoneyShort(n) {
+    n = Math.round(+n || 0); var cur = D.currency || '';
+    if (n >= 1e6) return cur + (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (n >= 1e3) return cur + (n / 1e3).toFixed(0) + 'K';
+    return cur + n;
+  }
+  function fmtShort(n) {
+    n = Math.round(+n || 0);
+    if (n >= 1e6) return (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (n >= 1e3) return (n / 1e3).toFixed(0) + 'K';
+    return String(n);
+  }
+  function pct(v, t) { return (t > 0) ? ((v / t) * 100).toFixed(1) + '%' : '0%'; }
+  function mfmt(n) { return (D.currency || '') + Number(n || 0).toFixed(0); }
+
+  var BRAND_PALETTE = D.brandPalette || ['#2563eb','#dc2626','#16a34a','#f59e0b','#8b5cf6','#0891b2','#db2777','#65a30d'];
+  function brandColor(name, i) {
+    if (typeof name === 'string' && name.indexOf('Other (') === 0) return '#94a3b8';
+    return BRAND_PALETTE[i % BRAND_PALETTE.length];
+  }
+
+  // ─── Sortable tables ───────────────────────────────────────────────────
+  function parseSortValue(td) {
+    if (td.dataset && td.dataset.val != null && td.dataset.val !== '') {
+      var n = parseFloat(td.dataset.val);
+      if (!isNaN(n)) return n;
+    }
+    var txt = (td.textContent || '').trim();
+    var cleaned = txt.replace(/[\s, €$£%]/g, '').replace(/·/g, '');
+    if (cleaned !== '' && !isNaN(parseFloat(cleaned))) return parseFloat(cleaned);
+    return txt.toLowerCase();
+  }
+  function sortTableByColumn(table, colIdx, dir) {
+    var tbody = table.tBodies[0]; if (!tbody) return;
+    var rows = Array.prototype.slice.call(tbody.rows);
+    rows.sort(function(a, b) {
+      var va = parseSortValue(a.cells[colIdx]);
+      var vb = parseSortValue(b.cells[colIdx]);
+      if (va < vb) return dir === 'asc' ? -1 : 1;
+      if (va > vb) return dir === 'asc' ? 1 : -1;
+      return 0;
+    });
+    rows.forEach(function(r) { tbody.appendChild(r); });
+  }
+  function makeAllTablesSortable() {
+    var tables = root.querySelectorAll('table');
+    tables.forEach(function(table) {
+      var ths = table.tHead ? table.tHead.rows[0].cells : table.rows[0].cells;
+      Array.prototype.forEach.call(ths, function(th, idx) {
+        if (th.dataset.sortable === '1') return;
+        th.dataset.sortable = '1';
+        th.style.cursor = 'pointer';
+        th.style.userSelect = 'none';
+        th.dataset.sortDir = '';
+        var arrow = document.createElement('span');
+        arrow.className = 'sort-arrow';
+        arrow.style.cssText = 'margin-left:6px;opacity:.6;font-size:1.5em;color:#0f172a;vertical-align:middle;line-height:1';
+        arrow.textContent = '▴▾';
+        th.appendChild(arrow);
+        th.addEventListener('click', function() {
+          var dir = th.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+          Array.prototype.forEach.call(ths, function(other) {
+            other.dataset.sortDir = '';
+            var a = other.querySelector('.sort-arrow');
+            if (a) { a.textContent = '▴▾'; a.style.opacity = '.6'; }
+          });
+          th.dataset.sortDir = dir;
+          arrow.textContent = dir === 'asc' ? '▴' : '▾';
+          arrow.style.opacity = '1';
+          sortTableByColumn(table, idx, dir);
+        });
+      });
+    });
+  }
+
+  var _charts = [];
+
+  // Pie helper · legend SORTED BY VALUE DESC, "Other (…)" pinned last ────
+  // (Unused in MDD's current layout but kept for future enrichments and so
+  // every u-* template exposes the same helper surface.)
+  function pie(canvasId, labels, data, colors, moneyFmt) {
+    var el = document.getElementById(canvasId);
+    if (!el) return;
+    var idx = labels.map(function(_, i){ return i; });
+    idx.sort(function(a, b){
+      var la = labels[a], lb = labels[b];
+      var oa = typeof la === 'string' && la.indexOf('Other (') === 0;
+      var ob = typeof lb === 'string' && lb.indexOf('Other (') === 0;
+      if (oa && !ob) return 1;
+      if (ob && !oa) return -1;
+      return (+data[b] || 0) - (+data[a] || 0);
+    });
+    var sLabels = idx.map(function(i){ return labels[i]; });
+    var sData   = idx.map(function(i){ return data[i]; });
+    var sColors = idx.map(function(i){ return colors[i]; });
+    var total = sData.reduce(function(a,b){return a+(+b||0);}, 0);
+    var ctx = el.getContext('2d');
+    var chart = new Chart(ctx, {
+      type: 'pie',
+      data: { labels: sLabels, datasets: [{ data: sData, backgroundColor: sColors, borderWidth: 2, borderColor: '#fff' }] },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'right', labels: { boxWidth: 12, padding: 6, font: { size: 11 },
+            generateLabels: function() {
+              return sLabels.map(function(lbl, i) {
+                var v = sData[i]; var p = total > 0 ? (v/total*100).toFixed(1) : '0.0';
+                var valStr = moneyFmt ? fmtMoneyShort(v) : fmtInt(v);
+                return { text: lbl + ' · ' + valStr + ' (' + p + '%)', fillStyle: sColors[i], strokeStyle: sColors[i], lineWidth: 0, hidden: false, index: i };
+              });
+            } } },
+          tooltip: { callbacks: { label: function(c) { var v = c.parsed; var p = total > 0 ? (v/total*100).toFixed(1) : '0'; return c.label + ': ' + (moneyFmt ? fmtMoneyShort(v) : fmtInt(v)) + ' (' + p + '%)'; } } },
+          datalabels: { color: '#fff', font: { size: 11, weight: 'bold' }, formatter: function(v) { var p = total > 0 ? (v/total*100) : 0; return p >= 5 ? p.toFixed(0) + '%' : ''; } }
+        }
+      },
+      plugins: window.ChartDataLabels ? [ChartDataLabels] : []
+    });
+    _charts.push(chart);
+  }
+
+  // ─── Empty-state guard ────────────────────────────────────────────────
+  var countryName = D.countryName || '';
+  var countryCode = D.countryCode || '';
+  var segment     = D.segmentName || '';
+  var marketplace = D.marketplace || (countryCode ? 'amazon.' + countryCode.toLowerCase() : '');
+  if (!D.competitors || !D.competitors.length) {
+    root.innerHTML = '<div class="card"><h3>Marketing Deep-Dive' + (segment ? ' · ' + esc(segment) : '') + (countryName ? ' · ' + esc(countryName) : '') + (countryCode ? ' (' + esc(countryCode) + ')' : '') + '</h3>' +
+      '<p style="color:#64748b;font-size:.85rem;line-height:1.6">No competitor data loaded' + (countryName ? ' for <strong>' + esc(countryName) + '</strong>' : '') + '.</p></div>';
+    return;
+  }
+
+  // ─── Render ────────────────────────────────────────────────────────────
+  var h = '<div id="mdd-root">';
+  h += '<h2 style="margin-bottom:12px">Marketing Deep-Dive' + (segment ? ' · ' + esc(segment) : '') + (countryName ? ' · ' + esc(countryName) : '') + '</h2>';
+
+  // Intro
+  h += '<p class="sec-summary" style="margin-bottom:24px">Marketing intelligence across <b>' + D.totalCompetitors + ' top competitors</b>' + (marketplace ? ' on <b>' + esc(marketplace) + '</b>' : '') + '. Listings pulled from SP-API Catalog. Claims tagged across themes and cross-referenced with VOC findings from the Reviews tab.</p>';
+
+  // 1. Competitor Overview Grid
+  h += '<div class="mdd-section">';
+  h += '<div class="mdd-sec-header"><div class="mdd-sec-title">1. Competitor Overview · Top ' + D.totalCompetitors + ' by 30d Revenue</div><div class="mdd-sec-sub">Click a card to see full bullets, claims, and image stack</div></div>';
+  h += '<div class="mdd-explainer">Each card is one competitor listing pulled from <b>Amazon SP-API Catalog</b>. Brand, title, hero image, price, rating, BSR and 30-day sales/revenue come from the X-Ray export. The <b>theme tags</b> on each card show which marketing claims the listing makes (regex-matched against title + bullets + description in the local language).</div>';
+  h += '<div class="mdd-comp-grid">';
+  D.competitors.forEach(function(c, idx) {
+    h += '<div class="mdd-comp-card" data-idx="' + idx + '">';
+    h += '  <div class="mdd-comp-img">' + (c.mainImage ? '<img src="' + esc(c.mainImage) + '" alt="">' : '<span style="color:#cbd5e1;font-size:.7rem">no image</span>') + '</div>';
+    h += '  <div class="mdd-comp-brand">' + esc(c.brand) + '</div>';
+    h += '  <div class="mdd-comp-title">' + esc(c.title) + '</div>';
+    h += '  <div class="mdd-comp-themes">';
+    (c.themes || []).forEach(function(t) {
+      h += '<span class="mdd-theme-pill">' + esc(String(t).replace(/_/g, ' ')) + '</span>';
+    });
+    h += '  </div>';
+    h += '  <div class="mdd-comp-meta">';
+    h += '    <span><b>' + mfmt(c.price) + '</b> price</span>';
+    h += '    <span><b>★' + (+(c.rating || 0)).toFixed(1) + '</b> · ' + (+(c.reviews || 0)).toLocaleString() + '</span>';
+    h += '    <span><b>' + mfmt(c.rev30d) + '</b> 30d rev</span>';
+    h += '  </div>';
+    h += '</div>';
+  });
+  h += '</div></div>';
+
+  // 2. Claims Matrix
+  if (D.claimsMatrix && D.claimsMatrix.themes && D.claimsMatrix.rows) {
+    var cm = D.claimsMatrix;
+    h += '<div class="mdd-section">';
+    h += '<div class="mdd-sec-header"><div class="mdd-sec-title">2. Claims Matrix</div><div class="mdd-sec-sub">Rows = competitors, columns = claim themes. Filled = theme present in title/bullets.</div></div>';
+    h += '<div class="mdd-explainer"><b>Heatmap:</b> a filled cell means the competitor explicitly claims that theme in their listing copy. Below the matrix, the bars rank themes by <b>adoption rate</b> across all ' + D.totalCompetitors + ' competitors. <b>~100% bars</b> = saturated table-stakes (everybody says it). <b>Short bars</b> = whitespace candidates (few competitors are claiming it — see Section 4).</div>';
+    h += '<div class="mdd-matrix-wrap"><table class="mdd-matrix">';
+    h += '<thead><tr><th class="mdd-row-h">Brand · ASIN</th>';
+    cm.themes.forEach(function(t) { h += '<th>' + esc(t.label) + '</th>'; });
+    h += '</tr></thead><tbody>';
+    cm.rows.forEach(function(r) {
+      h += '<tr><td class="mdd-row-h">' + esc(r.brand) + '<br><span style="font-weight:400;color:#94a3b8;font-size:.62rem">' + esc(r.asin) + '</span></td>';
+      r.cells.forEach(function(cell) {
+        h += '<td data-val="' + (cell ? 1 : 0) + '">' + (cell ? '<span class="mdd-cell-yes"></span>' : '<span class="mdd-cell-no"></span>') + '</td>';
+      });
+      h += '</tr>';
+    });
+    h += '</tbody></table></div>';
+
+    // Claims summary bars
+    if (D.claimsSummary) {
+      h += '<div style="margin-top:20px"><div class="mdd-sec-sub" style="margin-bottom:8px">Claim frequency across all ' + D.totalCompetitors + ' listings</div>';
+      var sortedClaims = D.claimsSummary.slice().sort(function(a,b) { return (+b.count||0) - (+a.count||0); });
+      sortedClaims.forEach(function(s) {
+        h += '<div class="mdd-bar-row">';
+        h += '  <div style="font-weight:600;color:#1e293b">' + esc(s.label) + '</div>';
+        h += '  <div class="mdd-bar-track"><div class="mdd-bar-fill" style="width:' + s.pct + '%"></div></div>';
+        h += '  <div style="text-align:right;color:#475569"><b>' + s.count + '</b> · ' + s.pct + '%</div>';
+        h += '</div>';
+        h += '<div class="mdd-brands">Top brands: ' + (s.topBrands || []).map(esc).join(' · ') + '</div>';
+      });
+      h += '</div>';
+    }
+    h += '</div>';
+  }
+
+  // 3. VOC ↔ Claims Gap Analysis
+  if (D.vocGap && D.vocGap.length) {
+    h += '<div class="mdd-section">';
+    h += '<div class="mdd-sec-header"><div class="mdd-sec-title">3. VOC ↔ Claims Gap Analysis</div><div class="mdd-sec-sub">Customer concerns from the Reviews tab vs how many of the ' + D.totalCompetitors + ' competitors address them</div></div>';
+    h += '<div class="mdd-explainer">Cross-references the <b>Reviews VOC tab\'s top complaints</b> with what competitors claim in their listings.<br>· <b>VOC Topic</b> = a complaint theme from your Reviews analysis. · <b>Customer %</b> = share of negative reviews mentioning it. · <b>Addressed by</b> = how many of the ' + D.totalCompetitors + ' competitors make a listing claim that maps to this complaint. · <b>Severity</b>: <span class="mdd-sev mdd-sev-HIGH">HIGH</span> = ≥20% concern AND ≤1 competitor addresses · <span class="mdd-sev mdd-sev-MEDIUM">MED</span> = ≥10% AND ≤2 · <span class="mdd-sev mdd-sev-LOW">LOW</span> = otherwise. · <b>Whitespace</b> = <code>true</code> when zero competitors address it (the strongest signal).<br><b>How to act:</b> hunt for HIGH/MED rows or any row with high % + low addressed-by — those are listing differentiation plays.</div>';
+    h += '<table class="mdd-gap"><thead><tr>';
+    h += '<th>VOC Topic</th><th>Customer %</th><th>Addressed by</th><th>Severity</th><th>Whitespace</th>';
+    h += '</tr></thead><tbody>';
+    D.vocGap.forEach(function(g) {
+      h += '<tr>';
+      h += '<td><b>' + esc(g.vocTopic) + '</b></td>';
+      h += '<td data-val="' + parseFloat(g.customerConcernPct) + '"><b>' + esc(g.customerConcernPct) + '</b></td>';
+      h += '<td data-val="' + (+g.addressedByCount || 0) + '"><b>' + g.addressedByCount + ' / ' + D.totalCompetitors + '</b><br><span style="font-size:.66rem;color:#64748b">' + (g.addressedByBrands || []).map(esc).join(', ') + '</span></td>';
+      h += '<td><span class="mdd-sev mdd-sev-' + g.gapSeverity + '">' + g.gapSeverity + '</span></td>';
+      h += '<td>' + esc(g.whitespace) + '</td>';
+      h += '</tr>';
+    });
+    h += '</tbody></table></div>';
+  }
+
+  // 4. Whitespace + Saturation
+  if (D.whitespaceOpportunities && D.whitespaceOpportunities.length) {
+    h += '<div class="mdd-section">';
+    h += '<div class="mdd-sec-header"><div class="mdd-sec-title">4. Whitespace Opportunities</div><div class="mdd-sec-sub">High customer demand × low competitor coverage</div></div>';
+    h += '<div class="mdd-explainer">Themes claimed by <b>≤25% of competitors</b> — empty marketing real estate. Picking one of these and leading with it in your hero bullet or A+ content gives you a claim that buyers don\'t see elsewhere on the search results page. The brands listed under each card are the only ones currently making the claim.</div>';
+    h += '<div class="mdd-ws-grid">';
+    D.whitespaceOpportunities.forEach(function(w) {
+      h += '<div class="mdd-ws-card">';
+      h += '  <h4>' + esc(w.opportunity) + '</h4>';
+      h += '  <div class="mdd-ws-rationale">' + esc(w.rationale) + '</div>';
+      h += '  <div class="mdd-ws-evidence">' + esc(w.evidence) + '</div>';
+      h += '</div>';
+    });
+    h += '</div></div>';
+  }
+  if (D.saturation && D.saturation.length) {
+    h += '<div class="mdd-section">';
+    h += '<div class="mdd-sec-header"><div class="mdd-sec-title">Saturated Claims · Diminishing Returns</div><div class="mdd-sec-sub">Most-used claims where adding the same message no longer differentiates</div></div>';
+    h += '<div class="mdd-explainer">Themes claimed by <b>≥60% of competitors</b> — table-stakes. You still need to claim them (buyers expect them), but adding them won\'t move the needle. Treat as <b>parity bullets</b>, not hero bullets, and spend your differentiation budget on Whitespace items above.</div>';
+    h += '<div class="mdd-ws-grid">';
+    D.saturation.forEach(function(s) {
+      h += '<div class="mdd-ws-card">';
+      h += '  <h4>' + esc(s.label) + ' <span style="float:right;color:#dc2626;font-size:.78rem">' + s.saturationPct + '</span></h4>';
+      h += '  <div class="mdd-ws-rationale">' + esc(s.advice) + '</div>';
+      h += '</div>';
+    });
+    h += '</div></div>';
+  }
+
+  // 5. Strategic Recommendations
+  if (D.strategicRecommendations && D.strategicRecommendations.length) {
+    h += '<div class="mdd-section">';
+    h += '<div class="mdd-sec-header"><div class="mdd-sec-title">5. Strategic Recommendations</div><div class="mdd-sec-sub">Synthesized findings + actionable implications</div></div>';
+    h += '<div class="mdd-explainer">Auto-derived from the highest-severity <b>VOC gaps</b> and biggest <b>whitespace</b> opportunities above. Each card pairs a finding (what the data shows) with an implication (what to do about it in your listing). Use these as a starting point for listing rewrites and A+ content priorities.</div>';
+    h += '<div class="mdd-insight-grid">';
+    D.strategicRecommendations.forEach(function(r) {
+      h += '<div class="mdd-insight-card">';
+      h += '  <span class="mdd-insight-badge" style="background:' + esc(r.badgeBg) + ';color:' + esc(r.badgeColor) + '">' + esc(r.type) + '</span>';
+      h += '  <h4>' + esc(r.finding) + '</h4>';
+      h += '  <p><b>→</b> ' + esc(r.implication) + '</p>';
+      h += '</div>';
+    });
+    h += '</div></div>';
+  }
+
+  // Modal
+  h += '<div id="u-mdd-modal" class="u-mdd-modal"><div class="u-mdd-modal-body"><span class="u-mdd-modal-close">×</span><div id="u-mdd-modal-content"></div></div></div>';
+  h += '</div>'; // end #mdd-root
+
+  // Inline modal styling — keeps the modal self-contained even if the dashboard
+  // shell didn't bring its own #mdd-modal CSS (e.g. for hub-iframe contexts).
+  h += '<style>' +
+       '#u-mdd-modal { display:none; position:fixed; inset:0; background:rgba(15,42,66,.7); z-index:1000; align-items:flex-start; justify-content:center; padding:40px 20px; overflow-y:auto; }' +
+       '#u-mdd-modal.open { display:flex; }' +
+       '#u-mdd-modal .u-mdd-modal-body { background:#fff; max-width:1000px; width:100%; border-radius:10px; padding:24px; max-height:calc(100vh - 80px); overflow-y:auto; }' +
+       '#u-mdd-modal .u-mdd-modal-close { float:right; cursor:pointer; font-size:1.4rem; color:#64748b; line-height:1; padding:4px 8px; }' +
+       '#u-mdd-modal .u-mdd-modal-close:hover { color:#0f172a; }' +
+       '#u-mdd-modal .u-mdd-modal-imgs { display:grid; grid-template-columns:repeat(auto-fill,minmax(120px,1fr)); gap:10px; margin:16px 0; }' +
+       '#u-mdd-modal .u-mdd-modal-imgs img { width:100%; aspect-ratio:1; object-fit:contain; background:#f8fafc; border-radius:6px; border:1px solid #e2e8f0; }' +
+       '#u-mdd-modal .u-mdd-bullets { list-style:none; padding:0; margin:0; }' +
+       '#u-mdd-modal .u-mdd-bullets li { padding:8px 12px; background:#f8fafc; border-left:3px solid #3b82f6; margin-bottom:6px; font-size:.78rem; line-height:1.5; color:#1e293b; border-radius:0 6px 6px 0; }' +
+       '</style>';
+
+  root.innerHTML = h;
+
+  // ─── Card click → modal ────────────────────────────────────────────────
+  var modal = document.getElementById('u-mdd-modal');
+  var modalContent = document.getElementById('u-mdd-modal-content');
+  root.querySelectorAll('.mdd-comp-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      var c = D.competitors[parseInt(card.dataset.idx, 10)];
+      var m = '';
+      m += '<div style="font-size:.72rem;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px">' + esc(c.brand) + ' · ' + esc(c.asin) + '</div>';
+      m += '<h2 style="margin:0 0 12px;font-size:1.1rem;color:#0f172a;line-height:1.4">' + esc(c.title) + '</h2>';
+      m += '<div style="display:flex;gap:14px;font-size:.78rem;color:#475569;flex-wrap:wrap;margin-bottom:14px">';
+      m += '  <span><b>' + mfmt(c.price) + '</b> price</span>';
+      m += '  <span>★ <b>' + (+(c.rating || 0)).toFixed(1) + '</b> (' + (+(c.reviews || 0)).toLocaleString() + ' reviews)</span>';
+      m += '  <span>BSR <b>' + (c.bsr ? (+c.bsr).toLocaleString() : '·') + '</b></span>';
+      m += '  <span><b>' + mfmt(c.rev30d) + '</b> 30d revenue</span>';
+      m += '</div>';
+      m += '<div style="margin-bottom:14px">';
+      (c.themes || []).forEach(function(t) { m += '<span class="mdd-theme-pill" style="margin-right:4px">' + esc(String(t).replace(/_/g, ' ')) + '</span>'; });
+      m += '</div>';
+      if (c.images && c.images.length) {
+        m += '<div class="u-mdd-modal-imgs">';
+        c.images.forEach(function(u) { m += '<img src="' + esc(u) + '" alt="">'; });
+        m += '</div>';
+      }
+      m += '<h3 style="font-size:.82rem;color:#0f172a;margin:18px 0 8px">Bullet Points</h3>';
+      if (c.bullets && c.bullets.length) {
+        m += '<ul class="u-mdd-bullets">';
+        c.bullets.forEach(function(b) { m += '<li>' + esc(b) + '</li>'; });
+        m += '</ul>';
+      } else {
+        m += '<p style="font-size:.74rem;color:#94a3b8">No bullets available</p>';
+      }
+      if (c.description) {
+        m += '<h3 style="font-size:.82rem;color:#0f172a;margin:18px 0 8px">Description</h3>';
+        m += '<p style="font-size:.76rem;color:#475569;line-height:1.55;white-space:pre-wrap">' + esc(c.description) + '</p>';
+      }
+      modalContent.innerHTML = m;
+      modal.classList.add('open');
+    });
+  });
+  modal.querySelector('.u-mdd-modal-close').addEventListener('click', function() { modal.classList.remove('open'); });
+  modal.addEventListener('click', function(e) { if (e.target === modal) modal.classList.remove('open'); });
+
+  // ─── Polish ────────────────────────────────────────────────────────────
+  makeAllTablesSortable();
+})();
+</script>

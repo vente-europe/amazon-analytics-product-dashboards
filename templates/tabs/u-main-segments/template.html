@@ -1,0 +1,394 @@
+<!-- u-main-segments tab template
+==============================================================================
+Tom's standalone-composition tab — ported from eu-wasp-analysis renderMainSegments().
+Inline this template into a per-dashboard standalone index.html via your
+_build_standalone.py. The caller sets window._TAB_DATA to a single object
+(already scoped to one country/market) BEFORE this template's <script> runs.
+
+DATA CONTRACT — window._TAB_DATA shape:
+{
+  // ── Identity (used in headings/notes) ─────────────────────────────────
+  countryName: "Germany",          // string — displayed in titles
+  countryCode: "DE",               // string — used to build amazon.{tld} links
+                                   //          UK → "co.uk", else lowercased
+  currency: "€",                   // string — e.g. "€", "$", "£"
+
+  // ── Catalog of segments (drives column order & color lookup) ──────────
+  segments: ["Lure", "Electric"],  // string[] — canonical segment names in
+                                   //            display order
+  segmentColors: {                 // name → hex; used by KPI cards + pies
+    "Lure":     "#16a34a",
+    "Electric": "#dc2626"
+  },
+  brandPalette: [                  // string[] — position-based brand colors
+    "#2563eb","#dc2626","#16a34a","#f59e0b",
+    "#8b5cf6","#0891b2","#db2777","#65a30d"
+  ],
+
+  // ── Total Market roll-up ──────────────────────────────────────────────
+  totalUnits: 1234567,             // number — 12M units across all segments
+  totalRevenue: 12345678,          // number — 12M revenue across all segments
+
+  // ── Per-segment summary (one entry per segment, any order) ────────────
+  segments_data: [                 // re-ordered to match `segments` at render
+    {
+      name: "Lure",
+      units: 800000,               // number — 12M units in this segment
+      revenue: 6000000              // number — 12M revenue in this segment
+      // NOTE: brandsByUnits / brandsByRevenue (top-8 + "Other") are no longer
+      // consumed by this template — the per-segment Brand-Share pies moved to
+      // u-segments-market-structure. The caller may still set them here
+      // harmlessly; they are ignored.
+    },
+    …
+  ],
+
+  // ── LEGACY — NOT consumed by this template ────────────────────────────
+  // The Market Structure detail (Brand Summary tables, Top-20 ASIN tables,
+  // per-segment Brand-Share pies, HHI / top-N concentration KPIs, monthly
+  // brand-share line charts) was moved to the dedicated tab template
+  // `u-segments-market-structure/template.html`.
+  //
+  // Build scripts that populate both tabs from a single _TAB_DATA blob may
+  // still emit these keys here harmlessly — this template ignores them.
+  marketStructure: { /* used by u-segments-market-structure, ignored here */ },
+  brandMonthlyShareBySegment: { /* used by u-segments-market-structure, ignored here */ },
+
+  // ── Seasonality (optional — drives bar chart + methodology panel) ─────
+  seasonality: {
+    asinCount: 8,                  // ASINs with sales history
+    startDate: "2025-04-01",       // window covered by curve
+    endDate:   "2026-03-31",
+    monthLabels: ["Apr","May","Jun","Jul",…,"Mar"],
+    months: [0.4, 0.7, 1.4, 2.1, …],  // 12 numbers — 1.0 = avg month
+    peakMonth: "Jul", peakIdx: 2.1,
+    troughMonth: "Jan", troughIdx: 0.2
+  },
+  projectionCounts: {              // breakdown of ASIN-projection methods
+    history: 8, seasonality: 79, flat: 0
+  },
+  xrayExportDate:  "2026-04-29",   // ISO date the X-Ray window ended
+  xrayWindowStart: "2026-03-31",   // ISO date 30 days before exportDate
+  xrayWindowIndex: 0.38            // average seasonality index over the window
+}
+============================================================================== -->
+<div id="u-main-segments-root"></div>
+
+<script>
+(function(){
+  var D = window._TAB_DATA;
+  var root = document.getElementById('u-main-segments-root');
+  if (!D) { root.innerHTML = '<div class="card"><p style="color:#64748b;font-size:.85rem">No data loaded for this tab.</p></div>'; return; }
+
+  // ─── inline helpers (self-contained) ───────────────────────────────────
+  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function fmtInt(n) { return Math.round(+n || 0).toLocaleString('en-US'); }
+  function fmtMoney(n) { return D.currency + Math.round(+n || 0).toLocaleString('en-US'); }
+  function fmtShort(n) {
+    n = Math.round(+n || 0);
+    if (n >= 1e6) return (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (n >= 1e3) return (n / 1e3).toFixed(0) + 'K';
+    return String(n);
+  }
+  function fmtMoneyShort(n) {
+    n = Math.round(+n || 0);
+    if (n >= 1e6) return D.currency + (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (n >= 1e3) return D.currency + (n / 1e3).toFixed(0) + 'K';
+    return D.currency + n;
+  }
+  function pct(v, t) { return (t > 0) ? ((v / t) * 100).toFixed(1) + '%' : '0%'; }
+
+  // Position-based brand palette · "Other (N)" → grey ─────────────────
+  var BRAND_PALETTE = D.brandPalette || ['#2563eb','#dc2626','#16a34a','#f59e0b','#8b5cf6','#0891b2','#db2777','#65a30d'];
+  function brandColor(name, i) {
+    if (typeof name === 'string' && name.indexOf('Other (') === 0) return '#94a3b8';
+    return BRAND_PALETTE[i % BRAND_PALETTE.length];
+  }
+
+  // ─── Sortable tables (every column, every table inside root) ───────────
+  function parseSortValue(td) {
+    if (td.dataset && td.dataset.val != null && td.dataset.val !== '') {
+      var n = parseFloat(td.dataset.val);
+      if (!isNaN(n)) return n;
+    }
+    var txt = (td.textContent || '').trim();
+    var cleaned = txt.replace(/[\s, €$£%]/g, '').replace(/·/g, '');
+    if (cleaned !== '' && !isNaN(parseFloat(cleaned))) return parseFloat(cleaned);
+    return txt.toLowerCase();
+  }
+  function sortTableByColumn(table, colIdx, dir) {
+    var tbody = table.tBodies[0]; if (!tbody) return;
+    var rows = Array.prototype.slice.call(tbody.rows);
+    rows.sort(function(a, b) {
+      var va = parseSortValue(a.cells[colIdx]);
+      var vb = parseSortValue(b.cells[colIdx]);
+      if (va < vb) return dir === 'asc' ? -1 : 1;
+      if (va > vb) return dir === 'asc' ? 1 : -1;
+      return 0;
+    });
+    rows.forEach(function(r) { tbody.appendChild(r); });
+  }
+  function makeAllTablesSortable() {
+    var tables = root.querySelectorAll('table');
+    tables.forEach(function(table) {
+      var ths = table.tHead ? table.tHead.rows[0].cells : table.rows[0].cells;
+      Array.prototype.forEach.call(ths, function(th, idx) {
+        if (th.dataset.sortable === '1') return;
+        th.dataset.sortable = '1';
+        th.style.cursor = 'pointer';
+        th.style.userSelect = 'none';
+        th.dataset.sortDir = '';
+        var arrow = document.createElement('span');
+        arrow.className = 'sort-arrow';
+        arrow.style.cssText = 'margin-left:6px;opacity:.6;font-size:1.5em;color:#0f172a;vertical-align:middle;line-height:1';
+        arrow.textContent = '▴▾';
+        th.appendChild(arrow);
+        th.addEventListener('click', function() {
+          var dir = th.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+          Array.prototype.forEach.call(ths, function(other) {
+            other.dataset.sortDir = '';
+            var a = other.querySelector('.sort-arrow');
+            if (a) { a.textContent = '▴▾'; a.style.opacity = '.6'; }
+          });
+          th.dataset.sortDir = dir;
+          arrow.textContent = dir === 'asc' ? '▴' : '▾';
+          arrow.style.opacity = '1';
+          sortTableByColumn(table, idx, dir);
+        });
+      });
+    });
+  }
+
+  // ─── Local chart bin (so we don't leak Chart instances on re-render) ───
+  var _charts = [];
+
+  // Pie helper · legend SORTED BY VALUE DESC, "Other (…)" pinned last ────
+  function pie(canvasId, labels, data, colors, moneyFmt) {
+    var el = document.getElementById(canvasId);
+    if (!el) return;
+    // Sort labels/data/colors in parallel by data desc, with Other(...) pinned last
+    var idx = labels.map(function(_, i){ return i; });
+    idx.sort(function(a, b){
+      var la = labels[a], lb = labels[b];
+      var oa = typeof la === 'string' && la.indexOf('Other (') === 0;
+      var ob = typeof lb === 'string' && lb.indexOf('Other (') === 0;
+      if (oa && !ob) return 1;
+      if (ob && !oa) return -1;
+      return (+data[b] || 0) - (+data[a] || 0);
+    });
+    var sLabels = idx.map(function(i){ return labels[i]; });
+    var sData   = idx.map(function(i){ return data[i]; });
+    var sColors = idx.map(function(i){ return colors[i]; });
+
+    var total = sData.reduce(function(a,b){return a+(+b||0);}, 0);
+    try {
+      var ctx = el.getContext('2d');
+      var capturedLabels = sLabels.slice();
+      var capturedData = sData.slice();
+      var capturedColors = sColors.slice();
+      var chart = new Chart(ctx, {
+        type: 'pie',
+        data: { labels: sLabels, datasets: [{ data: sData, backgroundColor: sColors, borderWidth: 2, borderColor: '#fff' }] },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              position: 'right',
+              labels: {
+                boxWidth: 12, padding: 6, font: { size: 11 },
+                generateLabels: function() {
+                  return capturedLabels.map(function(lbl, i) {
+                    var v = capturedData[i];
+                    var p = total > 0 ? (v/total*100).toFixed(1) : '0.0';
+                    var valStr = moneyFmt ? fmtMoneyShort(v) : fmtInt(v);
+                    return {
+                      text: lbl + ' · ' + valStr + ' (' + p + '%)',
+                      fillStyle: capturedColors[i],
+                      strokeStyle: capturedColors[i],
+                      lineWidth: 0, hidden: false, index: i
+                    };
+                  });
+                }
+              }
+            },
+            tooltip: { callbacks: { label: function(c) {
+              var v = c.parsed; var p = total > 0 ? (v/total*100).toFixed(1) : '0';
+              return c.label + ': ' + (moneyFmt ? fmtMoneyShort(v) : fmtInt(v)) + ' (' + p + '%)';
+            } } },
+            datalabels: {
+              color: '#fff', font: { size: 11, weight: 'bold' },
+              formatter: function(v) { var p = total > 0 ? (v/total*100) : 0; return p >= 5 ? p.toFixed(0) + '%' : ''; }
+            }
+          }
+        },
+        plugins: window.ChartDataLabels ? [ChartDataLabels] : []
+      });
+      _charts.push(chart);
+    } catch(e) {
+      console.error('pie() failed for', canvasId, e);
+      if (el && el.parentNode) {
+        el.parentNode.innerHTML = '<div style="padding:20px;color:#dc2626;font-size:.8rem">Chart error: ' + (e && e.message || e) + '</div>';
+      }
+    }
+  }
+
+  // ─── Render ────────────────────────────────────────────────────────────
+  var SEG_NAMES = D.segments || (D.segments_data || []).map(function(s){ return s.name; });
+  var SEG_COLORS = D.segmentColors || {};
+  var segs = D.segments_data || [];
+  var segMap = {};
+  segs.forEach(function(s){ segMap[s.name] = s; });
+  var segsOrdered = SEG_NAMES.map(function(name){
+    return segMap[name] || { name: name, units: 0, revenue: 0, brandsByUnits: [], brandsByRevenue: [] };
+  });
+  var totalUnits = D.totalUnits || 0;
+  var totalRev   = D.totalRevenue || 0;
+  var nSeg = segsOrdered.length;
+  var countryName = D.countryName || '';
+  var countryCode = D.countryCode || '';
+  var amazonDom = (countryCode === 'UK') ? 'co.uk' : (countryCode || '').toLowerCase();
+
+  var html = '';
+  html += '<h2>Main Segments · Total Market (12M)' + (countryName ? ' · ' + esc(countryName) : '') + '</h2>';
+
+  // Total Category KPI strip
+  html += '<div class="card" style="border-left:4px solid #1e293b;padding:14px 20px;display:flex;align-items:center;gap:36px;flex-wrap:wrap">';
+  html += '  <div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#64748b;min-width:120px">Total Category</div>';
+  html += '  <div><div style="font-size:1.6rem;font-weight:700;color:#1e293b;line-height:1">' + fmtMoneyShort(totalRev) + '</div><div style="font-size:.75rem;color:#64748b;margin-top:3px">Revenue · Last 12M (projected)</div></div>';
+  html += '  <div><div style="font-size:1.6rem;font-weight:700;color:#1e293b;line-height:1">' + fmtInt(totalUnits) + '</div><div style="font-size:.75rem;color:#64748b;margin-top:3px">Units Sold · Last 12M</div></div>';
+  html += '</div>';
+
+  // Per-segment KPI cards
+  html += '<div style="display:grid;grid-template-columns:repeat(' + nSeg + ',1fr);gap:14px;margin-bottom:14px;margin-top:14px">';
+  segsOrdered.forEach(function(seg) {
+    var color = SEG_COLORS[seg.name] || '#64748b';
+    html += '<div class="card" style="border-left:4px solid ' + color + ';padding:14px 16px;margin-bottom:0">';
+    html += '  <div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:' + color + ';margin-bottom:10px">' + esc(seg.name) + '</div>';
+    html += '  <div style="display:grid;grid-template-columns:1fr 1fr;gap:7px">';
+    html += '    <div class="kpi" style="box-shadow:none;background:#f8fafc;padding:8px 10px"><div class="kpi-v" style="font-size:.95rem">' + fmtShort(seg.units) + '</div><div class="kpi-l">Units sold (12M)</div></div>';
+    html += '    <div class="kpi" style="box-shadow:none;background:#f8fafc;padding:8px 10px"><div class="kpi-v" style="font-size:.95rem">' + fmtMoneyShort(seg.revenue) + '</div><div class="kpi-l">Segment Value (12M)</div></div>';
+    html += '  </div></div>';
+  });
+  html += '</div>';
+
+  // Insight: leader by units / revenue + avg price per segment
+  var unitLeader = segsOrdered.slice().sort(function(a,b){ return b.units - a.units; })[0] || {name:'', units:0};
+  var revLeader  = segsOrdered.slice().sort(function(a,b){ return b.revenue - a.revenue; })[0] || {name:'', revenue:0};
+  var avgPriceParts = segsOrdered.map(function(s){
+    var avg = s.units > 0 ? s.revenue / s.units : 0;
+    return esc(s.name) + ': <strong>' + D.currency + avg.toFixed(2) + '</strong>';
+  }).join(' · ');
+  html += '<div class="insight">';
+  html += 'Unit leader: <strong>' + esc(unitLeader.name) + '</strong> (' + pct(unitLeader.units, totalUnits) + '). ';
+  html += 'Revenue leader: <strong>' + esc(revLeader.name) + '</strong> (' + pct(revLeader.revenue, totalRev) + '). ';
+  html += 'Avg price · ' + avgPriceParts + '.';
+  html += '</div>';
+
+  // Revenue / Units pies
+  var pieLabels = segsOrdered.map(function(s){ return s.name; });
+  var pieRev    = segsOrdered.map(function(s){ return s.revenue; });
+  var pieUnits  = segsOrdered.map(function(s){ return s.units; });
+  var pieColors = segsOrdered.map(function(s){ return SEG_COLORS[s.name] || '#64748b'; });
+  var revNote   = segsOrdered.map(function(s){ return esc(s.name) + ' ' + fmtMoneyShort(s.revenue) + ' (' + pct(s.revenue, totalRev) + ')'; }).join(' · ');
+  var unitsNote = segsOrdered.map(function(s){ return esc(s.name) + ' ' + fmtInt(s.units) + ' units (' + pct(s.units, totalUnits) + ')'; }).join(' · ');
+  html += '<div class="g2" style="align-items:start">';
+  html += '  <div class="card"><h3>Revenue by Segment (12M)</h3><div class="cw" style="height:280px"><canvas id="ums-focusRevPie"></canvas></div><div class="note">' + revNote + '. Revenue = 12M units × listed ASIN price.</div></div>';
+  html += '  <div class="card"><h3>Units by Segment (12M)</h3><div class="cw" style="height:280px"><canvas id="ums-focusUnitsPie"></canvas></div><div class="note">' + unitsNote + '.</div></div>';
+  html += '</div>';
+
+  // Segment summary table
+  html += '<div class="card"><h3>Segment Summary (12M)</h3><div class="tbl-wrap"><table class="num-right">';
+  html += '<thead><tr><th style="text-align:left">Segment</th><th>Units (12M)</th><th>Revenue (12M)</th><th>Unit Share</th><th>Rev Share</th></tr></thead><tbody>';
+  segsOrdered.forEach(function(seg) {
+    var color = SEG_COLORS[seg.name] || '#64748b';
+    html += '<tr><td style="text-align:left"><span class="badge" style="background:' + color + '22;color:' + color + '">' + esc(seg.name) + '</span></td>';
+    html += '<td data-val="' + (+seg.units || 0) + '">' + fmtInt(seg.units) + '</td><td data-val="' + (+seg.revenue || 0) + '">' + fmtMoney(seg.revenue) + '</td>';
+    html += '<td data-val="' + (totalUnits > 0 ? seg.units / totalUnits * 100 : 0) + '">' + pct(seg.units, totalUnits) + '</td>';
+    html += '<td data-val="' + (totalRev > 0 ? seg.revenue / totalRev * 100 : 0) + '">' + pct(seg.revenue, totalRev) + '</td></tr>';
+  });
+  html += '</tbody></table></div><div class="note">Revenue = 12M units × listed ASIN price. Units use sales-history when available, otherwise the H10 X-Ray 30-day snapshot is corrected by the seasonality index for the export-window months and projected to 12 months.</div></div>';
+
+  // ── Total Market Seasonality ──
+  var season = D.seasonality;
+  if (season && season.months && season.months.length === 12) {
+    var peakRatio = (season.troughIdx > 0) ? (season.peakIdx / season.troughIdx).toFixed(2) : '·';
+    var pc        = D.projectionCounts || {};
+    var xrayIdx   = D.xrayWindowIndex;
+    var xrayMult  = (xrayIdx && xrayIdx > 0) ? (12 / xrayIdx).toFixed(1) : null;
+    var xrayWindowText = (D.xrayWindowStart || '') + ' → ' + (D.xrayExportDate || '');
+
+    html += '<h2 style="margin-top:28px;margin-bottom:6px">Total Market Seasonality (12M, 1.0 = average month)</h2>';
+    html += '<p style="margin:0 0 14px;color:#64748b;font-size:.78rem;line-height:1.5">' + (countryName ? '<b>This ' + esc(countryName) + ' market only</b> (not combined with other marketplaces). Each country has its own seasonality curve computed from its own sales-data files. ' : '') + '<b>Inputs:</b> ' + season.asinCount + ' top-selling' + (countryName ? ' ' + esc(countryName) : '') + ' ASINs with daily sales history (≈365 daily data points per ASIN within the window). <b>Logic:</b> sum each ASIN’s daily units, bin into calendar months, then each month’s total ÷ 12-month mean = the index shown below. Window: ' + esc(season.startDate) + ' to ' + esc(season.endDate) + '.</p>';
+    html += '<div class="kpis" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-bottom:12px">';
+    html += '  <div class="kpi"><div class="kpi-v" style="color:#15803d">' + esc(season.peakMonth) + ' (' + (+season.peakIdx).toFixed(2) + ')</div><div class="kpi-l">Peak Month</div></div>';
+    html += '  <div class="kpi"><div class="kpi-v" style="color:#dc2626">' + esc(season.troughMonth) + ' (' + (+season.troughIdx).toFixed(2) + ')</div><div class="kpi-l">Trough Month</div></div>';
+    html += '  <div class="kpi"><div class="kpi-v">' + (+season.peakIdx).toFixed(2) + 'x</div><div class="kpi-l">Peak / Avg (Best Month)</div></div>';
+    html += '  <div class="kpi"><div class="kpi-v">' + peakRatio + 'x</div><div class="kpi-l">Peak / Trough Ratio</div></div>';
+    html += '</div>';
+    html += '<div class="card"><h3>' + (countryName ? esc(countryName) + ' · ' : '') + 'Monthly Seasonality Index</h3><div class="cw" style="height:280px"><canvas id="ums-seasonalityChart"></canvas></div><div class="note">Index = each month’s total units ÷ 12-month mean. <b>1.0</b> = average month; <b>2.0</b> = double; <b>0.1</b> = 10% of average.</div></div>';
+
+    html += '<div class="card" style="margin-top:10px;background:#f8fafc;border-left:4px solid #2563eb">';
+    html += '<h3 style="margin-top:0">How this curve drives 12-month projections for every ASIN</h3>';
+    html += '<p style="margin:0 0 10px;font-size:.82rem;line-height:1.55;color:#334155">';
+    html += 'The X-Ray export captures only a <b>30-day snapshot</b>. Because seasonal categories swing widely, multiplying that 30-day figure by 12 (naive flat projection) <b>under-estimates</b> annual sales when the export window falls outside peak season, and <b>over-estimates</b> if the window is in peak season. The chart above is how we correct for this.';
+    html += '</p>';
+    if (xrayIdx && xrayMult) {
+      var xMultNum = (12 / xrayIdx);
+      html += '<div style="margin:10px 0 6px;padding:12px 14px;background:#fff;border:1px solid #e2e8f0;border-radius:8px;font-size:.82rem;line-height:1.6;color:#334155">';
+      html += '<b style="color:#0f172a">3-step flow' + (countryName ? ' for ' + esc(countryName) : '') + ':</b>';
+      html += '<ol style="margin:6px 0 0;padding-left:22px">';
+      html += '  <li><b>Build the curve.</b> The seasonality chart above is computed from <b>' + (pc.history||0) + (countryName ? ' ' + esc(countryName) : '') + ' ASINs</b> that have daily sales history (<code>*-sales-3y.csv</code> files).</li>';
+      html += '  <li><b>Read the index for the X-Ray window.</b> The export covers ' + esc(xrayWindowText) + '. Walking each of those 30 days against the monthly curve gives an average index of <b style="color:#2563eb">' + xrayIdx.toFixed(2) + 'x</b> of a normal month (1.0 = average).</li>';
+      html += '  <li><b>Apply that one index to ALL no-history ASINs.</b> The same <b style="color:#2563eb">' + xrayIdx.toFixed(2) + 'x</b> figure is reused for every one of the <b>' + (pc.seasonality||0) + (countryName ? ' ' + esc(countryName) : '') + ' ASINs without a sales-history file</b>. Their 12M = 30-day X-Ray sales ÷ ' + xrayIdx.toFixed(2) + ' × 12 = <b>30-day × ' + xrayMult + 'x</b>.</li>';
+      html += '</ol>';
+      html += '<div style="margin-top:8px;padding:8px 10px;background:#eff6ff;border-radius:5px;font-size:.78rem">';
+      html += '<b>Worked example:</b> an ASIN with no history selling 100 units in the X-Ray’s 30 days projects to <b>' + Math.round(100 * xMultNum) + ' units / 12M</b>' + (countryName ? ' in ' + esc(countryName) : '') + ' (100 ÷ ' + xrayIdx.toFixed(2) + ' × 12).';
+      html += '</div>';
+      html += '<p style="margin:8px 0 0;font-size:.78rem;color:#64748b">ASINs <i>with</i> their own sales history skip this entirely: their 12M is just the actual trailing 365-day sum, no projection.</p>';
+      html += '</div>';
+
+      html += '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:10px;font-size:.78rem;color:#475569">';
+      html += '  <div><b style="color:#0f172a">X-Ray export window:</b><br>' + esc(xrayWindowText) + '</div>';
+      html += '  <div><b style="color:#0f172a">Window seasonality index:</b><br>' + xrayIdx.toFixed(2) + ' (avg month = 1.0)</div>';
+      html += '  <div><b style="color:#0f172a">30-day to 12M multiplier:</b><br>12 / ' + xrayIdx.toFixed(2) + ' = <b style="color:#2563eb">' + xrayMult + 'x</b></div>';
+      html += '  <div><b style="color:#0f172a">' + (countryName ? esc(countryName) + ' ' : '') + 'ASIN breakdown:</b><br>' + (pc.history||0) + ' real history · ' + (pc.seasonality||0) + ' seasonality · ' + (pc.flat||0) + ' flat</div>';
+      html += '</div>';
+    }
+    html += '</div>';
+  } else {
+    html += '<h2 style="margin-top:28px;margin-bottom:6px">Total Market Seasonality (12M)</h2>';
+    html += '<div class="card"><div class="cw" style="height:220px;display:flex;align-items:center;justify-content:center;background:#f8fafc;border:2px dashed #cbd5e1;border-radius:6px;color:#94a3b8;font-size:.85rem">No sales history available' + (countryName ? ' for ' + esc(countryName) : '') + '. Drop per-ASIN sales CSVs into <code>data/sales-data/' + esc(countryCode || 'XX') + '/</code>.</div></div>';
+  }
+
+  root.innerHTML = html;
+
+  // ─── Charts ────────────────────────────────────────────────────────────
+  if (window.Chart && window.ChartDataLabels) { try { Chart.register(ChartDataLabels); } catch(e){} }
+
+  // Segment pies
+  pie('ums-focusRevPie',   pieLabels, pieRev,   pieColors, true);
+  pie('ums-focusUnitsPie', pieLabels, pieUnits, pieColors, false);
+
+  // Seasonality bar chart
+  if (season && season.months && season.months.length === 12) {
+    var seasCtx = document.getElementById('ums-seasonalityChart');
+    if (seasCtx) {
+      var barColors = season.months.map(function(v) {
+        if (v >= 1.2) return '#16a34a';
+        if (v >= 0.9) return '#2563eb';
+        if (v >= 0.6) return '#f59e0b';
+        return '#dc2626';
+      });
+      var seasChart = new Chart(seasCtx, {
+        type: 'bar',
+        data: { labels: season.monthLabels, datasets: [{ data: season.months, backgroundColor: barColors, borderRadius: 4 }] },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { display: false }, datalabels: { display: false } }, scales: { y: { beginAtZero: true, ticks: { callback: function(v){ return v.toFixed(1) + 'x'; } } } } }
+      });
+      _charts.push(seasChart);
+    }
+  }
+
+  // ─── Polish ────────────────────────────────────────────────────────────
+  makeAllTablesSortable();
+})();
+</script>

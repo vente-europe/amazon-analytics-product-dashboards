@@ -29,10 +29,11 @@
       "file": "index.html"
     },
     {
-      "id": "fruit-fly-trap-us",
-      "title": "Fruit Fly Trap (US)",
+      "id": "fruit-flies-us",
+      "title": "Fruit Flies (US)",
       "group": "detailed",
-      "template": "detailed"
+      "template": "standalone",
+      "file": "index.html"
     },
     {
       "id": "dermo-products",

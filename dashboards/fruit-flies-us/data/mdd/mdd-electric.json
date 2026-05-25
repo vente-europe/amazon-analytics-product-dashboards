@@ -1,0 +1,956 @@
+{
+  "countryName": "United States",
+  "countryCode": "US",
+  "currency": "$",
+  "marketplace": "amazon.com",
+  "segmentName": "Electric Traps",
+  "totalCompetitors": 15,
+  "competitors": [
+    {
+      "asin": "B0CKY689WQ",
+      "brand": "Zevo",
+      "title": "Zevo Flying Insect Trap & 3 Refill Cartridges - Plug in Fly Trap & Indoor Bug Catcher for Gnats, House & Fruit Flies - Blue & UV Light Technology, Mess-Free Alternative to Bug Zapper",
+      "price": 25.96,
+      "rating": 4.3,
+      "reviews": 79275,
+      "bsr": 3,
+      "rev30d": 1909399.2,
+      "rev12m": 22912790.4,
+      "sales30d": 75369,
+      "mainImage": "https://m.media-amazon.com/images/I/81oM9Fx8QaL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81oM9Fx8QaL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "uv_attracts",
+        "indoor_safe",
+        "usb_plug_in",
+        "effective_catch"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B0C3PDTYYX",
+      "brand": "Zevo",
+      "title": "Zevo 2 Flying Insect Traps & 2 Refill Cartridges - Plug in Fly Trap & Indoor Bug Catcher for Gnats, House & Fruit Flies - Blue & UV Light Technology, Mess-Free Alternative to Bug Zapper",
+      "price": 37.47,
+      "rating": 4.4,
+      "reviews": 32670,
+      "bsr": 12,
+      "rev30d": 1373547.03,
+      "rev12m": 16482564.36,
+      "sales30d": 36657,
+      "mainImage": "https://m.media-amazon.com/images/I/81uxQ4MUSlL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81uxQ4MUSlL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "uv_attracts",
+        "indoor_safe",
+        "usb_plug_in",
+        "effective_catch"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B0C3FTCYZL",
+      "brand": "Zevo",
+      "title": "Zevo Flying Insect Trap Official Refill Cartridges - Fits Both Zevo Trap & MAX Indoor Fly Trap - Authentic Trap+Lock Technology to Catch Gnats, House & Fruit Flies (4 Official Refill Cartridges)",
+      "price": 14.97,
+      "rating": 4.8,
+      "reviews": 39910,
+      "bsr": 2,
+      "rev30d": 1296918.63,
+      "rev12m": 15563023.56,
+      "sales30d": 88044,
+      "mainImage": "https://m.media-amazon.com/images/I/81uXJAVhd1L._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81uXJAVhd1L._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "indoor_safe",
+        "effective_catch"
+      ],
+      "claimCount": 2
+    },
+    {
+      "asin": "B0CTQDTF1V",
+      "brand": "Zevo",
+      "title": "Zevo Flying Insect Trap Official Refill Cartridges - Fits Both Zevo Trap & MAX Indoor Fly Trap - Authentic Trap+Lock Technology to Catch Gnats, House & Fruit Flies (6 Official Refill Cartridges)",
+      "price": 21.97,
+      "rating": 4.8,
+      "reviews": 39910,
+      "bsr": 2,
+      "rev30d": 1166300.09,
+      "rev12m": 13995601.08,
+      "sales30d": 54012,
+      "mainImage": "https://m.media-amazon.com/images/I/81+nq0FrOeL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81+nq0FrOeL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "indoor_safe",
+        "effective_catch"
+      ],
+      "claimCount": 2
+    },
+    {
+      "asin": "B07T869RNY",
+      "brand": "Zevo",
+      "title": "Zevo Flying Insect Trap & Cartridge - Plug in Fly Trap & Indoor Bug Catcher for Gnats, House & Fruit Flies - Mess-Free - Use in Any Room - Uses Blue & UV Light (1 Plug in Device & 1 Cartridge)",
+      "price": 17.97,
+      "rating": 4.3,
+      "reviews": 79275,
+      "bsr": 3,
+      "rev30d": 709041.16,
+      "rev12m": 8508493.92,
+      "sales30d": 39232,
+      "mainImage": "https://m.media-amazon.com/images/I/81AnvlATCkL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81AnvlATCkL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "uv_attracts",
+        "indoor_safe",
+        "usb_plug_in",
+        "effective_catch"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B0CKY5N63H",
+      "brand": "Zevo",
+      "title": "Zevo 2 Flying Insect Traps & 4 Refill Cartridges - Plug in Fly Trap & Indoor Bug Catcher for Gnats, House & Fruit Flies - Blue & UV Light Technology, Mess-Free Alternative to Bug Zapper",
+      "price": 45.97,
+      "rating": 4.4,
+      "reviews": 32670,
+      "bsr": 12,
+      "rev30d": 522478.05,
+      "rev12m": 6269736.6,
+      "sales30d": 11751,
+      "mainImage": "https://m.media-amazon.com/images/I/815OU+3uq7L._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/815OU+3uq7L._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "uv_attracts",
+        "indoor_safe",
+        "usb_plug_in",
+        "effective_catch"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B0CSSTGN7X",
+      "brand": "zechuan",
+      "title": "Solar Bug Zapper Outdoor, 4500V Mosquito Zapper Waterproof with Panel Sensor Electric Fly Zapper Rechargeable Mosquito Killer with 10FT Extension Cord, Fly Trap Ideal for Patio, Backyard, Camping",
+      "price": 76.99,
+      "rating": 4.3,
+      "reviews": 976,
+      "bsr": 1206,
+      "rev30d": 504290.16,
+      "rev12m": 6051481.92,
+      "sales30d": 6072,
+      "mainImage": "https://m.media-amazon.com/images/I/71gKCJiw+BL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71gKCJiw+BL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "usb_plug_in",
+        "effective_catch"
+      ],
+      "claimCount": 2
+    },
+    {
+      "asin": "B0CQ8RSTDW",
+      "brand": "Safer Home",
+      "title": "Safer Home Indoor Plug-in Fly Trap - SH502-2SR - Effective Fruit Fly Traps for Indoors, Gnat Traps for House Indoor, 800 Total Sq Ft Protection - 2 Devices + 2 Glue Cards",
+      "price": 30.18,
+      "rating": 4.4,
+      "reviews": 5716,
+      "bsr": 19,
+      "rev30d": 187707.54,
+      "rev12m": 2252490.48,
+      "sales30d": 7324,
+      "mainImage": "https://m.media-amazon.com/images/I/81RI2s+ahLL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81RI2s+ahLL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "indoor_safe",
+        "usb_plug_in",
+        "glue_board",
+        "effective_catch"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B0GJRLN3WS",
+      "brand": "Zevo",
+      "title": "Zevo Compact Flying Insect Trap Kit with Refill Cartridges - Plug-in Indoor Bug Catcher for Gnats, House & Fruit Flies - Blue + UV Light Technology, No Odor, No Mess (1 Plug-in Device + 3 Cartridges)",
+      "price": 23.44,
+      "rating": 4.5,
+      "reviews": 131,
+      "bsr": 397,
+      "rev30d": 177515.5,
+      "rev12m": 2130186.0,
+      "sales30d": 7573,
+      "mainImage": "https://m.media-amazon.com/images/I/813a3fh4ViL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/813a3fh4ViL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "uv_attracts",
+        "indoor_safe",
+        "usb_plug_in",
+        "effective_catch"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B0BDT4XZR4",
+      "brand": "VEYOFLY",
+      "title": "VEYOFLY Fruit Fly Traps for Indoors (2 Device + 4 Refills), Gnat Trap Indoor Plug in, Bug Traps, Flying Insect Trap, Gnat Traps for House Indoor, Fly Trap Indoor for Home Bug Light, Gnats Catcher",
+      "price": 26.97,
+      "rating": 4.1,
+      "reviews": 9768,
+      "bsr": 341,
+      "rev30d": 176860.43,
+      "rev12m": 2122325.16,
+      "sales30d": 5150,
+      "mainImage": "https://m.media-amazon.com/images/I/81LY0ZEXgsL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81LY0ZEXgsL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "indoor_safe",
+        "usb_plug_in",
+        "effective_catch"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B0CZNQ53H4",
+      "brand": "TIENBE",
+      "title": "TIENBE Flying Insect Trap, 2 in 1 Indoor Plug-in Fruit Fly Trap, 1 Trap White and 6 Glue Cards, Fruit Fly Traps for Gnat, Moth, Mosquito, Suitable for Every Part of The Home",
+      "price": 8.99,
+      "rating": 4.1,
+      "reviews": 4296,
+      "bsr": 139,
+      "rev30d": 120332.97,
+      "rev12m": 1443995.64,
+      "sales30d": 12305,
+      "mainImage": "https://m.media-amazon.com/images/I/718sq3hBKmL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/718sq3hBKmL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "indoor_safe",
+        "usb_plug_in",
+        "glue_board",
+        "effective_catch"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B09T3T1FYN",
+      "brand": "Safer Home",
+      "title": "Safer Home Indoor Plug-In Fly Trap - SH502 - Effective Fruit Fly Traps for Indoors, Gnat Traps for House Indoor, 400 Sq Ft Protection - Style: 1 Device + 2 Glue Cards",
+      "price": 12.99,
+      "rating": 4.2,
+      "reviews": 38122,
+      "bsr": 19,
+      "rev30d": 99198.41,
+      "rev12m": 1190380.92,
+      "sales30d": 7801,
+      "mainImage": "https://m.media-amazon.com/images/I/71PsCvDvipL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71PsCvDvipL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "indoor_safe",
+        "usb_plug_in",
+        "glue_board",
+        "wide_coverage",
+        "effective_catch"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B08TKG5M4S",
+      "brand": "KATCHY",
+      "title": "Katchy Duo – Indoor Flying Insect Trap with Scent Pod – Day & Night Effective – Mosquito, Fruit Fly, Gnat & Small Moth Catcher – Non-Zapper Trap with Blue UV Light & Fan Suction (Black)",
+      "price": 49.99,
+      "rating": 4.0,
+      "reviews": 5641,
+      "bsr": 2200,
+      "rev30d": 84528.17,
+      "rev12m": 1014338.04,
+      "sales30d": 1691,
+      "mainImage": "https://m.media-amazon.com/images/I/81YYpLqwxZL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81YYpLqwxZL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "uv_attracts",
+        "indoor_safe",
+        "pet_kid_safe",
+        "effective_catch"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B0DNGH7HYF",
+      "brand": "STEM",
+      "title": "STEM Flying Insect Fan Trap for Indoor Bug Control, Attracts Mosquitoes, Fruit Flies, and House Flies, Plug-in Fan with UV Light, Starter Kit Includes 1 Device and 5 Glue Traps",
+      "price": 17.19,
+      "rating": 4.0,
+      "reviews": 1739,
+      "bsr": 1963,
+      "rev30d": 81089.61,
+      "rev12m": 973075.32,
+      "sales30d": 3674,
+      "mainImage": "https://m.media-amazon.com/images/I/8176x5O6KtL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/8176x5O6KtL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "uv_attracts",
+        "indoor_safe",
+        "usb_plug_in",
+        "glue_board",
+        "effective_catch"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B0DJ2H3BRB",
+      "brand": "LFSYS",
+      "title": "LFSYS Fruit Fly Traps for Indoors (1 Device+10 Refills) Plug in Fly Trap for Gnats, Fruit Flies, Flying Insects Sleek Design Indoor Safe",
+      "price": 8.99,
+      "rating": 4.4,
+      "reviews": 2461,
+      "bsr": 124,
+      "rev30d": 78132.25,
+      "rev12m": 937587.0,
+      "sales30d": 8095,
+      "mainImage": "https://m.media-amazon.com/images/I/71l4Ev-4FDL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71l4Ev-4FDL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "indoor_safe",
+        "usb_plug_in",
+        "discreet_design",
+        "effective_catch"
+      ],
+      "claimCount": 4
+    }
+  ],
+  "claimsMatrix": {
+    "themes": [
+      {
+        "key": "uv_attracts",
+        "label": "UV light attracts insects"
+      },
+      {
+        "key": "silent_operation",
+        "label": "Silent / quiet (no zap)"
+      },
+      {
+        "key": "indoor_safe",
+        "label": "Safe indoor use (kitchen/bedroom)"
+      },
+      {
+        "key": "usb_plug_in",
+        "label": "USB / plug-in powered"
+      },
+      {
+        "key": "glue_board",
+        "label": "Sticky glue board (non-zap)"
+      },
+      {
+        "key": "wide_coverage",
+        "label": "Wide coverage area"
+      },
+      {
+        "key": "pet_kid_safe",
+        "label": "Pet- & child-safe (no zap)"
+      },
+      {
+        "key": "easy_clean",
+        "label": "Easy-clean removable tray"
+      },
+      {
+        "key": "discreet_design",
+        "label": "Discreet / night-light design"
+      },
+      {
+        "key": "effective_catch",
+        "label": "Catches lots of fruit flies"
+      }
+    ],
+    "rows": [
+      {
+        "asin": "B0CKY689WQ",
+        "brand": "Zevo",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0C3PDTYYX",
+        "brand": "Zevo",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0C3FTCYZL",
+        "brand": "Zevo",
+        "cells": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0CTQDTF1V",
+        "brand": "Zevo",
+        "cells": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B07T869RNY",
+        "brand": "Zevo",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0CKY5N63H",
+        "brand": "Zevo",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0CSSTGN7X",
+        "brand": "zechuan",
+        "cells": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0CQ8RSTDW",
+        "brand": "Safer Home",
+        "cells": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0GJRLN3WS",
+        "brand": "Zevo",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0BDT4XZR4",
+        "brand": "VEYOFLY",
+        "cells": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0CZNQ53H4",
+        "brand": "TIENBE",
+        "cells": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B09T3T1FYN",
+        "brand": "Safer Home",
+        "cells": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B08TKG5M4S",
+        "brand": "KATCHY",
+        "cells": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0DNGH7HYF",
+        "brand": "STEM",
+        "cells": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0DJ2H3BRB",
+        "brand": "LFSYS",
+        "cells": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "claimsSummary": [
+    {
+      "theme": "effective_catch",
+      "label": "Catches lots of fruit flies",
+      "count": 15,
+      "pct": 100.0,
+      "topBrands": [
+        "Zevo",
+        "zechuan",
+        "Safer Home",
+        "VEYOFLY",
+        "TIENBE"
+      ]
+    },
+    {
+      "theme": "indoor_safe",
+      "label": "Safe indoor use (kitchen/bedroom)",
+      "count": 14,
+      "pct": 93.3,
+      "topBrands": [
+        "Zevo",
+        "Safer Home",
+        "VEYOFLY",
+        "TIENBE",
+        "KATCHY"
+      ]
+    },
+    {
+      "theme": "usb_plug_in",
+      "label": "USB / plug-in powered",
+      "count": 12,
+      "pct": 80.0,
+      "topBrands": [
+        "Zevo",
+        "zechuan",
+        "Safer Home",
+        "VEYOFLY",
+        "TIENBE"
+      ]
+    },
+    {
+      "theme": "uv_attracts",
+      "label": "UV light attracts insects",
+      "count": 7,
+      "pct": 46.7,
+      "topBrands": [
+        "Zevo",
+        "KATCHY",
+        "STEM"
+      ]
+    },
+    {
+      "theme": "glue_board",
+      "label": "Sticky glue board (non-zap)",
+      "count": 4,
+      "pct": 26.7,
+      "topBrands": [
+        "Safer Home",
+        "TIENBE",
+        "STEM"
+      ]
+    },
+    {
+      "theme": "wide_coverage",
+      "label": "Wide coverage area",
+      "count": 1,
+      "pct": 6.7,
+      "topBrands": [
+        "Safer Home"
+      ]
+    },
+    {
+      "theme": "pet_kid_safe",
+      "label": "Pet- & child-safe (no zap)",
+      "count": 1,
+      "pct": 6.7,
+      "topBrands": [
+        "KATCHY"
+      ]
+    },
+    {
+      "theme": "discreet_design",
+      "label": "Discreet / night-light design",
+      "count": 1,
+      "pct": 6.7,
+      "topBrands": [
+        "LFSYS"
+      ]
+    },
+    {
+      "theme": "silent_operation",
+      "label": "Silent / quiet (no zap)",
+      "count": 0,
+      "pct": 0.0,
+      "topBrands": []
+    },
+    {
+      "theme": "easy_clean",
+      "label": "Easy-clean removable tray",
+      "count": 0,
+      "pct": 0.0,
+      "topBrands": []
+    }
+  ],
+  "vocGap": [
+    {
+      "vocTopic": "Light Fails to Attract Fruit Flies",
+      "customerConcernPct": "91.5%",
+      "addressedByCount": 15,
+      "addressedByBrands": [
+        "KATCHY",
+        "LFSYS",
+        "STEM",
+        "Safer Home",
+        "TIENBE"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Homemade ACV Beats Electric Traps",
+      "customerConcernPct": "82.4%",
+      "addressedByCount": 15,
+      "addressedByBrands": [
+        "KATCHY",
+        "LFSYS",
+        "STEM",
+        "Safer Home",
+        "TIENBE"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Hardware Failure & Burnout",
+      "customerConcernPct": "67.8%",
+      "addressedByCount": 15,
+      "addressedByBrands": [
+        "KATCHY",
+        "LFSYS",
+        "STEM",
+        "Safer Home",
+        "TIENBE"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Dressed-up Fly Paper Gimmick",
+      "customerConcernPct": "59.2%",
+      "addressedByCount": 15,
+      "addressedByBrands": [
+        "KATCHY",
+        "LFSYS",
+        "STEM",
+        "Safer Home",
+        "TIENBE"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Placement & Outlet Limitations",
+      "customerConcernPct": "46.5%",
+      "addressedByCount": 12,
+      "addressedByBrands": [
+        "LFSYS",
+        "STEM",
+        "Safer Home",
+        "TIENBE",
+        "VEYOFLY"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Ineffective on House Flies",
+      "customerConcernPct": "38.1%",
+      "addressedByCount": 15,
+      "addressedByBrands": [
+        "KATCHY",
+        "LFSYS",
+        "STEM",
+        "Safer Home",
+        "TIENBE"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "FVOAI Fan Weakness & Noise",
+      "customerConcernPct": "33.6%",
+      "addressedByCount": 0,
+      "addressedByBrands": [],
+      "gapSeverity": "HIGH",
+      "whitespace": "true"
+    },
+    {
+      "vocTopic": "Refill Lock-in & Quality",
+      "customerConcernPct": "27.4%",
+      "addressedByCount": 0,
+      "addressedByBrands": [],
+      "gapSeverity": "HIGH",
+      "whitespace": "true"
+    }
+  ],
+  "whitespaceOpportunities": [
+    {
+      "opportunity": "Wide coverage area (only 1 of 15 competitors)",
+      "rationale": "6.7% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: Safer Home"
+    },
+    {
+      "opportunity": "Pet- & child-safe (no zap) (only 1 of 15 competitors)",
+      "rationale": "6.7% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: KATCHY"
+    },
+    {
+      "opportunity": "Discreet / night-light design (only 1 of 15 competitors)",
+      "rationale": "6.7% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: LFSYS"
+    },
+    {
+      "opportunity": "Silent / quiet (no zap) (only 0 of 15 competitors)",
+      "rationale": "0.0% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: none"
+    },
+    {
+      "opportunity": "Easy-clean removable tray (only 0 of 15 competitors)",
+      "rationale": "0.0% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: none"
+    }
+  ],
+  "saturation": [
+    {
+      "label": "Catches lots of fruit flies",
+      "saturationPct": "100.0%",
+      "advice": "Table-stakes claim — must include, but adding it does not differentiate."
+    },
+    {
+      "label": "Safe indoor use (kitchen/bedroom)",
+      "saturationPct": "93.3%",
+      "advice": "Table-stakes claim — must include, but adding it does not differentiate."
+    },
+    {
+      "label": "USB / plug-in powered",
+      "saturationPct": "80.0%",
+      "advice": "Table-stakes claim — must include, but adding it does not differentiate."
+    }
+  ],
+  "strategicRecommendations": [
+    {
+      "type": "VOC Gap",
+      "badgeBg": "#fee2e2",
+      "badgeColor": "#991b1b",
+      "finding": "33.6% of negative reviews cite \"FVOAI Fan Weakness & Noise\" — only 0 of 15 top sellers address this in their title.",
+      "implication": "Lead with a direct counter-claim in bullets and A+ content. Closing this gap targets the 33.6% pool of dissatisfied buyers head-on."
+    },
+    {
+      "type": "VOC Gap",
+      "badgeBg": "#fee2e2",
+      "badgeColor": "#991b1b",
+      "finding": "27.4% of negative reviews cite \"Refill Lock-in & Quality\" — only 0 of 15 top sellers address this in their title.",
+      "implication": "Lead with a direct counter-claim in bullets and A+ content. Closing this gap targets the 27.4% pool of dissatisfied buyers head-on."
+    },
+    {
+      "type": "Whitespace",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "Wide coverage area (only 1 of 15 competitors)",
+      "implication": "6.7% of top-15 listings make this claim in their title — whitespace to differentiate."
+    },
+    {
+      "type": "Whitespace",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "Pet- & child-safe (no zap) (only 1 of 15 competitors)",
+      "implication": "6.7% of top-15 listings make this claim in their title — whitespace to differentiate."
+    }
+  ],
+  "brandPalette": [
+    "#2563eb",
+    "#dc2626",
+    "#16a34a",
+    "#f59e0b",
+    "#8b5cf6",
+    "#0891b2",
+    "#db2777",
+    "#65a30d"
+  ]
+}

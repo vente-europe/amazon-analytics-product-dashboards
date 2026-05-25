@@ -1,0 +1,131 @@
+{
+  "cpSummary": "Based on a population of 1,644 reviews (avg rating 1.61) across 15 ASINs, this analysis focuses exclusively on passive LURE-style fruit fly traps (e.g., Terro, Super Ninja, Aunt Fannie's, Raid). <strong>CRITICAL CONTEXT:</strong> The dataset is heavily skewed, containing only 1★, 2★, and 3★ reviews, and no 4★ or 5★ ratings. Consequently, 'positive' sentiments are inferred entirely from 3★ reviews, representing partial successes or specific features customers liked (such as 'cute design' or 'easy setup') despite their overarching dissatisfaction. The dominant narrative is severe product failure, largely driven by traps failing to sink flies, rapid liquid evaporation, pungent vinegar odors, and consumers feeling ripped off by a product they view as 'just overpriced apple cider vinegar in a cup'.",
+  "cpWho": {
+    "labels": ["Pets/Cats", "Children", "Sensitive-nosed Family", "Co-workers", "Houseguests"],
+    "pos": [40, 25, 20, 15, 5],
+    "neg": [180, 140, 110, 35, 25]
+  },
+  "cpWhen": {
+    "labels": ["Summer/Heat", "First 3 Days", "After 7-10 Days", "After Vacation", "Overnight"],
+    "pos": [35, 85, 55, 20, 25],
+    "neg": [260, 190, 130, 85, 75]
+  },
+  "cpWhere": {
+    "labels": ["Kitchen Sink", "Fruit Bowl", "Trash/Compost", "House Plants", "Office/Desk", "Bathroom"],
+    "pos": [120, 90, 45, 35, 20, 15],
+    "neg": [480, 320, 190, 160, 75, 60]
+  },
+  "cpWhat": {
+    "labels": ["Fruit Flies", "Gnats", "House Flies", "Mosquitoes"],
+    "pos": [210, 85, 15, 5],
+    "neg": [950, 380, 140, 45]
+  },
+  "usageScenarios": [
+    {"label": "Kitchen Fruit Fly Infestations", "reason": "Placing traps near sinks, counters, and fruit bowls to catch kitchen swarms.", "pct": "46.5%"},
+    {"label": "Gnats Around Houseplants", "reason": "Setting traps near indoor spider plants and soil to capture fungus gnats.", "pct": "21.2%"},
+    {"label": "Trash & Compost Bins", "reason": "Controlling pests that breed near indoor organic waste receptacles.", "pct": "12.8%"},
+    {"label": "Post-Vacation Swarms", "reason": "Returning to a home overrun by flies due to forgotten produce.", "pct": "8.5%"},
+    {"label": "Office & Desk Outbreaks", "reason": "Dealing with fruit flies caused by co-workers leaving snacks out.", "pct": "4.6%"},
+    {"label": "Bathroom Drains", "reason": "Placing traps near sinks to combat drain flies.", "pct": "3.8%"},
+    {"label": "General House Fly Control", "reason": "Mistakenly attempting to use the lure for larger house flies.", "pct": "1.9%"},
+    {"label": "Mosquito Control", "reason": "Hoping the attractant will work on indoor mosquitoes.", "pct": "0.7%"}
+  ],
+  "csSummary": "Customer satisfaction is abysmal, reflected by an average rating of 1.61. The primary pain point is that the traps act as feeding stations rather than kill zones; flies are attracted to the scent but do not drown. Compounding this frustration is the realization that the proprietary 'bait' is merely diluted apple cider vinegar, leading customers to feel scammed compared to a cheap DIY solution with dish soap. Furthermore, poor container design leads to frequent spills, rapid evaporation of the fluid, and an overpowering, unpleasant vinegar stench throughout the home.",
+  "negativeTopics": [
+    {"label": "Flies Attracted But Not Trapped", "reason": "The lure attracts flies to the rim or lid, but fails to force them into the liquid to drown.", "pct": "41.5%",
+     "bullets": ["Consumers report flies congregating on the outside of the trap without entering the holes.", "The lack of a surfactant means the few flies that do land on the liquid do not sink.", "Customers perceive the traps as feeding or breeding grounds rather than extermination tools."],
+     "quotes": ["\"The fruit flies just sat on the Apple and never went inside.\"", "\"It does a really good job of attracting the flies on top of it, but non of them go in and get trapped.\"", "\"They just crawl around the rim and fly out.\""]},
+    {"label": "Overpriced DIY Substitute", "reason": "Buyers are outraged to discover the liquid is just apple cider vinegar, which they could make at home for pennies.", "pct": "26.3%",
+     "bullets": ["Customers frequently compare the product negatively against homemade water, vinegar, and dish soap traps.", "The strong, recognizable smell of ACV makes buyers feel they overpaid for basic grocery ingredients.", "Many state their homemade saran-wrap traps caught significantly more bugs."],
+     "quotes": ["\"It's just a small cup of diluted Apple Cider Vinegar. Not very effective.\"", "\"I could've bought an entire quart at the store and made my own traps with 20oz bottles for a fraction of the cost.\"", "\"Don't get these literally just buy apple cider vinegar and put them in small cups. Works the same.\""]},
+    {"label": "Spillage & Instability", "reason": "Top-heavy designs and wide-open lids result in frequent messes on counters.", "pct": "11.8%",
+     "bullets": ["Apple-shaped and small-jar traps tip over easily, spreading pungent vinegar everywhere.", "The lack of a secure, spill-proof lid makes them hazardous around pets and children.", "Spilled liquid actually attracts more flies to the countertop surface."],
+     "quotes": ["\"These apple shaped traps fall over way too easy spilling the bait on counters or tables.\"", "\"I have tried to find places to put them so they dont get knocked over... 3 have been spilled all over my counter!\"", "\"There's no lid. Unlike other traditional traps, this is just wide open, so don't knock it over.\""]},
+    {"label": "Overpowering Odor", "reason": "The bait gives off a strong, rotten, or sour vinegar scent that fills the room.", "pct": "8.7%",
+     "bullets": ["The smell is described as offensive and strong enough to spread throughout the entire house.", "Customers have to throw the traps away early or run fans simply to tolerate the air in their kitchen.", "The smell deters sensitive-nosed household members and guests."],
+     "quotes": ["\"It makes your whole house smell like vinegar with a hint of sweetness.\"", "\"My family could not tolerate the repulsive smell this product fills the room with.\"", "\"This stuff stinks, do not spill it!\""]},
+    {"label": "Rapid Evaporation", "reason": "The liquid bait dries out in days rather than lasting the advertised weeks.", "pct": "6.2%",
+     "bullets": ["Claims of 30, 40, or 180 days are viewed as highly deceptive.", "The liquid is reportedly too thin and evaporates rapidly in warm indoor temperatures.", "Traps require constant refilling, negating the 'set it and forget it' value proposition."],
+     "quotes": ["\"Put mine out 7 days ago and it is nearly empty of liquid. Kind of feel scammed by that claim.\"", "\"The liquid you put in them dried up very quickly. Did not last as long as it said it would.\"", "\"These evaporate rapidly, so you will use them up very fast.\""]},
+    {"label": "Leaking Packaging", "reason": "Bottles and refill packets arrive broken or completely empty.", "pct": "3.1%",
+     "bullets": ["Flimsy packaging leads to spills during shipping.", "Customers are unable to use the product immediately due to dried-out or empty bottles.", "Creates a strong vinegar smell inside the shipping boxes."],
+     "quotes": ["\"Just received these and one of the bottles had spilled in the box and was completely empty.\"", "\"Multiple bottles completely leaked out when I received it.\"", "\"I just opened my package and there's almost little to no liquid solution in the bottles.\""]},
+    {"label": "Catching the Wrong Bugs", "reason": "Traps are totally ineffective against gnats or house flies despite expectations.", "pct": "1.4%",
+     "bullets": ["Users buy these for gnats and mosquitoes, but the bait formula does not attract them.", "Consumers complain about house flies ignoring the traps entirely.", "Brands are failing to educate buyers on which exact species the lure is calibrated for."],
+     "quotes": ["\"I got this for gnats and mosquitoes. They fly right by it and don't seem to be attracted.\"", "\"These have done nothing to help capture/kill/ reduce the house flies.\"", "\"Did not catch a single gnat I installed zevo plug in insect traps instead.\""]},
+    {"label": "Deceptive Marketing Claims", "reason": "Brands exaggerate the duration of the supply and safety features.", "pct": "1.0%",
+     "bullets": ["Total duration claims (e.g., '270 days') assume sequential use of single doses, confusing buyers.", "Box claims state 'safe for pets' but inner instructions warn of toxic exposure.", "Leads to direct distrust of the brand and demands for refunds."],
+     "quotes": ["\"Product headline (for 6) says '270 day lure supply'. This is false, there is no refill at all.\"", "\"The box promises that the product is safe around children an pets. Inside the instructions it warns that it is NOT.\"", "\"Kind of feel scammed by that claim for that price.\""]}
+  ],
+  "positiveTopics": [
+    {"label": "Discreet & Cute Design", "reason": "Buyers prefer the aesthetic of the apple-shaped containers over unsightly sticky tape.", "pct": "41.2%",
+     "bullets": ["The compact, colorful apple designs blend nicely with kitchen fruit bowls.", "Customers appreciate the visual upgrade from hanging fly ribbons or open mason jars.", "Small profiles allow them to be tucked away discreetly near plants or sinks."],
+     "quotes": ["\"The apple shape is cuter than fly tape though.\"", "\"The traps are easy to set up and look nicer than other brands, which is a plus for keeping them on the counter.\"", "\"As they are very stylish, I placed them all around the house.\""]},
+    {"label": "Ease of Setup", "reason": "The ready-to-use liquid and pre-made containers offer a no-touch convenience.", "pct": "27.5%",
+     "bullets": ["Consumers like avoiding the measuring and mixing required for homemade ACV traps.", "Simply tearing open a packet or unscrewing a lid appeals to buyers wanting quick deployment.", "The concept of 'no harsh chemicals' makes buyers feel comfortable setting it up near food."],
+     "quotes": ["\"Easy to set up solution packet included just poor into apple.\"", "\"Very easy set up.\"", "\"I love the nice clean concept of natural ingredients without harsh chemicals.\""]},
+    {"label": "Initial Attraction / First Few Days", "reason": "The product does show signs of working in the short-term before the scent fades.", "pct": "18.8%",
+     "bullets": ["Users acknowledge the bait effectively draws flies to the area within hours.", "Some traps manage to catch a handful of bugs in the first 48 hours.", "Validates that the attractant formula itself fundamentally works to draw pests."],
+     "quotes": ["\"Update: after just an 1hr of having it ..it has a bunch of dead gnats!!\"", "\"They definitely catch some fruit flies, especially during the first few days.\"", "\"Does a great job of attracting them.\""]},
+    {"label": "Effective Over Time", "reason": "A minority of users report that if left alone, the traps eventually reduce the swarm.", "pct": "8.1%",
+     "bullets": ["Patience yields results for some, with notable drops in fly populations after a week.", "Works better when placed optimally, like right next to a garbage can.", "Catches enough bugs to feel marginally useful."],
+     "quotes": ["\"I went ahead and left it in position near my trash can and after a few days it finally started to catch them.\"", "\"Eventually some bugs do wind up dead at the bottom of in the solution.\"", "\"I did notice a significant decrease in the number of small flying insects in 7-10 days.\""]},
+    {"label": "Customer Service Recovery", "reason": "Brands issuing refunds for ineffective products turn 1-star sentiments into 3-star reviews.", "pct": "4.4%",
+     "bullets": ["Proactive outreach by sellers mitigates extreme anger.", "Offering alternative products or money back restores a base level of brand trust.", "Demonstrates that service can bandage product flaws."],
+     "quotes": ["\"Was contacted by customer service and refunded and they are sending a different product.\"", "\"Great customer service.\"", "\"At least the company stands behind their product.\""]}
+  ],
+  "negativeInsights": [
+    {"type": "Efficacy Crisis", "badgeBg": "#fee2e2", "badgeColor": "#991b1b",
+     "finding": "Over 40% of complaints center on flies landing on the trap but not drowning in the liquid.",
+     "implication": "<strong>Reformulate the bait</strong> to include a surfactant (like dish soap) that breaks surface tension, ensuring flies actually sink and die."},
+    {"type": "DIY Substitute", "badgeBg": "#fef3c7", "badgeColor": "#92400e",
+     "finding": "Over 1/4 of unhappy buyers feel scammed, stating homemade apple cider vinegar works better.",
+     "implication": "<strong>Differentiate the formula</strong> visually or functionally from basic ACV, or focus marketing entirely on the superior, spill-proof hardware to justify the premium."},
+    {"type": "Design Flaw", "badgeBg": "#ffedd5", "badgeColor": "#9a3412",
+     "finding": "Top-heavy apple shapes and open jars spill easily, creating messy, fly-attracting puddles.",
+     "implication": "<strong>Redesign the base</strong> to be wider and heavier, and incorporate a spill-resistant funnel lid to protect pets, kids, and counters."},
+    {"type": "Smell", "badgeBg": "#e0e7ff", "badgeColor": "#3730a3",
+     "finding": "Customers frequently abandon the product because the intense vinegar odor permeates their living spaces.",
+     "implication": "<strong>Deodorize or mask</strong> the vinegar scent with pleasant botanicals, or refine the trap openings to limit airflow while still allowing flies to enter."},
+    {"type": "Evaporation", "badgeBg": "#fce7f3", "badgeColor": "#9d174d",
+     "finding": "Liquid evaporates in just days, completely invalidating brand claims of 30-270 day longevities.",
+     "implication": "<strong>Thicken the liquid</strong> with a sucrose or gel base to slow evaporation rates, and align box claims with realistic household conditions to prevent buyer backlash."},
+    {"type": "Packaging", "badgeBg": "#f1f5f9", "badgeColor": "#334155",
+     "finding": "Refill bottles and packets frequently arrive cracked, warped, or completely empty due to leakage.",
+     "implication": "<strong>Upgrade bottle seals</strong> and reinforce plastic packets to ensure liquids survive the e-commerce supply chain intact."}
+  ],
+  "positiveInsights": [
+    {"type": "Aesthetic Appeal", "badgeBg": "#dcfce7", "badgeColor": "#166534",
+     "finding": "The 'cute' apple design is the #1 driving factor for 3★ ratings, as users hate the look of fly tape.",
+     "implication": "<strong>Retain discreet, attractive shapes</strong> that camouflage as kitchen decor; aesthetics are your strongest moat against DIY jars."},
+    {"type": "Convenience", "badgeBg": "#ccfbf1", "badgeColor": "#115e59",
+     "finding": "Buyers are willing to pay a premium specifically to avoid mixing vinegar and soap themselves.",
+     "implication": "<strong>Double down on 'no-mess, ready-to-use' messaging</strong> in ad copy, emphasizing time saved over homemade remedies."},
+    {"type": "Safety Alignment", "badgeBg": "#fef9c3", "badgeColor": "#854d0e",
+     "finding": "Nearly 10% of partial-positive feedback highlights appreciation for the lack of harsh chemical pesticides.",
+     "implication": "<strong>Highlight natural ingredients</strong> prominently, but ensure trap physical design actually keeps pets away from the liquid to maintain the 'safe' claim."},
+    {"type": "Service Recovery", "badgeBg": "#e0f2fe", "badgeColor": "#075985",
+     "finding": "Prompt refunds and replacements occasionally salvage 3-star reviews out of completely failed product experiences.",
+     "implication": "<strong>Deploy automated CS outreach</strong> for unhappy buyers; acknowledging the failure and refunding is cheaper than a 1-star rating's hit to conversion."}
+  ],
+  "buyersMotivation": [
+    {"label": "Eliminate Kitchen Swarms", "reason": "Seeking a rapid solution to fruit flies invading food prep areas and fruit bowls.", "pct": "39.4%"},
+    {"label": "Avoid Ugly Sticky Traps", "reason": "Desire for a discreet, attractive alternative to hanging yellow fly ribbons.", "pct": "19.8%"},
+    {"label": "Chemical-Free Safety", "reason": "Looking for pest control that is safe to use around children, pets, and edible produce.", "pct": "13.6%"},
+    {"label": "Control Plant Gnats", "reason": "Buying to eliminate flying pests breeding in indoor houseplant soil.", "pct": "11.1%"},
+    {"label": "Convenience over DIY", "reason": "Willingness to pay for a pre-mixed, no-touch solution rather than building a vinegar trap.", "pct": "8.2%"},
+    {"label": "Post-Vacation Recovery", "reason": "Urgent purchase to handle an infestation that bloomed while away from home.", "pct": "4.5%"},
+    {"label": "Office Sanitation", "reason": "Buying traps for a workplace environment where rotting food was left out.", "pct": "2.1%"},
+    {"label": "Compost Maintenance", "reason": "Preventing flies from taking over indoor countertop compost bins.", "pct": "1.3%"}
+  ],
+  "customerExpectations": [
+    {"label": "Flies Fall In and Drown", "reason": "Expectation that the trap design actually captures the insect, rather than just acting as a feeding surface.", "pct": "36.7%"},
+    {"label": "Lasts Advertised Duration", "reason": "Assuming the liquid will not evaporate entirely within the first week.", "pct": "21.5%"},
+    {"label": "Stable and Spill-Proof", "reason": "Expecting the container to sit firmly on a counter without easily tipping over and leaking.", "pct": "15.2%"},
+    {"label": "Odor Containment", "reason": "Expecting the trap to attract flies without making the entire house smell like sour vinegar.", "pct": "11.8%"},
+    {"label": "Outperforms Homemade ACV", "reason": "Assuming a paid retail product has a scientifically superior formula to standard grocery store vinegar.", "pct": "8.4%"},
+    {"label": "Intact Packaging", "reason": "Expecting refill bottles to arrive full and completely sealed without leaking in transit.", "pct": "4.1%"},
+    {"label": "Child and Pet Protection", "reason": "Assuming the holes are small enough, or lids secure enough, to prevent accidental ingestion.", "pct": "1.5%"},
+    {"label": "Multi-Species Efficacy", "reason": "Mistakenly expecting the lure to effectively trap gnats, house flies, and mosquitoes as well.", "pct": "0.8%"}
+  ]
+}

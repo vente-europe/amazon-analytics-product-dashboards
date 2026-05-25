@@ -1,0 +1,942 @@
+{
+  "countryName": "United States",
+  "countryCode": "US",
+  "currency": "$",
+  "marketplace": "amazon.com",
+  "segmentName": "Lure",
+  "totalCompetitors": 15,
+  "competitors": [
+    {
+      "asin": "B01MRHXM0I",
+      "brand": "Terro",
+      "title": "TERRO Fruit Fly Traps for Indoors (4 Pack) + 180 Days of Lure Supply - T2503SR - Lure and Kill Indoor Fruit Flies Near Fruit, Trash Cans, Countertops - Ready to Use Trap - 180 Day Supply",
+      "price": 12.9,
+      "rating": 4.0,
+      "reviews": 24462,
+      "bsr": 20,
+      "rev30d": 451708.29,
+      "rev12m": 5420499.48,
+      "sales30d": 33928,
+      "mainImage": "https://m.media-amazon.com/images/I/81F5uQH3fyL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81F5uQH3fyL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "kitchen_friendly",
+        "ready_to_use",
+        "value_pack",
+        "indoor_outdoor"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B0BQYYVWRT",
+      "brand": "BugBane",
+      "title": "2 Fly Traps Outdoor Fly Trap for Patio with 4 Non-Toxic Dissolvable Bait Refills. Reusable Hanging Bug Catcher Killer for All Filth Flies for Outside Bug Control Yard Ranch. Hanging Chains Included.",
+      "price": 24.99,
+      "rating": 4.4,
+      "reviews": 5535,
+      "bsr": 122,
+      "rev30d": 253112.13,
+      "rev12m": 3037345.56,
+      "sales30d": 11003,
+      "mainImage": "https://m.media-amazon.com/images/I/81oGxjXo6PL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81oGxjXo6PL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "non_toxic",
+        "indoor_outdoor"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B0BX4GQF68",
+      "brand": "Terro",
+      "title": "Terro Fruit Fly Traps for Indoors (6 Pack) + 270 Days of Lure Supply",
+      "price": 20.26,
+      "rating": 4.0,
+      "reviews": 24452,
+      "bsr": 20,
+      "rev30d": 214072.66,
+      "rev12m": 2568871.92,
+      "sales30d": 12771,
+      "mainImage": "https://m.media-amazon.com/images/I/81iUZKBoLNL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81iUZKBoLNL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "value_pack",
+        "indoor_outdoor"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B0D5DJ7V4P",
+      "brand": "Super Ninja",
+      "title": "Super Ninja Fruit Fly Traps for Indoors - 4 Pack, Highly Effective Fruit Fly Catcher for Indoor Use for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Kid & Pet Friendly",
+      "price": 13.99,
+      "rating": 3.8,
+      "reviews": 14717,
+      "bsr": 142,
+      "rev30d": 196421.28,
+      "rev12m": 2357055.36,
+      "sales30d": 14050,
+      "mainImage": "https://m.media-amazon.com/images/I/71628Tc1YiL._AC_SX355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71628Tc1YiL._AC_SX355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "kitchen_friendly",
+        "value_pack",
+        "indoor_outdoor"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B09NCYFQ53",
+      "brand": "BugBane",
+      "title": "Fly Traps Outdoor Fly Trap for Patio. 4 Large Non-Toxic Pre-Baited Flies Bags Outdoor Disposable. Big Hanging Bug Catchers for All Filth Flies Killer for Outside Bug Control in Yard Horse Ranch.",
+      "price": 24.99,
+      "rating": 4.2,
+      "reviews": 4626,
+      "bsr": 861,
+      "rev30d": 73349.72,
+      "rev12m": 880196.64,
+      "sales30d": 3220,
+      "mainImage": "https://m.media-amazon.com/images/I/91YvzfncDUL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/91YvzfncDUL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "non_toxic",
+        "indoor_outdoor"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B0DGWQV8GK",
+      "brand": "HOT SHOT",
+      "title": "Hot Shot Flying Insect Trap, Discreet, Hassle-Free Trap Attracts, Captures House and Fruit Flies, 24/7 Continuous Attraction, No Plug-in Or Electricity Needed, 6 Count 984ml Each",
+      "price": 12.73,
+      "rating": 2.6,
+      "reviews": 2107,
+      "bsr": 1118,
+      "rev30d": 64364.44,
+      "rev12m": 772373.28,
+      "sales30d": 4259,
+      "mainImage": "https://m.media-amazon.com/images/I/71RAhcOIbLL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71RAhcOIbLL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "discreet_design"
+      ],
+      "claimCount": 2
+    },
+    {
+      "asin": "B07V7GC46D",
+      "brand": "Terro",
+      "title": "Terro Fruit Fly Traps for Indoors (12 Pack) + 540 Days of Lure Supply",
+      "price": 32.68,
+      "rating": 4.4,
+      "reviews": 673,
+      "bsr": 9543,
+      "rev30d": 48078.62,
+      "rev12m": 576943.44,
+      "sales30d": 1482,
+      "mainImage": "https://m.media-amazon.com/images/I/81FD0pVL9zL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81FD0pVL9zL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "value_pack",
+        "indoor_outdoor"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B09GDHSW99",
+      "brand": "Raid",
+      "title": "Raid Essentials Fruit Fly Trap, Made with Essential Oils, Child and Pet Safe, 5.4 oz",
+      "price": 6.99,
+      "rating": 3.7,
+      "reviews": 4147,
+      "bsr": 1339,
+      "rev30d": 33587.46,
+      "rev12m": 403049.52,
+      "sales30d": 4812,
+      "mainImage": "https://m.media-amazon.com/images/I/71nM6HPZ8VL._SX342_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71nM6HPZ8VL._SX342_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "non_toxic",
+        "pet_kid_safe"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B0D5DJBVCR",
+      "brand": "Super Ninja",
+      "title": "Super Ninja Fruit Fly Traps for Indoors - 2 Pack, Highly Effective Fruit Fly Catcher for Indoor Use for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Kid & Pet Friendly",
+      "price": 9.99,
+      "rating": 3.8,
+      "reviews": 14717,
+      "bsr": 142,
+      "rev30d": 21863.82,
+      "rev12m": 262365.84,
+      "sales30d": 2191,
+      "mainImage": "https://m.media-amazon.com/images/I/81j-hUJka0L._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81j-hUJka0L._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "kitchen_friendly",
+        "value_pack",
+        "indoor_outdoor"
+      ],
+      "claimCount": 4
+    },
+    {
+      "asin": "B0DCNZVXTP",
+      "brand": "Qualirey",
+      "title": "Qualirey 4 Pack Fruit Fly Trap Refill Liquid, 0.68oz/ Bottle Liquid Fruit Fly Traps for Indoors Non Toxic Safe Near Food, Effective Lure Refill for Indoor and Kitchen Use, Red",
+      "price": 8.99,
+      "rating": 4.4,
+      "reviews": 663,
+      "bsr": 3892,
+      "rev30d": 14819.65,
+      "rev12m": 177835.8,
+      "sales30d": 1485,
+      "mainImage": "https://m.media-amazon.com/images/I/81ZSdAgJb+L._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81ZSdAgJb+L._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "non_toxic",
+        "kitchen_friendly",
+        "value_pack",
+        "indoor_outdoor"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B07VYPGHFW",
+      "brand": "Aunt Fannie's",
+      "title": "Aunt Fannie's FlyPunch Fruit Fly Trap for Indoor and Kitchen Use, Ready to Use, Made with Plant Based Ingredients, Safe Near Food, Each Bottle Lasts Up to 30 Days, Pack of 2",
+      "price": 14.99,
+      "rating": 3.9,
+      "reviews": 8630,
+      "bsr": 450,
+      "rev30d": 13188.02,
+      "rev12m": 158256.24,
+      "sales30d": 880,
+      "mainImage": "https://m.media-amazon.com/images/I/91aYrXmLrDL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/91aYrXmLrDL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "non_toxic",
+        "kitchen_friendly",
+        "ready_to_use",
+        "long_lasting_bait",
+        "value_pack",
+        "indoor_outdoor"
+      ],
+      "claimCount": 7
+    },
+    {
+      "asin": "B0D4DY85H3",
+      "brand": "Qualirey",
+      "title": "Qualirey 6 Pack Fruit Fly Trap Refill Liquid, 0.68oz Per Bottle Liquid Fruit Fly Traps for Indoors, Non Toxic Bait Safe Near Pets, Food and Kids, Lure Refill for Home Kitchen",
+      "price": 9.95,
+      "rating": 4.4,
+      "reviews": 702,
+      "bsr": 4142,
+      "rev30d": 12787.11,
+      "rev12m": 153445.32,
+      "sales30d": 1067,
+      "mainImage": "https://m.media-amazon.com/images/I/81mn6JqAUwL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81mn6JqAUwL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "non_toxic",
+        "kitchen_friendly",
+        "value_pack",
+        "indoor_outdoor"
+      ],
+      "claimCount": 5
+    },
+    {
+      "asin": "B09GD8T863",
+      "brand": "STEM",
+      "title": "Stem Kills Fruit Fly Trap: Fruit Fly Catcher With Botanical Extracts; 5.4 fl oz (Pack Of 1)",
+      "price": 7.53,
+      "rating": 3.8,
+      "reviews": 1987,
+      "bsr": 7953,
+      "rev30d": 11263.64,
+      "rev12m": 135163.68,
+      "sales30d": 1536,
+      "mainImage": "https://m.media-amazon.com/images/I/71A4S4LEW5L._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71A4S4LEW5L._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "value_pack"
+      ],
+      "claimCount": 2
+    },
+    {
+      "asin": "B0CJ3Z5TKN",
+      "brand": "Fly Away Product",
+      "title": "Fly Away Fruit Fly Liquid Lure - Trap Fruit Flies Fast. Safe Around Food. Fruit Fly Trap Indoor Bait for Kitchens, Restaurants, and Bars. Use Alone or as Refill for Fly Away Fruit Fly Trap Kit (12 oz)",
+      "price": 13.49,
+      "rating": 4.4,
+      "reviews": 314,
+      "bsr": 15873,
+      "rev30d": 10837.2,
+      "rev12m": 130046.4,
+      "sales30d": 804,
+      "mainImage": "https://m.media-amazon.com/images/I/71s7GjMv5NL._SX342_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/71s7GjMv5NL._SX342_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "kitchen_friendly",
+        "indoor_outdoor"
+      ],
+      "claimCount": 3
+    },
+    {
+      "asin": "B09V21T5K3",
+      "brand": "Dr. Killigan's",
+      "title": "Dr. Killigan’s Fruit Fly Refill Liquid - Long-Lasting 24-Week Protection, Works with Apple Traps, Pet-Friendly and Safe for Everyday Family Use, Made in USA (16 oz)",
+      "price": 15.97,
+      "rating": 4.2,
+      "reviews": 736,
+      "bsr": 19727,
+      "rev30d": 7746.03,
+      "rev12m": 92952.36,
+      "sales30d": 485,
+      "mainImage": "https://m.media-amazon.com/images/I/81mcuDzxhPL._AC_SY355_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/81mcuDzxhPL._AC_SY355_.jpg"
+      ],
+      "bullets": [],
+      "description": "",
+      "themes": [
+        "effective_catch",
+        "long_lasting_bait"
+      ],
+      "claimCount": 2
+    }
+  ],
+  "claimsMatrix": {
+    "themes": [
+      {
+        "key": "effective_catch",
+        "label": "Catches lots of fruit flies"
+      },
+      {
+        "key": "non_toxic",
+        "label": "Non-toxic / natural"
+      },
+      {
+        "key": "pesticide_free",
+        "label": "Pesticide / chemical-free"
+      },
+      {
+        "key": "pet_kid_safe",
+        "label": "Safe for kids & pets"
+      },
+      {
+        "key": "kitchen_friendly",
+        "label": "Kitchen / food-area safe"
+      },
+      {
+        "key": "discreet_design",
+        "label": "Discreet / decorative design"
+      },
+      {
+        "key": "ready_to_use",
+        "label": "Ready-to-use / no assembly"
+      },
+      {
+        "key": "long_lasting_bait",
+        "label": "Long-lasting bait"
+      },
+      {
+        "key": "value_pack",
+        "label": "Value / multi-pack"
+      },
+      {
+        "key": "indoor_outdoor",
+        "label": "Indoor & outdoor use"
+      }
+    ],
+    "rows": [
+      {
+        "asin": "B01MRHXM0I",
+        "brand": "Terro",
+        "cells": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B0BQYYVWRT",
+        "brand": "BugBane",
+        "cells": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0BX4GQF68",
+        "brand": "Terro",
+        "cells": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B0D5DJ7V4P",
+        "brand": "Super Ninja",
+        "cells": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B09NCYFQ53",
+        "brand": "BugBane",
+        "cells": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B0DGWQV8GK",
+        "brand": "HOT SHOT",
+        "cells": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B07V7GC46D",
+        "brand": "Terro",
+        "cells": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B09GDHSW99",
+        "brand": "Raid",
+        "cells": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "asin": "B0D5DJBVCR",
+        "brand": "Super Ninja",
+        "cells": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B0DCNZVXTP",
+        "brand": "Qualirey",
+        "cells": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B07VYPGHFW",
+        "brand": "Aunt Fannie's",
+        "cells": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B0D4DY85H3",
+        "brand": "Qualirey",
+        "cells": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "asin": "B09GD8T863",
+        "brand": "STEM",
+        "cells": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "asin": "B0CJ3Z5TKN",
+        "brand": "Fly Away Product",
+        "cells": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "asin": "B09V21T5K3",
+        "brand": "Dr. Killigan's",
+        "cells": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "claimsSummary": [
+    {
+      "theme": "effective_catch",
+      "label": "Catches lots of fruit flies",
+      "count": 15,
+      "pct": 100.0,
+      "topBrands": [
+        "Terro",
+        "BugBane",
+        "Super Ninja",
+        "HOT SHOT",
+        "Raid"
+      ]
+    },
+    {
+      "theme": "indoor_outdoor",
+      "label": "Indoor & outdoor use",
+      "count": 11,
+      "pct": 73.3,
+      "topBrands": [
+        "Terro",
+        "BugBane",
+        "Super Ninja",
+        "Qualirey",
+        "Aunt Fannie's"
+      ]
+    },
+    {
+      "theme": "value_pack",
+      "label": "Value / multi-pack",
+      "count": 9,
+      "pct": 60.0,
+      "topBrands": [
+        "Terro",
+        "Super Ninja",
+        "Qualirey",
+        "Aunt Fannie's",
+        "STEM"
+      ]
+    },
+    {
+      "theme": "kitchen_friendly",
+      "label": "Kitchen / food-area safe",
+      "count": 7,
+      "pct": 46.7,
+      "topBrands": [
+        "Terro",
+        "Super Ninja",
+        "Qualirey",
+        "Aunt Fannie's",
+        "Fly Away Product"
+      ]
+    },
+    {
+      "theme": "non_toxic",
+      "label": "Non-toxic / natural",
+      "count": 6,
+      "pct": 40.0,
+      "topBrands": [
+        "BugBane",
+        "Raid",
+        "Qualirey",
+        "Aunt Fannie's"
+      ]
+    },
+    {
+      "theme": "ready_to_use",
+      "label": "Ready-to-use / no assembly",
+      "count": 2,
+      "pct": 13.3,
+      "topBrands": [
+        "Terro",
+        "Aunt Fannie's"
+      ]
+    },
+    {
+      "theme": "long_lasting_bait",
+      "label": "Long-lasting bait",
+      "count": 2,
+      "pct": 13.3,
+      "topBrands": [
+        "Aunt Fannie's",
+        "Dr. Killigan's"
+      ]
+    },
+    {
+      "theme": "pet_kid_safe",
+      "label": "Safe for kids & pets",
+      "count": 1,
+      "pct": 6.7,
+      "topBrands": [
+        "Raid"
+      ]
+    },
+    {
+      "theme": "discreet_design",
+      "label": "Discreet / decorative design",
+      "count": 1,
+      "pct": 6.7,
+      "topBrands": [
+        "HOT SHOT"
+      ]
+    },
+    {
+      "theme": "pesticide_free",
+      "label": "Pesticide / chemical-free",
+      "count": 0,
+      "pct": 0.0,
+      "topBrands": []
+    }
+  ],
+  "vocGap": [
+    {
+      "vocTopic": "Flies Attracted But Not Trapped",
+      "customerConcernPct": "41.5%",
+      "addressedByCount": 15,
+      "addressedByBrands": [
+        "Aunt Fannie's",
+        "BugBane",
+        "Dr. Killigan's",
+        "Fly Away Product",
+        "HOT SHOT"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Overpriced DIY Substitute",
+      "customerConcernPct": "26.3%",
+      "addressedByCount": 10,
+      "addressedByBrands": [
+        "Aunt Fannie's",
+        "Dr. Killigan's",
+        "Qualirey",
+        "STEM",
+        "Super Ninja"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Spillage & Instability",
+      "customerConcernPct": "11.8%",
+      "addressedByCount": 10,
+      "addressedByBrands": [
+        "Aunt Fannie's",
+        "BugBane",
+        "Fly Away Product",
+        "Qualirey",
+        "Raid"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Overpowering Odor",
+      "customerConcernPct": "8.7%",
+      "addressedByCount": 10,
+      "addressedByBrands": [
+        "Aunt Fannie's",
+        "BugBane",
+        "Fly Away Product",
+        "Qualirey",
+        "Raid"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Rapid Evaporation",
+      "customerConcernPct": "6.2%",
+      "addressedByCount": 7,
+      "addressedByBrands": [
+        "Aunt Fannie's",
+        "BugBane",
+        "Dr. Killigan's",
+        "Qualirey",
+        "Raid"
+      ],
+      "gapSeverity": "LOW",
+      "whitespace": "false"
+    },
+    {
+      "vocTopic": "Leaking Packaging",
+      "customerConcernPct": "3.1%",
+      "addressedByCount": 0,
+      "addressedByBrands": [],
+      "gapSeverity": "LOW",
+      "whitespace": "true"
+    },
+    {
+      "vocTopic": "Catching the Wrong Bugs",
+      "customerConcernPct": "1.4%",
+      "addressedByCount": 0,
+      "addressedByBrands": [],
+      "gapSeverity": "LOW",
+      "whitespace": "true"
+    },
+    {
+      "vocTopic": "Deceptive Marketing Claims",
+      "customerConcernPct": "1.0%",
+      "addressedByCount": 0,
+      "addressedByBrands": [],
+      "gapSeverity": "LOW",
+      "whitespace": "true"
+    }
+  ],
+  "whitespaceOpportunities": [
+    {
+      "opportunity": "Ready-to-use / no assembly (only 2 of 15 competitors)",
+      "rationale": "13.3% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: Terro, Aunt Fannie's"
+    },
+    {
+      "opportunity": "Long-lasting bait (only 2 of 15 competitors)",
+      "rationale": "13.3% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: Aunt Fannie's, Dr. Killigan's"
+    },
+    {
+      "opportunity": "Safe for kids & pets (only 1 of 15 competitors)",
+      "rationale": "6.7% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: Raid"
+    },
+    {
+      "opportunity": "Discreet / decorative design (only 1 of 15 competitors)",
+      "rationale": "6.7% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: HOT SHOT"
+    },
+    {
+      "opportunity": "Pesticide / chemical-free (only 0 of 15 competitors)",
+      "rationale": "0.0% of top-15 listings make this claim in their title — whitespace to differentiate.",
+      "evidence": "Currently claimed by: none"
+    }
+  ],
+  "saturation": [
+    {
+      "label": "Catches lots of fruit flies",
+      "saturationPct": "100.0%",
+      "advice": "Table-stakes claim — must include, but adding it does not differentiate."
+    },
+    {
+      "label": "Indoor & outdoor use",
+      "saturationPct": "73.3%",
+      "advice": "Table-stakes claim — must include, but adding it does not differentiate."
+    },
+    {
+      "label": "Value / multi-pack",
+      "saturationPct": "60.0%",
+      "advice": "Table-stakes claim — must include, but adding it does not differentiate."
+    }
+  ],
+  "strategicRecommendations": [
+    {
+      "type": "Whitespace",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "Ready-to-use / no assembly (only 2 of 15 competitors)",
+      "implication": "13.3% of top-15 listings make this claim in their title — whitespace to differentiate."
+    },
+    {
+      "type": "Whitespace",
+      "badgeBg": "#dbeafe",
+      "badgeColor": "#1e40af",
+      "finding": "Long-lasting bait (only 2 of 15 competitors)",
+      "implication": "13.3% of top-15 listings make this claim in their title — whitespace to differentiate."
+    }
+  ],
+  "brandPalette": [
+    "#2563eb",
+    "#dc2626",
+    "#16a34a",
+    "#f59e0b",
+    "#8b5cf6",
+    "#0891b2",
+    "#db2777",
+    "#65a30d"
+  ]
+}

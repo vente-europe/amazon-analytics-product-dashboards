@@ -1,0 +1,349 @@
+<!-- u-segments-reviews-voc tab template
+==============================================================================
+Tom's standalone-composition tab — lightweight per-segment Voice of Customer
+roll-up. Pure raw-review aggregation: counts, ratings distribution, top
+brands by review count, and a browseable review list. NO AI-analyzed themes
+or customer-profile structures (use u-reviews-voc for that heavy lift).
+
+Inline this template into a per-dashboard standalone index.html via your
+_build_standalone.py. The caller sets window._TAB_DATA to a single object
+(already scoped to one country/market) BEFORE this template's <script> runs.
+
+For each pill click the renderer rebuilds the panel underneath: four KPI
+cards (Total Reviews / Avg Rating / %4-5★ / %1-2★), a horizontal star-
+distribution bar chart, a Top Brands by Review Count table, and a Review
+Browser table (capped at 200 rows). Brand colors are keyed by position-by-
+review-count desc so each brand keeps the same color across the table and
+the per-row brand pill in the review browser.
+
+DATA CONTRACT — window._TAB_DATA shape:
+{
+  // ── Identity (used in headings / Amazon links) ────────────────────────
+  countryName: "United States",     // string — displayed in title
+  countryCode: "US",                // string — used to build amazon.{tld}
+                                    //          UK → "co.uk", else lowercased
+
+  // ── Catalog of segments (drives pill order & color lookup) ────────────
+  segments: ["Lure", "Electric Traps"],
+                                    // string[] — canonical display order
+  segmentColors: {                  // segName → hex; used as pill outline color
+    "Lure":           "#16a34a",
+    "Electric Traps": "#dc2626"
+  },
+  brandPalette: [                   // string[] — position-based brand colors
+    "#2563eb","#dc2626","#16a34a","#f59e0b",
+    "#8b5cf6","#0891b2","#db2777","#65a30d"
+  ],
+
+  // ── Per-segment review payload (one entry per segment in `segments`) ──
+  reviewsBySegment: {
+    "Lure": {
+      totalReviews: 2065,           // number — count after dedup
+      avgRating:    4.2,            // number — mean rating across the segment
+      starDist: [120, 80, 95, 350, 1420],
+                                    // number[5] — counts ordered [1★, 2★, 3★, 4★, 5★]
+      topBrands: [                  // ranked by review count desc, capped at 8
+        { brand, reviews, share /* % of segment */, avgRating, asins }, …
+      ],
+      reviews: [                    // newest-first; capped at 200 in payload
+        { rating, date /* ISO */, brand, asin, title, body }, …
+      ]
+    },
+    "Electric Traps": { … same shape … }
+  }
+}
+============================================================================== -->
+<style>
+/* Local styles for u-segments-reviews-voc (kept narrow — scoped via #u-rvc-root). */
+#u-rvc-root .u-rvc-pill { line-height: 1; transition: background .15s, color .15s, border-color .15s; }
+#u-rvc-root .star-bar-row { display: grid; grid-template-columns: 38px 1fr 130px; align-items: center; gap: 10px; margin: 6px 0; font-size: .82rem; }
+#u-rvc-root .star-bar-label { font-weight: 700; color: #334155; }
+#u-rvc-root .star-bar-track { background: #f1f5f9; border-radius: 4px; height: 24px; overflow: hidden; position: relative; }
+#u-rvc-root .star-bar-fill { height: 100%; display: flex; align-items: center; justify-content: flex-end; padding: 0 8px; color: #fff; font-size: .72rem; font-weight: 600; }
+#u-rvc-root .star-bar-meta { color: #475569; font-size: .78rem; text-align: right; font-variant-numeric: tabular-nums; }
+#u-rvc-root .u-rvc-body-cell { max-width: 520px; color: #475569; font-size: .78rem; line-height: 1.4; }
+#u-rvc-root .u-rvc-title-cell { max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#u-rvc-root .u-rvc-rating-cell { font-weight: 700; }
+</style>
+<div id="u-rvc-root"></div>
+
+<script>
+(function(){
+  var D = window._TAB_DATA;
+  var root = document.getElementById('u-rvc-root');
+  if (!D) { root.innerHTML = '<div class="card"><p style="color:#64748b;font-size:.85rem">No data loaded for this tab.</p></div>'; return; }
+
+  // ─── inline helpers (self-contained) ───────────────────────────────────
+  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function fmtInt(n) { return Math.round(+n || 0).toLocaleString('en-US'); }
+  function pct(v, t) { return (t > 0) ? ((v / t) * 100) : 0; }
+  function pctFmt(v, t, dp) { return pct(v, t).toFixed(dp == null ? 1 : dp) + '%'; }
+  function truncate(s, n) {
+    s = s == null ? '' : String(s);
+    if (s.length <= n) return s;
+    return s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…';
+  }
+
+  // Star colors — 5★ green, 4★ light green, 3★ amber, 2★ orange, 1★ red
+  var STAR_COLORS = { 1:'#dc2626', 2:'#ea580c', 3:'#f59e0b', 4:'#86efac', 5:'#16a34a' };
+
+  // Position-based brand palette · "Other (N)" → grey
+  var BRAND_PALETTE = D.brandPalette || ['#2563eb','#dc2626','#16a34a','#f59e0b','#8b5cf6','#0891b2','#db2777','#65a30d'];
+  function brandColor(name, i) {
+    if (typeof name === 'string' && name.indexOf('Other (') === 0) return '#94a3b8';
+    return BRAND_PALETTE[i % BRAND_PALETTE.length];
+  }
+
+  // ─── Sortable tables (every column, every table inside root) ───────────
+  function parseSortValue(td) {
+    if (td.dataset && td.dataset.val != null && td.dataset.val !== '') {
+      var n = parseFloat(td.dataset.val);
+      if (!isNaN(n)) return n;
+    }
+    var txt = (td.textContent || '').trim();
+    var cleaned = txt.replace(/[\s, €$£%]/g, '').replace(/·/g, '');
+    if (cleaned !== '' && !isNaN(parseFloat(cleaned))) return parseFloat(cleaned);
+    return txt.toLowerCase();
+  }
+  function sortTableByColumn(table, colIdx, dir) {
+    var tbody = table.tBodies[0]; if (!tbody) return;
+    var rows = Array.prototype.slice.call(tbody.rows);
+    rows.sort(function(a, b) {
+      var va = parseSortValue(a.cells[colIdx]);
+      var vb = parseSortValue(b.cells[colIdx]);
+      if (va < vb) return dir === 'asc' ? -1 : 1;
+      if (va > vb) return dir === 'asc' ? 1 : -1;
+      return 0;
+    });
+    rows.forEach(function(r) { tbody.appendChild(r); });
+  }
+  function makeAllTablesSortable() {
+    var tables = root.querySelectorAll('table');
+    tables.forEach(function(table) {
+      var ths = table.tHead ? table.tHead.rows[0].cells : table.rows[0].cells;
+      Array.prototype.forEach.call(ths, function(th, idx) {
+        if (th.dataset.sortable === '1') return;
+        th.dataset.sortable = '1';
+        th.style.cursor = 'pointer';
+        th.style.userSelect = 'none';
+        th.dataset.sortDir = '';
+        var arrow = document.createElement('span');
+        arrow.className = 'sort-arrow';
+        arrow.style.cssText = 'margin-left:6px;opacity:.6;font-size:1.5em;color:#0f172a;vertical-align:middle;line-height:1';
+        arrow.textContent = '▴▾';
+        th.appendChild(arrow);
+        th.addEventListener('click', function() {
+          var dir = th.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+          Array.prototype.forEach.call(ths, function(other) {
+            other.dataset.sortDir = '';
+            var a = other.querySelector('.sort-arrow');
+            if (a) { a.textContent = '▴▾'; a.style.opacity = '.6'; }
+          });
+          th.dataset.sortDir = dir;
+          arrow.textContent = dir === 'asc' ? '▴' : '▾';
+          arrow.style.opacity = '1';
+          sortTableByColumn(table, idx, dir);
+        });
+      });
+    });
+  }
+
+  // ─── Local chart bin (so we don't leak Chart instances on re-render) ───
+  var _charts = [];
+  function destroyCharts() {
+    _charts.forEach(function(c){ try { c.destroy(); } catch(e){} });
+    _charts = [];
+  }
+
+  // ─── Resolve identity / segment list ───────────────────────────────────
+  var SEG_NAMES   = D.segments || [];
+  var SEG_COLORS  = D.segmentColors || {};
+  var bySeg       = D.reviewsBySegment || {};
+  var countryName = D.countryName || '';
+  var countryCode = D.countryCode || '';
+  var amazonDom   = (countryCode === 'UK') ? 'co.uk' : (countryCode || '').toLowerCase();
+
+  // Only show pills for segments that actually have review data.
+  var availableSegs = SEG_NAMES.filter(function(s){
+    var seg = bySeg[s];
+    return seg && (+seg.totalReviews || 0) > 0;
+  });
+
+  // ─── Build shell HTML (heading + sticky pill bar + panel slot) ─────────
+  var shell = '';
+  shell += '<h2>Voice of Customer (Reviews)' + (countryName ? ' · ' + esc(countryName) : '') + '</h2>';
+
+  if (!availableSegs.length) {
+    shell += '<div class="card"><p style="color:#64748b;font-size:.85rem">No review data available' + (countryName ? ' for ' + esc(countryName) : '') + '.</p></div>';
+    root.innerHTML = shell;
+    return;
+  }
+
+  // Sticky pill bar — one pill per segment with REVIEW COUNT in parens
+  shell += '<div id="u-rvc-pillbar" style="position:sticky;top:0;z-index:30;background:#f1f5f9;padding:10px 0;margin-bottom:14px;display:flex;flex-wrap:wrap;gap:8px;border-bottom:1px solid #e2e8f0">';
+  availableSegs.forEach(function(seg) {
+    var color = SEG_COLORS[seg] || '#64748b';
+    var n = (bySeg[seg] && +bySeg[seg].totalReviews) || 0;
+    shell += '<button class="u-rvc-pill" data-seg="' + esc(seg) + '" ';
+    shell += 'data-color="' + esc(color) + '" ';
+    shell += 'style="background:#fff;border:2px solid ' + color + ';color:' + color + ';';
+    shell += 'padding:7px 14px;border-radius:999px;font-size:.85rem;font-weight:600;cursor:pointer">';
+    shell += esc(seg) + ' <span style="font-weight:400;opacity:.75">(' + fmtInt(n) + ')</span>';
+    shell += '</button>';
+  });
+  shell += '</div>';
+
+  shell += '<div id="u-rvc-panel"></div>';
+
+  root.innerHTML = shell;
+
+  // ─── Build the panel HTML for one selected segment ─────────────────────
+  function buildPanel(segName) {
+    var seg = bySeg[segName] || {};
+    var total     = +seg.totalReviews || 0;
+    var avgRating = +seg.avgRating || 0;
+    var dist      = seg.starDist || [0,0,0,0,0];   // [1★..5★]
+    var brands    = seg.topBrands || [];
+    var reviews   = seg.reviews || [];
+
+    var pos45 = (+dist[3] || 0) + (+dist[4] || 0);
+    var neg12 = (+dist[0] || 0) + (+dist[1] || 0);
+
+    var h = '';
+
+    // 1. KPI strip (4 cards)
+    h += '<div class="kpis" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:14px">';
+    h += '  <div class="kpi"><div class="kpi-v">' + fmtInt(total) + '</div><div class="kpi-l">TOTAL REVIEWS</div></div>';
+    h += '  <div class="kpi"><div class="kpi-v">' + avgRating.toFixed(1) + ' <span style="font-size:.55em;font-weight:400;color:#64748b">/ 5</span></div><div class="kpi-l">AVG RATING</div></div>';
+    h += '  <div class="kpi"><div class="kpi-v" style="color:#16a34a">' + pctFmt(pos45, total) + '</div><div class="kpi-l">% 4–5★</div></div>';
+    h += '  <div class="kpi"><div class="kpi-v" style="color:#dc2626">' + pctFmt(neg12, total) + '</div><div class="kpi-l">% 1–2★</div></div>';
+    h += '</div>';
+
+    // 2. Star Distribution horizontal bars (5★ at top, 1★ at bottom)
+    h += '<div class="card"><h3>Star Distribution · ' + esc(segName) + '</h3>';
+    var maxBar = Math.max.apply(null, dist) || 1;
+    for (var s = 5; s >= 1; s--) {
+      var c = +dist[s-1] || 0;
+      var p = pct(c, total);
+      var w = pct(c, maxBar);   // bar width relative to largest bar
+      h += '<div class="star-bar-row">';
+      h += '<div class="star-bar-label">' + s + '★</div>';
+      h += '<div class="star-bar-track"><div class="star-bar-fill" style="width:' + w.toFixed(2) + '%;background:' + STAR_COLORS[s] + '">' + (p >= 8 ? p.toFixed(1) + '%' : '') + '</div></div>';
+      h += '<div class="star-bar-meta">' + fmtInt(c) + ' · ' + p.toFixed(1) + '%</div>';
+      h += '</div>';
+    }
+    h += '<div class="note">Distribution across ' + fmtInt(total) + ' ' + esc(segName) + ' review' + (total === 1 ? '' : 's') + (countryName ? ' in ' + esc(countryName) : '') + '. Bar length scaled to the largest bucket.</div>';
+    h += '</div>';
+
+    // 3. Top Brands by Review Count
+    h += '<div class="card"><h3>Top Brands by Review Count · ' + esc(segName) + (countryName ? ' · ' + esc(countryName) : '') + '</h3>';
+    h += '<div class="tbl-wrap"><table class="num-right">';
+    h += '<thead><tr><th style="text-align:left">Brand</th><th>Reviews</th><th>% of Segment</th><th>Avg Rating</th><th>ASINs</th></tr></thead><tbody>';
+    if (!brands.length) {
+      h += '<tr><td colspan="5" style="text-align:left;color:#94a3b8;font-size:.8rem">No brand breakdown available.</td></tr>';
+    }
+    brands.forEach(function(b, i) {
+      var bc = brandColor(b.brand, i);
+      h += '<tr>';
+      h += '<td style="text-align:left"><span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.78rem;font-weight:600;background:' + bc + '22;color:' + bc + '">' + esc(b.brand) + '</span></td>';
+      h += '<td data-val="' + (+b.reviews || 0) + '">' + fmtInt(b.reviews) + '</td>';
+      h += '<td data-val="' + (+b.share || 0) + '">' + (+b.share || 0).toFixed(1) + '%</td>';
+      h += '<td data-val="' + (+b.avgRating || 0) + '">' + (+b.avgRating || 0).toFixed(2) + '</td>';
+      h += '<td data-val="' + (+b.asins || 0) + '">' + fmtInt(b.asins) + '</td>';
+      h += '</tr>';
+    });
+    h += '</tbody></table></div>';
+    h += '<div class="note">' + brands.length + ' brand' + (brands.length === 1 ? '' : 's') + ' shown (ranked by review count). Colours reused in the Review Browser below.</div>';
+    h += '</div>';
+
+    // 4. Review Browser (capped at 200 in payload)
+    var capNote = '';
+    if (total > reviews.length) {
+      capNote = 'Showing ' + fmtInt(reviews.length) + ' of ' + fmtInt(total) + ' total — sort columns to find specific reviews.';
+    } else {
+      capNote = 'Showing all ' + fmtInt(reviews.length) + ' review' + (reviews.length === 1 ? '' : 's') + '.';
+    }
+
+    // Brand → color map mirrors the top-brands table (position by review count)
+    var brandColorMap = {};
+    brands.forEach(function(b, i) { brandColorMap[b.brand] = brandColor(b.brand, i); });
+
+    h += '<div class="card"><h3>Review Browser · ' + esc(segName) + (countryName ? ' · ' + esc(countryName) : '') + '</h3>';
+    h += '<div class="tbl-wrap"><table class="num-right">';
+    h += '<thead><tr>';
+    h += '<th>Rating</th>';
+    h += '<th style="text-align:left">Date</th>';
+    h += '<th style="text-align:left">Brand</th>';
+    h += '<th style="text-align:left">ASIN</th>';
+    h += '<th style="text-align:left">Title</th>';
+    h += '<th style="text-align:left">Body</th>';
+    h += '</tr></thead><tbody>';
+    reviews.forEach(function(r) {
+      var rating = +r.rating || 0;
+      var sc = STAR_COLORS[Math.max(1, Math.min(5, Math.round(rating)))] || '#94a3b8';
+      var bc = brandColorMap[r.brand] || '#94a3b8';
+      var asinCell = amazonDom
+        ? '<a href="https://www.amazon.' + amazonDom + '/dp/' + esc(r.asin) + '" target="_blank" rel="noopener"><code style="font-size:.75rem">' + esc(r.asin) + '</code></a>'
+        : '<code style="font-size:.75rem">' + esc(r.asin) + '</code>';
+      var fullBody = r.body == null ? '' : String(r.body);
+      var bodyShort = truncate(fullBody, 250);
+      h += '<tr>';
+      h += '<td class="u-rvc-rating-cell" data-val="' + rating + '" style="color:' + sc + '">' + rating.toFixed(0) + '★</td>';
+      h += '<td style="text-align:left;font-variant-numeric:tabular-nums">' + esc(r.date || '') + '</td>';
+      h += '<td style="text-align:left"><span style="display:inline-block;padding:2px 8px;border-radius:4px;font-size:.78rem;font-weight:600;background:' + bc + '22;color:' + bc + '">' + esc(r.brand || '') + '</span></td>';
+      h += '<td style="text-align:left">' + asinCell + '</td>';
+      h += '<td class="u-rvc-title-cell" style="text-align:left" title="' + esc(r.title || '') + '">' + esc(r.title || '') + '</td>';
+      h += '<td class="u-rvc-body-cell" style="text-align:left" title="' + esc(fullBody) + '">' + esc(bodyShort) + '</td>';
+      h += '</tr>';
+    });
+    h += '</tbody></table></div>';
+    h += '<div class="note">' + capNote + (amazonDom ? ' Click ASIN to open on amazon.' + amazonDom + '.' : '') + '</div>';
+    h += '</div>';
+
+    return h;
+  }
+
+  // ─── Render one segment into the panel ─────────────────────────────────
+  var panelEl = document.getElementById('u-rvc-panel');
+
+  function renderPanel(segName) {
+    destroyCharts();
+    panelEl.innerHTML = buildPanel(segName);
+    makeAllTablesSortable();
+  }
+
+  // ─── Wire pill clicks ──────────────────────────────────────────────────
+  var pillBtns = root.querySelectorAll('.u-rvc-pill');
+  var selected = availableSegs[0];
+
+  function applyPillStyles() {
+    Array.prototype.forEach.call(pillBtns, function(btn) {
+      var seg   = btn.dataset.seg;
+      var color = btn.dataset.color || '#64748b';
+      if (seg === selected) {
+        btn.style.background  = '#2563eb';
+        btn.style.color       = '#fff';
+        btn.style.borderColor = '#2563eb';
+      } else {
+        btn.style.background  = '#fff';
+        btn.style.color       = color;
+        btn.style.borderColor = color;
+      }
+    });
+  }
+
+  Array.prototype.forEach.call(pillBtns, function(btn) {
+    btn.addEventListener('click', function() {
+      var seg = btn.dataset.seg;
+      if (seg === selected) return;
+      selected = seg;
+      applyPillStyles();
+      renderPanel(selected);
+    });
+  });
+
+  // ─── Initial render ────────────────────────────────────────────────────
+  applyPillStyles();
+  renderPanel(selected);
+})();
+</script>

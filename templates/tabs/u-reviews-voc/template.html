@@ -1,0 +1,598 @@
+<!-- u-reviews-voc tab template
+==============================================================================
+Tom's standalone-composition Reviews VOC tab — ported from eu-wasp-analysis
+renderReviews(). Already richer than the generic reviews template: KPI strip,
+star distribution bar, sub-tabs (Customer Insights / Review Browser), sticky
+anchor pills (Customer Profile · Usage Scenario · Customer Sentiment · Buyers
+Motivation · Customer Expectations), expandable negative/positive topics with
+quotes, strategy insights, and a filterable review browser.
+
+The caller sets window._TAB_DATA to one bucket (one country × one segment).
+This template is segment-/country-agnostic; no `tabId` switch happens here.
+
+REQUIRED CSS — this template uses .voc-sub-tabs, .voc-anchor-nav, .cp-charts,
+.us-table, .nf-row/.pf-row, .si-badge, .pill, .pill-blue, etc. The
+eu-wasp-analysis _build_standalone.py inlines this CSS into the dashboard
+shell; if you're composing this template into a new standalone, copy the
+"Reviews VOC template styles" block from that build script.
+
+DATA CONTRACT — window._TAB_DATA shape:
+{
+  // ── Identity (used in headings) ───────────────────────────────────────
+  countryName: "Germany",          // string — displayed in title
+  countryCode: "DE",               // string — displayed in subtitle text
+  segmentName: "Lure",             // string — displayed in title; may be ""
+                                   //          for single-segment dashboards
+
+  // ── Headline figures ─────────────────────────────────────────────────
+  totalReviews: 287,               // number — total reviews in bucket
+  avgRating: 4.12,                 // number — 1.00–5.00
+  starDist: [12, 8, 19, 73, 175],  // number[5] — count per star (1★..5★)
+
+  // ── Customer Profile (4 stacked-bar charts) ──────────────────────────
+  cpSummary: "Buyers skew …",      // HTML allowed (rendered as innerHTML)
+  cpWho:   { labels:[…], pos:[…], neg:[…] },  // 4-5★ vs 1-3★ counts per bucket
+  cpWhen:  { labels:[…], pos:[…], neg:[…] },
+  cpWhere: { labels:[…], pos:[…], neg:[…] },
+  cpWhat:  { labels:[…], pos:[…], neg:[…] },
+
+  // ── Usage Scenario · single horizontal-bar table ─────────────────────
+  usageScenarios: [
+    { label: "Garden",  reason: "Outdoor wasp control around BBQs/decks",
+      pct: "32.4%"     // string with % — pct[0] becomes the 100%-bar max
+    }, …
+  ],
+
+  // ── Customer Sentiment ───────────────────────────────────────────────
+  csSummary: "Reviews split …",    // HTML allowed
+  negativeTopics: [                // expandable rows — click to reveal
+    { label, reason, pct: "18.2%",
+      bullets: [ "…", "…" ],       // analytical bullets
+      quotes:  [ "…", "…" ]        // verbatim review quotes
+    }, …
+  ],
+  positiveTopics: [ /* same shape */ ],
+  negativeInsights: [              // strategy table rows
+    { type: "Pricing", badgeBg: "#fee2e2", badgeColor: "#991b1b",
+      finding: "…", implication: "…" }, …
+  ],
+  positiveInsights: [ /* same shape */ ],
+
+  // ── Buyers Motivation · same shape as usageScenarios ────────────────
+  buyersMotivation:     [ { label, reason, pct }, … ],
+
+  // ── Customer Expectations (unmet needs) · same shape ────────────────
+  customerExpectations: [ { label, reason, pct }, … ],
+
+  // ── Review Browser ──────────────────────────────────────────────────
+  themeFilters: [                  // populates the Theme dropdown
+    { value: "garden_use", label: "Garden use" }, …
+  ],
+  tagStyles: {                     // theme → CSS pill class
+    "garden_use": "pill-blue", "smell": "pill-orange", …
+  },
+  reviews: [                       // full review list (filtered client-side)
+    { r: 5, t: "Worked great…", tags: ["garden_use","ease_of_use"] }, …
+  ]
+}
+============================================================================== -->
+
+<style>
+  /* === Inlined Reviews VOC styles (self-contained — no external CSS dependency) === */
+  .voc-sub-tabs { display: flex; background: #fff; border-bottom: 2px solid #e2e8f0; gap: 2px; position: sticky; top: 0; z-index: 30; margin-bottom: 14px; }
+  .voc-sub-tab { padding: 10px 18px; cursor: pointer; font-size: .8rem; font-weight: 600; color: #64748b; border-bottom: 3px solid transparent; margin-bottom: -2px; white-space: nowrap; }
+  .voc-sub-tab:hover { color: #1e3a5f; }
+  .voc-sub-tab.active { color: #1e3a5f; border-bottom-color: #2563eb; }
+  .voc-sub-panel { display: none; }
+  .voc-sub-panel.active { display: block; }
+  .voc-anchor-nav { display: flex; gap: 6px; flex-wrap: wrap; padding: 10px 0; position: sticky; top: 41px; z-index: 29; background: #f1f5f9; border-bottom: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,.06); margin-bottom: 14px; }
+  .voc-anchor-nav a { padding: 7px 16px; border-radius: 20px; font-size: .75rem; font-weight: 600; color: #475569; background: #fff; text-decoration: none; border: 1.5px solid #e2e8f0; transition: all .15s; }
+  .voc-anchor-nav a:hover, .voc-anchor-nav a.active { color: #1e3a5f; background: #dbeafe; border-color: #93c5fd; }
+  .cp-charts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 10px; }
+  .cp-chart-box { background: #fff; border-radius: 8px; padding: 14px 14px 10px; box-shadow: 0 1px 3px rgba(0,0,0,.07); }
+  .cp-chart-box h4 { font-size: .82rem; font-weight: 700; color: #1e293b; margin-bottom: 8px; }
+  .cp-chart-wrap { position: relative; height: 230px; }
+  .cp-legend { font-size: .68rem; color: #94a3b8; text-align: right; padding: 6px 0 0; }
+  .us-table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+  .us-table th { background: #f8fafc; text-align: left; padding: 10px 14px; font-weight: 600; color: #475569; border-bottom: 2px solid #e2e8f0; white-space: nowrap; }
+  .us-table td { padding: 10px 14px; border-bottom: 1px solid #f1f5f9; vertical-align: middle; }
+  .us-table tr:hover td { background: #f8fafc; }
+  .us-label { font-weight: 600; color: #1e293b; white-space: nowrap; }
+  .us-reason { color: #64748b; line-height: 1.5; }
+  .us-pct { text-align: right; white-space: nowrap; color: #1e293b; font-weight: 600; }
+  .us-pct span { display: inline-block; min-width: 48px; text-align: right; }
+  .us-bar-wrap { display: inline-block; width: 60px; height: 12px; background: #e2e8f0; border-radius: 3px; overflow: hidden; vertical-align: middle; margin-right: 8px; }
+  .us-bar { height: 100%; background: #93c5fd; border-radius: 3px; }
+  .cs-neg-zone { background: #fef2f2; border-radius: 10px; padding: 18px; margin-bottom: 22px; }
+  .nf-row { cursor: pointer; transition: background .15s; }
+  .nf-row:hover td { background: #fff5f5 !important; }
+  .nf-arrow { display: inline-block; font-size: .65rem; margin-right: 6px; transition: transform .2s; color: #94a3b8; }
+  .nf-row.open .nf-arrow { transform: rotate(90deg); }
+  .nf-detail { display: none; }
+  .nf-detail.open { display: table-row; }
+  .nf-body { padding: 8px 16px 12px; background: #fff9f9; border-left: 3px solid #fca5a5; }
+  .nf-body ul { margin: 0 0 8px 16px; font-size: .75rem; color: #334155; line-height: 1.55; }
+  .nf-body ul li { margin-bottom: 2px; }
+  .nf-quotes { border-top: 1px solid #fde8e8; padding-top: 6px; }
+  .nf-quotes p { font-size: .72rem; color: #9a3412; font-style: italic; line-height: 1.45; margin-bottom: 3px; }
+  .cs-pos-zone { background: #f0fdf4; border-radius: 10px; padding: 18px; margin-bottom: 22px; }
+  .pf-row { cursor: pointer; transition: background .15s; }
+  .pf-row:hover td { background: #f0fdf4 !important; }
+  .pf-arrow { display: inline-block; font-size: .65rem; margin-right: 6px; transition: transform .2s; color: #94a3b8; }
+  .pf-row.open .pf-arrow { transform: rotate(90deg); }
+  .pf-detail { display: none; }
+  .pf-detail.open { display: table-row; }
+  .pf-body { padding: 8px 16px 12px; background: #f7fef9; border-left: 3px solid #86efac; }
+  .pf-body ul { margin: 0 0 8px 16px; font-size: .75rem; color: #334155; line-height: 1.55; }
+  .pf-body ul li { margin-bottom: 2px; }
+  .pf-quotes { border-top: 1px solid #dcfce7; padding-top: 6px; }
+  .pf-quotes p { font-size: .72rem; color: #166534; font-style: italic; line-height: 1.45; margin-bottom: 3px; }
+  .si-table { width: 100%; border-collapse: collapse; font-size: .78rem; }
+  .si-table th { background: #f8fafc; text-align: left; padding: 10px 14px; font-weight: 600; color: #475569; border-bottom: 2px solid #e2e8f0; white-space: nowrap; }
+  .si-table td { padding: 10px 14px; border-bottom: 1px solid #f1f5f9; vertical-align: top; line-height: 1.55; }
+  .si-table tr:hover td { background: #f8fafc; }
+  .si-badge { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: .7rem; font-weight: 600; line-height: 1.3; }
+  .pill { display: inline-block; padding: 2px 7px; border-radius: 4px; font-size: .68rem; font-weight: 600; margin: 1px 2px; }
+  .pill-red { background: #fef2f2; color: #dc2626; }
+  .pill-orange { background: #fff7ed; color: #ea580c; }
+  .pill-amber { background: #fffbeb; color: #d97706; }
+  .pill-blue { background: #eff6ff; color: #2563eb; }
+  .pill-purple { background: #faf5ff; color: #7c3aed; }
+  .review-text { font-size: .78rem; color: #334155; line-height: 1.55; }
+  .sec-summary { font-size: .78rem; color: #64748b; line-height: 1.55; max-width: 900px; }
+  .sec-header { display: flex; align-items: center; gap: 10px; padding-top: 8px; }
+  .sec-title { font-size: 1rem; font-weight: 700; color: #1e293b; }
+  @media (max-width: 900px) { .cp-charts { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 550px) { .cp-charts { grid-template-columns: 1fr; } }
+</style>
+
+<div id="u-reviews-voc-root"></div>
+
+<script>
+(function(){
+  var D = window._TAB_DATA;
+  var root = document.getElementById('u-reviews-voc-root');
+  if (!D) { root.innerHTML = '<div class="card"><p style="color:#64748b;font-size:.85rem">No data loaded for this tab.</p></div>'; return; }
+
+  // ─── inline helpers (self-contained) ───────────────────────────────────
+  function esc(s) { var d = document.createElement('div'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+  function fmtInt(n) { return Math.round(+n || 0).toLocaleString('en-US'); }
+  function fmtMoney(n) { return (D.currency || '') + Math.round(+n || 0).toLocaleString('en-US'); }
+  function fmtMoneyShort(n) {
+    n = Math.round(+n || 0); var cur = D.currency || '';
+    if (n >= 1e6) return cur + (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (n >= 1e3) return cur + (n / 1e3).toFixed(0) + 'K';
+    return cur + n;
+  }
+  function fmtShort(n) {
+    n = Math.round(+n || 0);
+    if (n >= 1e6) return (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (n >= 1e3) return (n / 1e3).toFixed(0) + 'K';
+    return String(n);
+  }
+  function pct(v, t) { return (t > 0) ? ((v / t) * 100).toFixed(1) + '%' : '0%'; }
+  function bw(pctStr, maxPct) { var v = parseFloat(pctStr); return Math.round(v / maxPct * 100) + '%'; }
+
+  var BRAND_PALETTE = D.brandPalette || ['#2563eb','#dc2626','#16a34a','#f59e0b','#8b5cf6','#0891b2','#db2777','#65a30d'];
+  function brandColor(name, i) {
+    if (typeof name === 'string' && name.indexOf('Other (') === 0) return '#94a3b8';
+    return BRAND_PALETTE[i % BRAND_PALETTE.length];
+  }
+
+  // ─── Sortable tables ───────────────────────────────────────────────────
+  function parseSortValue(td) {
+    if (td.dataset && td.dataset.val != null && td.dataset.val !== '') {
+      var n = parseFloat(td.dataset.val);
+      if (!isNaN(n)) return n;
+    }
+    var txt = (td.textContent || '').trim();
+    var cleaned = txt.replace(/[\s, €$£%]/g, '').replace(/·/g, '');
+    if (cleaned !== '' && !isNaN(parseFloat(cleaned))) return parseFloat(cleaned);
+    return txt.toLowerCase();
+  }
+  function sortTableByColumn(table, colIdx, dir) {
+    var tbody = table.tBodies[0]; if (!tbody) return;
+    var rows = Array.prototype.slice.call(tbody.rows);
+    rows.sort(function(a, b) {
+      var va = parseSortValue(a.cells[colIdx]);
+      var vb = parseSortValue(b.cells[colIdx]);
+      if (va < vb) return dir === 'asc' ? -1 : 1;
+      if (va > vb) return dir === 'asc' ? 1 : -1;
+      return 0;
+    });
+    rows.forEach(function(r) { tbody.appendChild(r); });
+  }
+  function makeAllTablesSortable() {
+    var tables = root.querySelectorAll('table');
+    tables.forEach(function(table) {
+      var ths = table.tHead ? table.tHead.rows[0].cells : table.rows[0].cells;
+      Array.prototype.forEach.call(ths, function(th, idx) {
+        if (th.dataset.sortable === '1') return;
+        th.dataset.sortable = '1';
+        th.style.cursor = 'pointer';
+        th.style.userSelect = 'none';
+        th.dataset.sortDir = '';
+        var arrow = document.createElement('span');
+        arrow.className = 'sort-arrow';
+        arrow.style.cssText = 'margin-left:6px;opacity:.6;font-size:1.5em;color:#0f172a;vertical-align:middle;line-height:1';
+        arrow.textContent = '▴▾';
+        th.appendChild(arrow);
+        th.addEventListener('click', function() {
+          var dir = th.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+          Array.prototype.forEach.call(ths, function(other) {
+            other.dataset.sortDir = '';
+            var a = other.querySelector('.sort-arrow');
+            if (a) { a.textContent = '▴▾'; a.style.opacity = '.6'; }
+          });
+          th.dataset.sortDir = dir;
+          arrow.textContent = dir === 'asc' ? '▴' : '▾';
+          arrow.style.opacity = '1';
+          sortTableByColumn(table, idx, dir);
+        });
+      });
+    });
+  }
+
+  var _charts = [];
+
+  // Pie helper · legend SORTED BY VALUE DESC, "Other (…)" pinned last ────
+  function pie(canvasId, labels, data, colors, moneyFmt) {
+    var el = document.getElementById(canvasId);
+    if (!el) return;
+    var idx = labels.map(function(_, i){ return i; });
+    idx.sort(function(a, b){
+      var la = labels[a], lb = labels[b];
+      var oa = typeof la === 'string' && la.indexOf('Other (') === 0;
+      var ob = typeof lb === 'string' && lb.indexOf('Other (') === 0;
+      if (oa && !ob) return 1;
+      if (ob && !oa) return -1;
+      return (+data[b] || 0) - (+data[a] || 0);
+    });
+    var sLabels = idx.map(function(i){ return labels[i]; });
+    var sData   = idx.map(function(i){ return data[i]; });
+    var sColors = idx.map(function(i){ return colors[i]; });
+    var total = sData.reduce(function(a,b){return a+(+b||0);}, 0);
+    var ctx = el.getContext('2d');
+    var chart = new Chart(ctx, {
+      type: 'pie',
+      data: { labels: sLabels, datasets: [{ data: sData, backgroundColor: sColors, borderWidth: 2, borderColor: '#fff' }] },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: {
+          legend: { position: 'right', labels: { boxWidth: 12, padding: 6, font: { size: 11 },
+            generateLabels: function() {
+              return sLabels.map(function(lbl, i) {
+                var v = sData[i]; var p = total > 0 ? (v/total*100).toFixed(1) : '0.0';
+                var valStr = moneyFmt ? fmtMoneyShort(v) : fmtInt(v);
+                return { text: lbl + ' · ' + valStr + ' (' + p + '%)', fillStyle: sColors[i], strokeStyle: sColors[i], lineWidth: 0, hidden: false, index: i };
+              });
+            } } },
+          tooltip: { callbacks: { label: function(c) { var v = c.parsed; var p = total > 0 ? (v/total*100).toFixed(1) : '0'; return c.label + ': ' + (moneyFmt ? fmtMoneyShort(v) : fmtInt(v)) + ' (' + p + '%)'; } } },
+          datalabels: { color: '#fff', font: { size: 11, weight: 'bold' }, formatter: function(v) { var p = total > 0 ? (v/total*100) : 0; return p >= 5 ? p.toFixed(0) + '%' : ''; } }
+        }
+      },
+      plugins: window.ChartDataLabels ? [ChartDataLabels] : []
+    });
+    _charts.push(chart);
+  }
+
+  // ─── Empty-state guard ────────────────────────────────────────────────
+  var segment = D.segmentName || '';
+  var countryName = D.countryName || '';
+  var countryCode = D.countryCode || '';
+  if (!D.totalReviews) {
+    root.innerHTML = '<div class="card"><h3>Reviews VOC' + (segment ? ' · ' + esc(segment) : '') + (countryName ? ' · ' + esc(countryName) : '') + (countryCode ? ' (' + esc(countryCode) + ')' : '') + '</h3>' +
+      '<p style="color:#64748b;font-size:.85rem;line-height:1.6">No review data loaded' + (countryName || segment ? ' for <strong>' + esc(countryName) + (segment ? ' · ' + esc(segment) : '') + '</strong>' : '') + '.</p></div>';
+    return;
+  }
+
+  // ─── Render ────────────────────────────────────────────────────────────
+  var STAR_COLORS = { 1: '#dc2626', 2: '#ea580c', 3: '#f59e0b', 4: '#22c55e', 5: '#16a34a' };
+  var h = '';
+
+  // KPI row
+  var total = D.totalReviews;
+  var pos = (D.starDist[3] || 0) + (D.starDist[4] || 0);
+  var neg = (D.starDist[0] || 0) + (D.starDist[1] || 0) + (D.starDist[2] || 0);
+  var posPct = (pos / total * 100).toFixed(1);
+  var negPct = (neg / total * 100).toFixed(1);
+  var ratio = neg > 0 ? (pos / neg).toFixed(1) : 'N/A';
+  var segLower = segment ? esc(segment.toLowerCase()) : '';
+
+  h += '<h2 style="margin-bottom:6px">Reviews VOC' + (segment ? ' · ' + esc(segment) : '') + (countryName ? ' · ' + esc(countryName) : '') + '</h2>';
+  h += '<p style="margin:0 0 14px;color:#64748b;font-size:.78rem">Based on <b>' + total.toLocaleString() + '</b> reviews' + (segment || countryCode ? ' scraped from the top ' + (segment ? esc(segment.toLowerCase()) + ' products' : 'products') + (countryCode ? ' on amazon.' + esc(countryCode.toLowerCase()) : '') : '') + '.</p>';
+  h += '<div class="kpis" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-bottom:14px">';
+  h += '<div class="kpi"><div class="kpi-v">' + total.toLocaleString() + '</div><div class="kpi-l">Total Reviews</div></div>';
+  h += '<div class="kpi"><div class="kpi-v">' + ratio + ' : 1</div><div class="kpi-l">Sentiment Ratio (pos:neg)</div></div>';
+  h += '<div class="kpi"><div class="kpi-v" style="color:#16a34a">' + posPct + '%</div><div class="kpi-l">Positive (4★+5★)</div></div>';
+  h += '<div class="kpi"><div class="kpi-v" style="color:#dc2626">' + negPct + '%</div><div class="kpi-l">Negative (1★–3★)</div></div>';
+  h += '</div>';
+
+  // Star Distribution Bar
+  var dist = D.starDist;
+  h += '<div class="card" style="padding:12px 16px;margin-bottom:20px">';
+  h += '<div style="display:flex;align-items:center;gap:14px;flex-wrap:wrap">';
+  h += '<div style="font-size:.78rem;font-weight:600;color:#475569;white-space:nowrap">Star Distribution</div>';
+  h += '<div style="font-size:1.1rem;font-weight:800;color:#0f2942">' + (+D.avgRating).toFixed(2) + ' <span style="font-size:.7rem;font-weight:400;color:#64748b">avg</span></div>';
+  h += '<div style="flex:1;display:flex;height:22px;border-radius:4px;overflow:hidden;min-width:200px">';
+  dist.forEach(function(count, i) {
+    var star = i + 1;
+    var p = (count / total * 100).toFixed(1);
+    h += '<div style="width:' + p + '%;background:' + STAR_COLORS[star] + ';display:flex;align-items:center;justify-content:center;color:#fff;font-size:.68rem;font-weight:600">' + (parseFloat(p) >= 5 ? p + '%' : '') + '</div>';
+  });
+  h += '</div>';
+  h += '<div style="display:flex;gap:10px;flex-wrap:wrap;font-size:.68rem;color:#475569">';
+  dist.forEach(function(count, i) {
+    h += '<span><span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:' + STAR_COLORS[i+1] + ';margin-right:3px"></span>' + (i+1) + '★ ' + count + '</span>';
+  });
+  h += '</div></div></div>';
+
+  // Sub-tab bar
+  h += '<div class="voc-sub-tabs">';
+  h += '<div class="voc-sub-tab active" data-panel="urv-ci">Customer Insights</div>';
+  h += '<div class="voc-sub-tab" data-panel="urv-ca">Review Browser</div>';
+  h += '</div>';
+
+  // ── SUB-PANEL: Customer Insights ──
+  h += '<div id="urv-ci" class="voc-sub-panel active">';
+  h += '<div class="voc-anchor-nav">';
+  h += '<a href="#urv-sec-cp" class="active" data-target="urv-sec-cp">Customer Profile</a>';
+  h += '<a href="#urv-sec-us" data-target="urv-sec-us">Usage Scenario</a>';
+  h += '<a href="#urv-sec-cs" data-target="urv-sec-cs">Customer Sentiment</a>';
+  h += '<a href="#urv-sec-bm" data-target="urv-sec-bm">Buyers Motivation</a>';
+  h += '<a href="#urv-sec-ce" data-target="urv-sec-ce">Customer Expectations</a>';
+  h += '</div>';
+
+  // Customer Profile
+  h += '<div id="urv-sec-cp">';
+  h += '<div class="sec-header"><div class="sec-title">Customer Profile</div></div>';
+  if (D.cpSummary) h += '<div class="sec-summary">' + D.cpSummary + '</div>';
+  h += '<div class="cp-charts">';
+  h += '<div class="cp-chart-box"><h4>Who</h4><div class="cp-chart-wrap"><canvas id="urvCpWho"></canvas></div></div>';
+  h += '<div class="cp-chart-box"><h4>When</h4><div class="cp-chart-wrap"><canvas id="urvCpWhen"></canvas></div></div>';
+  h += '<div class="cp-chart-box"><h4>Where</h4><div class="cp-chart-wrap"><canvas id="urvCpWhere"></canvas></div></div>';
+  h += '<div class="cp-chart-box"><h4>What</h4><div class="cp-chart-wrap"><canvas id="urvCpWhat"></canvas></div></div>';
+  h += '</div>';
+  h += '<div class="cp-legend">■ reviews 4-5 stars · <span style="color:#ef4444">■</span> reviews 1-3 stars</div>';
+  h += '</div>';
+
+  // Usage Scenario
+  h += '<div id="urv-sec-us" style="margin-top:36px">';
+  h += '<div class="sec-header"><div class="sec-title">Usage Scenario</div></div>';
+  h += '<div class="card" style="padding:0;overflow:hidden"><table class="us-table"><thead><tr><th style="width:22%">Usage Scenario</th><th>Reason</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody>';
+  if (D.usageScenarios && D.usageScenarios.length) {
+    var usMax = parseFloat(D.usageScenarios[0].pct);
+    D.usageScenarios.forEach(function(s) {
+      h += '<tr><td class="us-label">' + s.label + '</td><td class="us-reason">' + s.reason + '</td>';
+      h += '<td class="us-pct" data-val="' + parseFloat(s.pct) + '"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(s.pct, usMax) + '"></div></div><span>' + s.pct + '</span></td></tr>';
+    });
+  }
+  h += '</tbody></table></div></div>';
+
+  // Customer Sentiment
+  h += '<div id="urv-sec-cs" style="margin-top:36px">';
+  h += '<div class="sec-header"><div class="sec-title">Customer Sentiment</div></div>';
+  if (D.csSummary) h += '<div class="sec-summary">' + D.csSummary + '</div>';
+  h += '<div class="cs-neg-zone">';
+  h += '<div class="card" style="padding:0;overflow:hidden;border:1.5px solid #fecaca"><table class="us-table"><thead><tr style="background:#fef2f2"><th style="width:22%;border-left:3px solid #dc2626">Negative Feedback Topic</th><th>Reasons for Negative Feedback</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody id="urvNegBody"></tbody></table></div>';
+  h += '<div class="card" style="margin-top:22px;border:1.5px solid #fca5a5"><div class="sec-header" style="margin-bottom:10px"><div class="sec-title">Negative Review Insights · Strategy</div></div>';
+  h += '<table class="si-table"><thead><tr><th style="width:130px">Analysis Type</th><th>Finding (from 1★+2★ reviews)</th><th>Strategic Implication</th></tr></thead><tbody id="urvNegInsights"></tbody></table></div>';
+  h += '</div>';
+  h += '<div class="cs-pos-zone">';
+  h += '<div class="card" style="padding:0;overflow:hidden;border:1.5px solid #bbf7d0"><table class="us-table"><thead><tr style="background:#f0fdf4"><th style="width:22%;border-left:3px solid #16a34a">Positive Feedback Topic</th><th>Reasons for Positive Feedback</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody id="urvPosBody"></tbody></table></div>';
+  h += '<div class="card" style="margin-top:22px"><div class="sec-header" style="margin-bottom:10px"><div class="sec-title">Positive Review Insights · Strategy</div></div>';
+  h += '<table class="si-table"><thead><tr><th style="width:130px">Analysis Type</th><th>Finding (from 4★+5★ reviews)</th><th>Strategic Implication</th></tr></thead><tbody id="urvPosInsights"></tbody></table></div>';
+  h += '</div>';
+  h += '</div>';
+
+  // Buyers Motivation
+  h += '<div id="urv-sec-bm" style="margin-top:36px">';
+  h += '<div class="sec-header"><div class="sec-title">Buyers Motivation</div></div>';
+  h += '<div class="card" style="padding:0;overflow:hidden"><table class="us-table"><thead><tr><th style="width:22%">Buyers Motivation</th><th>Reason</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody>';
+  if (D.buyersMotivation && D.buyersMotivation.length) {
+    var bmMax = parseFloat(D.buyersMotivation[0].pct);
+    D.buyersMotivation.forEach(function(m) {
+      h += '<tr><td class="us-label">' + m.label + '</td><td class="us-reason">' + m.reason + '</td>';
+      h += '<td class="us-pct" data-val="' + parseFloat(m.pct) + '"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(m.pct, bmMax) + '"></div></div><span>' + m.pct + '</span></td></tr>';
+    });
+  }
+  h += '</tbody></table></div></div>';
+
+  // Customer Expectations
+  h += '<div id="urv-sec-ce" style="margin-top:36px">';
+  h += '<div class="sec-header"><div class="sec-title">Customer Expectations</div></div>';
+  h += '<div class="card" style="padding:0;overflow:hidden"><table class="us-table"><thead><tr><th style="width:22%">Unmet Need</th><th>Reason</th><th style="width:140px;text-align:right">Percentage</th></tr></thead><tbody>';
+  if (D.customerExpectations && D.customerExpectations.length) {
+    var ceMax = parseFloat(D.customerExpectations[0].pct);
+    D.customerExpectations.forEach(function(e) {
+      h += '<tr><td class="us-label">' + e.label + '</td><td class="us-reason">' + e.reason + '</td>';
+      h += '<td class="us-pct" data-val="' + parseFloat(e.pct) + '"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(e.pct, ceMax) + '"></div></div><span>' + e.pct + '</span></td></tr>';
+    });
+  }
+  h += '</tbody></table></div></div>';
+
+  h += '</div>'; // end urv-ci
+
+  // ── SUB-PANEL: Review Browser ──
+  h += '<div id="urv-ca" class="voc-sub-panel">';
+  h += '<div class="card"><h3>Review Browser <span style="font-size:.72rem;font-weight:400;color:#64748b;margin-left:8px">Filter by rating, theme, or keyword</span></h3>';
+  h += '<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px">';
+  h += '<select id="urvFilterRating" style="font-size:.73rem;border:1.5px solid #cbd5e1;border-radius:5px;padding:4px 8px;background:#fff"><option value="">All Ratings</option><option value="1">1★</option><option value="2">2★</option><option value="3">3★</option><option value="4">4★</option><option value="5">5★</option></select>';
+  h += '<select id="urvFilterTheme" style="font-size:.73rem;border:1.5px solid #cbd5e1;border-radius:5px;padding:4px 8px;background:#fff"></select>';
+  h += '<input id="urvFilterSearch" placeholder="Search keyword..." style="font-size:.73rem;border:1.5px solid #cbd5e1;border-radius:5px;padding:4px 8px;width:160px">';
+  h += '<button id="urvClearBtn" style="font-size:.73rem;border:1.5px solid #cbd5e1;border-radius:5px;padding:4px 10px;background:#f8fafc;cursor:pointer">Clear</button>';
+  h += '</div>';
+  h += '<div id="urvResultCount" style="font-size:.72rem;color:#64748b;margin-bottom:6px"></div>';
+  h += '<div class="tbl-wrap" style="max-height:520px"><table><thead><tr><th style="width:40px">★</th><th>Review</th></tr></thead><tbody id="urvReviewBody"></tbody></table></div>';
+  h += '</div></div>';
+
+  root.innerHTML = h;
+
+  // ─── Wiring ────────────────────────────────────────────────────────────
+  if (window.Chart && window.ChartDataLabels) { try { Chart.register(ChartDataLabels); } catch(e){} }
+
+  // Sub-tab switching
+  root.querySelectorAll('.voc-sub-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      root.querySelectorAll('.voc-sub-tab').forEach(function(t) { t.classList.remove('active'); });
+      root.querySelectorAll('.voc-sub-panel').forEach(function(p) { p.classList.remove('active'); });
+      tab.classList.add('active');
+      var panel = document.getElementById(tab.dataset.panel);
+      if (panel) panel.classList.add('active');
+      if (window.Chart && Chart.instances) Object.values(Chart.instances).forEach(function(c) { c.resize(); });
+    });
+  });
+
+  // Anchor scroll
+  root.querySelectorAll('.voc-anchor-nav a').forEach(function(a) {
+    a.addEventListener('click', function(e) {
+      e.preventDefault();
+      var target = document.getElementById(a.dataset.target);
+      if (target) {
+        var y = target.getBoundingClientRect().top + window.pageYOffset - 90;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+      root.querySelectorAll('.voc-anchor-nav a').forEach(function(x) { x.classList.remove('active'); });
+      a.classList.add('active');
+    });
+  });
+
+  // Customer Profile stacked bars
+  function makeStackedBar(canvasId, dataObj) {
+    var ctx = document.getElementById(canvasId);
+    if (!ctx || !dataObj) return;
+    var chart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: dataObj.labels,
+        datasets: [
+          { label: '4-5 stars', data: dataObj.pos, backgroundColor: '#22c55e', borderRadius: { topLeft: 3, topRight: 3 }, barPercentage: 0.7 },
+          { label: '1-3 stars', data: dataObj.neg.map(function(v) { return -v; }), backgroundColor: '#ef4444', borderRadius: { bottomLeft: 3, bottomRight: 3 }, barPercentage: 0.7 }
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: { legend: { display: false }, datalabels: { display: false },
+          tooltip: { callbacks: { label: function(c) { return c.dataset.label + ': ' + Math.abs(c.raw); } } }
+        },
+        scales: {
+          x: { grid: { display: false }, ticks: { font: { size: 10 }, color: '#64748b', maxRotation: 35 } },
+          y: { grid: { color: '#f1f5f9' }, ticks: { font: { size: 10 }, color: '#94a3b8', callback: function(v) { return Math.abs(v); } } }
+        }
+      }
+    });
+    _charts.push(chart);
+  }
+  if (D.cpWho)   makeStackedBar('urvCpWho',   D.cpWho);
+  if (D.cpWhen)  makeStackedBar('urvCpWhen',  D.cpWhen);
+  if (D.cpWhere) makeStackedBar('urvCpWhere', D.cpWhere);
+  if (D.cpWhat)  makeStackedBar('urvCpWhat',  D.cpWhat);
+
+  // Negative topics (expandable rows)
+  if (D.negativeTopics && D.negativeTopics.length) {
+    var negMax = parseFloat(D.negativeTopics[0].pct);
+    var negHtml = '';
+    D.negativeTopics.forEach(function(t) {
+      var bullets = (t.bullets || []).map(function(b) { return '<li>' + b + '</li>'; }).join('');
+      var quotes = (t.quotes || []).map(function(q) { return '<p>' + q + '</p>'; }).join('');
+      negHtml += '<tr class="nf-row" style="cursor:pointer"><td class="us-label"><span class="nf-arrow">▶</span> ' + t.label + '</td>';
+      negHtml += '<td class="us-reason">' + t.reason + '</td>';
+      negHtml += '<td class="us-pct" data-val="' + parseFloat(t.pct) + '"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(t.pct, negMax) + ';background:#fca5a5"></div></div><span>' + t.pct + '</span></td></tr>';
+      negHtml += '<tr class="nf-detail"><td colspan="3"><div class="nf-body"><ul>' + bullets + '</ul><div class="nf-quotes">' + quotes + '</div></div></td></tr>';
+    });
+    document.getElementById('urvNegBody').innerHTML = negHtml;
+  }
+  if (D.negativeInsights) {
+    document.getElementById('urvNegInsights').innerHTML = D.negativeInsights.map(function(i) {
+      return '<tr><td><span class="si-badge" style="background:' + i.badgeBg + ';color:' + i.badgeColor + '">' + i.type + '</span></td><td>' + i.finding + '</td><td>' + i.implication + '</td></tr>';
+    }).join('');
+  }
+
+  // Positive topics
+  if (D.positiveTopics && D.positiveTopics.length) {
+    var posMax = parseFloat(D.positiveTopics[0].pct);
+    var posHtml = '';
+    D.positiveTopics.forEach(function(t) {
+      var bullets = (t.bullets || []).map(function(b) { return '<li>' + b + '</li>'; }).join('');
+      var quotes = (t.quotes || []).map(function(q) { return '<p>' + q + '</p>'; }).join('');
+      posHtml += '<tr class="pf-row" style="cursor:pointer"><td class="us-label"><span class="pf-arrow">▶</span> ' + t.label + '</td>';
+      posHtml += '<td class="us-reason">' + t.reason + '</td>';
+      posHtml += '<td class="us-pct" data-val="' + parseFloat(t.pct) + '"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(t.pct, posMax) + ';background:#86efac"></div></div><span>' + t.pct + '</span></td></tr>';
+      posHtml += '<tr class="pf-detail"><td colspan="3"><div class="pf-body"><ul>' + bullets + '</ul><div class="pf-quotes">' + quotes + '</div></div></td></tr>';
+    });
+    document.getElementById('urvPosBody').innerHTML = posHtml;
+  }
+  if (D.positiveInsights) {
+    document.getElementById('urvPosInsights').innerHTML = D.positiveInsights.map(function(i) {
+      return '<tr><td><span class="si-badge" style="background:' + i.badgeBg + ';color:' + i.badgeColor + '">' + i.type + '</span></td><td>' + i.finding + '</td><td>' + i.implication + '</td></tr>';
+    }).join('');
+  }
+
+  // Toggle expandable rows
+  root.querySelectorAll('.nf-row').forEach(function(row) {
+    row.addEventListener('click', function() {
+      var detail = row.nextElementSibling;
+      var isOpen = row.classList.contains('open');
+      root.querySelectorAll('.nf-row.open').forEach(function(r) { r.classList.remove('open'); r.nextElementSibling.classList.remove('open'); });
+      if (!isOpen) { row.classList.add('open'); detail.classList.add('open'); }
+    });
+  });
+  root.querySelectorAll('.pf-row').forEach(function(row) {
+    row.addEventListener('click', function() {
+      var detail = row.nextElementSibling;
+      var isOpen = row.classList.contains('open');
+      root.querySelectorAll('.pf-row.open').forEach(function(r) { r.classList.remove('open'); r.nextElementSibling.classList.remove('open'); });
+      if (!isOpen) { row.classList.add('open'); detail.classList.add('open'); }
+    });
+  });
+
+  // Review Browser
+  if (D.themeFilters) {
+    document.getElementById('urvFilterTheme').innerHTML = '<option value="">All Themes</option>' + D.themeFilters.map(function(f) {
+      return '<option value="' + f.value + '">' + f.label + '</option>';
+    }).join('');
+  }
+
+  var reviews = D.reviews || [];
+
+  function urvFilter() {
+    var rating = document.getElementById('urvFilterRating').value;
+    var theme  = document.getElementById('urvFilterTheme').value;
+    var search = (document.getElementById('urvFilterSearch').value || '').toLowerCase();
+    var filtered = reviews.filter(function(r) {
+      if (rating && r.r != rating) return false;
+      if (theme && (r.tags || []).indexOf(theme) === -1) return false;
+      if (search && (r.t || '').toLowerCase().indexOf(search) === -1) return false;
+      return true;
+    });
+    document.getElementById('urvResultCount').textContent = 'Showing ' + filtered.length + ' of ' + reviews.length + ' reviews';
+    var html = '';
+    var limit = Math.min(filtered.length, 200);
+    for (var i = 0; i < limit; i++) {
+      var r = filtered[i];
+      var starHtml = '<span style="color:' + STAR_COLORS[r.r] + ';font-weight:700">' + r.r + '★</span>';
+      var tagsHtml = (r.tags || []).map(function(t) {
+        return '<span class="pill ' + ((D.tagStyles && D.tagStyles[t]) || 'pill-blue') + '">' + t.replace(/_/g, ' ') + '</span>';
+      }).join('');
+      html += '<tr><td>' + starHtml + '</td><td><div class="review-text">' + (r.t || '').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</div>' +
+        (tagsHtml ? '<div style="margin-top:4px">' + tagsHtml + '</div>' : '') + '</td></tr>';
+    }
+    if (filtered.length > 200) html += '<tr><td colspan="2" style="text-align:center;color:#64748b;font-size:.72rem;padding:12px">Showing first 200 of ' + filtered.length + '. Use filters to narrow.</td></tr>';
+    document.getElementById('urvReviewBody').innerHTML = html;
+  }
+  document.getElementById('urvFilterRating').addEventListener('change', urvFilter);
+  document.getElementById('urvFilterTheme').addEventListener('change', urvFilter);
+  document.getElementById('urvFilterSearch').addEventListener('input', urvFilter);
+  document.getElementById('urvClearBtn').addEventListener('click', function() {
+    document.getElementById('urvFilterRating').value = '';
+    document.getElementById('urvFilterTheme').value = '';
+    document.getElementById('urvFilterSearch').value = '';
+    urvFilter();
+  });
+  urvFilter();
+
+  // ─── Polish ────────────────────────────────────────────────────────────
+  makeAllTablesSortable();
+})();
+</script>
