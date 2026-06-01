@@ -413,6 +413,121 @@ for seg in VOC_SEGMENTS:
 with open('voc-lure.json',     encoding='utf-8') as f: reviews_voc_lure_data     = json.load(f)
 with open('voc-electric.json', encoding='utf-8') as f: reviews_voc_electric_data = json.load(f)
 
+# === Unmet Consumer Needs payload (Tab 7) ================================
+# Derived from voc-lure.json + voc-electric.json — the `customerExpectations`
+# array IS the unmet-needs list. For each need we attach a small set of
+# keyword-matched sample reviews from the same voc bucket so the right-hand
+# panel of the u-unmet-needs template has real quotes to surface.
+#
+# Keyword sets are hand-curated per need (Lure + Electric versions). They are
+# illustrative — production-quality matching would use the AI-classification
+# pipeline that produced the customerExpectations percentages in the first
+# place; here we just want representative quotes for the demo.
+
+UN_LURE_KEYWORDS = {
+    'flies_fall_drown':    ["don't go into", "land on", "fall in", "drown", "outside", "on top of"],
+    'lasts_duration':      ["evaporat", "dried up", "last long", "few days", "short time", "doesn't last",
+                            "6 weeks", "30 days", "one week", "a week"],
+    'stable_spill_proof':  ["spill", "leak", "tip", "tipped", "fell over", "unstable", "wobbl"],
+    'odor_containment':    ["smell", "odor", "stink", "vinegar smell", "awful smell"],
+    'outperforms_acv':     ["homemade", "apple cider vinegar", "acv", "dish soap", "my own", "diy",
+                            "cheaper to make"],
+    'intact_packaging':    ["packaging", "arrived damaged", "broken seal", "opened in transit",
+                            "leaked in box"],
+    'child_pet_safety':    ["child", "pet", "dog ate", "kids", "baby", "safe"],
+    'multi_species':       ["gnats", "house flies", "mosquito", "all bugs", "fungus flies", "other flies"],
+}
+UN_ELECTRIC_KEYWORDS = {
+    'uv_attracts':         ["blue light", "uv", "light doesn", "doesn't attract", "no flies", "light dont"],
+    'outperforms_homemade':["homemade", "apple cider", "vinegar", "cup", "dish soap", "jar"],
+    'hardware_durability': ["burn out", "died", "broke", "stopped working", "months", "year", "durab"],
+    'bugs_dead':           ["fly out", "alive", "escaped", "still buzzing", "come back out"],
+    'refills_affordable':  ["refill", "cartridge", "expensive", "subscription"],
+    'flexible_placement':  ["outlet", "cord", "cable", "placement", "where to put", "wall", "plug"],
+    'silent_operation':    ["noise", "noisy", "loud", "vibrat", "sound", "fan", "hum"],
+    'catches_houseflies':  ["house flies", "houseflies", "big flies", "large flies"],
+}
+
+# Slugify mapping so each customerExpectations[i].label → consistent id used in
+# the template (matches UN_*_KEYWORDS keys above).
+UN_LURE_IDS = [
+    ('Flies Fall In and Drown',     'flies_fall_drown'),
+    ('Lasts Advertised Duration',   'lasts_duration'),
+    ('Stable and Spill-Proof',      'stable_spill_proof'),
+    ('Odor Containment',            'odor_containment'),
+    ('Outperforms Homemade ACV',    'outperforms_acv'),
+    ('Intact Packaging',            'intact_packaging'),
+    ('Child and Pet Protection',    'child_pet_safety'),
+    ('Multi-Species Efficacy',      'multi_species'),
+]
+UN_ELECTRIC_IDS = [
+    ('UV Light Actually Attracts Fruit Flies', 'uv_attracts'),
+    ('Outperforms Homemade Traps',             'outperforms_homemade'),
+    ('Long-Term Hardware Durability',          'hardware_durability'),
+    ('Trapped Bugs Are Dead',                  'bugs_dead'),
+    ('Refills Included and Affordable',        'refills_affordable'),
+    ('Flexible Placement',                     'flexible_placement'),
+    ('Silent Operation',                       'silent_operation'),
+    ('Catches Large House Flies',              'catches_houseflies'),
+]
+
+def _sample_for_need(voc_reviews, keywords, cap=12):
+    """Pick up to `cap` review samples whose body/title contains any keyword."""
+    out, seen = [], set()
+    for r in voc_reviews:
+        body  = (r.get('body')  or '').lower()
+        title = (r.get('title') or '').lower()
+        text  = body + ' ' + title
+        if any(k.lower() in text for k in keywords):
+            key = (r.get('title') or '')[:80] + '|' + str(r.get('rating'))
+            if key in seen: continue
+            seen.add(key)
+            out.append({
+                'title':  r.get('title')  or '',
+                'body':   r.get('body')   or '',
+                'rating': r.get('r')      or r.get('rating'),
+                'date':   r.get('date')   or '',
+                'brand':  r.get('brand')  or '',
+                'asin':   r.get('asin')   or '',
+            })
+            if len(out) >= cap: break
+    return out
+
+def _build_unmet_bucket(voc_data, id_map, kw_map):
+    """Turn a Console voc-*.json into the un-* tab bucket shape."""
+    expectations = voc_data.get('customerExpectations', []) or []
+    label_to_pct_reason = { (e.get('label') or ''): (
+        float(str(e.get('pct') or '0').replace('%','').strip() or 0),
+        e.get('reason') or ''
+    ) for e in expectations }
+
+    needs, samples = [], {}
+    for label, nid in id_map:
+        pct, reason = label_to_pct_reason.get(label, (0.0, ''))
+        kws = kw_map.get(nid, [])
+        needs.append({
+            'id': nid, 'name': label, 'pct': pct,
+            'reason': reason, 'keywords': kws,
+        })
+        samples[nid] = _sample_for_need(voc_data.get('reviews', []) or [], kws, cap=12)
+
+    return {
+        'segmentName':  voc_data.get('segmentName') or '',
+        'totalReviews': voc_data.get('totalReviews') or 0,
+        'avgRating':    voc_data.get('avgRating')   or 0,
+        'needs':        needs,
+        'samples':      samples,
+    }
+
+unmet_needs_data = {
+    'segments': ['Lure', 'Electric Traps'],
+    'defaultSegment': 'Lure',
+    'buckets': {
+        'Lure':           _build_unmet_bucket(reviews_voc_lure_data,     UN_LURE_IDS,     UN_LURE_KEYWORDS),
+        'Electric Traps': _build_unmet_bucket(reviews_voc_electric_data, UN_ELECTRIC_IDS, UN_ELECTRIC_KEYWORDS),
+    },
+}
+
 # === Marketing Deep-Dive payloads (top-10 per segment by 12M revenue, theme-tagged from title) ===
 # Generated by _build_mdd.py — re-run that script if X-Ray or VOC data changes.
 with open('data/mdd/mdd-lure.json',     encoding='utf-8') as f: mdd_lure_data     = json.load(f)
@@ -439,6 +554,11 @@ tab4_html = _voc_template_raw.replace('urv', 'urvE')  # Electric tab
 with open('../../templates/tabs/u-marketing-deep-dive/template.html', encoding='utf-8') as f: _mdd_template_raw = f.read()
 tab5_html = _mdd_template_raw.replace('mdd-', 'mddL-')  # Lure MDD
 tab6_html = _mdd_template_raw.replace('mdd-', 'mddE-')  # Electric MDD
+
+# u-unmet-needs is a single-instance tab (handles both Lure + Electric internally
+# via segment toggle), so no prefix rewrite needed. All its DOM IDs use the
+# 'un-' prefix and CSS is scoped to '.un-*' classes.
+with open('../../templates/tabs/u-unmet-needs/template.html', encoding='utf-8') as f: tab7_html = f.read()
 
 # === 2-tab shell with tab bar + per-tab data routing ===
 shell = '''<!DOCTYPE html>
@@ -481,6 +601,7 @@ body { display: block; min-height: auto; margin: 0; background:#f1f5f9; font-fam
   <div id="dt-reviews-voc-electric" class="panel"></div>
   <div id="dt-mdd-lure" class="panel"></div>
   <div id="dt-mdd-electric" class="panel"></div>
+  <div id="dt-unmet-needs" class="panel"></div>
 </div>
 <script>
 window.__BUNDLE_DATA__ = /*<<BUNDLE>>*/;
@@ -491,6 +612,7 @@ window.__BUNDLE_DATA__ = /*<<BUNDLE>>*/;
 <template id="tpl-reviews-voc-electric">/*<<TAB4>>*/</template>
 <template id="tpl-mdd-lure">/*<<TAB5>>*/</template>
 <template id="tpl-mdd-electric">/*<<TAB6>>*/</template>
+<template id="tpl-unmet-needs">/*<<TAB7>>*/</template>
 <script>
 (function bootstrap() {
   var B = window.__BUNDLE_DATA__;
@@ -548,6 +670,7 @@ bundle = {
         'reviews-voc-electric':      {'label': 'Reviews VOC · Electric',    'data': reviews_voc_electric_data},
         'mdd-lure':                  {'label': 'Marketing Deep-Dive · Lure',     'data': mdd_lure_data},
         'mdd-electric':              {'label': 'Marketing Deep-Dive · Electric', 'data': mdd_electric_data},
+        'unmet-needs':               {'label': 'Unmet Consumer Needs — Voice of Customer', 'data': unmet_needs_data},
     },
 }
 
@@ -560,6 +683,7 @@ shell = shell.replace('/*<<TAB4>>*/', tab4_html)
 shell = shell.replace('/*<<TAB3>>*/', tab3_html)
 shell = shell.replace('/*<<TAB5>>*/', tab5_html)
 shell = shell.replace('/*<<TAB6>>*/', tab6_html)
+shell = shell.replace('/*<<TAB7>>*/', tab7_html)
 
 with open('index.html', 'w', encoding='utf-8') as f: f.write(shell)
 

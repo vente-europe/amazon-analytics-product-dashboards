@@ -1,0 +1,351 @@
+<!-- u-unmet-needs tab template
+==============================================================================
+Unmet Consumer Needs — Voice of Customer (per-segment toggle).
+Renders the AI-classified customerExpectations from voc-lure + voc-electric
+as a master-detail view: left panel = 8 unmet needs per segment with reasons +
+estimated review counts; right panel = scrollable sample reviews matching each
+need (keyword-highlighted).
+
+DATA CONTRACT — window._TAB_DATA shape:
+{
+  segments: ["Lure", "Electric Traps"],     // ordered toggle labels
+  defaultSegment: "Lure",                   // which segment is active on mount
+  buckets: {
+    "Lure": {
+      segmentName: "Lure",
+      totalReviews: 1756,
+      avgRating: 1.77,
+      needs: [
+        {
+          id: "flies_fall_drown",
+          name: "Flies Fall In and Drown",
+          pct: 36.7,                        // share of reviews
+          reason: "Expectation that the trap design actually captures…",
+          keywords: ["don't go into", "fall in", …]   // for highlighting
+        }, …
+      ],
+      samples: {
+        "flies_fall_drown": [
+          { title, body, rating, date, brand, asin },
+          …
+        ], …
+      }
+    },
+    "Electric Traps": { …same shape… }
+  }
+}
+============================================================================== -->
+
+<style>
+  /* Scoped to .un-* to avoid collisions with sibling tabs in the hub */
+  .un-root{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#0f172a;background:#f1f5f9;border-radius:10px;overflow:hidden;border:1px solid #e2e8f0}
+  .un-header{background:#fff;padding:18px 24px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+  .un-title{font-size:1.05rem;font-weight:700;color:#0f172a;margin-bottom:4px}
+  .un-subtitle{color:#64748b;font-size:.78rem}
+  .un-seg-toggle{display:flex;background:#f1f5f9;border-radius:8px;padding:3px;gap:2px}
+  .un-seg-toggle button{border:none;background:transparent;padding:7px 16px;border-radius:6px;font-size:.78rem;font-weight:600;color:#64748b;cursor:pointer;display:flex;align-items:center;gap:6px;font-family:inherit}
+  .un-seg-toggle button:hover{color:#0f172a}
+  .un-seg-toggle button.active{background:#fff;color:#0f172a;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+  .un-seg-toggle .un-dot{width:8px;height:8px;border-radius:50%}
+  .un-seg-toggle .un-dot.lure{background:#16a34a}
+  .un-seg-toggle .un-dot.electric{background:#dc2626}
+
+  .un-kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:14px 24px;background:#fff;border-bottom:1px solid #e2e8f0}
+  .un-kpi{background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:10px 14px}
+  .un-kpi .un-label{font-size:.62rem;color:#64748b;text-transform:uppercase;letter-spacing:.5px;margin-bottom:3px;font-weight:600}
+  .un-kpi .un-value{font-size:1.25rem;font-weight:700;color:#0f172a}
+  .un-kpi .un-sublabel{font-size:.66rem;color:#94a3b8;margin-top:2px}
+  .un-kpi.un-highlight{background:#eff6ff;border-color:#bfdbfe}
+  .un-kpi.un-highlight .un-value{color:#1d4ed8}
+
+  .un-severity-legend{display:flex;gap:10px;padding:7px 18px;background:#f8fafc;border-bottom:1px solid #e2e8f0;font-size:.66rem;color:#64748b;flex-wrap:wrap;align-items:center}
+  .un-severity-legend .un-item{display:flex;align-items:center;gap:4px}
+  .un-severity-legend .un-sev-dot{width:8px;height:8px;border-radius:2px}
+  .un-severity-legend .un-sev-dot.high{background:#dc2626}
+  .un-severity-legend .un-sev-dot.med{background:#f59e0b}
+  .un-severity-legend .un-sev-dot.low{background:#3b82f6}
+
+  .un-main{display:grid;grid-template-columns:360px 1fr;gap:0;min-height:600px;max-height:78vh}
+  .un-needs-panel{background:#fff;border-right:1px solid #e2e8f0;overflow-y:auto}
+  .un-panel-header{padding:12px 18px;border-bottom:1px solid #e2e8f0;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;background:#fff;z-index:10}
+  .un-panel-header h3{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:#475569;margin:0}
+  .un-panel-header .un-count{font-size:.68rem;color:#94a3b8}
+
+  .un-needs-list{padding:8px 10px}
+  .un-need-card{border:1px solid #e2e8f0;border-radius:8px;padding:10px 12px;margin-bottom:7px;cursor:pointer;transition:all .15s;background:#fff;display:flex;flex-direction:column;gap:5px}
+  .un-need-card:hover{border-color:#cbd5e1;background:#f8fafc}
+  .un-need-card.active{border-color:#3b82f6;background:#eff6ff;box-shadow:0 0 0 2px rgba(59,130,246,.1)}
+  .un-need-card .un-top-row{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+  .un-need-card .un-name{font-weight:600;font-size:.78rem;color:#0f172a;line-height:1.3}
+  .un-need-card .un-reason{font-size:.66rem;color:#64748b;line-height:1.4;font-style:italic}
+  .un-need-card .un-count-pct{text-align:right;font-size:.65rem;color:#64748b;line-height:1.3;white-space:nowrap}
+  .un-need-card .un-count-pct .un-num{font-size:.85rem;font-weight:700;color:#0f172a;display:block}
+  .un-need-card.active .un-count-pct .un-num{color:#1d4ed8}
+  .un-need-card .un-bar{height:5px;background:#e2e8f0;border-radius:3px;overflow:hidden}
+  .un-need-card .un-bar-fill{height:100%;border-radius:3px;transition:width .3s ease-out}
+  .un-need-card.un-severity-high .un-bar-fill{background:linear-gradient(90deg,#dc2626,#f87171)}
+  .un-need-card.un-severity-med .un-bar-fill{background:linear-gradient(90deg,#f59e0b,#fbbf24)}
+  .un-need-card.un-severity-low .un-bar-fill{background:linear-gradient(90deg,#3b82f6,#60a5fa)}
+
+  .un-reviews-panel{background:#f1f5f9;overflow-y:auto;display:flex;flex-direction:column}
+  .un-reviews-header{padding:12px 22px;background:#fff;border-bottom:1px solid #e2e8f0;position:sticky;top:0;z-index:10}
+  .un-reviews-header .un-title-sm{font-size:.66rem;color:#64748b;text-transform:uppercase;letter-spacing:.5px;font-weight:600;margin-bottom:4px}
+  .un-reviews-header .un-selected{font-size:1rem;font-weight:700;color:#0f172a;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .un-reviews-header .un-pill{background:#eff6ff;color:#1d4ed8;font-size:.72rem;font-weight:600;padding:2px 9px;border-radius:12px;border:1px solid #bfdbfe}
+  .un-reviews-header .un-reason-line{margin-top:5px;font-size:.7rem;color:#64748b;font-style:italic;line-height:1.4}
+  .un-reviews-header .un-filters{margin-top:9px;display:flex;gap:7px;flex-wrap:wrap}
+  .un-reviews-header .un-filters input,.un-reviews-header .un-filters select{border:1px solid #cbd5e1;border-radius:5px;padding:5px 9px;font-size:.72rem;background:#fff;color:#334155;font-family:inherit}
+  .un-reviews-header .un-filters input{flex:1;min-width:180px}
+
+  .un-reviews-scrollable{padding:14px 22px;flex:1}
+  .un-sample-note{background:#fff;border:1px dashed #cbd5e1;border-radius:6px;padding:9px 13px;margin-bottom:12px;font-size:.7rem;color:#64748b}
+  .un-review-card{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:12px 14px;margin-bottom:9px}
+  .un-review-card .un-rev-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:5px}
+  .un-review-card .un-stars{color:#f59e0b;font-size:.82rem;letter-spacing:1px}
+  .un-review-card .un-stars .un-empty{color:#e2e8f0}
+  .un-review-card .un-meta{font-size:.65rem;color:#94a3b8;display:flex;gap:7px;align-items:center}
+  .un-review-card .un-meta .un-brand{font-weight:600;color:#475569;background:#f1f5f9;padding:2px 6px;border-radius:3px}
+  .un-review-card .un-rev-title{font-weight:600;color:#0f172a;font-size:.82rem;margin-bottom:5px}
+  .un-review-card .un-rev-body{font-size:.76rem;color:#334155;line-height:1.55}
+  .un-review-card .un-rev-body mark{background:#fef3c7;color:#92400e;padding:0 2px;border-radius:2px;font-weight:500}
+  .un-review-card .un-asin{font-size:.6rem;color:#94a3b8;margin-top:7px;font-family:ui-monospace,'SF Mono',Menlo,monospace}
+
+  .un-empty-state{text-align:center;padding:50px 20px;color:#94a3b8;font-size:.78rem}
+  .un-empty-state .un-icon{font-size:32px;margin-bottom:8px}
+
+  @media (max-width:900px){
+    .un-main{grid-template-columns:1fr;max-height:none}
+    .un-kpi-row{grid-template-columns:repeat(2,1fr)}
+    .un-needs-panel{border-right:0;border-bottom:1px solid #e2e8f0;max-height:400px}
+  }
+</style>
+
+<div id="un-root" class="un-root">
+  <div class="un-header">
+    <div>
+      <div class="un-title" id="un-h-title">Unmet Consumer Needs — Voice of Customer</div>
+      <div class="un-subtitle">Per-segment customer expectations not being met — sourced from the AI-classified VOC analysis</div>
+    </div>
+    <div class="un-seg-toggle" role="tablist" id="un-seg-toggle"></div>
+  </div>
+  <div class="un-kpi-row" id="un-kpi-row"></div>
+  <div class="un-severity-legend">
+    <strong>Severity:</strong>
+    <div class="un-item"><span class="un-sev-dot high"></span> High (&gt;15%)</div>
+    <div class="un-item"><span class="un-sev-dot med"></span> Medium (5-15%)</div>
+    <div class="un-item"><span class="un-sev-dot low"></span> Low (&lt;5%)</div>
+    <div style="margin-left:auto;font-style:italic;font-size:.65rem">Click a need on the left to filter reviews →</div>
+  </div>
+  <div class="un-main">
+    <aside class="un-needs-panel">
+      <div class="un-panel-header">
+        <h3>Unmet Needs</h3>
+        <span class="un-count" id="un-needs-count">— categories</span>
+      </div>
+      <div class="un-needs-list" id="un-needs-list"></div>
+    </aside>
+    <section class="un-reviews-panel">
+      <div class="un-reviews-header">
+        <div class="un-title-sm">Reviews mentioning</div>
+        <div class="un-selected">
+          <span id="un-selected-name">—</span>
+          <span class="un-pill" id="un-selected-count">—</span>
+        </div>
+        <div class="un-reason-line" id="un-selected-reason"></div>
+        <div class="un-filters">
+          <input type="text" placeholder="Search within these reviews..." id="un-search-input">
+          <select id="un-rating-filter">
+            <option value="">All ratings</option>
+            <option value="1">1★ only</option>
+            <option value="2">2★ only</option>
+            <option value="3">3★ only</option>
+            <option value="4">4★ only</option>
+            <option value="5">5★ only</option>
+          </select>
+          <select id="un-brand-filter">
+            <option value="">All brands</option>
+          </select>
+        </div>
+      </div>
+      <div class="un-reviews-scrollable" id="un-reviews-list"></div>
+    </section>
+  </div>
+</div>
+
+<script>
+(function () {
+  var D = window._TAB_DATA;
+  if (!D || !D.buckets) {
+    var r = document.getElementById('un-root');
+    if (r) r.innerHTML = '<div class="un-empty-state"><div class="un-icon">⚠️</div>Unmet Needs data not loaded.</div>';
+    return;
+  }
+
+  var currentSegment = D.defaultSegment || D.segments[0];
+  var selectedNeedId = null;
+
+  function severityFor(pct){
+    if (pct > 15) return 'high';
+    if (pct >= 5) return 'med';
+    return 'low';
+  }
+  function reviewCount(pct, total){ return Math.round(pct * total / 100); }
+  function escapeRe(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+  function highlight(text, keywords){
+    var out = text || '';
+    (keywords || []).forEach(function(kw){
+      try {
+        var re = new RegExp('(' + escapeRe(kw) + ')', 'gi');
+        out = out.replace(re, '<mark>$1</mark>');
+      } catch(_){}
+    });
+    return out;
+  }
+  function stars(rating){
+    var r = Math.round(rating || 0);
+    if (r === 0) return '<span class="un-empty">— no rating —</span>';
+    return '★'.repeat(r) + '<span class="un-empty">' + '★'.repeat(5-r) + '</span>';
+  }
+  function fmt(n){ return (n || 0).toLocaleString(); }
+
+  function renderSegToggle(){
+    var SEG_CLASS = { 'Lure': 'lure', 'Electric Traps': 'electric' };
+    document.getElementById('un-seg-toggle').innerHTML = D.segments.map(function(name){
+      var cls = SEG_CLASS[name] || 'lure';
+      var active = name === currentSegment ? ' active' : '';
+      return '<button class="un-seg-btn' + active + '" data-segment="' + name + '" role="tab"><span class="un-dot ' + cls + '"></span> ' + name + '</button>';
+    }).join('');
+    document.querySelectorAll('#un-seg-toggle .un-seg-btn').forEach(function(btn){
+      btn.addEventListener('click', function(){ switchSegment(btn.dataset.segment); });
+    });
+  }
+
+  function renderKpis(){
+    var seg = D.buckets[currentSegment];
+    if (!seg) return;
+    var top = seg.needs.slice().sort(function(a,b){return b.pct - a.pct;})[0];
+    var topCount = reviewCount(top.pct, seg.totalReviews);
+    document.getElementById('un-kpi-row').innerHTML =
+      '<div class="un-kpi un-highlight"><div class="un-label">Segment</div><div class="un-value">' + seg.segmentName + '</div><div class="un-sublabel">avg rating ' + seg.avgRating.toFixed(2) + '★</div></div>' +
+      '<div class="un-kpi"><div class="un-label">Reviews Analyzed</div><div class="un-value">' + fmt(seg.totalReviews) + '</div><div class="un-sublabel">Amazon US · AI-classified</div></div>' +
+      '<div class="un-kpi"><div class="un-label">Unmet Needs</div><div class="un-value">' + seg.needs.length + '</div><div class="un-sublabel">from AI VOC analysis</div></div>' +
+      '<div class="un-kpi"><div class="un-label">Top Unmet Need</div><div class="un-value" style="font-size:.85rem">' + top.name + '</div><div class="un-sublabel">' + fmt(topCount) + ' reviews (' + top.pct + '%)</div></div>';
+  }
+
+  function renderNeeds(){
+    var seg = D.buckets[currentSegment];
+    if (!seg) return;
+    document.getElementById('un-needs-count').textContent = seg.needs.length + ' categories';
+    var maxPct = Math.max.apply(null, seg.needs.map(function(n){return n.pct;}));
+    document.getElementById('un-needs-list').innerHTML = seg.needs.map(function(n){
+      var sev = severityFor(n.pct);
+      var count = reviewCount(n.pct, seg.totalReviews);
+      var active = n.id === selectedNeedId ? ' active' : '';
+      return '<div class="un-need-card un-severity-' + sev + active + '" data-id="' + n.id + '">' +
+               '<div class="un-top-row">' +
+                 '<div class="un-name">' + n.name + '</div>' +
+                 '<div class="un-count-pct"><span class="un-num">' + fmt(count) + '</span>' + n.pct + '%</div>' +
+               '</div>' +
+               '<div class="un-reason">' + n.reason + '</div>' +
+               '<div class="un-bar"><div class="un-bar-fill" style="width:' + ((n.pct / maxPct) * 100) + '%"></div></div>' +
+             '</div>';
+    }).join('');
+    document.querySelectorAll('#un-needs-list .un-need-card').forEach(function(el){
+      el.addEventListener('click', function(){
+        selectedNeedId = el.dataset.id;
+        renderNeeds();
+        renderReviews();
+      });
+    });
+  }
+
+  function renderReviews(){
+    var seg = D.buckets[currentSegment];
+    if (!seg) return;
+    var need = seg.needs.filter(function(n){return n.id === selectedNeedId;})[0] || seg.needs[0];
+    selectedNeedId = need.id;
+    var count = reviewCount(need.pct, seg.totalReviews);
+    document.getElementById('un-selected-name').textContent = need.name;
+    document.getElementById('un-selected-count').textContent = fmt(count) + ' reviews (' + need.pct + '%)';
+    document.getElementById('un-selected-reason').textContent = need.reason;
+
+    var reviews = (seg.samples && seg.samples[need.id]) || [];
+    var search = (document.getElementById('un-search-input').value || '').toLowerCase();
+    var ratingFilter = document.getElementById('un-rating-filter').value;
+    var brandFilter = document.getElementById('un-brand-filter').value;
+
+    var filtered = reviews.filter(function(r){
+      if (search && ((r.title||'') + ' ' + (r.body||'')).toLowerCase().indexOf(search) === -1) return false;
+      if (ratingFilter && String(r.rating) !== ratingFilter) return false;
+      if (brandFilter && r.brand !== brandFilter) return false;
+      return true;
+    });
+
+    var list = document.getElementById('un-reviews-list');
+    if (!filtered.length){
+      list.innerHTML = '<div class="un-empty-state"><div class="un-icon">📭</div>No reviews match current filters. In production, ' + fmt(count) + ' reviews available for this need.</div>';
+      return;
+    }
+    var note = '<div class="un-sample-note">📊 Showing <strong>' + filtered.length + ' sample reviews</strong> below (extracted via keyword matching). The unmet-need percentage (' + need.pct + '%) is from the AI-classified VOC analysis over all <strong>' + fmt(seg.totalReviews) + '</strong> ' + seg.segmentName + ' reviews.</div>';
+    list.innerHTML = note + filtered.map(function(r){
+      return '<div class="un-review-card">' +
+               '<div class="un-rev-top">' +
+                 '<div class="un-stars">' + stars(r.rating) + '</div>' +
+                 '<div class="un-meta">' +
+                   (r.brand ? '<span class="un-brand">' + r.brand + '</span>' : '') +
+                   '<span>' + (r.date || '') + '</span>' +
+                 '</div>' +
+               '</div>' +
+               '<div class="un-rev-title">' + highlight(r.title, need.keywords) + '</div>' +
+               '<div class="un-rev-body">' + highlight(r.body, need.keywords) + '</div>' +
+               (r.asin ? '<div class="un-asin">ASIN: ' + r.asin + '</div>' : '') +
+             '</div>';
+    }).join('');
+  }
+
+  function populateBrandFilter(){
+    var seg = D.buckets[currentSegment];
+    var sel = document.getElementById('un-brand-filter');
+    sel.innerHTML = '<option value="">All brands</option>';
+    if (!seg || !seg.samples) return;
+    var brands = {};
+    Object.keys(seg.samples).forEach(function(k){
+      seg.samples[k].forEach(function(r){ if (r.brand) brands[r.brand] = true; });
+    });
+    Object.keys(brands).sort().forEach(function(b){
+      var opt = document.createElement('option');
+      opt.value = b; opt.textContent = b;
+      sel.appendChild(opt);
+    });
+  }
+
+  function switchSegment(name){
+    currentSegment = name;
+    document.querySelectorAll('#un-seg-toggle .un-seg-btn').forEach(function(b){
+      b.classList.toggle('active', b.dataset.segment === name);
+    });
+    var seg = D.buckets[name];
+    selectedNeedId = (seg && seg.needs[0]) ? seg.needs[0].id : null;
+    renderKpis();
+    renderNeeds();
+    populateBrandFilter();
+    document.getElementById('un-search-input').value = '';
+    document.getElementById('un-rating-filter').value = '';
+    document.getElementById('un-brand-filter').value = '';
+    renderReviews();
+  }
+
+  document.getElementById('un-search-input').addEventListener('input', renderReviews);
+  document.getElementById('un-rating-filter').addEventListener('change', renderReviews);
+  document.getElementById('un-brand-filter').addEventListener('change', renderReviews);
+
+  // Initial render
+  renderSegToggle();
+  var initSeg = D.buckets[currentSegment];
+  selectedNeedId = (initSeg && initSeg.needs[0]) ? initSeg.needs[0].id : null;
+  renderKpis();
+  renderNeeds();
+  populateBrandFilter();
+  renderReviews();
+})();
+</script>
