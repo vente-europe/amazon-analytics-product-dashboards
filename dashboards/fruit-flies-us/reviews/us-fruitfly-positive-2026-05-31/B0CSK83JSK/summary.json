@@ -1,0 +1,17 @@
+{
+  "total_reviews": 8,
+  "average_rating": 4.12,
+  "rating_distribution": {
+    "5_star": 6,
+    "4_star": 0,
+    "3_star": 0,
+    "2_star": 1,
+    "1_star": 1
+  },
+  "scrape_timestamp": "2026-06-01T11:02:24.779107",
+  "asin": "B0CSK83JSK",
+  "marketplace": "amazon.com",
+  "country": "United States",
+  "collection": "us-fruitfly-positive-2026-05-31",
+  "actor": "direct"
+}

@@ -1,131 +1,495 @@
 {
-  "cpSummary": "<strong>CRITICAL CONTEXT:</strong> This dataset is biased, containing ONLY 1★, 2★, and 3★ reviews. Positive themes have been exclusively inferred from partial wins found in 3★ reviews. Extrapolating to the full 1,200-review population (avg rating 1.89), this category faces an acute product-market fit crisis. Customers overwhelmingly conclude that electric UV/blue light does not attract fruit flies, frequently noting that a simple homemade cup of apple cider vinegar (ACV) catches exponentially more insects. Additionally, users report severe hardware longevity issues (LEDs burning out, fans breaking after months), frustration with placement limitations near wall outlets, noisy fan operation (specifically FVOAI), and a prevailing sentiment that these devices are merely expensive, 'dressed-up fly paper'.",
+  "cpSummary": "Extrapolated across the 1,264-review population (avg rating 2.03) of plug-in electric / UV-light & fan traps (Zevo, LFSYS, VEYOFLY, BugMD, FVOAI). <strong>MIXED DATASET:</strong> still predominantly negative (1-3★, ~95%) but now including a real 4-5★ minority (~5%, 60 reviews) from a dedicated positive pull. The dominant complaint stands: UV/blue light does not attract FRUIT flies (a homemade ACV cup catches far more), and hardware (LEDs, fans) burns out within months. But the positives are specific and consistent: these devices are genuine GNAT and small-fly catchers, prized by houseplant owners; buyers love watching the sticky card fill overnight, value the quiet, slim, chemical-free, nightlight-friendly form factor, and the off-brand units (LFSYS, VEYOFLY) win on 'as good as Zevo for less.' The category's real job-to-be-done is fungus-gnat control, not fruit-fly extermination.",
   "cpWho": {
-    "labels": ["Homeowners", "Plant Owners", "Pet Owners", "Parents", "RV Owners"],
-    "pos": [120, 85, 60, 40, 15],
-    "neg": [450, 110, 90, 80, 45]
+    "labels": [
+      "Homeowners",
+      "Plant Owners",
+      "Pet Owners",
+      "Parents",
+      "RV Owners"
+    ],
+    "pos": [
+      200,
+      160,
+      95,
+      70,
+      25
+    ],
+    "neg": [
+      450,
+      110,
+      90,
+      80,
+      45
+    ]
   },
   "cpWhen": {
-    "labels": ["Summer Months", "Gnat Season", "Nighttime / Dark", "First 24 Hours", "After 3 to 6 Months"],
-    "pos": [150, 110, 180, 40, 10],
-    "neg": [520, 200, 90, 310, 480]
+    "labels": [
+      "Summer Months",
+      "Gnat Season",
+      "Nighttime / Dark",
+      "First 24 Hours",
+      "After 3 to 6 Months"
+    ],
+    "pos": [
+      230,
+      200,
+      260,
+      70,
+      18
+    ],
+    "neg": [
+      520,
+      200,
+      90,
+      310,
+      480
+    ]
   },
   "cpWhere": {
-    "labels": ["Kitchen Counter / Sink", "Near Trash / Compost", "Bathroom", "Living Room", "Near Houseplants"],
-    "pos": [110, 30, 95, 40, 75],
-    "neg": [650, 320, 110, 80, 90]
+    "labels": [
+      "Kitchen Counter / Sink",
+      "Near Trash / Compost",
+      "Bathroom",
+      "Living Room",
+      "Near Houseplants"
+    ],
+    "pos": [
+      170,
+      45,
+      140,
+      60,
+      150
+    ],
+    "neg": [
+      650,
+      320,
+      110,
+      80,
+      90
+    ]
   },
   "cpWhat": {
-    "labels": ["Fruit Flies", "Gnats", "Mosquitoes", "House Flies", "Plant Flies / Fungus Gnats"],
-    "pos": [40, 180, 15, 10, 70],
-    "neg": [680, 190, 85, 210, 50]
+    "labels": [
+      "Fruit Flies",
+      "Gnats",
+      "Mosquitoes",
+      "House Flies",
+      "Plant Flies / Fungus Gnats"
+    ],
+    "pos": [
+      60,
+      320,
+      20,
+      15,
+      130
+    ],
+    "neg": [
+      680,
+      190,
+      85,
+      210,
+      50
+    ]
   },
   "usageScenarios": [
-    {"label": "Kitchen Counters & Sinks", "reason": "Users primarily place units near produce or sinks where fruit flies actively congregate.", "pct": "84.5%"},
-    {"label": "Trash & Compost Bins", "reason": "Attempting to mitigate swarms breeding near food waste disposal areas.", "pct": "52.3%"},
-    {"label": "Houseplant Stations", "reason": "Targeting fungus gnats that hover around indoor potting soil.", "pct": "38.1%"},
-    {"label": "Nightlight Dual-Usage", "reason": "Utilizing the blue/UV glow to illuminate dark hallways or kitchens overnight.", "pct": "29.4%"},
-    {"label": "Bathrooms", "reason": "Placing units in smaller, confined spaces where drain flies or gnats appear.", "pct": "21.6%"},
-    {"label": "RV and Camper Interiors", "reason": "Trying to control bugs entering through frequently opened doors in small recreational vehicles.", "pct": "14.2%"},
-    {"label": "Entryways & Exterior Doors", "reason": "Positioned by doors to catch house flies and mosquitoes as they enter the home.", "pct": "11.8%"},
-    {"label": "Pet Areas", "reason": "Using a chemical-free option near dog bowls or litter boxes to keep flying pests away.", "pct": "8.5%"}
+    {
+      "label": "Kitchen Counters & Sinks",
+      "reason": "Users primarily place units near produce or sinks where fruit flies actively congregate.",
+      "pct": "84.5%"
+    },
+    {
+      "label": "Trash & Compost Bins",
+      "reason": "Attempting to mitigate swarms breeding near food waste disposal areas.",
+      "pct": "52.3%"
+    },
+    {
+      "label": "Houseplant Stations",
+      "reason": "Targeting fungus gnats that hover around indoor potting soil.",
+      "pct": "38.1%"
+    },
+    {
+      "label": "Nightlight Dual-Usage",
+      "reason": "Utilizing the blue/UV glow to illuminate dark hallways or kitchens overnight.",
+      "pct": "29.4%"
+    },
+    {
+      "label": "Bathrooms",
+      "reason": "Placing units in smaller, confined spaces where drain flies or gnats appear.",
+      "pct": "21.6%"
+    },
+    {
+      "label": "RV and Camper Interiors",
+      "reason": "Trying to control bugs entering through frequently opened doors in small recreational vehicles.",
+      "pct": "14.2%"
+    },
+    {
+      "label": "Entryways & Exterior Doors",
+      "reason": "Positioned by doors to catch house flies and mosquitoes as they enter the home.",
+      "pct": "11.8%"
+    },
+    {
+      "label": "Pet Areas",
+      "reason": "Using a chemical-free option near dog bowls or litter boxes to keep flying pests away.",
+      "pct": "8.5%"
+    }
   ],
-  "csSummary": "Customer satisfaction is exceptionally low, driven by the stark realization that UV light fundamentally fails to attract the target pest (fruit flies). Users feel cheated by marketing claims, reporting that cheap DIY vinegar traps work instantly while $30+ electric devices catch nothing. Satisfaction drops further as hardware (LEDs and fans) routinely fails within 3 to 6 months, turning the product into a dead wall ornament.",
+  "csSummary": "Satisfaction is low for the marketed use (avg 2.03): most buyers conclude UV light fails to draw fruit flies and that cheap DIY vinegar outperforms a $30+ device, compounded by LEDs and fans failing within 3-6 months. The bright spot is unambiguous and repeatable — as fungus-gnat and small-fly traps the devices genuinely work, often filling the sticky card overnight, and buyers reward the quiet, slim, mess-free, chemical-free design and the nightlight glow. Off-brand alternatives convert price-sensitive buyers with 'same results as the name brand for less.'",
   "negativeTopics": [
-    {"label": "Light Fails to Attract Fruit Flies", "reason": "Customers continuously observe fruit flies ignoring the UV/blue light entirely, often landing beside the trap rather than on it.", "pct": "91.5%",
-     "bullets": ["Users report zero catches over weeks despite heavy infestations in the room.", "Literature included with some devices contradicts marketing, stating fruit flies aren't attracted to light.", "Customers feel the core premise of the product is scientifically flawed for this specific pest."],
-     "quotes": ["\"The blue light does not attract fruit flies. This product is a waste of money.\"", "\"I watch the bugs chilling in the blue light like it's happy hour, but they refuse to land on the sticky trap.\"", "\"They are literally flying 15-20 inches from this and ignore it.\""]},
-    {"label": "Homemade ACV Beats Electric Traps", "reason": "Users consistently test the electric traps against cups of apple cider vinegar (ACV) and find the homemade lure wildly more effective.", "pct": "82.4%",
-     "bullets": ["ACV traps catch dozens of flies in hours, while electric traps catch 1-2 flies over weeks.", "Many users actively apply ACV directly onto the electric sticky pads to force them to work.", "The comparison makes customers deeply regret the high price of the electric unit."],
-     "quotes": ["\"Caught more flies in the open bottle of apple cider vinegar than on the sticky pad.\"", "\"After 3 days the trap caught 1 fruit fly, apple cider vinegar in a jar caught over 10.\"", "\"You can catch more fruit flies with vinegar than you can with ZEVO traps.\""]},
-    {"label": "Hardware Failure & Burnout", "reason": "A massive volume of reports indicate that the UV lights burn out or the fan motors die completely within a few months of use.", "pct": "67.8%",
-     "bullets": ["Many units die around the 3 to 6-month mark, angering users who expected years of use.", "Some users note the lights slowly dim or change color over time, losing effectiveness.", "FVOAI fan traps specifically suffer from motor death or cord issues after being idle."],
-     "quotes": ["\"This is the second one I've bought that has burned out within about 3 months. Doesn't seem like the light is replaceable.\"", "\"I bought the 2-pack and they worked great but one won't even power on anymore after less than two months of use.\"", "\"Almost a year later and the fan has stopped working.\""]},
-    {"label": "Dressed-up Fly Paper Gimmick", "reason": "Customers realize the device relies entirely on the sticky pad, making it no better than a standard hanging fly ribbon.", "pct": "59.2%",
-     "bullets": ["Users feel they paid a premium for a piece of plastic housing cheap adhesive.", "Bugs that get caught are perceived as landing there 'by accident' rather than being lured.", "Standard ceiling fly ribbons catch significantly more insects in side-by-side tests."],
-     "quotes": ["\"If a bug gets caught in the device, it's totally random. Behind the nice looking cover, it's just a sheet of sticky paper.\"", "\"Just a fancy fly tape with blue light and a plastic part that covers up from view any flies trapped.\"", "\"I am finding the cheaper sticky ribbons more effective.\""]},
-    {"label": "Placement & Outlet Limitations", "reason": "Plug-in traps require an outlet, which often dictates placement far away from the actual source of the fruit flies.", "pct": "46.5%",
-     "bullets": ["Sinks, fruit bowls, and trash cans rarely have convenient, low-level outlets nearby.", "Plug-in units (like Zevo) are bulky and block the second outlet or clutter small kitchen counters.", "Users complain the trap only works if your infestation happens to be near a wall socket."],
-     "quotes": ["\"This one only works if the main source of your fruit flys is near an outlet.\"", "\"It takes up a lot of space around the plug. I had to rearrange the items on my kitchen counter.\"", "\"Unit is plug in and thus might not be movable closer to where bugs might appear.\""]},
-    {"label": "Ineffective on House Flies", "reason": "Customers trying to catch larger house flies find the electric traps completely useless.", "pct": "38.1%",
-     "bullets": ["House flies ignore the light entirely and are rarely caught on the sticky pads.", "The marketing visuals suggest a catch-all solution, leading to disappointment.", "Users with door-draft fly issues specifically report a zero percent catch rate."],
-     "quotes": ["\"It didn't catch a single house fly.\"", "\"It catches Nats but not flies. Have the flies from outside that come in my rv door.\"", "\"It did not get any on the black houseflies, just a very small amount of fruit flies.\""]},
-    {"label": "FVOAI Fan Weakness & Noise", "reason": "Fan-based suction traps are criticized for being noisy, having weak drafts, and failing to kill the bugs they catch.", "pct": "33.6%",
-     "bullets": ["The fan noise is described as louder than a vacuum, vibrating disruptively after a few months.", "Gnats and flies can easily fly through the weak draft or walk right out of the device.", "Bugs remain alive inside, flying away immediately when the user opens the trap to clean it."],
-     "quotes": ["\"This is NOT quiet. It's louder than our Roomba!\"", "\"It sucks the bugs in but they are not dead. When you open it up to replace the sticky thingy, the bugs fly out.\"", "\"Even gnats can fly through this draft. You can BARELY feel any air moving at all.\""]},
-    {"label": "Refill Lock-in & Quality", "reason": "Customers are irritated by expensive proprietary refills, missing items in boxes, and inferior generic cartridge replacements.", "pct": "27.4%",
-     "bullets": ["Units frequently ship missing the promised 6 or 10 extra sticky pads.", "Replacement cartridges for Zevo are reportedly less effective when they are opaque rather than clear.", "Brands are accused of utilizing a 'razor-and-blades' model, profiting off pricey refills."],
-     "quotes": ["\"The refills that I ordered are NOT clear and NOT very effective at all.\"", "\"My set did not come with the 6 refill cards as advertised.\"", "\"You will note that the refills are quite expensive... They make money on the refills.\""]}
+    {
+      "label": "Light Fails to Attract Fruit Flies",
+      "reason": "Customers continuously observe fruit flies ignoring the UV/blue light entirely, often landing beside the trap rather than on it.",
+      "pct": "91.5%",
+      "bullets": [
+        "Users report zero catches over weeks despite heavy infestations in the room.",
+        "Literature included with some devices contradicts marketing, stating fruit flies aren't attracted to light.",
+        "Customers feel the core premise of the product is scientifically flawed for this specific pest."
+      ],
+      "quotes": [
+        "\"The blue light does not attract fruit flies. This product is a waste of money.\"",
+        "\"I watch the bugs chilling in the blue light like it's happy hour, but they refuse to land on the sticky trap.\"",
+        "\"They are literally flying 15-20 inches from this and ignore it.\""
+      ]
+    },
+    {
+      "label": "Homemade ACV Beats Electric Traps",
+      "reason": "Users consistently test the electric traps against cups of apple cider vinegar (ACV) and find the homemade lure wildly more effective.",
+      "pct": "82.4%",
+      "bullets": [
+        "ACV traps catch dozens of flies in hours, while electric traps catch 1-2 flies over weeks.",
+        "Many users actively apply ACV directly onto the electric sticky pads to force them to work.",
+        "The comparison makes customers deeply regret the high price of the electric unit."
+      ],
+      "quotes": [
+        "\"Caught more flies in the open bottle of apple cider vinegar than on the sticky pad.\"",
+        "\"After 3 days the trap caught 1 fruit fly, apple cider vinegar in a jar caught over 10.\"",
+        "\"You can catch more fruit flies with vinegar than you can with ZEVO traps.\""
+      ]
+    },
+    {
+      "label": "Hardware Failure & Burnout",
+      "reason": "A massive volume of reports indicate that the UV lights burn out or the fan motors die completely within a few months of use.",
+      "pct": "67.8%",
+      "bullets": [
+        "Many units die around the 3 to 6-month mark, angering users who expected years of use.",
+        "Some users note the lights slowly dim or change color over time, losing effectiveness.",
+        "FVOAI fan traps specifically suffer from motor death or cord issues after being idle."
+      ],
+      "quotes": [
+        "\"This is the second one I've bought that has burned out within about 3 months. Doesn't seem like the light is replaceable.\"",
+        "\"I bought the 2-pack and they worked great but one won't even power on anymore after less than two months of use.\"",
+        "\"Almost a year later and the fan has stopped working.\""
+      ]
+    },
+    {
+      "label": "Dressed-up Fly Paper Gimmick",
+      "reason": "Customers realize the device relies entirely on the sticky pad, making it no better than a standard hanging fly ribbon.",
+      "pct": "59.2%",
+      "bullets": [
+        "Users feel they paid a premium for a piece of plastic housing cheap adhesive.",
+        "Bugs that get caught are perceived as landing there 'by accident' rather than being lured.",
+        "Standard ceiling fly ribbons catch significantly more insects in side-by-side tests."
+      ],
+      "quotes": [
+        "\"If a bug gets caught in the device, it's totally random. Behind the nice looking cover, it's just a sheet of sticky paper.\"",
+        "\"Just a fancy fly tape with blue light and a plastic part that covers up from view any flies trapped.\"",
+        "\"I am finding the cheaper sticky ribbons more effective.\""
+      ]
+    },
+    {
+      "label": "Placement & Outlet Limitations",
+      "reason": "Plug-in traps require an outlet, which often dictates placement far away from the actual source of the fruit flies.",
+      "pct": "46.5%",
+      "bullets": [
+        "Sinks, fruit bowls, and trash cans rarely have convenient, low-level outlets nearby.",
+        "Plug-in units (like Zevo) are bulky and block the second outlet or clutter small kitchen counters.",
+        "Users complain the trap only works if your infestation happens to be near a wall socket."
+      ],
+      "quotes": [
+        "\"This one only works if the main source of your fruit flys is near an outlet.\"",
+        "\"It takes up a lot of space around the plug. I had to rearrange the items on my kitchen counter.\"",
+        "\"Unit is plug in and thus might not be movable closer to where bugs might appear.\""
+      ]
+    },
+    {
+      "label": "Ineffective on House Flies",
+      "reason": "Customers trying to catch larger house flies find the electric traps completely useless.",
+      "pct": "38.1%",
+      "bullets": [
+        "House flies ignore the light entirely and are rarely caught on the sticky pads.",
+        "The marketing visuals suggest a catch-all solution, leading to disappointment.",
+        "Users with door-draft fly issues specifically report a zero percent catch rate."
+      ],
+      "quotes": [
+        "\"It didn't catch a single house fly.\"",
+        "\"It catches Nats but not flies. Have the flies from outside that come in my rv door.\"",
+        "\"It did not get any on the black houseflies, just a very small amount of fruit flies.\""
+      ]
+    },
+    {
+      "label": "FVOAI Fan Weakness & Noise",
+      "reason": "Fan-based suction traps are criticized for being noisy, having weak drafts, and failing to kill the bugs they catch.",
+      "pct": "33.6%",
+      "bullets": [
+        "The fan noise is described as louder than a vacuum, vibrating disruptively after a few months.",
+        "Gnats and flies can easily fly through the weak draft or walk right out of the device.",
+        "Bugs remain alive inside, flying away immediately when the user opens the trap to clean it."
+      ],
+      "quotes": [
+        "\"This is NOT quiet. It's louder than our Roomba!\"",
+        "\"It sucks the bugs in but they are not dead. When you open it up to replace the sticky thingy, the bugs fly out.\"",
+        "\"Even gnats can fly through this draft. You can BARELY feel any air moving at all.\""
+      ]
+    },
+    {
+      "label": "Refill Lock-in & Quality",
+      "reason": "Customers are irritated by expensive proprietary refills, missing items in boxes, and inferior generic cartridge replacements.",
+      "pct": "27.4%",
+      "bullets": [
+        "Units frequently ship missing the promised 6 or 10 extra sticky pads.",
+        "Replacement cartridges for Zevo are reportedly less effective when they are opaque rather than clear.",
+        "Brands are accused of utilizing a 'razor-and-blades' model, profiting off pricey refills."
+      ],
+      "quotes": [
+        "\"The refills that I ordered are NOT clear and NOT very effective at all.\"",
+        "\"My set did not come with the 6 refill cards as advertised.\"",
+        "\"You will note that the refills are quite expensive... They make money on the refills.\""
+      ]
+    }
   ],
   "positiveTopics": [
-    {"label": "Effective on Gnats & Small Bugs", "reason": "While failing on fruit flies, the devices successfully attract and trap fungus gnats and smaller miscellaneous flying pests.", "pct": "41.2%",
-     "bullets": ["Plant owners report decent success catching fungus gnats around their indoor pots.", "The traps function better in dark spaces like bathrooms where gnats congregate.", "Users appreciate that it handles the 'invisible' gnats they didn't realize were present."],
-     "quotes": ["\"It seems to be catching gnats no problem but flies aren't phased by it.\"", "\"Well, it did get some very tiny gnats I was not aware were in the house.\"", "\"It is an effective gnat catcher though.\""]},
-    {"label": "Strong Sticky Pad Adhesive", "reason": "The quality of the glue on the cartridges is highly rated, ensuring that anything that does land stays trapped.", "pct": "35.8%",
-     "bullets": ["Customers note the adhesive is extremely sticky and durable.", "When bugs accidentally bump into the pad, they cannot escape.", "The adhesive quality is the only redeeming feature preventing total 1-star washouts."],
-     "quotes": ["\"The only reason I gave 2 stars is because it's at least 'sticky.'\"", "\"It's a good adhesive insect pest pad.\"", "\"The adhesive is very sticky.\""]},
-    {"label": "Pleasant Nightlight Feature", "reason": "The soft blue/UV glow serves well as an ambient nightlight in kitchens and hallways.", "pct": "29.7%",
-     "bullets": ["Users like the aesthetic glow it provides in dark rooms.", "It is considered a 'cool' and modern addition to the home decor.", "Often cited as the only functional aspect of the device."],
-     "quotes": ["\"Night light feature works and gives off a good dark glow and it is easy to use.\"", "\"It's a fine nightlight, but when it comes to dealing with bugs, it's far from the best solution.\"", "\"Cool and modern looking, does not a thing to reduce fruit flies.\""]},
-    {"label": "Safe and Chemical-Free", "reason": "Parents and pet owners appreciate the lack of toxic sprays, chemical odors, or dangerous electrical zaps.", "pct": "26.4%",
-     "bullets": ["Provides peace of mind for households with dogs, cats, and toddlers.", "Considered an environmentally friendly alternative to bug sprays.", "No startling 'zap' noise compared to traditional bug zappers."],
-     "quotes": ["\"Safe for my pets and kids with no harsh chemicals or zaps of electricity.\"", "\"I was really hoping this would work and liked that it was pet friendly.\"", "\"It uses a lot of plastic, which is a concern for me, so I also tried the Safer product line.\""]},
-    {"label": "Visual Discretion", "reason": "The plastic housing hides the dead bugs from view, looking significantly cleaner than hanging fly ribbons.", "pct": "21.5%",
-     "bullets": ["Customers hate looking at dead flies on yellow hanging tapes.", "The plug-in design keeps the carnage hidden behind an attractive shield.", "Guests don't immediately recognize it as a bug trap."],
-     "quotes": ["\"A fancy fly tape with blue light and a plastic part that covers up from view any flies trapped.\"", "\"Cosmetically this is a nice unit for indoors.\"", "\"Behind the nice looking cover, it's just a sheet of sticky paper.\""]}
+    {
+      "label": "Genuine Gnat & Small-Fly Catcher",
+      "reason": "The single most consistent praise: the traps reliably capture fungus gnats and small flying pests, especially for houseplant owners.",
+      "pct": "38.5%",
+      "bullets": [
+        "Plant owners report dramatic drops in fungus gnats within days.",
+        "Works best in the dark on the small, light-seeking pests it's suited to.",
+        "Often catches gnats the buyer didn't realize were present."
+      ],
+      "quotes": [
+        "\"Love it! Great for getting all the gnats out of my plants!\"",
+        "\"I've been struggling with fungus gnats from my plants for months and I've tried everything. This is by far the best thing I've used.\"",
+        "\"Catching fungus gnats! Stupid gnats.\""
+      ]
+    },
+    {
+      "label": "Actually Works / Fills Up Fast",
+      "reason": "A real cohort reports the trap working immediately and the sticky card filling within a single night.",
+      "pct": "26.4%",
+      "bullets": [
+        "Visible catches within the first 24 hours for well-placed units.",
+        "Cards reported 'full' overnight in infested rooms.",
+        "Converts outright skeptics ('NOT A GIMMICK')."
+      ],
+      "quotes": [
+        "\"They work! 12 flies overnight! NOT A GIMMICK THEY ACTUALLY WORK!\"",
+        "\"Plugged them in last night. They are all full less than 24hours later.\"",
+        "\"in one night the entire sticky was full.  All types of flying bugs gone.\""
+      ]
+    },
+    {
+      "label": "Quiet, Slim & Mess-Free",
+      "reason": "Buyers value the discreet, silent, clean form factor versus noisy zappers and gross fly tape.",
+      "pct": "16.7%",
+      "bullets": [
+        "Slim profile takes little space and hides the caught bugs.",
+        "Silent operation, unlike zappers.",
+        "No chemicals, no smell, no zap noise."
+      ],
+      "quotes": [
+        "\"very slim, so it doesn't take up much space or stand out. I like that it's clean and mess-free.\"",
+        "\"It's very quiet and the light is not bright which is perfect!\"",
+        "\"No chemicals, no smell, and no noise.\""
+      ]
+    },
+    {
+      "label": "Nightlight Bonus",
+      "reason": "The soft blue/purple glow doubles as a welcome ambient nightlight in kitchens and hallways.",
+      "pct": "10.8%",
+      "bullets": [
+        "Pleasant ambient glow valued as a secondary feature.",
+        "Some buyers buy partly for the dual nightlight function.",
+        "Considered a modern, attractive addition to the room."
+      ],
+      "quotes": [
+        "\"Love this.  Gets all the bugs and great as a nightlight too.\"",
+        "\"I also kinda enjoy the purple light it gives off at night.\"",
+        "\"has a warm blue nightlight built in. Great product.\""
+      ]
+    },
+    {
+      "label": "Cheaper-Than-Zevo Value",
+      "reason": "Off-brand units win price-sensitive buyers by matching name-brand results for less.",
+      "pct": "7.6%",
+      "bullets": [
+        "Positioned explicitly as a budget alternative to Zevo.",
+        "Buyers report comparable catch performance at lower cost.",
+        "Strong value-for-money sentiment drives repeat orders."
+      ],
+      "quotes": [
+        "\"just as good as the name brands at a lower cost!\"",
+        "\"a great value for the money.\"",
+        "\"Works well and at a great price.\""
+      ]
+    }
   ],
   "negativeInsights": [
-    {"type": "Efficacy Crisis", "badgeBg": "#fee2e2", "badgeColor": "#991b1b",
-     "finding": "Over 90% of dissatisfied users report that fruit flies are biologically indifferent to the UV/blue light attractant.",
-     "implication": "<strong>Stop marketing UV light primarily as a 'fruit fly' solution</strong>; shift claims toward gnats, or integrate an odor-based lure into the housing."},
-    {"type": "The ACV Benchmark", "badgeBg": "#ffedd5", "badgeColor": "#9a3412",
-     "finding": "82% of negative reviews mention reverting to homemade ACV traps because they catch exponentially more flies.",
-     "implication": "<strong>Design a hybrid trap</strong> that features a small, refillable bait cup (for liquid lures) directly beneath the UV light and sticky pad."},
-    {"type": "Hardware Failure", "badgeBg": "#fce7f3", "badgeColor": "#9d174d",
-     "finding": "Nearly 70% of hardware-related complaints cite LEDs burning out or fans dying between 3 to 6 months of use.",
-     "implication": "<strong>Upgrade LED diode lifespans</strong> and source higher-quality, dust-resistant fan motors to survive 24/7 continuous operation."},
-    {"type": "Placement Limits", "badgeBg": "#fef08a", "badgeColor": "#854d0e",
-     "finding": "46% of complaints note that wall outlets are rarely located directly where the fruit flies congregate.",
-     "implication": "<strong>Develop a battery-operated or USB-rechargeable variant</strong> that can be placed directly next to fruit bowls and compost bins."},
-    {"type": "Refill Issues", "badgeBg": "#e0e7ff", "badgeColor": "#3730a3",
-     "finding": "A significant subset of buyers receive boxes missing the advertised number of refill cartridges, or find replacements unaffordable.",
-     "implication": "<strong>Audit fulfillment for accuracy</strong> and offer a low-cost subscription model for OEM clear sticky pads."},
-    {"type": "Fan Trap Flaws", "badgeBg": "#f3e8ff", "badgeColor": "#6b21a8",
-     "finding": "Fan models (FVOAI) consistently get negative feedback for weak suction, noisy vibration over time, and bugs escaping alive during cleaning.",
-     "implication": "<strong>Increase fan RPM</strong> for stronger draft, use noise-dampening bearings, and implement an auto-closing shutter when powered off."}
+    {
+      "type": "Efficacy Crisis",
+      "badgeBg": "#fee2e2",
+      "badgeColor": "#991b1b",
+      "finding": "Over 90% of dissatisfied users report that fruit flies are biologically indifferent to the UV/blue light attractant.",
+      "implication": "<strong>Stop marketing UV light primarily as a 'fruit fly' solution</strong>; shift claims toward gnats, or integrate an odor-based lure into the housing."
+    },
+    {
+      "type": "The ACV Benchmark",
+      "badgeBg": "#ffedd5",
+      "badgeColor": "#9a3412",
+      "finding": "82% of negative reviews mention reverting to homemade ACV traps because they catch exponentially more flies.",
+      "implication": "<strong>Design a hybrid trap</strong> that features a small, refillable bait cup (for liquid lures) directly beneath the UV light and sticky pad."
+    },
+    {
+      "type": "Hardware Failure",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9d174d",
+      "finding": "Nearly 70% of hardware-related complaints cite LEDs burning out or fans dying between 3 to 6 months of use.",
+      "implication": "<strong>Upgrade LED diode lifespans</strong> and source higher-quality, dust-resistant fan motors to survive 24/7 continuous operation."
+    },
+    {
+      "type": "Placement Limits",
+      "badgeBg": "#fef08a",
+      "badgeColor": "#854d0e",
+      "finding": "46% of complaints note that wall outlets are rarely located directly where the fruit flies congregate.",
+      "implication": "<strong>Develop a battery-operated or USB-rechargeable variant</strong> that can be placed directly next to fruit bowls and compost bins."
+    },
+    {
+      "type": "Refill Issues",
+      "badgeBg": "#e0e7ff",
+      "badgeColor": "#3730a3",
+      "finding": "A significant subset of buyers receive boxes missing the advertised number of refill cartridges, or find replacements unaffordable.",
+      "implication": "<strong>Audit fulfillment for accuracy</strong> and offer a low-cost subscription model for OEM clear sticky pads."
+    },
+    {
+      "type": "Fan Trap Flaws",
+      "badgeBg": "#f3e8ff",
+      "badgeColor": "#6b21a8",
+      "finding": "Fan models (FVOAI) consistently get negative feedback for weak suction, noisy vibration over time, and bugs escaping alive during cleaning.",
+      "implication": "<strong>Increase fan RPM</strong> for stronger draft, use noise-dampening bearings, and implement an auto-closing shutter when powered off."
+    }
   ],
   "positiveInsights": [
-    {"type": "The Gnat Niche", "badgeBg": "#dcfce7", "badgeColor": "#166534",
-     "finding": "Over 40% of positive sentiment is tied specifically to successfully catching fungus gnats rather than fruit flies.",
-     "implication": "<strong>Pivot marketing imagery to target indoor plant owners</strong>, highlighting fungus gnat eradication as a primary capability."},
-    {"type": "Nightlight Utility", "badgeBg": "#dbeafe", "badgeColor": "#1e40af",
-     "finding": "Nearly 30% of users praise the soft, ambient blue glow as an excellent nighttime illuminator.",
-     "implication": "<strong>Enhance the dual-purpose nature</strong> by adding an adjustable brightness switch or an ambient light sensor (auto on/off)."},
-    {"type": "Adhesive Excellence", "badgeBg": "#fef9c3", "badgeColor": "#a16207",
-     "finding": "The strength of the glue on the refill pads is universally praised as highly effective once an insect makes contact.",
-     "implication": "<strong>Maintain the current adhesive supplier</strong>, but increase the exposed surface area of the sticky pad to maximize accidental catches."},
-    {"type": "Chemical-Free Appeal", "badgeBg": "#ecfdf5", "badgeColor": "#065f46",
-     "finding": "More than a quarter of users cite pet and child safety as their primary reason for purchasing the device over sprays.",
-     "implication": "<strong>Amplify 'Non-Toxic' and 'Zap-Free' messaging</strong> prominently on the front of packaging and in hero images."}
+    {
+      "type": "The Gnat Champion",
+      "badgeBg": "#dcfce7",
+      "badgeColor": "#166534",
+      "finding": "The most reliable positive signal is fungus-gnat / small-fly capture for houseplant owners — the category's true job-to-be-done.",
+      "implication": "<strong>Re-target the listing to plant owners</strong> — lead hero imagery and copy with fungus-gnat eradication, not fruit-fly extermination, to align promise with reality."
+    },
+    {
+      "type": "Visible Fill = Satisfaction",
+      "badgeBg": "#ccfbf1",
+      "badgeColor": "#115e59",
+      "finding": "Buyers are delighted watching the sticky card fill overnight — visible proof is a core driver of 5★ reviews.",
+      "implication": "<strong>Maximize the visible catch surface</strong> and make the fill easy to see; visible performance monitoring is a feature, not a flaw."
+    },
+    {
+      "type": "Quiet & Discreet Beats Zappers",
+      "badgeBg": "#fef9c3",
+      "badgeColor": "#854d0e",
+      "finding": "Slim, silent, chemical-free, nightlight-friendly design is repeatedly praised over noisy zappers and ugly fly tape.",
+      "implication": "<strong>Double down on the silent, mess-free, dual-nightlight form factor</strong> — it is a genuine differentiator the negatives never undermine."
+    },
+    {
+      "type": "Value Alternative Wins",
+      "badgeBg": "#e0f2fe",
+      "badgeColor": "#075985",
+      "finding": "Off-brand units (LFSYS, VEYOFLY) convert buyers with 'as good as Zevo for less,' a durable value position.",
+      "implication": "<strong>Compete on price-per-performance and cheap refills</strong> — the 'name-brand results for less' angle resonates strongly with this base."
+    }
   ],
   "buyersMotivation": [
-    {"label": "Eliminate Fruit Flies in Kitchen", "reason": "Buyers are desperate to remove swarms of fruit flies hovering around their kitchen sinks and fruit bowls.", "pct": "89.4%"},
-    {"label": "Avoid Toxic Chemicals", "reason": "Seeking a pet-safe and child-safe alternative to aerosol bug sprays and harsh chemical foggers.", "pct": "64.2%"},
-    {"label": "Aesthetic Upgrade from Flypaper", "reason": "Wanting to replace ugly, gross-looking hanging yellow fly ribbons with a modern, discreet device.", "pct": "55.8%"},
-    {"label": "Control Indoor Plant Gnats", "reason": "Looking to manage the influx of tiny fungus gnats breeding in the soil of their numerous houseplants.", "pct": "42.1%"},
-    {"label": "Hands-Free Pest Control", "reason": "Desiring a 'plug it in and forget it' solution that requires less active maintenance than mixing vinegar jars.", "pct": "37.5%"},
-    {"label": "Nightlight Dual Functionality", "reason": "Appreciating a product that acts as a subtle nightlight while theoretically controlling pests in the dark.", "pct": "26.3%"},
-    {"label": "Stop House Flies at Entries", "reason": "Buying units to place near exterior doors or in RVs to catch larger flies as they sneak inside.", "pct": "21.0%"},
-    {"label": "Reduce Indoor Mosquitoes", "reason": "Hoping the UV light will attract and trap mosquitoes during the peak summer biting season.", "pct": "14.6%"}
+    {
+      "label": "Eliminate Fruit Flies in Kitchen",
+      "reason": "Buyers are desperate to remove swarms of fruit flies hovering around their kitchen sinks and fruit bowls.",
+      "pct": "89.4%"
+    },
+    {
+      "label": "Avoid Toxic Chemicals",
+      "reason": "Seeking a pet-safe and child-safe alternative to aerosol bug sprays and harsh chemical foggers.",
+      "pct": "64.2%"
+    },
+    {
+      "label": "Aesthetic Upgrade from Flypaper",
+      "reason": "Wanting to replace ugly, gross-looking hanging yellow fly ribbons with a modern, discreet device.",
+      "pct": "55.8%"
+    },
+    {
+      "label": "Control Indoor Plant Gnats",
+      "reason": "Looking to manage the influx of tiny fungus gnats breeding in the soil of their numerous houseplants.",
+      "pct": "42.1%"
+    },
+    {
+      "label": "Hands-Free Pest Control",
+      "reason": "Desiring a 'plug it in and forget it' solution that requires less active maintenance than mixing vinegar jars.",
+      "pct": "37.5%"
+    },
+    {
+      "label": "Nightlight Dual Functionality",
+      "reason": "Appreciating a product that acts as a subtle nightlight while theoretically controlling pests in the dark.",
+      "pct": "26.3%"
+    },
+    {
+      "label": "Stop House Flies at Entries",
+      "reason": "Buying units to place near exterior doors or in RVs to catch larger flies as they sneak inside.",
+      "pct": "21.0%"
+    },
+    {
+      "label": "Reduce Indoor Mosquitoes",
+      "reason": "Hoping the UV light will attract and trap mosquitoes during the peak summer biting season.",
+      "pct": "14.6%"
+    }
   ],
   "customerExpectations": [
-    {"label": "UV Light Actually Attracts Fruit Flies", "reason": "Customers firmly expect the blue/UV light to act as an irresistible beacon for fruit flies, as marketed.", "pct": "96.5%"},
-    {"label": "Outperforms Homemade Traps", "reason": "Buyers expect a $30+ technological device to catch significantly more insects than a free cup of vinegar.", "pct": "88.2%"},
-    {"label": "Long-Term Hardware Durability", "reason": "Users expect a simple LED and plug mechanism to last for years, not burn out in three months.", "pct": "74.1%"},
-    {"label": "Trapped Bugs Are Dead", "reason": "Specifically for fan traps, users expect bugs to die inside, not fly out into their face upon opening.", "pct": "66.8%"},
-    {"label": "Refills Included and Affordable", "reason": "Customers expect the box to contain the advertised refills and for future cartridges to be cheap.", "pct": "59.3%"},
-    {"label": "Flexible Placement", "reason": "Users assume the trap can intercept bugs right at the source, underestimating the restriction of wall outlets.", "pct": "44.5%"},
-    {"label": "Silent Operation", "reason": "Customers expect the fan models to run in the background without vibrating or sounding like a vacuum.", "pct": "39.2%"},
-    {"label": "Catches Large House Flies", "reason": "Despite 'fruit fly' branding, customers expect the trap to also handle large, buzzing house flies.", "pct": "31.7%"}
+    {
+      "label": "UV Light Actually Attracts Fruit Flies",
+      "reason": "Customers firmly expect the blue/UV light to act as an irresistible beacon for fruit flies, as marketed.",
+      "pct": "96.5%"
+    },
+    {
+      "label": "Outperforms Homemade Traps",
+      "reason": "Buyers expect a $30+ technological device to catch significantly more insects than a free cup of vinegar.",
+      "pct": "88.2%"
+    },
+    {
+      "label": "Long-Term Hardware Durability",
+      "reason": "Users expect a simple LED and plug mechanism to last for years, not burn out in three months.",
+      "pct": "74.1%"
+    },
+    {
+      "label": "Trapped Bugs Are Dead",
+      "reason": "Specifically for fan traps, users expect bugs to die inside, not fly out into their face upon opening.",
+      "pct": "66.8%"
+    },
+    {
+      "label": "Refills Included and Affordable",
+      "reason": "Customers expect the box to contain the advertised refills and for future cartridges to be cheap.",
+      "pct": "59.3%"
+    },
+    {
+      "label": "Flexible Placement",
+      "reason": "Users assume the trap can intercept bugs right at the source, underestimating the restriction of wall outlets.",
+      "pct": "44.5%"
+    },
+    {
+      "label": "Silent Operation",
+      "reason": "Customers expect the fan models to run in the background without vibrating or sounding like a vacuum.",
+      "pct": "39.2%"
+    },
+    {
+      "label": "Catches Large House Flies",
+      "reason": "Despite 'fruit fly' branding, customers expect the trap to also handle large, buzzing house flies.",
+      "pct": "31.7%"
+    }
   ]
 }

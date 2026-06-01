@@ -84,6 +84,61 @@ for path in sorted(glob.glob(os.path.join(REVIEWS_DIR, 'dataset_amazon-reviews-s
             'title': r.get('reviewTitle') or '', 'body': r.get('reviewDescription') or '',
         })
 
+# --- Positive-review supplement (us-fruitfly-positive-2026-05-31) ---
+# Balances the negative-only scrape with the 2026-05-31 positive pull.
+# Gated to ASINs ALREADY present in the Lure/Electric pools — the 17 unmatched
+# ASINs (Sticky/Passive/off-X-Ray) are intentionally ignored (decision 2026-06-01).
+import re as _re
+POSITIVE_DIR = os.path.join(REVIEWS_DIR, 'us-fruitfly-positive-2026-05-31')
+pool_asin_seg = {r['asin']: r['segment'] for r in raw}  # asin -> Lure / Electric Traps
+_MONTHS = {m: i for i, m in enumerate(
+    ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+     'August', 'September', 'October', 'November', 'December'], 1)}
+
+def _parse_pos_date(s):
+    m = _re.search(r'([A-Za-z]+)\s+(\d{1,2}),\s+(\d{4})', s or '')
+    if not m:
+        return ''
+    mon = _MONTHS.get(m.group(1))
+    if not mon:
+        return ''
+    return f'{int(m.group(3)):04d}-{mon:02d}-{int(m.group(2)):02d}'
+
+pos_added = 0
+if os.path.isdir(POSITIVE_DIR):
+    for asin in sorted(os.listdir(POSITIVE_DIR)):
+        seg = pool_asin_seg.get(asin)
+        if seg not in VOC_SEGMENTS:            # skip the 17 ASINs not in existing pools
+            continue
+        rpath = os.path.join(POSITIVE_DIR, asin, 'reviews.json')
+        if not os.path.isfile(rpath):
+            continue
+        with open(rpath, encoding='utf-8') as fh:
+            arr = json.load(fh)
+        if not isinstance(arr, list):
+            continue
+        for r in arr:
+            try:
+                rating = int(r.get('rating'))
+            except (TypeError, ValueError):
+                continue
+            if rating < 1 or rating > 5:
+                continue
+            title = (r.get('title') or '').strip()
+            body = (r.get('review') or r.get('body') or '').strip()
+            key = (asin, 'pos|' + (title + '|' + str(r.get('date', '')))[:120])
+            if key in seen:
+                continue
+            seen.add(key)
+            raw.append({
+                'asin': asin, 'segment': seg, 'brand': asin_brand.get(asin, 'Unknown'),
+                'rating': rating, 'date': _parse_pos_date(r.get('date')),
+                'title': title, 'body': body,
+            })
+            pos_added += 1
+print(f'positive supplement: +{pos_added} reviews across pool ASINs')
+
+
 def stratified_sample(bucket, k):
     """Sample k reviews, balancing by (brand, rating) buckets."""
     if len(bucket) <= k:

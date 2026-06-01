@@ -3,16 +3,16 @@
   "countryCode": "US",
   "currency": "$",
   "segmentName": "Electric Traps",
-  "totalReviews": 1200,
-  "avgRating": 1.89,
+  "totalReviews": 1264,
+  "avgRating": 2.03,
   "starDist": [
-    452,
-    427,
-    321,
-    0,
-    0
+    453,
+    428,
+    323,
+    11,
+    49
   ],
-  "cpSummary": "<strong>CRITICAL CONTEXT:</strong> This dataset is biased, containing ONLY 1★, 2★, and 3★ reviews. Positive themes have been exclusively inferred from partial wins found in 3★ reviews. Extrapolating to the full 1,200-review population (avg rating 1.89), this category faces an acute product-market fit crisis. Customers overwhelmingly conclude that electric UV/blue light does not attract fruit flies, frequently noting that a simple homemade cup of apple cider vinegar (ACV) catches exponentially more insects. Additionally, users report severe hardware longevity issues (LEDs burning out, fans breaking after months), frustration with placement limitations near wall outlets, noisy fan operation (specifically FVOAI), and a prevailing sentiment that these devices are merely expensive, 'dressed-up fly paper'.",
+  "cpSummary": "Extrapolated across the 1,264-review population (avg rating 2.03) of plug-in electric / UV-light & fan traps (Zevo, LFSYS, VEYOFLY, BugMD, FVOAI). <strong>MIXED DATASET:</strong> still predominantly negative (1-3★, ~95%) but now including a real 4-5★ minority (~5%, 60 reviews) from a dedicated positive pull. The dominant complaint stands: UV/blue light does not attract FRUIT flies (a homemade ACV cup catches far more), and hardware (LEDs, fans) burns out within months. But the positives are specific and consistent: these devices are genuine GNAT and small-fly catchers, prized by houseplant owners; buyers love watching the sticky card fill overnight, value the quiet, slim, chemical-free, nightlight-friendly form factor, and the off-brand units (LFSYS, VEYOFLY) win on 'as good as Zevo for less.' The category's real job-to-be-done is fungus-gnat control, not fruit-fly extermination.",
   "cpWho": {
     "labels": [
       "Homeowners",
@@ -22,11 +22,11 @@
       "RV Owners"
     ],
     "pos": [
-      120,
-      85,
-      60,
-      40,
-      15
+      200,
+      160,
+      95,
+      70,
+      25
     ],
     "neg": [
       450,
@@ -45,11 +45,11 @@
       "After 3 to 6 Months"
     ],
     "pos": [
-      150,
-      110,
-      180,
-      40,
-      10
+      230,
+      200,
+      260,
+      70,
+      18
     ],
     "neg": [
       520,
@@ -68,11 +68,11 @@
       "Near Houseplants"
     ],
     "pos": [
-      110,
-      30,
-      95,
-      40,
-      75
+      170,
+      45,
+      140,
+      60,
+      150
     ],
     "neg": [
       650,
@@ -91,11 +91,11 @@
       "Plant Flies / Fungus Gnats"
     ],
     "pos": [
-      40,
-      180,
+      60,
+      320,
+      20,
       15,
-      10,
-      70
+      130
     ],
     "neg": [
       680,
@@ -147,7 +147,7 @@
       "pct": "8.5%"
     }
   ],
-  "csSummary": "Customer satisfaction is exceptionally low, driven by the stark realization that UV light fundamentally fails to attract the target pest (fruit flies). Users feel cheated by marketing claims, reporting that cheap DIY vinegar traps work instantly while $30+ electric devices catch nothing. Satisfaction drops further as hardware (LEDs and fans) routinely fails within 3 to 6 months, turning the product into a dead wall ornament.",
+  "csSummary": "Satisfaction is low for the marketed use (avg 2.03): most buyers conclude UV light fails to draw fruit flies and that cheap DIY vinegar outperforms a $30+ device, compounded by LEDs and fans failing within 3-6 months. The bright spot is unambiguous and repeatable — as fungus-gnat and small-fly traps the devices genuinely work, often filling the sticky card overnight, and buyers reward the quiet, slim, mess-free, chemical-free design and the nightlight glow. Off-brand alternatives convert price-sensitive buyers with 'same results as the name brand for less.'",
   "negativeTopics": [
     {
       "label": "Light Fails to Attract Fruit Flies",
@@ -272,78 +272,78 @@
   ],
   "positiveTopics": [
     {
-      "label": "Effective on Gnats & Small Bugs",
-      "reason": "While failing on fruit flies, the devices successfully attract and trap fungus gnats and smaller miscellaneous flying pests.",
-      "pct": "41.2%",
+      "label": "Genuine Gnat & Small-Fly Catcher",
+      "reason": "The single most consistent praise: the traps reliably capture fungus gnats and small flying pests, especially for houseplant owners.",
+      "pct": "38.5%",
       "bullets": [
-        "Plant owners report decent success catching fungus gnats around their indoor pots.",
-        "The traps function better in dark spaces like bathrooms where gnats congregate.",
-        "Users appreciate that it handles the 'invisible' gnats they didn't realize were present."
+        "Plant owners report dramatic drops in fungus gnats within days.",
+        "Works best in the dark on the small, light-seeking pests it's suited to.",
+        "Often catches gnats the buyer didn't realize were present."
       ],
       "quotes": [
-        "\"It seems to be catching gnats no problem but flies aren't phased by it.\"",
-        "\"Well, it did get some very tiny gnats I was not aware were in the house.\"",
-        "\"It is an effective gnat catcher though.\""
+        "\"Love it! Great for getting all the gnats out of my plants!\"",
+        "\"I've been struggling with fungus gnats from my plants for months and I've tried everything. This is by far the best thing I've used.\"",
+        "\"Catching fungus gnats! Stupid gnats.\""
       ]
     },
     {
-      "label": "Strong Sticky Pad Adhesive",
-      "reason": "The quality of the glue on the cartridges is highly rated, ensuring that anything that does land stays trapped.",
-      "pct": "35.8%",
-      "bullets": [
-        "Customers note the adhesive is extremely sticky and durable.",
-        "When bugs accidentally bump into the pad, they cannot escape.",
-        "The adhesive quality is the only redeeming feature preventing total 1-star washouts."
-      ],
-      "quotes": [
-        "\"The only reason I gave 2 stars is because it's at least 'sticky.'\"",
-        "\"It's a good adhesive insect pest pad.\"",
-        "\"The adhesive is very sticky.\""
-      ]
-    },
-    {
-      "label": "Pleasant Nightlight Feature",
-      "reason": "The soft blue/UV glow serves well as an ambient nightlight in kitchens and hallways.",
-      "pct": "29.7%",
-      "bullets": [
-        "Users like the aesthetic glow it provides in dark rooms.",
-        "It is considered a 'cool' and modern addition to the home decor.",
-        "Often cited as the only functional aspect of the device."
-      ],
-      "quotes": [
-        "\"Night light feature works and gives off a good dark glow and it is easy to use.\"",
-        "\"It's a fine nightlight, but when it comes to dealing with bugs, it's far from the best solution.\"",
-        "\"Cool and modern looking, does not a thing to reduce fruit flies.\""
-      ]
-    },
-    {
-      "label": "Safe and Chemical-Free",
-      "reason": "Parents and pet owners appreciate the lack of toxic sprays, chemical odors, or dangerous electrical zaps.",
+      "label": "Actually Works / Fills Up Fast",
+      "reason": "A real cohort reports the trap working immediately and the sticky card filling within a single night.",
       "pct": "26.4%",
       "bullets": [
-        "Provides peace of mind for households with dogs, cats, and toddlers.",
-        "Considered an environmentally friendly alternative to bug sprays.",
-        "No startling 'zap' noise compared to traditional bug zappers."
+        "Visible catches within the first 24 hours for well-placed units.",
+        "Cards reported 'full' overnight in infested rooms.",
+        "Converts outright skeptics ('NOT A GIMMICK')."
       ],
       "quotes": [
-        "\"Safe for my pets and kids with no harsh chemicals or zaps of electricity.\"",
-        "\"I was really hoping this would work and liked that it was pet friendly.\"",
-        "\"It uses a lot of plastic, which is a concern for me, so I also tried the Safer product line.\""
+        "\"They work! 12 flies overnight! NOT A GIMMICK THEY ACTUALLY WORK!\"",
+        "\"Plugged them in last night. They are all full less than 24hours later.\"",
+        "\"in one night the entire sticky was full.  All types of flying bugs gone.\""
       ]
     },
     {
-      "label": "Visual Discretion",
-      "reason": "The plastic housing hides the dead bugs from view, looking significantly cleaner than hanging fly ribbons.",
-      "pct": "21.5%",
+      "label": "Quiet, Slim & Mess-Free",
+      "reason": "Buyers value the discreet, silent, clean form factor versus noisy zappers and gross fly tape.",
+      "pct": "16.7%",
       "bullets": [
-        "Customers hate looking at dead flies on yellow hanging tapes.",
-        "The plug-in design keeps the carnage hidden behind an attractive shield.",
-        "Guests don't immediately recognize it as a bug trap."
+        "Slim profile takes little space and hides the caught bugs.",
+        "Silent operation, unlike zappers.",
+        "No chemicals, no smell, no zap noise."
       ],
       "quotes": [
-        "\"A fancy fly tape with blue light and a plastic part that covers up from view any flies trapped.\"",
-        "\"Cosmetically this is a nice unit for indoors.\"",
-        "\"Behind the nice looking cover, it's just a sheet of sticky paper.\""
+        "\"very slim, so it doesn't take up much space or stand out. I like that it's clean and mess-free.\"",
+        "\"It's very quiet and the light is not bright which is perfect!\"",
+        "\"No chemicals, no smell, and no noise.\""
+      ]
+    },
+    {
+      "label": "Nightlight Bonus",
+      "reason": "The soft blue/purple glow doubles as a welcome ambient nightlight in kitchens and hallways.",
+      "pct": "10.8%",
+      "bullets": [
+        "Pleasant ambient glow valued as a secondary feature.",
+        "Some buyers buy partly for the dual nightlight function.",
+        "Considered a modern, attractive addition to the room."
+      ],
+      "quotes": [
+        "\"Love this.  Gets all the bugs and great as a nightlight too.\"",
+        "\"I also kinda enjoy the purple light it gives off at night.\"",
+        "\"has a warm blue nightlight built in. Great product.\""
+      ]
+    },
+    {
+      "label": "Cheaper-Than-Zevo Value",
+      "reason": "Off-brand units win price-sensitive buyers by matching name-brand results for less.",
+      "pct": "7.6%",
+      "bullets": [
+        "Positioned explicitly as a budget alternative to Zevo.",
+        "Buyers report comparable catch performance at lower cost.",
+        "Strong value-for-money sentiment drives repeat orders."
+      ],
+      "quotes": [
+        "\"just as good as the name brands at a lower cost!\"",
+        "\"a great value for the money.\"",
+        "\"Works well and at a great price.\""
       ]
     }
   ],
@@ -393,32 +393,32 @@
   ],
   "positiveInsights": [
     {
-      "type": "The Gnat Niche",
+      "type": "The Gnat Champion",
       "badgeBg": "#dcfce7",
       "badgeColor": "#166534",
-      "finding": "Over 40% of positive sentiment is tied specifically to successfully catching fungus gnats rather than fruit flies.",
-      "implication": "<strong>Pivot marketing imagery to target indoor plant owners</strong>, highlighting fungus gnat eradication as a primary capability."
+      "finding": "The most reliable positive signal is fungus-gnat / small-fly capture for houseplant owners — the category's true job-to-be-done.",
+      "implication": "<strong>Re-target the listing to plant owners</strong> — lead hero imagery and copy with fungus-gnat eradication, not fruit-fly extermination, to align promise with reality."
     },
     {
-      "type": "Nightlight Utility",
-      "badgeBg": "#dbeafe",
-      "badgeColor": "#1e40af",
-      "finding": "Nearly 30% of users praise the soft, ambient blue glow as an excellent nighttime illuminator.",
-      "implication": "<strong>Enhance the dual-purpose nature</strong> by adding an adjustable brightness switch or an ambient light sensor (auto on/off)."
+      "type": "Visible Fill = Satisfaction",
+      "badgeBg": "#ccfbf1",
+      "badgeColor": "#115e59",
+      "finding": "Buyers are delighted watching the sticky card fill overnight — visible proof is a core driver of 5★ reviews.",
+      "implication": "<strong>Maximize the visible catch surface</strong> and make the fill easy to see; visible performance monitoring is a feature, not a flaw."
     },
     {
-      "type": "Adhesive Excellence",
+      "type": "Quiet & Discreet Beats Zappers",
       "badgeBg": "#fef9c3",
-      "badgeColor": "#a16207",
-      "finding": "The strength of the glue on the refill pads is universally praised as highly effective once an insect makes contact.",
-      "implication": "<strong>Maintain the current adhesive supplier</strong>, but increase the exposed surface area of the sticky pad to maximize accidental catches."
+      "badgeColor": "#854d0e",
+      "finding": "Slim, silent, chemical-free, nightlight-friendly design is repeatedly praised over noisy zappers and ugly fly tape.",
+      "implication": "<strong>Double down on the silent, mess-free, dual-nightlight form factor</strong> — it is a genuine differentiator the negatives never undermine."
     },
     {
-      "type": "Chemical-Free Appeal",
-      "badgeBg": "#ecfdf5",
-      "badgeColor": "#065f46",
-      "finding": "More than a quarter of users cite pet and child safety as their primary reason for purchasing the device over sprays.",
-      "implication": "<strong>Amplify 'Non-Toxic' and 'Zap-Free' messaging</strong> prominently on the front of packaging and in hero images."
+      "type": "Value Alternative Wins",
+      "badgeBg": "#e0f2fe",
+      "badgeColor": "#075985",
+      "finding": "Off-brand units (LFSYS, VEYOFLY) convert buyers with 'as good as Zevo for less,' a durable value position.",
+      "implication": "<strong>Compete on price-per-performance and cheap refills</strong> — the 'name-brand results for less' angle resonates strongly with this base."
     }
   ],
   "buyersMotivation": [
@@ -595,6 +595,645 @@
   },
   "reviews": [
     {
+      "r": 5,
+      "t": "Works — Works good",
+      "tags": [
+        "catches_some"
+      ],
+      "date": "2026-05-30",
+      "brand": "FVOAI",
+      "asin": "B0CSK83JSK",
+      "title": "Works",
+      "body": "Works good"
+    },
+    {
+      "r": 5,
+      "t": "Zevo product — Wow!  Great job!  The flies were driving me crazy and this has really helped!  Very easy to use, great fit, solid structure, fits any place you can plug it in!  Doubles as a night light.",
+      "tags": [
+        "nightlight"
+      ],
+      "date": "2026-05-29",
+      "brand": "Zevo",
+      "asin": "B0C3PDTYYX",
+      "title": "Zevo product",
+      "body": "Wow!  Great job!  The flies were driving me crazy and this has really helped!  Very easy to use, great fit, solid structure, fits any place you can plug it in!  Doubles as a night light."
+    },
+    {
+      "r": 5,
+      "t": "Works great. — Always get full of nats fairly fast and is easy to put in another trap.  I see a lot less nats in the house.",
+      "tags": [],
+      "date": "2026-05-28",
+      "brand": "Zevo",
+      "asin": "B0CTQDTF1V",
+      "title": "Works great.",
+      "body": "Always get full of nats fairly fast and is easy to put in another trap.  I see a lot less nats in the house."
+    },
+    {
+      "r": 5,
+      "t": "Bug MD sticky pad refills — Good product. Works effectively!",
+      "tags": [],
+      "date": "2026-05-27",
+      "brand": "BugMD",
+      "asin": "B0D38CSTX3",
+      "title": "Bug MD sticky pad refills",
+      "body": "Good product. Works effectively!"
+    },
+    {
+      "r": 5,
+      "t": "GREAT PRODUCT that does exactly what it promises! — Great product that does exactly what it promises! I bought this fly trap gizmo, because of recurring gnats that would fly out of the kitchen garbage bin everytime I would pull the bag out for the trash! Disgusting and annoying things that would then flit around the rest of the house, being a general pain.Within an hour of plugging this in, though, I checked and had already caught THREE gnats! And by the end of the week, I looked and there had to have been over 25 of the little buggers trapped by the Zevo execution device! I love it!It's silent, but deadly, has zero odor and — dare I say — actually looks good, with the cool blue lighting that draws the flying bugs in like moths to a flame. And it's VERY easy to use... Just slip the cartridge in, peel off the protective backing, plug the small device into an outlet where the bugs will be attracted to it and walk away!Definitely worth the money, to avoid the headaches of bugs constantly being in your face!",
+      "tags": [
+        "refill_issue",
+        "placement_outlet",
+        "weak_fan",
+        "compared_other"
+      ],
+      "date": "2026-05-25",
+      "brand": "Zevo",
+      "asin": "B07T869RNY",
+      "title": "GREAT PRODUCT that does exactly what it promises!",
+      "body": "Great product that does exactly what it promises! I bought this fly trap gizmo, because of recurring gnats that would fly out of the kitchen garbage bin everytime I would pull the bag out for the trash! Disgusting and annoying things that would then flit around the rest of the house, being a general pain.Within an hour of plugging this in, though, I checked and had already caught THREE gnats! And by the end of the week, I looked and there had to have been over 25 of the little buggers trapped by the Zevo execution device! I love it!It's silent, but deadly, has zero odor and — dare I say — actually looks good, with the cool blue lighting that draws the flying bugs in like moths to a flame. And it's VERY easy to use... Just slip the cartridge in, peel off the protective backing, plug the small device into an outlet where the bugs will be attracted to it and walk away!Definitely worth the money, to avoid the headaches of bugs constantly being in your face!"
+    },
+    {
+      "r": 5,
+      "t": "Modern, Much more effective version of flypaper, without the Downside. — I purchased the Zevo flying insect trap for my garage this winter. I was very impressed with the number of small flying insects it trapped on the glue paper trap. It was very effective.  Now that spring is moving into summer I needed to purchase some refill cartridges. The call it a cartridge, but it is just an improved version of the old fashioned flypaper. The UV LED in the trap attracts the insects where they then end up on the flypaper.  Since the cartridge included with the original trap worked so well I expect the refills to perform the same way.  The downside of flypaper was that you had to see all of the dead insects sticking from the paper.  Here the dead insects are hidden inside of the trap and you only see them while you are changing out the cartridge.",
+      "tags": [
+        "refill_issue",
+        "flypaper_gimmick",
+        "compared_other"
+      ],
+      "date": "2026-05-25",
+      "brand": "Zevo",
+      "asin": "B0CTQDTF1V",
+      "title": "Modern, Much more effective version of flypaper, without the Downside.",
+      "body": "I purchased the Zevo flying insect trap for my garage this winter. I was very impressed with the number of small flying insects it trapped on the glue paper trap. It was very effective.  Now that spring is moving into summer I needed to purchase some refill cartridges. The call it a cartridge, but it is just an improved version of the old fashioned flypaper. The UV LED in the trap attracts the insects where they then end up on the flypaper.  Since the cartridge included with the original trap worked so well I expect the refills to perform the same way.  The downside of flypaper was that you had to see all of the dead insects sticking from the paper.  Here the dead insects are hidden inside of the trap and you only see them while you are changing out the cartridge."
+    },
+    {
+      "r": 5,
+      "t": "You won’t be sorry- great product — Love this.  Gets all the bugs and great as a nightlight too.  Flys, gnats and bugs that crawl to it.  Great light and the sticky traps are super sticky",
+      "tags": [
+        "nightlight"
+      ],
+      "date": "2026-05-25",
+      "brand": "LFSYS",
+      "asin": "B0D795SPZD",
+      "title": "You won’t be sorry- great product",
+      "body": "Love this.  Gets all the bugs and great as a nightlight too.  Flys, gnats and bugs that crawl to it.  Great light and the sticky traps are super sticky"
+    },
+    {
+      "r": 5,
+      "t": "Catch them all!! — Works well and at a great price. Catching fungus gnats! Stupid gnats.",
+      "tags": [],
+      "date": "2026-05-25",
+      "brand": "LFSYS",
+      "asin": "B0D795SPZD",
+      "title": "Catch them all!!",
+      "body": "Works well and at a great price. Catching fungus gnats! Stupid gnats."
+    },
+    {
+      "r": 5,
+      "t": "You won’t be sorry- great product — Love this.  Gets all the bugs and great as a nightlight too.  Flys, gnats and bugs that crawl to it.  Great light and the sticky traps are super sticky",
+      "tags": [
+        "nightlight"
+      ],
+      "date": "2026-05-25",
+      "brand": "LFSYS",
+      "asin": "B0DJ2H3BRB",
+      "title": "You won’t be sorry- great product",
+      "body": "Love this.  Gets all the bugs and great as a nightlight too.  Flys, gnats and bugs that crawl to it.  Great light and the sticky traps are super sticky"
+    },
+    {
+      "r": 5,
+      "t": "Catch them all!! — Works well and at a great price. Catching fungus gnats! Stupid gnats.",
+      "tags": [],
+      "date": "2026-05-25",
+      "brand": "LFSYS",
+      "asin": "B0DJ2H3BRB",
+      "title": "Catch them all!!",
+      "body": "Works well and at a great price. Catching fungus gnats! Stupid gnats."
+    },
+    {
+      "r": 4,
+      "t": "Works — Works well",
+      "tags": [],
+      "date": "2026-05-24",
+      "brand": "BugMD",
+      "asin": "B0D38CSTX3",
+      "title": "Works",
+      "body": "Works well"
+    },
+    {
+      "r": 5,
+      "t": "Catches flying insects 24/7! — They fit great and at a great price!  Seem to be working as it should, catching insects. Brightness is just right for our kitchen ! Will buy again!",
+      "tags": [],
+      "date": "2026-05-23",
+      "brand": "Zevo",
+      "asin": "B0CTQDTF1V",
+      "title": "Catches flying insects 24/7!",
+      "body": "They fit great and at a great price!  Seem to be working as it should, catching insects. Brightness is just right for our kitchen ! Will buy again!"
+    },
+    {
+      "r": 5,
+      "t": "It started working immediately — It arrived and carefully packed.  More importantly, it started working the minute I installed it!  Get more inserts!",
+      "tags": [],
+      "date": "2026-05-23",
+      "brand": "BugMD",
+      "asin": "B0D38CSTX3",
+      "title": "It started working immediately",
+      "body": "It arrived and carefully packed.  More importantly, it started working the minute I installed it!  Get more inserts!"
+    },
+    {
+      "r": 5,
+      "t": "It works!! — They work great!",
+      "tags": [],
+      "date": "2026-05-23",
+      "brand": "BugMD",
+      "asin": "B0D38CSTX3",
+      "title": "It works!!",
+      "body": "They work great!"
+    },
+    {
+      "r": 4,
+      "t": "Works well for catching flies/nats — I think this product is good and works well for what you are paying for. It catches the flies and nats okay but over the coarse of two days has not caught as many as I think it could. It is easy to put together and very light weight. No scent to this product, in case your wondering if it smells. You can re-use this product for about a week before changing the filter. I am not a fan of how you can see the bugs being caught out in the open, especially since this is primarily used in the kitchen area (at least for me since that is where they hangout the most). Overall it does the job for what you pay for.",
+      "tags": [],
+      "date": "2026-05-23",
+      "brand": "LFSYS",
+      "asin": "B0D795SPZD",
+      "title": "Works well for catching flies/nats",
+      "body": "I think this product is good and works well for what you are paying for. It catches the flies and nats okay but over the coarse of two days has not caught as many as I think it could. It is easy to put together and very light weight. No scent to this product, in case your wondering if it smells. You can re-use this product for about a week before changing the filter. I am not a fan of how you can see the bugs being caught out in the open, especially since this is primarily used in the kitchen area (at least for me since that is where they hangout the most). Overall it does the job for what you pay for."
+    },
+    {
+      "r": 4,
+      "t": "Works well for catching flies/nats — I think this product is good and works well for what you are paying for. It catches the flies and nats okay but over the coarse of two days has not caught as many as I think it could. It is easy to put together and very light weight. No scent to this product, in case your wondering if it smells. You can re-use this product for about a week before changing the filter. I am not a fan of how you can see the bugs being caught out in the open, especially since this is primarily used in the kitchen area (at least for me since that is where they hangout the most). Overall it does the job for what you pay for.",
+      "tags": [],
+      "date": "2026-05-23",
+      "brand": "LFSYS",
+      "asin": "B0DJ2H3BRB",
+      "title": "Works well for catching flies/nats",
+      "body": "I think this product is good and works well for what you are paying for. It catches the flies and nats okay but over the coarse of two days has not caught as many as I think it could. It is easy to put together and very light weight. No scent to this product, in case your wondering if it smells. You can re-use this product for about a week before changing the filter. I am not a fan of how you can see the bugs being caught out in the open, especially since this is primarily used in the kitchen area (at least for me since that is where they hangout the most). Overall it does the job for what you pay for."
+    },
+    {
+      "r": 5,
+      "t": "Excellent insect trap! — Very impressed with this insect trap! When I purchased it, I didn’t know I had fruit flies. I had not seen any around my fruit dish or plant stand. I was just buying it after I read that fruit flies can come with or live in the soils of indoor plants. I have a kitchen plant stand with several plants so I thought I would try it. I plugged this unit in and 3 days later I had 18 fruit flies on it!!!! After 10 more days I have a total of 40 fruit flies trapped on it ! I am happy it works so well and grossed out at the same time!!! Love that the design of this hides the dead insects. Some of the “victims” are very tiny so I hope that means they were newly hatched. Will definitely buy another unit and some refill cartridges since I keep fruit & plants year round. I don’t normally see fruit flies until I have summer fruit (peaches) on the counters. Excellent fly attraction and easy to use. The cartridges are easy to remove and replace. Nice blue light!",
+      "tags": [
+        "light_no_attract",
+        "refill_issue"
+      ],
+      "date": "2026-05-22",
+      "brand": "Zevo",
+      "asin": "B07T869RNY",
+      "title": "Excellent insect trap!",
+      "body": "Very impressed with this insect trap! When I purchased it, I didn’t know I had fruit flies. I had not seen any around my fruit dish or plant stand. I was just buying it after I read that fruit flies can come with or live in the soils of indoor plants. I have a kitchen plant stand with several plants so I thought I would try it. I plugged this unit in and 3 days later I had 18 fruit flies on it!!!! After 10 more days I have a total of 40 fruit flies trapped on it ! I am happy it works so well and grossed out at the same time!!! Love that the design of this hides the dead insects. Some of the “victims” are very tiny so I hope that means they were newly hatched. Will definitely buy another unit and some refill cartridges since I keep fruit & plants year round. I don’t normally see fruit flies until I have summer fruit (peaches) on the counters. Excellent fly attraction and easy to use. The cartridges are easy to remove and replace. Nice blue light!"
+    },
+    {
+      "r": 5,
+      "t": "They work! 12 flies overnight! NOT A GIMMICK THEY ACTUALLY WORK! — Just before I got these traps I gave the bathroom sink a real good scrub and I almost cancelled the order thinking I may have solved the problem. I'M SO GLAD I DIDN'T DO THAT!I bought the two-pack and put one in the bathroom and one in the kitchen near the sink. The one in the bathroom caught one fly (so maybe all my cleaning helped out?).The one in the kitchen caught 11 flies overnight. Neither one caught any flies during the day. I figured at night the only light source would be those traps and I was right... no distractions (like flying around in front of the TV) - they went right for the traps and got stuck.After I weed out the current batch of flies I'll probably just keep the one in the kitchen going to get the odd fruit-fly, etc.",
+      "tags": [],
+      "date": "2026-05-22",
+      "brand": "Zevo",
+      "asin": "B0C3PDTYYX",
+      "title": "They work! 12 flies overnight! NOT A GIMMICK THEY ACTUALLY WORK!",
+      "body": "Just before I got these traps I gave the bathroom sink a real good scrub and I almost cancelled the order thinking I may have solved the problem. I'M SO GLAD I DIDN'T DO THAT!I bought the two-pack and put one in the bathroom and one in the kitchen near the sink. The one in the bathroom caught one fly (so maybe all my cleaning helped out?).The one in the kitchen caught 11 flies overnight. Neither one caught any flies during the day. I figured at night the only light source would be those traps and I was right... no distractions (like flying around in front of the TV) - they went right for the traps and got stuck.After I weed out the current batch of flies I'll probably just keep the one in the kitchen going to get the odd fruit-fly, etc."
+    },
+    {
+      "r": 5,
+      "t": "Actually works! — To start off, I have purchased this item several times. My place started to have fruit flies especially during the summer. I have tried so many other methods and it seemed like they didn’t really help. Someone at work told me that they use Zevo lights. To start off I had no clues what this was after doing some research I purchased a set to give it a try.Let me tell you within a week the Zevo light was full of fruit flies and other little bugs. This stuff definitely works.Pros: attracts basically any insects and traps them with the sticky insert. Lasts about 3-4 weeks I would say. Has a blue light that attracts the insects. Easy to use and even easier to replace inserts when it’s time. Also they are neutral looking so if guest come over nobody can see the gross insects it caught. Now that I’m thinking about it unless someone knows what it is, it looks like a plugged air freshener.Cons: honestly the only two cons I could think of is at night if you leave the Zevo lights plugged, and your eyes adjusts to the darkness. The light seems very bright, but I started to unplug them before bed so that fixes it. Lastly I wish the inserts lasted longer, they are still sticky about a month in but dust starts to settle on them and I think it’s not as sticky for the bugs.So overall I would recommend this product for your house if you are in need of an insect catcher.",
+      "tags": [
+        "light_no_attract",
+        "compared_other",
+        "catches_some"
+      ],
+      "date": "2026-05-21",
+      "brand": "Zevo",
+      "asin": "B07T869RNY",
+      "title": "Actually works!",
+      "body": "To start off, I have purchased this item several times. My place started to have fruit flies especially during the summer. I have tried so many other methods and it seemed like they didn’t really help. Someone at work told me that they use Zevo lights. To start off I had no clues what this was after doing some research I purchased a set to give it a try.Let me tell you within a week the Zevo light was full of fruit flies and other little bugs. This stuff definitely works.Pros: attracts basically any insects and traps them with the sticky insert. Lasts about 3-4 weeks I would say. Has a blue light that attracts the insects. Easy to use and even easier to replace inserts when it’s time. Also they are neutral looking so if guest come over nobody can see the gross insects it caught. Now that I’m thinking about it unless someone knows what it is, it looks like a plugged air freshener.Cons: honestly the only two cons I could think of is at night if you leave the Zevo lights plugged, and your eyes adjusts to the darkness. The light seems very bright, but I started to unplug them before bed so that fixes it. Lastly I wish the inserts lasted longer, they are still sticky about a month in but dust starts to settle on them and I think it’s not as sticky for the bugs.So overall I would recommend this product for your house if you are in need of an insect catcher."
+    },
+    {
+      "r": 4,
+      "t": "Good but can they do a better price? — I had this before, so I bought it.  I know it works well, and I do recommend for Amazon buyers.However, one thing that lingers in my mind is that, this product makes me think that a package of 5 refills at $15 is way overpriced...... Is it just me who feels this way?  I hope they offer 10, not 5, for the same price.Again, this works, but for a budget buyer, you might look into many other items before you feel justify to buy this product.",
+      "tags": [],
+      "date": "2026-05-21",
+      "brand": "VEYOFLY",
+      "asin": "B0BHN2YLRR",
+      "title": "Good but can they do a better price?",
+      "body": "I had this before, so I bought it.  I know it works well, and I do recommend for Amazon buyers.However, one thing that lingers in my mind is that, this product makes me think that a package of 5 refills at $15 is way overpriced...... Is it just me who feels this way?  I hope they offer 10, not 5, for the same price.Again, this works, but for a budget buyer, you might look into many other items before you feel justify to buy this product."
+    },
+    {
+      "r": 5,
+      "t": "Love it! Bought two! — Love it! Great for getting all the gnats out of my plants!",
+      "tags": [],
+      "date": "2026-05-21",
+      "brand": "FVOAI",
+      "asin": "B0CSK83JSK",
+      "title": "Love it! Bought two!",
+      "body": "Love it! Great for getting all the gnats out of my plants!"
+    },
+    {
+      "r": 5,
+      "t": "Very effective with no chemical, smell or noise — I live in Florida and we have lots of little bugs and this product works terrific! No chemicals, no smell, and no noise. All, which are very important to me.  It is totally solved the problem and is a great value for the money.",
+      "tags": [
+        "noise"
+      ],
+      "date": "2026-05-19",
+      "brand": "VEYOFLY",
+      "asin": "B0BHN2YLRR",
+      "title": "Very effective with no chemical, smell or noise",
+      "body": "I live in Florida and we have lots of little bugs and this product works terrific! No chemicals, no smell, and no noise. All, which are very important to me.  It is totally solved the problem and is a great value for the money."
+    },
+    {
+      "r": 5,
+      "t": "It gets the job done. Just a little pricy for how often you’ll need to keep it changed. — I’ve bought this once in April and just bought another. So it’s been about a month, I noticed it works immediately and gives the flying bugs somewhere to go instead of buzzing around. But after about 1week, I started to notice the little flying bugs again. I dislike the price for cart/refill but I appreciate the efficiency. Just know, you will need to keep some on hand so you can rotate as needed to really have it working consistently.",
+      "tags": [
+        "refill_issue",
+        "noise"
+      ],
+      "date": "2026-05-17",
+      "brand": "Zevo",
+      "asin": "B07T869RNY",
+      "title": "It gets the job done. Just a little pricy for how often you’ll need to keep it changed.",
+      "body": "I’ve bought this once in April and just bought another. So it’s been about a month, I noticed it works immediately and gives the flying bugs somewhere to go instead of buzzing around. But after about 1week, I started to notice the little flying bugs again. I dislike the price for cart/refill but I appreciate the efficiency. Just know, you will need to keep some on hand so you can rotate as needed to really have it working consistently."
+    },
+    {
+      "r": 3,
+      "t": "Does work — Does work but not as effective as fly spray.",
+      "tags": [],
+      "date": "2026-05-17",
+      "brand": "VEYOFLY",
+      "asin": "B0BHN2YLRR",
+      "title": "Does work",
+      "body": "Does work but not as effective as fly spray."
+    },
+    {
+      "r": 5,
+      "t": "Quick and easy replacement cartridges — I love the Zevo insect trap.  I keep two in my kitchen and it is great at trapping fruit flys and other insects.  The refills are easy to use with a quick insertion and peel off of the cover.  I change them about once every 2-4 weeks depending on the time of year.",
+      "tags": [
+        "compared_other"
+      ],
+      "date": "2026-05-17",
+      "brand": "Zevo",
+      "asin": "B0CTQDTF1V",
+      "title": "Quick and easy replacement cartridges",
+      "body": "I love the Zevo insect trap.  I keep two in my kitchen and it is great at trapping fruit flys and other insects.  The refills are easy to use with a quick insertion and peel off of the cover.  I change them about once every 2-4 weeks depending on the time of year."
+    },
+    {
+      "r": 5,
+      "t": "Zevo not only look nice but also has a warm blue nightlight built in. Great product. — I live in Florida an for some reason the Nats were so bad this year. Now I believe, God said  bugs of all kind belong outside. Well,these Nats wanted to take up residence inside. I  couldn't eat or even sleep without these intruders either sharing my food or floating around my head at night. Someone suggested I try Zevo. I ordered the traps a few months ago one for each room. Within two days my little friends were attracted to Zevo not me. I ordered the refills about three months later. No bugs.Plug-ins or self standing  makes this product perfect for ridding any flying pests from your home. I will always have Zevo products  in my home and no more pests.",
+      "tags": [
+        "compared_other"
+      ],
+      "date": "2026-05-17",
+      "brand": "Zevo",
+      "asin": "B0CTQDTF1V",
+      "title": "Zevo not only look nice but also has a warm blue nightlight built in. Great product.",
+      "body": "I live in Florida an for some reason the Nats were so bad this year. Now I believe, God said  bugs of all kind belong outside. Well,these Nats wanted to take up residence inside. I  couldn't eat or even sleep without these intruders either sharing my food or floating around my head at night. Someone suggested I try Zevo. I ordered the traps a few months ago one for each room. Within two days my little friends were attracted to Zevo not me. I ordered the refills about three months later. No bugs.Plug-ins or self standing  makes this product perfect for ridding any flying pests from your home. I will always have Zevo products  in my home and no more pests."
+    },
+    {
+      "r": 5,
+      "t": "No more Mosquitos — Yes. They working like a charm. I leave my bedroom window (no screen) open a lot in the summer time for fresh air. This Zevo product attracts little tiny mosquitos and they stick to the sticky tape/paper.....no more mosquito bites.",
+      "tags": [
+        "compared_other"
+      ],
+      "date": "2026-05-17",
+      "brand": "Zevo",
+      "asin": "B0CTQDTF1V",
+      "title": "No more Mosquitos",
+      "body": "Yes. They working like a charm. I leave my bedroom window (no screen) open a lot in the summer time for fresh air. This Zevo product attracts little tiny mosquitos and they stick to the sticky tape/paper.....no more mosquito bites."
+    },
+    {
+      "r": 5,
+      "t": "works great!!! — This product seems to be working great! I have one in our kitchen and one our bath. Overnight, the kitchen light had over 5 bugs stuck to it.",
+      "tags": [],
+      "date": "2026-05-17",
+      "brand": "BugMD",
+      "asin": "B0D38CSTX3",
+      "title": "works great!!!",
+      "body": "This product seems to be working great! I have one in our kitchen and one our bath. Overnight, the kitchen light had over 5 bugs stuck to it."
+    },
+    {
+      "r": 5,
+      "t": "No more flying bugs — Love this so much got 2 one for downstairs one for up. Our doors are always open (kids in and out) in one night the entire sticky was full.  All types of flying bugs gone.  Have recommended it to a few people already and they love it also.",
+      "tags": [],
+      "date": "2026-05-15",
+      "brand": "FVOAI",
+      "asin": "B0CSK83JSK",
+      "title": "No more flying bugs",
+      "body": "Love this so much got 2 one for downstairs one for up. Our doors are always open (kids in and out) in one night the entire sticky was full.  All types of flying bugs gone.  Have recommended it to a few people already and they love it also."
+    },
+    {
+      "r": 5,
+      "t": "Tiny bug nightclub with a very strict no-exit policy — I used this to deal with a phorid fly / drain fly situation.It is not some instant bug apocalypse machine, but the sticky cards definitely showed that it was doing its job. There is also something weirdly satisfying about checking the card and seeing proof that the little freeloaders made poor life choices.Setup is simple. I like that it is quiet and does not involve spraying anything around the kitchen. The light doubles as a nice ambient night light for my kitchen. I did notice that it's most effective / catches the most flies overnight.One thing worth mentioning: this helps catch the adults, but you still need to deal with wherever they are coming from. I used it while also cleaning drains and trying to eliminate the source. The trap helped catch the stragglers and gave me a good visual of whether things were improving.Overall, it helped. Not magic, but effective enough that I would use it again if the tiny bug nightclub ever reopens.",
+      "tags": [
+        "nightlight"
+      ],
+      "date": "2026-05-15",
+      "brand": "LFSYS",
+      "asin": "B0D795SPZD",
+      "title": "Tiny bug nightclub with a very strict no-exit policy",
+      "body": "I used this to deal with a phorid fly / drain fly situation.It is not some instant bug apocalypse machine, but the sticky cards definitely showed that it was doing its job. There is also something weirdly satisfying about checking the card and seeing proof that the little freeloaders made poor life choices.Setup is simple. I like that it is quiet and does not involve spraying anything around the kitchen. The light doubles as a nice ambient night light for my kitchen. I did notice that it's most effective / catches the most flies overnight.One thing worth mentioning: this helps catch the adults, but you still need to deal with wherever they are coming from. I used it while also cleaning drains and trying to eliminate the source. The trap helped catch the stragglers and gave me a good visual of whether things were improving.Overall, it helped. Not magic, but effective enough that I would use it again if the tiny bug nightclub ever reopens."
+    },
+    {
+      "r": 5,
+      "t": "Working great! — These have been working great for us, just as good as the name brands at a lower cost! In the summer we get all types of flying bugs getting inside and having these this year has helped significantly! I also kinda enjoy the purple light it gives off at night.",
+      "tags": [],
+      "date": "2026-05-15",
+      "brand": "LFSYS",
+      "asin": "B0D795SPZD",
+      "title": "Working great!",
+      "body": "These have been working great for us, just as good as the name brands at a lower cost! In the summer we get all types of flying bugs getting inside and having these this year has helped significantly! I also kinda enjoy the purple light it gives off at night."
+    },
+    {
+      "r": 5,
+      "t": "You will NOT regret this purchase. Buy as many plug ins as you can afford! — light #1 out of 3. Plugged them in last night. They are all full less than 24hours later. I tried homemade traps. I tried everything. This trap is a life saver. No more drain flies coming for my laptop in the middle of the night. There are 2 different ways to use the traps. The second being covering a cup or water or wine. The cup of wine worked as well but the plug in lights are by far superior. I guess it really depends if the flys have a different source of water available. YOU WILL NOT REGRET THIS PURCHASE. I had to move the lights around to adjust. I found that a flat wall works best for the lights rather than a textured or tiled shiny wall. The light will shine better on regular drywall. 2 out of 3 of my plugs are plugged into a socket by the floor and they still work wonders. The other next to the sink where I believe they initially hatched their eggs in the drain. You should definitely keep one by the front door so any new flies coming in go right for the light before hatching eggs.",
+      "tags": [
+        "diy_better",
+        "placement_outlet"
+      ],
+      "date": "2026-05-15",
+      "brand": "LFSYS",
+      "asin": "B0D795SPZD",
+      "title": "You will NOT regret this purchase. Buy as many plug ins as you can afford!",
+      "body": "light #1 out of 3. Plugged them in last night. They are all full less than 24hours later. I tried homemade traps. I tried everything. This trap is a life saver. No more drain flies coming for my laptop in the middle of the night. There are 2 different ways to use the traps. The second being covering a cup or water or wine. The cup of wine worked as well but the plug in lights are by far superior. I guess it really depends if the flys have a different source of water available. YOU WILL NOT REGRET THIS PURCHASE. I had to move the lights around to adjust. I found that a flat wall works best for the lights rather than a textured or tiled shiny wall. The light will shine better on regular drywall. 2 out of 3 of my plugs are plugged into a socket by the floor and they still work wonders. The other next to the sink where I believe they initially hatched their eggs in the drain. You should definitely keep one by the front door so any new flies coming in go right for the light before hatching eggs."
+    },
+    {
+      "r": 5,
+      "t": "Tiny bug nightclub with a very strict no-exit policy — I used this to deal with a phorid fly / drain fly situation.It is not some instant bug apocalypse machine, but the sticky cards definitely showed that it was doing its job. There is also something weirdly satisfying about checking the card and seeing proof that the little freeloaders made poor life choices.Setup is simple. I like that it is quiet and does not involve spraying anything around the kitchen. The light doubles as a nice ambient night light for my kitchen. I did notice that it's most effective / catches the most flies overnight.One thing worth mentioning: this helps catch the adults, but you still need to deal with wherever they are coming from. I used it while also cleaning drains and trying to eliminate the source. The trap helped catch the stragglers and gave me a good visual of whether things were improving.Overall, it helped. Not magic, but effective enough that I would use it again if the tiny bug nightclub ever reopens.",
+      "tags": [
+        "nightlight"
+      ],
+      "date": "2026-05-15",
+      "brand": "LFSYS",
+      "asin": "B0DJ2H3BRB",
+      "title": "Tiny bug nightclub with a very strict no-exit policy",
+      "body": "I used this to deal with a phorid fly / drain fly situation.It is not some instant bug apocalypse machine, but the sticky cards definitely showed that it was doing its job. There is also something weirdly satisfying about checking the card and seeing proof that the little freeloaders made poor life choices.Setup is simple. I like that it is quiet and does not involve spraying anything around the kitchen. The light doubles as a nice ambient night light for my kitchen. I did notice that it's most effective / catches the most flies overnight.One thing worth mentioning: this helps catch the adults, but you still need to deal with wherever they are coming from. I used it while also cleaning drains and trying to eliminate the source. The trap helped catch the stragglers and gave me a good visual of whether things were improving.Overall, it helped. Not magic, but effective enough that I would use it again if the tiny bug nightclub ever reopens."
+    },
+    {
+      "r": 5,
+      "t": "Working great! — These have been working great for us, just as good as the name brands at a lower cost! In the summer we get all types of flying bugs getting inside and having these this year has helped significantly! I also kinda enjoy the purple light it gives off at night.",
+      "tags": [],
+      "date": "2026-05-15",
+      "brand": "LFSYS",
+      "asin": "B0DJ2H3BRB",
+      "title": "Working great!",
+      "body": "These have been working great for us, just as good as the name brands at a lower cost! In the summer we get all types of flying bugs getting inside and having these this year has helped significantly! I also kinda enjoy the purple light it gives off at night."
+    },
+    {
+      "r": 5,
+      "t": "You will NOT regret this purchase. Buy as many plug ins as you can afford! — light #1 out of 3. Plugged them in last night. They are all full less than 24hours later. I tried homemade traps. I tried everything. This trap is a life saver. No more drain flies coming for my laptop in the middle of the night. There are 2 different ways to use the traps. The second being covering a cup or water or wine. The cup of wine worked as well but the plug in lights are by far superior. I guess it really depends if the flys have a different source of water available. YOU WILL NOT REGRET THIS PURCHASE. I had to move the lights around to adjust. I found that a flat wall works best for the lights rather than a textured or tiled shiny wall. The light will shine better on regular drywall. 2 out of 3 of my plugs are plugged into a socket by the floor and they still work wonders. The other next to the sink where I believe they initially hatched their eggs in the drain. You should definitely keep one by the front door so any new flies coming in go right for the light before hatching eggs.",
+      "tags": [
+        "diy_better",
+        "placement_outlet"
+      ],
+      "date": "2026-05-15",
+      "brand": "LFSYS",
+      "asin": "B0DJ2H3BRB",
+      "title": "You will NOT regret this purchase. Buy as many plug ins as you can afford!",
+      "body": "light #1 out of 3. Plugged them in last night. They are all full less than 24hours later. I tried homemade traps. I tried everything. This trap is a life saver. No more drain flies coming for my laptop in the middle of the night. There are 2 different ways to use the traps. The second being covering a cup or water or wine. The cup of wine worked as well but the plug in lights are by far superior. I guess it really depends if the flys have a different source of water available. YOU WILL NOT REGRET THIS PURCHASE. I had to move the lights around to adjust. I found that a flat wall works best for the lights rather than a textured or tiled shiny wall. The light will shine better on regular drywall. 2 out of 3 of my plugs are plugged into a socket by the floor and they still work wonders. The other next to the sink where I believe they initially hatched their eggs in the drain. You should definitely keep one by the front door so any new flies coming in go right for the light before hatching eggs."
+    },
+    {
+      "r": 4,
+      "t": "Nice working and easy to use - these work! — Had very good success with these!  We have a gnat infestation and after the first night, we've already seen a significant number of gnats and flies in the traps.  Not totally perfect, but much improved overall.",
+      "tags": [],
+      "date": "2026-05-13",
+      "brand": "Zevo",
+      "asin": "B0C3PDTYYX",
+      "title": "Nice working and easy to use - these work!",
+      "body": "Had very good success with these!  We have a gnat infestation and after the first night, we've already seen a significant number of gnats and flies in the traps.  Not totally perfect, but much improved overall."
+    },
+    {
+      "r": 5,
+      "t": "Simple, Effective, and Totally Mess-Free! — I’ve tried a lot of different ways to get rid of fruit flies, but these Zevo Refill Cartridges are by far the easiest. I love that there’s no chemical smell, and I don't have to touch anything gross to change them out. They fit perfectly in my MAX trap and started catching gnats almost immediately. It’s actually pretty shocking (and satisfying) to see how much they catch in a week. Definitely worth keeping these on hand!",
+      "tags": [
+        "refill_issue",
+        "compared_other"
+      ],
+      "date": "2026-05-13",
+      "brand": "Zevo",
+      "asin": "B0CTQDTF1V",
+      "title": "Simple, Effective, and Totally Mess-Free!",
+      "body": "I’ve tried a lot of different ways to get rid of fruit flies, but these Zevo Refill Cartridges are by far the easiest. I love that there’s no chemical smell, and I don't have to touch anything gross to change them out. They fit perfectly in my MAX trap and started catching gnats almost immediately. It’s actually pretty shocking (and satisfying) to see how much they catch in a week. Definitely worth keeping these on hand!"
+    },
+    {
+      "r": 4,
+      "t": "Simple and somewhat effective — I think this is a great product, I feel like there should be more gnats that stick, as I see more swarming in my home, but maybe it just takes time.I don’t have another brand to compare this too, I see most people with zevo in their homes but was hoping for a cheaper alternative.It is pretty easy to setup just you might get a bit of the sticky glue on you but it comes off fine.You can see what it looks like at night, some gnats have been stuck already.",
+      "tags": [
+        "compared_other"
+      ],
+      "date": "2026-05-12",
+      "brand": "LFSYS",
+      "asin": "B0D795SPZD",
+      "title": "Simple and somewhat effective",
+      "body": "I think this is a great product, I feel like there should be more gnats that stick, as I see more swarming in my home, but maybe it just takes time.I don’t have another brand to compare this too, I see most people with zevo in their homes but was hoping for a cheaper alternative.It is pretty easy to setup just you might get a bit of the sticky glue on you but it comes off fine.You can see what it looks like at night, some gnats have been stuck already."
+    },
+    {
+      "r": 4,
+      "t": "Simple and somewhat effective — I think this is a great product, I feel like there should be more gnats that stick, as I see more swarming in my home, but maybe it just takes time.I don’t have another brand to compare this too, I see most people with zevo in their homes but was hoping for a cheaper alternative.It is pretty easy to setup just you might get a bit of the sticky glue on you but it comes off fine.You can see what it looks like at night, some gnats have been stuck already.",
+      "tags": [
+        "compared_other"
+      ],
+      "date": "2026-05-12",
+      "brand": "LFSYS",
+      "asin": "B0DJ2H3BRB",
+      "title": "Simple and somewhat effective",
+      "body": "I think this is a great product, I feel like there should be more gnats that stick, as I see more swarming in my home, but maybe it just takes time.I don’t have another brand to compare this too, I see most people with zevo in their homes but was hoping for a cheaper alternative.It is pretty easy to setup just you might get a bit of the sticky glue on you but it comes off fine.You can see what it looks like at night, some gnats have been stuck already."
+    },
+    {
+      "r": 4,
+      "t": "Works great at attracting and capturing those annoying tiny flying gnats and fruit flies but... — These traps work great at attracting and capturing those annoying tiny flying gnats and fruit flies. While not as good at catching the bigger flies, we were surprised at how many gnats were hanging around the house. Getting rid of them has been awesome! But here's a heads-up: The replacement cartridges are a bit expensive (especially considering its just sticky cellophane)! I was able to find non-zevo replacements at nearly half-price that seem to work nearly as well!",
+      "tags": [
+        "flypaper_gimmick",
+        "compared_other"
+      ],
+      "date": "2026-05-06",
+      "brand": "Zevo",
+      "asin": "B0C3PDTYYX",
+      "title": "Works great at attracting and capturing those annoying tiny flying gnats and fruit flies but...",
+      "body": "These traps work great at attracting and capturing those annoying tiny flying gnats and fruit flies. While not as good at catching the bigger flies, we were surprised at how many gnats were hanging around the house. Getting rid of them has been awesome! But here's a heads-up: The replacement cartridges are a bit expensive (especially considering its just sticky cellophane)! I was able to find non-zevo replacements at nearly half-price that seem to work nearly as well!"
+    },
+    {
+      "r": 5,
+      "t": "No more fruit flys! — This absolutely works! Quality of material is durable. Just insert the sticky part facing towards the wall, plug it in to outlet and your set. They swivel to accommodate sideways too. Vertical plugs, put in Bug MD at the top and you have room for another appliance plug on the bottom  Order lots of refills though, for first month, you have to catch the ones hatched from the eggs. Easy to put together, light is nice shade of blue and acts as dim night light for small areas. I had to use brighter night light in addition,  for living area, to be safe. It definitely is effective in attracting the little buggers. If they made the insert double sided with plain sticky on one side for sticking inside garbage cans, I would buy those too. I have one kit in kitchen, one in bathroom and one in living area.",
+      "tags": [
+        "placement_outlet",
+        "nightlight",
+        "chemical_free"
+      ],
+      "date": "2026-05-05",
+      "brand": "BugMD",
+      "asin": "B0D38CSTX3",
+      "title": "No more fruit flys!",
+      "body": "This absolutely works! Quality of material is durable. Just insert the sticky part facing towards the wall, plug it in to outlet and your set. They swivel to accommodate sideways too. Vertical plugs, put in Bug MD at the top and you have room for another appliance plug on the bottom  Order lots of refills though, for first month, you have to catch the ones hatched from the eggs. Easy to put together, light is nice shade of blue and acts as dim night light for small areas. I had to use brighter night light in addition,  for living area, to be safe. It definitely is effective in attracting the little buggers. If they made the insert double sided with plain sticky on one side for sticking inside garbage cans, I would buy those too. I have one kit in kitchen, one in bathroom and one in living area."
+    },
+    {
+      "r": 4,
+      "t": "Works fine — It took some time before it started to work. Placement is very important - it seems that it works better in a plug near a corner, although that could just be my experience. However, once I figured out the best place, it started to work fairly well. It's not perfect, but it definitely minimized the problem.",
+      "tags": [
+        "placement_outlet"
+      ],
+      "date": "2026-05-01",
+      "brand": "Zevo",
+      "asin": "B07T869RNY",
+      "title": "Works fine",
+      "body": "It took some time before it started to work. Placement is very important - it seems that it works better in a plug near a corner, although that could just be my experience. However, once I figured out the best place, it started to work fairly well. It's not perfect, but it definitely minimized the problem."
+    },
+    {
+      "r": 5,
+      "t": "Really Works Attracting Bugs — This product really works. If you have flying insects in your house, order this and be done with insects. It really attracts the insects. I like the looks & easy of replacement. Plus it’s chemical-free and durable. You only have to slide up the used pick to replace, so easy to install a clean sticky trap. I recommend this wonderful product. Plus I love that’s it bright at night too.",
+      "tags": [
+        "chemical_free"
+      ],
+      "date": "2026-04-28",
+      "brand": "Zevo",
+      "asin": "B0CTQDTF1V",
+      "title": "Really Works Attracting Bugs",
+      "body": "This product really works. If you have flying insects in your house, order this and be done with insects. It really attracts the insects. I like the looks & easy of replacement. Plus it’s chemical-free and durable. You only have to slide up the used pick to replace, so easy to install a clean sticky trap. I recommend this wonderful product. Plus I love that’s it bright at night too."
+    },
+    {
+      "r": 5,
+      "t": "Best solution I've tried — I've been struggling with fungus gnats from my plants for months and I've tried everything. This is by far the best thing I've used. Every day, I see more gnats stuck to the card and I don't have to do anything except change the card when it gets full. It's not noisy like a zapper and the light isn't bothersome. It seems solidly built and the cost is extremely reasonable as well. I just bought more for my other rooms. Oh, and you can get refill cards as well.",
+      "tags": [
+        "refill_issue",
+        "noise"
+      ],
+      "date": "2026-04-27",
+      "brand": "LFSYS",
+      "asin": "B0D795SPZD",
+      "title": "Best solution I've tried",
+      "body": "I've been struggling with fungus gnats from my plants for months and I've tried everything. This is by far the best thing I've used. Every day, I see more gnats stuck to the card and I don't have to do anything except change the card when it gets full. It's not noisy like a zapper and the light isn't bothersome. It seems solidly built and the cost is extremely reasonable as well. I just bought more for my other rooms. Oh, and you can get refill cards as well."
+    },
+    {
+      "r": 5,
+      "t": "Best solution I've tried — I've been struggling with fungus gnats from my plants for months and I've tried everything. This is by far the best thing I've used. Every day, I see more gnats stuck to the card and I don't have to do anything except change the card when it gets full. It's not noisy like a zapper and the light isn't bothersome. It seems solidly built and the cost is extremely reasonable as well. I just bought more for my other rooms. Oh, and you can get refill cards as well.",
+      "tags": [
+        "refill_issue",
+        "noise"
+      ],
+      "date": "2026-04-27",
+      "brand": "LFSYS",
+      "asin": "B0DJ2H3BRB",
+      "title": "Best solution I've tried",
+      "body": "I've been struggling with fungus gnats from my plants for months and I've tried everything. This is by far the best thing I've used. Every day, I see more gnats stuck to the card and I don't have to do anything except change the card when it gets full. It's not noisy like a zapper and the light isn't bothersome. It seems solidly built and the cost is extremely reasonable as well. I just bought more for my other rooms. Oh, and you can get refill cards as well."
+    },
+    {
+      "r": 5,
+      "t": "They work !!!!! — I was sick of little bugs in my face 24-7 so got 2 brands of this concept. This one is great , does what it’s meant to do , so much so that I ordered 2 more boxes . The only one thing is I couldn’t keep it in my bedroom it was too bright so put it covered areas and bathroom. Rather that than bugs. The one box that I got only one plug in worked but they were amazing to replace it by the next day and I never had to return the faulty one. Thank you for great service",
+      "tags": [
+        "placement_outlet"
+      ],
+      "date": "2026-04-25",
+      "brand": "VEYOFLY",
+      "asin": "B0BHN2YLRR",
+      "title": "They work !!!!!",
+      "body": "I was sick of little bugs in my face 24-7 so got 2 brands of this concept. This one is great , does what it’s meant to do , so much so that I ordered 2 more boxes . The only one thing is I couldn’t keep it in my bedroom it was too bright so put it covered areas and bathroom. Rather that than bugs. The one box that I got only one plug in worked but they were amazing to replace it by the next day and I never had to return the faulty one. Thank you for great service"
+    },
+    {
+      "r": 5,
+      "t": "Most effective gnat trap — I bought the VEYOFLY to deal with a gnat problem in my house, and I’m really glad I did. Within a short time of setting it up, I started noticing a big difference—there were way fewer gnats flying around, especially in the areas where they were the worst. It was even catching little or medium sized house flies which was coolWhat I like most is how easy it is to use. I just plugged it in and let it do its thing no complicated setup or constant maintenance. It’s also pretty discreet, so it doesn’t stick out or look out of place in my home.After using it consistently, my space feels a lot more comfortable and clean without those annoying gnats everywhere. For something that requires so little effort, it works surprisingly well.Overall, I’m very happy with this purchase and would definitely recommend it to anyone dealing with gnats or small flying insects.There is one con tho you are going to have to buy more than just the two pack if you have a bigger house .I had ordered some last year and they still work perfecly fine so the Durability is great and sticky as well . I came back for another two pack this year as the gnats come back when its warm",
+      "tags": [
+        "refill_issue"
+      ],
+      "date": "2026-04-22",
+      "brand": "VEYOFLY",
+      "asin": "B0BHN2YLRR",
+      "title": "Most effective gnat trap",
+      "body": "I bought the VEYOFLY to deal with a gnat problem in my house, and I’m really glad I did. Within a short time of setting it up, I started noticing a big difference—there were way fewer gnats flying around, especially in the areas where they were the worst. It was even catching little or medium sized house flies which was coolWhat I like most is how easy it is to use. I just plugged it in and let it do its thing no complicated setup or constant maintenance. It’s also pretty discreet, so it doesn’t stick out or look out of place in my home.After using it consistently, my space feels a lot more comfortable and clean without those annoying gnats everywhere. For something that requires so little effort, it works surprisingly well.Overall, I’m very happy with this purchase and would definitely recommend it to anyone dealing with gnats or small flying insects.There is one con tho you are going to have to buy more than just the two pack if you have a bigger house .I had ordered some last year and they still work perfecly fine so the Durability is great and sticky as well . I came back for another two pack this year as the gnats come back when its warm"
+    },
+    {
+      "r": 5,
+      "t": "WOW!!! — My husband and I just moved into a very old apartment building over this winter, and as it’s warmed up into spring we’ve realized we have a bad gnat problem here as not everything is sealed as well as it could be. While this doesn’t treat the root problem of course, these trap plug-ins have been game changing as far as managing the flies. Just a few days ago we had them flying in our faces every time we ate, a single dirty dish laying in the sink would attract a hoard and they would swarm around the trash cans. Three days after plugging in the two units we got to start with, we have hardly noticed any at all. This picture shows one of the traps which was placed in the worst problem area after just three days. I was shocked at how well just a little blue light works. I was skeptical at first seeing these online, but they work remarkably well and setting them up took less than a minute. We may end up purchasing another pair for maximum efficiency but so far even just the two we have have worked wonders. If you’re skeptical like I was, do yourself a favor and just hit add to cart.",
+      "tags": [
+        "light_no_attract"
+      ],
+      "date": "2026-04-22",
+      "brand": "Zevo",
+      "asin": "B0C3PDTYYX",
+      "title": "WOW!!!",
+      "body": "My husband and I just moved into a very old apartment building over this winter, and as it’s warmed up into spring we’ve realized we have a bad gnat problem here as not everything is sealed as well as it could be. While this doesn’t treat the root problem of course, these trap plug-ins have been game changing as far as managing the flies. Just a few days ago we had them flying in our faces every time we ate, a single dirty dish laying in the sink would attract a hoard and they would swarm around the trash cans. Three days after plugging in the two units we got to start with, we have hardly noticed any at all. This picture shows one of the traps which was placed in the worst problem area after just three days. I was shocked at how well just a little blue light works. I was skeptical at first seeing these online, but they work remarkably well and setting them up took less than a minute. We may end up purchasing another pair for maximum efficiency but so far even just the two we have have worked wonders. If you’re skeptical like I was, do yourself a favor and just hit add to cart."
+    },
+    {
+      "r": 4,
+      "t": "Meh — Stuck it in a corner. Caught some smaller flying things which is nice. A spider even moved in for a bit. Didn't catch anything like a house fly though. Those still have free reign. I guess the issue is that during the day there's too much light and during the night the flies stop being active.So yes, it does catch some things, but no way is it gonna catch anything the size of a fly.Update: So finally it has caught some house flies. Like 5 of 'em. 85% of what it catches are still just the small things like tiny fruit flies and mosquitoes. But after like 2-3 weeks (I'm not keeping track, but a while) I checked and it caught some houseflies. But don't count on it to be your savior--this is not a \"plug it in and never have to worry ever again\" product. There's still tons of flies it DOES NOT catch, but it will occasionally get one or two.",
+      "tags": [
+        "catches_some"
+      ],
+      "date": "2026-04-21",
+      "brand": "Zevo",
+      "asin": "B07T869RNY",
+      "title": "Meh",
+      "body": "Stuck it in a corner. Caught some smaller flying things which is nice. A spider even moved in for a bit. Didn't catch anything like a house fly though. Those still have free reign. I guess the issue is that during the day there's too much light and during the night the flies stop being active.So yes, it does catch some things, but no way is it gonna catch anything the size of a fly.Update: So finally it has caught some house flies. Like 5 of 'em. 85% of what it catches are still just the small things like tiny fruit flies and mosquitoes. But after like 2-3 weeks (I'm not keeping track, but a while) I checked and it caught some houseflies. But don't count on it to be your savior--this is not a \"plug it in and never have to worry ever again\" product. There's still tons of flies it DOES NOT catch, but it will occasionally get one or two."
+    },
+    {
+      "r": 5,
+      "t": "Excellent and doubles as night light — This insect trap works perfectly. Within just 3 months, it caught a ton of flies. I live on the first floor near a lot of plants, so bugs are definitely an issue, and this has made a big difference.The blue light is actually a nice bonus - it doubles as a soft hallway night light, which I didn’t expect but really like.The packaging did arrive a bit damaged, but the product itself worked fine with no issues.Refills are a little expensive, but honestly worth it for a pest-free home. I would definitely buy this again.",
+      "tags": [
+        "light_no_attract",
+        "nightlight"
+      ],
+      "date": "2026-04-17",
+      "brand": "Zevo",
+      "asin": "B0C3PDTYYX",
+      "title": "Excellent and doubles as night light",
+      "body": "This insect trap works perfectly. Within just 3 months, it caught a ton of flies. I live on the first floor near a lot of plants, so bugs are definitely an issue, and this has made a big difference.The blue light is actually a nice bonus - it doubles as a soft hallway night light, which I didn’t expect but really like.The packaging did arrive a bit damaged, but the product itself worked fine with no issues.Refills are a little expensive, but honestly worth it for a pest-free home. I would definitely buy this again."
+    },
+    {
+      "r": 5,
+      "t": "This thing is AMAZING!!!! — I keep this near my fruit bowl and it gets all the gnats! I haven't seen any flying around since I set this up.  It's very quiet and the light is not bright which is perfect!",
+      "tags": [],
+      "date": "2026-04-11",
+      "brand": "FVOAI",
+      "asin": "B0CSK83JSK",
+      "title": "This thing is AMAZING!!!!",
+      "body": "I keep this near my fruit bowl and it gets all the gnats! I haven't seen any flying around since I set this up.  It's very quiet and the light is not bright which is perfect!"
+    },
+    {
+      "r": 5,
+      "t": "Fabulous flying insect trapper!! — Living in the country, it’s inevitable that you will get a fly or two in the house with the doors opening and closing all of the time. I leave both my back and front porch lights on, so it makes it even worse when those little flying gnats and moths that are hanging out by the light feel they can come inside with you. I have bought fruit fly traps for the little flies that come in with fresh produce, but that didn’t stop the occasional house fly from dive bombing me when trying to watch tv. (They are attracted to light) so of course I had my doubts about the fly-trapping ability of this product, as well, but got it on sale and it came with refills so I thought I’d give it a whirl. Boy am I glad I did! I simply put the sticky pad in the quality built plug in, really easy to do, and the picture I posted was just from plugging it in last night! As you can see, it has attracted three flies I didn’t even know were in my house! I knew one was, but this thing caught three plus all of the little flies that come in when they are near your outside light. There may even be a few fruit flies on it, as well, altho I haven’t had a problem with them so much recently. The item fits nicely in one of my kitchen sockets, and emits a faint blue light that acts not only as a flying insect attractant, but also acts as a nice little night light if needed. It’s quality made, and the refills you simply peel the outer paper off and slip into the holder and starts working the minute you plug it in! I am very happy with this product, and I know you will be, as well! Perfect for places that get the occasional irritating random fly zooming around the house. Have no fear, zero will get the job done!!!",
+      "tags": [
+        "light_no_attract",
+        "refill_issue",
+        "placement_outlet",
+        "nightlight"
+      ],
+      "date": "2026-04-06",
+      "brand": "Zevo",
+      "asin": "B07T869RNY",
+      "title": "Fabulous flying insect trapper!!",
+      "body": "Living in the country, it’s inevitable that you will get a fly or two in the house with the doors opening and closing all of the time. I leave both my back and front porch lights on, so it makes it even worse when those little flying gnats and moths that are hanging out by the light feel they can come inside with you. I have bought fruit fly traps for the little flies that come in with fresh produce, but that didn’t stop the occasional house fly from dive bombing me when trying to watch tv. (They are attracted to light) so of course I had my doubts about the fly-trapping ability of this product, as well, but got it on sale and it came with refills so I thought I’d give it a whirl. Boy am I glad I did! I simply put the sticky pad in the quality built plug in, really easy to do, and the picture I posted was just from plugging it in last night! As you can see, it has attracted three flies I didn’t even know were in my house! I knew one was, but this thing caught three plus all of the little flies that come in when they are near your outside light. There may even be a few fruit flies on it, as well, altho I haven’t had a problem with them so much recently. The item fits nicely in one of my kitchen sockets, and emits a faint blue light that acts not only as a flying insect attractant, but also acts as a nice little night light if needed. It’s quality made, and the refills you simply peel the outer paper off and slip into the holder and starts working the minute you plug it in! I am very happy with this product, and I know you will be, as well! Perfect for places that get the occasional irritating random fly zooming around the house. Have no fear, zero will get the job done!!!"
+    },
+    {
+      "r": 3,
+      "t": "Not as good as VeyoFly brand (see pics) — Spring house plants brought gnats.These help a little.This brand did not do as well as the competition (VeyoFly).  See the photos showing way more bugs on the other brand.These two were side by side on the same 3 foot long power strip under a desk.I bought both brands because I want sure which works work better.",
+      "tags": [
+        "compared_other"
+      ],
+      "date": "2026-04-03",
+      "brand": "BugMD",
+      "asin": "B0D38CSTX3",
+      "title": "Not as good as VeyoFly brand (see pics)",
+      "body": "Spring house plants brought gnats.These help a little.This brand did not do as well as the competition (VeyoFly).  See the photos showing way more bugs on the other brand.These two were side by side on the same 3 foot long power strip under a desk.I bought both brands because I want sure which works work better."
+    },
+    {
+      "r": 5,
+      "t": "Catches gnats at night! — This product does work well on gnats . . . However, it only works at night. I suppose it would work with blackout curtains as well. The gnats are attracted to the light, but the light isn’t strong enough to be seen with sunlight pouring in from windows. I had a gnat problem for about a week, and these did take care of it (along with spraying peroxide in my potted plants) after a few days. If you have lots of gnats the sticky traps will fill up fast so be sure to get plenty of refills.",
+      "tags": [],
+      "date": "2026-03-29",
+      "brand": "VEYOFLY",
+      "asin": "B0BHN2YLRR",
+      "title": "Catches gnats at night!",
+      "body": "This product does work well on gnats . . . However, it only works at night. I suppose it would work with blackout curtains as well. The gnats are attracted to the light, but the light isn’t strong enough to be seen with sunlight pouring in from windows. I had a gnat problem for about a week, and these did take care of it (along with spraying peroxide in my potted plants) after a few days. If you have lots of gnats the sticky traps will fill up fast so be sure to get plenty of refills."
+    },
+    {
+      "r": 5,
+      "t": "5 stars — This flat trap indoor suction system works really well. It was easy to set up and is very slim, so it doesn’t take up much space or stand out. I like that it’s clean and mess-free compared to other options I’ve tried.It does exactly what it’s supposed to do and has been very effective so far. Definitely a great purchase if you’re looking for something simple and reliable for indoor use.",
+      "tags": [
+        "compared_other"
+      ],
+      "date": "2026-03-17",
+      "brand": "FVOAI",
+      "asin": "B0CSK83JSK",
+      "title": "5 stars",
+      "body": "This flat trap indoor suction system works really well. It was easy to set up and is very slim, so it doesn’t take up much space or stand out. I like that it’s clean and mess-free compared to other options I’ve tried.It does exactly what it’s supposed to do and has been very effective so far. Definitely a great purchase if you’re looking for something simple and reliable for indoor use."
+    },
+    {
       "r": 1,
       "t": "Broke after 30 days — After 30 days trap made a loud noise and stopped working. Of course it was past the return date.",
       "tags": [
@@ -652,6 +1291,16 @@
       "asin": "B07T869RNY",
       "title": "Not 100% effective- probably 50-60% for fruitflies.",
       "body": "Though I have a whole bunch of fruitflies near my kitchen sink where the device is. It caught only some of them."
+    },
+    {
+      "r": 5,
+      "t": "Works Amazingly Well! Bye‑Bye Fruit Flies — I’m genuinely impressed with this indoor fly trap. I bought it because fruit flies were driving me crazy, and within the first day I could already see results. The suction is stronger than I expected, and the built‑in light really helps attract the bugs. I also love the time setting feature it’s convenient to let it run automatically without thinking about it.The 10 sticky glue boards are a great bonus and super easy to replace. The blue color looks nice and blends in well with my home. Overall, this trap is quiet, effective, and hassle‑free. If you’re dealing with fruit flies or tiny indoor pests, this is absolutely worth it. Highly recommended!",
+      "tags": [],
+      "date": "2026-02-14",
+      "brand": "FVOAI",
+      "asin": "B0CSK83JSK",
+      "title": "Works Amazingly Well! Bye‑Bye Fruit Flies",
+      "body": "I’m genuinely impressed with this indoor fly trap. I bought it because fruit flies were driving me crazy, and within the first day I could already see results. The suction is stronger than I expected, and the built‑in light really helps attract the bugs. I also love the time setting feature it’s convenient to let it run automatically without thinking about it.The 10 sticky glue boards are a great bonus and super easy to replace. The blue color looks nice and blends in well with my home. Overall, this trap is quiet, effective, and hassle‑free. If you’re dealing with fruit flies or tiny indoor pests, this is absolutely worth it. Highly recommended!"
     },
     {
       "r": 3,
@@ -2182,628 +2831,6 @@
       "asin": "B0D38CSTX3",
       "title": "Do not recommend",
       "body": "Has not worked at all. It’s not attracting or catching anything. Do not recommend."
-    },
-    {
-      "r": 3,
-      "t": "Sup par shipping. — We like the product but the item comes in a box and was shipped in a bag and that typically causes damage to the original packaging. Thankfully it was all superficial.",
-      "tags": [],
-      "date": "2025-12-10",
-      "brand": "Zevo",
-      "asin": "B0CTQDTF1V",
-      "title": "Sup par shipping.",
-      "body": "We like the product but the item comes in a box and was shipped in a bag and that typically causes damage to the original packaging. Thankfully it was all superficial."
-    },
-    {
-      "r": 3,
-      "t": "3stars — They work well",
-      "tags": [],
-      "date": "2025-12-10",
-      "brand": "Zevo",
-      "asin": "B0CTQDTF1V",
-      "title": "3stars",
-      "body": "They work well"
-    },
-    {
-      "r": 1,
-      "t": "Don’t buy — This honestly does not work don’t waste time or money The light is a blue color and i had it on for 2 days and hasn’t caught one fruit fly I did the old apple cider and soap works way better . Just stick to that",
-      "tags": [
-        "no_effect",
-        "diy_better"
-      ],
-      "date": "2025-12-10",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Don’t buy",
-      "body": "This honestly does not work don’t waste time or money The light is a blue color and i had it on for 2 days and hasn’t caught one fruit fly I did the old apple cider and soap works way better . Just stick to that"
-    },
-    {
-      "r": 1,
-      "t": "It does not attract the flying gnats. — The gnats flew by it and never went towards the light. I do not recommend.",
-      "tags": [],
-      "date": "2025-12-10",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "It does not attract the flying gnats.",
-      "body": "The gnats flew by it and never went towards the light. I do not recommend."
-    },
-    {
-      "r": 1,
-      "t": "Don’t buy — This honestly does not work don’t waste time or money The light is a blue color and i had it on for 2 days and hasn’t caught one fruit fly I did the old apple cider and soap works way better . Just stick to that",
-      "tags": [
-        "no_effect",
-        "diy_better"
-      ],
-      "date": "2025-12-10",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Don’t buy",
-      "body": "This honestly does not work don’t waste time or money The light is a blue color and i had it on for 2 days and hasn’t caught one fruit fly I did the old apple cider and soap works way better . Just stick to that"
-    },
-    {
-      "r": 1,
-      "t": "It does not attract the flying gnats. — The gnats flew by it and never went towards the light. I do not recommend.",
-      "tags": [],
-      "date": "2025-12-10",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "It does not attract the flying gnats.",
-      "body": "The gnats flew by it and never went towards the light. I do not recommend."
-    },
-    {
-      "r": 3,
-      "t": "Could be better — It works but it doesnt get them all. the sticky pads are plenty sticky but the fan just isnt strong enough to pull some flies in. itll get the teeny ones but it wont pull in say a mosquito or a large fruit fly even. also the fan makes an unpleasant buzzing noise, so i wouldnt put it on a nightstand, maybe across the room. I have lots of houseplants and my roommate leaves food and piles of dishes in the kitchen so drain flies and fungus gnats occasionally find their way into my bedroom. Nothing more annoying than when youre watching TV and some little dope flies right in front of your face :( . I think theres better options out there for sure.",
-      "tags": [
-        "noise"
-      ],
-      "date": "2025-12-10",
-      "brand": "FVOAI",
-      "asin": "B0CSK83JSK",
-      "title": "Could be better",
-      "body": "It works but it doesnt get them all. the sticky pads are plenty sticky but the fan just isnt strong enough to pull some flies in. itll get the teeny ones but it wont pull in say a mosquito or a large fruit fly even. also the fan makes an unpleasant buzzing noise, so i wouldnt put it on a nightstand, maybe across the room. I have lots of houseplants and my roommate leaves food and piles of dishes in the kitchen so drain flies and fungus gnats occasionally find their way into my bedroom. Nothing more annoying than when youre watching TV and some little dope flies right in front of your face :( . I think theres better options out there for sure."
-    },
-    {
-      "r": 3,
-      "t": "Does not work for catching nats — Seems to catch flies and other bugs but not nats .",
-      "tags": [],
-      "date": "2025-12-09",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Does not work for catching nats",
-      "body": "Seems to catch flies and other bugs but not nats ."
-    },
-    {
-      "r": 3,
-      "t": "healthy Tomatoes — it does work but takes longer than I thought",
-      "tags": [],
-      "date": "2025-12-09",
-      "brand": "BugMD",
-      "asin": "B0D38CSTX3",
-      "title": "healthy Tomatoes",
-      "body": "it does work but takes longer than I thought"
-    },
-    {
-      "r": 2,
-      "t": "box was opened previously and missing a refill — great product but my box only had 3 refills inside instead of 4. The last thing I need to do during the holidays is return an item, because the box had already been opened by someone else.",
-      "tags": [],
-      "date": "2025-12-08",
-      "brand": "Zevo",
-      "asin": "B0CTQDTF1V",
-      "title": "box was opened previously and missing a refill",
-      "body": "great product but my box only had 3 refills inside instead of 4. The last thing I need to do during the holidays is return an item, because the box had already been opened by someone else."
-    },
-    {
-      "r": 3,
-      "t": "less expensive but not as effective as Zevo — Veyofly catches about half as many flys as Zevo when placed adjacent to each other.",
-      "tags": [
-        "compared_other"
-      ],
-      "date": "2025-12-07",
-      "brand": "VEYOFLY",
-      "asin": "B0BHN2YLRR",
-      "title": "less expensive but not as effective as Zevo",
-      "body": "Veyofly catches about half as many flys as Zevo when placed adjacent to each other."
-    },
-    {
-      "r": 2,
-      "t": "Don’t last long — These seem nice but don’t last long. After 4 months mine burnt out and burned my outlets. And two others are just blinking randomly. Do not recommend at all!!",
-      "tags": [
-        "hardware_fail"
-      ],
-      "date": "2025-12-07",
-      "brand": "BugMD",
-      "asin": "B0D38CSTX3",
-      "title": "Don’t last long",
-      "body": "These seem nice but don’t last long. After 4 months mine burnt out and burned my outlets. And two others are just blinking randomly. Do not recommend at all!!"
-    },
-    {
-      "r": 2,
-      "t": "It’s ok — Not good for mosquitos",
-      "tags": [],
-      "date": "2025-12-06",
-      "brand": "Zevo",
-      "asin": "B0CTQDTF1V",
-      "title": "It’s ok",
-      "body": "Not good for mosquitos"
-    },
-    {
-      "r": 1,
-      "t": "Traps are not effective — These traps do not work well. I purchased the three pack and after more than two weeks of continuous use in the areas where the fruit flies are swarming the traps have only caught about 6 fruit flies.",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-12-05",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Traps are not effective",
-      "body": "These traps do not work well. I purchased the three pack and after more than two weeks of continuous use in the areas where the fruit flies are swarming the traps have only caught about 6 fruit flies."
-    },
-    {
-      "r": 1,
-      "t": "Traps are not effective — These traps do not work well. I purchased the three pack and after more than two weeks of continuous use in the areas where the fruit flies are swarming the traps have only caught about 6 fruit flies.",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-12-05",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Traps are not effective",
-      "body": "These traps do not work well. I purchased the three pack and after more than two weeks of continuous use in the areas where the fruit flies are swarming the traps have only caught about 6 fruit flies."
-    },
-    {
-      "r": 1,
-      "t": "Don't buy this one. — This does not work. It's just a sticky trap with a blue light plugged into your wall. I only caught a few bugs on the sticky place. It's on the back of a square piece about 3 by 3 inches. It makes no sound waves or anything to encourage bugs to come to it. I wasted my money.",
-      "tags": [
-        "no_effect",
-        "light_no_attract",
-        "flypaper_gimmick",
-        "noise",
-        "catches_some"
-      ],
-      "date": "2025-12-05",
-      "brand": "VEYOFLY",
-      "asin": "B0BHN2YLRR",
-      "title": "Don't buy this one.",
-      "body": "This does not work. It's just a sticky trap with a blue light plugged into your wall. I only caught a few bugs on the sticky place. It's on the back of a square piece about 3 by 3 inches. It makes no sound waves or anything to encourage bugs to come to it. I wasted my money."
-    },
-    {
-      "r": 1,
-      "t": "Stains? — As others have reported, brown stains on trap side, electrical issue?",
-      "tags": [],
-      "date": "2025-12-05",
-      "brand": "BugMD",
-      "asin": "B0D38CSTX3",
-      "title": "Stains?",
-      "body": "As others have reported, brown stains on trap side, electrical issue?"
-    },
-    {
-      "r": 3,
-      "t": "Did not work well for us — We primarily bought it to catch house flies - We get waves of house flies on occasion so I purchased this - we tried it in 3 different locations in our family room - did not catch a one - we put up fly strips later which are ugly and they worked- We also got quite a few old school with a fly swatter. However since our family room is windows all around maybe the light from the Zevo was not attracting them - we placed the sticky strips near the windows- Back to a positive - The Zevo did catch little gnats? As well as the fly strips put up later.",
-      "tags": [
-        "compared_other"
-      ],
-      "date": "2025-12-04",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Did not work well for us",
-      "body": "We primarily bought it to catch house flies - We get waves of house flies on occasion so I purchased this - we tried it in 3 different locations in our family room - did not catch a one - we put up fly strips later which are ugly and they worked- We also got quite a few old school with a fly swatter. However since our family room is windows all around maybe the light from the Zevo was not attracting them - we placed the sticky strips near the windows- Back to a positive - The Zevo did catch little gnats? As well as the fly strips put up later."
-    },
-    {
-      "r": 1,
-      "t": "Not very effective — 1 little fruit fly caught. Just 1. So, not very effective as there were tons of flies in the fruit I had delivered.",
-      "tags": [],
-      "date": "2025-12-04",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Not very effective",
-      "body": "1 little fruit fly caught. Just 1. So, not very effective as there were tons of flies in the fruit I had delivered."
-    },
-    {
-      "r": 1,
-      "t": "Unattractive — There is paper on the side facing out that is unsightly, but if you remove it tou can see all the bugs that are caught.",
-      "tags": [],
-      "date": "2025-12-04",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Unattractive",
-      "body": "There is paper on the side facing out that is unsightly, but if you remove it tou can see all the bugs that are caught."
-    },
-    {
-      "r": 1,
-      "t": "Terrible — Terrible do nothing at all. Do not buy",
-      "tags": [],
-      "date": "2025-12-04",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Terrible",
-      "body": "Terrible do nothing at all. Do not buy"
-    },
-    {
-      "r": 1,
-      "t": "Not useful at all — This does not work at alllllll!!! I’ve been using it for three days consecutively and not even one fruit fly was caught on it.",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-12-04",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Not useful at all",
-      "body": "This does not work at alllllll!!! I’ve been using it for three days consecutively and not even one fruit fly was caught on it."
-    },
-    {
-      "r": 1,
-      "t": "Not useful at all — This does not work at alllllll!!! I’ve been using it for three days consecutively and not even one fruit fly was caught on it.",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-12-04",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Not useful at all",
-      "body": "This does not work at alllllll!!! I’ve been using it for three days consecutively and not even one fruit fly was caught on it."
-    },
-    {
-      "r": 1,
-      "t": "Not very effective — 1 little fruit fly caught. Just 1. So, not very effective as there were tons of flies in the fruit I had delivered.",
-      "tags": [],
-      "date": "2025-12-04",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Not very effective",
-      "body": "1 little fruit fly caught. Just 1. So, not very effective as there were tons of flies in the fruit I had delivered."
-    },
-    {
-      "r": 1,
-      "t": "Unattractive — There is paper on the side facing out that is unsightly, but if you remove it tou can see all the bugs that are caught.",
-      "tags": [],
-      "date": "2025-12-04",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Unattractive",
-      "body": "There is paper on the side facing out that is unsightly, but if you remove it tou can see all the bugs that are caught."
-    },
-    {
-      "r": 1,
-      "t": "Terrible — Terrible do nothing at all. Do not buy",
-      "tags": [],
-      "date": "2025-12-04",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Terrible",
-      "body": "Terrible do nothing at all. Do not buy"
-    },
-    {
-      "r": 3,
-      "t": "Still Waiting for Results — So far it hasn't made any impact 😕 Still using it and see if knats and fruit flies clear out💯",
-      "tags": [],
-      "date": "2025-12-03",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Still Waiting for Results",
-      "body": "So far it hasn't made any impact 😕 Still using it and see if knats and fruit flies clear out💯"
-    },
-    {
-      "r": 3,
-      "t": "Helped but could have been better. — Worked ok. Still had fruit flies with 2 units plugged in.",
-      "tags": [],
-      "date": "2025-12-03",
-      "brand": "Zevo",
-      "asin": "B0C3PDTYYX",
-      "title": "Helped but could have been better.",
-      "body": "Worked ok. Still had fruit flies with 2 units plugged in."
-    },
-    {
-      "r": 2,
-      "t": "Not working as expected — It caught only 2 flies though I have plenty of fruit flies flying around . It’s not effective as I thought .",
-      "tags": [],
-      "date": "2025-12-03",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Not working as expected",
-      "body": "It caught only 2 flies though I have plenty of fruit flies flying around . It’s not effective as I thought ."
-    },
-    {
-      "r": 2,
-      "t": "Doesn’t catch much — I put it in a spot where all the fruit flies congregate and it only caught 1 fly. I caught more in my homemade vinegar solution. Not really impressed.",
-      "tags": [
-        "diy_better"
-      ],
-      "date": "2025-12-03",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Doesn’t catch much",
-      "body": "I put it in a spot where all the fruit flies congregate and it only caught 1 fly. I caught more in my homemade vinegar solution. Not really impressed."
-    },
-    {
-      "r": 1,
-      "t": "Disappointing and Ineffective — Didn’t do much. The light looked promising, but it barely caught anything and felt more like a night-light than a trap. Not impressed and wouldn’t rely on it.",
-      "tags": [
-        "nightlight"
-      ],
-      "date": "2025-12-03",
-      "brand": "VEYOFLY",
-      "asin": "B0BHN2YLRR",
-      "title": "Disappointing and Ineffective",
-      "body": "Didn’t do much. The light looked promising, but it barely caught anything and felt more like a night-light than a trap. Not impressed and wouldn’t rely on it."
-    },
-    {
-      "r": 1,
-      "t": "Never caught a single one — These things suck. For some weird reason I have knats in my kitchen. Kitchen is very clean so I have no idea where they keep coming from. I tried these and haven't caught a single one. It's been a week. I have to use a spray then reclean everything. No food sitting out. All I can think of is they are coming from sink. Even poured bleach in all drains. Guess I'll stick with the kid/pet safe spray.",
-      "tags": [
-        "chemical_free",
-        "catches_some"
-      ],
-      "date": "2025-12-02",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Never caught a single one",
-      "body": "These things suck. For some weird reason I have knats in my kitchen. Kitchen is very clean so I have no idea where they keep coming from. I tried these and haven't caught a single one. It's been a week. I have to use a spray then reclean everything. No food sitting out. All I can think of is they are coming from sink. Even poured bleach in all drains. Guess I'll stick with the kid/pet safe spray."
-    },
-    {
-      "r": 3,
-      "t": "Large — How much room you need above the electric socket for the height of this unit. I had to put it the 4th socket because it is to big.",
-      "tags": [],
-      "date": "2025-12-02",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Large",
-      "body": "How much room you need above the electric socket for the height of this unit. I had to put it the 4th socket because it is to big."
-    },
-    {
-      "r": 1,
-      "t": "Never caught a single one — These things suck. For some weird reason I have knats in my kitchen. Kitchen is very clean so I have no idea where they keep coming from. I tried these and haven't caught a single one. It's been a week. I have to use a spray then reclean everything. No food sitting out. All I can think of is they are coming from sink. Even poured bleach in all drains. Guess I'll stick with the kid/pet safe spray.",
-      "tags": [
-        "chemical_free",
-        "catches_some"
-      ],
-      "date": "2025-12-02",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Never caught a single one",
-      "body": "These things suck. For some weird reason I have knats in my kitchen. Kitchen is very clean so I have no idea where they keep coming from. I tried these and haven't caught a single one. It's been a week. I have to use a spray then reclean everything. No food sitting out. All I can think of is they are coming from sink. Even poured bleach in all drains. Guess I'll stick with the kid/pet safe spray."
-    },
-    {
-      "r": 2,
-      "t": "Get the sticky traps for plants — I purchased this for a fly/gnat infestation in my plants. I found the yellow sticky traps were much more effective for my problem",
-      "tags": [],
-      "date": "2025-12-02",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Get the sticky traps for plants",
-      "body": "I purchased this for a fly/gnat infestation in my plants. I found the yellow sticky traps were much more effective for my problem"
-    },
-    {
-      "r": 3,
-      "t": "Zero flying insect catcher — Catches some insects but not super effective",
-      "tags": [],
-      "date": "2025-12-01",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Zero flying insect catcher",
-      "body": "Catches some insects but not super effective"
-    },
-    {
-      "r": 3,
-      "t": "Malfunctioning at 6 weeks. — They catch a lot but one is broken six weeks after purchase. :(",
-      "tags": [],
-      "date": "2025-12-01",
-      "brand": "Zevo",
-      "asin": "B0C3PDTYYX",
-      "title": "Malfunctioning at 6 weeks.",
-      "body": "They catch a lot but one is broken six weeks after purchase. :("
-    },
-    {
-      "r": 3,
-      "t": "Aw gnats — I really had high hopes for this and saw the positive reviews but I guess my gnats are smarter. The 1st day I noticed that this didn’t work, then I tried putting apple cider vinegar next to the traps and I feel that helped the gnats accidentally fly in to the trap. Next I tossed the light and stuck the sticky sheets directly on the apple cider vinegar cup side and that worked well.",
-      "tags": [
-        "diy_better"
-      ],
-      "date": "2025-11-30",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Aw gnats",
-      "body": "I really had high hopes for this and saw the positive reviews but I guess my gnats are smarter. The 1st day I noticed that this didn’t work, then I tried putting apple cider vinegar next to the traps and I feel that helped the gnats accidentally fly in to the trap. Next I tossed the light and stuck the sticky sheets directly on the apple cider vinegar cup side and that worked well."
-    },
-    {
-      "r": 2,
-      "t": "LFSYS 2pcs. Fruit Fly Traps For Indoors. — I ordered this on November 26th & received it on November 29th 2025. One fruit fly trap works the other does not. I haven’t noticed any fruit flies or flying insects collected yet. I’ll have to return because the blue light does not work. I tried different outlets.",
-      "tags": [
-        "no_effect",
-        "light_no_attract"
-      ],
-      "date": "2025-11-30",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "LFSYS 2pcs. Fruit Fly Traps For Indoors.",
-      "body": "I ordered this on November 26th & received it on November 29th 2025. One fruit fly trap works the other does not. I haven’t noticed any fruit flies or flying insects collected yet. I’ll have to return because the blue light does not work. I tried different outlets."
-    },
-    {
-      "r": 2,
-      "t": "LFSYS 2pcs. Fruit Fly Traps For Indoors. — I ordered this on November 26th & received it on November 29th 2025. One fruit fly trap works the other does not. I haven’t noticed any fruit flies or flying insects collected yet. I’ll have to return because the blue light does not work. I tried different outlets.",
-      "tags": [
-        "no_effect",
-        "light_no_attract"
-      ],
-      "date": "2025-11-30",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "LFSYS 2pcs. Fruit Fly Traps For Indoors.",
-      "body": "I ordered this on November 26th & received it on November 29th 2025. One fruit fly trap works the other does not. I haven’t noticed any fruit flies or flying insects collected yet. I’ll have to return because the blue light does not work. I tried different outlets."
-    },
-    {
-      "r": 3,
-      "t": "Aw gnats — I really had high hopes for this and saw the positive reviews but I guess my gnats are smarter. The 1st day I noticed that this didn’t work, then I tried putting apple cider vinegar next to the traps and I feel that helped the gnats accidentally fly in to the trap. Next I tossed the light and stuck the sticky sheets directly on the apple cider vinegar cup side and that worked well.",
-      "tags": [
-        "diy_better"
-      ],
-      "date": "2025-11-30",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Aw gnats",
-      "body": "I really had high hopes for this and saw the positive reviews but I guess my gnats are smarter. The 1st day I noticed that this didn’t work, then I tried putting apple cider vinegar next to the traps and I feel that helped the gnats accidentally fly in to the trap. Next I tossed the light and stuck the sticky sheets directly on the apple cider vinegar cup side and that worked well."
-    },
-    {
-      "r": 2,
-      "t": "Save your money — Hasn't trapped anything yet . The fruit flies don't seem to care that it is on . I would NOT recommend this item . Save your money",
-      "tags": [],
-      "date": "2025-11-30",
-      "brand": "Zevo",
-      "asin": "B0C3PDTYYX",
-      "title": "Save your money",
-      "body": "Hasn't trapped anything yet . The fruit flies don't seem to care that it is on . I would NOT recommend this item . Save your money"
-    },
-    {
-      "r": 1,
-      "t": "It doesn't work for me. — Not thrilled, it's been plugged in 24/7 for 3 weeks in kitchen right where the fruit are flying an d there are still just as many flying as before. It would be a lie to say it works !!",
-      "tags": [],
-      "date": "2025-11-30",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "It doesn't work for me.",
-      "body": "Not thrilled, it's been plugged in 24/7 for 3 weeks in kitchen right where the fruit are flying an d there are still just as many flying as before. It would be a lie to say it works !!"
-    },
-    {
-      "r": 1,
-      "t": "Waste of money — Doesn’t work - waste of money",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-11-30",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Waste of money",
-      "body": "Doesn’t work - waste of money"
-    },
-    {
-      "r": 2,
-      "t": "Not the best item. — We returned them with the main unit. Not worth the money",
-      "tags": [],
-      "date": "2025-11-30",
-      "brand": "Zevo",
-      "asin": "B0CTQDTF1V",
-      "title": "Not the best item.",
-      "body": "We returned them with the main unit. Not worth the money"
-    },
-    {
-      "r": 1,
-      "t": "It doesn't work for me. — Not thrilled, it's been plugged in 24/7 for 3 weeks in kitchen right where the fruit are flying an d there are still just as many flying as before. It would be a lie to say it works !!",
-      "tags": [],
-      "date": "2025-11-30",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "It doesn't work for me.",
-      "body": "Not thrilled, it's been plugged in 24/7 for 3 weeks in kitchen right where the fruit are flying an d there are still just as many flying as before. It would be a lie to say it works !!"
-    },
-    {
-      "r": 1,
-      "t": "Waste of money — Doesn’t work - waste of money",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-11-30",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Waste of money",
-      "body": "Doesn’t work - waste of money"
-    },
-    {
-      "r": 3,
-      "t": "It’s decent — Purchased and have used over a week now. Night light feature works and gives off a good dark glow and it is easy to use. A little on the larger size for a night light. The adhesive is very sticky. Only issue is i haven’t had may of the little gnats drawn to it yet but we’ll see.",
-      "tags": [
-        "nightlight"
-      ],
-      "date": "2025-11-29",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "It’s decent",
-      "body": "Purchased and have used over a week now. Night light feature works and gives off a good dark glow and it is easy to use. A little on the larger size for a night light. The adhesive is very sticky. Only issue is i haven’t had may of the little gnats drawn to it yet but we’ll see."
-    },
-    {
-      "r": 3,
-      "t": "Meh — Doesn't work as well as advertised",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-11-29",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Meh",
-      "body": "Doesn't work as well as advertised"
-    },
-    {
-      "r": 1,
-      "t": "Didn’t work for me — The last 24 hours, I literally caught one!",
-      "tags": [],
-      "date": "2025-11-29",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Didn’t work for me",
-      "body": "The last 24 hours, I literally caught one!"
-    },
-    {
-      "r": 2,
-      "t": "Did not perform well — Unfortunately it did not attract the fruit flies I had hoped it would. Maybe it would attract mosquitos or flies but we have none of those.",
-      "tags": [],
-      "date": "2025-11-29",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Did not perform well",
-      "body": "Unfortunately it did not attract the fruit flies I had hoped it would. Maybe it would attract mosquitos or flies but we have none of those."
-    },
-    {
-      "r": 1,
-      "t": "Didn’t work for me — The last 24 hours, I literally caught one!",
-      "tags": [],
-      "date": "2025-11-29",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Didn’t work for me",
-      "body": "The last 24 hours, I literally caught one!"
-    },
-    {
-      "r": 3,
-      "t": "Not very effective — Unfortunately Florida mosquitoes are smarter than this device. They always choose me if I’m in the room. Not useless though. Caught 2 of them since delivered in the past several days but I killed 4 with my hands during the same time. Too bright for me to be comfortable as well",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-11-28",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Not very effective",
-      "body": "Unfortunately Florida mosquitoes are smarter than this device. They always choose me if I’m in the room. Not useless though. Caught 2 of them since delivered in the past several days but I killed 4 with my hands during the same time. Too bright for me to be comfortable as well"
-    },
-    {
-      "r": 3,
-      "t": "Insect product — Not a good product doesn’t work",
-      "tags": [],
-      "date": "2025-11-28",
-      "brand": "Zevo",
-      "asin": "B07T869RNY",
-      "title": "Insect product",
-      "body": "Not a good product doesn’t work"
-    },
-    {
-      "r": 1,
-      "t": "Waste of money — ZERO STARS IT DOES NOT WORK! Total waste of money…",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-11-28",
-      "brand": "LFSYS",
-      "asin": "B0D795SPZD",
-      "title": "Waste of money",
-      "body": "ZERO STARS IT DOES NOT WORK! Total waste of money…"
-    },
-    {
-      "r": 1,
-      "t": "Waste of money — ZERO STARS IT DOES NOT WORK! Total waste of money…",
-      "tags": [
-        "no_effect"
-      ],
-      "date": "2025-11-28",
-      "brand": "LFSYS",
-      "asin": "B0DJ2H3BRB",
-      "title": "Waste of money",
-      "body": "ZERO STARS IT DOES NOT WORK! Total waste of money…"
     }
   ]
 }
