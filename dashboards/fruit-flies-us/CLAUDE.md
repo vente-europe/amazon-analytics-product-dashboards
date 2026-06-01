@@ -58,6 +58,19 @@ file at build time so the IDs/CSS-classes never collide:
 
 Add more tabs by inlining additional `u-*` templates into the shell and extending `_TAB_DATA` to match each template's data contract.
 
+## Reviews VOC pipeline (Tabs 3 + 4)
+
+The VOC pools started as a **negative-only** scrape (the `dataset_amazon-reviews-scraper_*.json` files only held 1-3★ reviews). On 2026-06-01 a **positive pull** (`reviews/us-fruitfly-positive-2026-05-31/`, 39 ASINs / 296 reviews, mostly 4-5★) was merged in to rebalance.
+
+Pipeline order:
+1. `python _extract_voc_samples.py` — builds `_voc_work/{slug}_all.json` + `_sample.json`. Now also ingests the positive folder, **gated to ASINs already in the Lure/Electric pools** (the 17 Sticky/Passive/off-X-Ray ASINs are intentionally skipped — no tab for them). Result: Lure 1,756 / Electric 1,264.
+2. `python _build_ai_prompt.py` → `_voc_work/{slug}_prompt.txt` (Gemini re-analysis prompt; Gemini's `analyze-document` MCP is currently pinned to a retired model, so re-analysis was authored in-context).
+3. `python _rebalance_ai.py` — overrides the sentiment-sensitive fields in `_voc_work/{slug}_ai.json` (cpSummary, csSummary, positiveTopics, positiveInsights, cp* `pos[]` arrays) with positive-grounded content; **keeps** the verified `negativeTopics`, `customerExpectations`, `usageScenarios`, and `neg[]` arrays.
+4. `python _assemble_voc.py` → `voc-lure.json` / `voc-electric.json`.
+5. `python _build_standalone.py` → `index.html` (loads the two `voc-*.json` at lines ~413-414; the printed "1,644/1,200" summary is a **stale legacy recompute block**, NOT what the tabs render).
+
+Brand coverage: Lure VOC = Aunt Fannie's, Qualirey, Terro, Super Ninja, Raid, **HOT SHOT**, STEM (all single/dual-ASIN). Electric VOC = Zevo, LFSYS, VEYOFLY, BugMD, FVOAI. Terro and HOT SHOT are Lure-only.
+
 ## Segments (normalized from the X-Ray `Type` column)
 
 Canonical 4 — order matters (drives KPI card column + pie slice order):
