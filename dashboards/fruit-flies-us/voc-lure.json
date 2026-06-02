@@ -369,11 +369,11 @@
       "implication": "<strong>Reformulate the bait</strong> to include a surfactant (like dish soap) that breaks surface tension, ensuring flies actually sink and die."
     },
     {
-      "type": "DIY Substitute",
-      "badgeBg": "#fef3c7",
-      "badgeColor": "#92400e",
-      "finding": "22.9% of unhappy buyers feel scammed, stating homemade apple cider vinegar works better.",
-      "implication": "<strong>Differentiate the formula</strong> visually or functionally from basic ACV, or focus marketing entirely on the superior, spill-proof hardware to justify the premium."
+      "type": "Evaporation",
+      "badgeBg": "#fce7f3",
+      "badgeColor": "#9d174d",
+      "finding": "Liquid evaporates in just days, completely invalidating brand claims of 30-270 day longevities.",
+      "implication": "<strong>Thicken the liquid</strong> with a sucrose or gel base to slow evaporation rates, and align box claims with realistic household conditions to prevent buyer backlash."
     },
     {
       "type": "Design Flaw",
@@ -390,11 +390,11 @@
       "implication": "<strong>Deodorize or mask</strong> the vinegar scent with pleasant botanicals, or refine the trap openings to limit airflow while still allowing flies to enter."
     },
     {
-      "type": "Evaporation",
-      "badgeBg": "#fce7f3",
-      "badgeColor": "#9d174d",
-      "finding": "Liquid evaporates in just days, completely invalidating brand claims of 30-270 day longevities.",
-      "implication": "<strong>Thicken the liquid</strong> with a sucrose or gel base to slow evaporation rates, and align box claims with realistic household conditions to prevent buyer backlash."
+      "type": "DIY Substitute",
+      "badgeBg": "#fef3c7",
+      "badgeColor": "#92400e",
+      "finding": "22.9% of unhappy buyers feel scammed, stating homemade apple cider vinegar works better.",
+      "implication": "<strong>Differentiate the formula</strong> visually or functionally from basic ACV, or focus marketing entirely on the superior, spill-proof hardware to justify the premium."
     },
     {
       "type": "Packaging",

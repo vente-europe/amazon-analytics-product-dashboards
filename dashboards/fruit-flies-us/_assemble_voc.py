@@ -229,6 +229,35 @@ INSIGHT_TOPIC = {
 }
 
 
+# --- Reorder negative INSIGHTS to follow the (pct-sorted) Unmet Needs sequence ---
+# Each insight maps 1:1 to a customerExpectation (unmet need); the insights table is
+# re-sorted so its order matches the unmet-needs order exactly.
+INSIGHT_UNMET = {
+    'lure': {
+        'Efficacy Crisis': 'Flies Fall In and Drown',
+        'Evaporation':     'Lasts Advertised Duration',
+        'Design Flaw':     'Stable and Spill-Proof',
+        'Smell':           'Odor Containment',
+        'DIY Substitute':  'Outperforms Homemade ACV',
+        'Packaging':       'Intact Packaging',
+    },
+    'electric': {
+        'Efficacy Crisis':   'UV Light Actually Attracts Fruit Flies',
+        'The ACV Benchmark': 'Outperforms Homemade Traps',
+        'Hardware Failure':  'Long-Term Hardware Durability',
+        'Fan Trap Flaws':    'Trapped Bugs Are Dead',
+        'Refill Issues':     'Refills Included and Affordable',
+        'Placement Limits':  'Flexible Placement',
+    },
+}
+
+
+def reorder_insights_to_unmet(insights, customer_expectations, slug):
+    pos = {e['label']: i for i, e in enumerate(customer_expectations)}
+    m = INSIGHT_UNMET.get(slug, {})
+    return sorted(insights, key=lambda ins: pos.get(m.get(ins['type']), 999))
+
+
 def sync_insight_numbers(insights, neg_topics, slug):
     pct_by_label = {t['label']: t['pct'] for t in neg_topics}
     m = INSIGHT_TOPIC.get(slug, {})
@@ -290,6 +319,10 @@ def build_payload(seg_name, slug, theme_rules, theme_filters):
         })
 
     _neg_topics = enrich_neg_topics(ai['negativeTopics'], slug, all_reviews)
+    _ce_sorted = sorted(ai['customerExpectations'],
+                        key=lambda e: float(str(e['pct']).rstrip('%')), reverse=True)
+    _neg_insights = reorder_insights_to_unmet(
+        sync_insight_numbers(ai['negativeInsights'], _neg_topics, slug), _ce_sorted, slug)
     payload = {
         # Identity
         'countryName':  'United States',
@@ -310,10 +343,10 @@ def build_payload(seg_name, slug, theme_rules, theme_filters):
         'csSummary':            ai['csSummary'],
         'negativeTopics':       _neg_topics,
         'positiveTopics':       enrich_pos_topics(ai['positiveTopics'], slug, all_reviews),
-        'negativeInsights':     sync_insight_numbers(ai['negativeInsights'], _neg_topics, slug),
+        'negativeInsights':     _neg_insights,
         'positiveInsights':     ai['positiveInsights'],
         'buyersMotivation':     ai['buyersMotivation'],
-        'customerExpectations': ai['customerExpectations'],
+        'customerExpectations': _ce_sorted,
         # Render-only metadata
         'themeFilters': theme_filters,
         'tagStyles':    TAG_STYLES,

@@ -383,11 +383,11 @@
       "implication": "<strong>Upgrade LED diode lifespans</strong> and source higher-quality, dust-resistant fan motors to survive 24/7 continuous operation."
     },
     {
-      "type": "Placement Limits",
-      "badgeBg": "#fef08a",
-      "badgeColor": "#854d0e",
-      "finding": "6.8% of complaints note that wall outlets are rarely located directly where the fruit flies congregate.",
-      "implication": "<strong>Develop a battery-operated or USB-rechargeable variant</strong> that can be placed directly next to fruit bowls and compost bins."
+      "type": "Fan Trap Flaws",
+      "badgeBg": "#f3e8ff",
+      "badgeColor": "#6b21a8",
+      "finding": "Fan models (FVOAI) consistently get negative feedback for weak suction, noisy vibration over time, and bugs escaping alive during cleaning.",
+      "implication": "<strong>Increase fan RPM</strong> for stronger draft, use noise-dampening bearings, and implement an auto-closing shutter when powered off."
     },
     {
       "type": "Refill Issues",
@@ -397,11 +397,11 @@
       "implication": "<strong>Audit fulfillment for accuracy</strong> and offer a low-cost subscription model for OEM clear sticky pads."
     },
     {
-      "type": "Fan Trap Flaws",
-      "badgeBg": "#f3e8ff",
-      "badgeColor": "#6b21a8",
-      "finding": "Fan models (FVOAI) consistently get negative feedback for weak suction, noisy vibration over time, and bugs escaping alive during cleaning.",
-      "implication": "<strong>Increase fan RPM</strong> for stronger draft, use noise-dampening bearings, and implement an auto-closing shutter when powered off."
+      "type": "Placement Limits",
+      "badgeBg": "#fef08a",
+      "badgeColor": "#854d0e",
+      "finding": "6.8% of complaints note that wall outlets are rarely located directly where the fruit flies congregate.",
+      "implication": "<strong>Develop a battery-operated or USB-rechargeable variant</strong> that can be placed directly next to fruit bowls and compost bins."
     }
   ],
   "positiveInsights": [
