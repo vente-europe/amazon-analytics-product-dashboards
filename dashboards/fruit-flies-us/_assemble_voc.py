@@ -143,9 +143,11 @@ NEG_TOPIC_REGEX = {
     'electric': {
         # Dominant efficacy failure for electric — light doesn't attract / caught nothing / doesn't work.
         'Light Fails to Attract Fruit Flies': r"light\s*(does|doesn|do)\s*n?[o']?t\s*attract|doesn'?t\s*attract|not\s*attracted|do(es)?\s*n'?t\s*work|did(n'?t|\s*not)\s*work|\bnot\s*work|caught\s*(nothing|none|not\s*one|only\s*one|1\b|2\b)|didn'?t\s*catch|won'?t\s*catch|catch\s*(nothing|none)|useless|no\s*effect|ineffective|waste\s*of\s*money|fly\s*(right\s*)?by|ignore|\bzero\b|nothing\s*(trapped|caught|stuck)|don'?t\s*go\s*near|not\s*(a\s*)?single",
-        'Homemade ACV Beats Electric Traps': r"apple\s*cider|\bacv\b|vinegar|homemade|home\s*remedy|dish\s*soap|cup\s*of\s*vinegar|make\s*(your|my)\s*own|cheaper\s*to\s*make",
+        # Require a DIY-comparison/value signal, not a bare 'vinegar'/'apple cider' mention.
+        'Homemade ACV Beats Electric Traps': r"homemade|home\s*remedy|dish\s*soap|make\s*(your|my)\s*own|cup\s*of\s*vinegar|cheaper\s*to\s*make|(vinegar|acv|apple\s*cider).{0,30}(work|caught|catch|better|cheaper|more|instead)|(work|caught|catch|better|cheaper|more|instead).{0,30}(vinegar|acv|apple\s*cider)|just\s*(buy|use|make).{0,15}(vinegar|acv|apple\s*cider)",
         'Hardware Failure & Burnout': r"burn(t|ed)?\s*out|stop(ped)?\s*working|won'?t\s*turn\s*on|\bdied\b|\bdies\b|stopped|short\s*life|burned|fan\s*(stopped|broke|died)|capacitor|light\s*(died|burnt|out|went\s*out)|less\s*than\s*(a\s*)?year|after\s*\d+\s*(month|day)",
-        'Dressed-up Fly Paper Gimmick': r"fly\s*paper|flypaper|fly\s*tape|sticky\s*(paper|ribbon|tape)|just\s*a?\s*sticky|fancy\s*fly|sticky\s*pad|gimmick|nothing\s*but\s*(a\s*)?stick",
+        # 'Just a fancy fly paper' framing — drop bare 'sticky pad' (the product IS a sticky-pad trap).
+        'Dressed-up Fly Paper Gimmick': r"fly\s*paper|flypaper|fly\s*tape|sticky\s*(paper|ribbon|tape)|just\s*a?\s*sticky|fancy\s*fly|gimmick|nothing\s*but\s*(a\s*)?stick|dressed.?up|glorified|fancy\s*(cover|housing|version)",
         'Placement & Outlet Limitations': r"outlet|plug.?in|near\s*an?\s*outlet|wall\s*socket|reach\s*the\s*outlet|placement|where\s*to\s*plug",
         'Ineffective on House Flies': r"house\s*fl|housefl|big(ger)?\s*fl|larger\s*fl|regular\s*fl|doesn'?t\s*(catch|work).{0,15}(house|big|large)\s*fl",
         'FVOAI Fan Weakness & Noise': r"nois|loud|sound|vibrat|\bhum\b|buzzing|weak\s*fan|fan.*weak|barely\s*feel|low\s*suction|fly\s*(through|out|right\s*back)",
