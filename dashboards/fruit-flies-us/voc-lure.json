@@ -282,7 +282,7 @@
     {
       "label": "Clears Infestations Fast (When Placed Right)",
       "reason": "A genuine cohort reports the traps wiping out a fruit-fly invasion within hours to a few days once positioned near the source.",
-      "pct": "33.5%",
+      "pct": "34.9%",
       "bullets": [
         "Buyers describe near-total clearance of established swarms within 2-3 days.",
         "Results land fastest when placed right at the sink, trash, or fruit bowl.",
@@ -292,12 +292,13 @@
         "\"It is by far the easiest, cleanest, and most effective way to eliminate them without having to mix weird DIY concoctions.\"",
         "\"I had it out on my counter about 2 hours and most of the fruit flies I had before putting it out were all gone and in the trap.\"",
         "\"Got rid of my nasty fruit fly infestation quick!\""
-      ]
+      ],
+      "foundIn": "Found in 121 of 347 positive reviews (34.9%)"
     },
     {
       "label": "Beats DIY / 'Best I've Tried'",
       "reason": "Enthusiasts who previously relied on homemade ACV jars rate these as decisively better and become repeat buyers.",
-      "pct": "24.8%",
+      "pct": "20.5%",
       "bullets": [
         "Direct winners in self-run comparisons against vinegar-and-soap bowls.",
         "Skeptical buyers report being converted after one use.",
@@ -307,42 +308,13 @@
         "\"This is 100% the best fruit fly trap on the market that I have used.\"",
         "\"Was skeptical, but turned out to be the best option out of all.\"",
         "\"These are the best fruit fly traps I have ever used.\""
-      ]
-    },
-    {
-      "label": "Satisfying Visible Kill",
-      "reason": "Buyers delight in being able to SEE the flies enter and die inside the trap — visible proof builds trust.",
-      "pct": "18.2%",
-      "bullets": [
-        "Seeing dead flies accumulate confirms the product is working.",
-        "The transparent chamber lets users watch flies get drawn in and drown.",
-        "Visible results convert early skeptics into believers."
       ],
-      "quotes": [
-        "\"I saw dead fruit flies in each trap! Yes, they smell strongly of vinegar but it's worth it if you have a bad fruit fly issue!\"",
-        "\"You can actually see them get in the jar.\"",
-        "\"fruit flies hovering over it and dove into the liquid.\""
-      ]
-    },
-    {
-      "label": "Discreet & Cute Design",
-      "reason": "The compact, attractive containers are preferred over unsightly hanging fly tape and blend into the kitchen.",
-      "pct": "13.9%",
-      "bullets": [
-        "Small, attractive profiles sit on the counter without looking like a bug trap.",
-        "A clear visual upgrade from yellow fly ribbons or open mason jars.",
-        "Discreet enough to place throughout the home."
-      ],
-      "quotes": [
-        "\"it is small and looks attractive, so that it doesn't look hideous.\"",
-        "\"The apple shape is cuter than fly tape though.\"",
-        "\"Nice container. Discreet.\""
-      ]
+      "foundIn": "Found in 71 of 347 positive reviews (20.5%)"
     },
     {
       "label": "Natural, Pet-Safe & No-Cleanup",
       "reason": "Families value a ready-to-use, chemical-free trap that is easy to deploy and disposes cleanly.",
-      "pct": "9.6%",
+      "pct": "16.1%",
       "bullets": [
         "Reassuring around children, pets, and food prep areas.",
         "No mixing, measuring, or messy cleanup — open, place, discard.",
@@ -352,7 +324,40 @@
         "\"not only safe for our family and children, but this attracts the gnats and then catches them inside the bottle.\"",
         "\"Simply open jar, flies are attracted and fall into liquid . Simply close jar and discard.  No more flies !\"",
         "\"easy to use . Just open and put near doors and sinks.\""
-      ]
+      ],
+      "foundIn": "Found in 56 of 347 positive reviews (16.1%)"
+    },
+    {
+      "label": "Discreet & Cute Design",
+      "reason": "The compact, attractive containers are preferred over unsightly hanging fly tape and blend into the kitchen.",
+      "pct": "13.3%",
+      "bullets": [
+        "Small, attractive profiles sit on the counter without looking like a bug trap.",
+        "A clear visual upgrade from yellow fly ribbons or open mason jars.",
+        "Discreet enough to place throughout the home."
+      ],
+      "quotes": [
+        "\"it is small and looks attractive, so that it doesn't look hideous.\"",
+        "\"The apple shape is cuter than fly tape though.\"",
+        "\"Nice container. Discreet.\""
+      ],
+      "foundIn": "Found in 46 of 347 positive reviews (13.3%)"
+    },
+    {
+      "label": "Satisfying Visible Kill",
+      "reason": "Buyers delight in being able to SEE the flies enter and die inside the trap — visible proof builds trust.",
+      "pct": "12.1%",
+      "bullets": [
+        "Seeing dead flies accumulate confirms the product is working.",
+        "The transparent chamber lets users watch flies get drawn in and drown.",
+        "Visible results convert early skeptics into believers."
+      ],
+      "quotes": [
+        "\"I saw dead fruit flies in each trap! Yes, they smell strongly of vinegar but it's worth it if you have a bad fruit fly issue!\"",
+        "\"You can actually see them get in the jar.\"",
+        "\"fruit flies hovering over it and dove into the liquid.\""
+      ],
+      "foundIn": "Found in 42 of 347 positive reviews (12.1%)"
     }
   ],
   "negativeInsights": [

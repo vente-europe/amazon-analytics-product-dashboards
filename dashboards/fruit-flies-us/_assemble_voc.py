@@ -173,6 +173,44 @@ def enrich_neg_topics(topics, slug, all_reviews):
     return out
 
 
+# --- Real positive-topic prevalence regexes (denominator = 4-5* reviews) ---------
+POS_TOPIC_REGEX = {
+    'lure': {
+        "Clears Infestations Fast (When Placed Right)": r"work(s|ed)?\s*(great|well|fast|good|perfect|amazing|like\s*a\s*charm)|clear(s|ed)?\s*(out|up)|gone\s*(in|within|fast)|wiped\s*out|got\s*rid|within\s*(a\s*)?(day|hour|few\s*days)|first\s*(day|few\s*days|24)|kill(s|ed)?\s*(them|all|the|a\s*lot)|effective|knock(ed)?\s*(them\s*)?out",
+        "Beats DIY / 'Best I've Tried'": r"\bbest\b|better\s*than|beats|love\s*(it|these|this)|recommend|buy\s*again|repurchase|tried\s*(everything|so\s*many)|skeptic|impressed|works\s*better|game\s*changer|life\s*saver",
+        "Satisfying Visible Kill": r"see\s*(them|the|dead|so\s*many)|dead\s*(fl|gnat|bug)|watch|visible|drown|fall\s*in|caught\s*(a\s*lot|many|tons|so\s*many|hundreds|dozens)|full\s*of\s*(fl|gnat|bug|dead)|trap(s|ped)?\s*(a\s*lot|tons|many)",
+        "Discreet & Cute Design": r"cute|nice\s*look|look(s)?\s*(nice|good|attractive|cute)|discreet|stylish|design|apple\s*shape|blend|decor|attractive|small\s*(and|profile)",
+        "Natural, Pet-Safe & No-Cleanup": r"\bsafe\b|natural|\bpet|\bkid|child|chemical.?free|non.?toxic|no\s*(chemical|mess|cleanup|touch)|easy\s*(to\s*)?(use|set\s*up)|clean\b",
+    },
+    'electric': {
+        "Genuine Gnat & Small-Fly Catcher": r"\bgnat|fungus|\bplant|small\s*(fl|bug)|tiny\s*(fl|bug)|fruit\s*fl|fly\s*free",
+        "Actually Works / Fills Up Fast": r"work(s|ed)?\s*(great|well|good|amazing|perfect)|caught\s*(a\s*lot|many|tons|so\s*many|hundreds)|full\s*(of|overnight|in|less\s*than)|overnight|fill(s|ed)?\s*up|24\s*hour|really\s*works|not\s*a\s*gimmick|actually\s*work",
+        "Quiet, Slim & Mess-Free": r"quiet|silent|\bslim\b|clean|mess.?free|no\s*(noise|mess|smell)|discreet|doesn'?t\s*take\s*(up\s*)?(much\s*)?space|not\s*(loud|noisy|bright)",
+        "Nightlight Bonus": r"night\s*light|nightlight|night.?light|\bglow|ambient|purple\s*light|blue\s*(night)?\s*light|light\s*at\s*night",
+        "Cheaper-Than-Zevo Value": r"cheap(er)?|\bprice|\bvalue|name\s*brand|than\s*zevo|for\s*the\s*(price|money)|affordable|worth\s*(it|the)|great\s*price|lower\s*cost",
+    },
+}
+
+
+def enrich_pos_topics(topics, slug, all_reviews):
+    """Add a real `foundIn` (denominator = 4-5* positive reviews) to each positiveTopic."""
+    pos_pool = [r for r in all_reviews if r.get('rating') in (4, 5)]
+    pos_total = len(pos_pool)
+    rx_map = POS_TOPIC_REGEX.get(slug, {})
+    out = []
+    for t in topics:
+        t = dict(t)
+        pat = rx_map.get(t['label'])
+        if pat and pos_total:
+            cnt = sum(1 for r in pos_pool if re.search(pat, (r.get('body') or ''), re.I))
+            pct = cnt / pos_total * 100
+            t['pct'] = f'{pct:.1f}%'
+            t['foundIn'] = f'Found in {cnt:,} of {pos_total:,} positive reviews ({pct:.1f}%)'
+        out.append(t)
+    out.sort(key=lambda x: float(str(x['pct']).rstrip('%')), reverse=True)
+    return out
+
+
 # --- Sync the quantified negative-INSIGHT findings to the real regex topic %s ----
 # The AI insight prose hardcoded estimates (e.g. "Over 40%", "Over 90%") that no longer
 # match the recomputed regex counts. Map each quantified insight to its topic and rewrite
@@ -271,7 +309,7 @@ def build_payload(seg_name, slug, theme_rules, theme_filters):
         'usageScenarios':       ai['usageScenarios'],
         'csSummary':            ai['csSummary'],
         'negativeTopics':       _neg_topics,
-        'positiveTopics':       ai['positiveTopics'],
+        'positiveTopics':       enrich_pos_topics(ai['positiveTopics'], slug, all_reviews),
         'negativeInsights':     sync_insight_numbers(ai['negativeInsights'], _neg_topics, slug),
         'positiveInsights':     ai['positiveInsights'],
         'buyersMotivation':     ai['buyersMotivation'],

@@ -520,7 +520,8 @@ DATA CONTRACT — window._TAB_DATA shape:
       posHtml += '<tr class="pf-row" style="cursor:pointer"><td class="us-label"><span class="pf-arrow">▶</span> ' + t.label + '</td>';
       posHtml += '<td class="us-reason">' + t.reason + '</td>';
       posHtml += '<td class="us-pct" data-val="' + parseFloat(t.pct) + '"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(t.pct, posMax) + ';background:#86efac"></div></div><span>' + t.pct + '</span></td></tr>';
-      posHtml += '<tr class="pf-detail"><td colspan="3"><div class="pf-body"><ul>' + bullets + '</ul><div class="pf-quotes">' + quotes + '</div></div></td></tr>';
+      var pFound = t.foundIn ? '<p style="margin:0 0 8px;font-weight:700;color:#166534;font-size:.78rem">' + esc(t.foundIn) + '</p>' : '';
+      posHtml += '<tr class="pf-detail"><td colspan="3"><div class="pf-body">' + pFound + '<ul>' + bullets + '</ul><div class="pf-quotes">' + quotes + '</div></div></td></tr>';
     });
     document.getElementById('urvPosBody').innerHTML = posHtml;
   }
