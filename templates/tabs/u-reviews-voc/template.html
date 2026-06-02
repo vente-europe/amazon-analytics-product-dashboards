@@ -499,7 +499,8 @@ DATA CONTRACT — window._TAB_DATA shape:
       negHtml += '<tr class="nf-row" style="cursor:pointer"><td class="us-label"><span class="nf-arrow">▶</span> ' + t.label + '</td>';
       negHtml += '<td class="us-reason">' + t.reason + '</td>';
       negHtml += '<td class="us-pct" data-val="' + parseFloat(t.pct) + '"><div class="us-bar-wrap"><div class="us-bar" style="width:' + bw(t.pct, negMax) + ';background:#fca5a5"></div></div><span>' + t.pct + '</span></td></tr>';
-      negHtml += '<tr class="nf-detail"><td colspan="3"><div class="nf-body"><ul>' + bullets + '</ul><div class="nf-quotes">' + quotes + '</div></div></td></tr>';
+      var foundIn = t.foundIn ? '<p style="margin:0 0 8px;font-weight:700;color:#991b1b;font-size:.78rem">' + esc(t.foundIn) + '</p>' : '';
+      negHtml += '<tr class="nf-detail"><td colspan="3"><div class="nf-body">' + foundIn + '<ul>' + bullets + '</ul><div class="nf-quotes">' + quotes + '</div></div></td></tr>';
     });
     document.getElementById('urvNegBody').innerHTML = negHtml;
   }

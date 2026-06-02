@@ -122,6 +122,57 @@ TAG_STYLES = {
 }
 
 
+# --- Real negative-topic prevalence regexes (keyed by AI topic label) ---------
+# Each AI negativeTopic gets a heuristic regex; we count how many negative (1-3*)
+# pool reviews match → "Found in X of Y negative reviews (Z%)" like the standalone.
+NEG_TOPIC_REGEX = {
+    'lure': {
+        # Dominant efficacy failure — broad "doesn't work / caught nothing / lands but won't go in".
+        'Flies Attracted But Not Trapped': r"do(es)?\s*n'?t\s*work|did(n'?t|\s*not)\s*work|\bnot\s*work|doesn'?t\s*do\s*anything|no\s*effect|useless|caught\s*(nothing|none|not\s*one|only\s*one|1\b)|didn'?t\s*catch|won'?t\s*catch|catch\s*(nothing|none)|\bzero\b|waste\s*of\s*money|don'?t\s*go\s*in|won'?t\s*go\s*in|sit(s|ting)?\s*on\s*(top|the\s*rim|the\s*lid)|land\s*on\s*(top|the\s*rim)|crawl\s*around|never\s*went\s*in|not\s*effective|ineffective|not\s*very\s*effective",
+        # DIY/value framing — require apple-cider / homemade / price context (not bare 'vinegar').
+        'Overpriced DIY Substitute': r"apple\s*cider|\bacv\b|home\s*remedy|homemade|dish\s*soap|make\s*(your|my)\s*own|just\s*(buy\s*)?vinegar|cup\s*of\s*vinegar|overpriced|too\s*expensive|not\s*worth\s*(the|it|money)|rip.?off|for\s*the\s*price|just\s*(diluted\s*)?apple\s*cider",
+        'Spillage & Instability': r"spill|spilt|spilled|tip(s|ped)?\s*over|knock(ed)?\s*over|fall\s*over|fell\s*over|messy|\bmess\b",
+        'Overpowering Odor': r"smell|smells?|stinks?|stinky|stench|odor|odour|\bscent\b",
+        'Rapid Evaporation': r"evapora|dr(y|ied|ies|ying)\s*(up|out)|dried\s*up|empty\s*(in|after)|liquid\s*(gone|dried)|runs?\s*out|short\s*life|did(n'?t|\s*not)\s*last",
+        'Leaking Packaging': r"leak|arrived\s*(empty|broken|damaged|open)|cracked|damaged\s*(package|box)|spilled\s*in\s*the\s*box|came\s*(empty|broken)|packaging\s*(broke|damaged)",
+        # Wrong-pest expectation — require explicit "doesn't catch X" / "not for X" framing.
+        'Catching the Wrong Bugs': r"doesn'?t\s*(catch|attract|work\s*on)\s*(gnat|fruit|house|mosquito)|not\s*for\s*(gnat|fruit\s*fl|house\s*fl)|house\s*fl(y|ies)|mosquito|wrong\s*(bug|insect)|only\s*(gnat|fruit)|gnat.{0,15}(not|don'?t|won'?t)",
+        'Deceptive Marketing Claims': r"false\s*advertis|misleading|deceptive|not\s*as\s*(described|advertised)|\bscam|270\s*day|180\s*day|45\s*day|claim",
+    },
+    'electric': {
+        # Dominant efficacy failure for electric — light doesn't attract / caught nothing / doesn't work.
+        'Light Fails to Attract Fruit Flies': r"light\s*(does|doesn|do)\s*n?[o']?t\s*attract|doesn'?t\s*attract|not\s*attracted|do(es)?\s*n'?t\s*work|did(n'?t|\s*not)\s*work|\bnot\s*work|caught\s*(nothing|none|not\s*one|only\s*one|1\b|2\b)|didn'?t\s*catch|won'?t\s*catch|catch\s*(nothing|none)|useless|no\s*effect|ineffective|waste\s*of\s*money|fly\s*(right\s*)?by|ignore|\bzero\b|nothing\s*(trapped|caught|stuck)|don'?t\s*go\s*near|not\s*(a\s*)?single",
+        'Homemade ACV Beats Electric Traps': r"apple\s*cider|\bacv\b|vinegar|homemade|home\s*remedy|dish\s*soap|cup\s*of\s*vinegar|make\s*(your|my)\s*own|cheaper\s*to\s*make",
+        'Hardware Failure & Burnout': r"burn(t|ed)?\s*out|stop(ped)?\s*working|won'?t\s*turn\s*on|\bdied\b|\bdies\b|stopped|short\s*life|burned|fan\s*(stopped|broke|died)|capacitor|light\s*(died|burnt|out|went\s*out)|less\s*than\s*(a\s*)?year|after\s*\d+\s*(month|day)",
+        'Dressed-up Fly Paper Gimmick': r"fly\s*paper|flypaper|fly\s*tape|sticky\s*(paper|ribbon|tape)|just\s*a?\s*sticky|fancy\s*fly|sticky\s*pad|gimmick|nothing\s*but\s*(a\s*)?stick",
+        'Placement & Outlet Limitations': r"outlet|plug.?in|near\s*an?\s*outlet|wall\s*socket|reach\s*the\s*outlet|placement|where\s*to\s*plug",
+        'Ineffective on House Flies': r"house\s*fl|housefl|big(ger)?\s*fl|larger\s*fl|regular\s*fl|doesn'?t\s*(catch|work).{0,15}(house|big|large)\s*fl",
+        'FVOAI Fan Weakness & Noise': r"nois|loud|sound|vibrat|\bhum\b|buzzing|weak\s*fan|fan.*weak|barely\s*feel|low\s*suction|fly\s*(through|out|right\s*back)",
+        'Refill Lock-in & Quality': r"refill|cartridge|sticky\s*pad|did\s*not\s*come\s*with|missing|expensive\s*refill|generic\s*refill|replacement\s*(pad|cartridge)|not\s*clear",
+    },
+}
+
+
+def enrich_neg_topics(topics, slug, all_reviews):
+    """Replace each negativeTopic's pct with a REAL regex-matched prevalence and add
+    a `foundIn` string. Denominator = negative (1-3*) reviews in the pool. Re-sorted desc."""
+    neg_pool = [r for r in all_reviews if r.get('rating') in (1, 2, 3)]
+    neg_total = len(neg_pool)
+    rx_map = NEG_TOPIC_REGEX.get(slug, {})
+    out = []
+    for t in topics:
+        t = dict(t)
+        pat = rx_map.get(t['label'])
+        if pat and neg_total:
+            cnt = sum(1 for r in neg_pool if re.search(pat, (r.get('body') or ''), re.I))
+            pct = cnt / neg_total * 100
+            t['pct'] = f'{pct:.1f}%'
+            t['foundIn'] = f'Found in {cnt:,} of {neg_total:,} negative reviews ({pct:.1f}%)'
+        out.append(t)
+    out.sort(key=lambda x: float(str(x['pct']).rstrip('%')), reverse=True)
+    return out
+
+
 def build_payload(seg_name, slug, theme_rules, theme_filters):
     with open(f'_voc_work/{slug}_all.json', encoding='utf-8') as f:
         all_reviews = json.load(f)
@@ -134,9 +185,19 @@ def build_payload(seg_name, slug, theme_rules, theme_filters):
     for r in all_reviews:
         star_dist[r['rating']-1] += 1
 
-    # Sort by date desc, cap to REVIEWS_CAP for the browser
+    # Sort by date desc, then DEDUP the browser list by normalized review text so the
+    # same (variant-syndicated) review never appears twice — especially adjacent after
+    # the date sort. Dedup happens BEFORE the cap so we still surface REVIEWS_CAP distinct
+    # reviews. NB: this only affects the displayed browser list, not the headline counts.
     sorted_reviews = sorted(all_reviews, key=lambda r: (r.get('date') or ''), reverse=True)
-    sample = sorted_reviews[:REVIEWS_CAP]
+    _seen_txt, _deduped = set(), []
+    for r in sorted_reviews:
+        k = re.sub(r'\s+', ' ', (r.get('body') or '').strip().lower())
+        if k and k in _seen_txt:
+            continue
+        _seen_txt.add(k)
+        _deduped.append(r)
+    sample = _deduped[:REVIEWS_CAP]
 
     # Build the review-browser list (template expects {r, t, tags} where t = full text)
     reviews_payload = []
@@ -175,7 +236,7 @@ def build_payload(seg_name, slug, theme_rules, theme_filters):
         'cpWhat':               ai['cpWhat'],
         'usageScenarios':       ai['usageScenarios'],
         'csSummary':            ai['csSummary'],
-        'negativeTopics':       ai['negativeTopics'],
+        'negativeTopics':       enrich_neg_topics(ai['negativeTopics'], slug, all_reviews),
         'positiveTopics':       ai['positiveTopics'],
         'negativeInsights':     ai['negativeInsights'],
         'positiveInsights':     ai['positiveInsights'],

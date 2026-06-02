@@ -138,6 +138,46 @@ if os.path.isdir(POSITIVE_DIR):
             pos_added += 1
 print(f'positive supplement: +{pos_added} reviews across pool ASINs')
 
+# --- Aggregate Terro / HOT SHOT supplement (terro_reviews.json + hs_reviews.json) ---
+# These legacy aggregate files hold {stars, review} only (no ASIN/title). Both brands
+# are Lure-only, so every review is assigned to the Lure segment. Deduplicated by
+# normalized review text against the existing pool (and within themselves) so the
+# ~238 reviews already captured via the dataset scrape are NOT double-counted.
+def _norm_body(t):
+    # FULL normalized text (not truncated) — an 80-char prefix wrongly merged distinct
+    # reviews that share an opening sentence, dropping ~57 genuine Terro/HS reviews.
+    return _re.sub(r'\s+', ' ', (t or '').strip().lower())
+
+_existing_bodies = {_norm_body(r['body']) for r in raw}
+agg_added = 0
+for fname, brand in [('terro_reviews.json', 'Terro'), ('hs_reviews.json', 'HOT SHOT')]:
+    p = os.path.join(REVIEWS_DIR, fname)
+    if not os.path.exists(p):
+        continue
+    with open(p, encoding='utf-8') as fh:
+        data = json.load(fh)
+    lst = data.get('reviews', data) if isinstance(data, dict) else data
+    for r in lst:
+        body = (r.get('review') or '').strip()
+        if not body:
+            continue
+        try:
+            rating = int(r.get('stars'))
+        except (TypeError, ValueError):
+            continue
+        if rating < 1 or rating > 5:
+            continue
+        nb = _norm_body(body)
+        if nb in _existing_bodies:          # already in pool (dataset) or duplicate within agg
+            continue
+        _existing_bodies.add(nb)
+        raw.append({
+            'asin': '', 'segment': 'Lure', 'brand': brand,
+            'rating': rating, 'date': '', 'title': '', 'body': body,
+        })
+        agg_added += 1
+print(f'aggregate Terro/HOT SHOT supplement: +{agg_added} Lure reviews')
+
 
 def stratified_sample(bucket, k):
     """Sample k reviews, balancing by (brand, rating) buckets."""
