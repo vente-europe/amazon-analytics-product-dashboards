@@ -365,21 +365,21 @@
       "type": "Efficacy Crisis",
       "badgeBg": "#fee2e2",
       "badgeColor": "#991b1b",
-      "finding": "28.2% of dissatisfied users report that fruit flies are biologically indifferent to the UV/blue light attractant.",
+      "finding": "Dissatisfied users report that fruit flies are biologically indifferent to the UV/blue light attractant.",
       "implication": "<strong>Stop marketing UV light primarily as a 'fruit fly' solution</strong>; shift claims toward gnats, or integrate an odor-based lure into the housing."
     },
     {
       "type": "The ACV Benchmark",
       "badgeBg": "#ffedd5",
       "badgeColor": "#9a3412",
-      "finding": "9.6% of negative reviews mention reverting to homemade ACV traps because they catch exponentially more flies.",
+      "finding": "Negative reviews mention reverting to homemade ACV traps because they catch exponentially more flies.",
       "implication": "<strong>Design a hybrid trap</strong> that features a small, refillable bait cup (for liquid lures) directly beneath the UV light and sticky pad."
     },
     {
       "type": "Hardware Failure",
       "badgeBg": "#fce7f3",
       "badgeColor": "#9d174d",
-      "finding": "5.8% of hardware-related complaints cite LEDs burning out or fans dying between 3 to 6 months of use.",
+      "finding": "Hardware-related complaints cite LEDs burning out or fans dying between 3 to 6 months of use.",
       "implication": "<strong>Upgrade LED diode lifespans</strong> and source higher-quality, dust-resistant fan motors to survive 24/7 continuous operation."
     },
     {
@@ -400,7 +400,7 @@
       "type": "Placement Limits",
       "badgeBg": "#fef08a",
       "badgeColor": "#854d0e",
-      "finding": "6.8% of complaints note that wall outlets are rarely located directly where the fruit flies congregate.",
+      "finding": "Complaints note that wall outlets are rarely located directly where the fruit flies congregate.",
       "implication": "<strong>Develop a battery-operated or USB-rechargeable variant</strong> that can be placed directly next to fruit bowls and compost bins."
     }
   ],

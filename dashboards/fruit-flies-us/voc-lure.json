@@ -168,7 +168,7 @@
     {
       "label": "Overpriced DIY Substitute",
       "reason": "Buyers are outraged to discover the liquid is just apple cider vinegar, which they could make at home for pennies.",
-      "pct": "22.9%",
+      "pct": "19.7%",
       "bullets": [
         "Customers frequently compare the product negatively against homemade water, vinegar, and dish soap traps.",
         "The strong, recognizable smell of ACV makes buyers feel they overpaid for basic grocery ingredients.",
@@ -179,7 +179,7 @@
         "\"I could've bought an entire quart at the store and made my own traps with 20oz bottles for a fraction of the cost.\"",
         "\"Don't get these literally just buy apple cider vinegar and put them in small cups. Works the same.\""
       ],
-      "foundIn": "Found in 453 of 1,977 negative reviews (22.9%)"
+      "foundIn": "Found in 390 of 1,977 negative reviews (19.7%)"
     },
     {
       "label": "Overpowering Odor",
@@ -365,7 +365,7 @@
       "type": "Efficacy Crisis",
       "badgeBg": "#fee2e2",
       "badgeColor": "#991b1b",
-      "finding": "35.0% of complaints center on flies landing on the trap but not drowning in the liquid.",
+      "finding": "Complaints center on flies landing on the trap but not drowning in the liquid.",
       "implication": "<strong>Reformulate the bait</strong> to include a surfactant (like dish soap) that breaks surface tension, ensuring flies actually sink and die."
     },
     {
@@ -393,7 +393,7 @@
       "type": "DIY Substitute",
       "badgeBg": "#fef3c7",
       "badgeColor": "#92400e",
-      "finding": "22.9% of unhappy buyers feel scammed, stating homemade apple cider vinegar works better.",
+      "finding": "Unhappy buyers feel scammed, stating homemade apple cider vinegar works better.",
       "implication": "<strong>Differentiate the formula</strong> visually or functionally from basic ACV, or focus marketing entirely on the superior, spill-proof hardware to justify the premium."
     },
     {

@@ -129,8 +129,9 @@ NEG_TOPIC_REGEX = {
     'lure': {
         # Dominant efficacy failure — broad "doesn't work / caught nothing / lands but won't go in".
         'Flies Attracted But Not Trapped': r"do(es)?\s*n'?t\s*work|did(n'?t|\s*not)\s*work|\bnot\s*work|doesn'?t\s*do\s*anything|no\s*effect|useless|caught\s*(nothing|none|not\s*one|only\s*one|1\b)|didn'?t\s*catch|won'?t\s*catch|catch\s*(nothing|none)|\bzero\b|waste\s*of\s*money|don'?t\s*go\s*in|won'?t\s*go\s*in|sit(s|ting)?\s*on\s*(top|the\s*rim|the\s*lid)|land\s*on\s*(top|the\s*rim)|crawl\s*around|never\s*went\s*in|not\s*effective|ineffective|not\s*very\s*effective",
-        # DIY/value framing — require apple-cider / homemade / price context (not bare 'vinegar').
-        'Overpriced DIY Substitute': r"apple\s*cider|\bacv\b|home\s*remedy|homemade|dish\s*soap|make\s*(your|my)\s*own|just\s*(buy\s*)?vinegar|cup\s*of\s*vinegar|overpriced|too\s*expensive|not\s*worth\s*(the|it|money)|rip.?off|for\s*the\s*price|just\s*(diluted\s*)?apple\s*cider",
+        # DIY/value framing — require an explicit comparison/value signal, NOT a bare
+        # 'vinegar'/'apple cider' mention (which is ubiquitous and mostly about smell/the liquid).
+        'Overpriced DIY Substitute': r"make\s*(your|my)\s*own|home\s*remedy|homemade|just\s*(buy|use|make|a\s*cup|grab)|could\s*(have\s*|of\s*)?(make|made|buy|bought)|(vinegar|acv|apple\s*cider).{0,30}(work|caught|catch|better|cheaper|same|more|instead)|(work|caught|catch|better|cheaper|instead).{0,30}(vinegar|acv|apple\s*cider)|dish\s*soap|saran\s*wrap|plastic\s*wrap|overpriced|too\s*expensive|not\s*worth\s*(the|it|money|buying)|rip.?off|for\s*the\s*price",
         'Spillage & Instability': r"spill|spilt|spilled|tip(s|ped)?\s*over|knock(ed)?\s*over|fall\s*over|fell\s*over|messy|\bmess\b",
         'Overpowering Odor': r"smell|smells?|stinks?|stinky|stench|odor|odour|\bscent\b",
         'Rapid Evaporation': r"evapora|dr(y|ied|ies|ying)\s*(up|out)|dried\s*up|empty\s*(in|after)|liquid\s*(gone|dried)|runs?\s*out|short\s*life|did(n'?t|\s*not)\s*last",
@@ -211,24 +212,6 @@ def enrich_pos_topics(topics, slug, all_reviews):
     return out
 
 
-# --- Sync the quantified negative-INSIGHT findings to the real regex topic %s ----
-# The AI insight prose hardcoded estimates (e.g. "Over 40%", "Over 90%") that no longer
-# match the recomputed regex counts. Map each quantified insight to its topic and rewrite
-# the leading quantity with the real percentage so the front-end is internally consistent.
-INSIGHT_TOPIC = {
-    'lure': {
-        'Efficacy Crisis': 'Flies Attracted But Not Trapped',
-        'DIY Substitute':  'Overpriced DIY Substitute',
-    },
-    'electric': {
-        'Efficacy Crisis':   'Light Fails to Attract Fruit Flies',
-        'The ACV Benchmark': 'Homemade ACV Beats Electric Traps',
-        'Hardware Failure':  'Hardware Failure & Burnout',
-        'Placement Limits':  'Placement & Outlet Limitations',
-    },
-}
-
-
 # --- Reorder negative INSIGHTS to follow the (pct-sorted) Unmet Needs sequence ---
 # Each insight maps 1:1 to a customerExpectation (unmet need); the insights table is
 # re-sorted so its order matches the unmet-needs order exactly.
@@ -258,17 +241,18 @@ def reorder_insights_to_unmet(insights, customer_expectations, slug):
     return sorted(insights, key=lambda ins: pos.get(m.get(ins['type']), 999))
 
 
-def sync_insight_numbers(insights, neg_topics, slug):
-    pct_by_label = {t['label']: t['pct'] for t in neg_topics}
-    m = INSIGHT_TOPIC.get(slug, {})
+def strip_insight_pct(insights):
+    # User asked NOT to display % in insight findings — drop the leading quantity
+    # ("Over 40% of ...", "82% of ...", "Over 1/4 of ...") and capitalize the next word.
+    # The verifiable count still lives in the negative-topic dropdown ("Found in X of Y").
     out = []
     for i in insights:
         i = dict(i)
-        topic = m.get(i['type'])
-        if topic and topic in pct_by_label:
-            i['finding'] = re.sub(
-                r'^\s*(Over|Nearly|About|Roughly|Almost)?\s*(\d+%|1/\d+)',
-                pct_by_label[topic], i['finding'], count=1)
+        f = re.sub(r'^\s*(Over|Nearly|About|Roughly|Almost)?\s*(\d+%|1/\d+)\s+of\s+',
+                   '', i['finding']).strip()
+        if f:
+            f = f[0].upper() + f[1:]
+        i['finding'] = f
         out.append(i)
     return out
 
@@ -322,7 +306,7 @@ def build_payload(seg_name, slug, theme_rules, theme_filters):
     _ce_sorted = sorted(ai['customerExpectations'],
                         key=lambda e: float(str(e['pct']).rstrip('%')), reverse=True)
     _neg_insights = reorder_insights_to_unmet(
-        sync_insight_numbers(ai['negativeInsights'], _neg_topics, slug), _ce_sorted, slug)
+        strip_insight_pct(ai['negativeInsights']), _ce_sorted, slug)
     payload = {
         # Identity
         'countryName':  'United States',
