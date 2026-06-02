@@ -173,6 +173,39 @@ def enrich_neg_topics(topics, slug, all_reviews):
     return out
 
 
+# --- Sync the quantified negative-INSIGHT findings to the real regex topic %s ----
+# The AI insight prose hardcoded estimates (e.g. "Over 40%", "Over 90%") that no longer
+# match the recomputed regex counts. Map each quantified insight to its topic and rewrite
+# the leading quantity with the real percentage so the front-end is internally consistent.
+INSIGHT_TOPIC = {
+    'lure': {
+        'Efficacy Crisis': 'Flies Attracted But Not Trapped',
+        'DIY Substitute':  'Overpriced DIY Substitute',
+    },
+    'electric': {
+        'Efficacy Crisis':   'Light Fails to Attract Fruit Flies',
+        'The ACV Benchmark': 'Homemade ACV Beats Electric Traps',
+        'Hardware Failure':  'Hardware Failure & Burnout',
+        'Placement Limits':  'Placement & Outlet Limitations',
+    },
+}
+
+
+def sync_insight_numbers(insights, neg_topics, slug):
+    pct_by_label = {t['label']: t['pct'] for t in neg_topics}
+    m = INSIGHT_TOPIC.get(slug, {})
+    out = []
+    for i in insights:
+        i = dict(i)
+        topic = m.get(i['type'])
+        if topic and topic in pct_by_label:
+            i['finding'] = re.sub(
+                r'^\s*(Over|Nearly|About|Roughly|Almost)?\s*(\d+%|1/\d+)',
+                pct_by_label[topic], i['finding'], count=1)
+        out.append(i)
+    return out
+
+
 def build_payload(seg_name, slug, theme_rules, theme_filters):
     with open(f'_voc_work/{slug}_all.json', encoding='utf-8') as f:
         all_reviews = json.load(f)
@@ -218,6 +251,7 @@ def build_payload(seg_name, slug, theme_rules, theme_filters):
             'body':  body,
         })
 
+    _neg_topics = enrich_neg_topics(ai['negativeTopics'], slug, all_reviews)
     payload = {
         # Identity
         'countryName':  'United States',
@@ -236,9 +270,9 @@ def build_payload(seg_name, slug, theme_rules, theme_filters):
         'cpWhat':               ai['cpWhat'],
         'usageScenarios':       ai['usageScenarios'],
         'csSummary':            ai['csSummary'],
-        'negativeTopics':       enrich_neg_topics(ai['negativeTopics'], slug, all_reviews),
+        'negativeTopics':       _neg_topics,
         'positiveTopics':       ai['positiveTopics'],
-        'negativeInsights':     ai['negativeInsights'],
+        'negativeInsights':     sync_insight_numbers(ai['negativeInsights'], _neg_topics, slug),
         'positiveInsights':     ai['positiveInsights'],
         'buyersMotivation':     ai['buyersMotivation'],
         'customerExpectations': ai['customerExpectations'],
