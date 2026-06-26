@@ -36,6 +36,13 @@
       "file": "index.html"
     },
     {
+      "id": "WASP-VOC",
+      "title": "Wasp VOC",
+      "group": "detailed",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
       "id": "dermo-products",
       "title": "Atopic Skin (DE, FR, IT, ES)",
       "group": "topline",
@@ -45,6 +52,20 @@
     {
       "id": "moth-topline",
       "title": "Moth Control (UK, DE, FR, IT, ES)",
+      "group": "topline",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
+      "id": "atopic",
+      "title": "Atopic Skincare (DE, FR, IT, ES)",
+      "group": "topline",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
+      "id": "combs-bands-topline",
+      "title": "Combs & Lice Bands (US, UK, DE, FR, IT, ES)",
       "group": "topline",
       "template": "standalone",
       "file": "index.html"

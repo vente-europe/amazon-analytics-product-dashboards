@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atopic Skincare — EU Market Topline (DE · FR · IT · ES)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:#f1f5f9;color:#1e293b;line-height:1.5}
+.wrap{max-width:1400px;margin:0 auto;padding:0 20px 60px}
+header{background:#0f2942;color:#fff;padding:22px 0;margin-bottom:26px}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+header h1{font-size:1.4rem;font-weight:700}
+header .sub{font-size:.82rem;color:#94a3b8;margin-top:4px}
+.xray-btns{display:flex;gap:8px;flex-wrap:wrap}
+.xray-btns a{background:#16a34a;color:#fff;text-decoration:none;font-size:.72rem;font-weight:600;padding:7px 11px;border-radius:6px;white-space:nowrap}
+.xray-btns a:hover{background:#15803d}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:26px}
+.kpi{background:#fff;border-radius:10px;padding:18px 16px;box-shadow:0 1px 3px rgba(0,0,0,.07);border-left:4px solid #2563eb}
+.kpi .lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:.04em;color:#64748b;font-weight:600}
+.kpi .val{font-size:1.55rem;font-weight:800;margin-top:6px;color:#0f2942}
+.kpi .note{font-size:.68rem;color:#94a3b8;margin-top:3px}
+.card{background:#fff;border-radius:10px;padding:22px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:22px}
+.card h2{font-size:1.05rem;color:#1e293b;margin-bottom:4px}
+.card .desc{font-size:.78rem;color:#64748b;margin-bottom:16px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.chart-box{position:relative;height:300px}
+.method{background:#eff6ff;border:1px solid #bfdbfe;border-radius:10px;padding:16px 20px;margin-bottom:22px;font-size:.8rem;color:#1e3a5f}
+.method b{color:#0f2942}
+.method .pl{color:#475569;font-style:italic;margin-top:8px;display:block;font-size:.76rem}
+table{width:100%;border-collapse:collapse;font-size:.78rem}
+th,td{padding:8px 10px;border-bottom:1px solid #e2e8f0;text-align:right}
+th{background:#f8fafc;font-weight:700;color:#475569;cursor:pointer;white-space:nowrap;position:sticky;top:0}
+th.l,td.l{text-align:left}
+tbody tr:hover{background:#f8fafc}
+.badge{display:inline-block;padding:2px 8px;border-radius:12px;font-size:.68rem;font-weight:700;color:#fff}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.pill{padding:8px 16px;border-radius:20px;border:1px solid #cbd5e1;background:#fff;font-size:.8rem;font-weight:600;cursor:pointer;color:#475569}
+.pill.active{color:#fff;border-color:transparent}
+.flag{font-size:1rem;margin-right:5px}
+.muted{color:#94a3b8;font-size:.72rem}
+.scroll{max-height:560px;overflow:auto;border:1px solid #e2e8f0;border-radius:8px}
+@media(max-width:900px){.kpis{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div>
+      <h1>Atopic Skincare — EU Market Topline</h1>
+      <div class="sub">Germany · France · Italy · Spain &nbsp;|&nbsp; Source: Helium 10 X-Ray (30d snapshot × 12 = 12M projection) &nbsp;|&nbsp; Parent-level revenue, de-duplicated</div>
+    </div>
+    <div class="xray-btns" id="xrayBtns"></div>
+  </div>
+</header>
+<div class="wrap">
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="method">
+    <b>How the market size is counted — parent-level, de-duplicated.</b>
+    Each market pools two keyword exports; exact-duplicate ASINs are merged (keeping the higher-revenue row).
+    Amazon repeats the <i>same family sales estimate</i> on every colour/size variant, and each export shows only a
+    subset of a family's variants — so summing ASINs both double-counts and undercounts. Instead, every variant family
+    is counted <b>once</b> at its <b>Parent Level Revenue</b> (rows sharing the same brand + parent sales + parent
+    revenue are collapsed to a single value). Figures are 12-month projections (30-day snapshot × 12). All four markets
+    are Eurozone, shown in €. <i>Not yet segmented</i> — every product is treated as one "atopic" pool for now.
+    <span class="pl">PL: Wielkość rynku liczona na poziomie rodziny (Parent Level Revenue) — każda rodzina wariantów liczona raz, duplikaty z dwóch fraz scalone. Projekcja 12M = snapshot 30 dni × 12. Segmentacja w kolejnym kroku.</span>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>Revenue by Market (12M)</h2>
+      <div class="desc">Parent-level revenue, 12-month projection</div>
+      <div class="chart-box"><canvas id="revBar"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Market Share by Revenue (12M)</h2>
+      <div class="desc">Share of total EU atopic revenue</div>
+      <div class="chart-box"><canvas id="revPie"></canvas></div>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h2>Units by Market (12M)</h2>
+      <div class="desc">Parent-level units sold, 12-month projection</div>
+      <div class="chart-box"><canvas id="unitsBar"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Top Brands — EU Pooled (12M Revenue)</h2>
+      <div class="desc">All 4 markets combined, top 12 brands</div>
+      <div class="chart-box"><canvas id="brandBar"></canvas></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Market Summary</h2>
+    <div class="desc">One row per market — families counted at parent level</div>
+    <table id="summaryTbl"></table>
+  </div>
+
+  <div class="card">
+    <h2>Top 20 Products per Market</h2>
+    <div class="desc">Ranked by parent-level 12M revenue. "Variants" = variant children visible in the export for that family.</div>
+    <div class="pills" id="prodPills"></div>
+    <div class="scroll"><table id="prodTbl"></table></div>
+  </div>
+
+</div>
+
+<script>
+const D = {"markets": [{"code": "DE", "name": "Germany", "flag": "🇩🇪", "color": "#2563eb", "xray": "#", "raw_rows": 108, "asin_rows": 100, "families": 85, "rev12m": 15132985, "units12m": 1122264, "brands": 45, "avg_price": 13.48, "fams": [{"asin": "B00ST2GSRK", "brand": "La Roche-Posay", "title": "Cicaplast Baume B5+ Balm", "price": 8.98, "rev12m": 1361344, "units12m": 151584, "rating": 4.7, "reviews": 22624, "variants": 1}, {"asin": "B000V3PZ0Q", "brand": "EUBOS", "title": "Eubos Skin Rest", "price": 16.13, "rev12m": 869420, "units12m": 53904, "rating": 4.7, "reviews": 1179, "variants": 2}, {"asin": "B0BJFLVCZK", "brand": "La Roche-Posay", "title": "La Roche Posay Repairing Cream for Body, Face and Lips, for Sensitive Skin, with Dexpanthenol and Tribioma, Reduces Tension and Redness, Cicaplast Baume B5+, 100 ml", "price": 14.45, "rev12m": 818380, "units12m": 56616, "rating": 4.7, "reviews": 4766, "variants": 1}, {"asin": "B0BPSWK6Y5", "brand": "Mixa", "title": "Mixa Panthenol Comfort Skin Soothing Cream, Sensitive & Eczema-Prone Skin, 13% Panthenol, Glycerin, Omega 6&9, Face/Body/Hands/Babies/Children/Adults, Highly Compatible, 400 ml | 13% panthenol, glycerine, omega 6 & 9, sensitive & eczema prone skin, face/body/hands, babies/children/adults", "price": 6.99, "rev12m": 716952, "units12m": 102564, "rating": 4.6, "reviews": 2405, "variants": 1}, {"asin": "B07CG2TD9F", "brand": "CeraVe", "title": "CeraVe Feuchtigkeitslotion, Leichte Körperlotion für trockene bis sehr trockene und zu Neurodermitis neigende Haut geeignet, Für Körper und Gesicht, Mit Hyaluron und 3 essenziellen Ceramiden", "price": 10.34, "rev12m": 569232, "units12m": 55056, "rating": 4.6, "reviews": 47132, "variants": 1}, {"asin": "B0G3QR2F44", "brand": "Nature Nation", "title": "Tallow Beef Tallow Intensive Cream for Neurodermatitis, Eczema, Psoriasis & Rosacea; Natural Acute Care for Irritated, Dry, Itchy, Irritated and Reddened Skin (1 x 120 ml, Evening Primrose Oil)", "price": 22.25, "rev12m": 530358, "units12m": 23832, "rating": 4.2, "reviews": 436, "variants": 1}, {"asin": "B00G5XPV2S", "brand": "Physiogel", "title": "Physioge Calmin Relief A.i. Cream", "price": 25.91, "rev12m": 457401, "units12m": 17652, "rating": 4.6, "reviews": 549, "variants": 6}, {"asin": "B0CB9D3Y2Q", "brand": "La Roche-Posay", "title": "La Roche Posay Lipikar Lait Urea 10%, Moisturising Body Lotion with 10% Urea, Soothing Body Milk for Very Dry Skin, Triple Effective Skin Care, 400 ml", "price": 21.94, "rev12m": 455497, "units12m": 20760, "rating": 4.7, "reviews": 3154, "variants": 1}, {"asin": "B0FSRVPY96", "brand": "La Roche-Posay", "title": "La Roche Posay LIPIKAR BAUME LIGHT AP+M Body Lotion Light Body Cream with Anti-Itching and Anti-Relapse Effect for Skin Prone to Neurodermatitis and Allergies", "price": 23.7, "rev12m": 433673, "units12m": 18300, "rating": 4.4, "reviews": 133, "variants": 1}, {"asin": "B07YTKM7PN", "brand": "Eucerin", "title": "Eucerin AtopiControl Soothing Light Balm 400 ml, Basic Skin Care for Dry and Atopic Skin, Moisturising Body Cream with Ceramides and Licochalcone A", "price": 22.15, "rev12m": 419896, "units12m": 18960, "rating": 4.6, "reviews": 801, "variants": 1}, {"asin": "B006M6992G", "brand": "Excipial", "title": "EXCIPIAL U 10 Lipolotio", "price": 22.3, "rev12m": 412728, "units12m": 18504, "rating": 4.8, "reviews": 1434, "variants": 1}, {"asin": "B01LTGM28G", "brand": "La Roche-Posay", "title": "Roche-Posay Lipikar Syndet AP+ Cleansing Cream Gel", "price": 16.91, "rev12m": 405270, "units12m": 23964, "rating": 4.8, "reviews": 4738, "variants": 1}, {"asin": "B0FLXY483B", "brand": "Australian Bodycare", "title": "Body Lotion for Rubbing Skin - Smooths Keratosis Pilaris & Strawberry Skin - with Salicylic Acid, Niacinamide and Zinc PCA - Moisturises and Soothes Sensitive Skin", "price": 16.58, "rev12m": 394007, "units12m": 23760, "rating": 4.2, "reviews": 446, "variants": 2}, {"asin": "B008KL09BG", "brand": "DEXERYL", "title": "Dexeryl Creams, 1 piece", "price": 17.99, "rev12m": 359026, "units12m": 19956, "rating": 4.7, "reviews": 3176, "variants": 1}, {"asin": "B0BDDNK31J", "brand": "bedrop", "title": "bedrop Propolis Cream for Acne, Neurodermatitis (High Dose Ointment) - 60 g Propolis Cream with Beeswax & Grape Seed Oil (60 g)", "price": 22.22, "rev12m": 347727, "units12m": 15648, "rating": 4.4, "reviews": 906, "variants": 1}, {"asin": "B0849KTG44", "brand": "La Roche-Posay", "title": "La Roche Posay La Roche PosayLipikar AP + M Balm Moisturising Cream 400 ml", "price": 25.0, "rev12m": 323072, "units12m": 12924, "rating": 4.6, "reviews": 1864, "variants": 1}, {"asin": "B01IYB9ZF2", "brand": "HAKA", "title": "EUTERPFLEGE Care Cream, Intensive Care for Dry Skin, Moisturising Cream for Hands and Body, Fragrance-Free, Suitable for Allergy Sufferers, 200 ml", "price": 10.65, "rev12m": 320084, "units12m": 30060, "rating": 4.8, "reviews": 6381, "variants": 1}, {"asin": "B07H3B8J76", "brand": "Evolsin", "title": "- Evolsin Eczema & Neurodermitis Cream/Ointment Relieves Itching & Soothes The Skin Aids With Irritated, Dry, Itchy, Irritated Skin", "price": 16.95, "rev12m": 316225, "units12m": 18660, "rating": 4.2, "reviews": 2839, "variants": 1}, {"asin": "B0B56LYR2N", "brand": "N1", "title": "N1 Psoriasis Intensive Cream 50 ml - Quick Aid Against Strong Itching - Effective Against Psoriasis, Eczema & Eczema - Soothes and Relieves Red, Flaky, Inflamed & Dry Skin", "price": 23.74, "rev12m": 314225, "units12m": 13236, "rating": 3.9, "reviews": 485, "variants": 1}, {"asin": "B0CPT9MFYB", "brand": "Mixa", "title": "Mixa Panthenol Body Lotion XXL, Itch-Relieving and Soothing Balm, with Panthenol and Vegetable Glycerine, for Sensitive, Sensitive Skin, Reduces Itching, Mixa Panthenol Comfort, 400 ml", "price": 6.15, "rev12m": 310349, "units12m": 50424, "rating": 4.6, "reviews": 4065, "variants": 1}], "topBrands": [{"brand": "La Roche-Posay", "rev12m": 4660058, "units12m": 329388, "families": 11}, {"brand": "Eucerin", "rev12m": 1633154, "units12m": 88980, "families": 12}, {"brand": "Mixa", "rev12m": 1027301, "units12m": 152988, "families": 2}, {"brand": "EUBOS", "rev12m": 869420, "units12m": 53904, "families": 1}, {"brand": "CeraVe", "rev12m": 676779, "units12m": 69084, "families": 2}, {"brand": "DEXERYL", "rev12m": 544938, "units12m": 26496, "families": 2}, {"brand": "Excipial", "rev12m": 541115, "units12m": 23724, "families": 2}, {"brand": "Nature Nation", "rev12m": 530358, "units12m": 23832, "families": 1}, {"brand": "Australian Bodycare", "rev12m": 481840, "units12m": 31524, "families": 3}, {"brand": "Physiogel", "rev12m": 468368, "units12m": 18156, "families": 2}]}, {"code": "IT", "name": "Italy", "flag": "🇮🇹", "color": "#7c3aed", "xray": "#", "raw_rows": 96, "asin_rows": 63, "families": 60, "rev12m": 8265637, "units12m": 537960, "brands": 22, "avg_price": 15.36, "fams": [{"asin": "B0CBKDC7JY", "brand": "Rilastil", "title": "Rilastil Xerolact Dry Skin Protective Cleansing Oil, Special Price, 1000 ml", "price": 12.99, "rev12m": 811623, "units12m": 62484, "rating": 4.6, "reviews": 347, "variants": 1}, {"asin": "B0DJPB34JN", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar AP+ Cleansing Oil, for Dry Skin with Atopic Eczema Tendency, Anti-Inflammatory and Anti-Itching, Enriched with Aqua Posae Filiformis and Niacinamide, 1L", "price": 23.89, "rev12m": 526736, "units12m": 22044, "rating": 4.6, "reviews": 611, "variants": 1}, {"asin": "B01BDOIOHW", "brand": "(no brand)", "title": "Dermovitamina Calmilene Crema Idratante 500 ml - Crema Corpo ad Azione Prolungata, Nutriente, Liporestitutiva ed Emolliente - Con Vitamina E e Ceramidi - Indicata per Adulti e Bambini", "price": 11.98, "rev12m": 433405, "units12m": 36168, "rating": 0.0, "reviews": 0, "variants": 1}, {"asin": "B00V4PHBO8", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar Soothing Cleansing Gel for Face and Body, for Sensitive and Dry Skin, Hydrated Skin and Anti-Dryness, with Niacinamide and Shea Butter, Surgras, 400 ml", "price": 9.21, "rev12m": 416743, "units12m": 45264, "rating": 4.7, "reviews": 2396, "variants": 1}, {"asin": "B00ZY65OSI", "brand": "Bioderma", "title": "BIODERMA Atoderm Shower Oil - Soothing and Anti-Irritation Cleanser - Instant Comfort and Hydration for 24 Hours - Sensitive Skin from Very Dry to Irritated - Pump Bottle 1 Litre", "price": 20.51, "rev12m": 403199, "units12m": 19656, "rating": 4.6, "reviews": 30986, "variants": 1}, {"asin": "B0853C7CFQ", "brand": "CeraVe", "title": "CeraVe Moisturising Cream for Dry to Very Dry Skin with Ceramides and Hyaluronic Acid – 473 ml Bottle", "price": 18.52, "rev12m": 365199, "units12m": 19716, "rating": 4.8, "reviews": 7715, "variants": 1}, {"asin": "B0DVM1G1B3", "brand": "Rilastil", "title": "Rilastil Xerolact Olio Detergente Viso e Corpo per Neonati, Bambini e Adulti, Idratante, Relipidante, per Pelli Secche, Irritate e con Tendenza Atopica", "price": 18.08, "rev12m": 331241, "units12m": 18324, "rating": 4.6, "reviews": 3251, "variants": 1}, {"asin": "B0FSRVPY96", "brand": "La Roche-Posay", "title": "La Roche Posay Lipikar AP+M Lightweight Anti-Irritation Balm, For Dry Skin with Atopic Tendency, Anti-Reappearance Soothing Action, Immediate Itching Relief, with Posae+ Water and Microresyl, 400 ml", "price": 22.01, "rev12m": 325664, "units12m": 14796, "rating": 4.6, "reviews": 155, "variants": 2}, {"asin": "B0DJPBRNDF", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar Soothing Protective Shower Gel for Sensitive and Dry Skin, Gently Cleansed and Hydrated Skin, Enriched with Niacinamide and Shea Butter, 1L | For sensitive and dry skin, gently cleansed and hydrated skin, enriched with Niacinamide, Shea Butter", "price": 16.09, "rev12m": 320121, "units12m": 19896, "rating": 4.7, "reviews": 650, "variants": 1}, {"asin": "B0FTFQB5YF", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar AP+Max Triple Action Conditioner, for Very Dry or Atopic Tendency Skin, Soothing Effect, Anti-Irritation, Protected Skin for 72H, with Niacinamide and Neurobiome, 400 ml", "price": 26.27, "rev12m": 290284, "units12m": 11052, "rating": 4.6, "reviews": 207, "variants": 1}, {"asin": "B08R1FQWKH", "brand": "Rilastil", "title": "Rilastil Xerolact PB Face and Body Balm, Relipidant, Anti-Rritation, Suitable for Babies, Children and Adults, for Atopic Skin, Pack of 400 ml", "price": 19.37, "rev12m": 260771, "units12m": 13464, "rating": 4.7, "reviews": 1410, "variants": 1}, {"asin": "B015Q8SQUG", "brand": "Bepanthenol", "title": "Bepanthenol Sensiderm Moisturizing Body Cream Face and Hands, Atopic Dermatitis Cream, Eczema and Itchy Skin, Dry and Sensitive Skin Soothing Cream for Adults and Children, Cortisone Free, 50 g", "price": 18.36, "rev12m": 241254, "units12m": 13140, "rating": 4.5, "reviews": 1729, "variants": 1}, {"asin": "B06XXWTV3H", "brand": "Uriage", "title": "URIAGE XÉMOSE C8+ Body Wash for Dry Skin, Atopic Tendency I Soothes for Long-Lasting Comfort, Nourishing Gel Oil Texture with Light Foam I Face and Body I Unscented and Soap Free", "price": 16.35, "rev12m": 240985, "units12m": 14736, "rating": 4.6, "reviews": 5929, "variants": 1}, {"asin": "B0DJ9TD4YP", "brand": "Dermovitamina", "title": "Dermovitamina Sensioil 1L – Gentle Shower Oil – Sensitive Skin Washing Oil – High Tolerability – Makeup Remover and Soothing Action – Skin Softness – For The Whole Family", "price": 16.69, "rev12m": 229655, "units12m": 13764, "rating": 4.6, "reviews": 725, "variants": 1}, {"asin": "B07CJDK8D8", "brand": "Eucerin", "title": "Eucerin Atopi Control Soothing Cleansing Oil 400ml, Body Cleansing Oil for Daily Use, Shower Oil with 60% Natural Oils for Dry, Irritated and Atopic Dermatitis Skin", "price": 17.59, "rev12m": 205327, "units12m": 11676, "rating": 4.6, "reviews": 681, "variants": 1}, {"asin": "B07ZL23F22", "brand": "Eucerin", "title": "Eucerin Atopi Control Acute Phase Cream 100 ml, Atopic Dermatitis Cream for Intensive Treatment of Acute Phases, Eczema Treatment for Itching Relief for Dry and Irritated Skin", "price": 19.44, "rev12m": 196872, "units12m": 10128, "rating": 4.6, "reviews": 532, "variants": 1}, {"asin": "B0D45M26KD", "brand": "Mixa", "title": "Mixa Protective Soothing Cream for Atopic Tendency Skin, Soothing and Hydrated Skin for 48H, Anti-Itching and Anti-Drying, with 13% Panthenol and Glycerin, Panthenol Comfort, 400 ml", "price": 6.83, "rev12m": 181125, "units12m": 26532, "rating": 4.6, "reviews": 835, "variants": 3}, {"asin": "B07MYQ2JZ4", "brand": "Bionike", "title": "Bionike Triderm A.D. Emollient Body Cream for Atopic Skin, Moisturizing and Repairing Action, Counteracts Dryness and Irritation, Gives Softness to Skin, 400 ml", "price": 21.86, "rev12m": 179125, "units12m": 8196, "rating": 4.6, "reviews": 772, "variants": 1}, {"asin": "B08516PJF6", "brand": "Bionike", "title": "Bionike - Bionike Triderm AD Sun Cream SPF 50+ Atopic Skin 200 ml - 979276565", "price": 23.35, "rev12m": 158845, "units12m": 6804, "rating": 4.6, "reviews": 145, "variants": 1}, {"asin": "B008KL09BG", "brand": "DEXERYL", "title": "DEXERYL Moisturizing Dry Skin Cream 500 g", "price": 21.12, "rev12m": 146732, "units12m": 6948, "rating": 4.7, "reviews": 1280, "variants": 1}], "topBrands": [{"brand": "La Roche-Posay", "rev12m": 2103436, "units12m": 124620, "families": 10}, {"brand": "Rilastil", "rev12m": 1654257, "units12m": 111744, "families": 6}, {"brand": "Eucerin", "rev12m": 648073, "units12m": 39384, "families": 7}, {"brand": "(no brand)", "rev12m": 573625, "units12m": 50688, "families": 2}, {"brand": "Uriage", "rev12m": 534191, "units12m": 29040, "families": 6}, {"brand": "Bionike", "rev12m": 500131, "units12m": 21732, "families": 4}, {"brand": "Bioderma", "rev12m": 424939, "units12m": 20820, "families": 2}, {"brand": "Dermovitamina", "rev12m": 423118, "units12m": 34308, "families": 6}, {"brand": "CeraVe", "rev12m": 365199, "units12m": 19716, "families": 1}, {"brand": "Bepanthenol", "rev12m": 241254, "units12m": 13140, "families": 1}]}, {"code": "ES", "name": "Spain", "flag": "🇪🇸", "color": "#d97706", "xray": "#", "raw_rows": 96, "asin_rows": 48, "families": 47, "rev12m": 5572775, "units12m": 421512, "brands": 23, "avg_price": 13.22, "fams": [{"asin": "B07C5XYT19", "brand": "CeraVe", "title": "CeraVe, PM Face Moisturizing Lotion, Normal to Dry Skin, Hydrates and Restores the Protective Barrier, Enriched with Essential Ceramides, Niacinamide and Hyaluronic Acid, 53 ml", "price": 12.22, "rev12m": 1434734, "units12m": 117444, "rating": 4.6, "reviews": 18021, "variants": 1}, {"asin": "B0D1GK2ZKB", "brand": "Neutrogena", "title": "Neutrogena Norwegian Formula CICA Intense Repair Body Lotion for Dry Skin (Pack of 2 x 750ml) Repairing Body Moisturizer with Centella Asiatica", "price": 18.2, "rev12m": 478771, "units12m": 26304, "rating": 4.7, "reviews": 956, "variants": 1}, {"asin": "B00CD1ZEOQ", "brand": "Neutrogena", "title": "Neutrogena Norwegian Formula Deep Hydration Hypoallergenic Body Lotion (2 X 750ml), Body Moisturizer for Dry & Sensitive Skin, Moisturizer with Pro Ceramide & Glycerin", "price": 18.31, "rev12m": 451009, "units12m": 24636, "rating": 4.7, "reviews": 254, "variants": 1}, {"asin": "B087XGVFL1", "brand": "BEPANTHOL", "title": "BEPANTHOL Atopic Skin Moisturizing Cream - SensiControl Daily Emollient Cream with Pro-Vitamin B5 - Promotes Deep and Lasting Hydration for Healthy and Protected Skin - 400ml", "price": 20.68, "rev12m": 438703, "units12m": 21216, "rating": 4.6, "reviews": 1481, "variants": 1}, {"asin": "B0DJPBRNDF", "brand": "La Roche-Posay", "title": "La Roche Posay, Lipikar Physiological Shower Gel Relipidizing, With Niacinamide and Shea Butter, Soap and Paraben Free, for Sensitive and Dry Skin, 1L", "price": 14.43, "rev12m": 301947, "units12m": 20928, "rating": 4.7, "reviews": 646, "variants": 1}, {"asin": "B0CB9D3Y2Q", "brand": "La Roche-Posay", "title": "La Roche Posay Moisturizing Milk with Urea 10%, Triple Soothing Action, Anti-Itch and Anti-Reappearance for 48 Hours, Suitable for Very Dry, Rough and Flaky Skin, Lipikar, 400 ml", "price": 14.84, "rev12m": 234157, "units12m": 15780, "rating": 4.7, "reviews": 3149, "variants": 1}, {"asin": "B0FTFQB5YF", "brand": "La Roche-Posay", "title": "La Roche Posay LIPIKAR Baume AP+Max Triple Action Repair Balm for Very Dry Skin to Atopic Prone Skin, 400 ml", "price": 19.27, "rev12m": 202613, "units12m": 10512, "rating": 4.6, "reviews": 205, "variants": 1}, {"asin": "B0DVM1G1B3", "brand": "Rilastil", "title": "Rilastil Xerolact Protective Cleansing Oil", "price": 14.66, "rev12m": 178223, "units12m": 12156, "rating": 4.6, "reviews": 496, "variants": 1}, {"asin": "B01LTGM28G", "brand": "La Roche-Posay", "title": "La Roche Posay Gel- Crema de Ducha, Limpiador, Relipidizante, Anti-Irritación, Nutre y Calma, Enriquecido con Niacinamida, Para Pieles Secas y Atópicas, Lipikar Syndet AP+, 400 ml", "price": 12.81, "rev12m": 168514, "units12m": 13152, "rating": 4.7, "reviews": 5082, "variants": 1}, {"asin": "B08W8H13RH", "brand": "Instituto Español", "title": "Instituto Español Atopic Skin Body Lotion, 750 Milliliters (Packaging May Differ)", "price": 7.78, "rev12m": 164286, "units12m": 21120, "rating": 4.6, "reviews": 1736, "variants": 1}, {"asin": "B0052ECBUG", "brand": "A-Derma", "title": "A-Derma - Exomega Control, 400 ml", "price": 18.38, "rev12m": 159029, "units12m": 8652, "rating": 4.7, "reviews": 2547, "variants": 1}, {"asin": "B07Q6GKZ4R", "brand": "ISDIN", "title": "ISDIN Nutratopic Pro-AMP Lotion, Emollient Body Lotion, Helps Relieve Itchy Atopic Skin, 400 ml", "price": 22.14, "rev12m": 151195, "units12m": 6828, "rating": 4.6, "reviews": 410, "variants": 1}, {"asin": "B0098G931Y", "brand": "Hengulus", "title": "Dexeryl Cream, 500 g", "price": 15.92, "rev12m": 120770, "units12m": 7584, "rating": 4.6, "reviews": 1422, "variants": 1}, {"asin": "B08R1FQWKH", "brand": "Rilastil", "title": "Rilastil Xerolact PB - Anti-Irritation Moisturizing Balm", "price": 18.07, "rev12m": 117520, "units12m": 6504, "rating": 4.6, "reviews": 1400, "variants": 1}, {"asin": "B0BVTNQ6LL", "brand": "Mustela", "title": "Mustela Stelatopia Anti-Itch Cream BIO, Face & Body, Babies, Children, The Whole Family - Extreme Dry Skin or Atopic Dermatitis, 99% Natural Origin Ingredients (300ml)", "price": 21.09, "rev12m": 116669, "units12m": 5532, "rating": 4.7, "reviews": 507, "variants": 1}, {"asin": "B09RR229FY", "brand": "Avena Kinesia", "title": "Avena Kinesia - Oleo Soap-Free Shower Gel for Extra Dry and Atopic Skin, 750 ml", "price": 3.92, "rev12m": 73582, "units12m": 18792, "rating": 4.4, "reviews": 692, "variants": 1}, {"asin": "B07JDLL4LP", "brand": "Uriage", "title": "Uriage Xemose C8+ Anti-Itch Relipidizing Balm 500ml - Nourishes, Repairs, Soothes - Very Dry Skin, Trend Atopic Eczema - 8Ceramides Biomimetics, 10% Shea Butter - Face, Body, Unscented", "price": 18.57, "rev12m": 72200, "units12m": 3888, "rating": 4.3, "reviews": 1665, "variants": 1}, {"asin": "B087KC4NLB", "brand": "Instituto Español", "title": "Instituto Español Oleogel Atopic Skins - 300 ml", "price": 4.74, "rev12m": 66774, "units12m": 14076, "rating": 4.2, "reviews": 931, "variants": 1}, {"asin": "B0CCPJH974", "brand": "Sanex", "title": "Sanex Natural Prebiotic Atopiderm Shower Gel, Pack of 6 x 475 ml, Bath Gel for Reactive Skin with Atopic Tendency, Helps Soothe Itching and Dryness, 12H Hydration", "price": 20.2, "rev12m": 53815, "units12m": 2664, "rating": 4.6, "reviews": 179, "variants": 1}, {"asin": "B0DJ1DTNY7", "brand": "Xeramance", "title": "Lutsine E45 – Intensive Restructuring Cream 2 x 100 ml Pack of 2 – 40% Discount – Repair Cream for Very Dry and Atopic Skin – Unscented and Clinically Tested", "price": 35.02, "rev12m": 50434, "units12m": 1440, "rating": 4.6, "reviews": 273, "variants": 1}], "topBrands": [{"brand": "CeraVe", "rev12m": 1434734, "units12m": 117444, "families": 1}, {"brand": "Neutrogena", "rev12m": 929780, "units12m": 50940, "families": 2}, {"brand": "La Roche-Posay", "rev12m": 907231, "units12m": 60372, "families": 4}, {"brand": "BEPANTHOL", "rev12m": 438703, "units12m": 21216, "families": 1}, {"brand": "Instituto Español", "rev12m": 321527, "units12m": 52548, "families": 13}, {"brand": "Rilastil", "rev12m": 295743, "units12m": 18660, "families": 2}, {"brand": "ISDIN", "rev12m": 224571, "units12m": 10680, "families": 4}, {"brand": "A-Derma", "rev12m": 159029, "units12m": 8652, "families": 1}, {"brand": "Hengulus", "rev12m": 120770, "units12m": 7584, "families": 1}, {"brand": "Mustela", "rev12m": 116669, "units12m": 5532, "families": 1}]}, {"code": "FR", "name": "France", "flag": "🇫🇷", "color": "#0891b2", "xray": "#", "raw_rows": 96, "asin_rows": 74, "families": 66, "rev12m": 4651117, "units12m": 396228, "brands": 29, "avg_price": 11.74, "fams": [{"asin": "B00CA58DJ8", "brand": "(no brand)", "title": "Topicrem - Ultra Hydratant Lait Corps - Hydrate 48h, Relipide, Protège la Peau - Texture Onctueuse, Odeur Délicate - Crème Hydratante pour Peaux Sensibles - Fabrication Française - 2x500 ml", "price": 19.9, "rev12m": 421705, "units12m": 21192, "rating": 0.0, "reviews": 0, "variants": 1}, {"asin": "B0GHPFNC84", "brand": "Mixa", "title": "Mixa - Cica Repair Cream - Long-lasting Repair Effect - Very Dry and Rough Skin - Face, Body, Hands - Hypoallergenic - 400 ml", "price": 8.83, "rev12m": 396696, "units12m": 44904, "rating": 4.6, "reviews": 161, "variants": 2}, {"asin": "B00AT0Y1U6", "brand": "(no brand)", "title": "Topicrem - Ultra Hydratant Lait Corps - Hydrate 48h, Relipide, Protège la Peau - Texture Onctueuse, Odeur Délicate - Crème Hydratante pour Peaux Sensibles - Fabrication Française - 500 ml", "price": 12.35, "rev12m": 296856, "units12m": 24036, "rating": 0.0, "reviews": 0, "variants": 1}, {"asin": "B0967LDZ7R", "brand": "CeraVe", "title": "CeraVe - Moisturising Foaming Cleansing Oil - Moisturizes and Soothes Without Altering the Skin Barrier - Ceramides, Triglycerides, Squalane - Normal to Very Dry, Atopic Prone Skin - 473 ml", "price": 11.9, "rev12m": 270125, "units12m": 22704, "rating": 4.6, "reviews": 6413, "variants": 1}, {"asin": "B00PAUP3J8", "brand": "Topicrem", "title": "Topicrem - DA Balm Emollient - Moisturizing Cream, Relipid, Nourishes & Soothes - Face and Body Care for Sensitive, Dry, Atopic Skin, Babies, Children & Adults - Made in France - 500ml", "price": 11.85, "rev12m": 258749, "units12m": 21840, "rating": 4.5, "reviews": 2309, "variants": 2}, {"asin": "B09D8SW19S", "brand": "SVR", "title": "SVR - Topialysis Cleansing Oil - 24H Anti-Scratch Relipidant Cleansing Oil - For dry to atopic skin - Omega 3-6-9, Niacinamide, Prebiotics - 1000ml", "price": 19.57, "rev12m": 220329, "units12m": 11256, "rating": 4.6, "reviews": 1647, "variants": 1}, {"asin": "B0CZRN24YX", "brand": "NIVEA", "title": "NIVEA Repair Balm Face, Body & Hands Very Dry Skin (1 x 400ml), Vitamin E & Glycerin Cream for Extra Dry Rough Skin, 72H Moisturizing Body Care", "price": 9.0, "rev12m": 201144, "units12m": 22356, "rating": 4.6, "reviews": 1693, "variants": 1}, {"asin": "B0GKQ61QQ9", "brand": "DEXERYL", "title": "DEXERYL - Crème Émolliente Corps - Dispositif Médical - Hydrate & Restaure la Barrière Cutanée dès la naissance - Peaux Très Sèches ou Atopiques - Sans Parfum, Sans Paraben - Eczéma, Psoriasis - 250 g", "price": 11.63, "rev12m": 181175, "units12m": 15576, "rating": 4.7, "reviews": 51, "variants": 2}, {"asin": "B00IMAKAIM", "brand": "Topicrem", "title": "Topicrem - CICA+, Soothing Cream with Zinc and Hyaluronic Acid - Soothes Skin Irritations - Care for Sensitive Skin, Baby, Children, Adult - Fondant, Fragrance Free - Tube 40 ml", "price": 5.89, "rev12m": 172947, "units12m": 29352, "rating": 4.5, "reviews": 3316, "variants": 1}, {"asin": "B0853C7CFQ", "brand": "CeraVe", "title": "CeraVe Moisturising Balm Face & Body, 48H Hydration, MVE Technology + 3 Ceramides + Hyaluronic Acid, Approved French Eczema Association, Fragrance-Free, Dry Skin, 454 g", "price": 15.88, "rev12m": 169080, "units12m": 10644, "rating": 4.6, "reviews": 7752, "variants": 1}, {"asin": "B0052ED0FG", "brand": "Cicabiafine", "title": "Cicabiafine Baume Hydratant Anti-Dessèchement, Pour Peaux très Sèches à Irritées, Flacon pompe de 400 ml", "price": 13.59, "rev12m": 163625, "units12m": 12036, "rating": 4.6, "reviews": 869, "variants": 1}, {"asin": "B0FNS794G6", "brand": "CeraVe", "title": "CeraVe - Intensive Moisturizing Balm Body & Face - Very Dry, Itchy Skin - 72H Hydration - Shea Butter + 3 Ceramides + Hydro-Urea Boost - Fragrance-Free, Non-Comedogenic - 340g", "price": 14.6, "rev12m": 127054, "units12m": 8700, "rating": 4.7, "reviews": 209, "variants": 1}, {"asin": "B0CBCLCTCT", "brand": "Topicrem", "title": "Topicrem - Ultra-Hydratant, Huile de Douche - Nettoie, Nourrit, Protège - Gel Douche Visage et Corps pour Peaux Sensibles, Sèches, Bébés, Enfants et Adultes - Fabrication Française - 1000 ml", "price": 9.99, "rev12m": 125811, "units12m": 12588, "rating": 4.6, "reviews": 502, "variants": 1}, {"asin": "B0CTC4RF1N", "brand": "DEXERYL", "title": "DEXERYL - Soothing Shower Oil - Cleanses & Relipides the skin from birth - Preserves the skin barrier - Very dry or atopic skin - Soap, Fragrance Free - 500 ml", "price": 14.43, "rev12m": 121704, "units12m": 8436, "rating": 4.5, "reviews": 89, "variants": 3}, {"asin": "B07CHPWFXK", "brand": "CeraVe", "title": "CeraVe - Moisturizing Body and Face Balm - Dry, Very Dry and Atopic Skin - 48H Hydration - Hyaluronic Acid + 3 Ceramides - Rich, Non-Sticky Texture - Fragrance Free, Non-Comedogenic - 454g", "price": 13.68, "rev12m": 105373, "units12m": 7704, "rating": 4.5, "reviews": 60929, "variants": 1}, {"asin": "B0DVTF74FX", "brand": "Bepanthen", "title": "Bepanthen Sensicalm Eczema & Anti Itching Cream - Quick Relief 30 min - Atopic Eczema - Fragrance Free and Cortisone Free - Large Format 50 g + BepanthenDerma SensiControl Relipidating Balm 10 ml", "price": 17.41, "rev12m": 104443, "units12m": 6000, "rating": 4.3, "reviews": 413, "variants": 1}, {"asin": "B019HPS6XQ", "brand": "Uriage", "title": "Uriage Xemose Anti-Irritation Relipidating Cream - Atopic Skin with Shea Butter - Soothes Itchy Sensations - Long-Lasting Comfort - Face & Body - Unscented", "price": 20.01, "rev12m": 104193, "units12m": 5208, "rating": 4.7, "reviews": 3529, "variants": 1}, {"asin": "B098SRZ72Z", "brand": "Cicabiafine", "title": "Cicabiafine – Nourishing Shower Balm (1 L bottle) – Moisturizing cleansing care for very dry skin – Gently cleanses without aggression from 3 years old", "price": 9.5, "rev12m": 101319, "units12m": 10668, "rating": 4.5, "reviews": 950, "variants": 1}, {"asin": "B0052EBJF4", "brand": "Cicabiafine", "title": "Cicabiafine – Nourishing Anti-Irritation Cream (200 ml tube) – Moisturizing cream for extra-dry skin with atopic tendency – Repairing enriched with glycerin", "price": 11.82, "rev12m": 99595, "units12m": 8424, "rating": 4.6, "reviews": 1244, "variants": 1}, {"asin": "B0GHP4ZXR3", "brand": "Mixa", "title": "MIXA - Multi-purpose Repair Cream - Intense Nutrition 72H & Anti-Dryness - Sweet Almond & Apricot Oils - Extra-Dry Skin - Body, Face & Hands - 400 ml", "price": 14.04, "rev12m": 93368, "units12m": 6648, "rating": 4.7, "reviews": 101, "variants": 1}], "topBrands": [{"brand": "(no brand)", "rev12m": 718561, "units12m": 45228, "families": 2}, {"brand": "CeraVe", "rev12m": 671632, "units12m": 49752, "families": 4}, {"brand": "Topicrem", "rev12m": 644268, "units12m": 72096, "families": 4}, {"brand": "Mixa", "rev12m": 573551, "units12m": 66912, "families": 4}, {"brand": "Cicabiafine", "rev12m": 398700, "units12m": 34008, "families": 5}, {"brand": "SVR", "rev12m": 369562, "units12m": 19920, "families": 6}, {"brand": "DEXERYL", "rev12m": 302879, "units12m": 24012, "families": 2}, {"brand": "Uriage", "rev12m": 269657, "units12m": 16584, "families": 7}, {"brand": "NIVEA", "rev12m": 201144, "units12m": 22356, "families": 1}, {"brand": "Bepanthen", "rev12m": 109892, "units12m": 6144, "families": 3}]}], "totals": {"rev12m": 33622514, "units12m": 2477964, "families": 258, "brands": 80, "nMarkets": 4}, "topBrands": [{"brand": "La Roche-Posay", "rev12m": 7736181, "units12m": 516840}, {"brand": "CeraVe", "rev12m": 3148344, "units12m": 255996}, {"brand": "Eucerin", "rev12m": 2334148, "units12m": 131484}, {"brand": "Rilastil", "rev12m": 1950000, "units12m": 130404}, {"brand": "Mixa", "rev12m": 1828075, "units12m": 253116}, {"brand": "(no brand)", "rev12m": 1292186, "units12m": 95916}, {"brand": "DEXERYL", "rev12m": 1037563, "units12m": 62136}, {"brand": "Neutrogena", "rev12m": 954817, "units12m": 53484}, {"brand": "Uriage", "rev12m": 876048, "units12m": 49512}, {"brand": "EUBOS", "rev12m": 869420, "units12m": 53904}, {"brand": "Bioderma", "rev12m": 667147, "units12m": 31752}, {"brand": "Topicrem", "rev12m": 657574, "units12m": 72900}]};
+const fmtM = v => '€' + Math.round(v).toLocaleString('en-US');
+const fmtI = v => Math.round(v).toLocaleString('en-US');
+const esc = s => (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const cmap = {}; D.markets.forEach(m=>cmap[m.code]=m.color);
+
+// Edit X-Ray buttons
+document.getElementById('xrayBtns').innerHTML = D.markets.map(m=>
+  `<a href="${m.xray}" target="_blank">${m.flag} ${m.code} X-Ray</a>`).join('');
+
+// KPIs
+const kpis = [
+  {lbl:'Total Market (12M)', val:fmtM(D.totals.rev12m), note:'parent-level revenue'},
+  {lbl:'Units (12M)', val:fmtI(D.totals.units12m), note:'projected'},
+  {lbl:'Product Families', val:fmtI(D.totals.families), note:'parents (de-duplicated)'},
+  {lbl:'Markets', val:D.totals.nMarkets, note:'DE · FR · IT · ES'},
+  {lbl:'Brands', val:D.totals.brands, note:'across all markets'},
+];
+document.getElementById('kpis').innerHTML = kpis.map(k=>
+  `<div class="kpi"><div class="lbl">${k.lbl}</div><div class="val">${k.val}</div><div class="note">${k.note}</div></div>`).join('');
+
+// Summary table
+const st = document.getElementById('summaryTbl');
+st.innerHTML = '<thead><tr><th class="l">Market</th><th>12M Revenue</th><th>Share</th><th>12M Units</th><th>Families</th><th>ASINs</th><th>Brands</th><th>Avg Price</th></tr></thead><tbody>'
+  + D.markets.map(m=>`<tr>
+      <td class="l"><span class="flag">${m.flag}</span>${esc(m.name)}</td>
+      <td>${fmtM(m.rev12m)}</td>
+      <td>${(m.rev12m/D.totals.rev12m*100).toFixed(1)}%</td>
+      <td>${fmtI(m.units12m)}</td>
+      <td>${m.families}</td>
+      <td>${m.asin_rows}</td>
+      <td>${m.brands}</td>
+      <td>€${m.avg_price.toFixed(2)}</td>
+    </tr>`).join('')
+  + `<tr style="font-weight:800;background:#f1f5f9"><td class="l">Total</td><td>${fmtM(D.totals.rev12m)}</td><td>100%</td><td>${fmtI(D.totals.units12m)}</td><td>${D.totals.families}</td><td>${D.markets.reduce((s,m)=>s+m.asin_rows,0)}</td><td>${D.totals.brands}</td><td>—</td></tr></tbody>`;
+
+Chart.register(ChartDataLabels);
+const noDL = {datalabels:{display:false}};
+
+// Revenue bar
+new Chart(revBar,{type:'bar',data:{labels:D.markets.map(m=>m.code),
+  datasets:[{data:D.markets.map(m=>m.rev12m),backgroundColor:D.markets.map(m=>m.color)}]},
+  options:{plugins:{legend:{display:false},datalabels:{anchor:'end',align:'top',formatter:fmtM,font:{weight:700,size:10}}},
+  scales:{y:{ticks:{callback:v=>'€'+(v/1e6).toFixed(1)+'M'}}}}});
+
+// Revenue pie
+new Chart(revPie,{type:'doughnut',data:{labels:D.markets.map(m=>m.name),
+  datasets:[{data:D.markets.map(m=>m.rev12m),backgroundColor:D.markets.map(m=>m.color)}]},
+  options:{plugins:{legend:{position:'right'},datalabels:{color:'#fff',font:{weight:700,size:11},
+    formatter:(v)=>(v/D.totals.rev12m*100).toFixed(0)+'%'}}}});
+
+// Units bar
+new Chart(unitsBar,{type:'bar',data:{labels:D.markets.map(m=>m.code),
+  datasets:[{data:D.markets.map(m=>m.units12m),backgroundColor:D.markets.map(m=>m.color)}]},
+  options:{plugins:{legend:{display:false},datalabels:{anchor:'end',align:'top',formatter:fmtI,font:{weight:700,size:10}}},
+  scales:{y:{ticks:{callback:v=>(v/1e3).toFixed(0)+'k'}}}}});
+
+// Brand bar
+new Chart(brandBar,{type:'bar',data:{labels:D.topBrands.map(b=>b.brand),
+  datasets:[{data:D.topBrands.map(b=>b.rev12m),backgroundColor:'#2563eb'}]},
+  options:{indexAxis:'y',plugins:{legend:{display:false},datalabels:{anchor:'end',align:'right',formatter:fmtM,font:{weight:700,size:9},clamp:true}},
+  scales:{x:{ticks:{callback:v=>'€'+(v/1e6).toFixed(1)+'M'}}}}});
+
+// Product table with market pills
+const pills = document.getElementById('prodPills');
+pills.innerHTML = D.markets.map((m,i)=>
+  `<button class="pill${i===0?' active':''}" data-c="${m.code}" style="${i===0?`background:${m.color}`:''}">${m.flag} ${m.name}</button>`).join('');
+
+function renderProducts(code){
+  const m = D.markets.find(x=>x.code===code);
+  const t = document.getElementById('prodTbl');
+  t.innerHTML = '<thead><tr><th class="l">#</th><th class="l">Brand</th><th class="l">Product</th><th>Price</th><th>12M Revenue</th><th>12M Units</th><th>Variants</th><th>Rating</th><th>Reviews</th></tr></thead><tbody>'
+    + m.fams.map((f,i)=>`<tr>
+        <td class="l">${i+1}</td>
+        <td class="l"><span class="badge" style="background:${m.color}">${esc(f.brand)}</span></td>
+        <td class="l" title="${esc(f.title)}">${esc(f.title.slice(0,70))}${f.title.length>70?'…':''}</td>
+        <td>€${f.price.toFixed(2)}</td>
+        <td>${fmtM(f.rev12m)}</td>
+        <td>${fmtI(f.units12m)}</td>
+        <td>${f.variants}</td>
+        <td>${f.rating?f.rating.toFixed(1):'—'}</td>
+        <td>${fmtI(f.reviews)}</td>
+      </tr>`).join('') + '</tbody>';
+}
+pills.addEventListener('click',e=>{
+  const b=e.target.closest('.pill'); if(!b)return;
+  pills.querySelectorAll('.pill').forEach(p=>{p.classList.remove('active');p.style.background='';});
+  b.classList.add('active'); b.style.background=cmap[b.dataset.c];
+  renderProducts(b.dataset.c);
+});
+renderProducts(D.markets[0].code);
+</script>
+</body>
+</html>

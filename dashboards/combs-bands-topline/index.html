@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Combs and Bands — Top Line (12M)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f1f5f9;color:#1e293b;font-size:13px}
+header{background:#0f2942;color:#fff;padding:18px 32px;display:flex;justify-content:space-between;align-items:center}
+header h1{font-size:1.1rem;font-weight:700;letter-spacing:.01em}
+header span{font-size:.75rem;color:#94a3b8}
+.tabs{background:#1e3a5f;display:flex;padding:0 32px}
+.tab-btn{padding:11px 22px;font-size:.8rem;font-weight:600;color:#94a3b8;border:none;background:none;cursor:pointer;border-bottom:3px solid transparent;transition:color .15s,border-color .15s;letter-spacing:.03em}
+.tab-btn.active{color:#fff;border-bottom-color:#38bdf8}
+.tab-btn:hover:not(.active){color:#cbd5e1}
+.tab-pane{display:none}
+.tab-pane.active{display:block}
+.main{max-width:1100px;margin:0 auto;padding:28px 24px}
+.kpi-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:24px}
+.kpi{background:#fff;border-radius:8px;padding:14px 18px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.kpi-v{font-size:1.25rem;font-weight:700;color:#0f2942;line-height:1.2}
+.kpi-l{font-size:.68rem;color:#64748b;margin-top:5px;text-transform:uppercase;letter-spacing:.05em}
+.charts-row{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-bottom:24px}
+.card{background:#fff;border-radius:8px;padding:18px 20px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px}
+.card h3{font-size:.83rem;font-weight:600;color:#475569;margin-bottom:16px}
+.chart-wrap{position:relative;height:300px}
+table{width:100%;border-collapse:collapse}
+th{background:#f8fafc;text-align:left;padding:8px 10px;font-weight:600;color:#475569;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:2px solid #e2e8f0}
+td{padding:7px 10px;border-bottom:1px solid #f1f5f9;font-size:.82rem}
+tr:hover td{background:#f8fafc}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;flex-shrink:0}
+.note{font-size:.7rem;color:#64748b;padding:10px 13px;background:#f8fafc;border-radius:6px;border-left:2px solid #cbd5e1;line-height:1.6}
+.total-row td{font-weight:700;color:#0f2942;background:#f8fafc;border-top:2px solid #e2e8f0}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Combs &amp; Lice Bands &mdash; International Top Line</h1>
+  <span>Data: Last 30 Days (Mar 2026)</span>
+</header>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchTab('combs',this)">🪮 Combs</button>
+  <button class="tab-btn" onclick="switchTab('bands',this)">💛 Lice Bands</button>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ TAB 1: COMBS -->
+<div id="tab-combs" class="tab-pane active">
+<div class="main">
+
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-v">507,420</div>
+      <div class="kpi-l">Total 12M Units (all markets)</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">$5.16M</div>
+      <div class="kpi-l">Total 12M Revenue (USD equiv.)</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">6 Markets</div>
+      <div class="kpi-l">US &bull; FR &bull; DE &bull; ES &bull; UK &bull; IT</div>
+    </div>
+  </div>
+
+  <div class="charts-row">
+    <div class="card" style="margin-bottom:0">
+      <h3>Revenue by Marketplace — 12M (USD equiv.)</h3>
+      <div class="chart-wrap"><canvas id="combsBarChart"></canvas></div>
+    </div>
+    <div class="card" style="margin-bottom:0">
+      <h3>Unit Share by Marketplace — 12M</h3>
+      <div class="chart-wrap"><canvas id="combsPieChart"></canvas></div>
+    </div>
+  </div>
+  <div style="margin-bottom:24px"></div>
+
+  <div class="card">
+    <h3>Combs by Marketplace — 12M</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Marketplace</th>
+          <th>Currency</th>
+          <th style="text-align:right">30-Day Units</th>
+          <th style="text-align:right">12M Units (×12)</th>
+          <th style="text-align:right">12M Revenue (local)</th>
+          <th style="text-align:right">12M Revenue (USD)</th>
+          <th style="text-align:right">Unit Share</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="dot" style="background:#2563eb"></span>🇺🇸 United States (US)</td>
+          <td>USD</td>
+          <td class="num">28,428</td>
+          <td class="num">341,136</td>
+          <td class="num">$3,721,437</td>
+          <td class="num">$3,721,437</td>
+          <td class="num">67.2%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#0891b2"></span>🇫🇷 France (FR)</td>
+          <td>EUR → USD</td>
+          <td class="num">5,509</td>
+          <td class="num">66,108</td>
+          <td class="num">€605,226</td>
+          <td class="num">$656,670</td>
+          <td class="num">13.0%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#16a34a"></span>🇩🇪 Germany (DE)</td>
+          <td>EUR → USD</td>
+          <td class="num">3,338</td>
+          <td class="num">40,056</td>
+          <td class="num">€243,045</td>
+          <td class="num">$263,704</td>
+          <td class="num">7.9%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#d97706"></span>🇪🇸 Spain (ES)</td>
+          <td>EUR → USD</td>
+          <td class="num">2,651</td>
+          <td class="num">31,812</td>
+          <td class="num">€222,600</td>
+          <td class="num">$241,521</td>
+          <td class="num">6.3%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#7c3aed"></span>🇮🇹 Italy (IT)</td>
+          <td>EUR → USD</td>
+          <td class="num">1,266</td>
+          <td class="num">15,192</td>
+          <td class="num">€108,615</td>
+          <td class="num">$117,847</td>
+          <td class="num">3.0%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#dc2626"></span>🇬🇧 United Kingdom (UK)</td>
+          <td>GBP → USD</td>
+          <td class="num">1,093</td>
+          <td class="num">13,116</td>
+          <td class="num">£120,699</td>
+          <td class="num">$156,305</td>
+          <td class="num">2.6%</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="2"><strong>Total</strong></td>
+          <td class="num">42,285</td>
+          <td class="num">507,420</td>
+          <td class="num">—</td>
+          <td class="num">$5,157,484</td>
+          <td class="num">100%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <strong>Data source:</strong> Helium 10 X-Ray — 30-day snapshot exported Mar 2026, per marketplace, top keywords with duplicates removed. &nbsp;
+    <strong>Methodology:</strong> Simple ×12 annual projection (lice comb demand is relatively consistent year-round). &nbsp;
+    <strong>FX rates (Mar 2026):</strong> EUR → USD 1.085 &nbsp;·&nbsp; GBP → USD 1.295. &nbsp;
+    <strong>Note:</strong> "Combs EN.csv" = UK marketplace (EN = England).
+  </div>
+
+</div>
+</div>
+
+<!-- ══════════════════════════════════════════════════ TAB 2: LICE BANDS -->
+<div id="tab-bands" class="tab-pane">
+<div class="main">
+
+  <div style="display:flex;align-items:center;gap:10px;margin-bottom:18px">
+    <label for="bandsMonth" style="font-size:.8rem;font-weight:600;color:#475569">📅 Data period:</label>
+    <select id="bandsMonth" onchange="renderBands(this.value)" style="padding:7px 12px;font-size:.85rem;font-weight:600;border:1px solid #cbd5e1;border-radius:6px;background:#fff;color:#1e293b;cursor:pointer">
+      <option value="june">June 2026</option>
+      <option value="march">March 2026</option>
+    </select>
+  </div>
+
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-v" id="bUnits">21,612</div>
+      <div class="kpi-l">Total 12M Units (all markets)</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v" id="bRev">$252,614</div>
+      <div class="kpi-l">Total 12M Revenue (USD equiv.)</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">6 Markets</div>
+      <div class="kpi-l">DE &bull; UK &bull; IT &bull; ES &bull; FR &bull; US</div>
+    </div>
+  </div>
+
+  <div class="charts-row">
+    <div class="card" style="margin-bottom:0">
+      <h3>Revenue by Marketplace — 12M (USD equiv.)</h3>
+      <div class="chart-wrap"><canvas id="bandsBarChart"></canvas></div>
+    </div>
+    <div class="card" style="margin-bottom:0">
+      <h3>Unit Share by Marketplace — 12M</h3>
+      <div class="chart-wrap"><canvas id="bandsPieChart"></canvas></div>
+    </div>
+  </div>
+  <div style="margin-bottom:24px"></div>
+
+  <div class="card">
+    <h3>Lice Bands by Marketplace — 12M</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Marketplace</th>
+          <th>Currency</th>
+          <th style="text-align:right">30-Day Units</th>
+          <th style="text-align:right">12M Units (×12)</th>
+          <th style="text-align:right">12M Revenue (local)</th>
+          <th style="text-align:right">12M Revenue (USD)</th>
+          <th style="text-align:right">Unit Share</th>
+        </tr>
+      </thead>
+      <tbody id="bandsTbody"></tbody>
+    </table>
+  </div>
+
+  <div class="note" id="bandsNote"></div>
+
+</div>
+</div>
+
+<script>
+Chart.register(ChartDataLabels);
+
+/* ─── COMBS DATA ─── */
+const C_LABELS  = ['US','FR','DE','ES','IT','UK'];
+const C_REVENUE = [3721437, 656670, 263704, 241521, 117847, 156305];
+const C_UNITS   = [341136, 66108, 40056, 31812, 15192, 13116];
+const C_COLORS  = ['#2563eb','#0891b2','#16a34a','#d97706','#7c3aed','#dc2626'];
+
+/* ─── BANDS DATA (per period) ─── */
+const B_LABELS = ['DE','UK','IT','ES','FR','US'];
+const B_COLORS = ['#16a34a','#dc2626','#7c3aed','#d97706','#0891b2','#2563eb'];
+const B_META = [
+  { flag:'🇩🇪', name:'Germany (DE)',        cur:'EUR → USD' },
+  { flag:'🇬🇧', name:'United Kingdom (UK)', cur:'GBP → USD' },
+  { flag:'🇮🇹', name:'Italy (IT)',          cur:'EUR → USD' },
+  { flag:'🇪🇸', name:'Spain (ES)',          cur:'EUR → USD' },
+  { flag:'🇫🇷', name:'France (FR)',         cur:'EUR → USD' },
+  { flag:'🇺🇸', name:'United States (US)',  cur:'USD' }
+];
+const BANDS = {
+  march: {
+    // unchanged — Mar 2026 X-Ray snapshot
+    u30:  [971, 229, 133, 103, 90, 43],
+    u12:  [11652, 2748, 1596, 1236, 1080, 516],
+    rloc: ['€149,536','£32,799','€17,455','€13,797','€12,147','$5,105'],
+    rusd: [162246, 42475, 18939, 14970, 13180, 5105],
+    note: '<strong>Data source:</strong> Helium 10 X-Ray — 30-day snapshot exported Mar 2026, per marketplace, top keywords with duplicates removed. &nbsp;' +
+          '<strong>Methodology:</strong> Simple ×12 annual projection. &nbsp;' +
+          '<strong>FX rates (Mar 2026):</strong> EUR → USD 1.085 &nbsp;·&nbsp; GBP → USD 1.295. &nbsp;' +
+          '<strong>Note:</strong> Lice bands is a nascent category — DE is the most developed market. US has minimal penetration (43 units/month, 2 ASINs).'
+  },
+  june: {
+    // Jun 2026 X-Ray snapshot, 98 ASINs across 6 markets
+    u30:  [1364, 132, 15, 113, 141, 36],
+    u12:  [16368, 1584, 180, 1356, 1692, 432],
+    rloc: ['€180,557','£13,944','€1,523','€14,615','€15,535','$4,287'],
+    rusd: [195905, 18057, 1652, 15857, 16856, 4287],
+    note: '<strong>Data source:</strong> Helium 10 X-Ray — 30-day snapshot exported Jun 2026, per marketplace, duplicates &amp; standalone combs removed (98 band ASINs: DE 36 · ES 18 · FR 17 · UK 11 · IT 10 · US 6). &nbsp;' +
+          '<strong>Methodology:</strong> Simple ×12 annual projection. &nbsp;' +
+          '<strong>FX rates:</strong> same assumption as Mar for comparability — EUR → USD 1.085 &nbsp;·&nbsp; GBP → USD 1.295. &nbsp;' +
+          '<strong>Note:</strong> DE deepened sharply (16 → 36 ASINs, 75.7% of units). IT collapsed (1,596 → 180 units) and UK softened (2,748 → 1,584) vs Mar.'
+  }
+};
+let bandsBar = null, bandsPie = null;
+const fmtUsd = n => '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+const fmtN   = n => n.toLocaleString('en-US');
+
+function renderBands(month) {
+  const d = BANDS[month];
+  const totU30  = d.u30.reduce((a,b)=>a+b,0);
+  const totU12  = d.u12.reduce((a,b)=>a+b,0);
+  const totUsd  = d.rusd.reduce((a,b)=>a+b,0);
+
+  document.getElementById('bUnits').textContent = fmtN(totU12);
+  document.getElementById('bRev').textContent   = fmtUsd(totUsd);
+
+  if (bandsBar) bandsBar.destroy();
+  if (bandsPie) bandsPie.destroy();
+  bandsBar = makeBar('bandsBarChart', B_LABELS, d.rusd, B_COLORS);
+  bandsPie = makePie('bandsPieChart', B_LABELS, d.u12, B_COLORS);
+
+  let rows = '';
+  B_META.forEach((m,i) => {
+    const share = (d.u12[i]/totU12*100).toFixed(1);
+    rows += '<tr>' +
+      '<td><span class="dot" style="background:'+B_COLORS[i]+'"></span>'+m.flag+' '+m.name+'</td>' +
+      '<td>'+m.cur+'</td>' +
+      '<td class="num">'+fmtN(d.u30[i])+'</td>' +
+      '<td class="num">'+fmtN(d.u12[i])+'</td>' +
+      '<td class="num">'+d.rloc[i]+'</td>' +
+      '<td class="num">'+fmtUsd(d.rusd[i])+'</td>' +
+      '<td class="num">'+share+'%</td>' +
+    '</tr>';
+  });
+  rows += '<tr class="total-row"><td colspan="2"><strong>Total</strong></td>' +
+    '<td class="num">'+fmtN(totU30)+'</td><td class="num">'+fmtN(totU12)+'</td>' +
+    '<td class="num">—</td><td class="num">'+fmtUsd(totUsd)+'</td><td class="num">100%</td></tr>';
+  document.getElementById('bandsTbody').innerHTML = rows;
+  document.getElementById('bandsNote').innerHTML = d.note;
+}
+
+function makeBar(id, labels, revenue, colors) {
+  return new Chart(document.getElementById(id), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{ data: revenue, backgroundColor: colors, borderRadius: 4, borderSkipped: false }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: { size: 11 }, padding: 10, boxWidth: 12, boxHeight: 12,
+            generateLabels: () => {
+              const total = revenue.reduce((a,b)=>a+b,0);
+              return labels.map((lbl,i) => ({
+                text: lbl + '  ' + (revenue[i]/total*100).toFixed(1) + '%',
+                fillStyle: colors[i], strokeStyle: colors[i], lineWidth: 0, index: i, hidden: false
+              }));
+            }
+          }
+        },
+        tooltip: { callbacks: { label: ctx => ' $' + ctx.parsed.y.toLocaleString('en-US',{maximumFractionDigits:0}) } },
+        datalabels: {
+          anchor: 'end', align: 'end',
+          formatter: v => '$' + (v>=1e6 ? (v/1e6).toFixed(1)+'M' : (v/1e3).toFixed(0)+'K'),
+          font: { size: 11, weight: '600' }, color: '#1e293b'
+        }
+      },
+      layout: { padding: { top: 22 } },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+        y: {
+          grid: { color: '#e2e8f0' },
+          ticks: { callback: v => '$' + (v>=1e6 ? (v/1e6).toFixed(1)+'M' : (v/1e3).toFixed(0)+'K') }
+        }
+      }
+    }
+  });
+}
+
+function makePie(id, labels, units, colors) {
+  return new Chart(document.getElementById(id), {
+    type: 'doughnut',
+    data: {
+      labels,
+      datasets: [{ data: units, backgroundColor: colors, borderWidth: 2, borderColor: '#fff' }]
+    },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '52%',
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: { size: 11 }, padding: 10, boxWidth: 12, boxHeight: 12,
+            generateLabels: chart => {
+              const total = units.reduce((a,b)=>a+b,0);
+              return chart.data.labels.map((lbl,i) => ({
+                text: lbl + '  ' + (units[i]/total*100).toFixed(1) + '%',
+                fillStyle: colors[i], strokeStyle: colors[i], lineWidth: 0, index: i, hidden: false
+              }));
+            }
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const pct = (ctx.parsed / units.reduce((a,b)=>a+b,0) * 100).toFixed(1);
+              return ' ' + ctx.parsed.toLocaleString() + ' units (' + pct + '%)';
+            }
+          }
+        },
+        datalabels: {
+          display: ctx => (units[ctx.dataIndex] / units.reduce((a,b)=>a+b,0)) > 0.05,
+          formatter: v => (v / units.reduce((a,b)=>a+b,0) * 100).toFixed(1) + '%',
+          color: '#fff', font: { size: 11, weight: '700' }
+        }
+      }
+    }
+  });
+}
+
+makeBar('combsBarChart', C_LABELS, C_REVENUE, C_COLORS);
+makePie('combsPieChart', C_LABELS, C_UNITS,   C_COLORS);
+renderBands('june');
+
+function switchTab(name, btn) {
+  document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>

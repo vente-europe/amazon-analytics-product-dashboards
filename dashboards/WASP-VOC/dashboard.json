@@ -1,0 +1,756 @@
+{
+  "title": "Wasp & Yellow-Jacket Traps — Voice of Customer (US)",
+  "subtitle": "43 Amazon reviews · single lure-trap category · amazon.com",
+  "currency": "$",
+  "xrayLink": "#",
+  "baseTabs": {
+    "reviews": {
+      "countryName": "United States",
+      "countryCode": "US",
+      "segmentName": "Wasp & Yellow-Jacket Lure Traps",
+      "totalReviews": 43,
+      "avgRating": 2.98,
+      "starDist": [
+        15,
+        8,
+        0,
+        3,
+        17
+      ],
+      "cpSummary": "Coded from all <strong>43</strong> reviews of a single wasp / yellow-jacket lure-trap category (US). Ratings are sharply split — <strong>23</strong> at 1–2&#9733; vs <strong>20</strong> at 4–5&#9733;, with no 3&#9733; — so the audience divides cleanly into buyers for whom the trap worked dramatically and those who caught nothing. Bars below reflect analyst coding of the subset of reviews that gave a clear signal on each dimension.",
+      "cpWho": {
+        "labels": [
+          "Homeowner / patio host",
+          "Beekeeper",
+          "Gardener / pollinator-friendly",
+          "DIY bait tinkerer"
+        ],
+        "pos": [
+          3,
+          4,
+          2,
+          5
+        ],
+        "neg": [
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      "cpWhen": {
+        "labels": [
+          "Caught wasps within ~3 days",
+          "Never caught anything"
+        ],
+        "pos": [
+          8,
+          0
+        ],
+        "neg": [
+          0,
+          14
+        ]
+      },
+      "cpWhere": {
+        "labels": [
+          "Yard / near wasp nests",
+          "Near bee hives",
+          "Patio / outdoor dining",
+          "Garden / feeders",
+          "Outdoor recreation"
+        ],
+        "pos": [
+          3,
+          4,
+          2,
+          2,
+          1
+        ],
+        "neg": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "cpWhat": {
+        "labels": [
+          "Yellow jackets",
+          "Wasps",
+          "Hornets",
+          "Bees (target/confusion)",
+          "Other bugs (flies/gnats)"
+        ],
+        "pos": [
+          12,
+          10,
+          0,
+          4,
+          0
+        ],
+        "neg": [
+          4,
+          13,
+          2,
+          3,
+          5
+        ]
+      },
+      "usageScenarios": [
+        {
+          "label": "Yard — near wasp/yellow-jacket nests",
+          "reason": "Hung in the yard near active nests",
+          "pct": "11.6%"
+        },
+        {
+          "label": "Beekeeping — protecting hives",
+          "reason": "Placed beside hives to cull yellow jackets",
+          "pct": "9.3%"
+        },
+        {
+          "label": "Patio / outdoor dining",
+          "reason": "Keeping the eating area sting-free",
+          "pct": "4.7%"
+        },
+        {
+          "label": "Garden & feeders",
+          "reason": "Protecting milkweed/monarchs and hummingbird feeders",
+          "pct": "4.7%"
+        },
+        {
+          "label": "Outdoor recreation",
+          "reason": "Hunting trips and other outings",
+          "pct": "2.3%"
+        }
+      ],
+      "csSummary": "Sentiment is bimodal. The decisive factor is whether the trap catches: <strong>21</strong> of 43 reviews report little or no catch (the bulk of 1–2&#9733;), while successful users report traps filling within days. Bait preparation and hanging hardware recur as the swing factors between the two camps.",
+      "negativeTopics": [
+        {
+          "label": "Catches nothing / ineffective",
+          "reason": "Followed directions but trapped few or no wasps",
+          "pct": "48.8%",
+          "bullets": [
+            "Most 1–2&#9733; reviews followed the instructions and still caught nothing.",
+            "Several report the homemade 2-litre-bottle trap outperformed this product.",
+            "Failure is the single largest driver of low ratings."
+          ],
+          "quotes": [
+            "I followed the directions and trapped nothing.",
+            "I tried two of these, using different combinations of bait. In both cases, after weeks, the trap failed to trap anything except for a couple of flies (not wasps). I watched my patio wasps fly around this every day. They seemed interested but never bothered going in, or, if they did dip their toes in, they came back out just fine. I made a homemade trap with a two-liter plastic bottle using the same contents. For whatever reason, that is working much better.",
+            "Wasps would fly right past this thing without hesitation. Would not recommend to anyone"
+          ]
+        },
+        {
+          "label": "Wasps approach but won&rsquo;t enter / escape",
+          "reason": "Insects circle or enter then leave without being trapped",
+          "pct": "9.3%",
+          "bullets": [
+            "Buyers watched wasps fly past or dip in and back out.",
+            "In one case a wasp nested next to the trap instead of entering."
+          ],
+          "quotes": [
+            "We didn't catch very many yellow jackets or any other kind of bee either. They would go in but then come right out again.",
+            "Wasps would fly right past this thing without hesitation. Would not recommend to anyone"
+          ]
+        },
+        {
+          "label": "Attracts the wrong insects",
+          "reason": "Catches flies, gnats and other bugs but not wasps",
+          "pct": "9.3%",
+          "bullets": [
+            "Several traps filled with gnats/flies while wasps were ignored."
+          ],
+          "quotes": [
+            "This caught a lot of gnats, but not a single wasp despite being hung in the flight path of a red wasp nest. Disappointing.",
+            "Didn't catch an wasp's....but plenty of other bugs"
+          ]
+        },
+        {
+          "label": "Flimsy build & weak support",
+          "reason": "Lid straps, zip-ties and hanging wire fail; one unanswered warranty contact",
+          "pct": "20.9%",
+          "bullets": [
+            "Lid straps snap and lids crack when the supplied zip-tie is run through.",
+            "Even satisfied buyers replace the hanging hardware with their own string/zip-ties."
+          ],
+          "quotes": [
+            "I would not purchase this product again. The rubber strap on the lid broke (see photo) within the first week and fell on the ground. I wrote to Willert Home Products and they never responded. VERY POOR CUSTOMER SERVICE.",
+            "It has trapped a few but it is built pretty flimsy. Lid does not stay on great and actually cracked when running provided zip tie through the lid."
+          ]
+        }
+      ],
+      "positiveTopics": [
+        {
+          "label": "Highly effective — fills fast",
+          "reason": "Traps catch large numbers of wasps/yellow jackets quickly",
+          "pct": "46.5%",
+          "bullets": [
+            "Repeated reports of full traps within days, dozens caught in hours.",
+            "Described by multiple buyers as the most effective trap they have used."
+          ],
+          "quotes": [
+            "Put a chunk of chicken on a string suspended into the trap. At first I used grape juice with the packet lure. 10 'jackets in 2 days. Added meat. 50 'jackets in the next 24 hours. Add meat for better trapping.",
+            "WOW! This is hands-down the most effective yellow jacket trap I've ever used. They swarmed it within 60s of me placing it, and it had a dozen caught/killed within 5 minutes. I'd post a picture of the contents but they come so frequently to it it's not safe. The attached photo shows the inside of the trap after just one day.",
+            "I used two of these on a hunting trip last week where we were inundated with yellow jackets. The first clue to how effective this would be was when one of my friends snipped open a corner of the cellophane pouch that the bait was in and he was mobbed with yellow jackets before he could pour it into the trap. The traps would fill up 3/4 of the way in just a couple of hours. I have probably 4 or 5 different brands of yellow jacket traps and this one is by far the most effective ones I've ever used. I am so impressed that I bought more of the BioCare bait to use in my other brands of traps as well. I did not purchase this from Amazon because I was a long ways from home and needed it right away so I bought them at a hardware store in the nearest town. I wouldn't hesitate to recommend this trap to anyone with a yellow jacket issue."
+          ]
+        },
+        {
+          "label": "Bait works & is customizable",
+          "reason": "Lure performs and improves with added protein/meat or seasonal tuning",
+          "pct": "30.2%",
+          "bullets": [
+            "Adding meat/protein dramatically increases the catch.",
+            "Power users run protein in spring and sugar syrup in fall.",
+            "Homemade bait (apple juice, tuna/chicken, dish soap) works as a refill."
+          ],
+          "quotes": [
+            "Put a chunk of chicken on a string suspended into the trap. At first I used grape juice with the packet lure. 10 'jackets in 2 days. Added meat. 50 'jackets in the next 24 hours. Add meat for better trapping.",
+            "We hung the trap from a shepherds hook 20' from the nests. In a few days the trap was full. It's easy to clean out and rebait. Use protein in the Spring and sugar syrup in the Fall",
+            "First of all the lid does not always hold so we run a string through the access holes at the side and loop the string up and tie it that way. This keeps the lid from falling off. You also need to follow the lure directions completely, using some apple juice, tuna or chicken, and a couple of drops of dish soap along with the lure packet that is included. We have used these for years and they work great for us. We do live in the same area where these are made. I have done side by side tests with another brand to see the yellow jackets choosing the BioCare traps over the other brand."
+          ]
+        },
+        {
+          "label": "Selective — spares honeybees",
+          "reason": "Catches yellow jackets/wasps while leaving honeybees alone",
+          "pct": "11.6%",
+          "bullets": [
+            "Repeatedly praised by beekeepers — near-zero honeybee bycatch.",
+            "Positioned as non-toxic, refillable wasp control."
+          ],
+          "quotes": [
+            "Use next to my bee hives - catch almost zero honeybees, but does catch a lot of yellow jackets.",
+            "This is a very effective product! While I recognize that wasps are beneficial for killing garden pests and generally leave them to do their thing, this year they would not leave the monarch larvae on my milkweed alone. They killed at least seven of them in one afternoon and I resorted to mosquito netting and this product to protect the rest. I put it out 3 days ago and there are already at least a dozen dead wasps in it. I plan to set out more milkweed for the 4th generation egg lay in September/October and just ordered more bait to see me through into fall. So, if you're looking for a non-toxic, refillable, and reasonably priced way to practice wasp control, I don't think you can do much better than BioCare."
+          ]
+        },
+        {
+          "label": "Reusable, refillable & good value",
+          "reason": "Easy to clean and rebait; non-toxic and reasonably priced",
+          "pct": "18.6%",
+          "bullets": [
+            "Easy to empty and rebait across a season.",
+            "Non-toxic and reasonably priced; main gripe is finding refill bait."
+          ],
+          "quotes": [
+            "This is a very effective product! While I recognize that wasps are beneficial for killing garden pests and generally leave them to do their thing, this year they would not leave the monarch larvae on my milkweed alone. They killed at least seven of them in one afternoon and I resorted to mosquito netting and this product to protect the rest. I put it out 3 days ago and there are already at least a dozen dead wasps in it. I plan to set out more milkweed for the 4th generation egg lay in September/October and just ordered more bait to see me through into fall. So, if you're looking for a non-toxic, refillable, and reasonably priced way to practice wasp control, I don't think you can do much better than BioCare.",
+            "Had great success with product keeping yellow jackets and wasps away from my hummingbird feeder. Just can't seem to find refills for the trap."
+          ]
+        }
+      ],
+      "negativeInsights": [
+        {
+          "type": "Efficacy",
+          "badgeBg": "#fee2e2",
+          "badgeColor": "#991b1b",
+          "finding": "48.8% of reviews report little or no catch — the single largest driver of 1–2★ ratings.",
+          "implication": "Perceived effectiveness is make-or-break; the listing must set realistic expectations and coach bait prep, placement and target species up front."
+        },
+        {
+          "type": "Bait protocol",
+          "badgeBg": "#ffedd5",
+          "badgeColor": "#9a3412",
+          "finding": "Failures cluster around bait ('followed the recipe… nothing'), while successes hinge on adding protein/meat and tuning bait by season.",
+          "implication": "A clearer, season-aware bait guide — or pre-mixed seasonal bait — could convert a large share of disappointed buyers."
+        },
+        {
+          "type": "Build quality",
+          "badgeBg": "#fef3c7",
+          "badgeColor": "#92400e",
+          "finding": "Lid straps, zip-ties and hanging wire fail — flagged in both 1★ and 5★ reviews.",
+          "implication": "A sturdier hang kit is a low-cost fix that removes a recurring deduction even from satisfied buyers."
+        },
+        {
+          "type": "Service",
+          "badgeBg": "#fee2e2",
+          "badgeColor": "#991b1b",
+          "finding": "A warranty contact (Willert Home Products) went unanswered.",
+          "implication": "Responsive post-sale support would blunt the harshest reviews."
+        }
+      ],
+      "positiveInsights": [
+        {
+          "type": "Effectiveness",
+          "badgeBg": "#dbeafe",
+          "badgeColor": "#1e40af",
+          "finding": "When it works it works dramatically — 'full in a few days', '50 in 24h', 'a dozen in 5 minutes'.",
+          "implication": "Lead imagery and copy with full-trap proof; this is the strongest conversion asset."
+        },
+        {
+          "type": "Selective kill",
+          "badgeBg": "#dbeafe",
+          "badgeColor": "#1e40af",
+          "finding": "Spares honeybees — repeatedly praised by beekeepers and pollinator-friendly gardeners.",
+          "implication": "An under-used differentiator; merchandise explicitly to beekeeping and garden audiences."
+        },
+        {
+          "type": "Bait mastery",
+          "badgeBg": "#ede9fe",
+          "badgeColor": "#5b21b6",
+          "finding": "Power users tune bait (meat/salmon/chicken; protein in spring, sugar in fall).",
+          "implication": "Educational content plus a refill-bait subscription can lift both efficacy perception and lifetime value."
+        },
+        {
+          "type": "Value / eco",
+          "badgeBg": "#ede9fe",
+          "badgeColor": "#5b21b6",
+          "finding": "Refillable, non-toxic and reasonably priced resonate with eco-conscious buyers.",
+          "implication": "Align positioning with non-toxic, reusable pest control."
+        }
+      ],
+      "buyersMotivation": [
+        {
+          "label": "Protect honeybees / beekeeping",
+          "reason": "Selective cull that spares hives",
+          "pct": "9.3%"
+        },
+        {
+          "label": "Clear wasps from outdoor living areas",
+          "reason": "Stop wasps ruining the yard/patio",
+          "pct": "7.0%"
+        },
+        {
+          "label": "Non-toxic pest control",
+          "reason": "Avoid sprays and poisons",
+          "pct": "4.7%"
+        },
+        {
+          "label": "Protect pollinators & feeders",
+          "reason": "Shield monarchs/milkweed and hummingbird feeders",
+          "pct": "2.3%"
+        },
+        {
+          "label": "Protect family from stings",
+          "reason": "Make the yard safe for kids",
+          "pct": "2.3%"
+        },
+        {
+          "label": "Replace a broken/discontinued trap",
+          "reason": "Swap out an older worn trap",
+          "pct": "2.3%"
+        }
+      ],
+      "customerExpectations": [
+        {
+          "label": "Reliable catch regardless of bait skill",
+          "reason": "Trap should work without an expert recipe",
+          "pct": "48.8%"
+        },
+        {
+          "label": "Sturdier hanging hardware & lid",
+          "reason": "Lid stays shut; hang wire does not fail",
+          "pct": "20.9%"
+        },
+        {
+          "label": "Affordable, easy-to-find refill bait",
+          "reason": "Refills in stock and not over-priced",
+          "pct": "7.0%"
+        },
+        {
+          "label": "Less mess & odor when baiting",
+          "reason": "Filling without spills or strong smell",
+          "pct": "4.7%"
+        },
+        {
+          "label": "Larger trap capacity",
+          "reason": "Bigger reservoir before emptying",
+          "pct": "2.3%"
+        }
+      ],
+      "themeFilters": [
+        {
+          "value": "effective",
+          "label": "Effective"
+        },
+        {
+          "value": "ineffective",
+          "label": "Ineffective"
+        },
+        {
+          "value": "escape",
+          "label": "Wasps escape / won&rsquo;t enter"
+        },
+        {
+          "value": "wrong_insects",
+          "label": "Wrong insects"
+        },
+        {
+          "value": "bait",
+          "label": "Bait / lure"
+        },
+        {
+          "value": "build",
+          "label": "Build & hardware"
+        },
+        {
+          "value": "selective",
+          "label": "Spares bees"
+        },
+        {
+          "value": "value",
+          "label": "Value / refills"
+        },
+        {
+          "value": "service",
+          "label": "Customer service"
+        }
+      ],
+      "tagStyles": {
+        "effective": "pill-blue",
+        "ineffective": "pill-red",
+        "escape": "pill-orange",
+        "wrong_insects": "pill-amber",
+        "bait": "pill-purple",
+        "build": "pill-orange",
+        "selective": "pill-blue",
+        "value": "pill-purple",
+        "service": "pill-red"
+      },
+      "reviews": [
+        {
+          "r": 1,
+          "t": "did not work — Not one wasp was caught, still have them buzzing me when I go out.",
+          "tags": [
+            "ineffective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Did not work for us — Unfortunately, despite following directions specifically, this did not attract a single bee…I even added hot dog chunk…nothing for over 2 weeks.",
+          "tags": [
+            "ineffective",
+            "bait"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Didn't attract anything — Didn't catch a dam thing. Then I had it hanging up on a limb and the bottle separated from the lid & crashed to the ground, of course emptying all the contents. I made my own concoction but nothing was attracted to the \"trap\".",
+          "tags": [
+            "ineffective",
+            "build"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Didn't catch a single wasp - another waste of — Picked one up and put it out this year (fair number of wasps around this year) Place and operated as instructed. Didn't catch a single wasp - another waste of $$$s",
+          "tags": [
+            "ineffective",
+            "value"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Didn't trap a single wasp or yellow jacket — I followed the directions and trapped nothing.",
+          "tags": [
+            "ineffective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Didn't work — It didn't do what it said it would. Had good luck with cucumbers in aluminum pans.",
+          "tags": [
+            "ineffective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Doesn't Work — Set it up according to the directions, used apple juice (as recommended) and in the last two weeks it has been set up, not one wasp, hornet, nor yellow jacket has been caught. Instead a wasp has decided to set up their home near it. Complete waste of money, would not recommend.",
+          "tags": [
+            "ineffective",
+            "escape",
+            "bait"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Doesn't work — I tried two of these, using different combinations of bait. In both cases, after weeks, the trap failed to trap anything except for a couple of flies (not wasps). I watched my patio wasps fly around this every day. They seemed interested but never bothered going in, or, if they did dip their toes in, they came back out just fine. I made a homemade trap with a two-liter plastic bottle using the same contents. For whatever reason, that is working much better.",
+          "tags": [
+            "escape",
+            "wrong_insects",
+            "ineffective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Junk — Wasps would fly right past this thing without hesitation. Would not recommend to anyone",
+          "tags": [
+            "escape",
+            "ineffective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "No help — Did nothing to rid us of wasp.",
+          "tags": [
+            "ineffective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "No wasps in it. — Not a single wasp or hornet was trapped in either one I bought. Something chewed or pecked through them both to get the sugar water.",
+          "tags": [
+            "ineffective",
+            "build"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Not worth the money — I have not caught anything in this product. I bought 2 one for a friend and he has the same problem. I wouldn't waste your money on this product",
+          "tags": [
+            "ineffective",
+            "value"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Strap on lid broke within the first week — I would not purchase this product again. The rubber strap on the lid broke (see photo) within the first week and fell on the ground. I wrote to Willert Home Products and they never responded. VERY POOR CUSTOMER SERVICE.",
+          "tags": [
+            "build",
+            "service"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Waste — Don't buy",
+          "tags": [
+            "ineffective"
+          ]
+        },
+        {
+          "r": 1,
+          "t": "Waste of money — Followed directions, it sat out there for three days nothing. It was warm, low 80s. Disappointed",
+          "tags": [
+            "ineffective"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Did Not Work — I followed the directions specifically. It was a rather complicated recipe but I figured if it worked, it was worth it. After 2 months, there wasn't a single bee, wasp, or yellow jacket of any kind, only a few flies. I threw it away.",
+          "tags": [
+            "ineffective",
+            "wrong_insects",
+            "bait"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Didn't work — I followed the instructions perfectly and it didn't attract any wasps. I ended up killing them with wasp spray",
+          "tags": [
+            "ineffective",
+            "bait"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Doesn't seem effective — This caught a lot of gnats, but not a single wasp despite being hung in the flight path of a red wasp nest. Disappointing.",
+          "tags": [
+            "wrong_insects",
+            "ineffective"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Not the best for our area — We didn't catch very many yellow jackets or any other kind of bee either. They would go in but then come right out again.",
+          "tags": [
+            "escape",
+            "ineffective"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Placement counts — It has trapped a few but it is built pretty flimsy. Lid does not stay on great and actually cracked when running provided zip tie through the lid.",
+          "tags": [
+            "build"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Two Stars — Didn't catch an wasp's....but plenty of other bugs",
+          "tags": [
+            "wrong_insects",
+            "ineffective"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Two Stars — These did not work..were not effective.",
+          "tags": [
+            "ineffective"
+          ]
+        },
+        {
+          "r": 2,
+          "t": "Was disappointed, did not attract wasps. — Did not do what it promised.",
+          "tags": [
+            "ineffective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Didn't really work for me but — The quality is great … had wasps that were robbing my bee hives so it's not your normally need … I think this would work great for the average need",
+          "tags": [
+            "effective",
+            "value",
+            "selective"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "Met Expectations! — Worked well for me. Unlike other traps you need to open the top to see if it worked. Don't see wasps swarming around it like other traps and with those you can use small pieces of fresh salmon as a substitute lure which is far more cost effective than buying bait. Must be salmon as other fish varieties for a bait does not seem to work.",
+          "tags": [
+            "effective",
+            "bait",
+            "value"
+          ]
+        },
+        {
+          "r": 4,
+          "t": "the bait makes you dizzy — Updated Review: it has caught the tiny wasps, which is ok, they're still wasps. i have gotten about 25 over the last month. good work! will update after today, but i'm at three stars b/c it was messy, i.e. the design lends itself to you getting stuff on your hands either when you fill it or go to hang it. and it makes you dizzy, whatever it is. says non-toxic but it definitely has an effect on your senses..",
+          "tags": [
+            "effective",
+            "build",
+            "bait"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Add meat. — Put a chunk of chicken on a string suspended into the trap. At first I used grape juice with the packet lure. 10 'jackets in 2 days. Added meat. 50 'jackets in the next 24 hours. Add meat for better trapping.",
+          "tags": [
+            "effective",
+            "bait"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Attracts great numbers of wasps — We hung the trap from a shepherds hook 20' from the nests. In a few days the trap was full. It's easy to clean out and rebait. Use protein in the Spring and sugar syrup in the Fall",
+          "tags": [
+            "effective",
+            "bait",
+            "value"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Attracts great numbers of wasps — We hung the trap from a shepherds hook 20 ‘ from the nests. In a few days the trap was fullIt’s easy to clean out and rebait. Use protein in the Spring and sugar syrup in the Fall",
+          "tags": [
+            "effective",
+            "bait"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Bait Works Well — This trap replaces an Oak Stump brand yellowjacket trap that finally broke during a storm. Oak Trap isn't made any longer, but I prefer the shape of their trap (much larger -- at least 6\" in diameter), and it seemed to attract more wasps and yellowjackets. However, this trap does work. The bait also works well, but is expensive to replace. Homemade solution can also be used.",
+          "tags": [
+            "effective",
+            "bait",
+            "value",
+            "build"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Best Bait/Trap Ever. — I used two of these on a hunting trip last week where we were inundated with yellow jackets. The first clue to how effective this would be was when one of my friends snipped open a corner of the cellophane pouch that the bait was in and he was mobbed with yellow jackets before he could pour it into the trap. The traps would fill up 3/4 of the way in just a couple of hours. I have probably 4 or 5 different brands of yellow jacket traps and this one is by far the most effective ones I've ever used. I am so impressed that I bought more of the BioCare bait to use in my other brands of traps as well. I did not purchase this from Amazon because I was a long ways from home and needed it right away so I bought them at a hardware store in the nearest town. I wouldn't hesitate to recommend this trap to anyone with a yellow jacket issue.",
+          "tags": [
+            "effective",
+            "bait"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "but this turns out to be an amazing product. In two days — I was skeptical, but this turns out to be an amazing product. In two days, we have caught over 50 yellow jackets. It does not seem to attract bees, which is good. I highly recommend it. My one suggestion is that the company provide a more sturdy wire to hang it up with.",
+          "tags": [
+            "effective",
+            "selective",
+            "build"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Deserves six stars! — WOW! This is hands-down the most effective yellow jacket trap I've ever used. They swarmed it within 60s of me placing it, and it had a dozen caught/killed within 5 minutes. I'd post a picture of the contents but they come so frequently to it it's not safe. The attached photo shows the inside of the trap after just one day.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Five Stars — Works well. Will use it for many years.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Great Trap — We bought 4 of these to try since we have bad yellow jacket problems. I mixed it according to directions and used 3 tbsp of sugar. It definitely smells after you use the bee food that comes in it, so be careful not to spill it. One thing I would suggest is to use something sturdier to hang it. It comes with little twist ties that go through the lid, but I would use something else. My husband drilled an extra hole in the top of our lids and I used zip ties to hang them. I didnt want to risk them falling. We have had them up about a week and we have caught tons of wasps.",
+          "tags": [
+            "effective",
+            "bait",
+            "build"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "It really works great — This worked great, when I checked on it the day after I put it out. It had a lot (20 ish) yellow jackets in it. Now my kids are able to play outside and I dont have to worry about them getting stung.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Very selective kill — Use next to my bee hives - catch almost zero honeybees, but does catch a lot of yellow jackets.",
+          "tags": [
+            "selective",
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Wasp and yellow jacket killer — Does what it's suppose to.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Where to get refills? Product is great but can't find refills! — Had great success with product keeping yellow jackets and wasps away from my hummingbird feeder. Just can't seem to find refills for the trap.",
+          "tags": [
+            "effective",
+            "value"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Works for us — First of all the lid does not always hold so we run a string through the access holes at the side and loop the string up and tie it that way. This keeps the lid from falling off. You also need to follow the lure directions completely, using some apple juice, tuna or chicken, and a couple of drops of dish soap along with the lure packet that is included. We have used these for years and they work great for us. We do live in the same area where these are made. I have done side by side tests with another brand to see the yellow jackets choosing the BioCare traps over the other brand.",
+          "tags": [
+            "effective",
+            "bait",
+            "build",
+            "selective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Works great! — Worked great! Finally had a bug-free dinner on our outdoor patio. We were astonished when we opened the top of the container and saw how many bugs had actually been lured to their demise.",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Works! — Works!",
+          "tags": [
+            "effective"
+          ]
+        },
+        {
+          "r": 5,
+          "t": "Yellow Jackets Be Gone! — This is a very effective product! While I recognize that wasps are beneficial for killing garden pests and generally leave them to do their thing, this year they would not leave the monarch larvae on my milkweed alone. They killed at least seven of them in one afternoon and I resorted to mosquito netting and this product to protect the rest. I put it out 3 days ago and there are already at least a dozen dead wasps in it. I plan to set out more milkweed for the 4th generation egg lay in September/October and just ordered more bait to see me through into fall. So, if you're looking for a non-toxic, refillable, and reasonably priced way to practice wasp control, I don't think you can do much better than BioCare.",
+          "tags": [
+            "effective",
+            "selective",
+            "value"
+          ]
+        }
+      ]
+    }
+  }
+}
