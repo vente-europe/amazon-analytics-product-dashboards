@@ -43,6 +43,13 @@
       "file": "index.html"
     },
     {
+      "id": "shampoo-atopic",
+      "title": "Shampoo — Atopic (DE, UK, FR, IT, ES)",
+      "group": "topline",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
       "id": "dermo-products",
       "title": "Atopic Skin (DE, FR, IT, ES)",
       "group": "topline",
