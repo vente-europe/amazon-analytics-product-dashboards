@@ -1,0 +1,34 @@
+{
+  "asin": "B0DK7KYSMM",
+  "title": "Reinigungsöl für atopische Haut",
+  "brand": "Linea Mamma Baby",
+  "browse_classification": "Öle",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/515EEjHjHAL.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/212O2WIskTL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/212O2WIskTL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Dermatologisch getestet für empfindliche Haut",
+    "Unter pädiatrischer Aufsicht bewertet. Stellt das Gleichgewicht der Haut wieder her und lindert Beschwerden und Juckreiz",
+    "Geeignet für 0+ und die ganze Familie",
+    "Ohne Parfüm und ohne Farbstoffe, ohne Wasser"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

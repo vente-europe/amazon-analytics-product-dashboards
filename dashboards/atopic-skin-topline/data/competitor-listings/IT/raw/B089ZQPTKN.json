@@ -1,0 +1,35 @@
+{
+  "asin": "B089ZQPTKN",
+  "title": "Dexeryl - Crema emolliente per pelle secca, 500 ml, confezione da 2",
+  "brand": "DEXERYL",
+  "browse_classification": "Creme per il corpo",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51pepRWpO-L.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41hTiMFHO-L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41hTiMFHO-L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Lotta contro la secchezza della pelle.",
+    "Idrata e ripara la pelle.",
+    "Rafforza la barriera protettiva della pelle.",
+    "Protegge dalle aggressioni esterne (inquinamento, sole, freddo, ecc. ). Allevia le ustioni superficiali",
+    "Allevia le ustioni superficiali"
+  ],
+  "description": "La crema emolliente Dexeryl è una crema idratante particolarmente indicata per pelli secche o soggette ad atopia. È formulato per trattare la pelle secca, alcune condizioni come dermatite atopica, ittiosi o psoriasi e ustioni superficiali minori.",
+  "product_type": "SKIN_MOISTURIZER"
+}

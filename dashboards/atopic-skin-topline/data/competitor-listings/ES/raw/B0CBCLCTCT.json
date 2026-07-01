@@ -1,0 +1,51 @@
+{
+  "asin": "B0CBCLCTCT",
+  "title": "Aceite de Ducha Topicrem Hidratante 1 L",
+  "brand": "Topicrem",
+  "browse_classification": "Aceites de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61daTKrs1TL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41vPhTjnVnL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41vPhTjnVnL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT06",
+      "url": "https://m.media-amazon.com/images/I/81SHd5kgw7L.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "PT06",
+      "url": "https://m.media-amazon.com/images/I/41aI3CA-lgL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT06",
+      "url": "https://m.media-amazon.com/images/I/41aI3CA-lgL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Aceite de ducha para la higiene corporal de pieles sensibles y secas",
+    "Formulado con aceite de oliva y glicerina",
+    "Envase de 1000 ml"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

@@ -1,0 +1,35 @@
+{
+  "asin": "B09YHN7N2Y",
+  "title": "Cetaphil Crema Idratante Viso e Corpo, Formato 450g",
+  "brand": "Cetaphil",
+  "browse_classification": "Creme per il corpo",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41HHHCpSfOL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41HHHCpSfOL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71-k4-5jDML.jpg",
+      "width": 2560,
+      "height": 2560
+    }
+  ],
+  "bullet_points": [
+    "FORMULA:aiuta a riparare la naturale barriera cutanea in 1 sola settimana per un sollievo immediato e duraturo. Senza profumo, ad elevata tollerabilità e non comedogenico",
+    "BENEFICI: Indicata anche per re-idratare la pelle danneggiata in seguito a trattamenti dermatologici o disturbi cutanei come la psoriasi",
+    "AZIONE: Idrata rapidamente ed efficacemente la pelle, diminuendo la perdita di acqua transepidermica e ripristinando il corretto film idrolipidico cutaneo",
+    "TIPO DI PELLE: Indicato per chi ha la pelle secca, molto secca, sensibile o danneggiata da disturbi cutanei come psoriasi, rosacea ed eczema",
+    "MODO D'USO: Applicare Cetaphil Crema Idratante massaggiando delicatamente. Utilizzare anche frequentemente se necessario o secondo le indicazioni del dermatologo"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

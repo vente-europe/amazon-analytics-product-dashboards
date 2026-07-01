@@ -1,0 +1,103 @@
+{
+  "asin": "B0D8TKHL7S",
+  "title": "Instituto Español - Locion Ultratopic - 300 ML",
+  "brand": "Instituto Español",
+  "browse_classification": "Lociones corporales",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71+aJiWpLJL.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41i4r5+AsAL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41i4r5+AsAL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/71O4cNnfkfL.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41JqdQfvfBL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41JqdQfvfBL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/71HPB53UGzL.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31zC5vJlgJL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31zC5vJlgJL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/71Qdw3OHg7L.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/31gIxtmwF1L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/31gIxtmwF1L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT05",
+      "url": "https://m.media-amazon.com/images/I/71il-6-811L.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "PT05",
+      "url": "https://m.media-amazon.com/images/I/41pmZWOvA-L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT05",
+      "url": "https://m.media-amazon.com/images/I/41pmZWOvA-L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Loción intensiva, perfecta para la hidratación y cuidado diario de las pieles sensibles, muy sensibles y atópicas."
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

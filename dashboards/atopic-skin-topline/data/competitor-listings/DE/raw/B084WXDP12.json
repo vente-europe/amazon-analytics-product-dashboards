@@ -1,0 +1,34 @@
+{
+  "asin": "B084WXDP12",
+  "title": "Mediderm Creme, 1 kg",
+  "brand": "Mediderm",
+  "browse_classification": "Ekzeme, Schuppenflechte & Gesichtsrose",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41NfWKG-UmL.jpg",
+      "width": 909,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31qw3xKR1EL.jpg",
+      "width": 455,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31qw3xKR1EL._SL75_.jpg",
+      "width": 68,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Marke: Spreewälder Arzneimittel GmbH",
+    "Mediderm-Creme, 1 kg",
+    "Produkttyp: HEALTH_PERSONAL_CARE",
+    "Größe: 1 kg (1er Pack)"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

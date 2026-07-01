@@ -1,0 +1,33 @@
+{
+  "asin": "B00XAIPT0U",
+  "title": "Instituto Español Crema Cuidado Integral para Piel Atópica, 400 Mililitros",
+  "brand": "Instituto Español",
+  "browse_classification": "Manicura y pedicura",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41RqrMdRgEL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31+XsWNFNGL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31+XsWNFNGL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Tipo de Piel: Sensible /, Atópica",
+    "Texturas: Crema",
+    "Su fórmula libre de parabenos contiene ingredientes activos sus con propiedades anti-pruriginosas, anti-sequedad y anti-irritantes"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

@@ -1,0 +1,49 @@
+{
+  "asin": "B001238GJG",
+  "title": "Doctor Eckstein BioKosmetik Azulen Reinigungsöl 150ml",
+  "brand": "Doctor Eckstein",
+  "browse_classification": "Make-up-Reinigungsöle",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61fMf7i+a6L.jpg",
+      "width": 875,
+      "height": 2015
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/312hBYBwcgL.jpg",
+      "width": 217,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/312hBYBwcgL._SL75_.jpg",
+      "width": 33,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/61eyKD29fFL.jpg",
+      "width": 875,
+      "height": 2015
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/310jNaYztjL.jpg",
+      "width": 217,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/310jNaYztjL._SL75_.jpg",
+      "width": 33,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Mildes, beruhigendes Öl."
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

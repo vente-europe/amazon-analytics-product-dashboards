@@ -1,0 +1,31 @@
+{
+  "asin": "B0052ECBUG",
+  "title": "Aderma Exomega Control Crema, 400 ml",
+  "brand": "A-Derma",
+  "browse_classification": "Creme per il corpo",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71IW3lHMeQL.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31ZpYbSjTnL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31ZpYbSjTnL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Estratto di plantule d'avena rhealba + biovect dalle proprietà lenitive"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

@@ -1,0 +1,51 @@
+{
+  "asin": "B00E5A3H88",
+  "title": "DEXERYL Creme 250 g",
+  "brand": "DEXERYL",
+  "browse_classification": "Cremes",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51DJte9WwBL.jpg",
+      "width": 531,
+      "height": 1500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/312ASNsq03L.jpg",
+      "width": 177,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/312ASNsq03L._SL75_.jpg",
+      "width": 27,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/61o7JKj7P6L.jpg",
+      "width": 998,
+      "height": 1500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31RDjYhBfLL.jpg",
+      "width": 333,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31RDjYhBfLL._SL75_.jpg",
+      "width": 50,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "PZN-04045241",
+    "250 g Creme",
+    "freiverkäuflich"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

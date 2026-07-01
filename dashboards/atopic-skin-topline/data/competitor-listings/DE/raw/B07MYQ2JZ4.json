@@ -1,0 +1,34 @@
+{
+  "asin": "B07MYQ2JZ4",
+  "title": "Triderm A.D. Emolliente Creme",
+  "brand": "BioNike",
+  "browse_classification": "Cremes",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61As0EPlGAL.jpg",
+      "width": 1035,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31BGOlo436L.jpg",
+      "width": 202,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31BGOlo436L._SL75_.jpg",
+      "width": 30,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Einfach und effektiv",
+    "Einfach zu verwenden",
+    "Ein passendes Geschenk zu jeder Zeit",
+    "Markante Details"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

@@ -1,6 +1,6 @@
 """
 Fetch product listing data (title, bullets, description, images) from Amazon
-SP-API Catalog Items API for the dermo-products dashboard. Reads ASINs from
+SP-API Catalog Items API for the atopic-skin-topline dashboard. Reads ASINs from
 the merged X-Ray CSV for the given country, writes one JSON per ASIN to
 data/competitor-listings/{CODE}/raw/{ASIN}.json.
 

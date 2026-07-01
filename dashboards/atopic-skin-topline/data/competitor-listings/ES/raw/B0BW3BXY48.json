@@ -1,0 +1,34 @@
+{
+  "asin": "B0BW3BXY48",
+  "title": "DEXERYL Crema Emoliente 500g",
+  "brand": "Pierre Fabre",
+  "browse_classification": "Cremas",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31sKgFg0g4L.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/21cD4AYOboL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/21cD4AYOboL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Producto de parafarmacia de la marca Dexeryl",
+    "Categoría: Cosmética femenina, tratamiento corporal",
+    "Crema Emoliente 500 Gramos",
+    "0"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

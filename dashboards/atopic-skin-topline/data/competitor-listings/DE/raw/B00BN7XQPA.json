@@ -1,0 +1,35 @@
+{
+  "asin": "B00BN7XQPA",
+  "title": "Instituto Español Atopische Haut Bade- und Duschgel 500 ml",
+  "brand": "Instituto Español",
+  "browse_classification": "Duschgel",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51x8yf43p4S.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41AKUolQz2S.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41AKUolQz2S._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Sanfte Reinigung ohne Austrocknen",
+    "Ideal für alle Hauttypen",
+    "Reichhaltiger und cremiger Schaum",
+    "Erfrischender Duft",
+    "Tägliche Anwendung für saubere Haut"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

@@ -1,0 +1,34 @@
+{
+  "asin": "B07VMFSCTN",
+  "title": "Instituto Español Gel De Baño De Coco - 1250 Ml, Frutal",
+  "brand": "Instituto Español",
+  "browse_classification": "Geles de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51pzow3XXPL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31dyFRfaD6L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31dyFRfaD6L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Splash aromático a suave coco",
+    "Limpia e hidrata en un solo paso",
+    "Propiedades antioxidantes",
+    "Formato de 1250 ML"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

@@ -1,0 +1,35 @@
+{
+  "asin": "B01KYQ1UJO",
+  "title": "Kaufmanns Fuß- und Körpercreme, 50 ml Creme",
+  "brand": "Kaufmanns",
+  "browse_classification": "Cremes",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61PdQFmubAL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41l-ocbkbRL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41l-ocbkbRL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "hochwertige medizinische Hautpflege",
+    "für empfindliche Haut",
+    "Creme zum Auftragen auf die Haut",
+    "Dermokosmetik aus der Apotheke (PZN: 02557824)",
+    "Hersteller: Walter Kaufmann Nachf. GmbH. Deutschland"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

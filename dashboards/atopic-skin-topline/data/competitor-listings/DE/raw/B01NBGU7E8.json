@@ -1,0 +1,69 @@
+{
+  "asin": "B01NBGU7E8",
+  "title": "Bepanthen Ekzem Creme, 20 G",
+  "brand": "Bepanthen",
+  "browse_classification": "Ekzeme, Schuppenflechte & Gesichtsrose",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51Ps5kYv-5L.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41JVwyjnHwL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41JVwyjnHwL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/51pJhqVTbPL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/412LUNMjhKL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/412LUNMjhKL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/51jRGFMoGEL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31zgWh+vJUL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31zgWh+vJUL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Kortisonenfreie Formel, die Juckreiz und Rötung der Haut, verursacht durch Hautreizungen der intakten Haut bei Kindern und Erwachsenen lindert.",
+    "Inhalt: 20 g",
+    "1 Stück"
+  ],
+  "description": "",
+  "product_type": "SKIN_PROTECTANT"
+}

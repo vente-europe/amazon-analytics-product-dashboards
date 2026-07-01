@@ -1,0 +1,51 @@
+{
+  "asin": "B00JZKJJQC",
+  "title": "PHARMALINE Gel de baño piel atópica 750ml con Omega 3 & 6 y Urea - Sin siliconas, parabenos ni sulfatos.",
+  "brand": "PharmaLine",
+  "browse_classification": "Geles de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71ZTxTHtr9L.jpg",
+      "width": 1194,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31i2bkrdlFL.jpg",
+      "width": 233,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31i2bkrdlFL._SL75_.jpg",
+      "width": 35,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/812RxMrLFpL.jpg",
+      "width": 1136,
+      "height": 2560
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41YceR6R5mL.jpg",
+      "width": 222,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41YceR6R5mL._SL75_.jpg",
+      "width": 33,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Fórmula enriquecida con ácidos grasos omega 3 y 6 y urea",
+    "Higiene diaria de las pieles con dermatitis atópica",
+    "Previene la descamación y la sequedad cutánea"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

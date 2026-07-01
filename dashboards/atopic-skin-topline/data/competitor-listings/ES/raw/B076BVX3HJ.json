@@ -1,0 +1,33 @@
+{
+  "asin": "B076BVX3HJ",
+  "title": "EMOLIENTA QP EMULSION 300 ML",
+  "brand": "Emolienta",
+  "browse_classification": "Lociones corporales",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41HKi5vErPL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41HKi5vErPL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/611lzIZGn1L.jpg",
+      "width": 1000,
+      "height": 1000
+    }
+  ],
+  "bullet_points": [
+    "Ofrece un resultado óptimo",
+    "Fácil de aplicar",
+    "Producto de calidad óptima"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

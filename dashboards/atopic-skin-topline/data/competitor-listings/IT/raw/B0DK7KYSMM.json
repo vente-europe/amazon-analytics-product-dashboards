@@ -1,0 +1,34 @@
+{
+  "asin": "B0DK7KYSMM",
+  "title": "OLIO DETERGENTE BABY PER PELLI A TENDENZA ATOPICA",
+  "brand": "Linea Mamma Baby",
+  "browse_classification": "Oli",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/515EEjHjHAL.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/212O2WIskTL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/212O2WIskTL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Dermatologicamente testata per pelli delicate",
+    "Valutata sotto controllo pediatrico. Ripristina l’equilibrio cutaneo alleviando disagio e prurito",
+    "Adatta a 0+ e a tutta la famiglia",
+    "Senza profumo e senza coloranti, senza acqua"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

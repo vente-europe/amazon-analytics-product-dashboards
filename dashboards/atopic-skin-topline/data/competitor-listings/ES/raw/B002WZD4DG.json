@@ -1,0 +1,35 @@
+{
+  "asin": "B002WZD4DG",
+  "title": "Xémose, Crema Emoliente Universal, 400 ml",
+  "brand": "Uriage",
+  "browse_classification": "Cremas",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51-gvWKc2gL.jpg",
+      "width": 1200,
+      "height": 800
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/312dcQY3ImL.jpg",
+      "width": 500,
+      "height": 333
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/312dcQY3ImL._SL75_.jpg",
+      "width": 75,
+      "height": 50
+    }
+  ],
+  "bullet_points": [
+    "Textura: Crema",
+    "Gama: 7481732058",
+    "Género: Unisex, Infantil",
+    "Aplicación: 1 a 2 aplicaciones al día, más si es necesario.",
+    "Tipo de piel: Piel seca"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

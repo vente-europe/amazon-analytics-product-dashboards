@@ -1,0 +1,35 @@
+{
+  "asin": "B00BN7XQGO",
+  "title": "Instituto Español Leche Corporal Hipoalergénica para Piel Atópica - 300 ml",
+  "brand": "Instituto Español",
+  "browse_classification": "Lociones corporales",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/511quFRQcAS.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41UssiRjo1S.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41UssiRjo1S._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Tipo de producto: Leche corporal",
+    "Marca: Instituto Español",
+    "Género: Unisex Adulto",
+    "Ingredientes: Glycerin",
+    "Tipo de piel: Sensible; Atopico"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

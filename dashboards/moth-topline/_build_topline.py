@@ -1,7 +1,7 @@
 """
 Buduje standalone index.html dla moth-topline (topline, 5 rynków UK/DE/ES/FR/IT).
 
-SKELETON — skopiowany z dermo-products. TODO przed użyciem:
+SKELETON — skopiowany z atopic-skin-topline. TODO przed użyciem:
   1. Wrzuć X-Ray CSV do data/x-ray/{CODE}/Moth-{CODE}.csv (5 rynków)
   2. Zmień SEGMENTS na właściwe segmenty rynku moli (np. Pheromone trap,
      Sticky trap, Spray, Cedar/Lavender repellent)

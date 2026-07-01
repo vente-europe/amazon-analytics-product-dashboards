@@ -1,0 +1,34 @@
+{
+  "asin": "B08B981F4X",
+  "title": "Instituto Español Gel de Baño Cremoso con Manteca de Karité 1250 Ml",
+  "brand": "Instituto Español",
+  "browse_classification": "Geles de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51S-1pFcoNL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31GP4MBuYhL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31GP4MBuYhL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Fuente de vitamina a, d, e y f, lo que hace que tu piel trabaje la reparación, suavizando y potenciando la flexibilidad.",
+    "Enriquecido con manteca de karité, conocida por sus propiedades hidratantes",
+    "Estimula la producción de colágeno gracias a los ácidos grasos",
+    "Botella fabricada con un 30% de plástico recuperado"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

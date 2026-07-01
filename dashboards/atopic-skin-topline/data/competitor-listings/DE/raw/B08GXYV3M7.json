@@ -1,0 +1,31 @@
+{
+  "asin": "B08GXYV3M7",
+  "title": "Ceramol Creme 311 200 ml",
+  "brand": "Ceramol",
+  "browse_classification": "Cremes",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51Wr06QPZqL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31exzTJdbLL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31exzTJdbLL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Geeignet bei trockener, veränderter Haut, Schuppenbildung, Angriffsphase von Ekzemen und Dermatitis (von, dic, dac) und beim Baby und bei atopischen Personen, auch als Erhaltungsweichmacher"
+  ],
+  "description": "",
+  "product_type": "HEALTH_PERSONAL_CARE"
+}

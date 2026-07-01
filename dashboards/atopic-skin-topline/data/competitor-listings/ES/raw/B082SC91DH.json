@@ -1,0 +1,71 @@
+{
+  "asin": "B082SC91DH",
+  "title": "Dicora Urban Fit Gel de Baño Proteins Yogurt & Avena 750 ml",
+  "brand": "Dicora UrbanFit",
+  "browse_classification": "Geles de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61xHw1IVMmL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/313LINFDjhL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/313LINFDjhL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/61GNwpUX7TL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41D5xupuJvL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41D5xupuJvL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/61PDVqJ5AbL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31QrnLyaG1L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31QrnLyaG1L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Gel de baño cremoso Proteins Yogur & Avena enriquecido con proteínas de yogur y extractos naturales de avena.",
+    "Cremosidad e hidratación suave para pieles sensibles.",
+    "Las proteínas del yogur y de la avena calman la piel, mejoran la elasticidad y aportan un efecto refrescante.",
+    "Extractos naturales: avena",
+    "CrueltyFree"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

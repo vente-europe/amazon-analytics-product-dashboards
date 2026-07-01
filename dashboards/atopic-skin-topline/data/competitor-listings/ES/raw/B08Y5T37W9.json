@@ -1,0 +1,45 @@
+{
+  "asin": "B08Y5T37W9",
+  "title": "Aderma Exomega Aceite Ducha 500Ml Duplo",
+  "brand": "A-Derma",
+  "browse_classification": "Aceites de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51a-oVHGhxL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31TQ+hKFTWL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31TQ+hKFTWL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/414pgP33r5L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/414pgP33r5L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Tiene una textura emoliente y sedosa",
+    "Está indicado para las pieles más secas",
+    "Sin jabón ni parabenos"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

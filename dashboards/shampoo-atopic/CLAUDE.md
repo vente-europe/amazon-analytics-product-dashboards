@@ -19,8 +19,8 @@ Amazon market analysis for **atopic / sensitive-scalp shampoo** (Neurodermitis /
 
 ## Scope (as of 2026-06-25)
 
-- **Starts single-market: DE.** Built market-by-market; same structure can extend to FR/IT/ES later (per-country subfolders, like `dermo-products` / `eu-wasp-analysis`).
-- Template / tab set **not yet decided** — confirm with Tom once DE data lands: detailed single-market (`u-main-segments`) vs. multi-market topline (like `dermo-products`).
+- **Starts single-market: DE.** Built market-by-market; same structure can extend to FR/IT/ES later (per-country subfolders, like `atopic-skin-topline` / `eu-wasp-analysis`).
+- Template / tab set **not yet decided** — confirm with Tom once DE data lands: detailed single-market (`u-main-segments`) vs. multi-market topline (like `atopic-skin-topline`).
 
 ## Folder layout
 

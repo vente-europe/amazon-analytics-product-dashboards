@@ -1,0 +1,72 @@
+{
+  "asin": "B08HRKGCSZ",
+  "title": "Omniskin 500 Olio - Detergente Corpo",
+  "brand": "Omniskin",
+  "browse_classification": "Oli per il corpo",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71yuSyelw4S.jpg",
+      "width": 776,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/3128KuDSwPS.jpg",
+      "width": 151,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/3128KuDSwPS._SL75_.jpg",
+      "width": 23,
+      "height": 75
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/71oPIr9l+lS.jpg",
+      "width": 2448,
+      "height": 2560
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/316rcvuCc3S.jpg",
+      "width": 478,
+      "height": 500
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/316rcvuCc3S._SL75_.jpg",
+      "width": 72,
+      "height": 75
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/91aOn+2e88S.jpg",
+      "width": 1727,
+      "height": 2560
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/51gxWU+humS.jpg",
+      "width": 337,
+      "height": 500
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/51gxWU+humS._SL75_.jpg",
+      "width": 51,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Detergente emolliente",
+    "Specifico perla pelle secca e gli ispessimenti cutanei",
+    "Formulazione delicata",
+    "Priva di petrolatum e conservanti",
+    "Formato. 500 ml",
+    "Ingredienti: Principali: Trigliceridi fluidi, esteri non occlusali."
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

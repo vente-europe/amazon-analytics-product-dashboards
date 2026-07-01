@@ -1,0 +1,53 @@
+{
+  "asin": "B01BLKUUKM",
+  "title": "CATTIER Sublime Alchimie Huile Multi-Usages - Bio - 100 ml",
+  "brand": "CATTIER",
+  "browse_classification": "Huiles",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61aXQofLiPL.jpg",
+      "width": 621,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31ceawNT8IL.jpg",
+      "width": 121,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31ceawNT8IL._SL75_.jpg",
+      "width": 18,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/71y+Q0WXi+L.jpg",
+      "width": 1707,
+      "height": 2560
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41wKI9vraoL.jpg",
+      "width": 333,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41wKI9vraoL._SL75_.jpg",
+      "width": 50,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Triple utilisation possible: Visage, corps et cheveux",
+    "Prévient le dessèchement, lisse et adoucit la peau",
+    "Issue de l’alliance unique d’huiles Bio précieuses: Camélia, Argan, Jojoba et Tournesol",
+    "Sa texture dorée, fine et soyeuse, pénètre rapidement et laisse un film protecteur non gras",
+    "Certifié Bio - Végan - Ecocert"
+  ],
+  "description": "",
+  "product_type": "HAIR_STYLING_AGENT"
+}

@@ -1,0 +1,51 @@
+{
+  "asin": "B0015SXSKK",
+  "title": "Vaseline Huile gel revitalisante pour le corps - Enrichie au beurre de cacao, à l'huile d'amande et aux extraits de noix du Brésil - 200 ml",
+  "brand": "Vaseline",
+  "browse_classification": "Huiles",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31pOx0FCvCL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31pOx0FCvCL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61MoqtNwpwL.jpg",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/414vqoG1CeL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/414vqoG1CeL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/71702zZz3gL.jpg",
+      "width": 1600,
+      "height": 1600
+    }
+  ],
+  "bullet_points": [
+    "Élever au-dessus tous les jours shampooinage",
+    "Infusé avec extrait d'agrumes et de ginseng",
+    "Ajouter le volume avec ce nettoyant sans silicone"
+  ],
+  "description": "Vaseline Essential Moisture Cocoa Radiant with Pure Cocoa Butter - 200 ml",
+  "product_type": "SKIN_MOISTURIZER"
+}

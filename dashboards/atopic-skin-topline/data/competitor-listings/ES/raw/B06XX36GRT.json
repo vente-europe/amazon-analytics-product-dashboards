@@ -1,0 +1,34 @@
+{
+  "asin": "B06XX36GRT",
+  "title": "Instituto Español Crema Momentos Atópicos para Eczemas - 150 ML",
+  "brand": "Instituto Español",
+  "browse_classification": "Manos y pies",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61E5wqOduhS.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/418UyRTRa5S.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/418UyRTRa5S._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Texturas: Crema",
+    "Tipo de Piel: Atópica",
+    "Género: Unisex Adulto",
+    "Tipo de piel: seca"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

@@ -1,5 +1,5 @@
 """
-Buduje standalone index.html dla dermo-products (topline, 4 rynki DE/FR/IT/ES).
+Buduje standalone index.html dla atopic-skin-topline (topline, 4 rynki DE/FR/IT/ES).
 
 Czyta Dermo-Products-{CODE}.csv z data/x-ray/{CODE}/, filtruje do segmentów
 Cream/Wash/Oil, agreguje 30d revenue + units per rynek i per (segment × rynek),

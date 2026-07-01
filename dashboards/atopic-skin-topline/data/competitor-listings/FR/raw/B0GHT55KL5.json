@@ -1,0 +1,53 @@
+{
+  "asin": "B0GHT55KL5",
+  "title": "La Corvette, Sublime - Savon solide surgras Fleur d’Oranger – 100 g – Savon parfumé mains et corps",
+  "brand": "La Corvette",
+  "browse_classification": "Savons et nettoyants pour les mains",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/510gTWFc2aL.jpg",
+      "width": 1280,
+      "height": 1280
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31Er1krlF4L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31Er1krlF4L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/71XuldtnWML.jpg",
+      "width": 1920,
+      "height": 1920
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41m6ZSDCCCL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41m6ZSDCCCL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Savon solide surgras délicatement parfumé à la fleur d’oranger",
+    "Formulé à partir d’huiles 100 % végétales",
+    "Nettoie la peau en douceur",
+    "Convient aux mains et au corps",
+    "Fabriqué en France"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

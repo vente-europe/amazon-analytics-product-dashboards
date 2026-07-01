@@ -1,0 +1,51 @@
+{
+  "asin": "B07Q6FG1T6",
+  "title": "La Roche Posay - Aceite de ducha, Relipidizante, Anti-irritaciones, Hidrata y Calma, Enriquecido con Manteca de Karité, Para Pieles Secas y Atópicas, Lipikar AP+, 400 ml",
+  "brand": "La Roche-Posay",
+  "browse_classification": "Aceites",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71ly0UcyTUL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41y2Hef5v7L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41y2Hef5v7L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/711qJ4bv-9L.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41EbTqxRkEL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41EbTqxRkEL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Adecuado para el cuidado de tu piel",
+    "Producto de belleza",
+    "Sencillo de aplicar"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

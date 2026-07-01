@@ -83,7 +83,7 @@ Re-reads `data/x-ray/raw/`, regenerates the merged CSVs **and** `index.html`.
 ## TODO / next
 
 - **Segment** the merged `atopic-{CODE}.csv` files (fill the `Segment` column), then extend
-  the build to break out per-segment views (model: `dermo-products/_build_topline.py`).
+  the build to break out per-segment views (model: `atopic-skin-topline/_build_topline.py`).
 - Replace `XRAY_LINKS` `#` placeholders with real Google Sheet URLs once created.
 
 ## Self-update rule

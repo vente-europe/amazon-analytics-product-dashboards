@@ -1,0 +1,34 @@
+{
+  "asin": "B0060OV1OY",
+  "title": "La Roche Posay Lipikar Huile Lavante Anti Irritations - 400 ml",
+  "brand": "La Roche-Posay",
+  "browse_classification": "Aceites",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41-V19aKiDL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31i0MmdLkQL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31i0MmdLkQL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Tiene un pH neutro. Sin jabón, sin alcohol, libre de colorantes y libre de parabeno",
+    "Ayuda a restaurar la barrera cutánea y calmar la sensación de opresión",
+    "Durante el ducho aplicar directamente a la piel y masajear suavemente",
+    "Cantidad del producto de 400 ml"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

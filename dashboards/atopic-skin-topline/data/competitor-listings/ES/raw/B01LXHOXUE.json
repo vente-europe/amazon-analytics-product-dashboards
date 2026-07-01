@@ -1,0 +1,33 @@
+{
+  "asin": "B01LXHOXUE",
+  "title": "Be+ Atopia Crema Hidratante y Nutritiva 400 Ml",
+  "brand": "BE+",
+  "browse_classification": "Cremas",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/418W6FDuAlL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31gLD6qziiL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31gLD6qziiL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Humectante de piel",
+    "Cuidado de la piel atópica",
+    "Hidrata y nutre"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

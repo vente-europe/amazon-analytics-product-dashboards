@@ -1,0 +1,29 @@
+{
+  "asin": "B01MYX4NBV",
+  "title": "GEL PIEL ATOPICA IA 750 ML",
+  "brand": "Interapothek (recomed)",
+  "browse_classification": "Geles de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41sOG9-oTCL.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/21KP0c7XxaL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/21KP0c7XxaL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

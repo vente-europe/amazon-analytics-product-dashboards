@@ -1,0 +1,33 @@
+{
+  "asin": "B00FTQVKXG",
+  "title": "AVENE XeraCalm A.D Creme 200 ml",
+  "brand": "Avene",
+  "browse_classification": "Cremes",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31bJul7iH-L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31bJul7iH-L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/410RRxXtUSL.jpg",
+      "width": 1000,
+      "height": 1000
+    }
+  ],
+  "bullet_points": [
+    "PZN-00670485",
+    "200 ml Creme",
+    "freiverkäuflich"
+  ],
+  "description": "AVENE XeraCalm A.D Creme 200 ml AVENE PIERRE FABRE DERMO KOSMETIK GmbH",
+  "product_type": "SKIN_MOISTURIZER"
+}

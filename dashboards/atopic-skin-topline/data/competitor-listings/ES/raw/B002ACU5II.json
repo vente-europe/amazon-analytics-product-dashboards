@@ -1,0 +1,34 @@
+{
+  "asin": "B002ACU5II",
+  "title": "LA ROCHE POSAY Lipikar Syndet Gel-Crema Antiirritaciones 400 ml",
+  "brand": "La Roche-Posay",
+  "browse_classification": "Geles de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51-0ue3q7UL.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31GLNBzs5-L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31GLNBzs5-L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Limpieza de alta tolerancia, ayuda a restaurar la barrera de la piel",
+    "Gel de limpieza de alta tolerancia diseñado para pieles extremadamente secas e irritadas sujetas a picazón",
+    "Con calmante La Roche-Posay Agua Termal, naturalmente calmante y anti-irritante",
+    "Libre de jabón, fragancias y parabenos"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

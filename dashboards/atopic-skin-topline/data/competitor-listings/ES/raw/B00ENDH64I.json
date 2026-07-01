@@ -1,0 +1,89 @@
+{
+  "asin": "B00ENDH64I",
+  "title": "Seb Emul s/jab Oliva 1000ml",
+  "brand": "Sebamed",
+  "browse_classification": "Geles de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51evjNDy6UL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31kaTRX6ROL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31kaTRX6ROL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/51rC2sXKX6L.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41NmF21rstL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41NmF21rstL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/615a6PbYz1L.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/41zmeP7AXlL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/41zmeP7AXlL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/51LFmdVv8TL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/41e-bdprE-L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/41e-bdprE-L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Gel de baño Sebamed 1L, suave para pieles secas y sensibles, sin jabón. Limpieza sin resecar.",
+    "Fórmula con pH 5,5 y Aceite de Oliva para respetar y proteger la barrera cutánea.",
+    "Enriquecido con Pantenol, hidrata y ayuda a reparar la piel seca sensible.",
+    "pH 5,5: Respeto al pH natural de la piel, promueve barrera protectora.",
+    "Sebamed es una marca de confianza que se esfuerza continuamente para proporcionar productos que cuidan la piel de manera efectiva. Garantía sello ECARF."
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

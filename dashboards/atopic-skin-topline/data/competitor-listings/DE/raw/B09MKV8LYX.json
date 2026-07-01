@@ -1,0 +1,31 @@
+{
+  "asin": "B09MKV8LYX",
+  "title": "Atopicontrol Bálsamo 400 Ml",
+  "brand": "Eucerin",
+  "browse_classification": "Cremes",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41ns5+5zsSL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/317cY3+9+LL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/317cY3+9+LL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "ATOPICONTROL bálsamo 400 ml"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

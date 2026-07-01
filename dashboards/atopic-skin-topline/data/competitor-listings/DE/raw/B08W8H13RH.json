@@ -1,0 +1,35 @@
+{
+  "asin": "B08W8H13RH",
+  "title": "Instituto Español Atopische Hautlotion 750 ml",
+  "brand": "Instituto Español",
+  "browse_classification": "Lotionen",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61zq9OeCbcL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41BWYfS2JWL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41BWYfS2JWL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Intensive Feuchtigkeitspflege für die Haut",
+    "Optimal für trockene und empfindliche Haut",
+    "Leichte Textur, die schnell einzieht",
+    "Angereichert mit natürlichen Inhaltsstoffen",
+    "Tägliche Anwendung für weiche Haut"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

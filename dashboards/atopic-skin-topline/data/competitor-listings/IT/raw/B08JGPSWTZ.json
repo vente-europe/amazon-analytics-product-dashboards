@@ -1,0 +1,88 @@
+{
+  "asin": "B08JGPSWTZ",
+  "title": "Avene Cleanance Gel Limpiador 400Ml",
+  "brand": "Avene",
+  "browse_classification": "Gel detergenti",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61PeGEQ34tL.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41Ubew5QE8L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41Ubew5QE8L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/61PeGEQ34tL.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41Ubew5QE8L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41Ubew5QE8L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/61PeGEQ34tL.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/41Ubew5QE8L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/41Ubew5QE8L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/61PeGEQ34tL.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/41Ubew5QE8L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/41Ubew5QE8L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Gel detergente",
+    "Opacizzante e purificante",
+    "Per la pelle grassa e tendente alle imperfezioni",
+    "Ingredienti selezionati"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

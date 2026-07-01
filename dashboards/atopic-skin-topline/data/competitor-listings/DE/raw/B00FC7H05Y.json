@@ -1,0 +1,71 @@
+{
+  "asin": "B00FC7H05Y",
+  "title": "Eucerin Atopicontrol Creme Gesicht 50ml",
+  "brand": "Eucerin",
+  "browse_classification": "Tagespflege",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71w8OSa6HsL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41r3qEjGRML.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41r3qEjGRML._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/71GidQpnPSL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41XieA4Y+lL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/41XieA4Y+lL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/61zdgavBHIL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31WN2h8krkL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31WN2h8krkL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Beruhigt den Juckreiz.",
+    "Tiefenwirksame Pflege.",
+    "Sehr trockene Haut, atopische Dermatitis, Ekzeme, Allergien und andere Irritationen.",
+    "Ohne Kortison.",
+    "Ohne Parfüm."
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

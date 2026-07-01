@@ -1,5 +1,5 @@
 """
-Klasyfikator segmentów dla dashboardu dermo-products (skóra atopowa / sucha / podrażniona).
+Klasyfikator segmentów dla dashboardu atopic-skin-topline (skóra atopowa / sucha / podrażniona).
 
 ZASADA GŁÓWNA: produkt dostaje automatyczny segment (Cream / Wash / Oil) TYLKO jeśli:
   1. Opis listingu (tytuł + bullet points + description z SP-API) zawiera MOCNY

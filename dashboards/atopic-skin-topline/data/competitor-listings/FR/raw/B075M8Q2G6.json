@@ -1,0 +1,33 @@
+{
+  "asin": "B075M8Q2G6",
+  "title": "Gel Bain Et Douche Peaux Sensibles 2x400ml Surgras Actif Rogé Cavaillès",
+  "brand": "Rogé Cavaillès",
+  "browse_classification": "Gels douche",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/6174f0wojkL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/416YD6ZbLzL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/416YD6ZbLzL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Peaux délicates et sensibles",
+    "adult",
+    "female"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

@@ -1,0 +1,35 @@
+{
+  "asin": "B002Y1EH7K",
+  "title": "Bergland Vitamin E Hautöl, 125 ml Öl",
+  "brand": "Bergland",
+  "browse_classification": "Öle",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61Jr3sZXkJL.jpg",
+      "width": 2000,
+      "height": 2000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31exkn1v2sL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31exkn1v2sL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "hochwertige medizinische Hautpflege",
+    "für empfindliche Haut",
+    "Öl zur Anwendung auf der Haut",
+    "Dermokosmetik aus der Apotheke (PZN: 03945250)",
+    "Hersteller: Bergland-Pharma GmbH & Co. KG, Deutschland"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

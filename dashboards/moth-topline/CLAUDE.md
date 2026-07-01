@@ -4,7 +4,7 @@
 
 ## Status
 
-**Empty skeleton** — folder structure and build script copied from `dermo-products` (Atopic Skin topline). No data yet.
+**Empty skeleton** — folder structure and build script copied from `atopic-skin-topline` (Atopic Skin topline). No data yet.
 
 ## Purpose
 
@@ -14,7 +14,7 @@ Multi-market topline view of the moth-control category. Same layout as Atopic Sk
 
 - Vanilla HTML + JS + CSS, Chart.js via CDN
 - Self-contained `index.html` (works on `file://` and via Hub iframe)
-- Build script: `_build_topline.py` (copy of dermo-products one, with file pattern + segments swapped)
+- Build script: `_build_topline.py` (copy of atopic-skin-topline one, with file pattern + segments swapped)
 
 ## Folder layout
 
@@ -28,7 +28,7 @@ moth-topline/
 │   ├── sales-data/{UK,DE,ES,FR,IT}/    ← per-ASIN daily sales (optional)
 │   └── competitor-listings/{UK,DE,ES,FR,IT}/
 ├── reviews/                  ← per-market review files (optional)
-└── scripts/                  ← copied from dermo-products (audit/classify/fetch helpers)
+└── scripts/                  ← copied from atopic-skin-topline (audit/classify/fetch helpers)
 ```
 
 ## Before first build — TODO

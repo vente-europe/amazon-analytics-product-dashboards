@@ -1,0 +1,50 @@
+{
+  "asin": "B00IIL3AYG",
+  "title": "Eucerin Atopicontrol Reinigungsöl 400ml",
+  "brand": "Eucerin",
+  "browse_classification": "Make-up-Reinigungsöle",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51oyQ90LrkL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31f6xWclQJL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31f6xWclQJL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/51oyQ90LrkL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31f6xWclQJL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31f6xWclQJL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Reinigungsöl.",
+    "AtopiControl."
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

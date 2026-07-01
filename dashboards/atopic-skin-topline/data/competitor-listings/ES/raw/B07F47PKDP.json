@@ -1,0 +1,27 @@
+{
+  "asin": "B07F47PKDP",
+  "title": "EUCERIN Gel de baño pH5 400ml",
+  "brand": "Eucerin",
+  "browse_classification": "Geles de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41TH0G9EqcL.jpg",
+      "width": 333,
+      "height": 800
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41TH0G9EqcL._SL75_.jpg",
+      "width": 31,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Baño e higiene personal :detergente corporal",
+    "Peso: 400 mililitros",
+    "Detergente corporal unisex 400 ml"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

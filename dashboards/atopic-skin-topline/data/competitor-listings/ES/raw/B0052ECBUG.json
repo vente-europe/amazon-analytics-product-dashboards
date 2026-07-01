@@ -1,0 +1,34 @@
+{
+  "asin": "B0052ECBUG",
+  "title": "A-Derma - Exomega Control, 400 ml",
+  "brand": "A-Derma",
+  "browse_classification": "Cremas",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71IW3lHMeQL.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31ZpYbSjTnL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31ZpYbSjTnL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Cuidado emoliente de las pieles atópicas y muy secas, adecuado para recién nacido, niño, adulto",
+    "Con textura ligera adaptada a la sequedad moderada",
+    "Con extracto de plántulas de Avena Rhealba que calma las irritaciones y alivia la piel",
+    "Se aplica sobre las zonas secas de la cara y del cuerpo, previamente limpias"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

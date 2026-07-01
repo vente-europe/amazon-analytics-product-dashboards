@@ -1,0 +1,47 @@
+{
+  "asin": "B0G48SK26Y",
+  "title": "DEXERYL Aceite de ducha calmante, 1 litro",
+  "brand": "DEXERYL",
+  "browse_classification": "Aceites de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41yf30G8pGL.jpg",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/215V5PoUHGL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/215V5PoUHGL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/516OL1FkIhL.jpg",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31KP7TnGr7L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31KP7TnGr7L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [],
+  "description": "El calmante aceite de ducha de DEXERYL limpia, calma y elimina el picor en pieles secas o atópicas",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

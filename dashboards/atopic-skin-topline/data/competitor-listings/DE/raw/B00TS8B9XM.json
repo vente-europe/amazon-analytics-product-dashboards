@@ -1,0 +1,35 @@
+{
+  "asin": "B00TS8B9XM",
+  "title": "Restructuring Oil, 150 ml",
+  "brand": "Oceanwell",
+  "browse_classification": "Öle",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51H66GAAeyL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31x0m8iz81L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31x0m8iz81L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Naturkosmetik Natrue-zertifiziert",
+    "Psoriasis Hautpflege",
+    "vegan Algen-Kosmetik parfümfrei parfumfrei",
+    "empfindliche irritierte Haut",
+    "Therapie-begleitende Pflege Neurodermitis"
+  ],
+  "description": "Ein kleines Wirkstoffwunder. Reichhaltiges Laminaria-Öl unterstützt die hauteigene Lipidschicht, die Schutzfunktionen werden aktiviert. Das Ergebnis - zarte Geschmeidigkeit und Elastizität. Optimal auch für die Gesichts- und Babymassage. Alle Biomarine Cellsupport-Produkte sind parfümfrei und für extrem sensible Haut geeignet: z.B. Babyhaut, Augen-, Schleimhaut- und Intim-Bereich. Anwendung: Das Öl gleichmäßig auf die betroffenen Hautstellen auftragen und einmassieren. Meerwert: Als begleitende Pflege bei Neurodermitis und Schuppenflechte geeignet.",
+  "product_type": "SKIN_MOISTURIZER"
+}

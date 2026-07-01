@@ -1,0 +1,33 @@
+{
+  "asin": "B01M3SAZGB",
+  "title": "BIODERMA Atoderm Huile de Douche 500 ml",
+  "brand": "Bioderma",
+  "browse_classification": "Öle",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51yWFQZQy7L.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/317t8qJcZ7L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/317t8qJcZ7L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "PZN-19463777",
+    "500 ml Öl",
+    "freiverkäuflich"
+  ],
+  "description": "BIODERMA Atoderm Huile de Douche 500 ml BIODERMA NAOS Deutschland GmbH",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

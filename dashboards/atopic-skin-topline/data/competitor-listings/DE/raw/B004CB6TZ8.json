@@ -1,0 +1,52 @@
+{
+  "asin": "B004CB6TZ8",
+  "title": "Atopiclair, Creme, 100 ml",
+  "brand": "Atopiclair",
+  "browse_classification": "Juckreiz & Ausschlag",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71hcwZ+b1gL.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41DMtjVFg6L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41DMtjVFg6L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/71qSj7+8zzL.jpg",
+      "width": 810,
+      "height": 2560
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31h-aWSe9cL.jpg",
+      "width": 158,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31h-aWSe9cL._SL75_.jpg",
+      "width": 24,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Atopiclair wird in der Behandlung von leichter bis m&auml;&szlig;ig starker atopischer Dermatitis angewendet.",
+    "Frei von Steroiden, Parabenen und geruchneutral.",
+    "Atopiclair beruhigt, pflegt und sch&uuml;tzt Ihre Haut.",
+    "Geeignet f&uuml;r Erwachsene und Kinder ab 6 Monaten."
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

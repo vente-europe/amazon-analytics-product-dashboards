@@ -1,0 +1,34 @@
+{
+  "asin": "B07S2ZVTGN",
+  "title": "IDP - MS Aceite Espumoso de Ducha - 400 ml.",
+  "brand": "IDP",
+  "browse_classification": "Aceites de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/51uqaUw7MgL.jpg",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31-RILN+g-L.jpg",
+      "width": 333,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31-RILN+g-L._SL75_.jpg",
+      "width": 50,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Es un gel de aceite indicado en higiene delicada de la piel del cuerpo y rostro",
+    "Puede emplearse tanto en piel normal, xerótica o deshidratada, alteradas, descamativas",
+    "Para una higiene no irritante, como pieles con tendencia atopiforma, ictiosiforme, psoriasiforme",
+    "Puede utilizarse en la ducha o en baño por ser hidrodispersable"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

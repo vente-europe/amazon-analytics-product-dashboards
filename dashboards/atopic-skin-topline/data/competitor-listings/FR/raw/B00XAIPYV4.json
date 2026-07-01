@@ -1,0 +1,35 @@
+{
+  "asin": "B00XAIPYV4",
+  "title": "INSTITUTO ESPAÑOL Crème Peau Atopique 30 ml",
+  "brand": "Instituto Español",
+  "browse_classification": "Crèmes",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/61wQ6jDg+wL.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41yfJwhh-1L.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41yfJwhh-1L._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Hydrate intensément la peau",
+    "Optimal pour les peaux sèches et sensibles",
+    "Texture légère à absorption rapide",
+    "Enrichi en ingrédients naturels",
+    "Utilisation quotidienne pour une peau douce"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

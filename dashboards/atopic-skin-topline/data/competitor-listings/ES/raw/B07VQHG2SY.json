@@ -1,0 +1,34 @@
+{
+  "asin": "B07VQHG2SY",
+  "title": "Aceite Hidratante de Coco - Instituto Español 400 ML",
+  "brand": "Instituto Español",
+  "browse_classification": "Aceites",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/419VS4LreBS.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31aJw1R2kaS.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31aJw1R2kaS._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Evita el envejecimiento de la piel por su acción antioxidante y rico en vitamina E y K.",
+    "Aporta luminosidad.",
+    "Ayuda a reestablecer el pH de la piel.",
+    "Aroma suave y fórmula no grasa de rápida absorción."
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

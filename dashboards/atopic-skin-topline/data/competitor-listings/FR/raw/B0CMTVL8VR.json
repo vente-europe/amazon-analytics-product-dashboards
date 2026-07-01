@@ -1,0 +1,31 @@
+{
+  "asin": "B0CMTVL8VR",
+  "title": "DEXERYL CREMA EMOLIEN P/S 500",
+  "brand": "Pierre Fabre",
+  "browse_classification": "Crèmes",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/41Ykvjc1LyL.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/21UejiJ1oaL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/21UejiJ1oaL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "DEXERYL CREMA EMOLIEN P/S 500"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

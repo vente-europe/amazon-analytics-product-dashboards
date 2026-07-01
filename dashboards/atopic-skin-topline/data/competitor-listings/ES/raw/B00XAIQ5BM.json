@@ -1,0 +1,52 @@
+{
+  "asin": "B00XAIQ5BM",
+  "title": "Instituto Español - Natura - Gel baño y ducha para piel sensible - 750 ml (10850)",
+  "brand": "Instituto Español",
+  "browse_classification": "Geles de ducha",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71L6iVt7ViL.jpg",
+      "width": 2560,
+      "height": 2560
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31ACEL2F7ZL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31ACEL2F7ZL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/71RWbKS0psL.jpg",
+      "width": 814,
+      "height": 2560
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31NZ6hPWkML.jpg",
+      "width": 159,
+      "height": 500
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/31NZ6hPWkML._SL75_.jpg",
+      "width": 24,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "100% Hipoalergénico",
+    "Sin Siliconas, Colorantes, Perfume ni Colorantes",
+    "95% de Origen Natural",
+    "Apto Para Pieles Sensibles"
+  ],
+  "description": "",
+  "product_type": "SKIN_CLEANING_AGENT"
+}

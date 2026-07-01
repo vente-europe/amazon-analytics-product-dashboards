@@ -1,0 +1,70 @@
+{
+  "asin": "B086C77WRP",
+  "title": "Dexeryl 3592610001371 crema&pompe 500gr",
+  "brand": "DEXERYL",
+  "browse_classification": "Cremas",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/415lmI3tl7L.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/21lHb41E-lL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/21lHb41E-lL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/51yDWDJjPrL.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31-nxS94rlL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/31-nxS94rlL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/31vBlvShs2L.jpg",
+      "width": 1200,
+      "height": 1200
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/11Zw+A115xL.jpg",
+      "width": 500,
+      "height": 500
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/11Zw+A115xL._SL75_.jpg",
+      "width": 75,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Dexeryl cremapompe",
+    "Marca: dexeryl",
+    "Dimensiones del producto: 8 x 8 x 23 cm",
+    "Peso: 500 gramos"
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}

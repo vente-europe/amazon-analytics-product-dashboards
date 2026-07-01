@@ -1,0 +1,35 @@
+{
+  "asin": "B0FHQ1Z14S",
+  "title": "CeraVe Creme Hidratante Intensivo Para Pele Seca a Muito Seca 340 ml",
+  "brand": "CeraVe",
+  "browse_classification": "Cremas",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/516g-JSN04L.jpg",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31wFcGHB-rL.jpg",
+      "width": 333,
+      "height": 500
+    },
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/31wFcGHB-rL._SL75_.jpg",
+      "width": 50,
+      "height": 75
+    }
+  ],
+  "bullet_points": [
+    "Crema hidratante rica con un 5 % de Hydro-Urea para una hidratación intensiva y continua de la barrera cutánea.",
+    "Contiene 3 ceramidas esenciales y manteca de karité para retener la hidratación natural de la piel.",
+    "Proporciona 72 horas de hidratación*, mejora la luminosidad y reduce la descamación. *Test instrumental en 28 sujetos.",
+    "Testada bajo control dermatológico, sin perfume, no comedogénica y de rápida absorción.",
+    "Apta para todos los tipos de piel, incluidas las sensibles. Usar día y noche para obtener mejores resultados."
+  ],
+  "description": "",
+  "product_type": "SKIN_MOISTURIZER"
+}
