@@ -46,14 +46,15 @@ COUNTRIES = [
     {'code': 'ES', 'name': 'Hiszpania', 'flag': '\U0001F1EA\U0001F1F8'},
 ]
 
-# Preferred segment order (used when a bucket exists for it).
-SEGMENT_ORDER = ['Check', 'Cream', 'Wash', 'Oil']
+# Segments shown in the dashboard. Check (holding bucket) and Oil (reviews not
+# finished) are intentionally EXCLUDED — dashboard shows only Cream + Wash.
+SEGMENT_ORDER = ['Cream', 'Wash']
 # Fallback segments per country if reviews/{CODE}/ has no subfolders yet.
 DEFAULT_SEGMENTS = {
-    'DE': ['Check', 'Cream', 'Oil', 'Wash'],
-    'FR': ['Cream', 'Oil', 'Wash'],
-    'IT': ['Cream', 'Oil', 'Wash'],
-    'ES': ['Cream', 'Oil', 'Wash'],
+    'DE': ['Cream', 'Wash'],
+    'FR': ['Cream', 'Wash'],
+    'IT': ['Cream', 'Wash'],
+    'ES': ['Cream', 'Wash'],
 }
 
 
@@ -70,10 +71,9 @@ def detect_segments(code):
             if os.path.isdir(os.path.join(d, name)):
                 found.append(name)
     if not found:
-        found = DEFAULT_SEGMENTS.get(code, ['Cream', 'Oil', 'Wash'])
-    # order: preferred first, then any extras alphabetically
+        found = DEFAULT_SEGMENTS.get(code, ['Cream', 'Wash'])
+    # only segments in SEGMENT_ORDER are shown (Check + Oil excluded); no extras appended
     ordered = [s for s in SEGMENT_ORDER if s in found]
-    ordered += sorted([s for s in found if s not in SEGMENT_ORDER])
     return ordered
 
 

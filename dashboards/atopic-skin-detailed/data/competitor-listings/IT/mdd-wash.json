@@ -3,6 +3,73 @@
  "marketplace": "amazon.it",
  "competitors": [
   {
+   "asin": "B0CBKDC7JY",
+   "brand": "Rilastil",
+   "title": "Rilastil Xerolact Olio Detergente Protettivo Pelli Secche, Special Price, 1000 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/61TP-hpUQPL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61TP-hpUQPL.jpg",
+    "https://m.media-amazon.com/images/I/319XfJj5VKL.jpg",
+    "https://m.media-amazon.com/images/I/319XfJj5VKL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61caiFfw5jL.jpg",
+    "https://m.media-amazon.com/images/I/31kRHDeiCuL.jpg",
+    "https://m.media-amazon.com/images/I/31kRHDeiCuL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/51O-t+dwx5L.jpg",
+    "https://m.media-amazon.com/images/I/21bQ3DXg1jL.jpg"
+   ],
+   "themes": [
+    "cena_pojemnosc"
+   ],
+   "price": 15.49,
+   "rating": 4.6,
+   "reviews": 166,
+   "bsr": 302,
+   "rev30d": 55021,
+   "bullets": [
+    "Marca: Rilastil",
+    "Rilastil Xerolact olio protettivo per pelli secche, 1000 ml",
+    "Formato: 1,00 l (confezione da 1)"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0DVM1G1B3",
+   "brand": "Rilastil",
+   "title": "Rilastil Xerolact Olio Detergente Viso e Corpo per Neonati, Bambini e Adulti, Idratante, Relipidante, per Pelli Secche, Irritate e con Tendenza Atopica. Confezione da 1000 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
+    "https://m.media-amazon.com/images/I/31AP1YOGrvL.jpg",
+    "https://m.media-amazon.com/images/I/31AP1YOGrvL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61P2pKMvlcL.jpg",
+    "https://m.media-amazon.com/images/I/31UR9EF9TEL.jpg",
+    "https://m.media-amazon.com/images/I/31UR9EF9TEL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/51-ehb79m4L.jpg",
+    "https://m.media-amazon.com/images/I/21H-VowbqqL.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "swiad",
+    "bariera",
+    "dla_dzieci",
+    "cena_pojemnosc"
+   ],
+   "price": 15.49,
+   "rating": 4.6,
+   "reviews": 3262,
+   "bsr": 130,
+   "rev30d": 41295,
+   "bullets": [
+    "XEROLACT Olio detergente viso e corpo protettivo anti-irritazioni.",
+    "AZIONE Deterge delicatamente la pelle del viso e del corpo, dona comfort alla pelle. Grazie al complesso idratante-relipidante, favorisce il ripristino della funzione barriera, restituendo idratazione alla pelle",
+    "FORMULA Grazie al complesso idratante-relipidante, favorisce il ripristino della funzione barriera, restituendo idratazione alla pelle.",
+    "PELLE fragile, a tendenza atopica e soggette a prurito e secchezza severa. Indicato per lattanti, bambini e adulti. Formulato per ridurre il rischio di bruciore negli occhi.",
+    "MODO D'USO Applicare su pelle bagnata, massaggiando delicatamente, come un normale detergente. Per il bagno versare l’equivalente di 5 erogazioni mentre si riempie la vasca."
+   ],
+   "description": ""
+  },
+  {
    "asin": "B0DJPB34JN",
    "brand": "La Roche-Posay",
    "title": "La Roche-Posay Lipikar, Olio Detergente AP+, Per Pelli Secche a Tendenza Eczema Atopico, Antiinfiammatorio e Anti-prurito, Arricchito con Aqua Posae Filiformis e Niacinamide, 1L.",
@@ -218,42 +285,6 @@
    "description": ""
   },
   {
-   "asin": "B0DJ9TD4YP",
-   "brand": "Dermovitamina",
-   "title": "Dermovitamina Sensioil 1L - Olio Doccia Delicato - Olio Lavante Pelli Sensibili - Alta Tollerabilità - Azione Struccante e Lenitiva - Morbidezza della Pelle - Per Tutta la Famiglia",
-   "mainImage": "https://m.media-amazon.com/images/I/61woivFq25L.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/61woivFq25L.jpg",
-    "https://m.media-amazon.com/images/I/31I8JxHjX6L.jpg",
-    "https://m.media-amazon.com/images/I/31I8JxHjX6L._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/61AgMB-PQgL.jpg",
-    "https://m.media-amazon.com/images/I/41wrrcB5jzL.jpg",
-    "https://m.media-amazon.com/images/I/41wrrcB5jzL._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/71MZrNFeAHL.jpg",
-    "https://m.media-amazon.com/images/I/41DDzYhTG6L.jpg"
-   ],
-   "themes": [
-    "kojacy",
-    "bariera",
-    "dla_dzieci",
-    "dermatologiczny",
-    "naturalny"
-   ],
-   "price": 12.21,
-   "rating": 4.6,
-   "reviews": 639,
-   "bsr": 670,
-   "rev30d": 14664,
-   "bullets": [
-    "OLIO CORPO LAVANTE: Sensioil 1L di Dermovitamina è un olio doccia relipidante altamente tollerato da pelle secca e molto secca. La nuova formula offre un pool di attivi ad azione lenitiva e uno zucchero prebiotico ideale per la detersione di pelle reattiva, con tendenza ad atopia o soggetta a pruriro. La texture in olio è setosa e avvolgente offrendo un'idratazione fino a 48h e donando morbidezza alla pelle.",
-    "PER PELLE SENSIBILE: Sensioil 1L di Dermovitamina è un bagnoschiuma senza schiuma ad azione mirata per pelli sensibili. La sua nuova formula rinforza la barriera cutanea di viso e corpo: il pantenolo vanta proprietà emollienti e rigeneranti, favorendo l'elasticità e la guarigione di piccole lesioni o arrossamenti della pelle. La Niacinamide ha proprietà antinfiammatorie e regola la produzione di sebo. Lo zucchero probiotico supporta il microbioma cutaneo per l'equiloibrio della flora cutanea.",
-    "NUOVA FORMULA: Sensioil 1L di Dermovitamina è un olio lavante con una nuova formulazione dermo-compatibile e ad elevata tollerabilità. Queste caratteristiche lo rendono adatto per tutta la famiglia, anche per i neonati. Dermatologicamente e oftalmologicamente testato, puo' essere usato come struccante sotto la doccia. Aroma leggermente fruttato: frutti rossi, limone, cocco e bergamotto.",
-    "MODALITÀ D'USO: applicare su pelle bagnata del corpo il detergente oleoso, massaggiando delicatamente, quindi risciacquare. Ideale anche per la detersione quotidiana del viso e come struccante. Senza sapone, alcol, paraffina, coloranti, parabeni.",
-    "DERMOVITAMINA : è una linea completa di soluzioni di dermocosmesi. Da sempre tratta le problematiche della pelle, con prodotti testati, sicuri e formulazioni aggiornate. I prodotti Dermovitamina sono per tutta la famiglia e dermatologicamente testati."
-   ],
-   "description": ""
-  },
-  {
    "asin": "B0CRSJ46YD",
    "brand": "CeraVe",
    "title": "CeraVe Schiuma Detergente, Per Viso e Corpo, Per Pelli da Normali a Grasse, Pelle Libera da Impurità, Barriera Cutanea Rafforzata, Con Ceramidi Essenziali, Acido Ialuronico e Niacinamide, 562 ml",
@@ -284,6 +315,41 @@
     "3 ceramidi essenziali (1, 3 e 6-II) per ripristinare la barriera protettiva della pelle",
     "Acido Ialuronico che aiuta a trattenere la naturale idratazione della pelle",
     "Niacinamide per lenire la pelle e migliorarne l'aspetto, Prodotto non comedogeno e ipoallergenico, Senza profumo"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B09D8SW19S",
+   "brand": "SVR",
+   "title": "SVR Topialyse - Olio lavante, 1 l",
+   "mainImage": "https://m.media-amazon.com/images/I/31Cis8lpwSL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/31Cis8lpwSL.jpg",
+    "https://m.media-amazon.com/images/I/31Cis8lpwSL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61pEzoLLLyL.jpg",
+    "https://m.media-amazon.com/images/I/415dsGvFQsL.jpg",
+    "https://m.media-amazon.com/images/I/415dsGvFQsL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/81xjgsmL4qL.jpg",
+    "https://m.media-amazon.com/images/I/51nBa6JiMbL.jpg",
+    "https://m.media-amazon.com/images/I/51nBa6JiMbL._SL75_.jpg"
+   ],
+   "themes": [
+    "skora_atopowa",
+    "swiad",
+    "hipoalergiczny",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "price": 23.9,
+   "rating": 4.6,
+   "reviews": 1121,
+   "bsr": 1353,
+   "rev30d": 11292,
+   "bullets": [
+    "Olio-detergente anti prurito. Pelli da secche ad atopiche. senza sapone. formula biodegradabile. Ipoallergenico.",
+    "Corpo, viso, capelli, igiene intima. Doccia e/o bagno. Per uso quotidiano.",
+    "Modalità d'uso: applicare sulla pelle bagnata, massaggiare fino ad ottenere la schiuma, risciacquare ad asciugare delicatamente senza strofinare.",
+    "Formato: dispenser 1000 ml"
    ],
    "description": ""
   },
@@ -321,79 +387,6 @@
     "Indicato per la detersione del viso e del corpo",
     "Dermatologicamente e clinicamente testato",
     "Modo d'uso: dopo aver inumidito la pelle, versare una piccola quantità di prodotto nel palmo della mano e procedere al lavaggio. Sciacquare accuratamente"
-   ],
-   "description": ""
-  },
-  {
-   "asin": "B09FYL3CMY",
-   "brand": "SVR",
-   "title": "SVR - SVR Topialyse Gel Lavante Idratante Anti Secchezza 1000ml - 981248267",
-   "mainImage": "https://m.media-amazon.com/images/I/615lNAMj0XL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/615lNAMj0XL.jpg",
-    "https://m.media-amazon.com/images/I/215MOYfw-rL.jpg",
-    "https://m.media-amazon.com/images/I/215MOYfw-rL._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/31xiv1waQLL.jpg",
-    "https://m.media-amazon.com/images/I/31xiv1waQLL._SL75_.jpg"
-   ],
-   "themes": [
-    "nawilzenie",
-    "kojacy",
-    "swiad",
-    "dla_dzieci",
-    "hipoalergiczny",
-    "dermatologiczny",
-    "cena_pojemnosc"
-   ],
-   "price": 19.9,
-   "rating": 4.6,
-   "reviews": 2100,
-   "bsr": 415,
-   "rev30d": 9444,
-   "bullets": [
-    "SVR Topialyse Gel Lavant deterge delicatamente e protegge la pelle dai fattori che provocano secchezza cutanea. La sua formula lenitiva e idratante 24h riduce il prurito e ammorbidisce la pelle.",
-    "SVR Topialyse Gel Lavant deterge delicatamente e protegge la pelle dai fattori che provocano secchezza cutanea. La sua formula lenitiva e idratante 24h riduce il prurito e ammorbidisce la pelle.",
-    "Base detergente delicata e non secca. Arricchito con omega 3, 6 e 9 che leniscono la pelle. Senza sapone. pH fisiologico.",
-    "Applicare su pelle bagnata creando una morbida schiuma: Risciacquare e asciugare delicatamente senza strofinare. Adatto per il cuoio capelluto del neonato. Per viso e corpo. Non brucia gli occhi. Testato sotto controllo dermatologico, oftalmologico e pediatrico. Ipoallergenico. Senza sapone."
-   ],
-   "description": ""
-  },
-  {
-   "asin": "B0DGGYPV7H",
-   "brand": "BioNike",
-   "title": "BioNike Triderm A.D. - Olio Doccia Emolliente e Lenitivo, Detergente Micellare Corpo con Pantenolo, Sorbitolo e Vitamina E, Attenua Secchezza, Prurito e Rossori, per Pelle a Tendenza Atopica, 500 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/313y5OcJXPL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/313y5OcJXPL.jpg",
-    "https://m.media-amazon.com/images/I/313y5OcJXPL._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/51Tq3DEsxoL.jpg",
-    "https://m.media-amazon.com/images/I/41qv+L67yxL.jpg",
-    "https://m.media-amazon.com/images/I/41qv+L67yxL._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/71JfYMesQwL.jpg",
-    "https://m.media-amazon.com/images/I/31QmaH0JCGL.jpg",
-    "https://m.media-amazon.com/images/I/31QmaH0JCGL._SL75_.jpg"
-   ],
-   "themes": [
-    "nawilzenie",
-    "skora_atopowa",
-    "kojacy",
-    "swiad",
-    "bariera",
-    "dla_dzieci",
-    "naturalny",
-    "cena_pojemnosc"
-   ],
-   "price": 25.9,
-   "rating": 4.6,
-   "reviews": 52,
-   "bsr": 1903,
-   "rev30d": 9308,
-   "bullets": [
-    "OLIO DETERGENTE PER PELLE SECCA: questo oleo-detergente micellare corpo, a basso potere schiumogeno, è indicato per la detersione quotidiana di neonati, bambini e adulti con pelle a tendenza atopica",
-    "EMOLLIENTE E LENITIVO: formula con Sorbitolo, umettante e protettivo ad azione condizionante, con elevato potere rilipidizzante, per attenuare secchezza, prurito e rossori, donando sollievo",
-    "IDRATANTE E RIPARATIVO: contiene acidi grassi omega 3, 6, 9 che aiutano a ripristinare l’integrità della barriera cutanea, mentre il Pantenolo e la Vitamina E hanno azione idratante e riparativa",
-    "MODO D'USO: applicare direttamente oppure diluire con acqua nel palmo della mano e distribuire sul corpo, quindi sciacquare",
-    "BIONIKE TRIDERM A.D.: scopri la linea dedicata alle formulazioni essenziali per detergere e prendersi cura della pelle a tendenza atopica di neonati, bambini e adulti"
    ],
    "description": ""
   }
@@ -450,6 +443,42 @@
    }
   ],
   "rows": [
+   {
+    "brand": "Rilastil",
+    "asin": "B0CBKDC7JY",
+    "cells": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "Rilastil",
+    "asin": "B0DVM1G1B3",
+    "cells": [
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
    {
     "brand": "La Roche-Posay",
     "asin": "B0DJPB34JN",
@@ -577,24 +606,6 @@
     ]
    },
    {
-    "brand": "Dermovitamina",
-    "asin": "B0DJ9TD4YP",
-    "cells": [
-     false,
-     false,
-     true,
-     false,
-     true,
-     false,
-     true,
-     false,
-     true,
-     true,
-     false,
-     false
-    ]
-   },
-   {
     "brand": "CeraVe",
     "asin": "B0CRSJ46YD",
     "cells": [
@@ -604,6 +615,24 @@
      false,
      true,
      true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "SVR",
+    "asin": "B09D8SW19S",
+    "cells": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
      false,
      true,
      false,
@@ -629,70 +658,24 @@
      false,
      true
     ]
-   },
-   {
-    "brand": "SVR",
-    "asin": "B09FYL3CMY",
-    "cells": [
-     true,
-     false,
-     true,
-     true,
-     false,
-     false,
-     true,
-     true,
-     true,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "BioNike",
-    "asin": "B0DGGYPV7H",
-    "cells": [
-     true,
-     true,
-     true,
-     true,
-     true,
-     false,
-     true,
-     false,
-     false,
-     true,
-     false,
-     true
-    ]
    }
   ]
  },
  "claimsSummary": [
   {
    "label": "Ekonomiczny / duża pojemność",
-   "count": 9,
-   "pct": 75,
+   "count": 10,
+   "pct": 83,
    "topBrands": [
+    "Rilastil",
     "La Roche-Posay",
-    "Aveeno",
-    "Eucerin"
-   ]
-  },
-  {
-   "label": "Kojący / łagodzący",
-   "count": 8,
-   "pct": 67,
-   "topBrands": [
-    "La Roche-Posay",
-    "Bioderma",
-    "Eucerin"
+    "Aveeno"
    ]
   },
   {
    "label": "Naturalny / wegański",
-   "count": 7,
-   "pct": 58,
+   "count": 6,
+   "pct": 50,
    "topBrands": [
     "Bioderma",
     "Aveeno",
@@ -701,32 +684,42 @@
   },
   {
    "label": "Nawilżenie",
-   "count": 6,
-   "pct": 50,
+   "count": 5,
+   "pct": 42,
+   "topBrands": [
+    "Rilastil",
+    "La Roche-Posay",
+    "Bioderma"
+   ]
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "count": 5,
+   "pct": 42,
    "topBrands": [
     "La Roche-Posay",
+    "Bioderma",
+    "Eucerin"
+   ]
+  },
+  {
+   "label": "Odbudowa bariery",
+   "count": 5,
+   "pct": 42,
+   "topBrands": [
+    "Rilastil",
     "Bioderma",
     "Aveeno"
    ]
   },
   {
-   "label": "Odbudowa bariery",
-   "count": 6,
-   "pct": 50,
+   "label": "Skóra atopowa / egzema",
+   "count": 4,
+   "pct": 33,
    "topBrands": [
-    "Bioderma",
-    "Aveeno",
-    "Eucerin"
-   ]
-  },
-  {
-   "label": "Dla dzieci / niemowląt",
-   "count": 5,
-   "pct": 42,
-   "topBrands": [
+    "Rilastil",
     "La Roche-Posay",
-    "Eucerin",
-    "Dermovitamina"
+    "Eucerin"
    ]
   },
   {
@@ -734,29 +727,19 @@
    "count": 4,
    "pct": 33,
    "topBrands": [
+    "Rilastil",
     "La Roche-Posay",
-    "Eucerin",
-    "SVR"
+    "Eucerin"
    ]
   },
   {
-   "label": "Dermatologicznie testowany",
-   "count": 4,
-   "pct": 33,
-   "topBrands": [
-    "Eucerin",
-    "Dermovitamina",
-    "Sebamed"
-   ]
-  },
-  {
-   "label": "Skóra atopowa / egzema",
+   "label": "Dla dzieci / niemowląt",
    "count": 3,
    "pct": 25,
    "topBrands": [
+    "Rilastil",
     "La Roche-Posay",
-    "Eucerin",
-    "BioNike"
+    "Eucerin"
    ]
   },
   {
@@ -776,6 +759,15 @@
    "topBrands": [
     "Eucerin",
     "CeraVe"
+   ]
+  },
+  {
+   "label": "Dermatologicznie testowany",
+   "count": 2,
+   "pct": 17,
+   "topBrands": [
+    "Eucerin",
+    "Sebamed"
    ]
   },
   {
@@ -799,11 +791,11 @@
   {
    "vocTopic": "Wysusza skórę / ściąga",
    "customerConcernPct": "22.0%",
-   "addressedByCount": 6,
+   "addressedByCount": 5,
    "addressedByBrands": [
+    "Rilastil",
     "La Roche-Posay",
-    "Bioderma",
-    "Aveeno"
+    "Bioderma"
    ],
    "gapSeverity": "LOW",
    "whitespace": "false"
@@ -830,7 +822,7 @@
   {
    "vocTopic": "Podrażnienie / reakcja alergiczna",
    "customerConcernPct": "18.0%",
-   "addressedByCount": 8,
+   "addressedByCount": 5,
    "addressedByBrands": [
     "La Roche-Posay",
     "Bioderma",
@@ -850,9 +842,9 @@
  ],
  "whitespaceOpportunities": [
   {
-   "opportunity": "Skóra atopowa / egzema",
+   "opportunity": "Dla dzieci / niemowląt",
    "rationale": "Tylko 3/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
-   "evidence": "Obecne marki: La Roche-Posay, Eucerin, BioNike"
+   "evidence": "Obecne marki: Rilastil, La Roche-Posay, Eucerin"
   },
   {
    "opportunity": "Hipoalergiczny",
@@ -865,6 +857,11 @@
    "evidence": "Obecne marki: Eucerin, CeraVe"
   },
   {
+   "opportunity": "Dermatologicznie testowany",
+   "rationale": "Tylko 2/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: Eucerin, Sebamed"
+  },
+  {
    "opportunity": "Odżywczy / regenerujący",
    "rationale": "Tylko 1/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
    "evidence": "Obecne marki: Bioderma"
@@ -873,12 +870,7 @@
  "saturation": [
   {
    "label": "Ekonomiczny / duża pojemność",
-   "saturationPct": "75%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
-  },
-  {
-   "label": "Kojący / łagodzący",
-   "saturationPct": "67%",
+   "saturationPct": "83%",
    "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
   }
  ],
@@ -894,14 +886,14 @@
    "type": "Białe plamy",
    "badgeBg": "#fef3c7",
    "badgeColor": "#92400e",
-   "finding": "Nisko wysycone tematy: Skóra atopowa / egzema, Hipoalergiczny, Bez zapachu / perfum, Odżywczy / regenerujący.",
+   "finding": "Nisko wysycone tematy: Dla dzieci / niemowląt, Hipoalergiczny, Bez zapachu / perfum, Dermatologicznie testowany.",
    "implication": "Jeśli produkt spełnia te cechy — wyeksponuj je, bo konkurencja tego nie robi."
   },
   {
    "type": "Parytet",
    "badgeBg": "#dcfce7",
    "badgeColor": "#166534",
-   "finding": "Nasycone deklaracje: Ekonomiczny / duża pojemność, Kojący / łagodzący.",
+   "finding": "Nasycone deklaracje: Ekonomiczny / duża pojemność.",
    "implication": "Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca."
   }
  ]
