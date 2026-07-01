@@ -50,9 +50,16 @@
       "file": "index.html"
     },
     {
-      "id": "dermo-products",
+      "id": "atopic-skin-topline",
       "title": "Atopic Skin (DE, FR, IT, ES)",
       "group": "topline",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
+      "id": "atopic-skin-detailed",
+      "title": "Atopic Skin — Detailed (DE, FR, IT, ES)",
+      "group": "detailed",
       "template": "standalone",
       "file": "index.html"
     },
