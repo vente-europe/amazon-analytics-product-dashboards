@@ -1,0 +1,1600 @@
+{
+ "totalReviews": 612791,
+ "avgRating": 4.55,
+ "productCount": 77,
+ "cpSummary": "Kupujący to głównie kobiety z cerą wrażliwą, mieszaną lub skłonną do trądziku, szukające delikatnego oczyszczania i naturalnej pielęgnacji (żele La Roche-Posay/CeraVe, płyny micelarne Bioderma, oleje: z drzewa herbacianego, rycynowy, jojoba, dzikiej róży, migdałowy, witamina E). Duża część ma skórę suchą, podrażnioną lub reaktywną, która łatwo reaguje pieczeniem i zaczerwienieniem.",
+ "cpWho": {
+  "labels": [
+   "Skóra wrażliwa / reaktywna",
+   "Cera mieszana / tłusta ze skłonnością do trądziku",
+   "Skóra sucha / atopowa",
+   "Miłośnicy naturalnych olejów",
+   "Całe rodziny (nastolatki + dorośli)"
+  ],
+  "pos": [
+   26,
+   20,
+   12,
+   14,
+   6
+  ],
+  "neg": [
+   22,
+   12,
+   5,
+   3,
+   0
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Codzienna rutyna rano i wieczorem",
+   "Kuracja trądziku / niedoskonałości",
+   "Demakijaż wieczorny",
+   "Pielęgnacja nocna (olej na noc)",
+   "Sezonowe / okresowe stosowanie"
+  ],
+  "pos": [
+   30,
+   12,
+   16,
+   10,
+   4
+  ],
+  "neg": [
+   24,
+   16,
+   8,
+   3,
+   2
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Twarz",
+   "Okolice oczu / powieki",
+   "Włosy i skóra głowy",
+   "Rzęsy, brwi, paznokcie",
+   "Ciało / skórki / dłonie"
+  ],
+  "pos": [
+   34,
+   6,
+   10,
+   8,
+   10
+  ],
+  "neg": [
+   30,
+   8,
+   4,
+   2,
+   1
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Delikatne oczyszczanie bez podrażnień",
+   "Redukcja wyprysków i niedoskonałości",
+   "Nawilżenie i miękkość skóry",
+   "Skuteczny demakijaż",
+   "Naturalny, czysty skład"
+  ],
+  "pos": [
+   24,
+   14,
+   20,
+   12,
+   14
+  ],
+  "neg": [
+   20,
+   22,
+   10,
+   8,
+   12
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Codzienne oczyszczanie twarzy",
+   "reason": "Żel/płyn stosowany rano i wieczorem jako podstawa rutyny pielęgnacyjnej",
+   "pct": "30.0%"
+  },
+  {
+   "label": "Walka z trądzikiem i niedoskonałościami",
+   "reason": "Zakup pod kątem kwasu salicylowego / drzewa herbacianego na wypryski",
+   "pct": "22.0%"
+  },
+  {
+   "label": "Demakijaż, w tym wodoodporny tusz",
+   "reason": "Płyn micelarny do usuwania makijażu wacikiem",
+   "pct": "17.0%"
+  },
+  {
+   "label": "Pielęgnacja skóry wrażliwej/atopowej",
+   "reason": "Poszukiwanie łagodnego produktu do reaktywnej, suchej skóry",
+   "pct": "14.0%"
+  },
+  {
+   "label": "Olej do włosów, rzęs, brwi i paznokci",
+   "reason": "Olej rycynowy / dzikiej róży na wzrost i wzmocnienie",
+   "pct": "10.0%"
+  },
+  {
+   "label": "Pielęgnacja ciała, skórek i masaż",
+   "reason": "Olej migdałowy/jojoba jako baza do ciała i masażu",
+   "pct": "7.0%"
+  }
+ ],
+ "csSummary": "Dominuje rozczarowanie: ponad połowa próbki to oceny 1-2 gwiazdki, w których produkty (zwłaszcza żele oczyszczające i płyny micelarne) zamiast pomóc wysuszają, podrażniają skórę lub wywołują wypryski. Silny wątek podejrzeń o podróbki, zmienioną formułę i mylący opis (oleje reklamowane jako '100% czyste', a rozcieńczone). Pozytywne opinie chwalą delikatność Bioderma, skuteczność La Roche-Posay Effaclar na trądzik oraz wszechstronność naturalnych olejów.",
+ "negativeTopics": [
+  {
+   "label": "Wysuszenie i uszkodzenie bariery skórnej",
+   "reason": "Żele oczyszczające pozostawiają skórę suchą, napiętą, łuszczącą się",
+   "pct": "26.0%",
+   "bullets": [
+    "Skóra po kilku dniach sucha, ściągnięta i łuszcząca się",
+    "Uszkodzona bariera ochronna mimo nakładania kremu",
+    "Okolice ust i nosa czerwone i popękane"
+   ],
+   "quotes": [
+    "Zamiast poprawy, moja skóra stawała się coraz bardziej sucha, napięta i podrażniona",
+    "żel do mycia twarzy całkowicie wysuszył mi skórę i zrobiły się na niej modzele",
+    "Żel oczyszczający bardzo podrażnia i wysusza skórę"
+   ]
+  },
+  {
+   "label": "Wypryski i pogorszenie trądziku",
+   "reason": "Produkt wywołuje nowe krosty zamiast oczyszczać",
+   "pct": "22.0%",
+   "bullets": [
+    "Nowe pryszcze i bolesne torbielowate guzki po kilku dniach",
+    "Reakcja mimo stosowania zgodnie z instrukcją",
+    "Efekt odwrotny do obiecywanego"
+   ],
+   "quotes": [
+    "Ogromne wypryski na całej twarzy!!!",
+    "U mnie spowodowały wypryski i trądzik",
+    "spowodował straszne wypryski trądzikowe z czerwonymi, głębokimi i bardzo bolesnymi wypryskami"
+   ]
+  },
+  {
+   "label": "Podrażnienie, pieczenie i reakcje oczu",
+   "reason": "Pieczenie, zaczerwienienie, spuchnięte i podrażnione powieki",
+   "pct": "18.0%",
+   "bullets": [
+    "Pieczenie i zaczerwienienie po nałożeniu",
+    "Spuchnięte, swędzące lub zaognione powieki i oczy",
+    "W skrajnych przypadkach wizyta na izbie przyjęć"
+   ],
+   "quotes": [
+    "Uczucie pieczenia! Moje prawe oko pogorszyło się i zaczęło piec",
+    "Zarówno ja, jak i mój partner mieliśmy bardzo swędzącą skórę",
+    "nagle dostałem stanu zapalnego oka. Było tak źle, że musiałam udać się na izbę przyjęć"
+   ]
+  },
+  {
+   "label": "Mylący opis olejów (rozcieńczone, nie 100%)",
+   "reason": "Oleje reklamowane jako czyste okazują się mieszankami",
+   "pct": "16.0%",
+   "bullets": [
+    "Olejek z drzewa herbacianego rozcieńczony olejem z pestek winogron",
+    "Brak deklaracji proporcji mieszania",
+    "Słaby zapach zdradza niską zawartość składnika aktywnego"
+   ],
+   "quotes": [
+    "To nie jest czysty olejek z drzewa herbacianego!!",
+    "Został mocno rozcieńczony olejem z pestek winogron",
+    "określenie 'w pełni naturalny' jest mylące, gdyż spodziewam się czystego olejku"
+   ]
+  },
+  {
+   "label": "Podejrzenie podróbki / zmiany formuły",
+   "reason": "Inny zapach, opakowanie i konsystencja niż produkt z apteki",
+   "pct": "14.0%",
+   "bullets": [
+    "Silny chemiczny zapach nietypowy dla marki",
+    "Brak niemieckiej etykiety, produkt zagraniczny",
+    "Przeformułowanie po zmianie opakowania"
+   ],
+   "quotes": [
+    "Nie może to być oryginalny produkt La Roche",
+    "Żel wyjątkowo mocno pachnie chemią",
+    "Przeformułowali ten doskonały produkt. Skład jest inny"
+   ]
+  },
+  {
+   "label": "Zjełczały / nieprzyjemny zapach oleju",
+   "reason": "Oleje pachną zjełczale, chemicznie lub stęchło",
+   "pct": "12.0%",
+   "bullets": [
+    "Zapach zjełczały lub jak stare drewno",
+    "Nieprzyjemny, chemiczny odór",
+    "Zapach utrzymuje się długo na skórze/brodzie"
+   ],
+   "quotes": [
+    "Uważam, że olej ma zjełczały zapach",
+    "pachnie jak czerstwe piwo lub chleb ze zbyt dużą ilością drożdży",
+    "Dla mnie pachnie jak zjełczałe drewno, co jest bardzo nieprzyjemne"
+   ]
+  },
+  {
+   "label": "Wadliwe opakowanie i kapiąca pipeta",
+   "reason": "Pipeta kapie, zakrętki pękają, olej wycieka",
+   "pct": "11.0%",
+   "bullets": [
+    "Pipeta nie trzyma oleju i kapie na ubrania",
+    "Zakrętki dużych butelek przychodzą uszkodzone",
+    "Zbyt wąska szyjka butelki, olej cieknie na zewnątrz"
+   ],
+   "quotes": [
+    "Pipeta jest gorszej jakości i nie spełnia dobrze swojego zadania. Nie zatrzymuje oleju",
+    "mój przyszedł uszkodzony pocztą. Zakrętka została rozbita na wiele ostrych kawałków",
+    "Olej wycieka na zewnątrz butelki"
+   ]
+  },
+  {
+   "label": "Słaby demakijaż wodoodpornego tuszu",
+   "reason": "Płyn micelarny nie usuwa wodoodpornego makijażu",
+   "pct": "8.0%",
+   "bullets": [
+    "Wodoodporny tusz zostaje na rzęsach",
+    "Trzeba wracać do tańszej alternatywy (Garnier)",
+    "Płatki tuszu wpadają do oka"
+   ],
+   "quotes": [
+    "Jestem bardzo zawiedziona, że nie usuwa wodoodpornego tuszu do rzęs",
+    "NIE zmywał tuszu do rzęs. garnier radzi sobie świetnie",
+    "większość pozostała na moich rzęsach!"
+   ]
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Delikatność dla skóry wrażliwej",
+   "reason": "Produkt nie podrażnia, nie piecze i jest tolerowany przez reaktywną skórę",
+   "pct": "24.0%",
+   "bullets": [
+    "Brak pieczenia, zaczerwienienia i uczucia ściągnięcia",
+    "Tolerowany nawet przez skórę alergiczną",
+    "Odpowiedni na okolice oczu i ust"
+   ],
+   "quotes": [
+    "Świetne dla alergików",
+    "Bardzo delikatny - idealny dla skóry wrażliwej",
+    "jest niezwykle delikatne. Mogę go używać wokół oczu i ust bez żadnego dyskomfortu"
+   ]
+  },
+  {
+   "label": "Skuteczne oczyszczanie bez wysuszania",
+   "reason": "Żel dokładnie usuwa sebum, pozostawiając skórę czystą i zrównoważoną",
+   "pct": "20.0%",
+   "bullets": [
+    "Usuwa nadmiar sebua bez tłustego filmu",
+    "Skóra czysta, świeża i gładka",
+    "Nie powoduje uczucia napięcia"
+   ],
+   "quotes": [
+    "Sprzątanie na co dzień jest dokładne. Nadmiar sebum i brudu są skutecznie usuwane",
+    "Dokładnie oczyszcza i jest delikatny dla skóry",
+    "skóra stała się wyraźnie czystsza, gładsza i bardziej zrównoważona"
+   ]
+  },
+  {
+   "label": "Realna redukcja trądziku i wyprysków",
+   "reason": "La Roche-Posay Effaclar wyraźnie ograniczył pryszcze i stany zapalne",
+   "pct": "16.0%",
+   "bullets": [
+    "Widoczne zmniejszenie wyprysków po tygodniach",
+    "Mniej zaognionych pryszczy i zaskórników",
+    "Poprawa cery na plecach i dekolcie"
+   ],
+   "quotes": [
+    "Moje pryszcze prawie całkowicie zniknęły, a moja skóra nabiera blasku",
+    "Wypryski są mniej widoczne, a stany zapalne są zmniejszone",
+    "moja skóra była znacznie czystsza niż zwykle. Moje pryszcze również się zmniejszyły"
+   ]
+  },
+  {
+   "label": "Nawilżenie i miękkość (naturalne oleje)",
+   "reason": "Oleje pozostawiają skórę miękką, odżywioną i nawilżoną",
+   "pct": "18.0%",
+   "bullets": [
+    "Skóra aksamitna i elastyczna po oleju",
+    "Szybko się wchłania, nie pozostawiając tłustej warstwy",
+    "Skuteczne na suchą, dojrzałą skórę"
+   ],
+   "quotes": [
+    "Mam wrażenie, że moja skóra jest aksamitna",
+    "moja skóra wydaje się gładsza, drobne zmarszczki wynikające z przesuszenia są znacznie zmniejszone",
+    "pozostawia moją skórę miękką, odżywioną i dobrze nawilżoną"
+   ]
+  },
+  {
+   "label": "Skuteczny demakijaż (poza wodoodpornym)",
+   "reason": "Płyn micelarny sprawnie zmywa makijaż bez pocierania",
+   "pct": "12.0%",
+   "bullets": [
+    "Usuwa cały makijaż, w tym korektor i szminkę",
+    "Nie wymaga mocnego pocierania",
+    "Skóra świeża i nawilżona po demakijażu"
+   ],
+   "quotes": [
+    "Skutecznie usuwa wszelkie ślady makijażu, nawet wodoodpornego tuszu do rzęs, bez konieczności mocnego pocierania",
+    "doskonale domył mój makijaż",
+    "korektor, szminkę, klej do rzęs i bazę pod makijaż świetnie je usuwają"
+   ]
+  },
+  {
+   "label": "Wszechstronność i naturalny skład",
+   "reason": "Oleje tłoczone na zimno bez dodatków, do wielu zastosowań",
+   "pct": "14.0%",
+   "bullets": [
+    "Jeden olej do skóry, włosów, rzęs, paznokci",
+    "100% czysty, tłoczony na zimno, organiczny",
+    "Bardzo wydajny - wystarczy kilka kropel"
+   ],
+   "quotes": [
+    "Wszechstronny produkt naturalny – top do pielęgnacji włosów i skóry!",
+    "100% czysty, tłoczony na zimno organiczny olej rycynowy bez dodatków",
+    "uniwersalny, dobrze tolerowany, naturalny olejek bez zbędnych dodatków"
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Bariera skórna",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Najczęstsza skarga to wysuszenie i uszkodzenie bariery skórnej po żelach oczyszczających, mimo że produkty są pozycjonowane jako delikatne dla skóry wrażliwej.",
+   "implication": "Kluczowe jest komunikowanie wsparcia bariery (ceramidy, brak SLS) i realistyczne wskazówki dot. częstotliwości stosowania, by ograniczyć efekt przesuszenia i zwroty."
+  },
+  {
+   "type": "Reakcje niepożądane",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Liczne opisy wyprysków, pieczenia i reakcji oczu (spuchnięte powieki, wizyty w szpitalu) u osób z reaktywną skórą.",
+   "implication": "Warto rekomendować test płatkowy i stopniowe wprowadzanie produktu; brak takiej edukacji generuje 1-gwiazdkowe recenzje i utratę zaufania do marki."
+  },
+  {
+   "type": "Zgodność opisu",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Oleje reklamowane jako '100% czyste' okazują się rozcieńczone (olej z pestek winogron/rycynowy), a proporcje mieszania są ukryte.",
+   "implication": "Mylący opis to główny motyw najgorszych recenzji olejów - transparentne deklarowanie składu i stężeń jest przewagą konkurencyjną."
+  },
+  {
+   "type": "Autentyczność",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Powtarzające się podejrzenia podróbek, zmiany formuły i produktów zagranicznych bez niemieckiej etykiety kupowanych na Amazon vs. w aptece.",
+   "implication": "Kontrola łańcucha dostaw i wyraźne oznaczenie zgodności z EU-KosmetikV (niemiecka etykieta) redukują skargi na 'oszustwo' i zwiększają konwersję."
+  },
+  {
+   "type": "Opakowanie",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Kapiąca, źle dopasowana pipeta i pękające zakrętki dużych butelek to częste źródło frustracji i marnowania produktu.",
+   "implication": "Poprawa dozownika (dopasowana pipeta, szczelna zakrętka, folia zabezpieczająca) to tani sposób na podniesienie oceny bez zmiany formuły."
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Delikatność",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Bioderma Sensibio/Créaline są wielokrotnie chwalone jako jedne z niewielu produktów tolerowanych przez skórę alergiczną i bardzo wrażliwą.",
+   "implication": "Pozycjonowanie 'sprawdzone przy skórze reaktywnej/alergicznej' rezonuje najsilniej - to główny driver lojalności i ponownych zakupów."
+  },
+  {
+   "type": "Skuteczność",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "La Roche-Posay Effaclar zbiera entuzjastyczne 5-gwiazdkowe recenzje za realną redukcję trądziku i stanów zapalnych już po kilku tygodniach.",
+   "implication": "Dowody skuteczności na trądzik (przed/po, konkretne ramy czasowe) warto eksponować - to najsilniejszy pozytywny motyw sprzedażowy."
+  },
+  {
+   "type": "Wszechstronność",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Naturalne oleje (rycynowy, migdałowy, jojoba, dzikiej róży) cenione za wiele zastosowań: skóra, włosy, rzęsy, paznokcie, masaż.",
+   "implication": "Komunikacja 'jeden produkt, wiele zastosowań' + wskazówki użycia zwiększają postrzeganą wartość i uzasadniają cenę."
+  },
+  {
+   "type": "Cena/jakość",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Duże butelki olejów migdałowych i żele o dużej wydajności postrzegane jako doskonały stosunek jakości do ceny (butelka starcza na miesiące).",
+   "implication": "Podkreślanie wydajności i kosztu na aplikację wzmacnia argument wartości wobec droższej konkurencji."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Delikatne oczyszczanie skóry wrażliwej",
+   "reason": "Poszukiwanie produktu, który nie podrażni reaktywnej skóry",
+   "pct": "28.0%"
+  },
+  {
+   "label": "Rozwiązanie problemu trądziku",
+   "reason": "Nadzieja na redukcję wyprysków dzięki składnikom aktywnym",
+   "pct": "22.0%"
+  },
+  {
+   "label": "Naturalny, czysty skład",
+   "reason": "Preferencja olejów organicznych, tłoczonych na zimno, bez dodatków",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Rekomendacje i szum internetowy",
+   "reason": "Zakup pod wpływem YouTube/TikTok i pozytywnych recenzji",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Skuteczny demakijaż",
+   "reason": "Potrzeba usuwania makijażu, w tym wodoodpornego",
+   "pct": "10.0%"
+  },
+  {
+   "label": "Dobra cena i duża pojemność",
+   "reason": "Poszukiwanie wydajnego produktu w rozsądnej cenie",
+   "pct": "6.0%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Nie wysuszy i nie uszkodzi bariery skórnej",
+   "reason": "Skóra ma być czysta, ale nawilżona i bez uczucia ściągnięcia",
+   "pct": "26.0%"
+  },
+  {
+   "label": "Brak podrażnień, pieczenia i wyprysków",
+   "reason": "Produkt dla skóry wrażliwej powinien być bezpieczny i łagodny",
+   "pct": "24.0%"
+  },
+  {
+   "label": "Zgodność produktu z opisem i zdjęciem",
+   "reason": "Oczekiwanie czystego oleju / oryginalnego produktu, nie mieszanki czy podróbki",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Widoczna poprawa (mniej trądziku, gładsza skóra)",
+   "reason": "Realny efekt w rozsądnym czasie stosowania",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Praktyczne, szczelne opakowanie z działającym dozownikiem",
+   "reason": "Pipeta/pompka nie ma kapać ani marnować produktu",
+   "pct": "10.0%"
+  },
+  {
+   "label": "Niemiecka etykieta i zgodność z przepisami UE",
+   "reason": "Instrukcja i ostrzeżenia po niemiecku zgodnie z EU-KosmetikV",
+   "pct": "6.0%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "drying_barrier",
+   "label": "Wysuszenie / bariera skórna"
+  },
+  {
+   "value": "breakouts",
+   "label": "Wypryski / trądzik"
+  },
+  {
+   "value": "irritation",
+   "label": "Podrażnienie / pieczenie"
+  },
+  {
+   "value": "misleading_oil",
+   "label": "Mylący opis olejów"
+  },
+  {
+   "value": "authenticity",
+   "label": "Podróbka / zmiana formuły"
+  },
+  {
+   "value": "smell",
+   "label": "Zjełczały zapach"
+  },
+  {
+   "value": "packaging",
+   "label": "Opakowanie / pipeta"
+  },
+  {
+   "value": "makeup_removal",
+   "label": "Demakijaż"
+  },
+  {
+   "value": "gentle_sensitive",
+   "label": "Delikatność / skóra wrażliwa"
+  },
+  {
+   "value": "natural_versatile",
+   "label": "Naturalny / wszechstronny"
+  }
+ ],
+ "tagStyles": {
+  "drying_barrier": "pill-orange",
+  "breakouts": "pill-red",
+  "irritation": "pill-red",
+  "misleading_oil": "pill-amber",
+  "authenticity": "pill-purple",
+  "smell": "pill-amber",
+  "packaging": "pill-blue",
+  "makeup_removal": "pill-blue",
+  "gentle_sensitive": "pill-blue",
+  "natural_versatile": "pill-purple"
+ },
+ "reviews": [
+  {
+   "r": 1,
+   "t": "Zero gwiazdek, oszustwo. 1. Uważam, że olej ma zjełczały zapach. Zjełczałe oleje wytwarzają zanieczyszczenia i wolne rodniki, które między innymi pozbawiają organizm lub skórę witaminy E. Dlatego przeterminowany produkt szkodzi skórze i działa dokładnie odwrotnie do tego, do czego ten produkt jest sprzedawany. Jeśli spojrzeć na trwałość zawartych w nim olejków (od 6 tygodni do 18 miesięcy), to również niemożliwe jest, aby produkt, jak podano na moim opakowaniu, przetrwał do października 2026 roku (ponieważ nie zawiera żadnych konserwantów).2. Nagłówek i opis produktu/informacje o produkcie wprowadzają w błąd. Sprawiają wrażenie, jakby były w 100% alfa-tokoferolem. Jednak na liście składników widnieje informacja: „100% roślinny olej z witaminą E”, a zawarte w nim oleje są wymienione w nawiasach. Prawdopodobnie wszystkie zawierają pewną ilość alfa-tokoferolu, ale nigdzie nie wiadomo, ile jest ono zawarte w poszczególnych olejkach lub ostatecznie w całym produkcie.3. Artykuł jest reklamowany w nagłówku jako „Organiczny”. Jednakże ani na produkcie, ani na opakowaniu nie ma informacji, że jest on ekologiczny.4. Pipeta jest gorszej jakości i nie spełnia dobrze swojego zadania. Nie zatrzymuje oleju, więc po prostu kapie. Powoduje to tłuste plamy na ubraniach itp., a ostatecznie tracisz znaczną ilość z 60 ml, za które zapłaciłeś. Moje pytania do producenta: 1. Jakie jest stężenie alfa-tokoferolu w procentach iw IU/IU?2. Czy jest to kontrolowany produkt organiczny, spełniający odpowiednie wymagania, czy też „organiczny” oznacza po prostu, że składniki są naturalne (a nie sztucznie uzyskany alfa-tokoferol)?3. Jak powinien pachnieć produkt? Moim zdaniem olej, który otrzymałam ma zapach zjełczały. Niestety nie wiem jak normalnie pachną zawarte w nich olejki. Czy moje wrażenie jest mylące?",
+   "tags": [
+    "misleading_oil",
+    "smell",
+    "packaging",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niestety nie jest to dobre dla mojej skóry. Niestety ten produkt nie zapewnił mi pięknej skóry. Od jakiegoś czasu stosuję krem ​​Effaclar Duo+ i jestem z niego bardzo zadowolona.  Bardzo dobrze to toleruję, a stan mojej skóry wyraźnie się poprawił. Pomyślałam, że pójdę o krok dalej i teraz zastosuję także żel oczyszczający i tonik z serii Effaclar – wszyscy są nim zachwyceni. Niestety, to przyniosło odwrotny skutek. Po pewnym czasie żel do mycia twarzy całkowicie wysuszył mi skórę i zrobiły się na niej modzele (mimo, że nałożyłam dużo kremu i jak zwykle złuszczałam). Moja skóra stała się bardzo, bardzo zanieczyszczona (już dawno nie miałam tak złej skóry) i bardzo się łuszczyła. Robiłem to wszystko przez około 3 tygodnie, bo myślałem, że to może początkowe pogorszenie, ale niestety nie było poprawy. Dopiero wtedy przestałam brać tonik. Gdy moja skóra nadal była zła, dwa tygodnie temu zaprzestałam stosowania żelu i kontynuowałam aplikację kremu Duo+. Moja skóra powoli wraca do zdrowia i znów staje się piękna. Myślę, że każdy musi sam spróbować, co odpowiada jego skórze. Może na kogoś zadziała jedna rzecz, która dla skóry kogoś innego jest katastrofą. Z mojego punktu widzenia niestety minus dla żelu i dołączonego do niego Effaclar Tonic. Jednak z czystym sumieniem mogę polecić krem ​​Duo+ :).PS: Nie mam przesadnie wrażliwej skóry i myłam skórę żelem rano i wieczorem, czasem nawet w porze lunchu.  Tonik i krem ​​stosowano zawsze rano i wieczorem",
+   "tags": [
+    "drying_barrier",
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Sprawił, że moja skóra była gorsza, a nie lepsza. Kupiłam ten żel oczyszczający po przeczytaniu wszystkich pozytywnych recenzji i przekonaniu się, że jest przeznaczony specjalnie dla skóry skłonnej do wyprysków. Jako osoba, która od czasu do czasu zmaga się z wypryskami, miałam nadzieję, że pomoże to oczyścić moją skórę. Niestety moje doświadczenia są dokładnie odwrotne. Zacząłem go używać dokładnie zgodnie z zaleceniami i dałem mu kilka tygodni, ponieważ wiem, że produkty do pielęgnacji skóry mogą wymagać czasu, aby pokazać rezultaty. Zamiast poprawy, moja skóra stawała się coraz bardziej sucha, napięta i podrażniona. Za każdym razem, gdy myłem twarz, początkowo wydawała się skrzypiąca, ale po kilku minutach poczuła się pozbawiona uroku i niewygodna. Najbardziej frustrowało mnie to, że moje niedoskonałości nie uległy poprawie. W rzeczywistości zacząłem zauważać więcej plam pojawiających się w obszarach, które zwykle są dość jasne. Rozumiem, że niektóre produkty mogą powodować okres dostosowawczy, ale po tygodniach stosowania spodziewałam się przynajmniej jakiejś pozytywnej zmiany. Zamiast tego moja skóra wyglądała gorzej niż zanim zaczęłam go używać. Zaskoczyło mnie również, jak szorstkie było to uczucie, biorąc pod uwagę, że pochodzi od marki często polecanej dla wrażliwej skóry. Niacynamid i ceramidy brzmiały obiecująco, ale nie wydawały się zbytnio zrównoważyć dla mnie efektu wysuszenia. Za tę cenę spodziewałam się środka czyszczącego, który faktycznie pomoże w walce z niedoskonałościami, a jednocześnie będzie delikatny dla skóry. Zamiast tego zostałem z produktem, który wysusza moją twarz i nie daje oczekiwanych rezultatów. Chciałbym otrzymać pełny zwrot pieniędzy, ponieważ produkt nie zadziałał w moim przypadku zgodnie z reklamą i sprawił, że poczułem się bardzo rozczarowany zakupem",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "irritation",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "nie warte szumu. jeśli chcesz czegoś, co STRASZNIE wysuszy Twoją skórę i oczyści tylko minimalną powierzchnię skóry, to jest to dla Ciebie. Dawałem temu szansę przez prawie 2 tygodnie, rano i wieczorem. nie przeszkadzało mi to, mimo że po użyciu nałożyłem toner na wacik i zauważyłem, że wacik nie jest czysty, następnie po około 10 dniach nałożyłem na twarz w pracy trochę sebum, suchy proszek, aby pozbyć się błyszczenia, a proszek ujawnił, że moja twarz była faktycznie pokryta płatkami i suchą łuszczącą się skórą przez cały dzień! czego nie zauważyłem. (Użyłam pudru sebum wiele razy, nie było to z tego powodu, puder właśnie pokazał, jak bardzo sucha jest moja skóra.) Natychmiast przestałam go używać, bo pamiętam, że gdzieś było napisane, że może wysuszyć skórę. więc ok, skorzystałem z wątpliwości i zdecydowałem się używać go tylko po południu. nadal po oczyszczeniu tym i spłukaniu, kiedy nałożyłem później toner za pomocą wacika, bawełniany zaciek zniknął z żółtymi pozostałościami z powodu oleju i innych rzeczy pozostawionych na mojej twarzy. więc skończyłem z tym. przestałam go używać i zamiast tego kupiłam olejek oczyszczający bha marki han skin i wow... jakimś cudem nałożyłem olej na moją bardzo tłustą skórę i moja twarz nie ma żadnego oleju. nie rozumiem tego, lol, ale działa i zgadnijcie co? wyczyść biały wacik po przejściu tonera, gdy użyłem olejku oczyszczającego. więc ten środek NIE oczyszcza głęboko, po prostu wysycha i pozostawia olej głęboko w porach. może na innych sprawdzi się świetnie, ale jeśli ktoś ma uparcie tłustą cerę z rozszerzonymi porami, to tego nie robi",
+   "tags": [
+    "drying_barrier",
+    "makeup_removal",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Opakowanie i szklana butelka bez niemieckiego opisu. Od kiedy artykuł kosmetyczny może być sprzedawany w Niemczech wyłącznie z angielską etykietą? Właściwie opakowanie i szklana butelka powinny zawierać przynajmniej niemiecki opis zawartości, a także instrukcję użycia w języku niemieckim. Nawet ostrzeżenie, że przedmiot należy chronić przed dziećmi, jest w języku angielskim. Umiem mówić po angielsku, ale moja ciocia, której chciałam dać olejek, nie. Dlatego uważam, że sprzedaż tego przedmiotu w ten sposób na Amazon jest wyjątkowo niedbała. Zbadałem dokładniej: Zgodnie z art. 19 (1) f EUKosmetikV, przeznaczenie należy podać w języku niemieckim. -> NIE dotyczy to otrzymanego przedmiotu! Zgodnie z art. Jeżeli minimalna trwałość wynosi <30 miesięcy, termin przydatności do spożycia musi być podany w języku niemieckim lub przynajmniej za pomocą znanych ikon (otwarta puszka lub minutnik). Niestety brakuje obu.  Data ważności jest podana na opakowaniu, ale jeśli nie mówisz po angielsku, nie zrozumiesz tego! Sztuka. 19 (1) d rozporządzenia UE w sprawie kosmetyków, środki ostrożności dotyczące stosowania muszą być dostępne w języku niemieckim. Tutaj na przykład ostrzeżenie, że przedmiot nie może wpaść w ręce dzieci, jest tylko w języku angielskim. Jestem zatem pewien, że przedmiot nie może być sprzedawany w tej formie w UE!",
+   "tags": [
+    "authenticity",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "CeraVe Blemish Control Cleanser: nie jest to cud, na który liczyłem. Naprawdę chciałam pokochać ten CeraVe Blemish Control Cleanser, ale szczerze mówiąc, po prostu mi nie wyszło. Po pierwsze, miał pomóc w przypadku skóry skłonnej do wyprysków, ale zamiast oczyścić, bardzo ją przetłuścił. Po jego użyciu miałam wrażenie, że moja twarz jest pokryta warstwą olejku, a to ostatnia rzecz, jakiej potrzebuję, gdy próbuję uporać się z wypryskami. Płyn też nie pienił się tak mocno, jak się spodziewałam, przez co miałam wrażenie, że nie zostałam odpowiednio oczyszczona. Używałam innych środków czyszczących na bazie kwasu salicylowego, które ładnie się pieniły i pozostawiały uczucie świeżości na skórze, ale ten tego nie zrobił. Największym problemem dla mnie było jednak to, jak uszkodził barierę ochronną mojej skóry. Po kilku tygodniach stosowania zauważyłam, że moja skóra jest podrażniona, zaczerwieniona i po prostu... nieświeża. Więc przestałem go używać i szczerze mówiąc, moja skóra wygląda znacznie lepiej, odkąd go porzuciłem. To było tak, jakby produkt po prostu nie był kompatybilny z moją skórą i całe doświadczenie było trochę frustrujące. Aha, a wieczko było uszkodzone, kiedy go dostałem, co tylko pogorszyło ogólne rozczarowujące doświadczenie. Krótko mówiąc, chociaż ten środek czyszczący mógł działać dla niektórych, dla mnie zdecydowanie nie był odpowiedni. Cieszę się, że przestałam go używać, bo stan mojej skóry poprawił się od czasu przejścia na inny. Nie jestem fanem i nie będę kupować ponownie",
+   "tags": [
+    "breakouts",
+    "irritation"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "OSTROŻNY! Powoduje poważne wypryski trądzikowe pomimo przestrzegania instrukcji. Piszę tę recenzję, aby ostrzec przed niebezpieczeństwem związanym z tym produktem. Sama butelka w instrukcji wskazuje, że należy ją stosować dwa razy dziennie, jednak w moim przypadku używanie jej tylko raz dziennie przez tydzień całkowicie zniszczyło mi twarz. Zamiast oczyścić, aby zapobiec trądzikowi, spowodował straszne wypryski trądzikowe z czerwonymi, głębokimi i bardzo bolesnymi wypryskami, jakich nie miałem od lat. To oburzające, że produkt obiecuje poprawę stanu skóry, podczas gdy w rzeczywistości działa odwrotnie: wywołuje silny trądzik i długo gojące się stany zapalne. Najpoważniejsze jest to, że:1. Postępuj zgodnie z instrukcjami, a spowoduje to uszkodzenie: Nawet użycie go rzadziej, niż wskazuje producent (raz zamiast dwóch), szkody będą ogromne.2. Ignoruj ​​nawilżenie: Chociaż zaraz po zabiegu nawilżyłam skórę, aby uniknąć wysuszenia, żel jest tak agresywny, że i tak niszczy barierę skórną.3. Niebezpieczny efekt odbicia: powoduje zjadliwą reakcję zapalną, która jest bardzo trudna do opanowania, gdy się pojawi. Uważam, że jest to produkt niebezpieczny. To, co miało być codzienną pielęgnacją, stało się poważnym problemem dermatologicznym. Jeśli masz nawet minimalnie wrażliwą skórę lub nie chcesz ryzykować niekontrolowanego wyprysku, nie kupuj go.",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "irritation",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Jestem bardzo zawiedziona, że nie usuwa wodoodpornego tuszu do rzęs :( !!. Byłam niesamowicie podekscytowana, kiedy otrzymałam tę wiadomość pocztą, ponieważ cieszy się dużym zainteresowaniem na Youtube. Regularnie używałam wodoodpornej wersji płynu micelarnego Garnier i działa dobrze, ale jako produkt Junkie zawsze poszukuję lepszych i szybszych produktów do usuwania makijażu. Powiedziawszy to, nasączyłam wacik i nałożyłam go na rzęsy wodoodpornego tuszu do rzęs na koniec dnia. Trzymałam go przez około po minucie i ku mojemu całkowitemu zaskoczeniu na bawełnianą okrągłą warstwę nie nałożył się prawie żaden tusz, więc nałożyłam trochę tuszu i usunęłam jego część, ale większość pozostała na moich rzęsach! Gdybym używała innego płynu micelarnego, do tego czasu całkowicie bym go usunęła. Od lat miałam na oku ten płyn micelarny, ale zawsze był tak drogi, że kiedy w końcu znalazłam go w rozsądnej cenie na Amazonie, kupiłam go, jeśli kupujesz go jako wodoodporny do usuwania tuszu do rzęs, szukaj dalej, bo w tym przypadku to nie działa, ładnie usunął cienie do powiek, ale podobnie jak mój drugi płyn micelarny o połowę tańszy, którego będę nadal używać zamiast tego.",
+   "tags": [
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nieprzyjemny zapach. Zamówiłem produkt ze względu na dobre opinie klientów. Już po pierwszym teście stwierdziłam, że po pierwsze pipeta sama za bardzo kapie, a po drugie, że produkt pachnie lekko, ale bardzo nieprzyjemnie. Termin ważności nie został przekroczony, pozostały jeszcze ponad dwa lata rezerwy czasu. Może to kwestia gustu, w każdym razie ostatni olejek jojoba u konkurencji nie pachniał dziwnie. Ponieważ nie chcę tego zapachu na ciele, chciałem złożyć reklamację - ale szok - pojawia się komunikat „Tego przedmiotu nie można zwrócić”. Nigdy czegoś takiego nie doświadczyłem i nie chcę tego przeżywać ponownie. Ostatecznie produkt wylądował w koszu, a ja wydałem 9,93 € na darmo. Przy okazji próbowałem też skontaktować się ze sprzedawcą, co też mi się nie udało. Najpierw trafiasz do „Asystenta ds. wiadomości sprzedawcy”. Po naciśnięciu „OK, połącz mnie” – w jakiś sposób wylatujesz i lądujesz na stronach pomocy Amazon",
+   "tags": [
+    "smell",
+    "packaging",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie autentyczny produkt. Miałem już wątpliwości co do tego produktu, nie zrozumcie mnie źle, jest fantastyczny, jednak Amazon często budzi moje wątpliwości, czy produkt jest autentyczny. Za pierwszym razem wszystko było w porządku, ale zdarzyło się kilka sytuacji, w których produkt wydawał się być przeceniony lub miał inną konsystencję niż ta, do której jestem przyzwyczajony. Jeden przyszedł całkowicie płynny (prawie wodny) i jego konsystencja powinna być gęstsza. Aby rozwiać moje wątpliwości zaczęłam go kupować w aptekach San Pablo i faktycznie konsystencja powinna być gęstsza. Od kilku miesięcy kupuję go tylko w San Pablo i Wam polecam to samo. Nie tylko mi się to przytrafiło w przypadku tego produktu, ale zauważyłem, że podobnie dzieje się z innymi dermatologami, przychodzą otwarte lub z uszkodzonymi plombami zabezpieczającymi. Nie wiem, czy obniżają ceny, czy ludzie z nich korzystają i dodają coś jeszcze. Wiem, że u nas są tańsze niż w aptece, ale nie ryzykuj, to Twoja skóra. Radzę poczekać na promocje w aptekach, są one prawie takie same jak na Amazonie.",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Ogromne wypryski na całej twarzy!!!. Zwykle nie zostawiam recenzji, ale poczułem, że muszę to zrobić, aby ostrzec innych i potencjalnie uchronić ich przed naprawdę poważnymi wypryskami. Właśnie doszłam do momentu, w którym prawie całkowicie oczyściłam skórę. Kupiłam to, ponieważ mam cerę mieszaną. Słyszałam o nim wiele dobrych rzeczy, więc zdecydowałam się spróbować i miałam nadzieję, że pomoże to w usunięciu ostatniej części trądziku, którą miałam nadzieję wyleczyć. Niestety bardzo mnie to złamało. Trądzik pojawiał się w okolicach podbródka, ale po 5 dniach stosowania tego kremu, każdego dnia plamy stawały się coraz bardziej widoczne. Występują na całej twarzy. Naprawdę rozczarowujące, nauczyłam się nie czuć źle z powodu trądziku, ale dla większości ludzi byłoby to absolutnie druzgocące przeżycie. Bądź ostrożny!!! Zanim zdecydujesz się spróbować, przeprowadź badania. Wywołało to u mnie małe czerwone krosty na całej twarzy w miejscach, w których wcześniej ich nie miałem, i kilka cyst",
+   "tags": [
+    "breakouts"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie polecam tego. Jestem prawie pewien, że ten produkt jest podróbką. Użyłem zielonego mydła na trądzik, dali mi próbę i byłem zafascynowany. Zdecydowałem się kupić ten, ponieważ nie cierpię na silny trądzik, więc polecono mi ten. Kupiłem ten produkt po raz pierwszy, więc nie mogę go porównać z żadnym oryginałem, chyba że w ramach testu, ale miał on inny cel. Kiedy go otrzymałem, opakowanie wydawało mi się trochę kiepskiej jakości, ale nie chciałem źle myśleć. Zapach tego mydła jest bardzo mocny i przypomina trochę kreolinę, poza tym, że na mojej skórze jest bardzo mocny, piecze (znośnie), ale po pewnym czasie używania piecze mnie i „łuszczy się”. Nie mam tak wrażliwej skóry i jeśli dałam jej szansę przez około dwa miesiące, gdy po raz drugi zauważyłam, że to mydło szkodzi mojej skórze, przestałam go używać. Ale zapach jest bardzo mocny i nieprzyjemny, szczerze nie polecam.",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "irritation",
+    "authenticity"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie wygląda to na czysty olejek z drzewa herbacianego. Skusiła mnie także cena, gdyż 60ml oferowane jest tutaj w cenie, za jaką normalnie dostaje się połowę ceny olejku. Kiedy otworzyłam butelkę, od razu zauważyłam, że olejek prawie nie pachnie i na pewno nie ma tak mocnego, intensywnego zapachu, jaki normalnie można uzyskać z olejku z drzewa herbacianego. Nawet po nałożeniu na skórę brakuje znanego efektu pieczenia. Nie zakładam, że olejek ten ma takie same właściwości dezynfekujące jak olejek z drzewa herbacianego. Dla mnie był to zdecydowanie zły zakup, czuję się oszukany i wprowadzony w błąd przez sprzedawcę, ponieważ wszędzie jest tu mowa o 100% olejku z drzewa herbacianego lub wyraźnie sugeruje to prezentacja. Jeśli kupujesz tanio, kupujesz dwa razy, i w tym przypadku jest to prawdą. Teraz ponownie zamówię „prawdziwy” olejek z drzewa herbacianego",
+   "tags": [
+    "irritation",
+    "misleading_oil",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ta sama cena, mniej treści niż wcześniej. Szkoda! Kupiłem go po raz pierwszy w czerwcu. Byłem naprawdę szczęśliwy i bardzo mi to pomogło. Teraz moja butelka 100 ml się skończyła i chciałam zamówić ją ponownie. Więc po prostu kliknąłem ZAMÓW PONOWNIE w swoich zamówieniach. Butelka 60 ml przyszła po to samo! cena. I tak opakowanie było inne, ale ten sam producent. Następnie porównałem, niestety wszystko w artykule zostało dostosowane, więc nie mogę już prześledzić, kiedy artykuł, który kupiłem w czerwcu, powiedział. Więc na pewno nie jestem usatysfakcjonowany i czuję się oszukany. Ładnie pachnie olejkiem z drzewa herbacianego, ale cena to porażka, mogłam zamówić go gdzie indziej. Teraz testuję, czy to chociaż daje taki sam efekt i czy mam dalsze sukcesy... Następnym razem zamówię gdzie indziej",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "NIE POLECAM. Byłam bardzo podekscytowana wypróbowaniem tego produktu, ponieważ mydło, którego użyłam, nie pomogło zapanować nad wydzielaniem sebum na mojej twarzy. Z tego powodu zdecydowałam się na to mydło, marka jest bardzo dobra, nie jest to pierwszy raz, kiedy kupuję produkty tej marki, jednak zaczęłam go stosować przez tydzień, przez pierwsze 3 dni wydawało się, że wszystko jest w porządku, ponieważ pod koniec dnia na twarzy nie było widać ogromnej ilości sebum, ale zaczęło mnie drapać i ziemisty, na krawędziach nosa był bardzo suchy, czerwony i bardzo swędzący, w niektórych miejscach suchość była bardzo wyraźna i zaczęły pojawiać się czerwone plamy i wysuszona, musiałam przestać go używać, a tekstura skóry przestała być taka. Szkoda, bo nie jest to tani produkt, w moim przypadku produkt jest oryginalny, sprawdziłem etykietę i informacje, produkt dotarł w dobrym stanie, ale w moim przypadku się nie sprawdził",
+   "tags": [
+    "drying_barrier",
+    "irritation",
+    "authenticity"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ręce przy sobie!!. To nie jest czysty olejek z drzewa herbacianego!! Od lat stosuję świetny olejek z drzewa herbacianego innego producenta, ale niestety nie był on wówczas dostępny. Dlatego zamówiłem ten produkt i polegałem wyłącznie na ocenie w gwiazdkach, nie wnikając w to dalej. Niestety bardzo głupio ze mnie... najpierw zauważyłam nietypowy zapach tego olejku. Kiedy użyłam go po raz pierwszy, byłam bardzo zaskoczona konsystencją. Stosowałam go na twarz na wypryski i zauważyłam, że tłusty film utrzymuje się przez wiele godzin. Absolutnie nietypowe dla olejku z drzewa herbacianego, gdyż ma on wysuszać zanieczyszczenia. Potem zobaczyłam na opakowaniu, że olejek z drzewa herbacianego został zmieszany z innym olejkiem… co oczywiście wyjaśnia zapach i konsystencję. Trzymaj się z daleka, jeśli szukasz czystego olejku z drzewa herbacianego!!!",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie ma płyty UTS, dziwnie pachnie. Produkt, który kupiłem, ufając sprzedawcy bezpośrednio z Amazonu, pachnie jak czerstwe piwo lub chleb ze zbyt dużą ilością drożdży. Podczas moich badań zauważyłem, że wiele osób na całym świecie znalazło się w tej samej sytuacji. Obsługa klienta CeraVe w USA stwierdziła, że ​​nie powinno być tak intensywnego zapachu i poradziła osobom, które doświadczyły tego problemu, aby go zwróciły. Jednakże CeraVe Türkiye zasadniczo nie odczuwała potrzeby odpowiadania na skargi. Raz poprosiłem o zmianę; Produkt, który dotarł, miał ten sam zapach. Tym razem postaram się wykorzystać produkt bez kłopotów ze zwrotem. Być może nie będzie problemu z działaniem produktu, ale daję mu jedną gwiazdkę właśnie z powodów, które wyjaśniłem powyżej. Jeszcze jedna uwaga, produkt, który posiadam, nie jest zarejestrowany w ÜTS. Nie było żadnej informacji o zwróconym produkcie. Firma powinna była zarejestrować produkt, a Amazon powinien sprawdzić tę sytuację.",
+   "tags": [
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "zwodniczy. produkt jest bardzo mylący! Konsument jest tutaj celowo oszukiwany! Jest opatrzony słowami: „100% czysty olejek z drzewa herbacianego”. Dotyczy to jednak tylko niewielkiej ilości olejku z drzewa herbacianego, która faktycznie znajduje się w butelce! Został mocno rozcieńczony olejem z pestek winogron, co można przeczytać na odwrocie etykiety po zakupie. Nie jest nawet powiedziane, ile procent faktycznie zawiera olejek z drzewa herbacianego, dlatego zakładam niski udział max. 10%. Kolejną wadą jest pipeta, która po prostu mi kapie i źle trzyma olejek. Cóż, w każdym razie olejek jest bardzo tani i jeśli chcemy go stosować bezpośrednio na skórę, sensowne może być nawet naciągnięcie go, bo czysty olejek z drzewa herbacianego może być dla wielu osób zbyt „agresywny”. Nadal tylko 1* ze względu na celowe oszukanie kupującego! ;(",
+   "tags": [
+    "misleading_oil",
+    "packaging",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Uczucie pieczenia!. Do tego produktu do skóry wrażliwej podchodziłam bardzo optymistycznie.  Miał dobre recenzje na temat usuwania makijażu i olejków ze skóry, jednak miałem inne doświadczenia.  Kiedy nakładałem go na twarz i oczy, zacząłem odczuwać pieczenie na twarzy i oczach.  Moje prawe oko pogorszyło się i zaczęło piec.  Szybko przestałem i zacząłem przepłukiwać oko zwykłą wodą.  Moje oko było wówczas bardzo przekrwione, a powieka zaczęła puchnąć.  To nie było wspaniałe uczucie… Skończyło się na tym, że użyłem okładu z lodu, aby złagodzić palący/rozgrzewający ból na twarzy oraz w oku i wokół niego.  Miałam też wrażenie, że NIE usuwa makijażu tak łatwo, jak reklamują.  Od nałożenia minęło około 12 godzin, a moja twarz nadal jest bardzo czerwona, a oko nadal trochę przekrwione. Ten produkt może działać dla innych osób, ale na mnie NIE",
+   "tags": [
+    "irritation",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "U mnie spowodowały wypryski i trądzik 😭. Używam Cerave od października zeszłego roku i jestem zachwycona, świetnie działał na moją skórę! (kupiłam w aptece) Potem zamówiłam to, bo kończył mi się ten, którego używałam. Zaczęłam używać nowego słoiczka, który zamówiłam tutaj w lutym i teraz moja twarz jest w nieładzie, nie szybko zdałam sobie sprawę, że to był środek czyszczący, skojarzyłam wyprysk z moim PMS, który zwykle się pojawiał, wybicie trwało, dopóki nie zdecydowałam się zaprzestać stosowania środka czyszczącego, wtedy poczułam się lepiej. Użyłem go ponownie, aby potwierdzić i bum, znowu mam naprawdę poważne ataki 😭 nie jestem pewien, co się dzieje. Czy mój organizm nagle zaczął reagować na Cerave? Czy to ten, który zamówiłem? Nadal nie wiem. Sprawdziłam też, czy nie jest przeterminowany czy coś, ale nie mogę znaleźć nawet daty ważności na butelce. Niestety będę musiał go wyrzucić i przejść na inną markę",
+   "tags": [
+    "breakouts"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie może to być oryginalny produkt La Roche. Przekonał mnie opis: Z wodą termalną, cynkiem, PH neutralne, odpowiedni dla wrażliwej skóry... Pierwsze co mnie jednak uderzyło to zapach. Żel wyjątkowo mocno pachnie chemią - coś, co tak śmierdzi, nie może być delikatne dla skóry. Po każdym użyciu (dwa razy dziennie, rano + wieczorem) moja skóra stawała się coraz bardziej sucha, a okolice ust po tygodniu dosłownie łuszczyły się i zaczerwieniały. Mogłam nakładać krem ​​jak szalona i nie było lepszego efektu. Wręcz przeciwnie, raczej gorzej. Dopiero po zaprzestaniu stosowania żelu wszystko znów się zagoiło. Żel oczyszczający bardzo podrażnia i wysusza skórę, a to jakość, której nigdy nie można oczekiwać od La Roche. Jedynym wyjaśnieniem dobrych recenzji jest to, że klienci otrzymali prawdziwy produkt",
+   "tags": [
+    "drying_barrier",
+    "irritation",
+    "authenticity",
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Spowodował podrażnienie twarzy po latach bezpiecznego stosowania. Używam tego produktu od kilku lat i jak dotąd mam same pozytywne doświadczenia. 3 maja 2026 r. kupiłem za pośrednictwem Amazon moją 11. butelkę. Jednak ta butelka od razu miała bardzo silny chemiczny zapach, co było nietypowe w porównaniu z każdym poprzednim zakupem. Kontynuowałam jej używanie, zakładając, że formuła mogła się zmienić, ale w ciągu kilku tygodni moje powieki stały się spuchnięte i podrażnione, a moja skóra zaczęła kłuć i piec pomimo stosowania tej samej procedury pielęgnacji skóry, którą zawsze stosowałam. Teraz całkowicie przestałem używać tego produktu. Jestem bardzo rozczarowany, ponieważ produkt ten był wcześniej podstawą mojej pielęgnacji skóry. Na podstawie mojego doświadczenia obawiam się, że ta butelka mogła być wadliwa, zanieczyszczona, podrobiona lub niewłaściwie przechowywana",
+   "tags": [
+    "irritation",
+    "authenticity",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zarówno ja, jak i mój partner mieliśmy bardzo swędzącą skórę. Po przeczytaniu wielu dobrych recenzji na jego temat, miałam nadzieję, że ten produkt będzie świetnym środkiem czyszczącym. Wydaje się, że jest niedrogi, prosty i dobry dla wrażliwej skóry. Oglądałam też kilka filmów na YouTube, na których ludzie twierdzili, że to świetny środek oczyszczający, szczególnie dla każdej skóry. Ja i mój chłopak używaliśmy tego przez około 2 tygodnie, aż musiałam go zużyć, ponieważ u nas obojga bardzo swędziały powieki i powodowały nieprzyjemne uczucie skóry. Po nałożeniu na twarz, nawet po zmieszaniu go z odrobiną wody, wydawał mi się trochę ciężki i lepki. Po tych dwóch tygodniach stosowania tego produktu muszę przyznać, że bardzo chciałam podrapać powieki. Po przejściu na inny żel już po pierwszym użyciu od razu było coraz lepiej. Zdecydowanie nie polecam tego produktu",
+   "tags": [
+    "irritation",
+    "smell",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ręce przy sobie!!!. Jedna gwiazdka to wciąż za dużo. Używam go od lat i nigdy nie miałem żadnych problemów, ale najwyraźniej zmieniono sformułowanie. Po pierwszych dwóch użyciach nagle dostałem stanu zapalnego oka. Było tak źle, że musiałam udać się na izbę przyjęć do szpitala. Na początku nie skojarzyłam tego z produktem. Kilka dni później dotknięte zostało również drugie oko, a kilka dni później pierwsze oko, które właśnie się zagoiło, zostało dotknięte ponownie. Potem pomyślałem, co może być przyczyną, ponieważ nigdy wcześniej nie miałem czegoś takiego. Wtedy przypomniałam sobie, że zamówiłam i zużyłam nową butelkę. Natychmiast przestałem i wypróbowałem inny produkt. Nigdy później nie miałem już infekcji oczu. To pewnie wina tego płynu micelarnego. Nigdy więcej!!!",
+   "tags": [
+    "authenticity",
+    "packaging",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "ZŁE DOŚWIADCZENIE. Na początku myślałam, że jest bardzo dobry, podobał mi się jego zapach i to, jak oczyszczał moją skórę, ale problem pojawił się 4/5 dnia po jego użyciu, moja skóra zaczęła się całkowicie przesuszać, zwaliłam to na wiatr, ale potem zdałam sobie sprawę, że to nie z powodu wiatru, ale z powodu tego środka czyszczącego i natychmiast przestałam go używać, moja skóra nawet teraz, po półtora tygodnia nie zagoiła się, nie zagoiła się całkowicie, oczy były najbardziej dotknięte tą częścią, miałam nawet trudności z ich zamknięciem powieki, bo oczy miałam suche i napięte, na szczęście kremem (z apteki) udało mi się rozwiązać problem, ale od razu wyrzuciłam produkt...Przykro mi, bo byłam przekonana do tego produktu, ale musiałam zmienić zdanie",
+   "tags": [
+    "drying_barrier",
+    "authenticity",
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Reklama wprowadzająca w błąd – ma zapach. Ten produkt jest reklamowany jako bezzapachowy, ale butelka wyraźnie zawiera informację o zapachu (perfumie) w składnikach. Mam alergię na zapachy i zaufałam reklamom, więc użyłam go raz i skończyło się to bolesną wysypką i wypryskami, których nie miałam od lat. Skontaktowałam się w tej sprawie z La Roche-Posay i nigdy nie otrzymałam odpowiedzi. Po zapoznaniu się z tą sprawą dowiedziałem się, że reklamowanie produktu jako bezzapachowego, jeśli zawiera zapach, jest uważane za wprowadzające w błąd w świetle amerykańskich przepisów dotyczących etykietowania. Niedopuszczalne jest, aby marka, która twierdzi, że dba o wrażliwą skórę, ignorowała to. Zachowaj ostrożność, jeśli masz wrażliwość na zapachy. Nie jest to produkt wolny od substancji zapachowych i wydaje się, że firma nie ponosi odpowiedzialności za fałszywe oznakowanie lub reakcje klientów",
+   "tags": [
+    "breakouts",
+    "misleading_oil",
+    "authenticity",
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Uwaga – piecze i zaczerwienia skórę, brak możliwości zwrotu pieniędzy. Pozostawia moją skórę piekącą i zaczerwienioną, nawet po próbie spłukania! Myślałam, że to tylko moja wyjątkowa reakcja, ale po przeczytaniu zaledwie kilku najnowszych recenzji wydaje mi się, że inni mają ten sam problem. Jest to szczególnie zaskakujące, ponieważ jest przeznaczony do skóry wrażliwej – używałam wcześniej innego płynu micelarnego i nigdy się to nie zdarzyło. Nadal szczypie mnie w twarz, nawet gdy piszę, mimo że dokładnie spłukuję skórę filtrowaną wodą!!!! Podwójnie rozczarowujące jest to, że nie mogę zwrócić tej ogromnej butelki, którą kupiłem – myślę, że to jedyny zakupiony przeze mnie produkt Amazon, który nie kwalifikuje się do zwrotu pieniędzy. Dlaczego? Pominąłbym to i użyłbym innego płynu micelarnego, który możesz kupić w lokalnej aptece",
+   "tags": [
+    "irritation",
+    "packaging",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "NIE KUPUJ DAŁA MNIE straszną wyrwę. Dosłownie żałuję, że nie mogę dać tej zerowej gwiazdki. Używałem go przez kilka dni, a potem zacząłem zauważać wszystkie te czerwone guzki. Zakładałam, że pochodzą z innego produktu, więc po prostu zignorowałam fakt, że mogą pochodzić ze środka czyszczącego. Po około tygodniu te pryszcze przypominające guzy znacznie się pogorszyły. W końcu zorientowałam się, że pochodzą z płynu do mycia naczyń i wyrzuciłam praktycznie pełną butelkę. Te czerwone krostki nie znikały zawsze, więc poszłam do dermatologa i najwyraźniej ten środek czyszczący wraz z innym środkiem La Roche dał mi krystaliczną prosaki, które musiałam usunąć i teraz będę brać leki. NAJGORSZY ŚRODEK OCZYSZCZAJĄCY EVER Nie mogę nawet uwierzyć, że można go sprzedawać w sklepach po tym, co zrobił z moją skórą",
+   "tags": [
+    "breakouts",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Jest to olej mieszany. To nie jest to, co obiecuje! Szukałam większej ilości w 100% naturalnego olejku z drzewa herbacianego i trafiłam na Kanzy. Zapach wzbudził moje podejrzenia. To nie mój pierwszy zakup olejku z drzewa herbacianego. Naprawdę chciałem TYLKO czysty, czysty olejek z drzewa herbacianego. Z opisu produktu nie wynika jasno, że jest to olej mieszany!!! Z boku jest napisane małym drukiem „Olej z pestek winogron”. To wyjaśniałoby dziwny zapach, który niektórzy w recenzjach określają jako chemiczny. Może i byłby fajny dla lampy zapachowej, ale NIE jest to czysty olejek z drzewa herbacianego. Osobiście uważam, że to szkoda, bo założyłem, że przeczytałem wszystko na temat artykułu więcej niż raz. Właściwie nie jest to nigdzie odnotowane",
+   "tags": [
+    "misleading_oil",
+    "smell",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Sucha, łuszcząca się skóra – już po 2 dniach stosowania olejku rycynowego Kanzy. Na pewno nie kupię go ponownie i nikomu nie polecę. Reklamuje się, że włosy rosną lepiej, a skóra staje się piękniejsza, ponieważ poprawia się wilgotność skóry; To, czy włosy i rzęsy są w dobrej kondycji, okaże się dopiero po pewnym czasie, ale już po 2 dniach skóra jest tak sucha, że ​​najwyraźniej potrzebuję kontrterapii na olejek rycynowy - naprawdę jest sucha, miejscami łuszcząca się skóra - już po 2 dniach od stosowania olejku rycynowego Kanzy - to praktycznie przeciwieństwo tego, co obiecano. Pod żadnym pozorem nie powinieneś go kupować, jeśli chcesz zrobić coś dobrego dla swojej skóry",
+   "tags": [
+    "drying_barrier"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zabawna etykieta. Żelu oczyszczającego używam od lat i świetnie sprawdza się na mojej suchej, skłonnej do zanieczyszczeń cerze mieszanej. Teraz zamówiłem go w Amazonie, zamiast kupować w aptece, i stwierdziłem, że wygląda inaczej. Na etykiecie nie ma nic po niemiecku jak moja pusta butelka i, o dziwo, lista składników była dłuższa niż butelka z apteki. Niestety o samym żelu nic nie mogę powiedzieć, bo go odesłałam i nie zużyłam, więc pewnie jeszcze go użyję, kupię go ponownie w aptece, więc wiem co w nim jest. Za 17 euro nie oczekujesz butelki z zagranicy. Ale poza tym wysyłka przebiegła świetnie, jak zawsze w przypadku Amazon",
+   "tags": [
+    "authenticity",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Absolutnie nieodpowiedni dla mojej skóry! Nie nazwałabym swojej skóry szczególnie wrażliwą, ale może rzeczywiście tak jest. W każdym razie żel mocno szczypał przy nakładaniu, co nie stanowiłoby większego problemu, gdyby nie wysechł całkowicie i nie zaatakował niektórych partii twarzy. Po użyciu 3 do 4 razy miałem ciągłe czerwone plamy na twarzy, które były bardzo wrażliwe. Kontakt z kremami lub substancjami gruboziarnistymi powodował ponowne silne oparzenia. Nawet przy kremie zawierającym kortyzon. Poprawa nastąpiła dopiero po nałożeniu na niego kremu do tatuażu (Hustle Butter). To wcale nie paliło i przywracało wilgoć. Zaczerwienienie również zniknęło znacznie szybciej",
+   "tags": [
+    "irritation",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niestety nie jest to dobry olejek rycynowy. Może po prostu zła partia? Szybka dostawa przez Amazon jak zawsze. Kupiłam ten olejek rycynowy zachęcona wieloma pozytywnymi opiniami. Ten olej rycynowy jest znacznie gęstszy, lepki i ma zjełczały zapach niż jakikolwiek inny, którego używałem. Pipeta nie pomogła w usunięciu oleju. Ponieważ szyjka butelki jest bardzo wąska, nadmiar oleju wyciekał wokół nakrętki na zewnętrzną butelkę.  Po kilku myciach rąk nadal mam uczucie lepkości. Nie wyobrażam sobie, żeby ten produkt nadawał się do stosowania na włosy, skórę głowy i rzęsy. Z pewnością bardzo trudno go zmyć. Produkt wrócił do Amazon",
+   "tags": [
+    "misleading_oil",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "fałszerstwo; >20€ stracone. Oprócz innego opakowania, problem polegał na tym, że konsystencja, zapach i efekt końcowy po czyszczeniu tym produktem czasami bardzo przypominały mydło i nie było prawdziwego uczucia oczyszczenia :( Od tego czasu moje pory znacznie się pogorszyły. Z reguły nie jest to wina sprzedawcy, szczególnie jeśli jest to zweryfikowany sprzedawca niektórych marek, błąd pojawia się podczas przechowywania razem z podrobionymi produktami. Niemniej jednak byłbym wdzięczny, gdybym odesłał produkt i przynajmniej odzyskał za to pieniądze podróbką, co oznacza, że nie pozwolono mi tego zrobić pomimo dowodów. Teraz mam bezużyteczne mydło, które kosztuje ponad 20 euro",
+   "tags": [
+    "authenticity",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "ROZCZAROWANY: Nie tego się spodziewałem. „Będę szukał dalej”. Nie rozumiem, skąd tyle szumu wokół tego produktu (ciekawe, czy to efekt stadny). Biorąc pod uwagę wszystkie dobre rzeczy, które prawie wszyscy o nim mówią, spodziewałem się znacznie więcej. Mam dość zrównoważoną skórę mieszaną (dostaję tylko 2-4 pryszcze, jeśli użyję za dużo oleju) w stronę suchą. Może powinnam sięgnąć po niebieską wersję okładkową „HYDRABIO”, która jest przeznaczona do skóry suchej lub bardzo suchej. Wybrałem ten, ponieważ wiele osób twierdzi, że ma ten sam rodzaj skóry co ja (mieszana w kierunku suchej), co dało im dobre rezultaty i „poczucie świeżości”. OSOBISTY REZULTAT: Nie jest tak, że pozostawia skórę na twarzy suchą (jakby polewanie jej bardzo gorącą wodą mogło to spowodować) i napiętą, ale przynajmniej dla mnie osobiście daje mi „uczucie” suchości i w kilku punktach na brodzie pozostawiło u mnie uczucie (coś podobnego, gdy pojawiają się czerwone pryszcze od tych, które bolą) natychmiastowe zakończenie oczyszczania twarzy. Godzinę później uczucie minęło i nie mam nic i nic nie wyjdzie, ale potem zacząłem mieć uczucie suchości na czole. WNIOSEK: Na rynku dostępna jest szeroka gama produktów, które spełniają tę samą funkcję i dają lepsze rezultaty. Ten produkt zdecydowanie nie jest dla mnie. U mnie lepiej sprawdzają się rozwiązania dwufazowe. Niezależnie od tego, czy jest to tani z Mercadony, czy drogi z wodą różaną od Lâncome, którego używała w domu moja krewna, chociaż ten zapach nie przypadł mi do gustu. Będę nadal testować produkty, aż znajdę ten idealny dla mnie. Przewiduję, że z HYDROLATEM RÓŻANYM (wodą różaną) da to po prostu dobre rezultaty i to w jak najbardziej naturalny sposób. Jeśli nie, powiedz Hannan Beauty. Youtuberka pochodzenia marokańskiego, która ma 40 lat, a wygląda na 30. Jej dobrze stosowane rady dają dobre rezultaty. Postanowiłem spróbować tego autorstwa Martina Catalogne. Peruwiańska profesjonalna makijażystka, która moim zdaniem też zna się na tym, co robi i całkiem nieźle o siebie dba. Używaj oleju kokosowego itp. Ale obawiam się, że w tym przypadku się różnimy. Nie podobało mi się doświadczenie z tym płynem micelarnym. To chyba nie dla mnie. Będę dalej próbować i przejdę na hydrolat różany. Wypróbuję też mój własny „dwufazowy” na bazie emulgowania łagodnej oliwy z oliwek z pierwszego tłoczenia z mlekiem, ponieważ demakijaż płatkiem kosmetycznym nasączonym olejkiem, a następnie mlekiem w celu usunięcia nadmiaru sebum również działa całkiem nieźle, nawilża, szanuje skórę i pozostawia ją promienną, elastyczną, zapewnia odrobinę złocistego koloru, który schlebia skórze i sprawia, że ​​czuje się i wygląda bardzo zdrowo. Ostatecznie zawsze dochodzę do tego samego wniosku, trudno dorównać temu, co materiał już oferuje w sposób naturalny. Bardzo ekonomicznie i przy minimalnym wysiłku. JEŚLI KTOŚ CHCE PODZIELIĆ SIĘ ZE MNĄ SWOIMI DOŚWIADCZENIAMI LUB REKOMENDACJAMI, BĘDĘ WDZIĘCZNY. DZIĘKUJĘ!!",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "smell",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Jeśli to, czego używasz, nie jest zepsute, nie naprawiaj tego!. Długo się wahałam, bo ten produkt nie jest tani i na wiele innych działa dobrze, a jednak wysusza mi skórę! Zanim skończyłam usuwać makijaż, moja skóra była wysuszona i podrażniona pocieraniem wacika. Przez 3 miesiące stosowania moja skóra borykała się z zatrzymywaniem wody i odwodnieniem. Nigdy nie doświadczyłem tego problemu w przypadku innych chusteczek do demakijażu lub balsamów oczyszczających. Nawet z zamiennikiem płynu micelarnego Garnier. Zdecydowanie najgorzej zmywa też mój tusz do rzęs, który nie jest nawet wodoodporny. Przerzuciłam się na ten produkt, bo myślałam, że będzie dla mnie bardziej naturalny i lepszy, bo nie zawiera substancji zapachowych i ma być delikatniejszy. Nigdy nie należałam do osób mających wrażliwą skórę. Zawsze było to w miarę normalne i zrównoważone. Moja pielęgnacja skóry, która była taka sama od lat i dobrze mi służyła, nie była wystarczająca, aby zrównoważyć zakłócenia, jakie ten produkt powodował na co dzień. Mówią, że nie trzeba go zmywać, ale kiedy używałam go do usuwania kremu z filtrem przeciwsłonecznym po dniu bez makijażu i oczyszczania, moja skóra następnego dnia pękała i była brudna. Używając go rano, moja skóra wydawała się „zbyt czysta”. W ciągu dnia stawałam się bardziej tłusta, a makijaż nie trzymał się dobrze, co skłoniło mnie do nakładania dużej ilości pudru, kiedy wcześniej go nie potrzebowałam. Zauważyłam, że moja skóra znów się poprawiła, gdy całkowicie przestałam używać tego produktu. Smutno mi, bo naprawdę chciałam to polubić! Uparcie dawałem mu każdą szansę, jaką tylko mogłem. Pomyślałam, że skoro wszystkim się to podoba, to chyba ja robię coś złego. Desperacko kupiłam nowy krem ​​nawilżający i wypiłam więcej wody. Niestety, dla mnie jest to po prostu zbyt wyczerpujące. Pompka jest jednak urocza i nadaje się do wielokrotnego użytku!",
+   "tags": [
+    "drying_barrier",
+    "irritation",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie jest to czysty olejek z drzewa herbacianego, opis produktu wprowadza w błąd. Dopiero dziś podczas stosowania zauważyłam, że „naturalny” olejek z drzewa herbacianego to po prostu mieszanina z olejem z pestek winogron. Jeśli w ogóle pachnie olejkiem z drzewa herbacianego, to tylko przelotnie, dlatego można przypuszczać, że nie jest on zmieszany z niewielką ilością olejku z pestek winogron, ale stanowi większość produktu. Nawet moja 5% mieszanka z The Body Shop pachniała znacznie mocniej olejkiem z drzewa herbacianego i też lekko paliła na skórze, nie czuję zupełnie nic poza nieprzyjemnym tłustym filmem na skórze. Niestety na opakowaniu nie podano, ile zawiera olejku z drzewa herbacianego, dlatego nie mogę podać jednoznacznej informacji. Moim zdaniem określenie „w pełni naturalny” jest mylące, gdyż spodziewam się czystego olejku z drzewa herbacianego, a nie mieszanki olejków. Zwracam się z pilną prośbą do producenta, aby odpowiednio zmienił nazwę towaru lub przynajmniej wyraźnie wskazał, jak duży jest udział oleju stretchingowego (określenie „niski” pozostawia tutaj duże pole do interpretacji). Niestety olejek nie nadaje się do użytku, dlatego wyląduje w koszu. Powodem, dla którego daję mu 2 gwiazdki, jest to, że tylko przejrzałem opis produktu, w którym faktycznie wspomniano o produkcie z olejem z pestek winogron, a zatem jest to moja wina za ten zły zakup",
+   "tags": [
+    "misleading_oil",
+    "authenticity",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Wprowadzający w błąd opis produktu. Nie czysty olejek z drzewa herbacianego! Olejek nie jest w 100% czystym olejkiem z drzewa herbacianego! Na odwrocie butelki drobnym napisem znajduje się informacja, że ​​zawiera porcję olejku z pestek grejpfruta. Niestety producent (zapewne celowo) milczy na temat proporcji mieszania. Ponieważ prawie nie wyczuwam typowego zapachu olejku z drzewa herbacianego, zakładam, że jest to bardzo mała proporcja. W przeciwieństwie do olejku z drzewa herbacianego, olejek ten jest stosunkowo tłusty na skórze i nie wchłania się tak szybko. Jeśli szukasz typowych (przeciwzapalnych i antyseptycznych) właściwości olejku z drzewa herbacianego do swojej apteczki, niestety go nie znajdziesz. Chciałam tego dla siebie. Używaj brzytwy, gdzie czysty olejek z drzewa herbacianego zawsze ogromnie pomaga i wszystko zostaje zagojone następnego ranka. Niestety, spowodowało to tylko więcej pryszczy na całej twarzy. Moja dziewczyna dodaje go do kremu do twarzy w niewielkiej ilości i radzi sobie z nim całkiem nieźle. Ale najwyraźniej pominięto tu rzeczywisty cel. Wprowadzający w błąd opis produktu na opakowaniu. Dlatego zwykle tylko 1 gwiazdka. Ponieważ moja lepsza połowa nadal może z niego korzystać przynajmniej w części, daję 2. Normalnie bez problemu odesłałbym go z powrotem",
+   "tags": [
+    "breakouts",
+    "misleading_oil",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Środek do mycia twarzy. Płyn do mycia twarzy z ceramidami i kwasem salicylowym polecany do oczyszczania i redukowania niedoskonałości skóry mieszanej, tłustej i trądzikowej. Oto moja recenzja, która mam nadzieję może się Wam przydać... Mam cerę mieszaną bez większych niedoskonałości, kupiłam ten produkt z nadzieją na wyeliminowanie sporadycznych wyprysków, które ostatnio zaczęły pojawiać się coraz częściej... Stosując żel rano i wieczorem zgodnie ze wskazaniami na opakowaniu, efektem była wyjątkowo sucha i podrażniona skóra, aż do jej łuszczenia. Dlatego wprowadzaj go do pielęgnacji skóry bardzo stopniowo, aby skóra się do niego przyzwyczaiła. Po kilku dniach pojawia się wiele nowych niedoskonałości i wyprysków, które mogą wynikać z oczyszczania skóry, czyli złuszczającego i wnikającego w pory kwasu salicylowego, który powoduje wypłynięcie wszelkich zanieczyszczeń na powierzchnię lub jest on zbyt mocny dla mojej skóry. Zawiesiłam produkt i już po kilku dniach widziałam poprawę, więc myślę, że będę stosować produkt bardzo sporadycznie, aby uniknąć ponownego wyprysków. Podsumowując, ten produkt nie jest odpowiedni dla delikatnej skóry, dokładnie oceń tolerancję swojej skóry na kwas salicylowy. Ważne jest, aby po zabiegu zastosować krem ​​​​przeciwsłoneczny. Mam nadzieję, że byłem dla Ciebie przydatny. Dziękuję 👍",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "irritation",
+    "misleading_oil"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Formuła. Przeformułowali ten doskonały produkt. Skład jest inny. Chociaż składniki są takie same, są one przestawione. Paskudne składniki, które kiedyś były wymienione na końcu, teraz są na początku. To, co dobre, zbliża się już ku końcowi. To jest do bani. Na swojej stronie internetowej, Facebooku, Instagramie twierdzą, że to nowe opakowanie, ale ten sam produkt, bez zmian. To kłamstwo. Wiedziałem, że gdy zmienią opakowanie, zmienią formułę. Ostatnią kupioną z nową etykietą zwróciłam, bo zobaczyłam zmianę składu. Poszłam więc i kupiłam płyn micelarny ze starą etykietą. Przyszło dzisiaj i ku mojemu zdziwieniu skład też był inny. Nie kupuję tego produktu od zeszłego roku. W głównym dniu 2024 r. zaopatrzyłem się wystarczająco. W ciągu jednego roku całkowita zmiana, więc rozczarowujące. Pierwsze zdjęcie przedstawia oryginalną formułę, którą kupiłem w zeszłym roku. Druga to nowsza butelka z przestawionymi składnikami. Tak cholernie podstępne",
+   "tags": [
+    "authenticity",
+    "packaging",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Niestety otrzymałem produkt zagraniczny, inny niż pokazano na zdjęciu. Zamówiłem dwa produkty. Niestety jestem trochę zawiedziony. Nigdzie na opakowaniu nie jest napisane, jak go używać w języku niemieckim. Ponieważ polegałem na zdjęciach, założyłem, że otrzymuję „produkt niemiecki”, co nie było prawdą. Niestety różne produkty ze składnikami wysyłane są do różnych krajów. Dlatego jestem zawiedziony, jeśli od początku wiedziałem, że nie jest w 100% taki jak na zdjęciach sprzedażowych. Nie zamówiłbym tego. W tej sprawie nie można również skontaktować się z obsługą klienta. Nie chcę teraz zawracać sobie głowy odsyłaniem wszystkiego, więc prawdopodobnie to zatrzymam. Ale nadal uważam to za bardzo denerwujące. Mam tylko nadzieję, że odpowiada normalnemu „niemieckiemu produktowi”.",
+   "tags": [
+    "misleading_oil",
+    "authenticity",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Bardzo wrażliwa skóra, spowodowała u mnie wypryski z torbielowatymi, bolesnymi guzkami. Kupiłam to w połączeniu z żelową pianką do mycia twarzy w celu ukojenia. Na początku mam bardzo wrażliwą skórę, ale po użyciu przez nieco ponad 2 tygodnie te produkty powodowały u mnie ciągłe wypryski, a nie tylko wypryski, ale bolesne torbielowate guzy, które nie znikają. Problem, od którego zacząłem, wydaje się teraz bardziej idealny niż rezultaty. „Nawilżająca” strona wydaje się nieodpowiednia dla mojego typu skóry, być może dla bardzo suchej skóry byłaby idealna. Po prostu wydaje mi się, że się tłuszczę, pozostawiając tłusty film na skórze, który z biegiem minut wydaje się pogarszać. Problem z odesłaniem go polega na tym, że jest to butelka płynu, co wydaje się bardziej kłopotliwe niż warte wysłania pocztą. Teraz utknąłem z produktem, który wydaje się pogarszać moje problemy skórne, a poza tym nie mogę go używać",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "packaging",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "To nie jest olejek z drzewa herbacianego. Ponieważ używam olejku z drzewa herbacianego od ponad dziesięciu lat, kiedy otworzyłem butelkę, od razu zauważyłem po zapachu, że nie jest to czysty olejek z drzewa herbacianego. Po przeszukaniu opakowania znalazłem „Składniki: 100% czysty olejek z drzewa oleistego i olej rycynowy”. Nigdzie w opisie produktu na Amazon nie znalazłem żadnej informacji o dodaniu oleju rycynowego – nazywam to oszustwem klienta. Jestem bardzo zirytowany, ponieważ cena tego podrobionego produktu nie jest aż tak niska. Ponieważ teraz używam go głównie latem do odstraszania komarów, tym razem go zatrzymam, ale na pewno nie kupię go ponownie, ponieważ olejku z drzewa herbacianego używam również do dezynfekcji otwartych ran",
+   "tags": [
+    "misleading_oil",
+    "authenticity",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Utrata jakości :(. Mam tu jeszcze trochę olejku z drzewa herbacianego w „starym” opakowaniu i stąd bezpośrednie porównanie starej i nowej wersji. Zmieniło się nie tylko opakowanie, ale przede wszystkim jakość olejku. Niestety jest naprawdę na gorszym - „nowy” pachnie w porównaniu do starego i nieprzyjemnie pachnie chemicznie/jełczo, w zasadzie jak produkty drogeryjne Billo. Dla mnie „stary” był pierwszym olejkiem z drzewa herbacianego, który nie pachniał, więc jestem zawiedziona, że go kupiłam teraz znowu muszę szukać porządnego olejku :( 2 gwiazdki, bo o działaniu nie mogę nic powiedzieć, ale przynajmniej zakrętka wydaje się lepiej trzymać. Niestety, za (nawet nie zadeklarowaną) „nową jakość” dostaję tylko jedną gwiazdkę.",
+   "tags": [
+    "authenticity",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Produkt nieodpowiedni dla mojego typu skóry. Po pierwsze plus: konsystencja jest przyjemna, a żel łatwo się rozprowadza. Doceniam również to, że nie zawiera substancji zapachowych, co jest ważne dla wrażliwej skóry. A teraz do problemów: Pomimo regularnego stosowania (rano i wieczorem) nie zauważyłam poprawy w kwestii trądzika. Skażone plamy nadal tam są i wciąż pojawiają się nowe pryszcze. Niestety nie mogę potwierdzić obiecanego „głębokiego oczyszczenia porów”. Najbardziej jednak niepokoi mnie zauważalne zaczerwienienie po użyciu. Moja skóra łatwo się piecze i staje się nienaturalnie czerwona, szczególnie wokół policzków. Zaczerwienienie utrzymuje się kilka godzin i jest dla mnie wyraźnym sygnałem, że produkt zamiast pomóc, podrażnia moją skórę",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "smell",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Skuteczny i przyjazny dla skóry, jednak skok ceny psuje ogólne wrażenie. Testowałem żel do głębokiego oczyszczania porów CeraVe rano i wieczorem przez kilka dni. Jako osoba, która lubi obiektywnie oceniać produkty i zwracać uwagę na ich działanie, nie skupiałam się na marketingu, ale na efekcie na skórze. I tutaj żel w zasadzie spełnia swoje zadanie. Sprzątanie na co dzień jest dokładne. Nadmiar sebum i brudu są skutecznie usuwane, nie pozostawiając tłustego filmu. Skóra jest czysta, ale nie agresywnie odtłuszczona. Zwłaszcza po długim dniu zauważasz, że Twoje pory wydają się naprawdę odblokowane. Żadnego skrzypienia, ale czysty, świeży stan. Nawet skóra wrażliwa i skłonna do zanieczyszczeń zareagowała w moim teście spokojnie. Żadnego zaczerwienienia, żadnego pieczenia, żadnego nieprzyjemnego ucisku. Żel wydaje się obiektywny i funkcjonalny, prawie jak dobrze skoordynowane narzędzie. Jeśli masz wrażliwą skórę, możesz z łatwością stosować go codziennie. To, co wydaje mi się szczególnie pozytywne, to równowaga. Skóra nie wysusza. Po umyciu daje uczucie równowagi. Nawilżanie po zabiegu jest przydatne, ale niekoniecznie konieczne natychmiast. To przemawia za czystą formułą. Zatkane pory i drobne zanieczyszczenia przyniosą widoczną poprawę już po kilku dniach. Cera wydaje się bardziej wyrównana i mniej niespokojna. To nie jest cudowne lekarstwo, ale niezawodny element budulcowy pielęgnacji czystej skóry. Konsystencja jest przyjemnie lekka. Żel pieni się średnio, łatwo się rozprowadza i można go spłukać bez pozostawiania śladów. Bez folii, bez ponownego klejenia. Wydajność jest przyzwoita. Wystarczy niewielka ilość, aby butelka o pojemności 236 ml wystarczyła na długo w codziennym życiu. Produkt łatwo wpasowuje się w istniejącą rutynę. Dobrze współgra z serum, peelingami czy nawet retinolem, nie obciążając przy tym skóry. Dokładnie tak powinien działać środek czyszczący. Największą krytyką jest jednak cena. Kiedy ostatni raz go kupowałem, był znacznie niższy. Teraz wzrosła o około trzy euro. Jest to zauważalne i po prostu za duże w stosunku do ilości. Przy takim rozwoju cen warto sprawdzić alternatywy na innych platformach. Produkt czasami jest tam dostępny taniej. Zalety:✅ Dokładne oczyszczenie bez agresywnego suszenia✅ Bardzo dobrze tolerowany nawet przez wrażliwą skórę✅ Przyjemna konsystencja i łatwe do spłukiwania✅ Wydajny w codziennym użytkowaniu✅ Można go łatwo zintegrować z dowolną rutyną pielęgnacyjną Wady:❌ Znacznie wyższa cena w porównaniu do poprzedniego zakupu❌ Stosunek ceny do wydajności nie jest obecnie optymalny❌ Konkurencyjne produkty są czasami dostępne taniej.Propozycje ulepszeń:🔧 Stabilność ceny lub sprawiedliwsze dostosowanie do ceny ta sama ilość produktu🔧 Regularne oferty lub wielokrotne opakowania, aby odciążyć stałych klientów🔧 Przejrzysty rozwój cen zamiast nagłych podwyżekMój wniosek: Głęboko oczyszczający żel CeraVe zachwyca swoim działaniem, tolerancją dla skóry i przydatnością do codziennego użytku. To niezawodny produkt, który robi to, co obiecuje. Gwałtowny wzrost cen kosztuje jednak zaufanie i punkty. Jeśli zechcesz porównać ceny, otrzymasz bardzo dobry środek czyszczący. Jeśli spojrzysz tylko na Amazon, obecnie płacisz za dużo",
+   "tags": [
+    "drying_barrier",
+    "irritation",
+    "authenticity",
+    "smell"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Przeciętny olej jojoba, mógłby być lepszy. Wypróbowałem organiczny olejek Jojoba i olejek z dzikiej róży Kanzy, aby włączyć go do mojej rutynowej pielęgnacji skóry i włosów. Jednak po kilku tygodniach stosowania mam lekkie wątpliwości. Co mi się podobało: Lekki i nietłusty: Olejek pozostawia lekką konsystencję na skórze i stosunkowo szybko się wchłania, nie pozostawiając tłustej warstwy. Świetnie sprawdza się jako krem ​​nawilżający do twarzy i włosów. Wszechstronny: stosowałem olejek zarówno do pielęgnacji skóry, jak i jako olejek do włosów. Pozostawia skórę miękką i elastyczną, nadaje włosom ładny połysk, nie obciążając ich. Naturalne składniki: Pocieszająca jest świadomość, że olejek jest organiczny i tłoczony na zimno, co gwarantuje lepszą jakość. Co mnie rozczarowało: Mocny zapach: Zapach olejku jest trochę zbyt intensywny jak na mój gust. Nie jest to nieprzyjemne, ale jeśli jesteś wrażliwy na zapachy, może Ci to przeszkadzać. Nie działa zgodnie z oczekiwaniami: Mimo że nawilża, nie zauważyłam większych różnic w porównaniu do innych, tańszych olejków. Za tę cenę oczekiwałabym bardziej widocznych efektów w pielęgnacji skóry i włosów. Wniosek: Olejek jojoba i olejek z dzikiej róży Kanzy to solidny produkt, który zapewnia nawilżenie i jest wszechstronny. . Za tę cenę na rynku są lepsze alternatywy, które oferują podobny efekt. Dlatego daję 3 gwiazdki - jest w porządku, ale nie wybitnie",
+   "tags": [
+    "smell",
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Świetny efekt pielęgnacyjny, do zapachu trzeba się przyzwyczaić. Długo szukałam olejku do brody, który nie będzie zbyt tłusty i szybko się wchłania. Olejek spełnia te wymagania całkiem nieźle: stosunkowo szybko się wchłania i pielęgnuje moją brodę, nie powodując jej przetłuszczenia po użyciu. Efekt był widoczny od razu, zwłaszcza już po pierwszej aplikacji – moja skądinąd bardzo kudłata, kręcona broda stała się znacznie bardziej miękka i mniej kudłata. Dozowanie jest łatwe, ponieważ można go łatwo pobrać za pomocą pipety. Na początku byłam trochę sceptyczna, ponieważ olejek ma dość płynną konsystencję, a broda po aplikacji jest bardzo błyszcząca. Połysk jest szczególnie widoczny w słońcu i nie wygląda tak subtelnie, jak można by się spodziewać. Ale dobrze utrzymuje się na brodzie i nadaje jej zadbany, błyszczący wygląd. Niestety muszę ponarzekać na zapach. Dla mnie pachnie jak zjełczałe drewno, co jest bardzo nieprzyjemne. Zapach utrzymuje się dość długo na brodzie, co dla mnie jest dużym minusem. Wniosek: Jeśli nie przeszkadza Ci intensywny zapach, ten olejek do brody będzie dobrym wyborem, jeśli chcesz uzyskać efekt odżywienia i miękkie włosy. Ogólnie za tę cenę zapach mógłby być zdecydowanie delikatniejszy",
+   "tags": [
+    "drying_barrier",
+    "smell",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry produkt, złe opakowanie.. Sam produkt był w porządku. Miałem jednak kilka problemów z samą przesyłką. Sama butelka nie ma twardego zamknięcia. Zwykle dostępna jest folia lub podobne elementy, które zapewniają, że nawet w przypadku pęknięcia zakrętek produkty nie wyciekną. Ale jedyną ochroną, jaką ma ten produkt, jest plastikowa nasadka. Zgadnij co, mój przyszedł uszkodzony pocztą. Opakowanie zawiera folię bąbelkową, jest to małe, wygodne opakowanie, więc myślę, że butelka nie grzechotała podczas transportu. Zakrętka została rozbita na wiele ostrych kawałków i oczywiście zawartość wyciekła wszędzie. Myślę, że wady leżą zarówno w tym, że został wysłany, jak i, co ważniejsze, w niezbyt wytrzymałej konstrukcji nasadki. Podoba mi się sama woda czyszcząca, ponieważ skutecznie zmywa makijaż (nawet tusz do rzęs!) i ogólnie oczyszcza twarz bez większych podrażnień, ale bardzo żałuję, że opakowanie nie jest lepsze, zwłaszcza biorąc pod uwagę cenę 15 dolarów, sporo w porównaniu z podobnymi produktami na rynku. TLDR: podoba mi się ten produkt, nienawidzę taniego opakowania, prawdopodobnie znajdę lokalnego sprzedawcę, który będzie mógł kupić osobiście zamiast zamawiać online",
+   "tags": [
+    "irritation",
+    "packaging",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie wiem, czy to jego wina, ale odkąd go używam, mam coraz więcej wyprysków. Dostałem ten środek czyszczący CeraVe specjalnie dla skóry tłustej i skłonnej do trądziku, ufając marce i składnikom: kwasowi salicylowemu i oczyszczającej glince, wszystko bardzo obiecujące. Konsystencja jest lekka, dobrze się aplikuje, nie tworzy agresywnej piany i pozostawia skórę gładką zaraz po umyciu. Problem w tym, że po kilku dniach regularnego stosowania (raz dziennie) zacząłem zauważać więcej wyprysków niż zwykle, zwłaszcza w miejscach, gdzie ich nie miałem. Nie wiem, czy to normalna reakcja „oczyszczająca” na kwas salicylowy, czy też moja skóra go źle toleruje, ale wątpliwość pozostaje. Na poziomie sensorycznym nie wywołał u mnie pieczenia ani nadmiernego wysuszenia, więc mógłby sprawdzić się przy innych typach skóry, jednak w moim przypadku zastanawiam się, czy go nie zawiesić. ✅ Plusy: Dobra konsystencja i łatwość użycia Skuteczny skład na papierze Nie wysusza zbytnio skóry ❌ Minusy: Po użyciu pojawiło się więcej niedoskonałości, ciężko zrozumieć, czy to reakcja normalna, czy negatywna",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "irritation",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobrze czyści, ale nie kontroluje połysku tak, jak się spodziewałem. Serum od La Roche Posay (Ultra C) stosuję konsekwentnie już od niemal miesiąca, zgodnie z instrukcją aplikacji. Sam produkt jest przyjemny w użyciu; Posiada lekką konsystencję, która szybko się wchłania i nie pozostawia lepkiego ani tłustego uczucia na skórze. Znosiłam go bardzo dobrze, nie wystąpiły żadne podrażnienia i zaczerwienienia, co przy wrażliwej skórze jest zaletą. Jeśli jednak chodzi o rezultaty, to osobiście nie zaobserwowałam dotychczas żadnych widocznych zmian w mojej skórze. Nie zauważyłam żadnej zauważalnej poprawy świetlistości, jędrności czy redukcji drobnych linii. Rozumiem, że rezultaty mogą się różnić i czasami wymagają więcej czasu, ale liczyłam na jakąś oznakę poprawy po prawie 30 dniach stosowania. To dobre serum pod względem składu i działania, ale jeśli szukasz szybkich i zauważalnych rezultatów, być może będziesz musiał uzbroić się w cierpliwość lub rozważyć inne opcje. Dam temu jeszcze trochę czasu, ale na razie rezultaty są neutralne",
+   "tags": [
+    "irritation",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Mogli włożyć miarkę!. Gdybym na początku dała temu produktowi pełne 5 gwiazdek, super wygodny w relacji jakość/cena, to zdecydowanie muszę zmienić swoją wstępną ocenę, gdyż wczoraj po tygodniu stosowania praktycznie cały olejek rozlał się na stolik nocny podczas aplikacji produktu po prysznicu! Możesz pomyśleć... A co to ma wspólnego z produktem? Centrum, bo gdyby włożyli dozownik, nie doszłoby do tego katastrofalnego i zupełnie nieprzyjemnego zdarzenia! Tak naprawdę butelka nie posiada klasycznej przezroczystej nakrętki z dziurką pośrodku, a to oznaczało, że ubyło ponad 200ml produktu... Teraz muszę kupić pojemnik z dozownikiem, żeby go użyć... bo absolutnie nie chciałabym przeżywać tego doświadczenia ponownie! Jeśli chodzi o zawartość... olejek jest znakomity, nie pachnie jakoś szczególnie, stosowany w odpowiednich ilościach nie jest tłusty, pozostawia skórę miękką... w sumie produkt doskonały!",
+   "tags": [
+    "authenticity",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry do codziennego oczyszczania twarzy - ale nie należy oczekiwać cudów. Witam wszystkich, kupiłem ten produkt, ponieważ szukałem delikatnego środka do mycia twarzy, który zminimalizuje moje zanieczyszczenia. Ponieważ CeraVe jest również dostępny w aptekach, początkowo byłem ogólnie pozytywnie nastawiony. W zasadzie żel oczyszczający jest dobry: jest lekko mleczny, raczej przezroczysty, bezwonny i delikatny dla mojej skóry twarzy. Nie zauważyłam jednak jakiejś „znaczącej” zmiany po codziennym stosowaniu, ale też nie zauważyłam pogorszenia. Muszę przyznać, że na ogół stosuję produkty do walki z niedoskonałościami skóry. To sukces, jeśli po zmianie produktów przynajmniej wygląd skóry pozostanie taki sam. Żel nie wysusza (!) skóry, co również uważam za bardzo dobre. Jednak CeraVe nie może mnie przekonać jako długoterminowego użytkownika. Dla kogoś, kto szuka delikatnego żelu oczyszczającego, nadal mogę go polecić",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry produkt, zła prezentacja. Podoba mi się sam produkt. ZALETY: Świetnie nawilża moją skórę i włosy. Ja stosuję metodę Curly Girl i kiedy robię „cast” dodaję kilka kropli tego olejku i włosy stają się super miękkie i błyszczące. Wady: Nie wiem, czy to wada, ale nie ma zapachu. Najbliższy aromatowi tego olejku jest aromat oleju słonecznikowego. Ale bardzo, bardzo miękki. Oczywiście pomysł z olejkiem migdałowym to jeden z typowych żeli, który świetnie pachnie... i nie sądzę, żeby to było jakieś nawiązanie, dlatego mówię, że nie wiem, czy to wada, czy nie. Jeśli chodzi o produkt, nie mam nic więcej do dodania. TERAZ... FORMAT BUTELKI 1-LITROWEJ JEST Okropny. Nie ma dozownika, a końcówka jest stosunkowo duża... trzeba strasznie uważać, żeby nie napełnić dłoni olejem. Bardzo mnie to zmartwiło i dlatego nie daję 5 gwiazdek",
+   "tags": [
+    "smell",
+    "packaging",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry do codziennego oczyszczania, mniej do niedoskonałości. Płyn do demakijażu CeraVe Imperfection Control ma delikatną formułę odpowiednią dla skóry mieszanej i tłustej. Doceniłam lekką konsystencję, która oczyszcza nie podrażniając, pozostawiając skórę świeżą i czystą po użyciu. Zapach jest neutralny i nieinwazyjny, co jest pozytywnym aspektem dla osób preferujących produkty o lekkim zapachu. Spodziewałabym się jednak bardziej zdecydowanego działania w kontrolowaniu niedoskonałości i redukcji problemów skórnych. Chociaż jest skuteczny jako codzienny środek czyszczący, nie zauważyłem żadnej zauważalnej poprawy w zakresie zanieczyszczeń i przejrzystości skóry. Powiedziałabym, że jest to produkt słuszny do delikatnego i codziennego oczyszczania, jednak dla osób poszukujących ukierunkowanej kuracji przeciw niedoskonałościom może być nieco poniżej oczekiwań",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "authenticity",
+    "smell"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "tylko częściowo mi odpowiada. Zamówiłam olejek arganowy do pielęgnacji włosów, bo wiele osób go zachwyca. Mam włosy dłuższe niż do ramion i od dłuższego czasu stosuję olejek jako dodatek do włosów po myciu. Ponieważ wiele osób zachwyca się olejkiem arganowym, ja też chciałam go spróbować. Na mnie i moje włosy się nie sprawdza - już po kilku kroplach stają się bardzo tłuste i sklejają się, a zapach też nie jest zbyt przyjemny, trochę stary i stęchły. Nie znam tego od innych olejków do włosów. Opakowanie jest w porządku, plastikowa butelka i zakraplacz są w porządku, trzeba je trzymać pod kątem, bo inaczej wszystko za szybko się skończy. Obecnie olej arganowy stosuję do pielęgnacji włosów z olejkiem rycynowym przed myciem i do masażu, dobrze się do tego nadaje",
+   "tags": [
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Pipeta zbyt gęsta i lepka (splątuje włosy) - recenzja poprawiona. Olejek jest bardzo lepki i spowodował kilka sęków na moich włosach. Uważam, że pipeta jest za duża do otwarcia butelki, więc zawsze czegoś mi brakuje. Małe dodatkowe butelki są przeciętnej jakości, ale nadają się do użytku. Miałem jednak duże problemy z jego wypełnieniem. Ponieważ olejku nie można używać do włosów, użyłam go zamiast tego do pielęgnacji skóry, ale jest na to zbyt lepki i bardzo nieprzyjemny dla skóry. Możliwe, że olej mi się zjełczał i stąd biorą się problemy. Sprzedawca skontaktował się ze mną i udało nam się znaleźć dobre rozwiązanie (stąd 3 gwiazdki). Rzeczywiste działanie olejku jest oczywiście trudne do oceny przez laika",
+   "tags": [
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Spowodował wybuch. Zacznę od tego, że mam najbardziej wrażliwą skórę na świecie, więc to, co tutaj napiszę, może dotyczyć tylko mnie. Już od jakiegoś czasu chciałam wypróbować płyn micelarny, ale się wahałam, bo mam skłonność do podrażnień skóry. Postanowiłem spróbować, ponieważ Bioderma to uznana marka w dziedzinie pielęgnacji skóry, a ten preparat jest przeznaczony dla skóry wrażliwej. Jednak wszędzie, gdzie zastosowałem ten produkt, pojawiły się drobne czerwone guzki. Zadbałem o to, aby wszystko inne w mojej rutynie było takie samo jak zawsze, aby wiedzieć, że reakcja pochodzi od tego produktu. Tak bardzo chciałem to polubić, ale nie użyję go ponownie ze względu na reakcję, której doświadczyłem. Jak wspomniałem, ta reakcja może być charakterystyczna tylko dla mnie, więc nie można mówić źle o produkcie jako całości",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Uniwersalny olej do różnych zastosowań. Wszechstronny olej do różnych zastosowań Olej rycynowy sprawia ogólne wrażenie wysokiej jakości i można go stosować na wiele sposobów. Konsystencja jest przyjemna i odpowiada temu, czego można oczekiwać od oleju tłoczonego na zimno. Opakowanie wygląda schludnie, a produkt został przez nas dobrze przyjęty. Uważam, że poręczny rozmiar butelki jest szczególnie praktyczny. Olejek jest łatwy w dozowaniu i można go na różne sposoby włączyć do codziennego życia. Pozostawia wrażenie zadbanego i można go wykorzystać do różnych celów. Aplikacja była nieskomplikowana, a produkt w zasadzie spełnił oczekiwania. Ogólnie rzecz biorąc, solidny produkt, który wywarł na nas przyzwoite wrażenie",
+   "tags": [
+    "misleading_oil",
+    "packaging",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Kupiłem i niestety nie mogłem znaleźć dokładnego opisu produktu. Kupiłam ten produkt, bo dowiedziałam się o kwasie salicylowym, który dobrze działa na skórę i pory, a także ma usuwać zaskórniki. Niestety po zakupie tego produktu na opakowaniu nie ma zalecenia do stosowania, więc po prostu go nałożę, poczekam kilka sekund i ponownie zmyję. Będę tu coś aktualizować co 1-2 tygodnie, żeby móc zapisać tutaj swoje doświadczenia. Na odwrocie znalazłem następujący tekst przetłumaczony na język angielski: Stosuj dwa razy dziennie, wcześniej wstrząśnij. Nakładaj na mokrą lub wilgotną skórę twarzy. W żadnym wypadku nie powinien dostać się do oczu!",
+   "tags": [
+    "breakouts",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Przereklamowany szum. Spędziłem lata używając wody micelarnej różnych marek drogeryjnych; niektóre z nich były lepsze od innych. Właściwie znalazłam „ulubionego” i nigdy nawet nie wypróbowałabym tej dość drogiej marki, gdyby nie ten cały szum i fakt, że trochę obawiałam się uczucia gładkości na twarzy po użyciu innej marki. Chociaż jestem raczej pewna, że ​​ten produkt jest prawdopodobnie bezpieczniejszy dla wrażliwej skóry, wydaje się, że tak naprawdę nie działa. Nigdy nie usuwa mojego tuszu do rzęs (kilku marek i typów), a usunięcie kremów korygujących kolor zajmuje sporo czasu. Noszę najbardziej minimalistyczny makijaż, więc to jest rozczarowujące. Ogólnie rzecz biorąc, zdecydowanie nie był wart swojej ceny",
+   "tags": [
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wizerunek produktu i opakowanie nie mają ze sobą nic wspólnego. Wybrałem ten produkt ze względu na cenę/wydajność. Szukałam bazy do wykonania peelingu ciała jako prezentu świątecznego. Olejek sprawdził się w tym przypadku znakomicie, jest bardzo neutralny i nie powoduje podrażnień skóry. Zostało mi już pół butelki i trochę denerwuje mnie bardzo brzydka butelka, która bardziej przypomina olejek do samochodu i ogrodu niż produkt do higieny osobistej (mlecznobiała, prosta butelka z niebieską, karbowaną zakrętką). Trochę mnie to irytuje – zwłaszcza, że ​​zdjęcie produktu obiecuje coś zupełnie innego",
+   "tags": [
+    "irritation",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Klasyka 👌 Edit: przekształcona butelka. Aktualizacja z kwietnia 2023 r.: Butelka zmieniła się, gdy ją otrzymałam.  Samo się nie podnosi. Wydawało się, że zaraz wybuchnie. Zobacz obrazy. Nie próbowałem jeszcze produktu w środku, ale czy powinien być taki sam jak zwykle?  Dla mnie to klasyk, ale morphed butelka jest niewygodna. Nie jestem pewien, który punkt dotyku spowodował zmianę... mógł mieć miejsce podczas wysyłki lub już w magazynie... mógł być jednorazowym incydentem.  Ale rozczarowałem się, kiedy to otrzymałem. 😕2022Dobry płyn do codziennego demakijażu. Nie podrażnia skóry i nie pozostawia śladów. Używam tego od lat. Mam cerę mieszaną i tu i ówdzie mam trądzik. Bez zapachu",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "authenticity",
+    "smell"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Alkohol Uwaga. Byłem bardzo podekscytowany wypróbowaniem tego produktu ze względu na wiele recenzji, które przeczytałem oraz fakt, że produkt ten został wyprodukowany we Francji. Jednak rozczarowałem się wynikami. Usuwa cały makijaż, w tym wodoodporny tusz do rzęs, ponieważ jest wystarczająco delikatny dla oczu, ale pozostawia moją skórę suchą i czerwoną. Po jego użyciu miałam nawet suche plamy na policzkach, a mój krem ​​nawilżający nie wystarczył, aby złagodzić moje odwodnienie. Dlatego nie poleciłabym tego produktu osobom o wrażliwej skórze, szczególnie z różowatością. Być może to alkohol tak wysusza skórę. Ale to zdecydowanie nie jest dla skóry wrażliwej!",
+   "tags": [
+    "drying_barrier",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Świetnie się sprawdzi, jeśli Twoja skóra lubi pochodne kokosa. Świetnie usuwa makijaż – nie ma zapachu – jest zapakowany w plastik i ładnie zapieczętowany – ale jeśli masz wrażliwą skórę i reagujesz na wszystko, co pochodzi z kokosa – uważaj. Drugi składnik tego preparatu – glicerydy kaprylowo-kaprynowe Peg-6 – jest zwykle pochodną kokosa. Już po jednym dniu stosowania – następnego obudziłam się ze stanem zapalnym w okolicy nosa i zaskórnikami – i od razu wiedziałam, że nie mogę go stosować. Jeśli nie masz tak reaktywnej skóry - przypadnie Ci do gustu. Podoba mi się w nim to, że nie ma zapachu i nie piecze skóry. Bummer, którego nie mogę używać",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "smell",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Kolejna z ekipy \"pokrywa przyszła uszkodzona\". Niestety dołączyłem do zespołu, który otrzymał produkt z pękniętą obustronnie pokrywką, marnując produkt o wartości dodanej. Skoro tak wiele osób skarżyło się już na ten sam problem, czy nie nadszedł czas, aby ponownie przemyśleć sposób wysyłki produktu? W zestawie z zamówieniem były artykuły papiernicze i mata dla zwierząt - idę wyprać matę i dzięki Bogu artykuły papiernicze były zapakowane w plastik. A co jeśli coś uszkodziło? A jeśli chodzi o produkt: jest doskonałej jakości, po użyciu tego płynu micelarnego nigdy nie miałam alergii ani zaczerwienień na skórze! W rzeczywistości jest to warte ceny, którą płacisz",
+   "tags": [
+    "irritation",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "3 gwiazdki: Delikatny, ale dla mnie niewystarczający. Od kilku tygodni stosuję CeraVe Cleanser. Chociaż jest delikatny dla skóry i nie powoduje podrażnień mojej wrażliwej skóry, nie zauważyłem znacznej poprawy tekstury ani przejrzystości mojej skóry. Doceniam to, że jest bezzapachowy i zawiera ceramidy, ale nie wydaje się szczególnie skuteczny w walce z olejem ani nie pozostawia uczucia odświeżenia, na które liczyłem. Jest dobry do prostego oczyszczania, ale być może poszukam innego rozwiązania, które lepiej odpowiada potrzebom mojej skóry",
+   "tags": [
+    "irritation",
+    "smell",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry olej, zły pojemnik. Jestem zadowolona z jakości olejku, wydaje się być bardzo dobry dla paznokci i skórek. Jest trochę lepki i niekoniecznie przyjemnie pachnie, ale z pewnością taki powinien być. Jednak butelka z pipetą to porażka! Nie można wypić ani jednej kropli, aby połowa nie spłynęła przez szyjkę butelki. Oznacza to, że zarówno pipeta, jak i butelka oraz wszystko wokół niej są całkowicie sklejone i marnuje się dużo olejku. Fajny pomysł z dodatkowymi buteleczkami na pędzle i szczoteczki do rzęs. Ale jak olej ma się tam dostać? Przynajmniej nie za pomocą dołączonej pipety!",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "To nie jest 100% olejek eteryczny - to mieszanka OLEJKU WINOGRONOWEGO ze 100% DRZEWEM HERBACIANYM. Wprowadzające w błąd informacje i tytuł tego produktu. W chwili, gdy otworzyłem butelkę i użyłem jej, zauważyłem wodnistą konsystencję, a charakterystyczny zapach olejku z drzewa herbacianego był ulotny. Jeśli szukasz wstępnie rozcieńczonego olejku eterycznego, to właśnie on. Byłem zaskoczony, że sprzedawca skontaktował się ze mną po opublikowaniu mojej recenzji i natychmiast otrzymałem zwrot pieniędzy ze szczerymi przeprosinami. Wyjaśniono również, że czyste drzewo herbaciane występuje tylko w pojemności 10 ml. Do Twojej wiadomości. Jestem wdzięczny za tak uważną obsługę klienta. Dziękuję",
+   "tags": [
+    "misleading_oil",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Niezbyt dobrze. Bardzo podoba mi się ten płyn do mycia naczyń, ale zauważyłem, że na dnie butelki znajduje się element „Naprawdę uwielbiam ten płyn do mycia naczyń”, ale zauważyłem, że na dnie butelki widniał napis „Naprawdę uwielbiam płyn do mycia naczyń, ale zauważyłem, że na dnie butelki znajdował się osad przypominający bakterie”. Więc tym razem mam chusteczki i nie podobają mi się. Bardzo podoba mi się ten płynny środek czyszczący, ale zauważyłem, że na dnie butelki był osad, który wygląda jak bakterie. Więc tym razem mam chusteczki, ale nie podobają mi się aż tak bardzo, więc chyba muszę znaleźć coś innego",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wysoce skuteczny żel czyszczący o natychmiastowym działaniu - najwyższa zawartość, ale rozczarowująca strona ze szczegółami. Od kilku tygodni stosuję pieniący się żel do mycia twarzy CeraVe – i jestem do niego całkowicie przekonana. Wyraźny efekt był zauważalny już po pierwszym zastosowaniu: skóra stała się wyraźnie czystsza, gładsza i bardziej zrównoważona. Nadmiar sebum zostaje dokładnie usunięty, nie wysuszając i nie podrażniając skóry. Produkt jest również bardzo dobrze tolerowany przez skórę wrażliwą lub mieszaną – nie powoduje uczucia napięcia, pieczenia, podrażnień. Na szczególną uwagę zasługuje przyjemnie lekka, żelowa konsystencja, która w kontakcie z wodą delikatnie się pieni, łatwo się rozprowadza i spłukuje bez pozostawiania śladów. Zaraz po oczyszczeniu cera wygląda na świeższą i bardziej jednolitą – dla mnie to obecnie najskuteczniejszy żel oczyszczający na co dzień. To, co jednak rzuca się w oczy i co negatywnie wpływa na skądinąd profesjonalnie wyglądający produkt, to brak wystarczających informacji na stronie ze szczegółami. Nie ma jasnych punktów co do głównych korzyści (np. dla jakiego rodzaju skóry, jakich składników aktywnych, jakich rezultatów można się spodziewać). Ponadto nie ma prawdziwych instrukcji użytkowania - jedynie ogólne informacje, które nie są przeznaczone dla początkujących użytkowników. W dzisiejszych czasach konsumenci oczekują już na pierwszy rzut oka przejrzystej, dobrze ustrukturyzowanej informacji, szczególnie w obszarze pielęgnacji twarzy. Podsumowanie: Pod względem działania jest to naprawdę topowy produkt - 5 gwiazdek za działanie, odczucie na skórze i działanie oczyszczające. Opakowanie natomiast sprawia wrażenie ubogiego w informacje i niedojrzałego. Niemniej jednak dla mnie żel pozostaje najlepszym wyborem w tej kategorii produktów – z potencjałem optymalizacji w komunikacji",
+   "tags": [
+    "drying_barrier",
+    "irritation",
+    "packaging",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Spełnia swoje zadanie.. Kupiłam ten płyn micelarny zachęcona dobrymi opiniami, a ponieważ jest niedrogi, więc dlaczego nie spróbować? Butelka jest przyjemna w dotyku, a jej zakrętka posiada uszczelkę, przez co bardzo łatwo wydobyć odpowiednią ilość produktu. I tak, dobrze radzi sobie z usuwaniem całego makijażu, gdy namoczę 2-3 waciki tym produktem, aby wytrzeć twarz. Jednak nie sądzę, że zdecydowałabym się na pozostawienie go na twarzy, mimo że jest napisane „bez spłukiwania”. Po demakijażu nim wyraźnie czułam bardzo cienką warstwę olejku, która nadal pozostała na mojej skórze. Po prostu nie mogłam znieść tego uczucia, ponieważ zawsze używam środków do czyszczenia twarzy, aby pozbyć się produktów do demakijażu na bazie oleju. Pewnie większość uznałaby mnie za wariatkę, bo w przypadku płynu micelarnego część do spłukiwania jest zbędna. Nie wiem dlaczego, ale po prostu nie sądzę, że należy go nie spłukiwać, ponieważ ta część zawsze była moją rutyną przez 8 lat używania dwufazowego środka do demakijażu oczu Lancôme, który również jest produktem na bazie oleju. Kolejną rzeczą, której nie lubię, jest bardzo nieprzyjemny, gorzki, chemiczny smak. Używam go do usuwania szminek i właściwie muszę go zmyć z ust, bo inaczej rzygałbym się później z powodu złego smaku, gdy przypadkowo oblizałem usta. Godną uwagi zaletą tego produktu jest to, że nie powoduje podrażnień mojej skóry, mimo że mam bardzo wrażliwą, suchą skórę. Tak czy inaczej jest to dobry produkt, ponieważ jest niedrogi i dobrze radzi sobie z demakijażem",
+   "tags": [
+    "irritation",
+    "smell",
+    "packaging",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wszechstronny produkt naturalny – top do pielęgnacji włosów i skóry! Olejek rycynowy Kanzy zachwyca mnie wszechstronnymi możliwościami zastosowania i czysto naturalnym składem. Olejek to takie małe cudo, zwłaszcza dla moich rzęs i brwi: przy regularnym stosowaniu wyglądają na znacznie mocniejsze i zdrowsze. Olejek zapewnia także intensywne nawilżenie i elastyczność końcówkom włosów oraz suchej skórze. Dołączona pipeta jest bardzo praktyczna, dzięki czemu z łatwością dozujesz lepki olejek – nawet jeśli butelka jest dość mała. Zalety: 100% czysty, tłoczony na zimno organiczny olej rycynowy bez dodatków. Wspomaga wzrost i wzmocnienie włosów, rzęs, brwi i paznokci. Zapewnia intensywne nawilżenie skóry i włosów. Uniwersalny dla skóry, włosów, paznokci, brody itp. Pipeta ułatwia użycie, nietestowana na zwierzętach. Bardzo oszczędna, bo wystarczy kilka kropli. Wady: Olejek jest bardzo lepki, przez co trudniej go dozować z mniejszych buteleczek. Przedawkowanie może skutkować lekko przetłuszczającymi się włosami. Zapach jest dość neutralny, jednak do smaku w przypadku przypadkowego kontaktu trzeba się przyzwyczaić. Mała butelka może szybko się opróżnić, jeśli jest często używana. Przy cierpliwości i regularnym stosowaniu sukces staje się oczywisty – jasna rekomendacja dla fanów kosmetyków naturalnych!",
+   "tags": [
+    "drying_barrier",
+    "misleading_oil",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Rozmiar podróżny lub idealny na próbę. Wolę jednak ten niebieski. Dostałem to, kiedy podróżowałem długodystansowo, aby odświeżyć się podczas długiej 24-godzinnej podróży i usunąć makijaż. Nie miałem zamiaru myć twarzy w tych małych, brudnych toaletach, a czas przejazdu nie pozwolił mi na postój w celu odświeżenia się w łazience na lotnisku. Też to dostałem, zanim założyłem tiktok (tak, jestem taki stary), tylko na podstawie recenzji. Nie zdawałem sobie sprawy, że jest to dość „wirusowe”. Kupiłam też niebieski, bo nie wiedziałam, który wolę. Uważam, że faktycznie trochę wysusza, mimo że jest przeznaczony do skóry wrażliwej. Od około 20 lat mam około 20 lat, więc obecnie mam trudną cerę mieszaną. Rozmiar butelki prawdopodobnie z łatwością wystarczy na dłużej niż 2 tygodnie wakacji przy codziennym stosowaniu. Jest bardzo delikatny, ale wolę, gdy moja skóra jest czysta, więc wolę niebieski. Mimo że wydaje się, że wszystkim skinfluencerom podoba się ten produkt. Po prostu nie sprawił, że moja skóra była czysta. Odkupiłbym niebieską butelkę. Świetna cena i rozmiar, aby podróżować z nim lub przetestować, który będzie Ci bardziej odpowiadał. Teraz przerzuciłam się na kwas podchlorawy do demakijażu/delikatnego tonizowania. Ale jeśli masz budżet, nie jest najtańszy, ale prawdopodobnie nie bez powodu polecam go wypróbować, jakość i referencje są dobre. Gdybym miała lepszy budżet na pielęgnację skóry, prawdopodobnie kupiłabym pełnowymiarową butelkę lub na wakacje, kiedy potrzebuję czegoś bardziej uniwersalnego niż kwas podchlorawy",
+   "tags": [
+    "drying_barrier",
+    "packaging",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Mój pierwszy środek czyszczący - i nadal najlepszy. Jeszcze około rok temu nadal myłam twarz mydłem – i zastanawiałam się, dlaczego mam tyle pryszczy😆 Następnie szczegółowo zbadałam różne środki czyszczące i rodzaje skóry i ogólnie (cena, wydajność, trwałość) ten środek czyszczący zwyciężył. Mam cerę mieszaną, co oznacza, że ​​moja skóra ma tendencję do przesuszenia się na policzkach i wokół nich, ale szybko staje się tłusta w strefie T (czoło, nos, broda). Dobrym sposobem na sprawdzenie tego jest odczekanie 20 minut po umyciu twarzy (nie nakładać po tym kremu!), a następnie przyłożenie małego kawałka papieru toaletowego do nosa, policzków, czoła i brody. Tam, gdzie opada prosto, masz zazwyczaj suchą skórę, a tam, gdzie łatwo się przykleja i nie spada prosto, masz zazwyczaj skórę tłustą. Kiedy po raz pierwszy wypróbowałam środek czyszczący, od razu zauważyłam różnicę; moja skóra była znacznie czystsza niż zwykle. Moje pryszcze również się zmniejszyły, oczywiście nie zniknęły całkowicie, ale z radością kupiłam ten środek czyszczący ponownie. Pojemność 236 ml starcza mi na około 4 miesiące, dlatego odjęłam gwiazdkę, bo cena wydaje mi się trochę wysoka, choć uzasadniona",
+   "tags": [
+    "breakouts"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wysokiej jakości organiczny olej rycynowy – niestety trudny w użyciu i bez widocznego efektu. Organiczny olej rycynowy Kanzy na pierwszy rzut oka robi bardzo dobre wrażenie: jest organiczny, nierafinowany i ma gęstą konsystencję, co świadczy o jakości. Szczególnie praktyczne wydaje mi się to, że w zestawie znalazły się dwa zestawy aplikatorów – jeden do rzęs, drugi do brwi lub jako zestaw do tuszu do rzęs. Niezły pomysł! Niestety jego użycie jest nieco skomplikowane: olejek jest tak gęsty, że bardzo trudno go wlać do dołączonego dozownika. Musiałem zdjąć osłonę wycieraczki, żeby w ogóle móc ją wypełnić - było to żmudne i można było to rozwiązać bardziej elegancko. Jeśli chodzi o efekt, to osobiście nie zauważyłam żadnej widocznej zmiany na rzęsach czy brwiach – ani w zakresie wzrostu, ani objętości – nawet przy długotrwałym stosowaniu. Oczywiście może to się różnić w zależności od osoby, ale niestety u mnie nie było efektu. ➡️ Wniosek: Naturalny olejek wysokiej jakości, z dobrym pomysłem (łącznie z akcesoriami), ale słabymi w obsłudze i - przynajmniej dla mnie - bez widocznych rezultatów. Dodatek: Ze względu na dobrą obsługę klienta ocena została zmieniona na 4 gwiazdki",
+   "tags": [
+    "misleading_oil",
+    "authenticity",
+    "packaging",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetny olej z małymi słabościami w obsłudze. Olejek kupiłam głównie do masażu limfatycznego w połączeniu z kamieniem Gua Sha. Pudełko, w którym umieszczona jest butelka, jest owinięte/zaklejone od zewnątrz folią. Nie było łatwo go otworzyć i nie można było go całkowicie wyjąć z pudełka. Butelka, w której znajduje się olejek, zamknięta jest w matowym, brązowym szkle i ładnie się prezentuje. Pipeta jest fajna, ale prawie niepotrzebna, bo olejek kapie czy tego chcesz, czy nie. Dlatego dawkowanie jest trochę trudne. Olejek jest lekki i nie pachnie nieprzyjemnie, ale jest po prostu naturalnie roślinny, co uważam za bardzo przyjemne. Ładnie się rozprowadza i dobrze wchłania, nie pozostawiając po tym całkowicie tłustego połysku. Daję mu tylko 4 gwiazdki, ponieważ trochę trudniej było zdjąć folię z pudełka i ponieważ posługiwanie się olejkiem wymaga nieco większej koncentracji, ponieważ pipeta robi, co chce, ale sam olejek jest naprawdę świetny i za tę cenę myślę, że można przeoczyć dwa negatywne punkty",
+   "tags": [
+    "smell",
+    "packaging",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetny olej, ale uważaj na plamy. Olejek z dzikiej róży Kanzy zaskoczył mnie pozytywnie! Zapach jest przyjemny i mocno przypomina naturalne owoce dzikiej róży, co uważam za bardzo przyjemne. Szczególnie widoczne jest działanie na moją skórę głowy: olejek działa uspokajająco i znacząco zredukował mój łupież. Jest jednak mały minus, który psuje ogólne wrażenie. Pozytywne strony: Działanie uspokajające: Olejek wyraźnie ukoił moją skórę głowy i jest bardzo odżywczy. Nie jest tłusty i dobrze się wchłania. Redukuje łupież: Mój łupież znacznie się poprawił, odkąd regularnie używam olejku. Przyjemny zapach: Naturalny zapach dzikiej róży nie jest przytłaczający, ale raczej bardzo przyjemny i świeży. Naturalne składniki: Olejek ma wysoką jakość i jest wolny od irytujących dodatków. Do negatywnych opinii: Barwienie: Olejek ma mocny kolor, który może pozostawiać plamy na tekstyliach lub powierzchniach. Zalecana jest tu ostrożność, zwłaszcza w przypadku tkanin w jasnych kolorach",
+   "tags": [
+    "smell",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Żel oczyszczający, który rozpieszcza skórę! Żel do mycia głębokich porów CeraVe przerósł moje oczekiwania! Jestem pod wielkim wrażeniem jego delikatnego, ale skutecznego działania czyszczącego. Już po kilku pierwszych użyciach moja skóra jest oczyszczona i odświeżona. Należy jednak uważać, aby nie stosować go w nadmiernej ilości, gdyż może mocno wysuszyć skórę, ale całkowicie usuwa wszelkie zanieczyszczenia. Żel przyjemnie się pieni i dokładnie usuwa nadmiar sebum oraz zanieczyszczenia. Jest łatwy w użyciu, a jego formuła jest bezzapachowa, co dla mnie jest dużym plusem. Moja wrażliwa skóra pozytywnie reaguje na ten żel oczyszczający i mogę go stosować codziennie bez wahania. Ogólnie rzecz biorąc, mogę polecić CeraVe Pore Deep Cleansing Gel każdemu, kto szuka delikatnego, ale skutecznego oczyszczania twarzy. To świetny produkt, który naprawdę wzbogaca moją pielęgnację skóry!",
+   "tags": [
+    "drying_barrier",
+    "authenticity",
+    "smell",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Szczerze mówiąc, byłem co do tego trochę sceptyczny... Zdecydowałem się zaryzykować i kupić to. Byłem trochę zdenerwowany i miałem paranoję, że dostanę „zły produkt”, jak wspominali niektórzy recenzenci, ale dostałem prawdziwy. (DZIĘKUJĘ BOGU!) Od dłuższego czasu używam olejków do demakijażu. (banilaCo Clean it zero, jasny olejek oczyszczający Faceshop Rice Water Bright i olejek głęboko oczyszczający DHC) Chociaż trzy wymienione przeze mnie produkty bardzo dobrze zmywały makijaż z twarzy, zatykały mi pory i powodowały CC. Nie zabawne! :( Więc chciałam zobaczyć, o co chodzi z tym całym płynem micelarnym. Byłam bardzo zszokowana jego skutecznością, kiedy wypróbowałam go już pierwszego wieczoru, kiedy dostałam opakowanie. Do każdego wieczornego demakijażu twarzy wystarczą dwa płatki kosmetyczne White Rabbit (i oczywiście później stosuje się środek oczyszczający o niskim pH). Moja rada dla każdego, kto rozważa zakup tego produktu, powinien wykonać test płatkowy przed użyciem, na wypadek, gdyby okazał się zły produkt",
+   "tags": [
+    "packaging",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dozownik 16,7 FL OZ nie jest dobry. Duża butelka ma inny dozownik, taki jaki ma salon paznokci. Dociskasz go wacikiem, a bawełna wchłania płyn. Byłem podekscytowany, że pojawił się ten produkt. Jednak po naciśnięciu wacikiem płyn rozlewa się po całej powierzchni. Nie tylko marnujesz, ale także robisz bałagan. Płyn jest przezroczysty, więc nie wiadomo, dokąd poszły. bardzo uciążliwe w czyszczeniu. UWIELBIAM ten produkt, więc wracam do mniejszej butelki. Mam wrażliwą, skłonną do trądziku skórę. Ten produkt zmienił dla mnie zasady gry po przeprowadzce do USA, gdzie woda jest bardzo twarda i zawiera dużo substancji chemicznych. Staram się nie myć twarzy częściej niż raz dziennie. Nie podrażnia mojej skóry, bardzo dobrze ją oczyszcza. Używam wielu płatków kosmetycznych, aby dobrze oczyścić, gdy mam pełny makijaż twarzy. Kiedyś próbowałam innej marki, ale podrażnił mi skórę. Będę się tego trzymać",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "authenticity",
+    "smell"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry produkt 🫶🏻. Jest bardzo delikatny, przynajmniej ja nie wyczułam żadnego zapachu z tego produktu, który przynajmniej dla mnie jest rewelacyjny i nie pozostawia tłustego uczucia na koniec jak wiele płynów micelarnych, które próbowałam... (ahem GARNIER ahem) Jest bardzo duży, widziałam go i wygląda jak roczny zapas wody micelarnej 🤣Ma tylko jeden szczegół, a mianowicie to, że korektor, szminka, klej do rzęs i baza pod makijaż świetnie je usuwają i bez wysiłku... pięta achillesowa tego maluszka To były wodoodporne tusze do rzęs 🫣 Przysięgam, że chłopak walczył z całych sił, ale nie dał rady 😔 i musiałam ponownie użyć olejku do usunięcia wodoodpornego tuszu, a potem przetrzeć wacik wodą micelarną, zraniłam jego ego 🤣Ale poza tym świetny produkt, bardzo mi się podobał i kupiłabym go ponownie, warto, bioderma nigdy nie zawodzi 🫶🏻",
+   "tags": [
+    "smell",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Drzewo herbaciane. Używam produktu od 1 miesiąca i jestem nim zachwycony. Stosuję go tylko co 2 dni, ale efekt jest imponujący. Mam mnóstwo problemów z pryszczami i wypryskami na twarzy, próbowałam wielu produktów, ale żaden nie był tak dobry jak Tea Tree. Produkt jest bardzo, bardzo płynny, końcówka pęsety wystarczy na twarz, w przeciwnym razie błyszczy cały dzień i nie wchłania się. Zapach jest mocny i wymaga przyzwyczajenia, początkowo nieprzyjemny, ale potem jest w porządku. Zanim nałożę Tea Tree na twarz, przemyję twarz mydłem głęboko oczyszczającym pory, a następnie nałożę na nie Tea Tree. Moja skóra stała się wyraźniejsza, mam znacznie mniej wyprysków, a twarz wygląda na zadbaną i elastyczną. Jestem bardzo zadowolona z Tea Tree i kupiłabym go ponownie",
+   "tags": [
+    "breakouts",
+    "smell"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Nietłusty. Jestem mile zaskoczona: to olejek do twarzy, który nie klei oczu. Chociaż zazwyczaj staram się nie wcierać w oczy żadnego kremu ani olejku, zdarza się, że przez cały dzień nie widzę wyraźnie (nie w przenośni). Pod tym względem ten olejek do twarzy jest świetny. Mam wrażenie, że moja skóra jest aksamitna. W pierwszej chwili pomyślałam, że olej śmierdzi stęchlizną. Teraz zauważyłem, że jest bezwonny. Teraz mam nadzieję, że olejek odmłodzi mnie o kilka lat – no, nie na serio, bo ostatecznie wygląd zależy od trybu życia, genów i kto wie jakich nieznanych czynników. W każdym razie moja skóra czuje się dobrze, a wzrok pozostaje wyraźny. Prawdopodobnie kupię go ponownie. Cena też całkiem w porządku",
+   "tags": [
+    "smell"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "świetny, tylko nie do wodoodpornego tuszu do rzęs. Mam wyjątkowo wrażliwą i suchą skórę i używałam płynu micelarnego Garnier z niebieską czapką. Chciałam tylko sprawdzić, czy ten jest lepszy. W porównaniu do Garniera był o wiele przyjemniejszy, działał jak woda. doskonale domył mój makijaż i naprawdę nie można się z nim pomylić. Jedyną rzeczą jest to, że używam TYLKO wodoodpornego tuszu do rzęs, ponieważ mam proste, cienkie rzęsy, które wypadają z każdym innym tuszem do rzęs. Nasączam płatek kosmetyczny i przytrzymuję go na rzęsach przez 20 sekund, ale zmywa tusz w małych płatkach. te płatki wpadają mi do oka i myślę, że to może być niebezpieczne. NIE zmywał tuszu do rzęs. garnier radzi sobie świetnie. Jeśli nie używasz wodoodpornego tuszu do rzęs, gorąco polecam ten. działa naprawdę dobrze i świetnie się czuje. tylko nie do wodoodpornego tuszu do rzęs",
+   "tags": [
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "dość niechlujny biznes. Zgodnie z obietnicą w zestawie znajduje się szczoteczka do rzęs i szczoteczka do powiek. O efektach nie mogę jeszcze wiele powiedzieć. Nakładałam go bezpośrednio na skórę i rzęsy i mieszałam z kremem na dzień. Skóra była później bardzo miękka i odżywiona. Pędzel wydaje się bardzo twardy dla brzegu powieki, szczoteczka do rzęs jest w porządku. Olejek jest zaskakująco gęsty i lepki (ale taki właśnie powinien być). Kiedy wyciągasz pipetę, z butelki wycieka duża ilość olejku i spływa, a kiedy go ponownie włożysz, jakoś dzieje się to samo. Napełnienie dwóch pojemników też jest niezwykle trudne i tłuste, właściwie trzeba po tym sprzątnąć łazienkę i umyć wszystkie pojemniki mydłem :-(Mam nadzieję, że aplikacja w jakiś sposób pomoże, wtedy będę mógł z tym żyć",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Pojemniki na olej popękane, olej wydaje się być w porządku. Sam olejek wydaje się być dobrej jakości i sprawia, że ​​rzęsy rosną zdrowiej i dłużej. Kontenery są jednak bardzo niskiej jakości. Kiedy przyjechały, śmierdziały tanim plastikiem, a zapach ten zniknął dopiero po wielokrotnym praniu i pozostawieniu ich wypełnionych wodą na kilka dni. Górna część również nie przylega do reszty pojemnika. Przy zbyt mocnym dokręceniu nakrętka łatwo pęka. Zatrzymują jednak olej w środku i nie wyciekają nawet po pęknięciu. Moim zdaniem olej jest dobry, zwłaszcza jak na tę cenę, jednak jeśli masz taką możliwość, polecam zakup kolejnej pary opakowań o lepszej jakości. Ale za tę cenę nie ma żadnych skarg",
+   "tags": [
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Butelka bardzo trudna do otwarcia - zakrętka wymaga wymiany.. Właśnie użyłam pierwszy raz i jak na razie moja skóra jest odświeżona i cudownie miękka.  Jedyne, co mogę na razie zarzucić, to to, że butelkę BARDZO trudno było otworzyć.  Musiałem użyć nożyczek, aby podnieść zakrętkę i skończyło się to ukłuciem palca.  Nie powinno być aż tak trudno się w coś wciągnąć, a boję się to szczelnie zamknąć, bo myślę, że za drugim razem będzie tak samo.  Być może będę musiał przelać go do innej butelki, aby go użyć.  Wydaje się być dobrym produktem i cieszę się, że go znalazłem.  Właśnie przeszłam operację zaćmy i szukałam nowego sposobu na demakijaż oczu, który byłby zdrowszy dla moich oczu – myślę, że będzie świetny",
+   "tags": [
+    "packaging",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Delikatny, skuteczny i kojący sposób na oczyszczenie i usunięcie makijażu!. Jestem absolutnie zakochana w płynie micelarnym Bioderma Sensibio H2O! Szybko stał się moim ulubionym produktem do demakijażu i oczyszczania twarzy. Jest niesamowicie delikatny dla mojej wrażliwej skóry, nie zauważyłam po jego użyciu żadnych podrażnień ani wysuszenia, z czym miałam problem przy stosowaniu innych środków do demakijażu. Skutecznie usuwa wszelkie ślady makijażu, nawet wodoodpornego tuszu do rzęs, bez konieczności mocnego pocierania. Płyn micelarny jest odświeżający i czysty, pozostawiając moją skórę miękką i nawilżoną. Podoba mi się w nim to, że nie ma mocnego zapachu, dzięki czemu jest idealny dla osób o wrażliwej skórze lub nosie",
+   "tags": [
+    "drying_barrier",
+    "irritation",
+    "smell",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry na rzęsy. Stosuję OLEJEK od około 3 tygodni. Przede wszystkim butelka w połączeniu z pipetą to naprawdę porażka. Pipeta jest za duża, a OLEJek za gęsty, dlatego nie można włożyć pipety z powrotem do butelki, aby gęsty olej nie spłynął po zewnętrznej stronie butelki. Dlatego nie wyciągam pipety do końca, ale zamiast tego wyjmuję olej z uchwytu pipety i pozwalam mu wsunąć się z powrotem do butelki. Moje rzęsy są teraz dłuższe, bardziej podkręcone i nie łamią się już. Nie zauważyłam jeszcze żadnej różnicy w zmarszczkach. Po kilku dniach przyzwyczaiłem się do tego zapachu",
+   "tags": [
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "trochę sceptyczny. Po pierwsze: produkt działa, to prawda. Skóra staje się gładka, a trądzik ustępuje. Ale: po tygodniu bariera skórna jest tak osłabiona, że ​​skóra staje się sucha. I tak, stosowałem inne produkty do „chemicznego” utrzymania bariery skórnej. Pytanie tylko, czy na drobne zanieczyszczenia warto stosować produkt Tiktok. Odradzałbym to. Rozwiązaniem tymczasowym jest jednak używanie go cyklicznie. Szczególnie u kobiet w średnim wieku. Zapisujesz więc, kiedy w cyklu miesięcznym pojawiają się zanieczyszczenia i następnie stosujesz produkt przez 3 dni. :)",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "smell"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Zapewnia to, co obiecuje, i zapewnia wiele. Bardzo dobry produkt, usuwa olej i utrzymuje go na długo. „Myje” twarz jak wodą i mydłem.  Nie jestem przyzwyczajona do makijażu, więc nie mogę powiedzieć, czy sprawdza się również jako płyn do demakijażu. Jestem bardzo alergikiem, zauważyłem, że kiedy go używam, pojawiają mi się drobne krostki na czole. Coś, co NIE przytrafia się mojej siostrze i szwagierce, więc wiem, że ma to więcej wspólnego ze mną niż z produktem. To samo powiedziała moja dermatolog, że jest to jeden z produktów mniej uczulających. Polecam produkt i kupiłbym go ponownie, ponieważ spełnia swój cel i mój cel.",
+   "tags": [
+    "breakouts",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry olejek do demakijażu o działaniu odżywczym. Olejku jojoba używam głównie do demakijażu i ogólnie jestem bardzo zadowolona. Tusze do rzęs i makijaż są usuwane niezawodnie – jedynie uporczywe pozostałości trzeba przecierać 2-3 razy i jest to całkowicie w porządku. Szczególnie pozytywne jest dla mnie to, że olejek jednocześnie odżywia skórę, a potem pozostawia ją przyjemnie miękką. Pojemność butelki jest dobra w stosunku do ceny, starcza na długo dzięki oszczędnemu użytkowaniu. Pipeta jest bardzo praktyczna, umożliwia nałożenie olejku bezpośrednio na wacik bez rozlewania",
+   "tags": [
+    "packaging",
+    "makeup_removal",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Oczywiście. Na ten płyn micelarny trafiłam dzięki przypomnieniu od influencerki i szczerze jestem zachwycona. Nie daję mu 5 gwiazdek, bo jeśli macie tak wrażliwą skórę jak moja, to przy częstym używaniu bawełny może Was podrażnić. Robię podwójne oczyszczanie. Oznacza to, że używam tego produktu jako płynu do demakijażu, a następnie przemywam twarz innym produktem, ale można go również stosować samodzielnie. Warto zainwestować. Jeśli używasz jednego z GARNIER lub LOREAL, które są bardziej agresywne lub irytujące; zmień na ten, ale szybko i zobaczysz różnicę",
+   "tags": [
+    "irritation",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Olej wycieka na zewnątrz butelki. Olej rycynowy jest bardzo lepki i ma gęstą konsystencję. Szyjka butelki jest zbyt wąska w stosunku do średnicy pipety. Przy każdym ruchu pipety dołączony olej rycynowy spływa po zewnętrznej stronie butelki przez szyjkę. Średnica pipety powinna być mniejsza lub otwór szyjki większy. Właściwy bałaganDodatek: sprzedawca natychmiast odpowiedział na moją recenzję i doszliśmy do porozumienia. Rozmiar otworu butelki/pipety jest dostosowany. Świetna obsługa klienta",
+   "tags": [
+    "misleading_oil",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Najlepszy środek czyszczący, jakiego kiedykolwiek używałam 🧴✨. W ciągu ostatniego roku używałam wielu produktów do pielęgnacji skóry, ale piankowy żel oczyszczający La Roche-Posay Effaclar to produkt, który naprawdę mnie zaskoczył swoją skutecznością. Wybrałem go około trzy miesiące temu po przeczytaniu o nim w Internecie i zobaczeniu, że jest polecany wszędzie dla skóry tłustej i skłonnej do trądziku. Od tego czasu na stałe zagościł w mojej codziennej rutynie i szczerze nie wyobrażam sobie powrotu do czegokolwiek innego. Mój typ skóry to mieszany, co oznacza, że ​​czoło, nos i broda przetłuszczają się w ciągu dnia, podczas gdy reszta twarzy pozostaje w miarę normalna. Od czasu do czasu zdarzają mi się też wypryski, zwłaszcza gdy zmienia się pogoda lub gdy jestem zestresowany. Większość środków czyszczących, których próbowałem wcześniej, albo całkowicie wysuszała moją skórę, albo nie czyściła wystarczająco głęboko, więc zawsze istniał kompromis. Ten żel to dla mnie zmienił. Pierwszą rzeczą, na którą zwróciłam uwagę, gdy zaczęłam go używać, była konsystencja. Żel jest przezroczysty i lekki, wystarczy niewielka ilość, aby uzyskać przyjemną, delikatną pianę. Postępuję zgodnie z sugerowaną metodą, rozgrzewając twarz wodą, wmasowując żel w strefę T i szyję, a następnie spłukując zimną wodą. Cały proces jest odświeżający i uspokajający, wcale nie ostry. Moja skóra nigdy nie jest po nim napięta ani ściągnięta, co było dużym problemem w przypadku innych pianek oczyszczających, które próbowałam wcześniej. To, co naprawdę przekonało mnie do pozostania przy tym produkcie, to to, co działo się przez pierwsze kilka tygodni konsekwentnego stosowania. Zauważyłam, że pory w okolicy nosa są widocznie mniej zatkane. Małe zaskórniki, z którymi zawsze się borykałam, zaczęły zauważalnie się zmniejszać. Wypryski stały się rzadsze, a jeśli już się pojawił, był mniejszy i znikał szybciej niż zwykle. Tekstura mojej skóry ogólnie zaczęła być gładsza, a cera wyglądała bardziej równomiernie i wyraźnie. To był punkt zwrotny, w którym wiedziałam, że ten produkt faktycznie robi coś naprawdę, a nie tylko czyści powierzchnię. Fakt, że zawiera wodę termalną La Roche-Posay, naprawdę znacząco zmienił moje doświadczenia. Nawet w dni, kiedy moja skóra jest nieco wrażliwa lub podrażniona, ten środek czyszczący nie pogarsza jej. Nie ma żadnego pieczenia, żadnego zaczerwienienia, nic nieprzyjemnego. Jest naprawdę delikatny, a jednocześnie skuteczny w usuwaniu nadmiaru sebum i codziennych zabrudzeń. Dla osób o wrażliwej skórze jest to ogromna sprawa, ponieważ wiele produktów na trądzik jest zbyt agresywnych. Z praktycznego punktu widzenia produkt ma doskonałą wartość. Butelka o pojemności 400ml z dozownikiem z pompką jest bardzo łatwa w użyciu. Na jedno mycie wystarczy jedna lub dwie pompki, więc butelka wystarcza mi na solidne trzy do czterech miesięcy, nawet przy stosowaniu dwa razy dziennie, rano i wieczorem. Mechanizm pompki działa płynnie za każdym razem, a butelka jest lekko przezroczysta, dzięki czemu możesz zobaczyć, kiedy zaczyna się kończyć i zamówić wymianę na czas. Biorąc pod uwagę jakość i trwałość, cena jest w pełni uzasadniona. Używam go codziennie rano, aby rozpocząć dzień czystą, świeżą bazą przed nałożeniem kremu nawilżającego i filtra przeciwsłonecznego, a wieczorem, aby zmyć wszystko z dnia. Bardzo dobrze komponuje się z resztą mojej rutyny i zauważyłem, że inne moje produkty wydają się lepiej wchłaniać, odkąd zacząłem używać tego środka czyszczącego, prawdopodobnie dlatego, że moja skóra jest właściwie czysta i nie ulega uszkodzeniom",
+   "tags": [
+    "drying_barrier",
+    "breakouts",
+    "irritation",
+    "authenticity"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "💧 „Czysta natura dla włosów, skóry i duszy”. Jeśli olejek już po otwarciu pachnie „starym, dobrym środkiem do pielęgnacji domu”, moje zaufanie jest prawie zdobyte – i tak właśnie jest w przypadku organicznego olejku rycynowego Kanzy. Butelka z przezroczystego szkła, minimalistyczny design, a co najważniejsze: tłoczona na zimno, bez dodatków i cudownie gęsta. Prawdziwie wszechstronny produkt dla każdego, kto nie sięga od razu po tubkę, gdy odczuwa ból. 😊💖 Co mnie przekonałoWszechstronność do potęgi dziesiątej ✨Włosy, skóra, paznokcie, rzęsy, brwi - testowałam to niemal wszędzie. Olejek jest prawdziwym wybawieniem, szczególnie jeśli masz łamliwe zimowe usta lub szorstkie skórki. I tak, rzęsy i brwi naprawdę wyglądają na mocniejsze po kilku tygodniach. 💁‍♂️👁️Cud włosów dzięki cierpliwości 🧴Wmasowany w końcówki, pozostawiony na noc, a następnego ranka włosy są gładsze i znacznie mniej słomkowe. Idealny dla osób z suchymi włosami lub rozdwajającymi się końcówkami – ale nie bezpośrednio u nasady, bo inaczej: uwaga na olej! 🚿Rozsądna ilość w dobrej cenie 💸100ml to nie wydaje się dużo, ale ze względu na gęstą konsystencję wystarczy dosłownie kilka kropel na aplikację. Butelka spokojnie wystarcza na tygodnie, jeśli nie miesiące.🛠️ Co warto wiedzieć (ale z czym można sobie poradzić) Bardzo gęsta = cierpliwość przy rozprowadzaniu ⏳Olej jest dość lepki - prawie jak syrop. Do stosowania na skórę lub włosy lepiej zmieszać go z drugim lekkim olejkiem (np. jojoba) lub dobrze wmasować ciepłymi dłońmi. Zapach jest... naturalny 😅 Nie jest to cud zapachowy, ale szczerze: to produkt pielęgnacyjny, a nie perfumy. Jeśli wolisz coś kwiatowego, możesz dodać 1-2 krople olejku lawendowego. 🌸Brakuje pipety 🧪Pipeta lub dozownik byłby tu na wagę złota. Dlatego często kapiesz więcej niż to konieczne. Wskazówka: kup mini pipetę w aptece lub nalej ją do dozownika z pompką.💡 Porady i triki z mojego doświadczenia💆‍♀️ Zrób własne serum do rzęs: olej rycynowy + aloes + stara szczoteczka do tuszu = naturalny booster💅 Kuracja skórek: 1 kropla na każdy palec wieczorem, delikatnie wmasuj = widocznie bardziej zadbane paznokcie💇 Nocna pielęgnacja włosów: w opcji Daj długości, za pomocą turban lub czepek = lśniące włosy o poranku👨‍🦲 Wskazówka dotycząca pielęgnacji brody dla mężczyzn: Wmasuj w suche miejsca – odżywia i zapobiega swędzeniu📜 Mój wniosek: Kanzy to ma! Dla wszystkich, którzy kochają naturalne produkty pielęgnacyjne i mają odrobinę cierpliwości, ten organiczny olej rycynowy to prawdziwy skarb. Nie potrzebuje perfum, żadnych dodatków, żadnych obietnic – działa, jeśli użyjesz go prawidłowo. Niezależnie od tego, czy chodzi o mocniejsze rzęsy, zadbaną skórę czy lśniące włosy: ta mała butelka może więcej, niż myślisz. 🌟📣 👉Przy okazji: jeśli szukasz pięknych motywów do kalendarzy, puzzli czy dekoracji na płótnie - wystarczy, że wpiszesz na Amazonie „Marco Warstat”. Od zorzy polarnej po selfie zombie – jest tam wszystko! 😄🖼️💡",
+   "tags": [
+    "irritation",
+    "misleading_oil",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Najbardziej lepkie złoto na świecie - teraz jestem oficjalnie chodzącą warstwą tłuszczu! ⭐⭐⭐⭐⭐. Zamówiłam olejek rycynowy Kanzy, bo w internecie obiecano mi, że po trzech kroplach będę wyglądać jak skrzyżowanie Roszpunki z bardzo zadbanym wilkołakiem. Oto moja relacja ze świata zadbanej lepkości.🍯 Konsystencja: płynny beton czy miód na sterydach? Każdy, kto wierzy, że olej rycynowy jest „olejem lekkim”, wierzy również, że motyle siarkowe marszczą cytryny. Ten materiał jest tak lepki, że kiedy nałożyłem go na brwi, prawie czułem się, jakbym cementował je do twarzy. Jeśli przypadkowo oprzesz się nim o ścianę, prawdopodobnie będziesz potrzebować straży pożarnej, aby cię wydostać.👁️ Rzęsy i brwi: Nadzieja umiera ostatnia. Teraz co wieczór smaruję nim rzęsy. Wynik: wyglądam, jakbym rano przegrał mecz bokserski z beczką po oliwie z oliwek. Widzę trochę niewyraźnie (och, film olejny!), ale rzęsy są tak ciężkie, że prawie ćwiczę powieki, kiedy mrugam. Szum: Czy urosły? Nie mam pojęcia, ale są teraz tak dobrze naoliwione, że krople deszczu spływają po mojej twarzy jak świeżo nawoskowana maska ​​samochodu.💆‍♀️ Pielęgnacja włosów: Frytownica Próbowałam wcisnąć ją w końcówki włosów. Błąd. Wyglądałem, jakbym na trzy dni włożył głowę do frytownicy. Ale – i o to chodzi – po umyciu ich trzema litrami szamponu i samą siłą, moje włosy były naprawdę miękkie. Olejek po prostu się nie poddaje!🎨 Opakowanie: 50ml czystej dominacji. Butelka jest niewielka, brązowa i wygląda bardzo medycznie. Pachnie subtelnie „naturą”, co jest prawdopodobnie uprzejmym określeniem „starej piwnicy z nutą fasoli”. Szklana pipeta doskonale rozprowadza lepkie złoto dokładnie tam, gdzie nie chcesz już więcej odkurzać. ✅ Dlaczego nadal daję jej 5 gwiazdek: To prawda: nic nie jest naciągnięte. Jest tak czysty, że prawdopodobnie można go używać jako oleju przekładniowego do czołgów. Wszechstronny: brwi, rzęsy, paznokcie, zawiasy w drzwiach wejściowych – ten olej poradzi sobie ze wszystkim. Wydajność: Ponieważ jest tak mocny, butelka 50 ml prawdopodobnie wystarczy do roku 2045. Premia organiczna: teraz jestem lepki, ale przynajmniej jestem ekologicznie wartościowy. 📝 WniosekKanzy zapewnia dokładnie to, co obiecuje: 100% czystej, tłoczonej na zimno wytrzymałości. To coś dla tych, którzy są gotowi dać wszystko dla piękna (w tym możliwość dotykania rzeczy bez pozostawiania tłustych śladów). Jeśli chcesz błyszczeć i nie boisz się dotyku kleju: kup!",
+   "tags": [
+    "drying_barrier",
+    "misleading_oil",
+    "packaging",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Delikatny, ale skuteczny środek czyszczący do skóry wrażliwej. Płyn micelarny BIODERMA Créaline H2O stał się niezbędnym elementem mojej pielęgnacji, zwłaszcza mojej wrażliwej skóry. Ten produkt zapewnia dokładnie to, co obiecuje — dokładne, a jednocześnie delikatne oczyszczanie. Delikatny płyn do demakijażu: Jedną z wyjątkowych cech tego płynu micelarnego jest skuteczność usuwania makijażu, w tym uporczywego wodoodpornego tuszu do rzęs, bez konieczności mocnego pocierania. Bez wysiłku oczyszcza skórę, pozostawiając ją świeżą i nawilżoną, a nie ściśniętą i suchą jak inne środki czyszczące. Idealny dla skóry wrażliwej: Moja skóra jest dość wrażliwa i w przeszłości miałam problemy z podrażnieniami spowodowanymi innymi środkami do demakijażu. Jednak to rozwiązanie BIODERMY jest niezwykle delikatne. Zawiera ekstrakty z ogórka, które łagodzą skórę i zmniejszają zaczerwienienia i podrażnienia. Mogę go używać wokół oczu i ust bez żadnego dyskomfortu, co jest dla mnie ogromnym plusem. Nie wymaga spłukiwania: Najbardziej w tym produkcie podoba mi się to, że nie trzeba go spłukiwać. Pozostawia moją skórę czystą i miękką, bez żadnych pozostałości, co czyni go idealnym na noce, kiedy jestem zbyt zmęczona, aby wykonywać pełną pielęgnację skóry. Odświeżający zapach: Lekki, przyjemny zapach to kolejna zaleta. Nie jest przytłaczający, a jedynie subtelny, orzeźwiający zapach, który potęguje ogólne wrażenia. Wniosek: Jeśli masz wrażliwą skórę i szukasz niezawodnego, delikatnego płynu do mycia twarzy, który skutecznie usuwa makijaż i oczyszcza skórę, nie powodując podrażnień, gorąco polecam BIODERMA Créaline H2O Płyn Micelarny. Jest to trochę kosztowne, ale całkowicie tego warte ze względu na komfort i skuteczność, jaką zapewnia",
+   "tags": [
+    "irritation",
+    "smell",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wreszcie żel czyszczący, który naprawdę robi wrażenie na całej rodzinie. Od nastolatków po mamy – w końcu żel oczyszczający, który każdy może tolerować. Z tego żelu oczyszczającego korzystają obecnie cztery osoby i to mówi wszystko. Od 13-letniej nastolatki w okresie dojrzewania, przez dwie starsze nastolatki z zanieczyszczoną, hormonalną skórą, po mnie w wieku 40 lat z bardziej wrażliwą skórą dorosłych, działa niesamowicie dobrze na każdego. A to coś, czego rzadko doświadczasz. Po oczyszczeniu Twoja skóra jest świeża, czysta i gładka, ale bez nieprzyjemnego uczucia ściągnięcia, które niestety pozostawia po sobie wiele żeli oczyszczających. Nie wysusza, nie podrażnia skóry, nie powoduje zaczerwienienia i pieczenia. Szczególnie w przypadku skóry dojrzewającej ważne było dla mnie, aby oczyszczenie było dokładne, ale jednocześnie aby bariera ochronna skóry nie została całkowicie zniszczona i ten żel właśnie to robi. Wystarczy mała pompka. Przyjemnie się pieni, łatwo rozprowadza się na wilgotnej twarzy, a mycie jest naprawdę przyjemne. Potem naprawdę masz uczucie czystej skóry, bez uczucia „pisania” i wyglądu skóry przesadnie pielęgnowanej. Rzeczywiście można zauważyć, że jest bezzapachowy i działa z ceramidami i kwasem hialuronowym. Skóra wydaje się ukojona, czysta, a jednocześnie wypielęgnowana. Myślę, że to ogromny plus, szczególnie w przypadku skóry wrażliwej lub zanieczyszczonej. Dla nas jest to teraz stały produkt w łazience i bardzo wyraźna rekomendacja zakupu",
+   "tags": [
+    "drying_barrier",
+    "irritation",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Skuteczność czyszczenia – cena i efekt. La Roche-Posay Effaclar Gel Moussant to najlepszy żel do mycia twarzy jaki testowałam. Mam wrażliwą skórę, która ma tendencję do tworzenia się wyprysków, które pojawiają się szczególnie pod ziemią i stają się bardzo zaognione. Działanie oczyszczające: Skuteczność czyszczenia jest znakomita, ponieważ codzienne zabrudzenia i nadmiar sebum są usuwane delikatnie i przyjemnie, nie podrażniając skóry. Ma również bardzo łagodny i przyjemny zapach, który jest bardzo odpowiedni dla wrażliwych nosów. Korzystny efekt: Rzeczywiście, był zaskakująco dobry efekt, którego szukałem od dawna -> Moje pryszcze, które stają się szczególnie niekorzystnie zaognione, zostały wielokrotnie zredukowane! Wypryski są mniej widoczne, a stany zapalne są zmniejszone. Jeśli więc nadal szukasz bardzo skutecznych żeli oczyszczających do skóry wrażliwej, skłonnej do wyprysków, ten produkt jest OBOWIĄZKĄ! Cena/wydajność (+objętość): Czyli pojemność 200ml wystarczy mi na ponad miesiąc. Przy cenie około 13 € jest to więcej niż uzasadnione! Pod względem skuteczności w zasadzie wydajność przekłada się na cenę, dla mnie ten produkt to absolutny zwycięzca wszystkich żeli oczyszczających. Podsumowanie: Wszystko w jednym, prawdziwy bohater wszystkich żeli oczyszczających do twarzy. Wrażliwa skóra ze skłonnością do wyprysków jest tu wyraźnie zaspokojona, a życzenia spełnione w pełni. Cena jest w 100% uczciwa. Ogólnie rzecz biorąc, jasna rekomendacja!",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "misleading_oil",
+    "smell"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Intensywna pielęgnacja w formie kropli – zastrzyk witaminy E dla skóry suchej 💧✨. Używam Kanzy Vitamin E Oil Organic głównie do pielęgnacji twarzy i jako wzmacniacz do mojego zwykłego kremu i ogólnie jestem bardzo zadowolony. Krople są bardzo skuteczne – zazwyczaj wystarczą 1-2 krople, albo same na lekko zwilżoną skórę, albo zmieszane z produktem pielęgnacyjnym. Olej jest dość bogaty, ale nie sprawia wrażenia „skórki bekonu”, jeśli użyjesz go oszczędnie. Następnego ranka moja skóra wydaje się gładsza, drobne zmarszczki wynikające z przesuszenia są znacznie zmniejszone, a podrażnione miejsca szybciej się uspokajają. Świetnie sprawdza się również na skórki, suche łokcie czy drobne szorstkie miejsca na kolanach/piętach. Za plus uważam również to, że olejek nie zawiera żadnych zbędnych dodatków i znajduje się w praktycznej butelce z zakraplaczem, dzięki której można bardzo precyzyjnie dozować. Zapach jest subtelny i nieperfumowany, co jest dla mnie ważne w pielęgnacji twarzy. Ważne: Jeśli masz skórę tłustą lub zanieczyszczoną, powinieneś używać bardzo małej ilości olejku lub stosować go tylko wybiórczo, ponieważ czysta witamina E jest dość bogata. W przypadku skóry suchej, dojrzałej lub zestresowanej jest jednak doskonałym uzupełnieniem rutynowej pielęgnacji. Ogólnie rzecz biorąc, wysokiej jakości, wszechstronny olejek pielęgnacyjny, który mogę szczególnie polecić do skóry suchej i wymagającej pielęgnacji. ⭐️⭐️⭐️⭐️⭐️",
+   "tags": [
+    "irritation",
+    "smell",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Entuzjastyczny. Długo szukałam produktów, które spełnią to, co obiecują. Próbowałem kilku rzeczy, ale nic naprawdę nie pomogło. Kiedy zmieniłam pigułkę, nadal borykałam się z pryszczami na plecach i dekolcie. W pewnym momencie było już tak źle, że nie nosiłam już bluzek z dekoltem. Potem odkryłam żel oczyszczający La Roche-Posay i same pozytywne recenzje, więc dałam produktowi szansę. Możesz spróbować. I co mogę powiedzieć..? Jestem absolutnie zachwycony. Wreszcie widzę efekt o jakim zawsze marzyłam. Moje pryszcze prawie całkowicie zniknęły, a moja skóra nabiera blasku. Używam tego produktu od około 1 1/2 tygodnia i różnica w porównaniu do poprzedniego jest ogromna. Używam go codziennie rano i wieczorem, nie ma żadnego pieczenia ani innych problemów. Kupiłbym go ponownie i ponownie. Jedyne co mi się nie podoba to zapach, ale dopóki pomaga, nie przejmuję się tym. Zamówiłam także tonik i krem ​​nawilżający z żelem. To połączenie jest nie do pobicia",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "authenticity",
+    "smell"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wszechstronny olejek pielęgnacyjny do skóry i włosów - delikatny olejek ze słodkich migdałów 🌸✨. Obecnie olejku ze słodkich migdałów Naissance (nr 215) używam niemal do wszystkiego: twarzy, ciała, dłoni, paznokci, a czasami także na końcówki włosów i jestem naprawdę bardzo zadowolona. Konsystencja jest lekka do średniej, łatwo się rozprowadza i dobrze wchłania, nie pozostawiając wyjątkowo tłustego filmu. Skóra staje się wtedy miękka, wypielęgnowana i ukojona, szczególnie po prysznicu lub goleniu. Świetnie sprawdza się także jako olejek do masażu, ponieważ „ślizga się” wystarczająco długo i nie wchłania się zbyt szybko. Zapach jest bardzo subtelny, orzechowy i nieperfumowany, co czyni go szczególnie przyjemnym dla wrażliwej skóry. Lubię go również stosować na skórki i suche dłonie – już po kilku użyciach paznokcie wydają się bardziej zadbane, a skórka mniej popękana. Jest także świetną bazą do kosmetyków DIY (np. domowych olejków do ciała czy maści z olejkami eterycznymi). Ogólnie rzecz biorąc, jest to uniwersalny, dobrze tolerowany, naturalny olejek bez zbędnych dodatków, który zawsze można zastosować w łazience. Jasne zalecenie. ⭐️⭐️⭐️⭐️⭐️",
+   "tags": [
+    "smell",
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wszechstronny olejek pielęgnacyjny do skóry i włosów - delikatny olejek ze słodkich migdałów 🌸✨. Obecnie olejku ze słodkich migdałów Naissance (nr 215) używam niemal do wszystkiego: twarzy, ciała, dłoni, paznokci, a czasami także na końcówki włosów i jestem naprawdę bardzo zadowolona. Konsystencja jest lekka do średniej, łatwo się rozprowadza i dobrze wchłania, nie pozostawiając wyjątkowo tłustego filmu. Skóra staje się wtedy miękka, wypielęgnowana i ukojona, szczególnie po prysznicu lub goleniu. Świetnie sprawdza się także jako olejek do masażu, ponieważ „ślizga się” wystarczająco długo i nie wchłania się zbyt szybko. Zapach jest bardzo subtelny, orzechowy i nieperfumowany, co czyni go szczególnie przyjemnym dla wrażliwej skóry. Lubię go również stosować na skórki i suche dłonie – już po kilku użyciach paznokcie wydają się bardziej zadbane, a skórka mniej popękana. Jest także świetną bazą do kosmetyków DIY (np. domowych olejków do ciała czy maści z olejkami eterycznymi). Ogólnie rzecz biorąc, jest to uniwersalny, dobrze tolerowany, naturalny olejek bez zbędnych dodatków, który zawsze można zastosować w łazience. Jasne zalecenie. ⭐️⭐️⭐️⭐️⭐️",
+   "tags": [
+    "smell",
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wszechstronny olejek pielęgnacyjny do skóry i włosów - delikatny olejek ze słodkich migdałów 🌸✨. Obecnie olejku ze słodkich migdałów Naissance (nr 215) używam niemal do wszystkiego: twarzy, ciała, dłoni, paznokci, a czasami także na końcówki włosów i jestem naprawdę bardzo zadowolona. Konsystencja jest lekka do średniej, łatwo się rozprowadza i dobrze wchłania, nie pozostawiając wyjątkowo tłustego filmu. Skóra staje się wtedy miękka, wypielęgnowana i ukojona, szczególnie po prysznicu lub goleniu. Świetnie sprawdza się także jako olejek do masażu, ponieważ „ślizga się” wystarczająco długo i nie wchłania się zbyt szybko. Zapach jest bardzo subtelny, orzechowy i nieperfumowany, co czyni go szczególnie przyjemnym dla wrażliwej skóry. Lubię go również stosować na skórki i suche dłonie – już po kilku użyciach paznokcie wydają się bardziej zadbane, a skórka mniej popękana. Jest także świetną bazą do kosmetyków DIY (np. domowych olejków do ciała czy maści z olejkami eterycznymi). Ogólnie rzecz biorąc, jest to uniwersalny, dobrze tolerowany, naturalny olejek bez zbędnych dodatków, który zawsze można zastosować w łazience. Jasne zalecenie. ⭐️⭐️⭐️⭐️⭐️",
+   "tags": [
+    "smell",
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wysokiej jakości olejek z drzewa herbacianego z praktyczną pipetą. Olejek z drzewa herbacianego sprawia wrażenie bardzo czystego i skoncentrowanego. Typowy, intensywny zapach jest wyraźnie wyczuwalny i świadczy o wysokiej jakości. Stwierdzenie „tłoczony na zimno” jest dla wielu istotne, ponieważ w procesie tym składniki są szczególnie delikatnie ekstrahowane. Pipeta znacznie ułatwia dozowanie. Zwłaszcza przy selektywnym stosowaniu – na przykład przy niedoskonałościach skóry lub dodawaniu do produktów pielęgnacyjnych – olejek można usunąć kropla po kropli. Szklana butelka działa stabilnie i chroni olejek przed światłem, co ma kluczowe znaczenie dla trwałości olejków eterycznych. Ważne jest, aby – jak w przypadku wszystkich olejków eterycznych – na wrażliwą skórę stosować wyłącznie olejek rozcieńczony i wcześniej przeprowadzić test tolerancji. Ogólnie rzecz biorąc, produkt przekonujący dla każdego, kto ceni czystość, dozowalność i szeroką gamę możliwych zastosowań",
+   "tags": [
+    "breakouts",
+    "misleading_oil",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "„Najlepszy dla skóry wrażliwej – mój ulubieniec od lat!”. To już moja trzecia butelka płynu micelarnego BIODERMA Sensibio H2O i nadal jestem zachwycona. Z wiekiem moja skóra staje się coraz bardziej wrażliwa i często nie toleruję już innych produktów. Z drugiej strony ten produkt ogromnie pomaga mojej skórze. Nawilża, zmniejsza suchość i widocznie poprawia cerę. Odkąd go używam, mam też mniej problemów i podrażnień skóry. Im dłużej go używam, tym jestem szczęśliwszy. Zwykle zamawiam go w aptece, ale tym razem został tam wyprzedany. Kupiłem go więc na Amazonie i byłem mile zaskoczony: dostawa była szybka, cena była tania i mogłem z łatwością zamówić go jako pojedynczy produkt. Prawdopodobnie w przyszłości kupię go tylko na Amazonie",
+   "tags": [
+    "drying_barrier",
+    "irritation",
+    "packaging",
+    "makeup_removal"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Lekki, szybko wchłaniający się olejek z dzikiej róży o świetnych wynikach. Używam regularnie tego olejku z dzikiej róży i jestem z niego bardzo zadowolona. Pierwszą rzeczą, którą zauważyłam, było to, jak szybko się wchłania w skórę w porównaniu do wielu innych olejków, które próbowałam. Nie pozostawia uczucia ciężkości i nadmiernej tłustości, dzięki czemu można go stosować zarówno na dzień, jak i na noc. Olejek jest wysokiej jakości, a jego niewielka ilość wystarcza na długo. Używam go do twarzy i pozostawia moją skórę miękką, odżywioną i dobrze nawilżoną. Doceniam również to, że jest organiczny, tłoczony na zimno, wegański i wolny od zbędnych dodatków. Duża butelka o pojemności 120 ml oferuje doskonały stosunek jakości do ceny i powinna starczyć na długo. Ogólnie rzecz biorąc, jest to świetny naturalny produkt do pielęgnacji skóry dla każdego, kto szuka lekkiego olejku do twarzy, który szybko się wchłania i zapewnia trwałe nawilżenie",
+   "tags": [
+    "packaging",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dokładnie oczyszcza i jest delikatny dla skóry. Używam żelu oczyszczającego regularnie i jestem bardzo zadowolona. Dokładnie oczyszcza skórę z nadmiaru sebum, brudu i pozostałości, nie pozostawiając nieprzyjemnego uczucia ściągnięcia. Po użyciu skóra jest czysta, świeża i przyjemna. Za szczególnie pozytywne uważam fakt, że żel jest bardzo skuteczny. Nawet niewielka ilość wystarczy do codziennego mycia. Przyjemnie się pieni, łatwo się zmywa i nie pozostawia lepkiego filmu. Moim zdaniem to bardzo dobry wybór do cery tłustej i skłonnej do zanieczyszczeń. Skóra wygląda na zadbaną, czystą i znacznie świeższą. Kupiłbym ponownie w dowolnym momencie",
+   "tags": [
+    "drying_barrier",
+    "smell",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olej ze słodkich migdałów 1 litr - dobry i wartościowy produkt. Nie chciałam w to wierzyć, ale olej migdałowy to naprawdę świetna alternatywa dla wszystkich zwykłych ptysiów. Uważam, że to doskonały stosunek jakości do ceny. Nie ma nieprzyjemnego zapachu, a migdały przechodzą bardzo delikatnie, co mi odpowiada. Jak dla mnie mogę mówić o wyraźnie lepszej cerze...świeższej i z przyjemną matową głębią. Nie żebym nie miała już zmarszczek, ale te które mam i tak wyglądają o wiele ładniej :-) Wbrew moim początkowym obawom olejek naprawdę szybko się wchłania i nie utrudnia porannej rutyny. Byłbym wtedy w pełni usatysfakcjonowany",
+   "tags": [
+    "smell",
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olej ze słodkich migdałów 1 litr - dobry i wartościowy produkt. Nie chciałam w to wierzyć, ale olej migdałowy to naprawdę świetna alternatywa dla wszystkich zwykłych ptysiów. Uważam, że to doskonały stosunek jakości do ceny. Nie ma nieprzyjemnego zapachu, a migdały przechodzą bardzo delikatnie, co mi odpowiada. Jak dla mnie mogę mówić o wyraźnie lepszej cerze...świeższej i z przyjemną matową głębią. Nie żebym nie miała już zmarszczek, ale te które mam i tak wyglądają o wiele ładniej :-) Wbrew moim początkowym obawom olejek naprawdę szybko się wchłania i nie utrudnia porannej rutyny. Byłbym wtedy w pełni usatysfakcjonowany",
+   "tags": [
+    "smell",
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olej ze słodkich migdałów 1 litr - dobry i wartościowy produkt. Nie chciałam w to wierzyć, ale olej migdałowy to naprawdę świetna alternatywa dla wszystkich zwykłych ptysiów. Uważam, że to doskonały stosunek jakości do ceny. Nie ma nieprzyjemnego zapachu, a migdały przechodzą bardzo delikatnie, co mi odpowiada. Jak dla mnie mogę mówić o wyraźnie lepszej cerze...świeższej i z przyjemną matową głębią. Nie żebym nie miała już zmarszczek, ale te które mam i tak wyglądają o wiele ładniej :-) Wbrew moim początkowym obawom olejek naprawdę szybko się wchłania i nie utrudnia porannej rutyny. Byłbym wtedy w pełni usatysfakcjonowany",
+   "tags": [
+    "smell",
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Świetna jakość za uczciwą cenę. Używam olejku migdałowego już jakiś czas i jestem pod ogromnym wrażeniem jego jakości. Olejek ma przyjemnie lekką konsystencję, dobrze się wchłania, nie zostawia tłustej warstwy i pachnie delikatnie orzechowo – dokładnie tak, jak oczekuję od naturalnego olejku do ciała. Niezależnie od tego, czy chodzi o pielęgnację ciała po kąpieli, jako olejek bazowy do masażu/kąpieli czy do pielęgnacji włosów - jest niezwykle wszechstronny. Widać dbałość o jakość i czystość. Dla każdego, kto ceni naturalną pielęgnację i szuka niezawodnego olejku bazowego, jest to absolutna rekomendacja. → Jasna rekomendacja - 5/5 ✅",
+   "tags": [
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Świetna jakość za uczciwą cenę. Używam olejku migdałowego już jakiś czas i jestem pod ogromnym wrażeniem jego jakości. Olejek ma przyjemnie lekką konsystencję, dobrze się wchłania, nie zostawia tłustej warstwy i pachnie delikatnie orzechowo – dokładnie tak, jak oczekuję od naturalnego olejku do ciała. Niezależnie od tego, czy chodzi o pielęgnację ciała po kąpieli, jako olejek bazowy do masażu/kąpieli czy do pielęgnacji włosów - jest niezwykle wszechstronny. Widać dbałość o jakość i czystość. Dla każdego, kto ceni naturalną pielęgnację i szuka niezawodnego olejku bazowego, jest to absolutna rekomendacja. → Jasna rekomendacja - 5/5 ✅",
+   "tags": [
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Świetna jakość za uczciwą cenę. Używam olejku migdałowego już jakiś czas i jestem pod ogromnym wrażeniem jego jakości. Olejek ma przyjemnie lekką konsystencję, dobrze się wchłania, nie zostawia tłustej warstwy i pachnie delikatnie orzechowo – dokładnie tak, jak oczekuję od naturalnego olejku do ciała. Niezależnie od tego, czy chodzi o pielęgnację ciała po kąpieli, jako olejek bazowy do masażu/kąpieli czy do pielęgnacji włosów - jest niezwykle wszechstronny. Widać dbałość o jakość i czystość. Dla każdego, kto ceni naturalną pielęgnację i szuka niezawodnego olejku bazowego, jest to absolutna rekomendacja. → Jasna rekomendacja - 5/5 ✅",
+   "tags": [
+    "gentle_sensitive",
+    "natural_versatile"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Świetne dla alergików 👍🏻. Niestety reaguję na mnóstwo kremów, serum, toników, płynów do demakijażu itp. Absolutnie nie tutaj!!! 😇😇😇Bardzo lekka woda, wodoodporny makijaż radzi sobie naprawdę dobrze. Żadnych zaczerwienień i swędzącej twarzy. Używałem drogich produktów (np. Shicheido) źle i za ułamek pieniędzy nie reaguję. Bardzo się cieszę, że to wypróbowałem. Zamówiłam kolejny balsam do mycia twarzy. Jasne zalecenie dla osób takich jak ja, które mają reakcje alergiczne",
+   "tags": [
+    "irritation",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo delikatny - idealny dla skóry wrażliwej. Dla mnie płyn micelarny BIODERMA Sensibio H2O to jeden z niewielu produktów, który naprawdę toleruję. Zalety: • Bardzo delikatny dla skóry • Nie podrażnia i nie piecze • Solidnie usuwa makijaż • Nie pozostawia lepkiego uczucia Moje wrażenia: Od razu widać różnicę, szczególnie przy wrażliwej skórze - dokładnie oczyszcza, nie obciążając skóry. Wniosek: Absolutnie zalecany do skóry wrażliwej. Łagodny, skuteczny i stanowiący integralną część mojej rutyny",
+   "tags": [
+    "irritation",
+    "makeup_removal",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo skuteczny przeciwko grzybicy paznokci. Jeśli kiedykolwiek zdarzy ci się mieć grzybicę paznokci, to jest ten produkt, który powinieneś kupić. Zacząłem około 5 miesięcy temu i mogę powiedzieć, że grzybica paznokci prawie zniknęła, połowa paznokcia u nóg została dotknięta, a teraz po dwukrotnym obcięciu wszystkich dotkniętych obszarów widzę rezultaty, potrzebujesz dużo cierpliwości i dyscypliny, zacząłem go używać raz dziennie, głównie wieczorami przed snem, a teraz dwa razy, rano i wieczorem po prysznicu. To działa!!",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Olejek z dzikiej róży. Olejek z dzikiej róży Kanzy robi wrażenie wysokiej jakości i można go łatwo włączyć do codziennej pielęgnacji. Konsystencja jest przyjemnie lekka, szybko się wchłania i nie pozostawia tłustej warstwy na skórze. Szczególnie pozytywne jest dla mnie to, że jest tłoczony na zimno i w 100% czysty, co jest dla mnie ważną cechą jakościową. Ogólnie rzecz biorąc, solidny produkt, z którego chętnie korzystam nadal",
+   "tags": [
+    "misleading_oil",
+    "natural_versatile"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1598 @@
+{
+ "totalReviews": 258035,
+ "avgRating": 4.55,
+ "productCount": 133,
+ "cpSummary": "Kupujący to głównie <strong>osoby przewlekle chore</strong> na łuszczycę, neurodermit (AZS) i egzemę, często po latach nieudanych terapii kortyzonem, oraz rodzice dzieci z bardzo suchą, wrażliwą skórą. Szukają skutecznego, najlepiej naturalnego kremu bez sterydów; jest to grupa zdesperowana, mocno kierująca się recenzjami i bardzo wrażliwa na skład, zapach i tolerancję produktu.",
+ "cpWho": {
+  "labels": [
+   "Łuszczyca",
+   "Egzema/AZS (neurodermit)",
+   "Sucha/bardzo sucha skóra",
+   "Wrażliwa/reaktywna skóra",
+   "Dzieci/niemowlęta"
+  ],
+  "pos": [
+   16,
+   12,
+   8,
+   5,
+   4
+  ],
+  "neg": [
+   22,
+   18,
+   20,
+   16,
+   3
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Codziennie (rano i wieczorem)",
+   "Na noc / przed snem",
+   "Zaostrzenia / atak choroby",
+   "Zima / suche powietrze",
+   "Długotrwale / przewlekle"
+  ],
+  "pos": [
+   15,
+   10,
+   12,
+   5,
+   8
+  ],
+  "neg": [
+   18,
+   6,
+   14,
+   6,
+   10
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Twarz",
+   "Dłonie / ramiona",
+   "Całe ciało",
+   "Skóra głowy",
+   "Zgięcia (łokcie/kolana) i stopy"
+  ],
+  "pos": [
+   10,
+   12,
+   8,
+   6,
+   9
+  ],
+  "neg": [
+   24,
+   10,
+   8,
+   5,
+   6
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Skuteczność / efekt leczniczy",
+   "Skład i bezpieczeństwo",
+   "Konsystencja / wchłanianie",
+   "Zapach",
+   "Cena"
+  ],
+  "pos": [
+   24,
+   4,
+   10,
+   3,
+   2
+  ],
+  "neg": [
+   20,
+   22,
+   18,
+   14,
+   16
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Leczenie łuszczycy bez kortyzonu",
+   "reason": "Przewlekli pacjenci szukają alternatywy dla maści sterydowych, które przerzedzają skórę",
+   "pct": "26.0%"
+  },
+  {
+   "label": "Łagodzenie egzemy / neurodermitu",
+   "reason": "Codzienna pielęgnacja zaczerwienionej, swędzącej, popękanej skóry",
+   "pct": "22.0%"
+  },
+  {
+   "label": "Nawilżanie bardzo suchej skóry",
+   "reason": "Krem bazowy na uczucie ściągnięcia, łuszczenie i szorstkość",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Aplikacja na noc na regenerację",
+   "reason": "Bogaty, tłusty krem nakładany wieczorem, żeby zadziałał podczas snu",
+   "pct": "13.0%"
+  },
+  {
+   "label": "Pielęgnacja skóry dzieci",
+   "reason": "Rodzice stosują na wysypki i AZS u niemowląt i małych dzieci",
+   "pct": "9.0%"
+  },
+  {
+   "label": "Kojenie podrażnień twarzy / bariery skórnej",
+   "reason": "Odbudowa uszkodzonej bariery po agresywnych kosmetykach i po goleniu",
+   "pct": "12.0%"
+  }
+ ],
+ "csSummary": "Sentyment jest silnie <strong>spolaryzowany (bimodalny)</strong>: około 60% recenzji z próbki to oceny negatywne (1-3★), a 40% wyraźnie pozytywne (4-5★). Nie ma środka - albo krem jest opisywany jako 'cud' ratujący po latach cierpień, albo jako produkt, który spalił skórę, nie zadziałał lub budzi obawy o skład. Ten sam produkt (zwłaszcza Sorion) dostaje skrajnie różne oceny zależnie od reakcji indywidualnej skóry.",
+ "negativeTopics": [
+  {
+   "label": "Reakcje niepożądane i pogorszenie skóry",
+   "reason": "Pieczenie, nasilone swędzenie, wysypka, a nawet reakcje alergiczne po aplikacji",
+   "pct": "27.0%",
+   "bullets": [
+    "Silne pieczenie zaraz po nałożeniu, zmuszające do zmycia kremu",
+    "Nasilenie zaczerwienienia, swędzenia i łuszczycy zamiast poprawy",
+    "Reakcje alergiczne wymagające wizyty u lekarza i kortyzonu",
+    "Fototoksyczne zapalenie skóry / reakcja na słońcu"
+   ],
+   "quotes": [
+    "POWODUJE REAKCJĘ ALERGICZNĄ!!!!! Musiałem iść do lekarza i przepisać mi maść z 2% hydrokortyzonem",
+    "Moje swędzące zaczerwienienie znacznie się nasiliło, do tego stopnia, że po drugim dniu musiałam przerwać",
+    "twarz paliła mnie jak ogień, a skóra się pogorszyła",
+    "Dermatolog zdiagnozował fototoksyczne zapalenie skóry"
+   ]
+  },
+  {
+   "label": "Obawy o skład i bezpieczeństwo",
+   "reason": "Klienci sprawdzają skład i krytykują wazelinę, parafinę, BHA i dwutlenek tytanu jako wątpliwe/rakotwórcze",
+   "pct": "22.0%",
+   "bullets": [
+    "Wazelina i parafiny postrzegane jako olej mineralny, który zatyka skórę",
+    "BHA i dwutlenek tytanu (TiO2) podejrzewane o działanie rakotwórcze i hormonalne",
+    "Rozczarowanie sprzecznością 'naturalnego' marketingu z faktycznym składem",
+    "Fenoksyetanol i EDTA klasyfikowane przez kupujących jako wątpliwe"
+   ],
+   "quotes": [
+    "Zawiera BHT promujący raka",
+    "dodatek dwutlenek tytanu (TiO2) od dawna był podejrzewany o działanie rakotwórcze",
+    "olej mineralny to bomba dla tego kremu",
+    "Obecność w składzie fenoksyetanolu, który zaburza gospodarkę hormonalną"
+   ]
+  },
+  {
+   "label": "Tłusty film i słabe wchłanianie",
+   "reason": "Krem zbyt gęsty i tłusty, nie wchłania się, zostawia lepką warstwę",
+   "pct": "18.0%",
+   "bullets": [
+    "Uczucie tłustości i lepkości utrzymujące się przez cały dzień",
+    "Krem 'nie pozwala skórze oddychać', tworzy film okluzyjny",
+    "Zbyt ciężki na dzień i pod makijaż",
+    "Problem sensoryczny - lepkie, sklejone stawy i dłonie"
+   ],
+   "quotes": [
+    "Jest gęsty, tłusty i skóra nigdy nie jest sucha bez uczucia tłustości",
+    "krem jest zdecydowanie za tłusty, przez co nie wchłania się i tworzy film",
+    "przez cały dzień masz na twarzy błyszczącą warstwę tłuszczu",
+    "następnego dnia w południe skóra nadal była lepka i tłusta"
+   ]
+  },
+  {
+   "label": "Brak skuteczności / krótkotrwały efekt",
+   "reason": "Produkt nie zadziałał albo poprawa znikała zaraz po odstawieniu",
+   "pct": "17.0%",
+   "bullets": [
+    "Objawy wracają w ciągu 1-2 dni po przerwaniu stosowania",
+    "Powierzchnia zmian chorobowych się powiększyła po tygodniach",
+    "Efekt tylko dzięki natłuszczeniu, nie leczy stanu zapalnego",
+    "Tańsze kremy z mocznikiem dają ten sam efekt"
+   ],
+   "quotes": [
+    "Skuteczność jest zatem bardzo krótkotrwała",
+    "Powierzchnia łuszczycy uległa znacznemu powiększeniu",
+    "Poza niewielkim wzrostem zaczerwienienia obszary objęte stanem zapalnym praktycznie się nie zmieniły",
+    "Łuszczycy nie można wyleczyć od zewnątrz, niezależnie od tego, co na nią nałożysz"
+   ]
+  },
+  {
+   "label": "Cena zbyt wysoka",
+   "reason": "Produkt uznawany za drogi, zwłaszcza przy przewlekłym, codziennym stosowaniu",
+   "pct": "10.0%",
+   "bullets": [
+    "Wysoka cena za gram / małą tubkę",
+    "Poczucie zarabiania na cierpieniu chorych",
+    "Wątpliwe promocje w Czarny Piątek (cena zawyżona)",
+    "Zniechęca do długotrwałego stosowania"
+   ],
+   "quotes": [
+    "jedyny produkt, który znalazłem, który jest odpowiedni dla mojej skóry, jest tak zawyżony",
+    "cholernie droga jak na ilość w tubce",
+    "cena wydaje mi się dość wysoka",
+    "Cena produktu jest również stanowczo za wysoka"
+   ]
+  },
+  {
+   "label": "Opakowanie, podróbki i zapach",
+   "reason": "Brak plomby higienicznej, podejrzenia podróbek, kiepska pompka/tubka i nieprzyjemny zapach",
+   "pct": "13.0%",
+   "bullets": [
+    "Brak folii/plomby zabezpieczającej przed otwarciem",
+    "Podejrzenie podrabianego produktu z Amazona",
+    "Pompka/tubka nie pozwala wydobyć całego produktu",
+    "Zapach opisywany jako wosk, zjełczały lub przenikliwe perfumy"
+   ],
+   "quotes": [
+    "na pojemniku nie ma absolutnie żadnej plomby zabezpieczającej przed manipulacją",
+    "nie jest to pierwszy ani drugi raz, kiedy mimo pozytywnych recenzji otrzymuję podrabiane produkty",
+    "Celowe użycie tubki, która nie pozwala wydobyć 25% produktu jest przestępstwem",
+    "Maść pachnie nieprzyjemnie jak wosk pszczeli"
+   ]
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Skuteczna alternatywa dla kortyzonu",
+   "reason": "Krem pomaga na łuszczycę/neurodermit tam, gdzie sterydy zawiodły lub szkodziły",
+   "pct": "28.0%",
+   "bullets": [
+    "Poprawa po latach nieudanych terapii kortyzonem",
+    "Nie przerzedza skóry jak maści sterydowe",
+    "Zmiany łuszczycowe bledną lub całkowicie znikają",
+    "Postrzegany jako produkt o działaniu 'leczniczym'"
+   ],
+   "quotes": [
+    "To pierwszy produkt niezawierający kortyzonu, któremu przy długotrwałym stosowaniu udało się sprawić, że zaczerwienienia zniknęły",
+    "Łuszczyca od 28 lat, żaden krem nie pomógł, ale to działa!",
+    "lepszy od kortyzonu, bo nie szkodzi mojej skórze",
+    "Moje absolutne zbawienie zamiast kortyzonu"
+   ]
+  },
+  {
+   "label": "Szybkie łagodzenie swędzenia i zaczerwienienia",
+   "reason": "Ustąpienie swędzenia i zaczerwienienia często już po kilku dniach",
+   "pct": "24.0%",
+   "bullets": [
+    "Swędzenie ustępuje po 1-3 dniach stosowania",
+    "Wyraźne uspokojenie i zmniejszenie zaczerwienienia",
+    "Umożliwia spokojny sen bez drapania",
+    "Łuski i szorstkość szybko znikają"
+   ],
+   "quotes": [
+    "Koniec ze swędzeniem, płytka nazębna również uległa zmniejszeniu",
+    "Zatrzymuje swędzenie pęcherzy i sprawia, że znikają",
+    "moja skóra znów jest miękka, łuski już prawie zniknęły",
+    "zaczerwienienia szybko zeszły i prawie nie było już łuszczenia się"
+   ]
+  },
+  {
+   "label": "Dobre nawilżenie i ukojenie",
+   "reason": "Bogata konsystencja intensywnie nawilża i koi bardzo suchą, wrażliwą skórę",
+   "pct": "20.0%",
+   "bullets": [
+    "Długotrwałe nawilżenie bez uczucia ściągnięcia",
+    "Skóra staje się miękka i elastyczna",
+    "Odbudowa uszkodzonej bariery ochronnej skóry",
+    "Dobra tolerancja przez skórę wrażliwą i reaktywną"
+   ],
+   "quotes": [
+    "Konsystencja jest bogata i odżywcza, ale dobrze się wchłania",
+    "skóra od razu stała się miękka",
+    "Krem rzeczywiście odbudował barierę ochronną mojej skóry",
+    "Moje dłonie nigdy nie były tak miękkie i elastyczne od 30 lat"
+   ]
+  },
+  {
+   "label": "Skuteczny również u dzieci",
+   "reason": "Rodzice zgłaszają szybkie ustąpienie wysypek i AZS u dzieci",
+   "pct": "10.0%",
+   "bullets": [
+    "Wysypka u dziecka niemal znika w ciągu nocy",
+    "Naturalny skład daje rodzicom poczucie bezpieczeństwa",
+    "Skuteczny na swędzące wypryski u niemowląt",
+    "Alternatywa, gdy pediatra nie pomaga"
+   ],
+   "quotes": [
+    "Dziecko z ciężką wysypką zniknęło!",
+    "W ciągu nocy wysypka stała się prawie niewidoczna",
+    "Dwa dni i wypryski prawie nie są już widoczne i nie swędzą",
+    "Zdecydowanie świetny naturalny produkt dla dzieci o bardzo wrażliwej skórze"
+   ]
+  },
+  {
+   "label": "Wydajność i długie starczanie",
+   "reason": "Wystarczy niewielka ilość, duże opakowania starczają na miesiące",
+   "pct": "9.0%",
+   "bullets": [
+    "Bardzo oszczędne zużycie na aplikację",
+    "Duża tubka/słoik starcza na miesiące",
+    "Dobry stosunek ceny do wydajności (zwłaszcza Mixa/CeraVe)",
+    "Wygodny dozownik z pompką"
+   ],
+   "quotes": [
+    "biorąc pod uwagę jego rozmiar, starczy na miesiące, jeśli nie cały rok",
+    "Nawet niewielka ilość wystarczy, aby równomiernie odżywić większe obszary ciała",
+    "stosunek ceny do wydajności jest naprawdę mocny",
+    "krem na pewno starczy mi na pół roku, jeśli nie dłużej"
+   ]
+  },
+  {
+   "label": "Odbudowa bariery / cera wrażliwa",
+   "reason": "Balsamy typu Cicaplast B5 cenione za naprawę bariery i pielęgnację skóry wrażliwej",
+   "pct": "9.0%",
+   "bullets": [
+    "Bezzapachowy i dobrze tolerowany przez skórę reaktywną",
+    "Bogaty, ale nietłusty, szybko się wchłania",
+    "Wielofunkcyjny - twarz, ciało, usta, po goleniu",
+    "Widoczne uspokojenie podrażnień i suchych plam"
+   ],
+   "quotes": [
+    "Krem rzeczywiście odbudował barierę ochronną mojej skóry",
+    "Zaraz po aplikacji skóra jest ukojona, a uczucie napięcia zauważalnie zmniejsza się",
+    "wszechstronny jako krem naprawczy i stał się integralną częścią mojej pielęgnacji",
+    "Ratunek dla bariery mojej skóry"
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Ryzyko reakcji",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Znaczna część negatywnych recenzji opisuje pieczenie, nasilenie objawów lub reakcje alergiczne wymagające interwencji lekarza - często u tej samej grupy, która szuka ratunku po kortyzonie.",
+   "implication": "Konieczne wyraźne zalecenie testu płatkowego na małej powierzchni i komunikat, że produkt może początkowo szczypać - inaczej rozczarowani klienci wystawiają skrajnie negatywne oceny."
+  },
+  {
+   "type": "Panika składnikowa",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Niemieccy kupujący aktywnie sprawdzają skład (Codecheck, Yuka) i karzą jedną gwiazdką za wazelinę, parafinę, BHA i TiO2, nawet gdy krem działał dobrze.",
+   "implication": "Transparentna edukacja o roli parafiny/wazeliny (okluzja bariery) oraz reformulacja lub podkreślenie 'clean' składników mogą odblokować oceny 4-5★ od zadowolonych, ale zaniepokojonych użytkowników."
+  },
+  {
+   "type": "Sensoryka",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Tłusty film, słabe wchłanianie i nieprzyjemny zapach to powtarzalny motyw - dla wielu dyskwalifikujący na dzień i pod makijaż.",
+   "implication": "Warto jasno pozycjonować krem jako produkt na noc / dla bardzo suchej skóry i rozważyć lżejszy wariant na dzień, aby nie zawieść oczekiwań osób z cerą mieszaną."
+  },
+  {
+   "type": "Zaufanie / autentyczność",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Powtarzają się skargi na brak plomby higienicznej, podejrzenia podróbek z Amazona oraz kiepskie opakowanie (pompka/tubka niewydobywająca produktu).",
+   "implication": "Plomba zabezpieczająca, kontrola kanału sprzedaży i lepsze opakowanie to szybkie wygrane wizerunkowe dla higienicznie wrażliwej grupy dermo."
+  },
+  {
+   "type": "Wartość vs cena",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Cena jest bolesna szczególnie dla przewlekle chorych stosujących krem codziennie i na duże powierzchnie ciała; porównują go do tanich kremów z mocznikiem.",
+   "implication": "Większe, ekonomiczne opakowania oraz program lojalnościowy/subskrypcja dla pacjentów przewlekłych mogą poprawić retencję i ograniczyć krytykę cenową."
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Anty-kortyzon USP",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Najsilniejszy motyw pozytywny to 'działa bez kortyzonu' - klienci opisują to jako przełom po latach terapii sterydowej i chętnie polecają rodzinie.",
+   "implication": "Pozycjonowanie 'skuteczna, bezsteroidowa pielęgnacja przewlekłych zmian' to główny filar komunikacji; warto go eksponować w tytule i pierwszych bulletach."
+  },
+  {
+   "type": "Szybki efekt na swędzenie",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Zadowoleni użytkownicy podkreślają ustąpienie swędzenia i zaczerwienienia już w kilka dni, co przekłada się na spokojny sen i komfort.",
+   "implication": "Konkretne obietnice czasowe ('ulga w swędzeniu w kilka dni') poparte zdjęciami przed/po są silnym dowodem społecznym, którego ta grupa aktywnie szuka."
+  },
+  {
+   "type": "Naturalność i dzieci",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Naturalny/ajurwedyjski skład i skuteczność u dzieci budują zaufanie rodziców i osób unikających chemii.",
+   "implication": "Segment 'bezpieczny dla dzieci / naturalny' to dodatkowa grupa docelowa - warto potwierdzić testami dermatologicznymi i wyraźnym oznaczeniem wieku stosowania."
+  },
+  {
+   "type": "Nawilżenie i bariera",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Bogate nawilżenie, ukojenie i odbudowa bariery skórnej (zwłaszcza balsamy typu Cicaplast/CeraVe) są chwalone przy skórze bardzo suchej i wrażliwej.",
+   "implication": "Komunikacja o ceramidach/pantenolu i 'odbudowie bariery' trafia w oczekiwania - łączyć z dowodami trwałości nawilżenia."
+  },
+  {
+   "type": "Wydajność",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Mimo skarg na cenę, wielu chwali oszczędne zużycie i długie starczanie dużych opakowań jako realną wartość.",
+   "implication": "Podkreślanie 'ile aplikacji z opakowania' i kosztu na dzień może zneutralizować obiekcje cenowe."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Rozpaczliwe poszukiwanie po nieudanych terapiach",
+   "reason": "Po latach kortyzonu i leków chcą czegoś, co wreszcie zadziała",
+   "pct": "26.0%"
+  },
+  {
+   "label": "Alternatywa bez kortyzonu / sterydów",
+   "reason": "Obawa przed przerzedzeniem skóry i skutkami ubocznymi sterydów",
+   "pct": "20.0%"
+  },
+  {
+   "label": "Zaufanie do licznych pozytywnych recenzji",
+   "reason": "Decyzję o zakupie napędzają wysokie oceny i zdjęcia innych chorych",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Naturalny / ziołowy skład",
+   "reason": "Chęć uniknięcia 'chemii', szczególnie u dzieci i skóry wrażliwej",
+   "pct": "14.0%"
+  },
+  {
+   "label": "Intensywne nawilżenie bardzo suchej skóry",
+   "reason": "Uczucie ściągnięcia, łuszczenie i pękanie skóry",
+   "pct": "13.0%"
+  },
+  {
+   "label": "Polecenie znajomego / rodziny lub lekarza",
+   "reason": "Rekomendacja z ust do ust jako punkt wyjścia",
+   "pct": "9.0%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Szybka i trwała poprawa stanu skóry",
+   "reason": "Oczekują wyleczenia, a nie tylko chwilowej ulgi znikającej po odstawieniu",
+   "pct": "24.0%"
+  },
+  {
+   "label": "Brak podrażnień, pieczenia i reakcji",
+   "reason": "Skóra jest już uszkodzona - produkt nie może jej pogarszać",
+   "pct": "20.0%"
+  },
+  {
+   "label": "Czysty, bezpieczny skład",
+   "reason": "Bez parafiny, wazeliny, BHA, TiO2 i innych 'wątpliwych' substancji",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Dobra sensoryka - szybkie wchłanianie",
+   "reason": "Bez tłustego filmu i intensywnego zapachu, nadający się na dzień",
+   "pct": "15.0%"
+  },
+  {
+   "label": "Uczciwa cena za skuteczność",
+   "reason": "Rozsądny koszt przy codziennym, długotrwałym stosowaniu",
+   "pct": "13.0%"
+  },
+  {
+   "label": "Higieniczne, autentyczne opakowanie",
+   "reason": "Plomba, pewność że produkt oryginalny i w pełni wykorzystywalny",
+   "pct": "10.0%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "adverse_reaction",
+   "label": "Reakcje niepożądane / pieczenie"
+  },
+  {
+   "value": "ingredient_safety",
+   "label": "Skład i bezpieczeństwo"
+  },
+  {
+   "value": "greasy_absorption",
+   "label": "Tłustość / wchłanianie"
+  },
+  {
+   "value": "efficacy",
+   "label": "Skuteczność / efekt"
+  },
+  {
+   "value": "no_cortisone",
+   "label": "Bez kortyzonu"
+  },
+  {
+   "value": "itch_relief",
+   "label": "Ulga w swędzeniu"
+  },
+  {
+   "value": "hydration",
+   "label": "Nawilżenie / ukojenie"
+  },
+  {
+   "value": "price",
+   "label": "Cena"
+  },
+  {
+   "value": "scent",
+   "label": "Zapach"
+  },
+  {
+   "value": "packaging",
+   "label": "Opakowanie / podróbki"
+  }
+ ],
+ "tagStyles": {
+  "adverse_reaction": "pill-red",
+  "ingredient_safety": "pill-purple",
+  "greasy_absorption": "pill-amber",
+  "efficacy": "pill-blue",
+  "no_cortisone": "pill-blue",
+  "itch_relief": "pill-blue",
+  "hydration": "pill-blue",
+  "price": "pill-orange",
+  "scent": "pill-amber",
+  "packaging": "pill-orange"
+ },
+ "reviews": [
+  {
+   "r": 1,
+   "t": "Świetny produkt, niebezpieczne opakowanie!. Sam krem ​​nawilżający jest fantastyczny. Konsystencja jest bogata i gęsta, a mimo to wydaje się lekka po nałożeniu. Łatwo się rozprowadza, nie wymaga dużej ilości i pozostawia skórę odpowiednio nawilżoną przez wiele godzin. Żadnego ciężaru i tłustego filmu. Jeśli masz suchą lub podrażnioną skórę, naprawdę robi to, co obiecuje – zmiękcza, łagodzi i zatrzymuje wilgoć. Rozmiar pojemnika jest również doskonały, a cena za gram sprawia, że ​​jest to bardzo dobra wartość w porównaniu z innymi kremami nawilżającymi przeznaczonymi dla bardzo suchej skóry. Jest jednak jedna główna wada, która powstrzymuje mnie od wystawienia wyższej oceny: na pojemniku nie ma absolutnie żadnej plomby zabezpieczającej przed manipulacją. Żadnej folii, żadnej wewnętrznej pokrywy, nic. Kiedy otworzyłam zewnętrzną powiekę, krem ​​był tam, odsłonięty. W przypadku produktu do pielęgnacji skóry, który nakłada się bezpośrednio na twarz i ciało, oczekuję pewnego rodzaju plomby ochronnej, która będzie wskazywała, że ​​nie był wcześniej otwierany ani używany. Jako klient nie powinienem się zastanawiać, czy ktoś maczał w nim palce, zanim go otrzymałem. Sam produkt zasługuje na pięć gwiazdek. Projekt opakowania taki nie jest. Wydaje się, że jest to niepotrzebne przeoczenie i duży czynnik zniechęcający przy podejmowaniu decyzji o ponownym zakupie. Gdyby CeraVe dodała odpowiednią uszczelkę, aby zapewnić higienę i spokój ducha, byłby to łatwy zakup powtórny – ale do tego czasu się waham. EDYCJA (po skontaktowaniu się z obsługą klienta CeraVe): Skontaktowałem się bezpośrednio z CeraVe, aby zgłosić wątpliwości, oczekując przynajmniej potwierdzenia, że ​​opakowanie zabezpieczające przed manipulacją jest ważne. Zamiast tego otrzymałem ogólną odpowiedź typu „kopiuj i wklej” z informacją, że usunęli pieczęć „w ramach swoich zobowiązań w zakresie zrównoważonego rozwoju”, bez zapewnienia co do bezpieczeństwa produktu, higieny lub przyszłych zmian. Odpowiedź w ogóle nie rozwiała zastrzeżeń – była lekceważąca, jakby często otrzymywali tę skargę i za każdym razem wysyłali ten sam scenariusz. Z powodu tej odpowiedzi obniżyłam swoją ocenę z 3 gwiazdek do 1 gwiazdki. Produkt jest świetny, ale brak zabezpieczenia przed manipulacją + brak troski ze strony obsługi klienta oznacza, że ​​nie kupię go ponownie. Jest wiele innych marek oferujących kremy naprawcze barierowe z odpowiednim uszczelnieniem. Dopóki CeraVe nie będzie w stanie zagwarantować nieotwartego, niezanieczyszczonego produktu, nie mogę uzasadnić zakupu go ponownie",
+   "tags": [
+    "adverse_reaction",
+    "greasy_absorption",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zdzierstwo najwyższej jakości - Zawiera BHT promujący raka. Najpierw coś o cenie. Przejdźmy do składników – Myślisz o grupie docelowej ludzi, którzy absolutnie potrzebują tego, co masz. – Bierzesz skuteczny produkt, sprzedajesz go za wielokrotność jego wartości zakupu (wyprodukowano w Indiach) i zacierasz ręce. Wkurzam się, że jedyny produkt, który znalazłem, który jest odpowiedni dla mojej skóry, jest tak zawyżony. Kiedy go kupiłem, kosztował 38 EUR, obecnie około 31 EUR. Tak czy inaczej, uważam, że jest bardzo drogi. A każdy, kto tak bardzo zarabia na cierpieniu innych, nie dostanie ode mnie więcej niż jedną gwiazdkę. Pozytywny - Maść dobrze działa na moją skórę - Natłuszcza skórę na kilka godzin, co zmniejsza uczucie szarpania. Wadą - Nie pachnie zbyt przyjemnie - Maść zawiera dwutlenek tytanu. Dlaczego jest dla mnie zagadką. Dwutlenek tytanu (TO2) używany jest do wybielania past do zębów i maści. Jednak ta maść, reklamowana jako „naturalna”, jest z natury brązowa, czego nawet TO2 nie może zmienić. TO2 jest często stosowany w postaci nanocząstek, co ma kluczowe znaczenie, ponieważ nikt nie wie, gdzie gromadzą się nanocząsteczki i jak szkodliwe są w dłuższej perspektywie. Produkt zawiera również „BHA” bez wyjaśnienia tego skrótu. Jest to środek konserwujący, który był od dawna krytykowany: „Ze względu na wywoływanie alergii i zmiany organiczne w doświadczeniach na zwierzętach, BHA budzi zasadnicze obawy zdrowotne. W doświadczeniach na zwierzętach spożycie bardzo dużych ilości BHA doprowadziło do raka żołądka i wątroby u myszy. […] Podsumowując, można powiedzieć, że BHA może powodować mniej lub bardziej poważną nadwrażliwość i alergie. Obecnie dyskutuje się o działaniu sprzyjającym nowotworom, choć nie bezpośrednio powodującym raka.” (Źródło: cosmacon (dot) de/bht/ dostęp: 23 marca 2019 r.)",
+   "tags": [
+    "adverse_reaction",
+    "ingredient_safety",
+    "efficacy",
+    "price"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "RĘCE PRECZ!!!. W żadnym wypadku nie jest to „czysto naturalny”, jak reklamowano na zdjęciach tutaj, a klient jest wprowadzany w błąd. Pierwszym składnikiem tego kremu jest WALINA (!!!!!!!!!!!!) \"Wazelina to przypominająca maść mieszanina węglowodorów, zwana także wazeliną, wazeliną lub parafiną. Ma zdolność zapobiegania uruchomieniu przez organizm jego naturalnych mechanizmów ochronnych. Może również powodować nadwrażliwość na światło i usuwać własne oleje organizmu ze skóry. Prowadzi to do łuszczenia się i wysuszenia, przedwczesnego starzenia się, trądzika i wielu innych schorzeń skóry. I jest rakotwórcza.\"Dwutlenek tytanu: -okłada się w organizmie, osłabia układ odpornościowy i powoduje raka. -uszkadza jelita (ponieważ wszystko, co nakładamy na naszą skórę, jest przez nią również wchłaniane i przedostaje się do naszego organizmu!) - sprzyja stanom zapalnym - zawiera nanocząsteczki Nanocząsteczki mają inne właściwości niż ta sama substancja w większym rozmiarze cząstek i teraz mają je ze względu na swoją Większa powierzchnia skutkuje znacznie większą aktywnością biologiczną, a tym samym intensywniejszym wpływem na konsumenta. Może to jednak powodować nieprzewidziane ZAGROŻENIA DLA LUDZI I ŚRODOWISKA, na co od lat zwracają uwagę krytycy Nano. Perfumy: Powodują bóle i zawroty głowy, uderzenia gorąca, problemy z oddychaniem, wymioty, podrażnienia skóry i różne reakcje nadwrażliwości. Niezrozumiałe jest, że producenci nadal nie mają obowiązku informowania o zagrożeniach związanych z tymi składnikami na opakowaniu produktu. Alternatywa: olej kokosowy, DMSO, olej migdałowy, kuracja boraksem przez 14-30 dni, DETOKSYKACJA,... Zwróć uwagę na zdrową żywność, bez dużej ilości cukru (cukier to jeden z najbardziej toksycznych wypełniaczy! Powoduje też różne problemy skórne m.in.! Słowo kluczowe: porosty...)",
+   "tags": [
+    "adverse_reaction",
+    "ingredient_safety",
+    "greasy_absorption",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Przeczytaj złe recenzje produktów !! Używam tego kremu od lat, mając nadzieję, że dobrze zrobi mojej skórze. Teraz właśnie sprawdziłam, czy zawiera parafinę. Jakby tego było mało, czytałam inne złe opinie na temat tego, co nieestetycznego kryje się w tym kremie. Wszędzie cię po prostu zabierają na przejażdżkę. Zwłaszcza chorzy, którzy w swojej desperacji szukają pomocy i chcą spróbować wszystkiego, chwytają się każdego promyka nadziei. Skusiłam się na reklamę tego kremu i dobre recenzje i od lat smaruję nim twarz. Robi mi się niedobrze na samą myśl o tym, dlatego poleciłam ten krem ​​także mojej córce, która czasami ma suchą skórę. Więcej tego kremu nie kupię. To hańba pobierać opłaty za ten szkodliwy krem! Ludzie uważajcie!!! To była dla mnie lekcja, będę dokładniej sprawdzać składy kremów. Oto więcej informacji na temat parafiny: „Parafina jest zwykle nieszkodliwa dla środowiska. Uważa się jednak, że kremy do skóry zawierające parafinę wyrządzają ogromne szkody. Magazyn Ökotest ocenia to. Ilość kremów zawierających parafinę jest znacznie zmniejszana, jeśli zawiera określony procent, ponieważ istnieje duże ryzyko wysuszenia skóry i pogłębienia się zmarszczek. Należy zapobiegać (wysuszaniu skóry/powstawaniu zmarszczek) dokładnie to, co produkuje się w następujący sposób: „Parafiny: zbiorcza nazwa niezliczonych sztucznych substancji wytwarzanych z ropy naftowej (...) utrudniają naturalne mechanizmy regulacyjne (...) mogą gromadzić się w wątrobie, nerkach i węzłach chłonnych (...).” (Źródło: Ökotest Kosmetik, nr 1. 2001, s. 121)”",
+   "tags": [
+    "ingredient_safety"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Dobra recenzja POPRAWIONA!!!! Śmieci w tubach. Mimo, że krem ​​bardzo dobrze tolerowałam i podobała mi się jego konsystencja, to później sprawdziłam skład i jestem przerażona gorszą jakością produktu!!! Oczywiście nie mogę tego udowodnić na 100%, ale po niektórych zastosowaniach miałam bardzo czerwoną twarz, zwłaszcza na słońcu (z czym nie mam problemu). Poprzedni post. Właściwie trzeba przyznać, że po życiu z neurodermitem podchodzisz raczej sceptycznie do „nowych” produktów. Ale ponieważ mam już tak wiele pozytywnych doświadczeń na Amazonie dzięki OPINIOM KLIENTÓW, kiedy szukałem nowego produktu do pielęgnacji skóry, pomyślałem: powinienem go wypróbować. Sorion został dostarczony szybko i odpowiada wszystkim specyfikacjom. Krem jest bardzo tłusty (co bardzo lubię) i starcza na długo. (Oczywiście nie da się uniknąć błyszczącej skóry). Kiedy przestałam brać pigułki i zmieniłam hormony, moja skóra na twarzy, zwłaszcza pod brodą/szyją, uległa pogorszeniu (tłusta skóra, plamy). Wbrew moim początkowym obawom, Sorion nie pogorszył problemu, a wręcz znacząco poprawił go po 2 tygodniach. Powoli usuwa stany zapalne ze skóry, a pryszcze również stały się ZNACZNIE, ZNACZNIE mniej. Krem nie pali się i jest raczej stały/bardzo gęsty ((płynny)). Jedynym minusem może być bardzo słodki, nieco dziwny zapach. Z czasem jednak zanika i nie jest zbyt przenikliwy",
+   "tags": [
+    "adverse_reaction",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Istnieje skuteczniejszy i tańszy sposób leczenia egzemy. Odkąd przyjechałem do Włoch, cierpię na egzemę. Sytuacja z roku na rok się pogarsza, a to już trzeci rok. Wydałam na to dużo pieniędzy, stosując różne leki i środki nawilżające, w tym ten 100-letni produkt. Ale ku mojemu wielkiemu rozczarowaniu spaliłem kolejne 200 euro. Niedawno przeszukałem Google i przeanalizowałem wiele stron internetowych poświęconych egzemie i w końcu wydaje się, że znalazłem powód, dla którego eksperci medyczni uważają egzemę za nieuleczalną. Odpowiedź: woda. Woda, którą pijesz i kąpiesz się na co dzień, zwłaszcza ta druga. Ponieważ ma bezpośredni kontakt ze skórą. Dowiedziałam się, że 85% włoskiej wody pochodzi z ziemi i chociaż jej jakość jest najlepsza ze wszystkich krajów UE, to niestety jest bogata w minerały, twarda i bardzo twarda. Można to zauważyć po osadach kamienia na zasłonach prysznicowych, kranach i kubkach na szczoteczki do zębów w domu. Zakup zmiękczacza wody to koszt 500 euro, nie jestem pewien czy jest skuteczny i nie nadaje się do wynajmowanego przeze mnie domu. Dobra wiadomość jest taka, że ​​istnieje znacznie prostsza i skuteczniejsza metoda polegająca na gotowaniu wody przez 5 minut, ochłodzeniu jej i przefiltrowaniu istoty białej, dzięki czemu uzyskujemy czystą, zmiękczoną wodę. Pijesz słodką wodę i kąpiesz się, aby kontrolować i leczyć egzemę. Skorzystałem z tego. To takie proste",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "price"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Składniki wątpliwe. Długo szukałam kremu do twarzy, który dobrze pielęgnuje i ma jak najłagodniejszy skład. Dowiedziałem się o tym produkcie z reklamy. Chcąc jednak zaoszczędzić pieniądze zamówiłam krem ​​w aptece internetowej. Byłoby mądrze z mojej strony, gdybym wcześniej zwróciła uwagę na skład, zanim otworzę produkt i nie będę mogła go już odesłać. Krem zawiera Ceteareth-20 i Disodium Edta, które są uważane za wątpliwe. Zawiera także wazelinę, która jest klasyfikowana jako bardzo wątpliwa, ponieważ podejrzewa się, że substancja ta może powodować raka. Następnie są 3 inne substancje, które można sklasyfikować jako nieco wątpliwe. Teraz trochę się dziwię, że według opakowania krem ​​ten nadaje się również do pielęgnacji dziecięcej skóry. Mam nawet wyrzuty sumienia, że ​​nałożyłam go na twarz, nie wyobrażam sobie już stosowania tego produktu na całe ciało. Nie mówiąc już o stosowaniu balsamu do moich dzieci. Używam go teraz bardzo rzadko i oszczędnie, ale był zbyt dobry, aby go wyrzucić. Ponieważ krem ​​dobrze się rozprowadza na skórze i nie mam po nim żadnych negatywnych reakcji skórnych, daję mu jedną gwiazdkę. Ponieważ skład oceniam jako dość wątpliwy i nie zauważyłam żadnych pozytywnych zmian na mojej skórze, nie ma więcej gwiazdek dla tego produktu",
+   "tags": [
+    "adverse_reaction",
+    "ingredient_safety",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Cudowne lekarstwo...!? Z ostrożnością... Kupiłem więc ten krem ​​kierując się opiniami klientów na temat łuszczycy, którą mam od ponad trzech lat i na którą wszystkie leki z kortyzonem i bez, przepisane lub dostępne bez recepty, a także dwóch dermatologów całkowicie zawiodły. Kremowi udało się osiągnąć znaczną poprawę już po około 1 tygodniu, a po 3 tygodniach nie było już łupieżu w najgorszym dotychczas miejscu. Następnie wzrost włosów (na nogach) w tym obszarze wrócił do normy i obecnie jest to tylko miejsce na skórze, które wydaje się goić bardzo wolno. Stosuję krem ​​nadal i mam nadzieję, że kiedyś wszystko wróci do normy. Jestem pod ogromnym wrażeniem. Edycja: tak dobre, jak mi pomogło na początku - teraz wywołuje objawy alergii skórnej, które są prawie jak oparzenie słoneczne. Dreszcze, swędzące, mokre pęcherze i obrzęk ramion, dłoni i nóg. Nawet tam, gdzie nie było kremu. Szczególnie źle się dzieje na słońcu. Dermatolog zdiagnozował fototoksyczne zapalenie skóry. To najprawdopodobniej krem, zawsze objawy pojawiają się zaraz po jego użyciu. Po kilku dniach wszystko znowu mija. Powtórzyłem to kilka razy. Najlepiej dokładnie przetestować przed nałożeniem na duże powierzchnie",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "no_cortisone"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "NIE PRZEBYWAĆ!. POWODUJE REAKCJĘ ALERGICZNĄ!!!!! Musiałem iść do lekarza i przepisać mi maść z 2% hydrokortyzonem. Jeśli zdecydujesz się spróbować, zwróć uwagę. Jeśli po kilku minutach poczujesz uczucie ściągnięcia, NATYCHMIAST ZMYJ! W ciągu kilku godzin spowodowało to wysypkę/reakcję alergiczną na całej twarzy aż do górnej części klatki piersiowej, dokładnie w miejscu, w którym nałożyłem ten balsam. Jest to jedyny nowy produkt, który wprowadziłam do mojej ustalonej rutyny. Aby spróbować temu zaradzić, musiałam: Umyć skórę kremem oczyszczającym cetaphil i nałożyć balsam regenerujący Avene cicalfate, aby uspokoić skórę i złagodzić pieczenie. Pomoc zajęła kilka godzin (nie mogę stosować sterydów na twarz ze względu na trądzik różowaty). Kiedy to pomogło, musiałam kilka razy nałożyć balsam dla dzieci Aveeno na egzemę, aby ustało swędzenie. Oprócz brania pigułki na alergię. Musiałem udać się do lekarza po maść z hydrokortyzonem do nałożenia od linii szczęki do klatki piersiowej. W pewnym sensie nie mam już problemu z twarzą (chociaż wyskoczyły mi guzy, którymi będę się musiał zająć, gdy twarz przestanie mnie boleć, swędzić i napinać). Moja szyja w dół potrzebuje więcej czasu na reakcję. Aby dać ci wyobrażenie, zamieściłem zdjęcie podstawy mojej szyi/górnej części klatki piersiowej. To jest następnego dnia i po 3 aplikacjach kremu z hydrokortyzonem. Nie jestem pewien, czy możesz to stwierdzić, ale osobiście są miejsca, które wyglądają jak popękane pęcherze",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "no_cortisone"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "NIE PRZEBYWAĆ!. POWODUJE REAKCJĘ ALERGICZNĄ!!!!! Musiałem iść do lekarza i przepisać mi maść z 2% hydrokortyzonem. Jeśli zdecydujesz się spróbować, zwróć uwagę. Jeśli po kilku minutach poczujesz uczucie ściągnięcia, NATYCHMIAST ZMYJ! W ciągu kilku godzin spowodowało to wysypkę/reakcję alergiczną na całej twarzy aż do górnej części klatki piersiowej, dokładnie w miejscu, w którym nałożyłem ten balsam. Jest to jedyny nowy produkt, który wprowadziłam do mojej ustalonej rutyny. Aby spróbować temu zaradzić, musiałam: Umyć skórę kremem oczyszczającym cetaphil i nałożyć balsam regenerujący Avene cicalfate, aby uspokoić skórę i złagodzić pieczenie. Pomoc zajęła kilka godzin (nie mogę stosować sterydów na twarz ze względu na trądzik różowaty). Kiedy to pomogło, musiałam kilka razy nałożyć balsam dla dzieci Aveeno na egzemę, aby ustało swędzenie. Oprócz brania pigułki na alergię. Musiałem udać się do lekarza po maść z hydrokortyzonem do nałożenia od linii szczęki do klatki piersiowej. W pewnym sensie nie mam już problemu z twarzą (chociaż wyskoczyły mi guzy, którymi będę się musiał zająć, gdy twarz przestanie mnie boleć, swędzić i napinać). Moja szyja w dół potrzebuje więcej czasu na reakcję. Aby dać ci wyobrażenie, zamieściłem zdjęcie podstawy mojej szyi/górnej części klatki piersiowej. To jest następnego dnia i po 3 aplikacjach kremu z hydrokortyzonem. Nie jestem pewien, czy możesz to stwierdzić, ale osobiście są miejsca, które wyglądają jak popękane pęcherze",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "no_cortisone"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie powinnam dać się skusić... ...szkoda, że ​​nie mogę oddać kremu. Niestety nie robi nic poza swędzeniem i małymi wypryskami na całym ciele oraz w miejscach, które nie są dotknięte łuszczycą. Jest to prawdopodobnie spowodowane składnikami, czymkolwiek one były. Ja też nie uważam, że składniki są ajurwedyjskie. BHA, Cera Microcristallina, Parrafin, Petrolatum - 3 z nich bardzo wątpliwe, 1 homonelicznie skuteczny. Łatwo to sprawdzić dzięki Codecheck. Moim zdaniem krem ​​jest zdecydowanie za tłusty, przez co nie wchłania się i tworzy film, pod którym skóra nie może już oddychać. Nie widziałem żadnej poprawy. Wręcz przeciwnie, miejsca, w których nakładam krem, są jeszcze bardziej zaczerwienione niż wcześniej. Właściwie to chciałam kupić płyn do skóry głowy, ale trochę się zawiodłam i myślę, że nie inaczej jest z innymi produktami tej marki. Dla mnie to strata pieniędzy. Zapach kremu nie jest dla mnie uciążliwy. Jeśli chodzi o datę, to nie jestem pewien, czy na zakładce została wydrukowana data produkcji, a nie data przydatności do spożycia. Data partii i produkcji podana jest na opakowaniu zewnętrznym - informacja na tubie. Podsumowując, nie kupiłabym ponownie tego kremu",
+   "tags": [
+    "ingredient_safety",
+    "greasy_absorption",
+    "efficacy",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nieskuteczny i prawdopodobnie rakotwórczy dodatek! Po przeczytaniu dobrych recenzji kupiłam krem ​​w podwójnym opakowaniu i stosowałam go regularnie przez 4 miesiące w leczeniu łuszczycy. Poza niewielkim wzrostem zaczerwienienia zaraz po aplikacji, obszary objęte stanem zapalnym praktycznie się nie zmieniły. Preparat był więc dla mnie całkowicie nieskuteczny. Jednak nadal rozumiem pozytywne recenzje tutaj, ponieważ łuszczyca stwarza duże ryzyko cierpienia dla osób nią dotkniętych, a ludzie desperacko szukają rzekomo skutecznych produktów naturalnych i po prostu nie chcą tracić nadziei. Niemniej jednak produkt ten jest prawdopodobnie w dużej mierze nieskuteczny, a co więcej: dodatek dwutlenek tytanu (TiO2) od dawna był podejrzewany o działanie rakotwórcze, a w 2017 r. został nawet zaklasyfikowany przez Europejską Agencję Chemikaliów jako „prawdopodobnie rakotwórczy dla ludzi”. Nie mogę zrozumieć nieodpowiedzialności producenta Ruehe-Healthcare w dalszym stosowaniu tego wysoce wątpliwego dodatku. Powodem jest prawdopodobnie po prostu minimalne rozjaśnienie koloru kremu",
+   "tags": [
+    "ingredient_safety",
+    "efficacy",
+    "itch_relief",
+    "price"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Dla mnie był to całkowicie nietrafiony produkt. Ten jest zdecydowanie za gęsty i w ogóle nie przepuszcza tlenu do skóry.  Dosłownie stworzył problem z infekcją, ponieważ nie pozwolił na uzdrowienie pod nią. Po prostu bardzo źle na to zareagowałem. Szkoda, że ​​ten konkretny produkt i produkt „intensywnie łagodzący swędzenie” firmy Eucerin są pakowane w tym samym kolorze, z białą butelką i czerwoną zakrętką. Druga jest znacznie cieńsza i bardzo mi się podoba, ponieważ pozwala na przedostanie się powietrza do środka, ale na Amazonie bardzo trudno jest dostrzec różnicę między tymi dwiema butelkami, ponieważ ta jest tubą, w której znajduje się „intensywny środek łagodzący swędzenie” marki Eucerin, jest bardziej płynny i faktycznie znajduje się w butelce z czerwoną nakrętką. Chciałbym albo kształt butelki był zupełnie inny, albo coś, ponieważ dwa razy zamówiłem niewłaściwą, ponieważ nie widziałem wyraźnie, że zamawiam niewłaściwą rzecz, ponieważ poszedłem bardziej ze względu na kolor i pospieszyłem się z zamówieniem. Mój błąd, ale na początku nawet nie zdawałem sobie sprawy, że istnieją dwa powiązane produkty marki Eucerin i ten drugi bardzo mi się podoba, a ten naprawdę nie podoba mi się",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Moja skóra się pogorszyła! Maść pachnie nieprzyjemnie jak wosk pszczeli!!? Nie wprowadza się! Nie mogę zrozumieć, dlaczego maść jest tak chwalona. Od lat cierpię na zaczerwienioną, łuszczącą się i swędzącą skórę na czole, policzkach, brodzie, krtani i skórze głowy. Kupiłam zachęcona wieloma pozytywnymi opiniami i jestem bardzo zawiedziona! Moje swędzące zaczerwienienie znacznie się nasiliło, do tego stopnia, że ​​po drugim dniu musiałam przerwać i ponownie sięgnąć po kortyzon. Powiązana wysypka i swędzenie nasiliły się bardziej niż kiedykolwiek. Zobacz zdjęcia... drugiego dnia zaczerwienienie rozprzestrzeniło się już na skórę głowy! Jestem nie tylko rozczarowana efektem, ale też tym, że muszę dalej szukać czegoś, co w końcu przyniesie trwałą ulgę. Bardzo niefortunne. 😔Zapach i konsystencja też nie są przyjemne. Ma w sobie coś z wosku pszczelego i wazeliny. 🤨Nie wchłania się, dzięki czemu przez cały dzień masz na twarzy błyszczącą warstwę tłuszczu. Jeśli to pomoże - gratulacje, szczęściarz 🍀 Niestety, osobiście nie mogę go polecić",
+   "tags": [
+    "adverse_reaction",
+    "ingredient_safety",
+    "greasy_absorption",
+    "efficacy"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Kolejna fałszywka. Od początku nie byłam pewna czy kupić ten produkt, gdyż nigdzie nie widziałam takiego opakowania z pompką. Miałem już „normalną” puszkę ceraVe i bardzo się rozczarowałem, gdy otrzymałem tę, którą zamówiłem, ponieważ wyglądała zupełnie inaczej. Oto moje spostrzeżenia porównując puszkę Amazona (po lewej na zdjęciach) i oryginał (po prawej): - puszka z Amazonu jest trochę mniejsza, mimo że zawartość ma być taka sama. - etykieta wygląda na mniejszą i ogólnie trochę inną. Jakość druku jest gorsza (np. szary tusz zamiast srebrnego) - Na wieczku nie ma nadruku, a plastik ogólnie wydaje się bardzo tani i mniej stabilny. - Składniki są nieco inne i nie odpowiadają tym wymienionym na oficjalnej stronie internetowej. - Nie było folii zabezpieczającej ani wewnątrz, ani na zewnątrz. Więc krem ​​przybył otwarty. Niestety, nie jest to pierwszy ani drugi raz, kiedy mimo pozytywnych recenzji otrzymuję podrabiane produkty od Amazon",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nieznośne swędzenie. Najpierw kupiłem małą tubkę na Amazonie, a następnie zestaw 3 sztuk w aptece internetowej i po 2 użyciach wyrzuciłem 68 euro do kosza. Nie wiem, czy te środki przyniosłyby w pewnym momencie jakąkolwiek poprawę stanu skóry. Jednak miejsca, na które nałożyłam produkty, łącznie ze zdrowymi (szampon, skóra głowy), swędziały tak nieznośnie, że prawie straciłam nerwy. Maść również się nie wchłania. Szampon jest mocno reklamowany z olejem kokosowym, kurkumą i innymi naturalnymi produktami. Ale jeśli czytasz drobny druk, wszystko wygląda inaczej. Na przykład perfumy nie mają miejsca na chorej(!) skórze; substancje, z których wykonane są perfumy, nie są szczegółowo zadeklarowane. Do tego płynny plastik i (zmartwiony?) sztuczny konserwant, kwas benzoesowy. To nie było dla mnie, ale nie będę dawać rekomendacji za ani przeciw, wszak wiele osób dało mu 5*",
+   "tags": [
+    "price",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bardzo wątpliwe składniki (wazyna, parafiny...). Działanie kremu może być dobre. Jednak po przeczytaniu tych składników poczułam się dość zawiedziona... olej mineralny to bomba dla tego kremu. Szkoda, że ​​inne, z pozoru wysokiej jakości składniki, zostają zepsute przez taką bazę. Zwłaszcza, że ​​produkt sprawia wrażenie, że jest „dobry” dla skóry. Prostym faktem jest to, że oleje mineralne zatykają pory i skóra nie może już „oddychać”... Wilgoć pozostaje „uwięziona” w skórze i daje efekt, że skóra jest teraz pulchna i zdrowa. Ale to złudzenie: w końcu po prostu nie ma już naturalnej regulacji i gdy tylko przestaniesz używać kremu, ponownie wysycha… Formuła Bepathen Sensiderm (także na egzemę) jest o wiele lepsza… przynajmniej nie zawiera żadnych olejów mineralnych. Nie kupię ponownie kremu Sorion i nie polecam go nikomu. To wstyd",
+   "tags": [
+    "ingredient_safety",
+    "greasy_absorption",
+    "efficacy"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Na dłuższą metę to w ogóle nie pomaga... ale niestety nikt nie czyta złych recenzji... ja też, więc najpierw zamawiasz najmniejsze urządzenie i wypróbowujesz, bo wciąż masz nadzieję na cud. Od 10 lat mam łuszczycę krostkową dłoniowo-podeszwową na dłoniach, stopach i paznokciach. W pierwszej chwili miałem wrażenie, że coś się dzieje. Krem jest strasznie tłusty i w ogóle się nie wchłania, co mi bardzo przeszkadzało. Lekko zmiękcza łuski i skóra nie jest tak ściągnięta, ale na przykład inne tańsze kremy mogą to zrobić. B. z mocznikiem (np. 25% mocznika) też jest dobry. Krem w żaden sposób nie zatrzymuje trwającego stanu zapalnego; krosty nadal tworzą się pomimo codziennego stosowania. Jeśli raz pominiesz krem, następnego dnia Twoja skóra będzie znowu sucha i łuszcząca się. Cóż, jeśli zamówisz tylko małą tubkę, myślę, że frustracja jest ograniczona. Łuszczycy nie można wyleczyć od zewnątrz, niezależnie od tego, co na nią nałożysz",
+   "tags": [
+    "efficacy",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Należy zachować ostrożność w przypadku dzieci podatnych na astmę, kaszel i problemy z oddychaniem. Krem leczy skórę z neurodermitem w podobny sposób jak kremy zawierające kortyzon; możesz obserwować regenerację skóry. Dzieje się to bardzo szybko. Zapach intensywny, ale naturalny i ok. Konsystencja jest dobra, można go używać oszczędnie i nie pali się. Jak dotąd świetnie. ALE jest duża wada. Sorion wywołuje kaszel u mojej córki. Podjęłam 3 próby (za każdym razem przekładałam je po wyleczeniu kaszlu), bo krem ​​naprawdę dobrze działał na skórę. Za każdym razem moja córka zaczynała kaszleć 2-3 dni po użyciu (dwa razy dziennie) (nie ma jeszcze astmy). Być może wynika to ze składników, z których niektóre są wątpliwe, jak opisano w innych recenzjach. Niestety nie jest to dla nas cudowne lekarstwo. Zbieg okoliczności? Nie wierzę. Jeśli zdecydujesz się to zrobić, szczególnie w przypadku dzieci, powinieneś uważnie monitorować możliwe skutki uboczne. Wyrzucę krem",
+   "tags": [
+    "adverse_reaction",
+    "greasy_absorption",
+    "efficacy",
+    "no_cortisone"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Unikaj, jeśli zależy Ci na zdrowiu i płodności! Groza dla zdrowia i wielkie oszustwo!  Podobno hipoalergiczny i bezpieczny, bezzapachowy, jest ubogi w yuka, a jego najniebezpieczniejszy składnik jest nie tylko drażniący, ale także może uszkodzić płód, spowodować bezpłodność i uszkodzić wątrobę itp., szczególnie jeśli jest często używany! Unikać dla osób ceniących swoje zdrowie! Kiedy pomyślę, że kupiłam go będąc w ciąży, wierząc, że jest bezpieczny i że nawet Chatgpt poleca go w przypadku ciąży, to wstyd! Koniec z tą marką dla mnie i ten krem ​​pójdzie do kosza! W dodatku jego produkcja jest niezwykle zanieczyszczająca planetę, gdyż składniki zanieczyszczające są zakazane np. w kosmetykach organicznych... w sumie! I na dodatek: składnik, o którym wiadomo, że powoduje poważne zapalenie oczu, mimo że krem ​​jest sprzedawany jako dobry do twarzy!",
+   "tags": [
+    "adverse_reaction",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Całkiem do poprawy. Moja mama ma bardzo suchą skórę i opowiadały mi o tym kremie, prawda jest taka, że ​​jak na krem ​​nawilżający i ze względu na swoją wielkość wydawał się drogi, ale cóż, zdecydowałam się go dla niej kupić, żeby zobaczyć, jak się sprawdzi, i prawda jest taka, że ​​wcale nie jest dobry. Główne funkcje, które chciałbym podkreślić, są następujące:✅ Najważniejsze cechy:1. Butelka 170ml2. Krem nawilżający do skóry suchej i bardzo suchej❌ Aby poprawić:1. Uważam, że krem ​​był zbyt tłusty2. Wydaje mi się, że nie jest to krem, który dobrze się rozcieńcza3. Pozostawia grudki, jest to bardzo ciężki krem4. Poza tym słabo sprawdził się przy skórze suchej, nie nawilżył jej odpowiednio5. Cena mogłaby być nieco niższa, jak na jakość kremu cena wydaje mi się dość wysoka. 📜Wniosek: Nie polecam tego kremu, uważam, że za dużo mniejsze pieniądze można znaleźć dużo lepsze kremy nawilżające. Mam nadzieję, że był dla Was przydatny 👍😉",
+   "tags": [
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niestety nie nadaje się do bardzo suchej skóry. Bazując na opiniach wypróbowałam ten krem ​​w poszukiwaniu alternatywy: Wniosek: totalna porażka!! Mam bardzo suchą skórę na twarzy, która potrzebuje bogatego kremu o odżywczej konsystencji. Krem ten nie ma charakterystycznego zapachu. Nieprzyjemna konsystencja po nałożeniu na skórę. Po nałożeniu natychmiast się wchłania i pozostawia wyjątkowo nieprzyjemne uczucie napięcia, które niestety nie ustępuje. Nie pomaga ponowne nałożenie kremu, żeby pozbyć się tego uczucia. Użyłam go na twarz - bardzo rozczarowujące!!. Zdecydowanie wolę pozostać przy kremie do twarzy WELEDA Skin Food, który jest bardzo treściwy i świetnie rozprowadza się na skórze. Tym razem niestety przepadło ponad 10,00 euro, ale przeżycie, które nie musiało tak być, było bogatsze",
+   "tags": [
+    "efficacy",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "W moim przypadku bezużyteczne. Gdy szampon Sorion, płyn na głowę i krem ​​nie pomogły, poszłam do dermatologa. Zdiagnozował wyprysk łojotokowy i przepisał mi maść Travocort na twarz i ręcznie robioną maść apteczną na głowę. Do usuwania łupieżu na głowie używam szamponu Stieproxal, również polecanego przez dermatologa. Z tego co wiem, jest on dostępny także bez recepty. Te trzy rzeczy pomogły mi natychmiast, wszystkie dolegliwości - bardzo dużo łupieżu na głowie i twarzy - swędzenie skóry twarzy - zaczerwienienie skóry twarzy - częściowe łzawienie skóry w okolicy ust - pęknięcia/pieczenie skóry w okolicy ust zniknęły w ciągu kilku dni! Krem Sorion przyniósł nawet efekt przeciwny do zamierzonego. Skóra na twarzy wszędzie mnie strasznie swędziała, a krem ​​niestety nie pachniał szczególnie przyjemnie. Lepiej zasięgnąć porady profesjonalistów!",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Sprawdź kompatybilność! Stan skóry się pogorszył, paliła jak ogień. Cierpię na neurodermit, a w zeszłym roku miałem tak silny atak, że nie odważyłem się wyjść. Kupiłam kilka kremów i maści i w pewnym momencie trafiłam na ten produkt. Wiązałam duże nadzieje z pozytywnymi recenzjami i od razu zamówiłam trzy tubki. Nakładałem krem ​​co najmniej 10 razy i musiałem go usunąć w ciągu minuty, twarz paliła mnie jak ogień, a skóra się pogorszyła. Pomyślałam OK, w takim razie jestem jedną z 1000 osób, które nie tolerują tego kremu i przekazałam tubki znajomej, która cierpi na łuszczycę. Dla niej było to 1:1 tak jak dla mnie, ona też musiała go od razu zdjąć, a ostatecznie nawet w nocy udać się na izbę przyjęć, bo po jego zastosowaniu dostała wstrząsu anafilaktycznego",
+   "tags": [
+    "adverse_reaction",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niestety po zastosowaniu kremu łuszczyca się pogorszyła. Zachęcona niezwykle pozytywnymi opiniami klientów, zamówiłam ten produkt także jako zamiennik mojego poprzedniego kremu z kortyzonem. Po drugiej aplikacji miejsce na udzie zaczęło bardzo swędzieć i zaczerwienić się. Ponieważ moja skóra jest stosunkowo wrażliwa i chciałam dać organizmowi trochę czasu na przyzwyczajenie się do nowego kremu, dałam mu jeszcze tydzień. Niestety po tygodniu wysypka i swędzenie były tak silne, że musiałam przerwać kurację. Jak na naturalny produkt za dość wysoką cenę niecałe 17 euro, spodziewałam się czegoś innego. Być może pomogło to innym osobom, ale niestety u mnie doprowadziło do znacznego pogorszenia moich objawów. Nie kupiłabym ponownie tego kremu",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "no_cortisone",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Rozczarowany z powodu reakcji skórnej. Pokładałam duże nadzieje w tym balsamie CeraVe, szczególnie w kontekście obietnicy długotrwałego nawilżenia skóry suchej i atopowej. Niestety już od pierwszych zastosowań pojawiła się u mnie podrażnienie: zaczerwienienie, swędzenie i pieczenie w miejscu aplikacji. Próbowałam stosować go tylko na małe powierzchnie, ale reakcja nie ustąpiła, co mnie bardzo rozczarowało, bo mam wrażliwą skórę i liczyłam, że ten produkt złagodzi uczucie ściągnięcia. Wady: • Podrażnienie i swędzenie po aplikacji • Widoczne zaczerwienienie już po kilku dniach • Niekompatybilny z moją wrażliwą skórą Myślę, że dla wielu osób ten balsam może się sprawdzić, jednak u mnie wywołał reakcję alergiczną, dlatego nie polecam go osobom o bardzo reaktywnej skórze",
+   "tags": [
+    "adverse_reaction",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niezalecane. Kupiłam ten krem ​​z pełną euforią zachęcona dobrymi opiniami. Już po pierwszej aplikacji twarde i suche płatki skóry praktycznie się rozpuściły lub dosłownie odpadły i wydawało się, że to pełen sukces. Z biegiem czasu zauważyłem, że powierzchnia dotknięta łuszczycą gwałtownie się powiększyła – po 3 tygodniach stosowania 2-3x dziennie, około 1,5 razy większa powierzchnia. Wnioski po 3 miesiącach, 2-3x dziennie Stosowanie: - Powierzchnia łuszczycy uległa znacznemu powiększeniu - Po \"zatrzymaniu\" skóra w tych obszarach była bardziej sucha i bardziej popękana niż wcześniej - Nasilone swędzenie - Jeśli krem ​​zostanie pozostawiony na jeden dzień, łuski tworzą się szybciej i są mocniejsze/twardsze niż kiedykolwiek wcześniej. Bazując na moich doświadczeniach z tym kremem nie polecam go",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Niestety przepis się zmienił!!! Dostałam ten krem ​​około 5 lat temu, ponieważ miałam łuszczycę na głowie i egzemę w okolicach intymnych. Wszystko minęło po 2 tygodniach i miałem spokój ducha na 1-2 lata.... Stosowałem od czasu do czasu, bo bałem się, że to wróci... Teraz znowu stosuję od 2 tygodni, ale poprawy nie ma!! Zauważyłem, że nie ma już aktywnego składnika neem.... Tak jest napisane na opakowaniu, ale nie na tubie!!!! Potem po prostu zapytałem aptekę, byli bardzo zaskoczeni, ale nie mogli mi odpowiedzieć... Nie rozumiem też, dlaczego zawsze trzeba zmieniać przepisy, miałem te problemy przez 30 lat i byłem bardzo szczęśliwy, że mi pomogli, a teraz nie mogę znaleźć niczego równoważnego",
+   "tags": [
+    "efficacy",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Brak rekomendacji zakupu. Niestety wzmagał swędzenie skóry, więc musiałam przejść na żel z apteki (ukąszenia owadów/wszyscy to wiedzą), aby ponownie opanować nagłą reakcję alergiczną. Poza tym zapach był dla mnie bardzo irytujący (osobiście przyprawia mnie o mdłości) i wątpliwe jest, co tyle perfum ma wspólnego z kremem na podrażnienia skóry! Tłusty film na skórze (zawiera parafinę) też był wyjątkowo nieprzyjemny – nawet następnego dnia miałam wrażenie, że krem ​​nigdy się nie wchłonie. Nie muszę w tym miejscu wspominać, że parafiny nie mają działania pielęgnacyjnego i powodują długotrwałe wysuszenie skóry. Trochę żałuję, że kupiłam krem ​​w ciemno, zachęcona wieloma dobrymi opiniami",
+   "tags": [
+    "adverse_reaction",
+    "ingredient_safety",
+    "greasy_absorption",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "NIE KUPUJ, JEŚLI MASZ BARDZO WRAŻLIWĄ, EGZEMĘ, łuszczycę i suchą skórę :(. NIE KUPUJ, JEŚLI MASZ BARDZO SUCHĄ I BARDZO WRAŻLIWĄ SKÓRĘ… Kupiłam go jakiś czas temu, myśląc, że zastąpi moją ukochaną wazelinę (która jest jedyną rzeczą, która działa na moją suchą i wrażliwą skórę twarzy / skóry z egzemą / łuszczycą) i że powoli będę budować swoją drogę ku górze do opracowania rutynowej pielęgnacji skóry, ale nie, sam produkt na początku daje uczucie nawilżenia, ale po wchłonięciu na twarz/dłonie mam wrażenie, że umieram z tęsknoty za odrobiną wody na skórze, z jakiegoś powodu przypomina balsam Baby Johnson, piekielnie piecze! Nie jestem pewien, czy to zapach, ale kiedy nałożyłem krem, moja twarz piekła tak bardzo, że moje oczy były łzawiące i musiałem go zmyć, wypróbowałem raz i dałem mamie :( niestety dla mojego typu skóry nie działa :’(",
+   "tags": [
+    "adverse_reaction",
+    "ingredient_safety",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niestety pieniądze wyrzucone w błoto. Jeśli produkt nie daje takich samych wyników, jak w rzekomych setkach niezależnych recenzji napisanych przez konsumentów, może to prowadzić do pewnego stopnia sceptycyzmu. To właśnie ze względu na liczne, świetne recenzje skusiłam się na zakup kremu. Niestety, nic to nie dało; Miałem nawet subiektywne wrażenie, że moje problemy skórne się pogłębiły. O zapachu, składzie, cenie i słabej wchłanialności kremu napisano już wystarczająco dużo. Nie przejmowałbym się tym, gdyby to pomogło. Powinnam była posmarować łapki Nutellą, przynajmniej pachniałaby lepiej ;) Jeśli krem ​​pomógł, to oczywiście cieszę się razem z Tobą!",
+   "tags": [
+    "efficacy",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niemożliwe zachowanie. Dowiedziałam się o tym z Facebooka, zaciekawiło mnie i zamówiłam tutaj. Mam łuszczycę na całym ciele i neurodermit. (od ponad 50 lat) Po jego użyciu przyszło szaleństwo. Swędzenie, silne zaczerwienienie i obrzęk. Idę do dermatologa, który był dosłownie zszokowany moim stanem. Pomogły zastrzyki z kortyzonu, silne tabletki na alergię i różne kremy. Przez 2 tygodnie przebywałam na zwolnieniu lekarskim. Następnie wyraziłem swoją krytykę na ten temat na Facebooku. reakcja była słuszna. Zamek! Post również został usunięty. Zobaczmy jak to wygląda tutaj. Nie ma cudownych lekarstw, zawsze można mieć nadzieję, ale różne kremy reagują inaczej na każdą osobę. Niestety, mam nadzieję, też nie zwróciłem na to uwagi",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "no_cortisone",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Wrażliwa skóra? To się spali!!! Ponieważ zawsze cierpiałam na egzemę i miałam bardzo suchą/wrażliwą skórę, nieustannie poszukuję „cudownego” kremu, który złagodzi moje objawy. Produkt ten jest rekomendowany przez National Eczema Association (największe stowarzyszenie zajmujące się egzemą w USA) i jest bardzo dobrze oceniany na stronach. Myślałem, że znalazłem świętego Graala, ale co za błąd! Oprócz uczucia ostrego pieczenia po nałożeniu go na twarz, nie znalazłam w tym produkcie nic „cudownego”. Krem zawiera dużą ilość alkoholu. Ponadto krem ​​w ogóle nie wnika w skórę. Pozostaje osadzony na powierzchni, nie zapewniając żadnego nawilżenia. Absolutnie nie polecam tej marki i nie kupię już nic od niej",
+   "tags": [
+    "adverse_reaction"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "oj oj!!!. Nie wiem co jest w tym badziewie, ale jest okropne. Nałożyłem go dwa razy i obudziłem się ze łzami w oczach, widząc, jak bolesna była moja skóra. Zwykle używam balsamu do ciała z miodem na egzemę i pomyślałem: „znajdźmy tańszą opcję!” i ostatecznie wybrałem to! Przekształcił moją suchą i łuszczącą się skórę w lepką, gorącą, czerwoną, kłującą, popękaną i krwawiącą! Na mojej biednej skórze są otwarte rany, których wcześniej nie było. Jestem pewna, że ​​to był olej mineralny, chyba w końcu doszłam do wniosku, że ja i olej mineralny nie dogadujemy się. Ale do wszystkich, którzy cierpią na ciężką egzemę: UWAGA. To, że coś ma milion 5-gwiazdkowych recenzji, nie zawsze oznacza, że ​​będzie dla Ciebie skuteczne. Jeśli chcesz spróbować, kup próbkę. Teraz utknąłem z butelką parujących śmieci!!",
+   "tags": [
+    "ingredient_safety",
+    "greasy_absorption",
+    "efficacy",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Reakcja alergiczna po początkowym sukcesie. Krem kupiłam już kilka razy i zawsze zużyłam go w całości. Już po pierwszych kilku użyciach naprawdę mi pomógł na łuszczycę. Zaczerwienienie i swędzące obszary skóry naprawdę ustąpiły po maksymalnie tygodniu, a czasami całkowicie zniknęły. Jednak wróciły po kilku dniach, gdy tylko przestałam używać kremu. Osobiście uważam ten zapach za raczej nieprzyjemny i wolałam krem ​​wrażliwy, który mniej pachnie, ale jest znacznie droższy. Jak dotąd jestem bardzo zadowolony i bardzo się cieszę, że w końcu znalazłem coś, co działa. Jednak od ostatniej tubki zauważyłam, że zaraz po rozpoczęciu kuracji zaczęły mnie bardzo mocno swędzieć golenie. Zaakceptowałem to. A teraz mam pokrzywkę na całym ciele lub w tych częściach ciała, na które zawsze nakładam krem. Skóra w tym miejscu swędzi jak szalona. Dlatego nie używam już kremu, ale jak dotąd moja skóra nie uspokoiła się. Nie będę już ich używać. Od deszczu do deszczu, że tak powiem",
+   "tags": [
+    "adverse_reaction",
+    "itch_relief",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Wątpliwe substancje! Krem zamówiłam, bo borykam się z popękaną, suchą i swędzącą skórą. Już po pierwszej aplikacji swędzenie ustąpiło. Nie potrafię jeszcze powiedzieć jak będzie się rozwijać moja skóra. Krem stosuję dopiero od dwóch dni. Dlaczego więc oceniam krem ​​tak słabo? Ze spisu treści wynika, że ​​zawiera woski parafinowe, wazelinę i ponownie parafinę. Substancje te są klasyfikowane jako bardzo wątpliwe, istnieje podejrzenie, że są rakotwórcze i kumulują się w organizmie. Krem zawiera także BHA. Udokumentowano zaburzenia hormonalne u zwierząt. Dlatego nie polecam produktu na dłuższą metę! Dziwne jest również to, że na opakowaniu znajduje się pieczątka „Derma Test”, która pochodzi z 2017 roku. Kupujący ma pewność, że kupi produkt na bazie naturalnej, co jest prawdą. Ale niestety nadal zawiera bardzo wątpliwe substancje, które mają na celu przedłużenie trwałości kremu. Naprawdę szkoda",
+   "tags": [
+    "ingredient_safety",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Być może pomocny przy niektórych alergiach... Ponieważ moim zdaniem każdy człowiek inaczej reaguje na produkty naturalne, nie chcę się zbytnio rozwodzić nad efektem! Poza tym nie jestem doktorem, ale ekspertem dermatologicznym. Jednak jako wieloletnia alergiczka o wrażliwej skórze mam duże doświadczenie z produktami z tej kategorii... Opakowanie maści jest w porządku. Zapach jest bardzo intensywny i wymaga przyzwyczajenia - mojej partnerce chyba nawet bardziej ;) Maść ma bardzo małe działanie na moje alergiczne problemy skórne! Jest też wyjątkowo tłusty, co nie jest dla mnie zbyt przyjemne, szczególnie przed pójściem spać. Maści od lekarza działają o wiele lepiej, a czasami są nawet tańsze. Nie są to oczywiście tego typu produkty naturalne. Być może maść pomaga na niektóre problemy skórne, ale niestety nie dla mnie. A cena była/jest po prostu zbyt wysoka, aby móc testować",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Bardzo tłusty i trudno się wchłania. Kupiłam go kierując się opiniami, że szybko się wchłania i NIE pozostawia lepkiej ani tłustej warstwy. To NIE pokrywa się z rzeczywistością! Jest gęsty, tłusty i skóra nigdy nie jest sucha bez uczucia tłustości, do tego stopnia, że ​​nałożyłam go dzień wcześniej po wzięciu prysznica około 19:00, a następnego dnia w południe skóra nadal była lepka i tłusta! Na sen musiałam nawet nakładać płyn micelarny na fałdy pod kolanem, bo po prostu nie mogę spać, kiedy sklejają mi się stawy. NIE zaleca się stosowania tego kremu dla osób, które mają problemy sensoryczne po stosowaniu kremów nawilżających (takich jak Ureadin), które nie wchłaniają się całkowicie przez skórę. W rzeczywistości, z powodu problemów sensorycznych związanych z lepką i tłustą konsystencją na mojej skórze, spowodowało to zapalenie skóry na nadgarstkach (wcześniej dotyczyło to dłoni i nóg). Mam zamiar wypróbować zamówiony już krem-żel",
+   "tags": [
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Bardzo tłusty i trudno się wchłania. Kupiłam go kierując się opiniami, że szybko się wchłania i NIE pozostawia lepkiej ani tłustej warstwy. To NIE pokrywa się z rzeczywistością! Jest gęsty, tłusty i skóra nigdy nie jest sucha bez uczucia tłustości, do tego stopnia, że ​​nałożyłam go dzień wcześniej po wzięciu prysznica około 19:00, a następnego dnia w południe skóra nadal była lepka i tłusta! Na sen musiałam nawet nakładać płyn micelarny na fałdy pod kolanem, bo po prostu nie mogę spać, kiedy sklejają mi się stawy. NIE zaleca się stosowania tego kremu dla osób, które mają problemy sensoryczne po stosowaniu kremów nawilżających (takich jak Ureadin), które nie wchłaniają się całkowicie przez skórę. W rzeczywistości, z powodu problemów sensorycznych związanych z lepką i tłustą konsystencją na mojej skórze, spowodowało to zapalenie skóry na nadgarstkach (wcześniej dotyczyło to dłoni i nóg). Mam zamiar wypróbować zamówiony już krem-żel",
+   "tags": [
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Działanie kremu jest krótkotrwałe, niektóre składniki są rakotwórcze! Cierpię na nowe zapalenie skóry pod pachami i na tylnej części kolan. Krem stosowałam na zmienione chorobowo miejsca na skórze codziennie – raz dziennie przez miesiąc. Łuszcząca się skóra uległa poprawie, zniknęły także zaczerwienienia i swędzenie. Kiedy jednak przyjrzałem się bliżej składowi kremu, niestety zdałem sobie sprawę, że niektóre substancje mogą powodować zaburzenia hormonalne, a nawet raka. Potem całkowicie zrezygnowałam z kremu. Już po jednym dniu bez stosowania kremu zauważyłam, że moja skóra znów zaczęła się łuszczyć i swędzić. Skuteczność jest zatem bardzo krótkotrwała. Krem jest też bardzo tłusty i w ogóle się nie wchłania. Cena produktu jest również stanowczo za wysoka. Nie kupię ponownie tego kremu!!!",
+   "tags": [
+    "ingredient_safety",
+    "efficacy",
+    "itch_relief",
+    "price"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Używam go od kilku tygodni i tylko pogorszył się stan mojej skóry. Kiedy nałożyłem krem ​​na chore miejsce... Ten produkt NIE wyleczył mojego egzemy. Używam go od kilku tygodni i tylko pogorszył się stan mojej skóry. Kiedy w ciągu kilku godzin nałożyłem krem ​​na dotknięte obszary, moja skóra stała się bardzo łuszcząca się i podrażniona, co powodowało drapanie (co jest najgorszym pomysłem, ale nie mogłem się powstrzymać). Daję temu produktowi 2 gwiazdki, ponieważ naprawdę dobrze spisał się w kojeniu bolesnych miejsc, ale to wszystko. Naprawdę chciałem polubić ten produkt ze względu na dobre recenzje, jakie miał, i próbowałem, ale ostatecznie to nie zadziałało. Nie mówię, że to nie działa ogólnie, po prostu nie działało w moim przypadku. Dodam też, że mój egzema była dość ciężka, więc może sprawdzi się lepiej u osób z łagodniejszym przypadkiem niż ja",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "No cóż. Tak więc maść przynajmniej zapobiega tworzeniu się bolesnych pęknięć w łuszczycy na stopach, ponieważ utrzymuje skórę elastyczną. W każdym razie. Dużo tańsze kremy też mogą to zrobić. Na pewno nie jest to cudowne lekarstwo. Właśnie też zobaczyłam, że maść jest w Czarny Piątek za 30,xx euro. Podobno 30% zniżki od pierwotnej ceny 42 coś. Właśnie sprawdziłam, ile zapłaciłam za ten sam rozmiar kilka miesięcy temu. Teraz patrzę na historię moich zamówień i widzisz, ile zapłaciłem bez Czarnego Piątku? 31,21 €!!!! To oszustwo. Wiem, że nie są sami, inni też tak robią. Ale jeśli już sprzedajesz przecenioną maść, może nie będziesz musiał płacić kolejnych trzydziestu pięter w Czarny Piątek",
+   "tags": [
+    "hydration",
+    "price"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Siła nawilżania nie jest wystarczająco silna. Uważaj na obecność fenoksyetanolu. Chciałam przetestować ten krem, bo dużo słyszałam o marce Cerave. Mam cerę mieszaną, więc kupiłam wersję do cery suchej. Po kilku tygodniach stosowania zauważam:* Krem ma całkowicie neutralny zapach, ponieważ nie zawiera perfum.* Konsystencja jest przezroczysta, biała i bardzo płynna.* Penetracja jest szybka.* Wygląd jest nietłusty.* Siła nawilżania jest średnia. Mam suche miejsca, takie jak nozdrza, nos i policzki, więc ten krem ​​nie zapewnia wystarczającego nawilżenia tych miejsc.* Obecność w składzie fenoksyetanolu, który zaburza gospodarkę hormonalną. Dlatego też absolutnie nie polecam tego kremu do skóry suchej i osób pragnących zdrowego składu",
+   "tags": [
+    "ingredient_safety",
+    "scent"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Zawiera wazelinę, EDTA i silikony. Polecono mi ten produkt do pielęgnacji twarzy, ponieważ nie toleruję alkoholu. Bardzo wzorowy, ten krem ​​​​nawilżający zawiera alkohol ceetylenowy, alkohol tłuszczowy, który jest dobry. Niestety dopiero później dowiedziałam się, że produkt zawiera wazelinę, która jest podejrzana o działanie rakotwórcze, można to znaleźć w google. W produkcie znajduje się także dimetikon, czyli silikon, który powoduje gumowanie skóry i dodatkowo zanieczyszcza wodę pitną. Zawiera także Edtę, która jest podejrzewana o działanie hormonalne. Możesz zbadać wszystko. Po tym, jak początkowe składniki, takie jak alkohole tłuszczowe, były tak pozytywne, nie spodziewałem się tego drugiego. Jeśli nie przeszkadzają Ci silikony i ropa naftowa, śmiało możesz ich używać. Cena jest rozsądna",
+   "tags": [
+    "ingredient_safety",
+    "price"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nieskuteczny i lepki. Jestem bardzo lojalną klientką Biodermy, ponieważ korzystam z szerokiej gamy ich produktów. Zawsze jestem mile zaskoczony tym, jak dobrze działają ich różne produkty. Biodermę polecił mi po raz pierwszy mój lekarz. Tym razem jednak muszę przyznać, że balsam Biodermy nieco mnie rozczarował. Już przy najmniejszej aplikacji moja skóra pozostaje lepka przez wiele godzin. Nie miałabym nic przeciwko lepkości, gdyby pomógł mi na egzemę, ale w ogóle nie pomógł. Moja skóra jest czerwona i podrażniona jak zawsze, chociaż stosuję go codziennie rano i wieczorem już od 3 tygodni. Inni członkowie rodziny również tego próbowali i nie pomogło to złagodzić suchości ani swędzenia skóry. To powiedziawszy, może to być problem skóry. Być może na niektórych typach skóry działa dobrze, na innych gorzej",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wreszcie coś znalazłem po 3,5 roku! Wysyłka była bardzo szybka, ale byłem zdenerwowany, że kiedy otworzyłem skrzynkę pocztową, nie znalazłem przedmiotu uszkodzonego, ale opakowanie zostało po prostu zgniecione, ponieważ pudełko po prostu nie pasowało (patrz zdjęcie). O produkcie: Od około 3,5 roku cierpię na rodzaj swędzącego wyprysku, którego po niezliczonych wizytach u lekarza po prostu nie da się wyleczyć. Co jakiś czas różne kremy zmniejszały szorstkość wyprysków, ale u mnie dawały 100% efektu, nie mówiąc już o tym, że ich aplikacja była zazwyczaj bardzo uciążliwa, bo były bardzo tłuste i czasami bardzo trudno wnikały w skórę. Następnie przeszukałem Internet i znalazłem produkt Sorion. Po przeczytaniu wielu opinii klientów pomyślałam, że wypróbuję ten krem. Stosuję go od 5 dni i jestem naprawdę zaskoczona, bo krem ​​bardzo szybko się wchłania (nie należy go nakładać za dużo, bo jest lekko tłusty). Krem stosuję 2 razy dziennie na egzemę, a teraz także na twarz, bo czytałam, że krem ​​można stosować także jako krem ​​na dzień/pielęgnację. Składniki naprawdę na mnie działają dokładnie tak, jak je przeczytałam w opisie produktu. Zwłaszcza ta roślina neem, która ma substancję czynną przeciwzapalną i przeciwświądową. To, co trochę mnie zaniepokoiło w tym produkcie, to intensywny zapach, który, jak sądzę, pochodzi od kurkumy. Można powiedzieć, że do tego zapachu trzeba się przyzwyczaić. Zaletą jest to, że zapachu nie można wyczuć nawet wtedy, gdy się pocisz i nie przykleja się on do skóry! I szczerze mówiąc, wolę stosować ten produkt przez 4-6 tygodni i dać skórze się zregenerować, nawet jeśli zapach nie do końca mi odpowiada, niż dalej męczyć się z tą egzemą. Polecam krem ​​i na pewno będę go stosować jeszcze przez co najmniej 4 tygodnie. Oczywiście to zależy od rodzaju skóry, ale myślę, że warto spróbować :)",
+   "tags": [
+    "efficacy",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Raczej rozczarowane oczekiwania. Bardzo szybko wchłaniający się nawilżający krem ​​do rąk, nietłusty i bezzapachowy. Moja skóra dłoni jest stale popękana, sucha i odwodniona, która zimą ma tendencję do pękania w kilku miejscach, czemu towarzyszy umiarkowany ból i dyskomfort w codziennych czynnościach. Dlatego zawsze poszukuję naprawdę skutecznego kremu i zapragnęłam wypróbować ten, bo wiele dobrego o nim słyszałam w internecie: szczerze mówiąc spodziewałam się dużo więcej. Krem znajduje się w markowej białej plastikowej butelce, na której znajduje się informacja o produkcie, żadna z nich nie jest w języku włoskim. Jest dostarczany z uszczelnioną pokrywką. Bardzo szybko się wchłania, nawet przy nałożeniu dużej ilości, i jest absolutnie nietłusty. A to dla mnie dwa absolutnie korzystne aspekty. „Bardzo korzystny jest także fakt, że produkt jest bezzapachowy, co daje mi pewność stosowania go bez obawy, że będę drażnił osoby znajdujące się w pobliżu, zwłaszcza w nocy. Po nałożeniu dłonie od razu stają się miękkie i to uczucie utrzymuje się przez kilka godzin. Nie mam jednak wrażenia, że skóra jest odżywiona czy szczególnie nawilżona; Po prostu wydaje mi się, że krem tworzy wokół dłoni lekko ochronną warstwę. Na pewno nie rozwiązuje to mojego problemu, na który pewnie powinnam się zdecydować. krem naprawczy. Zapłaciłam za ten krem ponad 10,00 euro, trochę za dużo, moim zdaniem, ze względu na szybkie wchłanianie i brak zapachu. Osobiście nie sądzę, że kupię go ponownie",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nieźle. Próbuję jednak łączyć maść z innymi produktami. Ponad rok temu zdiagnozowano u mnie łuszczycę. Najpierw ucierpiały moje dłonie i duży palec u nogi. Wypróbowałem dziesiątki maści, kremów itp. Nic! Ponieważ maści kortyzonowe niewiele pomogły, rozejrzałem się za produktami naturalnymi. Wypróbowałem kilka rzeczy i znalazłem naprawdę świetne środki. Po 4, może 5 dniach wszystko zniknęło i nie wróciło do dzisiejszego dnia! Byłem zachwycony! Po kilku tygodniach wszystko wróciło, tym razem na nogi. Znowu te same produkty... Było znacznie lepiej, nie swędziało, czerwone plamy prawie zniknęły, ale łuszczyca pozostała. Moje stopy nie wyglądają ładnie, nie noszę sandałów i ukrywam je, jak tylko mogę. Na szczęście ręce nie są już dotknięte. Znalazłam maść Sorion zupełnie przez przypadek na Amazonie i od razu ją zamówiłam zachęcona dobrymi recenzjami. Wynik jest czymś pożądanym. Po tygodniu stosowania (3 razy dziennie) plamy stały się bledsze, ale nie tak bardzo jak się spodziewałam. Może moja skóra potrzebuje więcej czasu. Teraz stosuję Sorion raz dziennie, a moje poprzednie produkty dwa razy dziennie. Zobaczymy co z tego wyniknie. Życzę wszystkim zmagającym się z łuszczycą dużo cierpliwości. Niestety brakuje mi tego. Bardzo ważną rolę odgrywa tutaj także nasz styl życia",
+   "tags": [
+    "efficacy",
+    "no_cortisone"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry dodatek do leczenia wewnętrznego. Witam, choruję na łuszczycę od około 3 lat. Było coraz gorzej i zdecydowałam się na zakup tego kremu. Krótko o kremie: - Zapach jest w porządku - Natłuszcza odpowiednie miejsca - Zmniejsza swędzenie - Uważam, że cena/wydajność jest zbyt niska, bo nie miałam aż tak dużych porostów, ale tubka opróżniła się po 2 tygodniach. Na dłuższą metę może to być zbyt kosztowne – krem ​​stosowałam rano i wieczorem. Dalsze stosowanie nie przyniosło żadnych dodatkowych efektów, z wyjątkiem złagodzenia swędzenia. Dla wszystkich, którzy zmagają się z tą samą chorobą: CHOROBĘ MOŻNA LECZYĆ TYLKO OD WEWNĄTRZ (POPRZEZ JEDZENIE/TABLETKI). Krem pomógł mi jedynie oprzeć się swędzeniu, a nie pokonać chorobę. Pomogły mi: - Mniej jedzenia i dłuższe przerwy w jedzeniu. Np. Piję go tylko w porze lunchu (12:00) i wieczorem (20:00). W międzyczasie narządy mogą się zregenerować. - jedz mniej słodyczy, mniej mięsa, mniej produktów mlecznych, więcej sałatek, więcej owoców i więcej mięsa - aktywność fizyczna - tabletki zawierające magnez/witaminę/spirulinę Krótko mówiąc, zdrowy tryb życia naprawdę pomógł mi opanować chorobę. Byłam naprawdę zdesperowana, bo w różnych miejscach pojawiało się coraz więcej porostów, ale już mam to pod kontrolą. Gdybym mógł swoim doświadczeniem pomóc choć jednej osobie, to osiągnąłem swój cel!",
+   "tags": [
+    "efficacy",
+    "price",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Krem bardzo dobry, tubka okropna... zobacz aktualizację. Ten produkt zdecydowanie działa zgodnie z reklamą, zmniejszając swędzenie i zaczerwienienie, i używam go na wszystkie wysypki wypryskowe, zanim przejdę na emeryturę lub przed wyjściem.  Używam go również w połączeniu z lekiem sterydowym na receptę, który najpierw aplikuję, aby zmniejszyć wysypkę, a następnie, gdy krem ​​sterydowy zaschnie, posmaruj skórę Eucerinem. Jedynym minusem i kontaktuję się z firmą w tej sprawie jest tubka, w której jest dołączona. Jest wykonana z tak grubego, nieulegającego plastiku, że jestem pewien, że nie da się wycisnąć pełnej ćwiartki kremu.  Należy go włożyć do tuby z materiałem, w którym znajdują się pasty do zębów, tak aby można było ją zwinąć i uzyskać pozostały materiał.  Założę się, że jest to zrobione celowo, żeby sprzedawać więcej.  Straszne. Aktualizacja: Właśnie rozciąłem tubę, która nie dawała więcej produktu poprzez ściskanie z powodu sztywnej tuby.  Zeskrobałem całe 5 łyżeczek i napełniłem plastikowy pojemnik o wymiarach około 1-1/2 cala kwadratowego i ponad 1 cala wysokości, a w tubce było jeszcze więcej.  Poza tym, kiedy wysłałem recenzję do firmy-matki eucerinUS.com i powiedziałem, co sądzę o tym, dlaczego używają takiej lampy, nie opublikowali jej.  Celowe użycie tubki, która nie pozwala wydobyć 25% produktu jest przestępstwem.  Inni powiedzieli im o kiepskim pojemniku na długo przed tym, zanim musiałem go użyć, ale nic z tym nie zrobili",
+   "tags": [
+    "adverse_reaction",
+    "no_cortisone",
+    "itch_relief",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie trzeba przedstawiać... Krem, którego używam od kilku lat i wciąż do niego wracam, bo zawsze świetnie sprawdza się zarówno na twarzy, jak i na ciele. Posiada 2 główne składniki aktywne: + Ceramidy + Kwas hialuronowy. UWAGA, ponieważ ta wersja nie zawiera NIACYNAMIDU, który występuje oprócz składników aktywnych wymienionych tylko w niektórych fiolkach 50 ml, które są przeznaczone bezpośrednio do twarzy (ale nic się nie zmienia w porównaniu do tego preparatu, zawiera tylko dodatkowy NIACYNAMID) Mam normalną skórę ze skłonnością do suchości, a krem ​​wysycha bardzo szybko, nie pozostawiając tłustej warstwy na twarzy. Jedyną realną alternatywą dla tego kremu jest Cetaphil, który moim zdaniem utrzymuje się na twarzy nieco krócej, ponieważ szybciej wysycha, i prawdopodobnie jest nieco bardziej kojący i odpowiedni na bardzo drobne problemy skórne (dotyczy zarówno twarzy, jak i ciała), ponieważ jego aktywnymi składnikami są gliceryna – pantenol i niacynamid). Osobiście uważam, że są świetne. Jeśli chodzi o stosunek jakości do ceny, Cerave' jest tańszy (mówimy o kilka euro), ale oba są to kremy, które sprzedawane są również w 350/400 gramowych słoiczkach i które starczają na bardzo długi czas. Polecam wypróbować obydwa rozwiązania i ewentualnie stosować je na zmianę. Polecam latem, po rozsmarowaniu ich na twarzy, zawsze stosować kremy z filtrem przeciwsłonecznym. Po otwarciu przez 12 miesięcy",
+   "tags": [
+    "greasy_absorption",
+    "hydration",
+    "price"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie tak zmiękczający, jak na potrzeby związane z zapaleniem skóry. Cierpię na nawroty zapalenia skóry – z rodziny egzem – Okrągłe, suche plamy, które wyglądają jak grzybica. Ew. Zazwyczaj dostaję je na ramiona i dłonie zimą i nogi latem. Losowe kręgi czerwonej, podrażnionej, suchej skóry. Używałam przez jakiś czas kremu leczniczego Eucerin i wydawało się, że działa zapobiegawczo, ale był zbyt gęsty i pozostawiał białe smugi na moich ubraniach. Świetnie sprawdzał się wieczorem po kąpieli, jednak na dzień szukałam kremu na dzień. Wypróbowałam krem ​​CeraVe ze słoiczka, ale nie dał rady. Wypróbowałem też Lubriderm, który przypadł mi do gustu, ale nie przepadał za nim. Pomyślałem więc, że z dużymi nadziejami wypróbuję ten krem ​​​​łagodzący egzemę. Jednak nie zapobiegło to u mnie nawrotom. Prawdę mówiąc, miałem wrażenie, że miałem więcej nawrotów niż kiedykolwiek wcześniej. Więc oceniłbym go gorzej niż CeraVe i Lubriderm, jeśli chodzi o codzienne balsamy. Niestety nic nie może się równać z gęstym, bogatym kremem zmiękczającym, jaki zapewnia oryginalny krem ​​leczniczy Eucerin w słoiczku. Na razie wrócę do słoiczka i będę kontynuować poszukiwania... to powiedziawszy, do punktowej kuracji użyłam olejku z drzewa herbacianego zmieszanego z frakcjonowanym olejem kokosowym i naprawdę podobają mi się rezultaty! Jak dotąd wydaje się, że plasterki goją się szybciej niż zwykłe balsamy i kremy. Powodzenia!",
+   "tags": []
+  },
+  {
+   "r": 3,
+   "t": "Krem, do którego trzeba się przyzwyczaić, ale daje zadowalający efekt. Znalazłam ten krem ​​tutaj na Amazonie, gdy szukałam maści/kremu, który jest naturalnego pochodzenia, ale może mieć silny wpływ na problemy skórne twarzy. Po przeczytaniu innych recenzji i poszukaniu informacji w Internecie zdecydowałam się dać temu kremowi szansę, ponieważ to, co przeczytałam, brzmiało dla mnie przekonująco. Przybył dobrze i szybko, starannie zapakowany. Kiedy użyłam go po raz pierwszy, stwierdziłam, że do zapachu kremu trzeba się przyzwyczaić. Nieźle, ale na pewno są osoby, którym ten zapach w ogóle nie przypadnie do gustu. Jako że jestem stosunkowo „oszczędna”, szybko przyzwyczaiłam się do zapachu, a na końcu tuby wydał mi się nawet przyjemny. Krem jest bardzo tłusty i ma żółto-ochrowy kolor. Dla mnie to dało dobry efekt. Jednak nie będę go zamawiać ponownie, ponieważ cztery miesiące temu jego cena była moim zdaniem trochę za wysoka i w połączeniu ze sposobem, w jaki działał. Teraz to się zwiększyło i efekt dla mnie nie był tak świetny, abym mógł powiedzieć, że muszę ponownie sięgnąć po ten produkt. OK, ale nie jest to konieczne",
+   "tags": [
+    "efficacy",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Jak dotąd wszystko w porządku (z aktualizacją). Używam kremu dopiero kilka dni, ale jak na razie jestem bardzo, bardzo zadowolony. Stosuj go w połączeniu z płynem myjącym CeraVe do skóry suchej, który jak na razie gorąco polecam, a także nowym HempCream. Moja skóra miała fazę wyjątkowo suchą. Od dawna cierpię na neurodermit i suchość skóry nie jest dla mnie niczym nowym, ale nigdy nie miałam tak złego stanu twarzy. Nic innego nie pomogło. Od Masła Shea po Avene... Teraz w końcu znów odczuwam ulgę dzięki temu kremowi, kremowi HempCare i mleczkowi myjącemu CeraVe oraz niezliczonej ilości maseczek do twarzy. Krem pozostawia uczucie chłodu na skórze, wygląda dość matowo, choć nadal daje uczucie silnego nawilżenia.***Aktualizacja*** Ponieważ obecnie stosuję różne produkty do pielęgnacji skóry, trudno powiedzieć, czy to właśnie ten krem ​​spowodował u mnie reakcję skórną, ale wydaje mi się, że tak, ponieważ pozostałe produkty są naturalne (olejek z dzikiej róży, masło Shea). Mam małe krosty przypominające pryszcze na policzkach, jak inna osoba opisała w recenzjach, i to w okolicy samochodu. Używaj ostrożnie! Wydaje się, że dla niektórych jest to dobre, a dla innych okropne",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "itch_relief",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Niestety na mnie to nie działa. Mam łuszczycę i stosuję krem ​​raz dziennie przez około 3 tygodnie. Łuszczyca oczywiście ustępuje, ale to bardziej dlatego, że krem ​​jest lekko tłusty. Oznacza to, że łuszczyca staje się miękka i lepiej się rozpuszcza. Moje plamki - dzięki Cosentyxowi - występują tylko na nogach. Jednak ten sam sukces osiągnęłam również stosując zwykły krem ​​​​ochronny do skóry firmy DM, więc nie widzę dużej różnicy w stosunku do tego kremu. Jedyną pozytywną rzeczą, jaką zauważyłem w tym kontekście, było zmniejszenie swędzenia. Zapach wymaga przyzwyczajenia, ale jest w miarę normalny dla kremu z tymi składnikami. Nie zaobserwowałem jednak żadnej reakcji alergicznej ani nic innego. Więc krem ​​jest w porządku - chociaż cena wydaje mi się trochę wysoka. Ocena ta nie jest kryterium nokautującym dla tego kremu. Każdy człowiek jest inny i oczywiście inaczej reaguje na dane substancje. Zatem krem ​​z pewnością może pomóc innym osobom – u mnie niestety tego nie zrobił. Dlatego daję mu trzy gwiazdki, które należy traktować jako neutralne. Nie oznacza to jednak automatycznie, że ten krem ​​jest zły",
+   "tags": [
+    "adverse_reaction",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Świetny krem ​​z wadami wizualnymi. Sam krem ​​jest bardzo, bardzo treściwy i nawilżający! Używam go, ponieważ cierpię na neurodermit, który jest bardzo widoczny na mojej twarzy. Ten krem ​​pozwala mi całkowicie uniknąć kortyzonu, jeśli nakładam go co najmniej trzy razy dziennie. To, co mnie trochę zaniepokoiło, to zdjęcie kurkumy na opakowaniu, bo choć w składzie jest ona wymieniona, to na zdjęciu był korzeń imbiru. Producenci w Indiach czy projektanci w Niemczech nie zwrócili na to uwagi ;) Ta wada wizualna opakowania zewnętrznego nie ma wpływu na zawartość! Wyraźna rekomendacja zakupu ode mnie !! Na pewno kupię ten krem ​​drugi i trzeci raz! Świetny produkt!!! Dodatek: Odliczenie 2 gwiazdek: Krem (150 ml) kupiłam w lutym 2022 za 28,47 euro. Dziś cena wzrosła prawie dwukrotnie (sugerowana cena detaliczna: 42,90 € – w ofercie 32,23 €). Przerzuciłam się na inny, tańszy krem, który ma równie dobre działanie. Z tego jestem trochę szczęśliwszy",
+   "tags": [
+    "no_cortisone",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Rewelacyjny do twarzy i ciała, zdecydowanie niezbędny w pielęgnacji skóry – nowa formuła rozczarowuje. Aktualizacja z grudnia 2025 r.: Niedawno kupiłem kolejną butelkę i formuła nieznacznie się zmieniła. Tekstura jest wciąż taka sama i nadal tak samo nawilża, więc nie zauważyłabym inaczej, gdybym nie zaczął mieć trądziku po tej nowej butelce. Używam go już około 2 miesięcy i jest to jedyna nowość w mojej pielęgnacji, więc tylko ten przychodzi mi do głowy. Mam nadzieję, że wrócą do starej formuły, w przeciwnym razie będę musiał poszukać alternatywy. Bardzo mi się to podoba! Wypróbowałem wcześniej La-roche posay baume ze słabymi wynikami, ale pomyślałem, że powinienem spróbować Biodermy i bardzo się cieszę, że tak zrobiłem. Używam go na twarz, a konsystencja jest wystarczająco gęsta, aby dobrze nawilżyć i rozprowadzić, ale szybko się wchłania i idealnie wysycha. Można go stosować pod makijaż bez mechacenia, ale także świetnie sprawdza się jako krem ​​na noc/balsam do ciała. Zużyłam już jedno opakowanie i kupiłam już drugie. Nie można teraz bez tego żyć",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Rewelacyjny do twarzy i ciała, zdecydowanie niezbędny w pielęgnacji skóry – nowa formuła rozczarowuje. Aktualizacja z grudnia 2025 r.: Niedawno kupiłem kolejną butelkę i formuła nieznacznie się zmieniła. Tekstura jest wciąż taka sama i nadal tak samo nawilża, więc nie zauważyłabym inaczej, gdybym nie zaczął mieć trądziku po tej nowej butelce. Używam go już około 2 miesięcy i jest to jedyna nowość w mojej pielęgnacji, więc tylko ten przychodzi mi do głowy. Mam nadzieję, że wrócą do starej formuły, w przeciwnym razie będę musiał poszukać alternatywy. Bardzo mi się to podoba! Wypróbowałem wcześniej La-roche posay baume ze słabymi wynikami, ale pomyślałem, że powinienem spróbować Biodermy i bardzo się cieszę, że tak zrobiłem. Używam go na twarz, a konsystencja jest wystarczająco gęsta, aby dobrze nawilżyć i rozprowadzić, ale szybko się wchłania i idealnie wysycha. Można go stosować pod makijaż bez mechacenia, ale także świetnie sprawdza się jako krem ​​na noc/balsam do ciała. Zużyłam już jedno opakowanie i kupiłam już drugie. Nie można teraz bez tego żyć",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Właściwie świetny, ale... Mam wyjątkowo suchą skórę, szczególnie na twarzy. Jeśli zedrę część skóry, pojawi się stan zapalny i ból. Na ten produkt natknąłem się przez przypadek i po świetnych recenzjach od razu go zamówiłem. Następnego dnia już tam był, nałożyłem go całkowicie na twarz. Przesuszone miejsca uspokoiły się już po jednej aplikacji, ale po kilku godzinach nałożyłam krem ​​ponownie, bo poczułam, że skóra znów się wysusza i ściąga. Dostałem naprawdę dużą wysypkę wokół ust. Po 3 dniach stosowania aloesu prawie wszystko minęło, ale nadal boli. Produkt robi to, co obiecuje, ale nie jest tak oparty na roślinach. Niestety musiałem tego doświadczyć na własnej skórze. W przyszłości będę nakładać bardzo niewiele na dotknięte obszary. Zajmie to dłużej, ale pomoże, dopóki nie znajdę czegoś lepszego",
+   "tags": [
+    "adverse_reaction"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Zdecydowanie nawilża, ale…. Testuję go od kilku dni, więc w połowie lipca kupiłam, bo mocno nawilża i dlatego pomyślałam, że sprawdzi się po plaży. Problem w tym, że po nałożeniu wydaje się lepki i „gruby” przez resztę dnia i nocy. Osobiście wolę kremy, które szybko się wchłaniają, a jednocześnie nawilżają: jeśli tak jak ja, to ten krem ​​zdecydowanie nie jest dla Ciebie… jest bardzo ciężki i bardzo mocny na skórze, nigdy się nie wchłania, ale jest też wskazany do skóry suchej i BARDZO suchej, więc nie mam ochoty go w żaden sposób krytykować… Szczerze mówiąc, moim zdaniem nie da się go nakładać również na bazę pod makijaż, bo jest zbyt lepki i ciężki. Trzeba by go przetestować zimą, czyli porą roku, w której skóra jest mniej nawilżona niż pot latem. Podsumowując: nie polecam na lato, a jeśli już naprawdę chcesz go kupić to upewnij się, że Twoja skóra jest BARDZO sucha!",
+   "tags": [
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Muszę uzbroić się w cierpliwość, bo teraz moja twarz zrobiła się czerwona. Próbuję go na noc, aby nawilżyć twarz. Zauważyłam, że moja twarz zrobiła się lekko czerwona na brodzie, policzkach we wrażliwych miejscach po trzykrotnym podaniu.... Mam jeszcze jedną w słoiczku, której używam do stóp, łokci i tak dalej. Ale ten mówił, że jest do twarzy i ciała taki sam jak ten drugi, który z tego co widziałam jest taki sam jak ten w słoiczku, tyle że ze znacznie mniejszą ilością produktu. Zupełnie nie tego się spodziewałam, spodziewałam się, że będzie przeznaczony tylko do twarzy i ostatecznie jest taki sam jak inne słoiczki, które kosztują tyle samo, a zawierają dwa razy więcej produktu. Instrukcje wszystko w innych językach Nic po hiszpańsku... Poczekam kilka dni, żeby zobaczyć, czy moja twarz nadal się czerwieni. To marka, którą bardzo lubię, ponieważ stosuję inne produkty do twarzy, np. żel do mycia twarzy i mam nadzieję, że zaczerwienienia zejdą lub nie będą już pojawiać się na mojej twarzy. Na razie przestałem dawać mu kilka dni na sprawdzenie, czy to krem.",
+   "tags": [
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "To nie to samo co sklep.... Na egzemę cierpię od 33 lat, odkąd byłem małym dzieckiem. Bardzo trudno było mi znaleźć krem/balsam, którego mogłabym używać codziennie, zwłaszcza po umyciu rąk (co powoduje, że mój egzema jest milion razy gorsza). Biorąc to pod uwagę, kupiłem to w moim lokalnym sklepie Walmart i po raz pierwszy poczułem, że w końcu to jest to, czego szukałem i czego potrzebowała moja skóra. Kiedy znalazłem go na Amazon i sprawdziłem zarówno opakowanie, jak i listę składników, zdecydowałem się go kupić. Jest to jednak duża różnica, nie jest to ten sam lek na egzemę od Eucerin, który znalazłem w moim lokalnym sklepie. Pachnie inaczej (każdy, kto ma egzemę, jest wrażliwy na zapachy, tekstury i przebieg), nie ma tej samej tekstury i bardziej przypomina zwykłą Eucerin (nie mój gust) niż cudowny środek na egzemę, który znalazłem w moim sklepie. Nie kupię tego nigdy więcej, chyba że w lokalnym sklepie, gdzie mogę go powąchać i dokładnie sprawdzić jego konsystencję",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Zwykłe i nieprzekonujące cenowo. CeraVe Body and Face Moisturizer to produkt, któremu w branży pielęgnacji skóry poświęcono wiele uwagi. Jednak z własnego doświadczenia nie znajduję w tym kremie niczego szczególnego, co wyróżniałoby go na tle tańszych drogeryjnych zamienników. Krem na pewno spełnia swoje zadanie i nawilża, ale w porównaniu do innych produktów w podobnej cenie nie widzę istotnego powodu, aby wybrać CeraVe. Składniki są solidne, ale uważam, że brakuje im zauważalnej różnicy lub wyjątkowej zalety, która uzasadniałaby wyższą cenę. Konkluzja: Jeśli chodzi o środki nawilżające, w drogeriach z pewnością dostępne są niedrogie opcje, które są podobnie skuteczne. CeraVe może i sprawdzi się w przypadku niektórych rodzajów skóry, ale dla mnie osobiście nie oferuje na tyle, aby uzasadnić różnicę w cenie",
+   "tags": [
+    "efficacy",
+    "price"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Czuje się tłusto na mojej skórze. Zimą moja skóra staje się bardzo sucha i pojawia się z przerwami przez cały rok. Najgorsze miejsca to stopy i łokcie. Staram się je nawilżać.  Nienawidzę uczucia tłustych lub tłustych balsamów. Miałam nadzieję, że ten balsam będzie gęsty i nawilżający, ale nie tłusty. Niestety wydaje mi się bardzo tłusty. Działa nawilżająco. Toleruję to na nogach, ale nigdzie indziej. Muszę umyć ręce zaraz po nałożeniu, bo nienawidzę uczucia tłustych dłoni. Chociaż nawilża moje stopy, nie pozostawia ich tak usatysfakcjonowanych, jak w przypadku gęstego masła do ciała. Ogólnie rzecz biorąc, działa. Balsam nie jest niczym specjalnym i wydaje mi się tłusty/tłusty na mojej skórze. Będę go używać aż do jego całkowitego zużycia (na zmianę z dużo bardziej nawilżającym masłem lub balsamem do ciała). Nie kupię go ponownie i nie polecam. Są lepsze produkty do skóry suchej",
+   "tags": []
+  },
+  {
+   "r": 3,
+   "t": "Czuje się tłusto na mojej skórze. Zimą moja skóra staje się bardzo sucha i pojawia się z przerwami przez cały rok. Najgorsze miejsca to stopy i łokcie. Staram się je nawilżać.  Nienawidzę uczucia tłustych lub tłustych balsamów. Miałam nadzieję, że ten balsam będzie gęsty i nawilżający, ale nie tłusty. Niestety wydaje mi się bardzo tłusty. Działa nawilżająco. Toleruję to na nogach, ale nigdzie indziej. Muszę umyć ręce zaraz po nałożeniu, bo nienawidzę uczucia tłustych dłoni. Chociaż nawilża moje stopy, nie pozostawia ich tak usatysfakcjonowanych, jak w przypadku gęstego masła do ciała. Ogólnie rzecz biorąc, działa. Balsam nie jest niczym specjalnym i wydaje mi się tłusty/tłusty na mojej skórze. Będę go używać aż do jego całkowitego zużycia (na zmianę z dużo bardziej nawilżającym masłem lub balsamem do ciała). Nie kupię go ponownie i nie polecam. Są lepsze produkty do skóry suchej",
+   "tags": []
+  },
+  {
+   "r": 3,
+   "t": "Nie wiem, czy kupię je ponownie. Kupiłam ten krem, bo z wiekiem mam naprawdę bardzo suchą skórę i szukałam kremu do ciała, który rozwiązałby mój główny problem suchości. Kiedy przeczytałam opis produktu, powiedziano mi, że krem ​​nie jest perfumowany, szybko się wchłania i nie powinien się kleić. Teraz muszę zdać sobie sprawę, że po nałożeniu dość mocno się klei i trzeba trochę poczekać, aż się wchłonie. Nie zauważyłam, żeby moja skóra była po nim naprawdę nawilżona. Dużym plusem jest dozownik na puszce, który sprawdza się znakomicie. Zamierzam dokończyć stosowanie produktu i zobaczyć, czy będzie widoczna poprawa mojej skóry. Nie oznacza to, że jest to zły produkt, to po prostu moje doświadczenia z moją skórą",
+   "tags": [
+    "efficacy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie nadaje się dla osób wrażliwych. Zamówiłam ten krem, bo byłam zaskoczona, jak wielu osobom pomógł przy łuszczycy czy neurodermicie. Po użyciu kremu moja skóra w ogóle nie zareagowała dobrze na krem. Moje neurodermit na szyi i twarzy nie uległ poprawie. Rzeczywiście miałem reakcję alergiczną i miałem wysypkę na twarzy i swędzące, spuchnięte oczy. Warto także przyjrzeć się składnikom. Na przykład BHA jest hormonalną substancją czynną, która może prowadzić do zaburzeń hormonalnych. Cera Microcristallina i parafina to także składniki aktywne, co do których istnieje podejrzenie, że powodują raka.  Myślę, że ten krem ​​może naprawdę pomóc niektórym osobom, ale nie powinieneś go używać, jeśli masz alergię lub coś podobnego",
+   "tags": [
+    "adverse_reaction",
+    "ingredient_safety",
+    "price"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Genialny jako krem ​​nawilżający do ciała. Bardzo lubię ten krem ​​nawilżający do stosowania na ciało. Jest gęsty i kremowy, zapewnia dużo nawilżenia, ale wchłania się bardzo szybko i wysycha całkowicie matowo, więc nie pozostawia lepkiej pozostałości, jak w przypadku większości mocnych kosmetyków nawilżających. JEDNAKŻE dwie gwiazdki mu odpadają, bo przy próbie użycia go na twarzy strasznie mnie podrażnił, mimo że twierdził, że jest „niezatykający porów”. Prawdopodobnie winowajcą jest połączenie alkoholu cetearylowego i ceteareath 20 znajdujące się na górze formuły, ponieważ te dwa składniki w połączeniu są wyjątkowo zaskórnikowe. Szkoda, bo krem ​​zasycha matowo, powinien więc idealnie nadawać się do nawilżania twarzy, a dla mnie niestety był za ciężki. Uważaj więc na używanie tego produktu na twarzy, jeśli tak jak ja masz skłonność do trądziku",
+   "tags": [
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Krem glicerynowy - ciężki i tłusty. Krem jest klarownym kremem glicerynowym. Pachnie tym i też tak się czuje. Po nałożeniu na skórze jest bardzo ciężki i tłusty. Zapach jest typowy dla gliceryny. Jeżeli Ci to nie odpowiada, powinnaś użyć innego kremu. Mam bardzo suchą skórę i u mnie szybko się wchłania. Jeśli jednak skóra jest mniej sucha, z pewnością pozostanie warstwa tłuszczu, którą należy usunąć. Po wchłonięciu kremu na skórze pozostaje zauważalna warstwa. Jeśli masz skłonność do niedoskonałości skóry, powinnaś stosować lżejszy krem. Będę go używać tylko zimą i gdy będzie bardzo sucho. Za mocno uszczelnia moją skórę na co dzień, a do tego jest za ciężki. Ogólnie dobrze natłuszcza skórę",
+   "tags": [
+    "greasy_absorption",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wiele osób się nim zachwyca, ale na mnie nie robi to większego wrażenia. CICAPLAST BAUME B5+ marki La Roche-Posay to ultranaprawczy i łagodzący balsam przeznaczony dla użytkowników poszukujących intensywnej pielęgnacji zniszczonej lub podrażnionej skóry. Dzięki bogatej formule, która ma na celu odżywienie, ochronę skóry i przyspieszenie procesu gojenia, produkt oferuje obiecujące podejście, które bardzo wycierpiało zimą. Pomyślałem więc, że to będzie idealna aplikacja. Niestety nie dla każdego. Muszę dalej testować te kremy i nie kupować ich ponownie",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Łuszczyca od 28 lat, żaden krem ​​nie pomógł, ale to działa! Choruję na łuszczycę od 28 lat. Do niedawna miałem je wokół obu oczu, na obu uszach i w zewnętrznym kanale słuchowym. Lekarz przepisywał mi tylko te maści parafinowe z kortyzonem lub innymi środkami chemicznymi, na co zawsze odmawiałam. Jestem weganką już od około sześciu lat. Skóra się trochę poprawiła, ale łuszczyca nadal pozostała. Następnie przetestowałam drogi, wegański krem ​​z witaminą B12 od Vitabay. Pomogło na prawe oko, ale na uszy, a grzybica pozostała na lewym oku. Teraz dałem sobie kolejną szansę i spróbowałem ponownie z drogą maścią. Sorian był wówczas dostępny w okazyjnych cenach. Ważne było dla mnie, aby produkt nie był testowany na zwierzętach i aby został wyprodukowany bez składników pochodzenia zwierzęcego. Sorion również to spełnił. Z wyjątkiem wazeliny/parafiny (z ropy naftowej), wszystkie składniki są pochodzenia naturalnego. Substancja ta nie budzi żadnych kontrowersji i nie należy jej stosować na dużych powierzchniach przez dłuższy okres czasu, gdyż podejrzewa się, że może gromadzić się w nerkach, wątrobie i węzłach chłonnych. Dzięki zawartości parafiny krem ​​ten dłużej utrzymuje się na skórze i uszczelnia ją, dzięki czemu składniki aktywne mogą działać wystarczająco długo, a łuszcząca się powierzchnia nie może wyschnąć. Krem ma jasnobrązową barwę i pachnie lekko korzennie i naturalnie. Stosowałam go około trzech razy dziennie. Po tygodniu łuszczyca całkowicie zniknęła. Prawie można było obserwować proces gojenia. Potem zrobiłem sobie trzydniową przerwę. Skóra znów stała się bardzo lekko sucha, więc ponownie nałożyłam na nią krem ​​na kilka dni. Potem zrobiłem sobie czterodniową przerwę i znów zrobiło się lekko sucho. Będę to robić do czasu, aż mam nadzieję, że skóra w pewnym momencie pozostanie nienaruszona. Jestem pewna, że ​​kiedyś ten krem ​​nie będzie mi już potrzebny, bo teraz mogę się bez niego obyć kilka dni. Tak, to jest drogie, ale działa! Podczas procesu gojenia miejsca mogą lekko swędzić. Nie należy jednak przerywać kuracji i prowadzić ją konsekwentnie. Jeśli można na coś narzekać w przypadku tego kremu, to na to, że jego surowce nie pochodzą ze zrównoważonych upraw. Zawarta w nim parafina nie jest oczywiście do końca korzystna dla zdrowia i w miarę możliwości powinna zostać wymieniona przez producenta. Dlatego tylko cztery gwiazdki zamiast pięciu. Dodatek: Nie stosowałam kremu jakiś miesiąc i łuszczyca też nie wróciła! Uznałem, że jestem wyleczony :-)",
+   "tags": [
+    "ingredient_safety",
+    "efficacy",
+    "no_cortisone",
+    "hydration"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Cudowna broń. **Skuteczna specjalna pielęgnacja podrażnionej skóry **Krem naprawczy Sorion okazał się prawdziwą cudowną bronią na podrażnienia skóry. Wysokiej jakości składniki zapewniają intensywną regenerację przy zaczerwienieniach, swędzeniu i innych problemach skórnych.**Dobry skład i tolerancja dla oczu**To, co szczególnie podoba mi się, to dobre składniki, które pomagają ukoić i zregenerować skórę. Dużym plusem jest to, że krem ​​nie powoduje problemów pod oczami, co często zdarza się w przypadku wielu innych produktów.**Bogata pielęgnacja na noc**Ze względu na bogatą konsystencję krem ​​polecam stosować wieczorem. Dobrze się wchłania, ale ze względu na swoją intensywność idealnie nadaje się na noc, aby intensywnie pielęgnować i regenerować skórę przez noc.**Do zapachu trzeba się przyzwyczaić**Do zapachu kremu trzeba się początkowo przyzwyczaić, ale szybko można się do niego przyzwyczaić. Nie jest to szczególnie przyjemne, ale biorąc pod uwagę skuteczność kremu, z radością to przyjmuję.**Szybka ulga i gojenie**Krem naprawczy Sorion szybko działa na podrażnienia skóry. Miejsca z wysypką natychmiast przestają swędzić i szybko się goją. Nawet w przypadku uporczywych problemów, takich jak dyshydroza, okazał się niezwykle skuteczny, a objawy znikają.**Jedynym punktem krytycznym jest cena.**Jedynym punktem krytycznym, jaki widzę, jest cena. Mimo, że krem ​​jest niezwykle skuteczny, dla niektórych cena może być przeszkodą w regularnym stosowaniu.**Wniosek**Generalnie jestem bardzo zadowolona z Kremu Naprawczego Sorion. Zapewnia skuteczną pielęgnację specjalną dla podrażnionej skóry i zachwyca dobrym składem, tolerancją dla oczu i szybką skutecznością. Pomimo zapachu i ceny, do której trzeba się przyzwyczaić, z przyjemnością daję 4 gwiazdki i polecam każdemu, kto boryka się z podrażnieniami skóry i szuka niezawodnego rozwiązania",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "itch_relief",
+    "price"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Okropny krem, ale działa rewelacyjnie. Od wielu lat mam problemy z egzemą na twarzy i do tej pory słabo sobie z nią radziłam za pomocą kremów z kortyzonem. Zaznaczę też, że nie jestem fanką \"medycyny naturalnej\" i że dużo myślę o medycynie współczesnej. Ze względu na koronę nie mogłam udać się do dermatologa i kupiłam produkt przejściowy na Amazonie. Szczerze mówiąc, nie doczytałam, jaki to był rodzaj kremu – było napisane, że jest wysoce naukowy i ma wiele dobrych recenzji – to mi wystarczyło. Powinno pomóc tylko na kilka tygodni, do czasu, aż ponownie dostanę stary krem ​​od dermatologa. Kiedy krem ​​dotarł, byłam zaskoczona, zamiast tego potwora spodziewałam się białego kremu przypominającego Niveę. Ma kolor i konsystencję dziecięcych wymiocin, nieokreślony smród gdzieś pomiędzy ziołami a starym jedzeniem, a po zastosowaniu pozostawia śluzowate uczucie na dłoniach i twarzy. Poza tym pali się trochę po aplikacji!  Stosowanie tego kremu to po prostu naprawdę nieprzyjemne przeżycie. Tak wyobrażam sobie średniowieczne nalewki, jakie niektórzy szamani nakładali na trędowatych. ALE: To wszystko jest stosunkowo drugorzędne, bo krem ​​pomaga. Już po pierwszej aplikacji wygląd skóry się poprawił, a po pół tygodnia kładzenia się z nią codziennie wieczorem do łóżka (kremu nie można stosować rano przed pracą, bo A) piecze B) śmierdzi i C) twarz błyszczy godzinami) moja skóra wyglądała jak gdyby nigdy nic.  Choć byłam przerażona samym kremem, tak jestem zachwycona jego działaniem... Dlatego ostatecznie użyłabym go ponownie. A ponieważ nie zawiera kortyzonu, to chyba jest nawet zdrowszy niż mój stary krem... Nawet jeśli nie chcesz w to wierzyć, biorąc pod uwagę okropne pieczenie",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "no_cortisone",
+    "price"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Bardzo skuteczna pielęgnacja skóry wrażliwej. Jako osoba cierpiąca na egzemę wypróbowałam wiele produktów do pielęgnacji skóry, a krem ​​naprawczy Sorion okazał się doskonałą alternatywą dla moich kremów z kortyzonem. Krem został opracowany specjalnie dla skóry podrażnionej ostro i przewlekle i zapewnia intensywną pielęgnację zaczerwienień, swędzenia i podrażnień skóry. Zalety: Wysoce skuteczne składniki: Bogata formuła z naturalnym olejem kokosowym i ajurwedyjskimi ekstraktami roślinnymi, takimi jak neem, kurkuma, korzeń barwnika i słodkie indrajao, skutecznie łagodzi i regeneruje skórę. Te naturalne składniki są idealne do pielęgnacji suchej, podrażnionej skóry.-Dobra tolerancja skóry: Krem jest testowany dermatologicznie i nadaje się zarówno do twarzy, jak i ciała. Nie zawiera silikonów i parabenów, co czyni go dobrym wyborem dla skóry wrażliwej. Wady: - Do zapachu trzeba się przyzwyczaić: Zapach kremu niekoniecznie jest przyjemny i może wymagać przyzwyczajenia. Przyzwyczajenie się do tego może zająć trochę czasu.-Wysoka cena: Niestety cena kremu naprawczego Sorion jest obecnie dość wysoka. Może to stanowić znaczne obciążenie kosztowe w przypadku ciągłego użytkowania. Aplikacja jest nieskomplikowana: wystarczy nałożyć cienką warstwę na dotknięte obszary rano i wieczorem. Mimo że maść może lekko odbarwić się pod wpływem bezpośredniego światła słonecznego, co wynika z zawartej w niej kurkuminy, zapewnia wyjątkową pielęgnację. Pomimo wyższej ceny i zapachu, do którego trzeba się przyzwyczaić, skuteczność kremu jest przekonująca. Osobom o wrażliwej skórze, a zwłaszcza tym, które szukają naturalnej alternatywy dla kremów z kortyzonem, zdecydowanie polecamy Krem Naprawczy Sorion. Dlatego daję 4 z 5 gwiazdek",
+   "tags": [
+    "ingredient_safety",
+    "greasy_absorption",
+    "efficacy",
+    "no_cortisone"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetny dla BARDZO suchej skóry. Każdy, kto cierpi na wyjątkowo suchą i napiętą skórę, szczególnie na twarzy, zna ten problem: kremy reklamujące dokładnie ten cel tworzą tylko tłusty film na skórze, ale prawie się nie wchłaniają, a skóra ostatecznie na tym zyskuje. A rzadkie kremy zawierające dużo wody wysuszają skórę JESZCZE bardziej. Rzeczywiście szybko się „wchłaniają”, ale w rzeczywistości jest to tylko odparowanie zawartej w nich wody. I jak w przypadku każdego procesu parowania, ze skóry usuwana jest również woda - dlatego „rzadkie” kremy JESZCZE WIĘCEJ wysuszają suchą skórę. Sorion Repair jest wyjątkowo tłusty (tak musi być), ale już po chwili po aplikacji można poczuć, jak skóra „relaksuje się” i uspokaja. To zawsze jest dobre dla suchej skóry, która ma tendencję do napinania się. Następnie krem ​​potrzebuje kilku godzin, aby całkowicie się wchłonąć, dlatego najlepiej jest nakładać go wieczorem i pozostawić na noc. Następnego ranka skóra jest niesamowicie ukojona, zrelaksowana i wygląda znacznie lepiej – zaczerwienienia, egzemy i swędzące obszary zwykle znacznie się zmniejszają w ciągu nocy. Jeśli chcesz używać tego kremu w ciągu dnia, powinieneś nałożyć MAŁO i ewentualnie ponownie przetrzeć ręcznikiem papierowym. W przeciwnym razie na skórze może pojawić się przezroczysta warstwa tłuszczu. Kiedy jednak już ustalimy, jaka jest odpowiednia dawka na dzień (i wytrzemy ją krótko ręcznikiem papierowym), można nałożyć na nią nawet płynny makijaż. Zapach jest, cóż... można się do niego przyzwyczaić. Ale to także drobnostka, jeśli coś NAPRAWDĘ pomaga. Jest tylko mały odlicznik, bo cena jest trochę wygórowana - szczególnie jeśli jako \"chorujący\" jesteś uzależniony od pomagających kremów, jest to dość drogie",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "itch_relief",
+    "hydration"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Na pewno dobry krem ​​- niestety nie dla mnie. Na pewno dostaniesz tutaj dużo kremu za swoje pieniądze, słoiczek jest naprawdę ogromny i bardzo szybko znalazł się u mnie w domu po złożeniu zamówienia. Konsystencja jest naprawdę świetna, naprawdę gładka i łatwo się rozprowadza, bez konieczności ciągłego pocierania. Wchłania się też bardzo szybko, co moim zdaniem jest ważne, żeby nie nosić ze sobą tłustej warstwy przez cały dzień. Uczucie podczas stosowania było naprawdę bardzo dobre, a skóra od razu stała się miękka, niestety odbiór przyszedł po kilku minutach. Moja twarz chyba źle to wszystko tolerowała, dostałam naprawdę paskudnego zaczerwienienia i była lekko ściągnięta. Szkoda, bo sam krem ​​naprawdę imponował konsystencją. Ale odejmuję tylko jedną gwiazdkę i daję 4, bo uważam, że to po prostu mój osobisty problem z tolerancją i niekoniecznie związany z samym produktem. Może jestem po prostu trochę wrażliwy na składnik – naprawdę irytujący w przypadku kremów do twarzy – ale dla innych osób może działać idealnie. Resztę używam teraz tylko na suche golenie i działa naprawdę dobrze, skóra staje się naprawdę miękka i nie pojawiają mi się żadne czerwone plamy. Jeśli więc nie macie tak fatalnej mimozowej skóry na twarzy jak ja, to zdecydowanie jest to dobra rzecz ze względu na dużą ilość i cenę. Zawsze trzeba zobaczyć, co mówi własna skóra, ale sam krem ​​na pewno nie wygląda na tani",
+   "tags": [
+    "greasy_absorption",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry. Nie mam alternatywy. Często mam łuszczącą się skórę na głowie i pod brodą. (Prawdopodobnie łojotokowe zapalenie skóry) Nic nie pomaga pozbyć się plam. Naprawdę próbowałem wszystkiego. Zwykły krem ​​nic nie daje. Nie pomagają też produkty na receptę z apteki. Faktycznie miały więcej skutków ubocznych niż pomogły. Były na przykład kremy, które regularnie stosowane powodują, że skóra staje się cieńsza, przez co staje się ona bardziej podatna na uszkodzenia. Ale ten krem ​​​​Sorion pomaga. Przy codziennym stosowaniu plamy znikną całkowicie w ciągu maksymalnie 2 tygodni. Drugiego dnia łuski z okolicy zniknęły, a pozostała jedynie zaczerwieniona skóra. Jeśli nie przestaniesz go używać, zaczerwienienie skóry zniknie. Kupiłam ten krem ​​już trzy razy i mogę go polecić do stosowania na suche partie ciała. Ma jednak też kilka wad: Krem ma bardzo intensywny zapach. Jeśli nadal chcesz wyjść, może nie jest to idealne rozwiązanie. -Krem jest bardzo tłusty. Należy je dokładnie wypłukać przed pójściem spać. No cóż, przynajmniej u mnie tak jest, że nie zwróciłem na to uwagi. W nocy dostało się do oczu z poduszki. Przez cały następny dzień moje oczy były stale łzawiące i bardzo czerwone. Może jest coś, czego nie toleruję? Od tamtej pory nie stosuję go już na noc i zawsze bardzo dokładnie spłukuję i nie ma już żadnych problemów. Niestety dla mnie osobiście na 4 gwiazdki to za mało ze względu na problemy z oczami, ale mimo wszystko kupię i użyję kremu ponownie",
+   "tags": [
+    "efficacy",
+    "itch_relief",
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry lub bardzo dobry krem ​​pielęgnacyjny na łuszczycę. Od urodzenia cierpię na łuszczycę i leczę się głównie maściami i kremami zawierającymi hydrokortyzon. Ostatnim lekiem jaki mi przepisano był Laticort. Od około 10 lat mam (nieprzerwanie) duże blaszki na łokciach, które niezwykle szybko odpadają i tworzą prawdziwy „pancerz”. Mam też kilka małych plamek na czole. Ponieważ mój dermatolog (naprawdę nieliczny w prowincji) wykazał niewielkie zainteresowanie opracowaniem ze mną leczenia, byłem zmuszony się rozejrzeć. W temacie „codziennej pielęgnacji skóry przy łuszczycy” Google podał mi między innymi produkt pielęgnacyjny Sorion, który został dobrze przyjęty w opiniach użytkowników. Tak zamówione, dostarczone, wypróbowane. Jako klient Prime zamówienie przyszło bardzo szybko, pomimo Corony, dziękuję Amazon! Pudełko jest dostarczane z plastikową rurką. Krem stosuję dwa razy dziennie na dotknięte obszary skóry. Wynik po 2 tygodniach: płytki na czole praktycznie zniknęły i można się tylko domyślać. Łokieć nie jest już w ogóle łuskowany, ale jest prawie tak miękki jak obszary nienaruszone. Krem nie czyni cudów, ale działa! Na pewno będę je nadal kupować i kupię także inne produkty z tej serii, ponieważ nadal mam kilka plam na linii włosów za uszami. W sumie świetny produkt! P.S. To była moja pierwsza recesja, więc proszę jej nie zepsuć od razu ;) Bądź zdrowy, Twój Matthias",
+   "tags": [
+    "adverse_reaction",
+    "no_cortisone"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetny produkt, złe opakowanie. Mam wrażliwą cerę mieszaną z tłustą strefą T i suchością na policzkach, czasami ze skłonnością do wysypek na ciele. Kupuję ten krem regularnie od kilku lat i używam go głównie do twarzy, ale także do ciała i jako jeden z nielicznych produktów sprawdza się u mnie zarówno zimą, jak i w cieplejszych miesiącach. Poleciłam go kilku znajomym, które mają bardzo wrażliwą skórę i teraz też go chwalą. Nie jest to produkt rewolucyjny, ale uważam, że radzi sobie świetnie nawilża i koi skórę, dobrze radzi sobie pod makijaż i choć dość gęsta konsystencja dobrze się wchłania. Używam go tak często, że większa butelka ma sens (kupuję około 2 sztuk rocznie), ale jedyne, do czego mogę się przyczepić, stąd 4*, to kiepskie opakowanie. Z każdą butelką, którą miałam, pompka nie sięgała wystarczająco głęboko i pod koniec nie była w stanie wydobyć produktu. Niestety dzieje się tak, gdy w butelce pozostaje jeszcze dużo produktu, co skutkuje serią różnych technik, aby go wydobyć: odkręcić zakrętkę i przekręcić tubkę, niepewnie trzymać butelkę do góry nogami, mocno nią potrząsając bez nadziei, że wydobędzie się odpowiednią ilość… Butelka jest o wiele za gruba, aby próbować ją przeciąć bez, jak podejrzewam, bałaganu. Dlatego pomimo moich najlepszych starań zawsze zostaje wystarczająca ilość, której nie jestem w stanie zużyć. Myślę, że tubka miałaby o wiele większy sens, bo nienawidzę marnować tak dużej ilości produktu",
+   "tags": [
+    "hydration",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetny produkt, złe opakowanie. Mam wrażliwą cerę mieszaną z tłustą strefą T i suchością na policzkach, czasami ze skłonnością do wysypek na ciele. Kupuję ten krem regularnie od kilku lat i używam go głównie do twarzy, ale także do ciała i jako jeden z nielicznych produktów sprawdza się u mnie zarówno zimą, jak i w cieplejszych miesiącach. Poleciłam go kilku znajomym, które mają bardzo wrażliwą skórę i teraz też go chwalą. Nie jest to produkt rewolucyjny, ale uważam, że radzi sobie świetnie nawilża i koi skórę, dobrze radzi sobie pod makijaż i choć dość gęsta konsystencja dobrze się wchłania. Używam go tak często, że większa butelka ma sens (kupuję około 2 sztuk rocznie), ale jedyne, do czego mogę się przyczepić, stąd 4*, to kiepskie opakowanie. Z każdą butelką, którą miałam, pompka nie sięgała wystarczająco głęboko i pod koniec nie była w stanie wydobyć produktu. Niestety dzieje się tak, gdy w butelce pozostaje jeszcze dużo produktu, co skutkuje serią różnych technik, aby go wydobyć: odkręcić zakrętkę i przekręcić tubkę, niepewnie trzymać butelkę do góry nogami, mocno nią potrząsając bez nadziei, że wydobędzie się odpowiednią ilość… Butelka jest o wiele za gruba, aby próbować ją przeciąć bez, jak podejrzewam, bałaganu. Dlatego pomimo moich najlepszych starań zawsze zostaje wystarczająca ilość, której nie jestem w stanie zużyć. Myślę, że tubka miałaby o wiele większy sens, bo nienawidzę marnować tak dużej ilości produktu",
+   "tags": [
+    "hydration",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Niezawodny krem ​​nawilżający do ciała i twarzy. Krem nawilżający CeraVe to prawdziwy cud pielęgnacji, szczególnie dla skóry suchej i bardzo suchej. Opracowany we współpracy z dermatologami krem ​​ten zapewnia dokładnie to, co obiecuje. Optymalnie nawilża skórę i wspiera ją niezbędnymi składnikami aktywnymi wzmacniającymi barierę ochronną skóry. Szczególnie imponuje mi połączenie trzech niezbędnych ceramidów i kwasu hialuronowego, które razem zapewniają, że moja skóra pozostaje elastyczna i dobrze nawilżona przez cały dzień. Dzięki specjalnej technologii uwalniania składników aktywnych MVE składniki odżywcze rozprowadzają się równomiernie w ciągu dnia, zapewniając długotrwałe uczucie dobrego samopoczucia. Produkt nie zawiera substancji zapachowych, co sprawia, że ​​jest szczególnie odpowiedni dla alergików i osób o wrażliwej skórze. Jest również niekomedogenny i nie pozostawia lepkiego ani tłustego uczucia po aplikacji, na co często narzekałam w przypadku wielu innych kremów. Krem nawilżający CeraVe do ciała i twarzy oceniam na 4 z 5 gwiazdek. Okazał się niezawodnym wyborem w mojej codziennej pielęgnacji skóry i mogę go polecić każdemu, kto szuka wysokiej jakości pielęgnacji skóry suchej i bardzo suchej",
+   "tags": [
+    "adverse_reaction",
+    "greasy_absorption",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Krem Sorionowy. Krem stosuję od kilku tygodni i muszę przyznać, że jest wart swojej ceny. Moja łuszczyca na głowie czasami przenosi się na twarz, wokół brwi i na policzki. Który czasem strasznie swędzi i piecze. Zwykle uciekam się do kremu Cordison. Teraz, po długich poszukiwaniach i wypróbowywaniu różnych produktów, odkryłam ten krem. Tak, jest strasznie tłusty i do tego zapachu trzeba się przyzwyczaić. Ale nakładam go tylko na noc i bardzo cienko. Zapach mnie specjalnie nie interesuje, ale interesuje mnie efekt. To jest zaskakująco dobre. Oczywiście obolałe i łuszczące się miejsca nie znikają natychmiast, ale po dwóch–trzech zastosowaniach jest znacznie lepiej, aż do całkowitego zniknięcia. Potrzymam jeszcze kilka dni, żeby zachować ostrożność. Efekt uboczny, skóra staje się bardziej miękka. W każdym razie zużycie jest bardzo oszczędne, krem ​​na pewno starczy mi na pół roku, jeśli nie dłużej. A cena jak dla mnie nie jest wygórowana. Zdaję sobie sprawę, że nie każdemu to pomoże. Mój typ skóry jest normalny i wrażliwy. Odjęłam jedną gwiazdkę za zapach",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "no_cortisone",
+    "price"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Słuszne, ale.... Codziennie stosuję tretinoinę, fantastyczną cząsteczkę, która ma jednak poważny efekt uboczny: bardzo wysusza skórę. Po wypróbowaniu różnych kremów, które można z nim łączyć wieczorem, aby złagodzić to zjawisko, zapragnęłam wypróbować ten. Co mogę powiedzieć? Jest niewątpliwie dobry i skuteczny, w sam raz łagodzi i nawilża. Czy to jest najlepsze? Nie. Nie podoba mi się konsystencja: zbyt „gęsta” i lepka, przypomina, że ​​tak powiem, pastę do zębów. To, że konsystencja jest bogata, można wywnioskować z nazwy, więc nic niespodziewanego, powiedzmy, że jednak nie podoba mi się efekt i uczucie, jakie pozostawia po wyschnięciu: zbyt ciężki i okluzyjny. Ostatecznie stosuję go co drugi dzień, mieszając z kroplą serum, aby było bardziej płynne i łatwo się rozprowadzało. Jeśli szukasz czegoś lekkiego, radzę ci iść dalej. Chociaż nie jest komedogenny, nie sądzę, że jest dobry dla osób, które nie mają wyjątkowo suchej lub podrażnionej skóry. Moim absolutnym faworytem jest zawsze Lederme „silny krem ​​kojący”. Udostępniam to nie po to, żeby reklamować, ale po prostu polecić go tym, którzy chcą czegoś bardzo skutecznego, z super składnikami (ma nawet probiotyki) i przede wszystkim światłem.",
+   "tags": [
+    "greasy_absorption",
+    "efficacy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Bardzo produktywny! Pozostawia film ochronny na suchej skórze. Krem Mixa Mocznik został dostarczony szybko i dotarł dobrze zapakowany. Opakowanie i pierwsze wrażenie Małym punktem krytyki jest to, że krem ​​nie został zapieczętowany, a po prostu mocno zakręcony. Tutaj liczyłabym na dodatkowy film ochronny dla produktu pielęgnacyjnego. Konsystencja i zastosowanie Konsystencja kremu bardzo przyjemnie chłodzi skórę. Jest bogaty, ale łatwo się rozprowadza. Po chwili krem ​​wchłania się całkowicie w skórę, pozostawiając jednak lekki film ochronny (uczucie warstwy ochronnej). Jeśli wolisz bardzo lekkie, nie pozostawiające pozostałości balsamy, powinieneś o tym pamiętać. Jednak uważam, że ten film jest pozytywny dla bardzo suchej lub zestresowanej skóry, ponieważ zatrzymuje wilgoć. Wnioski i stosunek ceny do jakości. Opakowanie o pojemności 400 ml jest bardzo ekonomiczne i na pewno posłuży Ci przez długi czas. Biorąc pod uwagę dużą ilość i składniki odżywcze (mocznik i niacynamid), cena jest absolutnie odpowiednia, a stosunek ceny do wydajności jest odpowiedni. 4 na 5 gwiazdek i rekomendacja zakupu dla każdego, kto ma suchą skórę",
+   "tags": [
+    "greasy_absorption",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Jak na razie całkiem nieźle, zwłaszcza przez pierwsze kilka dni użytkowania. Mam dokuczliwy egzemę na dłoniach i szukałam kremu bez sterydów, który pomoże mi zejść. Przed tym wypróbowałem kilka różnych naturalnych alternatyw, takich jak pierwotnie czysty i zwykły olej kokosowy. To nie pomogło, aby było lepiej, więc zwróciłem się do tej nieco mocniejszej formuły. Pierwsze kilka dni stosowania go zadziwiło mnie, zagoiło i nawilżyło moją dłoń w sposób, jakiego nie zapewniało nic innego. Byłam podekscytowana i pełna nadziei, że maksymalnie przez tydzień noszenia tego kremu codziennie, a egzema zniknie na dobre. Niestety, po konsekwentnym stosowaniu minął już ponad tydzień, a ja nadal mam dość dokuczliwy wyprysk. Pomogło ogromnie przez pierwsze kilka dni, ale potem wszystko wróciło do normy. Pomogło mi to poczuć się nieco lepiej, ale nadal jest bardzo wyraźnie obecne, a nawet zaczęło rozprzestrzeniać się na inne obszary mojej dłoni, gdy aktywnie go używam. Pozytywem jest to, że tubka jest większa, niż się spodziewałam, więc mam wystarczająco dużo kremu, aby móc go używać tak długo, jak długo będzie potrzebny do zagojenia. Będę go nadal używać w nadziei, że wyleczy moją rękę, ponieważ dał mi najlepsze rezultaty spośród wszystkich kremów, które wypróbowałam",
+   "tags": [
+    "efficacy",
+    "no_cortisone",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Co tam jest???. Okej, tak naprawdę nie piszę recenzji produktów do pielęgnacji skóry, ponieważ jest to dość indywidualna sprawa, ale omg! Ten produkt polecił mi znajomy, ponieważ mam rogowacenie mieszkowe na ramionach. Krem jest niesamowicie wydajny, usunąłem kawałek wieczka wacikiem i jednym muśnięciem mogłem nałożyć krem ​​na całe ramię! (Cały słoiczek 400ml. Prawdopodobnie wystarczy mi na resztę życia!) Zostało mi jeszcze trochę na wacik, bo wystarczyło mi tylko na drugie ramię, więc resztę rozsmarowałam na stopach, bo to moje najbardziej szorstkie i najbardziej suche miejsce... Widziałam, jak moja skóra stała się bardziej miękka! Krem wchłania się całkowicie w ciągu kilku minut! Poślizgnęłam się na podłodze i upadłam, bo nie jestem przyzwyczajona do takich gładkich i miękkich stóp! Absolutna rekomendacja zakupu ode mnie! Pół gwiazdki odjęto za brak plomby higienicznej i pół gwiazdki za bardzo mocny (ale przyjemny) zapach, mniej perfum byłoby idealne!",
+   "tags": [
+    "price",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Zdziwiony! Ale zobaczysz... Dlatego przed zakupem byłem bardzo sceptyczny. O mnie: Mam 44 lata i od urodzenia cierpię na łuszczycę, a od 15 lat na chorobę stawów (PSA). Wypróbowałem więc wszystkie kremy i leki... Z wyjątkiem Humiry (przez 3 lata) i Fumadermu (dobry efekt, ale z pewnymi silnymi skutkami ubocznymi) nic tak naprawdę nie pomogło. Po zastosowaniu kortyzonu (maści Ecural) ulga była zawsze bardzo krótkotrwała. I dzisiaj przyszła ta maść. Dziś rano wmasowałem go cienko w 2 problematyczne miejsca, a wieczorem byłem naprawdę zdumiony! Nie potrafię tego wyrazić inaczej. Srebrna warstwa na skórze zeszła i udało mi się ją łatwo usunąć. Zrobiłem sobie zdjęcia przed użyciem dziś rano i zaledwie 10 godzin później. Zobaczymy, czy krem ​​będzie nadal działał na mnie. Będę cię informować. O zapachu kremu powiem tylko tyle: Absolutnie nie przenikliwy! Każdy, kto podobnie jak ja używał już wszystkich kremów (olejek, smoła, mocz, maści cynkowe itp.) wie, co nieprzyjemnie pachnie. Zdecydowanie nie ten",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "no_cortisone",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Zauważalne uspokojenie już po miesiącu stosowania. Krem naprawczy stosowano regularnie przez ponad miesiąc, aby złagodzić podrażnienia, zaczerwienienia i swędzenie skóry. Już po pierwszych kilku dniach skóra zaczęła się lekko uspokajać, co z biegiem tygodni ustabilizowało się. Po około czterech tygodniach stosowania skóra wydaje się bardziej zrównoważona i ogólnie mniej podrażniona. Zaczerwienienie nie zniknęło całkowicie, ale pojawia się znacznie rzadziej. Wyraźnie zmniejszyło się także uczucie napięcia i swędzenia, zwłaszcza w suchych obszarach skóry. Konsystencja jest nadal pozytywna. Krem łatwo się rozprowadza, stosunkowo szybko się wchłania i nadaje się do codziennego stosowania, gdyż nie pozostawia bardzo tłustej warstwy. Tolerancja skóry była dobra przez cały okres i nie wystąpiły żadne negatywne reakcje. Małym minusem pozostaje wysoka cena w stosunku do tubki 60 ml, szczególnie przy codziennym stosowaniu przez dłuższy czas. Ponadto działanie jest bardziej wspomagające i nie zastępuje leczenia w przypadku poważnych lub ostrych problemów skórnych",
+   "tags": [
+    "adverse_reaction",
+    "greasy_absorption",
+    "efficacy",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobrze, ale zwróć uwagę na rodzaj skóry. Polecono mi go jako odpowiedni również dla skóry wrażliwej, bez problemów z nadmiernym wysuszeniem. Próbowałem. Jest to masło, jest bardzo gęste, ale tego się spodziewałam. Wystarczy niewielka ilość, szczególnie na twarz. Niestety dla mnie, ponieważ mam lekko suchą, wrażliwą skórę, w ciągu dnia jest trochę ciężki, ponieważ moja skóra nie jest w stanie go całkowicie wchłonąć, więc moja twarz pozostaje nieco błyszcząca i lepka, a jeśli się opalam, uwydatnia to moją potliwość. Na noc natomiast jest doskonały, bo tworzy przyjemną barierę nawilżającą, która świetnie sprawdza się po zastosowaniu serum. Będę musiała go wypróbować tej zimy, kiedy moja skóra będzie cierpieć z powodu zimna i wiatru, biorąc pod uwagę, że mieszkam w Apulii, więc dzisiaj jest nadal bardzo gorąco;) Nie ma perfum, jest całkowicie neutralny pod tym względem, a także dla i zacząłem go używać również do ciała. Suche obszary, na przykład nogi, wróciły do ​​gładkości i miękkości. Zaktualizuję komentarz później. Jednak doskonały krem",
+   "tags": [
+    "greasy_absorption",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "★★★★☆ Bardzo dobre i uspokajające – ale cena trochę mnie spowalnia. Sam krem ​​jest naprawdę bardzo dobry. Przyjemnie się aplikuje, dobrze się wchłania i działa uspokajająco na skórę. Wyraźnie widzę, że jest dobry dla skóry wrażliwej lub gdy jest podrażniona. Bardzo dobrze go toleruję, nawet jeśli mam wrażliwą skórę lub skłonność do alergii. Żadnego pieczenia, żadnego napięcia – po prostu uczucie spokoju na skórze. Jest też bardzo wydajny, naprawdę nie potrzeba wiele na jedną aplikację. Jedyne co mnie trochę powstrzymuje to cena. Z pewnością istnieją tańsze alternatywy, które są również solidne. Krem tutaj jest najwyższej jakości, ale ponieważ jest droższy, automatycznie zużywam go mniej, niż bym chciała – po prostu dlatego, że nieświadomie oszczędzasz pieniądze. Prawdopodobnie kupię go ponownie, szczególnie jeśli moja skóra jest obecnie bardzo wrażliwa. Osobiście uważam je za trochę za drogie do długotrwałego, intensywnego codziennego użytku",
+   "tags": [
+    "adverse_reaction",
+    "price"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Baza dla skóry. Stosuję go od kilku tygodni, zwłaszcza gdy mam bardziej wrażliwą lub podrażnioną skórę i prawdę mówiąc, spełnia swoje zadanie bardzo dobrze. Moja skóra jest mieszana i dość reaktywna, więc ciężko mi znaleźć produkty, które łagodzą, nie pozostawiając tłustego uczucia. Konsystencja jest lżejsza niż się początkowo wydawało i szybko się wchłania. U mnie sprawdza się bardzo dobrze jako ostatni krok rytuału, ale także pod makijaż, ponieważ pozostawia skórę komfortową i bardziej jednolitą. Kiedy mam zaczerwienienie lub zmienioną skórę, zauważam, że bardzo pomaga ją uspokoić. Z mniej pozytywnego punktu: jeśli masz bardzo suchą skórę, może okazać się niewystarczający jako pojedynczy krem ​​i potrzebujesz czegoś bardziej nawilżającego pod spodem. Dodatkowo opakowanie jest niewielkie i przy codziennym użytkowaniu szybko się zużywa. Nie widziałem tutaj w sprzedaży dużego formatu. Ogólnie rzecz biorąc, jest to bardzo niezawodny produkt dla skóry wrażliwej lub w okresach, gdy skóra jest delikatniejsza. Polecam, zwłaszcza jako krem ​​łagodzący i naprawczy.",
+   "tags": [
+    "efficacy",
+    "itch_relief",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Fabryka! Choruję na neurodermit od 12-13 roku życia. Mam takie na nogach. Ale największym złoczyńcą jest uparta dyshydroza, którą mam tylko na rękach.  Próbowałem wielu różnych kremów i nic nie pomogło oprócz kortyzonu. Wszyscy wiemy, że wady kortyzonu przeważają nad zaletami. Szybkie, doraźne leczenie, ale zniszczenie skóry z efektem przyzwyczajenia po długotrwałym stosowaniu. Jednak ten krem ​​naprawdę daje radę. Do mnie w ciągu kilku dni! Zatrzymuje swędzenie pęcherzy i sprawia, że ​​znikają. Skóra staje się również bardziej wilgotna. Wady: - Parafina też nie jest taka dobra, ale jest 100 razy lepsza od kortyzonu - Cena/ml: cholernie droga jak na ilość w tubce. To wstyd, że muszę tak dużo płacić za moją chorobę. Czuję się jakby ktoś mnie uderzył w twarz i muszę mu za to zapłacić :(Ale ogólnie dla zdrowia warto",
+   "tags": [
+    "ingredient_safety",
+    "efficacy",
+    "no_cortisone",
+    "price"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Lepsze niż kortyzon. Teraz raz w roku mam wysypkę na rękach (kiedyś zdarzało mi się to znacznie częściej) i odkąd pamiętam, zawsze stosowałam maści kortyzonowe, które uszkadzały (przerzedzały) moją skórę. Tym razem chciałam przejść na naturalną i natknęłam się na tę maść przez przypadek (w ulotce). Jak wszystkie produkty naturalne, jest niezwykle drogi (stąd odjęty punkt), ale lepszy od kortyzonu, bo nie szkodzi mojej skórze, a pęknięcia szybko się goją (czemu kortyzon z kolei zapobiega). Maść jest w kolorze piaskowym, bardzo gęsta i tłusta, dlatego nakładam ją wieczorem przed pójściem spać (w bawełnianych rękawiczkach). Następnego ranka z dnia na dzień czuję się lepiej, a wysypka i swędzenie ustępują. Pęknięcia powoli przestają się pojawiać. Zniknięcie wysypki i swędzenia wymaga czasu (ze względu na naturę), ale maść jest świetnym, jeszcze lepszym zamiennikiem kortyzonu",
+   "tags": [
+    "adverse_reaction",
+    "no_cortisone",
+    "price"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "bardzo nawilżający. Kupiłam ten krem ​​nawilżający, ponieważ miałam ciągły problem: małe, białe, suche strupy w okolicy pomiędzy górną wargą a nosem. Szukałam rozwiązania dla bardzo suchej skóry i zachęcona pozytywnymi opiniami postanowiłam je wypróbować. Moje doświadczenie było fantastyczne. Po kilkudniowym stosowaniu zauważyłam, że suchość drastycznie się zmniejszyła, a strupy zniknęły całkowicie. Konsystencja jest bogata i odżywcza, ale dobrze się wchłania, nie pozostawiając tłustej skóry. Nie posiada substancji zapachowych, dzięki czemu idealnie dopasowuje się do nawet najbardziej delikatnych miejsc. Byłem bardzo usatysfakcjonowany, ponieważ skutecznie i szybko rozwiązał mój problem. Stało się koniecznością w mojej codziennej rutynie. Minus: nie zniwelował zaczerwienienia, które pozostało w okolicy, ale być może jest to kolejny problem, który muszę rozwiązać z dermatologiem",
+   "tags": [
+    "efficacy",
+    "itch_relief",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Komfort i pielęgnacja skóry. La Roche-Posay Cicaplast Baume B5 Réparateur Apaisant to wszechstronny balsam naprawczy, który łączy intensywną pielęgnację z przyjemnym uczuciem na skórze. Formuła z pantenolem (B5) pomaga uspokoić i zregenerować barierę skórną, zapewniając natychmiastową ulgę podrażnionym, suchym lub uwrażliwionym obszarom. Po nałożeniu konsystencja jest miękka i topniejąca, pozostawiając uczucie komfortu, które jest bardzo przyjemne nawet na wrażliwej lub reaktywnej skórze. Oprócz działania naprawczego balsam ten zapewnia wykończenie, które dzięki lekkiej i nietłustej konsystencji można bardzo dobrze zintegrować z bazą pod makijaż. Podsumowując, La Roche-Posay Cicaplast Baume B5 to wysoce tolerancyjny produkt wielofunkcyjny: łagodzi, naprawia i przygotowuje skórę do makijażu, zapewniając bardzo przyjemne wrażenie w dotyku. Idealny dla osób poszukujących pielęgnacji i komfortu bez uszczerbku dla estetyki wykończenia",
+   "tags": [
+    "efficacy",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wyraźna rekomendacja zakupu dla osób cierpiących na łuszczycę przy regularnym stosowaniu. Ponieważ cierpię na ciężką łuszczycę, od dawna poszukuję produktów do pielęgnacji wielu dotkniętych obszarów na ciele. Tutaj również, jak chyba prawie każdy pacjent z łuszczycą, przez lata próbowałem wielu produktów bez KORTYZONU, ale nigdy nie trafiłem na naprawdę dobry. To pierwszy produkt niezawierający kortyzonu, któremu przy długotrwałym, regularnym stosowaniu udało się sprawić, że zaczerwienienia zniknęły lub uległy zmniejszeniu. Podobnie jak szampon Sorion, krem ​​faktycznie przynosi mi ulgę. Na początku byłem sceptyczny, ale teraz sam jestem trochę zaskoczony! :)Moim zdaniem w ogóle nie warto kupować tuby 10g, nawet do damskiej torebki. Chcąc wypróbować produkt warto od razu zaopatrzyć się w dużą tubę. Myślę, że dla większości pacjentów z łuszczycą pieniądze nie mają większego znaczenia, jeśli chodzi o tego typu produkty, o ile przynoszą ulgę. Szkoda, że ​​produkt jest „stosunkowo” drogi, ale przynajmniej może pomóc bez rozmazywania kortyzonu na skórze. Produkt ma subtelną kremową barwę, jest lekko tłusty (w dotyku) i nie pachnie nieprzyjemnie sztucznie jak wiele innych kremów na łuszczycę. Bardzo proszę, aby nie zrazić się określeniem „tłusty”. Po prostu wypróbuj to sam. Ponieważ na całym ciele mam dużo zmian łuszczycowych, niektóre z nich są duże, potrzebuję około 50 g tubki miesięcznie. Jednak obszary te nie są już tak uniesione, nie mają już tendencji do rozdzierania się, są znacznie mniej zaognione, a także częściowo całkowicie zniknęły (mniejsze płytki). Nie potrafię powiedzieć, w jakim stopniu będzie to prawdą na przestrzeni lat. Nie byłam pewna, czy powinnam kupić kolejny „drogi” produkt na łuszczycę, ale z perspektywy czasu zawsze jestem mądrzejsza. :) W przypadku tego produktu również podejrzewam, że może być pomocny dla jednego lub dwóch pacjentów z neurodermitem. Ponieważ stwierdziłem, że jest dobrze tolerowany i ma korzystne działanie, mogę zdecydowanie polecić ten produkt. W tym miejscu wypada wspomnieć, że szampon firmy Sorion pragnę polecić również osobom cierpiącym na łuszczycę. Ważne jest jednak, aby szampon pozostawić na włosach przynajmniej 20 minut. Napisałam również recenzję produktu. Szampon jest naprawdę przydatny w porównaniu do wszystkich szamponów niezawierających kortyzonu, których do tej pory używałam (a było ich kilka) i faktycznie przynosi ulgę skórze głowy. Podsumowując, zakup godny polecenia, wyraźna rekomendacja zakupu!",
+   "tags": [
+    "no_cortisone",
+    "itch_relief",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Naprawdę pomaga! Dziękuję drogie towarzystwo za szampon i krem ​​Sorion!! Dziękuję bardzo!!. Nigdy bym nie pomyślała, że ​​istnieje krem, który działa bez kortyzonu!  Na łuszczycę zachorowałam 5 lat temu po poważnej operacji i 3/4 roku antybiotyków.. układ odpornościowy już nie działa... niestety... (guz laryngologiczny 3 cm Calwell Luc OP).......-Mam łuszczycę ładnie rozmieszczoną od głowy do czubków palców, czasem silniejszą, czasem słabszą.... mój dermatolog chciał mi podać leki biologiczne (zastrzyki Stelara) oprócz maści, kremów i terapii światłem.... Podobno skutki uboczne Stelary charakteryzują się: paraliż twarzy, infekcje grzybicze itp. więc obecnie nie, dziękuję... boję się... - Z czego nie zdawałem sobie sprawy - mam nietolerancję histaminy, kapsułki z kwasem fumarowym, które brałam przez 2,5 tygodnia, prawie mnie zabiły, od egzemy po wymioty, biegunkę... wielu z Was wie, co to oznacza... ciało pokryte wysypką... Moje ciało prawie mnie zabiło... to był luty/marzec tego roku... od tygodni był też krem na egzemy na podeszwach stóp i opuszkach palców dotknięte,,,,,,!!!!!  Po raz pierwszy odkryłam szampon Sorion i bardzo się cieszę, że ten produkt istnieje!!!!!!  Koniec ze swędzeniem, płytka nazębna również uległa zmniejszeniu, szampon przyjemnie pachnie i przede wszystkim pomaga!! !!!!!!!!!!  NAJLEPSZE jakie są na rynku i DZIĘKUJĘ drodzy autorzy recenzji. Dziękuję za szczerą opinię, bez Was w życiu bym nie poznała produktów SORION !!!!!-Zakrętka OIL - zawiera kwas salicylowy - jeszcze bardziej podrażnia skórę głowy, miejsca stają się otwarte i bolące....pierwsze cztery godziny tej mieszanki olejków na głowie każdego dnia, aby po 4,5 godzinach można było usunąć płytki nazębne...strasznie potem 2-3 razy w tygodniu i nic nie wiedziałam o mojej skórze głowy nietolerancja histaminy, mój lekarz też!!!!!! Po zakręceniu nakrętki od szamponu kortyzonowego... to była długa męka... Podkreślenie BYŁO!!! Ja też biorę maść Sorion od kilku dni i działa, działa... ręce wyglądają o wiele lepiej, łokcie i golenie, ogólny wygląd skóry jest lepszy już po kilku dniach i już widać u mnie pierwsze pozytywne efekty, oczywiście najpierw na mniejszych obszarach.  Nie mam już swędzenia, stosuję go 3 razy dziennie. ***** PROSZĘ drogie firmy, zróbcie puszkę 250ml z kremem Sorion, niestety zawartość w tubce jest za mała i jeśli na skórze są duże obszary łuszczycy to tubka szybko się opróżnia.  Z góry dziękuję!! Już nigdy nie zabraknie mi SORION, w końcu jest ulga. Mogę szczerze i gorąco polecić te produkty!!!!!!!!!!",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "no_cortisone",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Intensywna pielęgnacja nawilżająca do skóry suchej i popękanej - Krem odnawiający skórę Mixa w teście. Krem odnawiający skórę Mixa to prawdziwa uczta dla skóry suchej i popękanej. Jako osoba posiadająca suchą skórę próbowałam wielu kremów nawilżających, ale ten krem ​​zrobił na mnie naprawdę wrażenie. Chciałabym podzielić się swoim doświadczeniem z tym intensywnie nawilżającym kremem. Krem znajduje się w obszernej tubie o pojemności 400 ml, która zapewnia świetny stosunek jakości do ceny. Konsystencja kremu jest przyjemna i niezbyt ciężka, dzięki czemu łatwo rozprowadza się na skórze. Już po nałożeniu czuć bogatą pielęgnację, która natychmiastowo nawilża skórę. Formuła kremu zawiera cenne składniki takie jak mocznik i niacynamid. Mocznik znany jest ze swoich właściwości nawilżających, pomaga ukoić i zregenerować skórę. Niacynamid pomaga wzmocnić barierę ochronną skóry i poprawić elastyczność skóry. To połączenie sprawia, że ​​krem ​​idealnie nadaje się do pielęgnacji skóry suchej i popękanej. Po regularnym stosowaniu Kremu Odnawiającego Skórę Mixa zauważyłam znaczną poprawę jędrności i elastyczności mojej skóry. Moja skóra była gładka i odżywiona, bez efektu tłustej skóry. Efekt był szczególnie imponujący w przypadku popękanych miejsc na dłoniach i łokciach, które już po krótkim czasie uległy wyraźnej poprawie. Dodatkowym plusem jest to, że krem ​​można stosować zarówno na ciało, jak i na twarz i dłonie. Dzięki temu jest to praktyczne i wszechstronne rozwiązanie do codziennej pielęgnacji skóry. Krem szybko się wchłania, nie pozostawiając lepkiej i tłustej warstwy. Jednakże jest jedna mała rzecz, na którą chciałbym zwrócić uwagę. Zapach kremu jest stosunkowo neutralny i dyskretny. Chociaż niektórzy ludzie mogą to preferować, przyjemny zapach może sprawić, że aplikacja stanie się jeszcze bardziej zmysłowym doświadczeniem. Ogólnie mogę gorąco polecić Mixa Skin Renewing Cream do skóry suchej i popękanej. Zapewnia intensywną pielęgnację nawilżającą, która trwale rozpieszcza i regeneruje skórę. Bogata formuła z mocznikiem i niacynamidem sprawia, że ​​jest to skuteczne rozwiązanie problemów skóry suchej. Zainwestuj w ten krem ​​i ciesz się jędrną i zdrowo wyglądającą skórą",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "No, w końcu krem, który naprawdę działa. Dostałem krem ​​Sorion i został dostarczony w zeszły piątek. Teraz jest wtorek i działa lepiej niż myślałem. Moje dłonie znów wyglądają bardzo dobrze, podobnie jak łokcie i nogi. To w ciągu 3 dni! Jeśli ten produkt zostanie oceniony negatywnie, oznacza to, że po prostu nie pomógł osobom, których to dotyczy. Składnikiem wazeliny jest wazelina, która jest powszechnie dostępna w aptekach. Więc to nie może być niebezpieczne. Ale nałożyć krem ​​na dotknięte obszary z Sorionem, a następnie wystawić go na słońce? Należy tego unikać. Choruję na łuszczycę od 1994 roku i próbowałam już wszystkiego. Do tej pory odmawiałam pójścia do szpitala. Ponieważ skupiamy się tutaj na Fumaderze, a ja nie chcę się nim zajmować. Praktycy alternatywni itp. nie pomogli. Podobnie jak kortyzon. Wiadomo, że fumaderm i kortyzon są niebezpieczne dla zdrowia i powodują szereg skutków ubocznych. Wydałem dużo pieniędzy, próbując w końcu choć trochę odetchnąć. Krem Sorion przynosi ulgę. Krem bardzo łatwo się aplikuje. Nie jest to też pasta do butów, o której wspominałam w innej recenzji. Zaletą jest to, że wchłania się bardzo wolno. Dlatego należy go używać oszczędnie. Krem słabo nawilża. Przynajmniej nie widziałam nic na moich ubraniach. Na zagięciu tuby nie ma daty ważności, tylko data butelkowania. Mój był z października 2015. Nie ma daty ważności. Jeśli krem ​​będzie przechowywany w chłodnym i suchym miejscu, wystarczy na długo. Jeśli nie będzie już nadawał się do użytku, na pewno to zauważysz. Dlatego data ważności nie jest dla mnie istotna. Mam nadzieję, że już niedługo będzie można ponownie zamówić kapsułki. Potem uporam się z moim pso na paznokciach. Ulga na pewno jest. Nie sądzę, że to całkowicie wyleczy łuszczycę. Ale w końcu mogę znów założyć T-shirt i szorty. To jest dużo warte i to wspaniałe uczucie. Dla mnie jest to bardzo wyraźna rekomendacja zakupu i warto spróbować. Dodatek: Mamy listopad 2021, a ja nadal używam kremu. PSO na moich rękach zniknęło. Dzięki kremowi pozbyłam się tego całkowicie. To też spadło na głowę. Nadal jest na nogach i łokciach, ale nie jest tak źle jak wcześniej. Również polecam krem ​​Sorion",
+   "tags": [
+    "ingredient_safety",
+    "efficacy",
+    "no_cortisone",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Działa cuda na łuszczycę. Właściwie powinnam zastosować terapię PUVA, ponieważ w stresującej fazie + nadejście zimy moja łuszczyca rozprzestrzeniła się od „tylko łokci” (pierwsza i jedyna okolica ciała do tego momentu) do „trochę wszędzie” (skóra głowy, twarz, uszy, szyja, klatka piersiowa, okolice pochwy i odbytu). W poszukiwaniu ostatniej alternatywy wolnej od kortyzonu i promieniowania UV mam SZCZĘŚCIE! natrafiłam na tę maść. Pomyślałem sobie... och, daj spokój, jeśli recenzje są fałszywe, to tylko 15 euro. Używam ich dopiero od kilku dni, rano i wieczorem. To naprawdę paskudne miejsce na skórze głowy jest wolne od łupieżu i znów wygląda prawie normalnie. Łokcie wyglądają znacznie lepiej i goją się niemal tak szybko jak wcześniej pod wpływem kortyzonu. Jestem optymistą, że najpóźniej za dwa tygodnie nie będzie tam już prawie nic do zobaczenia. Pozostałe obszary na ciele również goją się i blakną z dnia na dzień. Nie mam części ciała, która nie tolerowałaby maści. Można lubić zapach maści lub nie. Uważam, że jest to nieistotne, biorąc pod uwagę jego działanie, mimo że obecnie nadal mam go tuż pod nosem. Myślałam o zamiast maści zaopatrzyć się w płyn do skóry głowy lub szampon do miejsc na głowie. Biorąc jednak pod uwagę, że szampon zawiera silikony i już na zdrowej skórze reaguję silnym łupieżem, wolę używać tłustej maści i częściej myć włosy, aż do momentu zakupu płynu przy kolejnym zamówieniu. Muszę zobaczyć, jak długo będę używać obu na dotkniętych obszarach. Ale prawdopodobnie dzięki ogrzewaniu powietrza w regularnych odstępach czasu przez całą zimę (np. raz na dwa dni) i wiosną można zobaczyć, czy niektóre obszary pozostają wolne od nawrotów. Jestem TAK szczęśliwy. I żałuję, że nie zrobiłem zdjęć porównawczych. Ale po prostu nie wierzyłem w tak szybki sukces. Teraz tylko trzymam kciuki, żeby maść utrzymała się na rynku. Będę je kupować w magazynie o ile pozwoli na to data ważności. UWAGA, data na zagięciu tuby jest datą produkcji, a nie datą ważności. Termin ważności znajdziesz na tekturowym pudełku maści. Po otwarciu tuby trwałość maści wynosi 6 miesięcy",
+   "tags": [
+    "ingredient_safety",
+    "no_cortisone",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Chcę płakać. Kurczę, był wtorek rano, obudziłem się spocony i poczułem dziwne uczucie, jakiego nigdy wcześniej nie czułem. Rozprzestrzeniał się po moim ciele z ostrym posmakiem przeszywającego bólu zmieszanego z gwałtownym głodem, by go wydrapać. Nagle, guzy i skupiska guzków zaczerwieniły się na moim ciele, cała pojawiła się pokusa, aby podrapać to cholerne swędzenie. Pomyślałem sobie: „pokrzywka? Nie… pozwól mi wygooglować te objawy, priozę? Egzema? Wysypka skórna? Straszna potrzeba drapania się pazurami rosomaka? TAK, mam to wszystko. „Wyraźnie zaprzeczając, zdecydowałem się wbrew moim najlepszym życzeniom udać się do lekarza i pomyślałem, że mogę rozwiązać ten problem. Krem przeciw swędzeniu (mentolowy) z Amazon, który kupiłem, miał ocenę 7/10. Chociaż złagodził niektóre z najgorszych swędzeń, jakie odczuwałem przez tydzień cierpienia, odkąd pojawiły się wysypki i zaostrzenia, nie rozwiązał problemu. Kupiłem krem ​​z hydrokortyzonem bez recepty, myśląc w swoim głupim ego, że mogę rozwiązać ten problem… czy użyłem nowego detergentu do prania? Czy dlatego ten problem występuje teraz podczas noszenia świeżego ładunku prania? Może to kontaktowe zapalenie skóry i krem ​​​​steroidowy z hydrotikortyzonem mógłby pomóc….? Zło. Kupiłem go i oceniłem na 6/10 IMO. Okazało się, że 1% krem ​​z hydrokortyzonem łagodził skutki swędzenia, rozprzestrzeniania się wysypki i stanu zapalnego tylko na kilka godzin. Budziłem się w środku nocy z 1-2 godzinami snu z powodu ciągłej konieczności stosowania kremu przeciw swędzeniu zmieszanego z tym sterydem dostępnym bez recepty, moje oczekiwania nie zostały spełnione i byłem bardzo, bardzo rozczarowany i zły z powodu braku snu. Nie zaprzeczałem już wizycie u lekarza, ale mimo to myślałem sobie: „Cały ten brak snu, ciągłe swędzenie, strach, że nie będę wiedział, które ubrania są poplamione najnowszym proszkiem do prania, ciągle wyszukuję w Google, jaki jest mój problem ze skórą i jak naprawić”, może powinienem udać się do lekarza. ALE NIE, odkryłem ten krem dla osób, które mają nawroty egzemy i w ciągu 6 godzin JESTEM BARDZO BARDZO pod wrażeniem wyników. Uratowałeś mi życie i cieszę się z bólu, którego doświadczyłam, ponieważ nigdy nie zdecydowałabym się na nową procedurę pielęgnacji skóry, która dbałaby o barierę ochronną skóry mojego organizmu. Chciałbym podziękować Bogu i sobie za przezwyciężenie tego doświadczenia. Niech Bóg błogosławi Amerykę",
+   "tags": [
+    "adverse_reaction",
+    "no_cortisone",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Nawilżająca pielęgnacja skóry suchej z balsamem do ciała CeraVe. Tytuł: Nawilżająca pielęgnacja skóry suchej z balsamem do ciała CeraVe Balsam do ciała CeraVe z pompką do skóry suchej i bardzo suchej okazał się prawdziwą ucztą dla mojej skóry. Jako osoba, która cierpi na suchą skórę i szuka intensywnego kremu nawilżającego, ten produkt całkowicie mnie przekonał i stał się niezbędnym elementem mojej codziennej pielęgnacji skóry. Pierwsze wrażenie po zastosowaniu tego balsamu do ciała jest niezwykle pozytywne. Praktyczne opakowanie z pompką dozującą sprawia, że ​​dozowanie jest łatwe i higieniczne oraz umożliwia oszczędne stosowanie. Bogata konsystencja balsamu zapewnia natychmiastowe uczucie pielęgnacji i nawilżenia, nie pozostawiając na skórze tłustego ani lepkiego filmu. Działanie tego balsamu do ciała jest imponujące. Dzięki unikalnej formule z trzema niezbędnymi ceramidami i kwasem hialuronowym zapewnia intensywne nawilżenie, wzmacniając jednocześnie naturalną barierę skóry. Zaraz po użyciu moja skóra jest zauważalnie bardziej miękka, gładsza i bardziej elastyczna, pozostaje nawilżona przez długi czas, bez uczucia ściągnięcia i suchości. Jakość tego balsamu do ciała jest również niezwykła. Nie zawiera substancji zapachowych, parabenów i innych składników drażniących, dzięki czemu jest szczególnie delikatny i tolerowany przez wrażliwą skórę. Dzięki temu mam pewność, że używam produktu bezpiecznego i skutecznego, dobrego dla mojej skóry. Stosowanie tego balsamu do ciała jest niezwykle komfortowe. Dzięki lekkiej konsystencji łatwo się go aplikuje i szybko wchłania w skórę, nie pozostawiając lepkiego ani tłustego uczucia. Dzięki temu idealnie nadaje się do codziennego stosowania, po prysznicu lub kąpieli, aby intensywnie pielęgnować i nawilżać skórę. Podsumowując, balsam do ciała CeraVe z pompką mogę polecić każdemu, kto ma skórę suchą i bardzo suchą i szuka intensywnej pielęgnacji nawilżającej. Dzięki wysokiej jakości formule, intensywnemu działaniu i łatwej aplikacji jest to niezbędny produkt dla każdego, kto chce zachować zdrową i elastyczną skórę",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Absolutny cud kremu. Naprawdę, absolutny cud kremu! Od 8 lat cierpię na wyjątkowo swędzącą egzemę w okolicach intymnych. Przód, czasem też tył. Bardzo przyjemne (-:. Naprawdę próbowałam wszystkiego. Odwiedziłam różnych ginekologów, dermatologów, kliniki dermatologiczne, homeopatów itp... wszyscy byli bardzo załamani, bo - mimo wielokrotnych kuracji Dermoxinem - zawsze natychmiast wracał. Strach straszny - swędzenie w nocy, nieprzespane noce, wszystko zaczerwienione i spuchnięte... Dopiero Dermoxin pomógł. Gdy nie stosowałam go przez 1-2 dni, objawy natychmiast wracały. Dlatego zastosowałam stosuj codziennie przez 8 lat. Na ulotce dołączonej do opakowania jest napisane: NIE stosować go w okolice intymne i na błony śluzowe maksymalnie przez 3 tygodnie. No cóż, dalej szukałam delikatniejszych alternatyw - nie miałam żadnych alergii. Potem przeczytałam o pacjentce z łuszczycą, która stosowała krem 2 razy dziennie. Przez 2 tygodnie brałam więc Dermoxin rano i wieczorem, a potem stopniowo zmniejszałam dawkę Dermoxinu.. Koniec z objawami! zadbana, swędząca skóra. Powiem o tym moim lekarzom – z wyjątkiem Amazonki (śmiech). Nie mam odwagi przestać go używać, ale nie widzę w tym problemu ze względu na ziołowe składniki. Pachnie trochę nieprzyjemnie – coś jak zjełczałe orzechy włoskie. Ale hej – i to wszystko, piszę tę recenzję, bo myślę, że jest wiele osób z tym samym (nieprzyjemnym) problemem i wielu może nie odważyć się zwrócić się o pomoc – lub, tak jak ja, przez lata tkwią w ostrym kremie z silnymi skutkami ubocznymi, ponieważ mogą nie wiedzieć nic lepszego. Sorion opiera się na Ajurwedzie - czysto ziołowej i ogromnie poprawiło jakość mojego życia!",
+   "tags": [
+    "adverse_reaction",
+    "itch_relief",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Krem Sorionowy. Zwykle rzadko piszę recenzję, ale tym razem chcę podzielić się moimi wrażeniami z tego kremu. Użytkownicy, którzy skarżą się na przekroczenie daty ważności, powinni zaopatrzyć się w okulary do czytania. Podana data jest datą produkcji!!! Niestety, nie każdemu takie kremy pomagają. Ale Sorion działa wyjątkowo dobrze dla większości użytkowników, w tym dla mnie. Używam go już od 10 dni. Mam wyjątkowo suchą i popękaną skórę na nadgarstkach, grzbietach dłoni i paznokciach. Swędzenie jest czasem tak okropne, że w nocy drapię ręce. Tłusty krem, który nakładam wieczorem i nakładam na niego rękawiczki, niewiele daje. Niestety krem ​​z kortyzonem ma więcej wad niż zalet. Ale pomaga na swędzenie.  Krem Sorion jest dla mnie optymalnym rozwiązaniem. Używam ich rano i wieczorem, bez rękawiczek. Zapach jest dla mnie przyjemny. Jest ekonomiczny i dobrze się wchłania. Nie pozostawia tłustego filmu, a raczej woskową warstwę. Dla mnie to raczej pozytyw, bo mam wrażenie, że krem ​​chroni moje dłonie przez kilka godzin. Niestety w zestawie nie ma ulotki, ale skład, sposób działania i sposób stosowania można łatwo sprawdzić w internecie. Możesz także dowiedzieć się o doświadczeniach pacjentów z neurodermitem i łuszczycą związanych z tym produktem. Dla mnie osobiście jest to najlepszy krem ​​jaki kiedykolwiek miałam. Nigdy więcej kortyzonu, nigdy więcej swędzenia. Moje dłonie nigdy nie były tak miękkie i elastyczne od 30 lat.  I to już po 10 dniach stosowania.  Będę nadal korzystać z tego produktu i polecam go każdemu, kto narzeka na podobne do mnie problemy. Moja rada: zamów 5-gramową tubę i wypróbuj. Każdy, kto pomoże, może zaoszczędzić 2–3 euro na opakowaniu 50 gramów w aptece internetowej. Od razu zamówiłam wersję 250 gram (5x50 gram), w aptekach nie jest taniej",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "no_cortisone",
+    "hydration"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Niesamowicie dobre! Aktualizacja 4 kwietnia 2026 Po niestety dłuższej przerwie w stosowaniu kremu zamówiłam go ponownie. W międzyczasie wypróbowałam dziesiątki różnych kremów i maści i żaden nie pomógł. Zostało mi jeszcze trochę Sorionu i zastosowałem go, bo nie mogłem już leżeć, bo wszystko było rozerwane. I znowu nastąpiła natychmiastowa poprawa. Dlatego kupiłam ponownie tubę 150g i po dwukrotnym zastosowaniu skóra znów jest miękka, łuski już prawie zniknęły, a przede wszystkim skóra pozostaje miękka przez 24 godziny! Przy wszystkich innych kremach miałam taki problem, że po wchłonięciu kremu skóra była mega sucha i znów pękała. Musiałabym więc bez przerwy nakładać krem ​​ponownie. Ale myślę, że skóra również przyzwyczaja się do Soriona. Zrobiłam sobie przerwę, bo po 3 tubkach nie czułam już efektu. Moja skóra jest teraz znowu naprawdę otwarta i wreszcie mogę się położyć bez bólu. Dla mnie to wciąż krem ​​cud! Po 20 latach cierpień na naprawdę ciężką, rozległą łuszczycę i niezliczonej ilości kremów od dermatologa, właściwie nie miałam już nadziei. W środku lata chodziłam w długich koszulach, bo było mi wstyd. Moja mama namówiła mnie wtedy, żebym zamówiła ten krem. To naprawdę cudowny krem! Po trzech dniach łuszcząca się warstwa została całkowicie usunięta, a skóra po raz pierwszy stała się miękka i przestała swędzieć! Wcześniej prawie nie mogłam spać, bo skóra na całym ciele pękała. Tubka starcza na długo, a gdy łupież zniknie, wystarczy nakładać krem ​​co dwa dni. Zamówiłam ten krem ​​dla mojego taty, on też ma łagodną łuszczycę i był nawet u naturopaty – bez skutku! Dla niego też wszystko minęło. Na skórze pozostaje tylko ciemny cień, ponieważ przez lata do skóry nie docierało powietrze. Ale mogę z tym żyć",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Mój 8. Cud Świata, aktualizacja 19 listopada 2019 r. Przez lata mojego Pso dręczyło przede wszystkim swędzenie, które skutkowało latami drapania się w nocy, ponieważ żadna inna maść tak naprawdę nie działała. W rezultacie moje nogi wyglądały źle i nie nosiłem szortów przez dziesięć lat. Po dwóch tygodniach intensywnej kuracji Sorionem mogę nazwać to ósmym cudem świata. Brak swędzenia i poprawa wzroku o 90%. Wczoraj poszedłem na basen z dwójką małych dzieci i żoną, pierwszy raz od 7 lat. Niesamowity. Przede wszystkim nie było elementu psychologicznego, ponieważ jako osoba cierpiąca na łuszczycę zawsze boisz się wyglądu innych ludzi. Teraz wygląda bardziej, jakbym w przeszłości został oparzony. Na szczęście nie mam reakcji alergicznej na Sorion i nie przejmuję się rzekomo dwoma kluczowymi składnikami, bo Fumaderm to było piekło i omal nie wypaliło mi zastawki żołądkowej. To nie mogło być zdrowsze. Jestem całkowicie szczęśliwa, reszta rodziny jest ze mną :-) Ale dlaczego dermatolog lub lekarz rodzinny nie zna lub nie chce poznać Soriona? Powody finansowe...? Polityka medyczna ?Aktualizacja 4 kwietnia: Przez pierwsze dwa tygodnie smarowałem się 4x50 gramami. Jak wspomniałem, duży sukces. Celowo nie nakładałem niczego na skórę przez ostatnie dwa tygodnie, żeby zobaczyć, co się stanie. Na łokciach nadal bez objawów, łuski na łydkach i goleniach powoli wracają, ale na razie nie ma już swędzenia. Diabelska robota, która mnie przekonuje 😊 No to muszę już iść, zacząć 2-gi zabieg Sorionem... Aktualizacja 19 listopada 2019: Nadal smaruję Sorionem, ale już nieregularnie, bo nie jest to już konieczne tak często. Nadal chodzę na basen, choć już nie z żoną, ale Sorion nie może nic na to poradzić, chyba że to był efekt uboczny, ale z dziećmi :-) Od kilku dni biorę też kapsułki OPC, żeby pomóc. Nadal świetny, Sorion!",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ratunek dla bariery mojej skóry - La Roche-Posay CICAPLAST BAUME B5+! 🌿💆‍♀️💧. Ocena: ⭐️⭐️⭐️⭐️⭐️ (5/5 gwiazdek)La Roche-Posay CICAPLAST BAUME B5+ okazał się moim absolutnym ratownikiem skóry! 🌿💆‍♀️💧Po latach szukania rozwiązania na odbudowę zniszczonej bariery ochronnej skóry w końcu natrafiłam na ten produkt – i uwielbiam go! Zużyłam już kilka tubek kremu, bo jest po prostu skuteczny. Długo nie zdawałam sobie sprawy, że agresywne produkty niszczą barierę ochronną mojej skóry. Opierałam się na recenzjach i rekomendacjach, które twierdziły, że te produkty są idealne dla skóry skłonnej do trądziku. Jednak wyrządziły mojej skórze więcej szkody niż pożytku. CICAPLAST BAUME B5+ przekroczył moje oczekiwania. Jest bogaty, a jednocześnie lekki na skórze i szybko się wchłania. Produkt ma przyjemnie neutralny zapach i nie pozostawia uczucia lepkości. Już po krótkim zastosowaniu zauważyłam zauważalne uspokojenie mojej skóry. Krem rzeczywiście odbudował barierę ochronną mojej skóry. Moja skóra jest teraz elastyczna, nawilżona i wzmocniona. Suchość i zaczerwienienie należą już do przeszłości. Mam wrażenie, że moja skóra jest teraz wreszcie chroniona i odporna. Kolejnym plusem jest wszechstronność zastosowania. Kremu używam nie tylko jako kremu nawilżającego do twarzy, ale także na inne suche lub podrażnione miejsca na skórze, takie jak dłonie czy łokcie. Okazało się, że jest niezwykle skuteczny w uspokajaniu i gojeniu mojej skóry. CICAPLAST BAUME B5+ naprawdę mnie uratował. Mogę go polecić każdemu, kto szuka kremu odbudowującego i łagodzącego barierę ochronną skóry. To właściwy produkt, który zrewitalizuje zniszczoną skórę i przywróci jej naturalną ochronę. 🌿💆‍♀️💧👍",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "itch_relief",
+    "hydration"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wreszcie coś, co naprawdę pomaga! Od dziecka choruję na łuszczycę skóry głowy lub łuszczycę. Z przerwami jest coraz gorzej lub lepiej. Mam stosunkowo krótkie włosy i zazwyczaj smaruję je kremami nawilżającymi, które pomagają, ale nie przynoszą żadnej poprawy. Moim zdaniem opalanie pomaga mi także w czymś, co w tej chwili jest trochę trudne. Na razie wszystko przynosi tylko niewielką ulgę, latem zwykle jest lepiej, natomiast zimą staje się nieprzyjemnie. Stosowałam mnóstwo szamponów i mnóstwo żeli/nalewek/kremów, wszystko tylko trochę pomagało. Ze względu na liczne recenzje i wiele zdjęć zaryzykowałem i zamówiłem je. Zwłaszcza, że ​​tak wiele osób odważnie umieściło tutaj swoje zdjęcia jako dowód. Ogromne dzięki wszystkim za to. Krem pomógł mi już po pierwszym zastosowaniu, zaczerwienienia szybko zeszły i prawie nie było już łuszczenia się. Dlatego nadal będę ich używać codziennie. Bardzo się cieszę, że już minęło to mocne, ogromne zaczerwienienie. Zapach jest trochę dziwny, osobiście określiłbym go jako „śmierdzący”, a moja dziewczyna też nie była specjalnie zachwycona tym zapachem. Ale krem ​​nie jest przeznaczony dla przyjemnego zapachu. Bardzo pomaga, moja skóra głowy wygląda o wiele normalniej i nie spada mi ciągle łupież. Zawsze było to dla mnie bardzo krępujące. Jedyne co bardzo boli to wysoka cena, na dłuższą metę nie będzie mnie stać na ten krem, bo bardzo potrzebuję na głowę. Ale łatwo się go rozprowadza i można go używać oszczędnie. Niestety mam krótką fryzurę i sporo kremu uchodzi mi na włosach. Dopóki go mam, cieszę się i mam nadzieję, że przynajmniej przetrwam zimę 🙂 Niemniej jednak krem ​​zasługuje na 5 gwiazdek, oczywiście zaktualizuję go, jeśli coś się zmieni w ocenie",
+   "tags": [
+    "efficacy",
+    "itch_relief",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Pieczeń nie do końca ufam 😅. Od kilku tygodni mam okołoustne zapalenie skóry na twarzy. Zdarzyło mi się to wiele lat temu, a teraz znowu utrudnia mi życie. Spowodowane to maseczkami jednorazowymi i różnymi zmianami kremów. Na dodatek posmarowano go drobnym kortyzonem i katastrofa dobiegła końca. Od jakiegoś czasu próbowałam stosować zero care, ale swędziało, paliło i stawało się coraz bardziej rozległe. Różne maści lecznicze i nalewki, również tylko pogorszenie. Na Sorion trafiłam przez przypadek i zamówiłam małą tubkę, choć wiem, że jest zdecydowanie za bogata na zapalenie skóry. Ale nie miałem nic do stracenia. Teraz używam kremu 3!!! Dni rano i wieczorem i wszystko zniknęło. Czerwone obszary zniknęły. Łuski znikają. Swędzenie minęło. Hmm... dlaczego nie jestem szczęśliwy??? Nie bardzo ufam pieczeni. Skóra dotknięta zapaleniem skóry potrzebuje wielu tygodni lub miesięcy na regenerację. Oczywiście cieszę się, że mogę znowu bez obaw patrzeć w lustro, ale bardzo się martwię, że wróci to dwa, trzy razy. Będę go stosować jeszcze przez kilka dni, a potem powoli będę zmniejszać. Będzie aktualizacja. Mój synek też od wielu miesięcy ma swędzące wypryski na pupie. Pediatra nie był zbyt pomocny. Czasem tak właśnie będzie, brzmiała jej odpowiedź. Moja starsza ma neurodermit, więc nasz lekarz szybko odrzuca mniejszego, nie szukając dalej. To wyprysk, który siedzi na jego pośladkach i jest już duży jak pomarańcza i strasznie swędzi. Teraz pomyślałem sobie, że też tam wypróbuję Soriona. Dwa dni i wypryski prawie nie są już widoczne i nie swędzą. Oczywiście wszystko super, ale tak jak mówiłem nie mam jeszcze zaufania do pieczeni 🙄",
+   "tags": [
+    "adverse_reaction",
+    "no_cortisone",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Po prostu niesamowite! 100% rekomendacji. Mogę polecić ten krem ​​w 100% i bez zastrzeżeń! Aby uzyskać widoczne rezultaty, wymagana jest odrobina dyscypliny, ale jestem bardzo szczęśliwy, że znalazłem ten produkt. Mam też wrażenie, że ten krem ​​ma działanie lecznicze. Lata szkodliwego stosowania kortyzonu jedynie tłumią objawy zaczerwienienia skóry i przy okazji niszczą skórę. Recenzje piszę tylko wtedy, gdy jestem o czymś w 100% przekonany i to jestem ja! Mam łuszczącą się egzemę na klatce piersiowej, plecach i za uszami, która obecnie zniknęła w 99%. Efekt wystąpił po około 6-8 tygodniach, przy 2 aplikacjach dziennie. Teraz stosuję krem ​​raz na kilka dni wieczorem i zaczerwienienia znikają całkowicie =) Po prostu rewelacja! Kilku klientów pisze, że produkt również jest uważany za szkodliwy.... Z tego powodu pobrałem także aplikację Code Check na swój telefon komórkowy. I tak – może być jeden lub dwa składniki, które nie są całkiem dobre. Ale bądźmy szczerzy: każdy, kto często zażywał kortyzon... wie, jakie jest to szkodliwe. Niestety nie zrobiłam zdjęć przed i po, bo nie sądziłam, że ten krem ​​będzie w stanie dać taki efekt. Wniosek: Jeśli masz problemy z egzemą i innymi zaczerwienieniami skóry... zamów ten krem ​​i uzbrój się w cierpliwość. Warto!! Zapach kremu nie jest zbyt rewelacyjny, ale za to, co robi, można go zaakceptować. Teraz też będę szukać odpowiedniego szamponu tej firmy, bo niestety moja głowa też jest trochę dotknięta. Tam też nie mogę się doczekać nowego eksperymentu.PS: Za darmową recenzję nie dostałem żadnej zapłaty ani nic!!!LG Sebastian",
+   "tags": [
+    "efficacy",
+    "no_cortisone",
+    "itch_relief",
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Świetny efekt już po krótkim czasie!!. Krem jest świetny!! Mój syn (23 l.) od prawie 2 lat ma otwarte i szorstkie miejsce między kciukiem a palcem wskazującym, które ciągle się otwiera. Kostki zawsze były bardzo czerwone i lekko obolałe. Najbardziej ucierpiał jednak obszar pomiędzy kciukiem a palcem wskazującym. Dermatolog reaguje na alergię na trawę/kurz domowy – w co nigdy tak naprawdę nie wierzyłem, a teraz zostało to potwierdzone. Naszym zdaniem jest to prawdopodobnie wysypka wywołana stresem (nauką itp.). także neurodermit, który wymknął się spod kontroli i nie ustąpił. Przepisano mu 2 różne maści, także zawierające kortyzon, które przyniosły krótkotrwałą poprawę. Jednak gdy tylko przestał używać maści lub używał ich w mniejszej ilości w krótkim czasie, wysypka powracała. Po dłuższym czasie, mimo codziennego stosowania, stawał się coraz bardziej nieskuteczny. Obszar ten nigdy nie był nawet blisko niczego. Dzięki badaniom na Amazonie natknąłem się na ten krem ​​i zamówiłem go dla niego w najmniejszej ilości. Już po 1 tygodniu doprowadziło to do ogromnej poprawy. Następnie ponownie zamówiłam dużą tubkę i od tamtej pory stosował krem ​​2 do 3 razy dziennie, ale w niektóre dni tylko raz. I co mogę powiedzieć: wysypka/egzema czy cokolwiek innego zniknęło!! Tylko trochę szorstkie, ale już nie otwarte i krwawe jak przez ostatnie dwa lata. Jesteśmy pewni, że w ciągu najbliższych 2 tygodni to również całkowicie zniknie. Nawet obecny stan jest już świetny, żeby nie powiedzieć mega. Mogę tylko polecić wypróbowanie. Warto spróbować",
+   "tags": [
+    "adverse_reaction",
+    "efficacy",
+    "no_cortisone",
+    "price"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Moje absolutne zbawienie zamiast kortyzonu. Od lat cierpię na neurodermit i wyjątkowo cienką, swędzącą skórę, która szybko pęka i krwawi, szczególnie na twarzy. Po latach maratonów lekarzy i niezliczonej ilości maści doszłam do wniosku, że w prosty sposób mogę zredukować swoje problemy: wystarczy umyć ciało i włosy mydłem z owczego mleka. Jeżeli nadal dostaję ataki lub zimą z przeziębieniem jest gorzej, mam od lekarza dobry krem ​​z kortyzonem, który można nakładać tylko na swędzące miejsca lub stosuję ten krem ​​codziennie rano i wieczorem od tygodnia, nakładając cienką warstwę na twarz i ciało. Wacik z palca wystarczy na całą twarz, otwarte rany na twarzy już się zagoiły, zeszły po około tygodniu i już nie swędzą. Ten krem ​​jest naprawdę, naprawdę dobry i, biorąc pod uwagę jego rozmiar, starczy na miesiące, jeśli nie cały rok. Na pewno zamówię kolejną puszkę i w końcu znalazłem lekarstwo, które mogę tolerować przy mojej ekstremalnej skórze. Każdemu, kto ma tak źle jak ja, mogę dać wskazówkę: do ciała i włosów tylko mleko owcze lub mydło oliwkowe! (Mydło w kostce ze sklepu ze zdrową żywnością, bez żadnych dodatków) Koniec z makijażem i perfumami na bezpośredniej skórze! Na otwarte rany nałóż torebki czarnej herbaty! Na otwarte przestrzenie nałóż tłustą maść kortyzonową, w przeciwnym razie nakładaj ten krem ​​cienką warstwą dwa razy dziennie. Dzięki moim wskazówkom pomogło to teraz mojej przyjaciółce i dla niej też jest coraz lepiej. Każdy, kto cierpi na swędzącą, otwartą skórę, kup krem. Życzę wszystkiego dobrego 🍀",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "no_cortisone",
+    "price"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Małe cudowne lekarstwo. Używam La Roche Posay Cicaplast Baume B5 regularnie od dłuższego czasu i testowałem go na twarzy, ciele i ustach. Moja skóra jest wrażliwa, skłonna do przesuszenia i szybko reaguje uczuciem napięcia. Krem jest bezzapachowy, dzięki czemu jest bardzo dobrze tolerowany. Konsystencja jest dość bogata, ale nie tłusta. Łatwo się rozprowadza i wchłania po krótkim czasie. Zaraz po aplikacji skóra jest ukojona, a uczucie napięcia zauważalnie zmniejsza się. Uważam, że działanie jest szczególnie pozytywne na skórze podrażnionej lub nadmiernie pielęgnowanej. Drobne podrażnienia, suche plamy czy szorstkie miejsca są widocznie zmniejszone. Krem sprawdził się także po goleniu lub gdy skóra jest narażona na działanie czynników atmosferycznych. Na ustach niezawodnie pomaga na suchość i pęknięcia, nie sklejając się. Na twarz stosuję go głównie wieczorem lub wybiórczo. Dla bardzo tłustej skóry w ciągu dnia może być trochę za bogaty, ale bardzo dobrze sprawdza się przy skórze normalnej, suchej i wrażliwej. Nadaje się również jako kuracja naprawcza po składnikach aktywnych takich jak kwasy czy retinol. Opakowanie jest proste i higieniczne. Tubka jest łatwa do dozowania i jest praktyczna również w podróży. Ogólnie rzecz biorąc, jest to bardzo niezawodny, kojący produkt do pielęgnacji wrażliwej skóry. Nie zastępuje klasycznego kremu nawilżającego do każdego rodzaju skóry, ale jest wszechstronny jako krem ​​naprawczy i stał się integralną częścią mojej pielęgnacji skóry",
+   "tags": [
+    "efficacy",
+    "hydration",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wow! Dziecko z ciężką wysypką zniknęło! U mojego 3-letniego syna nagle pojawiła się czerwona, swędząca wysypka na całym ciele... ponieważ ma bardzo suchą skórę i wszystkie gorsze choroby. Ponieważ można było wykluczyć szczepienia lub to, że je już przebyliśmy, podejrzewałam, że to musi być jakiś nawrót neurodermitu lub reakcja alergiczna. Nałożyliśmy krem ​​i odczekaliśmy kilka dni. Jednak wysypka nie ustąpiła, wręcz się pogorszyła... oczywiście nasz pediatra był na urlopie przez 3 tygodnie i przychodnia zastępcza była więcej niż przeciążona. Więc jakoś sama próbowałam znaleźć szybkie rozwiązanie, ponieważ moje dziecko zaczęło się często drapać. Ze względu na pozytywne recenzje i czysto ziołowy skład bardzo chciałam wypróbować ten krem ​​i miałam nadzieję, że będzie choć trochę lepszy. W ciągu nocy wysypka stała się prawie niewidoczna (nałóż krem ​​przed pójściem spać i pozostaw go na około 10 minut bez ubrania). Rzeczywiście wrócił (bawił się/pocił się przez cały dzień na zewnątrz w obcisłych dżinsach w gorącej i wilgotnej temperaturze), ale natychmiast zniknął po ponownym nałożeniu kremu. Jestem niesamowicie szczęśliwa, że ​​odkryłam ten krem. Zdecydowanie świetny naturalny produkt dla dzieci o bardzo wrażliwej skórze, skłonnej do wysypek. Polecam od razu kupić średnią lub dużą tubkę. Małe opakowanie jest naprawdę bardzo małe i wystarczyło nam tylko na jeden dzień",
+   "tags": [
+    "adverse_reaction",
+    "itch_relief",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo skuteczny krem ​​nawilżający o zauważalnym działaniu nawilżającym dla skóry suchej/bardzo suchej. Ogólnie rzecz biorąc, balsam do ciała CeraVe z pompką przekonuje jako bardzo solidny produkt do codziennej pielęgnacji skóry suchej i bardzo suchej, który wyróżnia się przede wszystkim wydajnością i niezawodnym działaniem nawilżającym. Nawet niewielka ilość wystarczy, aby równomiernie odżywić większe obszary ciała, co sprawia, że ​​produkt starcza na bardzo długo w codziennym stosowaniu i jest ekonomiczny w użyciu. Konsystencja łatwo się rozprowadza i stosunkowo szybko się wchłania, nie pozostawiając nieprzyjemnego tłustego i lepkiego uczucia, co sprawia, że ​​jest szczególnie łatwy w użyciu. Efekt pielęgnacyjny jest szczególnie widoczny na bardzo suchej skórze: uczucie napięcia zostaje zauważalnie zmniejszone, a skóra po zastosowaniu wydaje się ukojona i bardziej elastyczna. Szczególnie przy regularnym stosowaniu balsam pomaga skórze zrekompensować utratę wilgoci i uzyskać bardziej stabilne uczucie skóry. Preparat w widoczny sposób ma na celu wzmocnienie bariery ochronnej skóry, co jest szczególnie widoczne w przypadku skóry trwale suchej. Ogólnie rzecz biorąc, balsam do ciała CeraVe to niezawodny, dobrze tolerowany produkt do podstawowej pielęgnacji, kładący duży nacisk na nawilżenie i ukojenie skóry – szczególnie odpowiedni dla każdego, kto szuka produktywnego i funkcjonalnego rozwiązania dla bardzo suchej skóry",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "hydration",
+    "price"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Sprawdzony pomocnik dla podrażnionej skóry. Pierwotnie kupiliśmy Cicaplast Baume B5+, ponieważ moja żona zawsze zmaga się z podrażnioną, napiętą skórą - szczególnie zimą i po drobnych zabiegach pielęgnacyjnych. Tubka znajduje się w naszej łazience od kilku miesięcy i jest regularnie używana. Co szczególnie lubi: Krem wyraźnie łagodzi, nie pozostawiając tłustego filmu. Zaczerwienienie zwykle znika po krótkim czasie, a nieprzyjemne uczucie napięcia szybko znika. Używa go na twarz, na suche partie ciała i okazjonalnie na usta. Konsystencja jest przyjemna, dobrze się rozprowadza i wchłania szybciej, niż można by się spodziewać po tak bogatym produkcie pielęgnacyjnym. Szczerze mówiąc: byłby chyba zbyt „pielęgnujący” dla cery bardzo tłustej lub jako codzienny krem ​​pod makijaż. Poza tym zaraz po aplikacji skóra lekko się błyszczy, ale już po kilku minutach nie stanowi to już problemu. Jako ukierunkowany preparat pielęgnacyjny do skóry podrażnionej, suchej czy zestresowanej sprawdza się jeszcze lepiej. Naszym zdaniem idealnie nadaje się do skóry wrażliwej, po goleniu, na zimno lub z niewielkimi podrażnieniami skóry. Jeśli szukasz lekkiego kremu żelowego, to źle trafiłeś – jeśli jednak zależy Ci na niezawodnej, kojącej pielęgnacji, szybko zrozumiesz, dlaczego moja żona tak go ceni",
+   "tags": [
+    "greasy_absorption",
+    "itch_relief",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Pozytywnie zaskoczony. Kiedy produkt przyszedł i wypróbowałam go po raz pierwszy, naprawdę wpadłam w rozpacz i pomyślałam, że to totalna pomyłka. Jak komentują inne osoby, na początku krem ​​po prostu przylegał do skóry i miałam uczucie ściągnięcia, wyjątkowo suchości na czole, a także miałam wrażenie, że po prostu wypociłam krem. Tak naprawdę dałam mu kolejną szansę, ponieważ desperacko chciałam wyleczyć uszkodzoną, wrażliwą i suchą barierę skóry. Nakładałem więc grubą warstwę rano i wieczorem (nazywa się to też Baume – dlatego idealnie nadaje się do naprawy bariery skórnej lub do walki z wyjątkowo suchą/suchą skórą, więc może nie być przydatny dla skóry mieszanej lub tłustej). I oto: wygląda na to, że mojej skórze brakowało nawilżenia przez tak długi czas ze względu na wszystkie środki złuszczające, których używałam w swojej codziennej pielęgnacji, że właściwie zajęło mi 2 tygodnie (!), zanim odzyskała wystarczającą ilość wilgoci. Jeśli więc naprawdę zmagasz się z podobną sytuacją, po prostu daj produktowi trochę więcej czasu. W większości przypadków to nie produkt, ale nasza skóra wymaga więcej cierpliwości. Kupiłbym go ponownie w takich warunkach!",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Jestem po prostu zachwycona!!!!. Ten krem ​​zdecydowanie odmienił moje życie!! Zamówiłam ten krem ​​zachęcona dobrymi opiniami. Na początku miałam obawy, czy ten krem ​​rzeczywiście pomoże. Od lat zmagam się z nawracającym egzemą, zwłaszcza zimą. W przeszłości próbowałem wielu rzeczy i ostatecznie było to tylko silne pieczenie i wszystko się pogorszyło. Jednak w przypadku tego kremu tak nie było!!! Wreszcie! Przy pierwszym użyciu bardzo mocno mnie spaliło, ponieważ mój egzema była bardzo zaogniona/sucha. Ale po kilku minutach moja skóra stała się znacznie bardziej miękka, a swędzenie nieco ustąpiło. Krem pozostawia na skórze świetny film, który zapewnia jej ochronę. Po trzeciej aplikacji moja skóra wyglądała znacznie lepiej!! Stosuję go nadal (ponad tydzień) i moja skóra jest już prawie zagojona! Jestem naprawdę zdumiona i bardzo szczęśliwa, że ​​w końcu znalazłam krem, który w końcu działa. Trzeba naprawdę uzbroić się w cierpliwość i stosować 2-3 razy dziennie, żeby zobaczyć poprawę. Ale warto. Zapach w ogóle mi nie przeszkadza. Właściwie uważam to za całkiem przyjemne. Dla każdego, kto ma problemy ze skórą, to POMOŻE!!!",
+   "tags": [
+    "adverse_reaction",
+    "greasy_absorption",
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo dobry krem ​​pielęgnacyjny, stosunek ceny do wydajności jest przekonujący. Krem Mixa Urea Cica Repair+ naprawdę mnie przekonał. Używam go przede wszystkim do suchych dłoni, ramion i nóg i w tym przypadku sprawdza się bardzo dobrze. Krem łatwo się rozprowadza, szybko się wchłania, zapewniając bogatą pielęgnację i nie pozostawia nieprzyjemnego uczucia lepkości. Efekt pielęgnacyjny uważam za szczególnie pozytywny. Po nałożeniu kremu suche i szorstkie miejsca są znacznie gładsze. Zwłaszcza przy regularnym stosowaniu zauważysz, że Twoja skóra jest mniej napięta i ogólnie wydaje się bardziej zadbana. Połączenie mocznika i niacynamidów bardzo odpowiada mojej skórze. Ilość jest również wyraźnym plusem. Dzięki pojemności 400 ml otrzymujesz duże opakowanie, które wystarcza na długo w życiu codziennym. Moim zdaniem sprawia to, że stosunek ceny do wydajności jest naprawdę mocny, szczególnie w porównaniu z wieloma mniejszymi kremami pielęgnacyjnymi. Zapach jest przyjemnie subtelny i niezbyt nachalny. Dla mnie krem ​​jest łatwy w użyciu zarówno wieczorem, jak i w ciągu dnia. Ogólnie bardzo dobry krem ​​pielęgnacyjny do skóry suchej: ekonomiczny, skuteczny, przyjemny w aplikacji i w przystępnej cenie. Dla mnie zdecydowane 5 gwiazdek",
+   "tags": [
+    "greasy_absorption",
+    "efficacy",
+    "price",
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dzięki temu udało mi się opanować zapalenie skóry! Od dłuższego czasu zmagałam się z dokuczliwym zapaleniem skóry z pęcherzami i silnym swędzeniem na dłoniach i nawet po kilku wizytach u dermatologa nic nie pomagało. Na ten krem ​​trafiłam dzięki znajomej i pomyślałam, że wypróbowanie innego kremu już nie zaszkodzi. Na początku naprawdę nakładałam go na dłonie co godzinę i po około 2 tygodniach byłam pod ogromnym wrażeniem! Zapalenie skóry rzeczywiście wyraźnie się zmniejszyło i nawet teraz, po zakupie kremu po raz szósty, nie wyobrażam sobie już życia bez niego. Wreszcie gładkie dłonie bez pęcherzy i swędzenia. Teraz używam go tylko na dłonie dwa razy dziennie i to wystarczy! Czasami zdarzają się małe zaostrzenia, po których jest nieco gorzej, ale potem po prostu częściej nakładam krem ​​i po kilku dniach znowu znika. Mogę jedynie polecić wypróbowanie tego kremu każdemu, kto ma problemy skórne. Oczywiście może być też tak, że u Ciebie się nie sprawdzi, ale po kilkudziesięciu innych kremach w końcu trafiłam na taki, który przywrócił mi kontrolę nad dłońmi",
+   "tags": [
+    "efficacy",
+    "price"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,449 @@
+{
+ "totalReviews": 70,
+ "avgRating": 4.7,
+ "productCount": 1,
+ "cpSummary": "Bardzo mała próba (24 recenzje jednego produktu) o wyjątkowo wysokiej ocenie (4,83). Klienci chwalą przede wszystkim dobrą jakość olejku, przyjemne wchłanianie w skórę i korzystny stosunek jakości do ceny; jedyny wyraźny minus dotyczy wadliwego dozownika/opakowania.",
+ "cpWho": {
+  "labels": [
+   "Osoby z problemami skórnymi",
+   "Użytkownicy codziennej pielęgnacji",
+   "Poszukujący dobrej ceny",
+   "Wielozadaniowe użycie (skóra i włosy)"
+  ],
+  "pos": [
+   7,
+   8,
+   5,
+   3
+  ],
+  "neg": [
+   0,
+   0,
+   0,
+   1
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Po prysznicu / rano",
+   "Codziennie",
+   "Do masażu"
+  ],
+  "pos": [
+   3,
+   6,
+   1
+  ],
+  "neg": [
+   0,
+   0,
+   0
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Na skórę ciała",
+   "Na włosy",
+   "Do masażu"
+  ],
+  "pos": [
+   12,
+   2,
+   1
+  ],
+  "neg": [
+   1,
+   0,
+   0
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Jakość produktu",
+   "Wchłanianie / nawilżenie",
+   "Cena / wartość",
+   "Opakowanie / dozownik"
+  ],
+  "pos": [
+   12,
+   5,
+   6,
+   2
+  ],
+  "neg": [
+   0,
+   0,
+   0,
+   1
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Codzienna pielęgnacja skóry",
+   "reason": "Regularne stosowanie, często po porannym prysznicu.",
+   "pct": "33.3%"
+  },
+  {
+   "label": "Wsparcie przy problemach skórnych",
+   "reason": "Pomoc przy łuszczycy, ograniczenie maści kortyzonowej.",
+   "pct": "12.5%"
+  },
+  {
+   "label": "Zastosowanie na włosy",
+   "reason": "Nakładanie na włosy obok pielęgnacji skóry.",
+   "pct": "8.3%"
+  },
+  {
+   "label": "Masaż",
+   "reason": "Olejek używany jako produkt do masażu.",
+   "pct": "8.3%"
+  }
+ ],
+ "csSummary": "Przy tak małej próbie sygnały są ostrożne: dominuje zadowolenie z jakości, wchłaniania i ceny. Jedyny powtarzalny problem to jakość dozownika/opakowania — warto to potraktować jako wczesny sygnał, nie jako potwierdzony trend.",
+ "negativeTopics": [
+  {
+   "label": "Wadliwy dozownik / opakowanie",
+   "reason": "Pojedyncze skargi na rozpadający się lub niedziałający dozownik oraz plastikowy pojemnik.",
+   "pct": "16.7%",
+   "bullets": [
+    "Dozownik rozpadł się przy zakładaniu",
+    "Zdarza się, że pompka nie działa",
+    "Preferowany byłby pojemnik inny niż plastikowy"
+   ],
+   "quotes": [
+    "Dozownik przy próbie założenia i zamknięcia rozłożył się na kawałki",
+    "Dobra jakość. Tylko pompa nie działa"
+   ]
+  },
+  {
+   "label": "Trudność z napełnianiem / przełożeniem pompki",
+   "reason": "Pojedynczy sygnał o zbyt pełnym pojemniku uniemożliwiającym włożenie pompki.",
+   "pct": "4.2%",
+   "bullets": [
+    "Nie da się włożyć pompki do zbyt pełnego pojemnika"
+   ],
+   "quotes": [
+    "Szkoda, że nie można włożyć pompki do nowego pojemnika, bo jest za pełny"
+   ]
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Dobra jakość olejku",
+   "reason": "Najczęściej powtarzany motyw — ogólne zadowolenie z jakości produktu.",
+   "pct": "50.0%",
+   "bullets": [
+    "Solidna, powtarzalnie chwalona jakość",
+    "Zgodny z opisem",
+    "Chęć ponownego zakupu"
+   ],
+   "quotes": [
+    "Bardzo dobra jakość!",
+    "Dobry produkt, podobał mi się"
+   ]
+  },
+  {
+   "label": "Wchłanianie i nawilżenie skóry",
+   "reason": "Klienci chwalą łatwe wchłanianie i nawilżenie bez uczucia tłustości.",
+   "pct": "20.8%",
+   "bullets": [
+    "Dobrze się wchłania",
+    "Nawilża bez tłustego uczucia",
+    "Przyjemny lub neutralny zapach"
+   ],
+   "quotes": [
+    "Bardzo nawilżający, bez tłustego uczucia na skórze",
+    "Bardzo podoba mi się sposób, w jaki moja skóra wchłania olejek"
+   ]
+  },
+  {
+   "label": "Stosunek jakości do ceny",
+   "reason": "Częste wzmianki o dobrej cenie i korzystnej wartości.",
+   "pct": "25.0%",
+   "bullets": [
+    "Dobry stosunek jakości do ceny",
+    "Warty swojej ceny",
+    "Zachęca do ponownego zakupu"
+   ],
+   "quotes": [
+    "Świetny stosunek jakości do ceny",
+    "Jakość warta swojej ceny"
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Jakość opakowania",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Kilka pojedynczych skarg dotyczy dozownika/pompki i plastikowego pojemnika.",
+   "implication": "Warto obserwować trwałość dozownika — przy większej próbie może to stać się realnym problemem. Sprzedawca w jednym przypadku szybko zaproponował rozwiązanie."
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Jakość i cena",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Dominuje zadowolenie z jakości i korzystnej ceny, z częstą deklaracją ponownego zakupu.",
+   "implication": "Pozycjonowanie \"dobra jakość w dobrej cenie\" wydaje się trafiać w oczekiwania — mimo małej próby to spójny sygnał."
+  },
+  {
+   "type": "Działanie na skórę",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Chwalone lekkie, dobre wchłanianie i nawilżenie bez tłustości.",
+   "implication": "Warto eksponować w komunikacji: szybkie wchłanianie i brak tłustego filmu."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Pielęgnacja i nawilżenie skóry",
+   "reason": "Poszukiwanie dobrze wchłaniającego się olejku do codziennej pielęgnacji.",
+   "pct": "37.5%"
+  },
+  {
+   "label": "Dobra cena / wartość",
+   "reason": "Atrakcyjny stosunek jakości do ceny jako powód zakupu.",
+   "pct": "25.0%"
+  },
+  {
+   "label": "Wsparcie przy problemach skórnych",
+   "reason": "Nadzieja na pomoc przy łuszczycy i podrażnieniach.",
+   "pct": "12.5%"
+  },
+  {
+   "label": "Uniwersalne zastosowanie",
+   "reason": "Użycie na skórę i włosy oraz do masażu.",
+   "pct": "12.5%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Dobre wchłanianie bez tłustości",
+   "reason": "Oczekiwanie olejku, który nawilża bez tłustego filmu.",
+   "pct": "20.8%"
+  },
+  {
+   "label": "Solidna jakość produktu",
+   "reason": "Oczekiwanie jakości zgodnej z opisem i ceną.",
+   "pct": "50.0%"
+  },
+  {
+   "label": "Sprawny, trwały dozownik",
+   "reason": "Oczekiwanie niezawodnego dozownika/pompki.",
+   "pct": "16.7%"
+  },
+  {
+   "label": "Szybka dostawa",
+   "reason": "Docenienie szybkiej wysyłki i dobrego pakowania.",
+   "pct": "12.5%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "jakosc",
+   "label": "Jakość produktu"
+  },
+  {
+   "value": "wchlanianie",
+   "label": "Wchłanianie / nawilżenie"
+  },
+  {
+   "value": "cena",
+   "label": "Cena / wartość"
+  },
+  {
+   "value": "opakowanie",
+   "label": "Opakowanie / dozownik"
+  },
+  {
+   "value": "dostawa",
+   "label": "Dostawa / wysyłka"
+  },
+  {
+   "value": "wlosy",
+   "label": "Zastosowanie na włosy"
+  }
+ ],
+ "tagStyles": {
+  "jakosc": "pill-blue",
+  "wchlanianie": "pill-purple",
+  "cena": "pill-amber",
+  "opakowanie": "pill-red",
+  "dostawa": "pill-orange",
+  "wlosy": "pill-blue"
+ },
+ "reviews": [
+  {
+   "r": 2,
+   "t": "Niepraktyczne opakowanie. Olejek wydaje się dobry, chociaż dostałem go kilka dni temu, to jeszcze niewiele go używałem. Dozownik przy próbie założenia i zamknięcia rozłożył się na kawałki, które wpadły do ​​środka i musiałem go wyrzucić, a kawałek został w środku",
+   "tags": [
+    "jakosc",
+    "opakowanie"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry. Cóż, jak dotąd bardzo dobrze",
+   "tags": [
+    "jakosc"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wysyłka w godzinach. Dobra prezentacja, pojemnik wykonany jest z całkowicie nieprzezroczystego plastiku, jest wyposażony w dozownik, dobrej jakości, zamówiłem o 1 w nocy i o 9 rano już go miałem, super szybka wysyłka i dobre opakowanie",
+   "tags": [
+    "jakosc",
+    "opakowanie",
+    "dostawa"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Do codziennej pielęgnacji. Olejku używam po porannym prysznicu. Od tego czasu znacznie lepiej kontroluję łuszczycę i zazwyczaj mogę obejść się bez maści kortyzonowej. Zamówię ponownie!",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Niesamowity na skórze. Bardzo podoba mi się sposób, w jaki moja skóra wchłania olejek. Mam włosy w kolorze afro i też go nałożyłam, ale chyba nałożyłam go trochę za dużo, bo włosy się przetłuszczały",
+   "tags": [
+    "wchlanianie",
+    "wlosy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "UŻYWAM GO DO WSZYSTKIEGO, DO SKÓRY I WŁOSÓW. Kiedy kupiłem go po raz pierwszy, dotarł w idealnym stanie, ale za drugim razem opakowanie się zepsuło i natychmiast zaproponowali mi rozwiązanie.",
+   "tags": [
+    "wchlanianie",
+    "opakowanie",
+    "wlosy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Jakość ceny. Idealny do masażu. Szkoda, że ​​nie można włożyć pompki do nowego pojemnika, bo jest za pełny",
+   "tags": [
+    "jakosc",
+    "cena",
+    "opakowanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Zamówię ponownie. Świetny stosunek jakości do ceny. Przyjemnie pachnie... świetnie rozprowadza się na skórze",
+   "tags": [
+    "jakosc",
+    "wchlanianie",
+    "cena"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Nawilżona skóra bez uczucia tłustości. Bardzo nawilżający, bez tłustego uczucia na skórze i w bardzo dobrej cenie",
+   "tags": [
+    "wchlanianie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobra jakość. Wydaje się, że jest to dobra jakość. Tylko pompa nie działa",
+   "tags": [
+    "jakosc"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "przyjemny. neutralny, bez nieprzyjemnego zapachu. dobrze się wchłania",
+   "tags": [
+    "wchlanianie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobra jakość. Szybka dostawa i dobry olej",
+   "tags": [
+    "jakosc",
+    "dostawa"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Szybka wysyłka. Bardzo poręczny pojemnik. Szybka wysyłka",
+   "tags": [
+    "opakowanie",
+    "dostawa"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobry olej. Niestety dobry olej jest w plastikowym pojemniku",
+   "tags": [
+    "jakosc",
+    "opakowanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Niesamowity olej!. Kocham to! Dziękuję Amazonie!",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Zgodny z opisem. Dobry produkt, podobał mi się",
+   "tags": [
+    "jakosc"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wszystko w porządku. Bardzo dobra jakość",
+   "tags": [
+    "jakosc"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo fajny olejek. Bardzo fajny olejek",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Dobry. Jakość warta swojej ceny",
+   "tags": [
+    "jakosc",
+    "cena"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Jakość. Bardzo dobra jakość!",
+   "tags": [
+    "jakosc"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobry olej. Dobra jakość",
+   "tags": [
+    "jakosc"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo miło. Świetne na 100/100",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Niezły handel. Bardzo miło",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Bardzo Boże. Bardzo Boże",
+   "tags": []
+  }
+ ]
+}

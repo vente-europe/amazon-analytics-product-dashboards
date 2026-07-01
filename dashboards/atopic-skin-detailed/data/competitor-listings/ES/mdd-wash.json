@@ -1,0 +1,878 @@
+{
+ "totalCompetitors": 12,
+ "marketplace": "amazon.es",
+ "competitors": [
+  {
+   "asin": "B09BBH8B78",
+   "brand": "ISDIN",
+   "title": "ISDIN Germisdin Aloe Vera Higiene Corporal de Uso Diario Gel de Baño Syndet, Recomendado para Piel Seca o con Tendencia al Picor,1 L (Paquete de 2)",
+   "mainImage": "https://m.media-amazon.com/images/I/61ZacSsVcaL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61ZacSsVcaL.jpg",
+    "https://m.media-amazon.com/images/I/41mYMylLLzL.jpg",
+    "https://m.media-amazon.com/images/I/41mYMylLLzL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71h0V-cOolL.jpg",
+    "https://m.media-amazon.com/images/I/41pYsPIzXrL.jpg",
+    "https://m.media-amazon.com/images/I/41pYsPIzXrL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/51nUE2thEHL.jpg",
+    "https://m.media-amazon.com/images/I/4127JmCO71L.jpg"
+   ],
+   "themes": [
+    "swiad"
+   ],
+   "price": 26.38,
+   "rating": 4.6,
+   "reviews": 2178,
+   "bsr": 518,
+   "rev30d": 20598,
+   "bullets": [
+    "Limpia la piel y respeta el manto hidrolipídico gracias a su pH fisiológico.",
+    "Ayuda a proteger la piel.",
+    "Su fórmula con aloe vera y laureth-9 hidrata y ayuda a aliviar el picor de la piel seca.",
+    "Uso diario. Apto para todo tipo de piel, incluso para piel sensible.",
+    "Tiene una textura suave y es fácil de aclarar."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0DJPBRNDF",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay, Lipikar Gel de Ducha Fisiológico Relipidizante, Con Niacinamida y Manteca de Karité, Sin Jabón Ni Parabenos, Para Piel Sensible y Seca, 1L",
+   "mainImage": "https://m.media-amazon.com/images/I/51hTwyHSmAL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/51hTwyHSmAL.jpg",
+    "https://m.media-amazon.com/images/I/41et06n066L.jpg",
+    "https://m.media-amazon.com/images/I/41et06n066L._SL75_.jpg"
+   ],
+   "themes": [
+    "kojacy"
+   ],
+   "price": 14.49,
+   "rating": 4.6,
+   "reviews": 2765,
+   "bsr": 332,
+   "rev30d": 18576,
+   "bullets": [
+    "Gel de ducha para la higiene diaria de toda la familia. Nutre y limpia suavemente, por lo que es adecuado para zonas íntimas. Con Niacinamida y Manteca de Karité. Para todo tipo de pieles, especialmente las sensibles y secas.",
+    "Piel limpia, hidratada, calmada y protegida, con sensación de confort duradero. Textura espumosa suave.",
+    "Aplicar mañana y/o noche una pequeña cantidad de gel para cada parte del cuerpo. Masajear suavemente y aclarar."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0967LDZ7R",
+   "brand": "CeraVe",
+   "title": "CeraVe Limpiador en Aceite Espumoso Hidratante, Para Pieles Normales a Muy Secas con Tendencia Atópica, Para Rostro y Cuerpo, Limpia e Hidrata, Enriquecido con Ácido Hialurónico, 473ml",
+   "mainImage": "https://m.media-amazon.com/images/I/71ARYOCHBCL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/71ARYOCHBCL.jpg",
+    "https://m.media-amazon.com/images/I/41rNzSfzNrL.jpg",
+    "https://m.media-amazon.com/images/I/41rNzSfzNrL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71NmJ-rLpML.jpg",
+    "https://m.media-amazon.com/images/I/41xynaUP7YL.jpg",
+    "https://m.media-amazon.com/images/I/41xynaUP7YL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71y8YIEtAkL.jpg",
+    "https://m.media-amazon.com/images/I/51qq8JzRHxL.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "bez_zapachu",
+    "dermatologiczny",
+    "cena_pojemnosc"
+   ],
+   "price": 15.2,
+   "rating": 4.6,
+   "reviews": 10161,
+   "bsr": 153,
+   "rev30d": 18141,
+   "bullets": [
+    "Limpiador en Aceite Espumoso Hidratante que nutre la piel y elimina la suciedad y el exceso de sebo. Con Aceite de Escualano​, ceramidas, Ácido Hialurónico y Tecnología MVE. Para pieles normales y secas con tendencia atópica.",
+    "Piel limpia, calmada e hidratada. No comedogénico, sin perfume. Testado dermatológica y oftalmológicamente.",
+    "Humedecer la piel de rostro y cuerpo con agua tibia y masajear suavemente el limpiador. Aclarar y secar sin frotar."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B09CCJD53W",
+   "brand": "CeraVe",
+   "title": "CeraVe - Limpiador en Aceite Espumoso Hidratante, Ideal para Pieles Normales a Muy Secas con Tendencia Atópica, Para Rostro y Cuerpo, Limpia e Hidrata, Enriquecido con Ácido Hialurónico, 236 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/51xAIwj5PTL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/51xAIwj5PTL.jpg",
+    "https://m.media-amazon.com/images/I/41xtNP82PeL.jpg",
+    "https://m.media-amazon.com/images/I/41xtNP82PeL._SL75_.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "cena_pojemnosc"
+   ],
+   "price": 13.92,
+   "rating": 4.6,
+   "reviews": 10161,
+   "bsr": 219,
+   "rev30d": 14443,
+   "bullets": [
+    "limpiador multifunción"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0052EM8L8",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay, Toleriane Dermo Limpiador Desmaquillante Facial, Limpieza Diaria Sin Irritación, Para Rostro y Contorno de Ojos, Con Glicerina, Hipoalergénico, Para Pieles Muy Sensibles, 400ml",
+   "mainImage": "https://m.media-amazon.com/images/I/51sJ+JP0hTL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/51sJ+JP0hTL.jpg",
+    "https://m.media-amazon.com/images/I/31jtBwrYTWL.jpg",
+    "https://m.media-amazon.com/images/I/31jtBwrYTWL._SL75_.jpg"
+   ],
+   "themes": [
+    "hipoalergiczny",
+    "cena_pojemnosc"
+   ],
+   "price": 17.92,
+   "rating": 4.3,
+   "reviews": 5525,
+   "bsr": 999,
+   "rev30d": 12343,
+   "bullets": [
+    "El Toleriane Dermo Limpiador de La Roche-Posay permite una limpieza suave y respetuosa para aquellas pieles más sensibles, fragilizadas e intolerantes. Elimina el maquillaje y limpia el rostro y la zona del contorno de los ojos sin riesgo de irritación."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B082Y8TYSP",
+   "brand": "Cetaphil",
+   "title": "CETAPHIL Espuma Limpiadora Facial PRO REDNESS Control, para pieles con rosácea y tendencia al enrojecimiento, 236ML",
+   "mainImage": "https://m.media-amazon.com/images/I/6133NaX-UmL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/6133NaX-UmL.jpg",
+    "https://m.media-amazon.com/images/I/31DifSihr2L.jpg",
+    "https://m.media-amazon.com/images/I/31DifSihr2L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71oL7IDMZFL.jpg",
+    "https://m.media-amazon.com/images/I/41rbmHWYB8L.jpg",
+    "https://m.media-amazon.com/images/I/41rbmHWYB8L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71Q87iwfe5L.jpg",
+    "https://m.media-amazon.com/images/I/41pdmRz2Y3L.jpg"
+   ],
+   "themes": [
+    "kojacy",
+    "swiad",
+    "cena_pojemnosc"
+   ],
+   "price": 14.45,
+   "rating": 4.5,
+   "reviews": 189,
+   "bsr": 653,
+   "rev30d": 11097,
+   "bullets": [
+    "Limpia, calma y suaviza la piel con tendencia al enrojecimiento.",
+    "Alivia el picor por la sequedad.",
+    "No reseca y mantiene la hidratación de la piel.",
+    "Pieles sensibles con tendencia al enrojecimiento."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0DVM1G1B3",
+   "brand": "Rilastil",
+   "title": "Rilastil - Xerolact Aceite Limpiador Protector para Piel Muy Seca o Atópica, Gel de Ducha Hidratante Antipicor con Aceite de Arroz y Almendras, Apto para Bebés, Niños y Adultos - 1000 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
+    "https://m.media-amazon.com/images/I/31AP1YOGrvL.jpg",
+    "https://m.media-amazon.com/images/I/31AP1YOGrvL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/7175c2d7bQL.jpg",
+    "https://m.media-amazon.com/images/I/31gxSnb7HEL.jpg",
+    "https://m.media-amazon.com/images/I/31gxSnb7HEL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71bTNlpXu4L.jpg",
+    "https://m.media-amazon.com/images/I/41n3XOAzosL.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "bariera",
+    "dla_dzieci",
+    "hipoalergiczny",
+    "cena_pojemnosc"
+   ],
+   "price": 12.72,
+   "rating": 4.6,
+   "reviews": 421,
+   "bsr": 722,
+   "rev30d": 9733,
+   "bullets": [
+    "XEROLACT ACEITE LIMPIADOR PROTECTOR. Es un aceite de ducha hidratante y antipicor, que limpia suavemente mientras protege la barrera cutánea. Formulado para piel muy seca o con tendencia atópica, apto para bebés, niños y adultos.",
+    "PIEL LIMPIA, HIDRATADA Y CALMADA. Limpia con delicadeza, hidrata hasta 24 h y reduce el enrojecimiento y el picor. Ideal para pieles que requieren un cuidado especial, devuelve confort y alivio desde la ducha",
+    "INGREDIENTES SELECCIONADOS. Contiene aceite de salvado de arroz, aceite de almendras dulces, lactato de sodio, extracto de Schisandra chinensis y niacinamida. Formulado sin derivados del trigo, testado en cinco metales pesados, hipoalergénico y oftalmológicamente testado",
+    "FÓRMULA EFICAZ Y PROTECTORA. Aceite de baño con gran poder emoliente e hidratante, que respeta la barrera cutánea y alivia la sensación de tirantez o escozor. Su uso diario para piel seca o atópica favorece el bienestar de la piel, tanto en bebés como en adultos",
+    "MODO DE USO. Aplicar durante la ducha sobre la piel húmeda, distribuir suavemente y aclarar. Puede utilizarse diariamente como limpiador habitual para pieles secas o atópicas"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B07DMSPFF5",
+   "brand": "Sebamed",
+   "title": "SEBAMED Alimentador de emulsión sin jabón de 1 litro",
+   "mainImage": "https://m.media-amazon.com/images/I/61OLF+j6BbL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61OLF+j6BbL.jpg",
+    "https://m.media-amazon.com/images/I/312pmccS7xL.jpg",
+    "https://m.media-amazon.com/images/I/312pmccS7xL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71MtA2KUgAL.jpg",
+    "https://m.media-amazon.com/images/I/410pGMdx-qL.jpg",
+    "https://m.media-amazon.com/images/I/410pGMdx-qL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71kYVsJjYyL.jpg",
+    "https://m.media-amazon.com/images/I/41UK0zJ7jIL.jpg"
+   ],
+   "themes": [
+    "kojacy",
+    "bariera",
+    "naturalny"
+   ],
+   "price": 16.28,
+   "rating": 4.6,
+   "reviews": 667,
+   "bsr": 932,
+   "rev30d": 6495,
+   "bullets": [
+    "\"Sebamed Emulsión sin Jabón 1L\" es un gel de baño para el uso diario, ideal para las pieles sensibles.",
+    "Su formulación sin jabón limpia suavemente, sin resecar, dejando la piel suave y tersa tras cada baño.",
+    "Fórmula única con pH 5, respeta el pH natural de la piel, soportando su función barrera protectora y ayudando a preservar su microbioma.",
+    "Contiene Pentavitin que protege e hidrata la piel, y Alantoína que calma la piel sensible.",
+    "Sebamed es una marca de confianza que se esfuerza continuamente para proporcionar productos que cuidan la piel de manera efectiva. Garantía sello ECARF."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B01N7ISSWU",
+   "brand": "YOFFEE",
+   "title": "Yoffee Gel de Ducha Desinfectante - Jabon Antibacteriano con Aceite de Árbol del Té y Coco -Previene, Elimina y Evita Bacterias-Alivia Picores, Irritaciones e Inflamaciones",
+   "mainImage": "https://m.media-amazon.com/images/I/61k9nAMR4fL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61k9nAMR4fL.jpg",
+    "https://m.media-amazon.com/images/I/31u3+UlxY6L.jpg",
+    "https://m.media-amazon.com/images/I/31u3+UlxY6L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71vLD7jmtaL.jpg",
+    "https://m.media-amazon.com/images/I/41mmW77yYWL.jpg",
+    "https://m.media-amazon.com/images/I/41mmW77yYWL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71TGqH2ptdL.jpg",
+    "https://m.media-amazon.com/images/I/41XLWfRc1WL.jpg"
+   ],
+   "themes": [
+    "kojacy",
+    "swiad",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "price": 19.9,
+   "rating": 4.4,
+   "reviews": 790,
+   "bsr": 2037,
+   "rev30d": 6362,
+   "bullets": [
+    "Gel terapéutico - hidrata y suaviza la piel gracias a su fórmula concentrada en aceite de Árbol de té (melaleuca alternifolia), un aceite esencial con demostradas propiedades antisépticas, ideal para pieles irritadas e inflamadas. Sensación de limpieza y frescor durante todo el día",
+    "Antimicótico con ingredientes naturales - Cuidadosamente seleccionados para combatir, eliminar y prevenir la reaparición de todo tipo de problemas bacterianos. Contiene aceites de ricino, jojoba, árbol de té, coco y eucalipto",
+    "Elimina los fuertes olores corporales - Gracias a su refrescante perfume y a las propiedades de la menta. Nuestra fórmula es perfecta para combatir los malos olores convirtiéndolo en un excelente gel antibacterial",
+    "Múltiples beneficios - Limpia profundamente la piel, elimina bacterias, hidrata y calma picores e incomodidades. Apto para tratar la irritación de pieles mixtas, grasas o secas",
+    "Calidad de marca: fabricada con en España - Fabricado bajo los más altos y estrictos controles de calidad. Vegano y libre de crueldad animal"
+   ],
+   "description": "Yoffee Anti-Bacterial Wash - Gel de Ducha Desinfectante - Antibacteriano con Aceite de Árbol del Té y Coco - Previene, Elimina y Evita Bacterias - Alivia Picores, Irritaciones e Inflamaciones/300ml. Nuestro gel de ducha antibacteriano mezcla varios ingredientes naturales especialmente seleccionados para tratar todo tipo de problemas bacterianos en la piel. Su suave pero potente fórmula proporciona alivio rápido a la piel pruriginosa, irritada e inflamada. Infundido con aceite de Árbol de Té y aceite de Coco, que proporcionan una eficaz defensa contra las bacterias, mientras que aporta hidratación y alisa la piel. Gracias a su refrescante fragancia y a sus ingredientes antibacterianos, también ayuda a eliminar el olor corporal dejando el cuerpo limpio y fresco."
+  },
+  {
+   "asin": "B09FFFV1XX",
+   "brand": "Sensilis",
+   "title": "Sensilis - Gentle Cleansing Mousse, Espuma Limpiadora, Hidratante, Calmante para Pieles Sensibles Reactivas, con Ácido Hialurónico B5-200 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/51NCQX2vanL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/51NCQX2vanL.jpg",
+    "https://m.media-amazon.com/images/I/21ipED4byqL.jpg",
+    "https://m.media-amazon.com/images/I/21ipED4byqL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71eLBwn9ItL.jpg",
+    "https://m.media-amazon.com/images/I/31zE2WTcsTL.jpg",
+    "https://m.media-amazon.com/images/I/31zE2WTcsTL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71vadREY5wL.jpg",
+    "https://m.media-amazon.com/images/I/31VBI9xZoYL.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "bariera",
+    "cena_pojemnosc"
+   ],
+   "price": 10.75,
+   "rating": 4.4,
+   "reviews": 738,
+   "bsr": 611,
+   "rev30d": 6236,
+   "bullets": [
+    "Espuma limpiadora Gentle Cleansing Mousse Sensilis con ácido hialurónico y vitamina B5, que limpia suavemente pieles sensibles reactivas, hidrata y calma sin resecar ni alterar la barrera cutánea",
+    "Elimina impurezas y maquillaje sin alterar barrera cutánea, hidrata 24h consecutivas, calma rojeces inmediatamente, sin jabón ni perfume. Su formula está testada en pieles atópicas y con dermatitis para máxima seguridad",
+    "Aplica la espuma con las manos húmedas, masajea el rostro con movimientos suaves circulares. Aclara con agua tibia y seca a toques con una toalla suave. Ideal para una doble limpieza tras un maquillaje pesado"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0BYDZ4H9V",
+   "brand": "Lactovit",
+   "title": "Lactovit - Gel de Ducha Reparador Lactourea, Hidrata, Nutre y Repara, Piel Fuerte y Joven, Textura Cremosa, con Protein Calcium y Lactourea, para Pieles Muy Secas o Extra Secas - Juego de 6 x 550 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/71ZkJ9+sRYL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/71ZkJ9+sRYL.jpg",
+    "https://m.media-amazon.com/images/I/41soki3D3oL.jpg",
+    "https://m.media-amazon.com/images/I/41soki3D3oL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61-d5jXZcHL.jpg",
+    "https://m.media-amazon.com/images/I/41kTPuwJqZL.jpg",
+    "https://m.media-amazon.com/images/I/41kTPuwJqZL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71+NVmwIq8L.jpg",
+    "https://m.media-amazon.com/images/I/41NdxS58OaL.jpg"
+   ],
+   "themes": [
+    "swiad",
+    "bariera",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "price": 15.36,
+   "rating": 4.5,
+   "reviews": 1438,
+   "bsr": 469,
+   "rev30d": 5949,
+   "bullets": [
+    "GEL DE DUCHA REPARADOR. limpia suavemente mientras hidrata nutre y repara la piel muy seca o extra seca ayudando a aliviar picores irritaciones y sensación de tirantez desde la primera ducha",
+    "LACTOUREA Y UREA PROLACTIC10. fórmula avanzada con urea que impulsa la reparación cutánea y refuerza la barrera natural de la piel aportando confort duradero",
+    "HIDRATACIÓN INTENSIVA DIARIA. aporta la dosis diaria de hidratación y reparación necesaria para mantener la piel más flexible resistente y visiblemente cuidada con el uso continuado",
+    "TEXTURA CREMOSA CONFORT. su espuma rica y envolvente limpia sin resecar dejando una sensación sedosa inmediata y una piel suave luminosa y protegida tras cada uso",
+    "COMPROMISO LACTOVIT: En Lactovit creemos en un cuidado responsable que empieza en tu piel. Por eso formulamos con activos 100 % naturales de la leche para nutrir y proteger, con fórmulas altamente biodegradables. Además, mejoramos la reciclabilidad de nuestros envases para cuidar de ti y del planeta."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B00V4PB09K",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay Gel de ducha, Calma y Protege, Enriquecido con Manteca de Karité, Para Pieles Secas con tendencia al Eczema Atópico, Lipikar AP+M, 750 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/61WxWK0CmML.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61WxWK0CmML.jpg",
+    "https://m.media-amazon.com/images/I/41GpllHHmAL.jpg",
+    "https://m.media-amazon.com/images/I/41GpllHHmAL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/81GmmQPKYsL.jpg",
+    "https://m.media-amazon.com/images/I/51Hmwg3uE9L.jpg",
+    "https://m.media-amazon.com/images/I/51Hmwg3uE9L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/618eIxpkSHL.jpg",
+    "https://m.media-amazon.com/images/I/41RaoLEWOiL.jpg"
+   ],
+   "themes": [
+    "skora_atopowa",
+    "kojacy",
+    "bariera",
+    "cena_pojemnosc"
+   ],
+   "price": 13.5,
+   "rating": 4.7,
+   "reviews": 1372,
+   "bsr": 1757,
+   "rev30d": 5560,
+   "bullets": [
+    "Contiene Niacinamida calmante y manteca de karité reponer lípidos para ayudar a restaurar la barrera cutánea",
+    "Limpia suavemente y protege la piel sensible de toda la familia",
+    "Respeta el pH fisiológico de la piel y no pica los ojos",
+    "Libre de todas las impurezas, la piel está limpia, suave y calmada"
+   ],
+   "description": ""
+  }
+ ],
+ "claimsMatrix": {
+  "themes": [
+   {
+    "id": "nawilzenie",
+    "label": "Nawilżenie"
+   },
+   {
+    "id": "skora_atopowa",
+    "label": "Skóra atopowa / egzema"
+   },
+   {
+    "id": "kojacy",
+    "label": "Kojący / łagodzący"
+   },
+   {
+    "id": "swiad",
+    "label": "Redukcja świądu"
+   },
+   {
+    "id": "bariera",
+    "label": "Odbudowa bariery"
+   },
+   {
+    "id": "bez_zapachu",
+    "label": "Bez zapachu / perfum"
+   },
+   {
+    "id": "dla_dzieci",
+    "label": "Dla dzieci / niemowląt"
+   },
+   {
+    "id": "hipoalergiczny",
+    "label": "Hipoalergiczny"
+   },
+   {
+    "id": "dermatologiczny",
+    "label": "Dermatologicznie testowany"
+   },
+   {
+    "id": "naturalny",
+    "label": "Naturalny / wegański"
+   },
+   {
+    "id": "cena_pojemnosc",
+    "label": "Ekonomiczny / duża pojemność"
+   }
+  ],
+  "rows": [
+   {
+    "brand": "ISDIN",
+    "asin": "B09BBH8B78",
+    "cells": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "brand": "La Roche-Posay",
+    "asin": "B0DJPBRNDF",
+    "cells": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "brand": "CeraVe",
+    "asin": "B0967LDZ7R",
+    "cells": [
+     true,
+     true,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "CeraVe",
+    "asin": "B09CCJD53W",
+    "cells": [
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "La Roche-Posay",
+    "asin": "B0052EM8L8",
+    "cells": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "Cetaphil",
+    "asin": "B082Y8TYSP",
+    "cells": [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "Rilastil",
+    "asin": "B0DVM1G1B3",
+    "cells": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "Sebamed",
+    "asin": "B07DMSPFF5",
+    "cells": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ]
+   },
+   {
+    "brand": "YOFFEE",
+    "asin": "B01N7ISSWU",
+    "cells": [
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "brand": "Sensilis",
+    "asin": "B09FFFV1XX",
+    "cells": [
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "Lactovit",
+    "asin": "B0BYDZ4H9V",
+    "cells": [
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ]
+   },
+   {
+    "brand": "La Roche-Posay",
+    "asin": "B00V4PB09K",
+    "cells": [
+     false,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   }
+  ]
+ },
+ "claimsSummary": [
+  {
+   "label": "Ekonomiczny / duża pojemność",
+   "count": 9,
+   "pct": 75,
+   "topBrands": [
+    "CeraVe",
+    "La Roche-Posay",
+    "Cetaphil"
+   ]
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "count": 8,
+   "pct": 67,
+   "topBrands": [
+    "La Roche-Posay",
+    "CeraVe",
+    "Cetaphil"
+   ]
+  },
+  {
+   "label": "Skóra atopowa / egzema",
+   "count": 5,
+   "pct": 42,
+   "topBrands": [
+    "CeraVe",
+    "Rilastil",
+    "Sensilis"
+   ]
+  },
+  {
+   "label": "Redukcja świądu",
+   "count": 5,
+   "pct": 42,
+   "topBrands": [
+    "ISDIN",
+    "Cetaphil",
+    "Rilastil"
+   ]
+  },
+  {
+   "label": "Odbudowa bariery",
+   "count": 5,
+   "pct": 42,
+   "topBrands": [
+    "Rilastil",
+    "Sebamed",
+    "Sensilis"
+   ]
+  },
+  {
+   "label": "Nawilżenie",
+   "count": 4,
+   "pct": 33,
+   "topBrands": [
+    "CeraVe",
+    "Rilastil",
+    "Sensilis"
+   ]
+  },
+  {
+   "label": "Naturalny / wegański",
+   "count": 3,
+   "pct": 25,
+   "topBrands": [
+    "Sebamed",
+    "YOFFEE",
+    "Lactovit"
+   ]
+  },
+  {
+   "label": "Hipoalergiczny",
+   "count": 2,
+   "pct": 17,
+   "topBrands": [
+    "La Roche-Posay",
+    "Rilastil"
+   ]
+  },
+  {
+   "label": "Bez zapachu / perfum",
+   "count": 1,
+   "pct": 8,
+   "topBrands": [
+    "CeraVe"
+   ]
+  },
+  {
+   "label": "Dla dzieci / niemowląt",
+   "count": 1,
+   "pct": 8,
+   "topBrands": [
+    "Rilastil"
+   ]
+  },
+  {
+   "label": "Dermatologicznie testowany",
+   "count": 1,
+   "pct": 8,
+   "topBrands": [
+    "CeraVe"
+   ]
+  }
+ ],
+ "vocGap": [
+  {
+   "vocTopic": "Uszkodzone / przeciekające opakowanie",
+   "customerConcernPct": "30.0%",
+   "addressedByCount": 0,
+   "addressedByBrands": [],
+   "gapSeverity": "HIGH",
+   "whitespace": "true"
+  },
+  {
+   "vocTopic": "Wadliwy / uciążliwy dozownik",
+   "customerConcernPct": "16.0%",
+   "addressedByCount": 0,
+   "addressedByBrands": [],
+   "gapSeverity": "HIGH",
+   "whitespace": "true"
+  },
+  {
+   "vocTopic": "Mylący opis / niezgodność z reklamą",
+   "customerConcernPct": "15.0%",
+   "addressedByCount": 9,
+   "addressedByBrands": [
+    "CeraVe",
+    "CeraVe",
+    "La Roche-Posay"
+   ],
+   "gapSeverity": "LOW",
+   "whitespace": "false"
+  },
+  {
+   "vocTopic": "Za silny lub nieprzyjemny zapach",
+   "customerConcernPct": "13.0%",
+   "addressedByCount": 8,
+   "addressedByBrands": [
+    "La Roche-Posay",
+    "CeraVe",
+    "Cetaphil"
+   ],
+   "gapSeverity": "LOW",
+   "whitespace": "false"
+  },
+  {
+   "vocTopic": "Podrażnienie / reakcja skórna",
+   "customerConcernPct": "9.0%",
+   "addressedByCount": 8,
+   "addressedByBrands": [
+    "La Roche-Posay",
+    "CeraVe",
+    "Cetaphil"
+   ],
+   "gapSeverity": "LOW",
+   "whitespace": "false"
+  },
+  {
+   "vocTopic": "Wysoka cena",
+   "customerConcernPct": "12.0%",
+   "addressedByCount": 9,
+   "addressedByBrands": [
+    "CeraVe",
+    "CeraVe",
+    "La Roche-Posay"
+   ],
+   "gapSeverity": "LOW",
+   "whitespace": "false"
+  }
+ ],
+ "whitespaceOpportunities": [
+  {
+   "opportunity": "Naturalny / wegański",
+   "rationale": "Tylko 3/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: Sebamed, YOFFEE, Lactovit"
+  },
+  {
+   "opportunity": "Hipoalergiczny",
+   "rationale": "Tylko 2/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: La Roche-Posay, Rilastil"
+  },
+  {
+   "opportunity": "Bez zapachu / perfum",
+   "rationale": "Tylko 1/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: CeraVe"
+  },
+  {
+   "opportunity": "Dla dzieci / niemowląt",
+   "rationale": "Tylko 1/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: Rilastil"
+  },
+  {
+   "opportunity": "Dermatologicznie testowany",
+   "rationale": "Tylko 1/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: CeraVe"
+  }
+ ],
+ "saturation": [
+  {
+   "label": "Ekonomiczny / duża pojemność",
+   "saturationPct": "75%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "saturationPct": "67%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  }
+ ],
+ "strategicRecommendations": [
+  {
+   "type": "Luka VOC↔listing",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Klienci skarżą się na: Uszkodzone / przeciekające opakowanie, Wadliwy / uciążliwy dozownik, a żaden czołowy konkurent tego nie adresuje w treści listingu.",
+   "implication": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
+  },
+  {
+   "type": "Białe plamy",
+   "badgeBg": "#fef3c7",
+   "badgeColor": "#92400e",
+   "finding": "Nisko wysycone tematy: Naturalny / wegański, Hipoalergiczny, Bez zapachu / perfum, Dla dzieci / niemowląt.",
+   "implication": "Jeśli produkt spełnia te cechy — wyeksponuj je, bo konkurencja tego nie robi."
+  },
+  {
+   "type": "Parytet",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Nasycone deklaracje: Ekonomiczny / duża pojemność, Kojący / łagodzący.",
+   "implication": "Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca."
+  }
+ ]
+}

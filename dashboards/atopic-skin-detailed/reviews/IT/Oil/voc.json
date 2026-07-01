@@ -1,0 +1,1100 @@
+{
+ "totalReviews": 154,
+ "avgRating": 4.3,
+ "productCount": 1,
+ "cpSummary": "Klienci to głównie osoby z suchą, wrażliwą lub atopową skórą, które szukają nawilżenia i ulgi w swędzeniu. Produkt (olejek Aveeno w sprayu) jest bardzo dobrze oceniany za nawilżenie i zapach; głównym punktem spornym jest tłustość i tempo wchłaniania.",
+ "cpWho": {
+  "labels": [
+   "Osoby z suchą skórą",
+   "Skóra wrażliwa / atopowa",
+   "Kupujący lojalni marce Aveeno",
+   "Kobiety w ciąży / skóra dojrzała"
+  ],
+  "pos": [
+   63,
+   12,
+   5,
+   1
+  ],
+  "neg": [
+   8,
+   1,
+   1,
+   0
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Po prysznicu / kąpieli",
+   "Codzienna pielęgnacja",
+   "Lato / po opalaniu",
+   "Zima (skóra popękana)"
+  ],
+  "pos": [
+   40,
+   25,
+   10,
+   6
+  ],
+  "neg": [
+   7,
+   2,
+   1,
+   0
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Całe ciało",
+   "Suche partie (łokcie, kolana, plecy)",
+   "Masaż",
+   "Twarz"
+  ],
+  "pos": [
+   55,
+   12,
+   8,
+   2
+  ],
+  "neg": [
+   6,
+   1,
+   1,
+   2
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Nawilżenie / miękkość",
+   "Zapach",
+   "Wchłanianie / tłustość",
+   "Wygoda sprayu",
+   "Naturalny skład"
+  ],
+  "pos": [
+   60,
+   40,
+   30,
+   20,
+   15
+  ],
+  "neg": [
+   3,
+   4,
+   12,
+   3,
+   0
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Aplikacja po prysznicu na wilgotną skórę",
+   "reason": "Najczęściej wskazywany rytuał — na mokrej skórze łatwiej się rozprowadza i mniej tłuści",
+   "pct": "45.0%"
+  },
+  {
+   "label": "Codzienne nawilżanie suchej skóry",
+   "reason": "Regularne stosowanie jako podstawowy środek nawilżający zamiast kremu",
+   "pct": "28.0%"
+  },
+  {
+   "label": "Łagodzenie swędzenia i podrażnień",
+   "reason": "Osoby z atopowym/swędzącym problemem szukają szybkiej ulgi",
+   "pct": "12.0%"
+  },
+  {
+   "label": "Masaż ciała",
+   "reason": "Tłusta konsystencja bywa wykorzystywana celowo do masażu",
+   "pct": "8.0%"
+  },
+  {
+   "label": "Pielęgnacja letnia / po opalaniu",
+   "reason": "Lekkość i połysk cenione latem i po ekspozycji na słońce",
+   "pct": "7.0%"
+  }
+ ],
+ "csSummary": "Przy 91 recenzjach i średniej 4,52 nastroje są silnie pozytywne. Napędzają je nawilżenie, przyjemny zapach i wygodny spray. Powtarzalna oś krytyki to tłustość i wolne wchłanianie (część klientów odbiera to jako wadę, część jako zaletę do masażu), a pojedynczo — słaby dozownik i zbyt intensywny/trwały zapach.",
+ "negativeTopics": [
+  {
+   "label": "Tłustość i wolne wchłanianie",
+   "reason": "Najczęstszy zarzut — olejek zostaje tłusty/lepki na skórze i długo się wchłania",
+   "pct": "35.0%",
+   "bullets": [
+    "Pozostaje tłusty przez wiele godzin u części użytkowników",
+    "Ryzyko przeniesienia na ubranie, jeśli nałożyć za dużo",
+    "Potrzeba odczekać kilka/kilkanaście minut przed ubraniem"
+   ],
+   "quotes": [
+    "Nie wchłania się łatwo, pozostaje tłusty na skórze.",
+    "Problemem jest jednak tłusta konsystencja, która pozostaje lepka na skórze przez cały dzień."
+   ]
+  },
+  {
+   "label": "Dozownik / spray",
+   "reason": "Rozpylacz bywa niewygodny — ciężko wyciska, nie nebulizuje równomiernie",
+   "pct": "10.0%",
+   "bullets": [
+    "Dozownik ciężko się wyciska, produkt z trudem wychodzi",
+    "Nie rozprowadza olejku równomiernie",
+    "Przezroczysta butelka — sugestia nieprzezroczystej"
+   ],
+   "quotes": [
+    "Dozownik bardzo ciężko się wyciska, a produkt z trudem wychodzi.",
+    "rozpylacz pozostawia wiele do życzenia: nie rozprowadza olejku równomiernie."
+   ]
+  },
+  {
+   "label": "Zapach zbyt intensywny / trwały",
+   "reason": "Dla części klientów zapach jest za mocny, chemiczny lub zbyt długo się utrzymuje",
+   "pct": "8.0%",
+   "bullets": [
+    "Zapach opisany jako niemal chemiczny, kłócący się z naturalnym składem",
+    "Bardzo trwały — wszystko dotknięte przez pierwszy kwadrans pachnie olejkiem"
+   ],
+   "quotes": [
+    "zapach jest zbyt intensywny, niemal chemiczny, który kłóci się z naturalnymi składnikami.",
+    "Pozostawia ładny zapach, ale bardzo trwały."
+   ]
+  },
+  {
+   "label": "Cena / oczekiwania",
+   "reason": "Pojedyncze głosy o zbyt wysokiej cenie lub rozczarowaniu wobec oczekiwań",
+   "pct": "6.0%",
+   "bullets": [
+    "Postrzegany jako trochę za drogi jak na skład (olej sojowy jako główny)",
+    "Rozczarowanie u osób oczekujących lżejszej formuły"
+   ],
+   "quotes": [
+    "trochę za drogi jak na to, co to jest!",
+    "Rozczarowałem się, ale niestety raz otwartej fiolki nie można już zwrócić."
+   ]
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Głębokie nawilżenie i miękkość",
+   "reason": "Najsilniejszy motyw pochwał — skóra natychmiast miękka i długotrwale nawilżona",
+   "pct": "40.0%",
+   "bullets": [
+    "Skóra od razu miększa, nawilżenie utrzymuje się przez cały dzień",
+    "Skuteczny na bardzo suchych partiach (łokcie, kolana, plecy)",
+    "Traktowany jako alternatywa dla ciężkiego kremu"
+   ],
+   "quotes": [
+    "Pozostawia skórę bardzo miękką i nawilżoną przez długi czas.",
+    "Dogłębnie nawilża skórę, czyniąc ją przyjemniejszą i bardziej miękką."
+   ]
+  },
+  {
+   "label": "Przyjemny zapach",
+   "reason": "Zapach (kokosowy/waniliowy/owsiany) często wskazywany jako atut",
+   "pct": "25.0%",
+   "bullets": [
+    "Delikatny, otulający, długo utrzymuje się na skórze",
+    "Kojarzony z latem i przyjemnym doświadczeniem stosowania"
+   ],
+   "quotes": [
+    "Fantastyczny zapach, skóra pozostaje miękka i pachnąca przez długi czas.",
+    "pozostawiając intensywny (choć delikatny) kokosowy zapach, który strasznie kojarzy mi się z latem."
+   ]
+  },
+  {
+   "label": "Szybkie wchłanianie / nietłusty (u części)",
+   "reason": "Dla dużej grupy olejek wchłania się szybko i nie zostawia tłustej warstwy",
+   "pct": "22.0%",
+   "bullets": [
+    "Szybko wysycha, nie pozostawia lepkiej warstwy",
+    "Wystarczy niewielka ilość, ekonomiczny w użyciu"
+   ],
+   "quotes": [
+    "Nie jest tłusty, szybko się wchłania i pozostawia skórę miękką, jedwabistą.",
+    "szybko wysycha i pozostawia skórę bardzo miękką i odżywioną, bez połysku."
+   ]
+  },
+  {
+   "label": "Naturalny skład i zaufanie do marki",
+   "reason": "Skład w 98% naturalny (owies, jojoba) i renoma Aveeno budują zaufanie",
+   "pct": "18.0%",
+   "bullets": [
+    "98% składników pochodzenia naturalnego, owies i jojoba",
+    "Marka znana z aptek, przebadana dermatologicznie, dobra dla wrażliwej skóry"
+   ],
+   "quotes": [
+    "Bardzo spodobał mi się niemal pełny skład produktów naturalnych (ok. 98%).",
+    "Aveeno to znana marka, która tworzy doskonałe produkty."
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Formuła",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Tłustość i wolne wchłanianie to jedyny powtarzalny zarzut — pojawia się w niemal wszystkich recenzjach 1-3★ i nawet u części zadowolonych.",
+   "implication": "Komunikacja powinna jasno uczyć aplikacji (mała ilość, na wilgotną skórę), by zarządzić oczekiwaniami i ograniczyć zwroty."
+  },
+  {
+   "type": "Opakowanie",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Dozownik sprayu bywa niewygodny — ciężko wyciska i nie rozpyla równomiernie.",
+   "implication": "Ulepszenie mechanizmu sprayu mogłoby usunąć jeden z niewielu konkretnych minusów produktu."
+  },
+  {
+   "type": "Zapach",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Ten sam zapach dzieli klientów — dla większości atut, dla mniejszości zbyt intensywny lub zbyt trwały.",
+   "implication": "Wariant bezzapachowy/lżejszy mógłby przechwycić klientów z najbardziej wrażliwą (atopową) skórą."
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Skuteczność",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Nawilżenie i miękkość skóry to dominujący powód wysokich ocen, często z ulgą w swędzeniu suchej/atopowej skóry.",
+   "implication": "Rdzeń przekazu marketingowego: natychmiastowa i długotrwała ulga dla suchej, swędzącej skóry."
+  },
+  {
+   "type": "Doświadczenie",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Zapach i wygodny format sprayu tworzą przyjemne, sensoryczne doświadczenie stosowania.",
+   "implication": "Warto eksponować zapach i praktyczność sprayu jako czynniki różnicujące od zwykłych kremów."
+  },
+  {
+   "type": "Zaufanie",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Renoma Aveeno i naturalny skład (98%, owies + jojoba) napędzają zakup i lojalność.",
+   "implication": "Podkreślanie certyfikacji dermatologicznej i naturalności wzmacnia konwersję u wrażliwej grupy."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Ulga dla suchej skóry",
+   "reason": "Podstawowy powód zakupu — walka z przesuszeniem i szorstkością",
+   "pct": "45.0%"
+  },
+  {
+   "label": "Zaufanie do marki Aveeno",
+   "reason": "Wcześniejsze pozytywne doświadczenia i reputacja apteczna",
+   "pct": "22.0%"
+  },
+  {
+   "label": "Naturalny / bezpieczny skład",
+   "reason": "Poszukiwanie formuły łagodnej dla wrażliwej i atopowej skóry",
+   "pct": "15.0%"
+  },
+  {
+   "label": "Wygoda formatu spray",
+   "reason": "Szybka, bezproblemowa aplikacja bez brudzenia rąk",
+   "pct": "10.0%"
+  },
+  {
+   "label": "Łagodzenie swędzenia / atopii",
+   "reason": "Konkretny problem swędzącej, atopowej skóry",
+   "pct": "8.0%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Szybkie wchłanianie",
+   "reason": "Olejek ma nie zostawiać tłustej, lepkiej warstwy",
+   "pct": "35.0%"
+  },
+  {
+   "label": "Długotrwałe nawilżenie",
+   "reason": "Efekt miękkości utrzymujący się przez cały dzień",
+   "pct": "30.0%"
+  },
+  {
+   "label": "Delikatny, nienachalny zapach",
+   "reason": "Zapach przyjemny, ale nie za intensywny ani chemiczny",
+   "pct": "15.0%"
+  },
+  {
+   "label": "Łagodność dla wrażliwej skóry",
+   "reason": "Brak podrażnień i reakcji alergicznych",
+   "pct": "12.0%"
+  },
+  {
+   "label": "Sprawny dozownik",
+   "reason": "Spray, który równomiernie i łatwo dozuje produkt",
+   "pct": "8.0%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "nawilzenie",
+   "label": "Nawilżenie / miękkość"
+  },
+  {
+   "value": "tlustosc_wchlanianie",
+   "label": "Tłustość / wchłanianie"
+  },
+  {
+   "value": "zapach",
+   "label": "Zapach"
+  },
+  {
+   "value": "spray_dozownik",
+   "label": "Spray / dozownik"
+  },
+  {
+   "value": "sklad_naturalny",
+   "label": "Naturalny skład"
+  },
+  {
+   "value": "sucha_wrazliwa_skora",
+   "label": "Sucha / wrażliwa skóra"
+  },
+  {
+   "value": "marka_zaufanie",
+   "label": "Marka / zaufanie"
+  }
+ ],
+ "tagStyles": {
+  "nawilzenie": "pill-blue",
+  "tlustosc_wchlanianie": "pill-red",
+  "zapach": "pill-purple",
+  "spray_dozownik": "pill-amber",
+  "sklad_naturalny": "pill-orange",
+  "sucha_wrazliwa_skora": "pill-blue",
+  "marka_zaufanie": "pill-orange"
+ },
+ "reviews": [
+  {
+   "r": 1,
+   "t": "To nie działa. Pachnie starym syropem, o czym nie może nie wiedzieć każdy, kto był dzieckiem w latach 80., smakował jak zła guma do żucia. Bardzo ciastowate. Prawdopodobnie najlepiej stosować na mokrą skórę",
+   "tags": [
+    "zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Rzeczywiście, tłuste! Rzeczywiście, tłuste! Rozczarowałem się, ale niestety raz otwartej fiolki nie można już zwrócić",
+   "tags": [
+    "tlustosc_wchlanianie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "To nic specjalnego. Nie zadowoliło mnie to",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Trudne do dostarczenia. Ogólnie produkt jest dobry. Ale opakowanie jest bardzo niewygodne. Dozownik bardzo ciężko się wyciska, a produkt z trudem wychodzi. Być może lepsza byłaby czapka z małą dziurką",
+   "tags": [
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Tłusty olejek wyłącznie do masażu. Znając markę kupiłam ją z dużymi oczekiwaniami, jednak olejek jest zbyt tłusty, ciężko się wchłania! Za to ładnie pachnie i świetnie nadaje się do masażu!",
+   "tags": [
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Krótko mówiąc. Nie wchłania się łatwo, pozostaje tłusty na skórze. Idealny do stosowania pod prysznicem jako środek nawilżający i spłukiwania",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie szczęśliwy. Jest zbyt tłusty",
+   "tags": [
+    "tlustosc_wchlanianie"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nawilża, łagodzi, ale jest zbyt tłusty!. Szczerze mówiąc? Naprawdę mi się to nie podoba! Ma wiele pozytywnych aspektów, takich jak użyte surowce, delikatna formuła, która chroni skórę i eliminuje drobne podrażnienia skóry. Fantastyczny, waniliowy zapach utrzymuje się przez długi czas. Problemem jest jednak tłusta konsystencja, która pozostaje lepka na skórze przez cały dzień. Niestety jest to coś, czego nie kocham i nie pozwala mi w pełni cieszyć się tym produktem. Szkoda, ale dla mnie to nie!",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "sucha_wrazliwa_skora"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie schnie łatwo. Ładnie pachnie, skóra jest dość nawilżona, ale pozostaje tłusta przez wiele godzin",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Doskonała marka. Doskonały stosunek jakości do ceny",
+   "tags": [
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Plusy i minusy. Jestem bardzo niezdecydowana co do oceny tego olejku, bo czuję się trochę oszukana, ale ostatecznie podoba mi się. „Jest bogaty w lipidy”, oczywiście jak każdy olej; „Odżywia skórę” w tym sensie, że zwiększa warstwę barierową skóry, aby utrzymać ją nawilżoną, a nie tak, że skóra „zjada” olej. Wszystko ok, tego właśnie szukam w olejku, jednak taki sposób przedstawienia produktu mnie denerwuje i od razu widzę negatywne strony. W praktyce jest to zestaw olejów roślinnych z substancjami emulgującymi i konserwantami zawsze pochodzenia naturalnego i zapachowego. W opisie online jest napisane, że nie zawiera perfum: dla mnie nie jest to problemem, ale być może dla alergików mógłby być. Głównym olejem jest olej sojowy, następnie owies, a na końcu jojoba: trochę za drogi jak na to, co to jest! To nieprawda, że ​​szybko się wchłania, jak to możliwe? Ale w końcu chciałem olejek, lepszą mieszankę, chciałem go w sprayu i podobają mi się te perfumy. Ponadto Aveeno to marka, którą znam od lat i która daje mi pewność, jeśli chodzi o jakość składników i bezpieczeństwo jej produktów. Więc ostatecznie nie mam ochoty zbytnio karać tego oleju",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Doskonały olejek w sprayu do ciała, super nawilżenie. Jestem regularną użytkowniczką olejku do ciała, więc gdy tylko pojawiła się szansa przetestowania tego od Aveeno, nie wahałam się ani chwili. Jest dostarczany w praktycznej butelce o pojemności 200 ml z dozownikiem w sprayu, to właściwie jedna z jego osobliwości, dzięki niemu możemy rozpylić niezbędną ilość i uniknąć marnotrawstwa. Główne składniki aktywne są niemal w całości pochodzenia naturalnego, są to głównie olejki owsiane i jojoba, znane ze swoich właściwości odżywczych. Olejek natychmiast nawilża skórę, dość szybko się wchłania, jednak nie należy przesadzać z ilością, aby nie przetłuścić skóry, trzeba nałożyć odpowiednią ilość, aby tego uniknąć. Nawilżenie jest długotrwałe, zapach niewyczuwalny i dla mnie to zaleta. Jest to oczywiście idealny olejek dla osób z suchą skórą, ale można go również stosować do masaży, natychmiastowo wygładzając skórę i zachęcając do praktyki masażu. W tej chwili czuję się więcej niż usatysfakcjonowany",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Odżywiona skóra. 🔎Cechy🔍Jestem zadowolona z tego produktu, który polecam osobom o skórze suchej i wrażliwej. Olejek do ciała Aveeno Skin Relief Body Oil w sprayu fantastycznie zapewnia głębokie nawilżenie, dzięki naturalnym składnikom, takim jak olej z owsa i jojoba. Lekka konsystencja pozwala na łatwą aplikację i szybko się wchłania, nie pozostawiając tłustej warstwy na skórze. Na uwagę zasługuje również wygoda sprayu, dzięki której aplikacja jest szybka i praktyczna, idealna po prysznicu lub gdy potrzebujesz zastrzyku nawilżenia.💶STOSUNEK JAKOŚCI DO CENY: DOBRY🚚 WYSYŁKA: Otrzymana na czas.👌Wnioski: Ostatecznie polecam każdemu, kto szuka delikatnego, ale skutecznego olejku do ciała. Moja skóra jest natychmiast bardziej miękka i nawilżona. Mam nadzieję, że moje doświadczenie pomoże Państwu w zakupie. \"Pani\"",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "spray_dozownik",
+    "sklad_naturalny"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Odżywczy olejek do ciała idealny dla bardzo suchej skóry. Suchy olejek do ciała Aveeno jest naprawdę dobry. Byłem sceptyczny przed zakupem, ponieważ byłem przyzwyczajony do olejku Blift Syrio, który jest szczytem w gamie olejków do ciała. Ten produkt w sprayu szybko wysycha i pozostawia skórę bardzo miękką i odżywioną, szczególnie w przypadku osób o suchej skórze. Mniej nadaje się do twarzy, ale nadal używam go wieczorem po demakijażu. Doskonałe składniki potwierdzone przez Yukę. Jedyna wada: zapach jest zbyt intensywny, niemal chemiczny, który kłóci się z naturalnymi składnikami zawartymi w tym olejku. Powiedziawszy to, daję 4 gwiazdki, bo 5 gwiazdek zostawiam mojemu nieodłącznemu i nieosiągalnemu olejkowi Syrio, który jednak od kilku miesięcy nie jest już dostępny na Amazonie!!!",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry olej, ale opryskiwacz wymaga poprawy i rozczarowująca dostawa. Olejek jest dobrej jakości: ma przyjemny, delikatny zapach, dobrze się wchłania, nie pozostawia uciążliwej warstwy. Z tego punktu widzenia jestem zadowolony z produktu. Niestety rozpylacz pozostawia wiele do życzenia: nie rozprowadza olejku równomiernie, przez co aplikacja jest niepraktyczna. Kolejna negatywna uwaga dotyczy usługi Amazon: mimo że jest to zamówienie Prime, dostawa nastąpiła po trzech dniach. Nie przestrzegano również dostarczonych instrukcji dostawy, co było dość rozczarowujące. Ogólnie dobry produkt, ale można go ulepszyć zarówno w zakresie pakowania, jak i usługi dostawy",
+   "tags": [
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "super nawilżający olejek do ciała. Aveeno to znana marka, która tworzy doskonałe produkty, które zostały przetestowane na przestrzeni lat. Podobnie jak w przypadku wszystkich produktów tego typu, olejek do ciała na ogół nakładam na jeszcze wilgotną skórę po prysznicu, w ten sposób mogę ją wmasować przy użyciu mniejszej ilości produktu niż w przypadku skóry suchej. Po odparowaniu wilgoci skóra pozostaje dobrze nawilżona i miękka. Doskonała mieszanka olejków do skóry suchej",
+   "tags": [
+    "nawilzenie",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Olejek do ciała Avenoo. Dobry produkt dla osób takich jak ja, które mają suchą skórę, stosuję go po prysznicu, zostawiając czas na wchłonięcie, przed nałożeniem kremu, ale ten olejek wydaje się działać lepiej. Plusem jest to, że jest to spray. Zapach jest dyskretny. Doskonała dostawa w ciągu 24 godzin",
+   "tags": [
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobre i lekko pachnące. Pozostawia skórę bardzo miękką i nawilżoną przez długi czas. Następnego dnia jest gładkie jak jedwab. Wchłania się dość dobrze, ale nadal jest olejkiem, który trzeba dłużej wmasować",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Fantastyczny zapach. Fantastyczny zapach, skóra pozostaje miękka i pachnąca przez długi czas. Latem daje taki lekko tłusty efekt, który lubię",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Praktyczny. Dobry produkt, wygodny w stosowaniu, nie tłusty, wygodny w użyciu",
+   "tags": [
+    "tlustosc_wchlanianie"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobre, ale.... Myślałam, że będzie lżejszy, bardziej ulotny",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "do odkupienia. wszystko zgodnie z opisem",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Wyjątkowy. Wyjątkowy",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Dobry. Dobry",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "BEZ barwników, konserwantów, parabenów, silikonów i innych agresywnych substancji. Z produktów tej firmy korzystamy już od kilku lat i to nie tylko dla najmłodszych. Tak naprawdę część moich dzieci cierpi na alergiczne zapalenie skóry i potrzebuje nawilżających, nieagresywnych produktów, które utrzymają skórę całego ciała w dobrej kondycji. Tego olejku w sprayu jeszcze nie próbowałyśmy, bo często przetłuszcza i obciąża skórę. Aveno skomponowało doskonały olejek do ciała z naturalnymi składnikami aktywnymi w odpowiednim stężeniu w roztworze: tłoczony na zimno olej sojowy, olej z ziaren owsa, olej z nasion jojoba, lecytyna, palmitynian askorbylu (przeciwutleniacz i powłoka z zieloną etykietą), wit. E, perfumy. Firma zaświadcza, że ​​98% produktu jest pochodzenia naturalnego, istnieje bowiem możliwość, że wit.E czy palmitynian askorbylu są pochodzenia syntetycznego. Firma nie posiada certyfikatu, jeśli produkt jest wegański. W rzeczywistości lecytyna i palmitynian askorbylu mogą być również pochodzenia zwierzęcego. Nie ma w nim konserwantów, a jedynie elementy, które zapobiegają jełczeniu olejów i nieco maskują ich zapach. Są perfumy, ale nie podkreślono żadnego aromatycznego olejku uznawanego za alergizujący, więc chociaż nie jestem wielką miłośniczką perfum, ponieważ mogą one prowadzić do nietolerancji na już uszkodzonej skórze, mogę uznać to za akceptowalne w produkcie tego typu, który ze względu na wysokie stężenie olejków może w naturalny sposób nie mieć dobrego zapachu na skórze. Po otwarciu opakowania zawartość należy spożyć w ciągu 12 miesięcy. Butelka wykonana jest z tworzywa sztucznego z klasycznym dozownikiem sprayu i zakrętką. Butelka jest przezroczysta, w tym przypadku lepiej byłoby wybrać nieprzezroczystą. Olejek jest bursztynowy i lekko gęsty, dozownik nie jest w stanie go nebulizować, ale i tak dobrze się go dozuje i pozwala uniknąć marnotrawstwa. Olejek po nałożeniu na skórę wydaje się ciężki, ale o dziwo rozprowadza się bez problemu, szybko się wchłania i nie pozostawia tłustej warstwy. Skóra staje się bardziej miękka, lśniąca i pachnąca. Zapach wydaje się kwiatowy i lekko miętowy, ale nie potrafię go określić, nadal jest przyjemny, nawet jeśli ma tendencję do dość szybkiego zanikania na korzyść aromatu olejku, który zawsze jest bardzo delikatny. Moje dzieci stosują go po kąpieli, bezpośrednio na świeżo osuszoną ręcznikiem skórę. Już od pierwszego zastosowania skóra jest bardziej nawilżona, właściwie nie odczuwa się tego uczucia suchości i swędzenia, jakie zwykle odczuwa się po prysznicu. Nie wystąpiły u nich żadne reakcje alergiczne. Cena sprzedaży jest dobra",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "To naturalne i strasznie przypomina mi lato!. Jako zielarz bardzo dobrze znam markę Aveeno, która jest również łatwo dostępna w aptekach i zawsze była przeze mnie uważana za bardzo słuszną pod względem jakości. W tym przypadku badany jest olejek w sprayu „Skin Relief”, oferowany przez markę w plastikowej buteleczce o pojemności 200 ml, a otrzymany przeze mnie dzięki programowi VINE firmy Amazon. 2-3 rozpylenia wystarczą, aby szybko i łatwo nawilżyć dotknięty obszar (ramiona, ciało itp.) dzięki sprayowi dozującemu, który dobrze rozpyla serum. Wmasowując go w wybrane miejsce, roztwór bardzo szybko się wchłania, pozostawiając intensywny (choć delikatny) kokosowy zapach, który strasznie kojarzy mi się z latem. Ze względu na konsystencję, zapach, intensywność polecam go również po prysznicu na lekko wilgotną skórę: dobrze rozprowadzony sprawi, że skóra będzie miękka, gładka i nawilżona, a zapach będzie towarzyszył Ci przez cały dzień nawet po kilku godzinach. Jest to preparat stworzony specjalnie z myślą o osobach o wrażliwej skórze. suchy i wrażliwy, wykonany w 98% ze składników pochodzenia naturalnego, w tym z olejku owsianego i olejku jojoba, które odżywiają skórę, dając uczucie gładkiej i jedwabistej skóry (idealny również po ciąży do leczenia pozostałych rozstępów). Cena całkowicie zgodna z oczekiwaniami (przynajmniej moimi): jasne, że na rynku można znaleźć podobne serum „bez recepty” nawet w niższych cenach, jednak biorąc pod uwagę jakość i spokój w porównaniu do INCI i zastosowanych substancji pomocniczych, uważam, że 20/25 euro to bardzo uczciwy kompromis za 200ml. Serum, które zapewni wielotygodniową kurację i wymierne efekty",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "💥 Znakomity olejek do ciała, idealne nawilżenie skóry.. Od kilku dni stosuję olejek do ciała Aveeno, jestem zadowolona z produktu, wydaje się rewelacyjny. 👉 Poniżej przedstawię Ci moje przemyślenia na temat tego produktu i mam nadzieję, że okażą się przydatne przy Twoim zakupie! CO MI SIĘ PODOBAło: ✔️Dogłębnie nawilża skórę, czyniąc ją przyjemniejszą i bardziej miękką. Przyjemne uczucie nawilżenia utrzymujące się przez cały dzień.✔️Naturalne składniki, doskonałej jakości, co warto podkreślić.✔️Bez podrażnień, dyskomfortu i innych niepożądanych wrażeń. Wręcz przeciwnie, jest to doskonały produkt. ✔️Inci bardzo dobry, sprawdzony również odpowiednią aplikacją. CO MNIE NIE PRZEKONAŁO: ❌ Nie ma nic konkretnego do powiedzenia, co by mnie jak dotąd nie zadowoliło. Być może w przyszłości spróbuję dokonać aktualizacji. CECHY: 👉 Informacje odpowiadają temu, co jest wskazane w reklamie i temu, co opisano w recenzji. Pozostałe szczegóły można zobaczyć na załączonych przeze mnie zdjęciach. W PODSUMOWANIU: 🎯 Idealny dla osób z suchą skórą, ale odpowiedni także dla każdego, aby przywrócić odżywienie i elastyczność. ☘️ Oczywiście miło nam, jeśli ta recenzja pomogła Ci w wyborze",
+   "tags": [
+    "nawilzenie",
+    "sklad_naturalny",
+    "sucha_wrazliwa_skora",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Aveeno to zawsze gwarancja. 🧴Zastosowanie i sposób użycia Zdecydowałam się wypróbować nawilżający olejek do ciała w sprayu Aveeno, ponieważ podobnie jak wiele innych osób mam suchą skórę. Praktyczność dozownika w sprayu jest naprawdę zaletą: wystarczy kilka rozpyleń, aby równomiernie rozprowadzić produkt i natychmiast poczuć uczucie miękkości na skórze.📌 Wskazówki dotyczące przygotowania Sztuczka polega na tym, aby rozpylać produkt z umiarem. Zauważyłam, że jeśli użyjesz zbyt dużej ilości produktu, wchłanianie nie nastąpi natychmiastowo i istnieje ryzyko przeniesienia go na ubranie. Z tego powodu zalecam odczekać kilka minut przed ubraniem się, aby uzyskać maksymalny efekt nawilżenia.💰 Cena i wartość Chociaż doceniasz jakość oferowaną przez Aveeno, zawsze warto śledzić oferty, aby mieć pewność, że dostaniesz dobrą ofertę.💡 Wnioski Ogólnie rzecz biorąc, doświadczenia z tym olejkiem w sprayu były pozytywne. To prosty i praktyczny produkt, gwarantujący dobre nawilżenie i przyjemne uczucie bardziej miękkiej skóry, idealny do codziennej pielęgnacji",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "spray_dozownik",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Sucha skóra? Nigdy więcej! Teraz ślizgam się lepiej niż lasagne w piekarniku 😍. Spójrzmy prawdzie w oczy, posiadanie suchej skóry jest jak chodzenie po podłodze pełnej piasku: denerwujące, irytujące, a nawet nieestetyczne. Ale potem pojawił się ten olejek do ciała i moja skóra w końcu poznała koncepcję głębokiego nawilżenia! Stosowałam go po prysznicu i w ciągu kilku sekund moja skóra stała się tak miękka, że prawie wyślizgnęła mi się z dłoni.🔥Zalety:✅Super wygodny spray: koniec ze śliskimi butelkami i walką z zakrętkami!✅Ultraszybkie wchłanianie: nawilża bez uczucia tłustej patelni.✅Idealny dla skóry suchej i wrażliwej: zero podrażnień, tylko rozpieszczanie.✅Delikatny zapach: nie ma wrażenia, jakbyś kąpał się w perfumerii.⚠️ Wady:❌ Jest tak przyjemny, że ryzykuję, że skończę go w tydzień!❌ Jeśli spryskasz go zbyt blisko, możesz sprawić, że podłoga będzie bardziej śliska niż lodowisko. Podsumowując, jeśli masz suchą skórę i chcesz ją nawilżyć, nie wyglądając jak frytka, ten olej jest błogosławieństwem!",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Nawilżający, lekki, odżywczy. Olejek w sprayu do ciała Aveeno w praktycznej i dobrze zamkniętej butelce. Format 200 ml jest kompaktowy, łatwy w obsłudze i trwały. Bardzo go cenię za lekką, nietłustą konsystencję i trwały, nigdy nieprzyjemny i nachalny zapach. Ogólnie byłam zadowolona z tego produktu.🛠️ Stosowanie Szybko się wchłania, nie pozostawiając śladów, co czyni go idealnym rozwiązaniem także dla osób, które mają mało czasu na codzienne czynności, które tak jak w moim przypadku nie pozostawiają miejsca na relaks pomiędzy prysznicem a pracą. Dzięki składnikom odżywczym pozostawia skórę wyraźnie miękką i bardziej elastyczną.  Można go również stosować do masaży. 👉PodsumowującOdżywczy i delikatny olejek w sprayu, idealny dla skóry suchej i wrażliwej. Połączenie naturalnych składników i łatwość użycia sprawiają, że jest to doskonały wybór dla osób, które chcą nawilżenia i ochrony bez obciążania skóry. Rozmyślny!",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Zmiękcza nawet najbardziej suchą skórę. Otulający zapach. ► MOJE DOŚWIADCZENIA Zamówiłam ten olejek, bo mam trochę przesuszone partie ciała (łokcie, kolana). Produkt znajduje się w plastikowej butelce o pojemności 200 ml, z wygodnym dozownikiem w sprayu. Jest to olej o słomkowożółtej barwie. Gdy tylko spryskałam nim dłoń, otoczył mnie niesamowity, intensywny i odurzający zapach. Błyskawicznie się rozprowadza i natychmiast wchłania (aby nie natłuścić buteleczki z olejkiem, polecam owinąć ją w chusteczkę kosmetyczną, aby jej nie zabrudzić). Wystarczy trochę. Po zastosowaniu skóra jest natychmiast miękka, nawilżona i cudownie pachnąca. Suche części zaczynają mięknąć. Świetnie nadaje się również do masaży. Z mojego doświadczenia zdecydowanie polecam",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Zapach trwały, wchłania się po chwili. Udało mi się wypróbować ten olejek w sprayu od Aveeno w ramach programu Amazon Vine. Dostępny jest w przezroczystej plastikowej butelce ze sprayem o pojemności 200 ml. Nie znałam produktu, kupiłam go ufając renomie marki Aveeno. Bardzo spodobał mi się niemal pełny skład produktów naturalnych (ok. 98%). Nałożenie go na skórę faktycznie natychmiast ją zmiękcza, jednak trzeba chwilę poczekać, około 10 minut, aż olejek całkowicie się wchłonie. Pozostawia ładny zapach, ale bardzo trwały. W momencie recenzji kosztuje około 22 euro, jest drogo, ale jak na markowy produkt to normalne. ⭐⭐⭐⭐⭐ Daję 5 gwiazdek. Dodaję kilka zdjęć w nadziei, że ta recenzja będzie dla kogoś przydatna. 😉",
+   "tags": [
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik",
+    "sklad_naturalny"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonała chłonność z przyjemnie perfumowaną esencją bez wazeliny. Olejek zawiera naturalną mieszaninę związków, pozbawioną wazeliny, jest to czynnik o niebagatelnym znaczeniu. Perfumy są delikatne i docenia się ich esencję. Na skórze wystarczy kilka rozpyleń, aby uzyskać krycie o odpowiedniej chłonności, które nie natłuszcza skóry, a pozostawia ją nawilżoną i miękką. Testowany na suchej skórze, szczególnie na dłoniach przy pierwszym użyciu, jego właściwości pozwoliły w ciągu zaledwie kilku minut osiągnąć poziom doskonałej ochrony i nawilżenia, o przyjemnym zapachu. Naturalne składniki takie jak olej jojoba, znany również ze swoich właściwości przeciwzmarszczkowych oraz olej owsiany sprawiają, że jest to produkt, który zdecydowanie polecam",
+   "tags": [
+    "nawilzenie",
+    "zapach",
+    "spray_dozownik",
+    "sklad_naturalny"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Pachnący i naturalny olejek do ciała, bardzo wygodna forma sprayu, bardzo miękka skóra! 🥰. Fantastyczny olejek do ciała marki Aveeno (świetna marka, którą już znam i z którą zawsze świetnie się bawiłam), w bardzo wygodnej formie sprayu o pojemności 200 ml, o lekko słodkim zapachu i z naturalnymi składnikami! Nakładam go na całe ciało po kąpieli lub prysznicu, na skórę nie do końca suchą, czyli gdy jest jeszcze wilgotna, dla jeszcze łatwiejszej i wygodniejszej aplikacji. Pozostawia moją skórę nawilżoną, miękką i pachnącą, dla mnie, która cierpi na suchą skórę, jest to naprawdę świetna pomoc! Jest to produkt przebadany dermatologicznie, w którego skład wchodzą składniki pochodzenia naturalnego, w szczególności znajdziemy w nim olejek owsiany i jojoba. Super zatwierdzone i zalecane! 🥰 😊",
+   "tags": [
+    "nawilzenie",
+    "zapach",
+    "spray_dozownik",
+    "sklad_naturalny"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo nawilża, szybko się wchłania, ładnie pachnie. Przeznaczony dla mojej bardzo suchej skóry, która ma tendencję do pękania, szczególnie na twarzy, dłoniach i szyi. Opakowanie ma pojemność 200ml, jest przezroczyste. Wystarczy rozpylić spray w dłoniach, aby natychmiast poczuć miękkość skóry. Na początku efekt jest bardzo tłusty, co pozwala na rozprowadzenie go na dużej powierzchni przy użyciu bardzo małej ilości produktu. Wysycha w ciągu kilku minut, ale pozostawia skórę bardzo miękką, to naprawdę zaskakująca skuteczność. Zapach, jaki pozostawia na skórze, jest bardzo dobry, ale trochę zbyt trwały, wszystko, czego dotkniesz w ciągu pierwszego kwadransa, będzie miało zapach olejku. Jeśli używasz bardzo mało, a skóra pozostaje miękka przez długi czas, ma to doskonały stosunek jakości do ceny",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Niezwykle skuteczny produkt. Zacznę od tego, że znam już dobrze tę markę, którą na co dzień kupuję w aptekach, ze względu na jakość jej produktów. Zawsze miałam raczej suchą skórę, a od kilku lat zwłaszcza plecy, chociaż pod względem estetycznym nie wykazuje ona żadnych szczególnych anomalii (jedynie uczucie swędzenia). Wydaje się to głupie, ale w rzeczywistości jest niezwykle irytujące. To jeden z nielicznych produktów, który pozwala mi błyskawicznie pozbyć się problemu i przywrócić natychmiastowe dobre samopoczucie. Mimo, że jest to olejek, przynajmniej na mojej skórze wchłania się błyskawicznie. Dlatego gorąco polecam każdemu, kto ma ten sam problem co ja",
+   "tags": [
+    "tlustosc_wchlanianie",
+    "sucha_wrazliwa_skora",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Prawdziwa obsesja. Z całą pewnością mogę powiedzieć, że jestem szaleńczo zakochana w tym olejku do ciała. Szczerze mówiąc, kupiłam go skuszona ceną i marką, o której mam dobrą opinię. Nigdy wcześniej nie używałam olejku do ciała z taką przyjemnością. Przede wszystkim ma zapach niemal kokosowy, ale o wiele delikatniejszy, moim zdaniem trochę charakterystyczny dla marki. Bardzo dobrze się rozprowadza, nie jest tłusty, a doświadczenie jest bardzo przyjemne. W ciągu 10 dni pozbyłem się połowy.  Używam go co 2/3 dni i to dlatego, że wieczorem jestem bardzo zmęczona, inaczej na pewno już bym go skończyła. Jestem w ciąży i odbieram to jako przytulanie. Nie nudności. Absolutnie kupię go ponownie!",
+   "tags": [
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Są synonimem jakości. Olejek do ciała w sprayu Aveeno Skin Relief to niezastąpiony sprzymierzeniec osób cierpiących na bardzo suchą i wrażliwą skórę. Dzięki hipoalergicznej formule składającej się w 98% ze składników pochodzenia naturalnego, w tym odżywczych olejków z owsa i jojoby, olejek do ciała gwarantuje głębokie i długotrwałe nawilżenie. Testowany dermatologicznie, idealnie nadaje się do przywrócenia miękkości i elastyczności skórze, czyniąc ją widocznie gładszą i bardziej jednolitą już w ciągu zaledwie tygodnia. Praktyczne opakowanie sprayu umożliwia szybką i łatwą aplikację, zapewniając natychmiastowy komfort oraz przyjemną i regenerującą pielęgnację skóry",
+   "tags": [
+    "nawilzenie",
+    "spray_dozownik",
+    "sklad_naturalny",
+    "sucha_wrazliwa_skora"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Aveeno to zawsze gwarancja!. Dzięki programowi Amazon Vine mogłam wypróbować ten olejek Aveeno za darmo. Przychodzi kilka dni po zamówieniu, a butelka nie ma uszczelek. Chociaż napis z przodu jest w języku angielskim, te na odwrocie są w języku włoskim. Wskazany jest do skóry bardzo suchej. Aby go dozować należy go „rozpylić” w ilości odpowiadającej potrzebom skóry: należy go wmasować aż do wchłonięcia. Nie jest tłusty i po kąpieli przyjemnie się go używa również dlatego, że pozostawia przyjemny zapach. Skóra jest gładka i miękka; masz wrażenie, że skóra jest nawilżona i odżywiona. Jestem z niego bardzo zadowolony!",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Gładka i nawilżona skóra.. Produkt wysokiej jakości, jak praktycznie wszystkie tej marki, który wyróżnia się doskonałą tolerancją przez większość ludzi. Wypróbowałam ten olejek na różne partie ciała i muszę przyznać, że sprawdza się świetnie, jednak trzeba uważać, aby nie przesadzić z ilością i nie zmarnować produktu, co daje efekty już przy niewielkich ilościach, a także aby nie spowolnić i utrudnić wchłanianie, co może skutkować także zabrudzeniem ubrań. Już po 3 zastosowaniach widać zauważalne rezultaty. Produkt, który polecam!",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Promowany, ale zajmuje trochę czasu, zanim się w nim zadomowi. Wypróbowałem już tę markę w przeszłości i jest ona również naprawdę doskonała pod względem jakości, idealna również dla osób o wrażliwej skórze, takich jak ja. Szczególnie ten jest przyjemny i nawilżający, ma ładny, delikatny zapach i jest doskonały dla osób z suchą skórą, idealny także po ekspozycji na słońce, do tego stopnia, że ​​myślę, że latem będę go często używać. Jedyną wadą jest to, że trochę się wchłania, ale może to zależeć od różnych czynników, a przede wszystkim jest to cecha wspólna większości olejków, dlatego i tak daję pełne oceny",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "sucha_wrazliwa_skora"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonała alternatywa dla zwykłego kremu do ciała. Mając bardzo suchą skórę, kupiłam ogromną ilość kremów do ciała w poszukiwaniu odpowiedniego dla siebie, ale nie byłam do końca usatysfakcjonowana, bo nie mogę znieść tego irytującego uczucia tłustej i lepkiej skóry, które zwykle pozostawiają kremy. Jednak ten olejek do ciała jest bardzo lekki i pozostawia skórę bardzo miękką, nie jest tłusty i bardzo szybko się wchłania. Uważam, że jest to doskonała alternatywa dla zwykłych nawilżających kremów do ciała, zwłaszcza latem. Zapach jest bardzo dobry i trwały. Fantastyczny!",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo nawilżający. ⭐ OPAKOWANIE i OPIS ⭐Zgodnie z opisem w aukcji otrzymujemy przezroczystą butelkę z dozownikiem w sprayu bardzo nawilżającego olejku do skóry suchej i popękanej. Skóra jest natychmiast nawilżona, co pomaga w każdym przypadku suchości i zaczerwienienia skóry. Zaleca się stosować go rano i wieczorem wmasowując go w skórę oraz zawsze, gdy potrzebujesz nawilżającej mocy tego olejku, aby uwolnić się od suchej skóry.*Mary*",
+   "tags": [
+    "nawilzenie",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Natychmiast miękka skóra: NIESAMOWITE!. Olejek do ciała o w większości naturalnym składzie, sprawdzonej jakości marki, niezbyt płynny. Nie jest zbyt tłusty (chociaż osobiście nie używałabym go na dłonie, jeśli trzeba dotykać delikatnych rzeczy - inaczej po prostu go użyj), łatwo się rozprowadza, nie jest ciężki, pozostawia skórę BARDZO OBRZYDLIWĄ, gładką, błyskawicznie odżywioną i bardzo pachnącą. Co mogę powiedzieć? To spektakularne!!",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "sklad_naturalny"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Gładka skóra w mgnieniu oka. Wypróbowałam ten olejek w sprayu do ciała o przeważnie naturalnej formule. Ma idealną konsystencję, nie jest ani za gęsta, ani za płynna. Nakłada się błyskawicznie i daje niesamowite uczucie: aksamitnej, jedwabistej, natychmiastowo nawilżonej skóry. Ponadto zapach owsa jest otulający i długotrwały. Produkt naprawdę niezwykły, nie sposób się w nim nie zakochać!",
+   "tags": [
+    "nawilzenie",
+    "zapach",
+    "spray_dozownik",
+    "sklad_naturalny"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonały olejek nawilżający do skóry suchej i wrażliwej. Naprawdę doskonały nawilżający olejek do ciała w sprayu, nakłada się go błyskawicznie i szybko się wchłania, nie pozostawiając skóry tłustej ani lepkiej. Zapach jest delikatny, wpada w słodycz, ale nie jest zbyt inwazyjny. Odkąd go używam, moja skóra jest znacznie bardziej miękka i nawilżona, a także złagodziło to irytujące uczucie swędzenia",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Idealny olejek do skóry dojrzałej.. Znakomity. Nawilża i odżywia na długi czas. Początkowo masz wrażenie, że skóra pozostaje tłusta, ale wkrótce potem zostaje całkowicie wchłonięta. Kupię to ponownie. Idealny dla skóry dojrzałej",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fantastyczny. Doszło dzisiaj, fantastycznie, pozostawia skórę miękką i przyjemnie pachnącą...Polecam osobom takim jak ja, które mają bardzo suchą skórę...piękny na lato, skóra błyszczy i podkreśla opaleniznę",
+   "tags": [
+    "nawilzenie",
+    "zapach",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Nie jest tłusty, nie jest ciężki, jest też świetny na lato. Nie jest tłusty, szybko się wchłania i pozostawia skórę miękką, jedwabistą i delikatnie pachnącą. Naprawdę doskonały produkt, który nie powoduje podrażnień",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach",
+    "sucha_wrazliwa_skora"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobry produkt. Bardzo dobry olejek, lekki i przyjemny zapach, potrzebuje kilku minut, aby dobrze się wchłonął, aby nie brudzić ubrań. Pozostawia skórę miękką i nawilżoną",
+   "tags": [
+    "nawilzenie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Nie jest zły, bardzo nawilża. Kupiłam do cery suchej i muszę przyznać, że sprawdza się bardzo dobrze. Wydaje się delikatny, a jego zapach również nie przeszkadza. Dobry produkt nawilżający",
+   "tags": [
+    "nawilzenie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo zmiękcza skórę, naprawdę dobrze, polecam. Świetny olejek, bardzo zmiękczył moją skórę, przypadł mi do gustu i polecam, również potwierdzam, że to oryginał Aveeno",
+   "tags": [
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wyjątkowy. Początkowo myślałam, że jest zbyt tłusty, ale zamiast tego szybko wysycha i pozostawia skórę bardzo miękką i odżywioną, bez połysku. Zapach jest lekki i przyjemny",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wyjątkowe.. Po wypróbowaniu tak wielu. Jedyny olejek, dzięki któremu pozbyłam się zimowego swędzenia spowodowanego suchością skóry. Jest to bardzo płynny olej, ale rozpuszcza się",
+   "tags": [
+    "sucha_wrazliwa_skora"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobre zakupy. Znakomity, przyjemny zapach... dyskretny, ale... jest. Osobiście używam go po prysznicu i pozostawia naprawdę miękką skórę. Polecam to.",
+   "tags": [
+    "nawilzenie",
+    "zapach",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Niezbędny dla suchej skóry. Mimo, że jest to olejek do ciała, bardzo szybko się wchłania. Używam go od roku i pachnie jak cukierek!",
+   "tags": [
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "TOP olejek do ciała. suchy olejek do ciała po kąpieli na wilgotną skórę rozwiązuje wszelkie problemy z nawilżeniem po opalaniu",
+   "tags": [
+    "nawilzenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Optymalny. Doskonały produkt, pozostawia skórę miękką i nawilżoną, o pysznym i trwałym zapachu na skórze. Polecam to!",
+   "tags": [
+    "nawilzenie",
+    "zapach",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Optymalny. Używam tego olejku na mokrą lub wilgotną skórę i uwielbiam uczucie miękkości, jakie pozostawia. Ma delikatny i doskonały zapach",
+   "tags": [
+    "nawilzenie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olej w sprayu. Produkt wysokiej jakości.  Przyjemny zapach. Na pewno kupię go ponownie, nawet jeśli uznam, że jest trochę bardziej oleisty niż się spodziewałem",
+   "tags": [
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Znana firma, najlepsza... Znakomicie, używają tego w szpitalu na zapalenie skóry u bardzo małych dzieci i tak było napisane",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Olej. Świetny produkt, stosuję go od 8 miesięcy, gorąco polecam osobom z suchą skórą. Wchłania się natychmiast i nie jest tłusty",
+   "tags": [
+    "tlustosc_wchlanianie",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "rozmyślny. doskonały zapach, głęboko nawilża i pozostawia skórę miękką. Na pewno kupię go ponownie",
+   "tags": [
+    "nawilzenie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Recenzja. Pachnie cudownie. To spray. Uwielbiam konsystencję dla suchej skóry zimą",
+   "tags": [
+    "zapach",
+    "spray_dozownik"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Suchy olej. Dobry produkt...bardzo przyjemny zapach i pozostawia skórę miękką",
+   "tags": [
+    "nawilzenie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Świetne na lato. Nadaje ciału dobry połysk i jest naprawdę przyjemny dla skóry",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "IDEALNY NA LATO!. DOSKONAŁY I BARDZO DELIKATNY ZAPACH. NIETŁUSTY I NIE PLAMUJE",
+   "tags": [
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo dobry. Jeśli chodzi o najlepsze masaże, nie próbowałbym niczego innego, żeby ci powiedzieć, ahaha",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Nie tłusty. Pozostawia skórę miękką, nietłustą i przyjemnie pachnącą",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Radzić. Pachnące i dobre. Pozostaw swoją skórę miękką. Polecam to",
+   "tags": [
+    "nawilzenie",
+    "zapach",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Optymalny. Spektakularny, nietłusty, niezwykle nawilżający i o delikatnym zapachu",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Nawilżający olejek. Świetny zapach - pozostawia skórę miękką i nawilżoną",
+   "tags": [
+    "nawilzenie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Zadowolony. Doskonały produkt: pozostawia skórę nawilżoną i nie tłustą",
+   "tags": [
+    "nawilzenie",
+    "tlustosc_wchlanianie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonały zakup. Doskonały, nietłusty olejek, bardzo ładny zapach",
+   "tags": [
+    "tlustosc_wchlanianie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonały. Pozostawia skórę bardzo miękką w użyciu po prysznicu",
+   "tags": [
+    "nawilzenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Pozostawia zapach skóry. Bardzo dobry zapach",
+   "tags": [
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Większość poleca. Polecam olejek na nabłyszczenie",
+   "tags": [
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobry. Przyjemny zapach i sprawia, że ​​perła jest miękka",
+   "tags": [
+    "nawilzenie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fantastyczny olej. Wyjątkowy i w 100% naturalny",
+   "tags": [
+    "sklad_naturalny"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olejek do ciała. Doskonały olejek do ciała",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Doskonały produkt. Dokładnie tak, jak opisano",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Dobry. Bardzo dobry, bardzo dobry zapach",
+   "tags": [
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olejek do ciała. Doskonały olejek do ciała, nie tłusty",
+   "tags": [
+    "tlustosc_wchlanianie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobrze nawilża skórę. Doskonały produkt",
+   "tags": [
+    "nawilzenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Optymalny. Ładny zapach, dobrze nawilża",
+   "tags": [
+    "nawilzenie",
+    "zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonała jakość w wersji spray",
+   "tags": [
+    "spray_dozownik",
+    "marka_zaufanie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Idealny dla mnie. Doskonały produkt",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Bogaty, ale nie tłusty olej. Optymalny",
+   "tags": [
+    "tlustosc_wchlanianie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olejek do skóry. Kocham, kocham mój olej",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Optymalny. Najlepszy krem ​​nawilżający",
+   "tags": [
+    "nawilzenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wspaniały. Wspaniały",
+   "tags": []
+  }
+ ]
+}

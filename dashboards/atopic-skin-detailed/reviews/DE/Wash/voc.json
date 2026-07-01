@@ -1,0 +1,1630 @@
+{
+ "totalReviews": 180070,
+ "avgRating": 4.61,
+ "productCount": 33,
+ "cpSummary": "Kupujący to głównie dorosłe kobiety (i część mężczyzn) z suchą, wrażliwą lub atopową skórą, szukające delikatnego olejku/żelu do mycia twarzy i ciała, który oczyszcza bez uczucia ściągnięcia. Część to osoby z cerą mieszaną/tłustą i skłonną do trądziku, które produkt często zawodzi.",
+ "cpWho": {
+  "labels": [
+   "Sucha / atopowa skóra",
+   "Wrażliwa, reaktywna skóra",
+   "Cera mieszana / tłusta / skłonna do trądziku",
+   "Cała rodzina (dzieci, nastolatki)",
+   "Mężczyźni"
+  ],
+  "pos": [
+   30,
+   14,
+   4,
+   8,
+   4
+  ],
+  "neg": [
+   12,
+   20,
+   22,
+   2,
+   0
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Codzienna pielęgnacja",
+   "Zima / sucha, ogrzewana skóra",
+   "Wieczorny demakijaż",
+   "Podczas zaostrzeń atopii/egzemy"
+  ],
+  "pos": [
+   28,
+   12,
+   8,
+   8
+  ],
+  "neg": [
+   30,
+   4,
+   12,
+   4
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Twarz",
+   "Całe ciało / pod prysznic",
+   "Dłonie",
+   "Okolice oczu (demakijaż)"
+  ],
+  "pos": [
+   26,
+   24,
+   6,
+   2
+  ],
+  "neg": [
+   24,
+   14,
+   4,
+   8
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Oczyszczanie / demakijaż",
+   "Nawilżenie i ukojenie skóry",
+   "Delikatność dla bariery skórnej",
+   "Duża pojemność / cena za ilość",
+   "Zapach i opakowanie"
+  ],
+  "pos": [
+   24,
+   26,
+   18,
+   10,
+   6
+  ],
+  "neg": [
+   18,
+   22,
+   16,
+   4,
+   24
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Mycie twarzy / demakijaż",
+   "reason": "Główne zastosowanie olejku oczyszczającego jako pierwszy krok pielęgnacji, usuwanie makijażu i filtra przeciwsłonecznego",
+   "pct": "34.0%"
+  },
+  {
+   "label": "Mycie całego ciała pod prysznicem",
+   "reason": "Zastąpienie żelu pod prysznic olejkiem nawilżającym dla suchej skóry",
+   "pct": "28.0%"
+  },
+  {
+   "label": "Codzienna pielęgnacja skóry suchej/atopowej",
+   "reason": "Stały element rutyny, zwłaszcza przy nawrotach atopii i zimą",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Pielęgnacja dłoni",
+   "reason": "Mycie przesuszonych, popękanych dłoni zamiast zwykłego mydła",
+   "pct": "8.0%"
+  },
+  {
+   "label": "Pielęgnacja całej rodziny (dzieci/nastolatki)",
+   "reason": "Jeden produkt tolerowany przez różne typy skóry w domu",
+   "pct": "6.0%"
+  },
+  {
+   "label": "Golenie / inne dodatkowe użycie",
+   "reason": "Wykorzystanie olejku do golenia nóg gdy nie sprawdził się na twarzy",
+   "pct": "4.0%"
+  }
+ ],
+ "csSummary": "Produkt silnie polaryzuje: osoby z suchą i atopową skórą chwalą nawilżenie, ukojenie swędzenia i delikatność, podczas gdy cera mieszana/skłonna do trądziku często reaguje wypryskami. Najczęstsze zarzuty to intensywny, kwiatowy zapach (mimo pozycjonowania dla skóry wrażliwej), efekt wysuszenia zamiast nawilżenia, rozbieżność 'olejek vs pieniący żel', wątpliwe składniki (siarczany, PEG) oraz uszkodzone lub przeciekające pompki podczas wysyłki.",
+ "negativeTopics": [
+  {
+   "label": "Wypryski i trądzik",
+   "reason": "Produkt wywołuje wypryski, zaskórniki i pogorszenie cery, szczególnie przy skórze mieszanej i skłonnej do trądziku",
+   "pct": "26.0%",
+   "bullets": [
+    "Wypryski na twarzy, brodzie, klatce piersiowej i plecach",
+    "Objawy ustępują po zaprzestaniu stosowania",
+    "Zawiera składniki zatykające pory (olej sojowy, oliwa)"
+   ],
+   "quotes": [
+    "Ogromne wypryski na całej twarzy!!!",
+    "podczas używania tego miałem straszny trądzik na całych policzkach",
+    "powoduje u mnie wypryski za każdym razem, gdy go używam"
+   ]
+  },
+  {
+   "label": "Wysuszenie zamiast nawilżenia",
+   "reason": "Mimo obietnicy nawilżenia skóra jest napięta, sucha i szorstka po użyciu",
+   "pct": "22.0%",
+   "bullets": [
+    "Uczucie ściągnięcia i napięcia po spłukaniu",
+    "Nie pomaga na suche dłonie lepiej niż zwykłe mydło",
+    "Konieczność natychmiastowego nałożenia bogatego kremu"
+   ],
+   "quotes": [
+    "moja skóra była napięta i bardzo sucha",
+    "Środek osuszający!",
+    "jako 'nawilżający' produkt czyszczący nie spodziewałam się, że moja skóra będzie wysuszona"
+   ]
+  },
+  {
+   "label": "Zbyt intensywny zapach",
+   "reason": "Mocny, kwiatowy lub perfumowany zapach jest przytłaczający i nieodpowiedni dla skóry wrażliwej",
+   "pct": "20.0%",
+   "bullets": [
+    "Zapach wywołuje ból głowy",
+    "Utrzymuje się na skórze długo po spłukaniu",
+    "Perfumy pogarszają atopowe zapalenie skóry"
+   ],
+   "quotes": [
+    "To było jak kąpiel w butelce perfum",
+    "zapach jest wystarczająco silny, aby zakryć zapach rozkładającego się padliny",
+    "produkt zawiera PERFUMY i wiadomo, że PERFUMY POGARSZAJĄ atopowe zapalenie skóry u dzieci"
+   ]
+  },
+  {
+   "label": "Reakcje skórne i podrażnienia",
+   "reason": "Pieczenie, zaczerwienienie, swędzenie, egzema i wysypki po zastosowaniu",
+   "pct": "14.0%",
+   "bullets": [
+    "Pieczenie i zaczerwienienie twarzy narastające z dniami",
+    "Swędzenie powiek i wysypka na ciele",
+    "Zaostrzenie egzemy i zapalenia skóry"
+   ],
+   "quotes": [
+    "Nowa formuła spaliła moją skórę",
+    "u nas obojga bardzo swędziały powieki",
+    "po kilku dniach dostałem egzemy na rękach"
+   ]
+  },
+  {
+   "label": "Nie olejek, tylko pieniący żel",
+   "reason": "Rozbieżność między opisem 'olejek' a rzeczywistą pieniącą się, żelową konsystencją",
+   "pct": "10.0%",
+   "bullets": [
+    "Pieni się jak zwykłe mydło w żelu",
+    "Nie emulguje i słabo usuwa makijaż oczu",
+    "Konsystencja niezgodna z opisem produktu"
+   ],
+   "quotes": [
+    "Po pierwsze, to nie jest olejek, to pieniący się środek czyszczący",
+    "TO NIE OLEJ!!! Działa tak samo jak zwykłe mydło w żelu"
+   ]
+  },
+  {
+   "label": "Problemy z wysyłką i opakowaniem",
+   "reason": "Uszkodzone lub przeciekające pompki, brak plomby, podejrzenie podróbki",
+   "pct": "8.0%",
+   "bullets": [
+    "Pompka pęknięta lub złamana w transporcie",
+    "Produkt wycieka spod pompki",
+    "Brak plomby zabezpieczającej / podejrzenie podróbki"
+   ],
+   "quotes": [
+    "Pompa pękła w transporcie",
+    "Przybyło bez plomby zabezpieczającej",
+    "mam wrażenie, że może to być podróbka"
+   ]
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Nawilżenie i ukojenie skóry",
+   "reason": "Skóra po użyciu jest miękka, nawilżona, bez uczucia ściągnięcia",
+   "pct": "28.0%",
+   "bullets": [
+    "Skóra miękka i jedwabista od pierwszego użycia",
+    "Znika swędzenie i napięcie po prysznicu",
+    "Czasem eliminuje potrzebę balsamu"
+   ],
+   "quotes": [
+    "Moja skóra nie swędzi już ani nie jest napięta po prysznicu",
+    "Natychmiast moja skóra staje się miękka, jedwabista i nawilżona",
+    "moja skóra jest natychmiast ukojona, wygodna i odżywiona"
+   ]
+  },
+  {
+   "label": "Ratunek dla skóry atopowej",
+   "reason": "Wyraźna ulga przy atopii i egzemie, gdzie inne produkty zawiodły",
+   "pct": "18.0%",
+   "bullets": [
+    "Skraca lub eliminuje zaostrzenia atopii",
+    "Skóra nie łuszczy się i nie swędzi zimą",
+    "Skuteczny przy twardej wodzie"
+   ],
+   "quotes": [
+    "Mam skórę atopową od lat... i ten sposób mnie uratował!!!",
+    "po dwóch prysznicach zaostrzenie minęło, a moja skóra wróciła do normalności",
+    "uczucie napięcia i swędzenia znikają niemal natychmiast"
+   ]
+  },
+  {
+   "label": "Skuteczne oczyszczanie i demakijaż",
+   "reason": "Dobrze usuwa makijaż, filtr przeciwsłoneczny i zanieczyszczenia",
+   "pct": "20.0%",
+   "bullets": [
+    "Usuwa nawet wodoodporny tusz do rzęs",
+    "Zostawia skórę czystą i świeżą",
+    "Dobry jako pierwszy krok podwójnego oczyszczania"
+   ],
+   "quotes": [
+    "Z łatwością usuwa makijaż i pozostawia skórę przyjemnie czystą",
+    "Naprawdę dobrze zmywa makijaż, usuwa cały tusz do rzęs",
+    "Dobrze oczyszcza i nie powoduje uczucia ściągnięcia skóry"
+   ]
+  },
+  {
+   "label": "Delikatność dla bariery skórnej",
+   "reason": "Oczyszcza bez naruszania bariery, dobrze tolerowany przez wrażliwą skórę",
+   "pct": "16.0%",
+   "bullets": [
+    "Nie podrażnia i nie powoduje zaczerwienień",
+    "Ceramidy wzmacniają barierę skórną",
+    "Odpowiedni dla całej rodziny, dzieci i niemowląt"
+   ],
+   "quotes": [
+    "oczyszcza bez naruszania bariery skóry",
+    "w końcu żel oczyszczający, który każdy może tolerować",
+    "Bardzo delikatny dla skóry"
+   ]
+  },
+  {
+   "label": "Dobry stosunek jakości do ceny",
+   "reason": "Duża pojemność i niewielkie zużycie sprawiają, że produkt starcza na długo",
+   "pct": "10.0%",
+   "bullets": [
+    "Butelka 1 l wystarcza na wiele tygodni",
+    "Wystarczy 1-2 pompki na całe ciało",
+    "Tańszy niż porównywalne marki premium"
+   ],
+   "quotes": [
+    "Świetna wartość!",
+    "starcza na długo! Niewielka ilość wystarczy na całe ciało",
+    "Doskonały stosunek jakości do ceny"
+   ]
+  },
+  {
+   "label": "Przyjemny zapach i konsystencja",
+   "reason": "Dla części klientów zapach jest subtelny i przyjemny, a konsystencja luksusowa",
+   "pct": "8.0%",
+   "bullets": [
+    "Delikatny, świeży zapach dla części użytkowników",
+    "Jedwabista, kremowa konsystencja",
+    "Obfita, przyjemna piana"
+   ],
+   "quotes": [
+    "Olejek ma bardzo przyjemny, świeży zapach, przypominający górskie powietrze",
+    "Konsystencja jest jedwabista i kojąca",
+    "Tworzy obfitą pianę... i luksusowy"
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Rozbieżność obietnicy",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Produkt reklamowany jako nawilżający dla skóry wrażliwej u znacznej części klientów wysusza skórę i powoduje uczucie ściągnięcia.",
+   "implication": "Rozdźwięk między obietnicą 'nawilżający' a doświadczeniem generuje rozczarowanie i zwroty; komunikacja powinna precyzować typ skóry i sposób użycia (nakładanie kremu po myciu)."
+  },
+  {
+   "type": "Zapach vs pozycjonowanie",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Mocny kwiatowy/perfumowany zapach jest głównym powodem zwrotów, mimo że produkt kierowany jest do skóry wrażliwej i atopowej, dla której zaleca się produkty bezzapachowe.",
+   "implication": "Wariant bezzapachowy to najczęściej wyrażane życzenie klientów i realna szansa produktowa oraz argument przewagi nad konkurentem."
+  },
+  {
+   "type": "Ryzyko dla cery trądzikowej",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Cera mieszana i skłonna do trądziku regularnie zgłasza wypryski i zaskórniki, wiązane ze składnikami komedogennymi.",
+   "implication": "Jasne oznaczenie 'dla skóry suchej/atopowej' i ostrzeżenie dla skóry trądzikowej ograniczyłoby negatywne recenzje z niedopasowania typu skóry."
+  },
+  {
+   "type": "Konsystencja niezgodna z opisem",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Klienci oczekują tradycyjnego olejku, a otrzymują pieniący się żel, co odbierane jest jako wprowadzenie w błąd.",
+   "implication": "Opis i zdjęcia powinny jednoznacznie pokazywać pieniącą, olejkowo-żelową formułę, by zarządzać oczekiwaniami."
+  },
+  {
+   "type": "Jakość dostawy",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Powtarzające się skargi na pęknięte/przeciekające pompki, brak plomb i podejrzenia podróbek psują postrzeganą jakość marki.",
+   "implication": "Lepsze zabezpieczenie pompki w transporcie i widoczna plomba gwarancyjna podniosłyby zaufanie i ograniczyły negatywne oceny niezwiązane z formułą."
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Kluczowa grupa lojalna",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Osoby z suchą i atopową skórą to najbardziej entuzjastyczna grupa - deklarują ulgę w zaostrzeniach i wielokrotne zakupy.",
+   "implication": "To rdzeń klientów; komunikacja i targetowanie powinny wprost adresować atopię, egzemę i suchość, w tym zimą i przy twardej wodzie."
+  },
+  {
+   "type": "Wszechstronność",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Produkt bywa używany do twarzy, ciała i dłoni oraz przez całą rodzinę, co zwiększa jego wartość postrzeganą.",
+   "implication": "Podkreślanie zastosowania 'twarz + ciało + dłonie + rodzina' wzmacnia argument wartości za cenę dużej butelki."
+  },
+  {
+   "type": "Argument bariery skórnej",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Klienci pozytywnie reagują na ceramidy, glicerynę i masło shea oraz komunikat 'oczyszcza bez naruszania bariery'.",
+   "implication": "Eksponowanie składników wspierających barierę skórną i braku mydła to skuteczny motyw sprzedażowy dla skóry wrażliwej."
+  },
+  {
+   "type": "Ekonomia zużycia",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Duża pojemność przy niewielkim zużyciu buduje poczucie dobrego stosunku jakości do ceny.",
+   "implication": "Warto komunikować koszt na użycie i trwałość butelki, zwłaszcza wobec droższych konkurentów premium."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Poszukiwanie delikatnego środka dla skóry wrażliwej/atopowej",
+   "reason": "Klienci szukają oczyszczania, które nie podrażnia i nie wysusza wrażliwej lub atopowej skóry",
+   "pct": "32.0%"
+  },
+  {
+   "label": "Nawilżenie bez uczucia ściągnięcia",
+   "reason": "Chęć mycia, po którym skóra jest miękka i nawilżona, a nie napięta",
+   "pct": "24.0%"
+  },
+  {
+   "label": "Rekomendacje (dermatolog, influencerzy, recenzje)",
+   "reason": "Zakup pod wpływem porady dermatologa lub treści z YouTube/TikTok/Instagram",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Skuteczny demakijaż / podwójne oczyszczanie",
+   "reason": "Potrzeba produktu do usuwania makijażu i filtra jako pierwszy krok rutyny",
+   "pct": "14.0%"
+  },
+  {
+   "label": "Dobra cena za dużą pojemność",
+   "reason": "Poszukiwanie ekonomicznej, trwałej alternatywy dla drogich olejków",
+   "pct": "8.0%"
+  },
+  {
+   "label": "Zaufanie do marki dermatologicznej",
+   "reason": "Wybór ze względu na reputację marki jako bezpiecznej dermatologicznie",
+   "pct": "6.0%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Realne nawilżenie skóry",
+   "reason": "Oczekiwanie, że 'nawilżający' produkt faktycznie natłuści i ukoi skórę",
+   "pct": "26.0%"
+  },
+  {
+   "label": "Brak lub minimalny zapach",
+   "reason": "Skóra wrażliwa/atopowa wymaga produktu bezzapachowego lub bardzo delikatnie pachnącego",
+   "pct": "22.0%"
+  },
+  {
+   "label": "Konsystencja olejku zgodna z opisem",
+   "reason": "Oczekiwanie prawdziwego olejku, który nie pieni się jak zwykłe mydło",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Brak podrażnień i wyprysków",
+   "reason": "Produkt nie powinien wywoływać reakcji skórnych ani trądziku",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Skuteczne usuwanie makijażu",
+   "reason": "Oczekiwanie dokładnego demakijażu, w tym wodoodpornego tuszu",
+   "pct": "10.0%"
+  },
+  {
+   "label": "Nienaruszone, dobrze zapakowane opakowanie",
+   "reason": "Sprawna pompka, plomba i produkt bez wycieków po dostawie",
+   "pct": "10.0%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "moisturizing",
+   "label": "Nawilżenie / ukojenie"
+  },
+  {
+   "value": "dryness",
+   "label": "Wysuszenie / ściągnięcie"
+  },
+  {
+   "value": "breakouts",
+   "label": "Wypryski / trądzik"
+  },
+  {
+   "value": "irritation",
+   "label": "Podrażnienia / reakcje skórne"
+  },
+  {
+   "value": "fragrance",
+   "label": "Zapach / perfumy"
+  },
+  {
+   "value": "atopic",
+   "label": "Skóra atopowa / egzema"
+  },
+  {
+   "value": "cleansing",
+   "label": "Oczyszczanie / demakijaż"
+  },
+  {
+   "value": "texture",
+   "label": "Konsystencja / olejek vs żel"
+  },
+  {
+   "value": "packaging",
+   "label": "Opakowanie / wysyłka"
+  },
+  {
+   "value": "value",
+   "label": "Cena / pojemność"
+  }
+ ],
+ "tagStyles": {
+  "moisturizing": "pill-blue",
+  "dryness": "pill-amber",
+  "breakouts": "pill-red",
+  "irritation": "pill-red",
+  "fragrance": "pill-purple",
+  "atopic": "pill-blue",
+  "cleansing": "pill-blue",
+  "texture": "pill-orange",
+  "packaging": "pill-orange",
+  "value": "pill-amber"
+ },
+ "reviews": [
+  {
+   "r": 1,
+   "t": "Nowa formuła spaliła moją skórę. Używaj na własne ryzyko!  Zanim pojawi się reakcja, może minąć MIESIĄCE, a zagojenie może zająć miesiące. Kupiłem pierwszą butelkę i nie miałem żadnych problemów.  Świetnie się sprawdził. Kupiłam wtedy drugą butelkę i po około 2 miesiącach codziennego stosowania zaczęłam zauważać łuszczenie się wokół ust.  Suchość i łuszczenie stopniowo się pogarszały, ale nie sądziłam, że przyczyną tego była Bioderma, ponieważ zużyłam całą butelkę przed butelką, której używałam i nie miałam żadnych problemów.  Myślałem, że przyczyną mojej reakcji jest coś innego, więc nadal stosowałem Biodermę. Kolejne dwa miesiące zajęło mi zorientowanie się, że to Bioderma spowodowała moją reakcję.  Do tego czasu wystąpiły już problemy z moimi oczami: spuchnięte, zaczerwienione i swędzące. Minęły dwa miesiące, odkąd przestałem go używać i czuję się minimalnie lepiej.  Przy takim tempie gojenia, całkowite wyleczenie zajmie prawdopodobnie 6 miesięcy.  To tak, jakby olej wpalił się głęboko w skórę, a gdy moja skóra się odnawia, spalone warstwy wypływają na powierzchnię i złuszczają się.  DUŻO martwego naskórka złuszcza się. Nie mam wrażliwej skóry i NIGDY wcześniej nie miałem tego typu reakcji na żaden produkt do pielęgnacji skóry. Bioderma musiała zmienić formułę, bo inaczej dostałem bardzo przeterminowaną butelkę, która stała się toksyczna.  Poleciłam to innej osobie i uzyskała ten sam rezultat, więc jestem całkowicie pewna, że ​​Bioderma spowodowała moje problemy skórne. Ponownie objawy pojawiają się po pewnym czasie, a uszkodzenia powierzchni i złuszczanie się trwają długo",
+   "tags": [
+    "irritation",
+    "atopic",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zepsuł się podczas używania tego. Kupiłam go więc, bo myślałam, że będzie działał jak zwykły olejek do mycia twarzy, taki jak te, które widziałam na tiktoku, ale pieni się i pieni dość szybko i nie tego się spodziewałam. To była niespodzianka, ale nie stanowiło to większego problemu. Pogodziłem się z tym i kontynuowałem używanie go przez 3-4 tygodnie i na początku myślałem, że wszystko idzie dobrze. Mam skórę tłustą/mieszaną ze skłonnością do trądziku, więc używałbym mojego normalnego środka czyszczącego, który nigdy mnie nie wypryskał, więc nie czułbym się tłusto po użyciu tego produktu. Ale podczas używania tego miałem straszny trądzik na całych policzkach i zasadniczo na całej twarzy, trądzik graniczny torbielowaty. Tak naprawdę nigdy nie mam trądziku na czole, ale miałem trądzik na całym czole, policzkach, brodzie, a nawet nosie dosłownie wszędzie, co nie było dla mnie normalne przez cały czas, tylko przy stosowaniu produktów, które nie współgrają z moją skórą. Trądzik ustąpił dopiero, gdy przestałem go używać i zacząłem ponownie używać moich normalnych produktów. Jeśli więc sięgniesz po ten produkt, pamiętaj, że przypomina on bardziej pieniący się środek czyszczący niż zwykły olejek, jeśli masz skórę skłonną do trądziku, może Cię podrażnić, a zapach jest bardzo silny podczas jego stosowania. Nie kupię ponownie i prawdopodobnie nawet nie dokończę tej butelki niestety:/",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "fragrance",
+    "texture"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zawiera znane substancje drażniące skórę. Siarczany. Jestem absolwentką starej szkoły Aveda i entuzjastką pielęgnacji skóry. Ten produkt jest sprzedawany jako „nie zawierający mydła”, ale zawiera siarczany. Jeśli masz wrażliwą skórę, ten produkt ostatecznie zniszczy barierę ochronną skóry i zakłóci Twój mikrobiom. Próbowałem zaoszczędzić pieniądze, ale skończyło się to stratą pieniędzy. Powszechnie wiadomo, że siarczany powodują podrażnienie skóry u dużego odsetka populacji. Są to chemiczne odtłuszczacze. Więc chociaż stwierdzam, że moja skóra nie wysuszyła się i nie podrażniła po kilku użyciach, nie używałbym tego codziennie na mojej skórze. Powszechnie wiadomo, że pozbawia skórę naturalnych olejków, a tym samym zakłóca mikrobiom, a przy konsekwentnym stosowaniu właśnie tak się stanie. Szczerze mówiąc, nie pomyślałam o sprawdzaniu zawartości siarczanów, ponieważ po prostu założyłam, że olejek oczyszczający nie będzie zawierał tak ostrego składnika. Nawet Suave ma produkty, które usunęły ten składnik. Jest sprzedawany dla skóry wrażliwej, ale zawiera składniki, o których wiadomo, że powodują problemy z wrażliwą skórą. Jest to sprzeczne z przeznaczeniem produktu. Pozostanę przy Biodermie, mimo że jest droższa",
+   "tags": [
+    "dryness",
+    "irritation",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Absolutnie NIE!. Po pierwsze, to nie jest olejek, to pieniący się środek czyszczący. Używałam wielu różnych olejków oczyszczających różnych marek i jestem zszokowana deklaracjami dotyczącymi tego. W opisie dosłownie jest napisane: „...opracowany dla skóry wrażliwej, suchej i bardzo suchej”. i dalej mówi: „...chroni skórę przed wysuszającym działaniem twardej wody”. Chociaż byłam bardzo zaskoczona, gdy odkryłam, że jest to pieniący się środek czyszczący, dałam mu szansę i odkryłam, że po usunięciu produktu z twarzy moja skóra była napięta i bardzo sucha. Dalszy opis mówi: „...delikatny środek czyszczący do codziennego stosowania”, jednak nie ma nic delikatnego w tym uczuciu, jeśli nie masz szczęścia, aby dostać się do oczu lub do oczu. Powtórzę: stosowałem wiele środków czyszczących (olejek i inne) i zdarzyło mi się, że dostały się one do oczu. Było to zdecydowanie jedno z najgorszych doświadczeń w tego typu sytuacji. Biorąc pod uwagę pozycję tej marki, jestem naprawdę zaskoczona i niezbyt zafascynowana tym produktem. Nie kupię go ponownie i zastanawiam się, czy kupić coś innego tej marki",
+   "tags": [
+    "dryness",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Reakcja skórna. Uwielbiam Cerave, wszystkie ich produkty świetnie się na mnie sprawdziły, ale niestety jest to pierwszy produkt, który mnie zawiódł. Nie jestem pewna dlaczego, ale kiedy użyłam go po raz pierwszy, dolna część moich oczu (górne kości policzkowe) była lekko zaczerwieniona i podrażniona. Nie zastanawiałam się nad tym, ale używałam go jeszcze przez dwa dni i z każdym dniem coraz bardziej paliła mnie twarz, a trzeciego dnia cała twarz była czerwona, pieczona i podrażniona. Podrażniona skóra była szorstka i sucha, więc natychmiast przestałam go używać, gdy rozprzestrzenił się na całą twarz. Szczerze mówiąc, nie jestem pewien, dlaczego tak się stało, ponieważ nie zdarzyło się to większości osób z recenzji, ale widziałem, że niektórzy doświadczyli tego samego co ja. Jedyne, co poleciłbym, to to, że jeśli poczujesz lekkie pieczenie, zobaczysz zaczerwienienie i podrażnienie, natychmiast przestanę go używać. W moim przypadku to nie zadziałało, ale nie oznacza to, że to samo przydarzy się Tobie. Po prostu pomyślałem, że najlepiej będzie to opublikować, aby ludzie byli świadomi, że może się to zdarzyć, ale jest to bardzo mało prawdopodobne (na podstawie innych recenzji)",
+   "tags": [
+    "dryness",
+    "irritation"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Reakcja skórna. Uwielbiam Cerave, wszystkie ich produkty świetnie się na mnie sprawdziły, ale niestety jest to pierwszy produkt, który mnie zawiódł. Nie jestem pewna dlaczego, ale kiedy użyłam go po raz pierwszy, dolna część moich oczu (górne kości policzkowe) była lekko zaczerwieniona i podrażniona. Nie zastanawiałam się nad tym, ale używałam go jeszcze przez dwa dni i z każdym dniem coraz bardziej paliła mnie twarz, a trzeciego dnia cała twarz była czerwona, pieczona i podrażniona. Podrażniona skóra była szorstka i sucha, więc natychmiast przestałam go używać, gdy rozprzestrzenił się na całą twarz. Szczerze mówiąc, nie jestem pewien, dlaczego tak się stało, ponieważ nie zdarzyło się to większości osób z recenzji, ale widziałem, że niektórzy doświadczyli tego samego co ja. Jedyne, co poleciłbym, to to, że jeśli poczujesz lekkie pieczenie, zobaczysz zaczerwienienie i podrażnienie, natychmiast przestanę go używać. W moim przypadku to nie zadziałało, ale nie oznacza to, że to samo przydarzy się Tobie. Po prostu pomyślałem, że najlepiej będzie to opublikować, aby ludzie byli świadomi, że może się to zdarzyć, ale jest to bardzo mało prawdopodobne (na podstawie innych recenzji)",
+   "tags": [
+    "dryness",
+    "irritation"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie autentyczny produkt. Miałem już wątpliwości co do tego produktu, nie zrozumcie mnie źle, jest fantastyczny, jednak Amazon często budzi moje wątpliwości, czy produkt jest autentyczny. Za pierwszym razem wszystko było w porządku, ale zdarzyło się kilka sytuacji, w których produkt wydawał się być przeceniony lub miał inną konsystencję niż ta, do której jestem przyzwyczajony. Jeden przyszedł całkowicie płynny (prawie wodny) i jego konsystencja powinna być gęstsza. Aby rozwiać moje wątpliwości zaczęłam go kupować w aptekach San Pablo i faktycznie konsystencja powinna być gęstsza. Od kilku miesięcy kupuję go tylko w San Pablo i Wam polecam to samo. Nie tylko mi się to przytrafiło w przypadku tego produktu, ale zauważyłem, że podobnie dzieje się z innymi dermatologami, przychodzą otwarte lub z uszkodzonymi plombami zabezpieczającymi. Nie wiem, czy obniżają ceny, czy ludzie z nich korzystają i dodają coś jeszcze. Wiem, że u nas są tańsze niż w aptece, ale nie ryzykuj, to Twoja skóra. Radzę poczekać na promocje w aptekach, są one prawie takie same jak na Amazonie.",
+   "tags": [
+    "texture",
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Rozczarowanie </3. Olejki do mycia twarzy znam i uwielbiam ich używać. Miałam nadzieję, że będzie to działać jak olejek do mycia ciała, ale dla ciała. Najczęściej używam olejków do mycia twarzy z Korei Południowej lub Japonii, ale olejki do mycia ciała są wszędzie bardzo rzadkie (po prostu jeszcze tego nie ma). Kiedy zobaczyłam ten olejek pod prysznic, bardzo się ucieszyłam. Cena za taką ilość była świetna, a o marce Bioderma słyszałam mnóstwo pochwał. Niestety to nie było to. Olejek jest bardzo, bardzo gęsty, przez co trudno go nałożyć na skórę. Produkt jest również bardzo mocno perfumowany. Jestem wrażliwa na mocne zapachy, ale nadal mogę używać niektórych produktów zapachowych (takich jak lekkie kremowe, kwiatowe zapachy). To było jak kąpiel w butelce perfum. Nawet po zmyciu olejku, część zapachu wywołująca ból głowy pozostała. Na początku moja skóra po użyciu olejku była gładka i miękka, jednak po pewnym czasie zrobiła się lekko wysuszona. Ogólnie nie polecam tego produktu",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "atopic"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Wątpliwe składniki przynoszące efekt przeciwny do zamierzonego! Kupiłam ten olejek pod prysznic z nadzieją, że ukoi podrażnienia skóry i zapobiegnie swędzeniu po kąpieli. Niestety nie uzyskałem pożądanego rezultatu, dlatego chciałem sprawdzić Codecheck, aby zobaczyć, jakie składniki tam były. Byłem zszokowany, gdy zobaczyłem, że zawiera kilka wątpliwych składników, które absolutnie nie są odpowiednie dla (wrażliwej) skóry: - PPG-5-Ceteth-20 (Osłabia funkcję barierową skóry.) - Polisorbat 20 (= polimer trudny do rozkładu = mikroplastik) - Sodium Laureth Sulfate (Osłabia funkcję barierową skóry. Może działać drażniąco w kontakcie z oczami i skórą. Efekty zwiększają się wraz z dłuższym czasem działania i częstym stosowaniem.) Dla za te pieniądze możesz kupić w aptece kilka butelek taniego żelu pod prysznic. Przynajmniej dostajesz tego więcej i jakość jest taka sama",
+   "tags": [
+    "irritation",
+    "atopic",
+    "texture"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ogromne wypryski na całej twarzy!!!. Zwykle nie zostawiam recenzji, ale poczułem, że muszę to zrobić, aby ostrzec innych i potencjalnie uchronić ich przed naprawdę poważnymi wypryskami. Właśnie doszłam do momentu, w którym prawie całkowicie oczyściłam skórę. Kupiłam to, ponieważ mam cerę mieszaną. Słyszałam o nim wiele dobrych rzeczy, więc zdecydowałam się spróbować i miałam nadzieję, że pomoże to w usunięciu ostatniej części trądziku, którą miałam nadzieję wyleczyć. Niestety bardzo mnie to złamało. Trądzik pojawiał się w okolicach podbródka, ale po 5 dniach stosowania tego kremu, każdego dnia plamy stawały się coraz bardziej widoczne. Występują na całej twarzy. Naprawdę rozczarowujące, nauczyłam się nie czuć źle z powodu trądziku, ale dla większości ludzi byłoby to absolutnie druzgocące przeżycie. Bądź ostrożny!!! Zanim zdecydujesz się spróbować, przeprowadź badania. Wywołało to u mnie małe czerwone krosty na całej twarzy w miejscach, w których wcześniej ich nie miałem, i kilka cyst",
+   "tags": [
+    "breakouts"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie zaleca się marnowania pieniędzy. To przyszło dobrze zapakowane, ale kiedy chwyciłem je, aby wydostać się z papieru, butelka była tak słaba, że ​​miałem wrażenie, że zapadnie mi się w rękach. Potem, gdy przekręciłem górę, aby odblokować dyszę, nic się nie stało (nie zanotowano żadnego kliknięcia w celu zwolnienia), więc czuję, że jest zepsuty! Recenzje tego produktu stwierdzają, że jest to bardzo dobry żel do mycia ciała i nawilżający na bazie oleju, naprawdę dobry, większość recenzentów stwierdziła również, że nie ma żadnego zapachu, a niektórzy twierdzili, że pachnie pięknie i subtelnie. Cóż, jedyne co czuję to dziwny zapach produktu, nic przyjemnego. Jeśli dobrze pamiętam, ten produkt został polecony przez Amazon jako dobry zamiennik oryginalnego, którego nie miałem w magazynie (który był polecany w programie telewizyjnym „dziś rano”), więc nie jestem zbyt zadowolony z tego zamiennika, ponieważ prawie wszystkie recenzje wydają się uważać to za świetny produkt! Bardzo mylące",
+   "tags": [
+    "moisturizing",
+    "fragrance",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie ma płyty UTS, dziwnie pachnie. Produkt, który kupiłem, ufając sprzedawcy bezpośrednio z Amazonu, pachnie jak czerstwe piwo lub chleb ze zbyt dużą ilością drożdży. Podczas moich badań zauważyłem, że wiele osób na całym świecie znalazło się w tej samej sytuacji. Obsługa klienta CeraVe w USA stwierdziła, że ​​nie powinno być tak intensywnego zapachu i poradziła osobom, które doświadczyły tego problemu, aby go zwróciły. Jednakże CeraVe Türkiye zasadniczo nie odczuwała potrzeby odpowiadania na skargi. Raz poprosiłem o zmianę; Produkt, który dotarł, miał ten sam zapach. Tym razem postaram się wykorzystać produkt bez kłopotów ze zwrotem. Być może nie będzie problemu z działaniem produktu, ale daję mu jedną gwiazdkę właśnie z powodów, które wyjaśniłem powyżej. Jeszcze jedna uwaga, produkt, który posiadam, nie jest zarejestrowany w ÜTS. Nie było żadnej informacji o zwróconym produkcie. Firma powinna była zarejestrować produkt, a Amazon powinien sprawdzić tę sytuację.",
+   "tags": [
+    "fragrance"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "U mnie spowodowały wypryski i trądzik 😭. Używam Cerave od października zeszłego roku i jestem zachwycona, świetnie działał na moją skórę! (kupiłam w aptece) Potem zamówiłam to, bo kończył mi się ten, którego używałam. Zaczęłam używać nowego słoiczka, który zamówiłam tutaj w lutym i teraz moja twarz jest w nieładzie, nie szybko zdałam sobie sprawę, że to był środek czyszczący, skojarzyłam wyprysk z moim PMS, który zwykle się pojawiał, wybicie trwało, dopóki nie zdecydowałam się zaprzestać stosowania środka czyszczącego, wtedy poczułam się lepiej. Użyłem go ponownie, aby potwierdzić i bum, znowu mam naprawdę poważne ataki 😭 nie jestem pewien, co się dzieje. Czy mój organizm nagle zaczął reagować na Cerave? Czy to ten, który zamówiłem? Nadal nie wiem. Sprawdziłam też, czy nie jest przeterminowany czy coś, ale nie mogę znaleźć nawet daty ważności na butelce. Niestety będę musiał go wyrzucić i przejść na inną markę",
+   "tags": [
+    "breakouts"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Mikroplastik i wątpliwe składniki. Kosmetyk dostosował się do mojej skóry. Jednak już go nie kupuję, bo sprawdziłam skład za pomocą Code Check. Codecheck klasyfikuje osiem składników jako wątpliwe. Dwa składniki zawierają także trudne do rozkładu polimery oraz olej palmowy. Słyszałam o tym podcast (Andrew Huberman Lab), w którym kosmetolog stwierdził, że substancje PEG w kosmetykach i produktach do pielęgnacji skóry są problematyczne i należy je głębiej zbadać. Są one zawarte w tym produkcie. Uważam, że to wstyd, że tak dużo rzeczy się nam sprzedaje i myślę, że 90% klientów tych produktów nie jest świadomych jakiego rodzaju koktajlu używa. Na własnej skórze. Sama teraz próbuję olejku słonecznikowego i następną alternatywą jest naturalne mydło do pielęgnacji dzieci. jestem ciekawy.  Nie dajcie się zwieść :)",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Mikroplastik i wątpliwe składniki. Kosmetyk dostosował się do mojej skóry. Jednak już go nie kupuję, bo sprawdziłam skład za pomocą Code Check. Codecheck klasyfikuje osiem składników jako wątpliwe. Dwa składniki zawierają także trudne do rozkładu polimery oraz olej palmowy. Słyszałam o tym podcast (Andrew Huberman Lab), w którym kosmetolog stwierdził, że substancje PEG w kosmetykach i produktach do pielęgnacji skóry są problematyczne i należy je głębiej zbadać. Są one zawarte w tym produkcie. Uważam, że to wstyd, że tak dużo rzeczy się nam sprzedaje i myślę, że 90% klientów tych produktów nie jest świadomych jakiego rodzaju koktajlu używa. Na własnej skórze. Sama teraz próbuję olejku słonecznikowego i następną alternatywą jest naturalne mydło do pielęgnacji dzieci. jestem ciekawy.  Nie dajcie się zwieść :)",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Zarówno ja, jak i mój partner mieliśmy bardzo swędzącą skórę. Po przeczytaniu wielu dobrych recenzji na jego temat, miałam nadzieję, że ten produkt będzie świetnym środkiem czyszczącym. Wydaje się, że jest niedrogi, prosty i dobry dla wrażliwej skóry. Oglądałam też kilka filmów na YouTube, na których ludzie twierdzili, że to świetny środek oczyszczający, szczególnie dla każdej skóry. Ja i mój chłopak używaliśmy tego przez około 2 tygodnie, aż musiałam go zużyć, ponieważ u nas obojga bardzo swędziały powieki i powodowały nieprzyjemne uczucie skóry. Po nałożeniu na twarz, nawet po zmieszaniu go z odrobiną wody, wydawał mi się trochę ciężki i lepki. Po tych dwóch tygodniach stosowania tego produktu muszę przyznać, że bardzo chciałam podrapać powieki. Po przejściu na inny żel już po pierwszym użyciu od razu było coraz lepiej. Zdecydowanie nie polecam tego produktu",
+   "tags": [
+    "irritation",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Derma co?. Prawie nigdy nie oceniam artykułów, ale ten jest niezły, szczerze mówiąc, nie rozumiem, dlaczego tak wiele osób go chce, nałożyłem go małą kroplą i bardzo wysuszył moje dłonie, a także wyciągnął, okropnie, nie kupuj. Mam dość wrażliwą skórę ze względu na wszystkie organiczne produkty dermatologiczne i tak dalej. To niedopuszczalne, że są tylko produkty, które robią coś odwrotnego do tego, co powinny, dużo marketingu i pieniędzy dla nich, podczas gdy ty cierpisz z powodu ich produktów, szczerze mam dość producentów i laboratoriów, a do tego używają perfum 🤥🙄 Tak czy inaczej, osoby, które są w takiej samej sytuacji jak ja, zobaczymy, czy wiele osób cierpi na produkty, o których mówi się, że są ultra nawilżające i nie drażniące",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "atopic"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Naprawdę okropny płyn do mycia twarzy, nieodpowiedni dla wrażliwych oczu. Nie przypomina żadnego innego olejkowego środka czyszczącego - natychmiast zamienia się w bąbelki i mimo że nie ma zapachu, tak naprawdę nie jest w ogóle wrażliwy na oczy, tak bardzo szczypał mnie w oczy. Nigdy nie używałam olejku do mycia oczu, który szczypałby moje oczy, ale ten tak. Kupiłam go do demakijażu oczu, więc obecnie jest w zasadzie bezużyteczny. Włożyłem go pod prysznic, aby użyć go do mycia ciała, ale nawet to jest rozczarowujące, ponieważ pachnie okropnie. Również gdy dostanie się do ust lub w ich pobliże podczas mycia twarzy, smakuje obrzydliwie. To w zasadzie jak używanie mydła do rąk na twarzy. Po prostu okropne. Naprawdę nie mam pojęcia, skąd tyle pozytywnych recenzji. Rumiankowy Body Shop jest o wiele lepszy, jeśli chcesz go mieć za podobną cenę",
+   "tags": [
+    "fragrance",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Naprawdę okropny płyn do mycia twarzy, nieodpowiedni dla wrażliwych oczu. Nie przypomina żadnego innego olejkowego środka czyszczącego - natychmiast zamienia się w bąbelki i mimo że nie ma zapachu, tak naprawdę nie jest w ogóle wrażliwy na oczy, tak bardzo szczypał mnie w oczy. Nigdy nie używałam olejku do mycia oczu, który szczypałby moje oczy, ale ten tak. Kupiłam go do demakijażu oczu, więc obecnie jest w zasadzie bezużyteczny. Włożyłem go pod prysznic, aby użyć go do mycia ciała, ale nawet to jest rozczarowujące, ponieważ pachnie okropnie. Również gdy dostanie się do ust lub w ich pobliże podczas mycia twarzy, smakuje obrzydliwie. To w zasadzie jak używanie mydła do rąk na twarzy. Po prostu okropne. Naprawdę nie mam pojęcia, skąd tyle pozytywnych recenzji. Rumiankowy Body Shop jest o wiele lepszy, jeśli chcesz go mieć za podobną cenę",
+   "tags": [
+    "fragrance",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Najgorszy!. Kiedy go używałam, spaliła mi skórę, a teraz mam czerwone, swędzące guzki i obrzęk na całej twarzy. Butelka nie ma nawet daty ważności, którą można sprawdzić. Kiedy sprawdziłam w Google informację o terminie ważności środka czyszczącego, przeczytałam, że twierdzą, że ich produkty nie mają terminu ważności!!! Jak to w ogóle możliwe. Kwasy te łatwo tracą ważność w ciągu kilku miesięcy, dlaczego ich produkty z kwasem nie tracą ważności.??? Szukałem dalej w Google, czy inni mają taką samą reakcję i bingo. Czytałem wiele podobnych doświadczeń online z Cerave! Moja skóra jest przyzwyczajona do kwasów, a ponieważ skończył mi się wcześniejszy Cetaphil, zamówiłam ten… Sugeruję, aby nie używać w Internecie produktów cerave opartych na tych influencerach! To smutne… moja skóra jest teraz w strasznym stanie!!!",
+   "tags": [
+    "irritation",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie ten przedmiot na zdjęciu…. Na przestrzeni lat zamawiałem ten olejek pod prysznic 12 razy, ponieważ moja córka i ja go uwielbiamy, ale ostatni był innym produktem – inną etykietą i znacznie bardziej perfumowanym, co nam się nie podobało. Posłałem po kolejny w nadziei, że przez pomyłkę wysłano mi niewłaściwy przedmiot, ale dzisiaj otrzymałem kolejny i znowu jest to niewłaściwy przedmiot, nazywa się Derm phy, a nie huile lavante, który kochamy. Czy produkt został zmieniony/wycofany? Jeśli tak, to należy zmienić opis i zdjęcie i nie złożę zamówienia ponownie, ponieważ ten jest zdecydowanie zbyt perfumowany (pachnie jak tani męski spray do ciała), a nie delikatny zapach, jaki ma oryginał…",
+   "tags": [
+    "fragrance",
+    "texture"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zapach. Próbowałem go użyć wiele razy i kupiłem go w październiku 2024 r. Kupiłem go głównie do mycia twarzy, ponieważ próbowałem użyć olejku do oczyszczenia włókien łojowych z nosa. Zapach jest zbyt intensywny, absolutnie obrzydliwy. Mnie też dopadł taki podrażniony, czerwony trądzik. Mam to szczęście, że mam bardzo mało problemów z trądzikiem (wybuchłam dopiero, gdy byłam w ciąży spowodowanej hormonami), więc byłam zaskoczona, że ​​to jest tego przyczyną. Dałam mu jeszcze trochę czasu na wypróbowanie, bo może moja skóra nie była przyzwyczajona do tego typu środków czyszczących. Musiałem się poddać, bo to tylko spowodowało większy ból głowy. Próbowałam potem używać go jako żelu do mycia ciała i nie mogę przeboleć zapachu",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Moja skóra NIENAWIDZIŁA tego. (Skłonność do trądziku/mieszane). Chciałem to pokochać - myślałem, że tak, ponieważ zalecił to dermatolog. JEDNAK… moja mieszana skóra ze skłonnością do trądziku NIENAWIDZIŁA tego!!! Latem moja skóra była tak czysta, że ​​pomyślałam, że dodam to do mojej rutyny, aby naprawdę oczyścić dodatkowy pot/olej z letniego upału. Po 2 tygodniach stosowania zauważyłem, że moja skóra zaczęła wyglądać na bardziej zanieczyszczoną (zaskórniki i małe guzki/zatkane pory), a następnie zaczęły pojawiać się plamy. Konsystencja mojej skóry była po prostu okropna. Naprawdę szorstko i wyboiście. Teraz wycięłam go ze swojej rutyny i moja twarz powoli, ale systematycznie wraca do normy. Dzięki Bogu. Tylko bądź ostrożny, jeśli masz ten sam typ skóry",
+   "tags": [
+    "dryness",
+    "breakouts",
+    "texture"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Podróbka?. Używam tego żelu oczyszczającego od jakiegoś czasu i jestem z niego bardzo zadowolona. Ostatnim razem, gdy zamawiałem u innego dostawcy, tym razem do zamówienia w Amazon przekonał mnie rozmiar opakowania. Mogę się mylić, ale mam wrażenie, że może to być podróbka. Po pierwsze, nigdzie indziej nie spotkałem wielkości opakowania (1l). Po drugie, naklejki na opakowaniu są całkowicie krzywo przyklejone i wyglądają na dość zniszczone (patrz zdjęcia). Jak powiedziałem, mogę się mylić, ale wolę być na bezpiecznej stronie i odesłać go",
+   "tags": [
+    "cleansing",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "NIE KUPUJ, JEŚLI MASZ WRAŻLIWĄ SKÓRĘ. Od jakiegoś czasu walczę z wrażliwą skórą i kupiłem to jako rozwiązanie.  Byłem zadowolony z wielkości butelki w stosunku do ceny, ale gdy tylko wziąłem ją pod prysznic do użycia, zauważyłem silny zapach.  Jak wiedzą osoby o wrażliwej skórze, zapach jest okropny!!!  Jest napisane, że jest przeznaczony do skóry wrażliwej, ale już po kilku dniach stosowania moja skóra zaczęła reagować.  Teraz mam ogromną butelkę olejku pod prysznic, którego nie mam jak zużyć.  Nie kupuj jeśli masz wrażliwą skórę.  Właśnie kupiłam olejek pod prysznic Aveeno, który mówi, że jest bezzapachowy i mam nadzieję, że będzie lepszy.  Aveeno nigdy mnie nie zawiodło!",
+   "tags": [
+    "fragrance",
+    "atopic",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "dobrze czyści, ale... (UŻYWAM OD 3 TYGODNI). Na początek warto powiedzieć, że TO NIE OLEJ!!! Działa tak samo jak zwykłe mydło w żelu do cery tłustej, od pierwszego użycia zauważyłam, że bardzo dobrze oczyszcza i pozostawia skórę bardzo gładką, jednak już po drugim tygodniu zauważyłam, że zaczęłam mieć kilka wyprysków w miejscach na twarzy, których wcześniej nie miałam, a poza tym moja skóra stała się znacznie bardziej uwrażliwiona, używam filtrów przeciwsłonecznych, używam dużo kremów nawilżających i nie używam kwasów, ogólnie nie kupiłabym tego produktu ponownie, uważam, że są inne produkty, które robią to samo lepiej a także dlatego, że bardzo chciałam, żeby był to olejek taki, jak napisano na opakowaniu, ale nie jest",
+   "tags": [
+    "moisturizing",
+    "breakouts",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "dobrze czyści, ale... (UŻYWAM OD 3 TYGODNI). Na początek warto powiedzieć, że TO NIE OLEJ!!! Działa tak samo jak zwykłe mydło w żelu do cery tłustej, od pierwszego użycia zauważyłam, że bardzo dobrze oczyszcza i pozostawia skórę bardzo gładką, jednak już po drugim tygodniu zauważyłam, że zaczęłam mieć kilka wyprysków w miejscach na twarzy, których wcześniej nie miałam, a poza tym moja skóra stała się znacznie bardziej uwrażliwiona, używam filtrów przeciwsłonecznych, używam dużo kremów nawilżających i nie używam kwasów, ogólnie nie kupiłabym tego produktu ponownie, uważam, że są inne produkty, które robią to samo lepiej a także dlatego, że bardzo chciałam, żeby był to olejek taki, jak napisano na opakowaniu, ale nie jest",
+   "tags": [
+    "moisturizing",
+    "breakouts",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bardzo rozczarowujące. Używam tego środka czyszczącego od trzech miesięcy i jestem zawiedziony. Kupiłem go, aby walczyć z suchymi dłońmi zimą, ponieważ moje regularne olejki oczyszczające są dostępne w stosunkowo drogich małych butelkach. Zależało mi na większej butelce podobnego produktu. Niestety ten żel nie radzi sobie lepiej z moimi suchymi dłońmi niż zwykłe mydło. Moje dłonie są tak samo napięte i niewygodne, jak po użyciu mydła. Nie ma nawet świetnego zapachu. Był drogi i uważam, że to strata pieniędzy. Zwrócenie go byłoby zbyt kłopotliwe, więc jedyne, co mogę zrobić, to używać go, kiedy tylko mogę, a mianowicie przy cieplejszej i mniej suchej pogodzie",
+   "tags": [
+    "dryness",
+    "fragrance",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "zatykanie porów. Przeprowadziłam badania na temat oczyszczania olejkiem za pomocą oliwy z oliwek. Chciałem wypróbować ten produkt, ponieważ oliwa z oliwek znajduje się w połowie listy składników. Nie prowadziłam badań na temat oleju sojowego. Ma również dość wysoki poziom zatykania porów. Tak więc pomiędzy soją a oliwą z oliwek, ten produkt i inne podobne produkty mają jak dotąd aż 2 oleje, które zatykają pory. Dziękuję firmie BostonJayhawk, która napisała recenzję na temat zatykających składników. Idę o krok dalej. Wiele osób prowadzi badania, jednak nadal dajemy się zwieść marketingowym słowom, takim jak „maj” i „ropa wyciąga ropę”. Przeczytaj dalej. A teraz czego dowiedziałem się o oliwie z oliwek. Oliwa z oliwek to niemal numer 1 wśród topów polecanych do olejowego oczyszczania. Wykonaj badania. Istnieje wiele artykułów sugerujących, że oliwa z oliwek może nie być dobra dla osób, które łatwo wypadają. OK, więc nie psuj tego tym, którzy mają skórę tolerującą oliwę z oliwek. Ci, którzy wstrzyknęli sobie oliwę z oliwek lub jakikolwiek olejek w skórę (przeważnie ludzie bardzo bogaci, którzy chcą tanim sposobem dotrzeć do piękna), poznają na własnej skórze i kosztowny sposób niebezpieczeństwa wstrzykiwania. W wielu artykułach jest napisane, że „MAJ” pomaga w oczyszczaniu, bo olejek wyciąga olej. „Maj” nie jest definitywnym dowodem naukowym na to, że oczyszczanie olejem oczyszcza skórę i usuwa wypryski. „Maj” oznacza, że ​​w przyszłości konieczne będą dalsze badania przeprowadzone przez specjalistów. Słowo „MAJ” pojawia się w wielu artykułach do oczyszczania olejków, a wiele osób wydaje mnóstwo pieniędzy, kupując produkty oznaczone „majem”. Oleju jadalnego NIGDY nie należy stosować na twarz!!!!!!!!Olej wyciągający olej to tylko połowa prawdy. Nie jest to w 100% prawdą. Tylko odrobina prawdy i tyle wystarczy, aby artykuły do ​​demakijażu z olejkami były prawdziwe i sprzedawanie produktów jako prawdziwe. Ci, którzy rozumieją chemię, znają drugą stronę tego, że olej nie zawsze wyciąga olej. Reszta z nas, którzy nie znają tej części, przyjmuje za pewnik, że te artykuły są prawdziwe, poparte badaniami. Ponadto na dole składników znajdują się dwie inne pozycje, które sugerują, że nie są dobre dla Twojej twarzy. To pozostawia w sumie 4 produkty, które nie są zalecane do twarzy. Nie przeprowadziłem jeszcze badań na temat dwóch ostatnich, które nie zostały tutaj wymienione.  Ogólnie bardzo podoba mi się ten zapach. Podoba mi się jego konsystencja na mojej twarzy. Podobało mi się pod prysznicem po siłowni. Mam 44 lata i zapłaciłam taką cenę próbując przez 2 miesiące oliwy z oliwek na oczyszczenie. Nie udało mi się pozbyć oczyszczenia, które miało ustąpić po pierwszych dwóch tygodniach stosowania oczyszczania skóry olejkami. Musiałem mieć ciężki trądzik, żeby go oczyścić, ale już wtedy byłem przestraszony. Zaprzestałam oczyszczania oliwą z oliwek i oczyszczania drzewa herbacianego. Chciałam wypróbować ten produkt, jednak nie wiedziałam o oleju sojowym. Używam olejku jojoba jako środka nawilżającego. Czy chcesz, aby olej jojoba był pierwszym czy drugim składnikiem na liście Twojego olejkowego produktu oczyszczającego? Nie udało mi się zlokalizować takiego elementu. Jojoba zawsze znajduje się na samym końcu długiej listy składników każdego olejku oczyszczającego",
+   "tags": [
+    "moisturizing",
+    "breakouts",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "NATYCHMIASTOWE wybicie ://. Jestem naprawdę oszołomiona... Myślałam, że pokocham ten środek czyszczący, biorąc pod uwagę wszystkie filmy, które o nim widziałam. Mam wrażliwą, suchą skórę i żyję w suchym środowisku. Powiem, że jeśli chodzi o barierę ochronną mojej skóry, nadała mojej skórze piękny, zroszony blask. Moja skóra była naprawdę czysta i szczęśliwa przez ostatnie 6 miesięcy. Miałam zapisany schemat pielęgnacji skóry, który pokochała moja skóra. Chciałem rozszerzyć swoją działalność i wypróbować to jako zamiennik mojego ulubionego środka do demakijażu (nawilżające mleczko micelarne Albolene – jeśli wiesz, wiesz), aby sprawdzić, czy pomogłoby to w oczyszczeniu niektórych zatkanych porów w mojej strefie T. Zastosowałem go dokładnie zgodnie z zaleceniami i dokładnie pracowałem z produktem. Wynik nie był imponujący i wcale nie pomógł na moje zatkane pory. Pomimo tego, że przez kilka miesięcy wcześniej nie miałem żadnych aktywnych wyprysków, natychmiast spowodowało to kilka (ponad 10) małych pryszczy na mojej brodzie/szczęce. Jestem pewna, że ​​to był ten produkt, ponieważ był to jedyny wariant mojej szczęśliwej rutyny pielęgnacji skóry. Trzymałem się tego przez 2 tygodnie mając nadzieję, że stan zapalny ustąpi, ale było tylko gorzej. Wracam do starego płynu do demakijażu... Denerwuję się, że to się pogorszy, a kilka zatkało mi całą linię szczęki",
+   "tags": [
+    "moisturizing",
+    "breakouts",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Środek osuszający! Bardzo trudno jest wystawić opinię o produkcie kosmetycznym, ponieważ duża część oceny wynika z reakcji skóry, a pod tym względem każda skóra jest wyjątkowa. W moim przypadku ten żel oczyszczający ma jedynie konsystencję olejku i to nawet wtedy, bo w ogóle nie wydaje mi się śliski. Dobrze myje, nawet za mocno, bardzo wysusza i pozostawia szorstką skórę po spłukaniu. Oddałem go do recyklingu jako środek do mycia rąk i nawet w tym kontekście pozostaje zbyt wysuszający. Zdecydowanie wolę ich nawilżający krem ​​w piance do czyszczenia kokonu lub pieniący się żel do skutecznego czyszczenia bez ostrego efektu. Zaznaczam jednak, że „na papierze” baza oczyszczająca jest bardzo delikatna, wzbogacona o środki natłuszczające (boję się, że na mnie nie działają), nawilżające i odżywcze, nie zawiera alkoholu ani perfum, a mimo to ma delikatny zapach (który osobiście uważam za bardzo przyjemny). Zazdroszczę ludziom, dla których ten produkt spełnia swoje obietnice",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Środek osuszający! Bardzo trudno jest wystawić opinię o produkcie kosmetycznym, ponieważ duża część oceny wynika z reakcji skóry, a pod tym względem każda skóra jest wyjątkowa. W moim przypadku ten żel oczyszczający ma jedynie konsystencję olejku i to nawet wtedy, bo w ogóle nie wydaje mi się śliski. Dobrze myje, nawet za mocno, bardzo wysusza i pozostawia szorstką skórę po spłukaniu. Oddałem go do recyklingu jako środek do mycia rąk i nawet w tym kontekście pozostaje zbyt wysuszający. Zdecydowanie wolę ich nawilżający krem ​​w piance do czyszczenia kokonu lub pieniący się żel do skutecznego czyszczenia bez ostrego efektu. Zaznaczam jednak, że „na papierze” baza oczyszczająca jest bardzo delikatna, wzbogacona o środki natłuszczające (boję się, że na mnie nie działają), nawilżające i odżywcze, nie zawiera alkoholu ani perfum, a mimo to ma delikatny zapach (który osobiście uważam za bardzo przyjemny). Zazdroszczę ludziom, dla których ten produkt spełnia swoje obietnice",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie nadaje się dla dzieci z atopowym zapaleniem skóry!!!!!. Nie ma nas!!!! Zapalenie skóry mojej córki znacznie się pogorszyło! Witam, nie wiem jak skontaktować się ze sprzedawcą dlatego piszę tutaj swoje doświadczenia. Doskonała wysyłka, pakowanie i dostawa. Niestety skuteczność produktu przetestowanego na mojej 5-letniej córce z atopowym zapaleniem skóry była katastrofalna. To naprawdę zaostrzyło jego zapalenie skóry w nocy, kiedy obudził się, żeby się podrapać, płakał... Koszmarny tydzień do wyeliminowania kąpieli olejkowej, sytuacja się poprawiła, a wszystko to stało się, ponieważ niestety produkt zawiera PERFUMY i wiadomo, że PERFUMY POGARZAJĄ atopowe zapalenie skóry u dzieci, które mają ten problem. Będę musiała sama go użyć, żeby go nie wyrzucić, ale gdyby skład był jaśniejszy, może uniknęłabym zakupu. Raport ILOŚĆ/JAKOŚĆ/CENA jest przyzwoity (1litr 15,70 €)",
+   "tags": [
+    "fragrance",
+    "atopic",
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Dobry do demakijażu twarzy, dużo produktu potrzeba do ciała. Jest to świetny środek do demakijażu twarzy, po którym oczyszczam dwukrotnie kremem Vanicream. Płyn micelarny Bioderma to także dobra alternatywa dla płynu do demakijażu. Na twarz nakładam go z odrobiną wody i masuję, aby usunąć cały makijaż, łącznie z trudnym do usunięcia filtrem przeciwsłonecznym. Jednak na moim ciele uważam, że muszę użyć DUŻO. Jeśli używasz gąbki siatkowej z wodą, wystarczą Ci 3 pompki. Ale jeśli zmoczysz ciało, a następnie rozsmarujesz olejek po całym ciele, a następnie spłuczesz, piana ledwo się pieni, a ja potrzebuję co najmniej 6-9 pompek. Używam go niecałe dwa tygodnie, a zużyłam około 1/5 największej butelki. Tradycyjny żel do mycia ciała z mydłem zużywa znacznie mniej produktu, ponieważ jest bardzo rzadki i słabo się pieni. Podobnie jest z kwiatowym zapachem, jeśli próbujesz znaleźć produkty bezzapachowe",
+   "tags": [
+    "fragrance",
+    "cleansing",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Wiązałem duże nadzieje z tym produktem. Produkt ten polecił nam Rachhloves na YouTubie, ale domyślam się, że był sponsorowany, bo był rozczarowaniem.  Zwłaszcza biorąc pod uwagę cenę.  Tego produktu nie można używać samodzielnie do czyszczenia ciała.  W ogóle nie domywa, a w najważniejszych miejscach trzeba użyć prawdziwego mydła. Mogę go używać do twarzy, skutecznie usuwa makijaż. Nie oderwałam się od stosowania go na twarz, na ciele natomiast zdarzają się wypryski.  Nie wiem, czy to dlatego, że nie zmywa dokładnie potu i sebum z ciała, co powoduje powstawanie wyprysków, czy też sam produkt powoduje wypryski. Zapach jest trochę kwiatowy i niepotrzebny.  Moim zdaniem lepszy byłby bezzapachowy.  Nie kupię tego produktu ponownie",
+   "tags": [
+    "breakouts",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Wysusza skórę. Pierwszy raz produkt CeraVe mnie zawiódł i nie sprawdził się. Oto moje spostrzeżenia, w przypadkowej kolejności: - Olejek jest bardzo rzadki, znacznie rzadszy niż wiele innych olejków do mycia twarzy, które znam. - Jest całkowicie bezwonny. - Moja skóra po jego użyciu nie była zbyt dobra, raczej sucha i lekko podrażniona. Nie mam szczególnie wrażliwej skóry. To, w jaki sposób olejek ma tak nawilżać, jest dla mnie zagadką... Podsumowanie: Może w awaryjnej sytuacji zadziała, ale świadomie nie będę używać tego produktu dalej, bo nawet po nałożeniu kremu i olejku skóra jest nadal napięta. Nie spodziewałbym się tego po CeraVe",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Wysusza skórę. Pierwszy raz produkt CeraVe mnie zawiódł i nie sprawdził się. Oto moje spostrzeżenia, w przypadkowej kolejności: - Olejek jest bardzo rzadki, znacznie rzadszy niż wiele innych olejków do mycia twarzy, które znam. - Jest całkowicie bezwonny. - Moja skóra po jego użyciu nie była zbyt dobra, raczej sucha i lekko podrażniona. Nie mam szczególnie wrażliwej skóry. To, w jaki sposób olejek ma tak nawilżać, jest dla mnie zagadką... Podsumowanie: Może w awaryjnej sytuacji zadziała, ale świadomie nie będę używać tego produktu dalej, bo nawet po nałożeniu kremu i olejku skóra jest nadal napięta. Nie spodziewałbym się tego po CeraVe",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Pachnie jak domowe środki czyszczące, ale nie czyści. Daję dwie gwiazdki, bo nie uszkodził mojej skóry; jednak nie zmywa całkowicie makijażu (co jest zaskakujące, biorąc pod uwagę, że używam bardzo mało produktów, a produkty są bardzo wysokiej jakości) i pachnie cytrusowym domowym środkiem czyszczącym. Nie jak rozkoszna cytrusowa świeca czy balsam – jak środek czyszczący. Ale taki, który nie czyści całkowicie. Z butelki również wszędzie wycieka olej. Niestety zamówiłem go, gdy kończył się mój poprzedni środek czyszczący, więc zanim wypróbowałem go przez kilka dni, przegapiłem termin zwrotu. Mam nadzieję, że ta recenzja da innym do myślenia, zanim zmarnują Twoje pieniądze. Nie jestem pewien, do jakiego rodzaju produktów są przyzwyczajeni pięciogwiazdkowi recenzenci; Nie rozumiem tolerancji wobec tego, a tym bardziej szumu medialnego",
+   "tags": [
+    "cleansing",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Starałem się polubić ten produkt. Jestem w ciąży i chciałam wypróbować żel pod prysznic na bazie oleju, aby było mi trochę łatwiej. Ten produkt nie był najlepszą opcją. Szczerze mówiąc, nie spodziewałam się, że będzie to zbyt mocny olejek do mycia, ale chciałam, żeby był to dobry olejek pod prysznic, powiedziałabym, że obaj. Zapach nie jest najlepszy, nie jest trwały (nie wiem, czy to wada), nie pieni się (ale nie tego się spodziewałam), naprawdę nie mogę powiedzieć, że zapewnił mojej skórze lepsze nawilżenie. Jedyną rzeczą, która naprawdę mi się spodobała, jest pompka. Ogólnie rzecz biorąc, nawet jeśli jest to dobry rozmiar i uważasz, że cena jest tego warta, to tak nie jest! Za tę cenę można spodziewać się znacznie lepszego produktu. Dla mnie jest to typ produktu, który wypróbuję raz i nigdy więcej nie kupię",
+   "tags": [
+    "moisturizing",
+    "fragrance",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Osobiście unikałbym. Naprawdę próbowałam polubić ten produkt, ale szczerze mówiąc, jest to mój najmniej ulubiony środek czyszczący do tego stopnia, że go nienawidzę. Jest bardzo suchy na skórze i bardzo szybko wysusza skórę podczas oczyszczania, czego zwykle nie mam z tym problemem. Nie tylko produkt nie jest dobrze rozprowadzany na skórze, ale też powoduje u mnie wypryski za każdym razem, gdy go używam. Na początku myślałam, że to przeze mnie, ale potem zauważyłam, że to było za każdym razem, gdy używałam tego środka czyszczącego. Wysypywałam się, gdy tylko przestałam go używać, moja skóra teraz się oczyszcza i czuje się znacznie lepiej więc jeśli masz normalną skórę, tak jak ja, radzę trzymać się z daleka od tego produktu, ponieważ zrujnuje twoją piękną skórę i spowoduje ogromne wypryski. Nie życzę tego nikomu. Mam nadzieję, że ta recenzja pomoże",
+   "tags": [
+    "dryness",
+    "breakouts",
+    "irritation",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Osobiście unikałbym. Naprawdę próbowałam polubić ten produkt, ale szczerze mówiąc, jest to mój najmniej ulubiony środek czyszczący do tego stopnia, że go nienawidzę. Jest bardzo suchy na skórze i bardzo szybko wysusza skórę podczas oczyszczania, czego zwykle nie mam z tym problemem. Nie tylko produkt nie jest dobrze rozprowadzany na skórze, ale też powoduje u mnie wypryski za każdym razem, gdy go używam. Na początku myślałam, że to przeze mnie, ale potem zauważyłam, że to było za każdym razem, gdy używałam tego środka czyszczącego. Wysypywałam się, gdy tylko przestałam go używać, moja skóra teraz się oczyszcza i czuje się znacznie lepiej więc jeśli masz normalną skórę, tak jak ja, radzę trzymać się z daleka od tego produktu, ponieważ zrujnuje twoją piękną skórę i spowoduje ogromne wypryski. Nie życzę tego nikomu. Mam nadzieję, że ta recenzja pomoże",
+   "tags": [
+    "dryness",
+    "breakouts",
+    "irritation",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie hipoalergiczny. Używałam płynu do mycia ciała LaRoche Posay Lipikar i szukałam czegoś podobnego, ale bardziej ekonomicznego. Zdecydowałam się na ten olejek pod prysznic kierując się opiniami oraz faktem, że Bioderma to marka znana z produktów bezpiecznych dermatologicznie. Niestety ten żel pod prysznic nie jest hipoalergiczny i po dwukrotnym użyciu spowodował u mnie wysypkę na całym ciele. Konsystencja płynu jest przyjemna, nie jest tłusta ani mydlana. Ponieważ nie zawiera mydła ani siarczanów, nie pieni się, co dla mnie jest w porządku, ale warto to zauważyć. Ostatecznie myślę, że jest być może zbyt ciężki/nawilżający i spowodował uwięzienie wilgoci w mojej wrażliwej skórze, co doprowadziło do wyprysków. Skończyło się na tym, że go zwróciłem",
+   "tags": [
+    "moisturizing",
+    "breakouts",
+    "irritation",
+    "atopic"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "W ogóle nie nawilża. Kupiłam go po użyciu olejku pod prysznic innej marki (Shea Moisture), myśląc, że ten jest podobny i tańszy. Cóż, dobrze mi z tym, że jest tanio. Dla porównania, nie lubię używać balsamów, bo nienawidzę niczego, co lepi się na mojej skórze. Olejek pod prysznic innej marki pozostawił mnie tak nawilżoną, że mogłam obejść się bez balsamu. A co z tą marką? Kiedy zdecydowałam się na zmianę, moje nogi przestały być miękkie i nawilżone, a stały się SUCHE. Codziennie szoruję i myję, a mimo to moja skóra jest sucha. Muszę też użyć 5-10 pompek, aby uzyskać pianę. To tyle, jeśli chodzi o oszczędzanie pieniędzy. Zapach też nie jest rewelacyjny. To rodzaj leczniczego zapachu. Ogólnie rzecz biorąc, nie poleciłbym tego",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "texture"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie. Wiązałam z tym produktem duże nadzieje, niestety nie sprawdził się na mojej skórze. Moc oczyszczania jest dość przeciętna – do usuwania lekkiego makijażu jest w porządku, ale z czymkolwiek większym radzi sobie naprawdę dobrze. Nie zmywa skutecznie makijażu oczu i ust. Na przykład, jeśli użyjesz rozświetlacza lub drobinek wokół oczu, może on nie zejść całkowicie nawet po masowaniu i spłukaniu. Poza tym nie jestem pewien, czy jest to bezpośrednio powiązane, ale po jego użyciu zacząłem mieć kilka wyprysków, czego nie doświadczyłem od dłuższego czasu. To sprawia, że ​​trochę się waham, czy dalej go używać. Ogólnie nie polecam tego produktu i nie będę go ponownie kupować",
+   "tags": [
+    "breakouts",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Rozczarowujące doświadczenie z olejkiem oczyszczającym Bioderma: efekt wysuszenia mojej skóry. Olejek oczyszczający Bioderma przyciągnął mnie po usłyszeniu entuzjastycznych recenzji od GoCleanCo (uwielbiam Sarah!), ale niestety nie sprawdził się w moim przypadku. Już po jednym użyciu moja skóra była napięta i sucha, co utrzymywało się nawet po tygodniu stosowania, co skłoniło mnie do zwrotu. Zapach jest lekki i przyjemny, zgodny z opisem. Jednakże środki powierzchniowo czynne, takie jak kokoamfooctan sodu i glukozyd laurylowy, mogą usuwać naturalne oleje, a kwas cytrynowy może obniżać pH, przyczyniając się do wysuszenia. Chociaż obecne są w nim środki nawilżające, takie jak gliceryna, nie zrównoważyły ​​one w pełni efektu wysuszenia mojego typu skóry",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "NIEspójna jakość, NIE DOBRA DLA TWARZY. Naprawdę byłam podekscytowana wypróbowaniem tego olejku oczyszczającego! Naprawdę przeczytałam wiele recenzji na ten temat. Przeczytałam wiele badań na temat samych olejków oczyszczających, ponieważ mam do czynienia z dużą ilością suchej, tłustej, szorstkiej skóry na twarzy, na której zaczynają pojawiać się ciemniejsze plamy. A co do nadprodukcji sebum…. Czytałam, że może to być spowodowane wysuszeniem twarzy. Po przeczytaniu recenzji innych osób na temat olejku oczyszczającego, miałam wielką nadzieję, że olejek pomoże mojej twarzy stać się mniej suchą, co zapobiegnie nadmiernemu wytwarzaniu sebum i powstawaniu mniej problemów. Zamówiłem dwie butelki. Tak się ucieszyłem!!! Pierwszą butelkę umieściłem pod prysznicem, a drugą w drugiej łazience, w której zwykle biorę prysznic kilka razy w tygodniu. Konsystencja olejku w pierwszej buteleczce była dużo gęstsza i pieniąca się przy bardzo dobrym nałożeniu wody i zużywał się o wiele mniej niż przy drugiej buteleczce. Olejek z drugiej butelki był bardzo wodnisty przed nałożeniem wody i nie pienił się tak bardzo jak w przypadku drugiej butelki! Naprawdę nie jestem pewien, co się tam dzieje. Zamówiłem drugą butelkę około tydzień po zamówieniu pierwszej butelki i zapłaciłem prawie dwukrotnie wyższą cenę! Nie jestem zbyt zadowolona, ​​że ​​zapłaciłam podwójną cenę za butelkę o połowę gorszej jakości. A teraz o działaniu olejku… Po przestudiowaniu zasad prawidłowego stosowania olejku nałożyłam olejek na suchą skórę przed wejściem pod prysznic. Pod prysznicem spłukałam go bardzo dobrze, a następnie użyłam kostki kosmetycznej Dove, aby upewnić się, że nie pozostał na nas żaden osad, który mógłby zatykać pory. Już po pierwszym użyciu moja skóra była bardzo miękka. Nie czułam potrzeby stosowania balsamu czy innego kremu nawilżającego!!! Byłam tak zachwycona, że ​​powiedziałam mężowi, że musi spróbować! ! Po około tygodniu… zacząłem dużo wypryskiwać na twarzy, klatce piersiowej i plecach. mój mąż też tak zrobił!!! Kontynuowałem jego używanie przez kilka tygodni, ponieważ wiem, że czasami, gdy nakładam coś nowego na twarz, potrzeba tygodnia lub dwóch, aby usunąć wszystkie zanieczyszczenia ze skóry, jednak wypryski nadal występowały!!! Nie jestem pewien, która butelka spowodowała wybuch, jeśli była to jedna, druga lub obie. Jak już wspominałam, konsystencja olejku w każdej buteleczce była zupełnie inna. Dlatego przestałam go używać na twarz i teraz używam go tylko do golenia nóg i pach! Nie mam z tym problemu, łamię sobie nogi czy pachy, ale nie będę już go używać na twarzy ani górnej części ciała, ponieważ za każdym razem, gdy to robię lub robi to mój mąż, dostajemy wyprysków! Daję mu trzy gwiazdki, bo świetnie się go używa do golenia, ale NIE polecam nikomu do twarzy. Jestem pewien, że nie. Każdy ma z tym problemy. Rozbijanie twarzy. mój mąż i ja mieliśmy te problemy i dałem temu szansę na kilka tygodni. Skóra każdego jest inna. Myślę, że warto wspomnieć o różnicach w konsystencji dwóch butelek, które kupiłem w odstępie tygodnia. Jedna miała bogatą, oleistą konsystencję, która bardzo dobrze się pieniła po nałożeniu wody.  Druga butelka była naprawdę wodnista i słabo się pieniła po nałożeniu wody. Wiem, że używa go moja córka i nie miała żadnych skarg na drugie opakowanie, które moim zdaniem jest gorszej jakości… Nie powiedziałabym, że nie kupiłabym go ponownie. Po prostu nie kupiłbym go ponownie w tym celu, w jakim kupiłem go pierwotnie!  Nie sądzę, że druga butelka była warta ponad 30 dolarów, które zapłaciłem. Pierwsza butelka o jakości tej pierwszej butelki była o wiele warta więcej, niż za nią zapłaciłem",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "breakouts",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Pompa pękła w transporcie. Jeśli spojrzysz na zdjęcia w innych komentarzach, to właśnie to przydarzyło się mojemu. Górna część wystawała, gdy pudełko z pompką odrywało się, co nie zrobiło na mnie większego wrażenia, ponieważ wydaje się, że jest to często powtarzany problem, może pomogłoby, gdyby producenci umieścili butelkę w pudełku. Na początku jest to drogi produkt, ale powinien wystarczyć na długo, ale aby go użyć, będę musiał go zlać. Teraz go użyłam, zwykle używam oleju kokosowego do kąpieli i szoruję jedną z tych szorujących gąbek z płynem do mycia ciała. Tym razem nie użyłam oleju kokosowego, bo pokładałam duże nadzieje w olejkowych właściwościach tego produktu, oleju nie widać, jedynie gliceryna sprawia, że ​​jest tłusty. Pieni się, wmasowałem go, a następnie spłukałem, nic nie zostało na skórze. Po wyschnięciu nadal miałam suchą, swędzącą skórę, której nigdy nie mam, jeśli dodam olej kokosowy. Będę go używać, aż wszystko zniknie, ale dołączę też olej kokosowy do kąpieli. Nie sądzę, że kupię go ponownie",
+   "tags": [
+    "irritation",
+    "texture",
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Niezapieczętowane... Przybyło bez plomby zabezpieczającej. Opinia: Produkt dotarł w pudełku, lecz bez oryginalnego plomby, co wzbudziło we mnie nieufność podczas jego stosowania. Ogólnie rzecz biorąc, moje doświadczenia są nieco przeciętne, ponieważ zamówiłem produkt z wielkim entuzjazmem i dotarł on nieuszczelniony. ✅ Co mi się podobało: Cóż, produkt, mimo że przybył bez plomby, wyglądał na dobrej jakości, ale z oczywistych powodów będąc produktem kosmetycznym i do twarzy, daje pewną niepewność. używać go bez fabrycznej plomby zabezpieczającej. Nie jestem w stanie go szczerze ocenić, gdyż nie był używany. Z drugiej strony Amazon zachował się bardzo uczciwie i dokonał zwrotu pieniędzy nie tylko za ten produkt, ale także za inne produkty tej samej marki, które dotarły w takich samych warunkach. ⚠️Co bym poprawił: Fabryczna plomba zabezpieczająca. Krótko mówiąc uważam, że jak na tak drogi produkt i że pochodzi on z „fabrycznego” powinien posiadać wszystkie uszczelki, gdyż narażamy naszą skórę",
+   "tags": [
+    "texture",
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Niezapieczętowane... Przybyło bez plomby zabezpieczającej. Opinia: Produkt dotarł w pudełku, lecz bez oryginalnego plomby, co wzbudziło we mnie nieufność podczas jego stosowania. Ogólnie rzecz biorąc, moje doświadczenia są nieco przeciętne, ponieważ zamówiłem produkt z wielkim entuzjazmem i dotarł on nieuszczelniony. ✅ Co mi się podobało: Cóż, produkt, mimo że przybył bez plomby, wyglądał na dobrej jakości, ale z oczywistych powodów będąc produktem kosmetycznym i do twarzy, daje pewną niepewność. używać go bez fabrycznej plomby zabezpieczającej. Nie jestem w stanie go szczerze ocenić, gdyż nie był używany. Z drugiej strony Amazon zachował się bardzo uczciwie i dokonał zwrotu pieniędzy nie tylko za ten produkt, ale także za inne produkty tej samej marki, które dotarły w takich samych warunkach. ⚠️Co bym poprawił: Fabryczna plomba zabezpieczająca. Krótko mówiąc uważam, że jak na tak drogi produkt i że pochodzi on z „fabrycznego” powinien posiadać wszystkie uszczelki, gdyż narażamy naszą skórę",
+   "tags": [
+    "texture",
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Mocny zapach perfum!. Kupiłam go w nadziei, że usunie mineralny filtr przeciwsłoneczny z ciała (który nie schodzi łatwo!) w taki sam sposób, w jaki używam olejku do demakijażu. Niestety, nie pomogło to zbytnio w usunięciu filtra przeciwsłonecznego; to nie jest tak super oleista konsystencja, na jaką liczyłam. Czuję się trochę bardziej nawilżona, więc to plus, ale nie sądzę, że mogę przeboleć ten zapach. Wiedziałam przed zakupem, że będzie miał zapach, ale to bardzo mocne perfumy kwiatowe (osobiście nie jestem ich fanką) w odróżnieniu od typowych płynów do mycia ciała. Wydaje się jednak, że zapach nie utrzymuje się na skórze zbyt długo, jeśli w ogóle. Zapach może stanowić problem dla osób o wrażliwej skórze (dla których myślałem, że ten produkt był przeznaczony na rynek), więc nie jestem pewien, dlaczego go dodano? Ogólnie jestem rozczarowany, ale jeśli lubisz tego typu perfumowany zapach i szukasz tylko środka czyszczącego (a nie podwójnego oczyszczenia), spróbuj. Butelka jest ogromna, więc powinna starczyć na długo!",
+   "tags": [
+    "moisturizing",
+    "fragrance",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Zapalenie skóry. W moim przypadku bardzo dobrze zadziałał na skórę ciała i twarzy, która była bardzo wrażliwa i sucha, a ze strony dermatologicznej nic mi jeszcze nie pomogło. Wydałam mnóstwo pieniędzy, kupując wszystko, co mi zalecił lekarz, dopóki nie polecił mi tego produktu.  Kiedy przyszedł, pobiegłem go wypróbować i umyłem ręce i twarz, ale prawie natychmiast poczułem swędzenie w dłoniach, na co nie zwróciłem uwagi, myśląc, że to spowodowane czymś innym... ale po kilku dniach dostałem egzemy na rękach, dużo swędzenia, zaczerwienienia, miejsc ze stanami zapalnymi, suchej i popękanej skóry na palcach... Odstawiłem na jakiś czas i użyłem ponownie zgodnie ze wskazaniami mojej derma, ale efekt na rękach był taki sam. Nie wiem dlaczego na reszcie ciała. Nie... ale nie da się go używać na rękach! Szkoda, bosko pachnie, reszta ciała jest super miękka i nawilżona... ale to nie dla mnie... Szukam innego olejku pod prysznic, który nie powoduje zapalenia skóry.",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "atopic"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Niesamowity!. To coś niesamowitego! Poszukałam informacji na temat środków czyszczących zawierających olejki i zdecydowałam się wypróbować ten. Zapach jest BARDZO mocny. Już po jednym użyciu zauważyłam różnicę! Mam skórę suchą/mieszaną. Moje czoło i policzki są zawsze suche i łuszczące się, podczas gdy inne miejsca są tłuste. Próbowałem wielu środków do mycia wrażliwej skóry, ale niezależnie od tego, co robię, wysuszają moją skórę. Myślę, że ma to związek z wodą, w której mieszkam. Tak czy inaczej, już po jednym użyciu nie miałam żadnych płatków, suchych plam czy tłustej skóry. Następnie sięgnęłam po intensywny balsam Atoderm. Jeśli zmagasz się z cerą suchą/mieszaną, jest to produkt dla Ciebie. Używam go tylko do mycia twarzy, więc starcza mi na długo. Gdyby Bioderma dodała do tego wersję bezzapachową, byłaby to dla mnie ocena 5/5. Ale jestem skłonna go trzymać ze względu na wyniki. Edytuj: Ostatecznie dałem mu 3/5 gwiazdek, ponieważ zapach przyprawiał mnie o ból głowy. Niestety musiałam przestać go używać!",
+   "tags": [
+    "dryness",
+    "fragrance",
+    "atopic",
+    "value"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Działa dobrze, ale potrzebuje nowego dozownika. To był mój pierwszy olejek oczyszczający, jakiego użyłam. Wcześniej zamiast tego stosowałam balsam oczyszczający jako pierwszy krok w mojej rutynie podwójnego oczyszczania. Produkt bardzo dobrze radzi sobie z demakijażem i filtrem przeciwsłonecznym. Nie ma tak naprawdę zapachu, a biorąc pod uwagę ilość produktu, jego cena jest całkiem przyzwoita. Otrzymałaby 5 gwiazdek, gdyby miał inny dozownik. Nie jestem pewna, czy trafiłam na wadliwą butelkę, ale produkt wycieka spod pompki. Musiałem zasadniczo umieścić dozownik na tacy, aby złapać wyciekający produkt i zapobiec bałaganowi na blacie łazienki. W tym momencie nie jestem pewien, ile produktu marnuje się w wyniku wycieku. Mamy nadzieję, że zdecydują się zaktualizować swoje dozowniki na lepsze, jeśli zamierzają je odświeżyć",
+   "tags": [
+    "fragrance",
+    "cleansing",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie emulguje. Nie byłem pewien, jak to ocenić, ponieważ produkt mi się podobał, ale nie tego się spodziewałem. Zamówiłem to, mając nadzieję, że będę mógł użyć tego jako pierwszego środka czyszczącego w mojej podwójnej rutynie oczyszczania. Potrzebuję czegoś emulgującego do demakijażu oczu. Ten produkt tego nie zrobił. Nie przeczytałem wszystkich części opisu produktu, więc może to był mój błąd, sądząc, że ten produkt będzie służył temu celowi. Jednakże myślę, że byłby to świetny środek do mycia ciała lub jako środek do mycia twarzy w ramach jednej rutynowej pielęgnacji skóry. Nie przejmowałem się też mocnym zapachem. Nie pachniało źle, ale liczyłem na brak lub niewielki zapach. Zapach pozostał na mojej opasce, której używam do mycia twarzy. Byłby wspaniały jako środek do mycia ciała lub twarzy dla skóry wrażliwej lub suchej, ale pamiętaj o zapachu",
+   "tags": [
+    "fragrance",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "To żel do twarzy. Zacznę od tego, że używałam go do twarzy. W opisie jest napisane, że jest to olejek oczyszczający, ale jest to zwykły żel oczyszczający. Czyli tak napisali, bo zawiera większy procent olejku w preparacie i przez to jest delikatniejszy dla skóry? Nie. Przynajmniej na mojej tłustej/zanieczyszczonej skórze po umyciu twarz jest lekko ściągnięta (co nie zdarzało mi się przy innych żelach do twarzy) i myślę, że jest to spowodowane tym, że po oczyszczeniu nadal czuje się na twarzy lekką warstwę produktu (nie jest łatwo usunąć z twarzy każdy ślad tego żelu), który zamiast zmiękczyć skórę, w moim przypadku ją wysusza. Mogę go polecić, ale natychmiast po nałożeniu zastosuj przyjemny krem ​​nawilżający, nawet jeśli masz tłustą skórę",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Przytłaczający zapach. Niestety zapach tego produktu uniemożliwia mi jego użycie. Sam produkt jest świetny, przekroczył moje oczekiwania pod względem konsystencji i skuteczności. Ale zapach jest wystarczająco silny, aby zakryć zapach rozkładającego się padliny i odpędzić złe duchy. Jestem dość wrażliwa na zapachy, ale uwielbiam naturalne profile. To jest super kwiatowe, sztuczne i OBfite. Musiałam wrócić pod prysznic, żeby to zmyć, bo przylgnęło do mnie w sposób, który mogę opisać jedynie jako duszący. Nie przeczytałam składu, żeby sprawdzić jaki zapach został użyty przed zakupem, więc mój błąd. Jeśli jednak lubisz mocne, długotrwałe kwiatowe zapachy - produkt ten będzie Ci w pełni odpowiadał. Ponownie, wszystko inne w tym jest 5-gwiazdkowym",
+   "tags": [
+    "fragrance",
+    "atopic",
+    "texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Pojawiło się bez dyszy. Więc myślę, że to moja wina, że ​​nie otworzyłem od razu po dostarczeniu, bo teraz jestem za oknem, żeby wrócić, ale nie otworzyłem go od razu, bo zostało mi jeszcze trochę płynu do mycia ciała, a zamówiłem ten produkt już wcześniej i nigdy nie miałem problemu, więc nie sądziłem, że będą jakieś problemy… jednak okazało się, że nie ma dyszy. Sprawdziłem paczkę. Sprawdziłem ziemię, czy nie spadła w transporcie i nie wypadła z paczki podczas jej otwierania. Ale tak, absolutnie nie ma dyszy i byłem bardzo dokładny w poszukiwaniach. Trochę to smutne, chyba będę musiał odkręcić górną część za każdym razem, gdy jej użyję, co nie jest tak naprawdę wielką sprawą, po prostu denerwuje",
+   "tags": []
+  },
+  {
+   "r": 3,
+   "t": "Nie jest to najlepsza alternatywa dla shu uemura. Szukałam alternatywy dla mojego olejku oczyszczającego shu uemura, bo jest strasznie drogi. Podoba mi się to, że produkt ma czyste składniki i jest tańszą alternatywą, ale moim największym zastrzeżeniem jest to, że jest super gęsty i nie tak skuteczny jak mój olejek oczyszczający shu uemura. Mam wrażenie, że słabo radzi sobie z usuwaniem makijażu. Mimo podwójnego oczyszczania nadal mam pozostałości makijażu. Uważam też, że z jakiegoś powodu bardzo wysusza. Mam cerę tłustą, mieszaną. Uważam, że olejek oczyszczający shu uemura jest rzadszy, lepiej się pieni i dokładniej usuwa makijaż. Chciałem go pokochać, ale niestety nie był dla mnie odpowiedni",
+   "tags": [
+    "dryness",
+    "cleansing",
+    "texture",
+    "value"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Czyści doskonale. Olejek stosowałam wyłącznie rano przez 3 tygodnie. Olejek dobrze się pieni i dobrze oczyszcza skórę. Na opakowaniu widnieje informacja, że ​​olejek łagodzi i nawilża skórę. Co nie ma miejsca w moim przypadku. Skóra staje się bardzo sucha i napięta. Wymaga to natychmiastowego nałożenia bogatego kremu. Moja skóra jest typu suchego. Potem na policzkach pojawiły się różowe plamy. A później na policzkach pojawiła się wysypka, która jest nadal widoczna. Z tego powodu nie mogę stosować olejku dwa razy dziennie. Niemniej jednak olejek dobrze oczyszcza pory i zapobiega powstawaniu trądziku",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "breakouts",
+    "irritation"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Czyści doskonale. Olejek stosowałam wyłącznie rano przez 3 tygodnie. Olejek dobrze się pieni i dobrze oczyszcza skórę. Na opakowaniu widnieje informacja, że ​​olejek łagodzi i nawilża skórę. Co nie ma miejsca w moim przypadku. Skóra staje się bardzo sucha i napięta. Wymaga to natychmiastowego nałożenia bogatego kremu. Moja skóra jest typu suchego. Potem na policzkach pojawiły się różowe plamy. A później na policzkach pojawiła się wysypka, która jest nadal widoczna. Z tego powodu nie mogę stosować olejku dwa razy dziennie. Niemniej jednak olejek dobrze oczyszcza pory i zapobiega powstawaniu trądziku",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "breakouts",
+    "irritation"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "OK, ale NIE KUPUJ!!. Ten olejek oczyszczający dobrze zmywa makijaż, filtry przeciwsłoneczne itp. Zawiera jednak składniki zatykające pory i nie jest najlepszy dla skóry skłonnej do trądziku. Nie jestem w stanie określić, czy rzeczywiście mnie zrujnował, ale wiem, że istnieją inne olejki oczyszczające, które są znacznie lepsze dla skóry skłonnej do trądziku. Nie jest to zły olejek oczyszczający, określiłabym go jako dobry, jakieś 4/5 dla skóry normalnej. Radziłabym jednak zamiast tego sięgnąć po olejek oczyszczający Anua – jest tańszy, lepszy dla skóry skłonnej do trądziku i nie ma zapachu. Dlatego napisałem „nie kupuj” w tytule lol, ten jest przyzwoity, ale ten anua jest w lepszej cenie i po prostu lepszy ogólnie",
+   "tags": [
+    "breakouts",
+    "fragrance",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wysuszył moją skórę. Trudno zrecenzować ten produkt, ponieważ mydła działają różnie na różnych ludzi. Każdy ma inny typ skóry. Jednak z mojego doświadczenia wynika, że ​​jako „nawilżający” produkt czyszczący nie spodziewałam się, że moja skóra będzie wysuszona podczas jego stosowania. Ale tak się stało. Po tygodniu musiałam oddać go innemu domownikowi, bo moja pomenopauzalna skóra z każdym użyciem stawała się coraz bardziej sucha. Nie wiem, czy inni ludzie będą mieli ten sam problem, czy nie. Marka jest doskonała.  Używam kremu nawilżającego marki CeraVe i uważam, że jest najlepszy ze wszystkich. U mnie ten kosmetyk po prostu się nie sprawdził",
+   "tags": [
+    "moisturizing",
+    "dryness"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wysuszył moją skórę. Trudno zrecenzować ten produkt, ponieważ mydła działają różnie na różnych ludzi. Każdy ma inny typ skóry. Jednak z mojego doświadczenia wynika, że ​​jako „nawilżający” produkt czyszczący nie spodziewałam się, że moja skóra będzie wysuszona podczas jego stosowania. Ale tak się stało. Po tygodniu musiałam oddać go innemu domownikowi, bo moja pomenopauzalna skóra z każdym użyciem stawała się coraz bardziej sucha. Nie wiem, czy inni ludzie będą mieli ten sam problem, czy nie. Marka jest doskonała.  Używam kremu nawilżającego marki CeraVe i uważam, że jest najlepszy ze wszystkich. U mnie ten kosmetyk po prostu się nie sprawdził",
+   "tags": [
+    "moisturizing",
+    "dryness"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Daje radę – nie jest najlepszy dla skóry skłonnej do trądziku. Kupiłam ten olejek do stosowania jako olejek do mycia twarzy. Jeśli używasz makijażu lub mineralnego kremu z filtrem przeciwsłonecznym, będzie to przyzwoita opcja, aby usunąć te produkty na noc. Jeśli jednak masz skórę skłonną do trądziku lub bardzo wrażliwą, ten olejek oczyszczający nie poradzi sobie wystarczająco dobrze z usunięciem sebum ani niczego, co znajduje się głęboko w skórze. Olejek ten nie jest na tyle lekki, aby łatwo się go rozprowadzał i bardzo szybko emulguje nawet bez wody. Jeśli zamiast tego potrzebujesz płynu do mycia ciała, który pozostawi skórę nawilżoną, to jest to dobry produkt dla Ciebie. TLDR: Jest lepszy do mycia ciała niż do mycia twarzy",
+   "tags": [
+    "moisturizing",
+    "breakouts",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Przyzwoite, ale nie najlepsze dla mnie. Wiązałam duże nadzieje z tym oczyszczającym olejkiem i chociaż radzi sobie całkiem nieźle z rozkładem makijażu i filtrów przeciwsłonecznych, nie do końca spełnił moje oczekiwania. Konsystencja jest przyjemna i lekka, dość dobrze się spłukuje, nie pozostawiając tłustej warstwy. Jednak stwierdziłam, że nie usunął całkowicie całego mojego makijażu, zwłaszcza wodoodpornego tuszu do rzęs, i nadal potrzebowałam drugiego oczyszczenia. Pozostawił też po sobie lekko tłustą skórę, co nie jest idealne dla mojej mieszanej skóry. Może działałby lepiej w przypadku suchszych typów skóry, ale dla mnie był po prostu w porządku. Nie straszne, ale nie moje ulubione",
+   "tags": [
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Produkt idealny, ale.... Olejek pod prysznic jest świetny dla osób, które mają suchą skórę i/lub częste podrażnienia. Butelka z pompką jest bardzo praktyczna, dozuje się odpowiednią dawkę produktu. Nie trzeba wiele dodawać. Na początku przeszkadzać może fakt, że olejek się nie pieni, ale szybko można się do tego przyzwyczaić. Nie ma konkretnego zapachu, który byłby dla mnie idealny. Zatem produkt sam w sobie jest idealny, ALE... Chciałem go zamówić ponownie i jest to zimny prysznic, którego cena wzrosła prawie dwukrotnie w ciągu nieco ponad miesiąca. Więc mówię nie! To wyjaśnia 2 gwiazdki mniej",
+   "tags": [
+    "irritation",
+    "fragrance",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wątpię, żeby nie był oryginalny. CeraVe Feuchtigkeitsspendendes Reinigungsöl to przyzwoity środek czyszczący, szczególnie dla osób o skórze normalnej i bardzo suchej. Zapewnia delikatne oczyszczanie bez podrażniania skóry i zawiera 3 niezbędne ceramidy, które pomagają utrzymać barierę skórną. Jednak konsystencja jest dość gęsta i oleista, a całkowite spłukanie może zająć trochę czasu. Niektórzy użytkownicy mogą uznać go za nieco ciężki, szczególnie jeśli jest stosowany na twarzy. Opakowanie może również stać się śliskie lub brudne po użyciu. Ogólnie jest dobry dla skóry suchej lub wrażliwej, ale nie jest idealny, jeśli wolisz lżejszy, szybko spłukujący środek czyszczący",
+   "tags": [
+    "irritation",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wątpię, żeby nie był oryginalny. CeraVe Feuchtigkeitsspendendes Reinigungsöl to przyzwoity środek czyszczący, szczególnie dla osób o skórze normalnej i bardzo suchej. Zapewnia delikatne oczyszczanie bez podrażniania skóry i zawiera 3 niezbędne ceramidy, które pomagają utrzymać barierę skórną. Jednak konsystencja jest dość gęsta i oleista, a całkowite spłukanie może zająć trochę czasu. Niektórzy użytkownicy mogą uznać go za nieco ciężki, szczególnie jeśli jest stosowany na twarzy. Opakowanie może również stać się śliskie lub brudne po użyciu. Ogólnie jest dobry dla skóry suchej lub wrażliwej, ale nie jest idealny, jeśli wolisz lżejszy, szybko spłukujący środek czyszczący",
+   "tags": [
+    "irritation",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Produkt świetna dostawa nie tak bardzo. Kupiłem dwa i przyszedł tylko jeden. Ten, który przyszedł, pojawił się w ten sposób (góra ułamana). Myślałem, że pękł w pudełku (co przyrównałbym do mnie), ale nic tam nie było, więc zakładam, że właśnie otrzymałem taki, który jest uszkodzony. W rzeczywistości jest to świetny produkt i mam gotową butelkę, chciałem tylko zachować go w magazynie, więc kupiłem więcej. Trochę rozczarowany brakiem opieki, ale kupiłbym go ponownie, mam nadzieję, że za trzecim razem będę miał lepsze doświadczenia. Jeśli nie, myślę, że spróbuję znaleźć go gdzie indziej niż Amazon",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "To nie jest to, co jest w opisie. Kupiłam z myślą o opisie produktu (olejek, piana) I nie jest to olejek, ani się nie pieni. Jest to żel, który nie ślizga się jak olej. Po nałożeniu i dodaniu wody nie pieni się, można dodać wody, żeby „wykonać oczyszczanie”. Mam cerę tłustą i nie jestem wrażliwa, więc o innych aspektach nie mogę mówić, u mnie oczyszcza normalnie, wymaga użycia wody, w przeciwieństwie do tego, który stosowałam w oleju i można go zmywać mokrymi ręcznikami bez konieczności użycia wody. Chciałam go podwójnie oczyszczanie i bez konieczności używania wody, ale nie wiem, czy można",
+   "tags": [
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Silny zapach. Wiele zalet tego olejku oczyszczającego. Olejki oczyszczające są bardzo delikatne i ten jest dobry. Bardzo dobry dla suchej skóry. - Myje czyściej niż inne olejki, których używałam. - Niacynamid mówi Twojemu ciału, aby się pospieszył i uzupełnił barierę lipidową skóry. Wymaga to czasu i konsekwencji, ale wynik mówi sam za siebie. - Technologia terapii barierowej skóry pomaga zapobiegać przyleganiu bakterii Staph do skóry. - Świetna wartość! 1 litr za 33 CAD i wkłady za 25 CAD nie mają sobie równych w przypadku tej jakości olejku oczyszczającego. Kupiłem ten produkt głównie ze względu na technologię terapii barierą skórną, aby zapobiec zaostrzeniu egzemy przez Staph. Wydał mi się również dobrym, długotrwałym, bardzo delikatnym środkiem czyszczącym pod względem stosunku jakości do ceny. Niestety wątpię, czy kupię kolejną butelkę. Dlaczego? Przede wszystkim ma silny zapach. Zwykle w przypadku egzemy powinieneś kupować produkt bezzapachowy. Substancje zapachowe są często wymieniane jako jedna z głównych przyczyn alergicznego kontaktowego zapalenia skóry. Ludzie twierdzili, że zapach tego produktu jest wyjątkowo delikatny i trzeba przyznać, że jak dotąd nie pogorszył on mojego egzemy. Nadal wolałbym wersję bezzapachową i szczerze mówiąc, jest ona o wiele silniejsza, niż się spodziewałem. Jeśli jesteś przyzwyczajona do produktów perfumowanych, może jest to dla ciebie normalne, nie wiem, ale jako facet z egzemą wszystkie moje produkty są bezzapachowe, więc przyzwyczajenie się do tego wymaga trochę czasu. Osoby w recenzjach twierdziły, że jest to zapach neutralny pod względem płci, ale szczerze mówiąc, dla mnie pachnie jak perfumy damskie. Nie ma w tym nic złego i sam w sobie nie jest to zły zapach, ale jest dla mnie zbyt mocny i nie jest to zapach, który lubię wąchać na swoim ciele. Jest to zapach, który nie zmywa się i nie pozostaje na skórze. Pierwotnie kupiłam go do stosowania na całe ciało, łącznie z twarzą, ale musiałam przestać używać go na twarz, szczególnie ze względu na zapach. Wątpię, czy kupię kolejną butelkę, gdy ta się skończy. I ostatnia uwaga: chociaż lekko się pieni, nie pieni się tak bardzo, jak się spodziewałem. Myślę, że problem polega na tym, że wcześniej używałem La Roche Posay Lipikar Oil AP+ (bezzapachowy) i ten produkt, zwłaszcza, ma dość dużą piankę. Przynajmniej według standardów oleju AP+ Syndet pieni się bardziej niż olej AP+. Bioderm trudniej jest rozprowadzić na owłosionej części mojego ciała. Bardzo chciałbym, aby ta firma opracowała wersję tego produktu bezzapachową!",
+   "tags": [
+    "irritation",
+    "fragrance",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wysokiej jakości olejek oczyszczający z małymi obszarami do poprawy. Kupiłam jakiś czas temu nawilżający olejek do mycia twarzy CeraVe i jak na razie jestem z niego bardzo zadowolona. Zdecydowanie zasługuje na cztery gwiazdki, nawet jeśli jest jeszcze nad czym pracować. Przede wszystkim olejek doskonale spełnia swoją podstawową funkcję oczyszczającą. Z łatwością usuwa makijaż i pozostawia skórę przyjemnie czystą. Mam skórę normalną lub suchą i ten olejek oczyszczający wydaje się dobrze działać z moim rodzajem skóry. Uważam również, że składniki, zwłaszcza ceramidy i skwalan, są bardzo atrakcyjne. Pomagają wzmocnić naturalną barierę skóry i utrzymać ją nawilżoną, co zdecydowanie przynosi korzyści mojej skórze. Fakt, że produkt nie zawiera parabenów i substancji zapachowych świadczy o tym, że CeraVe dba o zdrowie i bezpieczeństwo skóry. Dzięki temu jest to dobra opcja dla osób o skórze wrażliwej lub skłonnej do alergii. Jednak zapach, choć naturalny i nie przytłaczający, nie jest moim ulubionym. Wolałabym, żeby był bezzapachowy lub miał przyjemniejszy, naturalny zapach. Uważam również, że butelka jest nieco duża i nieporęczna, co utrudnia trzymanie jej w dłoni. Pożądane byłoby mniejsze, bardziej kompaktowe opakowanie, zwłaszcza w podróży. Pomimo tych drobnych wad, Nawilżający Olejek Oczyszczający CeraVe to produkt wysokiej jakości, który z całą pewnością mogę polecić. Zapewnia delikatne, ale dokładne oczyszczenie i odżywia skórę podczas oczyszczania",
+   "tags": [
+    "moisturizing",
+    "fragrance",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wysokiej jakości olejek oczyszczający z małymi obszarami do poprawy. Kupiłam jakiś czas temu nawilżający olejek do mycia twarzy CeraVe i jak na razie jestem z niego bardzo zadowolona. Zdecydowanie zasługuje na cztery gwiazdki, nawet jeśli jest jeszcze nad czym pracować. Przede wszystkim olejek doskonale spełnia swoją podstawową funkcję oczyszczającą. Z łatwością usuwa makijaż i pozostawia skórę przyjemnie czystą. Mam skórę normalną lub suchą i ten olejek oczyszczający wydaje się dobrze działać z moim rodzajem skóry. Uważam również, że składniki, zwłaszcza ceramidy i skwalan, są bardzo atrakcyjne. Pomagają wzmocnić naturalną barierę skóry i utrzymać ją nawilżoną, co zdecydowanie przynosi korzyści mojej skórze. Fakt, że produkt nie zawiera parabenów i substancji zapachowych świadczy o tym, że CeraVe dba o zdrowie i bezpieczeństwo skóry. Dzięki temu jest to dobra opcja dla osób o skórze wrażliwej lub skłonnej do alergii. Jednak zapach, choć naturalny i nie przytłaczający, nie jest moim ulubionym. Wolałabym, żeby był bezzapachowy lub miał przyjemniejszy, naturalny zapach. Uważam również, że butelka jest nieco duża i nieporęczna, co utrudnia trzymanie jej w dłoni. Pożądane byłoby mniejsze, bardziej kompaktowe opakowanie, zwłaszcza w podróży. Pomimo tych drobnych wad, Nawilżający Olejek Oczyszczający CeraVe to produkt wysokiej jakości, który z całą pewnością mogę polecić. Zapewnia delikatne, ale dokładne oczyszczenie i odżywia skórę podczas oczyszczania",
+   "tags": [
+    "moisturizing",
+    "fragrance",
+    "atopic",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wypróbowałem je wszystkie i wszystkie są bardzo ważne!!!. Produkty Cerave'a znam i stosuję już od kilku lat, zarówno kremy do twarzy i ciała, jak i środki oczyszczające. Musiałem tylko wypróbować środek czyszczący w oleju i kupiłem go, aby używać go w pracy, ponieważ znalazłem go na Amazon za dokładnie 10 euro w formacie 470 ml. No cóż, jest naprawdę najlepszy, nie jest zbyt tłusty, właściwie przypomina żel, nie ściąga skóry (jak żaden inny płyn do mycia twarzy) i znowu jak wszystkie, można go stosować zarówno do ciała, jak i do twarzy. Jak widać, sfotografowałam wszystkie, które obecnie mam i używam: - krem ​​w piance, który ma doskonałe wykończenie, jest trochę bardziej pieniący niż pozostałe - SA, który byłby peelingiem złuszczającym z kwasem salicylowym w środku, ale to nie ogranicza jego zastosowania, wręcz przeciwnie, ponieważ jest bardzo delikatny, z powodzeniem można go stosować na co dzień. Wszystkie są bezzapachowe (krem piankowy nie ma odpowiedniej adnotacji na przodzie opakowania, ale z tyłu) i bardzo delikatne. Osobiście lubię końcowe przemyślenia. Radzę kupić największy format w najniższej cenie, jaką znajdziesz. Jedyną wadą, której nie zrozumiałam, jest PAO, we wszystkich utrzymuje się 12 miesięcy, z wyjątkiem tej wersji w oleju, która wynosi 6 miesięcy, co jest dziwne, ale w zasadzie wystarczające, aby go wykończyć… biorąc pod uwagę, że będziesz go używać na co dzień do twarzy i ciała. Dla mnie wszystkie są super promowane, kup ten, który kosztuje najmniej i bądź po bezpiecznej stronie. Ach, jestem mężczyzną 😉, tak dla podkreślenia, że ​​nie przepadam za produktami namaszczonymi",
+   "tags": [
+    "fragrance",
+    "cleansing",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wypróbowałem je wszystkie i wszystkie są bardzo ważne!!!. Produkty Cerave'a znam i stosuję już od kilku lat, zarówno kremy do twarzy i ciała, jak i środki oczyszczające. Musiałem tylko wypróbować środek czyszczący w oleju i kupiłem go, aby używać go w pracy, ponieważ znalazłem go na Amazon za dokładnie 10 euro w formacie 470 ml. No cóż, jest naprawdę najlepszy, nie jest zbyt tłusty, właściwie przypomina żel, nie ściąga skóry (jak żaden inny płyn do mycia twarzy) i znowu jak wszystkie, można go stosować zarówno do ciała, jak i do twarzy. Jak widać, sfotografowałam wszystkie, które obecnie mam i używam: - krem ​​w piance, który ma doskonałe wykończenie, jest trochę bardziej pieniący niż pozostałe - SA, który byłby peelingiem złuszczającym z kwasem salicylowym w środku, ale to nie ogranicza jego zastosowania, wręcz przeciwnie, ponieważ jest bardzo delikatny, z powodzeniem można go stosować na co dzień. Wszystkie są bezzapachowe (krem piankowy nie ma odpowiedniej adnotacji na przodzie opakowania, ale z tyłu) i bardzo delikatne. Osobiście lubię końcowe przemyślenia. Radzę kupić największy format w najniższej cenie, jaką znajdziesz. Jedyną wadą, której nie zrozumiałam, jest PAO, we wszystkich utrzymuje się 12 miesięcy, z wyjątkiem tej wersji w oleju, która wynosi 6 miesięcy, co jest dziwne, ale w zasadzie wystarczające, aby go wykończyć… biorąc pod uwagę, że będziesz go używać na co dzień do twarzy i ciała. Dla mnie wszystkie są super promowane, kup ten, który kosztuje najmniej i bądź po bezpiecznej stronie. Ach, jestem mężczyzną 😉, tak dla podkreślenia, że ​​nie przepadam za produktami namaszczonymi",
+   "tags": [
+    "fragrance",
+    "cleansing",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Stały olejek oczyszczający. Wypróbowałam Nawilżający Olejek Oczyszczający CeraVe i chciałabym podzielić się swoim doświadczeniem. Przede wszystkim podoba mi się to, że jest przeznaczony specjalnie do skóry suchej. Olejek zamknięty jest w praktycznej butelce z pompką, co ułatwia jego użycie i nie pozwala na dodatkowe marnowanie produktu. Skuteczność w usuwaniu zabrudzeń jest w miarę zadowalająca. Skutecznie oczyszcza skórę, nie wysuszając jej, co jest szczególnie ważne w przypadku skóry suchej. Pozostawia przyjemne i czyste uczucie na skórze. Produkt nie posiada nachalnego zapachu, co dla wielu będzie zapewne zaletą. Brakuje mi jednak zauważalnego nawilżenia. Choć reklamowany jest jako nawilżający, po jego użyciu nie odczułam szczególnego nawilżenia skóry. Chociaż spełnia swoją funkcję jako olejek oczyszczający, prawdopodobnie istnieją skuteczniejsze produkty nawilżające przeznaczone specjalnie dla skóry suchej. Podsumowując, nawilżający olejek oczyszczający CeraVe do skóry suchej to akceptowalny wybór w przypadku oczyszczania skóry bez jej wysuszania. Spełnia swoje zadanie, ale można go poprawić pod względem nawilżenia. Osoby o suchej skórze mogą rozważyć dodatkowe produkty nawilżające, aby zapewnić optymalną pielęgnację skóry",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Stały olejek oczyszczający. Wypróbowałam Nawilżający Olejek Oczyszczający CeraVe i chciałabym podzielić się swoim doświadczeniem. Przede wszystkim podoba mi się to, że jest przeznaczony specjalnie do skóry suchej. Olejek zamknięty jest w praktycznej butelce z pompką, co ułatwia jego użycie i nie pozwala na dodatkowe marnowanie produktu. Skuteczność w usuwaniu zabrudzeń jest w miarę zadowalająca. Skutecznie oczyszcza skórę, nie wysuszając jej, co jest szczególnie ważne w przypadku skóry suchej. Pozostawia przyjemne i czyste uczucie na skórze. Produkt nie posiada nachalnego zapachu, co dla wielu będzie zapewne zaletą. Brakuje mi jednak zauważalnego nawilżenia. Choć reklamowany jest jako nawilżający, po jego użyciu nie odczułam szczególnego nawilżenia skóry. Chociaż spełnia swoją funkcję jako olejek oczyszczający, prawdopodobnie istnieją skuteczniejsze produkty nawilżające przeznaczone specjalnie dla skóry suchej. Podsumowując, nawilżający olejek oczyszczający CeraVe do skóry suchej to akceptowalny wybór w przypadku oczyszczania skóry bez jej wysuszania. Spełnia swoje zadanie, ale można go poprawić pod względem nawilżenia. Osoby o suchej skórze mogą rozważyć dodatkowe produkty nawilżające, aby zapewnić optymalną pielęgnację skóry",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Oj, Nelly!. Zimą moja skóra bardzo się wysusza. Nakładam olejek dla dzieci jako środek nawilżający na skórę i zadziałało, więc zdecydowałam się wypróbować olejek oczyszczający, aby sprawdzić, czy to pomoże jeszcze bardziej. Po pierwsze, butelka przeciekała, kiedy ją otrzymałem. Jest to trochę kłopotliwe, ponieważ mam teraz wszędzie pełno produktów, które muszę wyczyścić. Sama butelka nie otwiera się, w przeciwieństwie do innych butelek, w których można odkręcić nakrętkę. Zgadzam się z innymi recenzentami, którzy twierdzą, że zapach jest mocny. Kiedy po raz pierwszy wypróbowałem go pod prysznicem, przytłaczający kwiatowy zapach uderzył mnie niczym tona cegieł. Jak, hurra, Nelly! Był to mocny, kwiatowy zapach starszej pani, taki, od którego można dostać bólu głowy. Nakładałam olejek na mokrą skórę i słabo się pienił, co było dla mnie wadą. Umycie całego ciała zajęło mi kilka pompek, więc nie jestem pewna, jak długo ta butelka wystarczy. Teraz, gdy moja skóra jest sucha, nadal czuję ten kwiatowy zapach. Nie jest tak mocny, ale nadal zauważalny. Myślę, że skoro jest to całkiem nowy zapach, moje zmysły są nadal na niego wyczulone. Może po kilku dniach przywyknę. Próbowałam też przemywać tym twarz i konsystencja jest gęstsza niż mój typowy olejek oczyszczający z Origins. Chyba zostanę przy Origins jeśli chodzi o moją twarz. W sumie nie jest źle, ale też nie jest jakoś szczególnie rewelacyjnie. Będę nadal używać, aby zobaczyć, czy przynajmniej pomoże mi przetrwać zimę bez konieczności zdrapywania skóry",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Porządny olejek do mycia. Szukałam dobrego olejku oczyszczającego, który usunie lekki makijaż z dnia i ogólnie poprawi wygląd mojej skóry. Ten produkt rzeczywiście pozostawia moją skórę wyglądającą świeżo i czysto, nadal nie jestem pewien, czy pomaga w zmniejszeniu widoczności porów (a to jest coś, co chcę poprawić). Konsystencja wydobywająca się z butelki przypomina olejowo-wodnistą konsystencję, ale w momencie kontaktu z twarzą i wodą zmienia się w białą, mleczną, cienką substancję o bardzo lekkim, mydlanym lub musującym wyglądzie. Chociaż muszę pompować 3 razy, aby uzyskać wystarczającą ilość produktu, aby prawidłowo nałożyć go równomiernie na całą twarz. Zmycie go jest trochę dziwne, bo naprawdę muszę użyć dużej ilości wody i spłukać, żeby całkowicie zmyć produkt. Kiedykolwiek osuszam twarz i nakładam tonik za pomocą wacika, zauważam bardzo lekkie pozostałości makijażu, które schodzą na wacik. Niekoniecznie mam coś przeciwko, ale chciałem środka czyszczącego, który skutecznie to wszystko zmyje, nie nakładam nawet dużej ilości makijażu, to minimum. Rozmiar butelki jest przyzwoity i łatwy w użyciu. U mnie nie powoduje podrażnień, a mam wrażliwą skórę. Ogólnie oceniam, że jest to przyzwoity produkt, na razie będę go używać, ale nie wiem, czy sięgnę po kolejne opakowanie, gdy mi się skończy",
+   "tags": [
+    "irritation",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Sprawił, że moja skóra stała się miękka. Zakupu tego produktu dokonałem przede wszystkim dlatego, że natknąłem się na niego na Instagramie.  Moja córka wydaje się być przekonana, że ​​na nią działa cuda, jednak muszę przyznać, że jestem trochę sceptyczna co do jego skuteczności na własnej skórze. Aplikacja polega na wmasowaniu olejku w twarz.  Zauważyłam, że po jego użyciu moja skóra była zauważalnie bardziej miękka, co z pewnością jest pozytywnym wynikiem. Jestem jednak dość powściągliwa w ocenie i będę potrzebować więcej czasu, aby określić, czy rzeczywiście może poprawić kondycję mojej twarzy. Zapach olejku jest wyraźnie cytrynowy, co o dziwo przypomina mi Skittles lub cytrynowe środki do czyszczenia szkła. Podsumowując, moje pierwsze wrażenia z tego produktu są mieszane. Chociaż miękkość, jaką nadaje mojej skórze, jest pozytywnym znakiem, jego skuteczność w walce z zaskórnikami pozostaje niepewna, zwłaszcza biorąc pod uwagę jego cenę. Będę go nadal stosować i monitorować jego wpływ na moją skórę, mając nadzieję, że ostatecznie okaże się to opłacalną inwestycją",
+   "tags": [
+    "moisturizing",
+    "breakouts",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetny dla suchej, swędzącej skóry. To mój drugi zakup tego produktu i uważam, że jest to doskonały dodatek do każdej rutynowej pielęgnacji skóry suchej, zimnej zimą. Zalety: - Po umyciu ciała szybko wcieram go w całe ciało i twarz. Następnie wykonaj szybkie płukanie. Natychmiast moja skóra staje się miękka, jedwabista i nawilżona. Lubię dodać warstwę kremu nawilżającego, gdy wychodzę spod prysznica, aby naprawdę zatrzymać całe nawilżenie – Butelka wystarcza na jakiś czas, a niewielka ilość już wystarcza – Trzymam butelkę na zlewie, aby wcierać ją w dłonie po umyciu – naprawdę pomaga w przypadku suchej skóry spowodowanej częstym myciem rąk. Wady – osobiście nie podoba mi się zapach ani zapach moich produktów. Chociaż zapach jest miękki, łagodny i przypomina zarost (większość ludzi prawdopodobnie polubiłaby jego zapach), wolałabym, żeby był bezzapachowy, ponieważ nie jest to najlepsze dla naszej skóry lub osób wrażliwych na zapachy. Gdyby nie miał zapachu, byłby dla mnie idealny! Ogólnie rzecz biorąc, warto go kupić i może stać się niezbędny w każdej rutynowej pielęgnacji skóry całego ciała!",
+   "tags": [
+    "moisturizing",
+    "irritation",
+    "fragrance",
+    "atopic"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobrze oczyszcza, ale pozostawia lekko tłustą warstwę. Używam nawilżającego piankowego olejku oczyszczającego CeraVe od kilku tygodni i ogólnie bardzo go lubię. Konsystencja różni się od tradycyjnych środków czyszczących, jest bardziej oleista niż piankowa, a po nałożeniu jest bardzo miękka na skórze. Skutecznie oczyszcza, nie wysusza, co bardzo mi się podoba, bo mam wrażliwą skórę, skłonną do podrażnień. Dodatkowo pozostawia po umyciu uczucie nawilżenia, co szczególnie odczuwalne jest zimą. Jednak jedyne, co mnie zupełnie nie przekonuje, to to, że po spłukaniu pozostawia lekko tłustą warstwę. Nie jest on przesadny, ale dla osób preferujących bardziej matowe lub suche wykończenie może być nieco niewygodny. Mimo to formuła jest doskonała i robi to, co obiecuje: oczyszcza bez naruszania bariery skóry. ⭐️⭐️⭐️⭐️Bardzo dobry produkt, tylko poprawiłby końcowe wrażenie",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "atopic"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobrze oczyszcza, ale pozostawia lekko tłustą warstwę. Używam nawilżającego piankowego olejku oczyszczającego CeraVe od kilku tygodni i ogólnie bardzo go lubię. Konsystencja różni się od tradycyjnych środków czyszczących, jest bardziej oleista niż piankowa, a po nałożeniu jest bardzo miękka na skórze. Skutecznie oczyszcza, nie wysusza, co bardzo mi się podoba, bo mam wrażliwą skórę, skłonną do podrażnień. Dodatkowo pozostawia po umyciu uczucie nawilżenia, co szczególnie odczuwalne jest zimą. Jednak jedyne, co mnie zupełnie nie przekonuje, to to, że po spłukaniu pozostawia lekko tłustą warstwę. Nie jest on przesadny, ale dla osób preferujących bardziej matowe lub suche wykończenie może być nieco niewygodny. Mimo to formuła jest doskonała i robi to, co obiecuje: oczyszcza bez naruszania bariery skóry. ⭐️⭐️⭐️⭐️Bardzo dobry produkt, tylko poprawiłby końcowe wrażenie",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "atopic"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry produkt. Olejek pod prysznic to dobry produkt, zrównoważony delikatnym, powiedziałbym prawie bezwonnym zapachem, a stosunek jakości do ceny jest całkiem dobry, w aptece cena jest na pewno wyższa. Dermatolog zalecił mi nawilżanie bez uszkadzania skóry różnymi produktami dostępnymi na rynku oraz na łagodne zapalenie skóry i muszę powiedzieć, że wydajność jest dobra, zwłaszcza że jest dość tłusty w dotyku i bardzo mało się pieni. Jednolitrowe opakowanie jest trwałe i wygodne, gdyby nie zakrętka, której nie da się zdjąć nawet granatem ręcznym, byłoby to wygoda dla dozownika pod prysznic, ale nie jest źle. Kupiłem kilka razy i nie zawiodłem się, wysyłka ok, żadnych problemów z dostawą i różne rzeczy. Ma tę zaletę, że nie jest tłusty i nie powoduje problemów ze swędzeniem, zaczerwienieniem itp. Doskonały do ​​skóry suchej. Polecany zarówno ze względu na jakość, jak i wygodę",
+   "tags": [
+    "moisturizing",
+    "irritation",
+    "fragrance",
+    "texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetny olejek do mycia twarzy - warto spróbować. To pierwszy olejek do demakijażu, jaki wypróbowałam i bardzo mi się podoba. Zdecydowanie dobrze oczyszcza – nie wiem, czy moja skóra kiedykolwiek wyglądała tak jasno. Moja skóra jest dość wrażliwa i skłonna do zaczerwienień, ale odkąd używam tego produktu nie mam żadnych problemów. Żadnych problemów z wypryskami. Zwykle używam zabarwionego kremu z filtrem przeciwsłonecznym i minimalnego makijażu, ale powiedziałbym, że pomaga to dobrze usunąć produkty. Nie mam wiele do powiedzenia na temat negatywnych stron produktu. Mam bardzo wrażliwy nos i olejek ma dość mocny zapach. Nie jest to nieprzyjemne, ale czasami może być trochę przytłaczające dla osób z wyostrzonym zmysłem węchu. Moja butelka również ma tendencję do wyciekania wokół pompki podczas użytkowania. Nie jest to duża strata produktu, ale butelka trochę się brudzi. Ogólnie oceniłbym go na 4-4,5",
+   "tags": [
+    "breakouts",
+    "irritation",
+    "fragrance",
+    "atopic"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Fantastyczny dla skóry suchej, ale nie jest fanem zapachu. Z wiekiem moja skóra staje się coraz bardziej sucha i nie przepadam za codziennym pienieniem się balsamem, więc zdecydowałam się spróbować.  Działa fantastycznie na skórę i zdecydowanie zauważyłam, że już po pierwszym użyciu moja skóra stała się bardziej miękka i mniej „napięta”. Jednak nie jestem fanką tego zapachu. Moim zdaniem ma zapach starszej pani. Ciężko mi wytłumaczyć co to za zapach, ale nie podoba mi się.  Biorąc pod uwagę, że jest to produkt przeznaczony specjalnie dla skóry wrażliwej/reaktywnej, można by pomyśleć, że będzie on pozbawiony zapachu.  Kupując go wiedziałam, że ma lekki zapach, więc zaryzykowałam, ale nie jestem fanką.  Minęła godzina od mojego prysznica, a nadal czuję ten zapach na skórze, co jest rozczarowujące.  Być może przy następnym zakupie będę szukać podobnego produktu bez zapachu",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "fragrance",
+    "atopic"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry. Nawilżający olejek do mycia twarzy CeraVe to dla mnie prawdziwy łut szczęścia i obecnie stanowi integralną część mojej codziennej pielęgnacji skóry. Mam suchą skórę i długo szukałam delikatnego środka czyszczącego – ten produkt naprawdę mnie przekonał. Byłam zachwycona już po pierwszym użyciu. Lekka konsystencja jest przyjemna dla skóry i nie pozostawia tłustego uczucia. Dzięki zawartym w nim ceramidom bariera skórna jest wzmocniona, a wilgoć dobrze magazynowana. Szczególnie podoba mi się to, jak dokładny i jednocześnie delikatny jest olejek oczyszczający. Usuwa brud, makijaż i nadmiar sebum, nie wysuszając i nie podrażniając skóry. Nawet wodoodporny makijaż zmywa się łatwo, a skóra jest po nim wypielęgnowana i nawilżona",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry. Nawilżający olejek do mycia twarzy CeraVe to dla mnie prawdziwy łut szczęścia i obecnie stanowi integralną część mojej codziennej pielęgnacji skóry. Mam suchą skórę i długo szukałam delikatnego środka czyszczącego – ten produkt naprawdę mnie przekonał. Byłam zachwycona już po pierwszym użyciu. Lekka konsystencja jest przyjemna dla skóry i nie pozostawia tłustego uczucia. Dzięki zawartym w nim ceramidom bariera skórna jest wzmocniona, a wilgoć dobrze magazynowana. Szczególnie podoba mi się to, jak dokładny i jednocześnie delikatny jest olejek oczyszczający. Usuwa brud, makijaż i nadmiar sebum, nie wysuszając i nie podrażniając skóry. Nawet wodoodporny makijaż zmywa się łatwo, a skóra jest po nim wypielęgnowana i nawilżona",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetna alternatywa dla drogich środków czyszczących na bazie oleju. Mam tłustą, mieszaną skórę i zazwyczaj stosuję olejek głęboko oczyszczający DHC jako pierwszy krok w mojej podwójnej rutynie oczyszczania. Po utracie olejku DHC na wakacjach w wiejskiej części Francji, w lokalnej aptece znalazłem olejek oczyszczający Uriage. Jest to nieco gęstszy olejek i po nałożeniu pieni się, ale uznałem go za świetny pierwszy krok w mojej codziennej pielęgnacji, więc teraz go wymieniłem i kupiłem ponownie większą butelkę – jest świetny dla wrażliwej skóry, wydaje się równoważyć moją tłustą strefę T i nie powoduje u mnie wyprysków. Również świetny stosunek jakości do ceny - o wiele tańszy niż drogie marki! Jedynym minusem jest to, że nie nadaje się do demakijażu oczu, ponieważ może lekko szczypać, dlatego polecam samodzielny płyn do demakijażu oczu, jeśli używasz go w ramach podwójnego oczyszczania skóry",
+   "tags": [
+    "breakouts",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetny produkt, słaba wysyłka. 5 gwiazdek za sam produkt, ale okropna wysyłka. Kupiłem ten żel do mycia ciała już dwa razy i absolutnie go uwielbiam – utrzymuje moją skórę miękką i nawilżoną i jest świetny dla mojej wrażliwej skóry. ALE – w obu przypadkach wystąpiły problemy ze sposobem pakowania i wysyłki produktu, więc miej to na uwadze, jeśli zamawiasz to przez Amazon. Za pierwszym razem produkt znacząco wyciekł do wnętrza pudełka, pozostawiając bałagan na werandzie i marnując część produktu. Za drugim razem (w tym tygodniu) otworzyłem paczkę i okazało się, że pompa jest uszkodzona (zdjęcie w zestawie). W pudełku nie było uszkodzonej pompy, co doprowadziło mnie do wniosku, że została świadomie zapakowana w ten sposób. Niezbyt dobrze… ale na szczęście po prostu wymienię pompę z mojej pierwszej, kiedy będę gotowy na zmianę, więc nic się nie stanie",
+   "tags": [
+    "moisturizing",
+    "atopic",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Uwielbiam ten produkt, ale opakowanie mogłoby być lepsze. Niestety moje pierwsze zamówienie zaginęło w transporcie, co było wówczas frustrujące. Jednak po skontaktowaniu się z obsługą klienta szybko odpowiedzieli i zorganizowali natychmiastową wysyłkę zamiennika, co naprawdę doceniam. Zamiennik dotarł dość szybko, ale opakowanie mogło być lepsze, ponieważ pojemnik nie był odpowiednio zabezpieczony, a pompka w momencie dotarcia do mnie uległa uszkodzeniu. Pomimo tego produktu sam produkt jest doskonały. Jestem bardzo zadowolony z jego działania, a jakość zdecydowanie spełnia moje oczekiwania. Ogólnie rzecz biorąc, chociaż przydałaby się pewna poprawa w zakresie wysyłki i pakowania, świetna obsługa klienta i jakość samego produktu sprawiają, że jest to coś, co nadal polecam",
+   "tags": [
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Naprawdę pod wrażeniem oczyszczania, ale nie sprawia wrażenia produktu luksusowego. Naprawdę dobrze zmywa makijaż, usuwa cały tusz do rzęs bez konieczności używania flaneli lub ściereczki do szorowania oczu - imponujący środek czyszczący. Używałam już wcześniej balsamu oczyszczającego Elemis. Jest to skuteczniejszy środek czyszczący, ale nie daje poczucia luksusu, do jakiego można się przyzwyczaić, jeśli używa się tego rodzaju produktów. To zupełnie inny produkt, bo się pieni. Można go również stosować do mycia ciała, nie wysuszając skóry. Kupiłem go w okazyjnej cenie i była to dobra cena (około 11 funtów). Pozostawił moją twarz nawilżoną, zauważalnie lepszą teksturę skóry. Bardzo podoba mi się ten produkt, szkoda tylko, że nie przypomina luksusowego spa – to jedyna rzecz, której mi w nim brakuje",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Naprawdę pod wrażeniem oczyszczania, ale nie sprawia wrażenia produktu luksusowego. Naprawdę dobrze zmywa makijaż, usuwa cały tusz do rzęs bez konieczności używania flaneli lub ściereczki do szorowania oczu - imponujący środek czyszczący. Używałam już wcześniej balsamu oczyszczającego Elemis. Jest to skuteczniejszy środek czyszczący, ale nie daje poczucia luksusu, do jakiego można się przyzwyczaić, jeśli używa się tego rodzaju produktów. To zupełnie inny produkt, bo się pieni. Można go również stosować do mycia ciała, nie wysuszając skóry. Kupiłem go w okazyjnej cenie i była to dobra cena (około 11 funtów). Pozostawił moją twarz nawilżoną, zauważalnie lepszą teksturę skóry. Bardzo podoba mi się ten produkt, szkoda tylko, że nie przypomina luksusowego spa – to jedyna rzecz, której mi w nim brakuje",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Uwielbiam to opakowanie lepsze od oleju pod prysznic do transportu z pompką. Używam tego świetnego olejku pod prysznic od jakiegoś czasu.  Życie w wilgotnym klimacie... używaj więcej niż mniej (przelicz).  Używaj kilka razy w tygodniu i bez wątpienia pozostawia moją skórę bardziej miękką.  Zamówione ponownie podczas Prime Days.  Tym razem górna część pompki została ułamana w pudełku z innymi produktami.  Musiało się to wydarzyć podczas dostawy, ponieważ przedostało się to tylko na zewnątrz (w większości) wszystkiego innego.  Udało mi się wszystko wyczyścić.  Na szczęście dla mnie... poprzednia butelka nie zniknęła całkowicie, użyłem tej nakrętki na nowej butelce.  Proszę albo założyć zwykłą nakrętkę na butelkę i wysłać pompkę samodzielnie, albo wymyślić lepszą metodę.  Świetny produkt",
+   "tags": [
+    "moisturizing",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "ORYGINALNE PRODUKTY. Zamówienie dotarło 3 dni później, aplikacja zawsze ostrzegała o opóźnieniu, jednak lepiej znać dokładną datę. Porozmawiajmy teraz o produkcie, zawsze docierały do ​​mnie w oryginale, z plombami gwarancyjnymi i w idealnym stanie, jednak tym razem, jak widać na zdjęciu, dotarły z hukiem, nic nie z tego świata! ale bardzo mi to przeszkadza! to jest powód jednej gwiazdki mniej. Jeśli chodzi o działanie produktu, używałam płynu do mycia skóry wrażliwej, zimą widziałam recenzje tej opcji i mogę powiedzieć, że od pierwszego użycia odczuwalne jest uczucie nawilżenia, a w połączeniu z kremem z tej samej linii są najlepsze!! Dlatego produkt jest 10/10",
+   "tags": [
+    "moisturizing",
+    "atopic",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Po 2 tygodniach stosowania. OK, więc wypróbowuję ten produkt przez dwa tygodnie, ponieważ wiem, że było wiele recenzji na temat tego, jak produkt działał po pierwszym użyciu, ale żadnej prawdziwej recenzji na temat tego, jak czuła się skóra ludzi po regularnym stosowaniu, więc zaczynamy! Pełne ujawnienie, moja skóra jest okropna. Zawsze zmagałem się ze skórą i nigdy nie udało mi się jej zapanować, a ten produkt był jedynym produktem, który zmieniłem w mojej rutynie, więc wszelkie wprowadzone ulepszenia wynikają z tego produktu. Nie zmieniałem innych etapów mojej rutyny wszystko. Tak więc już po pierwszym użyciu moja skóra była nawilżona, a produkt miał przyjemne, jedwabiste uczucie na skórze, co jest cudowne! Powiem, że przy pierwszym użyciu NIE będą pojawiać się na skórze włókna łojowe ani zaskórniki. Miałem mnóstwo nagromadzonych włókien łojowych i zaskórników, ale po kilku pierwszych użyciach nie widziałem niczego wydobywającego się z mojej skóry i nadal tak się nie dzieje, co sugeruje, że ludzie oglądali te same filmy co ja. Nie wierzę, że to się naprawdę dzieje, ale to mogła być po prostu moja skóra. Po pierwszych kilku dniach stosowania z pewnością mogłem stwierdzić, że moja skóra na to reaguje. Nie miałem wyprysków, ale zdecydowanie widziałam pojawiające się wypryski pod skórą, a ponieważ mam cerę mieszaną, niektóre części mojej skóry były suche już po samej reakcji na produkt, większość produktów, które wyciągają olej i sebum ze skóry, tak właśnie zrobi, więc nie byłam aż tak zaskoczona, ale pamiętaj o tym 😊 W żadnym wypadku nie jest to cudowne lekarstwo. Powiem tylko tyle, że konsekwentne stosowanie tego produktu ma nawet wątpliwości, czy mój koloryt skóry zredukował wiele zaskórników i nagromadzeń na skórze oraz ma zapobiegło mi suchości skóry i wypryskom, moja skóra również jest piękna, gładka i naprawdę miękka, nawet dzień po dniu przed rutynowym zabiegiem, czego nigdy wcześniej nie doświadczyłam i szczerze mówiąc, trochę mnie zaskoczył ❤️Szczerze, jeśli ten produkt ma 10 na 10 bez żadnych sztuczek, produkt jest cudowny w Twojej skórze, jest naprawdę opiekuńczy, naprawdę wyrównuje koloryt skóry i pomaga skórze z problemami, mam również skórę skłonną do trądziku i tylko jeden ze składników produktu jest w rzeczywistości kiepski zatyka, więc chociaż może to zabrzmieć przerażająco, reaguję bardzo łatwo i nie mam żadnych reakcji na ten produkt, oczywiście traktuj to z przymrużeniem oka, zawsze zawsze przeprowadzaj testy płatkowe, ale szczerze mówiąc, jestem trochę zachwycony tym produktem i będę go zamawiać ponownie. Załączam zdjęcia przed i po, oczywiście nie widać zbyt dobrze, ponieważ to po mojej rutynie i z nałożonym kremem nawilżającym, ale wierzę, że widać pewną poprawę, szczególnie po zaledwie dwóch tygodniach stosowania ❤️",
+   "tags": [
+    "moisturizing",
+    "breakouts"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Delikatne oczyszczenie dla każdej skóry. Nawilżający olejek oczyszczający CeraVe okazał się prawdziwym błogosławieństwem dla mojej skóry i stał się istotną częścią mojej codziennej pielęgnacji skóry. Jako osoba cierpiąca na suchą skórę i szukająca delikatnego oczyszczenia, uwielbiam ten produkt i chcę podzielić się moimi pozytywnymi doświadczeniami. Pierwsze wrażenia po zastosowaniu tego olejku oczyszczającego są niezwykle pozytywne. Lekka konsystencja jest delikatna dla skóry i pozostawia przyjemne, nietłuste uczucie. Formuła została wzbogacona niezbędnymi ceramidami, które pomagają wzmocnić naturalną barierę ochronną skóry i zatrzymać wilgoć. Skuteczność tego oczyszczającego olejku jest imponująca. Delikatnie i dokładnie usuwa brud, makijaż i nadmiar sebum z mojej skóry, nie wysuszając jej i nie podrażniając. Nawet wodoodporny makijaż można łatwo usunąć, a skóra jest nawilżona. Niezwykła jest także wszechstronność tego olejku oczyszczającego. Jest odpowiedni dla wszystkich rodzajów skóry, od normalnej do bardzo suchej i można go łatwo zintegrować z moją dotychczasową pielęgnacją skóry. Lubię go stosować jako pierwszy krok mojego podwójnego oczyszczania, aby jednocześnie dokładnie oczyścić i pielęgnować skórę. Tolerancja tego olejku oczyszczającego to kolejna zaleta. Nie zawiera substancji zapachowych i parabenów i został opracowany przez dermatologów, dzięki czemu jest szczególnie delikatny i tolerowany przez wrażliwą skórę. Dzięki temu mam pewność, że używam produktu bezpiecznego i skutecznego, dobrego dla mojej skóry. Ogólnie rzecz biorąc, mogę polecić nawilżający olejek oczyszczający CeraVe każdemu, kto szuka delikatnego i skutecznego oczyszczenia swojej skóry. Dzięki wysokiej jakości formule, delikatnemu działaniu i dobrej tolerancji jest idealnym wyborem dla każdego, kto szuka zdrowej i promiennej skóry",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "La Roche-Posay Lipikar Huile Lavante AP+ Recenzja – delikatny, odżywczy płyn do mycia ciała. **La Roche-Posay Lipikar Huile Lavante AP+ Recenzja – delikatny, odżywczy płyn do mycia ciała dla suchej i wrażliwej skóry ** Stosuję ten płyn do mycia ciała od kilku miesięcy i stał się stałym elementem mojej rutyny pod prysznicem – szczególnie w chłodniejszych miesiącach, kiedy moja skóra staje się sucha i drażliwa. W przeciwieństwie do większości żeli pod prysznic, które pozostawiają moją skórę napiętą lub ściągniętą, ten bardziej przypomina zabieg nawilżający niż środek czyszczący. Konsystencja jest wyjątkowa – to formuła na bazie oleju, która po zmieszaniu z wodą zmienia się w lekką, kremową pianę. Nie pieni się tak bardzo jak zwykłe żele pod prysznic, ale to właśnie dlatego jest tak delikatny. Spłukuje się czysto, nie pozostawiając żadnych dziwnych pozostałości, a moja skóra natychmiast staje się bardziej miękka, prawie tak, jakbym już nałożyła balsam. Najbardziej wyróżnia się to, jak dobrze działa na skórę wrażliwą lub skłonną do egzemy. Czasami dostaję plamy suchości na ramionach, ale to wcale ich nie pogarsza. Formuła jest bezzapachowa (wystarczy łagodny, neutralny zapach składników) i wypełniona składnikami odżywczymi, takimi jak niacynamid i masło shea. Posiada również aprobatę dermatologów, co daje mi dodatkową pewność podczas codziennego stosowania. Butelka jest praktyczna z pompką, choć za tę cenę wolałabym, żeby była nieco większa. Trochę wystarczy, więc i tak wystarczy na chwilę, ale jeśli używasz go dla całej rodziny, możesz przebiec go szybciej. Jedyny minus? Jeśli lubisz mocno pachnące, pieniące się środki do prania, na początku może się to wydawać zbyt „kliniczne”. Ale dla każdego, kto zmaga się z suchością, wrażliwością lub po prostu chce nawilżającego oczyszczenia, jest wart każdego grosza.**Ostateczna werdykt (4,5/5)** – Jeden z najlepszych płynów do mycia ciała dla suchej, wrażliwej skóry. Nie najtańsze, ale rezultaty mówią same za siebie. Będę nadal kupować",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobrze oczyszcza i nie powoduje uczucia ściągnięcia skóry. Po kilku tygodniach stosowania Nawilżającego Olejku Oczyszczającego CeraVe, chciałabym podzielić się swoimi spostrzeżeniami. Oto, co uważam za pozytywne: - Skuteczne oczyszczanie: Olejek oczyszczający okazał się skuteczny w usuwaniu makijażu i zanieczyszczeń ze skóry. Ma przyjemną konsystencję, łatwo się rozprowadza i wmasowuje w skórę. – Nawilżanie: Produkt zapewnia nawilżenie. W przeszłości próbowałam różnych środków czyszczących i zawsze zmagałam się z uczuciem napięcia skóry. Ten problem nie występował w przypadku tego produktu, a skóra była po nim przyjemna. – Tolerancja: Moja skóra nie miała żadnych negatywnych reakcji na produkt. Olejek oczyszczający również nie pozostawia tłustego filmu po zmyciu, choć zmywanie trwa nieco dłużej niż w przypadku innych produktów. Dokładne mycie jest ważne – w przeciwnym razie poniższe produkty mogą się pienić lub rozmazywać po nałożeniu na skórę. Poniższe są neutralne i nie mają dla mnie większego znaczenia: - Zapach: nie jestem jego wielkim fanem, ale nie jest to decydujący czynnik w przypadku środka czyszczącego. Zapach również nie jest szczególnie wyczuwalny. Ponadto tym razem sprzątaczka przyjechała w języku angielskim, a nie niemieckim. Wydaje się, że w przypadku produktów CeraVe jest to kwestia szczęścia. Zamówiłem ten produkt już dwa razy i nadal będę go zamawiał w przyszłości. Ponieważ olejek oczyszczający robi to, co powinien, daję mu pięć gwiazdek i mogę go polecić. Stan na 20 listopada 2023 r",
+   "tags": [
+    "moisturizing",
+    "fragrance",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wreszcie żel czyszczący, który naprawdę robi wrażenie na całej rodzinie. Od nastolatków po mamy – w końcu żel oczyszczający, który każdy może tolerować. Z tego żelu oczyszczającego korzystają obecnie cztery osoby i to mówi wszystko. Od 13-letniej nastolatki w okresie dojrzewania, przez dwie starsze nastolatki z zanieczyszczoną, hormonalną skórą, po mnie w wieku 40 lat z bardziej wrażliwą skórą dorosłych, działa niesamowicie dobrze na każdego. A to coś, czego rzadko doświadczasz. Po oczyszczeniu Twoja skóra jest świeża, czysta i gładka, ale bez nieprzyjemnego uczucia ściągnięcia, które niestety pozostawia po sobie wiele żeli oczyszczających. Nie wysusza, nie podrażnia skóry, nie powoduje zaczerwienienia i pieczenia. Szczególnie w przypadku skóry dojrzewającej ważne było dla mnie, aby oczyszczenie było dokładne, ale jednocześnie aby bariera ochronna skóry nie została całkowicie zniszczona i ten żel właśnie to robi. Wystarczy mała pompka. Przyjemnie się pieni, łatwo rozprowadza się na wilgotnej twarzy, a mycie jest naprawdę przyjemne. Potem naprawdę masz uczucie czystej skóry, bez uczucia „pisania” i wyglądu skóry przesadnie pielęgnowanej. Rzeczywiście można zauważyć, że jest bezzapachowy i działa z ceramidami i kwasem hialuronowym. Skóra wydaje się ukojona, czysta, a jednocześnie wypielęgnowana. Myślę, że to ogromny plus, szczególnie w przypadku skóry wrażliwej lub zanieczyszczonej. Dla nas jest to teraz stały produkt w łazience i bardzo wyraźna rekomendacja zakupu",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ulubiony olejek do mycia twarzy. To mój ulubiony olejek do mycia twarzy. Mieszkałam w Korei przez kilka lat i przeprowadziłam mnóstwo badań na temat pielęgnacji skóry. Po kilku próbach i błędach znalazłem tego złego chłopca i jest on częścią mojego życia od prawie 5 lat (obecnie mam 31 lat). Kiedy nakładam makijaż, zwykle zmywam go na noc, a następnie używam tego środka czyszczącego podczas porannej rutyny. Czasami pod koniec dnia jestem zbyt zmęczona i śpię w makijażu (wiem, że to okropne). Ale kiedy myję się nim rano, zawsze usuwa tusz do rzęs, który nadal przylega do moich rzęs. Zapach jest dość łagodny. Ma nuty cytrusowe, ale nie jest przytłaczające. Jedną z moich pierwszych lekcji życia, jako rudowłosej, było to, jak postępować z wrażliwą skórą. Olejek jest niezwykle delikatny i łatwo go nałożyć na moją suchą skórę. Aby go użyć, wmasuj go w twarz przez około minutę, a następnie emulguj wodą przez kolejną minutę. Równie ważne jak mycie jest płukanie. Zawsze po użyciu tego preparatu przemywam twarz co najmniej 20 garściami wody, aby mieć pewność, że wszystko zostało dobrze spłukane. Naprawdę ciężko jest wybrać pielęgnację w oparciu o czyjąś rekomendację. Jeśli rozważasz wypróbowanie tego, powinieneś zmieniać tylko jeden element swojej pielęgnacji skóry na raz i dać mu miesiąc, zanim zdecydujesz, czy to działa, czy nie. Trzeba zobaczyć zauważalne zmiany w skórze!",
+   "tags": [
+    "fragrance",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "😍😍😍😍😍😍😍. Kocham, kocham, kocham, kocham, kocham ten produkt!!! Podoba mi się wszystko, począwszy od stosunku ceny do ilości, a skończywszy na uczuciu, jakie pozostawia na skórze. Prosty design opakowania czy butelki został zrekompensowany bardzo przyjemną dla mojego portfela ilością 🙂 Olejek oczyszczający jest bardzo subtelny, bardzo łagodny, świeży i czysty... bardzo przyjemny... 1,5 pompki więcej na oczyszczenie całej twarzy, szyi i dekoltu. Olejek bardzo dobrze się pieni, jest bardzo delikatny, naprawdę bardzo delikatny dla skóry, aż chce się przestać się nim pienić. Piankę można bardzo szybko i łatwo zmyć czystą wodą, zarówno ciepłą, jak i zimną. A kiedy twarz i resztę zostały już osuszone, moja skóra krzyczy: DZIĘKUJĘ SCHÖÖÖÖN!!!!! Skóra jest promienna, matowa, pory są delikatniejsze i naprawdę, bardzo, bardzo miękka, wręcz aksamitna. Polecam każdemu!!!!!!!!!",
+   "tags": [
+    "moisturizing",
+    "cleansing",
+    "texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olejek oczyszczający Uriage. ⭐️⭐️⭐️⭐️⭐️ Idealny dla skóry suchej i wrażliwej! Używam tego olejku oczyszczającego od kilku tygodni i mogę powiedzieć, że stał się on niezbędnym produktem w mojej codziennej pielęgnacji. Mam bardzo suchą skórę i skłonną do podrażnień, zwłaszcza zimą, ale odkąd używam olejku oczyszczającego Uriage, moja skóra jest znacznie bardziej miękka, nawilżona i nie jest już ściągnięta po prysznicu. Konsystencja jest jedwabista i łatwo emulguje w kontakcie z wodą, pozostawiając skórę czystą, ale nigdy „odtłuszczoną”. Zapach jest delikatny i nieinwazyjny, idealny nawet dla osób wrażliwych na mocne zapachy. Ponadto nie zawiera mydła, co jest dużym plusem dla osób ze skórą reaktywną. Kolejny plus: starcza na długo! Niewielka ilość wystarczy na całe ciało. Używam go również do mycia twarzy z doskonałym skutkiem: nie wysusza, nie podrażnia. ✅ Plusy: Nawilża i delikatny Odpowiedni dla całej rodziny Nie zatyka porów Doskonały stosunek jakości do ceny ❌ Wady: Duża butelka jest niezbyt wygodna w obsłudze pod prysznicem (ale jest wersja z dozownikiem) Podsumowując, gorąco polecam każdemu, kto szuka delikatnego, ale skutecznego środka czyszczącego, szczególnie dla skóry wrażliwej, suchej lub atopowej. Prawdziwy codzienny sojusznik!",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Odświeżający olejek oczyszczający do męskiej skóry. Jako mężczyzna często miałem problem ze znalezieniem produktu oczyszczającego, który nawilży moją skórę, jednocześnie ją głęboko oczyszczając. Jednak nawilżający olejek oczyszczający rozwiązał ten problem i dlatego zasługuje na wyraźną ocenę 5 gwiazdek. Stosowanie tego olejku oczyszczającego jest proste i jednoznaczne. Nie tylko usuwa brud i nadmiar sebum z mojej skóry, ale także pozostawia uczucie odświeżenia, które rewitalizuje moją skórę. Najlepsze jest to, że jednocześnie nawilża moją skórę, co jest szczególnie ważne, ponieważ męska skóra często ma skłonność do przesuszenia. Po oczyszczeniu moja skóra jest miękka i nawilżona, nie jest tłusta ani lepka. Ten olejek oczyszczający przeszedł moje oczekiwania i jest teraz integralną częścią mojej codziennej pielęgnacji skóry. Mężczyznom, którzy szukają produktu oczyszczającego, który nie tylko dokładnie oczyści, ale także nawilży i pozostawi uczucie odświeżenia, mogę jedynie polecić ten olejek oczyszczający. Zdecydowanie zasługuje na ocenę 5 gwiazdek",
+   "tags": [
+    "moisturizing",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo dobry!. Pomimo, że jest on skierowany bardziej do osób o suchej skórze, przynajmniej tak twierdzi opakowanie, ja, która mam skórę normalną lub tłustą, używałam go do regulowania tłustości twarzy, a w konsekwencji do zmniejszania porów. Oprócz olejku oczyszczającego stosuję także niacynamid La Roche i sprawdza się bardzo dobrze, mam wrażenie, że mniej się tłuści, a pory się zmniejszyły. Nie używam go codziennie, zazwyczaj co drugi dzień, gdyż jego głównym celem jest usunięcie zanieczyszczeń z życia codziennego oraz produktów, których używam na co dzień, np. filtrów przeciwsłonecznych. Pojawiły mi się zaskórniki, które wydawały się być pozostałością tych produktów i mimo że codziennie stosowałam żel oczyszczający, to nie wystarczało. Co więcej, udało mi się kupić produkt w trakcie promocji, dzięki czemu był znacznie tańszy, był zdecydowanie najtańszym z olejków czyszczących. Ach, produkt można stosować na całe ciało, ale także na włosy i jest idealny dla osób bardziej wrażliwych, co nie jest moim przypadkiem.",
+   "tags": [
+    "breakouts",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fantastyczny produkt. Używam olejku do twarzy i ciała Uriage do skóry suchej i skłonnej do atopii i szczerze mówiąc, jest to jeden z najlepszych produktów, jakie znalazłam, jeśli chodzi o łagodzenie i ochronę mojej skóry. Moja skóra jest bardzo sucha, swędząca i łatwo ją podrażnia, ale ten olejek zrobił ogromną różnicę. Formuła nie zawiera substancji zapachowych ani mydła, dzięki czemu jest idealna dla skóry wrażliwej lub reaktywnej. Zawiera 19% gliceryny i masło shea, dzięki czemu głęboko nawilża, nie pozostawiając tłustego filmu. Po jego użyciu moja skóra jest natychmiast ukojona, wygodna i odżywiona – uczucie napięcia i swędzenia znikają niemal natychmiast. Bardzo doceniam jego delikatność – mogę go używać zarówno do twarzy, jak i ciała, nawet w przypadku zaostrzeń, bez żadnych podrażnień. Pomaga także utrzymać nawilżenie przez cały dzień, szczególnie podczas zimnej lub suchej pogody. Ogólnie rzecz biorąc, jest to fantastyczny produkt dla każdego, kto ma bardzo suchą, atopową lub wrażliwą skórę. Przywraca komfort, zmniejsza swędzenie, pozostawia skórę miękką i chronioną. Zdecydowanie must-have na co dzień!",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dokładnie oczyszcza, przyjemnie pachnie i jest wyjątkowo delikatny dla skóry. Doświadczenia i zastosowanie Jest to zdecydowanie najlepszy olejek do mycia twarzy, jakiego kiedykolwiek używałam. Konsystencja jest dość gęsta, co osobiście uważam za bardzo przyjemne. Nie pieni się – jeśli więc oczekujesz pieniącego się produktu do mycia twarzy, powinnaś o tym wiedzieć. Zapach jest subtelny i przyjemny. Już po jednym lub dwóch użyciach zauważyłam, że moja skóra wygląda na znacznie gładszą i czystszą. Zaskórniki są naprawdę łatwiejsze do usunięcia bez wysuszania i napinania skóry. Potencjał poprawy. Cena na Amazonie jest dość wysoka. Jeśli często zamawiacie azjatyckie produkty kosmetyczne, czasami na innych stronach można dostać olejek taniej, zwłaszcza przy większych zamówieniach z darmową dostawą. Wnioski i rekomendacje Pomimo ceny, jest warty każdego centa. Jest to produkt oryginalny, dostawa była szybka i niezawodna. Żadna inna marka nie zrobiła na mnie dotychczas takiego wrażenia – absolutna rekomendacja!",
+   "tags": [
+    "dryness",
+    "breakouts",
+    "fragrance",
+    "cleansing"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Moja skóra jest wdzięczna!!!. Jestem bardzo zadowolony i podekscytowany!!!!  Moja skóra nie swędzi już ani nie jest napięta po prysznicu; jest optymalnie zaopatrzony w wilgoć. Olejek ma bardzo przyjemny, świeży zapach, przypominający górskie powietrze, przypominający perfumy. W końcu znalazłam produkt do pielęgnacji skóry, który nie wysusza mojej skóry! Mam skórę atopową i zimą przy włączonym grzejniku w mieszkaniu bardzo swędzi mnie skóra i może się łuszczyć po kąpieli, szczególnie po twardej wodzie i ten sposób mnie uratował!!! Mogę go polecić tylko osobom posiadającym wrażliwą lub atopową skórę. Używałam tego olejku nie tylko pod prysznicem, ale także do mycia twarzy i rąk, szczególnie w chłodne dni. Nie wysuszył rąk, a to dla mnie bardzo ważne! Dlatego w ciągu półtora miesiąca zużyłam go tak dużo. U nas nie kupujesz kosmetyków, kupujesz naturalne dobro swojej skóry!",
+   "tags": [
+    "dryness",
+    "irritation",
+    "fragrance",
+    "atopic"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo delikatny dla skóry. Olejku oczyszczającego Uriage używam już od jakiegoś czasu i muszę przyznać, że stał się on jednym z moich ulubionych produktów do codziennego oczyszczania. Jest szczególnie odpowiedni dla osób o wrażliwej, suchej lub „napiętej” skórze po prysznicu, ponieważ dzięki zawartości 25% gliceryny pozostawia skórę miękką i odżywioną, bez uczucia ciężkości i tłustości. Uriage to marka, którą znam od lat i która wyróżnia się produktami termalnymi na bazie wody, dobrze tolerowanymi i przeznaczonymi specjalnie dla delikatnej skóry. Również w tym przypadku formuła nie zawiera mydła, ma fizjologiczne pH, dzięki czemu nie podrażnia i nie powoduje zaczerwienień. Konsystencja jest przyjemna, tworzy delikatną pianę i łatwo się spłukuje. Używam go zarówno do twarzy, jak i ciała, jest świetny także dla dzieci. Opakowanie o pojemności 1 litra jest niezwykle wygodne i wystarcza na długo. Gorąco polecam każdemu, kto szuka skutecznego, ale niezwykle delikatnego środka czyszczącego. Cena nie jest wysoka jak na produkt wysokiej jakości, a w każdym razie jest to duża ilość. Trwa to bardzo długo",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "atopic"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Niesamowite rezultaty w bardzo krótkim czasie. Naprawdę zastanawiam się, dlaczego nie przerzuciłam się na olejek pod prysznic znacznie wcześniej. Używam go od dwóch tygodni zamiast mojego starego mydlanego żelu pod prysznic i różnica jest niesamowita. Moja skóra nie jest już sucha i łamliwa po kąpieli, nie ma nieprzyjemnego uczucia ściągania ani swędzenia. Zamiast tego miękki, zadbany, po prostu dobry. Olejek łatwo się aplikuje i spłukuje nie pozostawiając śladów. Wcześniej obawiałam się, że będzie tłusty, ale nic takiego. Ale to, co naprawdę mnie zaskoczyło: moje ręce. Od lat są chronicznie suche i popękane, a ja już się z tym prawie pogodziłam. Już po dwóch tygodniach są bardziej delikatne i zadbane niż przez długi czas. Żadnych pęknięć, żadnej szorstkiej skóry, po prostu miękka. Nie spodziewałbym się tego. Jeśli masz wrażliwą lub suchą skórę i nadal polegasz na konwencjonalnym żelu pod prysznic, po prostu zmień go. Nie pożałujesz",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "atopic"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Cudowny olejek pod prysznic o świetnej pianie, pięknym zapachu i nawilżającym wykończeniu. Olejek pod prysznic Uriage (1 l) to fantastyczny dodatek do mojej pielęgnacji. Tworzy obfitą pianę, co jest imponujące jak na olejek pod prysznic i sprawia, że ​​jest on jednocześnie oczyszczający i luksusowy. Używając afrykańskiej siatki stwierdzam, że dwie pompki wystarczą do umycia całego ciała, więc duża butelka starcza mi na wieki. Jedną z najmilszych niespodzianek jest zapach – jest naprawdę prześliczny i sprawia, że ​​moja mała łazienka w łazience przyjemnie pachnie podczas jego używania. Daje wrażenie spa, ale nie jest przytłaczający. Po spłukaniu moja skóra jest nawilżona, nawilżona i gładka, bez żadnych tłustych pozostałości. Nie spotkałam się też z żadnymi niepożądanymi reakcjami. Butelka z pompką o pojemności 1 l jest wygodna i łatwa w użyciu, szczególnie pod codzienny prysznic. Ogólnie jest to wysokiej jakości, delikatny olejek pod prysznic, który pięknie się pieni, cudownie pachnie i pozostawia skórę miękką i odżywioną. Chętnie odkupię",
+   "tags": [
+    "moisturizing",
+    "fragrance",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Absolutnie zachwycony. Zawsze miałam suche i popękane dłonie. Nic nie pomagało. Przez lata wypróbowałem każdy krem, który był dostępny do kupienia. Niestety dopiero niedawno pomyślałam, że może to być również mydło do rąk. Następnie zamówiłem to mydło. W ciągu 1,5 dnia moje ręce stały się znacznie lepsze. Zamówiłam też krem ​​do rąk i muszę przyznać, że nie spodziewałam się, że po tylu latach będę miała tak jedwabiście miękkie dłonie w ciągu dwóch dni. Można powiedzieć, że olejek jest bezwonny. Nie widzę tego w ten sposób, ale na pewno nie pachnie perfumami czy bezsensownymi dodatkami. Pachnie bardzo delikatnie. Mimo, że jest drogi, w każdej chwili kupiłabym ten olejek oczyszczający ponownie. Absolutna rekomendacja!",
+   "tags": [
+    "moisturizing",
+    "fragrance",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "La Roche-Posay... gwarancja. Używam La Roche-Posay Lipikar Huile Lavante AP+ od jakiegoś czasu i muszę przyznać, że to naprawdę świetny produkt. To delikatny olejek oczyszczający, idealny także do skóry wrażliwej i suchej. Nie pozostawia tłustej warstwy, ale sprawia, że ​​zaraz po prysznicu staje się ona miękka, nawilżona i ukojona. Zauważyłam, że znacznie zmniejsza uczucie swędzenia i suchości, szczególnie w okresach, gdy skóra ma tendencję do większego napięcia. Zapach jest bardzo lekki i przyjemny, nieinwazyjny. Duży format z dozownikiem jest niezwykle praktyczny i starcza na długo. Doskonały stosunek jakości do ceny, biorąc pod uwagę, że do każdego użycia potrzeba niewielkiej ilości produktu. Polecam każdemu, kto ma skórę suchą, wrażliwą i skłonną do podrażnień – naprawdę robi różnicę nawet w codziennej pielęgnacji. Super wygodne opakowanie o pojemności 1 l",
+   "tags": [
+    "moisturizing",
+    "irritation",
+    "fragrance",
+    "atopic"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "wreszcie pomóc. Mam skórę atopową od lat, jest sucha przez cały rok, szczególnie sucha jest zimą, a podczas nawrotów pojawia się uczucie napięcia, swędzenie i zaczerwienienia. Jak dotąd żaden produkt nie był w stanie mi naprawdę pomóc. Niektóre były pomocne, ale nigdy nie były wystarczająco odżywione dla potrzeb mojej skóry. Aż do teraz!!! Ten olejek pod prysznic to dla mnie absolutne szaleństwo! Nawet teraz, zimą, nie muszę nakładać kremu, kiedy biorę z nim prysznic. Zamówiłam go podczas zaostrzenia i po dwóch prysznicach zaostrzenie minęło, a moja skóra wróciła do „normalności”, tj. po prostu suchej. Dzięki temu olejkowi pod prysznic moja skóra jest w doskonałej kondycji, nic się nie łuszczy, nie swędzi. Jestem z tego bardzo szczęśliwy! Tak, cena jest wysoka, ale dla mojego ciała wystarczą 1-2 muśnięcia. Z butelką wytrzymuję na długo",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "atopic"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Najlepszy olejek oczyszczający jak dotąd. Wypróbowałam już kilka, ten nie jest ani za cienki, ani za gruby. Pachnie przyjemnie ziołami, niemal leczniczo, ale mimo to przyjemnie. Rozpływa się na skórze i oczyszcza szybciej niż moje poprzednie oleje. Więcej wydostaje się po zaledwie 15-20 sekundach masażu niż przy dwukrotnie dłuższym czasie w przypadku innych olejków. Niezwykle pomocne, jeśli masz intensywną pielęgnację 🥰 uczucie skóry po zabiegu również jest świetne. Moja skóra jest po prostu jedwabiście miękka. Jednak cena jest bardzo wysoka. Prawie dwa razy droższe niż większość porównywalnych olejków... Mimo to kupiłbym go ponownie 😭 Uważam, że jest aż tak dobry. Jest jednak wystarczająco dużo tańszych alternatyw, jeśli nie przywiązujesz tak dużej wagi do czyszczenia lub nie chcesz inwestować tak dużo pieniędzy w olej",
+   "tags": [
+    "moisturizing",
+    "cleansing",
+    "texture",
+    "value"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Delikatny, nawilżający i doskonały dla skóry suchej lub wrażliwej. Konsystencja jest jedwabista i kojąca i nie podrażnia skóry jak tradycyjne płyny do mycia ciała. Zamiast tego delikatnie oczyszcza, jednocześnie pomagając przywrócić wilgoć – idealny, jeśli Twoja skóra jest napięta, swędząca lub podrażniona po prysznicu. Zauważyłam, że zaraz po użyciu moja skóra jest bardziej miękka i gładsza i nie jest sucha w ciągu dnia, jak to czasem bywa w przypadku innych kosmetyków. Bardzo podoba mi się to, że jest odpowiedni dla dorosłych, dzieci, a nawet niemowląt o bardzo suchej lub skłonnej do egzemy skórze – to oznacza, że ​​jest delikatny, ale skuteczny. Łagodna formuła i minimalny zapach sprawiają, że jest idealny dla wrażliwej skóry bez podrażnień. Jeśli szukasz płynu do mycia ciała, który oczyszcza, nie wysusza i faktycznie zwiększa nawilżenie, zdecydowanie warto go wypróbować. Gorąco polecam! 🛁✨",
+   "tags": [
+    "moisturizing",
+    "dryness",
+    "irritation",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobry dla skóry wrażliwej. Mam wrażliwą skórę, która łatwo ulega pęknięciom i największy sukces odniosłam, stosując olejki oczyszczające w porównaniu z tradycyjnymi środkami czyszczącymi. Wypróbowałem ten, ponieważ ma wysoką ocenę w Olive Young w Korei. Ten olejek jest zdecydowanie gęstszy niż większość, a emulgacja wymaga trochę więcej pracy, ale od początku nie wystąpiło ani jedno wybicie! Zapach jest stosunkowo lekki, ziołowy, leczniczy, z witaminą C, nie jest nieprzyjemny i nie utrzymuje się na skórze po spłukaniu. Teraz doceniam gęstszą formułę, ponieważ nie mam wrażenia, że ​​ściąga moją skórę i pomogła zminimalizować włókna łojowe na nosie. Mam tendencję do twardych, białych, zatkanych porów na brodzie, które zauważyłem, że poprawiło się od czasu, gdy zacząłem używać tego środka czyszczącego, a nigdy wcześniej nie miałem dużej poprawy w tym zakresie, aż do teraz!",
+   "tags": [
+    "fragrance",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wszystko super, z wyjątkiem... No cóż, testuję ten żel od kilku tygodni i muszę przyznać, że jestem pod ogromnym wrażeniem. Konsystencja jest przyjemnie kremowa i sprawia wrażenie naprawdę luksusowej na skórze. Dużym plusem jest cudowny zapach, który utrzymuje się długo i za każdym razem daje uczucie świeżości. Kolejną pozytywną rzeczą jest to, że moja skóra po kąpieli jest naprawdę miękka i odżywiona. Często mam problemy z suchą skórą, ale od kiedy stosuję ten żel oczyszczający, sytuacja znacznie się poprawiła. Jeśli jednak miałbym wskazać jedną małą uwagę krytyczną, byłoby to opakowanie. Choć wygląda atrakcyjnie, jest trochę nieporęczny. Ogólnie jestem bardzo zadowolony z tego produktu i zdecydowanie mogę go polecić",
+   "tags": [
+    "moisturizing",
+    "fragrance",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Świetny olejek oczyszczający. Uwielbiam produkty Manyo do pielęgnacji skóry. W zeszłym roku zamówiłam podróżny zestaw do pielęgnacji skóry – zawierał olejek oczyszczający, krem ​​oczyszczający, tonik, serum i krem ​​nawilżający. Wow! moja skóra promieniała. Zawsze korzystałam z wysokiej jakości produktów do pielęgnacji skóry, ale nie znałam tej linii, dopóki nie użyłam produktów z ich podróżnego zestawu do pielęgnacji skóry. Mam wrażliwą, suchą skórę. Nie ma żadnych problemów z tym produktem i wszystkimi jego produktami, ponieważ zawierają one naturalne składniki, w tym ekstrakty roślinne, które odżywiają skórę. Jest łatwy w użyciu i dobrze usuwa makijaż oraz codzienne zabrudzenia – zwilż skórę lub nałóż produkt na dłoń z odrobiną wody, aby lepiej się rozprowadzić. Odtąd będę go używać",
+   "tags": [
+    "moisturizing",
+    "atopic",
+    "cleansing",
+    "texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Szukałam czegoś niezawodnego do demakijażu i znalazłam lifehack. Olejek oczyszczający stoi na zlewie i można go używać na zawsze i do wszystkiego oprócz włosów. Skóra mieszana była kiedyś w naszym gospodarstwie niedopowiedzeniem i wielokrotnie kupowałam produkty pielęgnacyjne, aby rozwiązać ten problem. Już nie. Nie potrzebujemy już peelingów, serum, kremów, balsamów, a nawet kremu do rąk, odkąd zaczęliśmy używać do wszystkiego olejku oczyszczającego. Na początku było to dziwne, ponieważ w dotyku naprawdę różni się od zwykłego mydła, ale teraz korzyści mówią same za siebie. Suchość skóry i pryszcze uległy znacznej redukcji pomimo niestosowania innych środków. Zimą nie potrzeba było nawet kremu do rąk. Świetna rzecz!!!",
+   "tags": [
+    "breakouts",
+    "cleansing",
+    "texture"
+   ]
+  }
+ ]
+}

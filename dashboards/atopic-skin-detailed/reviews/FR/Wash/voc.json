@@ -1,0 +1,1602 @@
+{
+ "totalReviews": 57201,
+ "avgRating": 4.58,
+ "productCount": 33,
+ "cpSummary": "Kupujący to głównie osoby ze skórą suchą, bardzo suchą, wrażliwą, atopową lub ze skłonnością do egzemy/wyprysku kontaktowego, a także rodzice szukający delikatnego środka do mycia dla całej rodziny (niemowlęta, dzieci). Produkt kupowany jest jako olejek/żel oczyszczający do twarzy i ciała, często do codziennej pielęgnacji skóry problematycznej.",
+ "cpWho": {
+  "labels": [
+   "Skóra sucha / bardzo sucha",
+   "Skóra wrażliwa / reaktywna",
+   "Skóra atopowa / egzema",
+   "Rodziny z dziećmi i niemowlętami",
+   "Kupujący pod wpływem rekomendacji"
+  ],
+  "pos": [
+   24,
+   20,
+   14,
+   12,
+   8
+  ],
+  "neg": [
+   14,
+   16,
+   10,
+   3,
+   5
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Codzienna pielęgnacja",
+   "Zima / suche miesiące",
+   "Wieczorny demakijaż",
+   "W trakcie ataku egzemy"
+  ],
+  "pos": [
+   30,
+   12,
+   6,
+   8
+  ],
+  "neg": [
+   16,
+   8,
+   6,
+   6
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Twarz",
+   "Ciało (pod prysznicem)",
+   "Dłonie",
+   "Skóra głowy / włosy"
+  ],
+  "pos": [
+   26,
+   30,
+   8,
+   4
+  ],
+  "neg": [
+   14,
+   14,
+   4,
+   2
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Delikatne oczyszczanie",
+   "Nawilżenie",
+   "Bez podrażnień",
+   "Wielozadaniowość (twarz+ciało)",
+   "Usuwanie filtra / makijażu"
+  ],
+  "pos": [
+   28,
+   26,
+   20,
+   12,
+   8
+  ],
+  "neg": [
+   12,
+   22,
+   18,
+   4,
+   6
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Codzienne mycie twarzy i ciała",
+   "reason": "Najczęściej opisywane zastosowanie — jeden produkt do twarzy i całego ciała pod prysznicem.",
+   "pct": "34.0%"
+  },
+  {
+   "label": "Pielęgnacja skóry atopowej / egzemy",
+   "reason": "Stosowany przy egzemie u dzieci i dorosłych, w zgięciach łokci i kolan, w trakcie zaostrzeń.",
+   "pct": "22.0%"
+  },
+  {
+   "label": "Nawilżenie suchej skóry zimą",
+   "reason": "Kupowany na zimowe przesuszenie skóry, żeby ograniczyć uczucie ściągnięcia po prysznicu.",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Demakijaż i usuwanie filtra przeciwsłonecznego",
+   "reason": "Olejkowa formuła używana do zmywania makijażu i mineralnych/cynkowych filtrów SPF.",
+   "pct": "12.0%"
+  },
+  {
+   "label": "Mycie dla całej rodziny i niemowląt",
+   "reason": "Jeden produkt dla wszystkich domowników, w tym najmłodszych.",
+   "pct": "9.0%"
+  },
+  {
+   "label": "Golenie",
+   "reason": "Część osób stosuje żel/olejek jako środek do golenia nóg lub twarzy.",
+   "pct": "7.0%"
+  }
+ ],
+ "csSummary": "Skrajnie spolaryzowane opinie: dla wielu osób produkt to niezawodny, delikatny środek dla skóry wrażliwej i atopowej, który realnie nawilża i łagodzi. Dla dużej grupy jednak nie spełnia obietnic — podrażnia, wysusza lub zawiera perfumy mimo deklaracji ich braku. Bardzo częstym problemem, niezależnie od samej formuły, są uszkodzone opakowania i wadliwe pompki przy dostawie.",
+ "negativeTopics": [
+  {
+   "label": "Podrażnienie i reakcje skórne",
+   "reason": "Pieczenie, zaczerwienienie, pokrzywka lub wysypka mimo pozycjonowania dla skóry wrażliwej/atopowej.",
+   "pct": "26.0%",
+   "bullets": [
+    "Pieczenie i kłucie zaraz po nałożeniu",
+    "Zaostrzenie egzemy / kontaktowe zapalenie skóry",
+    "Reakcje mimo etykiety \"dla skóry wrażliwej\""
+   ],
+   "quotes": [
+    "natychmiast zaczęło palić i kłuć, a moja skóra była jasnoczerwona i obolała",
+    "Mam egzemę... po pierwszym użyciu wystąpiła u mnie okropna wysypka",
+    "ten olejek powoduje pokrzywkę na mojej skórze"
+   ]
+  },
+  {
+   "label": "Wysusza zamiast nawilżać",
+   "reason": "Produkt reklamowany jako nawilżający pozostawia skórę suchą, napiętą lub łuszczącą się.",
+   "pct": "22.0%",
+   "bullets": [
+    "Skóra napięta i ściągnięta po myciu",
+    "Brak realnego efektu nawilżenia",
+    "Łuszczenie po użyciu"
+   ],
+   "quotes": [
+    "Moja skóra pozostaje bardzo sucha i napięta",
+    "moja twarz stała się znacznie bardziej sucha",
+    "Nie nawilża szczególnie skóry suchej i bardzo suchej"
+   ]
+  },
+  {
+   "label": "Uszkodzone opakowanie i wadliwa pompka",
+   "reason": "Bardzo częste: przecieki, pęknięte butelki, brakująca lub zablokowana pompka przy dostawie.",
+   "pct": "20.0%",
+   "bullets": [
+    "Butelka dociera pęknięta i wycieka",
+    "Brak lub uszkodzenie górnej części pompki",
+    "Nakrętki, których nie da się odkręcić"
+   ],
+   "quotes": [
+    "butelka dotarła pęknięta i większość produktu się rozlała",
+    "przyszedł bez odpowiedniej pompki",
+    "czapka nie schodzi... nie ma możliwości jego wypompowania"
+   ]
+  },
+  {
+   "label": "Perfumy mimo deklaracji \"bez zapachu\"",
+   "reason": "Produkt opisywany jako bezzapachowy okazuje się mocno perfumowany, co przeszkadza alergikom.",
+   "pct": "14.0%",
+   "bullets": [
+    "Wyczuwalny, silny zapach",
+    "Zapach chemiczny lub \"stęchły\"",
+    "Problem dla osób z alergią na perfumy"
+   ],
+   "quotes": [
+    "W opisie jest napisane, że nie ma perfum, ale są perfumy. Mam alergię na perfumy",
+    "pierwsze co rzuciło mi się w oczy to nieprzyjemny, chemiczny zapach",
+    "zapach jest INTENSYWNY... sprzedawany jako przyjazny dla wrażliwej skóry"
+   ]
+  },
+  {
+   "label": "Słaba piana i konsystencja",
+   "reason": "Niewielkie pienienie i śluzowata/rozwodniona konsystencja zniechęcają część użytkowników.",
+   "pct": "10.0%",
+   "bullets": [
+    "Produkt się nie pieni lub pieni bardzo słabo",
+    "Śluzowata lub zbyt płynna konsystencja",
+    "Trzeba zużyć dużo produktu"
+   ],
+   "quotes": [
+    "produkt ten wydał mi się naprawdę śluzowaty i niezbyt pienisty",
+    "Produkt w ogóle się nie pieni",
+    "wydaje się, że został trochę rozwodniony"
+   ]
+  },
+  {
+   "label": "Skład i zmiana formuły",
+   "reason": "Zastrzeżenia do składników (SLS, PEG, konserwanty) oraz ciche zmiany receptury.",
+   "pct": "8.0%",
+   "bullets": [
+    "Drażniące surfaktanty i konserwanty",
+    "Ciche przeformułowanie produktu",
+    "Rozczarowanie \"czystością\" składu"
+   ],
+   "quotes": [
+    "drugim składnikiem jest słynny i bardzo kontrowersyjny... laurylosiarczan sodu",
+    "pod tą samą nazwą produktu sprzedawane są obecnie dwie zupełnie różne formuły",
+    "znajdziemy w nim różne PEG-y... uznane za alergeny"
+   ]
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Delikatny dla skóry wrażliwej i atopowej",
+   "reason": "Nie podrażnia, nadaje się przy egzemie i skórze reaktywnej, nawet u całej rodziny.",
+   "pct": "28.0%",
+   "bullets": [
+    "Brak podrażnień i pieczenia oczu",
+    "Odpowiedni przy egzemie i atopii",
+    "Toleruje go skóra reaktywna"
+   ],
+   "quotes": [
+    "Żel delikatnie oczyszcza, nie podrażnia wrażliwej skóry",
+    "Najlepszy produkt dla skóry atopowej",
+    "ten produkt w ogóle nie spowodował zaostrzenia egzemy"
+   ]
+  },
+  {
+   "label": "Nawilża i nie ściąga skóry",
+   "reason": "Pozostawia skórę miękką i nawilżoną, bez uczucia napięcia po myciu.",
+   "pct": "24.0%",
+   "bullets": [
+    "Skóra miękka i nawilżona po spłukaniu",
+    "Brak uczucia ściągnięcia",
+    "Ogranicza potrzebę balsamu"
+   ],
+   "quotes": [
+    "pozostawia moją skórę głęboko nawilżoną, niewiarygodnie miękką",
+    "nie pozostawia uczucia suchości skóry",
+    "Uporczywe łuszczenie się całkowicie zniknęło"
+   ]
+  },
+  {
+   "label": "Łagodzi swędzenie i objawy skórne",
+   "reason": "Realnie zmniejsza swędzenie, zaczerwienienie i wysypki, czasem \"leczy\" objawy.",
+   "pct": "16.0%",
+   "bullets": [
+    "Ustąpienie swędzenia i zaczerwienień",
+    "Poprawa stanu skóry atopowej",
+    "Zniknięcie wysypki / łuszczycy"
+   ],
+   "quotes": [
+    "W ciągu trzech dni zaczerwienienia na mojej twarzy prawie zniknęły",
+    "Jego skóra stała się prawie normalna i nie odczuwa już swędzenia",
+    "około tydzień później jego wysypka zniknęła"
+   ]
+  },
+  {
+   "label": "Wielozadaniowość i dla całej rodziny",
+   "reason": "Jeden produkt do twarzy, ciała, włosów, dla dorosłych i niemowląt.",
+   "pct": "14.0%",
+   "bullets": [
+    "Twarz, ciało i włosy w jednym",
+    "Odpowiedni dla niemowląt i dzieci",
+    "Nie szczypie w oczy"
+   ],
+   "quotes": [
+    "może go używać każdy członek rodziny",
+    "Można go nakładać na ciało lub twarz... nie szczypie w oczy",
+    "Używam go do ciała, twarzy i włosów"
+   ]
+  },
+  {
+   "label": "Dobry stosunek jakości do ceny / duży format",
+   "reason": "Duża butelka (500 ml / 1 l) wystarcza na długo, produkt zużywa się oszczędnie.",
+   "pct": "10.0%",
+   "bullets": [
+    "Duża, ekonomiczna butelka",
+    "Wystarcza na miesiące",
+    "Wystarczy niewielka ilość"
+   ],
+   "quotes": [
+    "jedna butelka wystarcza na miesiące nawet przy regularnym użytkowaniu",
+    "naprawdę dobra wartość",
+    "Butelka jest już duża (500 ml) starcza mi na miesiąc"
+   ]
+  },
+  {
+   "label": "Skuteczny w demakijażu i usuwaniu SPF",
+   "reason": "Doskonale rozpuszcza makijaż oraz mineralne/cynkowe filtry przeciwsłoneczne.",
+   "pct": "8.0%",
+   "bullets": [
+    "Usuwa gęsty cynkowy filtr SPF",
+    "Zmywa makijaż bez pocierania",
+    "Bez podrażnienia oczu"
+   ],
+   "quotes": [
+    "jak skutecznie usuwa mineralne filtry przeciwsłoneczne",
+    "rozkłada nawet gęsty, lepki cynkowy filtr przeciwsłoneczny",
+    "dobrze się zmywa, nie pociera i nie piecze"
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Luka obietnica-produkt",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Znacząca grupa osób ze skórą wrażliwą/atopową doświadcza pieczenia, wysypki lub pokrzywki mimo pozycjonowania dla tej dokładnie grupy.",
+   "implication": "Rozbieżność między obietnicą marketingową a realnym doświadczeniem najbardziej dotyka najcenniejszego segmentu — komunikacja i formuła muszą być spójne, inaczej rośnie ryzyko zwrotów i negatywnych recenzji."
+  },
+  {
+   "type": "Deklaracja składu",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Powtarza się zarzut, że produkt reklamowany jako \"bez perfum\" jest wyraźnie perfumowany, co uderza w alergików.",
+   "implication": "Niezgodność etykiety z odczuciem podważa zaufanie do marki; warto jednoznacznie rozdzielić wersję bezzapachową i zapachową w opisie i na zdjęciach."
+  },
+  {
+   "type": "Jakość dostawy",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Uszkodzone butelki, przecieki i wadliwe/zablokowane pompki to jeden z najczęstszych powodów jednej gwiazdki, niezależnie od jakości formuły.",
+   "implication": "Problem opakowaniowo-logistyczny obniża oceny \"dobrego produktu\" — poprawa pakowania i konstrukcji pompki bezpośrednio podniosłaby średnią ocenę."
+  },
+  {
+   "type": "Oczekiwanie efektu",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Część kupujących oczekuje intensywnego nawilżenia i bogatej piany, a dostaje lekki, słabo pieniący się olejek — czują się rozczarowani \"zwykłym mydłem\".",
+   "implication": "Edukacja o olejkowej, niskopieniącej formule w opisie i zdjęciach ograniczyłaby rozczarowania wynikające z błędnych oczekiwań."
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Zaufanie w segmencie atopowym",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Dla dużej grupy z egzemą/atopią produkt to niezawodny, tolerowany środek, który realnie łagodzi swędzenie i poprawia stan skóry.",
+   "implication": "To najsilniejszy argument sprzedażowy — świadectwa poprawy skóry atopowej i \"znikającej wysypki\" warto eksponować w treściach i recenzjach."
+  },
+  {
+   "type": "Nawilżenie bez ściągnięcia",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Najczęściej chwalona korzyść to skóra miękka i nawilżona bez uczucia napięcia po myciu, często eliminująca potrzebę balsamu.",
+   "implication": "Komunikat \"oczyszcza bez wysuszania\" trafia w kluczowy ból suchej skóry i powinien być głównym przekazem na listingu."
+  },
+  {
+   "type": "Wartość formatu rodzinnego",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Duże butelki (500 ml / 1 l) i oszczędne zużycie budują poczucie dobrego stosunku jakości do ceny, mimo wysokiej ceny jednostkowej.",
+   "implication": "Podkreślanie długiej żywotności produktu i przeliczenia na koszt użycia neutralizuje zastrzeżenia cenowe."
+  },
+  {
+   "type": "Wielofunkcyjność",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Jeden produkt do twarzy, ciała, włosów i demakijażu/SPF, bezpieczny dla całej rodziny, jest odbierany jako wygodny i uniwersalny.",
+   "implication": "Pozycjonowanie \"wszystko w jednym dla całej rodziny\" zwiększa postrzeganą wartość i częstotliwość użycia."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Delikatne mycie dla skóry wrażliwej/atopowej",
+   "reason": "Główny powód zakupu — potrzeba środka, który nie podrażnia i nadaje się przy egzemie.",
+   "pct": "30.0%"
+  },
+  {
+   "label": "Ulga dla suchej, napiętej skóry",
+   "reason": "Chęć nawilżenia i usunięcia uczucia ściągnięcia, zwłaszcza zimą.",
+   "pct": "22.0%"
+  },
+  {
+   "label": "Rekomendacja (influencer / znajomy / dermatolog)",
+   "reason": "Zakup pod wpływem opinii z sieci lub polecenia bliskich.",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Produkt dla całej rodziny / dzieci",
+   "reason": "Poszukiwanie jednego bezpiecznego środka dla dorosłych i niemowląt.",
+   "pct": "12.0%"
+  },
+  {
+   "label": "Zaufanie do marki dermatologicznej",
+   "reason": "Lojalność wobec marek aptecznych (Bioderma, Uriage, Topicrem, SVR).",
+   "pct": "12.0%"
+  },
+  {
+   "label": "Demakijaż i usuwanie filtra SPF",
+   "reason": "Potrzeba skutecznego, ale łagodnego zmywania makijażu i kremów przeciwsłonecznych.",
+   "pct": "8.0%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Brak podrażnień na skórze wrażliwej",
+   "reason": "Oczekiwanie, że produkt \"dla skóry wrażliwej\" nie będzie piekł ani wywoływał reakcji.",
+   "pct": "28.0%"
+  },
+  {
+   "label": "Realne nawilżenie",
+   "reason": "Skóra po myciu ma być miękka i nawilżona, a nie sucha i napięta.",
+   "pct": "24.0%"
+  },
+  {
+   "label": "Zgodność z deklaracją \"bez perfum\"",
+   "reason": "Kupujący liczą, że bezzapachowy produkt faktycznie nie zawiera perfum.",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Nienaruszone opakowanie i sprawna pompka",
+   "reason": "Butelka ma dotrzeć cała, bez wycieków, z działającą pompką.",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Satysfakcjonująca piana i konsystencja",
+   "reason": "Oczekiwanie przyjemnego pienienia i \"uczucia czystości\".",
+   "pct": "8.0%"
+  },
+  {
+   "label": "Dobra wartość za cenę",
+   "reason": "Wysoka cena ma być uzasadniona jakością i wydajnością dużego opakowania.",
+   "pct": "8.0%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "irritation",
+   "label": "Podrażnienie / reakcje"
+  },
+  {
+   "value": "drying",
+   "label": "Wysusza skórę"
+  },
+  {
+   "value": "packaging",
+   "label": "Opakowanie / pompka"
+  },
+  {
+   "value": "fragrance",
+   "label": "Zapach / perfumy"
+  },
+  {
+   "value": "foam_texture",
+   "label": "Piana / konsystencja"
+  },
+  {
+   "value": "ingredients",
+   "label": "Skład / formuła"
+  },
+  {
+   "value": "gentle_sensitive",
+   "label": "Delikatny dla wrażliwej"
+  },
+  {
+   "value": "moisturizing",
+   "label": "Nawilżenie"
+  },
+  {
+   "value": "soothing",
+   "label": "Łagodzi objawy"
+  },
+  {
+   "value": "family_multiuse",
+   "label": "Rodzina / wielozadaniowość"
+  },
+  {
+   "value": "value_size",
+   "label": "Wartość / duży format"
+  },
+  {
+   "value": "makeup_spf",
+   "label": "Demakijaż / filtr SPF"
+  }
+ ],
+ "tagStyles": {
+  "irritation": "pill-red",
+  "drying": "pill-orange",
+  "packaging": "pill-amber",
+  "fragrance": "pill-purple",
+  "foam_texture": "pill-amber",
+  "ingredients": "pill-orange",
+  "gentle_sensitive": "pill-blue",
+  "moisturizing": "pill-blue",
+  "soothing": "pill-blue",
+  "family_multiuse": "pill-purple",
+  "value_size": "pill-blue",
+  "makeup_spf": "pill-blue"
+ },
+ "reviews": [
+  {
+   "r": 1,
+   "t": "Unikaj w przypadku skóry atopowej i wyprysku kontaktowego. Olejek pod prysznic jest prezentowany jako odpowiedni do pielęgnacji skóry suchej i bardzo suchej, wrażliwej ze skłonnością do atopii, od urodzenia, do stosowania dla całej rodziny, do pielęgnacji ciała, twarzy, włosów i higieny intymnej. Wskazany jako ultra nawilżający i przeciwświądowy. Moja opinia: Absolutnie nie!! Nie, unikać w przypadku skóry atopowej i wyprysku kontaktowego. Nie nadaje się dla niemowląt i niemowląt. Nie nawilża szczególnie skóry suchej i bardzo suchej. W przypadku innych typów skóry prawdopodobnie nie będzie żadnych problemów. Olejek pod prysznic pieni się i dobrze myje. Skład niezbyt dobry pod względem: - perfum (należy ocenić według gustu), porady, których należy unikać, jeśli to możliwe, nawet jeśli zapach jest przyjemny. Nie nadaje się do skóry atopowej, wyprysku kontaktowego oraz dzieci i niemowląt.... - Benzoesan sodu może działać drażniąco na najbardziej delikatną skórę. - Sulfonian olefiny c14-16 sodu, nawet jeśli jest anionowym siarczanem, który jest łagodniejszy niż SLS, może powodować podrażnienie pomimo pożądanej przez większość z nas strony sensorycznej i pieniącej. Moja skóra jest atopowa, bardzo sucha i miejscami wyprysk kontaktowy... Mimo wszystko wypróbowałam ten produkt w poszukiwaniu dobrego olejku pod prysznic... i piouf... rozczarowałam się (olejek pod prysznic Xémose Uriage jest mniej gorszy). Niezbyt dobry wynik już po pierwszym użyciu, zauważyłem wznowienie swędzenia, a nawet uczucie ciepła. Nie pasuje mi to do mnie, a zwłaszcza do mojej skóry!! Jeśli ten komentarz może cię poprowadzić",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Unikaj w przypadku skóry atopowej i wyprysku kontaktowego. Olejek pod prysznic jest prezentowany jako odpowiedni do pielęgnacji skóry suchej i bardzo suchej, wrażliwej ze skłonnością do atopii, od urodzenia, do stosowania dla całej rodziny, do pielęgnacji ciała, twarzy, włosów i higieny intymnej. Wskazany jako ultra nawilżający i przeciwświądowy. Moja opinia: Absolutnie nie!! Nie, unikać w przypadku skóry atopowej i wyprysku kontaktowego. Nie nadaje się dla niemowląt i niemowląt. Nie nawilża szczególnie skóry suchej i bardzo suchej. W przypadku innych typów skóry prawdopodobnie nie będzie żadnych problemów. Olejek pod prysznic pieni się i dobrze myje. Skład niezbyt dobry pod względem: - perfum (należy ocenić według gustu), porady, których należy unikać, jeśli to możliwe, nawet jeśli zapach jest przyjemny. Nie nadaje się do skóry atopowej, wyprysku kontaktowego oraz dzieci i niemowląt.... - Benzoesan sodu może działać drażniąco na najbardziej delikatną skórę. - Sulfonian olefiny c14-16 sodu, nawet jeśli jest anionowym siarczanem, który jest łagodniejszy niż SLS, może powodować podrażnienie pomimo pożądanej przez większość z nas strony sensorycznej i pieniącej. Moja skóra jest atopowa, bardzo sucha i miejscami wyprysk kontaktowy... Mimo wszystko wypróbowałam ten produkt w poszukiwaniu dobrego olejku pod prysznic... i piouf... rozczarowałam się (olejek pod prysznic Xémose Uriage jest mniej gorszy). Niezbyt dobry wynik już po pierwszym użyciu, zauważyłem wznowienie swędzenia, a nawet uczucie ciepła. Nie pasuje mi to do mnie, a zwłaszcza do mojej skóry!! Jeśli ten komentarz może cię poprowadzić",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ukryta zmiana formuły – wprowadzanie klientów w błąd?. Jestem lojalnym klientem SVR Topialyse Huile Lavante w ramach subskrypcji i jestem zszokowany odkryciem, że pod tą samą nazwą produktu sprzedawane są obecnie dwie zupełnie różne formuły. Nowa wersja (partia M12) jest znacznie bardziej chemiczna – zawiera syntetyczne konserwanty, dodatek zapachowy (potencjalny alergen) i ostrzejsze detergenty – usuwając jednocześnie prebiotyczne i łagodzące składniki, dzięki którym poprzednia wersja (partia M2) była odpowiednia dla osób wrażliwych i atopowych skin.Taka cicha zmiana receptury bez jasnej komunikacji wprowadza w błąd klientów, zwłaszcza tych korzystających z abonamentu, którzy nagle otrzymują produkt o niższej jakości niż oczekiwano.Uważam, że inni klienci powinni być tego świadomi. Przejrzystość nie powinna być opcjonalna",
+   "tags": [
+    "fragrance",
+    "ingredients",
+    "gentle_sensitive",
+    "soothing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ukryta zmiana formuły – wprowadzanie klientów w błąd?. Jestem lojalnym klientem SVR Topialyse Huile Lavante w ramach subskrypcji i jestem zszokowany odkryciem, że pod tą samą nazwą produktu sprzedawane są obecnie dwie zupełnie różne formuły. Nowa wersja (partia M12) jest znacznie bardziej chemiczna – zawiera syntetyczne konserwanty, dodatek zapachowy (potencjalny alergen) i ostrzejsze detergenty – usuwając jednocześnie prebiotyczne i łagodzące składniki, dzięki którym poprzednia wersja (partia M2) była odpowiednia dla osób wrażliwych i atopowych skin.Taka cicha zmiana receptury bez jasnej komunikacji wprowadza w błąd klientów, zwłaszcza tych korzystających z abonamentu, którzy nagle otrzymują produkt o niższej jakości niż oczekiwano.Uważam, że inni klienci powinni być tego świadomi. Przejrzystość nie powinna być opcjonalna",
+   "tags": [
+    "fragrance",
+    "ingredients",
+    "gentle_sensitive",
+    "soothing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Podrażniona, wrażliwa i sucha skóra już po dwóch użyciach. Kupiłem ten zestaw produktów do pielęgnacji skóry SVR na Amazon, mając nadzieję, że poprawię moją skórę, ale niestety, zrobiło się odwrotnie. Już po dwóch użyciach moja twarz i szyja stała się podrażniona, bardziej wrażliwa, bardzo sucha, a nawet porysowana i niewygodna. Na moich zdjęciach możecie zobaczyć, jak wygląda moja skóra po ich użyciu – napięta, zaczerwieniona i niezdrowa. Postępowałam zgodnie z instrukcją i używałam tylko wskazanych produktów: żelu oczyszczającego SVR Topialyse, serum Hydracid C20 i kremów Sensifine. Moja skóra jest zazwyczaj normalna lub lekko wrażliwa, ale te produkty raczej pogorszyły jej stan niż poprawiły. Bardzo rozczarowujące w przypadku produktów reklamowanych jako odpowiednie dla skóry wrażliwej. Nie poleciłbym ich nikomu, kto ma nawet lekko wrażliwą skórę",
+   "tags": [
+    "irritation",
+    "drying",
+    "gentle_sensitive",
+    "soothing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Pokrzywka!. Chociaż wydaje się, że większość klientów osiąga świetne rezultaty, mogę potwierdzić, że ten olejek powoduje pokrzywkę na mojej skórze. Kiedy kupiłam go po raz pierwszy zimą, wydawało mi się to snem dla mojej skóry - potem wybuchły swędzące szczenięta, powodując intensywne swędzenie skóry 24 godziny na dobę, 7 dni w tygodniu. W końcu znalazłem lek przeciwhistaminowy na pokrzywkę i przeszło. Zaoszczędziłam butelkę ze względu na cenę, sądząc, że moja zimowa skóra musi być przesuszona. Jednak kiedy w tym tygodniu spróbowałam ponownie, uzyskałam podobne rezultaty. Tym razem wyrzuciłem butelkę – nie wiedząc, jaki składnik (składniki) spowodował pokrzywkę. Chciałem to pokochać",
+   "tags": [
+    "irritation",
+    "ingredients",
+    "soothing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie dla mnie. Kupiłem ten produkt ze względu na recenzje i muszę przyznać, że nie mogę pojąć ich entuzjazmu dla tego produktu. Po pierwsze, ta, którą otrzymałem, miała wadliwą pompę - ponieważ nie działała, niezależnie od tego, jak ją przekręciłem i przekręciłem. Po drugie, produkt ten wydał mi się naprawdę śluzowaty i niezbyt pienisty. Trudno było go zmyć. Na koniec nie przypadł mi do gustu zapach. Ponieważ pompa się zepsuła, musiałam przenieść ją do innego pojemnika z pompką i nie mogę jej zwrócić, bo stwierdziłam, że mi się nie podoba. Powinienem był go natychmiast zwrócić ze względu na wadliwą pompę. Nauczona lekcja",
+   "tags": [
+    "packaging",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nieodpowiedni dla skóry wrażliwej❗. Kupiłam ten drogi olejek, bo mam bardzo wrażliwą skórę i wiele alergii. Jestem bardzo zawiedziona! Moja skóra pozostaje bardzo sucha i napięta, a alergie pogłębiają się. Próbowałam wielu innych olejków oczyszczających i liczyłam, że będzie to coś niesamowitego (w tej cenie), ale tak nie jest. Uczucie na skórze po umyciu tym jest jak po umyciu mydłem do rąk w płynie. W ogóle nie polecam❗ Na rynku są inne, dużo tańsze i lepszej jakości olejki do czyszczenia",
+   "tags": [
+    "drying",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nieodpowiedni dla skóry wrażliwej❗. Kupiłam ten drogi olejek, bo mam bardzo wrażliwą skórę i wiele alergii. Jestem bardzo zawiedziona! Moja skóra pozostaje bardzo sucha i napięta, a alergie pogłębiają się. Próbowałam wielu innych olejków oczyszczających i liczyłam, że będzie to coś niesamowitego (w tej cenie), ale tak nie jest. Uczucie na skórze po umyciu tym jest jak po umyciu mydłem do rąk w płynie. W ogóle nie polecam❗ Na rynku są inne, dużo tańsze i lepszej jakości olejki do czyszczenia",
+   "tags": [
+    "drying",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zawiedziony. Używam tego żelu od lat i jest moim absolutnym ulubieńcem. Przy ostatnim zamówieniu zauważyłam pewne zmiany: opakowanie jest inne, pachnie inaczej, a żel jest o wiele bardziej płynny. Kiedy go używałam, uświadomiłam sobie, że podrażnia moje oczy, co nigdy wcześniej mi się nie zdarzało, ponieważ zawsze był to taki delikatny środek czyszczący. Ten produkt jest albo fałszywy, albo Uriage zmienił formułę i całkowicie zrujnował niesamowity produkt. Bardzo rozczarowany :(",
+   "tags": [
+    "irritation",
+    "packaging",
+    "fragrance",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Pogorszył mój egzemę. Mam egzemę i moja skóra bardzo szybko wysycha, jeśli nie nałożę balsamu zaraz po prysznicu, do tego stopnia, że ​​będę wyglądać jak jaszczurka. Pomyślałam, że ten produkt pomoże nawilżyć moją skórę, gdy biorę prysznic. Jednak po pierwszym użyciu tego produktu wystąpiła u mnie okropna wysypka i nie jestem pewien dlaczego. Pomyślałem, że reklamując go dla skóry wrażliwej, będzie bezpieczny, ale tak nie było",
+   "tags": [
+    "irritation",
+    "gentle_sensitive",
+    "moisturizing",
+    "soothing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bardzo źle. Naprawdę nie polecam. Kupiłam ten produkt z myślą o nawilżeniu skóry. Już od pierwszego użycia moja twarz stała się znacznie bardziej sucha, dodatkowo pojawiło się silne swędzenie i pieczenie oczu (choć na opakowaniu napisano: „Nie szczyp oczu”). Krótko mówiąc, wszystko wymaga przeglądu, co jest całkowitym przeciwieństwem tego, co twierdził ten produkt",
+   "tags": [
+    "irritation",
+    "drying",
+    "packaging",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nieprzyjemny zapach i brak nawilżenia. Kupiłam ten olejek z myślą o mojej suchej skórze. Po otwarciu butelki pierwsze co rzuciło mi się w oczy to nieprzyjemny, chemiczny zapach. Rzeczywiście pachniało jak zapach starszej puszki z aerozolem. Mimo to przystąpiłem do wypróbowania tego produktu. Zapach utrzymywał się na skórze i był bardzo nieprzyjemny.  Moja skóra w ogóle nie była nawilżona. Bardzo rozczarowany",
+   "tags": [
+    "fragrance",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Produkt zapachowy. W opisie jest napisane, że nie ma perfum, ale są perfumy. Po otwarciu produktu poczułem, że produkt jest perfumowany i rzeczywiście, czytając składniki na butelce, produkt jest dobrze perfumowany. Mam alergię na perfumy. Znalazłem dla mnie bezużyteczny produkt i nie mogę go zwrócić, ponieważ go otworzyłem",
+   "tags": [
+    "fragrance",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Produkt zapachowy. W opisie jest napisane, że nie ma perfum, ale są perfumy. Po otwarciu produktu poczułem, że produkt jest perfumowany i rzeczywiście, czytając składniki na butelce, produkt jest dobrze perfumowany. Mam alergię na perfumy. Znalazłem dla mnie bezużyteczny produkt i nie mogę go zwrócić, ponieważ go otworzyłem",
+   "tags": [
+    "fragrance",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ostrzeżenie.  Wybicie skóry. NIGDY nie miałam problemów ze skórą, ale to jedyny nowy produkt, który zaczęłam i walczę z kontaktowym zapaleniem skóry. Byłam dzisiaj u dermatologa i powiedziała, że ​​pomimo tego, że to przerwałam, nadal walczę z konsekwencjami.  Teraz potrzebuję kremu wzmacniającego na receptę i módlmy się, żeby się poprawiło.  Nigdy więcej tego nie próbuj.  Nie polecam",
+   "tags": [
+    "irritation"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Produkt jest świetny - Amazon wysłał uszkodzony produkt. Świetny produkt, jeśli jest prawidłowo zapakowany i wysłany. Ten przedmiot został uszkodzony, zanim jeszcze został włożony do pudełka. Brakuje górnej części pompy. Nawet nie ma gdzie w pudełku. Czy tak trudno byłoby spojrzeć na butelkę i wybrać taką, która faktycznie zadziała?",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Wadliwe opakowanie. Nie będę mógł tego spróbować. Paczka dotarła w trzech paczkach (co jest dziwne). Niestety nie otworzyłam jej od razu i po kilku godzinach cała zawartość zajęła moją podłogę. Strasznie było to wszystko sprzątać. Myślę, że zaczęło się już wadliwie. Nic nie zostało",
+   "tags": [
+    "packaging",
+    "value_size"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Uszkodzony górny zawór.  Produkt jest cudowny, kiepskie opakowanie. Górna część pojemnika została ułamana.  Nie było pompy.  Produkt jest fajny, kupiłam go córce w prezencie. Nie chciałem, żeby musiała go zwracać, więc po prostu włoży produkt do pustego pojemnika, który ma w domu",
+   "tags": [
+    "packaging",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Brak Topu Pompy. Nie mogłem się doczekać użycia tego produktu. Jednak przyszedł bez odpowiedniej pompki. Powinienem był przeczytać wszystkie recenzje stwierdzające wadliwy top. Nie jestem dobra w zwracaniu rzeczy, więc spróbuję znaleźć inny sposób, aby to wykorzystać. Dość drogo jak na wadliwy top",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Pompa nie działa. Zmuszona do otwarcia butelki i użycia „tubki” w środku, zupełnie niepraktyczna, kupiłam ten produkt dla mojego małego chłopca, a on nie może go „normalnie” używać, nauczy mnie brać tzw. produkty farmaceutyczne, przez Internet",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie dla skóry skłonnej do egzemy. Moja skóra była tak samo sucha i łuszcząca się jak przed użyciem tego kremu. Nie pozostawia na skórze żadnego filmu, jak można by się spodziewać po oleju, ale po prostu nie działa tak, jak oczekiwano. Poza tym moja skóra ze skłonnością do egzemy zaczęła na to reagować, więc musiałam go przerwać",
+   "tags": [
+    "drying",
+    "soothing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Świetny produkt (polecany w 100%), złe opakowanie. Niestety butelka dotarła pęknięta i większość produktu się rozlała. Uwielbiam tę markę, negatywna ocena nie wynika z samego produktu, który jest idealny dla skóry delikatnej czy atopowej, ale ze względu na opakowanie",
+   "tags": [
+    "packaging",
+    "gentle_sensitive",
+    "soothing",
+    "value_size"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Świetny produkt (polecany w 100%), złe opakowanie. Niestety butelka dotarła pęknięta i większość produktu się rozlała. Uwielbiam tę markę, negatywna ocena nie wynika z samego produktu, który jest idealny dla skóry delikatnej czy atopowej, ale ze względu na opakowanie",
+   "tags": [
+    "packaging",
+    "gentle_sensitive",
+    "soothing",
+    "value_size"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Bardzo pachnące. Naprawdę chciałem to polubić! Uwielbiam olejki do mycia twarzy i szukam dobrej wersji do rąk i ciała, która poradziłaby sobie z moją szalenie suchą skórą zimą. Oferują to w tak ogromnej butelce za tę cenę w porównaniu do innych marek. Wspaniale się pieni. Umyłam nim ręce zaraz po dostarczeniu i w pierwszej chwili pomyślałam, że cudownie pachnie. Jednak zapach pozostawał bardzo silny przez wiele godzin, a po pewnym czasie moje oczy zaczęły szczypać i łzawić. Nie będę go nakładać na całe ciało, bo jestem całkiem pewna, że ​​dostanę ataku astmy. Szkoda, że ​​niektóre z tych firm nie wykazały korelacji, że wiele osób z wrażliwymi problemami skórnymi to także ta sama populacja, która ma inne alergie lub problemy z oddychaniem, a my nie chcemy przytłaczających zapachów.",
+   "tags": [
+    "irritation",
+    "fragrance",
+    "foam_texture",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Jest w porządku. Kupiłem to na podstawie recenzji wideo i pomyślałem, że pomoże jako bariera dla wilgoci i przy goleniu. Powiedziano mi, że to bardzo lekki/świeży zapach, więc niektórzy mężczyźni nawet go używają. Choć zapach można uznać za lekki, jest zdecydowanie kobiecy z nutą róży, której osobiście nie lubię. Pali się również na wrażliwej skórze, jeśli jest używany do golenia, więc nie polecam dla wrażliwej skóry. Nie zauważyłam też żadnej różnicy w tym, że moja skóra była bardziej nawilżona po prysznicu, więc zdecydowanie muszę używać osobnego kremu nawilżającego. Wszystko się sumowało. Nie jestem do końca pewien, jaka jest z tego korzyść. Z pozytywnych rzeczy, jeśli nie masz nic przeciwko nutce róży, jest przyjemny w dotyku i nie jest tłusty, ani nie pozostawia tłustego filmu pod prysznicem, więc następny facet się nie poślizgnie",
+   "tags": [
+    "fragrance",
+    "gentle_sensitive",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie dla skóry wrażliwej!!. Mam bardzo suchą i wrażliwą skórę, więc kiedy znalazłam środek czyszczący, który twierdził, że jest odpowiedni dla obu rodzajów skóry, zdecydowałam się zapłacić za niego ponad 20 funtów, co dla mnie jest dużą sumą pieniędzy, ale byłam szczęśliwa, że ​​za tę cenę można dostać dużo środka czyszczącego. Jednak kiedy po raz pierwszy nałożyłem go na twarz, natychmiast zaczęło palić i kłuć, więc szybko zmyłem go z twarzy i stwierdziłem, że moja skóra jest jasnoczerwona i obolała, dodatkowo wysuszało moją skórę tak bardzo, że się łuszczyła. Od tamtej pory próbowałam nim myć ciało, ale stwierdziłam, że reaguję na niego niezależnie od tego, gdzie go użyję. Nie jest on wcale delikatny ani wrażliwy, więc każdy, kto ma naprawdę wrażliwą skórę, powinien go za wszelką cenę unikać, ponieważ nie jest to opłacalne, jeśli nie można go używać!",
+   "tags": [
+    "drying",
+    "foam_texture",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie dla skóry wrażliwej!!. Mam bardzo suchą i wrażliwą skórę, więc kiedy znalazłam środek czyszczący, który twierdził, że jest odpowiedni dla obu rodzajów skóry, zdecydowałam się zapłacić za niego ponad 20 funtów, co dla mnie jest dużą sumą pieniędzy, ale byłam szczęśliwa, że ​​za tę cenę można dostać dużo środka czyszczącego. Jednak kiedy po raz pierwszy nałożyłem go na twarz, natychmiast zaczęło palić i kłuć, więc szybko zmyłem go z twarzy i stwierdziłem, że moja skóra jest jasnoczerwona i obolała, dodatkowo wysuszało moją skórę tak bardzo, że się łuszczyła. Od tamtej pory próbowałam nim myć ciało, ale stwierdziłam, że reaguję na niego niezależnie od tego, gdzie go użyję. Nie jest on wcale delikatny ani wrażliwy, więc każdy, kto ma naprawdę wrażliwą skórę, powinien go za wszelką cenę unikać, ponieważ nie jest to opłacalne, jeśli nie można go używać!",
+   "tags": [
+    "drying",
+    "foam_texture",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie najlepsze. Kilka miesięcy temu po raz pierwszy wypróbowałam tę markę, był to olejek do mycia twarzy i był to tak dobry produkt, że chciałam wypróbować inną gamę tej marki, aby zobaczyć, który będzie lepszy. Ten produkt skutecznie oczyszcza moją skórę, nie pozostawiając żadnego suchości, co jest bardzo dobre, biorąc pod uwagę, że zwykłe żele pod prysznic powodują u mnie nieznośne suche skórki. Poza tym nie ma silnego zapachu, więc myślę, że dla niektórych osób jest to zaletą. Ale wadą jest to, że nie wytwarza tak gęstej piany jak olejek do demakijażu i dzięki temu zmywa się dużo szybciej. To wciąż bardzo dobry produkt, ale myślę, że olejek do demakijażu sprawdza się u mnie lepiej",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "family_multiuse",
+    "makeup_spf"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie pod takim wrażeniem, jak się spodziewałem. Kupiłem ten produkt pod wpływem wpływowej osoby. O ile wiem, mieszka w Kanadzie i mówiła, że ​​zimą pomaga jej to utrzymać nawilżenie skóry. Jestem w PNW, ale zimą moja skóra jest zawsze bardzo sucha. Nie jest tak zimno jak w Kalifornii, ale i tak jest o wiele zimniej, niż lubi moja skóra. Bardzo chciałam go polubić, ale niestety dla mnie to tylko mydło. W ogóle nie jest tłusty ani nawet nawilżający. Pieni się ok, nie rewelacyjnie, ale wystarczająco. Używałam go samodzielnie i zmieszałam z innymi płynami do mycia ciała i naprawdę nie widzę różnicy, czy go używałam. Najprawdopodobniej nie będę go ponownie kupować, szczególnie ze względu na cenę",
+   "tags": [
+    "drying",
+    "foam_texture",
+    "moisturizing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie nadaje się na egzemę. Jestem fanką produktów Topicrem, które uważam za poważne i skuteczne. Szczególnie lubię ich balsamy do ciała i kremy na dzień. Pomyślałam więc, że ten natłuszczony żel oczyszczający nie tylko będzie odpowiedni dla mojego syna, który cierpi na egzemę na dłoniach, ale także przyniesie mu ulgę. Faktycznie okazuje się, że żel bardzo podrażnia jego skórę. Nadal próbował go stosować, ale żel pogarszał jego egzemę. Może się mylę co do określenia atopowy, ale wydawało mi się, że obejmuje ono także egzemę",
+   "tags": [
+    "irritation",
+    "drying",
+    "soothing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Skóra atopowa, wrażliwa, reaktywna: unikaj! Nie przypadł mi do gustu ten produkt... Przeznaczony do skóry atopowej, uważam, że surfaktant jest bardzo żrący, w ogóle nie czujemy oczyszczającego efektu „oleju”. skóra głowy, ciało i twarz, moja skóra reaguje bardzo źle. Nie polecam tego produktu skórze atopowej/wrażliwej/reaktywnej",
+   "tags": [
+    "gentle_sensitive",
+    "soothing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Skóra atopowa, wrażliwa, reaktywna: unikaj! Nie przypadł mi do gustu ten produkt... Przeznaczony do skóry atopowej, uważam, że surfaktant jest bardzo żrący, w ogóle nie czujemy oczyszczającego efektu „oleju”. skóra głowy, ciało i twarz, moja skóra reaguje bardzo źle. Nie polecam tego produktu skórze atopowej/wrażliwej/reaktywnej",
+   "tags": [
+    "gentle_sensitive",
+    "soothing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie warto. Nie nawilża. Produkt w ogóle się nie pieni. Moja skóra jest miękka tylko podczas aplikacji. Po spłukaniu praktycznie go nie ma. Lotion radzi sobie lepiej. Zapach przypomina typowy zapach detergentu do prania. Nie jest to zbyt przyjemny zapach, chociaż jest delikatny. Używam tylko jako ostatni krok w celu nawilżenia skóry i nie używam go do mycia ciała. Więc jeśli chcesz kupić za jeden uniwersalny płyn do mycia ciała/nawilżający - nie rób tego. Gdy ta butelka się skończy, nie kupię ponownie. W ogóle nie warto",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "gentle_sensitive",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "produkt ultrachemiczny. To proste, drugim składnikiem jest słynny i bardzo kontrowersyjny siarczan sodu laurytosiarczan, co oznacza, że ​​myje się przemysłowym detergentem chemicznym. Ostatecznie poddałam go recyklingowi do mycia rąk po majsterkowaniu, doskonale usuwa tłuste osady, lepiej niż niektóre tzw. mydła „zrób to sam”. Sprzedawca jest doskonały (ostrożna i szybka wysyłka) i dlatego nie powinien być kojarzony z tym produktem z niższej półki (bez łączenia)",
+   "tags": [
+    "fragrance",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Słaby wpływ. Żałuję tego zakupu. W zeszłym roku wszyscy influencerzy usilnie próbowali to sprzedać, a ja dałem się na to nabrać. Zapach przypomina mi mydło dla dzieci Johnson & Johnson i przeszkadzało mi to. Tak naprawdę nie miał piany ani żadnej piany i był po prostu bardzo tłusty. Wiele osób twierdziło, że pozostawił ich skórę gładką, a ja odniosłam większy sukces, stosując inne opcje mycia ciała lub peelingu. Pominąłbym ten i zaoszczędził Twoje pieniądze!",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Uszkodzona pompa. Otrzymałem go z radością, jednak kiedy otworzyłem opakowanie, okazało się, że pompka jest zepsuta. Musiałem sprawdzić, czy uda mi się go zastąpić. Powinienem był go zwrócić, ale nie miałem czasu się męczyć. Wypróbowałam go na twarz i wydaje mi się, że trochę wysusza, a nie mam suchej skóry. Nie kupiłbym ponownie. Będę dalej szukać czegoś, co nie wysusza.h",
+   "tags": [
+    "drying",
+    "packaging",
+    "moisturizing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "OK produkt. To w porządku produkt. Dostałem to, aby zastąpić inny produkt, który został wycofany (nie Bioderma). Kupiłem pakiet uzupełniający, którego nie polecam. Pomyślałem, że będzie super, bo ma być mniej plastiku. Niestety do butelek dołączone są zakrętki, których nie można zdjąć. Więc... pakiet uzupełniający jest w pewnym sensie bezużyteczny. Tylko informacja",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Nie spełniłem oczekiwań. Bardzo się ucieszyłam z wypróbowania tego produktu, ponieważ w miesiącach zimowych moja skóra może wyschnąć. Jednak dla mojej skóry było to za dużo. Zwykle dostaję komplementy na temat mojej cery, a to zmieniło moją skórę w pryszcz. To było upokarzające. Powrót do zdrowia zajmie trochę czasu. Moja skóra była znacznie lepsza zanim użyłam tego produktu. Szkoda, że ​​nigdy tego nie próbowałem",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Przybył zepsuty. Uwielbiam ten olejek do mycia ciała i używam go od miesięcy. Zwykle zamawiam zapasowy worek uzupełniający, ale nie było go w magazynie, więc niechętnie zamówiłem mniejszą butelkę. Przyszedł uszkodzony i przeciekał na całą resztę mojej dostawy. W ten sposób wylała się połowa produktu",
+   "tags": [
+    "packaging",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie dla mnie. To nie jest zgodne z szumem, imo. Zapach jest lekki, ale z bardzo odpychającym, kwaśnym zapachem, a sam olej nie nawilża mojej suchej skóry. Prawie się zastanawiam, czy źle mnie nie wykończono, bo jest to dla mnie złe, podczas gdy wszyscy moi przyjaciele zachwycają się tym, jakie to magiczne",
+   "tags": [
+    "fragrance",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "To nie robi różnicy. Kupiłam zachęcona bardzo pozytywnymi opiniami. Niestety moim zdaniem nie ma to żadnego znaczenia. Pomimo lekkiej, ale olejowej konsystencji, nie pozostawia skóry tak nawilżonej, jak obiecuje. Doskonała kąpiel bąbelkowa o ładnym zapachu, ale nic więcej",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "To nie robi różnicy. Kupiłam zachęcona bardzo pozytywnymi opiniami. Niestety moim zdaniem nie ma to żadnego znaczenia. Pomimo lekkiej, ale olejowej konsystencji, nie pozostawia skóry tak nawilżonej, jak obiecuje. Doskonała kąpiel bąbelkowa o ładnym zapachu, ale nic więcej",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Dobry produkt, ale przybył uszkodzony. Dobry produkt, stosuję go już dłuższy czas. Dobry dla skóry delikatnej, ale także mieszanej. Jedyną wadą jest to, że produkt nie był zapakowany i dozownik zepsuł się w trakcie produktu. Nie zwracam, ponieważ pilnie potrzebuję skorzystać z produktu",
+   "tags": [
+    "packaging",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie polecam. Recenzja referencyjna.. Niestety ten produkt ma zapach stęchlizny. Na dnie butelki, w miejscu wycieku, znajduje się również włoskowate pęknięcie, więc musiałem odwrócić ją tyłem, aby zapobiec wyciekowi. Jednak pozostawia skórę nieco bardziej miękką",
+   "tags": [
+    "packaging",
+    "fragrance",
+    "moisturizing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Skuteczny i przyjemny, ale skład daleki od higienicznego zapachu!..... Czytając kartę produktu w Internecie, pomyślałam sobie, że ten żel będzie się wyróżniał tym, że będzie zawierał mniej „brudu” wchodzącego do jego składu. Faktycznie reklamowany jako: „bez perfum, bez mydła, bez barwników, bez parabenów, bez fenoksyetanolu” wydał mi się bardziej zrównoważony w stosunku do substancji wielokrotnie krytykowanych jako niezgodne z poszanowaniem zdrowia osób ich używających (patrz różne badania i artykuły opublikowane na ten temat). Również po otrzymaniu zapoznaję się z listą INCI (=lista składników) i tam jest jasne, że produkt ten nie jest tak zdrowy, jak chciałby sugerować dyskurs marketingowy Topicrem. Bo żeby wymienić tylko kilka, znajdziemy w nim różne PEG-y: PEG 200, PEG 7, czyli glikole polietylenowe uznane za alergeny i potencjalnie rakotwórcze.... Testowałam ten żel wiedząc, że mam bardzo wrażliwą, atopową skórę i że muszę codziennie używać olejku oczyszczającego, nawet podczas mycia rąk. Wynik testu: brak uczucia pieczenia skóry podczas mycia, ani ściągnięcia, ani ściągnięcia. swędzi później.  Skóra po więc powierzchownym „nawilżeniu” była stosunkowo miękka. Bez perfum, co jest idealne. Nie będę więc skreślać tego żelu, bo na pierwszy rzut oka oczyszcza, nie uszkadzając skóry, jednak warto go kupić ze świadomością jego składu. Osobiście nie używałabym tego w ogóle dla dziecka, a co dopiero dla niemowlaka. Dla mądrych... ;-)",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie można wydobyć produktu z butelki!!!😡. Podoba mi się ten olejek oczyszczający. To, czego NIENAWIDZĘ w tym produkcie, to to, że czapka nie schodzi. Może to być dobre w teorii, ALE spotkałem 2 sytuacje, w których stanowi to problem.1. Gdy produkt się kończy i znajduje się na dnie nie ma możliwości jego wypompowania. A skoro nie da się odkręcić nakrętki - trzeba ją wyrzucić.2.  Na przykład tak jak to miało miejsce dzisiaj, samochód nie był podłączony do pompy. Wszystko byłoby w porządku, gdybym mógł odkręcić korek. Ponieważ nie chcę ryzykować utraty palca przez piłowanie, jest to dla mnie bezwartościowe. Jasne, mogę dostać zamiennik, ale jest to dla mnie bardzo uciążliwe, jeśli muszę udać się do sklepu UPS w celu naprawienia szkód, których nie spowodowałem, oraz konstrukcji produktu, która w takich sytuacjach nie pozwala na inny dostęp do produktu. Może to być powód, dla którego unikałbym zakupu, nawet jeśli oznaczałoby to wydanie trochę więcej na butelkę, która pozwoli mi wykorzystać cały produkt",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Do stosowania na ciało w porządku. Jestem trochę zdezorientowany, czy jest to środek czyszczący, czy żel pod prysznic, wydaje się, że staram się mieć jedno i drugie. Zamówiłem to do stosowania jako środek do mycia twarzy, gdy chcę środka czyszczącego bez substancji aktywnych, ale kiedy przyszedł, byłem zaskoczony, widząc wiele środków powierzchniowo czynnych na bazie siarczanów, które mogą dość wysuszać. Próbuje to zrekompensować za pomocą innych składników nawilżających, ale na suchej skórze produkt może pozostawiać uczucie napięcia. Unikałabym tego również, jeśli masz wrażliwą skórę. Po jednym użyciu spowodowało to dla mnie dość dużą przerwę, więc będę używać tylko na ciele. Prawdopodobnie byłby w porządku na twarzy w przypadku skóry tłustej i niewrażliwej. Ogólnie wydaje się, że jest w porządku, jakość i dobra cena, ale poleciłbym go do stosowania na ciało, a nie na twarz",
+   "tags": [
+    "drying",
+    "ingredients",
+    "gentle_sensitive",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Trochę pomogło mojej suchej skórze, ale nie było to kompletne rozwiązanie. Kupiłem to, ponieważ moja skóra staje się bardzo sucha, szczególnie tutaj, na Florydzie. Nie jestem pewna, czy to wina twardej wody, ale za każdym razem, gdy biorę prysznic, czuję, że moja skóra się napina, jakbym nałożyła na nią klej. Chciałam czegoś delikatnego, co nie będzie jeszcze bardziej podrażniać mojej skóry. Na początku ten żel mi pomógł. Nie tworzy dużej piany, ale trochę łagodził suchość i sprawiał, że moja skóra po kąpieli była mniej ściągnięta. Nie jest to pełne rozwiązanie problemu silnej suchości, przynajmniej nie dla mnie, ale z pewnością może pomóc jako uzupełnienie codziennej pielęgnacji. Jeśli masz bardzo suchą skórę i potrzebujesz czegoś delikatnego, warto spróbować – może to nie być całkowite rozwiązanie w zależności od Twojej sytuacji",
+   "tags": [
+    "irritation",
+    "drying",
+    "foam_texture",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "⭐️⭐️⭐️ Na początku miłe uczucie, ale nie dla mnie. Bardzo chciałam polubić ten olejek pod prysznic. Pozostawia skórę miękką i nieco napiętą, co na początku mi się podobało, i ma przyjemny zapach (choć zapach nie utrzymuje się długo). Niestety po jego użyciu pojawiło się na nogach kilka pryszczy/wrzodów, których nigdy wcześniej nie doświadczyłam i nie miałam, dopóki nie zaczęłam tego produktu. Mam normalną skórę, może trochę bardziej suchą zimą, więc po prostu nie pasował do mojej skóry. Zdecydowanie nawilża, ale może za dużo.. dość duża butelka, warta swojej ceny, gdyby na mnie się sprawdziła. Być może u innych sprawdzi się dobrze, zwłaszcza na skórze bardzo suchej lub atopowej, ale u mnie ten produkt nie jest odpowiedni",
+   "tags": [
+    "drying",
+    "fragrance",
+    "moisturizing",
+    "soothing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Przyzwoity produkt, niechlujna wysyłka. Na razie nie mam zastrzeżeń do zawartości butelki. Udało mi się usunąć tłuszcz z twarzy, gdy wykonuję brudne prace w warsztacie. Lekko pieniący się, niezbyt gęsta lepkość. Użyłem wielu wacików, aby usunąć cały brud z twarzy i szyi, ale potrzebowałem tylko niewielkich ilości produktu na wacik. To pozytywny początek! Sama butelka nie dotarła z nakrętką z pompką. Nie żeby był odłamany, ale nawet nie było go w torbie. Za pomocą klucza, śrubokręta i znacznego wysiłku zdjąłem pokrywkę i będę jej używać na własnej starej butelce. Nie jest to zły produkt, wadliwa butelka. No cóż",
+   "tags": [
+    "drying",
+    "packaging",
+    "foam_texture",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Świetny produkt, ale Amazon musi zwolnić swoich pakowaczy. Przyjechał z uszkodzoną pompą.  Rozpocząłem zwrot, ale nie chciałem mieć kłopotów z czekaniem w kolejce w miejscu nadania lub pakowaniem rzeczy do zwrotu.  Przynajmniej nie przeciekał, jak 75% moich płynnych zakupów w Amazonie.  Odtąd nigdy nie kupię niczego, co zawiera płyny.  Nie wiem, jak jeszcze nie nauczyli się dostarczać produktów, które nie zostały jeszcze rozwalone. Udało mi się „ustawić” pompę, aby wypompować płyn, ale nadal spada i jest to całkowicie denerwujące.  Olejek pod prysznic jest dobrej jakości, ale w przyszłości będzie kupowany u innych dostawców",
+   "tags": [
+    "packaging",
+    "family_multiuse",
+    "value_size"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Szczera recenzja: Jest po prostu OK. Jak głosi tytuł, jest po prostu OK. Nieźle, nie świetnie. Kupiłem to do golenia za poleceniem kilku różnych wpływowych osób. Zawsze używałem kremu do golenia Trader Joe od lat, ale go zaprzestali. ZALETY: Łatwy w aplikacji, starcza na długo, na nogach nie pojawiają się różowe krostki spowodowane podrażnieniami po goleniu. Wady: drogie jak na to, co to jest, a zapach jest TAK mocny. Nienawidzę tego zapachu. Nie zdawałam sobie sprawy, że będzie zapachowy, ale to chyba moja wina, że ​​nie przeczytałam wszystkich szczegółów. Jeśli chodzi o golenie, myślę, że są lepsze opcje",
+   "tags": [
+    "irritation",
+    "fragrance",
+    "value_size"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Chciałem to pokochać... Chciałem to pokochać, ale niestety nie działało tak dobrze, jak się spodziewałem. Moja skóra zimą jest wyjątkowo sucha i choć do pewnego stopnia to działa, moje plecy nadal są suche i wrażliwe. Miał piękny, lekki zapach (co może być problemem), pozostaje lekko na skórze po spłukaniu, ale po wysuszeniu ręcznikiem wydaje się tracić swoją skuteczność. Nie powoduje śliskości na podłodze prysznica. Niestety zachowam go na cieplejsze dni",
+   "tags": [
+    "drying",
+    "fragrance",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie nadaje się do demakijażu, ma kliniczny zapach. Kupiłam ten żel jako zamiennik stosowanego wcześniej żelu do mycia Biodermy. Używałam go głównie wieczorem do demakijażu. Dzięki temu żelowi wokół oczu pozostają „szare cienie”. Poza tym nie pachnie „świeżo”, ale raczej jak mydło, które często można dostać w gabinetach lekarskich, z tym „czystym”, ale nie do końca „smacznym” zapachem. Jednak ponowne natłuszczenie jest wyraźnie - przyjemnie - zauważalne. Niemniej jednak: wracam do Biodermy",
+   "tags": [
+    "drying",
+    "fragrance",
+    "makeup_spf"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry produkt.. To żel do mycia twarzy, którego używam już od jakiegoś czasu. Jedynym problemem jest to, że bardzo często otrzymuję przesyłkę z kłusującym dozownikiem. Na szczęście miałem ten z butelki, którą właśnie wypiłem. Proponuję lepiej zapakować butelkę... bo przy uderzeniach w transporcie łatwo ją stłuc. Uważam jednak, że jest to dobry produkt. Używam go do całego ciała, a także do włosów. Ma ładny, delikatny zapach",
+   "tags": [
+    "packaging",
+    "fragrance",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Bardzo dobre mydło. Mydło przetłuszczone. Butelka o pojemności 500 ml. Żel natłuszczający bez mydła, używam go głównie do mycia twarzy (można go stosować do całego ciała). Ma charakterystyczny zapach mydeł natłuszczonych (trudny do opisania zapach), oczyszcza, a skóra jest zabezpieczona i miękka. Mam tendencję do łuszczycy na bokach nosa i brwi, więc stosuję go bez obawy, że podrażnię skórę.",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wygląda na rozwodnioną. Na mojej skórze sprawdził się dobrze. Jedyny problem, jaki zauważyłem, to to, że był naprawdę jasny, a nie żółty. Po prostu wydawało się, że został trochę rozwodniony. Tylko to mi przeszkadzało, bo wtedy po rozwodnieniu zapach nie jest dokładnie taki, jaki powinien być. Zatrzymuję, bo nadal działa, ale nie jestem pewien, czy następnym razem będę zamawiał u dostawcy",
+   "tags": [
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Ładny zapach, ale nie do końca taki, jakiego się spodziewałam. Ładny zapach, ale nie do końca taki, jakiego się spodziewałam. Zainspirowało mnie to do wypróbowania po tym, jak usłyszałem tak wiele wspaniałych rzeczy. Pachnie naprawdę ładnie, ale według mnie lepiej sprawdza się jako olejek do golenia niż jako żel pod prysznic. Produkt, choć dobrej jakości, nie sprawił, że moja skóra stała się zauważalnie bardziej miękka i słabo się pieni. Tylko trochę inny niż oczekiwałem",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Zwykle jestem fanem tej marki, tylko nie jestem pewien co do tego produktu. Mam wrażenie, że po wyjściu spod prysznica moja skóra może być nieco sucha (co jest ironią losu, biorąc pod uwagę, że reklamuje się, że działa odwrotnie). Mam nadzieję, że produkt, który otrzymałem, jest prawdziwy, a nie podróbką. Zauważyłem, że płyn w moim jest bardziej przejrzysty, biały niż żółty, jak na zdjęciu",
+   "tags": [
+    "drying"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Był w porządku, ale nie tak dobry, jak się spodziewałem dla mojej suchej skóry. Jest w porządku, nie najlepszy. Myślałam, że pomoże na moją suchą skórę bardziej niż pomaga. Pomaga tylko trochę, ale nie tak bardzo, jak miałam nadzieję. Czy trzeba go używać stale, aby działał dobrze, co dla mnie może pomóc innym z mniej suchą skórą niż ja, więc to tylko moja opinia na temat tego, jak to zadziałało w moim przypadku",
+   "tags": []
+  },
+  {
+   "r": 3,
+   "t": "Mydlany zapach. Trzy gwiazdki to dlatego, że pachnie mydłem jak mydło bańkowe do puszczania baniek, a nie przyjemnym zapachem jak luksusowe płyny do mycia ciała, a mój dozownik w butelce nie działa prawidłowo. Zapach nie jest zły, po prostu nie taki, jaki bym wybrała. Porównywałam go do olejku pod prysznic L’occitane, który bardzo lubię. W przeciwnym razie działa zgodnie z reklamą i oczekiwaniami",
+   "tags": [
+    "packaging",
+    "fragrance",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Mieć. Nie mogę się doczekać, aż go wypróbuję, ponieważ mam bardzo wrażliwą skórę, prawie ją wyrywam. Poziom dostawy wymagałby nieco większej ochrony, ponieważ otrzymałem butelkę, która trochę przeciekała i wiedząc, że mam z nią mangę, jest ona ograniczona. Ale czekam na skuteczność, bo kupiłam go za namową znajomego",
+   "tags": [
+    "packaging",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Mieć. Nie mogę się doczekać, aż go wypróbuję, ponieważ mam bardzo wrażliwą skórę, prawie ją wyrywam. Poziom dostawy wymagałby nieco większej ochrony, ponieważ otrzymałem butelkę, która trochę przeciekała i wiedząc, że mam z nią mangę, jest ona ograniczona. Ale czekam na skuteczność, bo kupiłam go za namową znajomego",
+   "tags": [
+    "packaging",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Przybył uszkodzony, ale dobry produkt. Przedmiot dotarł, ale wyciekł wszędzie. Próbowałem powiadomić sprzedawcę, ale Amazon utrudnił to, nie wybierając opcji zwrotu przedmiotu, choć nie wiem, czy jest to warte czasu. Wiem jednak, że produkt jest dobry, używany podczas tygodniowego pobytu z rodziną",
+   "tags": [
+    "packaging",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Przybył uszkodzony, ale dobry produkt. Przedmiot dotarł, ale wyciekł wszędzie. Próbowałem powiadomić sprzedawcę, ale Amazon utrudnił to, nie wybierając opcji zwrotu przedmiotu, choć nie wiem, czy jest to warte czasu. Wiem jednak, że produkt jest dobry, używany podczas tygodniowego pobytu z rodziną",
+   "tags": [
+    "packaging",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Produkt jest doskonały. Mydło jest rewelacyjne, pozostawia skórę gładką i nawilżoną. Dla mnie, który ma zapalenie skóry, jest idealny, ale odjęłam jedną gwiazdkę i zamiast 5 dałam 4, ponieważ produkt przyszedł z uszkodzonym dozownikiem i część płynu rozlała się do kartonu, co zmusiło mnie do przelania go do innego pojemnika",
+   "tags": [
+    "irritation",
+    "packaging",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Produkt jest doskonały. Mydło jest rewelacyjne, pozostawia skórę gładką i nawilżoną. Dla mnie, który ma zapalenie skóry, jest idealny, ale odjęłam jedną gwiazdkę i zamiast 5 dałam 4, ponieważ produkt przyszedł z uszkodzonym dozownikiem i część płynu rozlała się do kartonu, co zmusiło mnie do przelania go do innego pojemnika",
+   "tags": [
+    "irritation",
+    "packaging",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie kupię tego produktu ponownie. W opisie jest napisane, że nadaje się do skóry suchej, jednak gdy zaczęłam go używać, zaczął jeszcze bardziej przesuszać skórę. Nie oczyszcza też dobrze porów i oczywiście w ogóle nie nadaje się do demakijażu. Strasznie piecze, gdy dostanie się do oczu. Bardzo płynny",
+   "tags": [
+    "irritation",
+    "makeup_spf"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Używany przez moją córkę ze skórą atopową. Żel oczyszczający, którego używa moja córka przy atakach egzemy, zwłaszcza w zagłębieniach ramion i kolan. Żel delikatnie oczyszcza, nie podrażnia wrażliwej skóry. Skład do szczegółowego zapoznania się dla osób uczulonych na niektóre składniki",
+   "tags": [
+    "irritation",
+    "ingredients",
+    "gentle_sensitive",
+    "soothing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry prysznic i środek do mycia twarzy dla wrażliwej skóry. Jest to dobry pieniący się środek czyszczący do twarzy i ciała dla tych, którzy tak jak ja mają wrażliwą skórę. Zwykłe żele pod prysznic mogą wysuszyć moją skórę i ją podrażnić. Ta formuła niezawierająca mydła i parabenów głęboko nawilża. Ma przyjemny, ale niezbyt mocny zapach i dobrze się pieni, a jednocześnie jest lekki w użyciu. Ta 1-litrowa butelka kosztuje obecnie około 15,50 GBP. To oczywiście nie jest tanie, ale posiadanie produktu odpowiedniego dla wrażliwej skóry jest dość ważne, aby uniknąć codziennego podrażnienia skóry. Jestem z niego zadowolony i będę go nadal używać. Aby pomóc Ci ocenić moją recenzję, oto moja skala ocen: 5 gwiazdek: Naprawdę podoba mi się ten produkt i chętnie polecę go znajomym i rodzinie. 4 gwiazdki: Podoba mi się, ale ma pewne drobne wady lub po prostu nie jest wyjątkowy. Nadal warto kupić. 3 gwiazdki: Coś, co jest nieco przeciętne i może wymagać pewnych ulepszeń. 2 gwiazdki: Produkt nie spełnił moich oczekiwań i mogę go nie polecić. 1 gwiazdka: Nie to, czego się spodziewałem lub bardzo słaba jakość i zdecydowanie tego nie polecam. Mam nadzieję, że moja recenzja okaże się pomocna",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Bez perfum, uczucie czystości bez agresji. Ten natłuszczony żel Topicrem należy z pewnością umieścić w pudełku „utylitarnym”, w tym sensie, że nie ma w nim przyjemności węchowej ani przyjemności „materialnej/konsystencji”. Jest to produkt drogeryjny i to widać. To powiedziawszy, jest przyjemny i bardzo wygodny dla skóry. Tutaj używamy delikatnego żelu oczyszczającego Biodermy (niebieski) dla całej rodziny i ten żel oczyszczający jest blisko. W domu regularnie pojawiają się małe plamki egzemy, a ten produkt w ogóle nie spowodował ich zaostrzenia, co jest bardzo dobrą uwagą. Dzieci też to doceniają, nie szczypie ich w oczy, jeśli przypadkowo otworzą jedno oko podczas czyszczenia twarzy, i to też jest godne uwagi. To dobra rzecz. produkt; to powiedziawszy, wciąż z niecierpliwością czekam na moment, w którym te drogeryjne produkty pozbędą się biednych i nie „czystych” składników, które wciąż znajdziemy w większości składów",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Delikatny, nawilżający i idealny dla skóry wrażliwej!. Olejek pod prysznic Bioderma Atoderm okazał się wybawieniem dla mojej suchej i wrażliwej skóry! Olejek oczyszczający jest niezwykle delikatny, a jednocześnie skutecznie usuwa brud i zanieczyszczenia, nie pozbawiając skóry wilgoci. Po jego użyciu moja skóra jest miękka, nawilżona i gładka, co jest rzadkością w przypadku środka czyszczącego. Konsystencja jest jedwabista i lekka, ładnie się pieni, zapewniając kojące uczucie pod prysznicem. Podoba mi się również to, że jest bezzapachowy i hipoalergiczny, dzięki czemu jest idealny dla osób cierpiących na egzemę lub skórę łatwo podrażnioną. Pozostawia subtelną barierę ochronną, która utrzymuje moją skórę nawilżoną przez cały dzień, bez uczucia tłustości. Odkąd zdecydowałam się na ten produkt, zauważyłam znaczną poprawę ogólnego nawilżenia i komfortu mojej skóry. Gorąco polecam olejek pod prysznic Bioderma Atoderm każdemu, kto szuka delikatnego, odżywczego środka czyszczącego, idealnego do codziennego użytku!",
+   "tags": [
+    "irritation",
+    "fragrance",
+    "foam_texture",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Rozmiar dobry, ale ma zapach. Jest to bardzo duży żel oczyszczający o pojemności 1 litra, który nadaje się do stosowania na twarz i ciało. Do butelki dołączona jest pompka, dzięki czemu z łatwością dozujesz żel z butelki w takiej ilości, jakiej potrzebujesz. Żel oczyszczający ma przejrzystą i lejącą konsystencję. Zapach żelu przypomina mi jednak wodę po goleniu; jest to czysty, przyjemny zapach, który nie jest zbyt przytłaczający, ale wolałby inny rodzaj zapachu. Ten żel oczyszczający nie zawiera mydła i ma raczej niską pianę, więc mam wrażenie, że używam trochę więcej produktu, niż faktycznie potrzebowałem, aby widzieć i doświadczać piany bardziej. Ogólnie rzecz biorąc, uważam, że ten żel oczyszczający naprawdę odświeża moją skórę; był bardzo delikatny i nie powodował podrażnień. Myślę, że ten rozmiar butelki oferuje naprawdę dobry stosunek jakości do objętości produktu i zajmie mi to miesiące",
+   "tags": [
+    "irritation",
+    "packaging",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wysokiej jakości nawilżający żel pod prysznic. Jest to przyjemny, orzeźwiający żel pod prysznic. Ma za zadanie nawilżać skórę i pod tym względem uważam, że się sprawdza. Po prysznicu mam suchą skórę na rękach i nogach i stwierdziłam, że to nie zaostrza problemu. Zapach jest lekki, świeży i lekko chemiczny, ale wcale nie nieprzyjemny. Warto zaznaczyć, że niezbyt mocno się pieni. Więc ostatecznie używam więcej niż zwykle. Powiedziałbym, że zużyłem około 10 pompek na prysznic, więc wniosek jest taki, że ten zużyje się dość szybko. Równie dobrze jest to litrowa butelka. To wielki wysiłek i myślę, że reprezentuje dobry stosunek jakości do ceny. Uwielbiam to, że jest produkowany we Francji, więc nie musiało daleko czekać. Przydatny dla wszystkich rodzajów skóry i dobrej jakości żel nawilżający do wszystkiego",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "moisturizing",
+    "value_size"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Znakomity środek czyszczący o gigantycznym rozmiarze. Ten wyjątkowo bogaty żel dermatologiczny jest właściwym produktem pękającym dla każdego, kto szuka prostego codziennego mycia twarzy i ciała. Dozownik z pompką jest bardzo praktyczny na półce w łazience, a jedna butelka wystarcza na miesiące nawet przy regularnym użytkowaniu na wielu powierzchniach. Dokładnie oczyszcza pot i zanieczyszczenia, nie podrażniając w najmniejszym stopniu delikatnych barier ochronnych skóry. Z drugiej strony, jeśli szukasz wielozadaniowego produktu, który zmywa wieczorowy makijaż, zdecydowanie powinieneś szukać gdzie indziej. Konsystencja jest zbyt łagodna, aby rozbić zabarwione filtry przeciwsłoneczne lub ciężkie pudry, pozostawiając osad, jeśli nie zostanie połączony z dedykowanym środkiem czyszczącym. Doskonale spełnia swoje podstawowe zadanie, jakim jest podstawowe pranie, ale zna swoje ograniczenia",
+   "tags": [
+    "irritation",
+    "packaging",
+    "foam_texture",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry produkt. To delikatny, skuteczny żel oczyszczający, który nie pozostawia uczucia suchości skóry. Szczególnie dobrze sprawdza się jako płyn do mycia twarzy, dokładnie oczyszczając, nie podrażniając wrażliwej i suchej skóry. Do jednego użycia wystarczy niewielka ilość, dzięki czemu zapewnia dobry stosunek jakości do ceny. Świetnie sprawdza się również jako żel pod prysznic, dzięki czemu jest wszechstronną i oszczędzającą miejsce opcją w Twojej łazience. Choć nie pieni się zbyt dużo, nie uważam tego za wadę – nadal dobrze się pieni, bez konieczności stosowania dodatkowych środków pieniących. Moim jedynym problemem jest mocny zapach, który wolałbym być bardziej subtelny. Ogólnie rzecz biorąc, jest to solidny produkt, porównywalny z innymi czołowymi francuskimi markami",
+   "tags": [
+    "irritation",
+    "fragrance",
+    "foam_texture",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Oczyszczanie *OLEJ*. Pieni się i ma inną konsystencję niż żel pod prysznic. Piana jest mniej pieniąca, więc używam kilku dodatkowych pompek, aby zwiększyć pianę. To powiedziawszy, nadal trwa i wydaje się rozsądne pod względem wartości. Nie mam poczucia, że ​​to marnuję. Przyzwyczaiłam się do gęstości żelu pod prysznic. Jest tylko trochę gęstszy niż płynny olej kokosowy, więc ma inną konsystencję. Bardzo mi się podoba, jest po prostu trochę inny od tego, czego zawsze używałem. Świetny dla wrażliwej skóry. Verrrrryyyy lekki zapach, dobry do suchej skóry, dobry do demakijażu. Nie pozostawia również uczucia pozostałości. Pozostawia uczucie świeżości i czystości",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "gentle_sensitive",
+    "makeup_spf"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "PACHNIE, ale nie obchodzi mnie to. Ma bardzo mocny kwiatowo-ziołowy zapach, którego bardzo nie lubię, „lekki zapach” to po prostu fałszywa reklama. Za każdym razem, gdy tego używam, moja łazienka pachnie starszą Francuzką. Biorąc to pod uwagę, wszystko inne w tym olejku jest magiczne. Pieni się lekko, dobrze się spłukuje, pozostawia skórę niesamowicie miękką i, co najważniejsze, nie czerwoną, suchą, łuszczącą się ani w żaden sposób podrażnioną. Mój egzema nigdy nie miała lepszej zimy! Zapach nie utrzymuje się na skórze, więc jestem w stanie go znieść. Tylko uważaj, jeśli jesteś wrażliwy",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Miękka, czysta skóra. Ta 1-litrowa butelka ma dozownik z pompką, co jest niezbędne, ponieważ butelka jest duża i trudno byłoby ją podnieść mokrymi rękami. Żel pod prysznic ma delikatny, ale świeży, czysty zapach, który przypomina mi morze. Moja skóra jest oczyszczona, nie jest szczególnie sucha ani swędząca po jego użyciu i nie pieni się nadmiernie, chociaż zawiera SLS (laurylosiarczan sodu). Wystarcza na około 2 dozowania pompki na piankę pod prysznic i jedno na twarz, więc biorąc pod uwagę wielkość butelki, powinno wystarczyć na dość długo",
+   "tags": [
+    "drying",
+    "packaging",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Delikatny żel oczyszczający. Żel z końcówką dozującą jest bardzo praktyczny w użyciu. Jest delikatny dla skóry, czyści dłonie i ciało. Nie mam alergii, ale nie mam wrażliwej skóry. Bez wątpienia kwestia gustu i przyzwyczajenia",
+   "tags": [
+    "foam_texture",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "delikatny i doskonały zapach. Odkryty po ciekawej ofercie w aptece. Środek myjący jest delikatny dla skóry, ale uczucie oczyszczenia jest głębokie. Zapach jest lekki, uprzejmy i trwały. Duży format jest bardzo wygodny. Wystarczy niewielka ilość produktu, aby spienić całe ciało. Jest świetny dla osób o wrażliwej skórze. Cena jest bardzo uczciwa. Zamówiłem trzy butelki i jedną otwartą w trakcie podróży, ale bez większych rozlań.  Jestem usatysfakcjonowany",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Praktyczny format. Potrzebowałam nowego płynu do mycia twarzy, a że uwielbiam markę SVR, a kosztował 8 euro za 1 litr, to dałam się skusić. Mam suchą i bardzo wrażliwą skórę twarzy. Bardzo zmiękcza skórę, nie szczypie w oczy, wypróbowałam go zarówno na twarzy, jak i na ciele, a ponieważ jest przeznaczony również do włosów, to przy najbliższej okazji wypróbuję go również. Produkt ma delikatny zapach, wcale nie uważam go za mocny",
+   "tags": [
+    "irritation",
+    "fragrance",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobrze zmywa makijaż, ale wysusza. Jest to olejek, który bardzo przyjemnie nakłada się rękami, gdy się spieszę, nakładam go na twarz i ciało i bardzo dobrze oczyszcza, ALE co prawda wysusza. Już przy pierwszym użyciu na twarz wysuszył mi brodę. To już się nie zdarza, nadal polecam, ale chyba nie do skóry z wybuchem zapalenia skóry, tak jak mam teraz na nogach, poleciłabym coś jeszcze delikatniejszego",
+   "tags": [
+    "irritation",
+    "drying",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobrze zmywa makijaż, ale wysusza. Jest to olejek, który bardzo przyjemnie nakłada się rękami, gdy się spieszę, nakładam go na twarz i ciało i bardzo dobrze oczyszcza, ALE co prawda wysusza. Już przy pierwszym użyciu na twarz wysuszył mi brodę. To już się nie zdarza, nadal polecam, ale chyba nie do skóry z wybuchem zapalenia skóry, tak jak mam teraz na nogach, poleciłabym coś jeszcze delikatniejszego",
+   "tags": [
+    "irritation",
+    "drying",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Lekki zapach, przyjemne uczucie pod prysznicem. To świetny olejek pod prysznic dla suchego, południowo-zachodniego klimatu, w którym mieszkam.  Mój jedyny problem polega na tym, że NIE MOGĘ odkręcić górnej części, niezależnie od tego, jak bardzo się staram.  Mój mąż też nie mógł; to jest wadliwe.  Zakrętka się obraca, ale nie odkręca się od butelki.  Nie można go więc ponownie napełnić, co powoduje dodanie większej ilości plastiku do składowiska.  Znajdę alternatywę. Nie lubię marnotrawnych opakowań",
+   "tags": [
+    "fragrance",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Ładny zapach, niska piana. Podobał mi się zapach, nie za mocny. Butelka jest dość duża, jak byś jej potrzebował, ponieważ odkryłem, że używam więcej mydła, aby się spienić, ale w niewielkim stopniu. Nie odniosłem wrażenia, że ​​nie zostałem oczyszczony tak, jak przy dużej ilości piany. Dla mnie niezły, ale nie świetny. Jednak dokończę butelkę. Wolałbym butelkę wyciskaną zamiast dociskania",
+   "tags": [
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Bioderma Płyn do mycia twarzy. Sprawia, że ​​moja twarz i ciało są niesamowicie miękkie. Na początku jest to trochę dziwne, jeśli tak naprawdę nie używasz produktów tego typu. Ale potem mam wrażenie, że moja skóra wypiła szklankę wody. Jest bardzo przyjemny i naprawdę warto go używać przed snem. Nie ma też super mocnego zapachu. Świetne uzupełnienie mojej rutynowej pielęgnacji skóry. Biegnij, nie chodź!! Super, warto",
+   "tags": [
+    "fragrance",
+    "moisturizing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Aby zastąpić mydło w płynie Aleppo oliwą z oliwek. Wybrałem ten natłuszczony żel, aby zastąpić mydło w płynie Aleppo oliwą z oliwek i wydaje się, że pasuje do mojej skóry (zwłaszcza twarzy). Można łatwo odmierzyć ilość, bo żel jest trochę gęsty, więc nie ma bałaganu. Dość neutralny zapach. Jedna gwiazdka mniej za zdecydowanie za wysoką cenę (ponad 10 euro)",
+   "tags": [
+    "drying",
+    "fragrance",
+    "foam_texture",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Nawilża, ale potrzebuję też mydła. Kupiłam to, bo wpływowcy wciąż go sprzedają. Mam naprawdę suchą skórę na nogach. Używam tego po kąpieli mydłem w kostce. Muszę przyznać, że moje nogi są mniej suche. Chyba nie chciałbym używać go samodzielnie. Po prostu nie czuję się czysta bez prawdziwego mydła. Warto spróbować, jeśli szukasz czegoś więcej w nawilżeniu pod prysznicem",
+   "tags": [
+    "moisturizing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Produkt w miarę przyzwoitej jakości. Jest to całkiem przyzwoitej jakości pianka do mycia ciała.  Dostępny w jednolitrowej butelce z pompką ułatwiającą dozowanie.✅ nie zawiera parabenów ani mydła✅ nawilża✅ może być stosowany do każdego rodzaju skóry✅ zawiera środki nawilżające✅ fizjologiczne PH✅ może być stosowany nawet u noworodków✅ świeży zapach✅ nie zawiera alkoholu",
+   "tags": [
+    "packaging",
+    "fragrance",
+    "foam_texture",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Działa dobrze, ale bardzo pachnąco. Działa naprawdę dobrze do usuwania filtrów przeciwsłonecznych i makijażu, zarówno z twarzy, jak i ciała. Wielki fan tej formuły, ale….Usuwam jedną gwiazdkę, bo zapach jest INTENSYWNY. Powinienem był sprawdzić listę składników przed zakupem, założyłem, że będzie bezzapachowy, ponieważ jest sprzedawany jako przyjazny dla wrażliwej skóry",
+   "tags": [
+    "fragrance",
+    "ingredients",
+    "gentle_sensitive",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Gigant, przesadnie gigant. Produkt wydaje się dobry, spełnia swoją funkcję... Miałem dwa pojemniki po 500ml i jeden podzieliłem pod prysznic, drugi do zlewu również dlatego, że z lustrem nad zlewem ten napój by się tam nie zmieścił :D Uważam jednak, że to dobry produkt, a za 13 € naprawdę w zupełności wystarczający",
+   "tags": [
+    "value_size"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Uriage. Bardzo go lubiłam, był bardzo miękki, miał przyjemny zapach, trochę cytrusowy i nie szczypał oczu. Przywiązuję do tego dużą wagę, bo mam bardzo wrażliwe oczy. Nie daję mu pięciu gwiazdek, ponieważ wypuszczenie produktu zajęło mi dużo czasu. Pompa pracowała bardzo długo. W przeciwnym razie jest świetnie, prawdopodobnie to powtórzę.",
+   "tags": [
+    "irritation",
+    "packaging",
+    "fragrance",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Działa dobrze!. Nie do końca jestem fanką kwiatowych zapachów. Jednak zapach ten zanika po kąpieli. Sprawia, że ​​moja skóra jest po nim niesamowicie miękka. Nie czuję, żeby się pienił i pienił się mocno, co jest w porządku. Zdecydowanie nawilża, co czyni go idealnym na mroźne, suche zimowe miesiące",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olejek oczyszczający SVR Topialyse: nawilżenie i ulga dla skóry wrażliwej. Olejek oczyszczający SVR Topialyse w pojemności 1 litra to specjalistyczny środek czyszczący opracowany z myślą o codziennej pielęgnacji skóry suchej, bardzo suchej, atopowej i skłonnej do podrażnień. Produkt ten wyróżnia się zdolnością do delikatnego oczyszczania, odżywiania skóry i łagodzenia swędzenia, a wszystko to bez naruszania bariery skórnej. ProUltra-Gentle Cleansing: Jego formuła na bazie oleju oczyszcza skórę bez nadmiernego pienienia się i nie uszkadzając jej. Nie zawiera mydła, siarczanów, substancji zapachowych (choć istnieje wersja lekko zapachowa dla tych, którzy wolą) i agresywnych konserwantów, dzięki czemu jest idealny dla najbardziej reaktywnej i nietolerancyjnej skóry. Intensywne i długotrwałe nawilżenie: Bogaty w lipidy olejek oczyszczający odżywia skórę już od momentu oczyszczenia. Pomaga przywrócić płaszcz hydrolipidowy, pozostawiając skórę miękką, elastyczną i nawilżoną, zmniejszając uczucie „napiętej skóry” po umyciu. Działanie łagodzące przeciw swędzeniu: Został opracowany, aby natychmiast złagodzić swędzenie i dyskomfort związany z ekstremalną suchością i egzemą, pomagając uspokoić stan zapalny skóry. Odpowiedni dla całej rodziny: Jego delikatność sprawia, że ​​nadaje się do codziennego stosowania przez noworodki, dzieci i dorosłych, nawet do najbardziej wrażliwych partii ciała i twarzy. Można go stosować zarówno pod prysznicem, jak i w wannie. Wygodny format: 1-litrowa butelka to bardzo praktyczny i ekonomiczny format rodzinny do codziennego i długotrwałego stosowania. Wady: Tłusta konsystencja: Ponieważ jest olejkiem, jego konsystencja może być mniej znana lub mniej „mydlana” niż tradycyjne żele pod prysznic. Wymaga dobrego spłukania, aby nie pozostawić lekko tłustego uczucia (nawet jeśli jest to odżywienie skóry). Koszt początkowy: Cena za litr może wydawać się wysoka w porównaniu ze środkiem czyszczącym z supermarketu, ale jest to uzasadnione specyficzną i skoncentrowaną formułą dla problematycznej skóry, a duży format amortyzuje wydatek w miarę upływu czasu. Podsumowując, olejek oczyszczający SVR Topialyse to produkt doskonały i niemal niezastąpiony dla osób cierpiących na skórę suchą, bardzo suchą lub skłonną do atopii. Delikatnie oczyszcza, odżywia i łagodzi, znacząco poprawiając codzienny komfort skóry. To inwestycja w zdrowie Twojej skóry, która opłaci się w postaci nawilżenia i ulgi",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olejek oczyszczający SVR Topialyse: nawilżenie i ulga dla skóry wrażliwej. Olejek oczyszczający SVR Topialyse w pojemności 1 litra to specjalistyczny środek czyszczący opracowany z myślą o codziennej pielęgnacji skóry suchej, bardzo suchej, atopowej i skłonnej do podrażnień. Produkt ten wyróżnia się zdolnością do delikatnego oczyszczania, odżywiania skóry i łagodzenia swędzenia, a wszystko to bez naruszania bariery skórnej. ProUltra-Gentle Cleansing: Jego formuła na bazie oleju oczyszcza skórę bez nadmiernego pienienia się i nie uszkadzając jej. Nie zawiera mydła, siarczanów, substancji zapachowych (choć istnieje wersja lekko zapachowa dla tych, którzy wolą) i agresywnych konserwantów, dzięki czemu jest idealny dla najbardziej reaktywnej i nietolerancyjnej skóry. Intensywne i długotrwałe nawilżenie: Bogaty w lipidy olejek oczyszczający odżywia skórę już od momentu oczyszczenia. Pomaga przywrócić płaszcz hydrolipidowy, pozostawiając skórę miękką, elastyczną i nawilżoną, zmniejszając uczucie „napiętej skóry” po umyciu. Działanie łagodzące przeciw swędzeniu: Został opracowany, aby natychmiast złagodzić swędzenie i dyskomfort związany z ekstremalną suchością i egzemą, pomagając uspokoić stan zapalny skóry. Odpowiedni dla całej rodziny: Jego delikatność sprawia, że ​​nadaje się do codziennego stosowania przez noworodki, dzieci i dorosłych, nawet do najbardziej wrażliwych partii ciała i twarzy. Można go stosować zarówno pod prysznicem, jak i w wannie. Wygodny format: 1-litrowa butelka to bardzo praktyczny i ekonomiczny format rodzinny do codziennego i długotrwałego stosowania. Wady: Tłusta konsystencja: Ponieważ jest olejkiem, jego konsystencja może być mniej znana lub mniej „mydlana” niż tradycyjne żele pod prysznic. Wymaga dobrego spłukania, aby nie pozostawić lekko tłustego uczucia (nawet jeśli jest to odżywienie skóry). Koszt początkowy: Cena za litr może wydawać się wysoka w porównaniu ze środkiem czyszczącym z supermarketu, ale jest to uzasadnione specyficzną i skoncentrowaną formułą dla problematycznej skóry, a duży format amortyzuje wydatek w miarę upływu czasu. Podsumowując, olejek oczyszczający SVR Topialyse to produkt doskonały i niemal niezastąpiony dla osób cierpiących na skórę suchą, bardzo suchą lub skłonną do atopii. Delikatnie oczyszcza, odżywia i łagodzi, znacząco poprawiając codzienny komfort skóry. To inwestycja w zdrowie Twojej skóry, która opłaci się w postaci nawilżenia i ulgi",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Całkowita zmiana zasad gry dla dojrzałej, przewlekle suchej skóry!. Kupiłam olejek pod prysznic Bioderma Atoderm dla mojej 77-letniej mamy, która od lat zmaga się z bardzo suchą, wrażliwą i łuszczącą się skórą. Znalezienie środka czyszczącego, który faktycznie nawilża, nie powodując podrażnień, było ogromnym wyzwaniem, ale ten produkt całkowicie zmienił zasady gry. Jeśli chodzi o skuteczność, przemiana w wyglądzie jej skóry jest niesamowita. Uporczywe łuszczenie się całkowicie zniknęło. Zamiast być ściągnięta lub ściągnięta po prysznicu, jej skóra jest teraz niesamowicie jedwabista, głęboko nawilżona i naprawdę gładka w dotyku. Kolejnym ogromnym plusem jest jego trwałość i ogólny stosunek jakości do ceny. Ponieważ olejek jest tak bogaty i doskonale się rozprowadza, niewielka ilość wystarcza na bardzo długi czas, co oznacza, że ​​pojedyncza butelka wystarcza na bardzo długi czas. Sama konsystencja jest cudowna – zapewnia delikatną, lekką pianę, która gładko się rozprowadza i dokładnie spłukuje, nie pozostawiając tłustych lub śliskich pozostałości w wannie. Ma bardzo łagodny, przyjemny zapach, który nie powoduje uczuleń. Jeśli Ty lub ktoś z Twoich bliskich ma do czynienia z dojrzałą, przewlekle suchą lub delikatną skórą, nie mogę tego wystarczająco polecić. ZALETY: Natychmiast likwiduje łuszczenie się i suche plamy na skórze dojrzałej. Wysoce skoncentrowany – pojedyncza butelka starcza na bardzo długo. Pozostawia skórę jedwabiście gładką w dotyku, nie napiętą. Głęboko nawilża, nie pozostawiając tłustej warstwy w wannie. Bardzo delikatny dla bardzo wrażliwych typów skóry. WADY: Pompka czasami dozuje trochę szybko, więc wystarczy delikatnie ją nacisnąć.",
+   "tags": [
+    "irritation",
+    "drying",
+    "packaging",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Świetny środek czyszczący. Używam tego olejku pod prysznic już od jakiegoś czasu i stał się jednym z moich ulubionych kosmetyków do mycia ciała. Pierwszą rzeczą, którą zauważyłem, był zapach – uwielbiam, kocham, uwielbiam ten zapach, jest lekki, świeży i czysty, ale nie przytłaczający. Konsystencja jest jedwabista i gładka i mimo że jest to olejkowy środek czyszczący, nie pozostawia tłustego ani ciężkiego uczucia na skórze. Po spłukaniu moja skóra jest czysta, odświeżona i nawilżona, w przeciwieństwie do uczucia suchości i ściągnięcia, które odczuwam po wielu regularnych żelach do mycia ciała i oczyszczaniu twarzy. Ten produkt jest szczególnie pomocny w chłodniejsze dni, kiedy moja skóra ma tendencję do wysychania i swędzenia. Pozostawia moją skórę miękką i wygodną, ​​więc nie muszę się spieszyć z nałożeniem balsamu zaraz po kąpieli. Kolejną wielką zaletą tego produktu jest stosunek jakości do ceny. Butelka o pojemności 500 ml jest idealnej wielkości i starcza na długo, ponieważ za każdym razem wystarczy niewielka ilość. Opakowanie jest również praktyczne i zawiera solidną butelkę z pompką, która ułatwia użycie pod prysznicem. Po rozpakowaniu nie wycieka. Ze względu na bardzo delikatną formułę może nie spodobać się osobom preferującym silnie pieniące się produkty do mycia ciała. Jednak każdemu, kto ma suchą, wrażliwą lub łatwo podrażnioną skórę, gorąco polecam ten produkt. Zdecydowanie go odkupię",
+   "tags": [
+    "irritation",
+    "drying",
+    "packaging",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Mój absolutny ulubieniec wszech czasów! Niebiański zapach, idealny dla wrażliwej skóry. Gdybym mogła używać tylko jednego środka czyszczącego do końca życia, bez wątpienia byłby to wyjątkowo bogaty dermatologiczny żel pod prysznic do twarzy i ciała Uriage. To mój absolutny ulubieniec wszechczasów i mam na jego punkcie obsesję! Przede wszystkim pachnie niesamowicie dobrze. Ma piękny, czysty i orzeźwiający zapach, który sprawia, że ​​każdy prysznic przypomina luksusowe spa, a jednocześnie jest na tyle delikatny, że nigdy nie podrażnia mojej wrażliwej skóry. Sama formuła jest genialna. Ponieważ nie zawiera mydła, nie zawiera parabenów i ma fizjologiczne pH, tworzy wspaniałą, świeżą pianę, która dokładnie oczyszcza, nie podrażniając skóry. Skutecznie chroni naturalny film hydrolipidowy skóry. Zwykle płyny do mycia ciała pozostawiają uczucie napięcia i swędzenia skóry, ale ten wyjątkowo bogaty żel pozostawia moją skórę głęboko nawilżoną, niewiarygodnie miękką i wygodną od stóp do głów. Uwielbiam to, że jest to wszechstronna, gigantyczna butelka komfortu, która doskonale sprawdza się zarówno na twarzy, jak i na ciele. Jeśli masz wrażliwą, suchą lub łatwo podrażnioną skórę i chcesz czegoś, co pachnie niesamowicie, a jednocześnie doskonale chroni barierę skórną, musisz tego spróbować. Nigdy nie rozstanę się bez butelki!",
+   "tags": [
+    "irritation",
+    "fragrance",
+    "foam_texture",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Miękka, delikatna ulga dla bardzo suchej skóry. Potrzebowałam czegoś do suchej skóry, bo po zeszłorocznej zimie moja skóra stała się naprawdę sucha. Siostra mi o tym powiedziała, więc postanowiłam spróbować. Konsystencja jest trochę rzadka, dlatego staram się uważać, aby nie użyć zbyt dużej ilości na raz. Najpierw wypróbowałam go po prostu umywszy ręce i zadziałał naprawdę dobrze i nie pozostawił tłustej skóry. Później użyłem go do kąpieli, a nawet wypróbowałem na twarzy i naprawdę podobało mi się to uczucie. Pozostawił moją skórę czystą, ale nie ściągniętą i nie tłustą. Moja skóra była po nim miękka i wygodna, co naprawdę doceniam. Zapach jest lekki i przyjemny, ale nie przytłaczający. Jeśli Twoja skóra jest bardzo sucha, być może będziesz musiał użyć go kilka razy, zanim naprawdę zaczniesz zauważać pełne rezultaty, ale dzięki temu Twoja skóra będzie bardziej nawilżona i wygodna przy dalszym stosowaniu. Nie potrzeba dużo produktu, aby uzyskać dobre rezultaty, więc wydaje mi się, że butelka wystarczy na dość długo, co zwiększa jego wartość. Rozmiar jest również wygodny, jeśli kiedykolwiek będziesz chciał zabrać go ze sobą w podróż. Ogólnie rzecz biorąc, była to naprawdę fajna opcja dla suchej skóry i pozostawia moją skórę gładką i nawilżoną po jej użyciu",
+   "tags": [
+    "drying",
+    "fragrance",
+    "foam_texture",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonały produkt!. Nie znałam tej marki, która jest w tym samym przedziale cenowym co Atoderm, mój produkt referencyjny. Mam córkę, która od niemowlęctwa cierpi na egzemę. Zawsze upewniam się, że znajdę dla niej odpowiednie produkty, które akceptuje bez reklamacji. Nie wszystkie kosmetyki jej odpowiadają, a mimo to lubi zmieniać marki. Przekonał ją Topicrem, który jej skóra tolerowała bardzo dobrze i przez kolejne godziny nie było żadnego uczucia ściągnięcia. Butelka z pompką działa dobrze i jest wielkości rodzinnej, aby trzymać ją w łazience. Przypuszczam, że istnieją również formaty podróżne, w których można przelać niewielką ilość do małej butelki na czas podróży. Próbowałem też, zapach jest bardzo dyskretny, piana jest bardzo dobra. skóra jest myta bardzo delikatnie, ale bez cienkiego filmu, który utrzymuje się po nim. Krótko mówiąc, jest to marka, którą odkrywam i która nam się podoba. Teraz spróbuję tego kremu nawilżającego. Jeśli nie mamy wyboru, czy zastosować jakiś kosmetyk, ważne jest, aby dany produkt pielęgnacyjny nie był zbyt drogi i przede wszystkim był dobrze tolerowany. to sukces z Topicremem!",
+   "tags": [
+    "drying",
+    "packaging",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Najlepszy produkt dla skóry atopowej. Ekstra-Rich Dermatologiczny Żel Oczyszczający Uriage stał się jednym z moich ulubionych produktów do codziennego oczyszczania. Mam suchą, wrażliwą skórę i większość środków czyszczących pozostawia ją ściągniętą lub podrażnioną – ale ten działa zupełnie odwrotnie. Ma cudowną lekką, pieniącą się konsystencję, która dokładnie oczyszcza skórę, nie pozbawiając jej wilgoci. Po każdym myciu moja skóra jest świeża, miękka i wygodna. Uwielbiam to, że nie zawiera mydła, nie zawiera parabenów i jest wzbogacony wodą termalną Uriage, która pomaga chronić naturalny film hydrolipidowy skóry i utrzymać długotrwałe nawilżenie. Świetnie sprawdza się zarówno do twarzy, jak i ciała, dzięki czemu jest praktycznym i delikatnym produktem typu „wszystko w jednym”. Nawet w okresach, gdy moja skóra jest wyjątkowo sucha lub wrażliwa, ten żel oczyszczający nigdy nie powoduje podrażnień — faktycznie pomaga uspokoić i zrównoważyć moją skórę. Pojemność 500 ml jest duża i starcza na długo, więc jest to świetna wartość w stosunku do jakości, jaką otrzymujesz. Ogólnie rzecz biorąc, jest to fantastyczny delikatny środek czyszczący dla każdego, kto ma suchą, wrażliwą lub łatwo podrażnioną skórę. Pozostawia skórę czystą, miękką i nawilżoną – na pewno będę go kupować ponownie",
+   "tags": [
+    "irritation",
+    "drying",
+    "foam_texture",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Uwielbiam go, ponieważ doskonale oczyszcza i chroni skórę, teraz nie potrzebuję nawet kremu na dzień ani na noc. Butelka jest już duża (500 ml) starcza mi na miesiąc, więc jest oszczędna, nie trzeba dużo zużywać, wystarczy odrobina, rozprowadzam i pienię. Już po jego zastosowaniu mam poczucie dobrego samopoczucia, relaksuję się dbając o swoją skórę. Kiedy mam makijaż, bo nie szczypie oczu, zmywam nim makijaż, uważaj, żeby nie było go dużo, tylko trochę, bo inaczej sięgnę po kolejny produkt, ale na tym, co zostało po całym dniu tuszu i cieni do powiek, dobrze się zmywa, nie pociera i nie piecze, powieki są potem jakby nawilżone, nie zawsze myślimy o pielęgnacji skóry powiek. Coraz częściej rozprowadzałam krem ​​na noc i nawet na dzień, sprawia, że ​​cera wygląda zdrowo, bez podkładu, podoba mi się, ale jak potrzebuję podkładu to już nie nakładam bazy, nakłada się bezpośrednio na skórę twarzy i trzyma się dużo lepiej niż wcześniej",
+   "tags": [
+    "irritation",
+    "foam_texture",
+    "moisturizing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Jest miło. Mężulek ma ciągły problem z wypryskiem kontaktowym, więc musimy uważać na to, co dla niego wprowadzamy, więc myśląc, że nie zawieramy mydła i żelu na skórę, powinniśmy to dać już temu. Wszelkie dodatkowe opcje w ramach ograniczonej kwoty są plusem. W tej chwili jego ręce nie są w złym stanie, są w stosunkowo dobrym stanie, więc daliśmy mu tryskać na próbę. Nie do mycia, tylko jako żel do rąk do wcierania i sprawdzania, czy wystąpiła jakakolwiek reakcja. Dobra wiadomość jest taka, że ​​nie wystąpiła żadna długotrwała reakcja. Jednakże, i to prawdopodobnie dlatego, że nie używaliśmy go do mycia, w otwartych pęknięciach skóry pojawiło się bardzo łagodne ukłucie, ale to nic więcej niż to, co robi z nim ciepła woda, więc czuje się pewnie, gdy jej używa. Jedynym problemem, jaki ma, jest to, że szyjka butelki nie jest zbyt wysoka, więc musisz wsunąć ręce pod nią, aby wydobyć niewielką ilość. Nie jest to jakiś ogromny problem, ale inny. Ogólnie rzecz biorąc, fajny żel, który dobrze oczyszcza i oczyszcza, a do tego przyjemnie wciera się go bezpośrednio w dłonie w małych ilościach",
+   "tags": [
+    "irritation",
+    "packaging",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Hipoalergiczny żel oczyszczający dla całej rodziny…. Ten natłuszczony żel oczyszczający może być stosowany przez całą rodzinę, od niemowląt, przez dzieci, aż po dorosłych! Można go nakładać na ciało lub twarz, ponieważ żel nie podrażnia, nie zawiera mydła ani substancji zapachowych. Jest bardzo dobry dla niemowląt i dzieci. Jego konstrukcja jest hipoalergiczna i nie szczypie w oczy. Jest naprawdę odpowiedni dla każdego rodzaju skóry, nawet najbardziej wrażliwej. Jest bardzo miękki, dobrze nawilża suchą skórę. Konsystencja żelu jest bardzo przyjemna i dobrze pieni się na kwiatku, naturalnej gąbce czy myjce. Skóra jest elastyczna, świeża i dobrze nawilżona. Topicrem to dobra marka, jej produkty sprzedawane są głównie w aptekach lub drogeriach. Daje to duże zaufanie do tego żelu oczyszczającego. Jeśli chodzi o cenę, jest ona całkiem rozsądna jak na tego typu produkt.",
+   "tags": [
+    "irritation",
+    "drying",
+    "fragrance",
+    "foam_texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Nie mogę się doczekać, aż to wszystko nasyci się! Musi być świetny dla skóry. Najpiękniejsze mydło jakie w życiu kupiłam! To absolutnie niesamowite połączenie mydła, dobrego olejku do ciała i kremu nawilżającego. Rozumiem, że można nim nawet usunąć makijaż, ale jeszcze tego nie próbowałam. Zapach jest absolutnie cudowny i bardzo lekki, nie utrzymuje się, nie gromadzi i nie koliduje z perfumami! To po prostu zapach jak ze spa, a nawet lepszy. Nie mogę sobie nawet wyobrazić, że mydło jest tak piękne, a to znacznie przekroczyło moje oczekiwania, które zawsze są dość wysokie! Najlepsze mydło na rynku i prawdopodobnie najzdrowsze mydło dla Twojej skóry na świecie. Nie jestem dermatologiem, ale dzielę się swoimi przemyśleniami na ten temat. Dostajesz też sporo produktu w tej cenie i proszę nie podwyższaj ceny, bo planuję kupić mydło do końca życia!",
+   "tags": [
+    "fragrance",
+    "moisturizing",
+    "family_multiuse",
+    "makeup_spf"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo skuteczny, wielozadaniowy, natłuszczony żel oczyszczający. Ogromny ulubieniec tego środka czyszczącego wyprodukowanego przez francuskie laboratorium. Jego aktywne składniki są bardzo ciekawe, a jego skład jest czysty i bezzapachowy. Jest to jedyny kosmetyk, który nie wysusza mojej skóry, wręcz przeciwnie. Jest bardzo delikatny i dobrze się pieni, po spłukaniu czujesz, że skóra jest komfortowa i dobrze nawilżona, a nawet ujędrniona. Używam go do ciała, twarzy i włosów. Nie muszę już nawet nakładać kremu nawilżającego na ciało po kąpieli. Do twarzy nie muszę już dodawać serum nawilżającego, bo bardzo dobrze nawilża skórę. Jeśli chodzi o skórę głowy, złagodził swędzenie i nie mam już łupieżu. Jest to uniwersalny, natłuszczający żel oczyszczający, delikatny i bardzo dobrze tolerowany przez moją wrażliwą i reaktywną skórę. Uwielbiam go i kupuję go ponownie, gdy tylko się skończy",
+   "tags": [
+    "drying",
+    "fragrance",
+    "foam_texture",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olejek oczyszczający Must Have – luksusowy i skuteczny. Szukałam czegoś, co przyniesie ukojenie i będzie bezpieczne dla egzemy mojego małego dziecka. Kupiłam ten olejek oczyszczający razem z balsamem Bioderma Atoderm Intensive Baume. Jak na razie mam obsesję na punkcie obu! Olejek oczyszczający pachnie bosko!!!! Już po pierwszym użyciu jego skóra na całym ciele stała się zauważalnie bardziej miękka. Następnie balsam wydawał się bogaty i ładnie się rozprowadzał. Połączenie na najwyższym poziomie. Bardzo mi się podoba, będę go używać również na sobie. Podoba mi się to, że może go używać każdy członek rodziny, dzięki czemu nie musimy ciągle kupować różnych produktów. Uwaga: ponieważ jest to olejek oczyszczający, nie pieni się dokładnie tak jak mydło. Do jego małej luffy używam 3 pompek, co daje przyjemną mleczną pianę. Ale nie z przesadnymi bąbelkami/mydlinami",
+   "tags": [
+    "fragrance",
+    "foam_texture",
+    "moisturizing",
+    "soothing"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonały mineralny zmywacz do filtrów przeciwsłonecznych!. Bardzo się cieszę, że ten produkt tak skutecznie usuwa mineralne filtry przeciwsłoneczne! Uważam, że używanie olejku oczyszczającego do usuwania filtra przeciwsłonecznego za każdym razem, gdy używam kremu z filtrem przeciwsłonecznym do całego ciała, jest męczące i wymaga zbyt wielu czynności, szczególnie wieczorem. Znalezienie tego przynosi ulgę i ratuje życie! Właściwie to źle zrozumiałam i myślałam, że to kolejny olejek do demakijażu, kiedy go kupiłam. W rzeczywistości jest to środek czyszczący uzupełniający lipidy. Nie jest to też tradycyjne mydło. To jak mydło bez mydła. Jest łatwy w użyciu. Nie pieni się tak jak tradycyjny żel do mycia ciała. Dzięki temu mniej wysusza wrażliwą, suchą skórę. Jestem pod wrażeniem, jak łatwo usuwa trudne, mineralne filtry przeciwsłoneczne, różne. Ma również ładny, lekki zapach",
+   "tags": [
+    "drying",
+    "fragrance",
+    "foam_texture",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Rewelacyjny olejek pod prysznic!. Uwielbiam stosować ten olejek oczyszczający do twarzy i ciała. Formuła jest delikatna i odżywcza, pozostawiając moją skórę miękką i nawilżoną zaraz po prysznicu, bez tłustych pozostałości. Lekko się pieni, sprawia wrażenie luksusowego i ma subtelny, czysty zapach, który nie jest przytłaczający. Doceniam również to, że jest świetny dla wrażliwej skóry – dobrze oczyszcza, nie ściągając i nie wysuszając, co czyni go idealnym do codziennego użytku. Duża butelka jest również bardzo praktyczna, ponieważ starcza na długo i ma świetny stosunek jakości do ceny. Ogólnie rzecz biorąc, ten olejek pod prysznic stał się podstawą mojej pielęgnacji. Jest nawilżający, kojący i wysokiej jakości. Zdecydowanie polecam go każdemu, kto szuka delikatnego, ale skutecznego środka do mycia ciała",
+   "tags": [
+    "drying",
+    "fragrance",
+    "foam_texture",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Znakomite dla całej rodziny. Wspaniała. Butelka tak dużej jakości. Mój partner ma szczególnie zapalenie skóry i nadal może jej używać tak samo jak wszyscy inni. Opisuje się jako świeży i czysty i dokładnie tak też bym to określił. Ma konsystencję gęstego żelu, który lekko się pieni, ale długo utrzymuje się na skórze. Daje uczucie świeżości i bez problemu można go stosować do mycia ciała, ale był również dobry do golenia i nie pozostawiał podrażnień po użyciu maszynki. Bardzo go polecam i naprawdę mi się podoba. Zdecydowanie zgodziłbym się z zawartymi w nim twierdzeniami i ogólnie lubię europejską pielęgnację skóry. Po prostu wydaje się, że ogólnie rzecz biorąc, jest to znacznie wyższa jakość. Duża butelka również wygląda elegancko w łazience i nie jest imponująca",
+   "tags": [
+    "irritation",
+    "foam_texture",
+    "family_multiuse",
+    "value_size"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Delikatny i orzeźwiający żel oczyszczający. Używam tego żelu oczyszczającego w ramach codziennej pielęgnacji skóry i szybko stał się on jednym z moich ulubionych produktów. Żel ma przyjemną konsystencję i ładnie się pieni, nie powodując uczucia szorstkości na skórze. Po spłukaniu moja twarz jest czysta i odświeżona, ale nigdy nie jest sucha ani ściągnięta. Szczególnie doceniam jego delikatność. Niektóre produkty oczyszczające pozostawiają na mojej skórze uczucie ściągnięcia, ale ten skutecznie oczyszcza, a jednocześnie jest wygodny w użyciu na co dzień. Zapach jest subtelny i przyjemny, a niewielka ilość produktu działa zaskakująco długo. Po kilku dniach stosowania moja skóra jest czysta, świeża i wygodna. Bez problemu wpasował się w moją rutynę",
+   "tags": [
+    "drying",
+    "fragrance",
+    "foam_texture",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Wyleczyłem kontaktowe zapalenie skóry mojego męża. Fantastyczna alternatywa do mycia ciała! Mój mąż od lat cierpiał na kontaktowe zapalenie skóry. Zmieniliśmy proszek do prania i wypróbowaliśmy niezliczoną ilość naturalnych płynów i balsamów do ciała, ale nic nie pomogło. Miał łuszczącą się wysypkę na klatce piersiowej i plecach. Pomyślałem, że spróbujemy tego, widziałem na YouTube dermatologa, który się tym zachwycał. I nie żartuję, około tydzień później jego wysypka zniknęła!!! Zdecydowanie polecamy. Oczywiście każdy ma inną skórę, więc to, co działa na jedną osobę, może nie działać na inną, ale jeśli masz wysypkę i myślisz, że to efekt detergentu do prania, sprawdziłabym również, czym myjesz swoje ciało! :)",
+   "tags": [
+    "irritation",
+    "drying",
+    "soothing",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Pozostawia moją skórę miękką i nawilżoną. Zaskoczyło mnie, jak duża była ta butelka. Ma dużą butelkę o pojemności 1 l, więc starcza na długo. Dozownik z pompką, który dobrze się sprawdza. Nie wyczuwam żadnego zapachu, jedynie świeży, czysty aromat. Wystarczy niewielka ilość, aby dobrze się spieniła, a po spłukaniu żel pozostawia moją twarz miękką i nawilżoną, ale bez tłustego uczucia. Używam go codziennie od kilku dni i już czuję różnicę zarówno na twarzy, jak i na dłoniach, są bardziej miękkie, a twarz nawilżona. rozmiar tego i wyniki, to naprawdę dobra wartość i na pewno umieszczę to na mojej liście subskrybentów",
+   "tags": [
+    "packaging",
+    "fragrance",
+    "foam_texture",
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Środek do usuwania filtrów przeciwsłonecznych!!. Nasza czteroosobowa rodzina jest regularnie smarowana cynkowym filtrem przeciwsłonecznym. Mieszkamy na Florydzie i jestem szaloną mamą, która przez cały czas wymaga pełnego ubezpieczenia. Problem polega na zmyciu kremu z filtrem przeciwsłonecznym. To jest jak pasta do pieluch. Przed wzięciem prysznica weź kilka pompek tego preparatu i wetrzyj go w skórę przed wejściem pod prysznic, a następnie wskocz pod prysznic. Zmienia kolor na mlecznobiały i rozkłada nawet gęsty, lepki cynkowy filtr przeciwsłoneczny, nie powodując złuszczania skóry. Kilka dodatkowych pompek pod prysznicem zapewni Ci to wszystko. Trzymam ogromną pompę w torbie na basen, więc łatwo ją wyczyścić, niezależnie od tego, gdzie się udamy. Nie wiem, jak żyłam bez tych rzeczy",
+   "tags": [
+    "irritation",
+    "drying",
+    "foam_texture",
+    "family_multiuse"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Naprawdę cudowny płyn do mycia twarzy. Zamówiłam to, żeby wypróbować środek do mycia, ponieważ nie mogę znaleźć niczego, co nie reagowałoby z moją wrażliwą skórą. Jest to ogromna butelka z pompką, która ma świetny stosunek jakości do ceny i starcza mi na lata. Łatwo dozować odpowiednią ilość, której potrzebujesz i nie ma szczególnie silnego perfumowanego zapachu - powiedziałbym, że ma raczej zapach medyczny, ale nie nieprzyjemny.  I co zaskakujące, biorąc pod uwagę, że nie pozostawił mojej skóry ściągniętej ani wysuszonej, po prostu naprawdę miękką, ale ładnie oczyszczoną. Właściwie jestem mile zaskoczony i myślę, że to będzie mój ulubiony żel do mycia twarzy przez jakiś czas",
+   "tags": [
+    "drying",
+    "packaging",
+    "fragrance",
+    "gentle_sensitive"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonały żel oczyszczający. Konsystencja jest bardzo przyjemna, przyjemna pianka. Zapach zgodny z żelami dermatologicznymi, słaby. Butelka z pompką jest bardzo praktyczna i skuteczna. Formuła jest bardzo, bardzo delikatna. Należy do typu „supertłuszczowego”, nie niszczy filmu ochronnego skóry. Po oczyszczeniu tym żelem prawie nie muszę nakładać kremu nawilżającego. Co najważniejsze, ten żel oczyszczający ma właściwości łagodzące. W ciągu trzech dni zaczerwienienia na mojej twarzy prawie zniknęły! Pięć gwiazdek w pełni zasłużone. Wyjątkowo dobry produkt w przystępnej cenie, brawo!",
+   "tags": [
+    "irritation",
+    "drying",
+    "packaging",
+    "fragrance"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Duża butelka miarowa. Markę Topicrem odkryłam niedawno i od tego czasu jestem jej fanką, zwłaszcza mojego 16-letniego syna, który ma skórę atopową i u którego wystąpił egzema na udach. Produkty przepisane przez lekarza, oprócz tego, że były bardzo drogie i skomplikowane w stosowaniu, nie przyniosły żadnego efektu. (przetłuszczony żel, balsam suszący itp.). Wszystko zmieniło się wraz z olejkiem totremrem, który niedawno uzupełnił o ten żel oczyszczający. Jego skóra stała się prawie normalna i nie odczuwa już swędzenia ani nieprzyjemnych wrażeń. Żel jest bezwonny i przyjemny w użyciu. Gorąco polecam.",
+   "tags": [
+    "drying",
+    "fragrance",
+    "soothing",
+    "value_size"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Świetny żel do mycia ciała i twarzy. Od jakiegoś czasu cierpię na suchą skórę i plamy/guzki na plecach i ramionach. Próbowałem różnych produktów, natknąłem się na ten produkt i przeczytałem recenzje, pomyślałem, że spróbuję. Z przyjemnością donoszę, że pomógł oczyścić moją skórę i wraz z kremem nawilżającym do ciała z tej samej serii moja skóra stała się bardziej nawilżona i bardziej miękka. Jest to również dobra wartość w porównaniu do niektórych produktów dostępnych na rynku. Polecam jakość tego produktu do oczyszczania i nawilżania wraz z kremem nawilżającym do całego ciała",
+   "tags": [
+    "moisturizing",
+    "family_multiuse",
+    "value_size"
+   ]
+  }
+ ]
+}

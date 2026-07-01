@@ -1,0 +1,1513 @@
+{
+ "totalReviews": 36500,
+ "avgRating": 4.55,
+ "productCount": 40,
+ "cpSummary": "Kremy do skóry atopowej kupują głównie rodzice dzieci z atopowym zapaleniem skóry oraz dorośli z bardzo suchą, wrażliwą, swędzącą lub egzemową skórą; częsty jest też zakup jako ogólny krem nawilżający do twarzy i ciała.",
+ "cpWho": {
+  "labels": [
+   "Rodzice dzieci z AZS",
+   "Dorośli z suchą/wrażliwą skórą",
+   "Osoby ze świądem/egzemą",
+   "Poszukujący nawilżenia twarzy",
+   "Fani naturalnych składników"
+  ],
+  "pos": [
+   16,
+   22,
+   10,
+   12,
+   8
+  ],
+  "neg": [
+   10,
+   20,
+   12,
+   9,
+   1
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Codzienna pielęgnacja",
+   "Wieczorem / na noc",
+   "Zimą / przy zimnie",
+   "Podczas zaostrzeń (wysyp)",
+   "Po prysznicu / goleniu"
+  ],
+  "pos": [
+   18,
+   16,
+   9,
+   8,
+   7
+  ],
+  "neg": [
+   14,
+   8,
+   4,
+   12,
+   3
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Twarz",
+   "Całe ciało",
+   "Bardzo suche partie (łokcie, pięty)",
+   "Dłonie",
+   "Skóra dziecka"
+  ],
+  "pos": [
+   12,
+   15,
+   14,
+   10,
+   11
+  ],
+  "neg": [
+   22,
+   10,
+   4,
+   8,
+   9
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Nawilżenie skóry",
+   "Łagodzenie świądu",
+   "Pielęgnacja skóry atopowej",
+   "Naprawa bariery / egzema",
+   "Naturalny, bezpieczny skład"
+  ],
+  "pos": [
+   24,
+   12,
+   14,
+   9,
+   8
+  ],
+  "neg": [
+   20,
+   14,
+   16,
+   8,
+   10
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Codzienny krem nawilżający do ciała",
+   "reason": "Najczęstsze zastosowanie — bieżąca pielęgnacja suchej skóry całego ciała.",
+   "pct": "27.0%"
+  },
+  {
+   "label": "Pielęgnacja skóry atopowej dziecka",
+   "reason": "Rodzice dzieci z AZS stosują dwa razy dziennie, licząc na mniej wyprysków.",
+   "pct": "20.0%"
+  },
+  {
+   "label": "Nawilżenie twarzy",
+   "reason": "Nakładanie na twarz, często mimo że produkt bywa za tłusty do cery mieszanej/tłustej.",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Punktowo na bardzo suche partie",
+   "reason": "Łokcie, pięty, kolana, dłonie — miejscowa intensywna pielęgnacja.",
+   "pct": "15.0%"
+  },
+  {
+   "label": "Łagodzenie świądu i podrażnień",
+   "reason": "Stosowanie przy swędzeniu, pokrzywce, zaczerwienieniu skóry.",
+   "pct": "12.0%"
+  },
+  {
+   "label": "Wieczorem / jako maska na noc",
+   "reason": "Gęste kremy nakładane na noc dla dodatkowego nawilżenia i regeneracji.",
+   "pct": "8.0%"
+  }
+ ],
+ "csSummary": "Ocena mocno spolaryzowana (avg 3.62): pozytywy skupiają się na skutecznym nawilżeniu i realnej uldze dla skóry atopowej dzieci, negatywy — na zbyt gęstej/tłustej konsystencji, nieprzyjemnym zapachu, braku ulgi lub pogorszeniu świądu oraz na problemach z opakowaniem (brak plomby, uszkodzenia, mylące rozmiary tub).",
+ "negativeTopics": [
+  {
+   "label": "Za gęsty i tłusty",
+   "reason": "Krem zbyt gęsty, ciężki, trudny do rozsmarowania, pozostawia tłusty film i połysk, nie wchłania się.",
+   "pct": "26.0%",
+   "bullets": [
+    "Trudny w aplikacji na dużych powierzchniach",
+    "Zostawia lepki, błyszczący film",
+    "Nie nadaje się na twarz do cery tłustej/mieszanej"
+   ],
+   "quotes": [
+    "Zdecydowanie za gęsty, nie wnika w skórę i dziwnie pachnie.",
+    "Niesamowicie tłusty krem. Krem ten po prostu strasznie przetłuszcza skórę i nie wchłania się nawet po dłuższym czasie."
+   ]
+  },
+  {
+   "label": "Nieprzyjemny zapach",
+   "reason": "Ostry, chemiczny, plastikowy lub mdły zapach utrzymujący się na skórze i ubraniach, mimo deklaracji bezzapachowości.",
+   "pct": "18.0%",
+   "bullets": [
+    "Zapach utrzymuje się na pościeli i piżamie",
+    "Opisywany jako chemiczny, kamforowy lub 'plastikowy'",
+    "Zmieniona formuła pachnie gorzej niż stara"
+   ],
+   "quotes": [
+    "W opisie jest napisane, że jest bezzapachowy, jednak krem ma bardzo nieprzyjemny zapach, który jest bardzo ostry i unosi się na ubraniu.",
+    "Nieprzyjemny zapach. Nie rozumiem jak oni nakładają ten krem na twarz! śmierdzi kamforą!!!"
+   ]
+  },
+  {
+   "label": "Brak ulgi / pogorszenie skóry atopowej",
+   "reason": "Nie łagodzi świądu, nie kontroluje wyprysków, a czasem nasila zaczerwienienie, swędzenie i podrażnienie.",
+   "pct": "17.0%",
+   "bullets": [
+    "Świąd i zaczerwienienie po pierwszym użyciu",
+    "Nie zapobiega zaostrzeniom AZS",
+    "Efekt gorszy niż przy kremach z kortyzonem"
+   ],
+   "quotes": [
+    "Nie nadaje się do skóry atopowej. już pierwszego dnia stosowania zwiększyło się jego zaczerwienienie i pojawił się stan zapalny.",
+    "Miałam wrażenie, że krem zamknął skórę i nie pozwolił jej już oddychać. To pogorszyło swędzenie."
+   ]
+  },
+  {
+   "label": "Problemy z opakowaniem i plombą",
+   "reason": "Brak folii/plomby zabezpieczającej, uszkodzone lub otwarte słoiki — wątpliwości higieniczne i co do autentyczności.",
+   "pct": "16.0%",
+   "bullets": [
+    "Słoik bez plomby pod wieczkiem",
+    "Opakowanie dotarło uszkodzone lub zgniecione",
+    "Podejrzenie produktu używanego / zwróconego"
+   ],
+   "quotes": [
+    "Opakowanie bez gwarancji integralności i być może używany krem.",
+    "Krem dotarł bez zabezpieczenia: po otwarciu słoiczka od razu znajdziemy produkt, każdy mógł go już dotknąć."
+   ]
+  },
+  {
+   "label": "Mylący rozmiar / cena / reklama",
+   "reason": "Małe tuby (30 ml) prezentowane obok pełnowymiarowych, poczucie wprowadzenia w błąd i przepłacenia.",
+   "pct": "13.0%",
+   "bullets": [
+    "Dwie tubki 30 ml zamiast oczekiwanych 75 ml",
+    "Umieszczenie pod pełnowymiarową tubą wprowadza w błąd",
+    "Bardzo drogie jak na ilość produktu"
+   ],
+   "quotes": [
+    "Dwie tubki o pojemności 30 ml, a nie 75 ml. Podstępna reklama.",
+    "wprowadzające w błąd zdjęcie pełnowymiarowej tuby - czuję się całkowicie wprowadzony w błąd."
+   ]
+  },
+  {
+   "label": "Wątpliwy lub agresywny skład",
+   "reason": "Obecność wazeliny, olejów mineralnych, BHT czy parabenów rozczarowuje szukających naturalnego, łagodnego składu.",
+   "pct": "10.0%",
+   "bullets": [
+    "Główny składnik to petrolatum / oleje mineralne",
+    "Obawy o BHT i parabeny przy skórze atopowej",
+    "Rozbieżność między 'naturalną' obietnicą a etykietą"
+   ],
+   "quotes": [
+    "KREM Z GŁÓWNYM SKŁADNIKIEM POCHODZĄCYM Z ROPY NAFTOWEJ 'PETROLATUM'. NATURALNE NIC.",
+    "Za dużo parabenów lub agresywnych składników dla tego typu skóry."
+   ]
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Skuteczne nawilżenie",
+   "reason": "Głębokie, długotrwałe nawilżenie suchej skóry — skóra miękka, gładka i zadbana.",
+   "pct": "28.0%",
+   "bullets": [
+    "Nawilżenie utrzymuje się długo (nawet 48h)",
+    "Skóra miękka i jedwabista po aplikacji",
+    "Świetne na bardzo suche partie ciała"
+   ],
+   "quotes": [
+    "Krem był bezwonny, szybko się wchłaniał, był lekki i spełniał funkcję najlepszego nawilżenia skóry mojej mamy.",
+    "Świetne nawilżenie, wchłania się całkowicie po kilku minutach."
+   ]
+  },
+  {
+   "label": "Pomaga skórze atopowej dzieci",
+   "reason": "Realna poprawa u dzieci z AZS — mniej wyprysków, spokojniejsza, nawilżona skóra przy regularnym stosowaniu.",
+   "pct": "22.0%",
+   "bullets": [
+    "Egzema regeneruje się w kilka dni",
+    "Mniej wyprysków przy codziennym stosowaniu",
+    "Odpowiedni dla niemowląt i całej rodziny"
+   ],
+   "quotes": [
+    "Idealny przy atopowym zapaleniu skóry u niemowląt. W ciągu zaledwie 4 dni egzema zregenerowała się w 90%.",
+    "Jestem zachwycona tym kremem, sprawdza się zarówno u dorosłych, jak i u dzieci ze skórą atopową."
+   ]
+  },
+  {
+   "label": "Łagodzi świąd i podrażnienia",
+   "reason": "Szybkie ukojenie swędzenia, zaczerwienienia i pokrzywki, często w kilkanaście minut.",
+   "pct": "15.0%",
+   "bullets": [
+    "Świąd ustępuje w 5-15 minut",
+    "Skuteczny przy pokrzywce i egzemie",
+    "Uspokaja zaczerwienioną skórę"
+   ],
+   "quotes": [
+    "Ustąpiło moje swędzenie w ciągu około 10 lub 15 minut.",
+    "Kiedy skóra jest czerwona i swędzi, nałóż na nią odrobinę, a to cię uspokoi w ciągu 5 minut."
+   ]
+  },
+  {
+   "label": "Naprawa bariery / dla wrażliwej skóry",
+   "reason": "Ceramidy, kwas hialuronowy i bezzapachowe formuły wzmacniają barierę i sprawdzają się przy retinolu/zabiegach.",
+   "pct": "13.0%",
+   "bullets": [
+    "Ceramidy i kwas hialuronowy odbudowują barierę",
+    "Bezzapachowy, idealny dla skóry wrażliwej",
+    "Dobry po retinolu i zabiegach estetycznych"
+   ],
+   "quotes": [
+    "Robi to, co obiecuje. zawiera ceramidy niezbędne do odbudowy bariery lipidowej.",
+    "Idealny na nadmiar retinolu. łagodzi suchość i podrażnienia."
+   ]
+  },
+  {
+   "label": "Dobry stosunek jakości do ceny",
+   "reason": "Duże opakowanie, wydajność i przystępna cena względem droższych marek aptecznych.",
+   "pct": "12.0%",
+   "bullets": [
+    "Słoik starcza na długo, wydajny",
+    "Tańszy niż marki apteczne",
+    "Warto kupować w abonamencie"
+   ],
+   "quotes": [
+    "Jakość/cena wśród najlepszych! Słoiczek jest bardzo duży, starcza na naprawdę długo.",
+    "Dobry produkt w przystępnej cenie. Jest wydajny, ma dobrą cenę. Polecam w 100%."
+   ]
+  },
+  {
+   "label": "Naturalny skład i przyjemny zapach",
+   "reason": "Naturalne oleje i ekstrakty roślinne, przyjemny ziołowy/lekki zapach doceniany przez część klientów.",
+   "pct": "10.0%",
+   "bullets": [
+    "Naturalne oleje i ekstrakty roślinne",
+    "Ziołowy, relaksujący zapach",
+    "Bez silikonów, wegański, nietestowany na zwierzętach"
+   ],
+   "quotes": [
+    "Aromat jest naturalny i relaksujący, dzięki czemu każda aplikacja będzie chwilą troski o siebie.",
+    "Skład jest bardzo dobry, na pierwszym miejscu olej shea i gliceryna, mile widziana nieobecność silikonów."
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Konsystencja",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Najczęstszy zarzut to zbyt gęsta, tłusta konsystencja, która nie wchłania się i nie nadaje się na twarz ani duże powierzchnie.",
+   "implication": "Wprowadzenie lżejszego wariantu ('light') lub jasny komunikat 'do bardzo suchych partii / na noc' ograniczy rozczarowania i zwroty."
+  },
+  {
+   "type": "Zapach",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Klienci skarżą się na ostry, chemiczny lub 'plastikowy' zapach utrzymujący się na skórze i ubraniach, mimo deklaracji bezzapachowości.",
+   "implication": "Doprecyzować deklarację zapachową i rozważyć naprawdę bezzapachowy wariant dla skóry atopowej/wrażliwej."
+  },
+  {
+   "type": "Skuteczność (AZS)",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Część użytkowników zgłasza brak ulgi, a nawet nasilenie świądu i zaczerwienienia przy skórze atopowej.",
+   "implication": "Jasno rozgraniczyć krem pielęgnacyjny od leczniczego i komunikować realistyczne oczekiwania (nie leczy egzemy)."
+  },
+  {
+   "type": "Opakowanie / zaufanie",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Brak plomby, uszkodzone lub 'otwarte' słoiki budzą wątpliwości higieniczne i podejrzenia o produkt zwrócony/nieoryginalny.",
+   "implication": "Dodać widoczną plombę/folię ochronną i lepsze zabezpieczenie transportowe — bezpośredni wpływ na oceny 1-2★."
+  },
+  {
+   "type": "Rozmiar / cena",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Mylące listingi małych tub (30 ml) obok pełnowymiarowych prowadzą do poczucia oszukania i przepłacenia.",
+   "implication": "Wyraźnie podawać pojemność w tytule i galerii, aby uciąć recenzje '1★ za wprowadzenie w błąd'."
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Nawilżenie",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Głębokie, długotrwałe nawilżenie suchej skóry to najsilniejszy i najczęściej chwalony atut produktu.",
+   "implication": "Eksponować dowody długotrwałego nawilżenia (48h, miękka skóra) jako główny przekaz na listingu."
+  },
+  {
+   "type": "Skóra atopowa dzieci",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Rodzice raportują realną poprawę AZS u dzieci i niemowląt — mniej wyprysków, szybka regeneracja egzemy.",
+   "implication": "Segment 'dla dzieci/niemowląt z AZS' to najsilniejszy driver lojalności i subskrypcji — warto go celować."
+  },
+  {
+   "type": "Ulga w świądzie",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Szybkie łagodzenie swędzenia i zaczerwienienia (w kilka-kilkanaście minut) generuje entuzjastyczne 5★.",
+   "implication": "Podkreślać 'szybka ulga w świądzie' jako mierzalną obietnicę popartą recenzjami."
+  },
+  {
+   "type": "Skład i cena",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Ceramidy/kwas hialuronowy lub naturalne oleje oraz wydajne, przystępne cenowo opakowania budują zaufanie.",
+   "implication": "Łączyć przekaz 'apteczna skuteczność w dostępnej cenie' + transparentny, prosty skład."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Pielęgnacja skóry atopowej / egzemy",
+   "reason": "Kupujący (często rodzice) szukają kremu kontrolującego AZS i wyprysky.",
+   "pct": "26.0%"
+  },
+  {
+   "label": "Intensywne nawilżenie suchej skóry",
+   "reason": "Bardzo sucha, napięta, łuszcząca się skóra wymagająca odżywienia.",
+   "pct": "24.0%"
+  },
+  {
+   "label": "Łagodzenie świądu i podrażnień",
+   "reason": "Potrzeba szybkiej ulgi przy swędzeniu, pokrzywce, zaczerwienieniu.",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Rekomendacje i popularność marki",
+   "reason": "Zakup pod wpływem recenzji, znanych osób i reputacji marki.",
+   "pct": "13.0%"
+  },
+  {
+   "label": "Naturalny / bezpieczny skład",
+   "reason": "Poszukiwanie składu bez agresywnych substancji i olejów mineralnych.",
+   "pct": "11.0%"
+  },
+  {
+   "label": "Wsparcie po zabiegach / retinolu",
+   "reason": "Odbudowa bariery po retinolu, zabiegach estetycznych, goleniu.",
+   "pct": "10.0%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Realna ulga dla skóry atopowej",
+   "reason": "Oczekiwanie kontroli wyprysków i świądu, nie tylko nawilżenia.",
+   "pct": "24.0%"
+  },
+  {
+   "label": "Szybkie wchłanianie, nietłusta formuła",
+   "reason": "Klienci chcą kremu, który wsiąka i nie zostawia tłustego filmu.",
+   "pct": "22.0%"
+  },
+  {
+   "label": "Delikatny lub brak zapachu",
+   "reason": "Przy skórze wrażliwej oczekiwany jest naprawdę bezzapachowy produkt.",
+   "pct": "16.0%"
+  },
+  {
+   "label": "Higieniczne, zabezpieczone opakowanie",
+   "reason": "Plomba/folia i nienaruszony słoik jako minimum zaufania.",
+   "pct": "15.0%"
+  },
+  {
+   "label": "Zgodność opisu z produktem",
+   "reason": "Rzetelna pojemność, skład i przeznaczenie (twarz vs ciało vs stopy).",
+   "pct": "13.0%"
+  },
+  {
+   "label": "Dobry stosunek jakości do ceny",
+   "reason": "Wydajność i cena konkurencyjna wobec marek aptecznych.",
+   "pct": "10.0%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "moisturizing",
+   "label": "Nawilżenie"
+  },
+  {
+   "value": "atopic_skin",
+   "label": "Skóra atopowa / egzema"
+  },
+  {
+   "value": "itch_relief",
+   "label": "Świąd i podrażnienia"
+  },
+  {
+   "value": "greasy_texture",
+   "label": "Gęsta / tłusta konsystencja"
+  },
+  {
+   "value": "smell",
+   "label": "Zapach"
+  },
+  {
+   "value": "packaging",
+   "label": "Opakowanie / plomba"
+  },
+  {
+   "value": "size_price",
+   "label": "Rozmiar / cena"
+  },
+  {
+   "value": "ingredients",
+   "label": "Skład"
+  },
+  {
+   "value": "kids_baby",
+   "label": "Dzieci / niemowlęta"
+  },
+  {
+   "value": "value",
+   "label": "Jakość / cena"
+  }
+ ],
+ "tagStyles": {
+  "moisturizing": "pill-blue",
+  "atopic_skin": "pill-purple",
+  "itch_relief": "pill-orange",
+  "greasy_texture": "pill-amber",
+  "smell": "pill-amber",
+  "packaging": "pill-red",
+  "size_price": "pill-red",
+  "ingredients": "pill-blue",
+  "kids_baby": "pill-purple",
+  "value": "pill-blue"
+ },
+ "reviews": [
+  {
+   "r": 1,
+   "t": "Krem do skóry na swędzenie. Krem kupiłam kilka tygodni temu i używałam go krótko. W opisie jest napisane, że jest bezzapachowy, jednak krem ​​ma bardzo nieprzyjemny zapach, który jest bardzo ostry i unosi się na ubraniu. Nakładałam go wieczorem przed pójściem spać. Następnego dnia musiałam wrzucić całą pościel i piżamy do prania i wyprać je dwa razy, bo zapach nie wychodził. Zapach również długo utrzymywał się na skórze. Ponieważ niektórzy użytkownicy chwalą przyjemny zapach, mogę tylko przypuszczać, że mój krem ​​się nie sprawdził. Recenzję piszę tak późno, bo zazwyczaj nie piszę recenzji, ale w przypadku tego kremu musiałam to zrobić. Niestety nie mogę nic powiedzieć o działaniu przeciwświądowym, gdyż kremu już nie używam. Zapach po prostu na to nie pozwala. A szkoda, bo był stosunkowo drogi",
+   "tags": [
+    "itch_relief",
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bardzo rozczarowujące dla mnie! A więc przede wszystkim pozytyw: Przesyłka dotarła szybko. Krem łatwo się rozprowadza. Krem z pewnością przydatny dla skóry suchej. Niestety negatywnie: Cierpię na pokrzywkę alergiczną i stresową. Niestety krem ​​w ogóle nie pomaga. Ani jeśli chodzi o dotknięte obszary skóry, ani o swędzenie (na butelce jest również napisane, że krem ​​pomaga tylko w przypadku swędzenia spowodowanego suchością skóry, a nie w przypadku innych rodzajów swędzenia). Uważam też, że krem ​​naprawdę śmierdzi. Miałem też inne kremy (przepisane przez mojego dermatologa), które również nie miały sztucznych substancji zapachowych, ale nie pachniały tak źle. Chociaż chętniej zniosłabym ten zapach, gdyby to pomogło - co niestety nie jest prawdą. Niestety nie jest to moja rekomendacja i nie kupię już tego kremu ani go nie użyję",
+   "tags": [
+    "itch_relief",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Wcześniej go wysuszyłam, ale teraz, jeśli go nie założę, to jakby spędzić 2 dni bez wody na pustyni. Jego głównym składnikiem jest olej. Odkąd użyłem tego kremu, zauważyłem, że moja twarz jest znacznie bardziej sucha niż zwykle, poszukałem trochę w Internecie i zasadniczo jest możliwe, że ten składnik powoduje u mnie wzrost suchości, którego wcześniej nie miałem. Kupiłem go, ponieważ moja skóra była trochę sucha i napięta, w miarę upływu dni po wypróbowaniu produktu, umyłem twarz i poczułem, że jest wyjątkowo sucha, co w ogóle mi się wcześniej nie przydarzyło, zanim było łagodne w porównaniu do tego, jak się czuję teraz. To okropne i prawdą jest, że po nałożeniu nie czuje się już ściągnięcia ani suchości. Ale osobiście uważam, że to fałszywe nawilżenie i że ten produkt zwiększył mój problem, więc nadal go używam",
+   "tags": [
+    "moisturizing",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niestety to pogorszyło mój problem. Byłem pod wielkim wrażeniem, kiedy przeczytałem wszystkie świetne recenzje tutaj i dlatego miałem wysokie oczekiwania. Kiedy krem ​​dotarł, użyłam go zgodnie z instrukcją. Miałem nadzieję, że warstwa ochronna zapobiegnie swędzeniu i skóra się zagoi, ale było gorzej. Dodałem zdjęcie, które pokazuje zmianę dla mnie w ciągu 24 godzin. Miałam wrażenie, że krem ​​zamknął skórę i nie pozwolił jej już oddychać. To pogorszyło swędzenie. Od tamtej pory go nie używam. Obecnie stosuję Soventol z kortyzonem. Oznacza to, że już po jednym dniu widzę widoczną poprawę. Swędzenie nie ustępuje całkowicie, ale wygląd skóry znacznie się poprawił",
+   "tags": [
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie wiem. Cerave używam od lat, najczęściej kupuję go w sklepie stacjonarnym lub na BeautyBay (ponieważ kupuję więcej produktów do pielęgnacji skóry). Ten nie przypomina tego, którego zawsze używałam, nie wiem, czy formuła jest inna, ale zapach też nie wydawał mi się odpowiedni. W rzeczywistości było to trochę nieprzyjemne, nie niepokojące, ale z pewnością inne niż wtedy, gdy kupowałem ten sam krem ​​innymi kanałami. Bałbym się kupić go tutaj ponownie. Chcę go natychmiast dokończyć, więc nakładam go tylko na bardzo suche partie ciała, wydaje się, że nawilża jak zwykle, ale na twarzy nawet nie pozostawił uczucia nawilżenia i świeżości, które zawsze czułam przy kremach Cerave. Jestem rozczarowany",
+   "tags": [
+    "moisturizing",
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Opakowanie bez gwarancji integralności i być może używany krem. Nie wypróbowałem kremu ze względu na sposób, w jaki dotarł, bez plastiku ochronnego znajdującego się na zewnątrz produktu lub wewnątrz, aby zagwarantować jego integralność, a tym bardziej bezpieczeństwo. Nawet patrząc na to od wewnątrz, może wydawać się zużyte, może nie jest, ale nie mam ochoty próbować 😅. Nie wiem, czy z higienicznego punktu widzenia jest w porządku sprzedawanie kremu, zwłaszcza w tego typu słoiczkach, bez jakiegoś zabezpieczenia potwierdzającego jego integralność, ale sprzedawany w ten sposób krem ​​z pewnością nie jest kremem, którego bym użyła. Szkoda, wyglądało to na ładne sformułowanie na papierze, pozostanę ciekawy",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "wprowadzające w błąd zdjęcie pełnowymiarowej tuby - Amazon jak zwykle wprowadza klientów w błąd. To tak mylące ze strony Amazona, że ​​pojawia się to pod pełnowymiarową tubą, więc wygląda na to, że płacisz mniej, jeśli kupisz dwie. W rzeczywistości mają tylko 30 ml każdy. Bardzo zła reklama. Czuję się całkowicie wprowadzony w błąd, płacąc prawie 17 funtów za 60 ml primera?! kiedy faktycznie tubkę 75 ml można dostać za mniej niż dziesięciocentówkę.  Zamawiałem w pośpiechu i nie sądziłem, że muszę sprawdzać tekst, ponieważ wygląda na to, że są to dwie tuby o pojemności 75 ml. Całkowicie oszukany. Zła forma, ponieważ ten pokarm dla skóry jest niesamowity, jednak ostatecznie przeglądam podstępne, wprowadzające w błąd działanie Amazona, a nie kremu",
+   "tags": [
+    "size_price"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niesamowicie tłusty krem. Jestem bardzo zaskoczony, że widzę tak wiele pozytywnych recenzji. Krem ten po prostu strasznie przetłuszcza skórę i nie wchłania się nawet po dłuższym czasie. Nie żeby mnie to specjalnie dziwiło, biorąc pod uwagę, że składniki są bogate w olejki. Ale jest to duży problem, jeśli chcesz się gdzieś przechylić, ponieważ pozostawia osad. Mimo to nie nawilża jakoś specjalnie. Ponadto jest bardzo trudny w aplikacji, ponieważ jest bardzo gęsty, a zapach jest bardzo intensywny i ostry i niezbyt przyjemny cytrusowy. Absolutnie odrzucone",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Absolutnie nie. Zero zaufania do Amazona w dzisiejszych czasach. Opakowanie dotarło bez żadnego rodzaju plomby, która gwarantowałaby integralność produktu, że nie zostało jeszcze otwarte, w rzeczywistości słoik wydaje się być otwierany wcześniej, ponieważ plomba na wieczku nie odpowiada uszczelce na opakowaniu, a na słoiku nie ma folii, jak na każdym produkcie. Niestety przeczytałem później kilka recenzji ze zwykłym problemem, że wysyłają produkty już otwarte. oczywiście zwrot został dokonany, pomoc Amazona była bardzo niegrzeczna, wyjaśniłem im problem, a oni też źle cię traktują",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "KREM Z GŁÓWNYM SKŁADNIKIEM POCHODZĄCYM Z ROPY NAFTOWEJ „PETROLATUM”. W ogóle mi nie przypadł do gustu, kiedy go otrzymałam i na liście składników zobaczyłam, że jego głównym składnikiem zaraz po glicerynie jest „Petrolatum”, czyli pochodna ropy naftowej. Reszta składników aktywnych, którymi promują krem, to minimalna proporcja. Próbowałem go zwrócić, bo czuję się oszukany, gdyż przed zakupem dobrze przeszukałem internet i stronę internetową pod kątem składników i oczywiście wyraźnie brakuje tego składnika. Zatem NATURALNE NIC",
+   "tags": [
+    "ingredients"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nawilża, ale wolałabym więcej dbałości o szczegóły. Krem dobrze spełnia swoją funkcję nawilżającą, jednak osobiście uważam, że jest trochę za tłusty, a zapach nie do końca przypadł mi do gustu. Zaznaczam też, że opakowanie zewnętrzne nie dotarło w idealnym stanie i nawet tubus wewnętrzny był już lekko zgnieciony (załączam zdjęcia). Przy pierwszym użyciu zabrakło również zakładki zabezpieczającej, co przyczyniłoby się do większego poczucia dbałości i niezawodności produktu",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Wcale mnie to nie zadowala. Mocno się klei, ale słabo odżywia, moja twarz jest bardzo, bardzo sucha i ten produkt niczego nie poprawia, myślę, że dlatego, że jest tak gęsty, że nie wnika w skórę. Długo się wchłania, daje duży połysk, nie nadaje się jako krem ​​nawilżający na dzień ze względu na tłustą twarz. Używałam go jako maseczki, jednak nie odżywiał i nie nawilżał tak jak oczekiwałam. W dłoniach się wchłania i pozostawia dobre samopoczucie. Ma przyjemny cytrusowy aromat. Może się myliłem, sądząc, że robi coś, czego tak naprawdę nie robi.",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Kupujący, strzeż się. Kupiłam ten produkt, myśląc, że będzie lepszy od balsamu, po czym przeczytałam skład: BHT (butylowany hydroksytoluen) to związek stosowany w kosmetykach ze względu na jego działanie przeciwutleniające. Wykazano potencjalny wpływ zaburzający funkcjonowanie układu hormonalnego, szczególnie na czynność tarczycy. Może również wpływać na hormony płciowe i wpływać na płodność. Można go również znaleźć w łożysku i mleku matki. Zgłoszono także toksyczność dla wątroby, nerek i płuc! Toksyczny również dla zwierząt morskich",
+   "tags": [
+    "size_price",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zdecydowanie za gęsty, nie wnika w skórę i dziwnie pachnie. Chciałem to polubić, ponieważ z jakiegoś powodu koleżanka poleciła to w swoich opowiadaniach. Kupiłam dwie butelki niewidoczne, które odeślę. Konsystencja jest zbyt gęsta, przez co ciężko się go aplikuje i wtapia w skórę. Prawdopodobnie najtwardszy krem, jaki kiedykolwiek próbowałem. To naprawdę prawie śmieszne. Pachnie jak krem ​​przeciw komarom. Chemiczny. Nieprzyjemne. I w końcu nie nawilża lepiej niż jakikolwiek krem ​​z supermarketu za 1 dolara. Twarda passa",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Gorsza sytuacja, wielkie rozczarowanie. Najgorszy krem ​​jaki kiedykolwiek używałam. Kupiłam go będąc w ciąży ze względu na rozstępy, które mnie swędzą. Dawałam temu kremowi kilka szans i było jedno rozczarowanie za drugim. Już pogłębia swędzenie i na dodatek nie wnika w skórę. Pozostawia olej na powierzchni, a po pocieraniu tworzy na skórze małe grudki. Nie rozumiem dobrych recenzji 😫",
+   "tags": [
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie nadaje się do skóry atopowej. Kupiliśmy ten produkt po zobaczeniu bardzo pozytywnych komentarzy na jego temat. Kupiliśmy go dla naszego 4-letniego synka, który ma skórę atopową, jako balsam nawilżający do regularnego stosowania, ale już pierwszego dnia stosowania zwiększyło się jego zaczerwienienie i pojawił się stan zapalny, jak po pokrzywce lub ukąszeniach. Krem bardzo ładnie pachnie i wydaje się mocno nawilżający, jednak w naszym przypadku, stosowanym przy skórze atopowej, efekt był bardzo negatywny.",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "smell"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "uszkodzone i przez to niehigieniczne. Zamówiłam krem ​​po raz trzeci i za drugim razem otrzymałam pełne opakowanie, ale za pierwszym razem było pęknięte i odłamana cząstka, więc musiałam go ponownie napełnić. Druga puszka była nienaruszona, ale jak zwykle nie była zaklejona folią pod wieczkiem. Ponieważ pilnie potrzebowałam kremu do opieki pielęgniarskiej, nie mogłam tego bezpośrednio udokumentować",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zbyt piękne, aby mogło być prawdziwe. Spełnia funkcję nawilżającą, natomiast odnośnie plam: NIE. Wprowadzająca w błąd reklama dotycząca jego zdolności do rozjaśniania skóry i usuwania plam spowodowanych słońcem. Byłoby niewiarygodnie, gdyby za niską cenę można było mieć właściwości rozjaśniające, jakich nie mają nawet najdroższe produkty. Seria Eucerin Pigment rzeczywiście pomaga w redukcji plam słonecznych i plam spowodowanych wiekiem.",
+   "tags": [
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie polecam... Etykieta z kodem kreskowym, z którego mogłam i chciałam dowiedzieć się informacji o składnikach i ich jakości, była zakryta metaliczną naklejką, której nie dało się usunąć, więc zwątpiłam, czy jest coś do ukrycia... Wypróbowałam go na twarzy i ciele, ale na twarzy pojawiło się zaczerwienienie. Konsystencja też jest trochę dziwna. Nie polecałbym tego. Przede wszystkim nie jestem zbyt zadowolony",
+   "tags": [
+    "itch_relief",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Podstępne i zdecydowanie za drogie. Rurki są malutkie. Umieszczenie tego bezpośrednio pod pełnowymiarową tubą jest tak mylące, że Amazon płaci mniej, jeśli kupisz dwa. Dwa razem mają mniej kremu niż pełnowymiarowa tuba.  Podstępna reklama. Zamawiałem w pośpiechu i nie sądziłem, że muszę analizować cały tekst, ponieważ wcale nie jest oczywiste, że mają tylko 30 ml każdy",
+   "tags": [
+    "size_price"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nigdy więcej. Zaintrygowana intensywną reklamą i pozytywnymi recenzjami chciałam spróbować, ale niestety muszę wystawić skrajnie negatywną opinię. Już po pierwszym zastosowaniu odczuwałam swędzenie i zaczerwienienie skóry, jednak przy drugim zastosowaniu na twarzy nastąpiło silne podrażnienie oczu, które musiałam leczyć kortyzonem. Straszny zakup.",
+   "tags": [
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "To nie jest oryginalne. Wypróbowałam już ten produkt i bardzo dobrze sprawdza się u mojej córki ze skórą atopową. Kiedy się skończył, zamówiłem go tutaj, ale nie jest to oryginał. Zostało mi jeszcze trochę drugiego kremu i zrobiłam test. Ten jest bardziej wodnisty, a drugi bardziej oleisty. Po wyschnięciu jest tak, jakbyś nic nie założyła, a druga pokazuje nawilżenie. Nie polecam kupować go tutaj.",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "kids_baby"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "nie dla mnie. kupiłam żel przeciw swędzeniu i naprawdę pomógł, więc pomyślałam, że wypróbuję również balsam, niestety zupełnie mi nie pomógł. Faktycznie pogorszyło swędzenie i plecy bolały tak bardzo, że musiałam zmyć to wszystko płynem. Bardzo się zawiodłam i musiałam zwrócić, chyba miałam alergię na któryś ze składników",
+   "tags": [
+    "itch_relief",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Dwie tubki o pojemności 30 ml, a nie 75 ml. Podstępna reklama. Rozmiar powinien być podany w opisie produktu na górze strony. Tak nie jest. Nie sądziłem, że będę musiał analizować cały tekst i nie jest oczywiste, że te tuby mają mniejsze rozmiary. Szukałem specjalnie pełnowymiarowych tub o pojemności 75 ml i to była druga opcja. Bardzo drogie jak na to, czym są",
+   "tags": [
+    "size_price"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie nadaje się do skóry atopowej. Bądź ostrożny! Produkt nie jest dobry dla skóry atopowej i nie polecam go. Oprócz tego, że nic nie poprawił, to nawet mnie pogorszył i mam taką reakcję na twarzy jak widać na zdjęciu zaczerwienienie + łuszczenie się, poza tym, że przy pierwszym użyciu (i tylko raz) poczułam, że piecze. Fatalne... Nigdy więcej tego nie użyję",
+   "tags": [
+    "atopic_skin",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie przejmuj się, wysyłają tylko jedno opakowanie, które nie jest tak reklamowane, jak podano w opakowaniu....... Musiałem zostawić gwiazdkę, aby to napisać. Zamówiłem pakiet dwóch sztuk, naładowano do pełna i otrzymano tylko jeden. Nie zrobiłbym tego ponownie. Zwykle zamawiaj większą tubę, ale zamiast tego zdecydowałem się kupić tę. Nie polecam czuć się całkowicie oszukanym. Próbowałem wysłać drugą tubę!",
+   "tags": [
+    "packaging",
+    "size_price"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Złe opakowanie. Niestety krem ​​dotarł z szczelnie zamkniętą nakrętką i bez zabezpieczającego plastiku. Wątpię, żeby krem ​​sprzedawany był bez zewnętrznej plastikowej osłonki, która uniemożliwia jego otwarcie. Od razu poprosiłem o zwrot. Nie rozprowadzam po ciele i twarzy niczego, czego ktokolwiek mógłby dotknąć",
+   "tags": [
+    "greasy_texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Zniszczone opakowanie. Dałem dwie gwiazdki, bo miał to być prezent, ale opakowanie jak widać na zdjęciach dotarło zniszczone. Przydałaby się trochę większa dbałość o opakowanie. Produkt musiałam zachować dla siebie i go wykorzystałam. Skórę na twarzy mam suchą, lekko tłustą jedynie na czole. Na twarzy nie czuję, żeby krem ​​szczególnie nawilżał: jest trochę tłusty, nawet przy niewielkiej ilości, ale zawsze mam wrażenie, że skóra jest napięta. Świadczy to o tym, że nie jest ona optymalnie nawilżona. Efekt będzie inny, jeśli nałożę go na spierzchnięte dłonie: nadal jest trochę tłusty, ale zmniejsza pierzchnięcie. Zapach nie jest jakiś wyjątkowy, ale to kwestia czysto subiektywna",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Musisz to przeczytać przed zakupem. Spodziewałam się dużo więcej po tym kremie, o którym tak dużo mówiono…. Wrażenie po nałożeniu jest jak krem ​​​​przeciwsłoneczny, dokładnie taki, jaki jest. Zawsze lubiłam, gdy moja skóra wyglądała na błyszczącą i soczystą, jednak przy tym kremie tego efektu nie da się osiągnąć, jest to raczej efekt kremu do opalania. Zapach jest trochę dziwny, bo pachnie roślinami, lekarstwem... Nie potrafię tego wytłumaczyć. Z drugiej strony bardzo trudno się go rozprowadza, bo jest bardzo, bardzo gęsty, ale z drugiej strony nie jest tłusty, w dotyku przypominałby krem ​​na pupę dziecka. Myślę, że użyję go na noc przed snem, kiedy będę potrzebować dodatkowego nawilżenia, ale nic poza tym :(",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "kids_baby"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Doskonały dla skóry, ale nieprzyjemny dla zapachu. Używam tej odżywki już od dłuższego czasu z dobrymi efektami. Zauważyłam jednak, że najnowsza zakupiona butelka, która w porównaniu do poprzednich różni się jedynie specyfikacją 48H, ma inny zapach. Co prawda krem ​​nie ma zapachu, ale pozostawia na skórze, a nawet na ubraniach irytujący, „plastikowy” zapach, który trudno usunąć z ubrania nawet po wielokrotnym praniu. Nie rozumiem, czy formuła została poprawiona, czy po prostu trafiłam na wadliwą butelkę. Fakt jest taki, że nie mogę go używać, nie toleruję tego nieprzyjemnego zapachu. Szkoda... Nie znalazłem jeszcze odpowiedniej alternatywy",
+   "tags": [
+    "moisturizing",
+    "smell"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie tak, jak się spodziewano!. Nie jest tłusty! Właśnie otrzymałem ten krem ​​​​nawilżający do twarzy i ciała Cetaphil.  Mieszkam w bardzo gorącym i suchym klimacie, więc od razu nałożyłem go na dłonie. NIESPODZIANKA!! Krem bardzo przetłuszczał moje dłonie, nadawał im wysoki połysk. Pocierałam i pocierałam, mając nadzieję, że to uczucie minie, ale tak się nie stało. Musiałem wziąć mokry ręcznik kuchenny, aby wytrzeć tłuste uczucie i zabłysnąć. Nie mogłem uwierzyć, że to się stało po przeczytaniu tylu świetnych recenzji! Zastanawiam się, czy tylko ja doświadczyłem tego problemu w przypadku tego produktu? Mam nadzieję, że kiedy zastosuję to później wieczorem, nie będzie wyglądać, jakbym wpadła do miski oliwy z oliwek!  :(",
+   "tags": [
+    "moisturizing",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Zapach. Nowa formuła nie sprawdza się już tak dobrze. Bardzo podobał mi się ten balsam i kupiłam go mnóstwo na pory suche, ponieważ był to jedyny balsam, który wyleczył moje popękane dłonie i pozbył się guzków na tylnej części ramion. Jednak ich nowa formuła ma dziwny zapach i nie działa tak dobrze w łagodzeniu suchej, wrażliwej skóry. Używam tego codziennie wieczorem, a czasem 2 razy dziennie, a moja skóra nadal jest sucha i napięta, dzięki starej formule i produktowi moja skóra była super miękka i nawilżona. Niezadowalający. Miejmy nadzieję, że wrócą do sposobu, w jaki to robili",
+   "tags": [
+    "moisturizing",
+    "smell"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Czy dostałem wadę?. Kupujący po raz pierwszy i został dostarczony dzisiaj. Dostawa była dobra, ale po otwarciu butelki zdziwiłem się, że nie ma kremowej konsystencji. Wyglądało to tak, jakby były zlepione razem i produkt nie osadzał się w pojemniku. Czy to normalne? Jeśli to możliwe, prosiłbym o przesłanie zdjęcia. Dziwię się, że nie wygląda jak te z recenzji innych osób, które wyglądają kremowo. Ten jest zbity. Nie to, czego się spodziewałem. Nie stosowałem, więc nie mogę się wypowiadać na temat skuteczności",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Nieprzyjemny zapach i trudno się aplikuje. Ma super mocny zapach, nie lubię kremów do twarzy z zapachem, ten jest mega nieprzyjemny. W ogóle słabo się rozprowadza, ciężko się rozprowadza i pozostawia skórę bardzo, bardzo promienną. Ten ostatni punkt mi nie przeszkadza, sprawia, że ​​skóra wygląda młodziej, ale warto o tym pamiętać. Nie kupiłabym go ponownie, nie nawilża wystarczająco, nie zapewnia komfortu, aby wyeliminować nieprzyjemny zapach i nie rozprowadza się łatwo",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Z olejami mineralnymi, słaba jakość. Kupiłam ten produkt z myślą o moim synku, skład nie był dobrze opisany na stronie, kiedy go otrzymałam i przeczytałam skład, zorientowałam się, że większość z nich to oleje mineralne (parafina ciekła i inne) pochodzące z ropy naftowej, które nie sprawdzają się u mojego synka ze skórą atopową, więc go wyrzuciłam i musiałam wyrzucić. Na rynku są inne, lepsze opcje na bazie naturalnych olejków w podobnych cenach",
+   "tags": [
+    "atopic_skin",
+    "ingredients",
+    "kids_baby",
+    "value"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Grzech. Weleda to na pewno gwarancja, ale przy tym kremie wcale nie czuję się dobrze. Używam go do ciała i jest niesamowicie twardy, ciężko się rozprowadza. Dużo się tego marnuje, opakowanie jest bardzo małe i nie uważam tego za wielką wygodę ekonomiczną. Ale niezależnie od kosztów, powiedziałbym, że dla mnie jest to absolutne nie. Przynajmniej do stosowania na ciało. Z tym produktem nie jest to już przyjemna i relaksująca rutyna. Naprawdę szkoda",
+   "tags": [
+    "greasy_texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie jest to zły krem ​​nawilżający, ale u nas nie za bardzo się sprawdził. Dobry krem ​​nawilżający, ale niezbyt skuteczny w pielęgnacji skóry atopowej (przynajmniej w naszym przypadku, bo wiadomo już, że nie każda skóra reaguje tak samo) w tym przypadku zapalenie skóry nie jest tak wyraźne, aby wymagało stosowania kremów leczniczych, a ten krem ​​​​nawilżający nie był w stanie specjalnie kontrolować ani zapobiegać epidemiom. Na nas lepiej działa organiczny olejek ze słodkich migdałów",
+   "tags": [
+    "moisturizing",
+    "atopic_skin"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie nadaje się do skóry atopowej. Najgorszy krem ​​do skóry atopowej jaki kiedykolwiek stosowałam, kupiliśmy go bo dziecko w wieku 5 lat nie miało już tylu wyprysków, ale nie podziałało, nie uspokaja go, a jeśli pojawia się zaczerwienienie biedaczek narzeka, bo bardzo swędzi, nam się to nigdy przy innych konkretnych kremach nie zdarzało. Może więc sprawdzi się jako zwykły krem ​​nawilżający, ale jeśli potrzebujesz kremu do skóry atopowej, to nie polecam",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "kids_baby"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Dostarczany bez uszczelki. Kiedy czytałam opinie, że ten produkt przyszedł bez opakowania, pomyślałam, że może to ktoś punktualny, ale kiedy dziś rano otrzymałam krem ​​bez opakowania, powiedziałam sobie, mmmm, no cóż, opinie były prawdziwe, jak można wysłać produkt bez opakowania! Nie mogę wyrazić opinii o produkcie, jeszcze go nie używałam, ale bardzo źle mi się kojarzy, że jest niezabezpieczony i dlatego moja ocena jest minimalna🤬",
+   "tags": [
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie wszystko jest tym, czym się wydaje.... Dla mnie osobiście ten produkt w ogóle nie zrobił dobrze dla mojej skóry. Mam skórę bardzo atopową i bardzo reaktywną, więc kiedy go kupiłam, żeby zobaczyć, jak się sprawuje, musiałam go odstawić po drugim użyciu. Skóra bardzo mnie swędziała i stwierdziłam, że to na nic. Za dużo parabenów lub agresywnych składników dla tego typu skóry, która wymaga bardzo ostrożnej pielęgnacji. Wszystkiego najlepszego",
+   "tags": [
+    "atopic_skin",
+    "itch_relief",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Bardzo dobry produkt, ale butelka jest podzielona na pół. Kupiłam żel i balsam... są dobre... i bardzo szybko zauważyłam poprawę, bo balsam jest o połowę mniejszy... butelka nie jest pełna do normalnego poziomu, ale pusta... myślę, że to odosobniony przypadek, bo wychodzi za pusta... zazwyczaj nie dochodzi do końca. To wiem, ale u mnie jest tak, że produkt ma cztery palce i dlatego czuję się oszukany",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Jak w piekarniku. Używałam go do nawilżania skóry i nawilża ją dopiero w momencie, gdy to robię... Teraz... Wahasz się jak pieczony kurczak... Jest tak gorąco, że jest to przytłaczające, bo pocisz się przy jego nakładaniu... Trochę obciąża skórę i oczywiście nie można uprawiać sportu, bo jeśli już się wahasz, to przy ruchu jest to nie do zniesienia. Nie polecam tego. Jeśli robisz to w nocy, to tak",
+   "tags": [
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "krem do ciała. Nic specjalnego, wygląda na zwykły krem ​​nawilżający. Słoik nie był szczelnie zamknięty, aby nikt go nie otworzył, wystarczyło przekręcić zakrętkę. Kremy w słoikach zazwyczaj mają przezroczystą lub srebrną folię, która uszczelnia zawartość. Nie odradzam, jednak higiena, szczególnie w przypadku kosmetyków, uważam za priorytet",
+   "tags": [
+    "moisturizing",
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Niezadowalający. Dwa lata pandemii, mycie i różne żele dezynfekcyjne sprawiły, że moje dłonie są bardzo spierzchnięte i wysuszone. Bardzo liczyłam na ten krem, który powinien „intensywnie odżywiać”. Niestety po tygodniach codziennego stosowania nie było poprawy. Mimo, że krem ​​jest bardzo gęsty. Szkoda, dla mnie było to całkowicie bezużyteczne",
+   "tags": [
+    "moisturizing",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Krem nawilżający do twarzy. Niestety krem ​​ten nie dotrzymuje obietnic. Wydaje się, że zaraz po nałożeniu działa, ale mija niecałe pół godziny, zanim skóra znów zaczyna być napięta. Przyznam, że mam bardzo suchą skórę ze skłonnością do egzemy, ale oczekiwałam od znanej marki minimum ukojenia...którego niestety nie ma. Nie udało się śpiewająco. przykro mi",
+   "tags": [
+    "moisturizing",
+    "atopic_skin"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Klasyczna maść o zapachu - bardzo tłusta. Producent: Weleda to certyfikowane kosmetyki naturalne z ziołowymi składnikami i długą tradycją. Produkcja odbywa się m.in. w Niemczech i Szwajcarii. Skład: Receptura oparta jest na olejach i woskach takich jak olej słonecznikowy, olej migdałowy, wosk pszczeli i wosk wełniany oraz ekstraktach roślinnych z rumianku, nagietka i bratka. Zawiera również olejki eteryczne jako substancje zapachowe. W aplikacji Yuka produkt zdobywa 63 na 100 punktów. Te zapachy są szczególnie krytykowane, ponieważ mogą potencjalnie powodować alergie. Brak olejów mineralnych, silikonów i syntetycznych konserwantów jest zaletą. Osobiste doświadczenia: Produkt jest dostarczany w aluminiowej tubie i można go wyraźnie zaklasyfikować jako maść. Konsystencja jest zwarta, bardzo bogata i wyraźnie tłusta. Po nałożeniu natychmiast tworzy się mocny, tłusty film, który prawie się nie wchłania. Zapach jest typowy Weleda, każdy kto zna markę od razu go rozpozna. Przetestowałam maść na dłoniach i stopach. Efekt pielęgnacji jest widoczny, skóra staje się miękka i wizualnie gładka, wręcz „świecąca”. Jednocześnie pozostaje trwały film tłuszczu, który przeszkadza mi w życiu codziennym. Dłonie i stopy pozostają lepkie przez długi czas. Maść nie jest odpowiednia do twarzy z moją mieszaną cerą, bo dla mnie jest za bogata, choć chętnie wypróbowałabym reklamowany efekt rozświetlenia jako bazę, bo faktycznie widzę ją na stopach i dłoniach. Dlatego dla mnie sensowne jest stosowanie go wyłącznie zgodnie z zaleceniami producenta, na noc z bawełnianymi rękawiczkami i skarpetkami. Dla mnie jest zbyt tłusty do codziennego stosowania.Uwagi:Ze względu na zapach nie stosować na skórę podrażnioną, ze stanami zapalnymi i otwartą.Podsumowanie:Klasyczna, bardzo tłusta maść z widocznym efektem pielęgnacyjnym. Odpowiedni do bardzo suchej skóry, stosować na noc do stóp i dłoni. Zapachy w zestawie. Lekki efekt blasku",
+   "tags": [
+    "moisturizing",
+    "itch_relief",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Bardziej „tłusty krem” niż balsam — krem ​​uzupełniający lipidy Xémose jest w rzeczywistości lepszy. Bazując na nazwie „Anti-Itch Soothing Oil Balm”, spodziewałam się gęstej, okluzyjnej konsystencji, typowej dla tradycyjnego balsamu. Jednak konsystencja była znacznie bliższa „płynnemu, oleistemu kremowi”. Ma znaczną ilość poślizgu i wydaje się dość „cienki” po nałożeniu w porównaniu do tego, czego się spodziewałem. Jest to doskonale funkcjonalny „zwykły” krem ​​​​nawilżający do ciała. Wchłania się stosunkowo dobrze i pomaga przy podstawowej suchości, ale nie sprawia wrażenia specjalistycznego leczenia intensywnego swędzenia lub poważnej naprawy bariery ochronnej. Jeśli szukasz uczucia ciężkiej, ochronnej „tarczy”, ten może wydawać Ci się nieco za lekki. Co ciekawe, kupiłam także krem ​​uzupełniający lipidy Uriage Xémose i właściwie wolę go od tego „balsamu olejkowego”. Pomimo tego, że jest oznaczony jako „Krem”, uważam, że Krem Uzupełniający Lipidy jest bardziej skuteczny w nawilżaniu i łagodzeniu mojej skóry. Wydaje się bardziej treściwy i zapewnia lepszą, długoterminową ulgę moim suchym, swędzącym plamom. Jeśli chcesz standardowego, łatwego do rozsmarowania codziennego kremu nawilżającego, jest w porządku. Ale jeśli naprawdę potrzebujesz „balsamu” uzupełniającego lipidy, pominąłbym go i zamiast tego sięgnął po krem ​​Xémose Lipid-Replenishing Cream lub nawet Xémose Cerat",
+   "tags": [
+    "moisturizing",
+    "itch_relief",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "intensywny, ale nie nadaje się do każdego codziennego życia. Testowałem krem ​​​​Weleda Skin Food Cream przez kilka tygodni i stosowałem go głównie na bardzo suchych obszarach skóry. Konsystencja jest bardzo gęsta i bogata, przez co przypomina bardziej intensywną pielęgnację niż lekki krem ​​nawilżający. Po nałożeniu zajmuje trochę czasu, aby się wchłonąć, ale pozostawia skórę bardzo odżywioną i chronioną. Ma bardzo szybkie działanie łagodzące, zwłaszcza na szorstkie obszary, takie jak dłonie, łokcie czy suche partie twarzy. Zapach jest typowo „naturalno-ziołowy” i dla mnie przyjemny, ale dla wrażliwych nosów może być nieco intensywny. Moja skóra ogólnie dobrze tolerowała krem ​​i była zauważalnie bardziej miękka i mniej sucha. Jednak wydaje mi się trochę za ciężki jako krem ​​do twarzy na co dzień, szczególnie pod makijaż lub dla cery tłustej. Jest jednak bardzo skuteczny i przyjemnie chroni na noc lub jako ochrona przed zimnem w zimie. Duża tuba o pojemności 100 ml jest praktyczna i starcza na długi czas przy oszczędnym stosowaniu. Ogólnie zdecydowanie poleciłbym go do bardzo suchej skóry, ale mniej dla osób preferujących lekkie tekstury",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "size_price"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry krem, ale bardzo tłusty. W zależności od przeznaczenia krem ​​oceniam na dobry lub umiarkowany. Zasadniczo ma typową jakość Weleda i jest certyfikowanym kosmetykiem naturalnym. Znajduje to oczywiście odzwierciedlenie w nieco wyższej cenie. Konsystencja kremu przypomina mi maść cynkową, choć skład jest oczywiście zupełnie inny. Krem jest bardzo gęsty i tłusty. Idealny dla stóp zestresowanych na przykład bieganiem lub wędrówkami, a także dla suchych miejsc na łokciach. Jednak nie potrafię go dobrze nakładać na twarz. Mimo iż zapewnia bardzo intensywną pielęgnację, pozostawia na skórze tłusty i błyszczący film nawet po intensywnym, wielogodzinnym masażu. Niestety nie mogę go używać tak uniwersalnie, jak się mówi, i dlatego jestem tylko częściowo usatysfakcjonowany",
+   "tags": [
+    "greasy_texture",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie jest taki, jak go malują... Kupiłam go ze względu na dobre rekomendacje, które przeczytałam na kilku stronach i powiedziały, że stosowały go jakieś znane osoby i świetnie pozostawił ich skórę itp... Ale zaczynam widzieć, że co X czasu polecają nam coś innego, więc zawsze kupujemy i wydajemy... Kupiłam go, aby nawilżyć twarz, zwłaszcza, że ​​mam skórę mieszaną. Jest super kremowy, pozostawia skórę błyszczącą po nałożeniu, a wchłanianie wymaga czasu. Nawet przy tych wszystkich właściwościach moja skóra nie jest nawilżona i miękka. Nie sądzę, że jest to niesamowity krem, jak to mówią, są tysiące lepszych. Gdybym kupiła drugi z tej samej serii, bardziej odpowiedni dla cery tłustej, w ogóle by mnie nie nawilżył. Mam nadzieję, że ci to pomoże",
+   "tags": [
+    "moisturizing",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Teraz zmieniona formuła - nie tak dobra. Kupiłam butelkę w grudniu ubiegłego roku - i całkowicie się w niej zakochałam. Najlepsza pozycja ciała, jaką kiedykolwiek stosowałam. Zmieniona kolejność i butelka wyglądała nieco inaczej z dodatkiem c8 - sam krem ​​również został przeformułowany, nie rozpływa się jak oryginalna formuła i pomimo braku etykiety perfum, balsam pachnie klejem PVA i nie znika. Z Twojej bazy danych wynika, że ​​dodano ceramidy i inne składniki aktywne, aby złagodzić niektóre problemy skórne, ale nie daje to tego samego efektu. Szkoda – udało mi się zaopatrzyć w starą formułę ze sklepu internetowego",
+   "tags": [
+    "smell",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Niewskazany dla skóry skłonnej do trądziku, dobry na miejsca bardzo suche i podrażnione. Krem bardzo treściwy, dobry do suchych partii twarzy i ciała (łokcie, kąciki nosa...), ale nie poleciłabym go do cer tłustych i trądzikowych. Stosowałam go przez dwa miesiące i na czole pojawiły mi się zaskórniki (to pewnie przez ten krem), będę go dalej używać jedynie na pierzchnięcia lub jako krem ​​do ciała. Bardzo gęsta konsystencja, zapach mi nie przeszkadza, wręcz jest przyjemny. Jeśli nałożysz go wieczorem rano, nadal pozostanie pewna ilość pozostałości, ale znikną one po umyciu twarzy",
+   "tags": [
+    "itch_relief",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Krem świetny/montaż niemożliwy. Butelka, jakaś nitka i mała pompka znajdowały się w jednym opakowaniu. Niestety nie udało się go złożyć. Ostrym przedmiotem i siłą mniej więcej nam się to udało. Jednak krem ​​nie tylko wyszedł z pompki, ale także z nitki. Ostatecznie odcięliśmy górną część butelki i zabutelkowaliśmy ją w puszce. Dlatego nie kupiłabym tego produktu ponownie. Ale z samego kremu jestem bardzo zadowolona. Szybko się wchłania i bardzo dobrze go toleruję",
+   "tags": [
+    "moisturizing",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie łagodził, nie zapobiegał swędzeniu. Przez ostatnie kilka lat stosowałem różne marki, próbując dowiedzieć się, co zadziała na moją skórę. Na początku ten krem ​​był obiecujący. Opinie były przyzwoite, a cena zgodna z moim budżetem. Niestety nie ukoił mojej skóry, ani nie zapobiegł swędzeniu.  Do tego pachnie chemicznie (prawie gumowo). Na pewno niektórym osobom zadziała, ale mi nie. Dałam trzy gwiazdki, bo cena jest dobra jak na ilość kremu, którą otrzymujemy. Działa również jako ogólny środek nawilżający",
+   "tags": [
+    "moisturizing",
+    "itch_relief",
+    "smell",
+    "value"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry. Używany tylko jako środek nawilżający, nie wiem, czy ma jakąkolwiek skuteczność w usuwaniu plam. Słoiczek jest bardzo duży, kremu jest bardzo dużo i biorąc pod uwagę cenę, naprawdę warto go kupić. Ponadto bardzo dobrze się rozprowadza i potrzeba go bardzo niewiele, więc myślę, że starczy na długo. Trzy gwiazdki należą się za opakowanie, bo słoiczek przyszedł bez żadnego zabezpieczenia, a pod zakrętką nie było nawet folii chroniącej zawartość, więc opakowanie zdecydowanie wymaga poprawy",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Niezbyt dobrze. Niestety produkt mnie nie przekonał: zbyt trudny do rozsmarowania, zbyt zbity. Na małe powierzchnie jest w porządku, jednak dla mnie, która szukała kremu do całego ciała, jest nieodpowiedni. Przyzwyczaiłam się do produktu tej samej marki w zielonym szklanym słoiczku, którego niestety nie mogę już znaleźć. Miałem nadzieję, że będzie podobnie, ale zdecydowanie nie jest to porównywalne. Zapach jest bardzo intensywny, nawet bardzo. Pozostawia też skórę lekko lepką. Nawet do twarzy uważam, że jest za tłusty. Nie wziąłbym tego ponownie",
+   "tags": [
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Zbyt gęsty, trudny do rozsmarowania i BARDZO silny zapach. Zawsze dawałam produktom tej marki 10, bo je uwielbiam i sprawdzają się świetnie, ale ten szczególnie mnie rozczarował. Kupiłam go, żeby nawilżyć twarz i dłonie moich córek, które teraz zimą bardzo cierpią z powodu zimna, ale powinnam kupić Skin Food light, bo ten jest zbyt gęsty, lepki i dość trudny do rozsmarowania. Ponadto ma bardzo mocny i mdły aromat, którego dziewczyny wcale nie lubią.",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "bardzo ciężki i nie podoba mi się ten zapach. Potrzebuję dużo nawilżenia, a ten krem ​​mi to zapewnia. Ma świetny stosunek jakości do ceny, ale jest bardzo ciężki, naprawdę tłusty krem, nie mogę go używać na twarz, a jedynie na bardzo suche partie, takie jak pięty i łokcie. Nie wiem, czy mój się zepsuł, ale nie jest biały, ale lekko żółtawy i nie podoba mi się ten zapach, nie wiem, czy jest stary, czy jest „balsamiczny”.  Bardzo mi to polecili, ale nie przypadło mi do gustu",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "value"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie jest to krem ​​dla każdego. Używam tego kremu od 5/6 lat, ponieważ jest idealny dla mnie, który ma zapalenie skóry, a przez to bardzo suchą i bardzo wrażliwą skórę. Doskonały jako baza pod krem, do którego można dodawać inne specyficzne kremy. Poprosiwszy innych członków mojej rodziny o wypróbowanie tego kremu (z inną skórą) odkryłem, że jest to wyjątkowo gęsty i tłusty krem, doskonały do ​​skóry suchej, ale jest tłusty i tłusty w przypadku skóry normalnej, a jeszcze gorzej w przypadku skóry tłustej",
+   "tags": [
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Zbyt gruby. Opakowanie było mniejsze niż myślałem, ale to moja wina. Krem nie ma zapachu i nie sprawił mi żadnych problemów. Jest za gęsty, nie można go zbyt mocno rozprowadzić, więc ostatecznie użyję tego, który jest do bani, ponieważ opakowanie jest już małe. Choć jest bardzo gęsty, nie jest to jakiś rewelacyjny krem ​​nawilżający, działa równie dobrze jak każdy inny drogeryjny krem. Nie zauważyłem żadnych zmian, ale może przy ciągłym użytkowaniu mogłoby być inaczej",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Bardzo gęsty krem ​​nawilżający do nóg. Moja żona kupiła go jako krem ​​nawilżający do bardzo suchej skóry nóg. Generalnie nie przypadł mu do gustu, gdyż jest to krem ​​bardzo gęsty i trudny do rozsmarowania na tak dużej powierzchni, jaką są nogi. Poza tym nie podobał mu się ten zapach. Może na mniejsze partie ciała jak dłonie, łokcie itd. jeśli spełnia swoją funkcję. Nie kupię tego ponownie",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie wiem!. Cóż mogę powiedzieć... Byłam entuzjastycznie nastawiona, biorąc pod uwagę liczne pozytywne recenzje i znajomość marki... ale ten krem... niestety nie dał żadnych korzyści na mojej wyjątkowo suchej skórze! Nałożony wieczorem widocznie zmiękcza suchą skórę, pozostawiając aksamitne uczucie na dłoniach... ale rano mam dość! Szkoda, naprawdę w to wierzyłam! Tylko trzy gwiazdki dla marki... zero za wynik",
+   "tags": []
+  },
+  {
+   "r": 3,
+   "t": "Produkt bez plomby: wątpliwości co do jego niezawodności. Zaskakujące jest to, że ten krem ​​jest dostarczany bez plomby zabezpieczającej, a jeszcze bardziej niepokojące, że można go zwrócić. Jak mogę mieć pewność, że kupowany przeze mnie produkt jest autentyczny i nie pochodzi ze zwrotu, w którym został przerobiony lub zastąpiony innym produktem? Wypróbuję, ale nie kupię ponownie. Uważam, że jest to niehigieniczne i nie powinno być dozwolone.",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Brałem Accutane i potrzebowałem kremu nawilżającego od.... Brałem Accutane i potrzebowałem kremu nawilżającego, ponieważ leki, które brałam, wysuszały moją skórę jak pustynia. Ten krem ​​cetaphil jest dostępny w mojej lokalnej aptece i naprawdę pomógł w zapobieganiu wypadaniu mojej skóry. Zapach jest bardzo neutralny. Jednak po przeczytaniu składu tego kremu prawdopodobnie nie kupię go ponownie",
+   "tags": [
+    "moisturizing",
+    "smell",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nieprzyjemny zapach. Nie rozumiem jak oni nakładają ten krem ​​na twarz! Na ciele jest już ledwo znośny, na twarzy po prostu NIEMOŻLIWE, śmierdzi kamforą!!! Stosuję go na pięty, łokcie i inne trudne miejsca oraz na kolana, ale przestań i na pewno NIGDY więcej go nie kupię.  w pozostałej części dostawa ok. Opakowanie NI miało uszkodzone pudełko i bez plomby",
+   "tags": [
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "dobry produkt. Mam bardzo suchą skórę, szczególnie szukałam czegoś do twarzy i po przeczytaniu recenzji zdecydowałam się wypróbować ten krem: bardzo treściwy, wchłania się długo, ale przynajmniej w moim przypadku nie nawilżał skóry... bardziej niż cokolwiek innego, tworzył coś w rodzaju bariery, ale ostatecznie skóra pozostaje sucha. Nadal stosuję go wieczorem, po zastosowaniu serum",
+   "tags": [
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Mikro-brokat. Działa świetnie! Użyłam go na okolice oczu, ponieważ mam bardzo suchą skórę wokół oczu i bardzo dobrze nawilżał. Zauważyłem jednak, że w tym kremie są maleńkie mikrobrokaty / połyski, których nie jestem fanem. Nie sądzę, że konieczne jest umieszczanie tego w tej informacji i nie podoba mi się, że nie ma tego na etykiecie, aby konsumenci o tym wiedzieli. W przeciwnym razie nie ma żadnych skarg",
+   "tags": [
+    "moisturizing",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Opakowanie bez folii ochronnej. Krem dotarł bez zabezpieczenia: po otwarciu słoiczka od razu znajdziemy produkt, każdy mógł go już dotknąć. W ten sposób PAO traci swoją niezawodność, ponieważ nie można mieć pewności, kiedy zostało faktycznie otwarte. Co do reszty, krem ​​ma przyjemny zapach, jest treściwy, ale nie przesadnie tłusty",
+   "tags": [
+    "greasy_texture",
+    "smell",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wyświetlany jest niewłaściwy produkt! Z reklamy wyraźnie widać, że jest to krem ​​do twarzy i ciała firmy Cetaphil, który można rozpoznać po dwóch symbolach. Niestety otrzymujecie wtedy krem ​​przeznaczony wyłącznie do CIAŁA. Kilka innych osób tutaj również to zauważyło. Szkoda! Wyświetlany jest nieprawidłowy produkt",
+   "tags": []
+  },
+  {
+   "r": 3,
+   "t": "Dobry, ale za gęsty do twarzy. Kupiony z myślą o mojej spierzchniętej od zimna twarzy, niestety w rzeczywistości bardziej nadaje się do wyjątkowo suchych partii ciała, ale uważam, że nie nadaje się do twarzy. Konsystencja trochę mnie rozczarowała, ale zapach jest dobry, niestety nie utrzymuje się, skóra nadal jest dobrze nawilżona. Konkurencyjna cena, ale nie kupiłbym go ponownie, dziękuję",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "value"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Gwarantowane nawilżenie. Jakiś czas temu kupiłam słoiczek CeraVe z myślą o bardzo suchej i delikatnej skórze mojej 82-letniej mamy. Ponieważ skarżyła się na powstawanie siniaków na ramionach, przypominających łuszczenie się, nawet przy niewielkich guzkach, lekarz rodzinny zasugerował zastosowanie kremu, który choć trochę przywróci barierę hydrolipidową. Wybór padł na zestaw składający się ze słoiczka 340 g + próbka płynu do mycia twarzy. Krem był bezwonny, szybko się wchłaniał, był lekki i spełniał funkcję najlepszego nawilżenia skóry mojej mamy, dzięki obecności kwasu hialuronowego. Kupiłam dla niej też suplement na bazie kwasu hialuronowego, żeby spróbować poprawić nawilżenie także od wewnątrz. Oczywiście, jak wiemy, w pewnym wieku są to już tylko środki paliatywne. Tak naprawdę skóra mojej mamy pozostała jednak delikatna i podatna na siniaki. Niezależnie od naszego naprawdę skrajnego przypadku, mogę powiedzieć, że krem ​​naprawdę nadaje gładszy i jaśniejszy wygląd suchej skórze. Ponadto ma bardzo długotrwały efekt. Jednak wśród pozytywnych nut muszę wskazać jedną niezgodną: w składzie pojawia się wazelina, która nie jest do końca najlepsza, zarówno dla osób o zielonej wizji, ale zwłaszcza dlatego, że słyszy się o jej niezbyt zdrowym działaniu. jednak umiejętności takie jak demonizowanie go, także dlatego, że w małych ilościach wazelina jest właśnie tym, co potrafi stworzyć na skórze barierę, która zatrzymuje wodę. Jest to produkt sprzedawany także w aptekach, co daje mi poczucie bezpieczeństwa; spełnia swoją funkcję, dobrze nawilża, nie jest lepki. Oczywiście każdy powinien wyciągnąć własne wnioski. Szczerze opowiedziałam Ci o moich doświadczeniach i przemyśleniach, które mam nadzieję pomogą Ci dokonać najlepszego wyboru",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Nawilżająco-rozświetlający krem ​​do twarzy, ciała i dłoni. Jest to dobry krem ​​do całego ciała, twarzy i dłoni. Ten aspekt zaintrygował mnie najbardziej, pomysł możliwości wykorzystania go w dowolnym miejscu. Jest to zatem rozwiązanie wygodne, praktyczne i szybkie. Konsystencja zapewnia odpowiednią równowagę pomiędzy kremową i płynną konsystencją, nie jest zbyt gęsta, nie jest ciężka, a jednocześnie bardzo nawilża i odżywia dzięki maśle shea. Zawiera niacynamid i pochodną witaminy C, które gwarantują jaśniejszą i bardziej jednolitą skórę. Tak, szybko się wchłania i nie jest lepki. Na twarzy, teraz, gdy jest gorąco, jest dla mnie trochę za bogaty, nawet jeśli nie jest ciężki. Tak naprawdę używam go głównie wieczorem po plaży i uważam, że jest idealny. Nadmiar połysku zmywam następnego ranka w ramach normalnego oczyszczania i pielęgnacji skóry. Osoby z suchą skórą prawdopodobnie nie będą miały tego problemu, a jedynie bardzo na tym skorzystają, jeśli chodzi o nawilżenie i blask! Używam go niemal codziennie i ta możliwość zadbania o siebie, dosłownie od stóp do głów, jest bezcenna, bo przy małej dziewczynce do opieki nigdy nie ma dla mnie czasu! Wreszcie ma bardzo lekki i przyjemny, nieinwazyjny zapach.  Ogólnie rzecz biorąc, świetny produkt!",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Skóra miękka, odżywiona i rozświetlona. Doskonały krem ​​wielozadaniowy - można go stosować na twarz, ciało i dłonie - silnie nawilżający i odżywczy, który dzięki niacynamidowi i witaminie C poprawia wygląd skóry. Muszę przyznać, że faktycznie po jego zastosowaniu skóra wydaje się rozświetlona i jedwabista w dotyku, dzięki maśle shea; nawet ogólnie suche i szorstkie miejsca, takie jak łokcie i pięty, są znacznie bardziej miękkie już po pierwszych zastosowaniach. Nie mogę wypowiedzieć się na temat możliwości rozjaśnienia plam, bo stosuję go zbyt krótko, ale niektóre jaśniejsze już wyglądają na lepsze. Muszę dać cztery gwiazdki, bo formuła jest bardzo bogata, przez co (moim zdaniem) nie nadaje się do stosowania na dłonie, które po nałożeniu kremu pozostają tłuste i śliskie, a także na twarz w przypadku cery mieszanej lub mieszanej. tłuszcz. Nawet na ciele trzeba go trochę popracować, żeby się wchłonął, właściwie teraz, gdy jest lato, stosuję go tylko wieczorem, bo w ciągu dnia byłby ciężki. To jedyny komentarz, jaki mam ochotę dać, inaczej dałabym pięć gwiazdek za krem, który daje dużo nawilżenia i piękną cerę w bardzo konkurencyjnej cenie",
+   "tags": [
+    "moisturizing",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wyjątkowy krem ​​odżywczy, jeden z najlepszych jakie próbowałam. Kupiłam ten krem ​​po tym, jak usłyszałam o nim wiele dobrego i muszę przyznać, że przerósł moje oczekiwania. Po pewnym czasie używania rozumiem, dlaczego jest tak popularny. Konsystencja jest bogata i odżywcza, idealna zwłaszcza do suchych partii skóry. Używam go głównie na dłonie, twarz i miejsca, które mają tendencję do pękania i natychmiast pozostawia uczucie miękkiej i dobrze nawilżonej skóry. Choć jest to krem ​​treściwy, to nałożony w odpowiedniej ilości dobrze się wchłania i daje bardzo przyjemny efekt. Znakomity zwłaszcza w chłodne okresy lub gdy skóra potrzebuje większego odżywienia. Kolejnym aspektem, który bardzo sobie cenię, jest zapach: delikatny, naturalny i relaksujący, ale nie przesadnie mocny. Ogólna jakość produktu jest również zauważalna już od pierwszego użycia. Opakowanie starcza na wystarczająco długo, bo wystarczy niewielka ilość na raz, więc stosunek jakości do ceny jest bardzo dobry. Podsumowując, dla mnie stał się niezbędnym kremem, który zawsze warto mieć w domu. Bardzo dobrze nawilża i sprawia, że ​​skóra jest widocznie bardziej zadbana. Na pewno kupię go ponownie",
+   "tags": [
+    "moisturizing",
+    "smell",
+    "packaging",
+    "value"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Bardzo bogata opieka. Krem nawilżający WELEDA Skin Food (100 ml edycja limitowana) testowałam przez kilka tygodni w ramach programu Amazon Vine i stosowałam go zarówno na twarzy, jak i na suchych partiach ciała. Krem jest niezwykle treściwy i ma bardzo gęstą, wręcz maściową konsystencję. Po zastosowaniu od razu widać, że jest przeznaczony do intensywnej terapii. Szczególnie na bardzo suchą skórę szybko działa uspokajająco i pozostawia uczucie ochrony i zadbania. Typowy zapach jest ziołowo-cytrusowy i dość charakterystyczny - dla mnie osobiście w porządku, ale niekoniecznie jest to coś, co każdemu się spodoba. Efekt pielęgnacyjny jest bardzo silny i utrzymuje się długo, co szczególnie pozytywnie zauważyłam na szorstkich lub zestresowanych obszarach skóry. Jednak na co dzień krem ​​jest dla mnie często za ciężki i „za dużo dobrego”, zwłaszcza na twarzy. Dobrze nadaje się do okazjonalnej intensywnej pielęgnacji lub jako maska ​​na noc, ale raczej nie nadaje się do stosowania na co dzień. Ogólnie rzecz biorąc, klasyczny produkt o statusie kultowego, który wyraźnie ma swoje zalety dla bardzo suchej skóry, ale nie nadaje się do każdego rodzaju skóry i każdej rutyny",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "size_price"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Bogata pielęgnacja – idealna dla skóry suchej. Krem nawilżający WELEDA Bio Skin Food to prawdziwy klasyk jeśli chodzi o intensywną pielęgnację bardzo suchej skóry. Krem idealnie sprawdza się na szorstkie partie ciała, takie jak łokcie, kolana czy dłonie, ale można go również stosować na twarz – zwłaszcza gdy skóra potrzebuje dodatkowej ochrony. Składniki mówią same za siebie: Dzięki naturalnym ekstraktom z roślin takich jak bratek, rumianek i nagietek oraz odżywczym olejkom i woskom WELEDA stawia na sprawdzone kosmetyki naturalne. Zauważa się to nie tylko po działaniu, ale także po typowym, lekko ziołowym zapachu, który trzeba lubić. Osobiście bardzo lubię stosować krem ​​do ciała - działa cudownie odżywczo i uspokajająco, zwłaszcza na suchą skórę. Używam go jednak na twarz tylko zimą, bo poza tym jest dla mnie trochę za bogaty i tłusty. Ogólnie uważam, że krem ​​jest naprawdę dobry: intensywnie odżywczy, ekonomiczny i idealny dla każdego, kto chce zafundować swojej skórze dodatkową dawkę pielęgnacji",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Bardzo pastowaty, oleisty i pachnący: jestem pewien.... Właśnie kupiłem go w sklepie Amazon, wypróbowałem. Krem ma bardzo pachnący, świeży zapach. Może to z powodu zimna, ale strużka, która wypływa, jest bardzo treściwa i dość twarda, co utrudnia rozprowadzanie jej dość energicznie. Osobiście kupiłam go, ponieważ buty robocze i skarpetki ochronne (od tych, które są w ciągłym ruchu) powodują, że skóra moich stóp jest bardzo sucha, wręcz szklista, dlatego zdecydowałam się na krem ​​o dobrych opiniach i mocno odżywczy, mając nadzieję, że będzie na tyle zmiękczający, że zniweluje to „szkliste” uczucie na skórze. Jest to bardzo tłusty krem. Po nałożeniu pozostawia również dłoń dość tłustą. Gdyby nie konsystencja, efekt końcowy przypomina trochę olejki do masażu. Mam nadzieję, że efekt końcowy będzie lepszy i przyniesie pożądane rezultaty",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetne nawilżenie, ale trochę ciężka konsystencja 💧🧴. Kremu nawilżającego CeraVe używam od kilku miesięcy i uważam, że jest naprawdę skuteczny w dogłębnym odżywianiu suchej skóry, zarówno na twarzy, jak i ciele 👌. Zawiera ceramidy i kwas hialuronowy, doskonałe składniki wzmacniające barierę ochronną skóry i utrzymujące nawilżenie 🔒💦. Skóra pozostaje miękka i chroniona przez długi czas, szczególnie zimą lub po prysznicu. Doskonały również do wrażliwej skóry, bo jest bezzapachowy i super delikatny 🌿. Jedyną małą wadą (jak dla mnie) jest dość gęsta konsystencja: wchłania się całkowicie po kilku minutach, dlatego wolę go na wieczór lub w dni, kiedy się nie spieszę 🕒. Ogólnie produkt solidny, esencjonalny i niezawodny. Jeśli szukasz głębokiego nawilżenia bez zbędnych dodatków, to bezpieczny wybór! 👍🫶",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "To dobry krem ​​nawilżający, co gwarantuje w reklamie, jednak nie mogę się wypowiedzieć.... Zachęcona pozytywnymi recenzjami wypróbowałam ten krem, który początkowo mnie nie zadowolił. Nie odczułam żadnego nawilżenia, może dlatego, że używałam kremów dużo lepszych od tego, mimo że były droższe. Przy drugiej aplikacji odczułam lepsze nawilżenie i oczywiście nie mogę się wypowiedzieć na temat możliwości usunięcia plam; po pierwsze dlatego, że na szczęście ich nie mam, a po drugie dlatego, że myślę, że gdybym to zrobił, zajęłoby to trochę czasu. Nie czuję, żeby moja twarz była jaśniejsza, po prostu czułam, że jest bardziej nawilżona. W dniu, w którym na kremach zostanie umieszczona pieczątka gwarancyjna DUE, kupię go ponownie. Na razie jestem ostrożny i nie mam ochoty go polecać",
+   "tags": [
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Nawilża i pomaga przy egzemie. Jest to dobry krem ​​nawilżający, choć dość drogi. Zacząłem go stosować po zastosowaniu Bepanthol sensi spokojna na egzemę, którą miałem na obu ramionach ze swędzeniem i zaczerwienieniem, które rozprzestrzeniło się na oba przedramiona. Ponieważ wszystko poszło dobrze, zobaczyłem, że mają kontrolę nad zmysłem, która mówi, że zapobiega przyszłym epidemiom, i kupiłem to. Przejdź od nakładania go tylko na przedramiona do stosowania go na całym ciele po prysznicu. Bardzo dobrze nawilża, pozostawia skórę bardzo miękką, a dzięki płynnej konsystencji dobrze się rozprowadza i wchłania. Ponieważ jestem cukrzykiem, muszę bardzo dbać o swoją skórę i czytając skład, wydaje się, że daje to gwarancję jakości. Póki co nie mam już żadnych wybuchów. Powtarzam, że uważam to za trochę drogie, ale prawda jest taka, że ​​to bardzo dużo.",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Może powodować reakcję alergiczną na twarzy. Chcę tylko poinformować ludzi, że ten krem ​​może powodować reakcję na twarzy. Używałam kilku kremów od mojej kosmetyczki. Wysuszał mi skórę i ktoś mi polecił ten produkt. Czuje się luksusowo i JEST dobrym kremem. Jednak po jego użyciu na mojej twarzy pojawiły się małe czerwone plamki. W pierwszej chwili pomyślałam, że to inne moje produkty. Zrobiłem więc proces eliminacji. Plamy prawie zniknęły po 4 dniach odstawienia tego kremu. Przeszukałem Google i inni skarżyli się na to samo. Balsamu będę używać do rąk i nóg. Nie wywołuje to tam reakcji. Więc nadal dałem mu 4 gwiazdki. Również te recenzje są wyświetlane pod nazwiskiem mojego męża. To jego żona Carla pisze recenzje lol",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Świetnie nawilża, dodałem olejki eteryczne. Mam bardzo wrażliwą skórę i rogowacenie mieszkowe, więc wybrałam ten produkt, aby naprawdę nawilżyć moją skórę. Świetnie się sprawdza, nakładam go za każdym razem, gdy wychodzę spod prysznica, aby naprawdę zatrzymać wilgoć. Jednakże zapach jest trochę medyczny/nieistniejący i w pewnym sensie „stary”? haha nie wiem czy to ma sens. Właśnie dodałem własne olejki eteryczne (lawenda, drzewo herbaciane, trawa cytrynowa, rumianek), które pomagają zachować zdrową skórę i teraz mam krem, który dobrze działa na moją skórę i również ładnie pachnie. To dobra wartość, bo trochę to dużo. Również cetaphil nie testuje na zwierzętach, więc jest to świetny wybór, jeśli jesteś weganinem! Inne kremy na poziomie medycznym są paskudne w kontekście okrucieństwa wobec zwierząt",
+   "tags": [
+    "moisturizing",
+    "smell"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Świetny krem ​​pod warunkiem prawidłowego użycia. Świetny krem, ale jedno trzeba doprecyzować, ponieważ jest to bardzo, bardzo bogaty i gęsty krem, należy go stosować wyłącznie na bardzo suche partie ciała, takie jak pięty, łokcie itp., ale odradzam codzienne stosowanie go na twarz, jak sugeruje wielu pseudoinfluencerów… nie róbcie tego!!!  Krem ten stosowany codziennie na twarz może zatykać pory i powodować efekt odwrotny do nawilżenia, należy jednak zachować ostrożność, ponieważ absolutnie nie nadaje się jako krem ​​do twarzy na co dzień, nawet dla osób z suchą skórą!!! Dobrze łagodzi spierzchnięte miejsca, ale zawsze na krótki czas, nie polecam go stosować codziennie",
+   "tags": [
+    "moisturizing",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Jakość/cena wśród najlepszych!. Krem nawilżający, przeciwzmarszczkowy i przeciw niedoskonałościom! Słoiczek jest bardzo duży, starcza na naprawdę długo nawet przy codziennym stosowaniu. Nie jest tłusty, nie lepi się, nie ma uciążliwego zapachu, faktycznie pozostaje bardzo lekki na skórze. Stosowany codziennie na twarz i szyję, już po kilku tygodniach można zauważyć jaśniejszą i nieco bardziej stonowaną skórę, na wypryski można też pomóc doskonałym kremem z filtrem przeciwsłonecznym. Nie spotkałam się z żadnymi niepożądanymi reakcjami czy zaczerwienieniami, stosuję go codziennie nawet w sezonie letnim, cena naprawdę wygórowana w porównaniu do tego, co jest na rynku, zwłaszcza w takich ilościach! Polecam to każdemu",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Super odżywczy krem ​​do stosowania jako pierwsza pomoc dla suchej skóry. Zaintrygowana artykułami i recenzjami gwiazd, które wychwalają magiczną moc tego kremu, nie mogłam się oprzeć, ze względu na przystępną cenę też chciałam go spróbować. Jest to bardzo treściwy krem, nie polecałabym go stosować regularnie, uważam, że świetnie nadaje się do stosowania wieczorem jako dodatkowe wzmocnienie przy suchej i odwodnionej skórze, gdyż jest bardzo gęsty, rano skóra jest miękka i dobrze nawilżona. Nie próbowałam go jeszcze na inne suche partie ciała, ale polecam go jako krem ​​wielokrotnego użytku. Zapach nie jest zbyt przyjemny, ale jakoś specjalnie mi to nie przeszkadzało",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "value"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry produkt. Produkt świeży, krem ​​jest bardzo gęsty, więc w moim przypadku wystarczy niewielka ilość, żeby dobrze wmasować, ja nie używam go dużo, żeby lepiej się wchłonął. Na chwilę obecną użyłam go tylko dwa razy, nie sądzę, żeby był to produkt do codziennego stosowania, w zasadzie będę go używać raz/dwa razy w tygodniu na twarz, można go stosować na suche partie twarzy, dłonie, pięty, nogi, zwłaszcza jeśli są suche i swędzące. Wzięłam go, bo latem i zimą skóra ma tendencję do przesuszenia nawet na nogach. Jestem ciekawa wypróbowania, bo moim zdaniem bardzo się przyda latem od maja, kiedy będę dużo korzystać z basenu... Więcej opowiem wkrótce",
+   "tags": [
+    "itch_relief",
+    "greasy_texture",
+    "value"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Odpowiedni dla każdego, kto ma bardzo wrażliwą skórę. Moja skóra jest bardzo wrażliwa.  Ilekroć użyłem nieodpowiedniego produktu, swędziało i zaczerwieniło się przez co najmniej tydzień.  Dlatego podchodzę bardzo sceptycznie do wyboru produktów do pielęgnacji skóry.  Wypróbowałem już wiele produktów, od marek dostępnych bez recepty po luksusowe marki kosmetyczne, wydałem dużo pieniędzy, ale nadal nie dostałem zadowalającego.  Na szczęście znalazłem to! Cetaphil działa bardzo dobrze z moją skórą, nie ma wyprysków ani alergii.  Jest też bardzo przystępny cenowo (szczególnie w porównaniu z luksusową marką).  Jedyne do czego mogę się przyczepić to to, że po aplikacji jest lekko tłusty",
+   "tags": [
+    "atopic_skin",
+    "itch_relief",
+    "greasy_texture",
+    "value"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "TERENOWY SUPERNAWILŻAJĄCY KREM DO SKÓRY SUCHEJ, TWARZY I CIAŁA. Mam bardzo suchą skórę i zawsze szukam kremów mocno nawilżających, jestem zachwycona tym kremem do twarzy. Korzystają z niego wszyscy członkowie rodziny, od dzieci po dorosłych. Kremu do twarzy z nagietkiem Weleda baby stosuję codziennie przez cały rok (mieszkam na północy Hiszpanii), a w najzimniejsze dni dodatkowo krem ​​Weleda Skin Food, który jest bardziej tłusty. Idealny na co dzień, a także po goleniu czy innych podrażnieniach. Oprócz twarzy można go stosować na inne partie ciała, idealnie sprawdza się na łokciach",
+   "tags": [
+    "moisturizing",
+    "itch_relief",
+    "greasy_texture",
+    "kids_baby"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Żółty jest lepszy! Wersja z niacynamidem jest fantastyczna. Postanowiłam wypróbować obie wersje, zarówno czerwoną, jak i żółtą. Po ich przetestowaniu moim faworytem jest niewątpliwie żółty niacynamid. Konsystencja jest cudowna: wydaje się znacznie bardziej miękka i maślana na skórze niż czerwona. Do tego ma przepiękny zapach, który sprawia, że ​​aplikacja staje się prawdziwą przyjemnością. Wersja czerwona natomiast ma bardzo neutralny zapach. Pomimo tego, że jest to dobry produkt, na pewno będę nadal kupować żółty ze względu na jego zmysłowość. Gorąco polecam!",
+   "tags": [
+    "smell"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Super nawilżający. To bardzo tłusty krem. Moja skóra jest bardzo sucha, wrażliwa i występuje trądzik różowaty. Zwykle, gdy nakładam krem, w ciągu kilku minut moja skóra całkowicie go wchłonęła i nie pozostał ślad nawilżenia, co nie zdarza się w przypadku tego kremu. Nawet dla mnie jest trochę zbyt „lepki”. Stosuję go jako maseczkę, nakładam na twarz na dłuższy czas (na noc), a gdy kładę się spać, nadmiar usuwam chusteczką, aby nie rozmazać go po całej poduszce. Pewnie jak mi się skończy to kupię ponownie",
+   "tags": [
+    "moisturizing",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "doskonały produkt. Autorem jest mężczyzna, który przeprasza większość użytkowników za prawdopodobne błędy. Po wypadku w dolnej części nogi (od kolana w dół) skóra stała się zaczerwieniona i sucha. Polecono mi ten krem ​​nawilżający, wydaje się działać. Tyle, że wmasowanie sporej ilości słoiczka znika. Ale spełnia swoje zadanie, wchłania się niemal błyskawicznie, a skóra, choć nie wraca do pierwotnego poziomu, wydaje się bardziej realistyczna. Takie są moje wrażenia po kilku dniach użytkowania",
+   "tags": [
+    "moisturizing",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Przyjemny zapach. Doskonały krem ​​nawilżający, natychmiast wysycha i nie pozostawia tłustej warstwy na skórze. Naprawdę doskonały stosunek jakości do ceny, nawet lepszy niż niektóre kremy, które kosztują trzy razy więcej. Wypróbowałem też inne rodzaje i muszę przyznać, że ten i czerwony najbardziej cenię, ponieważ mają lekki zapach, który czyni je przyjemniejszymi, ale wszystkie są dobre, ponieważ zadowolą również tych, którzy nie mogą używać zapachów ze względu na alergie lub dyskomfort. Ogólnie dobry krem, dobra cena i myślę, że nadaje się do prawie każdego rodzaju skóry.",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "value"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "JEST TO PRODUKT WYSOKIEJ JAKOŚCI. Używam produktów tej marki, ponieważ zawsze bardzo dobrze się u mnie sprawdzały, są dobrej jakości i nie są agresywne dla mojej skóry, która ma skłonność do alergii. Jedyne, co mi się nie podoba, to zapach, chciałbym, żeby był to zapach podobny do ich wody kolońskiej, który jest niesamowity. Chociaż wyobrażam sobie, że to będzie kwestia gustu, bo moja mama uwielbia ten zapach. Mam nadzieję, że pomogłem Ci moją oceną, jeśli tak, nie wahaj się jej wskazać, jest to dla mnie ważne. Wielkie dzięki",
+   "tags": [
+    "smell"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Doskonały stosunek jakości do ceny. Kupiłam ten krem ​​w konkurencyjnej cenie, dobry stosunek jakości do ceny. Skład jest bardzo dobry, tak naprawdę na pierwszym miejscu znajduje się olej shea i gliceryna, ale przede wszystkim bardzo mile widziana jest nieobecność silikonów. Bardzo podobał mi się zapach, delikatny i lekki, przypominający krem ​​​​do opalania. Jedyną wadą jest powolne wchłanianie się na skórze twarzy. Po odkorkowaniu produktu brakuje wewnętrznej folii ochronnej",
+   "tags": [
+    "moisturizing",
+    "smell",
+    "ingredients",
+    "value"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Doskonały krem ​​na dzień. Mixa Niacinamide Bright to krem ​​do skóry wrażliwej z 9% niacynamidem i witaminą C, opracowany w celu wyrównywania cery, redukcji przebarwień i nadania blasku. Ma lekką konsystencję, dobrze nawilża, nie jest tłusty i nadaje się również do twarzy, dłoni i ciała. Formuła jest hipoalergiczna, ale zawiera odrobinę perfum. Używam go od kilku tygodni i uważam, że to dobry krem ​​na co dzień, świetny stosunek jakości do ceny, słoiczek jest ładny i duży!",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "value"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Mój zaufany krem. Weleda Skin Food Original to kultowy krem ​​znany ze swojej zdolności do intensywnej naprawy i odżywiania suchej lub zniszczonej skóry. Formuła oparta na naturalnych i certyfikowanych składnikach stała się niezbędnym produktem dla osób poszukujących skutecznego i przyjaznego dla skóry rozwiązania. Zalety: ✅ Głębokie nawilżenie: Formuła bogata w naturalne olejki i ekstrakty roślinne intensywnie odżywia nawet najbardziej suche obszary, takie jak łokcie, kolana i dłonie. ✅ Uniwersalny: Idealnie nadaje się nie tylko do nawilżania skóry, ale także do naprawy niewielkich uszkodzeń skóry, pielęgnacji skórek, łagodzenia podrażnień, a nawet jako rozświetlający krem pod makijaż. ✅ Naturalne składniki: Zawiera ekstrakty z nagietka, rumianku, rozmarynu i olej słonecznikowy, co gwarantuje pełną szacunku i naturalną pielęgnację skóry. ✅ Bogata i kojąca konsystencja: Mimo że jest gęsta, dobrze wtapia się w skórę, pozostawiając uczucie natychmiastowego komfortu. ✅ Certyfikat kosmetyków naturalnych: Weleda jest rozpoznawalna jego zaangażowanie w zrównoważony rozwój i wykorzystanie składników organicznych, co czyni go idealnym rozwiązaniem dla osób poszukujących szkodliwych substancji wolnych od substancji chemicznych. ✅ Przyjemny zapach: ma łagodny ziołowy aromat dzięki składnikom botanicznym, który działa relaksująco na większość użytkowników. Aspekty: ❌ Gęsta konsystencja: ponieważ jest bardzo treściwy, wchłanianie może zająć trochę czasu, co może nie być idealne dla osób poszukujących lekkiego lub szybko wchłaniającego się kremu. ❌ Nie nadaje się do skóry tłustej: ze względu na swoją konsystencję może być zbyt ciężki dla osób o skórze tłustej lub mieszanej, szczególnie na twarzy. ❌ Wysoka cena: choć jakość to uzasadnia, cena może być nieco wysoka w porównaniu do bardziej generycznych kremów. Rekomendacje: Idealny do suchej, popękana skóra lub określone obszary wymagające intensywnej pielęgnacji.Idealny na zimę lub zimny klimat, gdzie skóra ma tendencję do łatwiejszego wysychania. Stosuj w małych ilościach ze względu na bogatą konsystencję, najlepiej na noc lub jako zabieg punktowy.Ostateczny werdykt: Weleda Skin Food Original to wysokiej jakości krem naprawczy, który zapewnia nawilżenie i głęboką naprawę najbardziej suchej lub najbardziej zniszczonej skóry. Jego naturalne składniki i wszechstronność sprawiają, że jest to niezbędny produkt do pielęgnacji skóry. Chociaż może być zbyt bogaty dla skóry tłustej lub gorącego klimatu, jest doskonałą inwestycją dla osób poszukujących odżywczego i przyjaznego dla środowiska kremu.",
+   "tags": [
+    "moisturizing",
+    "itch_relief",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Oaza dla suchej skóry. Zawsze miałam skórę, która przyćmiłaby kaktusa na pustyni. Sucha, łuszcząca się, gotowa do użądlenia przy każdej zmianie pory roku. Kiedy więc natknęłam się na zestaw CeraVe Body and Travel Kit, całym sercem miałam nadzieję, że w końcu znalazłam oazę nawilżenia. I muszę przyznać, że moje oczekiwania nie zostały zawiedzione. Moje osobiste doświadczenie z tym produktem było czymś w rodzaju objawienia. Wyobraź sobie, że przez lata dźwigasz ciężką walizkę, a potem nagle ktoś ci ją zabiera i zastępuje lekką jak piórko walizką. To samo uczucie spotkało moją skórę, która z suchej stała się niesamowicie nawilżona. Zestaw składa się z kremu nawilżającego do twarzy i ciała oraz podróżnego nawilżającego środka czyszczącego. Krem to cud konsystencji: treściwy, ale nie tłusty. Łatwo się wchłania, pozostawiając skórę jedwabiście gładką i nawilżoną przez 48 godzin. Równie efektowne jest niepieniące się mydełko: delikatnie oczyszcza skórę, usuwa nadmiar sebum i pomaga odbudować barierę ochronną. Sekret tych produktów tkwi w formule wzbogaconej kwasem hialuronowym i trzema ceramidami, podstawowymi elementami skutecznego nawilżenia. Są hipoalergiczne, dzięki czemu idealnie nadają się do skóry wrażliwej, takiej jak moja. Jeśli chodzi o mocne strony, na pierwszym miejscu zdecydowanie znajduje się długotrwałe nawilżenie. Ale to nie jedyny aspekt, który mnie uderzył. Dużą zaletą zestawu jest także jego praktyczność, doskonale sprawdzająca się w podróży. Dzięki temu duetowi mogę utrzymać nawilżenie skóry, gdziekolwiek się udam. Próbując znaleźć idealny punkt, mogę powiedzieć, że rozmiar podróżny środka czyszczącego mógłby być nieco większy. Na dłuższe wyjazdy faktycznie 20 ml może okazać się niewystarczające. Jednak ta mała uwaga nie zmienia mojego entuzjazmu dla CeraVe Body and Travel Kit. Moja skóra jest wdzięczna za długotrwałe nawilżenie, kremową konsystencję i jedwabiste wykończenie. Zdecydowanie polecam te produkty każdemu, kto szuka skutecznego rozwiązania dla suchej skóry",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "size_price",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Robi to, co obiecuje. A w świecie pielęgnacji skóry jest to naprawdę rzadkie!. Mój lekarz medycyny estetycznej polecił mi ten krem ​​jako kurację po zastosowaniu retinolu, aby pomóc skórze przywrócić barierę skórną oraz zmniejszyć suchość i wrażliwość. I właśnie to robi. Formuła jest prosta, ale niezwykle funkcjonalna: zawiera ceramidy niezbędne do odbudowy bariery lipidowej, cholesterol i fitosfingozynę, które działają synergicznie, wzmacniając ją, a także kwas hialuronowy, który pomaga utrzymać nawilżenie. Nie ma perfum ani zbędnych składników aktywnych: jest to krem, który całkowicie skupia się na naprawie i ochronie skóry. Osobiście stosuję go również na miejsca poddane działaniu wypełniaczy, jako prawdziwą „maskę wieczorową”: nakładam go obficie i zostawiam na całą noc. Rano skóra jest bardziej zwarta, miękka i wyraźnie przywrócona do równowagi. Teraz kupuję wiele produktów tej marki i nadal ją wybieram z prostego powodu: na rynku pełnym produktów do pielęgnacji skóry, które obiecują niesamowite rezultaty, a potem ich nie zapewniają, te produkty robią dokładnie to, co obiecują, za uczciwą cenę, biorąc pod uwagę jakość. Bez efektów specjalnych, ale z konkretem, który można wyczuć na skórze. W zestawie, oprócz pojemnego słoiczka kremu, znajduje się także balsam nawilżający w formacie podróżnym, którego nigdy nie próbowałam: doskonała niespodzianka. Delikatnie oczyszcza, dobrze zmywa makijaż i pozostawia skórę miękką, bez uczucia ściągnięcia. Niezbędny, niezawodny i naprawdę przydatny produkt, zwłaszcza jeśli używasz składników aktywnych, takich jak retinol i potrzebujesz czegoś, co bez komplikacji przywróci skórze równowagę",
+   "tags": [
+    "moisturizing",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "To jest mój sekret 🤫 🥰. Weleda Original Skin Food to mój sekret piękna i odżywionej skóry. Dzięki składnikom takim jak olej słonecznikowy, migdały, nagietek, dziki bratek i rumianek, ten krem ​​naprawczy o pojemności 75 ml jest moim sprzymierzeńcem w walce z suchością i pęknięciami. Służy do intensywnego odżywiania i nawilżania mojej skóry, zwłaszcza skóry twarzy w nocy. Jakość jest wyjątkowa, a naturalne składniki zapewniają głęboką i długotrwałą pielęgnację. Zalety są godne uwagi: moja bardzo sucha i popękana skóra skorzysta z tego kremu naprawczego, pozostawiając ją miękką i ożywioną. Bogata formuła sprawia, że ​​jako jedyny tak naprawdę odżywia moją skórę twarzy przez noc. W pudełku znajduje się pojemnik 75 ml Skin Food Original firmy Weleda. Jego kompaktowa prezentacja jest idealna do zabrania ze sobą wszędzie i zastosowania w razie potrzeby. Weleda to uznany w świecie producent naturalnych produktów do pielęgnacji skóry. Przywiązanie do wysokiej jakości składników sprawiło, że jest to niezawodny wybór na rynku. Zasada jest prosta: nakładam krem ​​na czystą skórę przed pójściem spać. Jego bogata konsystencja wchłania się stopniowo, pozostawiając moją skórę gotową na następny dzień, odżywioną i odmłodzoną. Klejnot w mojej pielęgnacji twarzy, który nigdy nie zawodzi",
+   "tags": [
+    "moisturizing",
+    "size_price",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Myślę, że najlepiej. Niedawno wypróbowałem zestaw do ciała i podróży CeraVe i muszę powiedzieć, że byłem bardzo zadowolony! Ten zestaw to prawdziwe wybawienie dla osób, które tak jak ja mają suchą i wrażliwą skórę. Krem nawilżający do twarzy i ciała jest niezwykle skuteczny: szybko się wchłania, nie pozostawiając tłustej warstwy i zapewnia głębokie, długotrwałe nawilżenie. Dodatek kwasu hialuronowego jest naprawdę mocną stroną, ponieważ pomaga zatrzymać wilgoć, pozostawiając skórę miękką, gładką i widocznie zdrowszą. Zauważyłem znaczną poprawę już po kilku dniach stosowania, ze zmniejszeniem suchych obszarów i bardziej jednolitą teksturą skóry. Co więcej, rozmiar podróżny jest bardzo praktyczny: zawsze noszę go ze sobą, zarówno w torbie, jak i w walizce, i pozwala mi zachować codzienną pielęgnację skóry, gdziekolwiek jestem. Opakowanie jest kompaktowe, ale zawiera pokaźną ilość produktu, idealną do codziennego stosowania. Podsumowując, CeraVe Body and Travel Kit to produkt wysokiej jakości, odpowiedni dla każdego rodzaju skóry, ale szczególnie odpowiedni dla tych, które potrzebują intensywnego nawilżenia. Gorąco polecam każdemu, kto szuka niezawodnego, delikatnego i naprawdę skutecznego rozwiązania do pielęgnacji swojej skóry!",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Jestem osobą krytyczną i realistyczną. Jestem zachwycona tym kremem, sprawdza się zarówno u dorosłych, jak i u dzieci. W moim przypadku stosuję go u rocznego dziecka, które ma skórę atopową, skłonną do egzemy i bardzo suchą (łuszczącą się) skórę (nogi i twarz). Krem jest nieco gęstszy od balsamu do ciała, jest tłusty, ma żółtawy kolor i prawie nie ma zapachu, a co najważniejsze wchłania się maksymalnie w 5 minut i świetnie nawilża. Wskazane jest nakładanie go przynajmniej dwa razy dziennie i nie trzeba się martwić, że niewielką ilością pokryjemy dużą powierzchnię, ponieważ jest bardzo tłusty. Butelka jest średnio duża, ale starcza na długo, co więcej, większość składników jest pochodzenia roślinnego, a nie chemicznego, co w przypadku tak delikatnej skóry jest cenione. No i na koniec swędzenie i suchość skóry ustąpiły... Natomiast w przypadku egzemy nie należy stosować preparatu, bo to nic nie daje, a zaleca się dodatkowo zastosować kurację specjalnym kremem na egzemę. Dlatego przy skórze atopowej lub bardzo suchej jest świetny, ale nie leczy egzemy. Cena jest bardzo dobra, bo zwykły balsam do ciała kosztuje prawie tyle samo i nic nie robi. (19,40 €) Bardzo szybka wysyłka (2 dni bez prime) i paczka nienaruszona.❤️Mam nadzieję, że było to dla ciebie pomocne",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Idealny na nadmiar retinolu. Używam kremu nawilżającego Cetaphil w połączeniu z retinolem na receptę i całkowicie zmienił zasady mojej pielęgnacji skóry. Niesamowicie nawilża, łagodzi suchość i podrażnienia, które czasami pojawiają się podczas stosowania retinoidów. Jedną z najlepszych jego zalet jest to, że jest bezzapachowy – idealny dla wrażliwej skóry – i nie powoduje żadnych wyprysków, co jest ogromnym plusem. Jest też niedrogi i oferuje doskonały stosunek jakości do ceny, szczególnie biorąc pod uwagę jego skuteczność. Konsystencja jest bogata, ale nie tłusta, dobrze się wchłania, pozostawiając skórę miękką i nawilżoną. Jedynym minusem jest opakowanie. Jest dostępny w wannie, co nie jest najbardziej higieniczną i wygodną opcją, szczególnie gdy próbujesz go używać czystymi rękami lub w podróży. Butelka z pompką czyni ten produkt niemal idealnym. Ogólnie gorąco polecam, jeśli szukasz prostego, niezawodnego kremu nawilżającego, który dobrze współpracuje ze składnikami aktywnymi",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "To działa, ale wymaga cierpliwości. Mój synek po porodzie, z powodu braku ruchu, przybrał na wadze i pojawiły się rozstępy na zewnętrznej stronie ud. Po przeczytaniu kilku rekomendacji na różnych stronach internetowych zdecydowałem się na ten produkt. Prawda jest taka, że ​​bardzo się cieszę, bo było mi smutno, że w tak młodym wieku zaczęły pojawiać się znamiona, a przy cierpliwości i wytrwałości trochę zniknęły. Wydaliśmy już dwa garnki. Idealnym rozwiązaniem jest nakładanie go dwa razy dziennie, rano i wieczorem, ale my nałożyliśmy go po samym prysznicu i spisał się całkiem nieźle. Sięgam po trzecią butelkę. Uważam, że jest to produkt godny uwagi. W porównaniu do innych nie jest drogi i ważne, że uzyskasz pożądany efekt, powtarzam, zawsze z cierpliwością i wytrwałością. Za dwa tygodnie nie zauważysz rezultatów. Mój synek stosuje go już dwa i pół miesiąca i nadal nie zniknęły całkowicie, choć różnica jest zauważalna.",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Łączymy to z Sensicalm. Ponieważ wszystkie skórki to świat, opowiadam przypadek naszego synka na wypadek, gdyby mógł się komuś przydać. W ciągu pierwszych dwóch lat życia nasz syn miał wiele epidemii, które trudno było nam powstrzymać. Zawsze potrzebowałem trochę kortyzonu, żeby poprawić stan (leksema). Ale odkąd połączyliśmy Sensicalm od Bephantol i ten od Instituto Español, minęło 3 lata bez żadnej epidemii. Po kąpieli, z żelami głęboko nawilżającymi, przez tygodnie nakładamy jeden krem ​​na drugi i u nas sprawdza się to znakomicie. Ten od Instituto Español ma bardzo przyjemny zapach i pozostawia skórę bardzo nawilżoną, ma też działanie kremu nagietka, dzięki czemu jest bardzo przyjemny w dotyku. Mam nadzieję, że będzie nam służyć przez długi czas, ponieważ zapewnia nam ogromny spokój ducha. Ponadto cena jest bardzo konkurencyjna w porównaniu do innych marek aptecznych.",
+   "tags": [
+    "moisturizing",
+    "smell",
+    "kids_baby",
+    "value"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonały krem. Wypróbowałam ten krem ​​dzięki próbkom, które dali mi w Carrefourze po zakupie kilku rzeczy w dziale makijażu. Nawet nie zwróciłam na nie uwagi, ale desperacko chcąc złagodzić swędzenie, które odczuwałam na skutek alergii i letnich upałów, zdecydowałam się wypróbować próbkę i prawda jest taka, że ​​była doskonała. Ustąpiło moje swędzenie w ciągu około 10 lub 15 minut. Wchłanianie kremu jest bardzo szybkie, nie trzeba tracić minut na masowanie jak w przypadku innych. Nie pozostawia tłustej warstwy, co jest bardzo przyjemne latem, bo zapobiega tworzeniu się grudek. Na jego korzyść przemawiają jeszcze dwa inne punkty: doskonała cena, bardzo niska jak na wysoką jakość kremu; W dodatku jest wegański, nie był testowany na zwierzętach, co bardzo mi się podoba, bo tego typu produkty są zazwyczaj bardzo drogie. Będę go nadal kupować",
+   "tags": [
+    "moisturizing",
+    "itch_relief",
+    "greasy_texture",
+    "value"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Najlepszy krem ​​jaki kiedykolwiek używałam. Mam wyjątkowo suchą skórę, do tego stopnia, że ​​swędzenie i napięcie od czasu menopauzy było bardzo denerwujące. Zauważyłem również, że zaczynam mieć rogowacenie mieszkowe z tyłu ramion, górnej części ud, a nawet w okolicy jabłka na szyi. Istnieją dwie marki, które twierdzą, że rozwiązują zarówno problem niemal suchości skóry atopowej, jak i rogowacenia. Jednak najbardziej polecany jest Cetaphil, nie potrzebuje aż tak dużej reklamy i polecają go pediatrzy i dermatolodzy. Stosuję go na ciało i moja skóra jest elastyczna, miękka i ujednolicona we wszystkich obszarach. Ale także po kuracji serum stosuję je na twarz jako jedyne łagodząc okazjonalne uczucie ściągnięcia. Zawsze na szyi!",
+   "tags": [
+    "atopic_skin",
+    "itch_relief",
+    "kids_baby"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Uwielbiam Weleda Skin Food. Uwielbiam Weleda Skin Food. Stało się to niezbędnym elementem mojej rutyny i całkowicie rozumiem, dlaczego ma tak wielu lojalnych zwolenników. Konsystencja jest bogata i odżywcza, idealna dla suchej i zmęczonej skóry. Daje uczucie głębokiego nawilżenia, nie jest agresywny ani drażniący, wystarczy bardzo mała ilość. Szczególnie uwielbiam go używać na dłoniach, łokciach i innych obszarach wymagających dodatkowej pielęgnacji. Aromat jest naturalny i relaksujący, dzięki czemu każda aplikacja będzie chwilą troski o siebie. Moja skóra po jego użyciu jest bardziej miękka, gładsza i znacznie bardziej komfortowa. Jest to niezawodny produkt wysokiej jakości, który zapewnia to, co obiecuje. Na pewno będę go nadal kupować",
+   "tags": [
+    "moisturizing",
+    "smell",
+    "value"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Idealny dla skóry wrażliwej i atopowej – stosujemy go od pierwszego dnia. Używamy tego balsamu do ciała odkąd synek skończył kilka dni i nie zmieniamy go na nic innego. Ma lekką konsystencję, bardzo dobrze się wchłania, pozostawia skórę miękką i nawilżoną, bez uczucia tłustości. Najważniejsze dla nas jest to, że jest hipoalergiczny i nie zawiera agresywnych substancji zapachowych, idealny dla Twojej atopowej i delikatnej skóry. Odkąd go używamy, zauważyliśmy mniej wyprysków i znacznie spokojniejszą skórę. Dorośli stosują go także w domu, gdy zauważymy przesuszenie lub podrażnienie skóry i równie dobrze się sprawdza. Gorąco polecamy osobom poszukującym bezpiecznego, skutecznego i godnego zaufania produktu dla całej rodziny.",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Kolor żółtawo-kremowy (informacja). Ten żółtawy kolor jest normalny i wynika z części jego składu. • Prebiotyk stymulujący mikroflorę obronną skóry. • Witamina B3, prowitamina B5 oraz naturalne oleje, takie jak oliwa z oliwek i OLEJ Z JAGÓD ROKITNIKA, które nadają KREMowi ŻÓŁTOŚĆ i wzmacniają barierę ochronną skóry. • Technologia lipidów lamelarnych, która wzmacnia barierę ochronną skóry od wewnątrz. • Fizjologiczne środki nawilżające zapewniające długotrwałe nawilżenie. Prócz tego, że jest ZATWIERDZONY DERMATOLOGICZNIE I POD NADZOREM PEDIATRY. Jestem bardzo zadowolony z tego kremu i innych produktów tej marki. Dziękuję 🌟",
+   "tags": [
+    "moisturizing",
+    "ingredients",
+    "kids_baby"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Idealny przy atopowym zapaleniu skóry u niemowląt. Polecam w 100%, moje dziecko od 3 miesiąca życia ma atopowe zapalenie skóry, próbowałam innych kremów i nic. W ciągu zaledwie 4 dni egzema zregenerowała się w 90% po zastosowaniu go dwa razy dziennie (nogi i tron ​​​​zniknęły całkowicie, trochę pozostało na ramionach), a ponadto skóra była super nawilżona i miękka. W aptece kosztuje prawie 40€, więc choć u nas jest już prawie o połowę i nadal jest to fornir, to zdecydowanie warto. Trzeba wziąć pod uwagę, że kąpię moje dziecko 2 dni wolne i jeden dzień dalej (zalecenie pediatryczne), a on ma teraz dopiero 4 miesiące. Mam nadzieję, że ta recenzja pomoże",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "kids_baby"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Łagodzi swędzenie skóry nietypowej i wrażliwej. Jeśli masz skórę atopową, wiesz, że najgorsze jest swędzenie. Wypróbowałam już tysiące drogich i tanich kremów i ostatecznie zawsze wracam do tego: Bepanthol Atopic. Przechodzimy do sedna: Ogranicza wybuch: Kiedy skóra jest czerwona i swędzi, że umierasz, nałóż na nią odrobinę, a to cię uspokoi w ciągu 5 minut. Nie jest tłusty: szybko się wchłania. Nie pozostawia uczucia lepkości, które wywołuje złość. Bezzapachowy: plus, jeśli masz wrażliwą skórę na wszystko. Jedyne „ale” to to, że jest trochę drogi, ale jak działa, to rekompensuje. Jeśli swędzi Cię skóra i masz dość bezużytecznych kremów, kup go i wypróbuj. U mnie to działa i koniec historii",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "greasy_texture"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "To krem ​​do stóp. Krem ten stał się bardzo popularny, odkąd gwiazda ze Stanów Zjednoczonych nakładała go na twarz. Jeśli poprawnie czytamy tubkę, ten krem ​​został stworzony do stóp, a nie do twarzy i taki był mój cel. Może jest trochę za krótki na moje stopy, na moją twarz, nie mogę nawet myśleć o tym samym w okolicach oczu i byłyby bardzo suche, ale proszę, nie nakładaj tego kremu na twarz, nie jest on przeznaczony do twarzy, chyba że masz twarz „esparto”. Bo nic innego nie przychodzi mi do głowy, jestem kosmetyczką i wiem co mówię. Absolutnie nie polecam go nakładać na twarz. W przeciwnym razie jest w porządku.",
+   "tags": [
+    "size_price"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Niezbędny w Twojej kosmetyczce. Wypróbowałem tę markę na kilku różnych produktach i muszę powiedzieć, że szczerze mówiąc, jest to idealny produkt na wszelkiego rodzaju nieprzewidziane zdarzenia na skórze. W moim przypadku pokrzywka wywoływała u mnie jakiś element garderoby i nie zwróciłam uwagi na miejsce, w którym się znajduje. Ponieważ swędzenie było już nie do zniesienia, potrzebowałem tego kremu, który łatwo się rozprowadza. Nie plami od razu i pozostawia lekki, przyjemny zapach. W moim przypadku używałem go przez cztery dni i zniknął, nie pozostawił śladu. Wskazane jest trzymanie butelki w pomieszczeniu, w którym nie pada na nią ciepło ogrzewania.",
+   "tags": [
+    "itch_relief",
+    "greasy_texture",
+    "smell"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dobry produkt w przystępnej cenie. Żyjemy z atopową skórą moich dzieci, wiecie jaka jest delikatna, w dniu kiedy trafią na nieodpowiedni produkt zaczyna się swędzenie. Skuteczne produkty mają zazwyczaj wysoką cenę i są koniecznymi i bardzo powtarzalnymi zakupami. Widziałem ten produkt, byłem zaskoczony pozytywnymi recenzjami i ceną, wypróbowaliśmy go i teraz mam abonament, aby wysyłali mi go okresowo i nie zabrakło mu w domu. Jest wydajny, stosunkowo szybko się wchłania, przepięknie pachnie i ma dobrą cenę. Polecam w 100%",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "smell"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Jedyny, który pomaga zapanować nad zapaleniem skóry i skórą atopową moich dzieci. Dwoje moich dzieci ma skórę atopową. Szczególnie u najstarszych (4 lata) i najmłodszych, którzy są uczuleni na wszystko, co zawiera mleko, białko mleka lub jego pochodne, zwykle również pojawiają się wysypki i podrażnienia. Bepanthol SensiControl to jedyny krem, który pomaga im mieć dobrą skórę przez cały rok (bo latem i po basenie jest znacznie gorzej). Nie jest najtańszy, ale skoro działa, to jego cena jest odpowiednia",
+   "tags": [
+    "atopic_skin",
+    "itch_relief",
+    "size_price",
+    "kids_baby"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Dla mnie było wspaniale!!!! No cóż, po 2 miesiącach stosowania mogę stwierdzić, że ten krem to cudo, mam atopową skórę na nogach i bardzo rzadką na przedramionach, przeszłam bardzo poważne momenty z epizodami zapalenia skóry, ale ten krem jest dla mnie idealny, na początku po użyciu trochę swędziało, potem używałam go częściej po każdym prysznicu lub goleniu i u mnie sprawdza się świetnie, towarzyszę mu też inny konkretny krem na miejsca, gdzie czasem trochę swędzi i atakuje chwila. Dziś odebrałem drugi",
+   "tags": [
+    "atopic_skin",
+    "itch_relief"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Najlepszy krem ​​(w moim przypadku). Moja córka ma skórę atopową, ciągle pojawiają się u niej wypryski, których nigdy nie udało nam się zatrzymać i ustabilizować. Próbowaliśmy różnych kremów i żaden nie dał takiego efektu jak ten: natychmiastowe nawilżenie, trwałość, na razie zero wyprysków. Używamy go od dwóch miesięcy. Jesteśmy z niego bardzo zadowoleni, mała go lubi, jest bardzo mięciutka, ładnie pachnie, jest kremowa, \"nie swędzi\" jak mówi i ostatnia epidemia ustała i na razie nie ma jej więcej. Podajemy mu codziennie krem, musimy być konsekwentni. Cud",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "itch_relief",
+    "smell"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Nawilżenie, które znika po 20:00. Uwielbiam go, mam suchą skórę i nie sądziłam, że krem, który sprawdza się do ciała, sprawdzi się również na twarzy. Zapach jest intensywnie zielony, ale mi się podoba, co prawda dla niektórych może być denerwujący, bo jest mocny, ale ja lubię tego typu zapach, znika, bo ma naturalne składniki i w końcu się gubi. Po nałożeniu na twarz, twarz się błyszczy, ale po chwili zanika. Mieszam go z olejkiem jojoba, żeby ułatwić rozprowadzanie, ale równie dobrze sprawdza się solo.",
+   "tags": [
+    "moisturizing",
+    "greasy_texture",
+    "smell",
+    "ingredients"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fabryka. Po wypróbowaniu tysiąca podobnych i znacznie droższych produktów trafiłam do tego balsamu i już po tygodniu stosowania zniknęło moje łojotokowe zapalenie skóry, moja skóra jest taka, jakiej nie miałam od lat. Łączę go z żelem pod prysznic z oliwą z oliwek i oba produkty zmieniły moje codzienne życie. Bardzo dobrze się wchłania i daje uczucie natychmiastowej świeżości. Zmianę zauważyłam już po 3-4 dniach stosowania, rano i wieczorem, teraz stosuję go już tylko po prysznicu i moja skóra nadal czuje się bardzo dobrze.",
+   "tags": [
+    "moisturizing"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardzo dobry. Pomimo tego, że jest gęsty, w ogóle nie powoduje trądziku, stosuję go od 2018 roku i dopiero po odstawieniu go i użyciu innych kremów wyskakują mi wypryski. Pozostawia bardzo zdrowy i promienny wygląd, nie pozostawiając tłustej warstwy. W przypadku bardzo suchych dłoni w ciągu jednej nocy nałożonym grubszą warstwą i następnie w rękawiczkach, przywraca je do normy. Podoba mi się ten zapach. Ta formuła Weleda ma około 100 lat. Odżywka do skóry Weleda + filtr przeciwsłoneczny + złuszczający środek czyszczący to wszystko, czego potrzebuję do pielęgnacji skóry",
+   "tags": [
+    "moisturizing",
+    "atopic_skin",
+    "greasy_texture",
+    "smell"
+   ]
+  }
+ ]
+}

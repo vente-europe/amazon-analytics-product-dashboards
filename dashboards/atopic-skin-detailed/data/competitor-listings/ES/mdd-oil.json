@@ -1,0 +1,180 @@
+{
+ "totalCompetitors": 1,
+ "marketplace": "amazon.es",
+ "competitors": [
+  {
+   "asin": "B0CVS2DMY4",
+   "brand": "B.O.T cosmetic & wellness",
+   "title": "Aceite de Jojoba Puro Aceite Facial Aceite Desmaquillante Aceite Corporal Aceite de Masaje Estrias Aceite Pelo Aceite Barba Aceite Uñas - 1000 ml 1 L",
+   "mainImage": "https://m.media-amazon.com/images/I/415Ja+jRWcL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/415Ja+jRWcL.jpg",
+    "https://m.media-amazon.com/images/I/415Ja+jRWcL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/7119+c3kehL.jpg",
+    "https://m.media-amazon.com/images/I/51R6V-u-+qL.jpg",
+    "https://m.media-amazon.com/images/I/51R6V-u-+qL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/81n-yQD603L.jpg",
+    "https://m.media-amazon.com/images/I/41lcgVa6M1L.jpg",
+    "https://m.media-amazon.com/images/I/41lcgVa6M1L._SL75_.jpg"
+   ],
+   "themes": [
+    "skora_atopowa",
+    "kojacy",
+    "naturalny",
+    "wchlanianie",
+    "cena_pojemnosc"
+   ],
+   "price": 38.88,
+   "rating": 4.7,
+   "reviews": 70,
+   "bsr": 13738,
+   "rev30d": 2123,
+   "bullets": [
+    "¿Piel grasa y con imperfecciones? El aceite de jojoba es perfecto para piel grasa por su capacidad de regulación de sebo y minimizar los poros. Reduce granos, espinillas y puntos negros gracias a sus propiedades limpiadoras sin obstruir los poros.",
+    "Serum Desmaquillante y Limpiador; Mágico desmaquillante y limpiador de ojos, además de potenciar el crecimiento de pestañas. Limpia, elimina el maquillaje y arrastra la suciedad de una pasada, dejando la piel suave y elástica. Si tienes los labios secos, aplica aceite de jojoba y déjalo actuar toda la noche, ¡verás la diferencia!",
+    "Aceite ideal para piel sensible y atópica. Reduce rojeces y calma irritaciones de la piel. Reduce la apariencia de arrugas y líneas finas gracias a sus propiedades antiedad. Añadir una pequeña cantidad de aceite de jojoba a la crema o serum facial y te sorprenderán los resultados.",
+    "Tratamiento capilar natural de barba y cabello. No sólo repara las puntas y el pelo quebradizo, sino que mejora la salud del cuero cabelludo (caspa, sequedad). Añadir al champú convencional o mascarilla para un cabello radiante y estimular el crecimiento. Para tratamiento intensivo, sólo tienes que aplicar por todo el cabello y dejar actuar por 30 min. Si tienes el pelo rizado, verás como mejora la definición de rizos.",
+    "Aceite corporal con efecto antiestrías: Reduce y previene las estrias del embarazo. Mejora la apariencia de cicatrices. Es el aceite perfecto para masaje (portador de aceites): No tarda en absorberse, textura perfecta, deslizamiento increíble, suavizante y con un ALTO aporte de elasticidad y efecto reafirmante."
+   ],
+   "description": ""
+  }
+ ],
+ "claimsMatrix": {
+  "themes": [
+   {
+    "id": "skora_atopowa",
+    "label": "Skóra atopowa / egzema"
+   },
+   {
+    "id": "kojacy",
+    "label": "Kojący / łagodzący"
+   },
+   {
+    "id": "naturalny",
+    "label": "Naturalny / wegański"
+   },
+   {
+    "id": "wchlanianie",
+    "label": "Szybkie wchłanianie"
+   },
+   {
+    "id": "cena_pojemnosc",
+    "label": "Ekonomiczny / duża pojemność"
+   }
+  ],
+  "rows": [
+   {
+    "brand": "B.O.T cosmetic & wellness",
+    "asin": "B0CVS2DMY4",
+    "cells": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   }
+  ]
+ },
+ "claimsSummary": [
+  {
+   "label": "Skóra atopowa / egzema",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "B.O.T cosmetic & wellness"
+   ]
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "B.O.T cosmetic & wellness"
+   ]
+  },
+  {
+   "label": "Naturalny / wegański",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "B.O.T cosmetic & wellness"
+   ]
+  },
+  {
+   "label": "Szybkie wchłanianie",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "B.O.T cosmetic & wellness"
+   ]
+  },
+  {
+   "label": "Ekonomiczny / duża pojemność",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "B.O.T cosmetic & wellness"
+   ]
+  }
+ ],
+ "vocGap": [
+  {
+   "vocTopic": "Wadliwy dozownik / opakowanie",
+   "customerConcernPct": "16.7%",
+   "addressedByCount": 1,
+   "addressedByBrands": [
+    "B.O.T cosmetic & wellness"
+   ],
+   "gapSeverity": "MEDIUM",
+   "whitespace": "true"
+  },
+  {
+   "vocTopic": "Trudność z napełnianiem / przełożeniem pompki",
+   "customerConcernPct": "4.2%",
+   "addressedByCount": 1,
+   "addressedByBrands": [
+    "B.O.T cosmetic & wellness"
+   ],
+   "gapSeverity": "MEDIUM",
+   "whitespace": "true"
+  }
+ ],
+ "whitespaceOpportunities": [],
+ "saturation": [
+  {
+   "label": "Skóra atopowa / egzema",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Naturalny / wegański",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Szybkie wchłanianie",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Ekonomiczny / duża pojemność",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  }
+ ],
+ "strategicRecommendations": [
+  {
+   "type": "Parytet",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Nasycone deklaracje: Skóra atopowa / egzema, Kojący / łagodzący, Naturalny / wegański, Szybkie wchłanianie.",
+   "implication": "Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca."
+  }
+ ]
+}

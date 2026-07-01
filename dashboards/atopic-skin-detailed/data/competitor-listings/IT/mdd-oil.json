@@ -1,0 +1,220 @@
+{
+ "totalCompetitors": 1,
+ "marketplace": "amazon.it",
+ "competitors": [
+  {
+   "asin": "B0DR8VV2H1",
+   "brand": "Aveeno",
+   "title": "Aveeno Skin Relief Olio Corpo Spray, Olio corpo idratante pelle secca e sensibile, Body oil dermatologicamente testato con ingredienti di origine naturale e oli di Avena e Jojoba, 200 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/619P04wokmL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/619P04wokmL.jpg",
+    "https://m.media-amazon.com/images/I/314ZusleKHL.jpg",
+    "https://m.media-amazon.com/images/I/314ZusleKHL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71Ya9gPjfpL.jpg",
+    "https://m.media-amazon.com/images/I/41v9I+Wh3GL.jpg",
+    "https://m.media-amazon.com/images/I/41v9I+Wh3GL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71GzK7rSGxL.jpg",
+    "https://m.media-amazon.com/images/I/51QH3qO9WOL.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "bariera",
+    "hipoalergiczny",
+    "dermatologiczny",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "price": 10.5,
+   "rating": 4.3,
+   "reviews": 154,
+   "bsr": 2192,
+   "rev30d": 1790,
+   "bullets": [
+    "Olio idratante corpo – Quest'olio corpo, dermatologicamente testato, nutre intensamente la pelle molto secca e sensibile, rendendola più liscia e uniforme in una sola settimana",
+    "Ingredienti ricchi di lipidi e acidi grassi – L'olio corpo, adatto per le pelli secche, è formulato al 98% con ingredienti di origine naturale tra cui l'Olio di Avena e Olio di Jojoba, che nutrono la pelle",
+    "Anche per massaggi – Scegli quest'olio per massaggio rilassante corpo di Aveeno che, grazie al suo finish setoso, è adatto anche per massaggi e lascia la pelle morbida e profondamente idratata",
+    "Clinicamente testato – Olio per il Corpo ipoallergenico** e dalla texture leggera. Il 96% concorda sulla sensazione di morbidezza immediata della pelle*",
+    "Contenuto della confezione – Aveeno Skin Relief Olio Spray per il Corpo pelli secche e sensibili, olio da massaggio corpo spray che aiuta a ripristinare la barriera cutanea, 1 confezione da 200 ml"
+   ],
+   "description": ""
+  }
+ ],
+ "claimsMatrix": {
+  "themes": [
+   {
+    "id": "nawilzenie",
+    "label": "Nawilżenie"
+   },
+   {
+    "id": "bariera",
+    "label": "Odbudowa bariery"
+   },
+   {
+    "id": "hipoalergiczny",
+    "label": "Hipoalergiczny"
+   },
+   {
+    "id": "dermatologiczny",
+    "label": "Dermatologicznie testowany"
+   },
+   {
+    "id": "naturalny",
+    "label": "Naturalny / wegański"
+   },
+   {
+    "id": "cena_pojemnosc",
+    "label": "Ekonomiczny / duża pojemność"
+   }
+  ],
+  "rows": [
+   {
+    "brand": "Aveeno",
+    "asin": "B0DR8VV2H1",
+    "cells": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   }
+  ]
+ },
+ "claimsSummary": [
+  {
+   "label": "Nawilżenie",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "Aveeno"
+   ]
+  },
+  {
+   "label": "Odbudowa bariery",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "Aveeno"
+   ]
+  },
+  {
+   "label": "Hipoalergiczny",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "Aveeno"
+   ]
+  },
+  {
+   "label": "Dermatologicznie testowany",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "Aveeno"
+   ]
+  },
+  {
+   "label": "Naturalny / wegański",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "Aveeno"
+   ]
+  },
+  {
+   "label": "Ekonomiczny / duża pojemność",
+   "count": 1,
+   "pct": 100,
+   "topBrands": [
+    "Aveeno"
+   ]
+  }
+ ],
+ "vocGap": [
+  {
+   "vocTopic": "Tłustość i wolne wchłanianie",
+   "customerConcernPct": "35.0%",
+   "addressedByCount": 0,
+   "addressedByBrands": [],
+   "gapSeverity": "HIGH",
+   "whitespace": "true"
+  },
+  {
+   "vocTopic": "Dozownik / spray",
+   "customerConcernPct": "10.0%",
+   "addressedByCount": 0,
+   "addressedByBrands": [],
+   "gapSeverity": "HIGH",
+   "whitespace": "true"
+  },
+  {
+   "vocTopic": "Zapach zbyt intensywny / trwały",
+   "customerConcernPct": "8.0%",
+   "addressedByCount": 0,
+   "addressedByBrands": [],
+   "gapSeverity": "HIGH",
+   "whitespace": "true"
+  },
+  {
+   "vocTopic": "Cena / oczekiwania",
+   "customerConcernPct": "6.0%",
+   "addressedByCount": 1,
+   "addressedByBrands": [
+    "Aveeno"
+   ],
+   "gapSeverity": "MEDIUM",
+   "whitespace": "true"
+  }
+ ],
+ "whitespaceOpportunities": [],
+ "saturation": [
+  {
+   "label": "Nawilżenie",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Odbudowa bariery",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Hipoalergiczny",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Dermatologicznie testowany",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Naturalny / wegański",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Ekonomiczny / duża pojemność",
+   "saturationPct": "100%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  }
+ ],
+ "strategicRecommendations": [
+  {
+   "type": "Luka VOC↔listing",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Klienci skarżą się na: Tłustość i wolne wchłanianie, Dozownik / spray, Zapach zbyt intensywny / trwały, a żaden czołowy konkurent tego nie adresuje w treści listingu.",
+   "implication": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
+  },
+  {
+   "type": "Parytet",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Nasycone deklaracje: Nawilżenie, Odbudowa bariery, Hipoalergiczny, Dermatologicznie testowany.",
+   "implication": "Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca."
+  }
+ ]
+}

@@ -1,0 +1,908 @@
+{
+ "totalCompetitors": 12,
+ "marketplace": "amazon.it",
+ "competitors": [
+  {
+   "asin": "B0DJPB34JN",
+   "brand": "La Roche-Posay",
+   "title": "La Roche-Posay Lipikar, Olio Detergente AP+, Per Pelli Secche a Tendenza Eczema Atopico, Antiinfiammatorio e Anti-prurito, Arricchito con Aqua Posae Filiformis e Niacinamide, 1L.",
+   "mainImage": "https://m.media-amazon.com/images/I/51cgRDTF18L.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/51cgRDTF18L.jpg",
+    "https://m.media-amazon.com/images/I/41LT+wC3O2L.jpg",
+    "https://m.media-amazon.com/images/I/41LT+wC3O2L._SL75_.jpg"
+   ],
+   "themes": [
+    "skora_atopowa",
+    "swiad",
+    "cena_pojemnosc"
+   ],
+   "price": 23.9,
+   "rating": 4.6,
+   "reviews": 511,
+   "bsr": 384,
+   "rev30d": 37757,
+   "bullets": [
+    "La Roche Posay Lipikar Cleansing Oil B1L"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0052EM8L8",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay Toleriane, Fluido Detergente e Struccante, Per Pelle Sensibile e Reattiva, Pelle Detersa a Fondo e Lenita, Irritazioni e Rossori Ridotti, Con Glicerina Idratante, 400 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/51ryP2yFnOL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/51ryP2yFnOL.jpg",
+    "https://m.media-amazon.com/images/I/31AYTARi-gL.jpg",
+    "https://m.media-amazon.com/images/I/31AYTARi-gL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/41NZt8PzJ-L.jpg",
+    "https://m.media-amazon.com/images/I/31+zfwv4c4L.jpg",
+    "https://m.media-amazon.com/images/I/31+zfwv4c4L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/5169ZrXQ5WL.jpg",
+    "https://m.media-amazon.com/images/I/317cUx26-IL.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "kojacy",
+    "hipoalergiczny",
+    "cena_pojemnosc"
+   ],
+   "price": 19.78,
+   "rating": 4.4,
+   "reviews": 2924,
+   "bsr": 569,
+   "rev30d": 30537,
+   "bullets": [
+    "- Prodotto 2 in 1: deterge e rimuove il trucco da occhi e viso in un semplice gesto. - Ipoallergenico. - Texture idratante e leggera."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B00ZY65OSI",
+   "brand": "Bioderma",
+   "title": "BIODERMA Atoderm Olio Doccia - Detergente Lenitivo e Anti-Irritazione - Comfort Immediato e Idratazione per 24 Ore - Pelle Sensibile da molto Secca a Irritata - Flacone a Pompa da 1 Litro",
+   "mainImage": "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
+    "https://m.media-amazon.com/images/I/315rFQ1H79L.jpg",
+    "https://m.media-amazon.com/images/I/315rFQ1H79L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71I3dig7MJL.jpg",
+    "https://m.media-amazon.com/images/I/41FcaO8DF8L.jpg",
+    "https://m.media-amazon.com/images/I/41FcaO8DF8L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71aFKgkyxCL.jpg",
+    "https://m.media-amazon.com/images/I/41BLl+AjFXL.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "kojacy",
+    "bariera",
+    "naturalny",
+    "odzywczy"
+   ],
+   "price": 21.6,
+   "rating": 4.6,
+   "reviews": 30194,
+   "bsr": 543,
+   "rev30d": 29735,
+   "bullets": [
+    "Olio doccia per tutta la famiglia: con il suo intenso potere nutriente, deterge e lenisce le irritazioni. Lascia inoltre la pelle idratata e confortevole",
+    "Efficacia comprovata: la pelle è più idratata del 26% dopo 27 giorni e l'80% degli utenti ha trovato la pelle immediatamente più liscia, con una sensazione di comfort immediato",
+    "Una formula a doppia azione: gli agenti lipidici e idratanti nutrono la pelle e il complesso brevettato Skin Barrier Therapy limita l'ingresso di batteri come lo Staphylococcus aureus",
+    "Istruzioni per l'uso: una o due volte al giorno, sotto la doccia o nella vasca da bagno, applicare sulla pelle bagnata e risciacquare - seguire con un prodotto Atoderm per la cura della pelle",
+    "Buona tolleranza della pelle e degli occhi: Bioderma si fonda sull'ecobiologia, che è al centro dell'approccio NAOS per rispettare l'ecosistema della pelle e preservarne la salute. Dura nel tempo"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B00V4PHBO8",
+   "brand": "La Roche-Posay",
+   "title": "La Roche-Posay Lipikar, Gel Detergente Lenitivo Per Viso e Corpo, Per Pelli Sensibili e Secche, Pelle Idratata ed Effetto Anti-Secchezza, Con Niacinamide e Burro di Karité, Surgras, 400 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/416pp3OZK9L.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/416pp3OZK9L.jpg",
+    "https://m.media-amazon.com/images/I/416pp3OZK9L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71zx97IMt-L.jpg"
+   ],
+   "themes": [
+    "kojacy",
+    "dla_dzieci",
+    "cena_pojemnosc"
+   ],
+   "price": 10.42,
+   "rating": 4.7,
+   "reviews": 2267,
+   "bsr": 167,
+   "rev30d": 26499,
+   "bullets": [
+    "Deterge delicatamente donando protezione alla pelle sensibile e secca dell'intera famiglia: neonati, bambini e adulti. La pelle è libera dalle impurità, pulita, morbida e lenita. Formulato con Niacinamide e Burro di Karitè. Protezione acqua calcarea."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0DJPBRNDF",
+   "brand": "La Roche-Posay",
+   "title": "La Roche-Posay Lipikar, Gel Doccia Lenitivo Protettivo, Per Pelli Sensibili e Secche, Pelle Delicatamente Detersa e Idratata, Arricchito con Niacinamide e Burro di Karité, 1L",
+   "mainImage": "https://m.media-amazon.com/images/I/41u4Z19QpfL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/41u4Z19QpfL.jpg",
+    "https://m.media-amazon.com/images/I/31PF33HwH1L.jpg",
+    "https://m.media-amazon.com/images/I/31PF33HwH1L._SL75_.jpg"
+   ],
+   "themes": [
+    "kojacy"
+   ],
+   "price": 16.09,
+   "rating": 4.7,
+   "reviews": 511,
+   "bsr": 619,
+   "rev30d": 20930,
+   "bullets": [
+    "La Roche Posay Lipikar wash Gel B1+"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B075JNGSQW",
+   "brand": "Aveeno",
+   "title": "Aveeno Daily Moisturising Detergente Corpo, Bagnoschiuma idratante dal profumo delicato, Docciaschiuma per pelli da normali a secche, Bagnodoccia con Avena Colloidale Prebiotica, 500 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/61YtrGHYAKL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61YtrGHYAKL.jpg",
+    "https://m.media-amazon.com/images/I/31in+TCKBWL.jpg",
+    "https://m.media-amazon.com/images/I/31in+TCKBWL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/81IO5UPjlzL.jpg",
+    "https://m.media-amazon.com/images/I/51O1STKE4YL.jpg",
+    "https://m.media-amazon.com/images/I/51O1STKE4YL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71r3p6mmehL.jpg",
+    "https://m.media-amazon.com/images/I/41ZcK+oma1L.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "bariera",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "price": 5.01,
+   "rating": 4.6,
+   "reviews": 1449,
+   "bsr": 179,
+   "rev30d": 16549,
+   "bullets": [
+    "Detersione quotidiana – Questo bagno doccia clinicamente testato, formulato con Avena Colloidale Prebiotica, deterge e idrata la pelle secca donando una sensazione di pulito e freschezza",
+    "Con Avena Colloidale – Il doccia schiuma privo di sapone è formulato con Avena Colloidale Prebiotica e aiuta a preservare la barriera protettiva della pelle mantenendola sana nel tempo",
+    "Bagnoschiuma delicato – Il bagnoschiuma idratante pelli secche di Aveeno deterge la pelle sensibile, elimina le impurità e la mantiene nutrita e piacevolmente morbida a lungo",
+    "Dolce profumo – Questo bagnoschiuma donna e uomo, oltre a lasciare una fresca sensazione di pulito, rilascia una piacevole fragranza sulla pelle anche dopo la doccia",
+    "Contenuto della confezione – Aveeno Daily Moisturising Detergente Corpo, bagnoschiuma uomo e donna idratante, profumo delicato, bagnoschiuma pelli sensibili, normali e secche, 1 confezione da 500 ml"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B07CJDK8D8",
+   "brand": "Eucerin",
+   "title": "Eucerin Atopi Control Olio Detergente Lenitivo 400 ml, Olio detergente corpo per uso quotidiano, Docciaolio con 60% di oli naturali per pelle secca, irritata e con dermatite atopica",
+   "mainImage": "https://m.media-amazon.com/images/I/61Y4L6OHm2L.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61Y4L6OHm2L.jpg",
+    "https://m.media-amazon.com/images/I/41PRYyrHcAL.jpg",
+    "https://m.media-amazon.com/images/I/41PRYyrHcAL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61cVK-QnDdL.jpg",
+    "https://m.media-amazon.com/images/I/41A9p16wM6L.jpg",
+    "https://m.media-amazon.com/images/I/41A9p16wM6L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61qrNBgmD1L.jpg",
+    "https://m.media-amazon.com/images/I/41FSJxmbwVL.jpg"
+   ],
+   "themes": [
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "bariera",
+    "bez_zapachu",
+    "dla_dzieci",
+    "dermatologiczny",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "price": 13.11,
+   "rating": 4.6,
+   "reviews": 644,
+   "bsr": 942,
+   "rev30d": 15491,
+   "bullets": [
+    "Sollievo immediato – Il detergente corpo deterge delicatamente ed efficacemente e ricostruisce la barriera protettiva della pelle mentre combatte la secchezza cutanea e previene il prurito",
+    "Atopi Control – Eucerin olio doccia fa parte della gamma Atopi Control, appositamente formulata per le esigenze della pelle affetta da eczema, dermatite atopica e soggetta a secchezza, rossore e prurito",
+    "Ingredienti attivi – Questo olio doccia senza sapone contiene più del 60% di oli naturali ed è arricchito con il 20% di Omega 3 e 6 che ammorbidiscono e proteggono la pelle dalla secchezza",
+    "Sicurezza Eucerin – L'oliodoccia è clinicamente e dermatologicamente testato e la sua texture delicata è adatta anche durante la doccia o il bagnetto dei bambini e dei neonati, fin dal primo giorno",
+    "Contenuto della confezione – Eucerin Atopi Control Olio Detergente Lenitivo, detergente bambini e adulti, docciaolio senza profumo per eczema, 1 confezione da 400 ml, numero articolo: 63173"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0DJ9TD4YP",
+   "brand": "Dermovitamina",
+   "title": "Dermovitamina Sensioil 1L - Olio Doccia Delicato - Olio Lavante Pelli Sensibili - Alta Tollerabilità - Azione Struccante e Lenitiva - Morbidezza della Pelle - Per Tutta la Famiglia",
+   "mainImage": "https://m.media-amazon.com/images/I/61woivFq25L.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61woivFq25L.jpg",
+    "https://m.media-amazon.com/images/I/31I8JxHjX6L.jpg",
+    "https://m.media-amazon.com/images/I/31I8JxHjX6L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61AgMB-PQgL.jpg",
+    "https://m.media-amazon.com/images/I/41wrrcB5jzL.jpg",
+    "https://m.media-amazon.com/images/I/41wrrcB5jzL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71MZrNFeAHL.jpg",
+    "https://m.media-amazon.com/images/I/41DDzYhTG6L.jpg"
+   ],
+   "themes": [
+    "kojacy",
+    "bariera",
+    "dla_dzieci",
+    "dermatologiczny",
+    "naturalny"
+   ],
+   "price": 12.21,
+   "rating": 4.6,
+   "reviews": 639,
+   "bsr": 670,
+   "rev30d": 14664,
+   "bullets": [
+    "OLIO CORPO LAVANTE: Sensioil 1L di Dermovitamina è un olio doccia relipidante altamente tollerato da pelle secca e molto secca. La nuova formula offre un pool di attivi ad azione lenitiva e uno zucchero prebiotico ideale per la detersione di pelle reattiva, con tendenza ad atopia o soggetta a pruriro. La texture in olio è setosa e avvolgente offrendo un'idratazione fino a 48h e donando morbidezza alla pelle.",
+    "PER PELLE SENSIBILE: Sensioil 1L di Dermovitamina è un bagnoschiuma senza schiuma ad azione mirata per pelli sensibili. La sua nuova formula rinforza la barriera cutanea di viso e corpo: il pantenolo vanta proprietà emollienti e rigeneranti, favorendo l'elasticità e la guarigione di piccole lesioni o arrossamenti della pelle. La Niacinamide ha proprietà antinfiammatorie e regola la produzione di sebo. Lo zucchero probiotico supporta il microbioma cutaneo per l'equiloibrio della flora cutanea.",
+    "NUOVA FORMULA: Sensioil 1L di Dermovitamina è un olio lavante con una nuova formulazione dermo-compatibile e ad elevata tollerabilità. Queste caratteristiche lo rendono adatto per tutta la famiglia, anche per i neonati. Dermatologicamente e oftalmologicamente testato, puo' essere usato come struccante sotto la doccia. Aroma leggermente fruttato: frutti rossi, limone, cocco e bergamotto.",
+    "MODALITÀ D'USO: applicare su pelle bagnata del corpo il detergente oleoso, massaggiando delicatamente, quindi risciacquare. Ideale anche per la detersione quotidiana del viso e come struccante. Senza sapone, alcol, paraffina, coloranti, parabeni.",
+    "DERMOVITAMINA : è una linea completa di soluzioni di dermocosmesi. Da sempre tratta le problematiche della pelle, con prodotti testati, sicuri e formulazioni aggiornate. I prodotti Dermovitamina sono per tutta la famiglia e dermatologicamente testati."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0CRSJ46YD",
+   "brand": "CeraVe",
+   "title": "CeraVe Schiuma Detergente, Per Viso e Corpo, Per Pelli da Normali a Grasse, Pelle Libera da Impurità, Barriera Cutanea Rafforzata, Con Ceramidi Essenziali, Acido Ialuronico e Niacinamide, 562 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/71xO5T86AKL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/71xO5T86AKL.jpg",
+    "https://m.media-amazon.com/images/I/41dLhyu+6lL.jpg",
+    "https://m.media-amazon.com/images/I/41dLhyu+6lL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/517qQZUGs0L.jpg",
+    "https://m.media-amazon.com/images/I/31vZ2JK9KML.jpg",
+    "https://m.media-amazon.com/images/I/31vZ2JK9KML._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/51fgCqKCXkL.jpg",
+    "https://m.media-amazon.com/images/I/41ZvpuRKA-L.jpg"
+   ],
+   "themes": [
+    "bariera",
+    "bez_zapachu",
+    "hipoalergiczny",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "price": 16.62,
+   "rating": 4.7,
+   "reviews": 2496,
+   "bsr": 518,
+   "rev30d": 13979,
+   "bullets": [
+    "3 ceramidi essenziali (1, 3 e 6-II) per ripristinare la barriera protettiva della pelle",
+    "Acido Ialuronico che aiuta a trattenere la naturale idratazione della pelle",
+    "Niacinamide per lenire la pelle e migliorarne l'aspetto, Prodotto non comedogeno e ipoallergenico, Senza profumo"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0872FXVTB",
+   "brand": "Sebamed",
+   "title": "Sebamed Detergente Liquido Viso e Corpo, per Pelli Sensibili e Intolleranti, pH 5.5, 1000ml",
+   "mainImage": "https://m.media-amazon.com/images/I/61-82aGH87L.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/61-82aGH87L.jpg",
+    "https://m.media-amazon.com/images/I/31qryMohJ+L.jpg",
+    "https://m.media-amazon.com/images/I/31qryMohJ+L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71Mmbr3mITL.jpg",
+    "https://m.media-amazon.com/images/I/41oXP9wQncL.jpg",
+    "https://m.media-amazon.com/images/I/41oXP9wQncL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71kXBwpib-L.jpg",
+    "https://m.media-amazon.com/images/I/41ANE6XSiSL.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "dermatologiczny",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "price": 24.5,
+   "rating": 4.7,
+   "reviews": 565,
+   "bsr": 1287,
+   "rev30d": 10638,
+   "bullets": [
+    "Gli ingredienti chiave molto dolci detergono delicatamente ed in profondità la pelle sensibile ed intollerante",
+    "Aiuta a proteggere la pelle da disidratazione, agenti irritanti esterni, allergeni e microrganismi dannosi",
+    "Aiuta a preservare il microbioma cutaneo",
+    "Il complesso idratante attivo con Pentavitin, vitamine e allantoina, protegge la pelle dalla disidratazione",
+    "Indicato per la detersione del viso e del corpo",
+    "Dermatologicamente e clinicamente testato",
+    "Modo d'uso: dopo aver inumidito la pelle, versare una piccola quantità di prodotto nel palmo della mano e procedere al lavaggio. Sciacquare accuratamente"
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B09FYL3CMY",
+   "brand": "SVR",
+   "title": "SVR - SVR Topialyse Gel Lavante Idratante Anti Secchezza 1000ml - 981248267",
+   "mainImage": "https://m.media-amazon.com/images/I/615lNAMj0XL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/615lNAMj0XL.jpg",
+    "https://m.media-amazon.com/images/I/215MOYfw-rL.jpg",
+    "https://m.media-amazon.com/images/I/215MOYfw-rL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/31xiv1waQLL.jpg",
+    "https://m.media-amazon.com/images/I/31xiv1waQLL._SL75_.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "kojacy",
+    "swiad",
+    "dla_dzieci",
+    "hipoalergiczny",
+    "dermatologiczny",
+    "cena_pojemnosc"
+   ],
+   "price": 19.9,
+   "rating": 4.6,
+   "reviews": 2100,
+   "bsr": 415,
+   "rev30d": 9444,
+   "bullets": [
+    "SVR Topialyse Gel Lavant deterge delicatamente e protegge la pelle dai fattori che provocano secchezza cutanea. La sua formula lenitiva e idratante 24h riduce il prurito e ammorbidisce la pelle.",
+    "SVR Topialyse Gel Lavant deterge delicatamente e protegge la pelle dai fattori che provocano secchezza cutanea. La sua formula lenitiva e idratante 24h riduce il prurito e ammorbidisce la pelle.",
+    "Base detergente delicata e non secca. Arricchito con omega 3, 6 e 9 che leniscono la pelle. Senza sapone. pH fisiologico.",
+    "Applicare su pelle bagnata creando una morbida schiuma: Risciacquare e asciugare delicatamente senza strofinare. Adatto per il cuoio capelluto del neonato. Per viso e corpo. Non brucia gli occhi. Testato sotto controllo dermatologico, oftalmologico e pediatrico. Ipoallergenico. Senza sapone."
+   ],
+   "description": ""
+  },
+  {
+   "asin": "B0DGGYPV7H",
+   "brand": "BioNike",
+   "title": "BioNike Triderm A.D. - Olio Doccia Emolliente e Lenitivo, Detergente Micellare Corpo con Pantenolo, Sorbitolo e Vitamina E, Attenua Secchezza, Prurito e Rossori, per Pelle a Tendenza Atopica, 500 ml",
+   "mainImage": "https://m.media-amazon.com/images/I/313y5OcJXPL.jpg",
+   "images": [
+    "https://m.media-amazon.com/images/I/313y5OcJXPL.jpg",
+    "https://m.media-amazon.com/images/I/313y5OcJXPL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/51Tq3DEsxoL.jpg",
+    "https://m.media-amazon.com/images/I/41qv+L67yxL.jpg",
+    "https://m.media-amazon.com/images/I/41qv+L67yxL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71JfYMesQwL.jpg",
+    "https://m.media-amazon.com/images/I/31QmaH0JCGL.jpg",
+    "https://m.media-amazon.com/images/I/31QmaH0JCGL._SL75_.jpg"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "bariera",
+    "dla_dzieci",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "price": 25.9,
+   "rating": 4.6,
+   "reviews": 52,
+   "bsr": 1903,
+   "rev30d": 9308,
+   "bullets": [
+    "OLIO DETERGENTE PER PELLE SECCA: questo oleo-detergente micellare corpo, a basso potere schiumogeno, è indicato per la detersione quotidiana di neonati, bambini e adulti con pelle a tendenza atopica",
+    "EMOLLIENTE E LENITIVO: formula con Sorbitolo, umettante e protettivo ad azione condizionante, con elevato potere rilipidizzante, per attenuare secchezza, prurito e rossori, donando sollievo",
+    "IDRATANTE E RIPARATIVO: contiene acidi grassi omega 3, 6, 9 che aiutano a ripristinare l’integrità della barriera cutanea, mentre il Pantenolo e la Vitamina E hanno azione idratante e riparativa",
+    "MODO D'USO: applicare direttamente oppure diluire con acqua nel palmo della mano e distribuire sul corpo, quindi sciacquare",
+    "BIONIKE TRIDERM A.D.: scopri la linea dedicata alle formulazioni essenziali per detergere e prendersi cura della pelle a tendenza atopica di neonati, bambini e adulti"
+   ],
+   "description": ""
+  }
+ ],
+ "claimsMatrix": {
+  "themes": [
+   {
+    "id": "nawilzenie",
+    "label": "Nawilżenie"
+   },
+   {
+    "id": "skora_atopowa",
+    "label": "Skóra atopowa / egzema"
+   },
+   {
+    "id": "kojacy",
+    "label": "Kojący / łagodzący"
+   },
+   {
+    "id": "swiad",
+    "label": "Redukcja świądu"
+   },
+   {
+    "id": "bariera",
+    "label": "Odbudowa bariery"
+   },
+   {
+    "id": "bez_zapachu",
+    "label": "Bez zapachu / perfum"
+   },
+   {
+    "id": "dla_dzieci",
+    "label": "Dla dzieci / niemowląt"
+   },
+   {
+    "id": "hipoalergiczny",
+    "label": "Hipoalergiczny"
+   },
+   {
+    "id": "dermatologiczny",
+    "label": "Dermatologicznie testowany"
+   },
+   {
+    "id": "naturalny",
+    "label": "Naturalny / wegański"
+   },
+   {
+    "id": "odzywczy",
+    "label": "Odżywczy / regenerujący"
+   },
+   {
+    "id": "cena_pojemnosc",
+    "label": "Ekonomiczny / duża pojemność"
+   }
+  ],
+  "rows": [
+   {
+    "brand": "La Roche-Posay",
+    "asin": "B0DJPB34JN",
+    "cells": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "La Roche-Posay",
+    "asin": "B0052EM8L8",
+    "cells": [
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "Bioderma",
+    "asin": "B00ZY65OSI",
+    "cells": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false
+    ]
+   },
+   {
+    "brand": "La Roche-Posay",
+    "asin": "B00V4PHBO8",
+    "cells": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "La Roche-Posay",
+    "asin": "B0DJPBRNDF",
+    "cells": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   {
+    "brand": "Aveeno",
+    "asin": "B075JNGSQW",
+    "cells": [
+     true,
+     false,
+     false,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false,
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "Eucerin",
+    "asin": "B07CJDK8D8",
+    "cells": [
+     false,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "Dermovitamina",
+    "asin": "B0DJ9TD4YP",
+    "cells": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   {
+    "brand": "CeraVe",
+    "asin": "B0CRSJ46YD",
+    "cells": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "Sebamed",
+    "asin": "B0872FXVTB",
+    "cells": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "SVR",
+    "asin": "B09FYL3CMY",
+    "cells": [
+     true,
+     false,
+     true,
+     true,
+     false,
+     false,
+     true,
+     true,
+     true,
+     false,
+     false,
+     true
+    ]
+   },
+   {
+    "brand": "BioNike",
+    "asin": "B0DGGYPV7H",
+    "cells": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     true
+    ]
+   }
+  ]
+ },
+ "claimsSummary": [
+  {
+   "label": "Ekonomiczny / duża pojemność",
+   "count": 9,
+   "pct": 75,
+   "topBrands": [
+    "La Roche-Posay",
+    "Aveeno",
+    "Eucerin"
+   ]
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "count": 8,
+   "pct": 67,
+   "topBrands": [
+    "La Roche-Posay",
+    "Bioderma",
+    "Eucerin"
+   ]
+  },
+  {
+   "label": "Naturalny / wegański",
+   "count": 7,
+   "pct": 58,
+   "topBrands": [
+    "Bioderma",
+    "Aveeno",
+    "Eucerin"
+   ]
+  },
+  {
+   "label": "Nawilżenie",
+   "count": 6,
+   "pct": 50,
+   "topBrands": [
+    "La Roche-Posay",
+    "Bioderma",
+    "Aveeno"
+   ]
+  },
+  {
+   "label": "Odbudowa bariery",
+   "count": 6,
+   "pct": 50,
+   "topBrands": [
+    "Bioderma",
+    "Aveeno",
+    "Eucerin"
+   ]
+  },
+  {
+   "label": "Dla dzieci / niemowląt",
+   "count": 5,
+   "pct": 42,
+   "topBrands": [
+    "La Roche-Posay",
+    "Eucerin",
+    "Dermovitamina"
+   ]
+  },
+  {
+   "label": "Redukcja świądu",
+   "count": 4,
+   "pct": 33,
+   "topBrands": [
+    "La Roche-Posay",
+    "Eucerin",
+    "SVR"
+   ]
+  },
+  {
+   "label": "Dermatologicznie testowany",
+   "count": 4,
+   "pct": 33,
+   "topBrands": [
+    "Eucerin",
+    "Dermovitamina",
+    "Sebamed"
+   ]
+  },
+  {
+   "label": "Skóra atopowa / egzema",
+   "count": 3,
+   "pct": 25,
+   "topBrands": [
+    "La Roche-Posay",
+    "Eucerin",
+    "BioNike"
+   ]
+  },
+  {
+   "label": "Hipoalergiczny",
+   "count": 3,
+   "pct": 25,
+   "topBrands": [
+    "La Roche-Posay",
+    "CeraVe",
+    "SVR"
+   ]
+  },
+  {
+   "label": "Bez zapachu / perfum",
+   "count": 2,
+   "pct": 17,
+   "topBrands": [
+    "Eucerin",
+    "CeraVe"
+   ]
+  },
+  {
+   "label": "Odżywczy / regenerujący",
+   "count": 1,
+   "pct": 8,
+   "topBrands": [
+    "Bioderma"
+   ]
+  }
+ ],
+ "vocGap": [
+  {
+   "vocTopic": "Uszkodzone opakowanie / pęknięty dozownik",
+   "customerConcernPct": "26.0%",
+   "addressedByCount": 0,
+   "addressedByBrands": [],
+   "gapSeverity": "HIGH",
+   "whitespace": "true"
+  },
+  {
+   "vocTopic": "Wysusza skórę / ściąga",
+   "customerConcernPct": "22.0%",
+   "addressedByCount": 6,
+   "addressedByBrands": [
+    "La Roche-Posay",
+    "Bioderma",
+    "Aveeno"
+   ],
+   "gapSeverity": "LOW",
+   "whitespace": "false"
+  },
+  {
+   "vocTopic": "Słaba moc oczyszczania / nie zmywa makijażu",
+   "customerConcernPct": "20.0%",
+   "addressedByCount": 0,
+   "addressedByBrands": [],
+   "gapSeverity": "HIGH",
+   "whitespace": "true"
+  },
+  {
+   "vocTopic": "Zbyt silny / nieprzyjemny zapach",
+   "customerConcernPct": "16.0%",
+   "addressedByCount": 2,
+   "addressedByBrands": [
+    "Eucerin",
+    "CeraVe"
+   ],
+   "gapSeverity": "MEDIUM",
+   "whitespace": "true"
+  },
+  {
+   "vocTopic": "Podrażnienie / reakcja alergiczna",
+   "customerConcernPct": "18.0%",
+   "addressedByCount": 8,
+   "addressedByBrands": [
+    "La Roche-Posay",
+    "Bioderma",
+    "La Roche-Posay"
+   ],
+   "gapSeverity": "LOW",
+   "whitespace": "false"
+  },
+  {
+   "vocTopic": "Cena / siarczany i skład",
+   "customerConcernPct": "12.0%",
+   "addressedByCount": 0,
+   "addressedByBrands": [],
+   "gapSeverity": "HIGH",
+   "whitespace": "true"
+  }
+ ],
+ "whitespaceOpportunities": [
+  {
+   "opportunity": "Skóra atopowa / egzema",
+   "rationale": "Tylko 3/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: La Roche-Posay, Eucerin, BioNike"
+  },
+  {
+   "opportunity": "Hipoalergiczny",
+   "rationale": "Tylko 3/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: La Roche-Posay, CeraVe, SVR"
+  },
+  {
+   "opportunity": "Bez zapachu / perfum",
+   "rationale": "Tylko 2/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: Eucerin, CeraVe"
+  },
+  {
+   "opportunity": "Odżywczy / regenerujący",
+   "rationale": "Tylko 1/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
+   "evidence": "Obecne marki: Bioderma"
+  }
+ ],
+ "saturation": [
+  {
+   "label": "Ekonomiczny / duża pojemność",
+   "saturationPct": "75%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "saturationPct": "67%",
+   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+  }
+ ],
+ "strategicRecommendations": [
+  {
+   "type": "Luka VOC↔listing",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Klienci skarżą się na: Uszkodzone opakowanie / pęknięty dozownik, Słaba moc oczyszczania / nie zmywa makijażu, Cena / siarczany i skład, a żaden czołowy konkurent tego nie adresuje w treści listingu.",
+   "implication": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
+  },
+  {
+   "type": "Białe plamy",
+   "badgeBg": "#fef3c7",
+   "badgeColor": "#92400e",
+   "finding": "Nisko wysycone tematy: Skóra atopowa / egzema, Hipoalergiczny, Bez zapachu / perfum, Odżywczy / regenerujący.",
+   "implication": "Jeśli produkt spełnia te cechy — wyeksponuj je, bo konkurencja tego nie robi."
+  },
+  {
+   "type": "Parytet",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Nasycone deklaracje: Ekonomiczny / duża pojemność, Kojący / łagodzący.",
+   "implication": "Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca."
+  }
+ ]
+}
