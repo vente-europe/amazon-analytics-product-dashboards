@@ -44,6 +44,15 @@ PRODUCT_TITLE = 'Atopic Skin — Detailed (DE, FR, IT, ES)'
 DASHBOARD_H2  = 'Atopic Skin — Analiza szczegółowa'
 DASHBOARD_SUB = 'Rynki: Niemcy · Francja · Włochy · Hiszpania · Dane: Helium 10 X-Ray + analiza recenzji (VOC) + Marketing Deep-Dive'
 
+# Per-country X-Ray Google Sheets (top-right header buttons, like the multi-market
+# convention). Reused from the topline; '#' placeholder if a sheet is missing.
+XRAY_LINKS = {
+    'DE': 'https://docs.google.com/spreadsheets/d/1_i9_eaJUx9YhG0XFUOWb97YEn_Jj79U6wqcapMYK9Yw/edit?gid=1649983910#gid=1649983910',
+    'FR': 'https://docs.google.com/spreadsheets/d/1fD-QisOAi2_GUpHItXgeUu2bN19iti9w0KrtbOP51Jc/edit?gid=2058240202#gid=2058240202',
+    'IT': 'https://docs.google.com/spreadsheets/d/1coY3TXsKNt-z_ruNg5Krdm-UPNywG5wIwep9XqZFlOo/edit?gid=1574144490#gid=1574144490',
+    'ES': 'https://docs.google.com/spreadsheets/d/1u-S0NnaPOJB2qh0KSvxOum4bvQt5Ydrp7-VPNngGvKI/edit?gid=1593778489#gid=1593778489',
+}
+
 # ── Countries (order by market size) ────────────────────────────────────────
 COUNTRIES = [
     {'code': 'DE', 'name': 'Niemcy',    'flag': '\U0001F1E9\U0001F1EA'},
@@ -204,6 +213,9 @@ def extract_topline():
     topline_css = m_style.group(1) if m_style else ''
     m_body = re.search(r'<body>(.*?)</body>', html, re.S)
     topline_body = m_body.group(1) if m_body else ''
+    # Drop the topline's own <header> (title + X-Ray buttons): the detailed shell
+    # now has ONE top-level header above the tabs, so Tab 1 must not double it up.
+    topline_body = re.sub(r'<header>.*?</header>', '', topline_body, flags=re.S)
     return topline_css, topline_body
 
 
@@ -472,6 +484,15 @@ bundle = {
 SHELL_CSS = r'''
   *,*::before,*::after { box-sizing: border-box; }
   body { margin: 0; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif; background: #f1f5f9; color: #0f172a; font-size: 14px; }
+  /* Top header bar (title + per-country X-Ray buttons) — tabs sit BELOW it */
+  .ad-header { background: #0f2942; color: #fff; padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+  .ad-header .ad-hd-titles { flex: 1; min-width: 0; }
+  .ad-header h1 { margin: 0; font-size: 1.3rem; font-weight: 700; color: #fff; letter-spacing: .01em; }
+  .ad-header .ad-hd-sub { display: block; margin-top: 4px; font-size: .76rem; color: #cbd5e1; }
+  .ad-xray-btns { display: flex; gap: 8px; flex-wrap: wrap; }
+  .ad-xray-btn { background: #16a34a; color: #fff; padding: 8px 14px; border-radius: 6px; font-size: .76rem; font-weight: 600; text-decoration: none; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; box-shadow: 0 1px 3px rgba(0,0,0,.2); transition: background .15s; }
+  .ad-xray-btn:hover { background: #15803d; }
+  .ad-xray-btn svg { width: 14px; height: 14px; }
   /* Tab bar */
   .ad-tabs { display: flex; gap: 4px; border-bottom: 2px solid #e2e8f0; flex-wrap: wrap; position: sticky; top: 0; z-index: 40; background: #f1f5f9; padding: 12px 32px 0; }
   .ad-tab { padding: 10px 18px; background: transparent; border: none; cursor: pointer; font-size: .9rem; font-weight: 600; color: #64748b; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: color .15s, border-color .15s; white-space: nowrap; }
@@ -526,6 +547,14 @@ HTML = r'''<!DOCTYPE html>
 </style>
 </head>
 <body>
+
+<header class="ad-header">
+  <div class="ad-hd-titles">
+    <h1>{{DASHBOARD_H2}}</h1>
+    <span class="ad-hd-sub">{{DASHBOARD_SUB}}</span>
+  </div>
+  <div class="ad-xray-btns">{{XRAY_BUTTONS}}</div>
+</header>
 
 <div class="ad-tabs">
   <button class="ad-tab active" data-tab="market">Rynek</button>
@@ -707,7 +736,19 @@ buildSegmentPills();
 </html>
 '''
 
+# Per-country X-Ray buttons for the top header (DE · FR · IT · ES)
+_XRAY_SVG = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">'
+             '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>'
+             '<polyline points="14 2 14 8 20 8"/></svg>')
+XRAY_BUTTONS = ''.join(
+    '<a class="ad-xray-btn" href="{href}" target="_blank" rel="noopener">{svg}{code} X-Ray</a>'.format(
+        href=XRAY_LINKS.get(c['code'], '#'), svg=_XRAY_SVG, code=c['code'])
+    for c in COUNTRIES)
+
 html = HTML.replace('{{TITLE}}', PRODUCT_TITLE)
+html = html.replace('{{DASHBOARD_H2}}', DASHBOARD_H2)
+html = html.replace('{{DASHBOARD_SUB}}', DASHBOARD_SUB)
+html = html.replace('{{XRAY_BUTTONS}}', XRAY_BUTTONS)
 html = html.replace('{{SHELL_CSS}}', SHELL_CSS)
 html = html.replace('{{TOPLINE_CSS}}', TOPLINE_CSS)
 html = html.replace('{{VOC_CSS}}', VOC_CSS)

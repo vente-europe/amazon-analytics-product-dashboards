@@ -35,6 +35,14 @@ So Tab 1's financials now match Tabs 2–4. **`atopic-skin-topline` is never rea
 or written by this build** (only its `_build_topline.py` is read as a template).
 **To refresh Tab 1, just rebuild this dashboard** — it regenerates automatically.
 
+## Layout (2026-07-02)
+
+Top-level **dark header bar** (`.ad-header`: title `DASHBOARD_H2` + subtitle +
+per-country **X-Ray buttons** DE·FR·IT·ES from `XRAY_LINKS`) sits **above** the
+tab bar — same shape as the anti-fungus dashboard. The tab bar (`.ad-tabs`) is
+sticky below it. `extract_topline()` strips the topline's own `<header>` so Tab 1
+does not show a second header.
+
 ## Data file locations
 
 | Data | Path | Shape |
