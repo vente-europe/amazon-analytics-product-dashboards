@@ -4150,7 +4150,9 @@ function renderMarketingDeepDive(D, root){
     h += '<td style="color:#64748b;font-size:.72rem">' + ((g.brands && g.brands.length) ? esc(g.brands.join(', ')) : '-') + '</td>';
     h += '</tr>';
   });
-  h += '</tbody></table></div>';
+  h += '</tbody></table>';
+  h += '<p class="tfoot">Gdy <b>Claim adresujący</b> / <b>Kto komunikuje</b> pokazuje „-", dany ból nie pasuje do żadnego ze śledzonych claimów (śledzimy claimy o <b>składzie i działaniu</b> produktu - np. nawilżenie, kojenie, bez zapachu - a nie o opakowaniu czy plombie). Taki wiersz ma wtedy z definicji <b>0/N</b> i status <b>Pilna</b>: to realna bolączka klientów, której <b>żaden konkurent nie adresuje</b> w listingu = potencjalna biała plama do zajęcia.</p>';
+  h += '</div>';
 
   // 8. Whitespace + saturation (side by side)
   h += '<div class="charts-row">';
