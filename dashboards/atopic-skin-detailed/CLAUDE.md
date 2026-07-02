@@ -43,6 +43,26 @@ tab bar — same shape as the anti-fungus dashboard. The tab bar (`.ad-tabs`) is
 sticky below it. `extract_topline()` strips the topline's own `<header>` so Tab 1
 does not show a second header.
 
+## X-Ray: single source of truth (combined master)
+
+The editable master is **`data/x-ray/Atopic-Skin-Detailed-ALL-markets.csv`** (873
+rows, all 4 markets, with a **`Marketplace`** column DE/FR/IT/ES inserted right
+after `URL`). This is the file to upload/share in Google Sheets — a colleague can
+filter by Marketplace and reclassify segments in one place.
+
+Round-trip (single source of truth):
+1. Colleague edits the master in Google Sheets (segments etc.).
+2. Download it back over `data/x-ray/Atopic-Skin-Detailed-ALL-markets.csv`.
+3. `python _build_standalone.py` runs `_split_master_xray.py` FIRST, splitting the
+   master by `Marketplace` into `data/x-ray/{CODE}/Dermo-Products-{CODE}.csv`
+   (Marketplace column dropped to restore the build format), then rebuilds Tabs 1-4.
+
+So the per-country CSVs are now **derived** from the master. `_export_combined_xray.py`
+was the one-time bootstrap that built the master FROM the per-country files; going
+forward, edit the master. If the master is absent, the build falls back to the
+existing per-country files (backward compatible). Round-trip is loss-less (verified:
+split reproduces identical per-country data).
+
 ## Data file locations
 
 | Data | Path | Shape |

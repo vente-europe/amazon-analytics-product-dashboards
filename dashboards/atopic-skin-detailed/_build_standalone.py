@@ -73,6 +73,24 @@ DEFAULT_SEGMENTS = {
 }
 
 
+# ── Single source of truth: split the combined all-markets master back into the ──
+#    per-country X-Ray files BEFORE anything reads them. If a colleague edited the
+#    one shared sheet (data/x-ray/Atopic-Skin-Detailed-ALL-markets.csv), their
+#    segment changes round-trip into DE/FR/IT/ES here. No master -> files as-is.
+def _sync_master():
+    import subprocess
+    print('Syncing per-country X-Ray from combined master...')
+    r = subprocess.run([sys.executable, os.path.join(BASE, '_split_master_xray.py')],
+                       capture_output=True, text=True, encoding='utf-8')
+    if (r.stdout or '').strip():
+        print(r.stdout.rstrip())
+    if r.returncode != 0:
+        raise SystemExit('Master split failed:\n' + (r.stderr or r.stdout))
+
+
+_sync_master()
+
+
 def _slug(s):
     return re.sub(r'[^a-z0-9]+', '-', s.lower()).strip('-')
 
