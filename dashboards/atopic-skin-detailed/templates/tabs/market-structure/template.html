@@ -1,0 +1,331 @@
+<!-- market-structure tab template · atopic-skin-detailed (POLISH)
+==============================================================================
+Struktura rynku — ported from Console templates/tabs/market-structure, translated
+to Polish, reads ONE country's computed segments. The caller (build script ->
+renderStructure) scopes window._TAB_DATA to that country BEFORE this runs.
+
+INTEGRATION (do not change these two statement forms — the build script
+_build_standalone.py -> to_named_renderer strips them and passes D + root as
+function params, producing renderMarketStructure(D, root)):
+    var D = window._TAB_DATA;
+    var root = document.getElementById('ms-tab-root');
+
+DATA CONTRACT (single country):
+{
+  segments:   [{ name, asins, units12m, revenue12m, color, products:[
+                 { asin, title, type, brand, price, rating, reviewCount,
+                   units12m, revenue12m } ] }],   // pre-aggregated + colored by caller
+  currency?:  '€',
+  countryName?: 'Niemcy',
+  tld?:       'de'                                 // amazon.<tld> for ASIN links
+}
+Depends on globals: DataEngine (aggregateByBrand, topBrandsWithOther, fmtMoney,
+makeAllTablesSortable), Chart, ChartDataLabels.
+============================================================================== -->
+
+<style>
+  #panel-structure { padding: 24px 32px; min-height: 300px; }
+  #panel-structure h2 { color:#1e293b; font-size:1.2rem; font-weight:700; margin:0 0 16px; }
+  #panel-structure .seg-tab-btns { display:flex; gap:6px; margin-bottom:16px; flex-wrap:wrap; }
+  #panel-structure .seg-tab-btn { padding:6px 14px; border:1.5px solid #cbd5e1; border-radius:20px; cursor:pointer; font-size:.75rem; font-weight:600; color:#475569; background:#fff; transition:all .15s; }
+  #panel-structure .seg-tab-btn:hover { background:#f8fafc; }
+  #panel-structure .seg-tab-btn.active { background:#2563eb; color:#fff; border-color:#2563eb; }
+  #panel-structure .kpis { display:grid; grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); gap:12px; margin-bottom:16px; }
+  #panel-structure .kpi { background:#fff; border:1px solid #e2e8f0; border-radius:8px; padding:14px 18px; box-shadow:0 1px 3px rgba(0,0,0,.07); }
+  #panel-structure .kpi-v { font-size:1.25rem; font-weight:700; color:#0f2942; line-height:1.2; }
+  #panel-structure .kpi-l { font-size:.68rem; color:#64748b; margin-top:5px; text-transform:uppercase; letter-spacing:.05em; }
+  #panel-structure .insight { background:#eff6ff; border-left:3px solid #2563eb; padding:10px 14px; border-radius:0 6px 6px 0; margin-bottom:16px; font-size:.8rem; color:#1e40af; line-height:1.55; }
+  #panel-structure .g2 { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-bottom:18px; align-items:start; }
+  #panel-structure .cw { position:relative; height:340px; }
+  #panel-structure .card { background:#fff; border:1px solid #e2e8f0; border-radius:8px; padding:18px 20px; box-shadow:0 1px 3px rgba(0,0,0,.07); margin-bottom:18px; }
+  #panel-structure .card h3 { font-size:.83rem; font-weight:600; color:#475569; margin-bottom:16px; }
+  #panel-structure .tbl-wrap { overflow-x:auto; max-height:460px; overflow-y:auto; }
+  #panel-structure table { width:100%; border-collapse:collapse; }
+  #panel-structure th { background:#f8fafc; text-align:left; padding:8px 10px; font-weight:600; color:#475569; font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; border-bottom:2px solid #e2e8f0; position:sticky; top:0; z-index:1; }
+  #panel-structure td { padding:7px 10px; border-bottom:1px solid #f1f5f9; font-size:.8rem; }
+  #panel-structure tr:hover td { background:#f8fafc; }
+  #panel-structure .num-right th:not(:first-child), #panel-structure .num-right td:not(:first-child) { text-align:right; font-variant-numeric:tabular-nums; }
+  #panel-structure th.sortable { cursor:pointer; user-select:none; position:relative; padding-right:18px; }
+  #panel-structure th.sortable:hover { color:#0f2942; background:#eef2f7; }
+  #panel-structure th.sortable::after { content:'\21C5'; position:absolute; right:3px; top:50%; transform:translateY(-50%); font-size:.65rem; color:#94a3b8; }
+  #panel-structure th.sortable.asc::after { content:'\25B2'; color:#2563eb; }
+  #panel-structure th.sortable.desc::after { content:'\25BC'; color:#2563eb; }
+  #panel-structure .note { font-size:.7rem; color:#64748b; margin-top:14px; padding:10px 13px; background:#f8fafc; border-radius:6px; border-left:2px solid #cbd5e1; line-height:1.6; }
+  #panel-structure a { color:#2563eb; text-decoration:none; font-weight:600; }
+  #panel-structure a:hover { text-decoration:underline; }
+  @media(max-width:900px){ #panel-structure .g2 { grid-template-columns:1fr; } }
+</style>
+
+<div id="ms-tab-root"></div>
+
+<script>
+(function(){
+  var D = window._TAB_DATA;
+  var root = document.getElementById('ms-tab-root');
+  if (!D || !D.segments || !D.segments.length) {
+    root.innerHTML = '<div class="ad-empty">Brak danych struktury rynku dla tego rynku.</div>';
+    return;
+  }
+
+  var cur = D.currency || '€';
+  var tld = D.tld || 'de';
+  var countryName = D.countryName || '';
+  var segments = D.segments;
+  var BRAND_PALETTE = ['#2563eb','#dc2626','#16a34a','#d97706','#7c3aed','#0891b2','#ea580c','#059669','#e11d48','#8b5cf6','#94a3b8'];
+
+  Chart.register(ChartDataLabels);
+
+  var h = '<h2>Struktura rynku (12M)' + (countryName ? ' · ' + countryName : '') + '</h2>';
+
+  h += '<div class="seg-tab-btns" id="msSegBtns">';
+  segments.forEach(function(seg, i) {
+    h += '<button class="seg-tab-btn' + (i === 0 ? ' active' : '') + '" data-seg="' + i + '" style="border-color:' + seg.color + '">' + seg.name + ' <span style="font-weight:400;color:#94a3b8">(' + seg.asins + ')</span></button>';
+  });
+  h += '</div>';
+
+  segments.forEach(function(seg, si) {
+    var pid = 'ms-seg-' + si;
+    h += '<div id="' + pid + '" class="ms-seg-panel" style="' + (si > 0 ? 'display:none' : '') + '">';
+    h += buildSegmentPanel(seg, si);
+    h += '</div>';
+  });
+
+  root.innerHTML = h;
+
+  var btns = root.querySelectorAll('.seg-tab-btn');
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var idx = parseInt(btn.dataset.seg);
+      btns.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      root.querySelectorAll('.ms-seg-panel').forEach(function(p, i) {
+        p.style.display = i === idx ? 'block' : 'none';
+      });
+      Object.values(Chart.instances).forEach(function(c) { try { c.resize(); } catch(e){} });
+    });
+  });
+
+  renderSegmentCharts(segments[0], 0);
+  DataEngine.makeAllTablesSortable(root);
+
+  var renderedSegs = { 0: true };
+  btns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var idx = parseInt(btn.dataset.seg);
+      if (!renderedSegs[idx]) {
+        renderSegmentCharts(segments[idx], idx);
+        var panel = document.getElementById('ms-seg-' + idx);
+        if (panel) DataEngine.makeAllTablesSortable(panel);
+        renderedSegs[idx] = true;
+      }
+    });
+  });
+
+  // ══ BUILD SEGMENT PANEL ══
+  function buildSegmentPanel(seg, si) {
+    var products = seg.products;
+    var totalSegRev = seg.revenue12m;
+    var prefix = 'ms' + si;
+    var s = '';
+
+    var sorted = products.slice().sort(function(a, b) { return b.revenue12m - a.revenue12m; });
+    var top1Share = sorted.length > 0 && totalSegRev > 0 ? (sorted[0].revenue12m / totalSegRev * 100) : 0;
+    var top3Rev = sorted.slice(0, 3).reduce(function(a, p) { return a + p.revenue12m; }, 0);
+    var top5Rev = sorted.slice(0, 5).reduce(function(a, p) { return a + p.revenue12m; }, 0);
+    var top10Rev = sorted.slice(0, 10).reduce(function(a, p) { return a + p.revenue12m; }, 0);
+
+    var brandMap = {};
+    products.forEach(function(p) { brandMap[p.brand] = (brandMap[p.brand] || 0) + p.revenue12m; });
+    var topBrand = Object.keys(brandMap).sort(function(a, b) { return brandMap[b] - brandMap[a]; })[0] || '';
+    var topBrandShare = topBrand && totalSegRev > 0 ? (brandMap[topBrand] / totalSegRev * 100) : 0;
+    var pv = function(x){ return totalSegRev > 0 ? (x / totalSegRev * 100).toFixed(1) : '0.0'; };
+
+    s += '<div class="kpis">';
+    s += '<div class="kpi"><div class="kpi-v">' + top1Share.toFixed(1) + '%</div><div class="kpi-l">Udział przychodu — Top 1 ASIN</div></div>';
+    s += '<div class="kpi"><div class="kpi-v">' + pv(top3Rev) + '%</div><div class="kpi-l">Udział przychodu — Top 3 ASIN</div></div>';
+    s += '<div class="kpi"><div class="kpi-v">' + pv(top5Rev) + '%</div><div class="kpi-l">Udział przychodu — Top 5 ASIN</div></div>';
+    s += '<div class="kpi"><div class="kpi-v">' + pv(top10Rev) + '%</div><div class="kpi-l">Udział przychodu — Top 10 ASIN</div></div>';
+    s += '<div class="kpi"><div class="kpi-v">' + topBrandShare.toFixed(1) + '%</div><div class="kpi-l">Czołowa marka (' + topBrand + ')</div></div>';
+    s += '</div>';
+
+    var hhi = 0;
+    products.forEach(function(p) { var share = totalSegRev > 0 ? p.revenue12m / totalSegRev : 0; hhi += share * share; });
+    hhi = Math.round(hhi * 10000);
+    var concentration = hhi > 2500 ? 'Silnie skoncentrowany' : hhi > 1500 ? 'Umiarkowanie skoncentrowany' : 'Konkurencyjny / rozdrobniony';
+    s += '<div class="insight">';
+    s += '<strong>Segment ' + seg.name + ':</strong> ' + seg.asins + ' ASIN-ów, ' + DataEngine.fmtMoney(totalSegRev, cur) + ' przychodu (12M). ';
+    s += concentration + ' rynek (HHI: ' + hhi.toLocaleString('pl-PL') + '). ';
+    s += 'Czołowa marka: ' + topBrand + ' (' + topBrandShare.toFixed(1) + '% udziału w przychodzie). ';
+    s += 'Najlepszy ASIN zgarnia ' + top1Share.toFixed(1) + '% przychodu segmentu.';
+    s += '</div>';
+
+    s += '<div class="g2">';
+    s += '<div class="card"><h3>Udział marek — jednostki (12M)</h3><div class="cw"><canvas id="' + prefix + 'BrandUnitPie"></canvas></div></div>';
+    s += '<div class="card"><h3>Udział marek — przychód (12M)</h3><div class="cw"><canvas id="' + prefix + 'BrandRevPie"></canvas></div></div>';
+    s += '</div>';
+
+    s += '<div class="card"><h3>Cena vs przychód (12M) — ' + seg.name + '</h3>';
+    s += '<div class="cw" style="height:320px"><canvas id="' + prefix + 'PriceScatter"></canvas></div>';
+    s += '<div class="note">Wielkość bąbla = jednostki 12M. Oś X = cena z listingu. Oś Y = przychód 12M.</div></div>';
+
+    s += '<div class="card"><h3>Podsumowanie marek — ' + seg.name + ' (12M)</h3>';
+    s += '<div class="tbl-wrap"><table class="num-right" id="' + prefix + 'BrandTable">';
+    s += '<thead><tr><th style="text-align:left">Marka</th><th>Przychód (12M)</th><th>Udział</th><th>Jednostki (12M)</th><th>ASIN-y</th><th>Śr. ocena</th><th>Recenzje łącznie</th></tr></thead>';
+    s += '<tbody>';
+    var brands = DataEngine.aggregateByBrand(products);
+    brands.forEach(function(b) {
+      var bProducts = products.filter(function(p) { return p.brand === b.name; });
+      var avgRating = bProducts.length > 0 ? bProducts.reduce(function(a, p) { return a + p.rating; }, 0) / bProducts.length : 0;
+      var totalReviews = bProducts.reduce(function(a, p) { return a + p.reviewCount; }, 0);
+      var share = pv(b.rev);
+      s += '<tr>';
+      s += '<td>' + b.name + '</td>';
+      s += '<td data-val="' + b.rev + '">' + DataEngine.fmtMoney(b.rev, cur) + '</td>';
+      s += '<td data-val="' + share + '">' + share + '%</td>';
+      s += '<td data-val="' + b.units + '">' + b.units.toLocaleString('pl-PL') + '</td>';
+      s += '<td data-val="' + b.asins + '">' + b.asins + '</td>';
+      s += '<td data-val="' + avgRating.toFixed(2) + '">' + avgRating.toFixed(1) + '</td>';
+      s += '<td data-val="' + totalReviews + '">' + totalReviews.toLocaleString('pl-PL') + '</td>';
+      s += '</tr>';
+    });
+    s += '</tbody></table></div></div>';
+
+    s += '<div class="card"><h3>Top ASIN-y — ' + seg.name + ' wg przychodu (12M)</h3>';
+    s += '<div class="tbl-wrap"><table class="num-right" id="' + prefix + 'AsinTable">';
+    s += '<thead><tr><th style="text-align:left">ASIN</th><th style="text-align:left">Marka</th><th style="text-align:left">Tytuł</th><th>Cena</th><th>Jednostki (12M)</th><th>Przychód (12M)</th><th>Udział przych.</th><th>Ocena</th><th>Recenzje</th></tr></thead>';
+    s += '<tbody>';
+    var top20 = sorted.slice(0, 20);
+    top20.forEach(function(p) {
+      var share = pv(p.revenue12m);
+      var shortTitle = p.title.length > 60 ? p.title.substring(0, 57) + '...' : p.title;
+      s += '<tr>';
+      s += '<td><a href="https://www.amazon.' + tld + '/dp/' + p.asin + '" target="_blank" rel="noopener">' + p.asin + '</a></td>';
+      s += '<td>' + p.brand + '</td>';
+      s += '<td style="max-width:280px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left" title="' + p.title.replace(/"/g, '&quot;') + '">' + shortTitle + '</td>';
+      s += '<td data-val="' + p.price + '">' + cur + p.price.toFixed(2) + '</td>';
+      s += '<td data-val="' + p.units12m + '">' + p.units12m.toLocaleString('pl-PL') + '</td>';
+      s += '<td data-val="' + p.revenue12m + '">' + DataEngine.fmtMoney(p.revenue12m, cur) + '</td>';
+      s += '<td data-val="' + share + '">' + share + '%</td>';
+      s += '<td data-val="' + p.rating + '">' + p.rating.toFixed(1) + '</td>';
+      s += '<td data-val="' + p.reviewCount + '">' + p.reviewCount.toLocaleString('pl-PL') + '</td>';
+      s += '</tr>';
+    });
+    s += '</tbody></table></div>';
+    s += '<div class="note">' + seg.name + ' — top ' + Math.min(20, sorted.length) + ' z ' + seg.asins + ' ASIN-ów wg przychodu 12M. Przychód = jednostki 12M × cena z listingu. Projekcja 12M = sprzedaż 30 dni × 12.</div>';
+    s += '</div>';
+
+    return s;
+  }
+
+  // ══ RENDER CHARTS ══
+  function renderSegmentCharts(seg, si) {
+    var prefix = 'ms' + si;
+    var products = seg.products;
+
+    var brands = DataEngine.topBrandsWithOther(DataEngine.aggregateByBrand(products), 8);
+    var brandColorMap = {};
+    brands.forEach(function(b, i) { brandColorMap[b.name] = BRAND_PALETTE[i % BRAND_PALETTE.length]; });
+
+    function sortForPie(arr, metric) {
+      return arr.slice().sort(function(a, b) {
+        if (a.name === 'Other') return 1;
+        if (b.name === 'Other') return -1;
+        return b[metric] - a[metric];
+      });
+    }
+
+    var unitSorted = sortForPie(brands, 'units');
+    var revSorted  = sortForPie(brands, 'rev');
+
+    makePie(prefix + 'BrandUnitPie',
+      unitSorted.map(function(b) { return b.name; }),
+      unitSorted.map(function(b) { return b.units; }),
+      unitSorted.map(function(b) { return brandColorMap[b.name]; }),
+      function(v) { return v.toLocaleString('pl-PL'); }, function(v) { return v.toLocaleString('pl-PL') + ' szt.'; });
+
+    makePie(prefix + 'BrandRevPie',
+      revSorted.map(function(b) { return b.name; }),
+      revSorted.map(function(b) { return b.rev; }),
+      revSorted.map(function(b) { return brandColorMap[b.name]; }),
+      function(v) { return DataEngine.fmtMoney(v, cur); }, function(v) { return cur + v.toLocaleString('pl-PL'); });
+
+    var scatterEl = document.getElementById(prefix + 'PriceScatter');
+    if (scatterEl) {
+      var scatterData = products.map(function(p) {
+        return { x: p.price, y: p.revenue12m, r: Math.max(3, Math.min(25, Math.sqrt(p.units12m / 500))), label: p.brand };
+      });
+      var brandGroups = {};
+      products.forEach(function(p, i) {
+        if (!brandGroups[p.brand]) brandGroups[p.brand] = [];
+        brandGroups[p.brand].push(scatterData[i]);
+      });
+      var datasets = Object.keys(brandGroups).slice(0, 10).map(function(brand, i) {
+        return {
+          label: brand,
+          data: brandGroups[brand],
+          backgroundColor: BRAND_PALETTE[i % BRAND_PALETTE.length] + '99',
+          borderColor: BRAND_PALETTE[i % BRAND_PALETTE.length]
+        };
+      });
+      new Chart(scatterEl, {
+        type: 'bubble',
+        data: { datasets: datasets },
+        options: {
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom', labels: { font: { size: 10 }, padding: 8, boxWidth: 10 } },
+            datalabels: { display: false },
+            tooltip: {
+              callbacks: {
+                label: function(ctx) {
+                  var d = ctx.raw;
+                  return d.label + ': ' + cur + d.x.toFixed(2) + ' cena, ' + DataEngine.fmtMoney(d.y, cur) + ' przych.';
+                }
+              }
+            }
+          },
+          scales: {
+            x: { title: { display: true, text: 'Cena (' + cur + ')' }, grid: { color: '#f1f5f9' } },
+            y: { title: { display: true, text: 'Przychód (12M)' }, ticks: { callback: function(v) { return DataEngine.fmtMoney(v, cur); } }, grid: { color: '#f1f5f9' } }
+          }
+        }
+      });
+    }
+  }
+
+  function makePie(id, labels, data, colors, fmtLeg, fmtTip) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var total = data.reduce(function(a, b) { return a + b; }, 0);
+    new Chart(el, {
+      type: 'doughnut',
+      data: { labels: labels, datasets: [{ data: data, backgroundColor: colors, borderWidth: 2, borderColor: '#fff' }] },
+      options: {
+        maintainAspectRatio: false, cutout: '48%',
+        plugins: {
+          legend: {
+            position: 'right',
+            labels: {
+              font: { size: 10.5 }, padding: 7, boxWidth: 11, boxHeight: 11,
+              generateLabels: function(chart) {
+                return chart.data.labels.map(function(label, i) {
+                  var val = chart.data.datasets[0].data[i];
+                  var pct = total > 0 ? (val / total * 100).toFixed(1) : '0.0';
+                  return { text: label + '  ' + (fmtLeg ? fmtLeg(val) : pct + '%'), fillStyle: colors[i], strokeStyle: colors[i], lineWidth: 0, index: i, hidden: false };
+                });
+              }
+            }
+          },
+          tooltip: { callbacks: { label: function(ctx) { var pct = total > 0 ? (ctx.parsed / total * 100).toFixed(1) : '0.0'; return fmtTip ? ' ' + fmtTip(ctx.parsed) + ' (' + pct + '%)' : ' ' + pct + '%'; } } },
+          datalabels: {
+            display: function(ctx) { return total > 0 && (ctx.dataset.data[ctx.dataIndex] / total * 100) >= 5; },
+            formatter: function(v) { return (v / total * 100).toFixed(1) + '%'; },
+            color: '#fff', font: { size: 10.5, weight: '700' }
+          }
+        }
+      }
+    });
+  }
+
+})();
+</script>

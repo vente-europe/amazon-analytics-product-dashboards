@@ -106,6 +106,38 @@ the JSON — but every other key must be present and Polish.
   `negativeTopics` (matched via Polish keywords) for the gap analysis, and writes
   `data/competitor-listings/{CODE}/mdd-{slug}.json`.
 
+## 2026-07-02 — Oil segment added + MDD redesigned (szelki-style)
+
+- **Oil is now a shown segment** (`SEGMENT_ORDER = ['Cream','Wash','Oil']` in `_build_standalone.py`). All 4 countries show Cream/Wash/Oil pills.
+- **Oil = atopic-only.** Holds only oils whose title/bullets mention atopic/eczema/dermatitis/sensitive/itchy (verified per-ASIN via DataForSEO full listings; audit in `_oilclassify/{CODE}/_audit.csv`). Non-atopic carrier oils (e.g. MAYJAM) reclassified out. Method = 2-step on **title + bullet points** (SP-API exposes no A+/Brand Story).
+- **Oil reviews**: FR/IT/ES pooled into `reviews/{CODE}/Oil/all-reviews.json` via `parse_raw_reviews.py` (parses a Word/`.txt` review dump from `reviews/{CODE}/Oil/_raw/` → JSON, dedupes). DE uses per-ASIN files. Stray per-ASIN oil files moved to `reviews/_superseded/`. `voc_quick.py` = quick theme-scan helper.
+- **MDD redesigned to szelki-detailed style for ALL segments.** New dashboard-local template `templates/tabs/u-marketing-deep-dive/template.html` (self-contained CSS scoped to `#u-mdd-root`, Polish). `MDD_TPL` repointed from Console-level to this BASE-local file.
+  - `mdd_pipeline.py` emits the szelki schema (see `_MDD_SCHEMA.md`): `competitors[]` with `themeSrc` **source attribution (T=title / BP=bullets)**, `themes[]`, `adoption[]`, tiered `saturation[]`, `whitespace[]`, `vocGap[]`, typed `recs[]`, `avgClaims`. No `A+` source tag (SP-API limitation).
+  - Renderer order: KPI strip → competitor grid + click-detail → image/bullet compares → adoption table → **source-attributed claims matrix** → VOC-gap → whitespace+saturation → typed recs → methodology.
+- **`voc_pipeline.py` SRC repointed** from `../atopic-skin-topline/reviews` (now empty) to local `reviews/`.
+
+## 2026-07-02 (later) — Struktura rynku (Market Structure) added as tab #2
+
+- **Tab order is now** `Rynek → Struktura rynku → Recenzje (VOC) → Marketing Deep-Dive`
+  (MDD stays last, matching the anti-fungus / other dashboards). Tab #2 is the new one.
+- **New tab `structure`** ports the Console `market-structure` tab, per country, with
+  Cream/Wash/Oil as **internal segment sub-tabs**. Reuses the **country pills** (DE/FR/IT/ES);
+  the shared **segment pills are hidden** on this tab (segments live inside it via sub-tabs).
+- **Dashboard-local Polish template**: `templates/tabs/market-structure/template.html`
+  (reads `window._TAB_DATA`, root `#ms-tab-root`, self-contained CSS scoped to
+  `#panel-structure`). Build converts its IIFE → `renderMarketStructure(D, root)` via the
+  same `to_named_renderer` used for VOC/MDD — **no translation table** (template is already PL).
+- **Data**: `_build_standalone.py` → `load_structure(code)` parses `data/x-ray/{CODE}/Dermo-Products-{CODE}.csv`,
+  keeps only Cream/Wash/Oil, emits per-product `{asin,title,type,brand,price,sales30d,revenue30d,
+  bsr,rating,reviewCount,units12m,revenue12m}` into `bundle.structure[CODE]`. **12M = 30d × 12**
+  (flat — no per-ASIN sales history here, same as the Rynek topline). Revenue = units12m × price.
+  Structure ASINs: DE 180, FR 95, IT 109, ES 88.
+- **Engine**: Console `js/data-engine.js` is inlined once as its own `<script>` (provides
+  `DataEngine` aggregation + sortable tables). `renderStructure()` (shell) aggregates the
+  selected country's products, sorts segments to Cream/Wash/Oil, assigns colors, sets
+  `amazon.<tld>` for ASIN links, then calls `renderMarketStructure`. Stale `ms*` Chart instances
+  are destroyed before each re-render so the seg-tab resize-all never touches a detached canvas.
+
 ## Key decisions / gotchas
 
 - **Ratings come from X-Ray, not scraped reviews.** The scraped review ratings are

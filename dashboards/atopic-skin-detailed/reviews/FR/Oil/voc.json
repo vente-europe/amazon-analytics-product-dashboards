@@ -1,0 +1,1544 @@
+{
+ "totalReviews": 899,
+ "avgRating": 4.58,
+ "productCount": 2,
+ "cpSummary": "Kupujący w tym segmencie to przede wszystkim <strong>kobiety w ciąży</strong> szukające ochrony przed rozstępami, osoby chcące zredukować <strong>blizny i ślady</strong> (pooperacyjne, potrądzikowe) oraz osoby z <strong>bardzo suchą skórą ciała</strong>. Osobną grupą są rodzice stosujący olejek ze słodkich migdałów u niemowląt (ciemieniucha, wrażliwa skóra). To klienci mocno kierujący się recenzjami, bardzo wrażliwi na zapach oraz aktywnie sprawdzający skład (Yuka, INCI) pod kątem parafiny, olejków eterycznych i alergenów - zwłaszcza pod kątem bezpieczeństwa w ciąży i u dzieci.",
+ "cpWho": {
+  "labels": [
+   "Kobiety w ciąży (rozstępy)",
+   "Blizny i ślady",
+   "Sucha skóra ciała",
+   "Wrażliwa / reaktywna skóra",
+   "Dzieci / niemowlęta"
+  ],
+  "pos": [
+   22,
+   12,
+   16,
+   6,
+   8
+  ],
+  "neg": [
+   20,
+   10,
+   6,
+   14,
+   5
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Codziennie (rano i wieczorem)",
+   "W czasie ciąży",
+   "Po prysznicu",
+   "Na noc / przed snem",
+   "Długotrwale (miesiącami)"
+  ],
+  "pos": [
+   18,
+   16,
+   8,
+   6,
+   10
+  ],
+  "neg": [
+   16,
+   14,
+   4,
+   4,
+   12
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Brzuch i biodra",
+   "Uda i nogi",
+   "Blizny (miejscowo)",
+   "Twarz",
+   "Całe ciało / skóra głowy"
+  ],
+  "pos": [
+   16,
+   10,
+   10,
+   8,
+   9
+  ],
+  "neg": [
+   14,
+   8,
+   8,
+   10,
+   6
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Skuteczność (rozstępy/blizny)",
+   "Zapach",
+   "Konsystencja / wchłanianie",
+   "Skład i bezpieczeństwo",
+   "Cena / pojemność"
+  ],
+  "pos": [
+   22,
+   10,
+   16,
+   4,
+   6
+  ],
+  "neg": [
+   22,
+   20,
+   16,
+   18,
+   12
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Zapobieganie i redukcja rozstępów w ciąży",
+   "reason": "Codzienne wcieranie w brzuch, biodra i uda przez całą ciążę, często 2 razy dziennie",
+   "pct": "30.0%"
+  },
+  {
+   "label": "Redukcja blizn i śladów",
+   "reason": "Miejscowe stosowanie na blizny pooperacyjne i potrądzikowe, by je rozjaśnić i wygładzić",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Nawilżanie bardzo suchej skóry ciała",
+   "reason": "Olejek po prysznicu na uczucie ściągnięcia, szorstkość łokci, kolan i goleni",
+   "pct": "17.0%"
+  },
+  {
+   "label": "Pielęgnacja na noc / po prysznicu",
+   "reason": "Aplikacja wieczorem, aby olejek wchłonął się przed snem i nie plamił ubrań",
+   "pct": "13.0%"
+  },
+  {
+   "label": "Pielęgnacja skóry dzieci i niemowląt",
+   "reason": "Olejek ze słodkich migdałów na ciemieniuchę i wrażliwą, atopową skórę maluchów",
+   "pct": "12.0%"
+  },
+  {
+   "label": "Ujednolicenie i odmłodzenie cery / twarz",
+   "reason": "Stosowanie na twarz dla wygładzenia, blasku i redukcji drobnych zmarszczek",
+   "pct": "10.0%"
+  }
+ ],
+ "csSummary": "Sentyment jest <strong>spolaryzowany, ale przechyla się na plus</strong>: w próbce około 37% recenzji to oceny negatywne (1-2★), około 21% neutralne (3★), a ponad 40% wyraźnie pozytywne (4-5★); średnia ocena segmentu to 3,27★. Ten sam produkt (zwłaszcza olejek kakaowy Palmer's, Bi-Oil i migdałowy Biolane) bywa opisywany jako <strong>'cud' na rozstępy i blizny</strong> albo jako rozczarowanie - kluczowe osie podziału to <strong>zapach</strong> (dla wielu zbyt mocny i chemiczny), <strong>realna skuteczność na rozstępy</strong> oraz <strong>obawy o skład i bezpieczeństwo w ciąży</strong>.",
+ "negativeTopics": [
+  {
+   "label": "Zapach zbyt mocny i nieprzyjemny",
+   "reason": "Intensywny zapach kakao, pudru lub perfum opisywany jako chemiczny i przytłaczający",
+   "pct": "24.0%",
+   "bullets": [
+    "Zapach kakao / czekolady odbierany jako tani i sztuczny",
+    "Perfumowany 'pudrowy' zapach kojarzony ze 'starszą panią'",
+    "Zapach utrzymuje się godzinami na skórze i ubraniach",
+    "Dla osób wrażliwych na zapach powoduje mdłości, a nawet migrenę"
+   ],
+   "quotes": [
+    "Pachnie, jakbym oblał się butelką perfum dla ślepej starszej pani",
+    "Ten środek pachnie chemikaliami z nutą kokosa",
+    "pachnie tanią mleczną czekoladą",
+    "Zapach jest naprawdę specyficzny i bardzo mocny"
+   ]
+  },
+  {
+   "label": "Brak skuteczności na rozstępy i blizny",
+   "reason": "Po tygodniach lub miesiącach stosowania brak widocznej poprawy rozstępów i blizn",
+   "pct": "22.0%",
+   "bullets": [
+    "Brak efektu mimo codziennego stosowania przez kilka miesięcy",
+    "Rozstępy powstają dalej lub pozostają bez zmian",
+    "Skuteczniejsze okazują się inne produkty (Mustela, Aveeno, masło shea)",
+    "Nawilża, ale nie działa na ślady - to jego jedyna realna zaleta"
+   ],
+   "quotes": [
+    "Brak efektu po 4 miesiącach",
+    "Zużyłam połowę butelki i nie zauważyłam żadnych efektów",
+    "moje smugi są nadal takie same",
+    "Powinienem był to zrobić od początku, nawet gdyby oznaczało to wydanie większej ilości pieniędzy"
+   ]
+  },
+  {
+   "label": "Obawy o skład i bezpieczeństwo w ciąży",
+   "reason": "Klienci sprawdzają skład (Yuka, INCI) i krytykują parafinę, olejki eteryczne i alergeny",
+   "pct": "20.0%",
+   "bullets": [
+    "Parafina / olej mineralny jako pochodna ropy naftowej",
+    "Olejki eteryczne i substancje zaburzające gospodarkę hormonalną niewskazane w ciąży",
+    "BHA, BHT i liczne alergeny na liście składników",
+    "Niska ocena w aplikacjach Yuka / INCI Beauty mimo dobrej reputacji marki"
+   ],
+   "quotes": [
+    "głównym składnikiem tego cudownego olejku jest Paraffinum Liquidum",
+    "Ten produkt zawiera BHA i BHT",
+    "Yuka sklasyfikowała ten produkt jako ZŁY",
+    "olej mineralny z produktów petrochemicznych, olejki eteryczne niewskazane dla kobiet w ciąży"
+   ]
+  },
+  {
+   "label": "Reakcje niepożądane, swędzenie i alergia",
+   "reason": "Reakcje alergiczne, pieczenie, wysypka i swędzenie po aplikacji",
+   "pct": "16.0%",
+   "bullets": [
+    "Silne reakcje alergiczne wymagające przerwania stosowania",
+    "Pieczenie i uczucie gorąca skóry zaraz po nałożeniu",
+    "Wysypka, plamy i swędzenie na całym ciele",
+    "Skrajne przypadki: infekcja bakteryjna i konieczność wizyty u lekarza"
+   ],
+   "quotes": [
+    "szybko zaprzestałam stosowania tego Bi Oil ze względu na silną reakcję alergiczną",
+    "moje ramię i dłoń zrobiły się gorące i swędziały",
+    "Spowodowało u mnie infekcję bakteryjną!",
+    "dostałem ogromnej wysypki z dużymi szczeniętami na całym ciele i swędzenie było najgorsze"
+   ]
+  },
+  {
+   "label": "Tłustość, słabe wchłanianie i plamy na ubraniach",
+   "reason": "Olejek zbyt tłusty, długo się wchłania i brudzi ubrania oraz pościel",
+   "pct": "14.0%",
+   "bullets": [
+    "Tłusty film utrzymujący się długo po aplikacji",
+    "Plamy na ubraniach, pościeli i meblach",
+    "Konieczność odczekania nawet godziny przed ubraniem się",
+    "Zbyt ciężki i komedogenny na twarz"
+   ],
+   "quotes": [
+    "Olejek jest bardzo tłusty i w ogóle nie wnika",
+    "Miałem olej na całym ubraniu, pościeli, meblach, klamkach",
+    "trzeba odczekać 1 godzinę, aż wyschnie i przeniknie",
+    "Zbyt tłusty do twarzy"
+   ]
+  },
+  {
+   "label": "Wprowadzenie w błąd, opakowanie i wycieki",
+   "reason": "Rozczarowanie bazą z oleju rzepakowego, formą pompki zamiast sprayu oraz wyciekami i podróbkami",
+   "pct": "14.0%",
+   "bullets": [
+    "Główny składnik to tani olej rzepakowy, a nie kokosowy / kakaowy",
+    "Produkt jest pompką, a nie zapowiadanym sprayem",
+    "Olej wycieka z butelki podczas transportu",
+    "Podejrzenia podróbek i brudnych, ponownie napełnianych butelek"
+   ],
+   "quotes": [
+    "Jest to głównie olej rzepakowy!",
+    "W rzeczywistości jest to pompka, a nie spray",
+    "Po otwarciu pudełka wszędzie wyciekł olej",
+    "A może to podróbka?"
+   ]
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Redukcja rozstępów i blizn",
+   "reason": "Widoczne rozjaśnienie i zmniejszenie rozstępów oraz blizn po tygodniach stosowania",
+   "pct": "26.0%",
+   "bullets": [
+    "Rozstępy wyraźnie mniej widoczne, zwłaszcza świeże i czerwone",
+    "Blizny (pooperacyjne, potrądzikowe) bledną i się wygładzają",
+    "Wsparcie profilaktyczne - u części kobiet brak rozstępów po ciąży",
+    "Efekty potwierdzane zdjęciami przed / po"
+   ],
+   "quotes": [
+    "rozstępy na wewnętrznej stronie ud znacznie zniknęły",
+    "Całkowite zniknięcie rozstępów NIESAMOWITE",
+    "Moje blizny znacznie zbladły, a rozstępy są znacznie mniej widoczne",
+    "Moje blizny bledną, stają się mniej czerwone"
+   ]
+  },
+  {
+   "label": "Dobre nawilżenie i miękka skóra",
+   "reason": "Intensywne, długotrwałe nawilżenie i wyraźnie gładsza, bardziej miękka skóra",
+   "pct": "22.0%",
+   "bullets": [
+    "Skóra od razu miększa i wygładzona",
+    "Długotrwałe nawilżenie bez uczucia ściągnięcia",
+    "Skuteczne na szorstkie łokcie, kolana i suche golenie",
+    "Odbudowa komfortu bardzo suchej skóry ciała"
+   ],
+   "quotes": [
+    "Pozostawia całe ciało świeże i nawilżone",
+    "moja skóra jest zauważalnie gładsza i bardziej miękka",
+    "nawilża od razu, moja skóra jest miękka",
+    "pozostawia skórę niezwykle miękką"
+   ]
+  },
+  {
+   "label": "Suchy, szybko wchłaniający się olejek",
+   "reason": "Lekka, nietłusta konsystencja, która szybko wnika i nie plami ubrań",
+   "pct": "18.0%",
+   "bullets": [
+    "Szybkie wchłanianie bez tłustego filmu",
+    "Suchy olejek, który nie brudzi ubrań ani pościeli",
+    "Lekka konsystencja przyjemna w codziennej aplikacji",
+    "Natychmiastowe uczucie nawilżenia po nałożeniu"
+   ],
+   "quotes": [
+    "Szybko się wchłania, nie pozostawiając tłustej warstwy",
+    "Jest to suchy olejek, który szybko wchłania się w skórę",
+    "Nietłusta konsystencja, szybko się wchłania",
+    "Wchłania się bardzo szybko i pozostawia natychmiastowe uczucie nawilżenia"
+   ]
+  },
+  {
+   "label": "Przyjemny, subtelny zapach",
+   "reason": "Dla części klientów zapach jest delikatny, przyjemny i nieprzytłaczający",
+   "pct": "12.0%",
+   "bullets": [
+    "Subtelny, dyskretny zapach kokosa lub kakao",
+    "Zapach ceniony i nieprzytłaczający, wręcz luksusowy",
+    "Utrzymuje się na skórze bez natrętności",
+    "Dla wielu jest zaletą, choć jest to kwestia gustu"
+   ],
+   "quotes": [
+    "Zapach jest wysublimowany",
+    "Subtelny zapach kokosa jest przyjemny",
+    "Zapach kakao jest przyjemny i niezbyt mocny",
+    "dyskretny i kojący zapach"
+   ]
+  },
+  {
+   "label": "Wydajność i dobry stosunek jakości do ceny",
+   "reason": "Niewielka ilość wystarcza, a produkt jest niedrogi i dobrze dostępny",
+   "pct": "12.0%",
+   "bullets": [
+    "Oszczędne zużycie - łatwo się rozprowadza",
+    "Dobry stosunek jakości do ceny, zwłaszcza w małych formatach",
+    "Korzystniejsza cena na Amazon niż w aptece",
+    "Praktyczny, poręczny format do noszenia"
+   ],
+   "quotes": [
+    "Butelka poniżej 5 funtów to naprawdę dobry stosunek jakości do ceny",
+    "jego niewielka ilość wystarczy",
+    "nie trzeba stosować dużej dawki, gdyż łatwo się rozprowadza",
+    "Praktyczny format 75 ml w niskiej cenie (szczególnie za 3,09 €!)"
+   ]
+  },
+  {
+   "label": "Delikatny dla skóry wrażliwej, dzieci i niemowląt",
+   "reason": "Olejek migdałowy ceniony jako łagodny, naturalny i bezpieczny dla delikatnej skóry maluchów",
+   "pct": "10.0%",
+   "bullets": [
+    "Odpowiedni dla skóry wrażliwej i atopowej dzieci",
+    "Skutecznie zmiękcza ciemieniuchę niemowląt",
+    "Naturalny skład budujący zaufanie rodziców",
+    "Wielofunkcyjny - do skóry i suchych włosów całej rodziny"
+   ],
+   "quotes": [
+    "idealny dla skóry wrażliwej i małych dzieci",
+    "olejek do kąpieli u moich dzieci, które mają skórę skłonną do atopii",
+    "To dobry, delikatny olejek, odpowiedni dla delikatnej skóry niemowląt",
+    "Idealny do wrażliwej skóry i suchych włosów"
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Zapach = deal-breaker",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Najczęstszy motyw negatywny to zbyt intensywny, 'chemiczny' lub 'pudrowy' zapach kakao / perfum, który dla wielu osób - zwłaszcza kobiet w ciąży wrażliwych na zapach - dyskwalifikuje produkt mimo dobrego działania.",
+   "implication": "Wyraźne komunikowanie profilu zapachowego i oferowanie wariantu bezzapachowego może odzyskać klientów, którzy porzucają produkt wyłącznie z powodu zapachu."
+  },
+  {
+   "type": "Oczekiwania vs efekt",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Rozczarowanie skutecznością na rozstępy i blizny jest częste - klienci oczekują 'cudu', a po miesiącach nie widzą zmian, co przekłada się na oceny 1-2★.",
+   "implication": "Realistyczne obietnice ('poprawa wyglądu, a nie usunięcie'), jasny protokół stosowania (2x dziennie, 3 miesiące) i zdjęcia przed/po ograniczają rozczarowanie."
+  },
+  {
+   "type": "Panika składnikowa i ciąża",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Francuscy kupujący aktywnie sprawdzają skład w Yuka / INCI Beauty i karzą za parafinę, olej mineralny, olejki eteryczne, BHA/BHT i alergeny - szczególnie w kontekście bezpieczeństwa w ciąży i u dzieci.",
+   "implication": "Transparentna, pełna lista składników i wariant 'czysty' / bez olejków eterycznych, wyraźnie oznaczony jako bezpieczny w ciąży, odblokują oceny od zaniepokojonych, ale zainteresowanych użytkowników."
+  },
+  {
+   "type": "Ryzyko reakcji",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Powtarzają się opisy reakcji alergicznych, pieczenia, wysypki i swędzenia - w tym u niemowląt (olejek ze słodkich migdałów jako potencjalny alergen).",
+   "implication": "Zalecenie testu płatkowego (zwłaszcza u dzieci) i jasne ostrzeżenie o alergenach to konieczne zabezpieczenie reputacyjne dla higienicznie wrażliwej grupy."
+  },
+  {
+   "type": "Sensoryka i opakowanie",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Tłustość, plamy na ubraniach, baza z taniego oleju rzepakowego, mylące określenie 'spray' oraz wycieki i podejrzenia podróbek to powtarzalne skargi obniżające zaufanie.",
+   "implication": "Szczelniejsze opakowanie z plombą, uczciwy opis formy aplikacji (pompka vs spray) i kontrola kanału sprzedaży to szybkie wygrane wizerunkowe."
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "USP: rozstępy i blizny",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Najsilniejszy motyw pozytywny to widoczna redukcja rozstępów i blizn, często opisywana entuzjastycznie i popierana zdjęciami przed/po.",
+   "implication": "Pozycjonowanie 'widoczna poprawa rozstępów i blizn' z realistyczną obietnicą i dowodem wizualnym to główny filar komunikacji dla tej grupy."
+  },
+  {
+   "type": "Suchy olejek = przewaga sensoryczna",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Zadowoleni klienci chwalą lekką, szybko wchłaniającą się, nietłustą konsystencję ('suchy olejek'), która nie plami ubrań.",
+   "implication": "Eksponowanie 'suchy olejek - szybkie wchłanianie, brak tłustego filmu' bezpośrednio odpowiada na główny zarzut przeciwników i wyróżnia produkt."
+  },
+  {
+   "type": "Naturalność i dzieci",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Olejek ze słodkich migdałów (Biolane) budzi zaufanie jako łagodny, naturalny i skuteczny u niemowląt i skóry wrażliwej/atopowej.",
+   "implication": "Segment 'delikatny / naturalny / bezpieczny dla dzieci' to dodatkowa grupa docelowa - warto potwierdzić testami dermatologicznymi i oznaczeniem wieku stosowania."
+  },
+  {
+   "type": "Nawilżenie i wygładzenie",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Bogate nawilżenie, gładkość i miękkość skóry są chwalone także poza kontekstem rozstępów (ciało, twarz, suche partie).",
+   "implication": "Komunikacja wielofunkcyjności ('ciało, twarz, blizny, sucha skóra') poszerza zastosowanie i uzasadnia regularny, powtarzalny zakup."
+  },
+  {
+   "type": "Wydajność i cena",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Mimo skarg części klientów na szybkie zużycie, wielu chwali oszczędne dawkowanie i dobrą cenę, zwłaszcza na Amazon.",
+   "implication": "Podkreślanie liczby aplikacji z opakowania i kosztu na dzień neutralizuje obiekcje o cenie i małej pojemności."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Zapobieganie i redukcja rozstępów ciążowych",
+   "reason": "Ochrona brzucha, bioder i ud w czasie ciąży przed rozstępami",
+   "pct": "28.0%"
+  },
+  {
+   "label": "Redukcja blizn i śladów na skórze",
+   "reason": "Chęć rozjaśnienia i wygładzenia blizn pooperacyjnych i potrądzikowych",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Zaufanie do licznych pozytywnych recenzji",
+   "reason": "Decyzję napędzają wysokie oceny i zdjęcia efektów innych użytkowników",
+   "pct": "17.0%"
+  },
+  {
+   "label": "Naturalny i bezpieczny skład (ciąża, dzieci)",
+   "reason": "Chęć uniknięcia 'chemii' i produktów niewskazanych w ciąży lub u niemowląt",
+   "pct": "14.0%"
+  },
+  {
+   "label": "Intensywne nawilżenie bardzo suchej skóry",
+   "reason": "Uczucie ściągnięcia, szorstkość i łuszczenie suchej skóry ciała",
+   "pct": "13.0%"
+  },
+  {
+   "label": "Polecenie, cena i dostępność na Amazon",
+   "reason": "Rekomendacja z ust do ust oraz korzystniejsza cena niż w aptece",
+   "pct": "10.0%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Widoczna redukcja rozstępów i blizn",
+   "reason": "Oczekują realnej poprawy wyglądu śladów, a nie tylko nawilżenia",
+   "pct": "24.0%"
+  },
+  {
+   "label": "Brak podrażnień, alergii i reakcji",
+   "reason": "Produkt na wrażliwą skórę i skórę ciężarnych nie może jej pogarszać",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Bezpieczny skład, także w ciąży",
+   "reason": "Bez parafiny, olejków eterycznych i alergenów; akceptowalny dla Yuka / INCI",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Dobra sensoryka - szybkie wchłanianie",
+   "reason": "Suchy olejek bez tłustego filmu i plam na ubraniach",
+   "pct": "15.0%"
+  },
+  {
+   "label": "Akceptowalny, dyskretny zapach",
+   "reason": "Zapach nie może być mocny, chemiczny ani mdlący",
+   "pct": "13.0%"
+  },
+  {
+   "label": "Uczciwa cena i wystarczająca pojemność",
+   "reason": "Rozsądny koszt przy codziennym, długotrwałym stosowaniu",
+   "pct": "12.0%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "value": "scent",
+   "label": "Zapach"
+  },
+  {
+   "value": "efficacy_marks",
+   "label": "Skuteczność (rozstępy/blizny)"
+  },
+  {
+   "value": "hydration",
+   "label": "Nawilżenie / miękka skóra"
+  },
+  {
+   "value": "greasy_absorption",
+   "label": "Tłustość / wchłanianie"
+  },
+  {
+   "value": "ingredient_safety",
+   "label": "Skład i bezpieczeństwo"
+  },
+  {
+   "value": "adverse_reaction",
+   "label": "Reakcje / swędzenie / alergia"
+  },
+  {
+   "value": "sensitive_baby",
+   "label": "Wrażliwa skóra / dzieci"
+  },
+  {
+   "value": "pregnancy",
+   "label": "Ciąża / rozstępy ciążowe"
+  },
+  {
+   "value": "price_volume",
+   "label": "Cena / pojemność"
+  },
+  {
+   "value": "packaging",
+   "label": "Opakowanie / wycieki / podróbki"
+  }
+ ],
+ "tagStyles": {
+  "scent": "pill-amber",
+  "efficacy_marks": "pill-blue",
+  "hydration": "pill-blue",
+  "greasy_absorption": "pill-amber",
+  "ingredient_safety": "pill-purple",
+  "adverse_reaction": "pill-red",
+  "sensitive_baby": "pill-blue",
+  "pregnancy": "pill-blue",
+  "price_volume": "pill-orange",
+  "packaging": "pill-orange"
+ },
+ "reviews": [
+  {
+   "r": 1,
+   "t": "Brak efektu po 4 miesiącach. Dwie butelki zakupione niepotrzebnie. Całkowite rozczarowanie. Po utracie dużej wagi po cięciu zdecydowałam się kupić ten produkt, aby zmniejszyć rozstępy. Jest napisane, żeby stosować go DWA razy dziennie przez 3 miesiące, moim zdaniem powinno tak być, jeśli masz rozstępy tylko w jednym miejscu na ciele, co zdarza się rzadko. Stosuję go na ramiona (oczywiście dwa), klatkę piersiową i brzuch, produkt wytrzymuje MAKSYMALNIE 2 miesiące przy użyciu TYLKO RAZ dziennie...bez żadnych rezultatów. Czekałem 4 miesiące (dwie butelki) na wyrażenie swojej opinii i oto jest. Nie dziwi mnie fakt, że produkt przez cały ten czas był w promocji",
+   "tags": [
+    "efficacy_marks",
+    "pregnancy",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bądź ostrożny z tym produktem. Szybko zaprzestałam stosowania tego Bi Oil ze względu na silną reakcję alergiczną, zapytałam o skład rzekomo zalecany dla kobiet w ciąży, olejek ten zawiera olejki eteryczne Lavandula Angustifolia Oil, który odpowiada olejkowi lawendowemu i olejkowi z liści Rosmarinus Officinalis, który reprezentuje olejek rozmarynowy. Natomiast głównym składnikiem tego cudownego olejku jest Paraffinum Liquidum, czyli inaczej Parafina Płynna, pochodna przemysłu petrochemicznego. Wolałam nie ryzykować dla mojego dziecka i jak najszybciej przerwałam leczenie.",
+   "tags": [
+    "ingredient_safety",
+    "adverse_reaction"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "0/5 gwiazdek - Najgorszy produkt do pielęgnacji skóry, jaki kiedykolwiek stosowano. 0/5 gwiazdek, gdybym mógł. Naprawdę nie rozumiem, jak to ma tyle dobrych recenzji. Zapach jest TAK przytłaczający – i to nie w dobrym tego słowa znaczeniu. To puder dla niemowląt z maską wanilii, który przylega do ubrań i skóry nawet po energicznym jego zetarciu (wystarczą dwie pompki, a zapach utrzymuje się jeszcze 7 godzin później). Bazą jest głównie olej rzepakowy, który w ogóle nie jest przyjemny dla skóry, a po jego nałożeniu moje ramię i dłoń zrobiły się gorące i swędziały. Prawdopodobnie najgorszy produkt do pielęgnacji skóry, jakiego kiedykolwiek używałam i jestem po prostu zachwycona pozytywnymi recenzjami. Nie można zwrócić na Amazon, ale mam nadzieję, że inni zaoszczędzą trochę pieniędzy",
+   "tags": [
+    "scent",
+    "ingredient_safety",
+    "sensitive_baby",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie stosować na rozstępy pod pachami ani na wrażliwą skórę!!. OSTRZEŻENIE! Na zdjęciach widać owłosione pachy, wiem, że niektórym osobom się to nie podoba. Nie mogłam się golić ze względu na poparzenia, jakie nabawiłam się od tego olejku. Używałam go na rozstępy, miałam oparzenia, swędzenie i guzki. Gorąco polecam NIE używać tego do pod pachami. Powiedziałam o tym produkcie mojej lekarce, a ona NATYCHMIAST kazała mi go wyrzucić!! Pokazuję wam wszystko przed użyciem produktu i po nim, abyście mogli zobaczyć, co się stało. Te z fioletowymi napisami są przed, a niebieskie po. Mam nadzieję, że to pomoże ci uniknąć olejku palmersowego. 💜💜",
+   "tags": [
+    "adverse_reaction"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Spowodowało u mnie infekcję bakteryjną!. Trzymaj to z dala od pępka i wokół niego. Stosowałam ten produkt na brzuch i trochę dostało się do pępka. Następnego ranka z mojego pępka wyciekała ropa i miał nieprzyjemny zapach! Natychmiast zaprzestałem stosowania tego produktu i infekcja powoli ustępuje (podczas leczenia obszaru dwa razy dziennie). Moja skóra nie jest w ogóle wrażliwa i nigdy wcześniej nie zdarzyło mi się coś takiego po zastosowaniu innych olejków i kremów. Bardzo rozczarowujące i obrzydliwe, z czym trzeba sobie poradzić. Ten produkt nie podlega zwrotowi, więc nawet nie ryzykuj, kupując go na próbę",
+   "tags": [
+    "scent",
+    "adverse_reaction",
+    "pregnancy",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "UWAGA WSKAZÓWKA LEKARSKA ALERGIE. Mając dobre intencje zamówiliśmy ten produkt. Zasadniczo produkt jest dobrej jakości. ALE. Opinia pediatryczna ostrzegająca nas przed niekorzystnym wpływem stosowania tego produktu na małe dzieci: migdały mogą czasami być źródłem alergii, a nałożenie ich na skórę niemowlęcia może sprzyjać rozwojowi tej alergii. Według pediatry społeczność naukowa zgodzi się, aby unikać stosowania tego rodzaju olejku u niemowląt. najwyraźniej robisz, co chcesz. uczciwie",
+   "tags": [
+    "adverse_reaction",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Niebezpieczeństwo ciąży. Rozmiar Nazwa: 125 ml Należy pamiętać, że eksperci nie zalecają stosowania tego produktu dla kobiet w ciąży, chociaż stosowanie go w czasie ciąży w celu zwalczania rozstępów jest zaletą. Ten produkt zawiera BHA i BHT, które są substancjami chemicznymi i toksycznymi uważanymi za substancje zaburzające funkcjonowanie układu hormonalnego i zakłócające estrogen. BHA i BHT, sklasyfikowane również jako potencjalnie rakotwórcze, należy unikać u kobiet w ciąży, dzieci i młodzieży. Dlatego stosowanie tego produktu jest niebezpieczne i należy go unikać w czasie ciąży.",
+   "tags": [
+    "ingredient_safety",
+    "adverse_reaction",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "dokładny skład. Miałam próbkę tego produktu, jego zapach bardzo mi się spodobał i uważam, że jest dość nawilżający. Pragnę zaznaczyć, że NIE KUPIŁEM TEGO WIELKOFORMATOWEGO PRODUKTU ANI W AMAZONIE ANI GDZIE INDZIEJ i chciałbym przed zakupem poznać DOKŁADNY skład produktu, który nie jest dostarczany w AMAZON, ponieważ podany tutaj opis tylko częściowo podaje tę informację. Na małej próbce, którą mam, lista jest już dłuższa. Uważam za nienormalne, że nie mamy dostępu do CAŁEGO składu produktów. Dlatego w tej sprawie wstrzymam się od głosu!",
+   "tags": [
+    "scent",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Brutto. Czy zapach nikomu nie przeszkadza?? Pachnie, jakbym oblał się butelką perfum dla ślepej starszej pani i użyłem tylko niewielkiej ilości na ramieniu. Fuj!! Składnik perfum znajduje się na końcu listy, myślałem, że będzie łagodny, jeśli w ogóle. Nie jest ani trochę łagodny. Chyba wezmę niepotrzebny prysznic, żeby się tego pozbyć, zanim rozbole mnie głowa. Nie jestem nawet wrażliwa na zapachy, to coś po prostu śmierdzi! I nie podlega zwrotowi, o czym szybko się przekonałem. Szkoda pieniędzy, wyrzucić je do kosza, bo nikomu nie życzę tego zapachu",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Dirty Bottle.. Czekałam z niecierpliwością na ten produkt, ponieważ używałam go w przeszłości i miałam obsesję na punkcie wyników. Jednak dzisiaj otrzymałem produkt i trochę boję się go użyć, po rozpakowaniu przesyłki zauważyłem, że butelka była brudna. Etykieta wydaje się być uniesiona w kilku rogach i jest ciemna, jakby była wcześniej używana i ponownie napełniona. Zdecydowanie jestem sceptyczny wobec używania ze względu na wygląd butelki i brak możliwości sprawdzenia, czy nie była używana i ponownie napełniana (ponieważ wokół główki butelki nie było plastiku ani etykiety).",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Pachnie zabawnie!. To dotarło za pośrednictwem UPS. Jestem zaskoczony, że dostarczyli to w ten sposób. Najwyraźniej produkt przeciekał i nasiąkał pudełkiem. W fabryce kokosów Palmer muszą upewnić się, że nakrętka jest dobrze dokręcona. Wygląda na to, że po prostu wrzucili go do pudełka bez zastanowienia. Na świecie. Ten środek pachnie chemikaliami z nutą kokosa. Posmarowałem trochę ramieniem i powąchałem, a potem byłem pod prysznicem i zmywałem ten zapach. Może trafiłem na jakąś wadę, złą partię czy coś? Odeślę to gówno z powrotem, bo jest zajebiste!",
+   "tags": [
+    "scent",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Kobiety w ciąży, UCIEKAJ! Olejek ten reklamowany jest jako produkt ograniczający pojawianie się rozstępów w czasie ciąży. Nie zwróciłem uwagi na skład. Głupio oparłem się na wielu pozytywnych komentarzach... Więcej tego błędu nie popełnię! Skład jest katastrofalny: olej mineralny z produktów petrochemicznych, olejki eteryczne niewskazane dla kobiet w ciąży, substancje zaburzające funkcjonowanie układu hormonalnego++, liczne alergeny. Dlatego olejku tego należy UNIKAĆ, przynajmniej w przypadku kobiet w ciąży.",
+   "tags": [
+    "ingredient_safety"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Brak zwrotu wadliwego produktu o szalenie silnym zapachu!. Ten produkt nie podlega zwrotowi. Po otwarciu pudełka wszędzie wyciekł olej, a zapach był niezwykle silny, co skończyło się silną migreną i wymiotami. Osoby wrażliwe muszą mieć świadomość, że nie jest to produkt wart marnowania pieniędzy. Fakt, że nie podlega zwrotowi ze względu na wadę i intensywny zapach jest czystym oszustwem konsumenckim!!! Całkowicie niezadowolony i rozczarowany. Nie będę polecał produktu ani nawet tej marki, ponieważ nie można zwrócić ani wymienić !!!",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Tani olej piżmowy, a nie olej kokosowy Palmera. Okropny zapach - zupełnie nie podobny do zapachów Palmers - cieszę się, że nie kupiłem mydła. Cuchnie olejkiem piżmowym, na który jestem uczulony i 7 dolarów wyrzuconych w błoto, ponieważ jestem niepełnosprawny i nie mogę dotrzeć do nadawcy, aby odesłać. Dobry sposób na utratę klienta, ponieważ kupowałem wszystkie wasze produkty. Czy zmieniasz formułę swoich produktów, tak jak robią to wszystkie inne firmy? Zły biznes. To śmierdzi – jeśli chcę pachnieć jak skunks, pójdę i zantagonizuję jednego, żeby został spryskany – nie zapłacę za to 7 dolarów",
+   "tags": [
+    "scent",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Uwaga. Renomowana marka, kupiłam ten produkt na ostatni trymestr ciąży. Przyjemny zapach (choć dla mnie trochę mocny), świetna konsystencja, bardzo nawilża i nie pozostawia tłustej powłoki. Na pierwszy rzut oka zachwycony! Tak, ale pod koniec pierwszego dnia stosowania ogromna reakcja alergiczna! Zwróć uwagę na skład (na który nie patrzyłam, zbyt pewna reputacji marki). Prowadząc badania, widzę, że mój przypadek nie jest odosobniony... Szkoda",
+   "tags": [
+    "scent",
+    "adverse_reaction",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "UWAŻAJ NA SKŁADNIKI ALERGENNE. Rozmiar Nazwa: 60 ml (1 opakowanie) Właśnie sprawdziłem składniki i zdziwiłem się... Ten produkt jest pełen alergenów. Odnotowałem co najmniej 10 w odniesieniu do listy substancji perfumeryjnych uznawanych za alergenne i które są wymienione w rozporządzeniu dotyczącym kosmetyków (CSSC). Nie nakładaj go na twarz, jeśli masz skórę wrażliwą i atopową. Myślę o wyrzuceniu butelki!",
+   "tags": [
+    "scent",
+    "ingredient_safety",
+    "sensitive_baby",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zamiast tego sięgnij po zapach kokosowy!. Przypadkowo i ze smutkiem kupiłam olejek o zapachu masła kakaowego zamiast zamierzonego oleju kokosowego i pomyślałam: „Hej, nie bądź taki wybredny, WYPRÓBUJ!” Otworzyłem je i uderzył mnie ten okropny smród. Wtedy nawet nie przeczytałam opakowania ani tego, co zamówiłam, po prostu założyłam, że mam olejek do ciała o zapachu kokosa. Byłem bardzo zły na siebie, że popełniłem ten błąd. Nienawidzę tego zapachu",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Za gruba - jestem bardzo zaskoczona. Kupiłam ten produkt ze względu na świetne recenzje. Muszę mieć dziwną cerę, bo dla mnie ten produkt jest strasznie tłusty i śmierdzi. Właśnie zrobiłem mały spray testowy na ramieniu. Moja dłoń jest bardzo tłusta 10 minut później, podobnie jak moje ramię. Zapach jest bardzo mocny i przytłaczający. Jestem bardzo zawiedziony, produkt wyląduje w koszu",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zwróć uwagę na listę składników. Stosowałam ten produkt przez całą ciążę, jednak nie zwróciłam uwagi na skład produktu, opierając się wyłącznie na opiniach z Amazonu… uważajcie, głównymi składnikami tego olejku są pochodne ropy naftowej i substancje zaburzające gospodarkę hormonalną. Dlatego unikaj go szczególnie, jeśli jesteś w ciąży i chcesz położyć go na brzuchu",
+   "tags": [
+    "ingredient_safety",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Za dużo „Olejów z nasion” i „Zapachów” jak na mój gust. wiele osób stwierdziło, że uwielbia ten produkt, jednak jak dla mnie zawiera on zbyt wiele szkodliwych olejów z nasion. Jeśli mówią, że nie powinieneś tego jeść, prawdopodobnie nie powinieneś też wcierać go w skórę. Zawiera także „Zapach”, co jest kolejnym problemem. Niektórzy mogą się tym nie przejmować, ale przy moich przyszłych zakupach staram się wybierać produkty bardziej naturalne i bez olejów z nasion",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nienaturalna wersja wypełniona substancjami zaburzającymi gospodarkę hormonalną. Wydaje się, że ten produkt jest skuteczny, więc zaczęłam go stosować w czasie ciąży, aż dowiedziałam się, że jest pełen substancji zaburzających funkcjonowanie układu hormonalnego. Więc muszę to przerwać. Ponieważ istnieje już wersja całkowicie naturalna, najlepiej byłoby wycofać ze sprzedaży pierwszą wersję",
+   "tags": [
+    "efficacy_marks",
+    "ingredient_safety"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "efekty do zobaczenia, ale już jestem rozczarowany „złym” Yuką. Rozmiar Nazwa: 250 ml (1 opakowanie) Recenzja klienta Amazon Vine na temat bezpłatnego produktu (Co to jest?) Jest to zestaw 2 butelek. Ucieszyłam się... I rozczarowałam się, gdy zobaczyłam, że Yuka sklasyfikowała ten produkt jako ZŁY. Nie spodziewałem się tego. Nawet nie sprawdziłam składu, bo ten produkt jest tak dobrze znany... rozczarowanie! Bi Oil może i jest znany od lat, ale trzeba wierzyć, że nie próbowali i nie obeszli się bez choćby pochodnej ropy naftowej, jaką jest olej parafinowy....😓 Jest to olej adresowany szczególnie do kobiet w ciąży, więc szczerze mówiąc, nie jest rewelacyjny. Wiedziałam, że Bi Oil stosuje się na ciało, a w szczególności do walki z rozstępami. Ale nie wiedziałam, że używa się go na twarz na zmarszczki i cerę. Zobaczę, czy uzyskam rezultaty, czy to na rozstępach, czy na cerze. Już mogę powiedzieć, że: 👉 Butelkę można bez problemu nosić w piórniku, gdyż nie jest nieporęczna. I jest to przyjemny zabieg. L 👉 Zapach jest przyjemny i lekki, nie narzucający się. Chociaż jest olejek lawendowy, lawendy w ogóle nie czuję i to dobrze. 👉Jest to olejek więc w pierwszej chwili masz wrażenie tłustego filmu, szczególnie na dłoniach. Ale to szybko mija i nie jest to złe. Efekty do zobaczenia. Zaleca się stosować 2 razy dziennie przez 3 miesiące. I nie u dzieci poniżej 3 roku życia",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "greasy_absorption",
+    "ingredient_safety"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Należy popracować nad składem.... Rozmiar Nazwa: 200 ml (1 szt. w opakowaniu) Dzielę się z Wami moimi własnymi doświadczeniami: ten olejek pielęgnacyjny jest przyjemny w stosowaniu, olejek dość szybko wnika w skórę, a tłusty film usuwa się szybko. Więc szybko się ubrałam po aplikacji, co oszczędziło czas. Wydaje się, że dotrzymuje obietnic dotyczących niedawnych blizn i rozstępów. Z drugiej strony żałuję mocnego zapachu, który pojawia się po otwarciu butelki i który utrzymuje się przez kilka godzin. Perfumy, które moim zdaniem są zbędne, są zdecydowanie za mocne i mogą nawet przeszkadzać mojej towarzyszce. Szkoda, bo niedawno rodziłam i karmiłam piersią, więc nie odważę się tego stosować, żeby nie sprawiać dziecku kłopotu. Skład nie jest bez zarzutu, jeśli chodzi o substancje alergizujące wymienione przez UFC, co i tak jest irytujące, biorąc pod uwagę cenę sprzedaży produktu. Dodatkowo zawiera synergię olejków eterycznych, co naprawdę kwestionowało mnie w czasie ciąży i zmusiło mnie do zaprzestania jego stosowania.",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "greasy_absorption",
+    "adverse_reaction"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "NIE polecam! Pachnie okropnie!. Przedmiot dotarł w stanie nienaruszonym, mimo że był umieszczony luzem w pudełku z innymi przedmiotami. Na szczęście znajdował się w plastikowej torbie na wypadek wycieku. Olejek wydaje się trochę wodnisty. Nie nawilża tak jak inne olejki, których używałam. Największym problemem tego produktu jest dla mnie zapach. Wiem, że to olej kakaowy, ale zapach przypomina wsadzanie nosa do słoika z kakao! Kocham czekoladę, prawdopodobnie bardziej niż większość, ale ten zapach jest bardzo odstraszający! Używałam wielu produktów z masłem kakaowym, ale nigdy oleju. Nigdy nie czułam kakao w połączeniu z masłami i nie sądziłam, że olej będzie tak inny. Resztę olejku zużyję tylko dlatego, że nie lubię marnować pieniędzy, a ten był drogi jak na taką ilość, ale nikomu go nie polecam!",
+   "tags": [
+    "scent",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Meh, nie kupiłbym ponownie.. Widziałem ten trend na TikToku i postanowiłem go wypróbować. Stosuję go codziennie od kilku miesięcy, ale nie widzę ani jednej zmiany. Jeśli chodzi o jakość i zapach, jest to zwyczajny, przeciętny olejek, w dotyku przypomina każdy zwykły olejek do ciała, może trochę gęstszy, ale ledwo zauważalny. Zapach nie jest zwykłym zapachem palmersów kakaowych, bardziej przypomina… mleczny zapach w połączeniu z lekkim kremowym zapachem, musiałem dodać do niego ekstrakt waniliowy, ponieważ zapach był dla mnie odpychający. Czy kupiłbym ponownie? Absolutnie nie. Mogę sobie wyobrazić, że jeśli szukasz tylko właściwości nawilżających, może to być korzystne dla osób o bardzo suchej skórze, ale jeśli szukasz tylko blizny lub zrównoważenia kolorytu skóry, to nie robi to absolutnie nic",
+   "tags": [
+    "scent",
+    "efficacy_marks"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Zależy od rodzaju skóry. Kupiony od początku ciąży, aplikuję 2 aplikacje rano i wieczorem, a w określone dni nawet więcej. Mimo to moja skóra pęka już od 5 miesiąca. Obecnie, w szóstym miesiącu, rozstępy są już bardzo głębokie i szerokie, niektóre fioletowo-niebieskie, a inne już białe. Myślę, że ten produkt nie jest odpowiedni dla wszystkich kobiet, nie zapobiegł pękaniu mojej skóry. Z drugiej strony zauważam, że rozstępy i blizna po GEU rozjaśniają się, rozstępy szybko stają się mniej ciemne, a blizna mniej bolesna. Myślę, że tłumienie minimum spełnia swoje zadanie. Do zobaczenia do końca ciąży",
+   "tags": [
+    "efficacy_marks"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie przekonało mnie to. Zakupiony ze względu na niedawną bliznę pooperacyjną (marzec 2021). Żadnych zmian w mojej bliznie! Nie nawilża wystarczająco, nie działa. Jestem bardzo zawiedziona, spodziewałam się więcej... Zastąpiłam je masłem Shea i zaczynam widzieć rezultaty, bo blizna jest dużo bardziej nawilżona i łatwiejsza w masowaniu. Bi Oil może działać na rozstępy (nie próbowałem), ale nie na blizny. Nałożę go na rozstępy, żeby się o tym przekonać, nawet jeśli będzie to oznaczać wyrzucenie... Za to zapach nie jest zły, a aplikacja nie jest nieprzyjemna, bo szybko wnika w skórę.",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Dobry produkt, ale bardzo słabe opakowanie!. Szkoda, że ​​nie przejrzałem większości recenzji i nie zamówiłem tego przedmiotu. W wielu recenzjach stwierdzono, że z butelki wyciekał olej. Dałem mu szansę, mając nadzieję, że mój nie dotrze w ten sposób. Powiedzmy, że przybył tak samo, jak wiele innych. Prostym rozwiązaniem byłoby lepsze zabezpieczenie pokrywy za pomocą uszczelki ochronnej. Można go było również umieścić w opakowaniu, aby zapobiec jego rzucaniu. Za sam olejek do ciała 2 gwiazdki. Świetnie nadaje się do nawilżenia skóry. Mamy nadzieję, że znajdą sposób, aby zapobiec takim sytuacjom w przypadku ich produktu",
+   "tags": [
+    "adverse_reaction",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Daję mu dwie gwiazdki, bo nadal nawilża moją skórę i ładnie pachnie. Może kupiłem zły produkt dla Gettin. Na moje rozstępy na ramionach i klatce piersiowej nie zadziałał zbyt dobrze. Zużyłam połowę butelki i nie zauważyłam żadnych efektów. Resztę buteleczki jeszcze zużyję, ale na razie nic. Jeśli się wyjaśnią, na pewno poprawię moją recenzję. Daję mu dwie gwiazdki, bo nadal nawilża moją skórę i ładnie pachnie. Być może kupiłam zły produkt do usuwania rozstępów. Jeśli ktoś może polecić lepszy produkt do tego celu, proszę o komentarz",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Zawiedziony. Kupiłam ten olejek do leczenia rozstępów, co obiecuje. Nie widziałem żadnej różnicy. Nawet niewielkiej poprawy w przypadku pojawiających się rozstępów, które są już dobrze ugruntowane. Czekałem na zakończenie kuracji, aby ocenić produkt, ale szczerze mówiąc, było to bezużyteczne. Na szczęście kupiłem właśnie ten mały. Dobrze nawilża, ale to wszystko. Dość mocne, syntetyczne perfumy, które nie są nieprzyjemne, ale nie są niczym naturalnym. Zbyt tłusty do twarzy. Jeśli chcesz go używać jako kremu nawilżającego, czemu nie, ale na rozstępy jest bezużyteczny",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "zawiedziony. Widziałam, że balsamy Palmers mają świetne recenzje, ale nie na każdego działają. Balsam nie nawilżał tak dobrze, a brzuch nadal swędział. Kupiłam też serum, żeby stworzyć kombinację. Serum miało zmniejszać przebarwienia rozstępów, ale wydawało się, że z jakiegoś powodu je przyciemnia. W sumie nie to, czego się spodziewałem. Przerzuciłam się na Aveeno Moisturizing i WOW, szkoda, że ​​nie zaczęłam go używać od początku. W ciągu tygodnia rozjaśnił ślady na moim brzuchu i nie mam żadnych nowych śladów",
+   "tags": [
+    "efficacy_marks",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie mój ulubiony. Ten produkt został ładnie i starannie zapakowany i dotarł na czas. To niestety nie jest produkt dla mnie. Stosowałam go bezpośrednio pod prysznicem, kiedy moje pory były bardziej podatne na nawilżenie, a moje ciało po prostu go wypijało. Pozostało mi uczucie braku nawilżenia. Może mój organizm jest po prostu przyzwyczajony do ciężkich kremów zawierających masło shea i olej kokosowy? (To jest to, co zazwyczaj kupuję.) Jednak zapach jest absolutnie boski i szybko się wchłania (ale to ostatnie może wynikać z chemii mojej skóry).",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Bardzo rozczarowany tym produktem. Bardzo rozczarowana kupiłam olejek ze słodkich migdałów Biolane do usunięcia skórek na głowie mojego 2-miesięcznego dziecka użyty 2 razy na głowie zauważyłam wypryski na głowie i twarzy po tygodniu miał białe plamy na twarzy w wyniku czego wystąpiła reakcja alergiczna 2 gwiazdki 🌟 🌟 Nie mogę polecić tego produktu należy zachować ostrożność przed zamówieniem biolane olejek ze słodkich migdałów zawiera perfumy nie jest odpowiedni dla wszystkich dzieci powiedz mi, czy ten komentarz był dla Ciebie przydatny",
+   "tags": [
+    "scent",
+    "adverse_reaction",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Bardzo rozczarowany (bardzo lepki i tłusty). Od lat chciałam przetestować ten olejek, który pomoże zredukować rozstępy (m.in.). Jeśli chodzi o skuteczność, nie mogę się wypowiedzieć, ponieważ nie stosuję go od dłuższego czasu. Z drugiej strony, jeśli chodzi o sensoryczną stronę produktu, jest to dla mnie porażka. Olejek jest bardzo tłusty i w ogóle nie wnika. Piżamę (i prześcieradło...) trzeba poplamić, bo trzeba odczekać 1 godzinę, aż wyschnie i przeniknie. Nie kupię tego produktu ponownie",
+   "tags": [
+    "efficacy_marks",
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Jest to głównie olej rzepakowy!. Kupiłam go na zimę z myślą o suchej skórze dłoni i stóp. Polecono go w artykule dotyczącym pielęgnacji goleni u diabetyków. To prawdziwy OLEJ (rzepakowy) i równie rzadki. Nie wchłania się dobrze. Po kilkuminutowym pocieraniu muszę umyć ręce (które właśnie próbowałam naoliwić), aby niczego nie dotknąć i nie pozostawić tłustej smugi. Nie łagodzi suchej, pękającej skóry na grzbietach dłoni i zaczynają pojawiać się małe, zimowe łzy. Balsamy do rąk w średniej cenie działają lepiej!",
+   "tags": [
+    "efficacy_marks",
+    "ingredient_safety"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Zawiera olejki eteryczne, produkt niebezpieczny. Kupiłam ten produkt, żeby przygotować brzuch na ciążę (jestem w 6 tygodniu). Dobrze zrobiłam, że przed użyciem zapoznałam się ze składem produktu (bo nie jest to zbyt jednoznaczne w opisie), który zawiera kilka olejków eterycznych! Szukam produktu do stosowania od 1 miesiąca, a więc bez olejków eterycznych i bez chemii. Ten produkt wyraźnie nie odpowiada moim badaniom, myślę o jego oddaniu lub odsprzedaży",
+   "tags": [
+    "ingredient_safety",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nic nadzwyczajnego. Zawiedziony…. Olejek zaczęłam stosować na początku ciąży. Nie widziałam różnicy, ale przede wszystkim nie widziałam korzyści. Olejek ten jest trudny w aplikacji, nie ma zbyt przyjemnego zapachu i trzeba zużyć fenomenalną ilość, aby odpowiednio nawilżyć (zaznaczmy, że zaleca się stosować go dwa razy dziennie...). Krótko mówiąc, olejek ten jest zdecydowanie za drogi w stosunku do tego, czym jest naprawdę... Jestem zawiedziony...",
+   "tags": [
+    "scent",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Zapach. Można by pomyśleć, że wiem lepiej. 😏 Zakładałam, że jest bezzapachowy, bo w recenzjach nikt nie stwierdził, że pachnie i nie było wzmianki o naturalnych olejkach. Bardzo chciałabym, żeby produkty miały na przodzie napis „Zapach”. Obecnie mam zatkany nos i nadal czuję ten zapach. Pachnie jak perfumowany proszek. Puder staruszki, jak z lat 60-tych. Nie mogłem się doczekać, żeby to dostać. Mam nadzieję, że jedyne miejsce, w którym będę mógł tego użyć, to stopy) i umyj ręce po wszystkim, gdziekolwiek indziej będzie swędzić. :(",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Bardzo rozczarowany. Kupiłam ten produkt, aby zapobiec rozstępom ciążowym. Zaczęłam go stosować od 2. do 4. miesiąca i zupełnie nie sprawdzał się w walce z rozstępami. Aby przeciwdziałać rozstępom, które miałam w tamtym czasie, kupiłam krem ​​Mustela, który naprawdę pomógł. Powinienem był to zrobić od początku, nawet gdyby oznaczało to wydanie większej ilości pieniędzy. Szkoda. Absolutnie nie polecam tego olejku.",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Swędzi mnie skóra i czuję kłucie. Zapach kakao był dla mnie trochę mocny, ale po pewnym czasie się do niego przyzwyczaiłem. Zamiast nawilżać skórę, swędzi ją bardziej niż zwykle i czuje kłucie. Odcień mojej skóry również się zmienił i stawał się ciemniejszy w miarę nakładania większej ilości podkładu. Zastanawiałam się, czy to tylko moje swędzenie i kłucie skóry spowodowane rosnącym brzuchem, ale po zmianie produktu nie miałam takich odczuć. To ostatecznie mi nie odpowiada",
+   "tags": [
+    "scent",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Wprowadzenie w błąd… to NIE jest spray. W rzeczywistości jest to pompka, a nie spray. Uwielbiam kokosowy balsam do ciała Palmers, ale ponieważ jestem niepełnosprawna, naprawdę mam trudności z jego stosowaniem. Miałam nadzieję, że będzie to idealne rozwiązanie, jednak zamiast tego zostałam z butelką tłustego olejku, który nadal trzeba nakładać w taki sam sposób jak balsam. Poza tym nie pachnie tak dobrze jak balsam i nie nawilża tak dobrze. Kompletna strata pieniędzy",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Kokosowy olejek do ciała Palmer’s. Bardzo pokochałam ten produkt już od pierwszego użycia. Jest lekki na skórze, zapewnia doskonałe nawilżenie i nie pozostawia lepkiej pozostałości – co naprawdę doceniam. Jednak po pewnym czasie używania zacząłem odczuwać małe przypadkowe wysypki i pewne podrażnienia. Niestety to spowodowało, że przestałam go używać. Może na innych się sprawdzi, ale na dłuższą metę nie pasował do mojej skóry",
+   "tags": [
+    "greasy_absorption",
+    "adverse_reaction"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Czy to prawda? Przed zakupem tego olejku widziałem wiele pozytywnych recenzji (oprócz Amazona). Jednak już po 2-3 użyciach stwierdzam, że dziecko ma plamy na brzuchu. Kupiłam też, żeby zmiękczyć włosy i widzę, że przywraca ciemieniuchę. Czy ludzie, którzy kupili go już poza Amazonem, mają wrażenie, że to oryginał? A może to podróbka?",
+   "tags": [
+    "adverse_reaction",
+    "sensitive_baby",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Swędzący. U mnie ten olejek się nie sprawdził. Kupiłam go zarówno, żeby zapobiegać rozstępom po ciąży, jak i żeby spróbować zatrzeć stare blizny (powiedziano mi, że to cudowny produkt), ale nie mogłam tego znieść. Dużo plam na brzuchu i swędzenie, a aplikacja nie jest świetna. Zamiast olejku wróciłam do kremu na rozstępy",
+   "tags": [
+    "efficacy_marks",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Mieszany. Obecnie stosuję go w czasie ciąży. Niestety pojawiły się rozstępy... i to nie tylko trochę. Może byłoby ich więcej gdybym nie użyła, nie wiem... Zmieniłam więc produkt. Natomiast mam zamiar użyć go ponownie po ciąży i zobaczyć, czy rozstępy znikną tak jak w opisie. Jeśli rzeczywiście tak jest, dodam gwiazdkę",
+   "tags": []
+  },
+  {
+   "r": 3,
+   "t": "Olej palmowy. Podoba mi się plastikowe opakowanie, na szczęście nie jest to szkło, inaczej już by pękło, system pompki jest bardzo odczuwalny, pompka jest dla mnie idealna, olejek dobrze odżywia skórę, ale jest zbyt bogaty do twarzy, myślę, że tego produktu nie należy określać jako „odpowiedni do twarzy”, uważam, że na twarzy jest komedogenny. W każdym razie stosuję go na rozstępy, uważam, że odżywia skórę, czyni ją niezwykle miękką, a ponadto myślę, że ujednolica, ponieważ zauważyłem różnicę w ostatnich i rzadkich obszarach mojej skóry, które można określić jako prawidłowe (tak, mam naprawdę okropną i problematyczną skórę) Jeśli chodzi o nowe rozstępy, nie widzę żadnej różnicy, jednak uważam, że w przypadku starych, a więc białych rozstępów nie powoduje ich zniknięcia, ale widzę niewielką poprawę wizualnie, nadal są, ale wydają się nieco mniej widoczne i mniej bardziej efektowny niż wcześniej, jestem dość zaskoczony, że nie robi absolutnie nic z moimi nowymi rozstępami. Nie widziałem żadnego rezultatu w tym zakresie, dlatego dałbym tylko 3 gwiazdki, mimo to będę go nadal używać, aby zobaczyć w bardzo dłuższej perspektywie, ponieważ chociaż nie widziałem żadnej różnicy w nowych rozstępach, sprawia, że moja skóra jest bardzo miękka i trochę świetlista. Wciąż mam nadzieję, że zadziała na nowe rozstępy, ale mam wątpliwości... Wydaje mi się, że butelka schodzi w zawrotnym tempie, a w sklepie, w którym ją kupiłam, kosztuje 10,99, powiedzmy, że biorąc pod uwagę prędkość lub spada przy codziennym stosowaniu (aplikuję go religijnie co wieczór na rozstępy (dolna część pleców, uda, pośladki, biodra, za kolanami, piersi, a ja nakładam go na pół nogi dla wysuszenia) nadal pozostaje tłusty film mimo, że jest to suchy olejek, więc noszę spodnie od piżamy, inaczej w nocy jest to nie do zniesienia). Proszę bardzo, trochę to dziwne, że w 2017 roku nie mamy produktów, które NAPRAWDĘ walczą z rozstępami (a próbowałam ich mnóstwo, ale bez skutku..)",
+   "tags": [
+    "efficacy_marks",
+    "greasy_absorption",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Zwróć uwagę na skład. Rozmiar Nazwa: 125 ml Kupiłem ten olejek z dwóch powodów: 1. Zapobiegawczo: Zacząłem przybierać na masie (mięśniach) i zauważyłem początki smug pomiędzy ramionami i klatką piersiową. Dlatego szukam olejku, który pozwoli mi kontynuować przyrost masy ciała bez powstawania rozstępów w tej okolicy. 2. Leczenie: Od kilku lat mam rozstępy nieco poniżej bioder (okres dojrzewania). Biorąc pod uwagę pozytywne komentarze, które przeczytałam, olejek miałby również zmniejszyć widoczność utrwalonych rozstępów. Jestem dopiero na początku „kuracji” (tydzień), którą staram się aplikować 1-2 razy dziennie na wyżej wymienione miejsca. Wrócę, aby skorygować moją ocenę, gdy będę mieć więcej informacji na temat produktu. Kilka punktów, na które należy zachować czujność: skład! Podekscytowany oceną produktu i komentarzami Amazona, nie poświęciłem czasu na przyjrzenie się składowi. Po sprawdzeniu na Yuca i INCI Beauty, w obu aplikacjach został oceniony jako „słaby” i okazuje się, że zawiera kilka kontrowersyjnych produktów, co nie jest dobre w przypadku produktu używanego szczególnie przez kobiety w ciąży. Mam zamiar jeszcze dokończyć butelkę, ale myślę, że przy następnym zakupie olejku na rozstępy wybiorę alternatywę oferowaną przez te aplikacje. Do tego zapach potrafi być naprawdę nieprzyjemny (moim zdaniem mi to nie przeszkadza). Radzę kupić mniejszy rozmiar i zobaczyć czy zniesiesz zapach, a jeśli tak i olejek Ci odpowiada to kup rozmiar większy. Doceniłam konsystencję olejku, który jest suchy i łatwy w aplikacji oraz zakrętkę pozwalającą na precyzyjne dozowanie i zapobiegającą wyciekaniu nawet w przypadku przewrócenia butelki. Gwiazdkę dodam na koniec, jeśli wykończę butelkę, jeśli produkt okaże się skuteczny",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "ingredient_safety",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Spójrz na składniki!. Używam tego olejku od dłuższego czasu i bardzo go lubię. Używam go do wszystkiego, od kremu nawilżającego, lubrykującego, po leczenie blizn. Jednakże! Zawsze miałam wrażenie, że to faktycznie olej kakaowy. Niedawno spojrzałam na skład i zobaczyłam, że głównym składnikiem jest olej rzepakowy! Trudno powiedzieć, ile tak naprawdę jest w nim oleju masła kakaowego, ale jest to jeden z mniej istotnych składników. Zmartwiło mnie to, ponieważ mam do czynienia z wysokim poziomem trójglicerydów (tłuszczów) we krwi, co bezpośrednio wpływa na zdrowie serca. Brałem leki, aby zmniejszyć wysoką zawartość tłuszczu, ale nie widziałem znacznej poprawy. Nie jestem pewien, jak bardzo to na mnie wpłynęło, ale wiem, że wstrzyknięcie oleju rzepakowego dwa razy dziennie lub częściej do mojego organizmu nie pomogło. To tylko ostrzeżenie dla osób, na które może mieć wpływ dodatkowa ilość oleju rzepakowego w ich diecie. Oleju rzepakowego trudno obecnie uniknąć, ponieważ używa się go do wszystkiego, ale nie chcę go niepotrzebnie dodawać do swojej diety, ponieważ jest to jeden z najgorszych tłuszczów, jakie można wprowadzić do organizmu. Twoja skóra go wchłonie i będzie na ciebie oddziaływać w taki sam sposób, jakbyś go jadł. Po prostu materiał do przemyśleń",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "ingredient_safety"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Wysusza twarz. Nie ma też widocznych zmian w rozstępach. TD;LR ten olejek strasznie wysusza moją twarz przy codziennym stosowaniu. Stosuję po wyjściu z prysznica na rozstępy, ale bez widocznych zmian. Długa historia: Kupiłam ten olejek, bo opinie mówiły, że jest lekki, a mój Facebook to cera mieszana, więc nie mogę używać ciężkich olejków, bo twarz się wypryskuje, ale potrzebuję nawilżenia, a moja twarz nie lubi balsamów, bo po wyschnięciu pękają. Chociaż ten olejek, choć ładnie pachnie i działa kojąco, to po kilku dniach zaczęły mnie boleć. Moja twarz była wysuszona, a olej zaczął szczypać. Kiepsko. Teraz używam go tylko po wyjściu z prysznica w nadziei, że złagodzi moje rozstępy. Chociaż mam je od około 8 lat, więc wątpię, czy to coś da. Ale jeszcze nie ma szczęścia",
+   "tags": [
+    "scent",
+    "efficacy_marks"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie tyle kokosa, ile migdałów. Nie spodziewałam się księżyca po tym olejku, bo przed zakupem przeczytałam skład, ale spodziewałam się, że będzie przynajmniej pachniał kokosem. *Głównym składnikiem nie jest olej kokosowy.* Pachnie połączeniem słodkich migdałów i kokosa, z większym naciskiem na migdał. Pompa jest trochę brudna. Zbyt wiele wyjdzie na jaw, jeśli nie będziesz naprawdę, naprawdę ostrożny. Nie wiem dlaczego nie wlali tego do butelki ze sprayem. Być może użyte oleje są po prostu zbyt ciężkie. Dobrze nawilża skórę i dobrze się wchłania, nie pozostawiając tłustego uczucia, jeśli nakłada się go ostrożnie. Nie próbowałam jeszcze drugiego olejku do ciała Palmer. Wolałbym lepszy olejek do ciała w sprayu OGX niż ten, ze względu na łatwiejszą aplikację i zapach. Bliżej mu do kokosa, jest lżejszy i łatwiejszy w aplikacji",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Skład do poprawy. Rozmiar Nazwa: 250 ml (1 opakowanie) Recenzja bezpłatnego produktu Amazon Vine (Co to jest?) Bi-Oil oferuje nam tutaj zestaw 2 butelek po 125 ml olejku do pielęgnacji skóry. Ma to być specjalistyczny zabieg na rozstępy, blizny, suchość skóry i nierówny koloryt skóry. Zapach jest bardzo przyjemny. Według producenta ekskluzywna formuła oparta na pochodnych witamin i naturalnych ekstraktach rozproszonych w olejowej bazie pomaga także poprawić wygląd nierównej cery i utrzymać nawilżenie skóry. Nasz olejek zawiera opatentowany składnik, który zmienia ogólną konsystencję formuły, czyniąc ją bardziej płynną, nietłustą i zapewniającą dobrą wchłanialność. Z drugiej strony skład kiepski, a szkoda!",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "hydration",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "…. W tej chwili nie ma poprawy. Nakładam go tylko raz wieczorem, bo rano nie mam czasu, ale masuję długo, żeby produkt dobrze się wchłonął. Używam go nieco ponad miesiąc. W międzyczasie zauważyłam nowe rozstępy… zbieg okoliczności? Nie wiem. Kończę butelkę i wtedy zobaczę, czy warto kontynuować, czy nie. W tej chwili nie mam już węchu, więc nie jestem w stanie stwierdzić, czy produkt cokolwiek pachnie. Z drugiej strony jest bardzo przyjemny w stosowaniu i pozostawia skórę bardzo miękką. Stosowałem go nawet po goleniu nóg i skutecznie zapobiegał podrażnieniom po goleniu. Nie jest to jego główne zastosowanie, ale warto wiedzieć",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Bardzo sztuczny zapach. Od jakiegoś czasu używam oleju kokosowego jako kremu nawilżającego i jestem z niego zadowolona. Wypróbowałam ten olejek, bo słyszałam, że korzystne może być stosowanie obu jednocześnie. Okazuje się, że używanie obu jest przesadą! Nie jestem pewna, jak olej kakaowy pachnie naturalnie, ale ten zawiera dodatek zapachowy na liście składników i dla mnie pachniał bardzo sztucznie. Zdecydowanie wolałem mój bezzapachowy olej kokosowy, więc przestałem go używać. Jeśli chodzi o zdolność nawilżania, nigdy nie stosowałem go samodzielnie, ale nie odczułem dodatkowych korzyści, stosując go w połączeniu z olejem kokosowym. Olej kokosowy rzeczywiście powoduje u niektórych osób wypryski – to jedyny przypadek, w którym mogę go polecić zamiast kokosa",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Miał kilka wad.... Kupiłam go wiele lat temu i nie przepadał za jego zapachem, ale był w buteleczce ze sprayem i spokojnie mogłam go używać na plecach, tam gdzie jest trudno dostępny. Tym razem nie dostałem butelki ze sprayem. Wychodzi tak, jak teraz – naciskasz górną część i wypływa z niej kropla wielkości może jednej czwartej. Nie podoba mi się to i będę musiał teraz umieścić go w butelce ze sprayem. Poza tym nigdy nie podobał mi się jego zapach, więc mogę go zmieszać z odrobiną oleju kokosowego. Wcale nie pomógł na blizny, ale nawilżał. Wchłonięcie zajmuje trochę czasu i na początku wydaje się nieco tłuste. Muszę tylko znaleźć taki, który będzie dla mnie bardziej odpowiedni. Każdy jest inny. Mam nadzieję, że ta recenzja komuś pomoże",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Skuteczny, ale bardzo mocny zapach. Obietnice walki z rozstępami trzeba zweryfikować (badania wykazują, że rozstępy to predyspozycja genetyczna), ale w nawilżaniu skóry brzucha i łagodzeniu nieprzyjemnego napięcia jest to bardzo skuteczne. Nie jest to olejek \"suchy\", nie wnika od razu i pozostawia tłusty film, ale nie przeszkadzał mi, dobrze się rozmasował i nie miałam żadnych plam na ubraniach. Zapach jest naprawdę specyficzny i bardzo mocny, można się do niego przyzwyczaić, ale jeśli masz wrażliwy nos, unikaj go. Po skończeniu poleciłam go, ale w wersji bezzapachowej, która bardziej mi odpowiada",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "greasy_absorption",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie dobrze- Nieźle. 6,5/10. Ten olejek nie jest moim ulubieńcem. Uważam, że jest trochę płynny w porównaniu do innych. Ten olej z pewnością pomaga na rozstępy, ale niekoniecznie. Jest bardziej przyjazny dla budżetu w porównaniu do innych. W porządku! Po prostu Moim osobistym zdaniem, po wypróbowaniu wielu olejków na rozstępy, najlepszą kombinacją na utrzymanie mojej skóry nawilżonej jest olej migdałowy + olej jojoba + witamina E + olej z dzikiej róży. Wymieszałam więc wszystkie te olejki, włożyłam do butelki ze sprayem i nałożyłam na skórę. Oczywiście nie usunęło to całkowicie moich rozstępów, ale zdecydowanie pomogło je wyblaknąć, więc ta wskazówka może pomóc także Tobie. Zajęło to trochę czasu, ale najważniejsza jest konsekwencja! Mam nadzieję, że to pomoże!",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Niechlujny!. Ten olej ma tendencję do przedostawania się wszędzie..! Nawet przy końcówce dozownika olej rozpryskuje się. Należy zachować szczególną ostrożność, aby nie zabrudzić nim ubrań, mebli itp. Jeśli chodzi o skuteczność, kupiłem go wyłącznie po to, aby wcierać wypukłe blizny, które zgromadziłem przez lata. Nie wiem, czy to za bardzo pomaga, ale na pewno nawilża. Nawet kilka godzin po wmasowaniu w skórę, skóra pozostaje miękka i elastyczna. Butelkę mam w pracy i używam jej od czasu do czasu, żeby dłonie były miękkie, gdy noszę lateksowe rękawiczki przez cały dzień. Wolę obrotowy sztyft Palmera do masła kakaowego na moje blizny niż ten produkt",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "hydration",
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Swędziało mnie jak cholera. OK, więc kupiłem to, ponieważ mam wyjątkowo suchą skórę na nogach, wziąłem prysznic, złuszczałem i spryskałem to całe ciało, zapach był bardziej chemiczny, nieprzyjemny zapach sztucznej opalenizny kokosa, który był odpychający, po kilku minutach moja skóra zaczęła bardzo mocno swędzić i różowić jak reakcja alergiczna, to było tak szybko, jak mogłem chwycić ręcznik i spróbować go zdjąć, nie jestem podatny na reakcje alergiczne, więc byłem dość zaskoczony, że zareagowałem na to Nie skorzystam ponownie i nie mogę tego polecić. To była okropna rzecz. Odtąd będę trzymać się mydła i chwały",
+   "tags": [
+    "scent",
+    "adverse_reaction"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Bardzo chłonny suchy olejek! Kupiłam ten produkt kierując się próbką, którą otrzymałam w czasie ciąży. Jest to suchy olejek, który szybko wchłania się w skórę. Dzięki temu nie pozostawia śladów na ubraniach. Smak mi nie przeszkadzał, wręcz przeciwnie, jestem fanką czekolady! Z drugiej strony nie zauważyłam żadnego pozytywnego wpływu na rozstępy. Dziś przerzuciłam się na krem ​​nawilżający po ciąży. Aby zobaczyć efekty z biegiem czasu... Miałem mały problem z dostawą mojego ostatniego zamówienia, ale sprzedawca był bardzo elastyczny i szybko mi zwrócił pieniądze",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Pachnie mocno jak tania czekolada. Stosuję go codziennie po prysznicu na brzuchu, aby uniknąć rozstępów ciążowych. Mam już pewne znamiona z poprzedniej ciąży i nie zauważyłam, żeby więcej się pojawiały lub te, które już się pogłębiły. Moje rozstępy nie swędzą tak jak te nienawilżone, więc przynajmniej na to działa. Jedyne do czego mogę się przyczepić to to, że pachnie tanią mleczną czekoladą. Bardzo nie podoba mi się ten zapach, więc używam go tylko wieczorem, tuż przed pójściem spać, żeby nie spędzić całego dnia pachnąc czekoladą ze sklepu za dolara",
+   "tags": [
+    "scent",
+    "pregnancy",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Na bazie oleju rzepakowego. Na bazie oleju rzepakowego. Szukałem przed zakupem, żeby zobaczyć skład, ale nie mogłem znaleźć. Przybył dzisiaj. Jest na bazie oleju rzepakowego. Którego prawdopodobnie bym nie kupił, gdybym mógł zobaczyć listę składników. Ale… ma przyjemny, lekki, niemal pudrowy zapach z lekką nutą czekolady. .wydaje się przyjemny, nie tłusty. Zatrzymam go, ale raczej nie kupię go ponownie ze względu na tani olej rzepakowy. Powinni byli dodać coś o wiele lepszego, jojobę lub awokado, a nawet olej kokosowy",
+   "tags": [
+    "scent",
+    "ingredient_safety"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Zbyt nieprzyjemny zapach, szkoda. Kupiony na czas ciąży, niestety nie używam go regularnie z następującego powodu: zupełnie nie podoba mi się ten zapach! I pachnie zbyt mocno, żeby mój gust był w stanie to ukryć. Poza tym konsystencja olejku jest przyjemna, łatwa w aplikacji, nie brudzi ubrań. Jedynym minusem jest tak naprawdę zapach, może wydawać się to drugorzędne, ale dla mnie jest to bardzo ważny aspekt, ponieważ uniemożliwia mi jego użycie. Nie kupię żadnego ponownie",
+   "tags": [
+    "scent",
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie marnuj swoich pieniędzy!!!. Jestem młodą mamą, która dostrzegła nadzieję w tym olejku do ciała ze względu na dobre recenzje, że ma on tendencję do zmniejszania lub ukrywania rozstępów powstałych w czasie ciąży. To było totalne rozczarowanie, stosowałam go religijnie dwa razy dziennie na brzuch i biodra przez 5 miesięcy, a moja skóra nie zmieniła się wcale. moje smugi są nadal takie same. Jedynym plusem jest zapach kakao. (zdjęcie wcześniej w liliowych spodenkach, zdjęcie później ze stringami)",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Pachnie jak ciasto. Kupiłem to, aby zrobić wirusowy trend w basenie Nina, ponieważ Kanada nie sprzedaje olejku dr turkusowego. Nie rób tego z tym. Pachnie jak ciasto do zabawy. Zmarnowane perfumy, których być może nie uda mi się zdobyć ponownie, żeby ten zapach był inny, a nadal pachnie ciastem do zabawy. Ble. Szkoda, że ​​dodałem coś do butelki, bo zwróciłbym ją po powąchaniu, kiedy dostałem ją po raz pierwszy. 3 gwiazdki za szybką wysyłkę i faktycznie daje uczucie odżywienia. Tylko ten zapach",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Jest w porządku. Kupiłam go za każdym razem, gdy byłam w ciąży, mając nadzieję, że zapobiegnie rozstępom. Nie do końca się sprawdził, mimo że stosowałam go codziennie. Nie podoba mi się, że to dociera absolutnie wszędzie. Miałem olej na całym ubraniu, pościeli, meblach, klamkach i dosłownie wszystkim innym. Sprawił, że moja skóra była super miękka i nawilżona. Bądź ostrożny podczas pompowania, ponieważ wystrzeliwuje bardzo daleko. Jak na tę cenę, dostarczana jest spora ilość produktu",
+   "tags": []
+  },
+  {
+   "r": 3,
+   "t": "Po prostu OK. Używałam wcześniej balsamu z masłem kakaowym Palmers, który jest doskonałym środkiem nawilżającym, ale jestem zawiedziona, że ​​nie ma żadnego wpływu na moją skórę. Zapach nie jest przytłaczająco czekoladowy; pozostawia na skórze delikatny zapach kakao. Wchłania się dość dobrze i jest OK jak na olejek do masażu, ale nie kupię go ponownie. Bio Oil jest o wiele skuteczniejszy i pięknie pachnie, więc marki nie będę zmieniać",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Skład do sprawdzenia. Rozmiar Nazwa: 250 ml (1 opakowanie) Recenzja bezpłatnego produktu Amazon Vine (Co to jest?) Praktyczna butelka, przyjemny zapach, płynna konsystencja i przyjemna w aplikacji. Nie wiem jeszcze, czy działa na rozstępy, ale w każdym razie dobrze nawilża skórę. Z drugiej strony skład jest kiepski i nie uspokaja, szczególnie w ciąży, więc przestanę go używać...",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Olej Palmersa. Olejek mi się podoba, nie podoba mi się wersja z pompką, wolę mieć spray, który moim zdaniem lepiej radzi sobie z każdym rodzajem oleju. Wtapia się w skórę i sprawia, że ​​moja starsza i naznaczona skóra wygląda gładko, ale nie pomógł w rozjaśnieniu żadnych plam i blizn, a używam go codziennie. Zapach róży nie należy do moich ulubionych aromatów, więc to jedna rzecz, która nie podoba mi się w tym olejku",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie dla noworodków! Nie miałam jeszcze okazji go przetestować, ponieważ na oddziale położniczym odradza się stosowanie olejku ze słodkich migdałów u niemowląt ze względu na duże ryzyko wystąpienia alergenów.... Jest to nawet odnotowane w książeczce zdrowia! Więc nie polecam brać go dla noworodków, może później.... Odłożyłem to na bok, szkoda, że ​​kupiłem 2 jak sama nazwa wskazuje olejek dla dzieci",
+   "tags": [
+    "ingredient_safety",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nieźle. Używałam tego olejku przez większą część ciąży, ma przyjemną konsystencję, dobrze nawilża, nie miałam dzięki niemu uczucia ściągnięcia, zwłaszcza w okresie, kiedy skóra się drożeje! Jednak zapach okazał się dla mnie naprawdę obrzydliwy, ponieważ jest szczególny, ale może nie jestem przykładem, ponieważ wszystko mnie zniesmaczyło, gdy tylko zapach był trochę mocny",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Rozstępy wyglądają znacznie lepiej po 6 tygodniach. Kupiłam go po przeczytaniu recenzji, że łagodzi rozstępy. Nie wierzyłam, że to zadziała, bo gdyby istniał cudowny lek na rozstępy, wszyscy by go kupowali. Minął już ponad miesiąc i muszę przyznać, że rozstępy na wewnętrznej stronie ud znacznie zniknęły. Wyjaśnijmy, że nadal tam są, ale nie są tak zauważalne. Czasami patrzę na swoje uda i naprawdę jestem zszokowana. Tylko za to daję 4 gwiazdki. Wszędzie indziej nie widzę dużej różnicy (biodra, kolana, dolna część pleców), ale będę próbować dalej. Skoro olejek tak dobrze radzi sobie z moimi rozstępami, to przypuszczam, że świetnie poradziłby sobie z bliznami (których nie mam). Inne zalety, których doświadczyłem, to: - Zmiękcza skórę. Jest trochę bałaganu, ale warto. Pozostawia całe ciało świeże i nawilżone. Latem z opalenizną Twoje nogi będą wyglądać niewiarygodnie, bez nadmiernego błyszczenia. --Zwalcza zmarszczki. Nałożyłam go na dłonie i wyglądają znacznie lepiej. Na noc nakładam olejek także pod oczy i na czoło, aby zwalczyć zmarszczki. I nie, nie miałem żadnego trądziku. Świetnie sprawdza się także na stopy. Moje stopy są nawilżone przez całą zimę. -Ma lekki, czekoladowy zapach. Jest naprawdę przyjemny, w przeciwieństwie do balsamu, którego nie lubię. Inne osoby napisały, że pomaga w przypadku przebarwień i blizn. Słuchaj, skoro ma tyle pozytywnych recenzji i kosztuje tylko 14 dolarów, to warto spróbować",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Nie mogłam się doczekać, aż nałożę go na moją suchą skórę..🌸. Otrzymałem go bardzo szybko i był bardzo dobrze zapakowany, co było bardzo miłe. Byłem bardzo podekscytowany. Moja skóra ostatnio była bardzo sucha, a wraz z nadejściem lata wiedziałam, że potrzebuję jakiegoś rodzaju kremu nawilżającego. Ale... Gdy tylko otrzymałem go pocztą, nałożyłem go na uda, kolana, stopy, ramiona, brzuch i ramiona. i po około 10 minutach dostałem ogromnej wysypki z dużymi szczeniętami na całym ciele i swędzenie było najgorsze. Nie wiem, który składnik w nim wywołał u mnie wybuch. Ale najwyraźniej mam na to alergię. Odbarwił też moją skórę. Nie sądzę, że spróbuję ponownie. Zacząłem swędzieć po całym ciele, co trwało około sześciu godzin. Wziąłem trochę Benadrylu i zaczęło pomagać. Na pewno było mi smutno. Z pewnością na początku czułem się dobrze, kiedy go założyłem. Poszło gładko, a zapach był piękny i delikatny, niezbyt przytłaczający. Mam nadzieję, że to zadziała dla innych, ponieważ naprawdę chciałem, żeby to zadziałało dla mnie. Udostępniłem dwa zdjęcia. Widać wysypkę. Powoli zanika, co widać na zdjęciach dwa dni później. Nie pozwól, aby to powstrzymało Cię od zakupu. W recenzjach widziałem wiele osób, które miały z tym szczęście. Dlatego go kupiłem. Naprawdę chciałem, żeby to na mnie zadziałało. Jestem bardzo rozczarowany, ale musiałem podzielić się swoim doświadczeniem.🌸💖🌸",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "adverse_reaction",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Musisz użyć dużo!. Stosowałam go na rozstępy związane z ciążą. Rozstępy są uwarunkowane genetycznie i mam na nie skłonność. Początkowo stosowałam krem ​​nawilżający Palmer's przez pierwsze 5 miesięcy ciąży i działał dobrze, ale gdy zaczęłam tworzyć rozstępy, nie był on zadowalający. Zmieniłem na ten olej i myślę, że jest duża różnica. W ciągu kilku godzin od nałożenia tego nowo powstałe ślady są mniej czerwone, a to pomaga złagodzić wszelkie odczuwane swędzenie. Używałem go religijnie dwa razy dziennie. Jest trochę brudny i przecieka przez ubrania i pościel. Zapach nie jest zbyt mocny, ale może zdenerwować osoby cierpiące na poranne mdłości. Zużywam dużo, około 1 butelki miesięcznie. Mam nadzieję, że pomoże po porodzie odzyskać elastyczność skóry i jeszcze bardziej zmniejszyć rozstępy",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "hydration",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry, delikatny i przyjemny olejek. Dobry spray z olejkiem ze słodkich migdałów od Biolane. Forma sprayu jest naprawdę praktyczna w codziennym stosowaniu, zwłaszcza dla niemowlaka. Dobrze nawilża skórę zarówno osoby dorosłej, dziecka, jak i niemowlęcia. Konsystencja jest przyjemna, lekka i dość szybko się wchłania, nie pozostawiając zbyt dużej ilości tłustego filmu. Olejek odpowiednio odżywia skórę i pozostawia ją miękką, co jest cenione. Mały minus: wolałbym, żeby miał nieco bardziej migdałowy zapach. Pozostaje dość neutralny, co może być odpowiednie, ale bardziej obecny zapach byłby plusem. Ogólnie rzecz biorąc, jest to dobry produkt, skuteczny i praktyczny, nawet jeśli można go nieco poprawić w aspekcie sensorycznym",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "greasy_absorption",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Szczera opinia, dla mnie jest po prostu w porządku!. Kilka rzeczy na temat tego olejku, to moja druga butelka, zapach jest niesamowity i przyjemny, nie nachalny ani nie przytłaczający! Zapewnia ładny i błyszczący wygląd, ale nie nawilża długo, rozpuszcza się w skórze w ciągu kilku minut, niezależnie od tego, ile nałożysz! Ja też nie mam przesuszonej skóry, to po prostu produkt! Wypróbowałam Bio olejek, który wydaje się pozostawiać nawilżenie na dłużej! To moja czwarta ciąża, miałam tylko kilka, ledwo zauważalnych rozstępów z poprzedniej… tylko dlatego, że w przeszłości nie stosowałam żadnych kremów nawilżających! Nie jestem pewien, czy to działa, czy nie, mogę tylko powiedzieć, że nie zapewnia nawilżenia przez długi czas! Polecam używać z masłem do brzucha!",
+   "tags": [
+    "scent",
+    "pregnancy",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Ogólnie dobry produkt. Chociaż jest przyjemny w użyciu i ładnie pachnie, nie wiem, jak będzie skuteczny na moje rozstępy. Stosuję ten olejek od kilku tygodni i nie zauważyłam znaczących zmian w wyglądzie rozstępów. To powiedziawszy, wiem, że skuteczność produktów na rozstępy może różnić się w zależności od osoby, więc może działać na niektórych, ale może być pomocna również z innych powodów, takich jak blizny, suchość skóry itp. Ogólnie rzecz biorąc, jeśli szukasz olejku do ciała, który nawilży i odżywi skórę, ten olejek może być bardzo dobrym rozwiązaniem",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "hydration"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Olejek ze słodkich migdałów. Dostawa na czas, a przedmioty zgodne ze zdjęciem i opisem. Olejek jest bardzo dobrej jakości, nie jest zbyt tłusty, dobrze wnika w skórę i doskonale odżywia skórę w każdym wieku!!! Wadą jest to, że ma naprawdę małą pojemność nawet dla dziecka, przez co jest mało opłacalny biorąc pod uwagę cenę. Równie dobrze możesz go kupić w dużych ilościach (nie ma znaczenia marka, byle był organiczny, olej ze słodkich migdałów to olej ze słodkich migdałów), wystarczy na miesiące, posłuży całej rodzinie i będzie znacznie bardziej opłacalny cenowo. Prawdą jest, że ten format jest nadal praktyczny, jeśli chodzi o transport!",
+   "tags": [
+    "greasy_absorption",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Idealny do wrażliwej skóry i suchych włosów. Olejku ze słodkich migdałów Biolane używamy zarówno do nawilżania skóry po prysznicu, jak i do suchych włosów mojej córki i moich. Konsystencja jest lekka, nieklejąca i pozostawia skórę niezwykle miękką. Zapach jest delikatny, niezbyt mocny, a butelka dobrze dozuje ilość. To uniwersalny i naturalny produkt, który zachwyca mnie od lat: idealny dla skóry wrażliwej i małych dzieci. ➕ Długotrwałe nawilżenie, przyjemna konsystencja, bezpieczny skład. ➖ Butelka może się lekko wyślizgnąć przy zatłuszczonych dłoniach. Rodzinny must-have, idealny dla delikatnej lub suchej skóry 💛",
+   "tags": [
+    "scent",
+    "sensitive_baby",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Olejek redukujący widoczność rozstępów. Od ponad dwóch miesięcy codziennie (1-2 razy dziennie) nakładam ten olejek na rozstępy i starą bliznę. Zapach jest lekki, przyjemny i dość szybko znika. Olejek łatwo się aplikuje i dość dobrze nawilża skórę. Doskonale zdając sobie sprawę, że blizny i rozstępy nigdy nie znikną, mimo to zauważam poprawę wyglądu. Blizna jest mniej pęcherzowa i miejscami staje się biała. Jeśli chodzi o moje rozstępy, są one delikatniejsze. Zamówię ten produkt ponownie",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Przyjęty. Tylko miesiąc stosowania na zmianę z Bio-Oilem. Nie mogę zatem przewyższać tych zalet ponad wszystko, co jest tam wskazane, ale już teraz mogę potwierdzić, że olejek ten jest odpowiedni dla mojej bardzo suchej skóry, jest dla mnie bardzo przyjemny po prysznicu, nie jest tłusty, nie brudzi ubrań, szybko wysycha i pozostawia skórę idealnie gładką. Stosuję go także na twarz, gdyż z reguły bardzo boję się olejków i innych kremów do twarzy! Muszę przyznać, że moja cera jest coraz bardziej wyrównana, wręcz odmłodzona! Polecam (ciemna karnacja)",
+   "tags": [
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "-. Miałam próbkę w ciążowej walizce i spodobała mi się, więc zdecydowałam się na duży format! Zapach kakao jest dość mocny i może przeszkadzać w czasie ciąży. Jednak olejek działa świetnie! Trochę tłusty, jak każdy olejek, i pozostawić do wniknięcia w skórę na co najmniej 10 minut przed założeniem ubrania, jeśli nie chcesz go natłuścić. Używam na zmianę tego olejku (wieczorem) i kremu tej samej marki (rano: jest mniej tłusty i szybciej się wchłania) Obecnie jestem w 6 miesiącu ciąży i nie mam rozstępów!",
+   "tags": [
+    "scent",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Działa dobrze. Używany na moje rozstępy. Pomimo stosowania kremów, olejków i suplementów diety podczas ciąży i wcześniej, w ostatnich dwóch tygodniach ciąży pękała mi skóra na brzuchu, czemu towarzyszyły ciążowe pokrzywki na całym ciele. Rozstępy stopniowo bledną, podobnie jak blizny po pokrzywce. Stosuję go rano i wieczorem. Zdjęcia są robione w odstępie 2 i pół miesiąca. Usunęłam gwiazdkę, ponieważ nie jest naturalny ani organiczny. Tego typu produkty stosuję zazwyczaj tylko na etapie, na którym nie mam wyboru",
+   "tags": [
+    "efficacy_marks",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Przyjemny. Przyjemny w aplikacji na ciało. W czasie ciąży polecam kupować 200ml bezpośrednio co 2-3 miesiące. Osobiście stosowałam go w czasie ciąży na uda i uzupełniłam kremem na górną część ciała, ale dodatkowo na całe ciało. Olejek przyjemnie się nakłada, pachnie i nie pozostawia tłustej warstwy na ciele. W 7 miesiącu ciąży nie mogę powiedzieć, czy olejek pomógł zredukować rozstępy, ale na razie nie mam żadnych rozstępów.",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Poprawne, ale nie cudowne. Po 1 miesiącu stosowania stwierdzam, że produkt jest skuteczny na część rozstępów, ale nie na wszystkie... Może trzeba podkreślić zalety w miejscach, gdzie się pojawiają lub pojawiają.... Produkt ma przyjemny zapach, podoba mi się jego zapach. Wolałbym krem ​​niż olej, ale uważam, że penetruje on łatwiej i szybciej. Produkt poprawny, jednak cena jak na mój gust jest wysoka i można by się w tym obszarze poczynić wysiłki, zwłaszcza że opakowanie jest uproszczone!",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Czuje się dobrze. Podoba mi się to uczucie. Po nałożeniu wydaje się gęsty, następnie wchłania się w skórę, dzięki czemu nie będziesz chodzić cały czas zakryty jak ślimak, ale nadal będzie bardzo nawilżający. Nie jestem wielką fanką zapachu. Ma zapach masła kakaowego Palmers zmieszanego z warstwą pudru, nie lubię pudrów, pachną starą panią. Mieszam więc to i odrobinę olejku migdałowego w butelce, aby złagodzić zapach. A w dni, w których nadal czuję zapach pudru, nakładam odrobinę olejku perfumowanego. Zapach, który łatwo przesłonił",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Delikatny produkt dla skóry, który można stosować bez umiaru. Delikatny i skuteczny. Miałem pryszcza, którego nie mogłem powstrzymać, więc możesz zgadnąć, co się stało. Stosując ten olejek przynajmniej dwa razy dziennie, mój pryszcz dobrze się zagoił i stał się dyskretny. Moja skóra jest ładniejsza. Używam go również po prysznicu i jako olejek do kąpieli u moich dzieci, które mają skórę skłonną do atopii. Rezultat: miękka, nawilżona skóra. Mam też wrażenie, że moja skóra jest mniej zmęczona",
+   "tags": [
+    "efficacy_marks",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Polecam!. Odejmuję jedną gwiazdkę za zapach, który dla mnie nie jest przyjemny: nie jest mocny, ale nie podoba mi się ten zapach. Reszta: cud! Niedrogie i łatwo dostępne, miałam dużą alergię na mydło kupione w aptece, które było za mocne dla mojego typu skóry, zostałam z dużą czarną blizną w kąciku ust: używałam tego olejku codziennie, nakładałam go za każdym razem między zajęciami i po 2 tygodniach: JUŻ NIC!!",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "adverse_reaction",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Ładny i gładki po aplikacji. Nie mogę wiele powiedzieć o zmniejszonej widoczności blizn i rozstępów, ponieważ nie stosowałam ich wystarczająco długo, ale zdecydowanie czuję, że moja skóra stała się bardziej gładka, a elastyczność znacznie się poprawiła od czasu stosowania tych produktów. Uwielbiam gładkość po aplikacji i gorąco polecam ten produkt. Jedna rzecz, którą zauważyłam w przypadku olejku, to jego bardzo lekka konsystencja, więc trzeba go nałożyć dość dużo, żeby faktycznie było uczucie nawilżenia, dzięki czemu mogę bardzo szybko opróżnić butelkę",
+   "tags": [
+    "efficacy_marks",
+    "hydration",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "niedrogi balsam do ciała. Olejek do ciała Palmer’s zapewnia bogate, odżywcze nawilżenie, które dobrze się wchłania, nie pozostawiając tłustego wykończenia, dzięki mieszance oleju kokosowego i ekstraktu z zielonej kawy. Dobrze zmiękcza i nawilża suchą skórę, a zapach jest przyjemny, ale nie przytłaczający. Butelka ze sprayem zapewnia mniej bałaganu i większą kontrolę, dzięki czemu świetnie nadaje się do stosowania pod prysznicem. Dobrze zmiękcza i nawilża suchą skórę, dzięki czemu jest wszechstronnym, niedrogim kremem nawilżającym do ciała do codziennego użytku",
+   "tags": [
+    "scent",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Bi-olej. Szybka wysyłka. Stosuję go pierwszy raz więc na razie nie mogę się wypowiedzieć co do strony nawilżenia. Dobrze trzyma się butelki, otwór ułatwia dozowanie produktu. Z drugiej strony myślę, że będą musieli kupować go w miarę regularnie, biorąc pod uwagę, że kuracja trwa 3 miesiące, dwa razy dziennie, aby przyniosła realne rezultaty. (jestem w ciąży) Zapach przyjemny, jednak penetracja olejku jest trochę długa",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Wydajny, ale trochę za gęsty na dzień. Olejek ze słodkich migdałów Biolane jest naprawdę skuteczny w usuwaniu ciemieniuchy. Jest jednak dość gęsty, co może przeszkadzać w aplikacji na dzień. Polecam nakładać go na około 30 minut przed usunięciem strupów, a także przed kąpielą, aby maluszek nie czuł się niekomfortowo. Daje to wystarczająco dużo czasu, aby olej zadziałał prawidłowo. Niemniej jednak bardzo dobra jakość!",
+   "tags": [
+    "efficacy_marks",
+    "sensitive_baby",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "PACHNIE TAK DOBRZE!. Jestem zachwycona tym nawilżającym olejkiem! To przełom dla mojej skóry, zapewniający uczucie maślanej gładkości bez tłustych i lepkich pozostałości. Lekka, niewodna konsystencja szybko się wchłania, pozostawiając skórę miękką i nawilżoną. Subtelny zapach kokosa jest przyjemny, ale nie przytłaczający. Moje jedyne zastrzeżenie dotyczyło opakowania – moje przyszło otwarte i wyciekło do pudełka. Mimo to produkt sam w sobie jest fantastyczny i wart wypróbowania!",
+   "tags": [
+    "scent",
+    "greasy_absorption",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Przyjemny w użyciu, ale bardzo szybkie zużycie. Używam Bi‑Oil do ukojenia mojej suchej skóry po atakach egzemy i olejek jest naprawdę fajny: dobrze się rozprowadza, pozostawia skórę miękką i słodko pachnie. Z drugiej strony, nakładając go raz dziennie na nogi i ramiona, butelka jest już pusta po 15 dniach. W przypadku regularnej pielęgnacji może szybko stać się bardzo drogi, szczególnie jeśli szukasz trwałego rozwiązania dla wrażliwej skóry",
+   "tags": [
+    "scent",
+    "hydration",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Efektowny i praktyczny format. Na razie stosuję go głównie jako olejek przeciw rozstępom w czasie ciąży i wydaje się działać. Bardzo podoba mi się mały format butelki, praktyczny do noszenia i fakt, że jest dostępny w formie sprayu do aplikacji. Dodatkowo produkt ten nie posiada nieprzyjemnego zapachu jak wiele innych testowanych przeze mnie produktów. Wreszcie cena na Amazon jest bardziej interesująca niż na innych stronach lub w supermarketach.",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "WYCIEKI WSZĘDZIE W PRZESYŁCE.. Produkt wspaniale pachnie i robi to, co obiecuje. Muszą jednak znaleźć nowy sposób wysłania ropy. Rozlał się po całej papierowej torbie, w której został wysłany. Wszędzie pełno oleju. Na szczęście nie straciłem zbyt wiele produktu, nie na tyle, aby tracić czas na dochodzenie zwrotu pieniędzy. Ale zdecydowanie trzeba to lepiej zapakować. Pokrywa była poluzowana na oleju i przeciekała. Z innych opinii wynika, że ​​jest to częsty problem",
+   "tags": [
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Olejek do ciała Palmer's Coconut Oil Formula to doskonały dodatek do mojej kuracji na łysinę. Niedawno postanowiłam wziąć w swoje ręce wypadającą linię włosów i zdecydowałam się ogolić i żyć na łyso. To była przerażająca rzecz – chętnie rezygnujesz z włosów – ale jak to zrobić mądrze i bezpiecznie. Mam bardzo wrażliwą skórę - odziedziczoną po tacie - więc muszę uważać, co nakładam. Czytałam o tym, jak golić i pielęgnować łysinę, między innymi o utrzymywaniu nawilżenia głowy, aby nie wyschnąć. Jedna z sugestii, którą spotkałem od kilku innych łysych mężczyzn, poleciła olejek do ciała Palmer's Coconut Oil Formula. Moja żona i ja przyjrzeliśmy się temu (ona ma większe doświadczenie w tego typu produktach) i obejrzeliśmy to i kilka innych, a także recenzje. W związku z tym zdecydowaliśmy, że powinnam wypróbować butelkę olejku do ciała Palmer's Coconut Oil Formula. Bardzo się cieszę, że to zrobiłem. Kupiłem także 3 rodzaje produktów Bee Bald, ale chciałem czegoś dodatkowo zapewniającego nawodnienie w ciągu dnia. Stąd olejek do ciała Palmer's Coconut Oil Formula. Inteligentne posunięcie. Bee Bald (znaleziony tutaj na Amazonie) działa świetnie, ale nie chcę zużyć butelki tak szybko, używając go, i pomyśleliśmy, że ten olejek do ciała Palmer's Coconut Oil Formula może wystarczyć na dłużej – jesteśmy prawie pewni, że tak. Olejku do ciała Palmer’s Coconut Oil Formula używałam już kilka razy dziennie. Pogoda była sucha, więc musiałem dodawać co najmniej 2-3 razy dziennie. nie potrzeba wiele, żeby zakryć głowę. Załączam zdjęcie głowy zaraz po nałożeniu. Ma wspaniały połysk, moja głowa jest miękka i kojąco chłodna, wnika w skórę na tyle szybko, że nie powoduje uczucia tłustości na głowie – nigdy nie sprawia wrażenia „tłustego” – ale na tyle powolny, że nie muszę nakładać go nawet więcej razy. Ta butelka wystarczy na długo... z drugiej strony, ponieważ olejek do ciała Palmer's Coconut Oil Formula to olejek do ciała, moja żona i ja zastanawialiśmy się nad zastąpieniem nim oleju kokosowego, którego używaliśmy przez ostatnie kilka lat - łatwiej się rozprowadza i wnika w skórę znacznie lepiej, jednocześnie utrzymując ją nawilżoną. A zapach jest fenomenalny i trwały. Nie jest zbyt mocny, ale utrzymuje się dłużej niż większość moich perfumowanych produktów. Moja żona to uwielbia. I uwielbiam to, ponieważ przyzwyczaiłem się do bycia łysym – narracja, nad którą przejąłem kontrolę – moja głowa czuje się świetnie, dzięki czemu czuję się świetnie, a to przejście sprawiło, że było miło i łatwo. Tak, ja/my z całą pewnością będziemy dostawać więcej olejku do ciała Palmer's Coconut Oil Formula",
+   "tags": [
+    "scent",
+    "hydration",
+    "greasy_absorption",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Odżywianie i nawilżanie – must-have dla miękkiej, gładkiej skóry!. Uwielbiam olejek do ciała Palmer's Coconut Oil Formula! To przełom w mojej codziennej pielęgnacji skóry. Olejek ma lekką, ale niezwykle odżywczą konsystencję i szybko się wchłania, nie pozostawiając tłustej warstwy. Ma piękny tropikalny zapach kokosa, który nie jest przytłaczający, co sprawia, że ​​jest luksusowy, ale niezbyt mocny. Stosuję go od kilku tygodni i moja skóra jest zauważalnie gładsza i bardziej miękka. Jest idealny po prysznicu, ponieważ pomaga zatrzymać wilgoć i nadaje mojej skórze zdrowy, nawilżony blask. Stosowałam go również na suche miejsca i blizny i świetnie działał kojąco i nawilżająco. Pojemność 150 ml jest idealna do codziennego użytku, a niewielka ilość wystarczy. Uwielbiam to, że jest wykonany z naturalnych składników, takich jak olej kokosowy, dzięki czemu jest prawdziwą ucztą dla mojej skóry. Jest świetny również dla osób o wrażliwej skórze, ponieważ jest delikatny i nie podrażnia. Ogólnie gorąco polecam olejek do ciała Palmer's Coconut Oil Formula! Jest niedrogi, skuteczny i pozostawia skórę niesamowitą w dotyku. Na pewno wrócę do tego produktu",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "sensitive_baby",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Recenzja olejku do pielęgnacji skóry Bi-Oil - Specjalistyczna pielęgnacja rozstępów. Stosuję Bi-Oil od kilku miesięcy w profilaktyce i redukcji rozstępów i jestem pod ogromnym wrażeniem efektów. Olejek jest lekki, nietłusty i szybko się wchłania, dzięki czemu jego codzienne stosowanie jest przyjemne. Ma przyjemny zapach, ale nie za mocny, co jest plusem. Odkąd go używam, moja skóra jest bardziej nawilżona, a rozstępy wydają się mniej widoczne. Choć nie powoduje ich całkowitego zniknięcia, to pozwala poprawić ich wygląd, czyniąc je bardziej dyskretnymi. Jest to również dobry zabieg głęboko odżywiający skórę. Mały minus: olejek może przez chwilę pozostawiać lekko tłustą warstwę, ale mi to nie przeszkadzało, gdy skóra dobrze się wchłonęła. Skuteczny produkt do pielęgnacji skóry, polecam go osobom chcącym poprawić wygląd rozstępów",
+   "tags": [
+    "scent",
+    "efficacy_marks"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Zakochanie się w czymś. Jestem wielką fanką i użytkowniczką marki Palmer's, szczególnie olejku kokosowego, do tego stopnia, że ​​mam wszystkie produkty, ale nigdy nie próbowałam olejku nawilżającego z olejem kokosowym. To naprawdę mój faworyt, jest doskonała! Zapach jest wysublimowany, zgodny z asortymentem, nie mdły, pozostawia przyjemny zapach na skórze. Wchłania się bardzo szybko, więc można go założyć od razu po aplikacji lub po prostu nałożyć trochę przed snem, tak jak ja, i czuję, że skóra jest nawilżona aż do następnego dnia. Mam też mleczko nawilżające Palmer's z tej samej serii i oba naprawdę świetnie sobie radzą z nawilżaniem! Olejek ma dobry stosunek jakości do ceny, ponieważ nie trzeba stosować dużej dawki, gdyż łatwo się rozprowadza. Gorąco polecam i jestem pewien, że to świetny pomysł na prezent.",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bardziej miękka skóra w ciągu kilku dni. Postanowiłam spróbować szczotkowania skóry na sucho i potrzebowałam lekkiego olejku po prysznicu, aby zakończyć codzienną pielęgnację skóry. Mam ponad 50 lat i zauważyłem, że ostatnio moja sucha skóra stała się wyraźnie bardziej sucha, więc chciałam walczyć bez wydawania pieniędzy. Używam tego tylko przez 3 dni i różnica jest zauważalna, wierzchołki moich ramion są naprawdę gładkie, a łokcie nie są już szorstkie. Nawet moje kolana znów są gładkie. Ma dość mocny zapach kokosa, ale jest cudowny, wcale nie sztuczny, po prostu jak olej kokosowy. Jest to bardzo rzadki olej i jego niewielka ilość wystarczy. Wchłania się bardzo szybko i pozostawia natychmiastowe uczucie nawilżenia, bez uczucia zatykania skóry. Jest to tak proste w użyciu, że codzienne korzystanie z niego nie stanowi problemu. Wykonanie zabiegu całego ciała zajmuje kilka minut. Butelka poniżej 5 funtów to naprawdę dobry stosunek jakości do ceny",
+   "tags": [
+    "scent",
+    "hydration",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "🌿 Delikatny olejek, który dobrze smakuje (nawet dorosłym!). 🎯 Codzienne użycie Zawsze warto mieć trochę pod ręką. Ze swojej strony używam go jako bazy do moich mieszanek olejków eterycznych. Kilka kropel, dobry olej roślinny i gotowe, samo się ślizga! (Na skórze, nie w kuchni 😅) ✅ + Nietłusta konsystencja, szybko się wchłania. Idealny do masaży lub zastosowań celowych. 100% naturalnego pochodzenia, wyprodukowane we Francji: cocorico 🇫🇷 Praktyczny format 75 ml w niskiej cenie (szczególnie za 3,09 €!). ⚠️ - Butelka przy codziennym użytkowaniu szybko się opróżnia... ale przy tej cenie nie można się jej pozbawić. 🔍Moja ostateczna opinia Prosty, skuteczny i wielokrotnego użytku. Niezależnie od tego, czy chodzi o drobne dolegliwości, suchą skórę, czy chwile relaksu, spełnia swoje zadanie bez zbędnych dodatków. Przyjęte do mojej domowej rutyny dobrego samopoczucia!",
+   "tags": [
+    "efficacy_marks",
+    "sensitive_baby",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Stosowałam w czasie ciąży i nie widać rozstępów. Kupiłam ten olejek, żeby zapobiegać rozstępom w czasie ciąży. Nie potrafię powiedzieć, czy to dzięki niej, czy też mój organizm miał dobre predyspozycje, faktem jest, że nie miałam ŻADNYCH rozstępów (była to moja pierwsza ciąża). Nakładałam go codziennie, bez użycia tony, bo robiłam to raz wieczorem, z mlekiem i nie podobało mi się to uczucie na skórze. Nawet nie skończyłam butelki ^^ Pamiętam 2 dni, kiedy bardzo bolał mnie brzuch, strasznie swędziała mnie skóra. Nasmarowałam brzuch ultrabogatym kremem, takim jak masło shea, ale to było wyjątkowo. Przez resztę czasu nie było takich wrażeń i Bi Oil w zupełności wystarczył!",
+   "tags": [
+    "pregnancy",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Najlepszy olej. Dla mnie to po prostu najlepszy olejek dla mojej bardzo delikatnej skóry... Już przed ciążą miałam rozstępy i bałam się, że będzie ich więcej, szczególnie na brzuchu. Z tym olejkiem nie ma problemu, nawilża od razu, moja skóra jest miękka, bezwonna i przede wszystkim naturalna, stosuję go wszędzie, gdy tylko pojawi się podrażnienie, a nawet na twarz! Cena nie jest niska, ale jakość czasami jest priorytetem. Kupuję go od 9 miesięcy (1 butelka miesięcznie) i nakładam olejek wszędzie 3-4 razy dziennie, więc nie trzeba go używać zbyt dużo. Przyszłym mamom polecam ten bez wahania i zamawiam na Amazonie bo w aptekach butelka jest mniejsza i droższa",
+   "tags": [
+    "scent",
+    "sensitive_baby",
+    "pregnancy",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Szwajcarski scyzoryk z dziecięcej kosmetyczki. Olejek ze słodkich migdałów Biolane to bezpieczny wybór, który możesz umieścić w swojej kosmetyczce porodowej. Nienaganny skład oparty na naturalnych składnikach sprawia, że ​​jest to zabieg kojący dla rodziców dbających o skórę swojego dziecka. Można go łatwo kupić w supermarketach za bardzo rozsądną cenę, biorąc pod uwagę jego trwałość. Wskazówka dotycząca bezpieczeństwa: Słodki migdał należy do rodziny potencjalnych alergenów (orzechy). Nawet jeśli przypadki alergii w wyniku kontaktu ze skórą u niemowląt są rzadkie, należy na 24 godziny przed pierwszym użyciem zaaplikować kroplę olejku w zgięcie łokcia dziecka, aby sprawdzić, czy nie pojawiło się zaczerwienienie.",
+   "tags": [
+    "ingredient_safety",
+    "adverse_reaction",
+    "sensitive_baby",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Jego cena jakość. Zwykle jest to produkt dla niemowląt. Wypróbowałam go na swojej skórze i uwierzcie mi, jest to rewolucyjny produkt. Mam całkowicie wysuszoną skórę przez moją nieuleczalną chorobę, odzyskała jędrność i ma dla mnie bardziej kartonowy efekt. Jest to dla mnie ogromna radość, dlatego wszystkim osobom, które mają problemy skórne, polecam nawet osobom starszym!!! Należy pamiętać, że jest to mała buteleczka o pojemności 75 ml, ale jest to olejek bez perfum ze słodkimi migdałami i jest tam dla Ciebie. Niewiele potrzeba, żeby nawodnić organizm, poza tym jest to produkt francuski, więc zamówiłam ponownie ze względu na cenę, warto. Polecam ten produkt w 100% i dziękuję dostawcy",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "hydration",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Cudowny zabieg dla mojej skóry! Bi-Oil na stałe zagościł w mojej pielęgnacji! Stosuję go od kilku miesięcy na blizny i rozstępy, a efekty są niesamowite. Moje blizny znacznie zbladły, a rozstępy są znacznie mniej widoczne. Olejek ma lekką, nietłustą konsystencję i szybko się wchłania w skórę. Bardzo podoba mi się także jego działanie nawilżające: moja wcześniej sucha skóra jest teraz miękka i odżywiona. Butelka o pojemności 125 ml starcza na długo, nawet przy codziennym stosowaniu. Gorąco polecam każdemu, kto chce poprawić strukturę swojej skóry!",
+   "tags": [
+    "efficacy_marks",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Skuteczny olejek pielęgnacyjny, przyjemna konsystencja. Bardzo dobry produkt do pielęgnacji skóry. Olejek Bi-Oil łatwo się aplikuje, szybko wnika w skórę i nie pozostawia nieprzyjemnego, tłustego filmu. Stosowany regularnie pomaga poprawić wygląd skóry, która staje się bardziej elastyczna, miękka i widocznie lepiej nawilżona. Jest szczególnie przydatny w zmniejszaniu widoczności blizn, rozstępów i śladów skóry, pozostawiając jednocześnie trwałe uczucie komfortu. Zapach jest lekki i przyjemny, a butelka jest wygodna w użyciu. Uznany i skuteczny produkt o doskonałym stosunku jakości do ceny. polecam",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "hydration",
+    "greasy_absorption"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Niesamowite efekty, naprawdę skuteczne. Dlatego długo zwlekałem z napisaniem tej recenzji. Po leczeniu, które spowodowało przyrost masy ciała, gdy ustał, pojawiły się u mnie fioletowe rozstępy. Używałam tego produktu i byłam zachwycona. Całkowite zniknięcie rozstępów NIESAMOWITE. Wypróbowałam go także na udach, na których już po 3 tygodniach pojawił się cellulit. Kontynuuję dalej, potrzebujemy małej ilości produktu. Zostało mi jeszcze 3/4 produktu. Nie ma sensu dawać tego dużo. 4 krople na udo. Używam go wieczorem przed snem. Jestem zachwycony tym zakupem, choć dokonanym bez większego przekonania",
+   "tags": [
+    "efficacy_marks"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Magia!. Dużo czasu zajęło mi znalezienie różnych marek olejków i kremów na moje blizny. I w końcu odnalazłam swoje szczęście. Wziąłem regularną dostawę, żeby nie zabrakło. Moje blizny bledną, stają się mniej czerwone, stają się bardziej widoczne. Nawet najnowsze blizny (2 miesiące) dobrze się zagoiły. Konsystencja jest przyjemna, nakładam go nawet na łokcie, suche partie ciała i sprawdza się bardzo dobrze. Ładnie pachnie, ale też niezbyt intensywnie, dobrze się wchłania i nie pozostawia tłustej warstwy na skórze. Komentarze mnie przekonały, pozostanę wierna temu produktowi :)",
+   "tags": [
+    "scent",
+    "efficacy_marks"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Niezbędny dla skóry, rewelacyjne rezultaty! Miałam okazję odkryć Bi-Oil i jestem zachwycona efektami. Po kilku tygodniach stosowania moja skóra jest wyraźnie bardziej miękka i wyrównana. Szczególnie doceniłam jego skuteczność na drobne blizny i rozstępy, które stopniowo zanikają. Konsystencja jest lekka, nietłusta i szybko się wchłania, co sprawia, że ​​jest to przyjemna pielęgnacja na co dzień. Na szczególną uwagę zasługuje dyskretny i kojący zapach. Polecam w 100%, zarówno do stosowania profilaktycznego, jak i leczniczego! Produkt, który dotrzymuje obietnic!",
+   "tags": [
+    "scent",
+    "efficacy_marks"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "świetny produkt. Kupiłam ten olejek w celu zastąpienia bio-oleju, który jest dużo droższy i zbyt pachnący jak na mój gust. Olejek jest fantastyczny, stosuję go na zapobieganie rozstępom (jestem w ciąży), stosuję go 2 razy dziennie jako dodatek do kremu, który nakładam rano), stosuję go także wieczorem przed pójściem spać na twarz (a mam cerę mieszaną/tłustą), na paznokcie (są dużo mocniejsze) i gdy już wiem, że następnego dnia idę się myć, maluję całe długości!!! Zapach kakao jest przyjemny i niezbyt mocny!!!",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Skutecznie zmiękcza ciemieniuchę. Od jakiegoś czasu stosuję olejek ze słodkich migdałów Biolane dla mojego dziecka, głównie do pielęgnacji ciemieniuchy. Stosując go rano i wieczorem zauważyłam, że naprawdę pomaga je zmiękczyć i łatwiej je usunąć. Nie powoduje to ich całkowitego zniknięcia, ale zdecydowanie zmniejsza ich widoczność. Zapach jest dość neutralny, nie wybiera się produktu ze względu na zapach, ale na skuteczność. To dobry, delikatny olejek, odpowiedni dla delikatnej skóry niemowląt.",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonały olej. Kiedy zobaczyłam wszystkie pozytywne komentarze na temat tego olejku, miałam bardzo suchą skórę na goleniach i spróbowałam. ZALETY: -bardzo ładnie pachnie - natychmiast się wchłania - bardzo dobrze zadziałał na moją skórę, która od razu była bardziej miękka. Zaznaczam, że mam bardzo suchą skórę i wypryski spowodowane stresem, więc nie testowałam tego olejku na rozstępy ani na nic innego... Wady: - to olejek, oczywiście butelka jest zawsze trochę tłusta - szybko się opróżnia - trochę drogi jak na ilość",
+   "tags": [
+    "scent",
+    "price_volume",
+    "packaging"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Najlepszy suchy olejek, magiczny dla skóry! To po prostu najlepszy suchy olejek, jakiego kiedykolwiek używałam. W czasie ciąży bardzo skutecznie zwalczał rozstępy, dziś stosuję go codziennie na twarz. Rozjaśnia cerę, redukuje nierówności i drobne linie – znacznie lepiej niż krem ​​przeciwzmarszczkowy! Szybko się wchłania, nie pozostawiając tłustej warstwy, zapach jest delikatny i przyjemny. Jestem jego totalną fanką i dałam go już kilku bliskim. Niezbędny!",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "sensitive_baby"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "uwielbiam!!!. Wielki ulubieniec, kupiłam już drugi w ciągu miesiąca! Zapach jest po prostu boski, a dla mnie w każdym razie całkowicie „miękki”. Jest jednak dość mocny po stronie kakao, więc rozumiem, że nie jest odpowiedni dla każdego. Po niedawnej operacji codziennie rano nakładałam ten olej na blizny i z mojej strony zapobiegło to powstawaniu strupów i całkowicie zmniejszyło ślady w porównaniu do tego, co powinno być. jestem zachwycony :)",
+   "tags": [
+    "scent",
+    "efficacy_marks"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fabryka. Działa rygorystycznie. Nie jest to cudowny lek, ale zredukował u mnie duże rozstępy, kiedy przybrałam na wadze, rozstępy były głębokie i bardzo czerwone, teraz to już historia, są białe (nigdy nie znikną), ale znacznie mniej widoczne niż na początku. Do stosowania na co dzień ujędrnia skórę i wspomaga jej gojenie. Stosowałam go także przez całą ciążę, trzeba kremować kilka razy dziennie",
+   "tags": [
+    "efficacy_marks"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Uwodnienie. Ważne, aby dobrze nawilżyć skórę po wyjściu spod prysznica! Bardzo lubię ten olejek. Bon rapport qualité/prix (par abonnement surtout). Dyskretny i przyjemny zapach, łatwy w użyciu i nie brudzi ubrań - wystarczy chwilę odczekać przed założeniem - Problem: znaleźć kogoś na plecy :) Bardzo dobry olejek i przekonujące efekty po latach stosowania. Czasem i tak to zmieniam. Zwłaszcza ze względu na format samolotu.. Dobry zakup :)",
+   "tags": [
+    "scent",
+    "efficacy_marks",
+    "greasy_absorption",
+    "price_volume"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Do przetestowania w dłuższej perspektywie. Pierwszy raz testuję ten zabieg. Stosuję go dwa razy dziennie od miesiąca, jestem już w połowie produktu. Myślałam, że skończę szybciej, więc jestem całkiem zadowolona. Już po natychmiastowym zastosowaniu moja skóra jest bardziej wyrównana i przez jakiś czas pozostaje miękka. Ale po całkowitym wchłonięciu moja skóra znów jest sucha... więc nałożyłam mój zwykły krem: Bi-Oil nie jest kremem nawilżającym. Do zobaczenia w dłuższej perspektywie",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Taniej za sztukę! „BIOLANE - Zestaw Na Pierwsze Dni Urodzenia” bardzo przypadł mi do gustu jako prezent na baby shower i spojrzałam na ceny jednostkowe. Ostatecznie jest dużo taniej. (Zestaw kosztuje 45 euro z komentarzami mówiącymi, że jest uszkodzony, przebity lub niekompletny), podczas gdy tutaj zrobiłem swój zestaw za 37 euro (bez składanej wanny). Bardzo dobrze zapakowane i bez zaczepów. Więc nie ma na co narzekać. Jestem bardzo zadowolony!",
+   "tags": [
+    "price_volume"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Doskonały. Używam tego suchego olejku podczas ciąży. Jest po prostu idealny pod względem konsystencji. Upiększa moją klatkę piersiową i talię. Dzięki temu rozstępy na piersiach, które występowały już przed ciążą, są znacznie mniej widoczne; Zapach nie jest najprzyjemniejszy, ale już się przyzwyczaiłem i już go nie czuję. jest to suchy olejek, który spełnia swoje zadanie, jednak należy zachować ostrożność w przypadku osób wrażliwych na zapachy",
+   "tags": [
+    "scent",
+    "efficacy_marks"
+   ]
+  }
+ ]
+}

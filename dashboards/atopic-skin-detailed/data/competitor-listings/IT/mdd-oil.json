@@ -1,13 +1,75 @@
 {
- "totalCompetitors": 1,
+ "totalCompetitors": 5,
  "marketplace": "amazon.it",
+ "avgClaims": 5.6,
  "competitors": [
+  {
+   "asin": "B07HBGV2MF",
+   "brand": "Dermovitamina",
+   "title": "Calmilene Olio Secco Spray 200 ml - Spray con olio corpo e viso - Per la pelle sensibili e dermatiti - 5 Olii funzionali - Ricchi di Omega 3, Omega 6, Ceramide e Vitamina E - Dermovitamina",
+   "img": "https://m.media-amazon.com/images/I/51jRO6rmTWL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51jRO6rmTWL.jpg",
+    "https://m.media-amazon.com/images/I/31J9uDO9qTL.jpg",
+    "https://m.media-amazon.com/images/I/31J9uDO9qTL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71hai-pcD4L.jpg",
+    "https://m.media-amazon.com/images/I/41QFP9I4+IL.jpg",
+    "https://m.media-amazon.com/images/I/41QFP9I4+IL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61ZmRWA+bXL.jpg",
+    "https://m.media-amazon.com/images/I/31MlLKOsaZL.jpg"
+   ],
+   "bullets": [
+    "✅ A COSA SERVE: Calmilene Olio Secco Spray ad azione nutriente, liporestitutiva, elasticizzante è indicato per l'idratazione quotidiana della pelle secca, molto secca, sensibile, arrossata con tendenza ad irritazioni, atopia, dermatiti, e psoriasi. La sua formula di olio viso e corpo multi-azione a idratazione intensa. Contribuisce a rendere la pelle idratata e più elastica.",
+    "✅ MULTI-ATTIVO : Lo spray contribuisce a prevenire le smagliature. Utilizzabile anche in gravidanza. Lo spray puo essere usato sul viso, come idratante, sui capelli, come impacco riparatore, prima dello shampoo. La sua formulazione con 5 Olii funzionali idratanti e ristrutturanti di origine naturale e ricchi in acidi grassi essenziali Omega 3 e Omega 6, con Ceramide e Vitamina E che contribuiscono a riequilibrare e mantenere il film idrolipidico cutaneo.",
+    "✅ PLUS : Calmilene Olio Secco Spray - Idratazione Intensa con olio corpo e viso - Il spray conviene per il corpo, viso e capelli - Con Ceramide e Vitamina E - Contiene 5 Olii Funzionali ricchi di Omega 3 e Omega 6 - Dermatologicamente testato per pelli sensibili",
+    "✅ MODO D'USO: Vaporizzare lo spray su tutto il corpo e massaggiare fino a completo assorbimento. Come idratante dopo il bagno o la doccia si consiglia di applicare Dermovitamina Calmilene Olio Secco Spray sulla pelle ancora bagnata. Per l’uso sul viso, vaporizzare lo spray sulle mani, quindi massaggiarlo fino a completo assorbimento. Per l’uso sui capelli, vaporizzare il prodotto sulle mani e massaggiare le lunghezze; lasciare agire per 10 minuti quindi procedere con lo shampoo.",
+    "✅ DERMOVITAMINA : è una linea completa di soluzioni. Da sempre Dermovitamina tratta tutte le piccole problematiche della pelle, con prodotti testati e sicuri, formulazioni sempre aggiornate con i migliori ingredienti e attivi. I prodotti Dermovitamina sono per tutta la famiglia e dermatologicamente testati. Dermovitamina è sinonimo di efficacia, sicurezza e benessere con un giusto rapporto qualità-prezzo."
+   ],
+   "themes": [
+    "nawilzenie",
+    "kojacy",
+    "dermatologiczny",
+    "naturalny",
+    "wchlanianie",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ]
+   },
+   "price": 15.42,
+   "rating": 4.4,
+   "reviews": 352,
+   "rev30": 3772,
+   "archival": false
+  },
   {
    "asin": "B0DR8VV2H1",
    "brand": "Aveeno",
    "title": "Aveeno Skin Relief Olio Corpo Spray, Olio corpo idratante pelle secca e sensibile, Body oil dermatologicamente testato con ingredienti di origine naturale e oli di Avena e Jojoba, 200 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/619P04wokmL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/619P04wokmL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/619P04wokmL.jpg",
     "https://m.media-amazon.com/images/I/314ZusleKHL.jpg",
     "https://m.media-amazon.com/images/I/314ZusleKHL._SL75_.jpg",
@@ -17,6 +79,13 @@
     "https://m.media-amazon.com/images/I/71GzK7rSGxL.jpg",
     "https://m.media-amazon.com/images/I/51QH3qO9WOL.jpg"
    ],
+   "bullets": [
+    "Olio idratante corpo – Quest'olio corpo, dermatologicamente testato, nutre intensamente la pelle molto secca e sensibile, rendendola più liscia e uniforme in una sola settimana",
+    "Ingredienti ricchi di lipidi e acidi grassi – L'olio corpo, adatto per le pelli secche, è formulato al 98% con ingredienti di origine naturale tra cui l'Olio di Avena e Olio di Jojoba, che nutrono la pelle",
+    "Anche per massaggi – Scegli quest'olio per massaggio rilassante corpo di Aveeno che, grazie al suo finish setoso, è adatto anche per massaggi e lascia la pelle morbida e profondamente idratata",
+    "Clinicamente testato – Olio per il Corpo ipoallergenico** e dalla texture leggera. Il 96% concorda sulla sensazione di morbidezza immediata della pelle*",
+    "Contenuto della confezione – Aveeno Skin Relief Olio Spray per il Corpo pelli secche e sensibili, olio da massaggio corpo spray che aiuta a ripristinare la barriera cutanea, 1 confezione da 200 ml"
+   ],
    "themes": [
     "nawilzenie",
     "bariera",
@@ -25,196 +94,480 @@
     "naturalny",
     "cena_pojemnosc"
    ],
+   "themeSrc": {
+    "hipoalergiczny": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "dermatologiczny": [
+     "T",
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ]
+   },
    "price": 10.5,
    "rating": 4.3,
    "reviews": 154,
-   "bsr": 2192,
-   "rev30d": 1790,
-   "bullets": [
-    "Olio idratante corpo – Quest'olio corpo, dermatologicamente testato, nutre intensamente la pelle molto secca e sensibile, rendendola più liscia e uniforme in una sola settimana",
-    "Ingredienti ricchi di lipidi e acidi grassi – L'olio corpo, adatto per le pelli secche, è formulato al 98% con ingredienti di origine naturale tra cui l'Olio di Avena e Olio di Jojoba, che nutrono la pelle",
-    "Anche per massaggi – Scegli quest'olio per massaggio rilassante corpo di Aveeno che, grazie al suo finish setoso, è adatto anche per massaggi e lascia la pelle morbida e profondamente idratata",
-    "Clinicamente testato – Olio per il Corpo ipoallergenico** e dalla texture leggera. Il 96% concorda sulla sensazione di morbidezza immediata della pelle*",
-    "Contenuto della confezione – Aveeno Skin Relief Olio Spray per il Corpo pelli secche e sensibili, olio da massaggio corpo spray che aiuta a ripristinare la barriera cutanea, 1 confezione da 200 ml"
+   "rev30": 1790,
+   "archival": false
+  },
+  {
+   "asin": "B09MFKXBFX",
+   "brand": "Oïléna",
+   "title": "Olio di Mandorle Pelle (Corpo e Viso) e Capelli, Anti Smagliature Gravidanza, Pelle Atopica e Bambini, Olio per Massaggi Professionale, Idratante e Ricco Vitamina E. 100% Naturale e Puro - 5000 ml",
+   "img": "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
+    "https://m.media-amazon.com/images/I/4136EcoEF0L.jpg",
+    "https://m.media-amazon.com/images/I/4136EcoEF0L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
+    "https://m.media-amazon.com/images/I/51F0bHXY+mL.jpg",
+    "https://m.media-amazon.com/images/I/51F0bHXY+mL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
+    "https://m.media-amazon.com/images/I/416ZF1Sl15L.jpg"
    ],
-   "description": ""
+   "bullets": [
+    "Coccola la tua pelle durante la gravidanza con il nostro olio di mandorle dolci, appositamente formulato per idratare la pelle e aiutare a ridurre e prevenire la comparsa delle smagliature tipiche della gravidanza. Perfetto per idratare la pelle dopo la doccia. Offre la stessa cura delicata alla pelle sensibile del tuo bambino.",
+    "Ripara e rafforza i tuoi capelli e la barba con il nostro olio di mandorle di alta qualità, noto per il suo ricco contenuto di vitamina E. Dì addio ai capelli secchi e danneggiati, poiché il nostro olio di mandorle favorisce la lucentezza, riduce le doppie punte e migliora la salute generale di capelli e barba.",
+    "Ringiovanisci la tua pelle e ottieni un incarnato radioso con le proprietà anti-invecchiamento del nostro olio di mandorle. Non solo combatte le rughe e le linee sottili mentre idrata la tua pelle, ma agisce anche come struccante naturale senza danneggiare la pelle, lasciandola pulita, levigata e soda. ¡Anche sulle labbra!",
+    "Base di oli essenziali (olio vettore) e di altri prodotti per la creazione di cosmetici fatti in casa. La sua versatilità lo rende il preferito dai terapisti del massaggio. L'olio di mandorle può essere applicato sulla pelle del cliente durante i massaggi per facilitare movimenti fluidi e aiutare le mani del terapeuta a scivolare senza sforzo.",
+    "Contenitore con blocco raggi ultravioletti. Protegge il contenuto del prodotto e ne conserva la qualità. Dosatore che facilita la giusta quantità. Piacevole al tatto e scivolamento perfetto. Inodore. Estratto a freddo. Molto resistent. 100% Naturale. 100% Puro. Scegli il meglio."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "dla_dzieci",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "skora_atopowa": [
+     "T"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ]
+   },
+   "price": 52.42,
+   "rating": 4.4,
+   "reviews": 23,
+   "rev30": 382,
+   "archival": false
+  },
+  {
+   "asin": "B07VR7Z936",
+   "brand": "Oïléna",
+   "title": "Olio di Mandorle Pelle (Corpo e Viso) e Capelli, Anti Smagliature Gravidanza, Pelle Atopica e Bambini, Olio per Massaggi Professionale, Idratante e Ricco Vitamina E. 100% Naturale e Puro - 1000 ml",
+   "img": "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
+    "https://m.media-amazon.com/images/I/314We34iTNL.jpg",
+    "https://m.media-amazon.com/images/I/314We34iTNL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
+    "https://m.media-amazon.com/images/I/51F0bHXY+mL.jpg",
+    "https://m.media-amazon.com/images/I/51F0bHXY+mL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
+    "https://m.media-amazon.com/images/I/416ZF1Sl15L.jpg"
+   ],
+   "bullets": [
+    "Coccola la tua pelle durante la gravidanza con il nostro olio di mandorle dolci, appositamente formulato per idratare la pelle e aiutare a ridurre e prevenire la comparsa delle smagliature tipiche della gravidanza. Perfetto per idratare la pelle dopo la doccia. Offre la stessa cura delicata alla pelle sensibile del tuo bambino.",
+    "Ripara e rafforza i tuoi capelli e la barba con il nostro olio di mandorle di alta qualità, noto per il suo ricco contenuto di vitamina E. Dì addio ai capelli secchi e danneggiati, poiché il nostro olio di mandorle favorisce la lucentezza, riduce le doppie punte e migliora la salute generale di capelli e barba.",
+    "Ringiovanisci la tua pelle e ottieni un incarnato radioso con le proprietà anti-invecchiamento del nostro olio di mandorle. Non solo combatte le rughe e le linee sottili mentre idrata la tua pelle, ma agisce anche come struccante naturale senza danneggiare la pelle, lasciandola pulita, levigata e soda. ¡Anche sulle labbra!",
+    "Base di oli essenziali (olio vettore) e di altri prodotti per la creazione di cosmetici fatti in casa. La sua versatilità lo rende il preferito dai terapisti del massaggio. L'olio di mandorle può essere applicato sulla pelle del cliente durante i massaggi per facilitare movimenti fluidi e aiutare le mani del terapeuta a scivolare senza sforzo.",
+    "Contenitore con blocco raggi ultravioletti. Protegge il contenuto del prodotto e ne conserva la qualità. Dosatore che facilita la giusta quantità. Piacevole al tatto e scivolamento perfetto. Inodore. Estratto a freddo. Molto resistent. 100% Naturale. 100% Puro. Scegli il meglio."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "dla_dzieci",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "skora_atopowa": [
+     "T"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ]
+   },
+   "price": 16.46,
+   "rating": 4.4,
+   "reviews": 460,
+   "rev30": 370,
+   "archival": false
+  },
+  {
+   "asin": "B0CSYNGW6H",
+   "brand": "Oïléna",
+   "title": "Olio di Mandorle Pelle (Corpo e Viso) e Capelli, Anti Smagliature Gravidanza, Pelle Atopica e Bambini, Olio per Massaggi Professionale, Idratante e Ricco Vitamina E. 100% Naturale e Puro - 250 ml",
+   "img": "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
+    "https://m.media-amazon.com/images/I/311ZfpK1KTL.jpg",
+    "https://m.media-amazon.com/images/I/311ZfpK1KTL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61Y4CzrF2EL.jpg",
+    "https://m.media-amazon.com/images/I/41347Z8nQPL.jpg",
+    "https://m.media-amazon.com/images/I/41347Z8nQPL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71HTsginguL.jpg",
+    "https://m.media-amazon.com/images/I/51QifDoYOmL.jpg"
+   ],
+   "bullets": [
+    "Coccola la tua pelle durante la gravidanza con il nostro olio di mandorle dolci, appositamente formulato per idratare la pelle e aiutare a ridurre e prevenire la comparsa delle smagliature tipiche della gravidanza. Perfetto per idratare la pelle dopo la doccia. Offre la stessa cura delicata alla pelle sensibile del tuo bambino.",
+    "Ripara e rafforza i tuoi capelli e la barba con il nostro olio di mandorle di alta qualità, noto per il suo ricco contenuto di vitamina E. Dì addio ai capelli secchi e danneggiati, poiché il nostro olio di mandorle favorisce la lucentezza, riduce le doppie punte e migliora la salute generale di capelli e barba.",
+    "Ringiovanisci la tua pelle e ottieni un incarnato radioso con le proprietà anti-invecchiamento del nostro olio di mandorle. Non solo combatte le rughe e le linee sottili mentre idrata la tua pelle, ma agisce anche come struccante naturale senza danneggiare la pelle, lasciandola pulita, levigata e soda. ¡Anche sulle labbra!",
+    "Base di oli essenziali (olio vettore) e di altri prodotti per la creazione di cosmetici fatti in casa. La sua versatilità lo rende il preferito dai terapisti del massaggio. L'olio di mandorle può essere applicato sulla pelle del cliente durante i massaggi per facilitare movimenti fluidi e aiutare le mani del terapeuta a scivolare senza sforzo.",
+    "Contenitore con blocco raggi ultravioletti. Protegge il contenuto del prodotto e ne conserva la qualità. Dosatore che facilita la giusta quantità. Piacevole al tatto e scivolamento perfetto. Inodore. Estratto a freddo. Molto resistent. 100% Naturale. 100% Puro. Scegli il meglio."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "dla_dzieci",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "skora_atopowa": [
+     "T"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ]
+   },
+   "price": 19.89,
+   "rating": 4.6,
+   "reviews": 11,
+   "rev30": 38,
+   "archival": false
   }
  ],
- "claimsMatrix": {
-  "themes": [
-   {
-    "id": "nawilzenie",
-    "label": "Nawilżenie"
-   },
-   {
-    "id": "bariera",
-    "label": "Odbudowa bariery"
-   },
-   {
-    "id": "hipoalergiczny",
-    "label": "Hipoalergiczny"
-   },
-   {
-    "id": "dermatologiczny",
-    "label": "Dermatologicznie testowany"
-   },
-   {
-    "id": "naturalny",
-    "label": "Naturalny / wegański"
-   },
-   {
-    "id": "cena_pojemnosc",
-    "label": "Ekonomiczny / duża pojemność"
-   }
-  ],
-  "rows": [
-   {
-    "brand": "Aveeno",
-    "asin": "B0DR8VV2H1",
-    "cells": [
-     true,
-     true,
-     true,
-     true,
-     true,
-     true
-    ]
-   }
-  ]
- },
- "claimsSummary": [
+ "themes": [
   {
-   "label": "Nawilżenie",
-   "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "Aveeno"
-   ]
+   "key": "nawilzenie",
+   "label": "Nawilżenie"
   },
   {
+   "key": "skora_atopowa",
+   "label": "Skóra atopowa / egzema"
+  },
+  {
+   "key": "kojacy",
+   "label": "Kojący / łagodzący"
+  },
+  {
+   "key": "bariera",
+   "label": "Odbudowa bariery"
+  },
+  {
+   "key": "dla_dzieci",
+   "label": "Dla dzieci / niemowląt"
+  },
+  {
+   "key": "hipoalergiczny",
+   "label": "Hipoalergiczny"
+  },
+  {
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany"
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański"
+  },
+  {
+   "key": "wchlanianie",
+   "label": "Szybkie wchłanianie"
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący"
+  },
+  {
+   "key": "cena_pojemnosc",
+   "label": "Ekonomiczny / duża pojemność"
+  }
+ ],
+ "adoption": [
+  {
+   "key": "nawilzenie",
+   "label": "Nawilżenie",
+   "count": 5,
+   "pct": 100
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański",
+   "count": 5,
+   "pct": 100
+  },
+  {
+   "key": "cena_pojemnosc",
+   "label": "Ekonomiczny / duża pojemność",
+   "count": 5,
+   "pct": 100
+  },
+  {
+   "key": "skora_atopowa",
+   "label": "Skóra atopowa / egzema",
+   "count": 3,
+   "pct": 60
+  },
+  {
+   "key": "dla_dzieci",
+   "label": "Dla dzieci / niemowląt",
+   "count": 3,
+   "pct": 60
+  },
+  {
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany",
+   "count": 2,
+   "pct": 40
+  },
+  {
+   "key": "kojacy",
+   "label": "Kojący / łagodzący",
+   "count": 1,
+   "pct": 20
+  },
+  {
+   "key": "bariera",
    "label": "Odbudowa bariery",
    "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "Aveeno"
-   ]
+   "pct": 20
   },
   {
+   "key": "hipoalergiczny",
    "label": "Hipoalergiczny",
    "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "Aveeno"
-   ]
+   "pct": 20
   },
   {
-   "label": "Dermatologicznie testowany",
+   "key": "wchlanianie",
+   "label": "Szybkie wchłanianie",
    "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "Aveeno"
-   ]
+   "pct": 20
   },
   {
-   "label": "Naturalny / wegański",
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący",
    "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "Aveeno"
-   ]
-  },
-  {
-   "label": "Ekonomiczny / duża pojemność",
-   "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "Aveeno"
-   ]
+   "pct": 20
   }
  ],
  "vocGap": [
   {
-   "vocTopic": "Tłustość i wolne wchłanianie",
-   "customerConcernPct": "35.0%",
-   "addressedByCount": 0,
-   "addressedByBrands": [],
-   "gapSeverity": "HIGH",
-   "whitespace": "true"
+   "vocTopic": "Skład i mylące 'bio' (parafina)",
+   "vocPct": 30.0,
+   "theme": "Naturalny / wegański",
+   "addressed": 5,
+   "total": 5,
+   "pct": 100,
+   "sev": "LOW",
+   "brands": [
+    "Dermovitamina",
+    "Aveeno",
+    "Oïléna"
+   ]
   },
   {
-   "vocTopic": "Dozownik / spray",
-   "customerConcernPct": "10.0%",
-   "addressedByCount": 0,
-   "addressedByBrands": [],
-   "gapSeverity": "HIGH",
-   "whitespace": "true"
+   "vocTopic": "Brak skuteczności na rozstępy i blizny",
+   "vocPct": 24.0,
+   "theme": "",
+   "addressed": 0,
+   "total": 5,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
   },
   {
-   "vocTopic": "Zapach zbyt intensywny / trwały",
-   "customerConcernPct": "8.0%",
-   "addressedByCount": 0,
-   "addressedByBrands": [],
-   "gapSeverity": "HIGH",
-   "whitespace": "true"
+   "vocTopic": "Tłusty film i słabe wchłanianie",
+   "vocPct": 20.0,
+   "theme": "Szybkie wchłanianie",
+   "addressed": 1,
+   "total": 5,
+   "pct": 20,
+   "sev": "MED",
+   "brands": [
+    "Dermovitamina"
+   ]
   },
   {
-   "vocTopic": "Cena / oczekiwania",
-   "customerConcernPct": "6.0%",
-   "addressedByCount": 1,
-   "addressedByBrands": [
-    "Aveeno"
-   ],
-   "gapSeverity": "MEDIUM",
-   "whitespace": "true"
+   "vocTopic": "Reakcje skórne, świąd i alergia",
+   "vocPct": 16.0,
+   "theme": "Redukcja świądu",
+   "addressed": 0,
+   "total": 5,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
+  },
+  {
+   "vocTopic": "Opakowanie, brak plomby i podróbki",
+   "vocPct": 14.0,
+   "theme": "",
+   "addressed": 0,
+   "total": 5,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
+  },
+  {
+   "vocTopic": "Cena i nieprzyjemny zapach",
+   "vocPct": 12.0,
+   "theme": "Bez zapachu / perfum",
+   "addressed": 0,
+   "total": 5,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
   }
  ],
- "whitespaceOpportunities": [],
- "saturation": [
+ "whitespace": [
   {
-   "label": "Nawilżenie",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "label": "Kojący / łagodzący",
+   "pct": 20,
+   "why": "Tylko 1/5 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
    "label": "Odbudowa bariery",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "pct": 20,
+   "why": "Tylko 1/5 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
    "label": "Hipoalergiczny",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "pct": 20,
+   "why": "Tylko 1/5 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "label": "Dermatologicznie testowany",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "label": "Szybkie wchłanianie",
+   "pct": 20,
+   "why": "Tylko 1/5 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Odżywczy / regenerujący",
+   "pct": 20,
+   "why": "Tylko 1/5 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  }
+ ],
+ "saturation": [
+  {
+   "label": "Nawilżenie",
+   "pct": 100,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
    "label": "Naturalny / wegański",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "pct": 100,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
    "label": "Ekonomiczny / duża pojemność",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
-  }
- ],
- "strategicRecommendations": [
-  {
-   "type": "Luka VOC↔listing",
-   "badgeBg": "#fee2e2",
-   "badgeColor": "#991b1b",
-   "finding": "Klienci skarżą się na: Tłustość i wolne wchłanianie, Dozownik / spray, Zapach zbyt intensywny / trwały, a żaden czołowy konkurent tego nie adresuje w treści listingu.",
-   "implication": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
+   "pct": 100,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
-   "type": "Parytet",
-   "badgeBg": "#dcfce7",
-   "badgeColor": "#166534",
-   "finding": "Nasycone deklaracje: Nawilżenie, Odbudowa bariery, Hipoalergiczny, Dermatologicznie testowany.",
-   "implication": "Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca."
+   "label": "Skóra atopowa / egzema",
+   "pct": 60,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Dla dzieci / niemowląt",
+   "pct": 60,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Dermatologicznie testowany",
+   "pct": 40,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "pct": 20,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Odbudowa bariery",
+   "pct": 20,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Hipoalergiczny",
+   "pct": 20,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Szybkie wchłanianie",
+   "pct": 20,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Odżywczy / regenerujący",
+   "pct": 20,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  }
+ ],
+ "recs": [
+  {
+   "type": "Messaging",
+   "finding": "Negatywy VOC dotyczą: Brak skuteczności na rozstępy i blizny, Reakcje skórne, świąd i alergia, Opakowanie, brak plomby i podróbki — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
+  },
+  {
+   "type": "Pozycjonowanie",
+   "finding": "Nisko wysycone claimy: Kojący / łagodzący, Odbudowa bariery, Hipoalergiczny, Szybkie wchłanianie.",
+   "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
+  },
+  {
+   "type": "Produkt",
+   "finding": "Nasycone (obowiązkowe) claimy: Nawilżenie, Naturalny / wegański, Ekonomiczny / duża pojemność.",
+   "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]
 }

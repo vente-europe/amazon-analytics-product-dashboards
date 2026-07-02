@@ -81,9 +81,10 @@ def load_listing(code, asin):
 def img_url(im):
     return im.get('url') if isinstance(im, dict) else im
 
-def tag_claims(text):
-    t = text.lower()
-    return [tid for tid, label, kw, plk in THEMES if any(k in t for k in kw)]
+def claims_in(text):
+    """set of theme ids whose local-language keywords appear in `text`."""
+    t = (text or '').lower()
+    return set(tid for tid, label, kw, plk in THEMES if any(k in t for k in kw))
 
 def build(code, seg):
     slug = seg.lower()
@@ -112,101 +113,109 @@ def build(code, seg):
             if isinstance(im, dict) and im.get('variant') == 'MAIN':
                 main = im.get('url'); break
         if not main and imgs: main = imgs[0]
-        themes = tag_claims(' '.join([title] + bullets + [desc]))
+        t_claims = claims_in(title)
+        b_claims = claims_in(' '.join(bullets))
+        allc = t_claims | b_claims
+        theme_src = {}
+        for tid in allc:
+            src = []
+            if tid in t_claims: src.append('T')
+            if tid in b_claims: src.append('BP')
+            theme_src[tid] = src
+        order = [t[0] for t in THEMES]
+        rev30 = x.get('rev30d', 0)
         competitors.append({
             'asin': a, 'brand': (lst.get('brand') or x.get('brand') or 'Unknown'),
-            'title': title, 'mainImage': main, 'images': imgs[:8],
-            'themes': themes, 'price': x.get('price', 0), 'rating': x.get('rating', 0),
-            'reviews': x.get('reviews', 0), 'bsr': x.get('bsr', 0), 'rev30d': x.get('rev30d', 0),
-            'bullets': bullets[:8], 'description': desc[:1200],
+            'title': title, 'img': main, 'imgs': imgs[:8], 'bullets': bullets[:8],
+            'themes': sorted(allc, key=lambda tid: order.index(tid)),
+            'themeSrc': theme_src,
+            'price': x.get('price', 0), 'rating': x.get('rating', 0),
+            'reviews': x.get('reviews', 0), 'rev30': rev30, 'archival': rev30 == 0,
         })
     n = len(competitors)
 
-    # claims matrix + summary
-    used = [t for t in THEMES if any(t[0] in c['themes'] for c in competitors)]
-    matrix_themes = [{'id': t[0], 'label': t[1]} for t in used]
-    rows = [{'brand': c['brand'], 'asin': c['asin'],
-             'cells': [t[0] in c['themes'] for t in used]} for c in competitors]
-    summary = []
-    for t in used:
-        cnt = sum(1 for c in competitors if t[0] in c['themes'])
-        brands = [c['brand'] for c in competitors if t[0] in c['themes']]
-        # unique, keep order
-        seen = [];
-        for b in brands:
-            if b not in seen: seen.append(b)
-        summary.append({'label': t[1], 'count': cnt, 'pct': round(cnt / n * 100),
-                        'topBrands': seen[:3]})
-    summary.sort(key=lambda s: s['count'], reverse=True)
+    order = [t[0] for t in THEMES]
+    label_by_id = {t[0]: t[1] for t in THEMES}
+    def count_of(tid): return sum(1 for c in competitors if tid in c['themes'])
+
+    # matrix columns = claims present in >=1 competitor, in THEMES order
+    used_ids = [tid for tid in order if count_of(tid) > 0]
+    themes_out = [{'key': tid, 'label': label_by_id[tid]} for tid in used_ids]
+
+    # adoption (sorted desc by count)
+    adoption = sorted(
+        [{'key': tid, 'label': label_by_id[tid], 'count': count_of(tid),
+          'pct': round(count_of(tid) / n * 100)} for tid in used_ids],
+        key=lambda a: a['count'], reverse=True)
+    avg_claims = round(sum(len(c['themes']) for c in competitors) / n, 1) if n else 0
 
     # VOC gap — match Polish negativeTopics to themes via PL keywords
     voc_path = os.path.join(BASE, 'reviews', code, seg, 'voc.json')
     voc_gap = []
     if os.path.exists(voc_path):
         voc = json.load(open(voc_path, encoding='utf-8'))
-        theme_by_id = {t[0]: t for t in THEMES}
-        count_by_id = {t[0]: sum(1 for c in competitors if t[0] in c['themes']) for t in THEMES}
         for nt in (voc.get('negativeTopics') or [])[:6]:
             blob = (nt.get('label', '') + ' ' + nt.get('reason', '')).lower()
-            match = None
-            for t in THEMES:
-                if any(k in blob for k in t[3]):
-                    match = t; break
-            addressed = count_by_id.get(match[0], 0) if match else 0
-            brands = [c['brand'] for c in competitors if match and match[0] in c['themes']][:3]
-            pct_num = numv(nt.get('pct'))
-            if addressed == 0:
-                sev = 'HIGH'
-            elif addressed <= max(1, n * 0.25):
-                sev = 'MEDIUM'
-            else:
-                sev = 'LOW'
+            match = next((t for t in THEMES if any(k in blob for k in t[3])), None)
+            addressed = count_of(match[0]) if match else 0
+            brands = []
+            if match:
+                for c in competitors:
+                    if match[0] in c['themes'] and c['brand'] not in brands:
+                        brands.append(c['brand'])
+            pct = round(addressed / n * 100) if n else 0
+            sev = 'HIGH' if addressed == 0 else ('MED' if addressed <= max(1, n * 0.25) else 'LOW')
             voc_gap.append({
-                'vocTopic': nt.get('label', ''), 'customerConcernPct': nt.get('pct', ''),
-                'addressedByCount': addressed, 'addressedByBrands': brands,
-                'gapSeverity': sev, 'whitespace': 'true' if addressed <= max(1, n * 0.25) else 'false',
+                'vocTopic': nt.get('label', ''), 'vocPct': numv(nt.get('pct')),
+                'theme': match[1] if match else '',
+                'addressed': addressed, 'total': n, 'pct': pct,
+                'sev': sev, 'brands': brands[:5],
             })
 
-    # whitespace (<=25%) + saturation (>=60%)
-    whitespace = [{'opportunity': s['label'],
-                   'rationale': f"Tylko {s['count']}/{n} konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
-                   'evidence': ('Obecne marki: ' + ', '.join(s['topBrands'])) if s['topBrands'] else 'Żaden z czołowych konkurentów tego nie eksponuje.'}
-                  for s in summary if s['pct'] <= 25]
-    saturation = [{'label': s['label'], 'saturationPct': f"{s['pct']}%",
-                   'advice': 'Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik.'}
-                  for s in summary if s['pct'] >= 60]
+    # whitespace (<30%) + saturation (all claims, tiered advice)
+    whitespace = [{'label': a['label'], 'pct': a['pct'],
+                   'why': f"Tylko {a['count']}/{n} konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."}
+                  for a in adoption if a['pct'] < 30]
+    def sat_advice(pct):
+        if pct >= 70: return 'Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem.'
+        if pct >= 30: return 'Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem.'
+        return 'Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia.'
+    saturation = [{'label': a['label'], 'pct': a['pct'], 'advice': sat_advice(a['pct'])} for a in adoption]
 
-    # strategic recommendations (Polish, from gaps + whitespace)
+    # typed strategic recommendations (Polish)
     recs = []
-    high = [g for g in voc_gap if g['gapSeverity'] == 'HIGH']
+    high = [g for g in voc_gap if g['sev'] == 'HIGH']
     if high:
-        recs.append({'type': 'Luka VOC↔listing', 'badgeBg': '#fee2e2', 'badgeColor': '#991b1b',
-                     'finding': 'Klienci skarżą się na: ' + ', '.join(g['vocTopic'] for g in high[:3]) + ', a żaden czołowy konkurent tego nie adresuje w treści listingu.',
-                     'implication': 'Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna.'})
+        recs.append({'type': 'Messaging',
+                     'finding': 'Negatywy VOC dotyczą: ' + ', '.join(g['vocTopic'] for g in high[:3]) + ' — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.',
+                     'impl': 'Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna.'})
     if whitespace:
-        recs.append({'type': 'Białe plamy', 'badgeBg': '#fef3c7', 'badgeColor': '#92400e',
-                     'finding': 'Nisko wysycone tematy: ' + ', '.join(w['opportunity'] for w in whitespace[:4]) + '.',
-                     'implication': 'Jeśli produkt spełnia te cechy — wyeksponuj je, bo konkurencja tego nie robi.'})
-    if saturation:
-        recs.append({'type': 'Parytet', 'badgeBg': '#dcfce7', 'badgeColor': '#166534',
-                     'finding': 'Nasycone deklaracje: ' + ', '.join(s['label'] for s in saturation[:4]) + '.',
-                     'implication': 'Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca.'})
+        recs.append({'type': 'Pozycjonowanie',
+                     'finding': 'Nisko wysycone claimy: ' + ', '.join(w['label'] for w in whitespace[:4]) + '.',
+                     'impl': 'Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi.'})
+    top_sat = [a for a in adoption if a['pct'] >= 70]
+    if top_sat:
+        recs.append({'type': 'Produkt',
+                     'finding': 'Nasycone (obowiązkowe) claimy: ' + ', '.join(a['label'] for a in top_sat[:4]) + '.',
+                     'impl': 'To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością.'})
 
     mdd = {
-        'totalCompetitors': n, 'marketplace': MARKETPLACE.get(code, f'amazon.{code.lower()}'),
+        'totalCompetitors': n,
+        'marketplace': MARKETPLACE.get(code, f'amazon.{code.lower()}'),
+        'avgClaims': avg_claims,
         'competitors': competitors,
-        'claimsMatrix': {'themes': matrix_themes, 'rows': rows},
-        'claimsSummary': summary,
+        'themes': themes_out,
+        'adoption': adoption,
         'vocGap': voc_gap,
-        'whitespaceOpportunities': whitespace,
+        'whitespace': whitespace,
         'saturation': saturation,
-        'strategicRecommendations': recs,
+        'recs': recs,
     }
     outdir = os.path.join(BASE, 'data', 'competitor-listings', code)
     os.makedirs(outdir, exist_ok=True)
     json.dump(mdd, open(os.path.join(outdir, f'mdd-{slug}.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=1)
-    print(f'  {code}/{seg}: mdd-{slug}.json ({n} competitors, {len(matrix_themes)} themes, {len(voc_gap)} VOC-gap rows, {len(whitespace)} whitespace)')
+    print(f'  {code}/{seg}: mdd-{slug}.json ({n} comp, {len(themes_out)} claims, {len(voc_gap)} VOC-gap, {len(whitespace)} whitespace)')
 
 def all_buckets():
     for code in ['DE','FR','IT','ES']:

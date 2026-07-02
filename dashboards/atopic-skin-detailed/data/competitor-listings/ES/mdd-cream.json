@@ -1,13 +1,14 @@
 {
  "totalCompetitors": 12,
  "marketplace": "amazon.es",
+ "avgClaims": 4.8,
  "competitors": [
   {
    "asin": "B0D1GK2ZKB",
    "brand": "Neutrogena",
    "title": "Neutrogena Fórmula Noruega Loción Corporal CICA Reparación intensa para piel seca (Pack de 2 x 750 ml), crema hidratante corporal reparadora con centella asiática",
-   "mainImage": "https://m.media-amazon.com/images/I/61Nxo8mqIBL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/61Nxo8mqIBL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/61Nxo8mqIBL.jpg",
     "https://m.media-amazon.com/images/I/417+zfhRXYL.jpg",
     "https://m.media-amazon.com/images/I/417+zfhRXYL._SL75_.jpg",
@@ -17,16 +18,6 @@
     "https://m.media-amazon.com/images/I/71l-jsfE8JL.jpg",
     "https://m.media-amazon.com/images/I/518gy8esljL.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "cena_pojemnosc"
-   ],
-   "price": 15.29,
-   "rating": 4.7,
-   "reviews": 743,
-   "bsr": 109,
-   "rev30d": 56324,
    "bullets": [
     "Fórmula Noruega: La loción corporal CICA de Neutrogena contiene un 10% de glicerina y Centella Asiática, un potente antioxidante conocido por sus propiedades reparadoras",
     "Reparación intensa: Esta crema corporal para piel muy seca aporta 4 beneficios en 1: alivia, repara, fortalece y protege la barrera cutánea de la sequedad desde el primer uso",
@@ -34,14 +25,36 @@
     "Desarrollada con dermatólogos y probada clínicamente. La fórmula de esta crema Neutrogena alivia e repara intensamente la barrera cutánea desde el primer uso y la mantiene hidratada durante 72 horas",
     "Envase reciclable: Tanto el dosificador como las botellas de 750 ml de esta crema hidratante corporal son 100% reciclables y están fabricados con un 50% de plástico reciclado**"
    ],
-   "description": ""
+   "themes": [
+    "nawilzenie",
+    "bariera",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ]
+   },
+   "price": 15.29,
+   "rating": 4.7,
+   "reviews": 743,
+   "rev30": 56324,
+   "archival": false
   },
   {
    "asin": "B087XGVFL1",
    "brand": "BEPANTOL DERMA",
    "title": "Crema Hidratante Piel Atópica - Bepanthol SensiControl Crema Emoliente Diaria con Pro-Vitamina B5 - Favorece una Hidratación Profunda y Duradera una Piel Sana y Protegida - 400 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/61J5r5t+SfL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/61J5r5t+SfL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/61J5r5t+SfL.jpg",
     "https://m.media-amazon.com/images/I/312aKoUUajL.jpg",
     "https://m.media-amazon.com/images/I/312aKoUUajL._SL75_.jpg",
@@ -51,6 +64,13 @@
     "https://m.media-amazon.com/images/I/71sMmwWUcXL.jpg",
     "https://m.media-amazon.com/images/I/41LUgBmlgxL.jpg"
    ],
+   "bullets": [
+    "CREMA PIELES ATÓPICAS: Bepanthol SensiControl Crema Emoliente cuida a diario de tu piel sensible y con tendencia atópica manteniéndola libre de brotes durante al menos 3 meses",
+    "BEPANTHOL SENSICONTROL: Aporta un prebiótico que estimula la microflora cutánea de defensa, vitamina B3, provitamina B5 y aceites naturales como el aceite de oliva y el aceite de bayas de espino amarillo que refuerzan la barrera cutánea",
+    "CREMA EMOLIENTE PARA PIELES ATÓPICAS: Su fórmula única Derma-Defense refuerza las defensas naturales para que la piel sensible con tendencia atópica se mantenga sana y protegida",
+    "TECNOLOGÍA DE LÍPIDOS LAMINARES: Potencian la barrera protectora de la piel desde el interior con hidratantes fisiológicos para una protección de larga duración",
+    "FÓRMULA ÚNICA TESTADA BAJO CONTROL DERMATOLÓGICO Y PEDIÁTRICO para el control diario de la piel atópica de bebés, niños y adultos. La crema para piel atópica puede aplicarse diariamente para proteger la barrera cutánea tantas veces como se necesite, sobre las zonas de la piel libre de brotes de eccema"
+   ],
    "themes": [
     "nawilzenie",
     "skora_atopowa",
@@ -60,26 +80,43 @@
     "naturalny",
     "cena_pojemnosc"
    ],
+   "themeSrc": {
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ]
+   },
    "price": 19.5,
    "rating": 4.6,
    "reviews": 1435,
-   "bsr": 274,
-   "rev30d": 32456,
-   "bullets": [
-    "CREMA PIELES ATÓPICAS: Bepanthol SensiControl Crema Emoliente cuida a diario de tu piel sensible y con tendencia atópica manteniéndola libre de brotes durante al menos 3 meses",
-    "BEPANTHOL SENSICONTROL: Aporta un prebiótico que estimula la microflora cutánea de defensa, vitamina B3, provitamina B5 y aceites naturales como el aceite de oliva y el aceite de bayas de espino amarillo que refuerzan la barrera cutánea",
-    "CREMA EMOLIENTE PARA PIELES ATÓPICAS: Su fórmula única Derma-Defense refuerza las defensas naturales para que la piel sensible con tendencia atópica se mantenga sana y protegida",
-    "TECNOLOGÍA DE LÍPIDOS LAMINARES: Potencian la barrera protectora de la piel desde el interior con hidratantes fisiológicos para una protección de larga duración",
-    "FÓRMULA ÚNICA TESTADA BAJO CONTROL DERMATOLÓGICO Y PEDIÁTRICO para el control diario de la piel atópica de bebés, niños y adultos. La crema para piel atópica puede aplicarse diariamente para proteger la barrera cutánea tantas veces como se necesite, sobre las zonas de la piel libre de brotes de eccema"
-   ],
-   "description": ""
+   "rev30": 32456,
+   "archival": false
   },
   {
    "asin": "B0BJFP4VYY",
    "brand": "TALQUISTINA",
    "title": "TALQUISTINA - Crema Hidratante 400ml, para Pieles con Picor, Uso Diario, Hidratación de Larga Duración, Protege y Calma la Sequedad, Apta Pieles Sensibles.",
-   "mainImage": "https://m.media-amazon.com/images/I/61auJKXDwQL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/61auJKXDwQL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/61auJKXDwQL.jpg",
     "https://m.media-amazon.com/images/I/31zsbtsBA+L.jpg",
     "https://m.media-amazon.com/images/I/31zsbtsBA+L._SL75_.jpg",
@@ -89,17 +126,6 @@
     "https://m.media-amazon.com/images/I/615UQzNnJAL.jpg",
     "https://m.media-amazon.com/images/I/31MiAJH99gL.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "kojacy",
-    "swiad",
-    "cena_pojemnosc"
-   ],
-   "price": 23.08,
-   "rating": 4.6,
-   "reviews": 776,
-   "bsr": 515,
-   "rev30d": 23001,
    "bullets": [
     "CREMA HIDRATANTE: Talquistina Hidratante de uso diario especialmente desarrollada para el cuidado diario de las pieles con picor ya que proporciona un cuidado y una hidratación de larga duración. Hidrata y calma el picor en la piel",
     "LARGA DURACIÓN: Proporcionar un alivio rápido y efectivo de la sequedad y el picor en la piel manteniendo la piel suave y flexible durante todo el día",
@@ -107,14 +133,41 @@
     "MODO DE USO: Aplicar diariamente sobre la piel limpia",
     "LACER: Lacer, que nació en 1949, tiene el propósito de mejorar la salud de las personas cada día, cuidando de su bienestar. Porque nos importa la salud integral y del planeta, siempre con calidad y rigurosidad en nuestra actuación"
    ],
-   "description": ""
+   "themes": [
+    "nawilzenie",
+    "kojacy",
+    "swiad",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "swiad": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 23.08,
+   "rating": 4.6,
+   "reviews": 776,
+   "rev30": 23001,
+   "archival": false
   },
   {
    "asin": "B00A3M1TIW",
    "brand": "Weleda",
    "title": "Weleda - Skin Food Original, Crema Reparadora, Nutre e Hidrata, con Aceite de Girasol y Almendra, Caléndula, Pensamiento Silvestre y Manzanilla, para Piel Muy Seca y Agrietada -75 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/51KFDzNEIyL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/51KFDzNEIyL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/51KFDzNEIyL.jpg",
     "https://m.media-amazon.com/images/I/31Q0EAW3MNL.jpg",
     "https://m.media-amazon.com/images/I/31Q0EAW3MNL._SL75_.jpg",
@@ -124,6 +177,13 @@
     "https://m.media-amazon.com/images/I/71V6cXo4IXL.jpg",
     "https://m.media-amazon.com/images/I/51osReowiXL.jpg"
    ],
+   "bullets": [
+    "Crema reparadora intensiva para las pieles secas, agrietadas y dañadas. Perfecta para cara y cuerpo, proporciona hidratación, calma y protege la piel de agresiones externas y el desecamiento cutáneo",
+    "Formulada con aceites vegetales de girasol y almendra, y extractos biológicos de plantas medicinales como el pensamiento silvestre, manzanilla y caléndula, que alivian todo tipo de irritaciones",
+    "Crema de efecto reparador intensivo y poder nutritivo, testada dermatológicamente. Sin conservantes, colorantes, perfumes sintéticos, ni sustancias de origen petroquímico",
+    "Razones para usar Skin Food Original: para nutrir la piel, calmar irritaciones, regenerar la piel. También como mascarilla revitalizante, iluminador del rostro o bálsamo labial reparador... y mucho más!",
+    "Consejos de uso: Rostro: aplicar mediante suaves toques para no estirar la piel, hasta su total absorción. Cuerpo: aplicar con un suave masaje en la zona afectada, hasta su total absorción"
+   ],
    "themes": [
     "kojacy",
     "dermatologiczny",
@@ -132,26 +192,38 @@
     "odzywczy",
     "cena_pojemnosc"
    ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
+    ]
+   },
    "price": 9.6,
    "rating": 4.6,
    "reviews": 4359,
-   "bsr": 168,
-   "rev30d": 15686,
-   "bullets": [
-    "Crema reparadora intensiva para las pieles secas, agrietadas y dañadas. Perfecta para cara y cuerpo, proporciona hidratación, calma y protege la piel de agresiones externas y el desecamiento cutáneo",
-    "Formulada con aceites vegetales de girasol y almendra, y extractos biológicos de plantas medicinales como el pensamiento silvestre, manzanilla y caléndula, que alivian todo tipo de irritaciones",
-    "Crema de efecto reparador intensivo y poder nutritivo, testada dermatológicamente. Sin conservantes, colorantes, perfumes sintéticos, ni sustancias de origen petroquímico",
-    "Razones para usar Skin Food Original: para nutrir la piel, calmar irritaciones, regenerar la piel. También como mascarilla revitalizante, iluminador del rostro o bálsamo labial reparador... y mucho más!",
-    "Consejos de uso: Rostro: aplicar mediante suaves toques para no estirar la piel, hasta su total absorción. Cuerpo: aplicar con un suave masaje en la zona afectada, hasta su total absorción"
-   ],
-   "description": ""
+   "rev30": 15686,
+   "archival": false
   },
   {
    "asin": "B0FRSZ94RH",
    "brand": "HNYGS-EU",
    "title": "Crema Antifúngica 30g, Para Aliviar la piel Jock Picazón, Eczema, Tratamiento Eficaz del Pies del Atleta, Calma la Picazón, Crema para Aliviar el Picor Cutáneo en Adultos",
-   "mainImage": "https://m.media-amazon.com/images/I/71h2z6fN5NL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/71h2z6fN5NL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/71h2z6fN5NL.jpg",
     "https://m.media-amazon.com/images/I/41sMmAlqkiL.jpg",
     "https://m.media-amazon.com/images/I/41sMmAlqkiL._SL75_.jpg",
@@ -161,20 +233,6 @@
     "https://m.media-amazon.com/images/I/51SG89upMQL.jpg",
     "https://m.media-amazon.com/images/I/51SG89upMQL._SL75_.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "skora_atopowa",
-    "kojacy",
-    "swiad",
-    "bariera",
-    "wchlanianie",
-    "cena_pojemnosc"
-   ],
-   "price": 11.99,
-   "rating": 4.4,
-   "reviews": 34,
-   "bsr": 397,
-   "rev30d": 13563,
    "bullets": [
     "Crema Antimicótica: Actúa sobre las causas fundamentales del pie de atleta, la tiña inguinal y la tiña con potentes agentes antimicóticos. Penetra profundamente en las capas de la piel para detener el crecimiento de hongos y prevenir su reaparición.",
     "Alivia Las Infecciones Cutáneas: Trata las infecciones fúngicas al tiempo que proporciona un rápido alivio calmante para la piel con ardor, picazón e irritación. Para hombres y mujeres de todo tipo de piel en el cuerpo.",
@@ -182,14 +240,40 @@
     "Fácil de Aplicar: Aplique una capa fina sobre las zonas afectadas limpias y secas dos veces al día (por la mañana y por la noche), masajeando suavemente hasta su completa absorción. Antes de utilizarlo por primera vez, realice una prueba en una zona pequeña y evite el contacto con los ojos.",
     "Usos Versátiles: Esta crema antimicótica previene y trata múltiples infecciones fúngicas, como el pie de atleta, la tiña inguinal y la tiña. Apta para pies, cuerpo y manos"
    ],
-   "description": "<b>Descripción del Producto:</b><br> ✓Crema Antifúngica: Alivia los pruritos, irritaciones o enrojecimientos causados por el eczema, la teigna, el pie de atleta, los pruritos de Jock u otras infecciones fúngicas de la piel, repara la apariencia sana de la piel.<br> ✓Fórmula Segura: Nuestra crema contra el picazón y la teignia contiene ingredientes a base de plantas dulces que alivian a los atletas del picazón, la teignia, el cuero cabelludo seborreico y las películas. La fórmula Deep Moisturizing no contiene éster de nipokina, no es irritante, apaciguante y sin peligro para la piel sensible.<br> ✓Hidrata y Protege tu piel: la crema antifúngica elimina los hongos mientras hidrata profundamente la piel seca y agrietada, creando una barrera protectora que retiene eficazmente la humedad y no deja residuos oleosos.<br> ✓Para el Rostro y el Cuerpo: Esta crema antifúngica se puede aplicar en las piernas, las manos, la espalda, las uñas, los pies o los pruritos de los deportistas.<br> ✓Modo de Uso: Lavar y secar la zona afectada, aplicar la cantidad adecuada de crema sobre la zona afectada y masajear hasta la absorción completa. Hacer una pequeña prueba cutánea antes de usar.<br><br> <b>Lo"
+   "themes": [
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "wchlanianie"
+   ],
+   "themeSrc": {
+    "wchlanianie": [
+     "BP"
+    ],
+    "swiad": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T"
+    ]
+   },
+   "price": 11.99,
+   "rating": 4.4,
+   "reviews": 34,
+   "rev30": 13563,
+   "archival": false
   },
   {
    "asin": "B00E0JG2FY",
    "brand": "BEPANTHOL",
    "title": "Bepanthol Pomada Protectora Hidratante, Protege y Regenera la Piel Seca, Irritada o Sensibilizada por Factores Externos, 100 g",
-   "mainImage": "https://m.media-amazon.com/images/I/71YWNssUnzL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/71YWNssUnzL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/71YWNssUnzL.jpg",
     "https://m.media-amazon.com/images/I/31NkmyYgqhL.jpg",
     "https://m.media-amazon.com/images/I/31NkmyYgqhL._SL75_.jpg",
@@ -199,18 +283,6 @@
     "https://m.media-amazon.com/images/I/716hu0GqdsL.jpg",
     "https://m.media-amazon.com/images/I/41V1bf4preL.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "price": 14.5,
-   "rating": 4.7,
-   "reviews": 1116,
-   "bsr": 613,
-   "rev30d": 12779,
    "bullets": [
     "Bepanthol Pomada Protectora es una crema protectora que protege diferentes afecciones cutáneas, regenera la piel, proporciona una elevada hidratación y actúa de barrera extra en zonas específicas",
     "Su contenido lipídico forma una barrera protectora que evita la deshidratación y aísla de sustancias irritantes y el Pantenol (provitamina B5) favorece la regeneración natural de la piel",
@@ -218,45 +290,72 @@
     "Aplicar una abundante capa sobre la piel limpia y seca en la zona afectada y extender la pomada con un suave masaje",
     "Esta crema protectora apta para toda la familia no contiene perfume, ni colorantes, ni conservantes y puede utilizarse con tanta frecuencia como sea necesario"
    ],
-   "description": ""
+   "themes": [
+    "nawilzenie",
+    "bariera",
+    "naturalny",
+    "odzywczy"
+   ],
+   "themeSrc": {
+    "naturalny": [
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ],
+    "bariera": [
+     "BP"
+    ]
+   },
+   "price": 14.5,
+   "rating": 4.7,
+   "reviews": 1116,
+   "rev30": 12779,
+   "archival": false
   },
   {
    "asin": "B0098G931Y",
    "brand": "Hengulus",
    "title": "Crema Dexeryl, 500 g",
-   "mainImage": "https://m.media-amazon.com/images/I/31IQMVmEjlL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/31IQMVmEjlL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/31IQMVmEjlL.jpg",
     "https://m.media-amazon.com/images/I/31IQMVmEjlL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61L+5+7R4ML.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "skora_atopowa",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "price": 15.99,
-   "rating": 4.6,
-   "reviews": 1364,
-   "bsr": 3118,
-   "rev30d": 11120,
    "bullets": [
     "Contiene complejos para el cuidado de la piel.",
     "Para piel seca.",
     "C&oacute;digo de farmacia alem&aacute;n: 07379385."
    ],
-   "description": "&Aacute;mbito de aplicaci&oacute;n de la <i>crema Dexeryl (tama&ntilde;o: 500&nbsp;g).</i><p><i>La crema Dexeryl (tama&ntilde;o: 500&nbsp;g)</i> es una crema reparadora para piel seca.</p>Eficacia de la <i>crema Dexeryl (tama&ntilde;o: 500&nbsp;g).</i><p><i>La crema Dexeryl (tama&ntilde;o: 500&nbsp;g)</i> es un cuidado intensivo para piel seca. La crema <i>Dexeryl (tama&ntilde;o: 500&nbsp;g)</i> es v&aacute;lida tanto para enfermedades de la piel, neurodermitis, como tambi&eacute;n para piel seca debido a fuertes da&ntilde;os o las malas condiciones clim&aacute;ticas. La <i>crema Dexeryl (tama&ntilde;o: 500&nbsp;g)</i> es ideal para el cuidado diario de adultos o ni&ntilde;os y para la cara o el cuerpo entero. <br /> Para combatir la piel seca, la <i>crema Dexeryl (tama&ntilde;o: 500&nbsp;g)</i> combina humedad y elasticidad. Adem&aacute;s, crea una capa protectora hidratante para la piel. <br /> La <i>crema Dexeryl (tama&ntilde;o: 500&nbsp;g)</i> se puede aplicar f&aacute;cilmente y no es grasa. Adem&aacute;s, la crema tiene un aroma muy agradable y no es pegajosa.</p>Sustancias activas/nutrientes/ingredientes.<p>Ingredientes de la <i>crema Dexeryl (tama&ntilde;o: 500&nbsp;g)</i>:"
+   "themes": [],
+   "themeSrc": {},
+   "price": 15.99,
+   "rating": 4.6,
+   "reviews": 1364,
+   "rev30": 11120,
+   "archival": false
   },
   {
    "asin": "B0FHQ1Z14S",
    "brand": "CeraVe",
    "title": "CeraVe Creme Hidratante Intensivo Para Pele Seca a Muito Seca 340 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/516g-JSN04L.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/516g-JSN04L.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/516g-JSN04L.jpg",
     "https://m.media-amazon.com/images/I/31wFcGHB-rL.jpg",
     "https://m.media-amazon.com/images/I/31wFcGHB-rL._SL75_.jpg"
+   ],
+   "bullets": [
+    "Crema hidratante rica con un 5 % de Hydro-Urea para una hidratación intensiva y continua de la barrera cutánea.",
+    "Contiene 3 ceramidas esenciales y manteca de karité para retener la hidratación natural de la piel.",
+    "Proporciona 72 horas de hidratación*, mejora la luminosidad y reduce la descamación. *Test instrumental en 28 sujetos.",
+    "Testada bajo control dermatológico, sin perfume, no comedogénica y de rápida absorción.",
+    "Apta para todos los tipos de piel, incluidas las sensibles. Usar día y noche para obtener mejores resultados."
    ],
    "themes": [
     "nawilzenie",
@@ -267,26 +366,42 @@
     "wchlanianie",
     "cena_pojemnosc"
    ],
+   "themeSrc": {
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "bez_zapachu": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ]
+   },
    "price": 20.4,
    "rating": 4.6,
    "reviews": 117,
-   "bsr": 2135,
-   "rev30d": 10712,
-   "bullets": [
-    "Crema hidratante rica con un 5 % de Hydro-Urea para una hidratación intensiva y continua de la barrera cutánea.",
-    "Contiene 3 ceramidas esenciales y manteca de karité para retener la hidratación natural de la piel.",
-    "Proporciona 72 horas de hidratación*, mejora la luminosidad y reduce la descamación. *Test instrumental en 28 sujetos.",
-    "Testada bajo control dermatológico, sin perfume, no comedogénica y de rápida absorción.",
-    "Apta para todos los tipos de piel, incluidas las sensibles. Usar día y noche para obtener mejores resultados."
-   ],
-   "description": ""
+   "rev30": 10712,
+   "archival": false
   },
   {
    "asin": "B097H85186",
    "brand": "BEPANTHOL",
    "title": "Bepanthol Derma Reparadora Crema Facial Hidratante De Día, Piel Muy Seca Y Sensible, 50 Mililitros",
-   "mainImage": "https://m.media-amazon.com/images/I/71sbJifqclL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/71sbJifqclL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/71sbJifqclL.jpg",
     "https://m.media-amazon.com/images/I/41zZkTufcFL.jpg",
     "https://m.media-amazon.com/images/I/41zZkTufcFL._SL75_.jpg",
@@ -296,18 +411,6 @@
     "https://m.media-amazon.com/images/I/81EIzFzxGIL.jpg",
     "https://m.media-amazon.com/images/I/51DFSmgEBPL.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "dermatologiczny",
-    "naturalny",
-    "odzywczy"
-   ],
-   "price": 20.39,
-   "rating": 4.6,
-   "reviews": 349,
-   "bsr": 1304,
-   "rev30d": 10016,
    "bullets": [
     "Crema hidratante facial reparadora de día formulada para pieles muy secas y sensibles",
     "Textura enriquecida, no grasa que fortalece la barrera de la piel",
@@ -315,14 +418,43 @@
     "Reduce la tirantez y protege frente a la sequedad recurrente; Aplicar diariamente sobre el rostro limpio",
     "90% ingredientes naturales; Dermatológicamente testado; No perfumado y sin colorantes"
    ],
-   "description": ""
+   "themes": [
+    "nawilzenie",
+    "bariera",
+    "dermatologiczny",
+    "naturalny",
+    "odzywczy"
+   ],
+   "themeSrc": {
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ]
+   },
+   "price": 20.39,
+   "rating": 4.6,
+   "reviews": 349,
+   "rev30": 10016,
+   "archival": false
   },
   {
    "asin": "B0DRKGHCM3",
    "brand": "Green Cornerss Care",
    "title": "GREEN CORNERSS CARE - Crema Hidratante de Avena | 280 ml | Apta para Pieles con Dermatitis Atópica | Con Prebióticos | 99% Natural | Perfecta para Toda la Familia, Apta en Menores de 3 Años",
-   "mainImage": "https://m.media-amazon.com/images/I/31rizWCPpPL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/31rizWCPpPL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/31rizWCPpPL.jpg",
     "https://m.media-amazon.com/images/I/31rizWCPpPL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61+-A1vbxnL.jpg",
@@ -332,34 +464,50 @@
     "https://m.media-amazon.com/images/I/31xC9dsKXlL.jpg",
     "https://m.media-amazon.com/images/I/31xC9dsKXlL._SL75_.jpg"
    ],
+   "bullets": [
+    "Agentes reparadores de la barrera cutánea: Manteca de karité, aceite de almendras y aceite de jojoba. Agentes calmantes: Extracto de avena, caléndula y aloe vera. Prebióticos: Reequilibran la microbiota."
+   ],
    "themes": [
     "nawilzenie",
     "skora_atopowa",
     "kojacy",
     "bariera",
-    "dla_dzieci",
-    "dermatologiczny",
     "naturalny",
-    "wchlanianie",
-    "odzywczy",
     "cena_pojemnosc"
    ],
+   "themeSrc": {
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ],
+    "skora_atopowa": [
+     "T"
+    ],
+    "bariera": [
+     "BP"
+    ]
+   },
    "price": 19.89,
    "rating": 4.7,
    "reviews": 110,
-   "bsr": 2898,
-   "rev30d": 9936,
-   "bullets": [
-    "Agentes reparadores de la barrera cutánea: Manteca de karité, aceite de almendras y aceite de jojoba. Agentes calmantes: Extracto de avena, caléndula y aloe vera. Prebióticos: Reequilibran la microbiota."
-   ],
-   "description": "Crema hidratante corporal que va a hidratar en profundidad la piel delicada de bebés, niños y adultos, mientras restaura la función barrera de la piel. Contiene extracto de avena, aloe vera y manteca de karité, entre otros, que aportan a la piel propiedades calmantes y regeneradoras.&nbsp; Ayuda a distanciar la presencia de brotes en pieles con dermatitis atópica.&nbsp; Enriquecida con prebióticos, que ayudan a reequilibrar la microbiota de la piel.&nbsp; Contiene un 99% de ingredientes de origen natural y es apta para la hidratación diaria de toda la familia. Con textura suave y fácil de extender, de rápida absorción. La crema hidratante de la que todo el mundo habla y que se ha convertido en la crema diaria de miles de familias por su eficacia en pieles atópicas. Eficacia hidratante demostrada. 280ml * Testado dermatológicamente en menores de 3 años con tendencia atópica y bajo supervisión pediátrica. * Testado en sujetos con piel seca como consecuencia de alguna patología (tratamiento oncológico, diabetes, hemodiálisis...)."
+   "rev30": 9936,
+   "archival": false
   },
   {
    "asin": "B097HBHKR9",
    "brand": "BEPANTHOL",
    "title": "BEPANTHOL Crema Hidratante Corporal Piel Seca - Derma Reparadora Loción - Hidratación Inmediata y Duradera para la Piel Muy Seca y Sensible - Uso Diario - 400 ml - Sin Perfume Ni Colorantes",
-   "mainImage": "https://m.media-amazon.com/images/I/61ERqQaqZGL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/61ERqQaqZGL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/61ERqQaqZGL.jpg",
     "https://m.media-amazon.com/images/I/31TKtxZ2QnL.jpg",
     "https://m.media-amazon.com/images/I/31TKtxZ2QnL._SL75_.jpg",
@@ -368,6 +516,13 @@
     "https://m.media-amazon.com/images/I/51SfUgogfaL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81ucO0kbzZL.jpg",
     "https://m.media-amazon.com/images/I/51KPS8folVL.jpg"
+   ],
+   "bullets": [
+    "CREMA CORPORAL HIDRATANTE: Hidratación inmediata y duradera, hasta 48 horas. Protege frente a la sequedad recurrente, para toda la familia.",
+    "LOCIÓN CORPORAL REPARADORA: Fórmula enriquecida con el innovador Repair Complex, que actúa directamente en la raíz de la sequedad para un cambio profundo y duradero.",
+    "CREMA CORPORAL BEPANTHOL DERMA: Tiene una textura enriquecida para calmar la sensación de picor, suavizar y aportar un extra de hidratación a la piel muy seca y sensible.",
+    "90% INGREDIENTES NATURALES: Dermatológicamente testado sin perfumes y sin colorantes.",
+    "APLICAR GENEROSAMENTE SOBRE TODO EL CUERPO CADA DÍA tantas veces como sea necesario."
    ],
    "themes": [
     "nawilzenie",
@@ -379,26 +534,46 @@
     "odzywczy",
     "cena_pojemnosc"
    ],
+   "themeSrc": {
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "bez_zapachu": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "swiad": [
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ]
+   },
    "price": 16.2,
    "rating": 4.6,
    "reviews": 708,
-   "bsr": 1190,
-   "rev30d": 7259,
-   "bullets": [
-    "CREMA CORPORAL HIDRATANTE: Hidratación inmediata y duradera, hasta 48 horas. Protege frente a la sequedad recurrente, para toda la familia.",
-    "LOCIÓN CORPORAL REPARADORA: Fórmula enriquecida con el innovador Repair Complex, que actúa directamente en la raíz de la sequedad para un cambio profundo y duradero.",
-    "CREMA CORPORAL BEPANTHOL DERMA: Tiene una textura enriquecida para calmar la sensación de picor, suavizar y aportar un extra de hidratación a la piel muy seca y sensible.",
-    "90% INGREDIENTES NATURALES: Dermatológicamente testado sin perfumes y sin colorantes.",
-    "APLICAR GENEROSAMENTE SOBRE TODO EL CUERPO CADA DÍA tantas veces como sea necesario."
-   ],
-   "description": ""
+   "rev30": 7259,
+   "archival": false
   },
   {
    "asin": "B00E0LU2ZS",
    "brand": "BEPANTHOL",
    "title": "Bepanthol Pomada Protectora Hidratante, Protege y Regenera la Piel Seca, Irritada o Sensibilizada por Factores Externos, 30 g",
-   "mainImage": "https://m.media-amazon.com/images/I/31mXoIW0krL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/31mXoIW0krL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/31mXoIW0krL.jpg",
     "https://m.media-amazon.com/images/I/31mXoIW0krL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71ovA7gsvyL.jpg",
@@ -408,18 +583,6 @@
     "https://m.media-amazon.com/images/I/41LA7k25HsL.jpg",
     "https://m.media-amazon.com/images/I/41LA7k25HsL._SL75_.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "price": 8.99,
-   "rating": 4.6,
-   "reviews": 1215,
-   "bsr": 518,
-   "rev30d": 6663,
    "bullets": [
     "Bepanthol Pomada Protectora es una crema protectora que protege diferentes afecciones cutáneas, regenera la piel, proporciona una elevada hidratación y actúa de barrera extra en zonas específicas",
     "Su contenido lipídico forma una barrera protectora que evita la deshidratación y aísla de sustancias irritantes y el Pantenol (provitamina B5) favorece la regeneración natural de la piel",
@@ -427,524 +590,341 @@
     "Aplicar una abundante capa sobre la piel limpia y seca en la zona afectada y extender la pomada con un suave masaje",
     "Esta crema protectora apta para toda la familia no contiene perfume, ni colorantes, ni conservantes y puede utilizarse con tanta frecuencia como sea necesario"
    ],
-   "description": ""
+   "themes": [
+    "nawilzenie",
+    "bariera",
+    "naturalny",
+    "odzywczy"
+   ],
+   "themeSrc": {
+    "naturalny": [
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ],
+    "bariera": [
+     "BP"
+    ]
+   },
+   "price": 8.99,
+   "rating": 4.6,
+   "reviews": 1215,
+   "rev30": 6663,
+   "archival": false
   }
  ],
- "claimsMatrix": {
-  "themes": [
-   {
-    "id": "nawilzenie",
-    "label": "Nawilżenie"
-   },
-   {
-    "id": "skora_atopowa",
-    "label": "Skóra atopowa / egzema"
-   },
-   {
-    "id": "kojacy",
-    "label": "Kojący / łagodzący"
-   },
-   {
-    "id": "swiad",
-    "label": "Redukcja świądu"
-   },
-   {
-    "id": "bariera",
-    "label": "Odbudowa bariery"
-   },
-   {
-    "id": "bez_zapachu",
-    "label": "Bez zapachu / perfum"
-   },
-   {
-    "id": "dla_dzieci",
-    "label": "Dla dzieci / niemowląt"
-   },
-   {
-    "id": "dermatologiczny",
-    "label": "Dermatologicznie testowany"
-   },
-   {
-    "id": "naturalny",
-    "label": "Naturalny / wegański"
-   },
-   {
-    "id": "wchlanianie",
-    "label": "Szybkie wchłanianie"
-   },
-   {
-    "id": "odzywczy",
-    "label": "Odżywczy / regenerujący"
-   },
-   {
-    "id": "cena_pojemnosc",
-    "label": "Ekonomiczny / duża pojemność"
-   }
-  ],
-  "rows": [
-   {
-    "brand": "Neutrogena",
-    "asin": "B0D1GK2ZKB",
-    "cells": [
-     true,
-     false,
-     false,
-     false,
-     true,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "BEPANTOL DERMA",
-    "asin": "B087XGVFL1",
-    "cells": [
-     true,
-     true,
-     false,
-     false,
-     true,
-     false,
-     true,
-     true,
-     true,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "TALQUISTINA",
-    "asin": "B0BJFP4VYY",
-    "cells": [
-     true,
-     false,
-     true,
-     true,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "Weleda",
-    "asin": "B00A3M1TIW",
-    "cells": [
-     false,
-     false,
-     true,
-     false,
-     false,
-     false,
-     false,
-     true,
-     true,
-     true,
-     true,
-     true
-    ]
-   },
-   {
-    "brand": "HNYGS-EU",
-    "asin": "B0FRSZ94RH",
-    "cells": [
-     true,
-     true,
-     true,
-     true,
-     true,
-     false,
-     false,
-     false,
-     false,
-     true,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "BEPANTHOL",
-    "asin": "B00E0JG2FY",
-    "cells": [
-     true,
-     false,
-     false,
-     false,
-     true,
-     false,
-     false,
-     false,
-     true,
-     false,
-     true,
-     true
-    ]
-   },
-   {
-    "brand": "Hengulus",
-    "asin": "B0098G931Y",
-    "cells": [
-     true,
-     true,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     true,
-     true
-    ]
-   },
-   {
-    "brand": "CeraVe",
-    "asin": "B0FHQ1Z14S",
-    "cells": [
-     true,
-     false,
-     false,
-     false,
-     true,
-     true,
-     false,
-     true,
-     true,
-     true,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "BEPANTHOL",
-    "asin": "B097H85186",
-    "cells": [
-     true,
-     false,
-     false,
-     false,
-     true,
-     false,
-     false,
-     true,
-     true,
-     false,
-     true,
-     false
-    ]
-   },
-   {
-    "brand": "Green Cornerss Care",
-    "asin": "B0DRKGHCM3",
-    "cells": [
-     true,
-     true,
-     true,
-     false,
-     true,
-     false,
-     true,
-     true,
-     true,
-     true,
-     true,
-     true
-    ]
-   },
-   {
-    "brand": "BEPANTHOL",
-    "asin": "B097HBHKR9",
-    "cells": [
-     true,
-     false,
-     true,
-     true,
-     false,
-     true,
-     false,
-     true,
-     true,
-     false,
-     true,
-     true
-    ]
-   },
-   {
-    "brand": "BEPANTHOL",
-    "asin": "B00E0LU2ZS",
-    "cells": [
-     true,
-     false,
-     false,
-     false,
-     true,
-     false,
-     false,
-     false,
-     true,
-     false,
-     true,
-     true
-    ]
-   }
-  ]
- },
- "claimsSummary": [
+ "themes": [
   {
+   "key": "nawilzenie",
+   "label": "Nawilżenie"
+  },
+  {
+   "key": "skora_atopowa",
+   "label": "Skóra atopowa / egzema"
+  },
+  {
+   "key": "kojacy",
+   "label": "Kojący / łagodzący"
+  },
+  {
+   "key": "swiad",
+   "label": "Redukcja świądu"
+  },
+  {
+   "key": "bariera",
+   "label": "Odbudowa bariery"
+  },
+  {
+   "key": "bez_zapachu",
+   "label": "Bez zapachu / perfum"
+  },
+  {
+   "key": "dla_dzieci",
+   "label": "Dla dzieci / niemowląt"
+  },
+  {
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany"
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański"
+  },
+  {
+   "key": "wchlanianie",
+   "label": "Szybkie wchłanianie"
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący"
+  },
+  {
+   "key": "cena_pojemnosc",
+   "label": "Ekonomiczny / duża pojemność"
+  }
+ ],
+ "adoption": [
+  {
+   "key": "nawilzenie",
    "label": "Nawilżenie",
-   "count": 11,
-   "pct": 92,
-   "topBrands": [
-    "Neutrogena",
-    "BEPANTOL DERMA",
-    "TALQUISTINA"
-   ]
+   "count": 9,
+   "pct": 75
   },
   {
-   "label": "Ekonomiczny / duża pojemność",
-   "count": 11,
-   "pct": 92,
-   "topBrands": [
-    "Neutrogena",
-    "BEPANTOL DERMA",
-    "TALQUISTINA"
-   ]
-  },
-  {
-   "label": "Odbudowa bariery",
-   "count": 8,
-   "pct": 67,
-   "topBrands": [
-    "Neutrogena",
-    "BEPANTOL DERMA",
-    "HNYGS-EU"
-   ]
-  },
-  {
+   "key": "naturalny",
    "label": "Naturalny / wegański",
    "count": 8,
-   "pct": 67,
-   "topBrands": [
-    "BEPANTOL DERMA",
-    "Weleda",
-    "BEPANTHOL"
-   ]
+   "pct": 67
   },
   {
-   "label": "Odżywczy / regenerujący",
+   "key": "bariera",
+   "label": "Odbudowa bariery",
    "count": 7,
-   "pct": 58,
-   "topBrands": [
-    "Weleda",
-    "BEPANTHOL",
-    "Hengulus"
-   ]
+   "pct": 58
   },
   {
-   "label": "Dermatologicznie testowany",
-   "count": 6,
-   "pct": 50,
-   "topBrands": [
-    "BEPANTOL DERMA",
-    "Weleda",
-    "CeraVe"
-   ]
+   "key": "cena_pojemnosc",
+   "label": "Ekonomiczny / duża pojemność",
+   "count": 7,
+   "pct": 58
   },
   {
+   "key": "kojacy",
    "label": "Kojący / łagodzący",
    "count": 5,
-   "pct": 42,
-   "topBrands": [
-    "TALQUISTINA",
-    "Weleda",
-    "HNYGS-EU"
-   ]
+   "pct": 42
   },
   {
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany",
+   "count": 5,
+   "pct": 42
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący",
+   "count": 5,
+   "pct": 42
+  },
+  {
+   "key": "skora_atopowa",
    "label": "Skóra atopowa / egzema",
-   "count": 4,
-   "pct": 33,
-   "topBrands": [
-    "BEPANTOL DERMA",
-    "HNYGS-EU",
-    "Hengulus"
-   ]
+   "count": 3,
+   "pct": 25
   },
   {
-   "label": "Szybkie wchłanianie",
-   "count": 4,
-   "pct": 33,
-   "topBrands": [
-    "Weleda",
-    "HNYGS-EU",
-    "CeraVe"
-   ]
-  },
-  {
+   "key": "swiad",
    "label": "Redukcja świądu",
    "count": 3,
-   "pct": 25,
-   "topBrands": [
-    "TALQUISTINA",
-    "HNYGS-EU",
-    "BEPANTHOL"
-   ]
+   "pct": 25
   },
   {
+   "key": "wchlanianie",
+   "label": "Szybkie wchłanianie",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "bez_zapachu",
    "label": "Bez zapachu / perfum",
    "count": 2,
-   "pct": 17,
-   "topBrands": [
-    "CeraVe",
-    "BEPANTHOL"
-   ]
+   "pct": 17
   },
   {
+   "key": "dla_dzieci",
    "label": "Dla dzieci / niemowląt",
-   "count": 2,
-   "pct": 17,
-   "topBrands": [
-    "BEPANTOL DERMA",
-    "Green Cornerss Care"
-   ]
+   "count": 1,
+   "pct": 8
   }
  ],
  "vocGap": [
   {
    "vocTopic": "Za gęsty i tłusty",
-   "customerConcernPct": "26.0%",
-   "addressedByCount": 4,
-   "addressedByBrands": [
+   "vocPct": 26.0,
+   "theme": "Szybkie wchłanianie",
+   "addressed": 3,
+   "total": 12,
+   "pct": 25,
+   "sev": "MED",
+   "brands": [
     "Weleda",
     "HNYGS-EU",
     "CeraVe"
-   ],
-   "gapSeverity": "LOW",
-   "whitespace": "false"
+   ]
   },
   {
    "vocTopic": "Nieprzyjemny zapach",
-   "customerConcernPct": "18.0%",
-   "addressedByCount": 2,
-   "addressedByBrands": [
+   "vocPct": 18.0,
+   "theme": "Bez zapachu / perfum",
+   "addressed": 2,
+   "total": 12,
+   "pct": 17,
+   "sev": "MED",
+   "brands": [
     "CeraVe",
     "BEPANTHOL"
-   ],
-   "gapSeverity": "MEDIUM",
-   "whitespace": "true"
+   ]
   },
   {
    "vocTopic": "Brak ulgi / pogorszenie skóry atopowej",
-   "customerConcernPct": "17.0%",
-   "addressedByCount": 4,
-   "addressedByBrands": [
+   "vocPct": 17.0,
+   "theme": "Skóra atopowa / egzema",
+   "addressed": 3,
+   "total": 12,
+   "pct": 25,
+   "sev": "MED",
+   "brands": [
     "BEPANTOL DERMA",
     "HNYGS-EU",
-    "Hengulus"
-   ],
-   "gapSeverity": "LOW",
-   "whitespace": "false"
+    "Green Cornerss Care"
+   ]
   },
   {
    "vocTopic": "Problemy z opakowaniem i plombą",
-   "customerConcernPct": "16.0%",
-   "addressedByCount": 0,
-   "addressedByBrands": [],
-   "gapSeverity": "HIGH",
-   "whitespace": "true"
+   "vocPct": 16.0,
+   "theme": "",
+   "addressed": 0,
+   "total": 12,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
   },
   {
    "vocTopic": "Mylący rozmiar / cena / reklama",
-   "customerConcernPct": "13.0%",
-   "addressedByCount": 11,
-   "addressedByBrands": [
+   "vocPct": 13.0,
+   "theme": "Ekonomiczny / duża pojemność",
+   "addressed": 7,
+   "total": 12,
+   "pct": 58,
+   "sev": "LOW",
+   "brands": [
     "Neutrogena",
     "BEPANTOL DERMA",
-    "TALQUISTINA"
-   ],
-   "gapSeverity": "LOW",
-   "whitespace": "false"
+    "TALQUISTINA",
+    "Weleda",
+    "CeraVe"
+   ]
   },
   {
    "vocTopic": "Wątpliwy lub agresywny skład",
-   "customerConcernPct": "10.0%",
-   "addressedByCount": 0,
-   "addressedByBrands": [],
-   "gapSeverity": "HIGH",
-   "whitespace": "true"
+   "vocPct": 10.0,
+   "theme": "Bez parabenów / SLS",
+   "addressed": 0,
+   "total": 12,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
   }
  ],
- "whitespaceOpportunities": [
+ "whitespace": [
   {
-   "opportunity": "Redukcja świądu",
-   "rationale": "Tylko 3/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
-   "evidence": "Obecne marki: TALQUISTINA, HNYGS-EU, BEPANTHOL"
+   "label": "Skóra atopowa / egzema",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "opportunity": "Bez zapachu / perfum",
-   "rationale": "Tylko 2/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
-   "evidence": "Obecne marki: CeraVe, BEPANTHOL"
+   "label": "Redukcja świądu",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "opportunity": "Dla dzieci / niemowląt",
-   "rationale": "Tylko 2/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
-   "evidence": "Obecne marki: BEPANTOL DERMA, Green Cornerss Care"
+   "label": "Szybkie wchłanianie",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Bez zapachu / perfum",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Dla dzieci / niemowląt",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   }
  ],
  "saturation": [
   {
    "label": "Nawilżenie",
-   "saturationPct": "92%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
-  },
-  {
-   "label": "Ekonomiczny / duża pojemność",
-   "saturationPct": "92%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
-  },
-  {
-   "label": "Odbudowa bariery",
-   "saturationPct": "67%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "pct": 75,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
    "label": "Naturalny / wegański",
-   "saturationPct": "67%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "pct": 67,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Odbudowa bariery",
+   "pct": 58,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Ekonomiczny / duża pojemność",
+   "pct": 58,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "pct": 42,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Dermatologicznie testowany",
+   "pct": 42,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Odżywczy / regenerujący",
+   "pct": 42,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Skóra atopowa / egzema",
+   "pct": 25,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Redukcja świądu",
+   "pct": 25,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Szybkie wchłanianie",
+   "pct": 25,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Bez zapachu / perfum",
+   "pct": 17,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Dla dzieci / niemowląt",
+   "pct": 8,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   }
  ],
- "strategicRecommendations": [
+ "recs": [
   {
-   "type": "Luka VOC↔listing",
-   "badgeBg": "#fee2e2",
-   "badgeColor": "#991b1b",
-   "finding": "Klienci skarżą się na: Problemy z opakowaniem i plombą, Wątpliwy lub agresywny skład, a żaden czołowy konkurent tego nie adresuje w treści listingu.",
-   "implication": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
+   "type": "Messaging",
+   "finding": "Negatywy VOC dotyczą: Problemy z opakowaniem i plombą, Wątpliwy lub agresywny skład — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
   },
   {
-   "type": "Białe plamy",
-   "badgeBg": "#fef3c7",
-   "badgeColor": "#92400e",
-   "finding": "Nisko wysycone tematy: Redukcja świądu, Bez zapachu / perfum, Dla dzieci / niemowląt.",
-   "implication": "Jeśli produkt spełnia te cechy — wyeksponuj je, bo konkurencja tego nie robi."
+   "type": "Pozycjonowanie",
+   "finding": "Nisko wysycone claimy: Skóra atopowa / egzema, Redukcja świądu, Szybkie wchłanianie, Bez zapachu / perfum.",
+   "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
   },
   {
-   "type": "Parytet",
-   "badgeBg": "#dcfce7",
-   "badgeColor": "#166534",
-   "finding": "Nasycone deklaracje: Nawilżenie, Ekonomiczny / duża pojemność, Odbudowa bariery, Naturalny / wegański.",
-   "implication": "Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca."
+   "type": "Produkt",
+   "finding": "Nasycone (obowiązkowe) claimy: Nawilżenie.",
+   "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]
 }

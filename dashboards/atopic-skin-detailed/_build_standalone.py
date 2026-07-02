@@ -20,7 +20,7 @@ Data sources (all read at build time, inlined into index.html):
 Run (Windows):
     python _build_standalone.py
 """
-import json, os, re, sys
+import csv, json, os, re, sys
 
 try:
     sys.stdout.reconfigure(encoding='utf-8')
@@ -31,7 +31,9 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 CONSOLE = os.path.abspath(os.path.join(BASE, '..', '..'))          # .../Console
 TOPLINE_HTML = os.path.join(CONSOLE, 'dashboards', 'atopic-skin-topline', 'index.html')
 VOC_TPL  = os.path.join(CONSOLE, 'templates', 'tabs', 'u-reviews-voc', 'template.html')
-MDD_TPL  = os.path.join(CONSOLE, 'templates', 'tabs', 'u-marketing-deep-dive', 'template.html')
+MDD_TPL  = os.path.join(BASE, 'templates', 'tabs', 'u-marketing-deep-dive', 'template.html')  # dashboard-local szelki-style MDD
+MS_TPL   = os.path.join(BASE, 'templates', 'tabs', 'market-structure', 'template.html')       # dashboard-local Polish Market Structure
+ENGINE_JS_PATH = os.path.join(CONSOLE, 'js', 'data-engine.js')                                # DataEngine (aggregation + sortable tables)
 
 # ── Identity ────────────────────────────────────────────────────────────────
 PRODUCT_TITLE = 'Atopic Skin — Detailed (DE, FR, IT, ES)'
@@ -46,9 +48,9 @@ COUNTRIES = [
     {'code': 'ES', 'name': 'Hiszpania', 'flag': '\U0001F1EA\U0001F1F8'},
 ]
 
-# Segments shown in the dashboard. Check (holding bucket) and Oil (reviews not
-# finished) are intentionally EXCLUDED — dashboard shows only Cream + Wash.
-SEGMENT_ORDER = ['Cream', 'Wash']
+# Segments shown in the dashboard. Check (holding bucket) is EXCLUDED.
+# Oil is now included (atopic-only oil set with VOC + szelki-style MDD).
+SEGMENT_ORDER = ['Cream', 'Wash', 'Oil']
 # Fallback segments per country if reviews/{CODE}/ has no subfolders yet.
 DEFAULT_SEGMENTS = {
     'DE': ['Cream', 'Wash'],
@@ -112,6 +114,62 @@ for c in COUNTRIES:
         mdd_data[code][seg] = load_mdd(code, seg)
 
 
+# ── Market Structure: per-country products from X-Ray (Cream/Wash/Oil only) ──
+# 12M projection = 30d sales × 12 (no per-ASIN sales history in this project,
+# same flat multiplier the atopic-skin-topline Rynek tab uses). Revenue = units × price.
+STRUCT_SEGMENTS = ['Cream', 'Wash', 'Oil']
+
+
+def _pnum(val):
+    s = re.sub(r'[$€£,\s]', '', str('' if val is None else val))
+    try:
+        return float(s)
+    except Exception:
+        return 0.0
+
+
+def load_structure(code):
+    path = os.path.join(BASE, 'data', 'x-ray', code, f'Dermo-Products-{code}.csv')
+    if not os.path.exists(path):
+        return []
+    out = []
+    with open(path, encoding='utf-8-sig', newline='') as f:
+        rd = csv.DictReader(f)
+        cols = rd.fieldnames or []
+        price_col = next((c for c in cols if 'price' in c.lower()), None)
+        for r in rd:
+            seg = (r.get('Segment') or '').strip()
+            if seg not in STRUCT_SEGMENTS:
+                continue
+            asin = (r.get('ASIN') or '').strip()
+            if not asin:
+                continue
+            price = _pnum(r.get(price_col)) if price_col else 0.0
+            sales30d = _pnum(r.get('ASIN Sales'))
+            rev30d = _pnum(r.get('ASIN Revenue'))
+            if sales30d == 0 and rev30d > 0 and price > 0:
+                sales30d = round(rev30d / price)
+            units12m = round(sales30d * 12)
+            out.append({
+                'asin': asin,
+                'title': (r.get('Product Details') or '').strip()[:300],
+                'type': seg,
+                'brand': ((r.get('Brand') or '').strip() or 'Unknown'),
+                'price': round(price, 2),
+                'sales30d': round(sales30d),
+                'revenue30d': round(rev30d),
+                'bsr': int(_pnum(r.get('BSR'))),
+                'rating': round(_pnum(r.get('Ratings')), 1),
+                'reviewCount': int(_pnum(r.get('Review Count'))),
+                'units12m': units12m,
+                'revenue12m': round(units12m * price),
+            })
+    return out
+
+
+structure_data = {c['code']: load_structure(c['code']) for c in COUNTRIES}
+
+
 # Default selection: first country (DE), first available segment preferring Cream.
 def default_segment(code):
     segs = SEGMENTS_BY_COUNTRY[code]
@@ -173,6 +231,17 @@ VOC_FN = to_named_renderer(
 MDD_FN = to_named_renderer(
     MDD_BODY, 'renderMarketingDeepDive',
     "var root = document.getElementById('u-mdd-tab-root');")
+
+# Market Structure template is already Polish (dashboard-local), so no translation
+# table is needed — just convert its IIFE into renderMarketStructure(D, root).
+MS_CSS, MS_BODY = extract_template(MS_TPL)
+MS_FN = to_named_renderer(
+    MS_BODY, 'renderMarketStructure',
+    "var root = document.getElementById('ms-tab-root');")
+
+# DataEngine (aggregation + sortable tables) — inlined as its own <script>.
+with open(ENGINE_JS_PATH, encoding='utf-8') as f:
+    ENGINE_JS = f.read()
 
 # ── Polish UI-string translations (static labels baked into the renderers) ──
 # Data (themes, quotes, findings) comes from JSON; these are the fixed English
@@ -381,6 +450,7 @@ bundle = {
     'currency': '€',
     'voc': voc_data,
     'mdd': mdd_data,
+    'structure': structure_data,
 }
 
 # ── Shell HTML ──────────────────────────────────────────────────────────────
@@ -436,11 +506,15 @@ HTML = r'''<!DOCTYPE html>
 <style>/* (d) Marketing Deep-Dive */
 {{MDD_CSS}}
 </style>
+<style>/* (e) Market Structure */
+{{MS_CSS}}
+</style>
 </head>
 <body>
 
 <div class="ad-tabs">
   <button class="ad-tab active" data-tab="market">Rynek</button>
+  <button class="ad-tab" data-tab="structure">Struktura rynku</button>
   <button class="ad-tab" data-tab="voc">Recenzje (VOC)</button>
   <button class="ad-tab" data-tab="mdd">Marketing Deep-Dive</button>
 </div>
@@ -458,19 +532,26 @@ HTML = r'''<!DOCTYPE html>
 {{TOPLINE_BODY}}
 </div>
 
+<div class="ad-panel" id="panel-structure"></div>
 <div class="ad-panel" id="panel-voc"></div>
 <div class="ad-panel" id="panel-mdd"></div>
+
+<script>/* DataEngine — market-structure aggregation + sortable tables */
+/*<<ENGINE>>*/
+</script>
 
 <script>
 var D = /*<<BUNDLE>>*/;
 
 var SEG_LABELS = { Check: 'Sprawdzenie', Cream: 'Krem', Wash: 'Mycie', Oil: 'Olejek' };
 function segLabel(s){ return SEG_LABELS[s] || s; }
+var MS_SEG_ORDER = ['Cream', 'Wash', 'Oil'];
 
 var state = { tab: 'market', country: D.defaultCountry, segment: D.defaultSegment };
 
 /*<<VOC_FN>>*/
 /*<<MDD_FN>>*/
+/*<<MS_FN>>*/
 
 function buildCountryPills(){
   var host = document.getElementById('ad-country-pills');
@@ -549,8 +630,37 @@ function renderMDD(){
   renderMarketingDeepDive(scopeBucket(bucket), root);
 }
 
+function renderStructure(){
+  var root = document.getElementById('panel-structure');
+  var prods = (D.structure && D.structure[state.country]) || [];
+  if (!prods.length){
+    root.innerHTML = '<div class="ad-empty">Brak danych struktury rynku dla tego rynku.</div>';
+    return;
+  }
+  // Drop any stale structure charts (ids like ms0*, ms1*) so the seg-tab
+  // resize-all pass never touches a detached canvas from a prior country.
+  if (window.Chart) Object.keys(Chart.instances).forEach(function(k){
+    var c = Chart.instances[k];
+    try { if (c && c.canvas && /^ms\d/.test(c.canvas.id || '')) c.destroy(); } catch(e){}
+  });
+  var segs = DataEngine.aggregateSegments(prods);
+  segs.sort(function(a, b){
+    var ia = MS_SEG_ORDER.indexOf(a.name), ib = MS_SEG_ORDER.indexOf(b.name);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+  });
+  DataEngine.assignSegmentColors(segs);
+  var c = countryMeta(state.country);
+  renderMarketStructure({
+    segments: segs,
+    currency: D.currency,
+    countryName: c.name,
+    tld: String(state.country).toLowerCase()
+  }, root);
+}
+
 function renderActive(){
-  if (state.tab === 'voc') renderVOC();
+  if (state.tab === 'structure') renderStructure();
+  else if (state.tab === 'voc') renderVOC();
   else if (state.tab === 'mdd') renderMDD();
 }
 
@@ -558,11 +668,15 @@ function setTab(tab){
   state.tab = tab;
   document.querySelectorAll('.ad-tab').forEach(function(t){ t.classList.toggle('active', t.dataset.tab === tab); });
   document.getElementById('panel-market').classList.toggle('active', tab === 'market');
+  document.getElementById('panel-structure').classList.toggle('active', tab === 'structure');
   document.getElementById('panel-voc').classList.toggle('active', tab === 'voc');
   document.getElementById('panel-mdd').classList.toggle('active', tab === 'mdd');
-  var showPills = (tab === 'voc' || tab === 'mdd');
-  document.getElementById('ad-country-row').classList.toggle('hidden', !showPills);
-  document.getElementById('ad-segment-row').classList.toggle('hidden', !showPills);
+  // Country pills show on Structure/VOC/MDD; the shared Segment pills only on
+  // VOC/MDD (Market Structure has its own Cream/Wash/Oil sub-tabs inside).
+  var showCountry = (tab === 'structure' || tab === 'voc' || tab === 'mdd');
+  var showSeg = (tab === 'voc' || tab === 'mdd');
+  document.getElementById('ad-country-row').classList.toggle('hidden', !showCountry);
+  document.getElementById('ad-segment-row').classList.toggle('hidden', !showSeg);
   renderActive();
 }
 
@@ -583,10 +697,13 @@ html = html.replace('{{SHELL_CSS}}', SHELL_CSS)
 html = html.replace('{{TOPLINE_CSS}}', TOPLINE_CSS)
 html = html.replace('{{VOC_CSS}}', VOC_CSS)
 html = html.replace('{{MDD_CSS}}', MDD_CSS)
+html = html.replace('{{MS_CSS}}', MS_CSS)
 html = html.replace('{{TOPLINE_BODY}}', TOPLINE_BODY)
 html = html.replace('/*<<BUNDLE>>*/', json.dumps(bundle, ensure_ascii=False))
+html = html.replace('/*<<ENGINE>>*/', ENGINE_JS)
 html = html.replace('/*<<VOC_FN>>*/', VOC_FN)
 html = html.replace('/*<<MDD_FN>>*/', MDD_FN)
+html = html.replace('/*<<MS_FN>>*/', MS_FN)
 
 out = os.path.join(BASE, 'index.html')
 with open(out, 'w', encoding='utf-8') as f:
@@ -599,5 +716,8 @@ for c in COUNTRIES:
     segs = SEGMENTS_BY_COUNTRY[code]
     voc_n = sum(1 for s in segs if voc_data[code][s])
     mdd_n = sum(1 for s in segs if mdd_data[code][s])
-    print('  {}: segments={} | VOC buckets={}/{} | MDD buckets={}/{}'.format(
-        code, segs, voc_n, len(segs), mdd_n, len(segs)))
+    struct = structure_data[code]
+    from collections import Counter as _C
+    struct_by_seg = dict(_C(p['type'] for p in struct))
+    print('  {}: segments={} | VOC buckets={}/{} | MDD buckets={}/{} | Structure ASINs={} {}'.format(
+        code, segs, voc_n, len(segs), mdd_n, len(segs), len(struct), struct_by_seg))

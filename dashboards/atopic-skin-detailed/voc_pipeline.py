@@ -24,7 +24,7 @@ import csv, os, sys, json, re, glob, time
 sys.stdout.reconfigure(encoding='utf-8')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-SRC  = os.path.join(BASE, '..', 'atopic-skin-topline', 'reviews')   # raw reviews live here
+SRC  = os.path.join(BASE, 'reviews')   # raw reviews live here (moved from atopic-skin-topline)
 CACHE = os.path.join(BASE, 'reviews', '_tr_cache.json')
 CAP = 120           # max reviews in the browsable/analyzed sample
 NEG_FLOOR = 45      # try to include at least this many 1-2 star reviews

@@ -1,180 +1,622 @@
 {
- "totalCompetitors": 1,
+ "totalCompetitors": 6,
  "marketplace": "amazon.es",
+ "avgClaims": 5.3,
  "competitors": [
   {
-   "asin": "B0CVS2DMY4",
-   "brand": "B.O.T cosmetic & wellness",
-   "title": "Aceite de Jojoba Puro Aceite Facial Aceite Desmaquillante Aceite Corporal Aceite de Masaje Estrias Aceite Pelo Aceite Barba Aceite Uñas - 1000 ml 1 L",
-   "mainImage": "https://m.media-amazon.com/images/I/415Ja+jRWcL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/415Ja+jRWcL.jpg",
-    "https://m.media-amazon.com/images/I/415Ja+jRWcL._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/7119+c3kehL.jpg",
-    "https://m.media-amazon.com/images/I/51R6V-u-+qL.jpg",
-    "https://m.media-amazon.com/images/I/51R6V-u-+qL._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/81n-yQD603L.jpg",
-    "https://m.media-amazon.com/images/I/41lcgVa6M1L.jpg",
-    "https://m.media-amazon.com/images/I/41lcgVa6M1L._SL75_.jpg"
+   "asin": "B0789JCK2Q",
+   "brand": "OZONO D´OR",
+   "title": "OZONO D'OR. Aceite Ozonizado 100 ml (Oliva Virgen Extra Ecológico). Hidratante y Regenerante de la piel eficaz en patologías como: irritaciones, úlceras, varices, estrías, quemaduras, etc.",
+   "img": "https://m.media-amazon.com/images/I/717YSirVXbL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/717YSirVXbL.jpg",
+    "https://m.media-amazon.com/images/I/41x02DGe8bL.jpg",
+    "https://m.media-amazon.com/images/I/41x02DGe8bL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/813oVYV2N-L.jpg",
+    "https://m.media-amazon.com/images/I/51od2Z6f+RL.jpg",
+    "https://m.media-amazon.com/images/I/51od2Z6f+RL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/7101nRbCakL.jpg",
+    "https://m.media-amazon.com/images/I/41CTd78qWRL.jpg"
+   ],
+   "bullets": [
+    "❗️OLOR CARACTERÍSTICO ACEITE OLIVA OZONIZADO: Huele a Rancio debido a la oxidación con ozono y oxigeno de los ácidos grasos insaturados, de hay sus extraordinarios beneficios y resultados. OXIGENACIÓN NATURAL Sus propiedades antimicrobianas cicatrizantes promueve la regeneración celular efectiva para afecciones piel atópica psoriasis dermatitis atopica",
+    "REAVIVA TU CONFIANZA ¿Te sientes cohibido por tus afecciones cutáneas? ¡No más! el ozono te brinda la seguridad y la confianza para mostrar tu piel con orgullo",
+    "PROTECCIÓN Y DESINTOXICACIÓN El aceite corporal ozonizado es capaz de destruir virus bacterias y hongos protege tu piel de infecciones ¡Luce una piel radiante y saludable!",
+    "PREVIENE Y ELIMINA LAS ESTRIAS EMBARAZO El aceite ozonizado es hidratante mejora la circulación sanguínea y la producción de colágeno y elastina en la piel",
+    "GARANTÍA SATISFACCIÓN Si no estás satisfecho incluso si lo has consumido te devolvemos tu dinero Compra sin riesgos y disfruta de sus beneficios para tu piel"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "naturalny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 19.9,
+   "rating": 4.6,
+   "reviews": 203,
+   "rev30": 2558,
+   "archival": false
+  },
+  {
+   "asin": "B09Q8RXY94",
+   "brand": "LABORATORIOS BABE",
+   "title": "LABORATORIOS BABÉ - Bálsamo en Aceite 500 ml | Crema Corporal Hidratante y Nutritiva para Piel Seca y Atópica | Con Prebióticos, Probióticos y Omega | Alivio del Picor y Reparación | Crema Corporal",
+   "img": "https://m.media-amazon.com/images/I/41WhhL9TCiL._AC_SL1000_.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/41WhhL9TCiL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/51rDPnvYRFL._AC_SL1000_.jpg",
+    "https://m.media-amazon.com/images/I/51PM8F3npfL._AC_SL1000_.jpg"
+   ],
+   "bullets": [
+    "🧴 INNOVADORA TRANSFORMACIÓN EN ACEITE - El bálsamo en aceite de Laboratorios Babé es una crema corporal hidratante con una textura única que se transforma en aceite al contacto con la piel. Esta fórmula rica en aceites naturales ofrece una experiencia de uso única y placentera, proporcionando hidratación profunda y una sensación de suavidad inmediata.",
+    "🌟 HIDRATACIÓN Y NUTRICIÓN INTENSIVAS - Este bálsamo está enriquecido con activos prebióticos y probióticos que refuerzan la barrera cutánea, evitando la pérdida de agua y la sequedad. Ideal para piel seca y piel atópica, nutre, repara y calma, ofreciendo un alivio duradero de la tirantez y el picor. Es una excelente crema hidratante corporal piel seca para el uso diario.",
+    "🌿 COMPONENTES BENEFICIOSOS - La loción corporal de Laboratorios Babé incluye ingredientes clave como prebiótico 1%, factor de hidratación natural 1%, vitamina F 1%, aceite de Inca Inchi, aceite de chía, ceramidas y probiótico. Estos componentes trabajan juntos para proporcionar una crema corporal natural que mejora la elasticidad de la piel y la protege de agresiones externas.",
+    "👋 APLICACIÓN FÁCIL Y EFICAZ - Para obtener los mejores resultados, aplica esta crema hidratante corporal tantas veces como sea necesario en las zonas secas mediante un suave masaje. Su textura se transforma rápidamente en un aceite seco, no pegajoso, que se absorbe fácilmente. Este bálsamo es ideal para quienes buscan una crema corporal sin parabenos y apta para todo tipo de pieles.",
+    "🌞 CONFORT Y SUAVIDAD INMEDIATOS - Experimenta una sensación de confort inmediata con este bálsamo en aceite que proporciona hidratación y nutrición profundas. Especialmente indicado para piel muy seca, combate la sequedad y restaura la barrera cutánea, dejando la piel suave y protegida. Este bálsamo hidratante es perfecto para mantener la piel saludable y radiante, sin distinción de género, enfocado en satisfacer las necesidades específicas de cualquier tipo de piel."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "bariera",
+    "bez_dodatkow",
+    "naturalny",
+    "wchlanianie",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "bez_dodatkow": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "odzywczy": [
+     "T"
+    ],
+    "swiad": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 16.53,
+   "rating": 4.3,
+   "reviews": 72,
+   "rev30": 1492,
+   "archival": false
+  },
+  {
+   "asin": "B07VR7Z936",
+   "brand": "Oïléna",
+   "title": "Aceite de Almendras, Corporal, Facia, Cabello, Anti Estrias Embarazo, Piel Atopica y Bebe, Aceite de Masaje Profesional. Hidratante y Rico en Vitamina E, 100% Natural, Puro, 1000 ml 1 L",
+   "img": "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
+    "https://m.media-amazon.com/images/I/314We34iTNL.jpg",
+    "https://m.media-amazon.com/images/I/314We34iTNL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
+    "https://m.media-amazon.com/images/I/51F0bHXY+mL.jpg",
+    "https://m.media-amazon.com/images/I/51F0bHXY+mL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
+    "https://m.media-amazon.com/images/I/416ZF1Sl15L.jpg"
+   ],
+   "bullets": [
+    "Mima tu piel durante el embarazo con nuestro aceite de almendras dulces, especialmente formulado para hidratar la piel, ayudando a reducir y prevenir la apariencia de las estrias del embarazo. Perfecto para hidratar la piel después de la ducha. Brinda el mismo cuidado delicado a la piel sensible de tu bebé.",
+    "Repara y fortalece tu cabello y barba con nuestro aceite de almendras premium, conocido por su rico contenido de vitamina E. Di adiós al cabello seco y dañado, ya que nuestro aceite de almendras promueve el brillo, reduce las puntas abiertas y mejora la salud general del cabello y la barba.",
+    "Rejuvenece tu piel y logra un cutis radiante con las propiedades antienvejecimiento de nuestro aceite de almendras. No sólo combate las líneas finas y arrugas mientras hidratas tu piel, sino que actúa como desmaquillante natural sin dañar tu piel y la deja limpia, tersa y firme. ¡También los labios!",
+    "Base de aceites esenciales (aceite portador) y de otros productos para la creación de cosmetica casera. Su versatilidad lo convierte en el favorito de los terapeutas de masaje. El aceite de almendras se puede aplicar en la piel del cliente en masajes corporales para facilitar movimientos suaves y ayudar a que las manos del terapeuta se deslicen sin esfuerzo.",
+    "Envase con bloqueo de rayos ultravioleta. Protege el contenido del producto y conserva su calidad. Dosificador que facilita la cantidad adecuada. Agradable al tacto y deslizamiento perfecto. Inodoro. Prensado en frio. Cunde muchísimo. 100% Natural. 100% Puro. Apuesta por lo mejor."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "dla_dzieci",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "skora_atopowa": [
+     "T"
+    ],
+    "dla_dzieci": [
+     "T",
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ]
+   },
+   "price": 16.5,
+   "rating": 4.5,
+   "reviews": 471,
+   "rev30": 94,
+   "archival": false
+  },
+  {
+   "asin": "B09MFKXBFX",
+   "brand": "Oïléna",
+   "title": "Aceite de Almendras Piel (Corporal y Facial) y Cabello, Anti Estrias Embarazo, Piel Atopica y Bebe, Aceite de Masaje Profesional. Hidratante y Rico en Vitamina E. 100% Natural y Puro - 5000 ml 5 L",
+   "img": "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
+    "https://m.media-amazon.com/images/I/4136EcoEF0L.jpg",
+    "https://m.media-amazon.com/images/I/4136EcoEF0L._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
+    "https://m.media-amazon.com/images/I/51F0bHXY+mL.jpg",
+    "https://m.media-amazon.com/images/I/51F0bHXY+mL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
+    "https://m.media-amazon.com/images/I/416ZF1Sl15L.jpg"
+   ],
+   "bullets": [
+    "Mima tu piel durante el embarazo con nuestro aceite de almendras dulces, especialmente formulado para hidratar la piel, ayudando a reducir y prevenir la apariencia de las estrias del embarazo. Perfecto para hidratar la piel después de la ducha. Brinda el mismo cuidado delicado a la piel sensible de tu bebé.",
+    "Repara y fortalece tu cabello y barba con nuestro aceite de almendras premium, conocido por su rico contenido de vitamina E. Di adiós al cabello seco y dañado, ya que nuestro aceite de almendras promueve el brillo, reduce las puntas abiertas y mejora la salud general del cabello y la barba.",
+    "Rejuvenece tu piel y logra un cutis radiante con las propiedades antienvejecimiento de nuestro aceite de almendras. No sólo combate las líneas finas y arrugas mientras hidratas tu piel, sino que actúa como desmaquillante natural sin dañar tu piel y la deja limpia, tersa y firme. ¡También los labios!",
+    "Base de aceites esenciales (aceite portador) y de otros productos para la creación de cosmetica casera. Su versatilidad lo convierte en el favorito de los terapeutas de masaje. El aceite de almendras se puede aplicar en la piel del cliente en masajes corporales para facilitar movimientos suaves y ayudar a que las manos del terapeuta se deslicen sin esfuerzo.",
+    "Envase con bloqueo de rayos ultravioleta. Protege el contenido del producto y conserva su calidad. Dosificador que facilita la cantidad adecuada. Agradable al tacto y deslizamiento perfecto. Inodoro. Prensado en frio. Cunde muchísimo. 100% Natural. 100% Puro. Apuesta por lo mejor."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "dla_dzieci",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "skora_atopowa": [
+     "T"
+    ],
+    "dla_dzieci": [
+     "T",
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ]
+   },
+   "price": 48.88,
+   "rating": 4.3,
+   "reviews": 26,
+   "rev30": 59,
+   "archival": false
+  },
+  {
+   "asin": "B0CSYNGW6H",
+   "brand": "Oïléna",
+   "title": "Aceite de Almendras Piel (Corporal y Facial) y Cabello, Anti Estrias Embarazo, Piel Atopica y Bebe, Aceite de Masaje Profesional. Hidratante y Rico en Vitamina E. 100% Natural y Puro - 250 ml",
+   "img": "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
+    "https://m.media-amazon.com/images/I/311ZfpK1KTL.jpg",
+    "https://m.media-amazon.com/images/I/311ZfpK1KTL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/61Y4CzrF2EL.jpg",
+    "https://m.media-amazon.com/images/I/41347Z8nQPL.jpg",
+    "https://m.media-amazon.com/images/I/41347Z8nQPL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71HTsginguL.jpg",
+    "https://m.media-amazon.com/images/I/51QifDoYOmL.jpg"
+   ],
+   "bullets": [
+    "Mima tu piel durante el embarazo con nuestro aceite de almendras dulces, especialmente formulado para hidratar la piel, ayudando a reducir y prevenir la apariencia de las estrias del embarazo. Perfecto para hidratar la piel después de la ducha. Brinda el mismo cuidado delicado a la piel sensible de tu bebé.",
+    "Repara y fortalece tu cabello y barba con nuestro aceite de almendras premium, conocido por su rico contenido de vitamina E. Di adiós al cabello seco y dañado, ya que nuestro aceite de almendras promueve el brillo, reduce las puntas abiertas y mejora la salud general del cabello y la barba.",
+    "Rejuvenece tu piel y logra un cutis radiante con las propiedades antienvejecimiento de nuestro aceite de almendras. No sólo combate las líneas finas y arrugas mientras hidratas tu piel, sino que actúa como desmaquillante natural sin dañar tu piel y la deja limpia, tersa y firme. ¡También los labios!",
+    "Base de aceites esenciales (aceite portador) y de otros productos para la creación de cosmetica casera. Su versatilidad lo convierte en el favorito de los terapeutas de masaje. El aceite de almendras se puede aplicar en la piel del cliente en masajes corporales para facilitar movimientos suaves y ayudar a que las manos del terapeuta se deslicen sin esfuerzo.",
+    "Envase con bloqueo de rayos ultravioleta. Protege el contenido del producto y conserva su calidad. Dosificador que facilita la cantidad adecuada. Agradable al tacto y deslizamiento perfecto. Inodoro. Prensado en frio. Cunde muchísimo. 100% Natural. 100% Puro. Apuesta por lo mejor."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "dla_dzieci",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "skora_atopowa": [
+     "T"
+    ],
+    "dla_dzieci": [
+     "T",
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ]
+   },
+   "price": 13.34,
+   "rating": 4.6,
+   "reviews": 12,
+   "rev30": 17,
+   "archival": false
+  },
+  {
+   "asin": "B0F13FCTWQ",
+   "brand": "Instituto Español",
+   "title": "GEL OLEO PIELES ATÓPICAS, 300ml (Paquete de 2)",
+   "img": "https://m.media-amazon.com/images/I/71iDtSK7TkL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71iDtSK7TkL.jpg",
+    "https://m.media-amazon.com/images/I/414rYKicPyL.jpg",
+    "https://m.media-amazon.com/images/I/414rYKicPyL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/81Fz2A+ITmL.jpg",
+    "https://m.media-amazon.com/images/I/41WysJBtiIL.jpg",
+    "https://m.media-amazon.com/images/I/41WysJBtiIL._SL75_.jpg",
+    "https://m.media-amazon.com/images/I/71uwTVwEsOS.jpg",
+    "https://m.media-amazon.com/images/I/41fGN938LCS.jpg"
+   ],
+   "bullets": [
+    "Le informazioni seguenti si applicano a ciascuna unità della confezione",
+    "La siguiente información se aplica a cada unidad del paquete",
+    "Inca Omega Oil reforzado con Vitamina E",
+    "Formulado sin agua ni conservantes",
+    "Higiene y cuidado de pieles muy atópicas, secas y sensibles",
+    "Sin jabón"
    ],
    "themes": [
     "skora_atopowa",
-    "kojacy",
-    "naturalny",
-    "wchlanianie",
     "cena_pojemnosc"
    ],
-   "price": 38.88,
-   "rating": 4.7,
-   "reviews": 70,
-   "bsr": 13738,
-   "rev30d": 2123,
-   "bullets": [
-    "¿Piel grasa y con imperfecciones? El aceite de jojoba es perfecto para piel grasa por su capacidad de regulación de sebo y minimizar los poros. Reduce granos, espinillas y puntos negros gracias a sus propiedades limpiadoras sin obstruir los poros.",
-    "Serum Desmaquillante y Limpiador; Mágico desmaquillante y limpiador de ojos, además de potenciar el crecimiento de pestañas. Limpia, elimina el maquillaje y arrastra la suciedad de una pasada, dejando la piel suave y elástica. Si tienes los labios secos, aplica aceite de jojoba y déjalo actuar toda la noche, ¡verás la diferencia!",
-    "Aceite ideal para piel sensible y atópica. Reduce rojeces y calma irritaciones de la piel. Reduce la apariencia de arrugas y líneas finas gracias a sus propiedades antiedad. Añadir una pequeña cantidad de aceite de jojoba a la crema o serum facial y te sorprenderán los resultados.",
-    "Tratamiento capilar natural de barba y cabello. No sólo repara las puntas y el pelo quebradizo, sino que mejora la salud del cuero cabelludo (caspa, sequedad). Añadir al champú convencional o mascarilla para un cabello radiante y estimular el crecimiento. Para tratamiento intensivo, sólo tienes que aplicar por todo el cabello y dejar actuar por 30 min. Si tienes el pelo rizado, verás como mejora la definición de rizos.",
-    "Aceite corporal con efecto antiestrías: Reduce y previene las estrias del embarazo. Mejora la apariencia de cicatrices. Es el aceite perfecto para masaje (portador de aceites): No tarda en absorberse, textura perfecta, deslizamiento increíble, suavizante y con un ALTO aporte de elasticidad y efecto reafirmante."
-   ],
-   "description": ""
+   "themeSrc": {
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ]
+   },
+   "price": 9.5,
+   "rating": 4.2,
+   "reviews": 937,
+   "rev30": 0,
+   "archival": true
   }
  ],
- "claimsMatrix": {
-  "themes": [
-   {
-    "id": "skora_atopowa",
-    "label": "Skóra atopowa / egzema"
-   },
-   {
-    "id": "kojacy",
-    "label": "Kojący / łagodzący"
-   },
-   {
-    "id": "naturalny",
-    "label": "Naturalny / wegański"
-   },
-   {
-    "id": "wchlanianie",
-    "label": "Szybkie wchłanianie"
-   },
-   {
-    "id": "cena_pojemnosc",
-    "label": "Ekonomiczny / duża pojemność"
-   }
-  ],
-  "rows": [
-   {
-    "brand": "B.O.T cosmetic & wellness",
-    "asin": "B0CVS2DMY4",
-    "cells": [
-     true,
-     true,
-     true,
-     true,
-     true
-    ]
-   }
-  ]
- },
- "claimsSummary": [
+ "themes": [
   {
-   "label": "Skóra atopowa / egzema",
-   "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "B.O.T cosmetic & wellness"
-   ]
+   "key": "nawilzenie",
+   "label": "Nawilżenie"
   },
   {
+   "key": "skora_atopowa",
+   "label": "Skóra atopowa / egzema"
+  },
+  {
+   "key": "kojacy",
+   "label": "Kojący / łagodzący"
+  },
+  {
+   "key": "swiad",
+   "label": "Redukcja świądu"
+  },
+  {
+   "key": "bariera",
+   "label": "Odbudowa bariery"
+  },
+  {
+   "key": "dla_dzieci",
+   "label": "Dla dzieci / niemowląt"
+  },
+  {
+   "key": "bez_dodatkow",
+   "label": "Bez parabenów / SLS"
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański"
+  },
+  {
+   "key": "wchlanianie",
+   "label": "Szybkie wchłanianie"
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący"
+  },
+  {
+   "key": "cena_pojemnosc",
+   "label": "Ekonomiczny / duża pojemność"
+  }
+ ],
+ "adoption": [
+  {
+   "key": "skora_atopowa",
+   "label": "Skóra atopowa / egzema",
+   "count": 6,
+   "pct": 100
+  },
+  {
+   "key": "cena_pojemnosc",
+   "label": "Ekonomiczny / duża pojemność",
+   "count": 6,
+   "pct": 100
+  },
+  {
+   "key": "nawilzenie",
+   "label": "Nawilżenie",
+   "count": 5,
+   "pct": 83
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański",
+   "count": 5,
+   "pct": 83
+  },
+  {
+   "key": "dla_dzieci",
+   "label": "Dla dzieci / niemowląt",
+   "count": 3,
+   "pct": 50
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący",
+   "count": 2,
+   "pct": 33
+  },
+  {
+   "key": "kojacy",
    "label": "Kojący / łagodzący",
    "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "B.O.T cosmetic & wellness"
-   ]
+   "pct": 17
   },
   {
-   "label": "Naturalny / wegański",
+   "key": "swiad",
+   "label": "Redukcja świądu",
    "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "B.O.T cosmetic & wellness"
-   ]
+   "pct": 17
   },
   {
+   "key": "bariera",
+   "label": "Odbudowa bariery",
+   "count": 1,
+   "pct": 17
+  },
+  {
+   "key": "bez_dodatkow",
+   "label": "Bez parabenów / SLS",
+   "count": 1,
+   "pct": 17
+  },
+  {
+   "key": "wchlanianie",
    "label": "Szybkie wchłanianie",
    "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "B.O.T cosmetic & wellness"
-   ]
-  },
-  {
-   "label": "Ekonomiczny / duża pojemność",
-   "count": 1,
-   "pct": 100,
-   "topBrands": [
-    "B.O.T cosmetic & wellness"
-   ]
+   "pct": 17
   }
  ],
  "vocGap": [
   {
-   "vocTopic": "Wadliwy dozownik / opakowanie",
-   "customerConcernPct": "16.7%",
-   "addressedByCount": 1,
-   "addressedByBrands": [
-    "B.O.T cosmetic & wellness"
-   ],
-   "gapSeverity": "MEDIUM",
-   "whitespace": "true"
+   "vocTopic": "Zjełczały / nieprzyjemny zapach",
+   "vocPct": 40.0,
+   "theme": "Bez zapachu / perfum",
+   "addressed": 0,
+   "total": 6,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
   },
   {
-   "vocTopic": "Trudność z napełnianiem / przełożeniem pompki",
-   "customerConcernPct": "4.2%",
-   "addressedByCount": 1,
-   "addressedByBrands": [
-    "B.O.T cosmetic & wellness"
-   ],
-   "gapSeverity": "MEDIUM",
-   "whitespace": "true"
+   "vocTopic": "Wyciek i uszkodzone opakowanie / pompka",
+   "vocPct": 26.0,
+   "theme": "",
+   "addressed": 0,
+   "total": 6,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
+  },
+  {
+   "vocTopic": "Podejrzenie fałszowania / brak certyfikatu",
+   "vocPct": 18.0,
+   "theme": "",
+   "addressed": 0,
+   "total": 6,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
+  },
+  {
+   "vocTopic": "Tłustość, słabe wchłanianie i brak piany",
+   "vocPct": 15.0,
+   "theme": "Szybkie wchłanianie",
+   "addressed": 1,
+   "total": 6,
+   "pct": 17,
+   "sev": "MED",
+   "brands": [
+    "LABORATORIOS BABE"
+   ]
+  },
+  {
+   "vocTopic": "Podrażnienia i reakcje skórne",
+   "vocPct": 10.0,
+   "theme": "Kojący / łagodzący",
+   "addressed": 1,
+   "total": 6,
+   "pct": 17,
+   "sev": "MED",
+   "brands": [
+    "LABORATORIOS BABE"
+   ]
+  },
+  {
+   "vocTopic": "Cena i zaniżona pojemność",
+   "vocPct": 12.0,
+   "theme": "Ekonomiczny / duża pojemność",
+   "addressed": 6,
+   "total": 6,
+   "pct": 100,
+   "sev": "LOW",
+   "brands": [
+    "OZONO D´OR",
+    "LABORATORIOS BABE",
+    "Oïléna",
+    "Instituto Español"
+   ]
   }
  ],
- "whitespaceOpportunities": [],
- "saturation": [
-  {
-   "label": "Skóra atopowa / egzema",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
-  },
+ "whitespace": [
   {
    "label": "Kojący / łagodzący",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "pct": 17,
+   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "label": "Naturalny / wegański",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "label": "Redukcja świądu",
+   "pct": 17,
+   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Odbudowa bariery",
+   "pct": 17,
+   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Bez parabenów / SLS",
+   "pct": 17,
+   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
    "label": "Szybkie wchłanianie",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "pct": 17,
+   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  }
+ ],
+ "saturation": [
+  {
+   "label": "Skóra atopowa / egzema",
+   "pct": 100,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
    "label": "Ekonomiczny / duża pojemność",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "pct": 100,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
+  },
+  {
+   "label": "Nawilżenie",
+   "pct": 83,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
+  },
+  {
+   "label": "Naturalny / wegański",
+   "pct": 83,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
+  },
+  {
+   "label": "Dla dzieci / niemowląt",
+   "pct": 50,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Odżywczy / regenerujący",
+   "pct": 33,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "pct": 17,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Redukcja świądu",
+   "pct": 17,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Odbudowa bariery",
+   "pct": 17,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Bez parabenów / SLS",
+   "pct": 17,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Szybkie wchłanianie",
+   "pct": 17,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   }
  ],
- "strategicRecommendations": [
+ "recs": [
   {
-   "type": "Parytet",
-   "badgeBg": "#dcfce7",
-   "badgeColor": "#166534",
-   "finding": "Nasycone deklaracje: Skóra atopowa / egzema, Kojący / łagodzący, Naturalny / wegański, Szybkie wchłanianie.",
-   "implication": "Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca."
+   "type": "Messaging",
+   "finding": "Negatywy VOC dotyczą: Zjełczały / nieprzyjemny zapach, Wyciek i uszkodzone opakowanie / pompka, Podejrzenie fałszowania / brak certyfikatu — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
+  },
+  {
+   "type": "Pozycjonowanie",
+   "finding": "Nisko wysycone claimy: Kojący / łagodzący, Redukcja świądu, Odbudowa bariery, Bez parabenów / SLS.",
+   "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
+  },
+  {
+   "type": "Produkt",
+   "finding": "Nasycone (obowiązkowe) claimy: Skóra atopowa / egzema, Ekonomiczny / duża pojemność, Nawilżenie, Naturalny / wegański.",
+   "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]
 }

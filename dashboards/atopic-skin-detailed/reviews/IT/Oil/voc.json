@@ -1,1100 +1,1660 @@
 {
- "totalReviews": 154,
- "avgRating": 4.3,
- "productCount": 1,
- "cpSummary": "Klienci to głównie osoby z suchą, wrażliwą lub atopową skórą, które szukają nawilżenia i ulgi w swędzeniu. Produkt (olejek Aveeno w sprayu) jest bardzo dobrze oceniany za nawilżenie i zapach; głównym punktem spornym jest tłustość i tempo wchłaniania.",
+ "totalReviews": 1000,
+ "avgRating": 4.39,
+ "productCount": 5,
+ "cpSummary": "Kupujący w kategorii <strong>olejków</strong> to przede wszystkim <strong>kobiety w ciąży i po porodzie</strong>, które szukają sposobu na zapobieganie i redukcję rozstępów oraz blizn, a także osoby z <strong>bardzo suchą skórą</strong> potrzebujące intensywnego nawilżenia. Dużą i głośną grupę stanowią świadomi konsumenci czytający skład (INCI), którzy krytykują parafinę i uznają hasło 'bio / naturalny' za mylące. Osobny segment to rodzice stosujący czysty olejek ze słodkich migdałów do pielęgnacji niemowląt i skóry wrażliwej. To odbiorcy mocno kierujący się recenzjami, wrażliwi na skład, zapach, tłustość i cenę w porównaniu z tanim olejkiem migdałowym.",
  "cpWho": {
   "labels": [
-   "Osoby z suchą skórą",
-   "Skóra wrażliwa / atopowa",
-   "Kupujący lojalni marce Aveeno",
-   "Kobiety w ciąży / skóra dojrzała"
+   "Kobiety w ciąży / po porodzie",
+   "Rozstępy i blizny",
+   "Sucha skóra",
+   "Skóra wrażliwa / alergiczna",
+   "Niemowlęta i dzieci"
   ],
   "pos": [
-   63,
-   12,
+   22,
+   14,
+   18,
    5,
-   1
+   7
   ],
   "neg": [
-   8,
-   1,
-   1,
-   0
+   14,
+   20,
+   6,
+   14,
+   3
   ]
  },
  "cpWhen": {
   "labels": [
-   "Po prysznicu / kąpieli",
-   "Codzienna pielęgnacja",
-   "Lato / po opalaniu",
-   "Zima (skóra popękana)"
+   "Ciąża i po porodzie",
+   "Codziennie (rano i wieczorem)",
+   "Po prysznicu / na wilgotną skórę",
+   "Na noc / wieczorem",
+   "Długotrwale (≥3 miesiące)"
   ],
   "pos": [
-   40,
-   25,
-   10,
-   6
+   20,
+   16,
+   14,
+   8,
+   10
   ],
   "neg": [
-   7,
-   2,
-   1,
-   0
+   16,
+   12,
+   4,
+   5,
+   8
   ]
  },
  "cpWhere": {
   "labels": [
-   "Całe ciało",
-   "Suche partie (łokcie, kolana, plecy)",
-   "Masaż",
-   "Twarz"
+   "Brzuch (ciąża)",
+   "Piersi, biodra, uda",
+   "Blizny",
+   "Twarz",
+   "Całe ciało / włosy"
   ],
   "pos": [
-   55,
-   12,
+   18,
+   14,
    8,
-   2
+   9,
+   12
   ],
   "neg": [
+   16,
+   12,
+   12,
    6,
-   1,
-   1,
-   2
+   5
   ]
  },
  "cpWhat": {
   "labels": [
-   "Nawilżenie / miękkość",
-   "Zapach",
+   "Skuteczność (rozstępy / blizny)",
+   "Skład i naturalność",
    "Wchłanianie / tłustość",
-   "Wygoda sprayu",
-   "Naturalny skład"
+   "Zapach",
+   "Cena / wydajność"
   ],
   "pos": [
-   60,
-   40,
-   30,
    20,
-   15
+   6,
+   14,
+   16,
+   12
   ],
   "neg": [
-   3,
-   4,
+   28,
+   24,
+   22,
    12,
-   3,
-   0
+   14
   ]
  },
  "usageScenarios": [
   {
+   "label": "Zapobieganie rozstępom w ciąży",
+   "reason": "Kobiety masują brzuch, piersi i uda rano i wieczorem, by uniknąć rozstępów",
+   "pct": "30.0%"
+  },
+  {
+   "label": "Redukcja blizn i starych rozstępów",
+   "reason": "Próba rozjaśnienia blizn pooperacyjnych, potrądzikowych i dawnych rozstępów",
+   "pct": "20.0%"
+  },
+  {
+   "label": "Nawilżanie bardzo suchej skóry",
+   "reason": "Olej jako emolient na uczucie ściągnięcia, szorstkość i łuszczenie",
+   "pct": "18.0%"
+  },
+  {
    "label": "Aplikacja po prysznicu na wilgotną skórę",
-   "reason": "Najczęściej wskazywany rytuał — na mokrej skórze łatwiej się rozprowadza i mniej tłuści",
-   "pct": "45.0%"
+   "reason": "Nakładanie na mokrą skórę, by lepiej się wchłaniał i nie plamił ubrań",
+   "pct": "13.0%"
   },
   {
-   "label": "Codzienne nawilżanie suchej skóry",
-   "reason": "Regularne stosowanie jako podstawowy środek nawilżający zamiast kremu",
-   "pct": "28.0%"
+   "label": "Pielęgnacja niemowląt i dzieci",
+   "reason": "Czysty olejek migdałowy na podrażnienia, ciemieniuchę i suchą skórę dzieci",
+   "pct": "10.0%"
   },
   {
-   "label": "Łagodzenie swędzenia i podrażnień",
-   "reason": "Osoby z atopowym/swędzącym problemem szukają szybkiej ulgi",
-   "pct": "12.0%"
-  },
-  {
-   "label": "Masaż ciała",
-   "reason": "Tłusta konsystencja bywa wykorzystywana celowo do masażu",
-   "pct": "8.0%"
-  },
-  {
-   "label": "Pielęgnacja letnia / po opalaniu",
-   "reason": "Lekkość i połysk cenione latem i po ekspozycji na słońce",
-   "pct": "7.0%"
+   "label": "Masaż oraz pielęgnacja włosów i paznokci",
+   "reason": "Wszechstronne zastosowanie olejku do masażu, skórek i włosów",
+   "pct": "9.0%"
   }
  ],
- "csSummary": "Przy 91 recenzjach i średniej 4,52 nastroje są silnie pozytywne. Napędzają je nawilżenie, przyjemny zapach i wygodny spray. Powtarzalna oś krytyki to tłustość i wolne wchłanianie (część klientów odbiera to jako wadę, część jako zaletę do masażu), a pojedynczo — słaby dozownik i zbyt intensywny/trwały zapach.",
+ "csSummary": "Sentyment jest <strong>spolaryzowany</strong>: w próbce około 37% recenzji to oceny negatywne (1-2★), 21% neutralne (3★) i 42% wyraźnie pozytywne (4-5★). Podział przebiega głównie wokół oczekiwań i składu: zadowoleni traktują produkt jako dobry <strong>olejek nawilżający i uelastyczniający</strong> (zwłaszcza w ciąży), a rozczarowani albo liczyli na <strong>usunięcie starych rozstępów i blizn</strong> (czego nie osiąga), albo przeanalizowali INCI i karzą za parafinę oraz mylące hasło 'bio'. Ten sam produkt bywa oceniany skrajnie różnie zależnie od tego, czy traktuje się go jako olej pielęgnacyjny, czy jako 'cud' na blizny.",
  "negativeTopics": [
   {
-   "label": "Tłustość i wolne wchłanianie",
-   "reason": "Najczęstszy zarzut — olejek zostaje tłusty/lepki na skórze i długo się wchłania",
-   "pct": "35.0%",
+   "label": "Skład i mylące 'bio' (parafina)",
+   "reason": "Pierwszym składnikiem jest ciekła parafina / wazelina, a nazwa 'bio' uznawana jest za wprowadzającą w błąd",
+   "pct": "30.0%",
    "bullets": [
-    "Pozostaje tłusty przez wiele godzin u części użytkowników",
-    "Ryzyko przeniesienia na ubranie, jeśli nałożyć za dużo",
-    "Potrzeba odczekać kilka/kilkanaście minut przed ubraniem"
+    "Pierwszym składnikiem jest ciekła parafina / wazelina pochodzenia petrochemicznego",
+    "Hasło 'bio / naturalny' postrzegane jako marketing niezgodny ze składem",
+    "Długa lista alergenów perfumowanych i składników 'z czerwoną etykietą'",
+    "Obawy o BHT, palmitynian retinylu i dwutlenek tytanu jako szkodliwe"
    ],
    "quotes": [
-    "Nie wchłania się łatwo, pozostaje tłusty na skórze.",
-    "Problemem jest jednak tłusta konsystencja, która pozostaje lepka na skórze przez cały dzień."
+    "Na pierwszym miejscu w składzie znajduje się parafina ciekła, składnik pochodzenia petrochemicznego!",
+    "Czy Twoim zdaniem olejek, który sam siebie nazywa „BIO-OIL”, może mieć jako pierwszy składnik Paraffinum Liquidum?",
+    "słowo BIO występuje tylko w nazwie",
+    "wszystko jest, z wyjątkiem organicznego!"
    ]
   },
   {
-   "label": "Dozownik / spray",
-   "reason": "Rozpylacz bywa niewygodny — ciężko wyciska, nie nebulizuje równomiernie",
-   "pct": "10.0%",
+   "label": "Brak skuteczności na rozstępy i blizny",
+   "reason": "Produkt nie usuwa starych rozstępów ani blizn; rozstępy pojawiają się mimo stosowania",
+   "pct": "24.0%",
    "bullets": [
-    "Dozownik ciężko się wyciska, produkt z trudem wychodzi",
-    "Nie rozprowadza olejku równomiernie",
-    "Przezroczysta butelka — sugestia nieprzezroczystej"
+    "Stare, białe rozstępy i blizny nie znikają mimo miesięcy stosowania",
+    "Rozstępy pojawiały się mimo codziennej aplikacji w ciąży",
+    "Efekt porównywalny ze zwykłym kremem nawilżającym",
+    "Skuteczność przypisywana głównie marketingowi, nie działaniu"
    ],
    "quotes": [
-    "Dozownik bardzo ciężko się wyciska, a produkt z trudem wychodzi.",
-    "rozpylacz pozostawia wiele do życzenia: nie rozprowadza olejku równomiernie."
+    "ten produkt nie powoduje, że cokolwiek znika",
+    "rozstępy nadal się pojawiały",
+    "Na moich ramionach nadal pełno jaskrawoczerwonych rozstępów, które ani nie wyblakły",
+    "w ósmym miesiącu sama się rozdarłam w tych miejscach"
    ]
   },
   {
-   "label": "Zapach zbyt intensywny / trwały",
-   "reason": "Dla części klientów zapach jest za mocny, chemiczny lub zbyt długo się utrzymuje",
-   "pct": "8.0%",
+   "label": "Tłusty film i słabe wchłanianie",
+   "reason": "Olej nie wchłania się, zostawia tłustą warstwę i plami ubrania",
+   "pct": "20.0%",
    "bullets": [
-    "Zapach opisany jako niemal chemiczny, kłócący się z naturalnym składem",
-    "Bardzo trwały — wszystko dotknięte przez pierwszy kwadrans pachnie olejkiem"
+    "Olejek nie wchłania się i pozostawia tłustą warstwę",
+    "Plami ubrania i pościel",
+    "Trzeba wycierać skórę szmatką lub myć ponownie",
+    "Uniemożliwia ubranie się zaraz po aplikacji"
    ],
    "quotes": [
-    "zapach jest zbyt intensywny, niemal chemiczny, który kłóci się z naturalnymi składnikami.",
-    "Pozostawia ładny zapach, ale bardzo trwały."
+    "pozostawia nieprzyjemny, tłusty efekt",
+    "od razu natłuszcza wszystko, co nosisz",
+    "Utrzymuje się na skórze godzinami",
+    "pozostawia plamy na ubraniach i pościeli"
    ]
   },
   {
-   "label": "Cena / oczekiwania",
-   "reason": "Pojedyncze głosy o zbyt wysokiej cenie lub rozczarowaniu wobec oczekiwań",
-   "pct": "6.0%",
+   "label": "Reakcje skórne, świąd i alergia",
+   "reason": "Pieczenie, świąd, pęcherze i reakcje alergiczne, zwłaszcza u skóry wrażliwej i w ciąży",
+   "pct": "16.0%",
    "bullets": [
-    "Postrzegany jako trochę za drogi jak na skład (olej sojowy jako główny)",
-    "Rozczarowanie u osób oczekujących lżejszej formuły"
+    "Pieczenie, zaczerwienienie i intensywny świąd po kilku dniach",
+    "Pęcherze i wysypka ustępujące dopiero po odstawieniu produktu",
+    "Kontaktowe zapalenie skóry wymagające kortyzonu",
+    "Reakcja fotouczulająca / alergia słoneczna"
    ],
    "quotes": [
-    "trochę za drogi jak na to, co to jest!",
-    "Rozczarowałem się, ale niestety raz otwartej fiolki nie można już zwrócić."
+    "wywołał na mojej skórze gwałtowną reakcję alergiczną, zwaną kontaktowym zapaleniem skóry",
+    "zaczęło pojawiać się zaczerwienienie, a czasem nawet intensywne swędzenie",
+    "poczułam intensywne, nieznośne swędzenie i zaczerwienienie na całym ciele, a na skórze pojawiły się pęcherze",
+    "powoduje uczulenie na słońce"
+   ]
+  },
+  {
+   "label": "Opakowanie, brak plomby i podróbki",
+   "reason": "Brak plomby zabezpieczającej, plastikowa butelka, brak dozownika, podejrzenia podróbek",
+   "pct": "14.0%",
+   "bullets": [
+    "Produkt dociera bez plomby / folii zabezpieczającej",
+    "Plastikowa butelka budzi obawy o jakość i mikroplastik",
+    "Brak dozownika / miarki utrudnia aplikację",
+    "Podejrzenia o produkt zmieniony lub podrobiony"
+   ],
+   "quotes": [
+    "Przesyłka dotarła otwarta",
+    "Produkt dotarł bez zapieczętowania, nawet zakrętka nie była zaklejona",
+    "Butelka NIE JEST HERMETYCZNA",
+    "tak dobry olejek migdałowy sprzedawany jest w plastikowym opakowaniu"
+   ]
+  },
+  {
+   "label": "Cena i nieprzyjemny zapach",
+   "reason": "Zbyt drogi w porównaniu z olejkiem migdałowym; zapach ostry, mdlący lub niszczący ubrania",
+   "pct": "12.0%",
+   "bullets": [
+    "Cena wysoka wobec taniego olejku migdałowego",
+    "Poczucie płacenia za markę, nie za jakość",
+    "Zapach opisywany jako ostry, mdlący lub nieprzyjemny",
+    "Zapach oleju utrzymuje się na ubraniach"
+   ],
+   "quotes": [
+    "wolę mój zwyczajny olejek migdałowy: tańszy",
+    "Obecnie kosztuje około 26 euro, co moim zdaniem wpływa na negatywną ocenę",
+    "pozostawił na mnie okropny i niestety nieusuwalny zapach",
+    "ma mocny i przyprawiający o mdłości zapach"
    ]
   }
  ],
  "positiveTopics": [
   {
-   "label": "Głębokie nawilżenie i miękkość",
-   "reason": "Najsilniejszy motyw pochwał — skóra natychmiast miękka i długotrwale nawilżona",
-   "pct": "40.0%",
+   "label": "Nawilżenie i miękka, elastyczna skóra",
+   "reason": "Skóra staje się miękka, gładka i elastyczna, dobrze nawilżona",
+   "pct": "26.0%",
    "bullets": [
-    "Skóra od razu miększa, nawilżenie utrzymuje się przez cały dzień",
-    "Skuteczny na bardzo suchych partiach (łokcie, kolana, plecy)",
-    "Traktowany jako alternatywa dla ciężkiego kremu"
+    "Skóra miękka, gładka i elastyczna po aplikacji",
+    "Intensywne nawilżenie suchych miejsc (łokcie, kolana, dłonie)",
+    "Odbudowa miękkości bardzo suchej skóry",
+    "Długotrwałe uczucie nawilżenia"
    ],
    "quotes": [
-    "Pozostawia skórę bardzo miękką i nawilżoną przez długi czas.",
-    "Dogłębnie nawilża skórę, czyniąc ją przyjemniejszą i bardziej miękką."
+    "pozostawia skórę bardzo miękką, nawilżoną",
+    "skóra bardziej elastyczna, nawilżona i gładka",
+    "Bardzo dobrze nawilża, ale dobrze się wchłania, nie pozostawiając tłustej warstwy",
+    "skóra pozostaje miękka przez cały dzień"
    ]
   },
   {
-   "label": "Przyjemny zapach",
-   "reason": "Zapach (kokosowy/waniliowy/owsiany) często wskazywany jako atut",
-   "pct": "25.0%",
-   "bullets": [
-    "Delikatny, otulający, długo utrzymuje się na skórze",
-    "Kojarzony z latem i przyjemnym doświadczeniem stosowania"
-   ],
-   "quotes": [
-    "Fantastyczny zapach, skóra pozostaje miękka i pachnąca przez długi czas.",
-    "pozostawiając intensywny (choć delikatny) kokosowy zapach, który strasznie kojarzy mi się z latem."
-   ]
-  },
-  {
-   "label": "Szybkie wchłanianie / nietłusty (u części)",
-   "reason": "Dla dużej grupy olejek wchłania się szybko i nie zostawia tłustej warstwy",
+   "label": "Zapobieganie rozstępom w ciąży",
+   "reason": "Stosowany w ciąży utrzymuje elastyczność skóry i zapobiega rozstępom",
    "pct": "22.0%",
    "bullets": [
-    "Szybko wysycha, nie pozostawia lepkiej warstwy",
-    "Wystarczy niewielka ilość, ekonomiczny w użyciu"
+    "Stosowany w ciąży zapobiega powstawaniu rozstępów",
+    "Utrzymuje elastyczność rosnącej skóry brzucha",
+    "Redukuje świeże, czerwone rozstępy",
+    "Polecany od początku ciąży aż po połóg"
    ],
    "quotes": [
-    "Nie jest tłusty, szybko się wchłania i pozostawia skórę miękką, jedwabistą.",
-    "szybko wysycha i pozostawia skórę bardzo miękką i odżywioną, bez połysku."
+    "masowałam nim piersi, brzuch i pośladki, żeby uniknąć rozstępów... faktycznie, nie pojawiły się!",
+    "używa go rano i wieczorem na brzuch i nogi, aby zapobiec rozstępom",
+    "pomogło mi to pozbyć się niektórych wciąż czerwonych rozstępów",
+    "zapobiega powstawaniu zbyt wielu rozstępów"
    ]
   },
   {
-   "label": "Naturalny skład i zaufanie do marki",
-   "reason": "Skład w 98% naturalny (owies, jojoba) i renoma Aveeno budują zaufanie",
-   "pct": "18.0%",
+   "label": "Dobre wchłanianie, lekki i nietłusty",
+   "reason": "Przy prawidłowej aplikacji lekki, szybko się wchłania i nie zostawia filmu",
+   "pct": "16.0%",
    "bullets": [
-    "98% składników pochodzenia naturalnego, owies i jojoba",
-    "Marka znana z aptek, przebadana dermatologicznie, dobra dla wrażliwej skóry"
+    "Lekka konsystencja i szybkie wchłanianie",
+    "Nie pozostawia tłustego filmu przy niewielkiej ilości",
+    "Nie plami ubrań po wmasowaniu",
+    "Wchłania się szybciej niż gęsty krem"
    ],
    "quotes": [
-    "Bardzo spodobał mi się niemal pełny skład produktów naturalnych (ok. 98%).",
-    "Aveeno to znana marka, która tworzy doskonałe produkty."
+    "Szybko się wchłania, nie pozostawiając tłustej warstwy na skórze",
+    "Lekki, nietłusty i szybko się wchłania",
+    "Jest to olej, ale nie jest tłusty; łatwo się wchłania i nie plami ubrań",
+    "wchłania się znacznie szybciej niż gęsty krem"
+   ]
+  },
+  {
+   "label": "Przyjemny, delikatny zapach",
+   "reason": "Zapach delikatny i nieinwazyjny, dobrze tolerowany również w ciąży",
+   "pct": "12.0%",
+   "bullets": [
+    "Delikatny, przyjemny zapach",
+    "Nieinwazyjny - dobry dla wrażliwych na zapachy w ciąży",
+    "Pozostawia skórę ładnie pachnącą",
+    "Zapach nie przeszkadza w codziennym stosowaniu"
+   ],
+   "quotes": [
+    "naprawdę przepięknie pachnie i szybko się wchłania",
+    "Zapach jest delikatny, przyjemny i nieinwazyjny",
+    "to znany olejek o delikatnym i lekkim zapachu",
+    "Ma bardzo delikatny zapach"
+   ]
+  },
+  {
+   "label": "Naturalność i pielęgnacja niemowląt",
+   "reason": "Czysty olejek migdałowy ceniony za bezpieczeństwo dla dzieci i skóry wrażliwej",
+   "pct": "12.0%",
+   "bullets": [
+    "Czysty olejek migdałowy - jeden składnik, bez chemii",
+    "Bezpieczny do codziennej pielęgnacji niemowląt",
+    "Łagodzi podrażnienia i zaczerwienienia u dzieci",
+    "Zmiękcza ciemieniuchę i suche skórki"
+   ],
+   "quotes": [
+    "Będąc w 100% czystym, bez perfum i substancji chemicznych, jest bardzo bezpieczny",
+    "po trzech dniach podrażnienie całkowicie zniknęło",
+    "Kupiłam ten olejek dla mojego 10-miesięcznego synka... jego skóra znów stała się bardzo miękka",
+    "100% naturalny (tylko jeden składnik w INCI)"
+   ]
+  },
+  {
+   "label": "Wydajność i dobra cena (olejek migdałowy)",
+   "reason": "Duże opakowania starczają na miesiące, dobry stosunek jakości do ceny",
+   "pct": "12.0%",
+   "bullets": [
+    "Duże opakowania (250 ml-1 l) starczają na miesiące",
+    "Wystarczy kilka kropli na aplikację",
+    "Wyraźnie tańszy niż odpowiedniki apteczne",
+    "Bardzo dobry stosunek jakości do ceny"
+   ],
+   "quotes": [
+    "wystarczy niewielka ilość, aby pokryć całą powierzchnię brzucha, ud i pośladków",
+    "znacznie tańszą niż te sprzedawane w aptekach/sklepach zielarskich",
+    "starcza na długo... na pewno kupię go ponownie",
+    "stosunek jakości do ceny jest naprawdę doskonały"
    ]
   }
  ],
  "negativeInsights": [
   {
-   "type": "Formuła",
+   "type": "Konflikt 'bio' vs skład",
    "badgeBg": "#fee2e2",
    "badgeColor": "#991b1b",
-   "finding": "Tłustość i wolne wchłanianie to jedyny powtarzalny zarzut — pojawia się w niemal wszystkich recenzjach 1-3★ i nawet u części zadowolonych.",
-   "implication": "Komunikacja powinna jasno uczyć aplikacji (mała ilość, na wilgotną skórę), by zarządzić oczekiwaniami i ograniczyć zwroty."
+   "finding": "Włoscy konsumenci czytają INCI i karzą jedną-dwiema gwiazdkami za parafinę i wazelinę oraz alergeny perfumowane, nawet gdy produkt dobrze nawilża; mylące hasło 'bio' jest głównym źródłem najgorszych ocen.",
+   "implication": "Transparentna edukacja o roli parafiny (okluzja) lub wyraźne eksponowanie wariantu 100% naturalnego oraz uczciwe nazewnictwo mogą odblokować oceny 4-5★ od zadowolonych, ale zaniepokojonych użytkowników."
   },
   {
-   "type": "Opakowanie",
+   "type": "Oczekiwanie cudu na blizny/rozstępy",
    "badgeBg": "#fee2e2",
    "badgeColor": "#991b1b",
-   "finding": "Dozownik sprayu bywa niewygodny — ciężko wyciska i nie rozpyla równomiernie.",
-   "implication": "Ulepszenie mechanizmu sprayu mogłoby usunąć jeden z niewielu konkretnych minusów produktu."
+   "finding": "Znaczna część rozczarowań wynika z oczekiwania usunięcia starych, białych rozstępów i blizn - czego olej nie robi; działa jedynie profilaktycznie i na świeże zmiany.",
+   "implication": "Uczciwe pozycjonowanie ('zapobieganie i świeże, czerwone rozstępy') oraz jasny komunikat o realnych efektach ograniczą skrajnie negatywne recenzje z rozczarowania."
   },
   {
-   "type": "Zapach",
+   "type": "Sensoryka / tłustość",
    "badgeBg": "#fee2e2",
    "badgeColor": "#991b1b",
-   "finding": "Ten sam zapach dzieli klientów — dla większości atut, dla mniejszości zbyt intensywny lub zbyt trwały.",
-   "implication": "Wariant bezzapachowy/lżejszy mógłby przechwycić klientów z najbardziej wrażliwą (atopową) skórą."
+   "finding": "Tłusty film, plamy na ubraniach i wolne wchłanianie to powtarzalny motyw - dyskwalifikujący dla stosowania na dzień.",
+   "implication": "Edukacja o aplikacji (na wilgotną skórę, małe dawki, wieczorem) oraz ewentualnie lżejsza formuła zmniejszą główny zarzut sensoryczny."
+  },
+  {
+   "type": "Bezpieczeństwo skóry wrażliwej",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Osoby o skórze wrażliwej i kobiety w ciąży opisują pieczenie, świąd, pęcherze i reakcje fotouczulające (olejki cytrusowe + słońce).",
+   "implication": "Wyraźne zalecenie testu płatkowego oraz ostrzeżenie o ekspozycji na słońce i alergenach zapachowych to konieczne minimum dla tej wrażliwej grupy."
+  },
+  {
+   "type": "Zaufanie / opakowanie",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Powtarzają się skargi na brak plomby, plastikową butelkę bez dozownika/miarki oraz podejrzenia podróbek lub produktu otwartego w transporcie.",
+   "implication": "Plomba zabezpieczająca, lepszy dozownik i kontrola kanału sprzedaży to szybkie wygrane wizerunkowe dla higienicznie wrażliwych kupujących."
   }
  ],
  "positiveInsights": [
   {
-   "type": "Skuteczność",
+   "type": "Nawilżenie jako rdzeń wartości",
    "badgeBg": "#dcfce7",
    "badgeColor": "#166534",
-   "finding": "Nawilżenie i miękkość skóry to dominujący powód wysokich ocen, często z ulgą w swędzeniu suchej/atopowej skóry.",
-   "implication": "Rdzeń przekazu marketingowego: natychmiastowa i długotrwała ulga dla suchej, swędzącej skóry."
+   "finding": "Najsilniejszy motyw pozytywny to intensywne nawilżenie oraz miękka, elastyczna skóra - niezależnie od dyskusji o składzie.",
+   "implication": "Pozycjonowanie przede wszystkim jako 'intensywne nawilżenie i elastyczność bardzo suchej skóry' trafia w realne, potwierdzone doświadczenie kupujących."
   },
   {
-   "type": "Doświadczenie",
+   "type": "Rytuał ciążowy",
    "badgeBg": "#dcfce7",
    "badgeColor": "#166534",
-   "finding": "Zapach i wygodny format sprayu tworzą przyjemne, sensoryczne doświadczenie stosowania.",
-   "implication": "Warto eksponować zapach i praktyczność sprayu jako czynniki różnicujące od zwykłych kremów."
+   "finding": "Zapobieganie rozstępom w ciąży to najczęstszy udany scenariusz, chętnie polecany rodzinie i znajomym.",
+   "implication": "Komunikacja kierowana do kobiet w ciąży, ze zdjęciami przed/po świeżych rozstępów i zaleceniem 'od początku ciąży', to najsilniejszy dowód społeczny."
   },
   {
-   "type": "Zaufanie",
+   "type": "Lekkość przy prawidłowej aplikacji",
    "badgeBg": "#dcfce7",
    "badgeColor": "#166534",
-   "finding": "Renoma Aveeno i naturalny skład (98%, owies + jojoba) napędzają zakup i lojalność.",
-   "implication": "Podkreślanie certyfikacji dermatologicznej i naturalności wzmacnia konwersję u wrażliwej grupy."
+   "finding": "Zadowoleni chwalą szybkie wchłanianie i brak tłustości - dokładnie odwrotnie niż rozczarowani; różnica leży w sposobie aplikacji (wilgotna skóra, małe dawki).",
+   "implication": "Jasna instrukcja aplikacji może przekształcić główny zarzut (tłustość) w atut i podnieść oceny."
+  },
+  {
+   "type": "Naturalność i dzieci",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Czysty olejek ze słodkich migdałów jest ceniony za bezpieczeństwo dla niemowląt i skóry wrażliwej oraz za brak chemii.",
+   "implication": "Segment 'naturalny / dla dzieci' to osobna oś komunikacji - warto potwierdzić czystością składu (jeden składnik) i wskazaniem wieku stosowania."
+  },
+  {
+   "type": "Wartość i wydajność",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Mimo skarg na cenę wersji markowej, duże i tanie opakowania olejku migdałowego oraz oszczędne zużycie budują realną wartość.",
+   "implication": "Podkreślanie pojemności, liczby aplikacji i kosztu na dzień neutralizuje obiekcje cenowe i przyciąga łowców wartości."
   }
  ],
  "buyersMotivation": [
   {
-   "label": "Ulga dla suchej skóry",
-   "reason": "Podstawowy powód zakupu — walka z przesuszeniem i szorstkością",
-   "pct": "45.0%"
+   "label": "Zapobieganie rozstępom w ciąży",
+   "reason": "Kobiety chcą uniknąć rozstępów podczas rosnącego brzucha",
+   "pct": "28.0%"
   },
   {
-   "label": "Zaufanie do marki Aveeno",
-   "reason": "Wcześniejsze pozytywne doświadczenia i reputacja apteczna",
-   "pct": "22.0%"
+   "label": "Redukcja istniejących rozstępów i blizn",
+   "reason": "Nadzieja na rozjaśnienie blizn i dawnych rozstępów",
+   "pct": "20.0%"
   },
   {
-   "label": "Naturalny / bezpieczny skład",
-   "reason": "Poszukiwanie formuły łagodnej dla wrażliwej i atopowej skóry",
-   "pct": "15.0%"
+   "label": "Nawilżanie bardzo suchej skóry",
+   "reason": "Uczucie ściągnięcia, szorstkość i łuszczenie skóry",
+   "pct": "16.0%"
   },
   {
-   "label": "Wygoda formatu spray",
-   "reason": "Szybka, bezproblemowa aplikacja bez brudzenia rąk",
+   "label": "Poszukiwanie naturalnego produktu",
+   "reason": "Chęć uniknięcia 'chemii', szczególnie u dzieci i skóry wrażliwej",
+   "pct": "14.0%"
+  },
+  {
+   "label": "Zaufanie do marki i licznych recenzji",
+   "reason": "Decyzję napędzają rozpoznawalność Bio-Oil i wysokie oceny",
+   "pct": "12.0%"
+  },
+  {
+   "label": "Tańsza alternatywa (olejek migdałowy)",
+   "reason": "Szukanie taniego, wielofunkcyjnego oleju zamiast drogich kremów",
    "pct": "10.0%"
-  },
-  {
-   "label": "Łagodzenie swędzenia / atopii",
-   "reason": "Konkretny problem swędzącej, atopowej skóry",
-   "pct": "8.0%"
   }
  ],
  "customerExpectations": [
   {
-   "label": "Szybkie wchłanianie",
-   "reason": "Olejek ma nie zostawiać tłustej, lepkiej warstwy",
-   "pct": "35.0%"
+   "label": "Realna redukcja rozstępów i blizn",
+   "reason": "Oczekują widocznej poprawy, nie tylko nawilżenia",
+   "pct": "24.0%"
   },
   {
-   "label": "Długotrwałe nawilżenie",
-   "reason": "Efekt miękkości utrzymujący się przez cały dzień",
-   "pct": "30.0%"
+   "label": "Prawdziwie naturalny, czysty skład",
+   "reason": "Bez parafiny, wazeliny i wątpliwych dodatków, zgodny z hasłem 'bio'",
+   "pct": "20.0%"
   },
   {
-   "label": "Delikatny, nienachalny zapach",
-   "reason": "Zapach przyjemny, ale nie za intensywny ani chemiczny",
+   "label": "Dobre wchłanianie bez tłustego filmu",
+   "reason": "Olej ma się wchłaniać i nie plamić ubrań",
+   "pct": "18.0%"
+  },
+  {
+   "label": "Brak podrażnień i reakcji",
+   "reason": "Skóra wrażliwa i ciążowa nie może być podrażniana",
    "pct": "15.0%"
   },
   {
-   "label": "Łagodność dla wrażliwej skóry",
-   "reason": "Brak podrażnień i reakcji alergicznych",
+   "label": "Przyjemny lub neutralny zapach",
+   "reason": "Zapach delikatny, znośny również przy nudnościach ciążowych",
    "pct": "12.0%"
   },
   {
-   "label": "Sprawny dozownik",
-   "reason": "Spray, który równomiernie i łatwo dozuje produkt",
-   "pct": "8.0%"
+   "label": "Uczciwa cena i higieniczne opakowanie",
+   "reason": "Rozsądny koszt, plomba i pewność oryginalności produktu",
+   "pct": "11.0%"
   }
  ],
  "themeFilters": [
   {
-   "value": "nawilzenie",
-   "label": "Nawilżenie / miękkość"
+   "value": "ingredient",
+   "label": "Skład i 'bio' (parafina)"
   },
   {
-   "value": "tlustosc_wchlanianie",
+   "value": "efficacy",
+   "label": "Skuteczność (rozstępy / blizny)"
+  },
+  {
+   "value": "greasy",
    "label": "Tłustość / wchłanianie"
   },
   {
-   "value": "zapach",
+   "value": "adverse",
+   "label": "Reakcje / świąd / alergia"
+  },
+  {
+   "value": "hydration",
+   "label": "Nawilżenie / miękkość"
+  },
+  {
+   "value": "pregnancy",
+   "label": "Ciąża / rozstępy"
+  },
+  {
+   "value": "scent",
    "label": "Zapach"
   },
   {
-   "value": "spray_dozownik",
-   "label": "Spray / dozownik"
+   "value": "price",
+   "label": "Cena / wydajność"
   },
   {
-   "value": "sklad_naturalny",
-   "label": "Naturalny skład"
+   "value": "packaging",
+   "label": "Opakowanie / podróbki"
   },
   {
-   "value": "sucha_wrazliwa_skora",
-   "label": "Sucha / wrażliwa skóra"
-  },
-  {
-   "value": "marka_zaufanie",
-   "label": "Marka / zaufanie"
+   "value": "baby",
+   "label": "Niemowlęta i dzieci"
   }
  ],
  "tagStyles": {
-  "nawilzenie": "pill-blue",
-  "tlustosc_wchlanianie": "pill-red",
-  "zapach": "pill-purple",
-  "spray_dozownik": "pill-amber",
-  "sklad_naturalny": "pill-orange",
-  "sucha_wrazliwa_skora": "pill-blue",
-  "marka_zaufanie": "pill-orange"
+  "ingredient": "pill-purple",
+  "efficacy": "pill-blue",
+  "greasy": "pill-amber",
+  "adverse": "pill-red",
+  "hydration": "pill-blue",
+  "pregnancy": "pill-blue",
+  "scent": "pill-amber",
+  "price": "pill-orange",
+  "packaging": "pill-orange",
+  "baby": "pill-blue"
  },
  "reviews": [
   {
    "r": 1,
-   "t": "To nie działa. Pachnie starym syropem, o czym nie może nie wiedzieć każdy, kto był dzieckiem w latach 80., smakował jak zła guma do żucia. Bardzo ciastowate. Prawdopodobnie najlepiej stosować na mokrą skórę",
+   "t": "OLEJ, KTÓRY MA TYLKO NAZWĘ „ORGANIC”!. Recenzja klienta Amazon Vine na temat darmowego produktu (Co to jest?) BIO-OIL to olejek do ciała, który ma tylko nazwę „bio”, tak naprawdę choć pod tym określeniem kojarzy się produkt pochodzenia naturalnego i organicznego, wystarczy przeczytać skład, aby przekonać się, że wcale tak nie jest. Ale bądź ostrożny, prawdziwa lista składników to ta podana na opakowaniu, ponieważ ta na stronie Amazon nie jest zgodna z prawdą i uważam to za bardzo poważny fakt, który należy bezwzględnie poprawić. Na pierwszym miejscu w składzie znajduje się parafina ciekła, składnik pochodzenia petrochemicznego! Tworzy na skórze wodoodporny film, który natychmiast daje wrażenie gładszej skóry, ale na dłuższą metę powoduje odwodnienie i utratę elastyczności, a więc dokładnie odwrotnie niż powinien. Na drugim miejscu znajduje się Triisononanoin, bardzo lekki ester poprawiający gładkość kosmetyków, w których jest stosowany, ale który Biodizionario oznaczony jest czerwoną naklejką, ponieważ nie ulega biodegradacji. Kontynuując listę składników, znajdujemy następnie długą serię alergenów perfumowych i innych pierwiastków pochodzenia chemicznego, wszystkie w kolorze żółtym w Biodizionario. Istnieją pewne składniki „naturalne”, tj. pochodzenia botanicznego, którym można by bliżej określić określenie „organiczne”, ale są one w minimalnych ilościach w porównaniu do pozostałych. Pomimo tego okropnego INCI, mimo to zdecydowałam się przetestować ten olejek na swojej skórze i efekt był dokładnie taki, jakiego oczekiwałam, czyli skóra pozostaje tłusta i nie oddycha. Użyłam go tylko raz, więc wyrzuciłam go z powrotem do kosza. Podsumowując, uważam zatem, że nazwa „Bio-Oil” nie tylko wprowadza konsumenta w błąd, ale wskazanie innego składu niż ten faktycznie znajdujący się na opakowaniu jest całkowicie błędne. Osobiście nigdy nie nakładałabym na ciało produktu składającego się głównie z parafiny płynnej, ale jeśli ktoś czuje taką potrzebę to na rynku dostępne są produkty na bazie parafiny za jedną trzecią ceny tego olejku",
    "tags": [
-    "zapach"
+    "ingredient",
+    "greasy",
+    "hydration",
+    "scent"
    ]
   },
   {
    "r": 1,
-   "t": "Rzeczywiście, tłuste! Rzeczywiście, tłuste! Rozczarowałem się, ale niestety raz otwartej fiolki nie można już zwrócić",
+   "t": "Reklama wprowadzająca w błąd!. Rozmiar Nazwa: 125 ml (1 szt. w opakowaniu) Na pierwszym miejscu na liście składników znajduje się nic innego jak parafina: składnik pochodzenia petrochemicznego! Parafina, jak wszystkie składniki petrochemiczne, tworzy na skórze wodoodporny film, który w dłuższej perspektywie sprzyja odwodnieniu i utracie elastyczności. Ale dlaczego, można zapytać, Bio Oil nie powinien zwalczać rozstępów i dzięki temu uelastyczniać skórę? Według reklam tak, jednak czytając listę składników (która jest jedynym źródłem wiedzy pozwalającym zrozumieć, z czego składa się dany kosmetyk, którego używamy) widać, że tak nie jest. Podobnie jak wiele produktów dostępnych na rynku, również Bio Oil działa na zniekształconym mechanizmie: zamiast poprawić problem, na dłuższą metę go pogłębia, a tym samym stymuluje nieświadomego konsumenta do ciągłego kupowania i ponownego zakupu produktu w (bardzo niejasnej) nadziei, że uda się w ten sposób poprawić sytuację. I tak firmy kosmetyczne wzbogacają się kosztem własnych klientów. Kontynuując czytanie listy składników Bio Oil, znajdujemy Triisononanoinę, bardzo lekki ester, który poprawia gładkość kosmetyków, w których jest stosowany, ale w ogóle nie ulega biodegradacji i dlatego w Biosłowniku jest określany jako czerwony. Na szczęście w Bio Oil znajdziemy ekstrakty roślinne, niestety ich stężenia są na tyle niskie, że nie pozwalają kosmetykowi czerpać z tych substancji wymiernych korzyści. Co więcej, rozcieńczanie substancji roślinnych w składzie głównie petrochemicznym jest moim zdaniem jak rozcieńczanie kropli wody w morzu ropy z nadzieją, że stanie się ona zdatna do picia. Czytając dalej listę składników, natrafiamy na długą serię alergenów w perfumach (i pomyśleć, że są one również zalecane do stosowania przez kobiety w ciąży lub karmiące piersią!), wszystkie żółte w Biodizionario. Co dodać",
    "tags": [
-    "tlustosc_wchlanianie"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 1,
-   "t": "To nic specjalnego. Nie zadowoliło mnie to",
-   "tags": []
+   "t": "UNIKAĆ. Recenzja klienta Amazon Vine na temat bezpłatnego produktu (Co to jest?) Żartujemy? Są tacy, którzy piszą: „Dzięki takiemu indeksowi INCI Bio-Oil plasuje się wśród najlepszych olejków do ciała na rynku”. Ale czy INCI zostało przeczytane? A przede wszystkim, czy posiadasz minimum umiejętności z zakresu biochemii kosmetycznej? Czy Twoim zdaniem olejek, który sam siebie nazywa „BIO-OIL”, może mieć jako pierwszy składnik Paraffinum Liquidum? Substancja ta to nic innego jak parafina otrzymywana z ropy naftowej. Czy to byłoby Bio? Nie tylko to. Triisononanoina, drugi składnik, należy do rodziny estrów. Nie jest pochodzenia naturalnego i na pewno nie jest organiczny. Lepiej przymknąć oko na mirystynian izopropylu (pochodzący z alkoholu izopropylowego) i palmitynian retinylu, który wystawiony na działanie słońca wytwarza toksyczne wolne rodniki. Zatem niezła mieszanka substancji SYNTETYCZNYCH, z całym szacunkiem dla terminu BIO... Jedynym aspektem, który doceniam, jest zapach: skrzyżowanie trawy cytrynowej i geranium, raczej przyjemne. Z tego co czytamy na opakowaniu, importowany jest do Włoch przez firmę Perrigo Srl (z Rzymu), ale produkowany jest w Republice Południowej Afryki. Jeśli są tak dobrzy w wytwarzaniu wysokiej jakości kosmetyków, najlepiej ich unikać. Przepraszam, ale dla mnie to nie wykracza poza to jedno i jedyne ⭐. PS Jeśli szukasz PRAWDZIWIE ORGANICZNEGO olejku do ciała, mogę Ci polecić: WELEDA Bezzapachowy olejek pielęgnacyjny Mustela Le3873 Nowy olejek na rozstępy - 105 ml, który kosztuje między innymi znacznie mniej niż 29 euro tego fałszywego olejku organicznego z Afryki Południowej",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "adverse",
+    "scent"
+   ]
   },
   {
-   "r": 2,
-   "t": "Trudne do dostarczenia. Ogólnie produkt jest dobry. Ale opakowanie jest bardzo niewygodne. Dozownik bardzo ciężko się wyciska, a produkt z trudem wychodzi. Być może lepsza byłaby czapka z małą dziurką",
+   "r": 1,
+   "t": "Mnóstwo rozgłosu, niezadowalające wyniki. Kliknij, aby odtworzyć wideo Kupiony w celu nawilżenia nóg i uelastycznienia skóry, zapobiegając rozstępom 📦Opakowanie: kartonowe opakowanie, w którym znajduje się słynna fiolka z zakrętką. ❓Jak to wygląda?❓ Jest to olejek pod każdym względem (nie zapominajmy, że pierwszym składnikiem jest ciekła parafina, więc nie może być inaczej). Zapach charakterystyczny, dla mnie dość ostry. INCI dla tych, którzy zwracają uwagę na tego typu problemy, jest przerażające. ❓Jak stosować?❓ W bardzo małych ilościach, najlepiej na wilgotną skórę (po prysznicu). ⬆️PRO: Uważam, że to twórca filmowy. Z pewnością chroni skórę przy złej pogodzie i tworzy film ochronny. ⬇️WADY: Moja skóra go nie wchłania pomimo niewielkiej ilości i pomimo nałożenia go po prysznicu. Nie mogę z całą pewnością powiedzieć, że ma działanie nawilżające. U mnie też pozostawia nieprzyjemny, tłusty efekt, który często zmuszał mnie do ponownego umycia leczonego obszaru. Moim zdaniem nie jest to przyjemny zapach. Wiadomo, że nie wpłynął na rozstępy (choć w tym przypadku zastrzegam sobie, że można to powiązać z brakiem konsekwencji w aplikacji!). 🔚WNIOSKI: Myślę, że to jeden z tych produktów, które mają dużo marketingu i reklamy, ale niewiele informacji zwrotnych na temat wyników. ❌Absolutnie nieudane❌",
    "tags": [
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Wywołało to gwałtowne kontaktowe zapalenie skóry!. Gdybym mógł, dałbym mu zero gwiazdek! Po kilku dniach stosowania wywołał na mojej skórze gwałtowną reakcję alergiczną, zwaną kontaktowym zapaleniem skóry, z którym staram się walczyć wszelkimi sposobami kortyzonem i kremami, ale to nie mija! Powinni bezwzględnie poinformować Cię o tych działaniach niepożądanych i unikać stosowania parafiny, aby (oszczędność pieniędzy), która bardzo uszkadza skórę i powoduje takie reakcje! Walczę z pryszczami na całym ciele i swędzeniem, które doprowadza mnie do szału! Absolutnie nie kupuj tego, jak przeczytasz z innych recenzji, mój nie jest odosobnionym przypadkiem, bo przydarzyło się to innym osobom. A wtedy stosowanie parafiny nie tylko powoduje zapalenie skóry, ale przede wszystkim na dłuższą metę pogłębia problem, a nawet może prowadzić do raka skóry! Dlatego polecanie go w czasie ciąży jest absurdem! Producent powinien zostać pozwany. Natychmiast poprosiłem Amazon o zwrot pieniędzy, obnażając problem. Uważaj, co kupujesz. Gdybym wiedziała wcześniej, czytając uważnie i bez pośpiechu recenzje, nigdy bym go nie kupiła! Bardzo źle",
+   "tags": [
+    "ingredient",
+    "adverse",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zdecydowanie odrzucone. Recenzja klienta Amazon Vine na temat darmowego produktu (Co to jest?) Bio-Oil to znana marka, którą można spotkać głównie w aptekach i którą znam już od jakiegoś czasu. Na pierwszy rzut oka wydaje się, że to dobra mieszanka olejków do leczenia blizn i rozstępów, zamknięta w przezroczystej plastikowej butelce o pojemności 200 ml z zakrętką i reduktorem dawki. Formuła powinna opierać się na NATURALNYCH OLEJACH (dokładnie 14), szkoda, że ​​pierwszy składnik INCI zawiera parafinę… czyli wazelinę! Konsystencja jest oczywiście płynna, zapach moim zdaniem nieprzyjemny, kolor jasny i bardzo, bardzo tłusty. Wchłania się powoli na ciele i jest dość tłusty, nie zaleca się go stosować przed ubraniem. Nie zauważyłam żadnej poprawy w stanie mojej skóry, namówiłam też moją siostrę, która ma znaczną bliznę na klatce piersiowej i była bardzo niezadowolona. Obecnie kosztuje około 26 euro, co moim zdaniem wpływa na negatywną ocenę. Niezalecane. CZEŚĆ!",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Wątpliwości co do jakości oleju i etykiety. Przesyłka dotarła otwarta, więc nie ma gwarancji, że zawartość mogła zostać zmieniona. W porównaniu do droższych olejków migdałowych jest mniej płynny i świeży. Na etykiecie jest ogólnie mowa o czystym olejku migdałowym, ale biorąc pod uwagę stosunek ceny do ilości, pozostawia to wątpliwości nawet po porównaniu go w dotyku z certyfikowanymi w 100% czystymi olejkami migdałowymi. Lepsze opakowanie z zamkniętą zakrętką niż otwartą i oznaczeniem atestu czystości oliwy mogłoby rozwiać wszelkie wątpliwości, które w tym przypadku pozostały. Nie będę go używać, bo powinien służyć również do celów spożywczych, ale w tym przypadku byłby to akt wiary",
+   "tags": [
+    "ingredient",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ale czy to na pewno olejek migdałowy???. Od 35 lat stosuję do masażu olejek ze słodkich migdałów. Nie wiem co to za olej i kusi mnie żeby go odesłać. Ekstrahowany na zimno olej ze słodkich migdałów, gdy nie jest zdenaturowany, MA AROMAT, typowy aromat... migdałów. Tego właśnie wymagają osoby wybierające go do masażu. A teraz: ok, za tak niską cenę nie można było spodziewać się niczego lepszego... tylko czy jest to denaturat? Jak to możliwe, że jest całkowicie bezwonny? Ponadto lekko podrażnia, co NIGDY nie zdarzyło się w przypadku olejku migdałowego: (jeśli jest) olejek migdałowy, jak go ekstrahowano? Butelka NIE JEST HERMETYCZNA: jak to możliwe, że to F.U. uległy??? Nigdy więcej: nie udało się",
+   "tags": [
+    "adverse",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Uczulony!. Zdecydowanie produkt wysokiej jakości, ale nie dla mnie, po kilku dniach stosowania, około tygodnia, zaczęło pojawiać się zaczerwienienie, a czasem nawet intensywne swędzenie, myśląc, że to naturalny olej. Wykluczyłam go a priori, a poza tym nigdy nie słyszałam o przypadku alergii na ten produkt, ale gdy tylko przestałam go stosować, wystarczył jeden dzień, swędzenie zniknęło całkowicie! Dlatego uważajcie, jeśli macie skórę bardzo delikatną i skłonną do atopii! Szkoda, bo dobrze nawilża i ma przyjemny zapach 🤷🏼‍♀️",
+   "tags": [
+    "ingredient",
+    "adverse",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "bardzo niebezpieczne. Jestem w szoku, że tak dobry olejek migdałowy sprzedawany jest w plastikowym opakowaniu. Koszt szklanego pojemnika podniósłby cenę może o 1 euro, ale jakość zdrowotna zostałaby poprawiona nie tylko przez opinie, ale przez lojalność i prawdopodobny wzrost samych klientów... Mikrocząsteczki plastiku łatwo przenikają do krwioobiegu, a straszliwe szkody biologiczne są nadal w dużej mierze nieznane... Jakże chciałbym Cię zobaczyć jak najszybciej przed gniewem Bożym",
+   "tags": [
+    "ingredient",
+    "adverse",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nie jest organiczny i powoduje alergie. Produkt określany jako „ekologiczny” nim nie jest, ponadto powoduje uczulenie na słońce. Stosowany dwa razy dziennie przez kilka miesięcy na rozstępy pomiędzy klatką piersiową a okolicą ramion, muszę przyznać, że faktycznie nawilżył skórę, zapobiegając powstawaniu rozstępów, które nie pojawiają się, ale powodują alergię słoneczną z czerwonawą pigmentacją w miejscach aplikowanych. nie polecam. Using another stretch mark oil, this time truly organic, composed of natural elements, I have always prevented stretch marks and without allergies",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "adverse",
+    "hydration"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Produkt szkodliwy. Po tygodniu stosowania poczułam intensywne, nieznośne swędzenie i zaczerwienienie na całym ciele, a na skórze pojawiły się pęcherze. Po kilku dniach nieużywania problem zniknął. Gdybym przeczytał komentarze tych, którzy dali jedną gwiazdkę, oszczędziłbym sobie tych problemów. Dopiero teraz przeczytałam niestety, że zawiera parafinę, substancję silnie rakotwórczą. Nie kupuj tego, jeśli jesteś uczulony, ale nawet jeśli tak nie jest, długotrwałe używanie tego produktu powoduje szkody",
+   "tags": [
+    "ingredient",
+    "adverse"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Swędzące bąbelki. Stosowałam ten olejek przez miesiąc będąc w ciąży, aplikując go codziennie wieczorem i byłam z niego całkiem zadowolona. Następnie na moim brzuchu i innych obszarach ciała, w których został nałożony, pojawiły się małe bąbelki, co bardzo mnie swędziało. Zrobiono mi też badania, żeby wykluczyć inne patologie. Po zaprzestaniu stosowania olejku po kilku dniach swędzenie i pęcherze zniknęły całkowicie! Teraz używam oleju migdałowego, który jest tańszy i w 100% naturalny",
+   "tags": [
+    "ingredient",
+    "adverse",
+    "pregnancy",
+    "price"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Absolutnie się nie zgadzam. Używałam tego olejku przez 2 tygodnie, podczas których piżamy, bieliznę, ubrania itp. pozostawił na mnie okropny i niestety nieusuwalny zapach... Dużo rzeczy musiałam wyrzucić! Nie wiem ile spędziłam w praniu, żeby odzyskać kilka rzeczy, na których mi zależało! Gorąco polecam ten olejek! Teraz z konieczności zawsze kupuję olejek migdałowy, ale u zielarza w moim mieście i nie mam takiego problemu! Powtarzam: nie polecam! Kup więcej!",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Pewne wątpliwości. Używałam tego produktu zawsze, szczególnie podczas moich 2 ciąż. Zawsze ceniłam jego delikatny zapach i optymalne, długotrwałe nawilżenie. Zawsze kupując go w aptece, decyduję się zamówić na Amazonie i odkrywam produkt o nieprzyjemnym zapachu, który zepsuł wiele moich piżam swoim nieprzyjemnym zapachem oraz chwilowym i nietrwałym nawilżeniem. Dlatego mam pewne wątpliwości... Na pewno nie kupię go tutaj ponownie",
+   "tags": [
+    "hydration",
+    "pregnancy",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Kup gdzie indziej... może tam, gdzie przestrzegają zalecanej ceny wydrukowanej na opakowaniu!. Co mogę powiedzieć? Sugerowana cena producenta (wydrukowana na opakowaniu) to 8,90... i dzięki temu nie tylko płacisz więcej, ale też wmawiasz sobie, że produkt jest przeceniony o 41%: to po prostu kpina!!! Jeśli już mówimy o produkcie, który wydaje się bardzo znany, to od razu go wypróbowałam i wolę mój zwyczajny olejek migdałowy: tańszy, bardziej uelastyczniający, bardziej pachnący!",
+   "tags": [
+    "hydration",
+    "scent",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bez plomby i pudełka. Produkt dotarł bez zapieczętowania, nawet zakrętka nie była zaklejona... szczerze mówiąc, nie wydaje mi się to higieniczne, poza tym nie można zagwarantować jego skuteczności; w rzeczywistości butelka była wgnieciona z jednej strony, a gdy otworzyłem zakrętkę, natychmiast spuchła. Kupiłam go, bo jestem w ciąży, ale nie ufam sobie, że nałożę go w ten sposób na moją i tak już bardzo delikatną skórę. Zaufałem wielu pozytywnym recenzjom, ale poproszę o zwrot",
+   "tags": [
+    "adverse",
+    "pregnancy",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Absolutnie nie. Olejek ładnie pachnie, łatwo się aplikuje, a jego ilość wystarcza na długi czas. Przybył wcześniej niż oczekiwano, dobrze zapakowany. ALE na pierwszym miejscu na liście składników znajduje się PARAFINA: składnik pochodzenia petrochemicznego, więc z biegiem czasu zamiast poprawiać problem, na dłuższą metę go pogarsza. Szkoda, że ​​nie zdawałem sobie z tego sprawy przed zakupem. Zmarnowane pieniądze",
+   "tags": [
+    "ingredient",
+    "scent"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "absolutnie bezużyteczne. Kupiłam go zachęcona opiniami innych użytkowników i stosowałam go przez całą pierwszą ciążę, czyli w wieku 30 lat (więc spodziewałam się świetnych efektów, także biorąc pod uwagę elastyczność skóry), ale na nic się to zdało, w ósmym miesiącu sama się rozdarłam w tych miejscach, a teraz poddaję się zabiegom kolagenowym, by zagoić głębokie rany szarpane... Bardzo się rozczarowałam",
+   "tags": [
+    "ingredient",
+    "hydration",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Należy zwrócić uwagę na ewentualną nadwrażliwość na zawarte w nim substancje. Olejek ten dosłownie zniszczył część blizny, która dawno się zagoiła. Ewidentnie mam nadwrażliwość na niektóre składniki, faktem jest, że choć wypróbowałam go bez problemów tam, gdzie skóra nie była tak delikatna, to w jednej części blizny powstały nowe otarcia. Bądź bardzo ostrożny!",
+   "tags": [
+    "efficacy"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Zawiedziony. Może ze względu na skórę i czynnik wrażliwości czułem się naprawdę źle. Jestem w ciąży i po kilku zastosowaniach cała moja skóra jest podrażniona i absurdalne pieczenie. Ekstremalne swędzenie aż do pozostawienia pęcherzy, których na szczęście już nie ma. Teraz używam kremu kupionego w aptece, aby zapobiec powstawaniu rozstępów. Jestem w ósmym miesiącu, a moja skóra jest błyszcząca i bez rozstępów",
+   "tags": [
+    "efficacy",
+    "adverse",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Produkt nieprawidłowo zamknięty. Jestem zmuszona przyznać produktowi jedną gwiazdkę nie za jakość, ale za opakowanie: butelka miała nieuszczelnioną zakrętkę. Kiedy odkręciłem zakrętkę, nie było plastiku gwarantującego szczelność produktu, to tak jakby kupić butelkę wody i zorientować się, że była już otwarta, a to dla mnie bardzo poważna sprawa.",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "to nie jest organiczne. Rozmiar Nazwa: 125 ml (1 opakowanie) jest na bazie przemysłowego oleju naftowego, nie rozumiem, że ich pozwolenia na nakładanie produktu organicznego na produkt, który nie jest ORGANICZNY!!!, po zapoznaniu się z tymi szkoleniami, których używam do czyszczenia drewnianych mebli... Również nakładałem to na skórę przez miesiące, bez poprawy, dzięki Bogu, że nie zaszkodziło to mojemu zdrowiu",
+   "tags": [
+    "ingredient",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Całkowite rozczarowanie!. Produkt dotarł do mnie bez plomby zabezpieczającej, dlatego nie jesteśmy pewni daty ważności podanej na opakowaniu (12 miesięcy od otwarcia)! Co więcej, olejek nie ma zapachu, chociaż 100% czysty olejek ze słodkich migdałów do użytku zewnętrznego powinien mieć lekki, charakterystyczny zapach migdałów!",
+   "tags": [
+    "adverse",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "OK, ale kochanie. Zamówione dla teściowej... Zdecydowanie jestem przeciwny używaniu tych produktów, które na pewno nie przynoszą żadnego pożytku, a jedynie po to, aby ludzie wydawali pieniądze na produkt, który biorąc pod uwagę jego zawartość, jest naprawdę płacony po oszukańczych cenach... Trzymaj się z daleka od tych bzdur, które z pewnością nie przynoszą żadnego pożytku",
+   "tags": [
+    "ingredient",
+    "price"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Straszny!. Absolutnie nie nawilża, nie jest możliwe moim skromnym zdaniem, żeby zawierał tylko olejek, stosowałam w życiu wielu jako kosmetyczka i ten jest naprawdę kiepski. Po tygodniu stosowania moja skóra jest bardziej sucha niż wcześniej, to absolutnie niemożliwe! Bardzo rozczarowany i też czuję się oszukany!",
+   "tags": [
+    "hydration"
    ]
   },
   {
    "r": 2,
-   "t": "Tłusty olejek wyłącznie do masażu. Znając markę kupiłam ją z dużymi oczekiwaniami, jednak olejek jest zbyt tłusty, ciężko się wchłania! Za to ładnie pachnie i świetnie nadaje się do masażu!",
+   "t": "produkt przestarzały: efekt kosmetyczny i nic więcej. Recenzja klienta Amazon Vine dotycząca bezpłatnego produktu (Co to jest?) To produkt, który przeszedł do historii. W przeszłości nie było kobiety w ciąży, która nie wypolerowałaby swojego brzucha jak kula bilardowa litrami bio-oleju w nadziei, że zapobiegnie (nieuniknionym) rozstępom. Ale czasy się zmieniają, świadomość jest coraz większa i czytanie, że „organiczny” w produkcie, który w swoim składzie ma przede wszystkim parafinę (a więc dwie inne syntetyczne cząsteczki o działaniu zmiękczającym i natłuszczającym, ale czysto kosmetycznym…), jest trochę dziwne. Uwaga: producent nigdzie nie wspomina o produkcie organicznym. Ale tutaj niewiele jest tego, co odżywcze i skuteczne, czy to naturalne, czy „chemiczne”… Czwarty składnik to jednak pochodna doskonałej witaminy A (panaceum na skórę i w ogóle na metabolizm nabłonka), więc pierwszym olejem roślinnym jest olej słonecznikowy (daleki od cennego). Uwaga: już po nałożeniu efekt jest WOW! Skóra wydaje się bardziej lśniąca (i piękna..) bez tłustej warstwy, wydaje się bardziej odżywiona i miękka. Parafina wprawdzie ma doskonałe, pośrednie działanie nawilżające (zapobiega ucieczce wody znajdującej się w skórze), ale jest to działanie przejściowe, kosmetyczne. Wszystkie inne olejki eteryczne (od lawendy po rozmaryn) są zbyt słabo stężone, aby wywierać skuteczny wpływ biologiczny na tkanki. Krótko mówiąc, czy polecam? 25,90 euro za 200 ml mieszanki na bazie parafiny to dużo, może nawet za dużo. Na pewno przyjemnie się go nakłada, fakt, że jest praktycznie bezzapachowy, jest dla mnie wartością dodaną, ale jeśli chcesz zapobiec rozstępom, skup się na czymś innym, a jeśli już je masz (lub masz blizny), to po prostu skontaktuj się z kosmetyczką. Uwaga: artykuł został wyprodukowany w Republice Południowej Afryki na zlecenie włoskiej firmy",
    "tags": [
-    "tlustosc_wchlanianie",
-    "zapach"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 2,
-   "t": "Krótko mówiąc. Nie wchłania się łatwo, pozostaje tłusty na skórze. Idealny do stosowania pod prysznicem jako środek nawilżający i spłukiwania",
+   "t": "Cały dym, brak ognia. Recenzja klienta Amazon Vine na temat bezpłatnego produktu (Co to jest?) Bio olejek to bardzo znany produkt, którego zadaniem jest zapobieganie rozstępom, bliznom, przebarwieniom skóry, zmarszczkom oraz przeciwdziałanie wysuszeniu skóry. Produkt szczególnie znany z tematyki młodych mam, gdyż szczególnie polecany jest w walce z rozstępami, które powstają na brzuchu w czasie ciąży. Ten wariant Bio-oleju reklamowany jest jako produkt w 100% naturalny, który zapewnia doskonałe rezultaty przy stosowaniu dwa razy dziennie. Jako olejek ma wyraźnie tłustą konsystencję, wchłania się (ale nie całkowicie) po około 1 minucie masażu, ma przyjemny zapach i dość wygodną do dozowania konsystencję. Wypróbowałam produkt zgodnie z zaleceniami na blizny potrądzikowe i rozstępy na wewnętrznej stronie ud, niestety nie zauważyłam żadnych zmian/popraw. Czytając informacje o produkcie, również mam ochotę zakwestionować jego tak wychwalane działanie w 100% naturalne, pełne parafiny i silikonów! Cena zdecydowanie wysoka, moim zdaniem produkt ten odzwierciedla klasyczny stereotyp, że marketing przewyższa rzeczywistą jakość, są lepsze produkty w zdecydowanie bardziej aktualnych cenach",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "pregnancy"
    ]
   },
   {
    "r": 2,
-   "t": "Nie szczęśliwy. Jest zbyt tłusty",
+   "t": "Może uszczypnąć, opakowanie o wątpliwej integralności. Bardzo szybka wysyłka pomimo kwarantanny, ale moim zdaniem opakowanie wymaga poprawy. Butelka jest wykonana z plastiku (idealna do transportu), ale dotarła w pudełku znacznie większym niż jej zawartość i bez żadnych wyściółek chroniących przed wstrząsami (wystarczyłby nawet zwykły papier); ponadto pudełko dotarło do połowy otwarte, przez co butelka była bardzo brudna. Pomijając aspekt opakowania, na zakrętce brakuje kółka, które odpada po pierwszym otwarciu, aby sprawdzić, czy produkt nigdy wcześniej nie był otwierany. Osobiście mam nadwrażliwą skórę i przewlekłe zapalenie skóry. Zaraz po nałożeniu zaczęło mnie piec, ale na tym etapie nie wiem, czy ta reakcja wynika z rodzaju mojej skóry, czy z faktu, że produkt mógł zostać zanieczyszczony, biorąc pod uwagę stan, w jakim dotarł. Szkoda, miałem dość wysokie oczekiwania",
    "tags": [
-    "tlustosc_wchlanianie"
+    "ingredient",
+    "greasy",
+    "adverse",
+    "price"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie oczekuj cudów!. Nie oczekuj cudów! Kupiłam go głównie do leczenia rozstępów, ale prawda jest taka, że ​​ten produkt nie powoduje, że cokolwiek znika. W przypadku rozstępów, które są już białe lub powstały w inny sposób, jedynym realnym rozwiązaniem jest skontaktowanie się ze specjalistą i określenie konkretnego leczenia dermatologicznego, ponieważ tylko laser może je naprawdę złagodzić lub wyeliminować. Musimy być realistami: żadna ropa nie jest w stanie ich wymazać. Jeśli masz rozstępy, które są jeszcze świeże lub różowe, być może może to pomóc nieznacznie poprawić wygląd skóry, ale w moim przypadku nie zauważyłam żadnych zmian, nawet jeśli były jeszcze „uleczalne”. Dla mnie był to bezużyteczny zakup, więc jeśli liczysz na wyraźne rezultaty, ryzykujesz tylko marnowaniem pieniędzy",
+   "tags": [
+    "efficacy",
+    "hydration",
+    "price"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Olej wysyłany do nich bez informacji o procesie jest o czystości. Do pielęgnacji skóry używam 100% czystego, tłoczonego na zimno olejku ze słodkich migdałów. Biorąc pod uwagę kwarantannę, szukałem tego oleju na Amazon i znalazłem to: „4,5 na 5 gwiazdek 92 recenzje AIESI® Olej ze słodkich migdałów FU 100% czysty tłoczony na zimno klasa FARMACEUTYCZNA, 1-litrowa butelka # Wyprodukowano we Włoszech” Zamówiłem go natychmiast, również dlatego, że cena jest doskonała, dostawa była bardzo szybka. To, co mnie zaniepokoiło, to fakt, że na buteleczce nie ma informacji o produkcie. Nie wiem czy ufać, mam go teraz i używam, ale więcej go nie zamówię, bo na butelce nie ma informacji o procesie olejowania",
+   "tags": [
+    "ingredient",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "nie lubię. Nie wchłania się. Mam wersję 80 ml. Zapach przyjemny, ale niczym wyjątkowym. Nie wchłania się. Dostałam go, bo jestem w siódmym miesiącu ciąży i już tydzień temu pojawiły się pierwsze rozstępy, mimo że od pierwszego miesiąca stosowałam krem ​​Rilastil 2 razy dziennie. Teraz stwierdzam, że moja skóra jest bardzo napięta i swędzi jak cholera, przekonana opiniami również sięgnęłam po ten olejek. Ale nic nie da się zrobić, skóra nie jest nawilżona i nie jest elastyczna, w dodatku czuję pieczenie na rozstępach. Musiałam zaopatrzyć się w kolejny olejek i skóra jest już miękka",
+   "tags": [
+    "efficacy",
+    "greasy",
+    "adverse",
+    "hydration"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Ogromne NIE. Zakładam, że zakupiłam ten produkt w celu usunięcia lub zaniknięcia czerwonych rozstępów. Produkt absolutnie nie zadziałał pomimo stosowania się do wskazówek na opakowaniu (stosuj dwa razy dziennie przez minimum trzy miesiące). Produkt całkowicie nieskuteczny i niewart swojej ceny. Jedyny plus to to, że lekko nawilża twarz (nawet jeśli nadal jest tłusta jak cholera, więc po chwili ją spłukałam, ale i tak efekt był rozświetlony i czysty). Nie kupię go ponownie",
+   "tags": [
+    "efficacy",
+    "greasy",
+    "hydration",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Rozczarowane oczekiwania. Nie mogę mówić o długotrwałych efektach, ale od pierwszych zastosowań uważam, że jest okropnie. Zapach wcale nie jest przyjemny, w ogóle się nie wchłania: trzeba go masować przez wiele minut, a w każdym razie od razu natłuszcza wszystko, co nosisz. Za każdym razem muszę przetrzeć skórę czystą, suchą szmatką. I marnuję mnóstwo czasu! Nawilżenie również mnie rozczarowało: na razie wydaje się nawilżać i zmiękczać skórę, ale po kilku godzinach skóra znów staje się sucha, a to jak na tak tłusty produkt! Zły zakup",
+   "tags": [
+    "greasy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Doskonała wysyłka, ale kiepski produkt. Wysyłka jak zawsze przebiegła bez zarzutu. Ale naprawdę mam coś do powiedzenia na temat jakości zakupionego produktu. Jakość olejku nawet nie wydaje się porównywalna z olejkiem migdałowym marki „I Provençali”. Dość powiedzieć, że butelka tej ostatniej marki wykonana jest ze szkła, natomiast ta z tworzywa sztucznego. Jest lepki i lepki, a zapach znika już po pierwszych kilku sekundach od nałożenia olejku. Naprawdę słaby produkt, zdecydowanie nie polecam zakupu",
+   "tags": [
+    "greasy",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Efekt wyciszenia. Olejek ma dobry zapach i oczywiście ma działanie nawilżające i przywracające naskórek, ponieważ jest olejem. Problem w tym, że w ogóle się nie wchłania. Utrzymuje się na skórze godzinami. Co więcej, w połączeniu z potem daje efekt duszącego kombinezonu. W reklamie wskazano olejek o maksymalnej wchłanialności. Jeśli chcesz wyglądać jak faszerowane duszone mięso do smażenia, kup ten olej. Cena z pewnością nie jest niska. Zatem nie udało mu się rozpatrzyć pierwszej apelacji. Natychmiast poprosiłem o zwrot pieniędzy",
+   "tags": [
+    "greasy",
+    "hydration",
+    "scent",
+    "price"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Jest zbyt tłusty... Produkt ma świetny stosunek jakości do ceny (chociaż po zakupie, przez przypadek zorientowałem się, że w sklepie kosztuje mniej). Jednak faktycznie jest zbyt tłusty i słabo się wchłania, właściwie po nałożeniu nie da się się ubrać i pozostawia plamy na ubraniach i pościeli (próbowałam też innych olejków i z takim zjawiskiem spotkałam się po raz pierwszy). Nie kupiłbym go ponownie właśnie z tego powodu",
+   "tags": [
+    "greasy",
+    "price"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Tylko marketing. Nic więcej niż zwykły olejek zmiękczający skórę. Polecany przez wielu dermatologów, ale uważam, że kryje się za nim przede wszystkim wizerunek zbudowany przez dziesięciolecia marketingu. Ma działanie zmiękczające jak każdy inny naturalny olej, trudno się wchłania i ma lekko gryzący zapach. Cena nie jest uzasadniona i nie zdziała cudów na blizny i rozstępy, jak obiecuje marka. To olejek, nic więcej",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "scent"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "2 gwiazdki za brak miarki/dozownika. Nie mogę jeszcze wypowiedzieć się na temat jakości produktu, ale 2 gwiazdki to brak miarki, będę musiał stopniowo wlewać go do butelki samolotowej ze sprayem!! Mogli z łatwością coś wymyślić, nawet czapkę, żeby to spadało w kroplach, a nie bezpośrednio tak, jak jest!",
+   "tags": [
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Po prostu natłuszcza. Rozmiar Nazwa: 125 ml (1 szt. w opakowaniu) Bardzo drogi w porównaniu do jakości zawartości, słabej skuteczności i nie mówmy już o mylącej nazwie. Strata pieniędzy, używam go jako olejku po depilacji woskiem, ponieważ to jedyny użytek, jaki udało mi się mu dać. Nie trzeba dodawać, że nie polecam... z płynną parafiną w środku można kupić dobrze znaną oliwkę dla dzieci za 2/3 euro",
+   "tags": [
+    "ingredient",
+    "greasy",
+    "price",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nie byłem usatysfakcjonowany. Kupiłam ten produkt na początku ciąży z zamiarem stosowania go na całe ciało: w efekcie łuszczyła mi się skóra na nogach, a skóra na brzuchu swędziała/napinała. Dałam go w prezencie znajomej (która chętnie go używa) i przerzuciłam się na konkretne kremy, z lepszym skutkiem",
+   "tags": [
+    "adverse",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Słabe wyniki. Come ogni prodotto da \"beauty\" l'efficacia è soggettiva. Bardzo ładnie pachnie, dość szybko się wchłania, pozostawia skórę miękką i nawilżoną, ale nie tłustą, niestety na rozstępy nie zdziałał cudów, więc ma taką samą skuteczność jak każdy krem ​​nawilżający. Powtarzam, że to zależy od osoby",
+   "tags": [
+    "efficacy",
+    "greasy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "rozstępy. Od prawie 6 lat mam rozstępy na piersiach i biodrach, oczywiście z czasem zbielały, ale miałam nadzieję, że uda mi się je wyeliminować. Stosowałam olejek na piersi i biodra przez około 2 miesiące, po czym dałam sobie spokój... Nie widziałam poprawy. Moim zdaniem jest to dobre TYLKO jeśli masz różowe/fioletowe rozstępy, inaczej to wszystko jest bezużyteczne",
+   "tags": [
+    "ingredient",
+    "efficacy"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "NIE POSIADA ŻADNEJ Plomby GWARANCYJNEJ!. dobry olej, dobrze nawilża i dobrze się wchłania, ALE PRZYSZEDŁ BEZ JAKIEJKOLWIEK PAMIĘCI GWARANCYJNEJ, skąd mam wiedzieć, że nie został napełniony lub już przez kogoś używany?! Myślałem o złożeniu wniosku o zwrot, ale ponieważ tam, gdzie mieszkam, zawsze są problemy ze zwrotami, zdecydowałem się i tak to zatrzymać",
+   "tags": [
+    "greasy",
+    "hydration",
+    "packaging"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Dobrze nawilża, ale poza tym niewiele. Stosować bezpośrednio po pojawieniu się niektórych rozstępów (wciąż czerwono-fioletowych). Myślałem, że ograniczy to rozszerzenie do minimum, ale kiedy się tam pojawią, niestety prawie nic nie da się zrobić, aby poprawić sytuację. Nawilża, tak, ale jeśli myślisz, że zniknie, nie kupuj go, po prostu zmarnuj pieniądze",
+   "tags": [
+    "efficacy",
+    "hydration",
+    "pregnancy"
    ]
   },
   {
    "r": 3,
-   "t": "Nawilża, łagodzi, ale jest zbyt tłusty!. Szczerze mówiąc? Naprawdę mi się to nie podoba! Ma wiele pozytywnych aspektów, takich jak użyte surowce, delikatna formuła, która chroni skórę i eliminuje drobne podrażnienia skóry. Fantastyczny, waniliowy zapach utrzymuje się przez długi czas. Problemem jest jednak tłusta konsystencja, która pozostaje lepka na skórze przez cały dzień. Niestety jest to coś, czego nie kocham i nie pozwala mi w pełni cieszyć się tym produktem. Szkoda, ale dla mnie to nie!",
+   "t": "Pomaga zapobiegać, ale nie poprawia starych rozstępów. Amazon Vine Opinia klienta o darmowym produkcie (Co to jest?) Często używam olejków do pielęgnacji skóry, ponieważ mam niezwykle delikatną skórę i niestety mam szokującą skłonność do rozstępów, ale od razu powiem, że niestety widziałam bardzo niewiele rezultatów. Produkt marki Bio Oil istnieje już od wielu lat i tak naprawdę stosuję go już od co najmniej 15 lat, odkąd w okresie dojrzewania urosłam do rozmiarów dyni i na skutek wzrostu miałam rozstępy. Produkt nie zdziała cudów jak każdy, więc nie myśl o rozwiązaniu problemu rozstępów za pomocą olejku, ALE pomaga im zapobiegać, ponieważ stosowanie go 2 razy dziennie (a to ogromne utrudnienie) pomaga uelastycznić i lepiej nawilżyć skórę. Jeśli jednak tak jak ja masz tendencję do tłustej skóry, te dwa razy stają się jednym wieczorem, kiedy bierzesz prysznic rano. Tak, to świetny olejek, ale w moim przypadku nie schnie ani przez 30 sekund: właściwie to chciałam spróbować, powiedzmy, „nowej” wersji i zauważam, że jest jak olej sprzed lat. To zdecydowanie mój problem, a w sezonie letnim nakładanie go w upale i pocie jest jeszcze bardziej irytujące. Po prostu nie mogę utrzymać tłustej warstwy, nawet jeśli to tylko mój brzuch, a potem się ubrać. Lista zastosowań na opakowaniach: • Blizny: pomaga poprawić wygląd zarówno nowych, jak i starych blizn. W związku z tym zrezygnowałam z olejku i zastosowałam żel silikonowy, który jest o wiele skuteczniejszy i naprawdę redukuje blizny, w tym keloidy, być może pooperacyjne. • Rozstępy: pomaga ZMNIEJSZYĆ MOŻLIWOŚĆ pojawienia się rozstępów po ciąży, nagłym wzroście, szybkim przybieraniu na wadze (dodaję też utratę wagi) oraz w okresie dojrzewania. Pomaga poprawić wygląd istniejących rozstępów. No cóż, jeśli masz białe rozstępy, to już za późno, bo są stare i żaden olejek Ci nie pomoże, mam tak słabą skórę, że nie zniknęły nawet przy laserze. Jeśli są czerwone, być może możesz je zmniejszyć, ale nie znikną tak łatwo. Trzeba nakładać olej i olej i olej przez wiele miesięcy. Może jednak pomóc w zapobieganiu im, ale ich nie eliminuje. • Nierówny koloryt skóry: pomaga poprawić wygląd plam na jasnej i ciemnej skórze. • Starzenie się skóry i odwodnienie skóry: pomaga wygładzić zmarszczki i ujędrnić starzejącą się skórę zarówno na twarzy, jak i ciele. Pomaga utrzymać nawilżenie. Jest to możliwe po prostu dlatego, że pomaga nawilżyć skórę, a ciągły masaż sprawia, że ​​skóra jest bardziej zrelaksowana, ale nawet w tym przypadku głębokie zmarszczki znajdziesz je tam, gdzie je zostawiłeś... • Purcellin Oil: zawiera innowacyjny składnik PurCellin Oil, który zmniejsza gęstość formuły, dzięki czemu jest łatwo wchłanialny; ale w moim przypadku pozostaje bardzo tłusty. Szczególnie stosując olejek dwa razy dziennie. W związku z tym wskazania i środki ostrożności dotyczące stosowania zalecają stosowanie olejku dwa razy dziennie przez co najmniej trzy miesiące. W czasie ciąży stosować dwa razy dziennie od pierwszego trymestru aż do porodu. Indywidualne wyniki różnią się w zależności od osoby. Jest odpowiedni dla skóry wrażliwej i dlatego możesz potwierdzić, że nie wystąpiło żadne podrażnienie. Dlatego też moim zdaniem olejek na pewno pozostaje jednym z najlepszych na rynku, podobnie jak zwykły olejek migdałowy, który aplikujemy np. po prysznicu i kosztuje o połowę mniej. Utrzymywanie nawilżonej i elastycznej skóry w okresie dojrzewania, nagłego wzrostu lub zmniejszenia masy ciała, a w końcu nagłego wzrostu, jest na przykład niezbędne dla osób o delikatnej i wrażliwej skórze, ponieważ po prostu są pełne rozstępów i nie można się ich już pozbyć; Dlatego też niezbędne jest podjęcie natychmiastowych działań poprzez nałożenie dowolnego oleju. Jest nieco silniejszy od pozostałych i jeśli nie masz skóry skłonnej do przetłuszczania się i masz konsystencję wystarczającą do stosowania go codziennie dwa razy dziennie przez co najmniej trzy miesiące, pomaga skutecznie zapobiegać, ale nie zmniejsza już istniejących problemów. W momencie recenzji produkt jest sprzedawany i wysyłany przez Amazon w cenie 26,99 € za butelkę 200 ml",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "sucha_wrazliwa_skora"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "adverse"
    ]
   },
   {
    "r": 3,
-   "t": "Nie schnie łatwo. Ładnie pachnie, skóra jest dość nawilżona, ale pozostaje tłusta przez wiele godzin",
+   "t": "Dobry jako olejek nawilżający skórę, ale NIE leczy rozstępów!. Recenzja klienta Amazon Vine na temat bezpłatnego produktu (Co to jest?) Zdecydowałem się wypróbować ten produkt (po konsultacji z dermatologiem) w celu nawilżenia i uelastycznienia skóry, a tym samym zapobiegania pojawianiu się rozstępów. Od razu zaznaczam, że olejek ten nie leczy rozstępów w 100%, jak wielu twierdzi, gdyż podobne produkty nie istnieją i nie będą istnieć. Po prostu pomaga zapobiegać powstawaniu nowych rozstępów, a jeśli już je masz, zmniejszać ich zaczerwienienie i sprawić, że będą „mniej widoczne”. Niestety rozstępy to prawdziwe blizny skórne, których nie da się usunąć, a każdy produkt, który twierdzi, że to robi, prawdopodobnie po prostu stosuje doskonałą strategię marketingową. Oczywiście, jeśli zostaną wyłapane w porę, można je „wyleczyć”, ale znak zawsze pozostanie, nawet jeśli będzie mniej widoczny. Co więcej, rozstępy rozróżnia się na czerwone i białe, ale nie dlatego, że białe można leczyć, a czerwonych nie, ale raczej dlatego, że nowo powstałe rozstępy są czerwone i z biegiem czasu mają tendencję do rozjaśniania się i stają się białe, a jednocześnie stają się mniej widoczne. Olejku używałam w celu zmniejszenia zaczerwienienia niektórych świeżo powstałych rozstępów oraz zapobiegania powstawaniu nowych na mojej suchej i mało elastycznej skórze. Niestety jednak czytając INCI tego produktu odkryłam, że określenie BIO nie ma nic wspólnego z jego składem chemicznym. Choć zawiera różne naturalne olejki (znane ze swoich właściwości nawilżających i uelastyczniających), to wśród pierwszych produktów na liście zastosowanych składników znajdują się różne substancje, które mogą powodować podrażnienia skóry u osób z wrażliwą skórą, jak np. ciekła parafina (przede wszystkim). Z tego powodu nie polecam go dzieciom. Zapach jest bardzo dobry. Słodki, niezbyt mocny i po chwili znika. Opakowanie zewnętrzne jest bardzo proste, ale dotarło uszkodzone w kilku miejscach. Nie znalazłem nigdzie certyfikatów potwierdzających przetestowane, bezpieczne i zatwierdzone stosowanie przez różne organy Unii Europejskiej, które regulują stosowanie produktów kosmetycznych i produktów do pielęgnacji skóry. Obecna cena sprzedaży wynosi 25,90 € i na podstawie mojego doświadczenia użytkowania oraz jakości produktu uważam ją za bardzo wysoką. Nie jest to cud, ale jeśli zastosujesz go jako olejek do nawilżenia skóry, może być również dobry. Jednak fakt, że reklamuje się go jako produkt w 100% naturalny, podczas gdy w rzeczywistości jest go bardzo mało, że nie posiada żadnych certyfikatów, a także wysoka cena, znacznie obniża jego ocenę. Dlatego jako ocenę końcową daję trzy gwiazdki. Mam nadzieję, że moja recenzja była choć trochę przydatna w odpowiedzi na wszelkie wątpliwości i pytania dotyczące produktu (jeśli chcesz, daj mi znać), i życzę miłego dnia. Dziękuję!",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach"
+    "ingredient",
+    "efficacy",
+    "adverse",
+    "hydration"
    ]
   },
   {
    "r": 3,
-   "t": "Doskonała marka. Doskonały stosunek jakości do ceny",
+   "t": "To dobry produkt, ale tylko nazwa jest ekologiczna.... Rozmiar Nazwa: 125 ml (1 opakowanie) Prawdopodobnie widziałeś reklamę w telewizji: reklama opisywała cudowny produkt na rozstępy, blizny itp. Bio-Oil to olej, który przede wszystkim obiecuje poprawić wygląd blizn, rozstępów i nierównego kolorytu skóry, opracowany tak, aby był również skuteczny w walce z innymi problemami skórnymi, takimi jak starzenie się i odwodnienie. Od razu podkreślam, że firma deklaruje, że poszczególne wyniki są zmienne i niestety też to powtarzam. W tym sensie, że z niektórych punktów widzenia wydał mi się naprawdę dobry, z innych mniej. Np. po prysznicu jest bardzo przyjemny, bo jest perfumowany i przyjemny w dotyku, bo skóra pozostaje miękka przez cały dzień, a zapach też jest przyjemny i trwały. Nie jest zbyt tłusty, tzn. w pierwszych minutach od aplikacji na pewno nie uda się założyć jedwabnej bielizny, nie narażając się na „uszkodzenie” bielizny, ale już po kilku minutach skóra pozostanie miękka i pachnąca, a ryzyko powstania plam znacznie się zmniejszy… w zasadzie dajmy jej czas na dobre wchłonięcie i wszystko będzie dobrze. Jeśli chodzi o skuteczność na blizny, odpowiadam NI, w tym sensie, że w przypadku bardzo widocznej blizny pooperacyjnej mam wrażenie, że niewiele się zmieniło, ale „uszkodzenia” na skórze istnieją już od dłuższego czasu, więc nie mogę zagwarantować, że to nie mój problem, a raczej całkowita nieskuteczność produktu. Czuję się w obowiązku, szczerze mówiąc, podkreślić, że słowo BIO występuje tylko w nazwie, ponieważ – choć zawiera naturalne substancje aktywne – to wśród głównych składników zawiera parafinę (paraffinum liquidum, jak czytamy w INCI), czyli wazelinę (stąd moja ocena na 3 gwiazdki, w innym przypadku byłaby to 4). Nie odradzam go oczywiście w ścisłym tego słowa znaczeniu, ale dla przejrzystości trzeba zwrócić uwagę na jego nie do końca naturalny skład, jeśli szukamy „czystych” produktów.",
    "tags": [
-    "marka_zaufanie"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Bio-Oil Naturalny olejek do pielęgnacji skóry 200 ml: Nie do końca jestem przekonany. Amazon Vine Customer Review of Free Product( What's this? ) A very well-known brand for years. Olejek do pielęgnacji skóry na rozstępy, blizny i przebarwienia, nie wiem, czy rzeczywiście jest skuteczny na te niedoskonałości, należy go stosować konsekwentnie, a może rozłożone w czasie... Z mojego doświadczenia olejek odżywczy, o przyjemnym zapachu. Efekt gładkiej i gładkiej skóry. Podobnie jak wszystkie olejki, nawet jeśli wchłania się dość łatwo po kilku minutach masażu, nadal pozostawia tłusty osad, jeśli nie pozwolisz mu się całkowicie wchłonąć. Z tego powodu generalnie wolę kremy. Aby zminimalizować efekt natłuszczenia, zaleca się nakładać olejek na jeszcze wilgotną lub mokrą skórę, najlepiej bezpośrednio po prysznicu lub nawet w trakcie jego trwania. Olejek często polecany w ciąży w celu utrzymania elastyczności skóry i zapobiegania powstawaniu rozstępów. Patrząc na skład INCI składnik po składniku, formuła opisana jako w 100% naturalna nie do końca mnie przekonuje. Przeglądając biosłownik, niektóre składniki mają czerwoną etykietę (PARAFFINUM LIQUIDUM, BenzYL SALICYLATE, HYDROXYCITRONELLAL i CI 26100), kilkanaście ma podwójną pomarańczową etykietę, a cała reszta ma zieloną etykietę. Zaskakujące jest to, że to właśnie pierwsze składniki, czyli te występujące w większych ilościach, mają czerwoną (parafinę) i podwójnie pomarańczową etykietę! Opakowanie ma pojemność 200ml, jest w idealnym stanie. The price at the time of the review is €25.90, in my opinion a little expensive if considered only as a body oil, if it acts on stretch marks and scars I can't say but in this case the price could be justified",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Normalny olejek nawilżający. Recenzja bezpłatnego produktu Amazon Vine (Co to jest?) Ach, siła marketingu przechwalającego się cudownymi właściwościami naturalnych olejków (termin, który nic nie znaczy, bo słowo naturalny nie jest uregulowane). Jest to butelka o pojemności 200 ml, zawierająca olejek niewiadomego pochodzenia, który ma za zadanie nawilżyć skórę. Bardzo lekki zapach, który nie przeszkadza - przynajmniej w moim przypadku, to jest subiektywne. Wiadomo, że rozstępów nie da się wyleczyć: jeśli są jeszcze różowe, jest szansa na ich zmniejszenie, ale jeśli są białe, nie ma żadnego oleju, który pomoże. To samo dotyczy blizn. Jeśli szukasz olejku, który nawilża ciało, ale nie jest lepki, może być dla Ciebie (ale możesz znaleźć równie wydajne olejki za połowę ceny). Jeśli jednak wierzysz w cudowny marketing, niestety będziesz mieć rozstępy i blizny, a w portfelu będziesz mieć 27 euro mniej. Również dlatego, że gdyby naprawdę działał, nie byłoby już rozstępów i blizn do usunięcia, bo ten olejek już wyeliminowałby ten problem z powierzchni ziemi! Jeśli masz problemy dermatologiczne, udaj się do wykwalifikowanego i poważnego dermatologa: on udzieli Ci porady, a przede wszystkim powtórzy, że w niektórych przypadkach niestety nic (lub bardzo niewiele) nie da się zrobić. A przede wszystkim olejek stosowany miejscowo nie jest rozwiązaniem, a jedynie środkiem łagodzącym",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Mdlący zapach i w ogóle nie nawilża. Oprócz naturalnych i pysznych składników, nie nawilża tak dokładnie, jak obiecano, oczywiście jako olej nie może wniknąć głęboko w skórę właściwą. Do tego ma mocny i przyprawiający o mdłości zapach (zacznę od tego, że nie jestem w ciąży, więc nie odczuwam zmienionych zapachów). Mogli zrobić lepiej, preferując przede wszystkim oleje o niższej masie cząsteczkowej, a przez to łatwiej wchłanialne w preparacie (takie jak olejek z dzikiej róży i chia), zamiast tego woleli dodać o wiele więcej ciężkich olejów, aby uzyskać początkowy wygląd „fałszywej miękkości i nawilżenia”, który ostatecznie nie spełnił swojego zadania. Krótko mówiąc... Na rynku są lepsze kremy, masła i serum, które są opracowane tak, aby lepiej przenikać przez różne warstwy powierzchownej skóry właściwej. Polecam intensywny krem ​​do ciała Bepanthen, lub \"kremowe\" masła do ciała pochodzenia roślinnego (bardzo miękkie i nawilżające, marek jest niezliczona ilość i wszystkie są prawie aktualne, polecam linię \"Sol de Janeiro\"). Na zakończenie stwierdzam, że jest to dobry olejek, jednak nie do skóry suchej i z rozstępami. Wystarczy olejek do nałożenia na koniec na nawilżające mleczko/serum lub po nałożeniu kremu, który za Ciebie głęboko nawilża skórę",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Perfumy, chłonność, konsystencja – wszystko doskonałe, ale co zawiera?….. Recenzja bezpłatnego produktu Amazon Vine (Co to jest?) W przeszłości próbowałam już Bio-Oil, z pewnością jest to doskonały olejek, jeśli chodzi o sam produkt, więc ten w butelce 200 ml jest przeznaczony specjalnie na okres poporodowy lub jeśli schudłaś trochę, ponieważ pomaga na rozstępy i blizny. Przyglądając się składowi i robiąc małe rozeznanie, zauważyłem jednak, że zawiera dwie substancje, których osobiście staram się unikać w produktach, których używam lub przynajmniej w ciągu dnia staram się już nie używać produktów, które je zawierają i mówię o: - BHT, który może mieć negatywny wpływ na funkcjonowanie tarczycy (a także na hormony płciowe i płodność) - Hydroksyizoheksylo-3-cykloheksenokarboksyaldehyd, który stwarza duże ryzyko alergizowania i który od 23 Sierpień 2019 r. jest zabroniony we wszystkich nowych produktach (obecne produkty zawierające tę substancję, które są nadal dostępne na rynku, mogą być sprzedawane do sierpnia 2021 r.). Cena tej fiolki wynosi 26,99 EUR, zgodnie z podobnymi produktami i w takich samych ilościach jak produkty innych marek w tym samym asortymencie",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "adverse"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Niezbyt przyjemny zapach, należy go używać niewiele, ponieważ jest tłusty. Recenzja klienta Amazon Vine na temat bezpłatnego produktu (Co to jest?) Pierwszy produkt Bio-Oil, który testuję. Jest to olejek do twarzy i ciała przeznaczony specjalnie do pielęgnacji blizn skórnych, takich jak rozstępy, ale także przebarwienia, a także będący tym, czym zawsze był olej, czyli kremem nawilżającym dla suchej skóry. Muszę przyznać, że pierwsze co zrobiłam po otwarciu butelki to powąchanie produktu, spodziewałam się czegoś delikatnego lub słodkiego, a zamiast tego zapach był lekko ostry. Z doświadczenia radzę nakładać niewielką ilość, bo w przeciwnym razie jest tłusty i skóra ma trudności z jego wchłonięciem, a poza tym nie można się ubrać, bo ryzykuje się pobrudzeniem ubrania. Jak dotąd widziałam jedynie efekt nawilżenia, który jest dobry; oczywiście w przypadku niedoskonałości takich jak rozstępy i przebarwienia na twarzy myślę, że zajmuje to trochę czasu. Butelka 200 ml kosztuje 26,99 € i na razie, biorąc pod uwagę krótki okres, w którym zaczęłam ją stosować, nie kupiłabym jej ponownie, bo jak na razie prezentuje się jak zwykły krem ​​nawilżający",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Jest więcej naturalnych. Recenzja klienta Amazon Vine na temat bezpłatnego produktu (Co to jest?) Nie mam zbytniej obsesji na punkcie produktów Inci, ale oczywiście czytając BIO, spodziewam się znaleźć produkt prawdziwie naturalny, co w tym przypadku nie miało miejsca. Zastanawiam się, po co nazywać produkt BIO OLEJEM, skoro ma w sobie bardzo mało BIO. Nadal jest to dobry olejek nawilżający, ale moim zdaniem traci na wartości, bo nie spełnia oczekiwań. Olejek naprawdę dobrze nawilża i zauważyłem niewielką poprawę zarówno w zakresie rozstępów, jak i blizn po dwóch cięciach cesarskich, które uległy rozjaśnieniu. Zapach również jest bardzo dobry, świeży i jednocześnie delikatny. Osobiście unikałabym stosowania go u dzieci, nawet jeśli jest to zalecane powyżej trzeciego roku życia, bo istnieją warianty, które są o wiele bardziej naturalne i odpowiednie dla nich i ich delikatnej skóry. Dość wysoka cena, wyobrażam sobie bardziej markę niż jakość produktu, który z pewnością jest dobrym olejkiem nawilżającym, ale niczym więcej",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Bio-olej. Rozmiar Nazwa: 125 ml (1 szt. w opakowaniu) Witam wszystkich przyjaciół społeczności ciao.it. Chciałam z Wami porozmawiać o bio olejku, który dzięki projektowi insiders miałam okazję spróbować bio olejku. Olejek specjalizujący się w leczeniu blizn, rozstępów, kolorytu skóry, skóry starzejącej się i odwodnionej. Niektóre substancje obecne w produkcie to witamina E. Nagietek, Lawenda, Rozmaryn i Olejek Rumiankowy. Ma również tę zaletę, że szybko się wchłania, ponieważ jest olejem wysokiej jakości. Jest hipoalergiczny i odpowiedni dla skóry wrażliwej. Produkt testuję już jakiś czas. i mogę powiedzieć, że moim zdaniem na blizny i rozstępy, które nie są zbyt widoczne, jest to olejek wysokiej jakości, na głębokie rozstępy nie zdziała cudów. Polecam szczególnie do nawilżenia bo jest bardzo skuteczny, zapach jak dla mnie bardzo przyjemny na twarzy.",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "adverse"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Buona profumazione, buona idratazione, ma INCI non Bio.. Amazon Vine Recenzja klienta na temat bezpłatnego produktu (Co to jest?) Il Bio-Oil to produkt, który można często udostępniać, ale nie możesz tego zrobić. Bardzo podoba mi się ten zapach, delikatny. Uważam, że jest to lekki olejek, który nawilża mokrą skórę i wchłania się mniej więcej łatwo. Ale.. wszystko jest, z wyjątkiem organicznego! W jej Inci z pewnością znajdują się olejki, takie jak rumianek, słonecznik, lawenda, rozmaryn, nagietek, ale są to głównie substancje z czerwoną etykietą, takie jak parafina oraz dodatki perfumeryjne i alergeny. Oczywiście reklamowany jako zapobieganie i łagodzenie rozstępów, nie zdziała cudów. Stare pozostaną stare, prawdopodobnie pomoże to w zapobieganiu nowym: JAK WSZYSTKIE NAWILŻACZE. Nie zalecane dla dzieci. Nie wziąłbym tego ponownie",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Kupione ze względu na ciążowy brzuszek. Kupiłem ten produkt na podstawie opinii innych użytkowników, wierząc, że jest to doskonały sposób na ograniczenie rozstępów. Jednak myliłam się, stosowałam ten produkt codziennie, po kąpieli i niestety rozstępy nadal się pojawiały... my kobiety musimy przyznać, że jeśli mamy genetycznie predyspozycje do rozstępów, to nie ma skutecznego produktu, trzeba to sobie wbić do głowy. Zanim to zrozumiemy, będzie już za późno i portfele będą pełniejsze. Produkt na mojej skórze nie wchłania się od razu, przez co pozostaje tłusty i tłusty przez kilka minut. Dziewczyny, mówię to od serca, nic nie zyskam, mówiąc, że słynny niebieski słoiczek znanej firmy nawilża znacznie bardziej! Potem każdy robi jak chce",
+   "tags": [
+    "efficacy",
+    "greasy",
+    "hydration",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Rozstępy tak Rozstępy nie. Kupiłam go, żeby zapobiegać rozstępom po drugiej ciąży, teraz nie mogę powiedzieć, czy dzięki olejkowi nie mam rozstępów, czy nie wyszły tak dobrze jak przy pierwszej ciąży, muszę jednak przyznać, że pozostawia skórę bardzo miękką i bardzo pomaga przy problemach z zapaleniem skóry, stosuję go również u mojej 4-letniej córki i skóra się poprawiła, jak wszystkie olejki trzeba dobrze się wchłaniać przy masażu, szkoda, że ​​zapach jest prawie niewidoczny. Uważam, że cena jest trochę wysoka, biorąc pod uwagę, że czyste olejki migdałowe są dostępne w sklepach zielarskich po niższej cenie. Trzy gwiazdki są za cenę i za produkt trochę zbyt neutralny",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobra konsystencja, ale unikałabym go w czasie ciąży. Produkt ma dobrą konsystencję i nie jest tłusty.. Nie mogę zagwarantować jego skuteczności, ponieważ rozstępy również zależą w dużej mierze od czynników genetycznych, a nie od kremu, a poza tym odkryłam, że zawiera on niezbyt dobry skład, więc wolałam odstawić go w czasie ciąży.. Później zobaczyłam, że istnieje organiczna wersja tego samego olejku, w przeciwnym razie może nawet lepiej byłoby użyć jakiegoś bardziej naturalnego produktu, np. organicznego olejku ze słodkich migdałów i tym podobnych.. powiedzmy, że w czasie ciąży zapytałabym położną o opinię, jaki rodzaj olejku produkt do użycia, ale unikałbym tego w szczególności",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Trudno wchłaniający się olej. Rozmiar Nazwa: 125 ml (1 szt. w opakowaniu) Kupiłam Bio Oil zachęcona reklamami telewizyjnymi i pozytywnymi recenzjami. Zaczęłam go stosować i myślałam, że znalazłam dobry olejek na ciążę, ale potem dali mi olejek konkurencji i mogłam dokonać porównania. Bio olejek ma okropną chłonność, pozostawia skórę bardzo tłustą i mam wrażenie, jakby nie wchłonął się dobrze, mimo że użyłam niewielkiej ilości. Zapach jest delikatny, ale jednocześnie nie utrzymuje się na skórze. Nie kupię go ponownie",
+   "tags": [
+    "ingredient",
+    "greasy",
+    "pregnancy",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Spodziewałem się lepszego. Zacznę od tego, że jestem przyzwyczajona do stosowania olejków w ogóle, a szczególnie olejku migdałowego. Z pewnością ma bardzo dogodną cenę w porównaniu do ilości, na papierze pomocy medycznej itp. To zachęciło mnie do zakupu. Ale!!! Ma, ale trudny do rozsmarowania, naprawdę bardzo pastowaty, niewyczuwalny zapach (migdały pachną nie tak jak gorzkie, ale mają swoją nutę) i smak (ponieważ jest również przeznaczony do użytku spożywczego) pozostawia wiele do życzenia",
+   "tags": [
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry olej. Moja dziewczyna używa tego produktu już od jakiegoś czasu, zwykle kupuje go w sklepach, ale tutaj na Amazonie znaleźliśmy go w nieco niższej cenie. Zawiera parafinę i skutecznie radzi sobie z „nowymi” rozstępami i bliznami, czyli tymi, które pojawiły się niedawno i można je rozpoznać po różowawym kolorze, a nie białym. Oczywiście nie działa przy pierwszej aplikacji, ale po niewielkiej codziennej pielęgnacji. To dobry produkt, przydatny, ale cudów nie czyni",
+   "tags": [
+    "ingredient",
+    "efficacy"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry produkt, ale.... Dużo słyszałam o Bio Oil, zamiast o oleju na rozstępy, określiłabym go jako olejek profilaktyczny. Produkt kupiłam w maju i stosuję go wytrwale już prawie dwa miesiące, mimo to nie widzę realnej poprawy, jednak muszę przyznać, że odkąd go stosuję, pomimo zmiany wagi, nie pojawiły się żadne nowe rozstępy, ogólnie dobrze, nawilża, pachnie, ale nie działa tak jak myślałam",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "To naprawdę tłuste! Używam go dopiero 6 dni, więc nie jestem w stanie ocenić jego skuteczności, ale z pewnością to, co jest napisane w opisach produktów, że „szybko się wchłania i nie jest tłusty”, przynajmniej na mojej skórze, nie jest prawdą. Jest tak tłusty, że nałożony na wewnętrzną stronę ramion/piersi zabrudził stykające się z nim tkanki, pomimo długiego masowania go okrężnymi ruchami. Niestety z tego powodu ograniczę jego użycie",
+   "tags": [
+    "greasy",
+    "price"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nie wziąłbym tego ponownie. Stosuję go od lipca na łagodne rozstępy. Czekałam na recenzję produktu, między innymi dużo o nim czytałam i zdecydowałam się na ten, ponieważ nie zawiera parafin i parabenów. Zapach jest lekki, wystarczająco nawilża skórę, ale rozstępy nadal są, mimo że czytałam świetne recenzje. Może to ja wierzę w cuda. Ogólnie jest to dobry produkt, ale nie kupiłabym go ponownie ze względu na rozstępy",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Produkt jest naturalny, jednak na mnie się nie sprawdził!!. Od siódmego miesiąca ciąży nieustannie czułam swędzenie na brzuchu, mimo że stosowałam już rano i wieczorem krem ​​przeciw rozstępom, ale to nie wystarczało. Kupiłam go więc, żeby zapewnić dodatkowe nawilżenie. Produkt wygląda na naturalny, nie ma szczególnego zapachu. Szkoda, że ​​po tych wszystkich wysiłkach nadal wyrosły mi rozstępy na boku brzucha",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "adverse",
+    "hydration"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Olej. Olejek migdałowy tłoczony na zimno, nie ma uciążliwego zapachu, w przeciwieństwie do innych produktów długo się wchłania. Używam go w ciąży, ale można go nosić tylko wieczorem, żeby nie pobrudzić wszystkich ubrań. Dużą wadą moim zdaniem jest opakowanie... plastikowe i brak miarki, którą olejki mają zazwyczaj. Przesadzona ilość spada. Polecam przelać do innej szklanej butelki z miarką",
+   "tags": [
+    "greasy",
+    "pregnancy",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Brak rezultatów po tygodniach... Kupiłam ten olej kierując się pozytywnymi recenzjami i przystępną ceną dzięki promocji Amazon. Ale niestety, po tygodniach stosowania, nie ma to na mnie żadnego wpływu. Na moich ramionach nadal pełno jaskrawoczerwonych rozstępów, które ani nie wyblakły, ani nie rozjaśniły się… nic. Z drugiej strony jest to doskonały olejek nawilżający, ma przyjemny zapach i łatwo się wchłania. Nie wziąłbym tego ponownie",
+   "tags": [
+    "efficacy",
+    "greasy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Nic specjalnego. Próbowałam ten olejek na rozstępy, ale nie wiem, jakie efekty osiągnęłam, oczywiście zacznę od tego, że nie byłam super ciągła w aplikacjach, może na tych, które są bardziej precyzyjne, efekty są lepsze, nie twierdzę, że to zły produkt, ale za tę cenę myślę, że nie zauważyłam dużej różnicy w stosunku do wielu innych, znacznie tańszych olejków na rynku, więc szczerze nie polecam go",
+   "tags": [
+    "efficacy"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Dobry produkt. Kupiłam tę butelkę, bo musiałam stosować olejek migdałowy w czasie ciąży i być może podczas karmienia piersią, bo wolałam zaoszczędzić pieniądze. Co więcej, pochodzi od marki produkującej produkty szpitalne, co mnie przekonało. Bardzo mi się podobała, a to dopiero połowa, trzeba będzie jeszcze wielu ciąż, żeby to zakończyć. Byłoby lepiej, gdyby składniki były lepiej wskazane, bo nie mogę uwierzyć, że są tylko słodkie migdały",
+   "tags": [
+    "pregnancy",
+    "packaging"
    ]
   },
   {
    "r": 4,
-   "t": "Plusy i minusy. Jestem bardzo niezdecydowana co do oceny tego olejku, bo czuję się trochę oszukana, ale ostatecznie podoba mi się. „Jest bogaty w lipidy”, oczywiście jak każdy olej; „Odżywia skórę” w tym sensie, że zwiększa warstwę barierową skóry, aby utrzymać ją nawilżoną, a nie tak, że skóra „zjada” olej. Wszystko ok, tego właśnie szukam w olejku, jednak taki sposób przedstawienia produktu mnie denerwuje i od razu widzę negatywne strony. W praktyce jest to zestaw olejów roślinnych z substancjami emulgującymi i konserwantami zawsze pochodzenia naturalnego i zapachowego. W opisie online jest napisane, że nie zawiera perfum: dla mnie nie jest to problemem, ale być może dla alergików mógłby być. Głównym olejem jest olej sojowy, następnie owies, a na końcu jojoba: trochę za drogi jak na to, co to jest! To nieprawda, że ​​szybko się wchłania, jak to możliwe? Ale w końcu chciałem olejek, lepszą mieszankę, chciałem go w sprayu i podobają mi się te perfumy. Ponadto Aveeno to marka, którą znam od lat i która daje mi pewność, jeśli chodzi o jakość składników i bezpieczeństwo jej produktów. Więc ostatecznie nie mam ochoty zbytnio karać tego oleju",
+   "t": "Olej ze słodkich migdałów – naturalne rozwiązanie dla miękkich, zdrowych włosów! Olejku ze słodkich migdałów używam już od kilku miesięcy i szybko na stałe zagościł w mojej pielęgnacji włosów. Moje włosy mają tendencję do przesuszania się i rozdwajania końcówek, więc szukałam czegoś, co głęboko odżywi, nie obciążając ich. Ten olejek zdecydowanie dał radę. Oto szczegółowy opis moich doświadczeń: Zalety: Głęboko odżywia: Olej ze słodkich migdałów niesamowicie nawilża. Włosy po każdym użyciu są miękkie i dobrze nawilżone. Pomógł przywrócić nawilżenie moim suchym końcówkom, sprawiając, że stały się gładsze i zdrowsze. Lekki i nietłusty: W przeciwieństwie do niektórych olejków, olej ze słodkich migdałów jest lekki i łatwo się wchłania, nie pozostawiając tłustej pozostałości. Jest idealny do moich delikatnych włosów, ponieważ ich nie obciąża i nie sprawia, że ​​wyglądają na tłuste. Zmniejsza puszenie się włosów: ten olejek zdziałał cuda, jeśli chodzi o ujarzmianie puszących się włosów. Sprawia, że ​​moje włosy wyglądają gładko i lśniąco, nawet w wilgotne dni. Zauważyłam też mniej sklejających się włosów. Wzmacnia włosy: Z czasem moje włosy stały się mocniejsze, mniej łamliwe i rozdwajające się końcówki. To naprawdę pomaga w ogólnym zdrowiu włosów. Uniwersalny: Olejku ze słodkich migdałów stosuję także na skórę i paznokcie, co czyni go jeszcze bardziej uniwersalnym. Jest wystarczająco delikatny dla każdego rodzaju skóry i doskonale nawilża suche skórki. Żadnych agresywnych chemikaliów: To produkt naturalny i uwielbiam to, że nie zawiera ostrych chemikaliów ani dodatków. Dzięki temu regularnie nakładam go na włosy i czuję się dobrze. Wady: Zapach: chociaż zapach jest łagodny i naturalny, może nie być dla każdego. Nie jest przytłaczający, ale utrzymuje się przez chwilę, więc jeśli jesteś wrażliwy na zapachy, przyzwyczajenie się do niego może zająć trochę czasu. Na rezultaty potrzeba czasu: Nie zauważyłem dramatycznych rezultatów z dnia na dzień, ale po kilku tygodniach regularnego stosowania zacząłem zauważać znaczną poprawę tekstury i siły włosów. To produkt, który działa lepiej przy konsekwentnym stosowaniu. Dla niektórych może być zbyt bogaty: chociaż dla większości osób jest lekki, osoby z bardzo cienkimi lub przetłuszczającymi się włosami mogą uznać go za nieco bogaty. Trochę wystarczy, więc pamiętaj, aby używać go oszczędnie. Podsumowanie: Jeśli masz suche, kędzierzawe lub zniszczone włosy, zdecydowanie warto wypróbować olejek ze słodkich migdałów. Pomógł mi sprawić, że moje włosy stały się bardziej miękkie, lśniące i zdrowsze, a także zauważalnie mniej puszenia się i łamliwości. To świetna, naturalna opcja nawilżenia i poprawy ogólnej tekstury włosów. Polecam każdemu, kto szuka delikatnego, odżywczego olejku do codziennej pielęgnacji włosów",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 4,
-   "t": "Doskonały olejek w sprayu do ciała, super nawilżenie. Jestem regularną użytkowniczką olejku do ciała, więc gdy tylko pojawiła się szansa przetestowania tego od Aveeno, nie wahałam się ani chwili. Jest dostarczany w praktycznej butelce o pojemności 200 ml z dozownikiem w sprayu, to właściwie jedna z jego osobliwości, dzięki niemu możemy rozpylić niezbędną ilość i uniknąć marnotrawstwa. Główne składniki aktywne są niemal w całości pochodzenia naturalnego, są to głównie olejki owsiane i jojoba, znane ze swoich właściwości odżywczych. Olejek natychmiast nawilża skórę, dość szybko się wchłania, jednak nie należy przesadzać z ilością, aby nie przetłuścić skóry, trzeba nałożyć odpowiednią ilość, aby tego uniknąć. Nawilżenie jest długotrwałe, zapach niewyczuwalny i dla mnie to zaleta. Jest to oczywiście idealny olejek dla osób z suchą skórą, ale można go również stosować do masaży, natychmiastowo wygładzając skórę i zachęcając do praktyki masażu. W tej chwili czuję się więcej niż usatysfakcjonowany",
+   "t": "POSTARAMY SIĘ WYJAŚNIĆ!!!. Zacznę od tego, że tak jak wszyscy pragniemy tego, co najlepsze dla naszego zdrowia, tak samo jak ja, z pewnością szukasz nowych produktów, które poprawiają nasze życie lub przynajmniej starają się je poprawić! Osobiście kupiłem ten produkt dla mojej ciężarnej żony, aby zapobiegać lub redukować rozstępy! Fabryka?? NI Pozwólcie, że wyjaśnię lepiej... nie ma cudownego produktu, przynajmniej w tej cenie, który już po jednej aplikacji rozwiąże problem blizn czy rozstępów... jednak dzięki swoim zasadom nadaje elastyczność i w konsekwencji pomaga skórze przystosować się do wszelkich napięć... np. u kobiet w ciąży!! Polecam ten produkt, bo już od pierwszego zastosowania skóra wydaje się gładsza, nawilżona i błyszcząca.. zapach jest bardzo delikatny i nie duszący (kierowany dla kobiet w ciąży, które mają problemy z nudnościami)! Dodam, że po nałożeniu i kilkusekundowym masowaniu, dzięki dodatkowi substancji (PURCELLIN OIL), wchłanianie jest bardzo szybkie i od razu można używać bielizny bez ryzyka jej zabrudzenia!! Szczególną uwagę zwracam na szeroko krytykowaną substancję, czyli PARAFINĘ!! no tak, w skrócie ta substancja jest ekstrahowana z oleju i w konsekwencji nie przynosi korzyści, wręcz przeciwnie, dosłownie szkodzi!! Pozwólcie, że się nad tym zastanowię, po pierwsze nie bierzemy 100% oleju parafinowego i nie rozprowadzamy go na sobie... tu mówimy o małych ilościach, które zdaniem LEKARZY nie powodują żadnych problemów dla organizmu i zanim to powiedzą, testują ten produkt latami!!! Twierdzenie, że stosowanie tego olejku powoduje raka lub inne choroby skóry, jest jak twierdzenie, że jeśli pójdziesz na spacer w słońcu, nabawisz się dolegliwości!!!!!! Prawo ZBYT DUŻO jest dokładnie obowiązujące!! Kończę stwierdzeniem, że jest to dobry produkt, polecam go kobietom w ciąży... i życzę im wszystkiego najlepszego!!! <3 <3 <3 <3 <3",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "adverse"
    ]
   },
   {
    "r": 4,
-   "t": "Odżywiona skóra. 🔎Cechy🔍Jestem zadowolona z tego produktu, który polecam osobom o skórze suchej i wrażliwej. Olejek do ciała Aveeno Skin Relief Body Oil w sprayu fantastycznie zapewnia głębokie nawilżenie, dzięki naturalnym składnikom, takim jak olej z owsa i jojoba. Lekka konsystencja pozwala na łatwą aplikację i szybko się wchłania, nie pozostawiając tłustej warstwy na skórze. Na uwagę zasługuje również wygoda sprayu, dzięki której aplikacja jest szybka i praktyczna, idealna po prysznicu lub gdy potrzebujesz zastrzyku nawilżenia.💶STOSUNEK JAKOŚCI DO CENY: DOBRY🚚 WYSYŁKA: Otrzymana na czas.👌Wnioski: Ostatecznie polecam każdemu, kto szuka delikatnego, ale skutecznego olejku do ciała. Moja skóra jest natychmiast bardziej miękka i nawilżona. Mam nadzieję, że moje doświadczenie pomoże Państwu w zakupie. \"Pani\"",
+   "t": "bardzo dobry, o delikatnym i przyjemnym zapachu. Recenzja klienta Amazon Vine na temat darmowego produktu (Co to jest?) Znam ten olejek do ciała bardzo dobrze i używam go od wielu lat. to znany olejek o delikatnym i lekkim zapachu, bardzo dobry i wszechstronny w zastosowaniu. W opakowaniu o pojemności 200 ml znajdziemy olejek idealny do przywracania miękkości i głębokiego nawilżenia suchej skórze. jest to produkt, który pomaga również zapobiegać rozstępom, pomaga likwidować drobne blizny, a także pomaga rozjaśnić przebarwienia skóry. bardzo dobrze działa na przebarwienia, rozstępy i stare blizny, mówię to, ponieważ mam stare rozstępy, stare blizny, a nawet stare przebarwienia na skórze i nawet przy ciągłym stosowaniu go do maksimum, poprawiły się nieznacznie, ale nie zniknęły całkowicie. Powiedzmy, że działa na świeże rany, więc działając natychmiastowo, pomaga naprawić i poprawić jakość i teksturę skóry, krótko mówiąc nie jest to olejek cud, ale zastosowany natychmiast bardzo pomaga w regeneracji skóry. Używam go, ponieważ mam bardzo suchą skórę i dlatego naprawdę muszę codziennie używać olejku do ciała. Bardzo go lubię, bo jest to olejek, który się wchłania i pozostawia skórę pachnącą, gładką, miękką, delikatną i przede wszystkim bardzo elastyczną. Pomaga także zapobiegać powstawaniu rozstępów",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "spray_dozownik",
-    "sklad_naturalny"
+    "efficacy",
+    "greasy",
+    "hydration",
+    "scent"
    ]
   },
   {
    "r": 4,
-   "t": "Odżywczy olejek do ciała idealny dla bardzo suchej skóry. Suchy olejek do ciała Aveeno jest naprawdę dobry. Byłem sceptyczny przed zakupem, ponieważ byłem przyzwyczajony do olejku Blift Syrio, który jest szczytem w gamie olejków do ciała. Ten produkt w sprayu szybko wysycha i pozostawia skórę bardzo miękką i odżywioną, szczególnie w przypadku osób o suchej skórze. Mniej nadaje się do twarzy, ale nadal używam go wieczorem po demakijażu. Doskonałe składniki potwierdzone przez Yukę. Jedyna wada: zapach jest zbyt intensywny, niemal chemiczny, który kłóci się z naturalnymi składnikami zawartymi w tym olejku. Powiedziawszy to, daję 4 gwiazdki, bo 5 gwiazdek zostawiam mojemu nieodłącznemu i nieosiągalnemu olejkowi Syrio, który jednak od kilku miesięcy nie jest już dostępny na Amazonie!!!",
+   "t": "OLEJ DO SKÓRY. Recenzja klienta Amazon Vine na temat bezpłatnego produktu (Co to jest?) Bio-olejek to specyficzny olejek, który uelastycznia skórę i poprawia jej wygląd z istniejących blizn i rozstępów lub w celach profilaktycznych. Najlepszy czas na stosowanie tego produktu to okres przed i w okresie dojrzewania, kiedy następuje nagły spadek lub wzrost masy ciała lub gdy jesteś w ciąży. Ponadto produkt działa również jako nawilżacz i tonik. Można go również stosować na twarz, aby przeciwdziałać efektom starzenia lub uniknąć nieprzyjemnych blizn potrądzikowych. Należy stosować 2 razy dziennie przez minimum 3 miesiące. Ilość zawarta w buteleczce to 200ml. Nadaje się do każdego rodzaju skóry, zarówno wrażliwej, jak i niewrażliwej, ale nie należy go stosować u małych dzieci. Rozprowadzanie go jest przyjemne i relaksujące, a także ładnie pachnie. Konsystencja jest dokładnie taka jak olejku, tylko trochę bardziej przezroczysta. Nie podobało mi się to, że na mojej skórze dość wolno wysycha. Produkt działa, ale nigdy nie sprawi, że znikną duże/głębokie blizny lub białe rozstępy. Cena trochę wysoka, ale ok, biorąc pod uwagę, że jest to produkt wielofunkcyjny",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "hydration",
+    "pregnancy"
    ]
   },
   {
    "r": 4,
-   "t": "Dobry olej, ale opryskiwacz wymaga poprawy i rozczarowująca dostawa. Olejek jest dobrej jakości: ma przyjemny, delikatny zapach, dobrze się wchłania, nie pozostawia uciążliwej warstwy. Z tego punktu widzenia jestem zadowolony z produktu. Niestety rozpylacz pozostawia wiele do życzenia: nie rozprowadza olejku równomiernie, przez co aplikacja jest niepraktyczna. Kolejna negatywna uwaga dotyczy usługi Amazon: mimo że jest to zamówienie Prime, dostawa nastąpiła po trzech dniach. Nie przestrzegano również dostarczonych instrukcji dostawy, co było dość rozczarowujące. Ogólnie dobry produkt, ale można go ulepszyć zarówno w zakresie pakowania, jak i usługi dostawy",
+   "t": "OLEJEK ELASTYCZNY RILASTIL. Jak zawsze, Rilastil jest gwarancją. Olejku uelastyczniającego Rilastil stosowałam na początku ciąży w celu poprawy elastyczności skóry i muszę przyznać, że jest to naprawdę słuszny produkt. La tekstura leggera e la formuła odżywcza aiutano a mantenere la pelle morbida e ben idratata. ✅ Mocne strony: • Doskonałe działanie uelastyczniające, które przy konsekwentnym stosowaniu pomaga zapobiegać rozstępom. • Delikatny i nieinwazyjny zapach, przyjemny podczas codziennej pielęgnacji. • Formuła testowana dermatologicznie. 🔻 Stwierdzone wady: • Jako olejek nie wchłania się całkowicie, pozostawia skórę lekko tłustą, ale nie za bardzo. • W ciąży niestety spowodowało to lekkie swędzenie na brzuchu. It didn't happen immediately, but after a few uses. Jeśli masz szczególnie wrażliwą skórę w czasie ciąży, polecam najpierw wypróbować go na małej powierzchni",
    "tags": [
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "efficacy",
+    "greasy",
+    "adverse",
+    "hydration"
    ]
   },
   {
    "r": 4,
-   "t": "super nawilżający olejek do ciała. Aveeno to znana marka, która tworzy doskonałe produkty, które zostały przetestowane na przestrzeni lat. Podobnie jak w przypadku wszystkich produktów tego typu, olejek do ciała na ogół nakładam na jeszcze wilgotną skórę po prysznicu, w ten sposób mogę ją wmasować przy użyciu mniejszej ilości produktu niż w przypadku skóry suchej. Po odparowaniu wilgoci skóra pozostaje dobrze nawilżona i miękka. Doskonała mieszanka olejków do skóry suchej",
+   "t": "Olejek Bi, realna pomoc na blizny i rozstępy. Amazon Vine Opinia klienta o darmowym produkcie (Co to jest?) Od lat stosuję produkty marki Bio-Oil, uważam, że są to naprawdę wyjątkowe produkty, które pomagają nam kobietom pozbyć się znienawidzonych rozstępów już na początku ich życia. Tak, nie ma olejku ani kremu, które poradziłyby sobie z zaawansowanymi rozstępami. Produkt jest olejkiem szczególnie odpowiednim na blizny i rozstępy na piersiach, brzuchu, udach, wewnętrznej stronie ud i ramionach. To produkt na bazie całkowicie naturalnych olejków, z certyfikowanymi i kontrolowanymi składnikami. Lekki, nietłusty i szybko się wchłania po lekkim masażu. Nie przesadzajmy z dawkami. Idealny w czasie ciąży, a także przeciwko starzeniu się skóry, z którym się borykamy. Dobry produkt i polecam go",
    "tags": [
-    "nawilzenie",
-    "marka_zaufanie"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "pregnancy"
    ]
   },
   {
    "r": 4,
-   "t": "Olejek do ciała Avenoo. Dobry produkt dla osób takich jak ja, które mają suchą skórę, stosuję go po prysznicu, zostawiając czas na wchłonięcie, przed nałożeniem kremu, ale ten olejek wydaje się działać lepiej. Plusem jest to, że jest to spray. Zapach jest dyskretny. Doskonała dostawa w ciągu 24 godzin",
+   "t": "Doskonały olejek na rozstępy. Produkt okazał się przydatny zgodnie ze swoim przeznaczeniem. Systematycznie stosowany zapobiega powstawaniu rozstępów. Oczywiście nie należy oczekiwać cudów i prawdopodobnie podobne rezultaty można osiągnąć stosując inne kremy nawilżające. Olejek jest typu suchego, więc pozostawia dziwne uczucie na skórze, ma też zbyt intensywny zapach, biorąc pod uwagę, że jest to produkt często stosowany w czasie ciąży i może powodować dyskomfort, zwłaszcza stosowany w okresie nudności. Ale ten problem dotyczy prawie wszystkich produktów kosmetycznych. Stosunek jakości do ceny nie jest korzystny i na pewno za markę płaci się dużo więcej niż za substancję, ale w pewnym sensie ma ona pewną skuteczność. Całkowite wchłonięcie preparatu zajmuje trochę czasu, dlatego zaleca się stosowanie go wieczorem",
    "tags": [
-    "zapach",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 4,
-   "t": "Dobre i lekko pachnące. Pozostawia skórę bardzo miękką i nawilżoną przez długi czas. Następnego dnia jest gładkie jak jedwab. Wchłania się dość dobrze, ale nadal jest olejkiem, który trzeba dłużej wmasować",
+   "t": "Dobry olej, zwłaszcza za tę cenę. Doskonała wysyłka, olej był dobrze zapakowany i umieszczony w kopercie z uszczelką ciśnieniową, aby uniknąć rozproszenia produktu w przypadku uszkodzenia lub pęknięcia butelki. Olejek zamknięty jest w plastikowej butelce bez dozownika, ja go używam głównie po to, żeby móc później rozdzielić go na mniejsze buteleczki i schować do torebki z materiałem do masażu, więc dla mnie jest rewelacyjny. Olejek nie ma szczególnego zapachu, dlatego powiedziałbym, że jest odpowiedni dla osób, które nie tolerują określonych perfum. Chłonność jest również bardzo dobra, po zakończeniu masażu pozostały na skórze olej można łatwo usunąć za pomocą wilgotnej ściereczki. Polecam ten produkt głównie ze względu na stosunek jakości do ceny. Co do reszty, jest to olej bez hańby i bez pochwał",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach"
+    "ingredient",
+    "greasy",
+    "scent",
+    "price"
    ]
   },
   {
    "r": 4,
-   "t": "Fantastyczny zapach. Fantastyczny zapach, skóra pozostaje miękka i pachnąca przez długi czas. Latem daje taki lekko tłusty efekt, który lubię",
+   "t": "Idealny do walki z rozstępami. Używam już drugiej tubki Bio olejku i muszę przyznać, że zaczyna być zauważalna różnica. Niestety z biegiem lat nie doceniłam swoich rozstępów, ale począwszy od ciągłej aktywności fizycznej zaczęły się one pogłębiać, więc musiałam działać! Zapach jest delikatny, a olejek łatwo się wchłania podczas masażu. Trzeba konsekwentnie wykonywać co najmniej trzymiesięczny cykl. Na przykład mam czas na noszenie go tylko wieczorem, więc nie robię kombinacji rano/wieczorem, ale efekt pojawia się, choć wolniej! Postaram się go stosować konsekwentnie nawet dłużej niż 3 miesiące. Amazon ma dość konkurencyjną cenę. W aptece kosztuje to 20 €, tutaj – 15 €, jeśli kupisz je we właściwym czasie!",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "scent"
    ]
   },
   {
    "r": 4,
-   "t": "Praktyczny. Dobry produkt, wygodny w stosowaniu, nie tłusty, wygodny w użyciu",
+   "t": "Jakość w odpowiedniej cenie. Jest to doskonały olejek do przygotowania skóry w czasie ciąży. Moja partnerka używa go rano i wieczorem na brzuch i nogi, aby zapobiec rozstępom. Jest to olej, ale nie jest tłusty; łatwo się wchłania i nie plami ubrań. Ponadto ma bardzo delikatny zapach. Skóra jest nawilżona i bardzo gładka, właściwie to nawet unikam nakładania kremu, którego zwykle używam (jego słowa). Gorąco polecam, nawet jeśli nie jesteś w ciąży. Jedyna wada: cena za ilość produktu. Dozownik pozwala jednak na wydobywanie się olejku „kroplami”, co pozwala na odpowiednie wykorzystanie pożądanej ilości, unikając marnotrawstwa. Wysyłka i opakowanie super ok!",
    "tags": [
-    "tlustosc_wchlanianie"
+    "efficacy",
+    "greasy",
+    "hydration",
+    "pregnancy"
    ]
   },
   {
    "r": 4,
-   "t": "Dobre, ale.... Myślałam, że będzie lżejszy, bardziej ulotny",
-   "tags": []
+   "t": "Dobry produkt. Oceniam po kilkumiesięcznym testowaniu. Dawkowanie jest jasne, co najmniej dwie aplikacje dziennie, aby zoptymalizować efekty, ale stosuję tylko jedną od co najmniej dwóch miesięcy i nadal widzę pewne korzyści. Skóra jest z pewnością nawilżona i przede wszystkim bardziej zwarta. Rozstępy są lekko złagodzone, a te, które pojawiają się wraz z dietą, są „ujędrnione”. Aplikacja jest trochę uciążliwa, wymaga czasu, którego niestety nigdy nie miałam, ale nauczyłam się nakładać go na wilgotną skórę po prysznicu i dobrze się z tym czuję. Polecam małe dawki i przyjemny masaż zgodnie z instrukcją, to wystarczy, aby uniknąć tłustej warstwy. Na pewno będę go nadal używać",
+   "tags": [
+    "efficacy",
+    "greasy",
+    "hydration",
+    "pregnancy"
+   ]
   },
   {
    "r": 4,
-   "t": "do odkupienia. wszystko zgodnie z opisem",
-   "tags": []
+   "t": "Gwarancja. Amazon Vine Opinia klientów o darmowym produkcie (Co to jest? ) Marka jest prawdziwą gwarancją na suchą skórę i rozstępy. Bio olejek to olejek do masażu, który jednak szybko się wchłania, jest idealny na blizny i rozstępy, polecają go szczególnie w czasie ciąży, zdecydowanie uelastycznia skórę i zapobiega powstawaniu zbyt wielu rozstępów, można go również stosować na blizny, przy nierównym kolorycie skóry i przy odwodnieniu skóry, był szczególnie stosowany na rozstępy, pozostawia skórę bardzo miękką, nawilżoną i zapobiega powstawaniu te",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
+   ]
   },
   {
    "r": 4,
-   "t": "Wyjątkowy. Wyjątkowy",
-   "tags": []
+   "t": "Polecany w okresie ciąży i pielęgnacji noworodka. Nie jest bardzo tłusty i dość bezwonny. Kupiona w czasie ciąży, często masowałam nim piersi, brzuch i pośladki, żeby uniknąć rozstępów i nie wiem, czy to zasługa olejku, ale faktycznie, nie pojawiły się! Używam go również teraz po prysznicu, na skórę i włosy, pozostawiam na minutę, aby się wchłonął, a następnie spłukuję, aby dobrze nawilżyć. Przed kąpielą dobrze masuję moją małą, dzięki czemu po kąpieli jest nawilżona, ale nie tłusta. Bardzo przydał się także do zmiękczenia ciemieniuchy, którą następnie delikatnie usunęłam za pomocą pertinino",
+   "tags": [
+    "efficacy",
+    "greasy",
+    "hydration",
+    "pregnancy"
+   ]
   },
   {
    "r": 4,
-   "t": "Dobry. Dobry",
-   "tags": []
+   "t": "Olej. Jestem w ciąży i chciałam zastosować ten produkt do zapobiegania rozstępom..!!! Zamiast tego używam tego na piersi i żelu Bio Oil na brzuch. I'm finding myself very happy with very dry skin!! Oczywiście cena jest trochę za wysoka, do stosowania nawet na brzuch taka mała buteleczka nie wystarczy... dlatego kupiłam żelową 200ml... Stosuję od 6 miesięcy. Świetny produkt, nie swędzi, zmniejsza suchość skóry, ale NIE JEST PRAWDĄ, że rozjaśnia rozstępy. Miałam już poprzednie na piersiach i zawsze jest tak samo 😅 Poza tym gorąco polecam",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "adverse",
+    "hydration"
+   ]
   },
   {
-   "r": 5,
-   "t": "BEZ barwników, konserwantów, parabenów, silikonów i innych agresywnych substancji. Z produktów tej firmy korzystamy już od kilku lat i to nie tylko dla najmłodszych. Tak naprawdę część moich dzieci cierpi na alergiczne zapalenie skóry i potrzebuje nawilżających, nieagresywnych produktów, które utrzymają skórę całego ciała w dobrej kondycji. Tego olejku w sprayu jeszcze nie próbowałyśmy, bo często przetłuszcza i obciąża skórę. Aveno skomponowało doskonały olejek do ciała z naturalnymi składnikami aktywnymi w odpowiednim stężeniu w roztworze: tłoczony na zimno olej sojowy, olej z ziaren owsa, olej z nasion jojoba, lecytyna, palmitynian askorbylu (przeciwutleniacz i powłoka z zieloną etykietą), wit. E, perfumy. Firma zaświadcza, że ​​98% produktu jest pochodzenia naturalnego, istnieje bowiem możliwość, że wit.E czy palmitynian askorbylu są pochodzenia syntetycznego. Firma nie posiada certyfikatu, jeśli produkt jest wegański. W rzeczywistości lecytyna i palmitynian askorbylu mogą być również pochodzenia zwierzęcego. Nie ma w nim konserwantów, a jedynie elementy, które zapobiegają jełczeniu olejów i nieco maskują ich zapach. Są perfumy, ale nie podkreślono żadnego aromatycznego olejku uznawanego za alergizujący, więc chociaż nie jestem wielką miłośniczką perfum, ponieważ mogą one prowadzić do nietolerancji na już uszkodzonej skórze, mogę uznać to za akceptowalne w produkcie tego typu, który ze względu na wysokie stężenie olejków może w naturalny sposób nie mieć dobrego zapachu na skórze. Po otwarciu opakowania zawartość należy spożyć w ciągu 12 miesięcy. Butelka wykonana jest z tworzywa sztucznego z klasycznym dozownikiem sprayu i zakrętką. Butelka jest przezroczysta, w tym przypadku lepiej byłoby wybrać nieprzezroczystą. Olejek jest bursztynowy i lekko gęsty, dozownik nie jest w stanie go nebulizować, ale i tak dobrze się go dozuje i pozwala uniknąć marnotrawstwa. Olejek po nałożeniu na skórę wydaje się ciężki, ale o dziwo rozprowadza się bez problemu, szybko się wchłania i nie pozostawia tłustej warstwy. Skóra staje się bardziej miękka, lśniąca i pachnąca. Zapach wydaje się kwiatowy i lekko miętowy, ale nie potrafię go określić, nadal jest przyjemny, nawet jeśli ma tendencję do dość szybkiego zanikania na korzyść aromatu olejku, który zawsze jest bardzo delikatny. Moje dzieci stosują go po kąpieli, bezpośrednio na świeżo osuszoną ręcznikiem skórę. Już od pierwszego zastosowania skóra jest bardziej nawilżona, właściwie nie odczuwa się tego uczucia suchości i swędzenia, jakie zwykle odczuwa się po prysznicu. Nie wystąpiły u nich żadne reakcje alergiczne. Cena sprzedaży jest dobra",
+   "r": 4,
+   "t": "Świetny zapach i nawilżenie. Kupiłam ją w pośpiechu, gdyż w dziewiątym miesiącu ciąży pojawiły mi się na brzuchu brzydkie rozstępy. Mam nadzieję, że dotarły do ​​mnie na czas, bo są jeszcze czerwone. Olejek stosuję 2 razy dziennie rano i wieczorem po prysznicu, zobaczymy czy będzie tak cudowny jak reklamowano, ale efekty będą widoczne po dłuższym czasie, więc wrócę z recenzją później. Tymczasem po tych kilku dniach stosowania mogę już powiedzieć, że naprawdę przepięknie pachnie i szybko się wchłania, pozostawiając skórę bardzo miękką.",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "efficacy",
+    "greasy",
+    "hydration",
+    "pregnancy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Jest bardzo tłusty. produkt jest dobry w tym sensie, że po nałożeniu na skórę pozostaje miękka i gładka, ale moim zdaniem jest trochę za tłusty, więc trzeba dobrze wmasować, a następnie trochę wysuszyć przed założeniem ubrania lub w każdym razie poczekać, aż olejek całkowicie wyschnie. Zero zapachu zgodnie z opisem. Stosuję go od tygodnia i zauważam, że skóra na pośladkach i udach jest znacznie gładsza i bardziej nawilżona. Ogólnie jest to dobry olejek do użytku „domowego”. Nie wiem, czy nadaje się do profesjonalnych masaży, bo jest dość tłusty.",
+   "tags": [
+    "greasy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry. Dobry produkt: bezwonny i bezbarwny, nadaje się do masażu. Konsystencja jest bardzo płynna, spodziewałam się, że będzie nieco bardziej lepka. Jedyną wadą jest plastikowa butelka: na dłuższą metę plastik może zanieczyścić produkt, lepsza byłaby butelka szklana. Białą „nakrętkę” od razu zdejmuje się z nakrętki i zostaje tylko część wewnętrzna, ta, którą się nakręca… Krótko mówiąc, opakowanie jest kiepskiej jakości, widać, że zaoszczędzili, żeby móc zaoferować towar w niższej cenie. Ale treść jest w porządku: 4 gwiazdki więcej niż zasłużone!",
+   "tags": [
+    "greasy",
+    "scent",
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Jako alternatywa dla bardziej znanego olejku na rozstępy w czasie ciąży. Kupiony na potrzeby drugiej ciąży, po spędzeniu całych dziewięciu miesięcy pierwszej na smarowaniu się rano i wieczorem najsłynniejszą marką wskazaną na rozstępy, muszę powiedzieć, że nie ma czego pozazdrościć wspomnianemu właśnie! Świetna konsystencja, ładny zapach, wchłania się jak inne olejki, zawsze stosuję go po rozsmarowaniu kremu (nigdy bezpośrednio na skórze), od szóstego miesiąca tylko wieczorem. Miejmy nadzieję, że się uda, trzymamy kciuki!",
+   "tags": [
+    "efficacy",
+    "greasy",
+    "pregnancy",
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Pomaga na małą bliznę – ale powoli. Kupiłam ten bio-olejek, żeby zredukować małą bliznę na twarzy po niedawnym wypadku. Olejku stosuję codziennie od kilku tygodni. Myślę, że blizna się zmniejsza, ale bardzo powoli. Używam go również do innych części twarzy i muszę powiedzieć, że trochę pomógł przy przebarwieniach i ogólnym kolorycie skóry. Zaraz po aplikacji jest bardzo tłusta warstwa, jednak olejek po chwili się wchłania. Mam suchą skórę, więc dla mnie jest w porządku, ale jeśli masz tłustą skórę, może to stanowić problem",
+   "tags": [
+    "ingredient",
+    "efficacy",
+    "greasy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Miałam nadzieję, że będzie skuteczniejszy na blizny. Jest to olejek, więc powinniśmy się spodziewać, że nie będzie tak nawilżał jak krem ​​i będzie lekko tłusty. Zapach jest dobry, nie za mocny. Uważam, że jest dość skuteczny na rozstępy, ale nie jest to zaskakujące, a przede wszystkim liczyłbym na lepszy efekt na bliznach, które, chociaż jest również wskazane w przypadku tych, naprawdę mają trudności z choćby niewielkim rozjaśnieniem. Będę go nadal stosować, bo być może zajmie to jeszcze dłużej (ponad dwa miesiące stosowania) i w razie potrzeby zaktualizuję ocenę",
+   "tags": [
+    "efficacy",
+    "greasy",
+    "hydration",
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobry produkt. Kupiłam ten olejek dla mojego 10-miesięcznego synka, ponieważ jego skóra była trochę sucha i muszę przyznać, że po kilku zastosowaniach jego skóra znów stała się bardzo miękka. Teraz nie mogę się już bez niego obejść, stało się to dla mnie i dla niego przyjemnym rytuałem po codziennej kąpieli. Należy jednak dobrze wmasować i nie używać dużych ilości, w przeciwnym razie skóra pozostanie tłusta. Odradzam również nie stosować go na włosy, chyba że chcemy zrobić sobie kompres przed myciem, bo pozostają tłuste i wyglądają na brudne.",
+   "tags": [
+    "greasy",
+    "hydration",
+    "price",
+    "baby"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "doskonały zapach. Olejek jest naprawdę świetny, ma ładny zapach. Stosuję go na brzuch odkąd dowiedziałam się, że jestem w ciąży, a zwłaszcza teraz, gdy mój brzuch dramatycznie rośnie. Używałam też innych olejków, kupionych wcześniej w zielarskich sklepach i zapłaciłam podwójnie; i muszę powiedzieć, że nie ma czego pozazdrościć w porównaniu do innych olejów innych marek. jeśli już naprawdę mamy szukać usterki to jest to korek, z którego przy nalewaniu wycieka trochę oleju, ale przy odrobinie przezorności nie da się tego obejść",
+   "tags": [
+    "pregnancy",
+    "scent"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Dobra. Niewiele można powiedzieć o produkcie: zgodnie z etykietą (trochę ubogą) wszystko wydaje się być w porządku. Otrzymałam plastikową butelkę z olejkiem, idealnie zamkniętą. Nadal twierdzę, że są to zakupy z klauzulą ​​„miejmy nadzieję, że będzie najlepiej”, bo nie mam ani umiejętności, ani narzędzi, aby ocenić produkt, a recenzje zajmują trochę czasu. Sposób dostarczenia budzi wątpliwości: zadzwoniono na domofon, a paczkę pozostawiono w przedpokoju, na widoku, dostępną dla każdego, kto przechodził obok",
+   "tags": [
+    "packaging"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Sprawia, że ​​skóra staje się gładka. Spośród wielu, które wypróbowałem, z pewnością dobrze się z tym czuję, nawet jeśli mało się wchłania i zawsze muszę go wytrzeć ręcznikiem, ale szczerze go polecam, ponieważ poleciłem go niektórym moim znajomym, którzy go używają. Polecam również stosować go zaraz po zakończeniu prysznica, gdy jesteś jeszcze mokry, dobrze masować, a następnie założyć szlafrok, tylko w ten sposób olejek może sprawić, że Twoja skóra stanie się miękka i gładka. Nie zaleca się stosowania na suchą skórę",
+   "tags": [
+    "greasy",
+    "hydration",
+    "price"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Myślałem inaczej, mój błąd. Przez pomyłkę zakupiwszy już produkt tej marki jako bazę do waporyzacji, sądziłem, że może on służyć temu samemu celowi. NIE WAPOWAĆ!!!😂 działanie przeczyszczające przy zatkaniu cewki.. 100ml płynu wyrzucone.. No cóż, wykorzystam to w inny sposób. Dostawa z Amazon nie jest dobra, kurier dostarczył paczkę NIE przestrzegając podanych instrukcji (czas i wcześniej ustalona czynność), awaria, która moim zdaniem nie powinna mieć miejsca",
+   "tags": [
+    "price"
    ]
   },
   {
    "r": 5,
-   "t": "To naturalne i strasznie przypomina mi lato!. Jako zielarz bardzo dobrze znam markę Aveeno, która jest również łatwo dostępna w aptekach i zawsze była przeze mnie uważana za bardzo słuszną pod względem jakości. W tym przypadku badany jest olejek w sprayu „Skin Relief”, oferowany przez markę w plastikowej buteleczce o pojemności 200 ml, a otrzymany przeze mnie dzięki programowi VINE firmy Amazon. 2-3 rozpylenia wystarczą, aby szybko i łatwo nawilżyć dotknięty obszar (ramiona, ciało itp.) dzięki sprayowi dozującemu, który dobrze rozpyla serum. Wmasowując go w wybrane miejsce, roztwór bardzo szybko się wchłania, pozostawiając intensywny (choć delikatny) kokosowy zapach, który strasznie kojarzy mi się z latem. Ze względu na konsystencję, zapach, intensywność polecam go również po prysznicu na lekko wilgotną skórę: dobrze rozprowadzony sprawi, że skóra będzie miękka, gładka i nawilżona, a zapach będzie towarzyszył Ci przez cały dzień nawet po kilku godzinach. Jest to preparat stworzony specjalnie z myślą o osobach o wrażliwej skórze. suchy i wrażliwy, wykonany w 98% ze składników pochodzenia naturalnego, w tym z olejku owsianego i olejku jojoba, które odżywiają skórę, dając uczucie gładkiej i jedwabistej skóry (idealny również po ciąży do leczenia pozostałych rozstępów). Cena całkowicie zgodna z oczekiwaniami (przynajmniej moimi): jasne, że na rynku można znaleźć podobne serum „bez recepty” nawet w niższych cenach, jednak biorąc pod uwagę jakość i spokój w porównaniu do INCI i zastosowanych substancji pomocniczych, uważam, że 20/25 euro to bardzo uczciwy kompromis za 200ml. Serum, które zapewni wielotygodniową kurację i wymierne efekty",
+   "t": "I know the product and it's super but it arrived opened in the box and it wasn't very clear. Znam produkt i opakowanie, które dostałem w prezencie, a pudełko było piękne, białe w środku i miało naklejkę, którą nałożyli jako plombę, ponieważ wystarczy przekręcić zakrętkę i jest już otwarte, więc zewnętrzne pudełko ma te owalne naklejki, powiedzmy, dla bezpieczeństwa, nawet Rilastil zawsze zamykał swoje produkty, teraz nie muszą już używać plastiku, tj. małej zakrętki w miejscu, w którym wychodzi i jak wiele innych, których nie można odkręcić i przeciąć zakrętki, aby nie była używana. jeśli chodzi o rozmiar produktu, wydaje mi się, że jest nieużywany, ale pudełko na dole i ulotka informacyjna nie są ładne, złożone jak zwykle, nie są dobrze umieszczone do tego stopnia, że połowa rogu, który służy do zamykania, jest zepsuta, a pudełko również jest zgniecione, ale może się to zdarzyć. Inna rzecz, że ten, który został podany, miał dobre perfumy. Jestem szczery lub chciałem wiedzieć, czy jest uszkodzony. Właśnie otworzyłem wieczko, ale nie jest tak perfumowane jak drugie, które mi dano. Mogło to być również wielkie upał i kto przede mną chciałem tylko wiedzieć, czy jest uszkodzony. Są to produkty, które jeśli nie są przechowywane w suchych i chłodnych miejscach, ulegają zniszczeniu, należy je wyrzucić, ale aby się upewnić przed zwrotem lub w pobliżu apteki i parafarmacji, gdzie w przypadku wszystkich produktów Rilastil proszę ich o porównanie pudełek, ale bardziej produkt Jestem pewien, że mówią mi prawdę, a potem to widzę. Czuję, że trzymają q próbkę tt, aby dokładnie spróbować, ponieważ nie wszystkie skórki są takie same, wtedy decyduję się zwrócić pudełko, to nie ma znaczenia czy ktoś ją otworzył, żeby przeczytać notatkę w środku, ale niestety przydarzyło mi się to z jednym kremem z tych drogich, wiedziałem, że teraz to sprzedają zrobione na przezroczystym papierze, zamykanym od góry i od dołu naklejką no cóż, nie miało papieru do tego momentu normalnego dla mnie, który nie wiedziałem, że to ładne małe pudełeczko z kremową czarną zakrętką nieprzezroczyste szkło szczęśliwy otwieram to zrobię to mam nadzieję, że twoja twarz będzie poplamiona przez rok, ponieważ ta niesławna osoba wzięła oryginalny krem wyobrażam sobie wkładanie go do innego pojemnika i nie wiem co rodzaj kremu, który tam umieścił i było jasne, dlaczego zostawił trochę oryginału, a więc w samoprzylepnej zakrętce, że kremy o pewnym poziomie również są zbrodnią dla oczu, nie stać mnie na tak drogie kremy, ale przez chorobę moja powieka bardzo opadła, mój lekarz powiedział mi, że mogę spróbować tylko tego, wiem, że jest słuszny, ponieważ nie miałbym pieniędzy na operację kosmetyczną i z tego oka już prawie nie widzę jedynego, który używa kremu super liftingującego do oczu moralne, bo musiałbym wrócić to otrzymałem zwrot pieniędzy, ponieważ AMAZON rozumie i prawdziwą rodzinę, ale tego przestępcę z poplamioną twarzą, który traci 200 euro, ponieważ to on stracił Amazon. Gdzie na całym świecie są teraz cudowne, mam nadzieję, że powiedzą mi, że ten jest w porządku, bo nienawidzę powrotów",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "adverse"
    ]
   },
   {
    "r": 5,
-   "t": "💥 Znakomity olejek do ciała, idealne nawilżenie skóry.. Od kilku dni stosuję olejek do ciała Aveeno, jestem zadowolona z produktu, wydaje się rewelacyjny. 👉 Poniżej przedstawię Ci moje przemyślenia na temat tego produktu i mam nadzieję, że okażą się przydatne przy Twoim zakupie! CO MI SIĘ PODOBAło: ✔️Dogłębnie nawilża skórę, czyniąc ją przyjemniejszą i bardziej miękką. Przyjemne uczucie nawilżenia utrzymujące się przez cały dzień.✔️Naturalne składniki, doskonałej jakości, co warto podkreślić.✔️Bez podrażnień, dyskomfortu i innych niepożądanych wrażeń. Wręcz przeciwnie, jest to doskonały produkt. ✔️Inci bardzo dobry, sprawdzony również odpowiednią aplikacją. CO MNIE NIE PRZEKONAŁO: ❌ Nie ma nic konkretnego do powiedzenia, co by mnie jak dotąd nie zadowoliło. Być może w przyszłości spróbuję dokonać aktualizacji. CECHY: 👉 Informacje odpowiadają temu, co jest wskazane w reklamie i temu, co opisano w recenzji. Pozostałe szczegóły można zobaczyć na załączonych przeze mnie zdjęciach. W PODSUMOWANIU: 🎯 Idealny dla osób z suchą skórą, ale odpowiedni także dla każdego, aby przywrócić odżywienie i elastyczność. ☘️ Oczywiście miło nam, jeśli ta recenzja pomogła Ci w wyborze",
+   "t": "Dwa cudowne olejki, które można połączyć wbrew oznakom czasu ❤️‍🩹❤️‍🩹. Produkt ten jest eliksirem piękna każdego człowieka. Olejek ma różową barwę wpadającą w przezroczystość, a jego zapach jest naprawdę ładny. Bio-Oil to międzynarodowy gigant jeśli chodzi o kobiece produkty nawilżające i upiększające. Powodem, który skłonił mnie do zakupu tego olejku, było poszukiwanie produktu, który zniweluje ślady czasu i rozstępy na ciele. Czytając w internecie znalazłam same pozytywne opinie na temat tego produktu. Ostateczną wisienką na torcie była obniżona cena. Daję 5 gwiazdek, mimo że zawiera substancje, których nie lubię, a które mogą zaburzyć gospodarkę hormonalną każdej osoby. Z biegiem czasu odkryłam, że nasza skóra chłonie wszystko, czego dotknie, dlatego należy uważać na produkty zawierające dużo dodatków i powstające w laboratoriach. Niektóre składniki mogą powodować brak równowagi hormonalnej, który może ujawnić się dopiero z czasem. Szukając rozwiązania na blizny i oznaki starzenia, odkryłam, że terapia światłem czerwonym jest prawdziwym rozwiązaniem dla osób takich jak ja, które cierpią na problemy skórne i chcą usunąć blizny i zmarszczki. Istnieje wiele narzędzi online do tej terapii, należy jednak wybrać odpowiednią długość fali, aby światło mogło przeniknąć przez skórę i dostarczyć energię naszym mitochondriom. Długość fali wynosi 660 nm i jest właściwa. Jedna marka jest tak samo dobra jak inna, ale wybierz produkt wysokiej jakości, nawet jeśli cena może być wyższa. Oczywiście należy również zwrócić uwagę na niedobory żywieniowe i dietę. Jeśli zapewnimy organizmowi odpowiednie składniki odżywcze, organizm będzie mógł się zregenerować. Dla skóry, szczególnie przy rozstępach i bliznach, potrzebny jest kolagen i witamina C. Są to dwa kluczowe pierwiastki poza krzemionką, której nasz organizm używa do produkcji kolagenu. Bez krzemionki nasz organizm nie jest w stanie zregenerować włosów, paznokci, skóry, kości i zębów. W tym celu w Internecie dostępnych jest wiele suplementów na bazie bambusa lub ziemi okrzemkowej. Osobiście jestem bardzo zadowolony z bambusa starożytnej czystości, ale inne marki też są w porządku; ważne jest, aby nie zawierały wypełniaczy ani substancji szkodliwych. Nawodnienie to kolejny podstawowy element. Kluczowe znaczenie mają w wodzie elektrolity: potas, magnez i sód. Nasze ciało jest cudowne i kocham swoje, ponieważ pokazuje mi, że jest zdolne do wielu, a przede wszystkim samouzdrawiania. Dbaj o swoje ciało i każdy organ. Jesteśmy tym, o czym myślimy i co jemy. Każdemu, kto przeczytał tę recenzję, życzę wszystkiego najlepszego i posiadania zawsze młodej i nawilżonej skóry...❤️‍🩹❤️‍🩹",
    "tags": [
-    "nawilzenie",
-    "sklad_naturalny",
-    "sucha_wrazliwa_skora",
-    "marka_zaufanie"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Aveeno to zawsze gwarancja. 🧴Zastosowanie i sposób użycia Zdecydowałam się wypróbować nawilżający olejek do ciała w sprayu Aveeno, ponieważ podobnie jak wiele innych osób mam suchą skórę. Praktyczność dozownika w sprayu jest naprawdę zaletą: wystarczy kilka rozpyleń, aby równomiernie rozprowadzić produkt i natychmiast poczuć uczucie miękkości na skórze.📌 Wskazówki dotyczące przygotowania Sztuczka polega na tym, aby rozpylać produkt z umiarem. Zauważyłam, że jeśli użyjesz zbyt dużej ilości produktu, wchłanianie nie nastąpi natychmiastowo i istnieje ryzyko przeniesienia go na ubranie. Z tego powodu zalecam odczekać kilka minut przed ubraniem się, aby uzyskać maksymalny efekt nawilżenia.💰 Cena i wartość Chociaż doceniasz jakość oferowaną przez Aveeno, zawsze warto śledzić oferty, aby mieć pewność, że dostaniesz dobrą ofertę.💡 Wnioski Ogólnie rzecz biorąc, doświadczenia z tym olejkiem w sprayu były pozytywne. To prosty i praktyczny produkt, gwarantujący dobre nawilżenie i przyjemne uczucie bardziej miękkiej skóry, idealny do codziennej pielęgnacji",
+   "t": "Naturalny i skuteczny olejek dla miękkiej i nawilżonej skóry. Olejek ze słodkich migdałów Matt Forsan kupiłam po przeczytaniu kilku pozytywnych recenzji i muszę przyznać, że moje oczekiwania zostały w pełni spełnione. Produkt ten okazał się wyjątkowym sprzymierzeńcem w utrzymaniu nawilżenia, elastyczności i miękkości skóry, szczególnie w chłodniejszych okresach lub podczas zmian obciążających skórę, takich jak ciąża lub utrata masy ciała. Olejek jest pochodzenia roślinnego i całkowicie bezzapachowy, co bardzo doceniam, ponieważ nie koliduje z innymi produktami, których używam, ani z moimi zwykłymi perfumami. Łatwo się wchłania po nałożeniu na wilgotną skórę, pozostawiając uczucie miękkości, bez uczucia zbyt ciężkiego lub tłustego. Kolejnym plusem jest jego wszechstronność: stosuję go głównie do zapobiegania rozstępom i do nawilżania suchej skóry, ale świetnie sprawdza się również jako kuracja do skórek czy zmiękczanie włosów. Doskonale nadaje się również do masażu, dzięki gładkiej konsystencji i zdolności do głębokiego odżywiania skóry. Opakowanie 250 ml jest praktyczne i charakteryzuje się dobrą trwałością nawet przy częstym stosowaniu. Ponadto stosunek jakości do ceny jest naprawdę doskonały, biorąc pod uwagę, że jest to czysty olej i bez dodatków chemicznych. Zalety: - Głębokie nawilżenie i elastyczność skóry - Roślinny i bezzapachowy - Doskonały do zapobiegania rozstępom i leczenia suchej skóry - Wszechstronny: odpowiedni do ciała, włosów i paznokci - Łatwo się wchłania po nałożeniu na wilgotną skórę - Dobry stosunek jakości do ceny Wady: - Nie ma dozownika, więc należy uważać, aby się nie zmarnować - Butelka nie jest szczególnie elegancka, ale jest funkcjonalna - Całkowite wchłonięcie może zająć trochę czasu, jeśli zostanie nałożony na suchą skórę Podsumowując, olejek ze słodkich migdałów Matt Forsan to produkt, który gorąco polecam dla każdego, kto szuka naturalnego, skutecznego i wielofunkcyjnego olejku do pielęgnacji skóry i ciała. Jest idealnym sprzymierzeńcem w utrzymaniu nawilżenia i elastyczności skóry, szczególnie w okresach stresu. Must-have dla miłośników prostych i naturalnych produktów",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "spray_dozownik",
-    "marka_zaufanie"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Sucha skóra? Nigdy więcej! Teraz ślizgam się lepiej niż lasagne w piekarniku 😍. Spójrzmy prawdzie w oczy, posiadanie suchej skóry jest jak chodzenie po podłodze pełnej piasku: denerwujące, irytujące, a nawet nieestetyczne. Ale potem pojawił się ten olejek do ciała i moja skóra w końcu poznała koncepcję głębokiego nawilżenia! Stosowałam go po prysznicu i w ciągu kilku sekund moja skóra stała się tak miękka, że prawie wyślizgnęła mi się z dłoni.🔥Zalety:✅Super wygodny spray: koniec ze śliskimi butelkami i walką z zakrętkami!✅Ultraszybkie wchłanianie: nawilża bez uczucia tłustej patelni.✅Idealny dla skóry suchej i wrażliwej: zero podrażnień, tylko rozpieszczanie.✅Delikatny zapach: nie ma wrażenia, jakbyś kąpał się w perfumerii.⚠️ Wady:❌ Jest tak przyjemny, że ryzykuję, że skończę go w tydzień!❌ Jeśli spryskasz go zbyt blisko, możesz sprawić, że podłoga będzie bardziej śliska niż lodowisko. Podsumowując, jeśli masz suchą skórę i chcesz ją nawilżyć, nie wyglądając jak frytka, ten olej jest błogosławieństwem!",
+   "t": "Eliksir piękna, który odmieni skórę!. Dałem mojej żonie olejek do pielęgnacji skóry Bio-Oil i nie mogę powstrzymać się od podzielenia się tym, jak bardzo była zachwycona tym produktem. Bio-Oil okazał się niesamowitym eliksirem urody. Jego formuła ma działanie nawilżające, lecznicze i przeciwrozstępowe, dzięki czemu skóra mojej żony zauważalnie się poprawiła. Zaczęła go używać do ukrywania blizn i rozstępów, a rezultaty były niesamowite. Zacznijmy od nawilżenia: Bio-Oil znacząco poprawił wygląd skóry mojej żony, czyniąc ją miękką i jedwabistą w dotyku. Pomógł zmniejszyć suchość skóry, sprawił, że stała się jaśniejsza i bardziej nawilżona. Umiejętność ukrywania blizn i rozstępów naprawdę dodała jej pewności siebie. Problematyczne obszary skóry stały się mniej widoczne i miały bardziej jednolity wygląd. To było jak otrzymanie drugiej szansy na bardziej równą, promienną skórę. Opakowanie 125 ml zapewnia wystarczającą ilość produktu, a na każdą aplikację wystarczy kilka kropli. Jest to produkt, który starcza na długo i oferuje doskonały stosunek jakości do ceny. Kolejnym plusem jest lekkość olejku. Szybko się wchłania, nie pozostawiając tłustej warstwy na skórze, co jest szczególnie ważne w przypadku osób o skórze mieszanej lub tłustej, takich jak moja żona. Podsumowując, Bio-Oil to prawdziwe cudo w buteleczce. Odmienił skórę mojej żony, czyniąc ją bardziej nawilżoną, równą i świetlistą. Był to prezent, który poprawił jej samoocenę i wygląd. Gorąco polecam wszystkim kobietom, które chcą poprawić jakość swojej skóry i poczuć się pewniej. Niezwykły produkt, który zasługuje na stałe miejsce w kosmetyczce każdej kobiety!",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Nawilżający, lekki, odżywczy. Olejek w sprayu do ciała Aveeno w praktycznej i dobrze zamkniętej butelce. Format 200 ml jest kompaktowy, łatwy w obsłudze i trwały. Bardzo go cenię za lekką, nietłustą konsystencję i trwały, nigdy nieprzyjemny i nachalny zapach. Ogólnie byłam zadowolona z tego produktu.🛠️ Stosowanie Szybko się wchłania, nie pozostawiając śladów, co czyni go idealnym rozwiązaniem także dla osób, które mają mało czasu na codzienne czynności, które tak jak w moim przypadku nie pozostawiają miejsca na relaks pomiędzy prysznicem a pracą. Dzięki składnikom odżywczym pozostawia skórę wyraźnie miękką i bardziej elastyczną.  Można go również stosować do masaży. 👉PodsumowującOdżywczy i delikatny olejek w sprayu, idealny dla skóry suchej i wrażliwej. Połączenie naturalnych składników i łatwość użycia sprawiają, że jest to doskonały wybór dla osób, które chcą nawilżenia i ochrony bez obciążania skóry. Rozmyślny!",
+   "t": "Wielozadaniowy olej w pełnym tego słowa znaczeniu. Bio-Oil to produkt, którego nie trzeba przedstawiać, ale konsekwentne testowanie go pozwala zrozumieć, dlaczego stanowi punkt odniesienia w leczeniu rozstępów i blizn. Nie jest to zwykły olejek nawilżający, ale prawdziwy koncentrat regenerujący, który widocznie poprawia strukturę skóry. Formuła i technologia (PurCellin Oil™): Sekret jego skuteczności tkwi w PurCellin Oil™, opatentowanym składniku, który sprawia, że ​​konsystencja olejku jest niezwykle lekka. W przeciwieństwie do tradycyjnych olejków, Bio-Oil szybko się wchłania, nie pozostawiając tłustej warstwy. Mieszanka witamin (A i E) oraz olejków roślinnych (nagietka, lawendy, rozmarynu i rumianku) zapewnia natychmiastowe działanie łagodzące i antyoksydacyjne. Działanie i rezultaty: Działanie na rozstępy: Stosowany regularnie podczas zmian wagi lub w czasie ciąży, utrzymuje elastyczność skóry, zapobiegając powstawaniu nowych i sprawiając, że istniejące stają się mniej widoczne. Poprawa blizn: pomaga wyrównać koloryt skóry na starych i nowych bliznach, zmiękczając tkankę i redukując zaczerwienienia. Nawilżanie twarzy i ciała: Doskonale nadaje się również do pielęgnacji obszarów o skrajnej suchości lub do wyrównywania cery w przypadku niedoskonałości skóry. Słowo klucz to konsekwencja. Aby zobaczyć zauważalne rezultaty, należy go stosować dwa razy dziennie przez co najmniej trzy miesiące. Masuj go okrężnymi ruchami, aż do całkowitego wchłonięcia. Profesjonalna sztuczka? Dodaj kilka kropli do swojego zwykłego kremu do ciała, aby zwiększyć jego działanie zmiękczające, lub użyj go jako kuracji po opalaniu, aby zregenerować skórę zestresowaną promieniami UV. Podsumowując: Niezbędny produkt w każdej kosmetyczce. Jest wszechstronny, skuteczny i bezpieczny. Minimalna inwestycja dla wyraźnie zdrowszej, bardziej elastycznej i jednolitej skóry",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "adverse"
    ]
   },
   {
    "r": 5,
-   "t": "Zmiękcza nawet najbardziej suchą skórę. Otulający zapach. ► MOJE DOŚWIADCZENIA Zamówiłam ten olejek, bo mam trochę przesuszone partie ciała (łokcie, kolana). Produkt znajduje się w plastikowej butelce o pojemności 200 ml, z wygodnym dozownikiem w sprayu. Jest to olej o słomkowożółtej barwie. Gdy tylko spryskałam nim dłoń, otoczył mnie niesamowity, intensywny i odurzający zapach. Błyskawicznie się rozprowadza i natychmiast wchłania (aby nie natłuścić buteleczki z olejkiem, polecam owinąć ją w chusteczkę kosmetyczną, aby jej nie zabrudzić). Wystarczy trochę. Po zastosowaniu skóra jest natychmiast miękka, nawilżona i cudownie pachnąca. Suche części zaczynają mięknąć. Świetnie nadaje się również do masaży. Z mojego doświadczenia zdecydowanie polecam",
+   "t": "Wszechstronny, lekki i skuteczny olejek dla bardziej jednolitej i nawilżonej skóry. Stosuję Bio-Oil od kilku miesięcy i muszę przyznać, że na stałe zagościł w mojej pielęgnacji. Jest to lekki, nietłusty olej, który szybko się wchłania i pozostawia skórę miękką i odżywioną, bez irytującego uczucia tłustości. Skuteczność: • Blizny i rozstępy: Zacząłem stosować na stare blizny i lekkie rozstępy. Przy ciągłym stosowaniu (2 razy dziennie) skóra wydaje się bardziej jednolita, rozstępy są mniej widoczne, a powierzchnia jest gładsza. • Głębokie nawilżenie: doskonale sprawdza się nawet w najbardziej suchych miejscach, takich jak łokcie, kolana i dłonie. Mimo, że jest to olejek, wchłania się znacznie szybciej niż gęsty krem. • Ujednolicenie kolorytu skóry: pomaga poprawić widoczność przebarwień i nadać blasku, zwłaszcza na nogach i dekolcie. Konsystencja i zapach: Olejek ma jedwabistą konsystencję, dobrze rozprowadza się na skórze, a kilka kropli wystarczy do pielęgnacji dużych powierzchni. Zapach jest delikatny, przyjemny i nieinwazyjny. Skład: Zawiera mieszankę olejów roślinnych i witamin (takich jak witamina E), nie powodując nadmiernego obciążenia. Jest testowany dermatologicznie i nadaje się również do skóry wrażliwej. Wszechstronność zastosowania: Oprócz ciała stosuję go również na twarz w małych ilościach wieczorem, szczególnie w okresach większej suchości, a rano skóra jest nawilżona i bardziej elastyczna. Doskonały również po ekspozycji na słońce, jako zabieg łagodzący i odżywczy. Wniosek: Bio-Oil dotrzymuje obietnic: widocznie poprawia stan skóry, jeśli jest stosowany konsekwentnie. Nie zdziała cudów z dnia na dzień, ale przy regularnym stosowaniu rezultaty są naprawdę zauważalne. Polecam każdemu, kto szuka wielofunkcyjnego, skutecznego produktu, odpowiedniego dla całej rodziny",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "adverse"
    ]
   },
   {
    "r": 5,
-   "t": "Zapach trwały, wchłania się po chwili. Udało mi się wypróbować ten olejek w sprayu od Aveeno w ramach programu Amazon Vine. Dostępny jest w przezroczystej plastikowej butelce ze sprayem o pojemności 200 ml. Nie znałam produktu, kupiłam go ufając renomie marki Aveeno. Bardzo spodobał mi się niemal pełny skład produktów naturalnych (ok. 98%). Nałożenie go na skórę faktycznie natychmiast ją zmiękcza, jednak trzeba chwilę poczekać, około 10 minut, aż olejek całkowicie się wchłonie. Pozostawia ładny zapach, ale bardzo trwały. W momencie recenzji kosztuje około 22 euro, jest drogo, ale jak na markowy produkt to normalne. ⭐⭐⭐⭐⭐ Daję 5 gwiazdek. Dodaję kilka zdjęć w nadziei, że ta recenzja będzie dla kogoś przydatna. 😉",
+   "t": "Akcja „Nigdy więcej bez” dla mamy i noworodka. Naturalne i wszechstronne!. Kupiłam ten w 100% czysty olejek ze słodkich migdałów z polecenia i muszę przyznać, że stał się zdecydowanie najczęściej używanym produktem w domu. Często wydajemy zawrotne sumy pieniędzy na drogie kremy, gdy natura ma proste i ekonomiczne rozwiązanie. ​Oto jak używamy go z maksymalną satysfakcją: ​🤰 DLA MATKI (w ciąży): Stosuję go codziennie na brzuch, biodra i piersi, aby zapobiec rozstępom. Utrzymuje skórę niezwykle elastyczną i likwiduje irytujące swędzenie „napiętej skóry”. Moja rada: nałóż go na jeszcze wilgotną skórę po prysznicu; wchłania się znacznie szybciej i nie przetłuszcza ubrań! ​👶 DLA NOWORODKA (czyszczenie i pielęgnacja): Używam go do codziennej higieny mojego dziecka. Będąc w 100% czystym, bez perfum i substancji chemicznych, jest bardzo bezpieczny. Nakładam kilka kropli na wacik w celu oczyszczenia fałdów szyi i przy zmianie pieluszki: zero zaczerwienień! Świetnie nadaje się także do zmiękczania ciemieniuchy, a nawet nawilżania paznokci i skórek przed ich obcięciem (jest to naturalne, nie ma problemu, jeśli dziecko wkłada rączki do buzi). PRO: ​100% naturalny (tylko jeden składnik w INCI). Wyjątkowa wszechstronność: jedna butelka służy całej rodzinie. Bezkonkurencyjny stosunek jakości do ceny w porównaniu do konkretnych kremów. WADY: Jak wszystkie czyste olejki, wchłanianie zajmuje trochę czasu, jeśli skóra jest całkowicie sucha, ale wystarczy dobrze wmasować. Na pewno kupię go ponownie, to idealny prezent także dla przyszłych mam! Wysyłka Amazon jak zawsze bez zarzutu",
    "tags": [
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik",
-    "sklad_naturalny"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "adverse"
    ]
   },
   {
    "r": 5,
-   "t": "Doskonała chłonność z przyjemnie perfumowaną esencją bez wazeliny. Olejek zawiera naturalną mieszaninę związków, pozbawioną wazeliny, jest to czynnik o niebagatelnym znaczeniu. Perfumy są delikatne i docenia się ich esencję. Na skórze wystarczy kilka rozpyleń, aby uzyskać krycie o odpowiedniej chłonności, które nie natłuszcza skóry, a pozostawia ją nawilżoną i miękką. Testowany na suchej skórze, szczególnie na dłoniach przy pierwszym użyciu, jego właściwości pozwoliły w ciągu zaledwie kilku minut osiągnąć poziom doskonałej ochrony i nawilżenia, o przyjemnym zapachu. Naturalne składniki takie jak olej jojoba, znany również ze swoich właściwości przeciwzmarszczkowych oraz olej owsiany sprawiają, że jest to produkt, który zdecydowanie polecam",
+   "t": "⭐ Czy to naprawdę działa? Moje doświadczenie z Bio-Oilem! ⭐. Zdecydowałam się wypróbować Bio-Oil po przeczytaniu wielu pozytywnych recenzji, szczególnie na temat blizn i rozstępów. Po kilku tygodniach stosowania mogę powiedzieć, że efekty są, ale potrzebna jest konsekwencja! ✅ Konsystencja i wchłanianie: Olejek ma lekką konsystencję i dość szybko się wchłania, nie pozostawiając tłustej skóry, pod warunkiem, że dobrze go wmasujesz. Ma delikatny zapach, który osobiście uważam za przyjemny. ✅Wpływ na rozstępy: Po około miesiącu ciągłego stosowania (2 razy dziennie) zauważyłam, że najnowsze rozstępy stały się mniej widoczne, a skóra bardziej elastyczna. Starsze nadal są, ale nieco stonowane. ✅Wpływ na blizny: W przypadku niedawnych blizn dobrze się spisał, czyniąc je bardziej miękkimi i mniej zauważalnymi. Na starszych poprawa była minimalna, ale skóra nadal wydaje się bardziej nawilżona. ⚠️ Aspekty do rozważenia: Wymaga czasu i konsekwencji: Nie jest to produkt cudowny, trzeba go stosować przynajmniej 3-4 tygodnie, aby zobaczyć pierwsze ulepszenia. Lepiej na świeże blizny i rozstępy: w przypadku starszych osób działa mniej, ale nadal pomaga poprawić wygląd skóry. 💰 Czy jest wart swojej ceny? Dla mnie tak! W porównaniu do innych olejków dostępnych na rynku ma lżejszą formułę i lepiej się wchłania. Jeśli będziesz go konsekwentnie stosować, może to naprawdę zdziałać cuda! 🔹 Ocena końcowa: 4,5/5 ⭐ Polecam każdemu, kto szuka skutecznego produktu do nawilżenia i poprawy wyglądu blizn i rozstępów, mając świadomość, że potrzebna jest cierpliwość i regularne stosowanie!",
    "tags": [
-    "nawilzenie",
-    "zapach",
-    "spray_dozownik",
-    "sklad_naturalny"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Pachnący i naturalny olejek do ciała, bardzo wygodna forma sprayu, bardzo miękka skóra! 🥰. Fantastyczny olejek do ciała marki Aveeno (świetna marka, którą już znam i z którą zawsze świetnie się bawiłam), w bardzo wygodnej formie sprayu o pojemności 200 ml, o lekko słodkim zapachu i z naturalnymi składnikami! Nakładam go na całe ciało po kąpieli lub prysznicu, na skórę nie do końca suchą, czyli gdy jest jeszcze wilgotna, dla jeszcze łatwiejszej i wygodniejszej aplikacji. Pozostawia moją skórę nawilżoną, miękką i pachnącą, dla mnie, która cierpi na suchą skórę, jest to naprawdę świetna pomoc! Jest to produkt przebadany dermatologicznie, w którego skład wchodzą składniki pochodzenia naturalnego, w szczególności znajdziemy w nim olejek owsiany i jojoba. Super zatwierdzone i zalecane! 🥰 😊",
+   "t": "Doskonała jakość, doskonała cena. Czysty olej ze słodkich migdałów otrzymywany w procesie tłoczenia na zimno, nie zawiera glutenu i dodatków chemicznych. Można go stosować ze względu na działanie łagodzące, przeciwdziałające podrażnieniom żołądka, zaparciom i może zmniejszać stany zapalne jelit. Wskazany jest również jako ochronny emolient dla skóry, ma działanie nawilżające i przeciw swędzeniu, na oparzenia słoneczne oraz do pielęgnacji suchych, puszących się, łamliwych włosów od słońca i soli. Bogaty w witaminy i niezbędne nienasycone kwasy tłuszczowe, służy do oczyszczania twarzy i masażu ciała, nadając skórze większą elastyczność i miękkość. Zapobiega powstawaniu rozstępów typowych dla okresu ciąży lub powstałych na skutek zmian masy ciała. Kupiłam go w tym litrowym formacie właśnie po to, aby pomóc skórze zachować i mam nadzieję poprawić elastyczność w okresie ciąży oraz aby przeciwdziałać powstawaniu nowych rozstępów i przyspieszyć powrót do zdrowia po porodzie. Uważam, że jest naprawdę dobry, wystarczy niewielka ilość, aby pokryć całą powierzchnię brzucha, ud i pośladków. Bardzo dobrze się wchłania. Nakładam go okrężnymi ruchami, czasem razem z kremem na rozstępy. Po każdym masażu skóra jest (oczywiście) piękniejsza i bardziej elastyczna oraz mniej sucha. Zdecydowanie najwygodniejszy format dla portfela. Doskonała i szybka wysyłka Amazon. Ważność 3 lata od daty produkcji (nie stosować po upływie terminu ważności) Wyprodukowano zgodnie z dobrymi praktykami produkcyjnymi (GMP) - Made in Italy",
    "tags": [
-    "nawilzenie",
-    "zapach",
-    "spray_dozownik",
-    "sklad_naturalny"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "adverse"
    ]
   },
   {
    "r": 5,
-   "t": "Bardzo nawilża, szybko się wchłania, ładnie pachnie. Przeznaczony dla mojej bardzo suchej skóry, która ma tendencję do pękania, szczególnie na twarzy, dłoniach i szyi. Opakowanie ma pojemność 200ml, jest przezroczyste. Wystarczy rozpylić spray w dłoniach, aby natychmiast poczuć miękkość skóry. Na początku efekt jest bardzo tłusty, co pozwala na rozprowadzenie go na dużej powierzchni przy użyciu bardzo małej ilości produktu. Wysycha w ciągu kilku minut, ale pozostawia skórę bardzo miękką, to naprawdę zaskakująca skuteczność. Zapach, jaki pozostawia na skórze, jest bardzo dobry, ale trochę zbyt trwały, wszystko, czego dotkniesz w ciągu pierwszego kwadransa, będzie miało zapach olejku. Jeśli używasz bardzo mało, a skóra pozostaje miękka przez długi czas, ma to doskonały stosunek jakości do ceny",
+   "t": "Bio-olejek na blizny, rozstępy, starzenie się, cerę. Produkt zakupiony dla mojej żony i przez nią zrecenzowany. **** Doświadczenia użytkownika **** Kupiłam ten olejek po rygorystycznej diecie, która doprowadziła do drastycznej utraty wagi, zachęcona dobrymi opiniami znajomych i świetnymi recenzjami bio-olej towarzyszył mi przez ten długi okres. Ćwiczenia, które wykonałem w tym miesiącu, były bardzo intensywne, przynajmniej raz dziennie, aby masować biodra, pośladki, uda i łydki, podczas każdej sesji jednocześnie korzystałem z elektrycznego masażu. Plusy: - Jest niezwykle łatwy w użyciu. - Pachnący. - Nie jest tłusty i nie pozostawia smug. - Szybko się wchłania. Wady: - Brak. ****Oceny końcowe **** Już po pierwszych tygodniach stosowania można zauważyć pierwszą poprawę, gładką i miękką skórę, a jednocześnie dzięki zastosowaniu masażera skóra jest dużo, dużo bardziej ujędrniona, naprawdę zauważyłam dużą różnicę w pośladkach, które są dużo jędrniejsze niż wcześniej. Pomimo dość drastycznej utraty wagi na moim ciele nie powstały żadne rozstępy i uważam, że bio-olej odegrał zasadniczą rolę, ale to jest moje zdanie i każdy ma swoje. Jestem zadowolony z uzyskanych efektów i mogę jedynie potwierdzić, że produkt bardzo dobrze spełnia swoje zadanie",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Niezwykle skuteczny produkt. Zacznę od tego, że znam już dobrze tę markę, którą na co dzień kupuję w aptekach, ze względu na jakość jej produktów. Zawsze miałam raczej suchą skórę, a od kilku lat zwłaszcza plecy, chociaż pod względem estetycznym nie wykazuje ona żadnych szczególnych anomalii (jedynie uczucie swędzenia). Wydaje się to głupie, ale w rzeczywistości jest niezwykle irytujące. To jeden z nielicznych produktów, który pozwala mi błyskawicznie pozbyć się problemu i przywrócić natychmiastowe dobre samopoczucie. Mimo, że jest to olejek, przynajmniej na mojej skórze wchłania się błyskawicznie. Dlatego gorąco polecam każdemu, kto ma ten sam problem co ja",
+   "t": "bardzo zadowolony, szczególnie do stosowania w masażach. Jestem bardzo zadowolona z olejku migdałowego, w 100% czystego, tłoczonego na zimno. Ten produkt okazał się wyjątkowy pod wieloma względami: Jakość Premium: Ten olej jest wyraźnie wysokiej jakości. Fakt, że jest tłoczony na zimno, pozwala zachować w nienaruszonym stanie wszystkie korzystne właściwości migdałów, dzięki czemu idealnie nadaje się do różnych zastosowań. Wszechstronność zastosowania: Wszechstronność jest jedną z jego mocnych stron. Używałam go wielokrotnie, zarówno do celów kosmetycznych, jak i do przygotowywania relaksujących masaży. Jego lekka konsystencja sprawia, że ​​doskonale wchłania się w skórę, nie pozostawiając tłustej warstwy. Włoskie pochodzenie: Świadomość, że olej ten jest produkowany we Włoszech, bardzo mnie cieszy, biorąc pod uwagę moje podejście do zakupów produktów wytwarzanych we Włoszech. Higieniczna 1-litrowa butelka: Olejek zamknięty jest w 1-litrowej butelce, która jest wygodna i starcza na długo. Zdrowa żywność: Olej ten można również stosować do celów spożywczych. Dodawanie go do sałatek czy używanie go w kuchni to przyjemność i zdrowy wybór. Podsumowując, olejek migdałowy na stałe zadomowił się w naszym domu. Nie mogę nie polecić każdemu, kto szuka wysokiej jakości, naturalnego olejku, który poprawi ich skórę i ogólne samopoczucie",
    "tags": [
-    "tlustosc_wchlanianie",
-    "sucha_wrazliwa_skora",
-    "marka_zaufanie"
+    "ingredient",
+    "greasy",
+    "price",
+    "packaging"
    ]
   },
   {
    "r": 5,
-   "t": "Prawdziwa obsesja. Z całą pewnością mogę powiedzieć, że jestem szaleńczo zakochana w tym olejku do ciała. Szczerze mówiąc, kupiłam go skuszona ceną i marką, o której mam dobrą opinię. Nigdy wcześniej nie używałam olejku do ciała z taką przyjemnością. Przede wszystkim ma zapach niemal kokosowy, ale o wiele delikatniejszy, moim zdaniem trochę charakterystyczny dla marki. Bardzo dobrze się rozprowadza, nie jest tłusty, a doświadczenie jest bardzo przyjemne. W ciągu 10 dni pozbyłem się połowy.  Używam go co 2/3 dni i to dlatego, że wieczorem jestem bardzo zmęczona, inaczej na pewno już bym go skończyła. Jestem w ciąży i odbieram to jako przytulanie. Nie nudności. Absolutnie kupię go ponownie!",
+   "t": "Czysty olejek dla Twojej skóry. Olejek ze słodkich migdałów Farsan dotarł terminowo i bez problemów w opakowaniu wewnętrznym i zewnętrznym. Całkowicie naturalny produkt bez składników chemicznych i bez substancji zapachowych, zawiera tylko jeden składnik, 100% czysty, tłoczony na zimno olej ze słodkich migdałów. Plastikowa butelka o pojemności 250ml ma mało funkcjonalny dozownik, olejek ma tendencję do zalegania w pobliżu otworu wylotowego i jeśli nie wyschnie, może kapać na butelkę. Już od pierwszego użycia skóra wydaje się jaśniejsza, bardziej zwarta i gładka, bardzo dobrze się wchłania, a po aplikacji nie ma konieczności mycia rąk. Dzięki delikatnemu, nie przeszkadzającemu zapachowi pozostawia na skórze wspaniałe uczucie miękkości, dzięki właściwościom zmiękczającym, które w naturalny sposób odżywiają i nawilżają suchą skórę, a dzięki właściwościom uelastyczniającym zapobiegają wiotczeniu skóry i oznakom starzenia, jest idealny do codziennego stosowania. Wmasowując niewielką ilość w skórę głowy, włosy natychmiast wydają się piękniejsze, nawilżone i pełniejsze. Butelkę i dozownik można by poprawić, ale produkt jest doskonały także w stosunku do ceny. Zalecony",
    "tags": [
-    "tlustosc_wchlanianie",
-    "zapach"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Są synonimem jakości. Olejek do ciała w sprayu Aveeno Skin Relief to niezastąpiony sprzymierzeniec osób cierpiących na bardzo suchą i wrażliwą skórę. Dzięki hipoalergicznej formule składającej się w 98% ze składników pochodzenia naturalnego, w tym odżywczych olejków z owsa i jojoby, olejek do ciała gwarantuje głębokie i długotrwałe nawilżenie. Testowany dermatologicznie, idealnie nadaje się do przywrócenia miękkości i elastyczności skórze, czyniąc ją widocznie gładszą i bardziej jednolitą już w ciągu zaledwie tygodnia. Praktyczne opakowanie sprayu umożliwia szybką i łatwą aplikację, zapewniając natychmiastowy komfort oraz przyjemną i regenerującą pielęgnację skóry",
+   "t": "NATURALNY bio-olej. świetny i w końcu Bio-Oil stworzył naturalną wersję swojego bardzo znanego olejku, którego nigdy bym nie kupiła, bo to w większości ciekła parafina, czytałem kilka recenzji z 1 gwiazdką i zdjęciami produktów, które narzekają, bo jak mówią naturalny itp. jeśli na pierwszym miejscu jest parafina... po pierwsze, jeśli popełniłeś błąd przy zakupie produktu i zamiast naturalnego wziąłeś wersję klasyczną, to jest to Twój problem, jeśli zamiast tego złożyłeś prawidłowe zamówienie, a sprzedawca pomylił się, wysyłając Ci niewłaściwy, powinieneś był to zrobić wróć natychmiast, reszta powiem NIE klasycznemu bio-olejowi (parafina itp.) i super TAK bio-olejowi w 100% naturalnej formule (Inci: Glycine Soja Oil, Helianthus Annuus Seed Oil, Carthamus Tinctorius Seed Oil, Simmondsia Chinensis Seed Oil, Salvia Hispanica Seed Oil, Punica Granatum Seed Oil, Plukenetia Volubilis Seed Oil, Triticum Olejek z kiełków Vulgare, olejek owocowy Rosa Canina, ekstrakt z nagietka lekarskiego, olejek Lavandula Angustifolia, olejek z liści Rosmarinus Officinalis, olejek z kwiatów Anthemis Nobilis, olejek z liści pogostemon cablin, bisabolol, tokoferol)",
    "tags": [
-    "nawilzenie",
-    "spray_dozownik",
-    "sklad_naturalny",
-    "sucha_wrazliwa_skora"
+    "ingredient",
+    "packaging"
    ]
   },
   {
    "r": 5,
-   "t": "Aveeno to zawsze gwarancja!. Dzięki programowi Amazon Vine mogłam wypróbować ten olejek Aveeno za darmo. Przychodzi kilka dni po zamówieniu, a butelka nie ma uszczelek. Chociaż napis z przodu jest w języku angielskim, te na odwrocie są w języku włoskim. Wskazany jest do skóry bardzo suchej. Aby go dozować należy go „rozpylić” w ilości odpowiadającej potrzebom skóry: należy go wmasować aż do wchłonięcia. Nie jest tłusty i po kąpieli przyjemnie się go używa również dlatego, że pozostawia przyjemny zapach. Skóra jest gładka i miękka; masz wrażenie, że skóra jest nawilżona i odżywiona. Jestem z niego bardzo zadowolony!",
+   "t": "Na pogrubienie skóry głowy... ale nie tylko... Olejek migdałowy można stosować na nieskończoną ilość sposobów, najczęściej słyszę o zapobieganiu rozstępom po ciąży, a znajomi mówili mi: \"tak, jest dobry, ale po pewnym czasie robi się tłusty i śmierdzi\". mniej agresywne, ale i drogie produkty.. Spróbowałam więc: nakładając odrobinę olejku przed myciem na skórę dotkniętego obszaru, natychmiast go wchłonie, nakładając odrobinę więcej i następnie myjąc głowę, włosy są oczyszczone, a rozmiękczone zgrubienia złuszczają się (mniejszy efekt łupieżu), a tak przygotowana skóra pozostaje bardziej miękka, nie swędzi i nie jest „napięta” po umyciu. Potem odkryłam, że w ten sam sposób można go stosować do demakijażu. Według mnie jest to olej dobrej jakości, polecam. Jest bezwonny, ale w przyszłości chcę wypróbować jakieś esencje",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "efficacy",
+    "greasy",
+    "adverse",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Gładka i nawilżona skóra.. Produkt wysokiej jakości, jak praktycznie wszystkie tej marki, który wyróżnia się doskonałą tolerancją przez większość ludzi. Wypróbowałam ten olejek na różne partie ciała i muszę przyznać, że sprawdza się świetnie, jednak trzeba uważać, aby nie przesadzić z ilością i nie zmarnować produktu, co daje efekty już przy niewielkich ilościach, a także aby nie spowolnić i utrudnić wchłanianie, co może skutkować także zabrudzeniem ubrań. Już po 3 zastosowaniach widać zauważalne rezultaty. Produkt, który polecam!",
+   "t": "Czysty, wszechstronny i niezwykle pożywny!. Kupiłam 100% czysty olej ze słodkich migdałów AIESI® i muszę przyznać, że jest to doskonały produkt. Jakość jest natychmiast zauważalna: jest lekki, naturalnie pachnący i szybko się wchłania, nie pozostawiając tłustej warstwy, pozostawiając skórę miękką i jedwabistą. Stosuję go zarówno na ciało, jak i na twarz, szczególnie po prysznicu i efekty są widoczne: skóra bardziej elastyczna, nawilżona i gładka. Doskonały także do relaksujących masaży, wzmacniania paznokci i zmiękczania skórek. Bardzo cenię sobie to, że jest całkowicie czysty, bez dodatków i środków chemicznych, co sprawia, że ​​jest bezpieczny nawet dla wrażliwej i delikatnej skóry. Butelka jest praktyczna i łatwa w dozowaniu, idealna także dla osób chcących zabrać ją w podróż. The quality-price ratio is excellent considering the purity and versatility of the product. Krótko mówiąc, naturalny olejek, którego nie może zabraknąć w Twojej codziennej pielęgnacji: odżywczy, wszechstronny i wysokiej jakości. Bez wahania polecam każdemu, kto szuka skutecznego i delikatnego produktu na skórze!",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "marka_zaufanie"
+    "ingredient",
+    "greasy",
+    "adverse",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Promowany, ale zajmuje trochę czasu, zanim się w nim zadomowi. Wypróbowałem już tę markę w przeszłości i jest ona również naprawdę doskonała pod względem jakości, idealna również dla osób o wrażliwej skórze, takich jak ja. Szczególnie ten jest przyjemny i nawilżający, ma ładny, delikatny zapach i jest doskonały dla osób z suchą skórą, idealny także po ekspozycji na słońce, do tego stopnia, że ​​myślę, że latem będę go często używać. Jedyną wadą jest to, że trochę się wchłania, ale może to zależeć od różnych czynników, a przede wszystkim jest to cecha wspólna większości olejków, dlatego i tak daję pełne oceny",
+   "t": "Po prostu jedyne prawdziwe rozwiązanie na podrażnienia skóry dziecka. Cóż mogę powiedzieć, po prostu wyrzuć drogi krem ​​i jeśli tak jak ja jesteś sceptyczny, spróbuj, dla dobra swojego dziecka. Za radą położnej, która opiekowała się moją żoną, po tym jak nasza córeczka od dwóch tygodni była podrażniona szczególnie w miejscach intymnych, pod pachami, a czasami także na szyi, nie było żadnego kremu, który poprawiałby sytuację, dyskomfort chwilowo ustąpił, ale podrażnienie nadal narastało, byliśmy sceptyczni. Po 24 godzinach sytuacja już znacznie się poprawiła, a po trzech dniach podrażnienie całkowicie zniknęło. Dziś, gdy tylko pojawi się choćby ślad podrażnienia, stosujemy go i wystarczy jedno użycie, aby problem zniknął. Minęło 5 miesięcy, prawie 6, a produkt jeszcze nie jest skończony! Nie wiem czy u kogokolwiek tak może być ale u nas było to wybawienie, gdybym mogła dałabym 1000 gwiazdek",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "sucha_wrazliwa_skora"
+    "adverse",
+    "pregnancy",
+    "price",
+    "baby"
    ]
   },
   {
    "r": 5,
-   "t": "Doskonała alternatywa dla zwykłego kremu do ciała. Mając bardzo suchą skórę, kupiłam ogromną ilość kremów do ciała w poszukiwaniu odpowiedniego dla siebie, ale nie byłam do końca usatysfakcjonowana, bo nie mogę znieść tego irytującego uczucia tłustej i lepkiej skóry, które zwykle pozostawiają kremy. Jednak ten olejek do ciała jest bardzo lekki i pozostawia skórę bardzo miękką, nie jest tłusty i bardzo szybko się wchłania. Uważam, że jest to doskonała alternatywa dla zwykłych nawilżających kremów do ciała, zwłaszcza latem. Zapach jest bardzo dobry i trwały. Fantastyczny!",
+   "t": "Doskonały olej. A few years ago I opened up to the world of oils, so I'm not an expert but I use them personally for cosmetics and massages. Olejek arganowy pozostaje moim ulubieńcem, jednak ze względu na cenę jest wyjątkowo drogi. Próbowałem różnych marek i różnych rodzajów olejków migdałowych, ponieważ są w miarę wygodne, ale zawsze miałem pewne problemy: słabą wchłanialność, reakcje skórne, nadmierny wzrost temperatury w obszarach tarcia. Tego lata zajrzałem, kiedy zdarzyło mi się robić masaże w centrach masażu lub spa (okolice Baia i Ischia) i zauważyłem, że wszyscy używają tej marki... Używam jej regularnie jako kosmetyku, a czasami do masażu, a osoby, którym wykonywałem masaże, również to doceniły. Gorąco polecam, szczególnie ze względu na stosunek jakość/ilość/cena. PS: jeśli chodzi o brodę, nie widziałem jednak świetnych rezultatów",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach"
+    "efficacy",
+    "greasy",
+    "adverse",
+    "price"
    ]
   },
   {
    "r": 5,
-   "t": "Bardzo nawilżający. ⭐ OPAKOWANIE i OPIS ⭐Zgodnie z opisem w aukcji otrzymujemy przezroczystą butelkę z dozownikiem w sprayu bardzo nawilżającego olejku do skóry suchej i popękanej. Skóra jest natychmiast nawilżona, co pomaga w każdym przypadku suchości i zaczerwienienia skóry. Zaleca się stosować go rano i wieczorem wmasowując go w skórę oraz zawsze, gdy potrzebujesz nawilżającej mocy tego olejku, aby uwolnić się od suchej skóry.*Mary*",
+   "t": "Doskonały produkt. Bio-Oil to wyjątkowy produkt do pielęgnacji skóry o ukierunkowanej formule, która oferuje szereg korzyści. Jego działanie nawilżające skutecznie utrzymuje skórę miękką i nawilżoną, a jego zdolność gojenia pomaga zmniejszyć widoczność blizn. Co więcej, jego działanie przeciw rozstępom jest szczególnie przydatne dla osób, które chcą zmniejszyć lub zapobiec pojawianiu się rozstępów. Jedną z najbardziej niesamowitych właściwości Bio-Oilu jest jego zdolność do ukrywania niedoskonałości skóry, takich jak blizny i rozstępy, zapewniając bardziej równy i gładszy wygląd. Podsumowując, Bio-Oil to produkt wszechstronny i skuteczny, który może stosować każdy, kto chce poprawić wygląd i zdrowie swojej skóry. Stosuję go od lat i potwierdzam jego skuteczność",
    "tags": [
-    "nawilzenie",
-    "spray_dozownik"
+    "ingredient",
+    "efficacy",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Natychmiast miękka skóra: NIESAMOWITE!. Olejek do ciała o w większości naturalnym składzie, sprawdzonej jakości marki, niezbyt płynny. Nie jest zbyt tłusty (chociaż osobiście nie używałabym go na dłonie, jeśli trzeba dotykać delikatnych rzeczy - inaczej po prostu go użyj), łatwo się rozprowadza, nie jest ciężki, pozostawia skórę BARDZO OBRZYDLIWĄ, gładką, błyskawicznie odżywioną i bardzo pachnącą. Co mogę powiedzieć? To spektakularne!!",
+   "t": "Optymalny. Skóra po użyciu faktycznie staje się bardziej elastyczna, chociaż właściwie wybrałam ten olejek jako bazę do perfum, ponieważ jest już pachnący. Miałam pewne wątpliwości, bo zawiera olejki eteryczne z cytrusów, które po przekroczeniu określonego stężenia i wystawieniu na działanie słońca powodują reakcję fotouczulającą (czyli nieodwracalne oparzenie skóry). Myślę jednak, że stężenie jest naprawdę minimalne (wysłałem e-mail do firmy, ale nie odpowiedzieli), także dlatego, że nie jest aż tak pachnący: cytrusowy zapach szybko zanika. Ponadto, ponownie ze względu na cytrusowe olejki eteryczne, olejek ten zawiera również alergeny zapachowe: CITRAL, LIMONENE, LINALOOL to 3 alergeny zapachowe. Więc oceń sam: jeśli chcesz być po bezpiecznej stronie, kupuj SIMPLE ALMOND OIL zawsze od Forsan",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "sklad_naturalny"
+    "ingredient",
+    "adverse",
+    "hydration",
+    "scent"
    ]
   },
   {
    "r": 5,
-   "t": "Gładka skóra w mgnieniu oka. Wypróbowałam ten olejek w sprayu do ciała o przeważnie naturalnej formule. Ma idealną konsystencję, nie jest ani za gęsta, ani za płynna. Nakłada się błyskawicznie i daje niesamowite uczucie: aksamitnej, jedwabistej, natychmiastowo nawilżonej skóry. Ponadto zapach owsa jest otulający i długotrwały. Produkt naprawdę niezwykły, nie sposób się w nim nie zakochać!",
+   "t": "OPTYMALNE. Olejek ze słodkich migdałów Forsan to doskonały produkt odżywiający i nawilżający skórę. Bezzapachowa, roślinna formuła sprawia, że ​​jest odpowiedni nawet dla najbardziej wrażliwej skóry. Stosuję go codziennie na ciało i miejsca podatne na przesuszenie lub rozstępy i zauważyłam bardziej miękką, bardziej elastyczną i dobrze nawilżoną skórę. Olejek dobrze się wchłania, nie pozostawiając tłustej warstwy, dzięki czemu aplikacja jest praktyczna i przyjemna. ZALETY: odżywia i nawilża, czysty olej roślinny, bezzapachowy, poprawia elastyczność skóry, idealny do zapobiegania rozstępom. WADY: Całkowite wchłonięcie zajmuje kilka minut, ale nie jest to uciążliwe. Podsumowując, olejek uniwersalny i delikatny, idealny do codziennej pielęgnacji skóry, szczególnie tej suchej i delikatnej",
    "tags": [
-    "nawilzenie",
-    "zapach",
-    "spray_dozownik",
-    "sklad_naturalny"
+    "efficacy",
+    "greasy",
+    "hydration",
+    "pregnancy"
    ]
   },
   {
    "r": 5,
-   "t": "Doskonały olejek nawilżający do skóry suchej i wrażliwej. Naprawdę doskonały nawilżający olejek do ciała w sprayu, nakłada się go błyskawicznie i szybko się wchłania, nie pozostawiając skóry tłustej ani lepkiej. Zapach jest delikatny, wpada w słodycz, ale nie jest zbyt inwazyjny. Odkąd go używam, moja skóra jest znacznie bardziej miękka i nawilżona, a także złagodziło to irytujące uczucie swędzenia",
+   "t": "świetnie, kupiłbym go ponownie. Kupiłam dwa opakowania i wystarczyło mi, abym stosowała go raz dziennie od początku trzeciego miesiąca aż do niemal końca ciąży na brzuchu i piersiach: nawet rozstępów nie było. W rzeczywistości pomogło mi to pozbyć się niektórych wciąż czerwonych rozstępów, które tworzyły się na moich piersiach. Naprawdę rewelacyjny, na każdą aplikację nie wystarczy nawet 10 kropli. Nie polecam stosować go po prysznicu jako olejku do całego ciała, uważam, że skuteczniejszy będzie zastosowany jedynie miejscowo na już nawilżoną skórę. Zapach jest bardzo delikatny; jedyną wadą jest zapach oleju, który pozostawia na ubraniach, dlatego polecam nakładać go przed pójściem spać, aby go usunąć, wystarczy jednak dodać do pralki szklankę octu!",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "spray_dozownik"
+    "efficacy",
+    "hydration",
+    "pregnancy",
+    "scent"
    ]
   },
   {
    "r": 5,
-   "t": "Idealny olejek do skóry dojrzałej.. Znakomity. Nawilża i odżywia na długi czas. Początkowo masz wrażenie, że skóra pozostaje tłusta, ale wkrótce potem zostaje całkowicie wchłonięta. Kupię to ponownie. Idealny dla skóry dojrzałej",
+   "t": "Doskonały produkt. Produkt ten okazał się doskonały pod wieloma względami, zarówno pod względem funkcjonalności, jak i jakości składu. Funkcjonalność jest mocną stroną produktu, ponieważ można go używać do różnych celów i każdy z nich zostanie w pełni osiągnięty, dzięki czemu możliwe jest dobre doświadczenie użytkowania dzięki wszechstronności i różnym zastosowaniom, jakie można wykonać za pomocą tego produktu. Jakość produktu jest doskonała wewnętrznie, jest doskonała, ponieważ produkt bardzo nawilża. Kończąc stwierdzam, że polecam dokonanie tego zakupu, który również okaże się doskonały pod względem stosunku jakości do ceny, dzięki wysokiej jakości i niskiej cenie.",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie"
+    "hydration",
+    "price"
    ]
   },
   {
    "r": 5,
-   "t": "Fantastyczny. Doszło dzisiaj, fantastycznie, pozostawia skórę miękką i przyjemnie pachnącą...Polecam osobom takim jak ja, które mają bardzo suchą skórę...piękny na lato, skóra błyszczy i podkreśla opaleniznę",
+   "t": "Świetny i ekonomiczny produkt. Używam olejku migdałowego jako kremu nawilżającego po prysznicu, ponieważ moja skóra ma tendencję do przesuszenia. Kupiłam tę dużą butelkę olejku, znacznie tańszą niż te sprzedawane w aptekach/sklepach zielarskich i muszę przyznać, że spełniła wszystkie moje oczekiwania. Bardzo dobrze nawilża, ale dobrze się wchłania, nie pozostawiając tłustej warstwy. Doskonały do ​​nawilżania skóry po prysznicu, pomaga również zapobiegać rozstępom, pozostawiając skórę elastyczną i miękką. Nie posiada zapachu, ale jeśli chcesz, do czystego olejku migdałowego możesz dodać kilka kropli perfumowanego olejku eterycznego... i gotowe! Zaliczony z pełnymi ocenami. Kiedy się skończy (będzie to trwało miesiącami, bo starcza na długo) na pewno kupię go ponownie",
    "tags": [
-    "nawilzenie",
-    "zapach",
-    "marka_zaufanie"
+    "ingredient",
+    "efficacy",
+    "greasy",
+    "hydration"
    ]
   },
   {
    "r": 5,
-   "t": "Nie jest tłusty, nie jest ciężki, jest też świetny na lato. Nie jest tłusty, szybko się wchłania i pozostawia skórę miękką, jedwabistą i delikatnie pachnącą. Naprawdę doskonały produkt, który nie powoduje podrażnień",
+   "t": "Bardzo dobrze 😋. A drugi raz go zamówiłam... bardzo mi pomógł w pierwszej ciąży, miałam trochę rozstępów, ale niewiele (gdybym stosowała go od początku ciąży na pewno nie miałabym rozstępów; zaczęłam go stosować w 5 miesiącu) i po porodzie powoli się zmniejszały (oczywiście stosowałam nawet po porodzie) ✌️🤩🫶 teraz będąc w drugiej ciąży (po 2 latach) w 7 miesiącu, przypomniałam sobie późno że go używałam, ale zawsze mam nadzieję, że zadziała...Zawsze polecam go stosować od początku ciąży i nawet po porodzie...a do tego bardzo dobry do twarzy, biorąc pod uwagę, że w ciąży mamy tyle ograniczeń ze strony różnych kosmetyków 🤗✌️🤩🫶🍀",
    "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach",
-    "sucha_wrazliwa_skora"
+    "ingredient",
+    "efficacy",
+    "pregnancy"
    ]
   },
   {
    "r": 5,
-   "t": "Dobry produkt. Bardzo dobry olejek, lekki i przyjemny zapach, potrzebuje kilku minut, aby dobrze się wchłonął, aby nie brudzić ubrań. Pozostawia skórę miękką i nawilżoną",
+   "t": "Doskonały produkt. Zasługuje na wszystkie 5 gwiazdek, ale jest trochę drogi. Ma bardzo delikatny zapach, a działanie na skórę, ciało, dłonie i twarz jest wyjątkowe. Stosuję go zawsze na wilgotną skórę, więc zużywam mniej produktu, ale za to lepiej się rozprowadza. Robię to z każdym kremem. W niektórych punktach używam go w czystej postaci, ale rzadko. Skóra z dnia na dzień poprawia swoją teksturę. Stosuję go również na skórę syna, który podczas kulturystyki ma ogromne napięcie skóry i musi zapobiegać rozstępom. Moim zdaniem również doskonały po opalaniu. Wtedy dla mnie, który mam alergię i wrażliwą skórę, nie odczułem żadnego dyskomfortu. Rzeczywiście łagodzi drobne (w skrócie niepatologiczne). Naprawdę polecam!",
    "tags": [
-    "nawilzenie",
-    "zapach"
+    "efficacy",
+    "adverse",
+    "hydration",
+    "scent"
    ]
-  },
-  {
-   "r": 5,
-   "t": "Nie jest zły, bardzo nawilża. Kupiłam do cery suchej i muszę przyznać, że sprawdza się bardzo dobrze. Wydaje się delikatny, a jego zapach również nie przeszkadza. Dobry produkt nawilżający",
-   "tags": [
-    "nawilzenie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Bardzo zmiękcza skórę, naprawdę dobrze, polecam. Świetny olejek, bardzo zmiękczył moją skórę, przypadł mi do gustu i polecam, również potwierdzam, że to oryginał Aveeno",
-   "tags": [
-    "marka_zaufanie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Wyjątkowy. Początkowo myślałam, że jest zbyt tłusty, ale zamiast tego szybko wysycha i pozostawia skórę bardzo miękką i odżywioną, bez połysku. Zapach jest lekki i przyjemny",
-   "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Wyjątkowe.. Po wypróbowaniu tak wielu. Jedyny olejek, dzięki któremu pozbyłam się zimowego swędzenia spowodowanego suchością skóry. Jest to bardzo płynny olej, ale rozpuszcza się",
-   "tags": [
-    "sucha_wrazliwa_skora"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Dobre zakupy. Znakomity, przyjemny zapach... dyskretny, ale... jest. Osobiście używam go po prysznicu i pozostawia naprawdę miękką skórę. Polecam to.",
-   "tags": [
-    "nawilzenie",
-    "zapach",
-    "marka_zaufanie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Niezbędny dla suchej skóry. Mimo, że jest to olejek do ciała, bardzo szybko się wchłania. Używam go od roku i pachnie jak cukierek!",
-   "tags": [
-    "tlustosc_wchlanianie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "TOP olejek do ciała. suchy olejek do ciała po kąpieli na wilgotną skórę rozwiązuje wszelkie problemy z nawilżeniem po opalaniu",
-   "tags": [
-    "nawilzenie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Optymalny. Doskonały produkt, pozostawia skórę miękką i nawilżoną, o pysznym i trwałym zapachu na skórze. Polecam to!",
-   "tags": [
-    "nawilzenie",
-    "zapach",
-    "marka_zaufanie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Optymalny. Używam tego olejku na mokrą lub wilgotną skórę i uwielbiam uczucie miękkości, jakie pozostawia. Ma delikatny i doskonały zapach",
-   "tags": [
-    "nawilzenie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Olej w sprayu. Produkt wysokiej jakości.  Przyjemny zapach. Na pewno kupię go ponownie, nawet jeśli uznam, że jest trochę bardziej oleisty niż się spodziewałem",
-   "tags": [
-    "zapach",
-    "spray_dozownik"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Znana firma, najlepsza... Znakomicie, używają tego w szpitalu na zapalenie skóry u bardzo małych dzieci i tak było napisane",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Olej. Świetny produkt, stosuję go od 8 miesięcy, gorąco polecam osobom z suchą skórą. Wchłania się natychmiast i nie jest tłusty",
-   "tags": [
-    "tlustosc_wchlanianie",
-    "marka_zaufanie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "rozmyślny. doskonały zapach, głęboko nawilża i pozostawia skórę miękką. Na pewno kupię go ponownie",
-   "tags": [
-    "nawilzenie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Recenzja. Pachnie cudownie. To spray. Uwielbiam konsystencję dla suchej skóry zimą",
-   "tags": [
-    "zapach",
-    "spray_dozownik"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Suchy olej. Dobry produkt...bardzo przyjemny zapach i pozostawia skórę miękką",
-   "tags": [
-    "nawilzenie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Świetne na lato. Nadaje ciału dobry połysk i jest naprawdę przyjemny dla skóry",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "IDEALNY NA LATO!. DOSKONAŁY I BARDZO DELIKATNY ZAPACH. NIETŁUSTY I NIE PLAMUJE",
-   "tags": [
-    "tlustosc_wchlanianie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Bardzo dobry. Jeśli chodzi o najlepsze masaże, nie próbowałbym niczego innego, żeby ci powiedzieć, ahaha",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Nie tłusty. Pozostawia skórę miękką, nietłustą i przyjemnie pachnącą",
-   "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Radzić. Pachnące i dobre. Pozostaw swoją skórę miękką. Polecam to",
-   "tags": [
-    "nawilzenie",
-    "zapach",
-    "marka_zaufanie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Optymalny. Spektakularny, nietłusty, niezwykle nawilżający i o delikatnym zapachu",
-   "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Nawilżający olejek. Świetny zapach - pozostawia skórę miękką i nawilżoną",
-   "tags": [
-    "nawilzenie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Zadowolony. Doskonały produkt: pozostawia skórę nawilżoną i nie tłustą",
-   "tags": [
-    "nawilzenie",
-    "tlustosc_wchlanianie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Doskonały zakup. Doskonały, nietłusty olejek, bardzo ładny zapach",
-   "tags": [
-    "tlustosc_wchlanianie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Doskonały. Pozostawia skórę bardzo miękką w użyciu po prysznicu",
-   "tags": [
-    "nawilzenie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Pozostawia zapach skóry. Bardzo dobry zapach",
-   "tags": [
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Większość poleca. Polecam olejek na nabłyszczenie",
-   "tags": [
-    "marka_zaufanie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Dobry. Przyjemny zapach i sprawia, że ​​perła jest miękka",
-   "tags": [
-    "nawilzenie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Fantastyczny olej. Wyjątkowy i w 100% naturalny",
-   "tags": [
-    "sklad_naturalny"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Olejek do ciała. Doskonały olejek do ciała",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Doskonały produkt. Dokładnie tak, jak opisano",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Dobry. Bardzo dobry, bardzo dobry zapach",
-   "tags": [
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Olejek do ciała. Doskonały olejek do ciała, nie tłusty",
-   "tags": [
-    "tlustosc_wchlanianie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Dobrze nawilża skórę. Doskonały produkt",
-   "tags": [
-    "nawilzenie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Optymalny. Ładny zapach, dobrze nawilża",
-   "tags": [
-    "nawilzenie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Doskonała jakość w wersji spray",
-   "tags": [
-    "spray_dozownik",
-    "marka_zaufanie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Idealny dla mnie. Doskonały produkt",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Bogaty, ale nie tłusty olej. Optymalny",
-   "tags": [
-    "tlustosc_wchlanianie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Olejek do skóry. Kocham, kocham mój olej",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Optymalny. Najlepszy krem ​​nawilżający",
-   "tags": [
-    "nawilzenie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Wspaniały. Wspaniały",
-   "tags": []
   }
  ]
 }
