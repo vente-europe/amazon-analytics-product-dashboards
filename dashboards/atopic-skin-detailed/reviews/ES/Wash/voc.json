@@ -1,7 +1,7 @@
 {
- "totalReviews": 91355,
  "avgRating": 4.61,
  "productCount": 42,
+ "totalReviews": 242,
  "cpSummary": "Kupują głównie osoby ze skórą wrażliwą, suchą i atopową (często z polecenia dermatologa lub podologa), szukające delikatnego żelu myjącego dla siebie oraz dla dzieci. Sporą grupę stanowią też klienci nastawieni na dezynfekcję rąk/ciała, którzy mylnie oczekują silnego działania antybakteryjnego.",
  "cpWho": {
   "labels": [
@@ -424,888 +424,1566 @@
  ],
  "themeFilters": [
   {
-   "value": "delikatnosc",
-   "label": "Delikatność / brak podrażnień"
+   "id": "Nawilżenie",
+   "label": "Nawilżenie"
   },
   {
-   "value": "nawilzenie",
-   "label": "Nawilżenie / nie wysusza"
+   "id": "Świąd",
+   "label": "Świąd"
   },
   {
-   "value": "skora_atopowa",
-   "label": "Skóra atopowa / wrażliwa"
+   "id": "Skóra atopowa / egzema",
+   "label": "Skóra atopowa / egzema"
   },
   {
-   "value": "polecenie_lekarza",
-   "label": "Polecenie lekarza"
+   "id": "Kojenie / podrażnienie",
+   "label": "Kojenie / podrażnienie"
   },
   {
-   "value": "zapach",
+   "id": "Zapach",
    "label": "Zapach"
   },
   {
-   "value": "opakowanie_uszkodzone",
-   "label": "Uszkodzone opakowanie"
+   "id": "Wchłanianie / tłustość",
+   "label": "Wchłanianie / tłustość"
   },
   {
-   "value": "dozownik",
-   "label": "Dozownik / pompka"
+   "id": "Konsystencja",
+   "label": "Konsystencja"
   },
   {
-   "value": "cena",
-   "label": "Cena"
+   "id": "Cena / pojemność",
+   "label": "Cena / pojemność"
   },
   {
-   "value": "opis_mylacy",
-   "label": "Mylący opis / pojemność"
+   "id": "Opakowanie / pompka",
+   "label": "Opakowanie / pompka"
   },
   {
-   "value": "podraznienie",
-   "label": "Podrażnienie / reakcja"
+   "id": "Skład",
+   "label": "Skład"
+  },
+  {
+   "id": "Dla dzieci / niemowląt",
+   "label": "Dla dzieci / niemowląt"
+  },
+  {
+   "id": "Skuteczność / efekty",
+   "label": "Skuteczność / efekty"
+  },
+  {
+   "id": "Alergia / reakcja",
+   "label": "Alergia / reakcja"
   }
  ],
  "tagStyles": {
-  "delikatnosc": "pill-blue",
-  "nawilzenie": "pill-blue",
-  "skora_atopowa": "pill-purple",
-  "polecenie_lekarza": "pill-purple",
-  "zapach": "pill-amber",
-  "opakowanie_uszkodzone": "pill-red",
-  "dozownik": "pill-orange",
-  "cena": "pill-amber",
-  "opis_mylacy": "pill-orange",
-  "podraznienie": "pill-red"
+  "Nawilżenie": "pill-blue",
+  "Świąd": "pill-red",
+  "Skóra atopowa / egzema": "pill-purple",
+  "Kojenie / podrażnienie": "pill-amber",
+  "Zapach": "pill-orange",
+  "Wchłanianie / tłustość": "pill-blue",
+  "Konsystencja": "pill-amber",
+  "Cena / pojemność": "pill-orange",
+  "Opakowanie / pompka": "pill-purple",
+  "Skład": "pill-red",
+  "Dla dzieci / niemowląt": "pill-blue",
+  "Skuteczność / efekty": "pill-amber",
+  "Alergia / reakcja": "pill-red"
  },
  "reviews": [
   {
    "r": 1,
-   "t": "UWAGA ...! spaliłem się, myjąc ręce. zdarzyło się to około 20 minut temu, pierwszy raz myję ręce tym mydłem, wycieram się, po minucie lub dwóch zaczynam czuć pieczenie, coraz bardziej, podchodzę do rąk pod bieżącą wodę i zauważam, że robią się intensywnie czerwone, krótko mówiąc, poparzyły mi ręce dużą ilością pęcherzy, teraz wszystkie pływają, są czerwone i bardzo suche, cała skóra jest spalona, ​​skóra się ciągnie, jakbym był oparzony kwasem z akumulatora samochodowego, zdarzyło mi się dotknąć kwasu i to nie spaliło mnie tak, moje ręce są całkowicie zniszczone!!!!  Sprawdzę czy inni nie będą mieli tego samego problemu, wtedy ocenię co zrobić bo jeśli to produkt to ktoś złoży reklamację! Chciałbym opublikować zdjęcia, ale nie ma takiej opcji w recenzjach tego produktu",
+   "t": "Precio abusivo. El gel estupendo.El precio mas que abusivo",
    "tags": [
-    "opis_mylacy",
-    "podraznienie"
+    "Cena / pojemność"
    ]
   },
   {
    "r": 1,
-   "t": "Reakcja alergiczna na to!. Uwielbiam wiele innych produktów Isdin, ale nie ten.  Przyszedł połamany i wyciekał z plastikowej torby.  To okazało się dla mnie szczęśliwe.  Dostał się do moich rąk i spowodował okropne swędzenie i pieczenie.  Jestem chemicznie wrażliwy na chemikalia zapachowe, ale nie spodziewałem się, że znajdą się one w tym produkcie.  Jestem wdzięczny, że nie dotarł w nienaruszonym stanie lub mogłem go używać na całym ciele, zanim zdałem sobie sprawę, że jestem uczulony.  Aloe Vera wydaje się tak przyjazny dla skóry, że nie spodziewałam się takiego zapachu ani podrażnienia",
+   "t": "DECEPCIÓN. Decepcionada,  ha llegado un gel de 500ml cuando en el anuncio ponía que era de 1000ml .Creo que es publicidad engañosa ya que si hubiera sabido que era de 500 no lo hubiera comprado por ese precio  me parece muy caro para lo q es",
    "tags": [
-    "skora_atopowa",
-    "zapach",
-    "opakowanie_uszkodzone",
-    "podraznienie"
+    "Cena / pojemność"
    ]
   },
   {
    "r": 1,
-   "t": "To nie jest ten sam format. Pierwsze zdjęcie to produkt, który otrzymałem, który nie odpowiada formatowi i ten pokazany na stronie Amazon, drugie zdjęcie to ten, który miałem i ten, który miał dotrzeć, na 3 zdjęciu widać, że to już nie jest tylko zmiana formatu, podobno jest napisane, że jest taki sam, ale na dole widać dwa szare paski z czerwonym, który jest mój, a ten, który przyjechał, wszystkie trzy są niebieskie, więc musi być coś innego, bo jeśli nie, nie rozumiem",
-   "tags": [
-    "opis_mylacy"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Leaking broken bottle. Żel oczyszczający jest bardzo dobry, szczególnie dla skóry atopowej, dlatego go kupiłam, mimo że był drogi i miał wysokie koszty dostawy. Sprzedawca wysłał przesyłkę w kopercie bąbelkowej za pośrednictwem Royal Mail, więc dozownik dotarł uszkodzony, a butelka przeciekała. Dotarł również 4 dni później niż oczekiwano. Poza tym ten sprzedawca i przedmiot nie kwalifikują się do żądania zwrotu pieniędzy",
-   "tags": [
-    "skora_atopowa",
-    "opakowanie_uszkodzone",
-    "dozownik",
-    "cena"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "It's not what it says in the description. Intentionally incorrect description. Sprzedawany jest w postaci żelu odkażającego, niewymagającego użycia wody, przy czym płukanie jest obowiązkowe zgodnie z instrukcją i praktyką. Koniecznie należy go stosować jak zwykłe mydło w płynie. Zamówiłem 7 dla firmy i jestem bardzo niezadowolony. We still keep it as regular soap",
+   "t": "Recibí el producto roto e imposible usarlo. Recibí el producto roto e imposible usarlo",
    "tags": []
   },
   {
    "r": 1,
-   "t": "Złe opakowanie, butelka pękła. Produkt jest dobry, spełnia swoją funkcję, jak widać na zdjęciu, przyszedł bardzo źle zapakowany, a butelka była całkowicie pęknięta i wszędzie połowa żelu, ponieważ zwrot jest uciążliwy, zdecydowałem się go nie zwracać, podobno Amazon zwróci mi 7 euro, zobaczymy, co się stanie",
+   "t": "Leaking broken bottle. The cleansing gel is very good, specially for atopic skin and that is why I bought it even though it was expensive and had expensive delivery costs.Seller sent is in a bubble wrap envelope via Royal Mail, so dispenser arrived broken and bottle leaking.It also arrived 4 days later than expected.On top of it all, this seller and item are not eligible for requesting a refund",
    "tags": [
-    "opakowanie_uszkodzone"
+    "Skóra atopowa / egzema",
+    "Cena / pojemność",
+    "Opakowanie / pompka"
    ]
   },
   {
    "r": 1,
-   "t": "Bardzo źle. Jedyne, co mi się spodobało, to perfumy, w przeciwnym razie dotarły ze źle zakręconą zakrętką, przez co produkt wyciekał, z grubsza zamknięty w plastikowej torebce zaklejonej taśmą... Nie zwracam, bo musiałbym wyjść z domu, a nie sądzę, żeby tak było",
+   "t": "Allergic reaction to this!. I love so many other Isdin products but not this one.  It arrived broken and oozing out of the plastic bag.  This turned out to be lucky for me.  It got on my hands and caused terrible itching and burning.  I am chemically sensitive to the scent chemicals but did not expect them to be in this product.  I am thankful it didn't arrive intact or I may have used it all over my body before realizing that I am allergic.  Aloe Vera seems so skin friendly, I was not expecting the smell or the irritation",
    "tags": [
-    "zapach",
-    "opakowanie_uszkodzone"
+    "Świąd",
+    "Kojenie / podrażnienie",
+    "Zapach",
+    "Alergia / reakcja"
    ]
   },
   {
    "r": 1,
-   "t": "Nie kupuj tego, jeśli mieszkasz w Hiszpanii. Produkt jest bezkonkurencyjny, ale jeśli kupisz go w Hiszpanii, nie kupuj go, wysyłają go pocztą, a poczta to największa katastrofa, jaka może się zdarzyć, na pewno dociera z tygodniowym opóźnieniem, Amazon powinien przestać wysyłać pocztą w Hiszpanii",
+   "t": "Fuga del envase. Recibí el producto pero se fuga del envase",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "ATTENZIONE ...! ustionato a lavarmi le mani. accaduto circa 20 minuti fa , mi lavo le mani per la prima volta con questo sapone , mi asciugo , dopo un minuto o due inizio a sentir bruciare , sempre di piu , vado a metter le mani sotto acqua corrente e mi accorgo che stanno diventando rosso intenso , per farla breve mi ha ustionato le mani con tanto di bolle , adesso le ho tutte a galle ,rosse e secchissime, tutta la pelle ustionata, la pelle mi sta tirando proprio come se mi fossi ustionato con del acido da batteria auto,  mi è capitato di toccare l'acido e non mi ha bruciato in questo modo , ho le mani completamente rovinate !!!!  verificherò se lo stesso problema lo farà anche ad altri poi valuterò cosa fare perche se è il prodotto qualcuno prenderà una denuncia ! vorrei metter le fotografie ma non c'e questa opzione sulle recensioni di questo prodotto",
+   "tags": [
+    "Nawilżenie",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Sistema dispensador inservible.. El sistema dispensador del jabón no sirve",
    "tags": []
   },
   {
    "r": 1,
-   "t": "ROZCZAROWANIE. Rozczarowany, przyszedł żel 500 ml, gdy w reklamie było napisane, że to 1000 ml. Myślę, że to reklama wprowadzająca w błąd, ponieważ gdybym wiedział, że to 500, nie kupiłbym go za tę cenę, wydaje się bardzo drogi jak na to, czym jest.",
+   "t": "Detalles del envase. Llegó en malas condiciones",
    "tags": [
-    "cena",
-    "opis_mylacy"
+    "Opakowanie / pompka"
    ]
   },
   {
    "r": 1,
-   "t": "Zamówienie niekompletne i wadliwe. Zamówienie obejmowało 3 pudełka po 90 kapsułek, tylko jedna przyszła, została zmiażdżona i wyjęta z pudełka. Zamówienie dotyczyło zestawu z 2 żelami pod prysznic, a także część żelu poza pojemnikami",
-   "tags": [
-    "dozownik"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Izydyna germisdyna. Opis wprowadzającego w błąd produktu opisywanego jako żel dezynfekujący, choć wyglądający na zwykłe mydło zmiękczające. Odradzam jednak każdemu jego zakup, gdyż mydło jest przesadnie drogie",
-   "tags": [
-    "cena",
-    "opis_mylacy"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Nieudany powrót. Mój produkt dotarł całkowicie uszkodzony i postępowałem zgodnie ze wszystkimi instrukcjami dotyczącymi zwrotu, a oni nadal mówią, że go nie zwróciłem, więc ponownie obciążają mnie za produkt",
-   "tags": [
-    "opakowanie_uszkodzone"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Uszkodzone pojemniki ze znaczną utratą żelu. Uszkodzone pojemniki ze znaczną utratą żelu. Nie odebrałem ich, nadal są tam, gdzie powinienem je zabrać. Przytrafia mi się to już drugi raz",
-   "tags": [
-    "opakowanie_uszkodzone",
-    "dozownik"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Zepsute wino. Produkt przyszedł uszkodzony, otwarty, z całym żelem, a dozowniki nie działały, zwrócili mi pieniądze, a produkt wyrzuciłem zgodnie z instrukcją.",
-   "tags": [
-    "opakowanie_uszkodzone",
-    "dozownik"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Masz paczki!!!!!!. Może być tak, że żel jest dobry, właśnie go kupiłeś, ale opakowanie jest otwarte, możesz go wyczyścić czymkolwiek!!!",
+   "t": "Mal empacado. Llegó totalmente vacío el bote porque no lo aseguraron con nada y no esta barato como para desperdiciarlo",
    "tags": []
   },
   {
    "r": 1,
-   "t": "Proste mydło w żelu!. Nie odpowiada to prawdzie. To proste mydło do rąk. Uważaj, to oszustwo, nie jest potrzebne w przypadku wirusa koronowego",
+   "t": "Pessimo. L’unica cosa che mi è piaciuta è il profumo per il resto è arrivato con il tappo avvitato male con conseguente fuoriuscita di prodotto chiuso approssimativamente in una busta di plastica sigillata con scotch... Non faccio il reso perché dovrei uscire di casa e non mi sembra il caso",
    "tags": []
   },
   {
    "r": 1,
-   "t": "Źle zapakowane. Łódź przyjechała zupełnie pusta, bo jej niczym nie zabezpieczyli i nie jest na tyle tania, żeby ją marnować.",
-   "tags": [
-    "opakowanie_uszkodzone"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Otrzymałem produkt uszkodzony i niemożliwy do użycia. Otrzymałem produkt uszkodzony i niemożliwy do użycia",
-   "tags": [
-    "opakowanie_uszkodzone"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "WYSYŁAJĄ ORYGINALNY ISDIN. ZAMÓWILIŚMY TEN NA ZDJĘCIU ALOE VERA DO SKÓRY SUCHEJ. Wszystko idealne",
+   "t": "Non è ciò che dice nella descrizione. Descrizione volutamente errata. Viene venduto come gel sanificante senza necessità di acqua, mentre nelle istruzioni e nella pratica è obbligatorio il risciacquo. Si deve per forza usare come si usa un normale sapone liquido. Ne ho ordinati 7 per l'azienda e sono scontentissimo. Lo teniamo comunque come sapone normale",
    "tags": []
   },
   {
    "r": 1,
-   "t": "Nie nadający się do użytku system dozowania. System dozowania mydła jest bezużyteczny.",
+   "t": "Articolo rotto",
    "tags": []
   },
   {
    "r": 1,
-   "t": "Wyciek kontenera. Otrzymałem produkt, ale wyciekł z opakowania",
+   "t": "Isidin germisdin. Descrizione del prodotto fuorviante descritto come un gel disinfettante mentre risulta essere un semplice sapone emoliente  sconsiglio a tutti l'acquisto peraltro come sapone è eccessivamente caro",
    "tags": [
-    "opakowanie_uszkodzone"
+    "Cena / pojemność"
    ]
   },
   {
    "r": 1,
-   "t": "Oburzająca cena. Żel jest świetny. Cena jest więcej niż zaporowa.",
-   "tags": [
-    "cena"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Mokry pojemnik. Przybył z pudełkiem mokrym od produktu",
-   "tags": [
-    "dozownik"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Rozlało się 😪. Rozlała się ponad połowa produktu",
-   "tags": [
-    "opakowanie_uszkodzone"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Szczegóły opakowania. Przybył w złym stanie",
+   "t": "Semplice sapone in gel!. Non corrisponde al vero. È un semplice sapone per mani.Occhio è una truffa non serve per il Coronavirus",
    "tags": []
   },
   {
    "r": 1,
-   "t": "Śmiertelny. Całkowicie wszystko zepsute, katastrofa",
-   "tags": []
-  },
-  {
-   "r": 1,
-   "t": "Nie kupię go ponownie u tego dystrybutora",
-   "tags": []
-  },
-  {
-   "r": 1,
-   "t": "Zepsuty przedmiot",
+   "t": "Se derramó 😪. Se Derramó mas de la mitad del producto",
    "tags": []
   },
   {
    "r": 2,
-   "t": "wszechobecny zapach aloesu. Trochę się zawiodłam na tym płynie do mycia rąk/ciała, bo myślałam, że to produkt do bardzo wrażliwej skóry. Na szczęście nie mam super wrażliwej skóry, ale zazwyczaj używam produktów delikatniejszych, dlatego lubię produkty dla osób o wrażliwej skórze/dzieci. Już po wyjęciu z butelki zapach, po którym spodziewałam się bardzo lekkiego zapachu aloesu, był przytłaczający. Mam mnóstwo zapachowych mydeł i innych rzeczy, ale nawet tego było za dużo! Zapach był zdecydowanie za mocny, zwłaszcza jak na produkt przeznaczony do skóry wrażliwej. Osoby używające mydeł wrażliwych na ogół nie lubią mocno pachnących mydeł, a ten produkt jest zdecydowanie mocno pachnący, nawet jeśli ma zapach aloesu. Po drugie, patrząc na listę składników, nie wiem, dlaczego do tego produktu dodaje się barwnik, skoro mydło jest przezroczystym żelem. Ogólnie nie podoba mi się ten produkt, ale nie lubię marnować produktów, więc go dokończę (prawdopodobnie go rozcieńczę ze względu na przytłaczający zapach). Może niektórym to odpowiada, ale mnie po prostu nie przypadło do gustu",
-   "tags": [
-    "delikatnosc",
-    "skora_atopowa",
-    "zapach"
-   ]
-  },
-  {
-   "r": 2,
-   "t": "Płyn do mycia ciała bez mydła. Z opisu wynika, że ​​jest to dobry produkt, jest gęsty i chętnie go wypróbuję. Jednak opakowanie było bardzo złe, przyszło w plastikowej torbie, a zakrętka nie była szczelnie zamknięta, zabezpieczona ani zapieczętowana. Produkt wyciekał po całej plastikowej torbie. Poprosiłem o wymianę, ale nie byłem zbyt zadowolony z opakowania tak drogiego produktu",
-   "tags": [
-    "opakowanie_uszkodzone",
-    "cena",
-    "opis_mylacy"
-   ]
-  },
-  {
-   "r": 2,
-   "t": "Dozownik wykonany bardzo źle. Żel jest przyzwoity, nie pieni się zbyt mocno, nie zmywa przecinka. Najgorsze jednak był praktycznie niemożliwy dozownik, wychodziła minimalna ilość i za każdym razem trzeba było wyciskać nawet 10 razy, więc musiałam przelać go do innego pojemnika i choćby z tego powodu nigdy więcej go nie kupię",
-   "tags": [
-    "dozownik"
-   ]
-  },
-  {
-   "r": 2,
-   "t": "bez pożytku. szczerze zachęcamy do mycia pod pachami, powinno ono mieć działanie antyseptyczne i zabijać bakterie powodujące nieprzyjemny zapach. dla mnie mydło takie jak inne nie sprawdza się zbyt dobrze",
-   "tags": [
-    "zapach"
-   ]
-  },
-  {
-   "r": 2,
-   "t": "Bez różnicy. Stosuję produkt od 15 dni i nie zauważyłam żadnej różnicy w porównaniu z moim zwykłym mydłem do kąpieli. Ma przyjemny, delikatny zapach, ale to jedyna rzecz. Zdecydowanie nie kupiłbym go ponownie",
-   "tags": [
-    "delikatnosc",
-    "zapach"
-   ]
-  },
-  {
-   "r": 2,
-   "t": "Drażni/kłuje oczy. Bardzo ładnie pachnie i jest bardzo duży, ale nie poleciłabym go dzieciom, a tym bardziej niemowlętom, bo piecze, gdy kropla dostanie się do oczu, co jest przerażające.",
-   "tags": [
-    "polecenie_lekarza",
-    "zapach",
-    "podraznienie"
-   ]
-  },
-  {
-   "r": 2,
-   "t": "Przedmiot dotarł uszkodzony. Musiałam kupić dozownik, bo pompka na butelce nie działała. Sam produkt jest dobry",
-   "tags": [
-    "opakowanie_uszkodzone",
-    "dozownik"
-   ]
-  },
-  {
-   "r": 2,
-   "t": "Nieodpowiedni dla mojej skóry. Dla mojej skóry nie jest to produkt idealny, nawet jeśli jest to produkt doskonały, moja skóra znacznie lepiej toleruje lipicar surgras",
+   "t": "No lo recomiendo. NO lo recomiendo, Pesimo, Deja una sensación jabonosa en la piel, mil veces el original",
    "tags": []
   },
   {
    "r": 2,
-   "t": "Przybył w oczekiwanym czasie, ale był otwarty. Produkt otworzył się i rozlał trochę na tę samą butelkę.",
+   "t": "boh inutile. sinceramente preso per lavare a livello delle ascelle, dovrebbe avere un principio antisettico per uccidere i batteri che procurano il cattivo odore. per me un sapone come gli altri non funziona un granché",
    "tags": [
-    "opakowanie_uszkodzone"
+    "Zapach",
+    "Skuteczność / efekty"
    ]
   },
   {
    "r": 2,
-   "t": "Jego zapach jest bardzo silny. Zapach nie przypadł mi do gustu, myślałam, że będzie dobry dla mojej skóry, ale nie jest to nic specjalnego",
+   "t": "Soap free body wash. It seems a good product based on the description and it is thick and I would like to try it. However, the packaging was very bad, it came in a plastic bag and the cap was not tightly closed, secured or sealed. The product was leaking all over the plastic bag. I requested a replacement, but was not very happy with the packaging for such an expensive product",
    "tags": [
-    "zapach"
+    "Konsystencja",
+    "Cena / pojemność",
+    "Opakowanie / pompka"
    ]
   },
   {
    "r": 2,
-   "t": "Nie polecam tego. NIE POLECAM, okropne, pozostawia na skórze wrażenie mydła, tysiąc razy większe od oryginału",
+   "t": "Llego en el tiempo esperado pero venia abierto. El producto venia abierto y se derramó un poco sobre la misma botella",
    "tags": []
   },
   {
    "r": 2,
-   "t": "Nie dla mnie. Ładnie pachnie, ale za bardzo wysusza skórę",
+   "t": "Su olor es muy fuerte. No me fue agradable su aroma, pensé que estaría bien para mi piel, pero no es nada especial",
    "tags": [
-    "zapach"
+    "Zapach"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Ninguna diferencia.. Llevo 15 días utilizando el producto y no he notado ninguna diferencia contra mi jabón de baño regular. Sí tiene un olor agradable, tenue, pero es lo único. Definitivamente no volvería a comprarlo",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Articolo arrivato con danneggiamento. Ho dovuto acquistare un dispenser perchè la pompa del flacone non era funzionante. Il prodotto in sè è buono",
+   "tags": [
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "overwhelming aloe vera scent. I was a little disappointed with this hand/body wash because I thought it was a product for very sensitive skin. Luckily I don’t have super sensitive skin but I tend to use products that are on the gentler side, which is why I like the stuff for people with sensitive skin/babies.Right out of the bottle I thought the scent, which I had expected a very light aloe vera smell, was overwhelming. I have plenty of scented soaps and things but even this was too much! It was way too much scent especially for a product that is meant for sensitive skin. People who use sensitive soap generally do not like heavily scented and this product is definitely heavily scented, even if it is aloe vera smell. Second, looking at the ingredients list I am confused as to why there is coloring added to this product when the soap is a clear gel.Overall I do not like this product but I don’t like to waste products so I will finish using it (will probably dilute it because of the overwhelming scent). It might work for some people but I just did not like it",
+   "tags": [
+    "Zapach",
+    "Opakowanie / pompka",
+    "Skład"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Envase mojado. Ha llegado con la caja mojada de producto",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "no lo compres si vives en España. El producto es inmejorable pero Si lo compras en España, no lo compres,lo envían por correos y Correos es el desastre más grande que puede haber, te llega con una semana de retraso seguro, Amazon debería de dejar de enviar por Correos España",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Envases rotos con perdida importante de gel. Envases rotos con perdida importante de gel. No los he recogido, siguen donde tenia que haberlos recogido. Es la segunda vez que me pasa",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "No volveré a comprarlo x este distrubuidor",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "No es el mismo formato. La primera fotografía es el producto que recibí el cual no se corresponde con formato y el que se muestra en la página Amazon, la segunda foto es el que tenía yo que es el que se supone que tendría que haber llegado ,en la 3 foto se ve que ya no es solonel cambio de formato ,supuestamente pone que es lo mismo pero en la parte inferior se ve las dos rayas grises con la roja que es el mio,y el que llegó las tres son azules osea que algo tiene que tener diferente porque si no ,no comprendo",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Pedido incompleto y defectuoso.. El pedido incluía 3 cajas de 90 cápsulas, solo ha venido una y aplastada y fuera de su caja. El pedido era conjunto con 2 geles de ducha que también han venido con parte del gel fuera de los recipientes",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Vino roto. El producto vino mal, abierto, con todo el gel fuera y los dispensadores no funcionan, me devolvieron el dinero y el producto lo deseché como me indicaron",
+   "tags": [
+    "Cena / pojemność",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Mal embalaje ha venido el bote roto. El producto es bueno, cumple su función, como podeis apreciar en la imagen ha venido muy mal embalado y el bote totalmente roto y la mitad del gel por todas partes, como es un rollo hacer una devolución he decidido no devolverlo, supuestamente amazon me va a reembolsar 7 euros, veremos que pasa",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Devolução sem sucesso. Meu produto veio totalmente danificado e segui todas as indicações para devolução e ainda assim estão dizendo que não devolvi para me cobrarem de novo o produto",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Tienes serán los paquetes!!!!!!. Puede ser que el gel está bueno, acaba de comprarlo , pero el paquete es abierto, te puedes limpiar con cualquier cosa!!!",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Fatal. Completamente roto todo, un desastre",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "MANDARON EL ISDIN ORIGINAL. PEDIMOS EL DE LA FOTO ALOE VERA PIEL SECA. Todo perfecto",
+   "tags": [
+    "Nawilżenie"
    ]
   },
   {
    "r": 3,
-   "t": "Trochę rozczarowany. Znam ten żel już bardzo dobrze, stosuję go już od dłuższego czasu. Zawiodłem się na tym zamówieniu, ponieważ przez cały czas byłem przekonany, że kupiłem format litrowy. Rzeczywiście, ponownie przejrzałem reklamę dotyczącą sprzedaży produktu i za cenę, którą zapłaciłem, dostałem 1-litrowe opakowanie. No cóż, tym razem wziąłem półlitrowego. Uwaga przy zakupie!!",
-   "tags": [
-    "opis_mylacy"
-   ]
-  },
-  {
-   "r": 3,
-   "t": "Szczelne zamknięcie butelki. Arctic odpowiada zamówionemu, jednak płyn częściowo wypłynął z butelki, która nie była zamknięta tak jak powinna i wypełniła opakowanie zewnętrzne. I tak to zaakceptowałem, bo tego potrzebowałem",
+   "t": "Muy líquido. No lo repito,cambio de marca,",
    "tags": []
   },
   {
    "r": 3,
-   "t": "Dużo droższe niż w aptekach. Żel jest bardzo dobry, ale Amazon nie podaje konkurencyjnej ceny, w aptece jest zwykle droższy i kosztuje 15 €. Ustalona przez nich cena wydaje mi się wygórowana.",
-   "tags": [
-    "cena"
-   ]
-  },
-  {
-   "r": 3,
-   "t": "Pachnie bardzo dziwnie. Jest przyjemny w dotyku i prawdopodobnie dobrze dezynfekuje, ale pachnie dziwnie i nieprzyjemnie. Napiszę jeszcze raz czy stan mojej skóry po użyciu się poprawi.",
-   "tags": [
-    "zapach",
-    "opis_mylacy"
-   ]
-  },
-  {
-   "r": 3,
-   "t": "Nie jest przeznaczony do skóry suchej, jak mówi reklama. Kupiłam do skóry suchej i od drugiego dnia swędzi mnie skóra,...w przypadku innej normalnej skóry myślę, że będzie ok",
-   "tags": [
-    "skora_atopowa",
-    "opis_mylacy"
-   ]
-  },
-  {
-   "r": 3,
-   "t": "Podobnie jak inne, innej marki. Żel jak każdy inny, chociaż wiem, że to dobra marka, ten żel jest jak najbardziej normalny. Dlatego nie powtórzę zakupu",
+   "t": "Excelente. Muy recomendable",
    "tags": []
   },
   {
    "r": 3,
-   "t": "Nie kupię go ponownie. Zapach sprawi, że nie kupię tego produktu ponownie, pachnie szpitalem, chociaż jakość produktu jest dobra",
+   "t": "No lo volveré a comprar. El olor hará que no vuelva a comprar este producto, huele a hospital, aunque la calidad del producto es buena",
    "tags": [
-    "zapach"
+    "Zapach"
    ]
   },
   {
    "r": 3,
-   "t": "Dobra. Jeśli nie masz oferty na Amazonie, lepiej kupić w sklepie stacjonarnym, jest taniej, ale produkt jest doskonały.",
+   "t": "Huele muy raro. Es agradable al tacto y probablemente sea un buen higienizante, pero huele raro tirando a mal. Volvere a escribir si mejora mi piel tras el uso",
    "tags": []
   },
   {
    "r": 3,
-   "t": "Prawidłowy. Zgadza się, chociaż za tę cenę wolę koreańskie marki",
+   "t": "No es para piel seca como dice el anuncio.. Compre para piel seca y me pica la piel desde el segundo día,...para otras pieles normales supongo que valdrá",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Un poco decepcionado. Este gel ya lo conozco de sobras, llevo mucho tiempo usándolo.Con este pedido decepcionado pues en todo momento estaba convencido que había comprado el formato de litro. De hecho he vuelto a revisar la publicidad de venta del producto y por el precio que yo he pagado me sale el envase de 1 litro. Pues a mí me ha llegado esta vez el de medio litro. Atención a la hora de comprar!!",
+   "tags": [
+    "Cena / pojemność",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "gel baño de calidad. gel de baño de calidad, eficiente y agradable,  hace poco espuma y es bastante transparente, envio correcto y rápido con poca cantidad cubre bastante. después de varios usos puedo recomendar el producto",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "ISDIN, higiene.  Gel de baño Syndet. El precinto de la caja estaba roto,  pudiéndose ver todo su contenido,  y uno de los pulsadores venía también roto",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Gel. Buen producto",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Los productos muy bien. Lo esperado",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Muy buena calidad del producto. Para piel seca es de lo mejor. Cuestionable que ISDIN ponga códigos QR en sus productos para \"obtener puntos\", es estrategia para hacerse con los datos personales, por muchos productos ISDIN que compres por cualquier medio, nunca obtendrás nada. Amazon debería fidelizar a los clientes que realizan compras recurrentes",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Gel de baño isdin. Recomiendo 100% lo usamos toda la familia de hace años y va súper bien para mí hijo que tiene piel atópica",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Lo de siempre. Siempre he usado este producto y a mí me va muy bien",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Gel bueno para la piel. Me lo recomendó una dermatóloga por un problema en la piel y desde que lo uso he mejorado.No es un gel que haga mucha espuma y el olor hay a quien no le gusta. A mí no me desagrada.Lo he comprado aprovechando una oferta de Amazon porque no es un gel barato",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Gel ducha. Correcto",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Fantastico. Sé que estas cosas dependen mucho del tipo de piel pero a mí me gusta, el olor, la textura, lo suave que es para la piel, la hidratación",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "GEL DE BAÑO DE CALIDAD DERMATOGOLICA. CALIDAD DERMATOLOGICA PARA USO DIARIO DE GEL DE BAÑO",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy agradable. Lo compré porque me lo recomendó mi médico para usarlo después de una operación bastante invasiva. Hace su función correctamente, después de lavarte con este producto la piel lo agradece. El aroma es agradable",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Apuesta segura. Isdin es apuesta segura",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "El mejor gel que he tenido. Llevo años usándolos y no los voy a dejar de usar nunca. Para lo que lo compré son increíbles",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy bueno. Muy buen gel. Es el mejor que he probado y eso que tengo piel sensible",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "El mejor producto que he probado. Ya no puedo pasar sin él. Realmente funciona para la infección bacteriana. No hace falta si quiera usar desodorante. El mejor producto que he probado. Vienen dos unidades",
+   "tags": [
+    "Zapach",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excelente para peles sensíveis. Excelente produto para quem tem pele sensível e propícia a alergia a produtos de menor qualidade",
+   "tags": [
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super hidratante. Huele genial, e hidrata bastante",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Muy buenos. Increíble",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Calidad. Destacar su olor, textura e hidrataciónFunciona muy bien para pieles sensibles, en casa no puede faltar ahora que empieza la primavera",
+   "tags": [
+    "Zapach",
+    "Konsystencja",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "ISDINE VA ESTUPENDO. Gel mandado por el médico nos va perfecto",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "ISDIN GERMISDIN ALOE VERA : ALIVIO SUAVE Y REFRESCANTE. Este gel de Germisdin Aloe Vera de ISDIN ha sido una gran incorporación a mi rutina de cuidado de la piel. Su textura es agradable y muy refrescante, perfecta para calmar la piel en la ducha. El aroma es suave y natural, nada agresivo ni artificial. Además, al ser de ISDIN, da tranquilidad saber que es un producto pensado para skin care cuidadoso y eficaz.En general, muy recomendable si buscas un gel de aloe vera que hidrate, calme y refresque la piel con suavidad 🌿✨",
+   "tags": [
+    "Kojenie / podrażnienie",
+    "Konsystencja",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bueno. Buen producto",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Bueno. Bueno",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Gel de baño adecuado para pieles delicadas y mas bien seca.. Este gel lo llevo usando unos cuantos años y me parece de calidad y apropiado para mi tipo de piel más bien seca",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Buen producto. Estupendo!",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy buen antiséptico. Muy buen gel, elimina los malos olores, muy útil con adolescentes",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Cuida mi piel en brotes. Me lo mandó el dermatólogo para los brotes por dermatitis atopica y me calma bastante, cuida y repara mi piel. Me gusta mucho y el precio mejor que en farmacias",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "De toda la vida muy bien. Nos encanta este gel, el olor y como deja la piel de hidratada.Cuando está de oferta lo compramos siempre",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Muy buen producto. Gel de ducha/baño Germisdin aloe vera ph 5,5 sin jabón.Yo recibí dos botellas de 1 litro",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muito bom recomendo. Tenho dermatite e uma pele muito sensível, comprei esse gel de banho e me surpreendi com resultado, sensacional, minha pele fica mais limpa e hidratada. Recomendo",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Buena calidad buen servicio rapido. Buena calidad",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy bueno para pieles sensibles o atópicas. Para la piel atópica el mejor y lo cogí con una oferta y me salió muy bien",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "No reseca la piel, y su perfume es sutil. Lo uso hace mucho tiempo, y me va genial para mí piel",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Boa relação qualidade/preço. Bom preço, boa qualidade",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy agradable. Buena fragancia y calidad",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Buen gel de ducha.. Lo uso por recomendación de mi dermatóloga y sale a mejor precio que en las farmacias",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Imprescindible para un cuidado diario. Un producto para uso diario, aroma agradable y sensación de limpieza. Calidad ISDIN para un buen cuidado de la piel",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Me encanta!. Mi jabón corporal favorito. Me suelo duchar en el gym y es ideal para el tema bacterias. El olor me encanta. Cuando he tenido problemas de piel me ha ido genial. Ahora lo uso a diario. Muy recomendable",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfecto para piel sensible, buen formato ahorro. Gel suave, sin perfume fuerte y que cuida la piel. No reseca y alivia picores. Muy buena opción para uso diario, especialmente si tienes la piel seca. Contento con la compra",
+   "tags": [
+    "Nawilżenie",
+    "Świąd"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Lo recomiendo un 10. Excelente gel tengo mucho tiempo comprando",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Me encanta! Muy bien producto. Muy buena compra, muy feliz!",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Precinto abierto. El precinto de la caja estaba roto y el cartón interior no estaba. Un poco defraudado porque esperaba un producto nuevo",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Sobran los comentarios.. Es un germicida buenísimo de una reconocida marca y calidad, todos los demás comentarios sobran",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy bueno. Es el único k utilizamos en casa.muy bueno para pieles delicadas",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Genial. Me encanta este gel de baño, elimina muy bien el olor a sudor",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Desinfección y nutrición. La capacidad de limpieza y desinfección es excelente y gracias a la Aloe Vera, nutre",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Súper bueno. El mejor gel que he probado hasta el momento me va genial …",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "EL PRODUCTO. ME HA VENIDO MUY BIEN PARA MIS PROBLEMAS DERMATOLOGICOS. PRECIO ALGO MÁS BARATO QUE EN LAS FARMACIAS, CON LA VENTAJA QUE LO ENVIAN AL DOMICILIO",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Champu. Me gusta el olor y lo bien que deja la piel, tras la ducha. Lo recomiendo",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excelente para el cuidado diario. Muy buen producto,  en casa lo utilizamos todos.PERO ESTA VEZ, VENIA VERTIENDO UNO DE LOS ENVASES",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Es buenísimo para pieles sensiblles. Me encanta, se percibe un cambio en la piel, y es super respetable con la piel sensible",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "ES LO MEJOR QUE HEMOS DESCUBIERTO. Este Jabón es increíble, la podologa se lo recetó a mi adolescente y al final lo usamos todos en casa.. si tienes la piel delicada, que eres de hecharte crema después de la ducha por la Cal , este jabón es lo mejor..Nosotros estamos muy contentos y aparte parece que no.. pero el jabón dura somos 3 personas y el bote nos durá al rededor de un mes",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Piel sana. Cumple lo que promete. Tengo la piel muy sensible y atópica con frecuentes brotes y con este gel me noto mucho mejor. He probado muchos y la verdad es que este ha sido el mejor. Además la cantidad es grande para mucho tiempo sin preocuparme de que se acabe",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfecto. Cuando probéis este gel de baño ya no vais a querer otro",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Garantía de calidad, siendo efectivo en limpieza y condiciones organolepricas. El laboratorio Isdin es garantía de calidad.  Un producto recomendable, un poco caro, pero si valoras la cantidad y duracion (4-5 meses más o menos)  y su calidad y garantía creo que compensa",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Calidad. Muy bueno para mí piel seca y agradable aroma",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Muy bueno. Fantastico para la piel, buen olor, producto de muy buena calidad. Recomiendo",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfecto. Perfecto",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Buena oferta. Buena oferta",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Irrita/escuece los ojos. Huele muy bien y el formato es muy grande pero no lo recomendaría para niños mucho menos para bebés porque escuece si te cae una gota a los ojos que da miedo",
+   "tags": [
+    "Kojenie / podrażnienie",
+    "Dla dzieci / niemowląt"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Dosatore fatto malissimo. Discreto il gel , non facendo molta schiuma sembra che non ti lavirgola Ma la cosa peggiore è stato il dosatore praticamente impossibile, ne usciva una quantità minima e dovevi premere anche dieci volte ogni volta, così ho dovuto travasarlo in un altro contenitore punto solo per questo non lo comprerò mai più",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Nichts für mich. Riecht gut, aber trocknet meine Haut zu sehr aus",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Non adatta alla mia pelle. Per la mia pelle non è l’ideale anche se è un ottimo prodotto, la mia pelle tollera molto meglio il lipicar  surgras",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Igual que otro de otra marca. Un gel como otro cualquiera, aunque se que es buena marca este gel es muy normal. Así que no repetiré la compra",
    "tags": []
   },
   {
    "r": 3,
-   "t": "Bardzo płynny. Nie będę się powtarzać, zmiana marki,",
+   "t": "Correcto. Correcto, aunque por ese precio prefiero marcas coreanas",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "Ok. Si no tiene oferta en Amazon mejor comprarlo en tienda física es más barato pero el producto es excelente",
    "tags": []
   },
   {
    "r": 3,
-   "t": "Przeciętny. Nie szanuje marki",
+   "t": "Mediocre. No hace honor a la marca",
    "tags": []
   },
   {
    "r": 3,
-   "t": "Żel do kąpieli. Jak dotąd radzę sobie dobrze",
+   "t": "Gel de baño. De momento me va bien",
    "tags": []
   },
   {
    "r": 3,
-   "t": "Doskonały. Gorąco polecam",
-   "tags": []
+   "t": "Mucho más caro que en farmacias. El gel es muy bueno pero Amazon no da un precio competitivo, en la farmacia que suele ser más caro cuesta 15€. Me parece excesivo el precio que marcan",
+   "tags": [
+    "Cena / pojemność"
+   ]
   },
   {
    "r": 3,
-   "t": "Dobry. Bezwonny",
+   "t": "Buono. Inodore",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 3,
+   "t": "La chiusura sigillata del flacone. L’ artico corrisponde a quello ordinato ma il liquido è uscito in parte dal flacone che risultava non chiuso come dovrebbe e aveva riempito la confezione esterna. L’ho accettato lo stesso perché ne avevo bisogno",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Sin detergente pero olor spa. Deja la piel bien, el olor en sí es pasable. Recuerda a ese olor que venden a veces como \"spa\", que es un olor un poco raro e imposible de definir",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Buen gel. Me gusta este gel de ducha cha llevo usándolo mucho tiempo",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Świetny produkt, okropny dozownik. La Roche-Posay to gwarancja doskonałych produktów. Jest cudowny, nie wysusza skóry, szczególnie u osób takich jak ja, które mają wrażliwą skórę...ale dozownik to porażka!!! Tubka jest za krótka i nie pozwala na optymalne dozowanie produktu, muszę ją zlać i za każdym razem ubywa trochę produktu, dlatego 4 gwiazdki w przeciwnym razie byłoby 5",
-   "tags": [
-    "nawilzenie",
-    "skora_atopowa",
-    "dozownik"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Bardzo dobra jakość produktu. Dla skóry suchej jest najlepszy. Wątpliwe jest, aby ISDIN umieszczał kody QR na swoich produktach w celu „zdobycia punktów”. Jest to strategia polegająca na pozyskiwaniu danych osobowych. Niezależnie od tego, ile produktów ISDIN kupisz w jakikolwiek sposób, nigdy nic nie dostaniesz. Amazon powinien zatrzymać klientów, którzy dokonują powtarzających się zakupów",
+   "t": "Rigor en la entrega. Perfecte",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Zgodnie z oczekiwaniami. Dobra jakość, jakiej można się spodziewać po tej marce. Produkt dotarł bez jakiegokolwiek opakowania, co jest dziwne, ponieważ tego typu marki pakują wszystko i to również w wysokiej jakości, a operatorzy Amazona wkładają go do pudełka z innymi, bardziej obszernymi przedmiotami, jesteśmy na skraju katastrofy",
-   "tags": [
-    "cena"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Dobry żel dla skóry. Dermatolog polecił mi go na problemy skórne i od kiedy go używam, jest poprawa. Nie jest to żel, który mocno się pieni i niektórym może nie odpowiadać jego zapach. Nie lubię tego. Kupiłam go korzystając z oferty Amazona, bo nie jest to tani żel",
-   "tags": [
-    "polecenie_lekarza",
-    "zapach"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Bardzo dobry produkt. Bardzo dobry środek czyszczący. Nie pieni się, nie jest też mocno perfumowany. Bardzo duży rozmiar i pomógł mi przezwyciężyć nietolerancję na zimno. Dostałem pokrzywki, która bardzo szczypała pod prysznicem. Prawda jest taka, że ​​z tym żelem mi się to nie przydarzyło",
-   "tags": [
-    "zapach"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "wysokiej jakości żel do kąpieli. Wysokiej jakości żel pod prysznic, wydajny i przyjemny, słabo się pieni i jest dość przezroczysty, poprawna i szybka wysyłka przy małej ilości, dużo kryje. Po kilku użyciach mogę polecić produkt",
+   "t": "Muy buen producto. Muy buen limpiador.No hace espuma ,ni es muy perfumado. Tamaño muy grande y me ayudó a superar la intolerancia al frío. Me salían ronchas que escocia mucho en la ducha. La verdad es que con este gel no me pasaba",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Bez detergentu, ale zapach spa. Pozostawia na skórze dobre uczucie, sam zapach jest znośny. Przypomina nam ten zapach, który czasami sprzedają jako „spa”, co jest trochę dziwne i niemożliwe do zdefiniowania.",
+   "t": "Buen precio y calidad igual que en la Parafarmacia. Precio mas bajo que en farmacia",
    "tags": [
-    "zapach"
+    "Cena / pojemność"
    ]
   },
   {
    "r": 4,
-   "t": "ISDIN, higiena.  Syndet żel do kąpieli. Plomba na pudełku została zerwana, dzięki czemu można było zobaczyć całą jej zawartość, uszkodzony został także jeden z przycisków.",
-   "tags": [
-    "opakowanie_uszkodzone"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Fantastyczny. Wiem, że te rzeczy zależą w dużej mierze od rodzaju skóry, ale podoba mi się ten zapach, konsystencja, to, jak miękki jest dla skóry, nawilżenie",
-   "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "zapach"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "mile widziana będzie plomba gwarancyjna. biorąc pod uwagę ile to kosztuje, mogli dołożyć plombę gwarancyjną... żeby nie otwierać paczki",
+   "t": "Como cabia esperar. Buena calidad como se espera de esta marca. El producto llego sin embalaje de ningún tipo, lo que es extraño porque este tipo de marcas embalan todo y además con bastante calidad, y los operarios de amazon lo metieron en una caja con otros artículos mas voluminosos, vamos a punto del desastre",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Żel do kąpieli Isdin. Polecam w 100%, cała rodzina stosuje go od lat i u mojego syna, który ma skórę atopową, świetnie się sprawdza.",
-   "tags": [
-    "skora_atopowa"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Zatwierdzony do skóry niezbyt suchej. Dobry żel pod prysznic, nie powoduje swędzenia, ale nie nadaje się dla osób z bardzo suchą skórą",
-   "tags": [
-    "skora_atopowa"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Nie suszy. Podoba mi się sposób, w jaki pozostawia skórę. Używam go również do demakijażu i sprawdza się świetnie.",
+   "t": "Gel de banho. Muito agradável para uso diário",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Doskonały produkt. Stosuję i jestem zadowolona, ​​pozostawia piękną skórę, polecam",
+   "t": "Buen gel de baño. Me encanta este gel. Es suave y respetuoso con la piel",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Dobra cena i jakość jak w Parafarmaceucie. Cena niższa niż w aptece",
-   "tags": [
-    "cena"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Nawilżona skóra. Robi to, co powinien, czyli oczyszcza i nawilża skórę",
-   "tags": [
-    "nawilzenie"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Dobry żel do kąpieli. Uwielbiam ten żel. Jest miękki i przyjazny dla skóry",
-   "tags": [
-    "delikatnosc"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Dobry żel. Podoba mi się ten żel pod prysznic, używam go już od dłuższego czasu.",
+   "t": "Ok. No está mal, cumple.  Y huele bien",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Bardzo dobra jakość. Bardzo dobrej jakości, pozostawia skórę nawilżoną i jędrną",
+   "t": "No reseca. Me gusta como te deja la piel. Lo uso también para quitar el maquillaje y va genial",
    "tags": [
-    "nawilzenie"
+    "Nawilżenie"
    ]
   },
   {
    "r": 4,
-   "t": "Zwykłe. Zawsze używałam tego produktu i bardzo dobrze się u mnie sprawdzał.",
+   "t": "Muy buena calidad. Muy buena calidad, deja la piel hidratada y firme",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Dobre mydło. Dobre mydło, ale zła butelka. Pachnie dobrze i świeżo",
-   "tags": [
-    "zapach"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Żel pod prysznic. Bardzo przyjemny w codziennym użytkowaniu",
+   "t": "BUENO. AGRADABLE, AUN ESTA A PRUEBA",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Żel pod prysznic. Dobry produkt, zgodny z marką",
+   "t": "Bra tvål. Bra tvål men dålig flaska.Luktar gott och fräscht",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Dobra. Nie jest źle, spełnia wymagania.  i ładnie pachnie",
-   "tags": [
-    "zapach"
-   ]
-  },
-  {
-   "r": 4,
-   "t": "Produkty są bardzo dobre. Oczekiwany",
+   "t": "Ottimo prodotto,  orrendo dispenser. La Roche-Posay e' una garanzia, prodotti eccellenti. Questo è meraviglioso, non lascia la pelle secca soprattutto a chi come me ha la pelle sensibile...ma il dispenser È un disastro!!! Troppp corto il tubo non lascia che il prodotto venga erogato in maniera ottimale, devo travasarlo e perdo un po' di prodotto ogni volta per questo le 4 stelle altrimenti sarebbero 5",
    "tags": []
   },
   {
    "r": 4,
-   "t": "DOBRZE. ŁADNE, WCIĄŻ DO TESTU",
+   "t": "Gel douche. Bon produit, fidèle à la marque",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Rygor w dostawie. Doskonały",
+   "t": "si gradirebbe un sigillo di garanzia. per quanto costa, potevano prevedere un sigillo di garanzia....modo tale da non aprire la confezione",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Ottimo prodotto. Lo sto provando e sono contento, lascio una bella pelle e te lo consiglio",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Żel pod prysznic. Prawidłowy",
+   "t": "Approvato per pelli non molto secche.. Buon bagnoschiuma, non provoca prurito, ma non è idoneo a chi ha la pelle molto secca",
+   "tags": [
+    "Nawilżenie",
+    "Świąd"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Pelle idratata. Fa quel che deve fare, pulire e lasciare la pelle idratata",
    "tags": []
   },
   {
    "r": 4,
-   "t": "Żel. Dobry produkt",
-   "tags": []
-  },
-  {
-   "r": 4,
-   "t": "W porządku. Tak",
+   "t": "Va bene. Si",
    "tags": []
   },
   {
    "r": 5,
-   "t": "Żel pod prysznic, który nie podrażnia mojej suchej skóry. Moja skóra jest wrażliwa i sucha, więc najpopularniejsze żele pod prysznic sprawiają mi problem: silne zapachy i siarczany często powodują podrażnienia lub pozostawiają czerwone plamy. Potrzebowałem prostego, prostego środka czyszczącego, który po prostu czyści bez skutków ubocznych i dlatego sięgnąłem po Lipikar Gel. • Ma neutralny, dyskretny zapach, który całkowicie się spłukuje, co doceniam, ponieważ moja skóra łatwo reaguje na perfumy. • Wytwarza lekką, a nie gęstą pianę. Czyści skutecznie, ale nie pozostawia uczucia suchości i napięcia. • Po każdym użyciu moja skóra jest miękka i spokojna, bez swędzenia i uczucia ściągnięcia. Stało się godną zaufania opcją, zwłaszcza w przypadku ataków suchości lub nadwrażliwości.✅ Zalety:🟢 Delikatny i nie podrażniający🟢 Łagodzi suchą i wrażliwą skórę🟢 Brak intensywnego zapachu❌ Wady:🔴 Nie zaobserwowano🏁 Wniosek: Żel nie zamieni Twojego prysznica w tropikalny raj ani nie zapewni luksusowej piany, ale za to oczyści skórę skutecznie i nie podrażniając jej, gdy jest najbardziej wrażliwa. Jest to produkt funkcjonalny, prosty i niezawodny, który doskonale spełnia swoje zadanie",
+   "t": "Suave, hidratante, ligeramente perfumado.. El mejor gel de ducha que he usado nunca",
    "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "skora_atopowa",
-    "zapach"
+    "Nawilżenie"
    ]
   },
   {
    "r": 5,
-   "t": "LA ROCHE-POSAY LIPIKAR ŚRODEK DO CZYSZCZENIA POD PRYSZNIC: DELIKATNY, SKUTECZNY I PRZYJEMNY. Płyn do mycia pod prysznic Lipikar marki La Roche-Posay to bardzo dobry zakup dla całej rodziny. Konsystencja jest miękka i pienista, dokładnie oczyszcza skórę, nie wysuszając jej ani nie podrażniając, nawet w przypadku skóry wrażliwej. Już od pierwszego użycia zauważyłam, że moja skóra jest bardziej nawilżona i spokojna, co jest idealne po częstych prysznicach. Aromat jest lekki i przyjemny, niezbyt intensywny, a formuła sprawia wrażenie zadbanej i szanującej barierę skóry. Dodatkowo produkt łatwo się spłukuje i pozostawia uczucie świeżości bez uczucia ściągnięcia. Ogólnie rzecz biorąc, gorąco polecam, jeśli szukasz środka czyszczącego pod prysznic, który łączy w sobie skuteczne czyszczenie i pielęgnację dla wrażliwej lub suchej skóry 🛁✨",
+   "t": "Gel de Ducha que No Irrita mi Piel Seca. Mi piel es sensible y seca, por lo que la mayoría de los geles de ducha populares suelen ser un problema: las fragancias intensas y los sulfatos suelen causar irritación o dejan manchas rojas.Necesitaba un limpiador básico y sin florituras, que simplemente limpiara sin efectos secundarios, y eso me llevó a probar el Lipikar Gel.• Tiene un aroma neutro y discreto que se enjuaga por completo, algo que agradezco porque mi piel reacciona fácilmente a los perfumes.• Produce una espuma ligera, no una espuma densa. Limpia eficazmente, pero sin dejar esa sensación de sequedad o tirantez.• Mi piel queda suave y calmada tras cada uso, sin picor ni sensación de tirantez.Se ha convertido en una opción de confianza, sobre todo durante los brotes de sequedad o sensibilidad.✅ Ventajas:🟢 Suave y no irritante🟢 Calma la piel seca y sensible🟢 Sin fragancia intensa❌ Desventajas:🔴 Ninguna observada🏁 Conclusión:Este gel no va a convertir tu ducha en un paraíso tropical ni te dará una espuma lujosa, pero sí limpiará tu piel con eficacia y sin irritarla cuando esté más sensible.Es un producto funcional, sencillo y fiable, que cumple perfectamente su propósito",
    "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "skora_atopowa",
-    "zapach"
+    "Nawilżenie",
+    "Świąd",
+    "Kojenie / podrażnienie",
+    "Skuteczność / efekty"
    ]
   },
   {
    "r": 5,
-   "t": "Produkt ok, ale dostawa pozostawia wiele do życzenia. bardzo dobry produkt, szczególnie do skóry skłonnej do alergii, mój mąż używa go teraz regularnie bez problemu i uważa, że ​​jest przyjemny. Z drugiej strony, tym razem skorzystałem z targowiska (inaczej niedostępnego), żeby to mieć i rezultat: wysłany przez chronospost, którego kierowca nie przyjechał do mojego domu (zadzwonił, ale nie mogłem odebrać na czas) i zdecydowałem się go podrzucić do przekaźnika 15 km od mojego domu (wyświetlił się komunikat, że zdecydowałem się zmienić dostawę!!), podczas gdy został złożony w skrzynce pocztowej i nie było potrzeby podpisu! więc wcale nie jestem zadowolony z dostawy",
+   "t": "LIMPIADOR DE DUCHA LIPIKAR DE LA ROCHE-POSAY : SUAVE , EFICAZ Y AGRADABLE. Este limpiador de ducha Lipikar de La Roche‑Posay ha sido una muy buena compra para toda la familia. La textura es suave y espumosa, y limpia la piel a fondo sin resecarla ni irritarla, incluso en pieles sensibles. Desde el primer uso noté la piel más hidratada y calmada, lo cual es ideal después de duchas frecuentes.El aroma es ligero y agradable, no demasiado intenso, y la fórmula se siente cuidado y respetuosa con la barrera cutánea. Además, el producto se aclara fácilmente y deja una sensación de frescura sin tirantez.En general, muy recomendable si buscas un limpiador de ducha que combine limpieza eficaz y cuidado para pieles sensibles o secas 🛁✨",
+   "tags": [
+    "Nawilżenie",
+    "Kojenie / podrażnienie",
+    "Konsystencja",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bueno para piel sensible, incluso cuero cabelludo. Es de muy buena calidad. Lo recomiendo para pieles sensibles",
    "tags": []
   },
   {
    "r": 5,
-   "t": "ISDIN GERMISDIN ALOE VERA: DELIKATNA I ODŚWIEŻAJĄCA ULGA. Żel Aloe Vera ISDIN Germisdin był doskonałym dodatkiem do mojej rutynowej pielęgnacji skóry. Jego konsystencja jest przyjemna i bardzo orzeźwiająca, idealna do ukojenia skóry pod prysznicem. Aromat jest delikatny i naturalny, nic agresywnego i sztucznego. Ponadto, będąc produktem ISDIN, możesz mieć pewność, że jest to produkt przeznaczony do ostrożnej i skutecznej pielęgnacji skóry. Ogólnie gorąco polecam jeśli szukasz żelu Aloe Vera, który delikatnie nawilża, łagodzi i odświeża skórę 🌿✨",
+   "t": "Buen precio y calidad, vale la pena !!!. Cumple con sus funciones!!!",
    "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "zapach"
+    "Cena / pojemność"
    ]
   },
   {
    "r": 5,
-   "t": "TO NAJLEPSZA RZECZ, CO ODKRYLIŚMY. To mydło jest rewelacyjne, podolog przepisał je mojej nastolatki i ostatecznie wszyscy używamy go w domu... jeśli masz delikatną skórę, masz skłonność do nakładania kremu po prysznicu ze względu na wapno, to mydło jest najlepsze... Jesteśmy bardzo zadowoleni i poza tym wydaje się, że nie... ale mydło starcza nam na 3 osoby i butelka starcza nam na około miesiąc",
+   "t": "No tiene olor y está bien. Para mí hija que sufre de dermatitis es excelente",
    "tags": [
-    "delikatnosc",
-    "polecenie_lekarza"
+    "Skóra atopowa / egzema",
+    "Zapach"
    ]
   },
   {
    "r": 5,
-   "t": "Jakość Super zalecana cena. Duży rozmiar jest bardzo dobry, bo za tę cenę warto, dozownik jest dobry pod prysznic, a na skórze pozostawia ją miękką, nie wysusza, ma bardzo łagodny zapach, używam go, ponieważ mam rogowacenie na ramionach i pomaga mi to zapanować",
-   "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "zapach",
-    "dozownik"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Delikatny. Przybył w idealnym stanie i bez opóźnień. Bardzo delikatny dla skóry i o bardzo dobrym zapachu. Namydlić się to przyjemność. Co prawda nie piecze skóry po prysznicu, ale w przypadku skóry dojrzałej lub suchej nawilża bardzo słabo. Skóra jest bardzo napięta i trzeba zapewnić sobie dużą ilość kremu.",
-   "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "zapach",
-    "podraznienie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Bardzo zadowolony z zakupu. Moja córka ma skórę atopową i ten żel świetnie się u niej sprawdza. Łódź jest duża i bardzo praktyczna. Bardzo lubię tę markę. W odróżnieniu od zwykłych butelek bez dyszy, pozwala moim córkom na samodzielną obsługę bez użycia zbyt dużej ilości żelu. W ten sposób wytrzyma dłużej 😃",
-   "tags": [
-    "skora_atopowa"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Gwarancja jakości, skuteczność pod względem czystości i warunków organoleptycznych. Laboratorium Isdin to gwarancja jakości.  Produkt godny polecenia, trochę drogi, ale jeśli cenisz sobie ilość i czas trwania (mniej więcej 4-5 miesięcy) oraz jego jakość i gwarancję, myślę, że warto.",
-   "tags": [
-    "cena"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Zdrowa skóra. Dostarcza to, co obiecuje. Mam bardzo wrażliwą, atopową skórę z częstymi wypryskami i dzięki temu żelowi czuję się znacznie lepiej. Próbowałem wielu i prawda jest taka, że ​​ten był najlepszy. Dodatkowo, ilość jest na tyle duża, że ​​wystarczy na długi czas bez obawy, że się skończy.",
-   "tags": [
-    "skora_atopowa"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "It doesn't dry out anything. Żel bardzo delikatny dla skóry, oczyszczający, ale nie wysuszający. Poza tym wielkość, bo prawie 1 litr, pomaga oszczędzać, bo już wiemy, że im mniejszy, tym droższy. Podoba mi się też to, że pojemnik jest przezroczysty, dzięki czemu przez cały czas widać, co się w nim znajduje",
-   "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "dozownik"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Dermatolog mi go polecił. Używam go za zaleceniem mojego dermatologa w celu zwalczania zapalenia gruczołów potowych. Odkąd go stosuję, minęły już 4 lata i nie mam już zapalenia gruczołów potowych. Nie jest drogi, jak na długo, w moim przypadku od 4 do 6 miesięcy przy codziennych prysznicach",
-   "tags": [
-    "polecenie_lekarza",
-    "cena"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Polecane mydło. Dermatolog poleciła mi go ze względu na rodzaj mojej skóry (zbyt widoczne pory i białe pryszcze na ramionach i udach). Jest on odpowiedni także dla mojego rocznego dziecka. Ponieważ jest to mydło łagodne, nie uszkadza i nie zmienia bariery ochronnej skóry.",
-   "tags": [
-    "delikatnosc",
-    "polecenie_lekarza"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "świetny produkt. Ja używam La Roche-Posay Lipikar Gel i jestem zadowolona. Żel jest bardzo łagodny i delikatnie oczyszcza skórę, nie wysuszając jej. Jest dobry dla skóry wrażliwej i do codziennego użytku. Mogę to polecić",
-   "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "skora_atopowa"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Delikatny i skuteczny. Doskonały dla mojego syna, który miał problemy z trądzikiem na twarzy i górnej części ciała. Dzięki temu utrzymuje odpowiedni poziom nawilżenia skóry, nie podrażniając jej. Duża butelka też starcza na jakiś czas. Gorąco polecam",
-   "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "podraznienie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Świetnie. Idealny dla skóry wrażliwej, jeśli nie lubisz zbyt dużej ilości drażniących środków chemicznych. Zawiera dobroczynne składniki, przyjemny delikatny zapach, nie wysusza skóry. Mój ulubiony żel pod prysznic w rozsądnej cenie jak na ten rozmiar",
-   "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "skora_atopowa",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Bardzo miło. Kupiłam go, bo lekarz mi go zalecił do stosowania po dość inwazyjnym zabiegu. Spełnia swoje zadanie prawidłowo, skóra po umyciu tym produktem jest mu wdzięczna. Aromat jest przyjemny",
-   "tags": [
-    "polecenie_lekarza",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Idealny dla skóry wrażliwej, dobry format oszczędnościowy. Miękki żel, bez mocnego zapachu i pielęgnujący skórę. Nie wysusza i łagodzi swędzenie. Bardzo dobra opcja do codziennego stosowania, zwłaszcza jeśli masz suchą skórę. Zadowolony z zakupu",
-   "tags": [
-    "delikatnosc",
-    "nawilzenie",
-    "skora_atopowa",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Kocham to!. Moje ulubione mydło do ciała. Zwykle biorę prysznic na siłowni i jest to idealne rozwiązanie na bakterie. Uwielbiam ten zapach. Kiedy miałam problemy skórne, u mnie sprawdził się znakomicie. Teraz używam go codziennie. Gorąco polecam",
-   "tags": [
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Najlepszy produkt jaki kiedykolwiek próbowałem. Nie mogę się już bez tego obejść. To naprawdę działa na infekcję bakteryjną. Nie musisz nawet używać dezodorantu. Najlepszy produkt jaki kiedykolwiek próbowałem. Przychodzą dwie jednostki",
+   "t": "Suave con la piel. Lo recomiendo para tratamiento oncólogico, cuida la piel",
    "tags": []
   },
   {
    "r": 5,
-   "t": "Bardzo dobry!. Mam bardzo problematyczną skórę i atopowe zapalenie skóry. I jest to najlepszy żel pod prysznic jaki kiedykolwiek próbowałam. Nie powoduje podrażnień i jest super miękki. Dozownik jest bardzo wygodny. Polecam to!",
-   "tags": [
-    "delikatnosc",
-    "skora_atopowa",
-    "dozownik",
-    "podraznienie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Dobry zakup. Bardzo dobry żel pod prysznic, szkoda, że ​​wkłady są drogie, ostatecznie kupujesz butelkę ponownie. W tym sensie wstyd. Poza tym czyści bardzo dobrze i pachnie świeżością.",
-   "tags": [
-    "zapach",
-    "cena"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Znana marka. Dobra cena za dwa produkty, to najlepsza cena, jaką znalazłem, ze względu na markę, ponieważ każdy, kto ją zna, wie, że jest dobra, o ile jest to odpowiedni produkt dla Twojej skóry",
-   "tags": [
-    "cena"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "100/100. Jest to jeden z niewielu żeli, które znalazłam z dobrymi składnikami dla skóry atopowej i wypróbowanie go na moim wypadło bardzo pozytywnie. Wyraźnie zmniejszyło moje swędzenie.",
-   "tags": [
-    "skora_atopowa",
-    "podraznienie"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Zadbaj o moją skórę w przypadku wyprysków. Dermatolog przesłała mi go na ataki atopowego zapalenia skóry i bardzo mnie uspokaja, pielęgnuje i naprawia moją skórę. Bardzo go lubię, a cena jest lepsza niż w aptekach",
-   "tags": [
-    "skora_atopowa",
-    "polecenie_lekarza",
-    "cena"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "GWARANCJA. Gwarancja. Jeden z najlepszych pod względem stosunku jakość/ilość/cena. Niskopieniący (niewiele środków powierzchniowo czynnych w środku = mniej drażniący dla skóry). Neutralny i przyjemny zapach",
-   "tags": [
-    "zapach",
-    "cena"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Bardzo dobre, polecam. Mam zapalenie skóry i bardzo wrażliwą skórę, kupiłam ten żel pod prysznic i byłam zaskoczona rezultatami, rewelacja, moja skóra jest czystsza i bardziej nawilżona. polecam",
-   "tags": [
-    "nawilzenie",
-    "skora_atopowa"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Zachwycający. Idealny, ma bardzo subtelny i subtelny aromat. Mam bardzo wrażliwą skórę i ten żel świetnie się u mnie sprawdził. Używam go od kilku dni i jestem bardzo zadowolony :)",
-   "tags": [
-    "skora_atopowa",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Żel do kąpieli odpowiedni dla skóry delikatnej i raczej suchej. Używam tego żelu od kilku lat i wydaje się być dobrej jakości i odpowiedni dla mojego raczej suchego typu skóry.",
-   "tags": [
-    "delikatnosc"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Doskonały produkt.. Znakomity, używam go od lat. Mam bardzo wrażliwą skórę na klasyczne żele do ciała, ale ten jest naprawdę świetny i nie agresywny. Dobry zapach. Czuję się dobrze",
-   "tags": [
-    "skora_atopowa",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Jakość produktów Amazon i ich obsługa, która jest doskonała. Świetny produkt i świetne usługi Amazon, dotarły wcześniej niż oczekiwano, bardzo szczęśliwy",
+   "t": "Me encanta. La he comprado por que hay varias cosas de esta marca que uso. Huele muy bien y ya no me pica tanto la piel",
    "tags": []
   },
   {
    "r": 5,
-   "t": "Jak dotąd dobrze. Na ten moment nie mogę dać 100% opinii, kupiłam go niedawno, bardzo ładnie pachnie i z góry uspokaja wrażliwą skórę, ale zobaczę z czasem",
-   "tags": [
-    "skora_atopowa",
-    "zapach"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Polecam to. Doskonały produkt.  Trochę droższy niż w aptece, ale jeśli potrzebujesz go w domu, możesz mieć pewność, że jest oryginalny, a wysyłka jest dobra",
+   "t": "mucha calidad. calidad muy buena",
    "tags": []
   },
   {
    "r": 5,
-   "t": "Bardzo dobry. Bardzo go lubię, używam go pierwszy raz, używam go także do mycia rąk i nie wysusza skóry, jestem zachwycona! Roche Posay nigdy mnie nie zawodzi",
+   "t": "Muy buena. Limpia muy bien, cuerpo y rostro",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Buenísimo. Me encanta, es primera vez usándolo y lo uso también para lavarme las manos y no reseca la piel, estoy encantada! La roche posay nunca me defrauda",
    "tags": [
-    "nawilzenie"
+    "Nawilżenie"
    ]
   },
   {
    "r": 5,
-   "t": "PRODUKT. BARDZO DOBRZE SPRAWDZIŁ SIĘ NA MOJE PROBLEMY DERMATOLOGICZNE. CENA COŚ TANIEJ NIŻ W APTEKACH, Z TĄ KORZYŚCIĄ, ŻE WYSYŁAJĄ DO TWOJEGO DOMU",
+   "t": "Bueno. Tiene una textura muy agradable. Lo recomiendo",
    "tags": [
-    "polecenie_lekarza",
-    "cena"
+    "Konsystencja"
    ]
   },
   {
    "r": 5,
-   "t": "Niezbędny w codziennej pielęgnacji. Produkt do codziennego użytku, przyjemny zapach i uczucie czystości. Jakość ISDIN zapewniająca dobrą pielęgnację skóry",
+   "t": "Muy buen producto de higiene. Me lo recomendó el doctor de mi hija por un problema de sequedad cutánea y des de hace un año lo usa a diario y mejoro mucho",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muito cheiroso. 10",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "De momento bien. De momento no puedo poner una opinión al 100% ,lo compré hace poco,huele muy bien y a priori calma la piel sensible pero lo veré con el tiempo",
    "tags": [
-    "zapach"
+    "Kojenie / podrażnienie"
    ]
+  },
+  {
+   "r": 5,
+   "t": "Piel muy suave e hidratada. Hidrata mucho y deja buen olor",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Practico. Todo perecto !!",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Great. All good for the skin",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Maravilloso. Lo amo, no reseca nada la piel, lo compro una y otra vez",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "La marca , es señal de garantía. Excelente producto",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy bueno.. Muy bueno. Lo gasta mi hijo para la piel atopica",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "buen producto. perfecto para pieles atópicas. Recomendado por mi dermatóloga",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excelente calidad. Es una marca que asegura calidad, es un buen gel para los peques",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Jabón cuerpo. Olor agradable, dosificador, deja la piel hidratada",
+   "tags": [
+    "Zapach",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "sois muy pesados. 👍",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Me lo recomendó el dermatólogo. Lo uso por recomendación de mi dermatólogo para combatir la hidradenitis, desde que lo uso, ya van para 4 años, no he vuelto a tener hidradenitis. No es caro para lo que dura, en mi caso entre 4-6 meses con duchas diarias",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Buen producto. Buenos textura",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfecto para la piel atópica de mi bebé. Mi bebé tiene la piel atópica y este gel se la mantiene hidratada",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Dla dzieci / niemowląt"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "¡Hidrata un montón! 😊. Llego en perfectas condiciones, el gel de ducha es super suave y deja la piel muy suavecita. ¡Me encanta!",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "100/100. Es uno de los pocos geles que he encontrado con buenos ingredientes para pieles atópicas, y probándolo en la mía ha resultado super positivo. Me ha reducido el picor notablemente",
+   "tags": [
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Skład",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Buena compra. Muy buen gel de duchas, lastima que los recambios sean caros, al final uno acaba comprando otra vez la botella. Una pena en ese sentido. Por lo demas limpia muy bien y huele a fresco",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Limpeza. Boa qualidade para limpeza de zonas sensiveis",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "10. Me ha encantado!Tiene un olor sutil pero riquísimo.Deja la piel tan suave...Repetiré sin duda!",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "100% recomendable. Hace años que lo usamos, 100% recomendable",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy bueno. Me ha gustado mucho. Hace espumita y te deja la piel bastante hidratada",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy contento. Producto de gran calidad , y bastante as barato que en otros sitios",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Calidad Precio super recomendado. El tamaño grande viene muy bien, ya que por precio merece la pena, el dosificador, es bueno para cuando estas en la ducha, y sobre la piel, deja suave, no reseca, tiene un olor muy suave, y yo lo utilizo por tener queratosis en los brazos y me ayuda a tenerlo controlado",
+   "tags": [
+    "Nawilżenie",
+    "Zapach",
+    "Cena / pojemność",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Si hidratación. Aún no lo he probado pero probé otro y me encantó respeta la piel y la deja suave y hidratada aunque esté aún no lo he probado",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Me va bien. Me va bien para mi piel seca y controlar mis brotes de dermatitis",
+   "tags": [
+    "Nawilżenie",
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Jabón recomendado. Mi dermatólogo me lo recomendó por mi tipo de piel (poros demasiado pronunciados y granitos blancos en brazos y muslos) además es apto para mi bebé de 1 año. Por ser un jabón tan suave no daña ni altera la barrera de la piel",
+   "tags": [
+    "Dla dzieci / niemowląt"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "No reseca nada. Un gel que es muy suave con la piel, que limpia pero no reseca. Además, el tamaño, de casi 1 litro, ayuda a ahorrar por que ya sabemos que cuanto más pequeño, más caro.También me gusta que el envase sea transparente, así ves lo que hay en todo momento",
+   "tags": [
+    "Nawilżenie",
+    "Cena / pojemność",
+    "Opakowanie / pompka",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excelente. Un básico para tener en tu baño. Te deja la piel super limpia y fresca",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Me encanta!. Cumple",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Lo recomiendo. Excelente producto.  Un poco más caro que en la farmacia pero si lo necesitas a domicilio, puede confiar en que es original y el envío es bueno",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "No puedo ya vivir sin el. Me encanta porque me deja la piel suave sin sequedad",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy bueno!. Tengo la piel muy problematica y con dermatitis atopica. Y es el mejor gel de ducha que he probado. No provoca irritacion y es super suave. El dosificador es muy comodo tambien. Lo recomiendo!",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Calmante. La verdad es que desde que lo uso, mi piel esta mucho mejor, menos irritada y seca",
+   "tags": [
+    "Nawilżenie",
+    "Kojenie / podrażnienie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Producto especial bueno. Buen producto para pieles atópica",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Suave. Llego en perfecto estado y sin demora. Muy suave en la piel y con un aroma muy bueno. Da gusto enjabonarse.Es verdad que no pica la piel después de la ducha, pero resulta muy poco hidratante para pieles maduras o secas. La piel queda muy tirante y hay que darse crema en abundancia",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Encantadisima. Perfectísimo tiene un aroma muy saya e y sutil tengo la piel muy sensible y este gel me ha ido súper bien ya llevo varios días usándolo y estoy muy contenta :)",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Marca conocida. Buen precio para dos productos, es donde mejor precio he encontrado, por la marca pues ya quien la conoce sabe que es buena, siempre y cuando sea el producto adecuado para tu piel",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Estupendo.. Perfecto",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Calidad. Excelente. Deja la piel cuidada y sin que quede reseca",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Muy contenta de la compra. Mi hija tiene piel atópica y este gel le va genial. El bote es grande y muy práctico. Me gusta mucho esa marca. A la diferencia de los botes normales sin la boquilla, permite que mis hijas se sirven solas sin gastar demasiado gel. Así me dura más tiempo 😃",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Great bathroom gel. Great bathroom gel, using it for 4+ years",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Calidad. Deja la piel suave y con un buen aroma",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Estupendo. Le va genial a mi bebe que tiene piel atopica, desde que usamos el gel y la crema hidratante de esta marca no le salen ronchitas. Nos encanta",
+   "tags": [
+    "Nawilżenie",
+    "Skóra atopowa / egzema",
+    "Konsystencja",
+    "Dla dzieci / niemowląt"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bom valor/produto. Excelente gel de banho, uso nos meus filhos, por recomendação do dermatologista e adoramos",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Bueno para tu piel. Muy bueno para la piel, no da reaccion en pieles delicadas y ayuda a reducir ronchitas del calor",
+   "tags": [
+    "Skuteczność / efekty",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfecto. Genial",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Recomendado. Producto muy bueno, amigable a la piel",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Perfecto. Muy correcto, tal como la descripcion",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Excelente. Excelente productos.como todos los de esta marca",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Extraordinario. Lo recomiendo, uso la crema de pieles atópicas para mi hija y me recomendaron este gel también y no me arrepiento, usaré ambas cosas",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Huele de maravilla!!. Gel de baño buenísimo, no pica para piel sensible.  Mucho más barato que en farmacia",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Perfecto para mí. Lo llevo usando ya años y me va genial",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Muy bueno. Siempre lo compro es genial",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Perfeito. Perfeito",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Qualidade. Excelente produto com um preço imbatível",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Te sientes limpio. Producto que te deja fresco y limpio",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "La calidad de los productos de Amazon y su servicio, que es excelente. Estupendo el producto y estupendo el servicios de Amazon llego antes de lo previsto ,muy contenta",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Genial. Suave y perfumado",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Huele fenomenal. Huele fenomenal",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Calidad en el producto. Muy buen producto y muy buena calidad",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Cumple con la calidad. Muuy buen producto",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Ottimo prodotto. Ottimo avevo un prurito e dopo pochi giorni dall uso mi trovo benissimo",
+   "tags": [
+    "Świąd"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "excellent produit. Excellent produit pour les peaux à eczéma",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "zeer goede zeep voor de gevoelige huid. zeer goede zeep voor de gevoelige huid",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Very good product. Very good product, we have been buying this for the past 3 years and the quality is still there",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "tolles Produkt. Ich benutze La Roche-Posay Lipikar Gel und bin zufrieden.Das Gel ist sehr mild und reinigt die Haut sanft, ohne sie auszutrocknen. Es eignet sich gut für empfindliche Haut und für die tägliche Anwendung.Ich kann es empfehlen",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Top. Très bon produit qui respecte la peauPrix attractif  et format avantageux",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bagno schiuma. Buonissimo e delicato. Non profuma ma deterge molto bene",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "5. Verry good",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Gutes Produkt guter Preis. Wenn man empfindliche Haut hat, ist das das beste Produkt. Was man sich kaufen kann, kann ich nur empfehlen zum duschen perfekt",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottimo prodotto.. Ottimo, lo uso da anni. Ho la pelle molto sensibile ai classici bagnodoccia, ma questo è veramente ottimo e non aggressivo. Buon profumo. Mi trovo bene",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Gentle and effective.. Excellent for my son who has had acne issues on his face and upper body. This keeps the right levels of moisture in his skin without aggravating his skin. The big bottle lasts for a while too. Highly recommend",
+   "tags": [
+    "Nawilżenie",
+    "Opakowanie / pompka",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "produit ok, mais livraison qui laisse à désirer. très bon produit , notamment pour les peaux qui peuvent avoir des allergies, mon mari l'utilise maintenant régulièrement sans aucun souci et le trouve agréable. Par contre, cette fois-ci j'ai utilisé un market place ( indisponible autrement) pour l'avoir et résultat : expédié par chronospost dont le chauffeur n'est pas venu à domicile ( a appelé mais je n 'ai pas pu répondre dans les temps ) et a décidé de le déposer à un relais à 15 km de chez moi ( affichage suivi que j'ai décidé de changer la livraison !!)  alors qu'il logeait dans la boite au lettres et qu'il n'y avait pas besoin de signature ! donc pas du tout satisafite de la livraison",
+   "tags": [
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Sehr gut 👍. Sehr gutes Produkt",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Produit protecteur. Produit utilisé depuis plusieurs années et donnant satisfaction",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Great. In love with it. Smells fresh and clean",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super. Nous utilisons cette marque depuis des années maintenant. Plus de soucis d'eczéma",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "GARANZIA. Una garanzia. Per rapporto qualità/ quantità/ prezzo uno dei migliori. Poco schiumogeno (pochi tensioattivi dentro=meno irritante per la cute). Profumazione neutra e gradevole",
+   "tags": [
+    "Kojenie / podrażnienie",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Soothes well. This cleansing gel helps my skin a lot",
+   "tags": [
+    "Kojenie / podrażnienie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Perfect for extra sensitive skin. The best shower gel. My extra sensitive skin only tolerates this ❤️",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "eccellente sapone con ottima profumazione. eccellente sapone, non secca la pelle. Ottima profumazione",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Great. Perfect for sensitive skin if you don't like too many irritating chemicals. Some beneficial ingredients included, pleasant gentle scent, doesn't dry out the skin. My favorite shower gel at a reasonable price for this size",
+   "tags": [
+    "Kojenie / podrażnienie",
+    "Zapach",
+    "Cena / pojemność",
+    "Skład"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Smoth and good to skin. I'm using this for long time.It is very good",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Peau fragile. J’adore 🥰",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Ottimo. Ottimo prodotto in caso di dermatiti o pelle sensibile. Profumazione molto leggera quasi impercettibile che sa di pulito",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "La Roche-Posay. Come sempre spedizione impeccabile, il prodotto per me è il migliore che ho trovato, niente più prurito della pelle dopo la doccia",
+   "tags": [
+    "Świąd"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good. Good",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Awesome thanks. Very true to what they say. Awesome product",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "5 ⭐️. Prima!",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Ottimo ad un prezzo buono!. Ottimo ad un prezzo buono!",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very good item. It so good in skin, clear rashes, dark spots and make skin smooth",
+   "tags": [
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Roche-Posay mio amore. Perfetto come gel doccia",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Prodotto molto efficace. Un prodotto molto efficicaceRende la pelle morbidaTopGianfranco",
+   "tags": [
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Qualità. Prodotto ottimo",
+   "tags": []
   }
  ]
 }

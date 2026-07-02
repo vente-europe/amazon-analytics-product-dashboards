@@ -26,8 +26,47 @@ sys.stdout.reconfigure(encoding='utf-8')
 BASE = os.path.dirname(os.path.abspath(__file__))
 SRC  = os.path.join(BASE, 'reviews')   # raw reviews live here (moved from atopic-skin-topline)
 CACHE = os.path.join(BASE, 'reviews', '_tr_cache.json')
-CAP = 120           # max reviews in the browsable/analyzed sample
-NEG_FLOOR = 45      # try to include at least this many 1-2 star reviews
+CAP = 120           # (legacy) max reviews in the translated sample — no longer used by assemble
+NEG_FLOOR = 45      # (legacy) negatives floor for the old sample
+
+# ── Multilingual theme keywords for the review BROWSER ──────────────────────
+# The browser now shows ALL reviews in their ORIGINAL language (no translation),
+# so tags must match DE/FR/IT/ES/EN (+PL) stems. id == pill label (shown as-is).
+# Valid pill classes: pill-amber, pill-blue, pill-orange, pill-purple, pill-red.
+MULTILINGUAL_THEMES = [
+    ("Nawilżenie", "pill-blue",   ["feuchtig","hydrat","idratant","hidratant","moistur","trocken","sécher","secch","seca","dry skin","nawil","sucho","sucha"]),
+    ("Świąd", "pill-red",         ["juckreiz","jucken","démangea","demangea","prurit","picazón","picor","itch","świąd","swiad","swędz","swedz"]),
+    ("Skóra atopowa / egzema", "pill-purple", ["atopisch","neurodermit","atopique","eczéma","eczema","atopica","atópic","atopic","dermatit","psorias","łuszcz"]),
+    ("Kojenie / podrażnienie", "pill-amber", ["beruhig","reizung","gereizt","apais","irrit","lenit","calm","sooth","rossore","enrojec","redness","koj","łagodz","lagodz","podrażn","podrazn"]),
+    ("Zapach", "pill-orange",     ["geruch","duft","parfum","odeur","odor","olor","smell","scent","fragranc","zapach","pachn","wonn"]),
+    ("Wchłanianie / tłustość", "pill-blue", ["zieht ein","fettig","fettend","absorb","gras","grasso","grassa","grasa","greasy","sticky","klebrig","appiccic","wchłan","wchlan","tłust","tlust","lepk"]),
+    ("Konsystencja", "pill-amber",["konsistenz","textur","texture","consistenc","cremig","creamy","crema","cremos","dickflüssig","thick","gęst","gest","konsystenc"]),
+    ("Cena / pojemność", "pill-orange", ["preis","teuer","günstig","gunstig","prix","cher","prezzo","costoso","precio","caro","price","expensive","cheap","value for money","cena","drog","tani","pojemn"]),
+    ("Opakowanie / pompka", "pill-purple", ["verpackung","pumpe","spender","emballage","pompe","confezione","dosatore","erogatore","envase","dosificador","packaging","pump","bottle","tube","opakow","pompk","plomb","dozownik","nakrętk"]),
+    ("Skład", "pill-red",         ["inhaltsstoff","paraben","duftstoff","zusammensetzung","composition","ingrédient","ingredienti","ingrediente","ingredient","silicon","alcohol","alkohol","skład","sklad"]),
+    ("Dla dzieci / niemowląt", "pill-blue", ["baby","kinder","säugl","saugl","bébé","bebe","enfant","nourrisson","bambin","neonat","bebé","niño","nino","child","infant","dzieci","niemowl","dziecko"]),
+    ("Skuteczność / efekty", "pill-amber", ["wirkung","wirkt","hilft","geholfen","efficac","aiuta","funziona","eficaz","ayuda","funciona","works","helped","effective","result","skutecz","pomaga","pomogł","efekt","działa","dziala"]),
+    ("Alergia / reakcja", "pill-red", ["allerg","unverträg","unvertrag","réaction","reaction","reazione","reacción","reaccion","rash","ausschlag","pickel","brenn","alerg","uczul","reakcj","wysyp"]),
+]
+
+
+def tag_all(raw):
+    """Tag EVERY raw review (original language) with multilingual theme ids.
+    Dedups exact (rating, text) repeats across per-ASIN files. Returns the
+    browser contract: [{r, t(original text), tags[]}]."""
+    pats = [(tid, [k.lower() for k in kws]) for tid, cls, kws in MULTILINGUAL_THEMES]
+    seen = set()
+    out = []
+    for x in raw:
+        txt = x['src']
+        key = (x['r'], txt)
+        if key in seen:
+            continue
+        seen.add(key)
+        low = txt.lower()
+        tags = [tid for tid, kws in pats if any(k in low for k in kws)][:4]
+        out.append({'r': x['r'], 't': txt, 'tags': tags})
+    return out
 
 def load_raw(code, seg):
     out = []
@@ -163,26 +202,33 @@ def xray_headline(code, seg):
 
 def assemble(code, seg):
     d = os.path.join(BASE, 'reviews', code, seg)
-    ai = json.load(open(os.path.join(d,'_analysis_input.json'), encoding='utf-8'))
-    qual = json.load(open(os.path.join(d,'_qual.json'), encoding='utf-8'))
-    theme_kw = qual.pop('themeKeywords', {})
-    avg, rc, prod = xray_headline(code, seg)
-    if avg is None:  # segment absent from this market's X-Ray — keep any prior headline
+    qual = json.load(open(os.path.join(d, '_qual.json'), encoding='utf-8'))
+    qual.pop('themeKeywords', None)
+    avg, rc, prod = xray_headline(code, seg)          # avg rating from X-Ray (reliable); rc no longer shown
+    if avg is None:                                    # segment absent from X-Ray — keep any prior headline
         prev = {}
         vp = os.path.join(d, 'voc.json')
         if os.path.exists(vp):
             prev = json.load(open(vp, encoding='utf-8'))
-        avg = prev.get('avgRating', 0); rc = prev.get('totalReviews', 0); prod = prev.get('productCount', 0)
+        avg = prev.get('avgRating', 0); prod = prev.get('productCount', 0)
+
+    # ALL reviews, original language, deduped + multilingual-tagged (no translation).
+    reviews = tag_all(load_raw(code, seg))
+
     voc = {
-        'totalReviews': rc,        # X-Ray real total review count (headline)
-        'avgRating': avg,          # X-Ray weighted average rating (headline)
-        'productCount': prod,      # number of products in the segment/market
-        # starDist intentionally omitted — scraped ratings unreliable, bar hidden
+        'avgRating': avg,               # X-Ray weighted avg rating (headline)
+        'productCount': prod,           # products in the segment/market
+        'totalReviews': len(reviews),   # now == ALL analyzed reviews
+        # starDist omitted — scraped ratings unreliable, bar hidden
     }
-    voc.update(qual)  # cpSummary, cp*, usageScenarios, csSummary, topics, insights, motivation, expectations, themeFilters, tagStyles
-    voc['reviews'] = tag_reviews(ai['sample'], theme_kw)
-    json.dump(voc, open(os.path.join(d,'voc.json'),'w',encoding='utf-8'), ensure_ascii=False, indent=1)
-    print(f'  {code}/{seg}: voc.json ({len(voc["reviews"])} sample / {rc} X-Ray reviews, avg {avg}★, {prod} produktów, {len(voc.get("themeFilters",[]))} themes)')
+    voc.update(qual)  # cpSummary, cp*, usageScenarios, topics, insights, motivation, expectations (Polish, sample-read)
+    # Browser dropdown + pill styles use the multilingual theme set (override any from _qual.json)
+    voc['themeFilters'] = [{'id': t[0], 'label': t[0]} for t in MULTILINGUAL_THEMES]
+    voc['tagStyles'] = {t[0]: t[1] for t in MULTILINGUAL_THEMES}
+    voc['reviews'] = reviews
+    json.dump(voc, open(os.path.join(d, 'voc.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    tagged = sum(1 for r in reviews if r['tags'])
+    print(f'  {code}/{seg}: voc.json ({len(reviews)} reviews (ALL, original lang; {tagged} tagged), avg {avg}★ X-Ray, {prod} produktów)')
 
 if __name__ == '__main__':
     stage, code, seg = sys.argv[1], sys.argv[2], sys.argv[3]

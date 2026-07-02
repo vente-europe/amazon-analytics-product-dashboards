@@ -315,7 +315,6 @@ VOC_STR = [
   h += '<p style="margin:0 0 14px;color:#64748b;font-size:.78rem">Ocena i liczba recenzji pochodzą z danych X-Ray (Amazon). Analiza jakościowa (motywy, cytaty) na podstawie <b>' + analyzed.toLocaleString() + '</b> recenzji zebranych z najlepszych ' + (segment ? esc(segment.toLowerCase()) + ' produktów' : 'produktów') + (countryCode ? ' na amazon.' + esc(countryCode.toLowerCase()) : '') + '.</p>';
   h += '<div class="kpis" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;margin-bottom:14px">';
   h += '<div class="kpi"><div class="kpi-v">' + (D.avgRating ? (+D.avgRating).toFixed(2) + ' ★' : '—') + '</div><div class="kpi-l">Średnia ocena (X-Ray)</div></div>';
-  h += '<div class="kpi"><div class="kpi-v">' + total.toLocaleString() + '</div><div class="kpi-l">Recenzje łącznie (X-Ray)</div></div>';
   h += '<div class="kpi"><div class="kpi-v">' + analyzed.toLocaleString() + '</div><div class="kpi-l">Analizowane recenzje</div></div>';
   h += (D.productCount ? '<div class="kpi"><div class="kpi-v">' + D.productCount + '</div><div class="kpi-l">Produkty</div></div>' : '');
   h += '</div>';"""),
@@ -385,8 +384,8 @@ VOC_STR = [
     (">Clear</button>", ">Wyczyść</button>"),
     ("'Showing ' + filtered.length + ' of ' + reviews.length + ' reviews'",
      "'Wyświetlono ' + filtered.length + ' z ' + reviews.length + ' recenzji'"),
-    ("Showing first 200 of ", "Pierwsze 200 z "),
-    (". Use filters to narrow.", ". Użyj filtrów, aby zawęzić."),
+    ("Showing first 1000 of ", "Pierwsze 1000 z "),
+    (". Use filters/search to reach the rest.", ". Użyj filtrów/wyszukiwarki, aby dotrzeć do pozostałych."),
     # Sentence fragments in the intro line
     ("Based on <b>", "Na podstawie <b>"),
     (" reviews scraped from the top ", " recenzji zebranych z najlepszych "),

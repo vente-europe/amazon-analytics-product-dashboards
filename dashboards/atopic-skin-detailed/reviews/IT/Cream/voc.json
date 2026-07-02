@@ -1,7 +1,7 @@
 {
- "totalReviews": 84580,
  "avgRating": 4.6,
  "productCount": 57,
+ "totalReviews": 378,
  "cpSummary": "Krem kupują głównie osoby z suchą, wrażliwą i atopową skórą (AZS, egzema, łuszczyca, dyshydroza) oraz rodzice szukający ulgi dla dzieci i niemowląt; częstym drugim nabywcą jest opiekun osoby starszej ze świądem odwodnieniowym.",
  "cpWho": {
   "labels": [
@@ -426,1016 +426,2714 @@
  ],
  "themeFilters": [
   {
-   "value": "efficacy_atopic",
-   "label": "Skuteczność na AZS"
-  },
-  {
-   "value": "hydration",
+   "id": "Nawilżenie",
    "label": "Nawilżenie"
   },
   {
-   "value": "itch_relief",
-   "label": "Łagodzenie świądu"
+   "id": "Świąd",
+   "label": "Świąd"
   },
   {
-   "value": "skin_reaction",
-   "label": "Reakcje skórne"
+   "id": "Skóra atopowa / egzema",
+   "label": "Skóra atopowa / egzema"
   },
   {
-   "value": "texture_absorption",
-   "label": "Konsystencja / wchłanianie"
+   "id": "Kojenie / podrażnienie",
+   "label": "Kojenie / podrażnienie"
   },
   {
-   "value": "fragrance",
-   "label": "Zapach / bezzapachowość"
+   "id": "Zapach",
+   "label": "Zapach"
   },
   {
-   "value": "formula_change",
-   "label": "Zmiana formuły"
+   "id": "Wchłanianie / tłustość",
+   "label": "Wchłanianie / tłustość"
   },
   {
-   "value": "packaging",
-   "label": "Opakowanie / dozownik"
+   "id": "Konsystencja",
+   "label": "Konsystencja"
   },
   {
-   "value": "delivery_authenticity",
-   "label": "Dostawa / autentyczność"
+   "id": "Cena / pojemność",
+   "label": "Cena / pojemność"
   },
   {
-   "value": "kids_baby",
-   "label": "Dzieci / niemowlęta"
+   "id": "Opakowanie / pompka",
+   "label": "Opakowanie / pompka"
+  },
+  {
+   "id": "Skład",
+   "label": "Skład"
+  },
+  {
+   "id": "Dla dzieci / niemowląt",
+   "label": "Dla dzieci / niemowląt"
+  },
+  {
+   "id": "Skuteczność / efekty",
+   "label": "Skuteczność / efekty"
+  },
+  {
+   "id": "Alergia / reakcja",
+   "label": "Alergia / reakcja"
   }
  ],
  "tagStyles": {
-  "efficacy_atopic": "pill-red",
-  "hydration": "pill-blue",
-  "itch_relief": "pill-blue",
-  "skin_reaction": "pill-red",
-  "texture_absorption": "pill-amber",
-  "fragrance": "pill-purple",
-  "formula_change": "pill-orange",
-  "packaging": "pill-amber",
-  "delivery_authenticity": "pill-orange",
-  "kids_baby": "pill-purple"
+  "Nawilżenie": "pill-blue",
+  "Świąd": "pill-red",
+  "Skóra atopowa / egzema": "pill-purple",
+  "Kojenie / podrażnienie": "pill-amber",
+  "Zapach": "pill-orange",
+  "Wchłanianie / tłustość": "pill-blue",
+  "Konsystencja": "pill-amber",
+  "Cena / pojemność": "pill-orange",
+  "Opakowanie / pompka": "pill-purple",
+  "Skład": "pill-red",
+  "Dla dzieci / niemowląt": "pill-blue",
+  "Skuteczność / efekty": "pill-amber",
+  "Alergia / reakcja": "pill-red"
  },
  "reviews": [
   {
    "r": 1,
-   "t": "Rozczarowane oczekiwania. Konsystencja kremu przypominała mi „biały silikon”, dość gęsty i trudno się wchłania. Ta cecha sprawiła, że ​​aplikacja była mniej przyjemna niż się spodziewałam, pozostawiając na dłoniach nieprzyjemne uczucie przez dłuższy czas. Wbrew wskazówkom krem ​​nie wchłaniał się łatwo, co zmusiło mnie do wielokrotnego pocierania rąk, próbując zmniejszyć uczucie lepkości i ciężkości, jakie pozostawia. Sprawiło to, że stosowanie produktu było mniej praktyczne, szczególnie w ciągu dnia, kiedy potrzebne jest szybkie wchłanianie, aby móc bez dyskomfortu powrócić do codziennych zajęć. Dodatkowo moja główna obawa, czyli skuteczność produktu, nie została rozwiązana tak, jak oczekiwałem. Pomimo regularnego stosowania zgodnie z załączoną instrukcją – stosowania kremu rano i wieczorem oraz kilka razy dziennie w przypadku wystąpienia pierzchnięć – nie zauważyłam znaczącej poprawy kondycji mojej skóry. Obietnice przywrócenia poziomu nawilżenia i ponownej integracji funkcjonalności bariery hydrolipidowej nie spełniły się, pozostawiając mnie z wciąż suchymi rękami i poszukiwaniem alternatywnego leczenia. Podsumowując, pomimo przystępnej ceny wynoszącej 3,90 euro, krem ​​do rąk Rilastil Xerolact nie spełnił moich potrzeb. Ciężka i trudno wchłaniająca się konsystencja w połączeniu z nieskutecznością w pielęgnacji suchych i popękanych dłoni powoduje, że nie polecam tego produktu każdemu, kto szuka skutecznej i komfortowej ulgi dla wrażliwej i suchej skóry",
+   "t": "Se scaduto il prosotto é NO. Credo che la mia confezionefosse vecchia e rincelofanata ma soprattutto vecchia di produzione perché non dovrebbe avere profumo cheninfatti non ha datonche puzza altamente di prodotto scaduto, anche perche l'erogatore risultava gia sporco con crema vecchia e anche l'interno del tappo, questo PRIMA di utilizzarla io..........Conosco il prodotto e non é cosi!",
    "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "texture_absorption"
+    "Konsystencja",
+    "Opakowanie / pompka"
    ]
   },
   {
    "r": 1,
-   "t": "Doskonały na zapalenie skóry. Od lipca zacząłem mieć pęknięcia na dłoniach i różne egzemy spowodowane mydłem. Próbowałem więcej niż jednego produktu, ale zawsze potrzebowałem kremu z kortyzonem i jeśli go zatrzymam, wszystko zacznie się od nowa. Następnie dzięki temu kremowi (kontynuując stosowanie kortyzonu przez kilka tygodni i odstawiając go, gdy wszystkie pęknięcia i rany zniknęły) moja skóra jest w lepszej kondycji, jedynie od czasu do czasu swędzi. Zużyłam słoiczek kremu w miesiąc (nakładam go co najmniej trzy razy dziennie), ale wydaje się, że działa. Konsystencja jest lekka, niezbyt silikonowa i praktycznie nie ma zapachu. Recenzja zmodyfikowana wrzesień 2025. Używam tego kremu od lat, zawsze miałem zapasowy. Przykro mi to mówić, zmienili formułę. Nie sądzę, żeby skład się zmienił, ale teraz konsystencja jest inna (mniejsza, ale nie bardziej żelowa) i nie wchłania się tak samo (tworzy bardzo silikonowy film i mniej nawilża). Uważam, że zmniejszyliśmy zawartość składników nawilżających, a zwiększyliśmy ilość wody i silikonów. Nie żeby użycie silikonu w kosmetykach było problemem, nawet farmakologicznym, ale nie podoba mi się on na skórze i wolę rzeczy bardziej nawilżające. Takie jest moje doświadczenie, dla innych może to być wciąż doskonały produkt",
-   "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Uwaga: Formuła została zaktualizowana, co pogorszyło wszystko.. Chciałem tylko uświadomić wszystkim tę sytuację: Aderma zdecydowała się zaktualizować formułę bez wyjaśnienia. Jeśli spróbujesz kupić ten krem, wiesz, że otrzymasz „Exomega Control” (i nie jest to błąd w wysyłce, próbowałem w wielu sklepach, zarówno osobiście, jak i online). Produkt jest inny, składniki są inne. Stosowałam starą formułę przez ostatnie 5 lat i to było moje wybawienie w walce z egzemą. Podobnie jak wiele innych, był to jedyny krem, który to kontrolował. Niemożność znalezienia starej formuły faktycznie spowodowała u mnie pewne zaostrzenia, a nowa formuła po prostu nie wywołuje tego samego uczucia i nie można jej stosować tak stale jak stara, ponieważ jest bardziej tłusta. Mam nadzieję, że Aderma zmieni zdanie i zachowa również starą wersję, wielu z nas na to liczy. Co więcej, my (klienci) nie powinniśmy dawać im przepustki tylko dlatego, że ich stary produkt był najlepszym kremem wszechczasów. Załączam zdjęcia składników obu kremów (zatrzymałem starą butelkę), abyś mógł dokonać własnej oceny",
-   "tags": [
-    "efficacy_atopic",
-    "texture_absorption",
-    "formula_change",
-    "packaging"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Próbowałem zarówno bogatych, jak i wrażliwych. Dałem mu trochę czasu, zanim go zrecenzuję, ponieważ chciałem mieć pewność, że naprawdę mi się nie podoba, zanim cokolwiek powiem. Naprawdę nie rozumiem o co tyle szumu wokół tego produktu. Nie uważam, że jest on wystarczająco nawilżający dla mojej skóry, zarówno bogatej, jak i wrażliwej. Składniki też nie są świetne, są w porządku, ale za mało dobrych składników, aby nadać mojej skórze blasku/dobre rezultaty. Ja też przechodzę przez to zdecydowanie za szybko jak na tę cenę.  Skończyło się na tym, że wróciłam do produktu, który daje mi ten blask i widzę rezultaty za połowę ceny i zawiera o wiele lepsze składniki. Nie wiem, czy moje oczekiwania nie były zbyt wygórowane, bo wiele dobrego słyszałem. Ale jestem bardzo rozczarowany tym, co zapłaciłem i wynikami, które uzyskałem. Teraz muszę ciężko pracować, aby przywrócić nawilżenie skóry, bo u mnie to nie wyszło. Używałem tego przez 3 miesiące dla kontekstu. Wracam do Marcelle dla tych pań, które się zastanawiają",
-   "tags": [
-    "hydration",
-    "formula_change"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Nigdy więcej. Pokładałam duże nadzieje w Aveeno Dermexa, myśląc, że ukoi moją wrażliwą skórę. Zamiast tego pogorszyło sytuację – intensywne swędzenie, dyskomfort i dezorientację. Naprawdę myślałam, że rozwinęła się u mnie grzybica skóry, ponieważ podrażnienie było tak silne. Okazało się, że przez cały czas był to ten krem. Reklamowany jako delikatny i odpowiedni dla skóry skłonnej do egzemy, ale w moim przypadku wcale tak nie było. Nie jestem sam – wielu użytkowników zgłasza podobne reakcje, w tym pieczenie, swędzenie i zaostrzenia. Niektórzy podejrzewają nawet, że składniki takie jak dimetikon lub koloidalne płatki owsiane zawierające nikiel mogą wywoływać reakcje alergiczne u osób wrażliwych. Krem nadal leży w moim koszu. Nawet nie chciałem go oddawać – po prostu zostawiłem go chłopakom ze śmieci. Oto, jak źle było. Jeśli Twoja skóra jest reaktywna lub skłonna do alergii, zachowaj ostrożność. To, co powinno pomóc, może tylko pogorszyć sytuację",
-   "tags": [
-    "efficacy_atopic",
-    "itch_relief",
-    "skin_reaction",
-    "formula_change"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Nieskuteczne, za drogie, przereklamowane. Kupiłem to za namową wielu osób w Internecie, które twierdziły, że jest dobry dla wrażliwej skóry. Na mojej twarzy pojawiły się plamy łuszczycowe i niechętnie kupiłam drogie połączenie tego kremu nawilżającego z płynem do mycia twarzy Toleraine i mogę śmiało powiedzieć, że ten krem ​​​​nawilżający to śmieci. Muszę użyć dwóch dużych kropli wielkości groszku, aby pokryć całą twarz i wyschnie w ciągu godziny. Kilka godzin później moja łuszczyca łuszczy się. Dla porównania, Aveeno Eczema Care wytrzymuje cały dzień i nigdy nie spotkałam się z wysuszeniem czy łuszczeniem się skóry. Ta maleńka tubka kosztuje 30 dolarów i działa gorzej niż rzeczy, które można kupić za mniej niż 10 dolarów. Jeśli ludzie na Reddicie lub w innych mediach społecznościowych przekonali Cię do zakupu tego przecenionego badziewia, wyświadcz sobie przysługę i zamiast tego kup coś innego",
-   "tags": [
-    "efficacy_atopic",
-    "hydration"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "UNIKAĆ!!!!!. Absolutnie okropne, jestem przekonany, że to podróbka. Szukałem kremu nawilżającego, który byłby bezpieczny dla mojej skóry, ponieważ mam MCAS, ponieważ ten był oznaczony jako „zatwierdzony w Wielkiej Brytanii dla alergików”, zdecydowałem, że będzie w porządku. Nie mogłem się bardziej mylić. W chwili, gdy nałożyłem to na twarz, zaczęło mnie szczypać, oczy zaczęły łzawić, a nos ciekł. Zapach był obrzydliwy, przypominał spray rozgrzewający, a nie taki, jaki powinien pachnieć krem ​​nawilżający. To również przyszło nieopieczętowane; kolejny czynnik wyjaśniający, dlaczego uważam, że jest to podróbka. Około 5 minut po aplikacji po prostu nie mogłem znieść pieczenia i pieczenia, więc zmyłem je, po czym pojawiła się niezwykle bolesna pokrzywka na wszystkich policzkach i szyi. UNIKAJ tego, jeśli masz alergie! Nie jest bezpieczny dla alergików!",
-   "tags": [
-    "hydration",
-    "skin_reaction",
-    "fragrance",
-    "delivery_authenticity"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Nie wchłania!. Naprawdę chciałem cieszyć się tym produktem, szczególnie biorąc pod uwagę wszystkie wspaniałe recenzje. Jednak jestem bardzo zawiedziony. Po pierwsze, byłam zaskoczona, gdy po nałożeniu piekła mnie w twarz, ponieważ La Roche-Posay jest znany jako święty Graal wrażliwej skóry. Po drugie, po prostu nigdy się nie wchłonął? Nakładałem go, wcierałem i w ciągu godziny zaczynał spływać z mojej twarzy. W najmniejszym stopniu nie nawilżył mojej skóry, a stosowałam go rano i wieczorem od ponad tygodnia, mając nadzieję, że coś się zmieni. Biorąc pod uwagę cenę, recenzje i listę składników, nie jestem pod wielkim wrażeniem. Naprawdę strata pieniędzy. Jedyne, co mogę o nim powiedzieć, co może się ludziom spodobać, to to, że jest naprawdę w 100% bezwonny, w przeciwnym razie jest to okropny produkt",
-   "tags": [
-    "hydration",
-    "texture_absorption",
-    "formula_change"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "z drugiej strony mam 6-miesięczne dziecko, które cierpi na egzemę. Stosuję ten krem ​​i jest jeszcze gorzej, nawet jeśli mam więcej wysypki. Zamówiłam starą prezentację, którą sprzedawca pokazuje przy zamawianiu kremu, a otrzymuję inną prezentację, którą zamówiłam, myślę, że to oszustwo, z drugiej strony mam 6-miesięczne dziecko, które cierpi na ezcemę, stosuję ten krem ​​i jest gorzej nawet przy większej wysypce, NIE MARNUJ PIENIĘDZY, udają, że sprzedają starą prezentację, gdy NIE jest, a krem ​​to oszustwo, nie działa, jest najgorzej",
-   "tags": [
-    "efficacy_atopic",
-    "skin_reaction",
-    "delivery_authenticity",
-    "kids_baby"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Krem zmiękczający Aderma Exomega był najdoskonalszym kremem do kontrolowania mojego egzemy w ciągu ostatnich kilku lat. Krem zmiękczający Aderma Exomega był najdoskonalszym kremem do kontrolowania mojego egzemy w ciągu ostatnich kilku lat! Bardzo niestety ostatnio zmienili formułę i teraz nazywają ją Exomega „Control”. Niestety stracił swoją magię i nie mogę już polecać tego produktu. Jako osoba cierpiąca na egzemę przez całe życie obawiam się konieczności znalezienia alternatywnego kremu. Większość pozytywnych recenzji będzie prawdopodobnie dotyczyć poprzedniego produktu, tak po prostu, aby Cię o tym poinformować",
-   "tags": [
-    "efficacy_atopic",
-    "formula_change"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Krem jest niesamowity, JEŚLI uda Ci się do niego dotrzeć!!!. Krem jest rewelacyjny na moją łuszczycę, jednak dozownik jest okropny!  Na początku działa idealnie, ale po wyczerpaniu połowy butelki nie można już wydobyć kremu.  Skończyło się na tym, że dodałem do niego wodę, aby rozluźnić krem, ale to działa tylko raz, a jeśli spróbujesz ponownie tej samej sztuczki, zniszczysz produkt.  Jeśli to kupujesz, duży dozownik to fałszywa oszczędność, ponieważ musisz wyrzucić połowę kremu, bo nie możesz wydobyć kremu!!!! Ocena tej 1 gwiazdki wyłącznie na podstawie dozownika",
-   "tags": [
-    "efficacy_atopic",
-    "packaging"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Powoduje podrażnienie skóry. Mam wrażliwą skórę i szukałam nowego balsamu do ciała, który pomoże na zaostrzenia, nie zawiera oleju i jest lekki. Używam tego przez prawie tydzień i zauważam wiele nagłych guzków pojawiających się na mojej skórze, a także kilka wysypek. Kupiłem lekką wersję, myśląc, że będzie miała rzadszą konsystencję, jak zawsze, ale jest dokładnie taka sama jak oryginalna. Nie polecam tego i przestanę go używać. Do tego swędzi mnie skóra, a za swoją cenę nie jest tego wart i nie spełnił moich oczekiwań",
-   "tags": [
-    "itch_relief",
-    "skin_reaction",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Bardzo zły sprzedawca. Nie kupię ponownie.. Zarówno to razem z lotinem. Przedmiot dotarł uszkodzony. Potrzebowałem ich dla mojego dziecka, które miało 2 miesiące po tym, jak cierpiało na wysypkę skórną. Aby zwrócić przedmiot, musiałem wysłać im e-mail, a następnie otrzymałem formularz. Lub wyślij go na mój koszt, co byłoby niedopuszczalne, ponieważ dotarło uszkodzone. Sprzedawca był bardzo ruth. Moje dziecko miało wtedy kolkę, nie mogło nawet wychodzić na spacery i przez to całe zamieszanie, jakie robiła. Musiałem poczekać, aż do nich dotrze i dopiero wtedy wysłać kolejny. Nigdy wcześniej nie miałem takiego doświadczenia",
-   "tags": [
-    "skin_reaction",
-    "delivery_authenticity",
-    "kids_baby"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Wygląda jak silikon. Rozsmarowujesz go na twarzy i tam zostaje. Jedyny produkt tej firmy farmaceutycznej, który jak dotąd w ogóle mi nie przypadł do gustu. Ma silikonową konsystencję, przypomina nałożenie na twarz warstwy silikonu budowlanego, tego używanego podczas remontów... nie daje uczucia nawilżenia, a zaduszenia skóry. Konsystencja jest lepka i galaretowata, nie wchłania się, pozostaje dokładnie tam, gdzie ją nałożysz, tworząc na skórze warstwę uniemożliwiającą oddychanie, która oczywiście nie reaguje dobrze. Nie kupiłbym go ponownie i nie polecam",
-   "tags": [
-    "hydration",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Nowa formuła pogarsza mój egzemę. Używałem tego produktu przez około 10 lat. Kiedyś był to mój ulubiony balsam do ciała, jednak nowa formuła bardzo podrażnia moją skórę. Jak mówią inne recenzje, jest bardziej tłusty, ale mi to nie przeszkadza. Od dziecka cierpię na poważne atopowe zapalenie skóry i ten produkt okazał się dla mnie pomocny wiele lat temu. Bardzo polegałam na tym balsamie, aby złagodzić moją wysypkę i suchą skórę. Jednak odkryłem, że ta nowa formuła podrażnia moją skórę i powoduje większy ból i swędzenie. Z przykrością muszę stwierdzić, że muszę znaleźć inną nową markę, aby spróbować ponownie",
-   "tags": [
-    "efficacy_atopic",
-    "itch_relief",
-    "skin_reaction",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Silny zapach chemiczny/reakcja alergiczna. Używałem go już od dłuższego czasu na co dzień, więc miałem go w abonamencie i wszystko było w porządku, dopóki nie przyszła ostatnia partia i coś było z nim nie tak - pachniał chemicznie, a nie owsem, a po nałożeniu na twarz natychmiast wywołał okropną reakcję alergiczną. Najpierw został przeczytany, swędział i piecził, a potem spuchł jak ukąszony przez pszczoły. Powinien otrzymać za to odszkodowanie, ale próbował uzyskać zwrot pieniędzy i nie otrzymał go, dlatego jedna gwiazdka. . . Unikaj",
-   "tags": [
-    "itch_relief",
-    "skin_reaction",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Bardzo zła jakość. Bardzo źle. Krem słabo się wchłania i tworzy na twarzy film, który następnie schodzi kawałkami. Myślałam, że twarz się łuszczy, ale potem zobaczyłam, że to krem. Wziąłem krem ​​​​przeciwsłoneczny do twarzy tej samej marki, który miał ten sam problem, ale przynajmniej w tym miejscu trzeba powiedzieć, że jest to dość powszechny problem w przypadku filtrów przeciwsłonecznych o wysokiej ochronie, ale w przypadku kremu nawilżającego jest to absolutnie nie do przyjęcia. Zdecydowanie stawiam krzyżyk nad produktami tej marki",
-   "tags": [
-    "hydration",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Rozczarowanie. Kiedy już myślałam, że znalazłam swój krem ​​do rąk, przychodzi nowa tubka, która nie ma nic wspólnego z kremem, którego zawsze używałam. Źle pachnie (jak wanilia zmieszana z olejkiem), ma nieprzyjemną konsystencję i wrażenie, jakie pozostawia na skórze. Ten krem ​​był w stanie naprawić moje dłonie jak żaden inny, już po kilku zastosowaniach pozostawił je miękkie i nawilżone. Nie wiem, czy zmienili skład i jaki jest tego powód, ale dla mojej skóry nie robi to absolutnie nic. Bardzo rozczarowany",
-   "tags": [
-    "hydration",
-    "texture_absorption",
-    "fragrance",
-    "formula_change"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "bądź ostrożny przy zakupie. to było moje pierwsze użycie tego kremu. po pierwszej próbie na mojej twarzy zaczęły pojawiać się reakcje. zauważyłem pewne zaczerwienienie. nadal chciałem dać mu jeszcze kilka szans, ale pod koniec tygodnia niestety skończyło się na wielu małych pryszczach, szczególnie wokół brody i między brwiami! Mam cerę mieszaną, ale w ciągu ostatnich kilku lat trądzik pojawiał się rzadko. Całkowicie przestałem już tego używać. Miałam nadzieję, że będzie dobry dla mojej wrażliwej skóry, ale niestety się nie sprawdził",
-   "tags": [
-    "skin_reaction"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Niezadowolony z usługi. Krem jest znakomity, już to wiedziałam. Dobra cena. Dałem jedną gwiazdkę za wysyłkę. W momencie składania zamówienia dostawa następnego dnia była gwarantowana, dlatego zdecydowałam się na dostarczenie przesyłki bezpośrednio do mojej mamy, dla której krem ​​był przeznaczony. Niestety. Zamiast tego, mimo że kurier był znanym i szybkim kurierem, paczka została dostarczona dwa dni później późnym popołudniem. Mama dwa dni została w domu, czekając na kuriera. Bardzo źle",
-   "tags": [
-    "delivery_authenticity"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "To nie działa. Jak mówią inne recenzje, dziobek butelki łatwo się łamie. Mój też od razu się zepsuł. Ponadto cierpię na atopowe zapalenie skóry i od miesiąca stosuję ten produkt rano i wieczorem, czasem nawet kilka razy dziennie i nie widzę najmniejszej poprawy. Rzeczywiście, obszary te są zawsze czerwone i spierzchnięte i wydają się pogarszać. Być może ci, którzy funkcjonują, nie cierpią na prawdziwe atopowe zapalenie skóry",
-   "tags": [
-    "efficacy_atopic",
-    "packaging"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "To nie działa. Jak mówią inne recenzje, dziobek butelki łatwo się łamie. Mój też od razu się zepsuł. Ponadto cierpię na atopowe zapalenie skóry i od miesiąca stosuję ten produkt rano i wieczorem, czasem nawet kilka razy dziennie i nie widzę najmniejszej poprawy. Rzeczywiście, obszary te są zawsze czerwone i spierzchnięte i wydają się pogarszać. Być może ci, którzy funkcjonują, nie cierpią na prawdziwe atopowe zapalenie skóry",
-   "tags": [
-    "efficacy_atopic",
-    "packaging"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Bardzo prosty krem. Nic szczególnego, swędzenie jest i pozostaje, wcale go nie łagodzi, a wręcz może pogorszyć sytuację, cudów nie zdziała. Dostępne opinie są bardzo pozytywne, ja się z nimi nie zgadzam, jest napisane, że nie tłuści twarzy następnego ranka po przebudzeniu, ręce są nadal tłuste, trzeba kilka razy myć, żeby się tego pozbyć, pieniądze wyrzucone w błoto, najgorsze ze wszystkich, gorąco nie polecam zakupu",
-   "tags": [
-    "itch_relief",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Właśnie dostarczono. Właśnie dostarczony przez kuriera. Po otwarciu opakowania opakowanie zewnętrzne produktu było całe pogniecione, po wyjęciu tuby nie posiadało żadnej plastikowej plomby stanowiącej o nowym opakowaniu. Z tego co wiem, mógł być już otwarty i używany. Będąc produktem także dla alergików, uważam to wszystko za naprawdę nic poważnego",
-   "tags": [
-    "skin_reaction",
-    "packaging",
-    "delivery_authenticity"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Jeśli ważność produktu wygasła, odpowiedź brzmi NIE. Uważam, że moje opakowanie było stare i nawoskowane, ale przede wszystkim stare z produkcji, bo nie powinno mieć zapachu, którego w rzeczywistości nie ma, bo mocno pachnie przeterminowanym produktem, także dlatego, że dozownik był już zabrudzony starym kremem, a także wnętrze zakrętki, to było PRZED użyciem.......Znam ten produkt i tak nie jest!",
-   "tags": [
-    "fragrance",
-    "packaging"
-   ]
-  },
-  {
-   "r": 1,
-   "t": "Świetny produkt - słaba obsługa Amazon. Nie ma nic złego w tym produkcie – naprawdę to uwielbiam. Moje doświadczenie było okropne z powodu braku usług Amazon. Mój partner i ja zamówiliśmy to kilka razy i prawie za każdym razem wysyłali mi inną wersję tego. Ciągłe powtarzanie procesu zwrotu jest niezwykle frustrujące",
+   "t": "Fatti bene!!",
    "tags": []
   },
   {
    "r": 1,
-   "t": "To już nie jest to, co było. To był mój ulubiony krem ​​do rąk ze względu na sposób, w jaki pozostawiał moje dłonie i zapach, ale w ostatnich 3 zamówieniach przyszedł z nieprzyjemnym zapachem... Po otwarciu i nałożeniu w ciągu kilku sekund wydziela okropny zapach. Dałem mu więcej niż jedną szansę, ale nic, za każdym razem zdarzało mi się to samo... :(Amazonowi udało się bez problemów dokonać zwrotu i zwrotu pieniędzy",
+   "t": "Vergognoso. Il prodotto contiene PEG, non si vedono qui gli ingredienti. Mi dispiace averlo preso. Non voglio usare sul mio bimbo prodotti che contengono PEG",
    "tags": [
-    "fragrance"
+    "Skład"
    ]
   },
   {
    "r": 1,
-   "t": "Zwykły krem ​​nawilżający i nic więcej. Cierpię na znaczne pierzchnięcie dłoni, głównie w obszarze palca/opuszki palca. Po tygodniu intensywnego stosowania, rano i wieczorem, nawet w rękawiczkach itp. Uważam, że ten krem ​​jest w zupełności wystarczający, nic specjalnego; zdecydowanie normalny krem ​​nawilżający, ale absolutnie nie jest to nawet cień odbudowy",
+   "t": "Insoddisfatta del servizio. La crema è ottima la conoscevo  già . Prezzo buono . Ho dato una stella per la spedizione. Al momento dell’ordine era assicurata consegna giorno dopo così ho deciso di far recapitare il pacco direttamente a mia mamma a cui la crema era destinata. Purtroppo. Invece ,nonostante il corriere fosse un corriere famoso e veloce, il pacco è stato recapitato due giorni dopo nel tardo pomeriggio. Mia mamma è sta due giorni in casa ad attendere il corriere. Pessimo",
    "tags": [
-    "hydration"
+    "Konsystencja",
+    "Cena / pojemność"
    ]
   },
   {
    "r": 1,
-   "t": "Nie robi tego, co jest napisane na puszce. Mojego poprzedniego kremu nawilżającego do ciała nie ma w magazynie, a ten wydaje się dobrym zamiennikiem.  Ale niestety tak nie jest.  Bardzo chciałam polubić ten produkt, ale niezbyt dobrze łagodzi swędzenie i uważam, że jest bardzo tłusty.  Ma również lekko leczniczy zapach, który moim zdaniem jest nieprzyjemny.  Nie kupię go ponownie",
+   "t": "PESSIMO. PRODOTTO NON CONFORME ALLA DESCRIZIONE. AVEVO BISOGNO DELLA CREMA PER UNA BAMBINA È ARRIVATA UN ALTRA CREMA CON INGREDIENTI E PRINCIPI ATTIVI DIVERSI",
    "tags": [
-    "hydration",
-    "itch_relief",
-    "texture_absorption",
-    "fragrance"
+    "Konsystencja",
+    "Skład",
+    "Dla dzieci / niemowląt"
    ]
   },
   {
    "r": 1,
-   "t": "Dostałem wysypki. Wszystko w tym produkcie POWINNO być kompatybilne z moją skórą. Niestety wypryski pojawiły się na całej twarzy, gdziekolwiek się dotknąłem. Dałem mu, wziąłem Benadryl i zmyłem. Spróbowałem jeszcze raz 48 godzin później, ale znowu dostałem strasznej wysypki. Zastanawiam się nawet, czy jest to legalny produkt tej marki, skoro przyszedł bez plomby",
+   "t": "Very disappointed with this order. Item arrived without the pump/dispenser cap that is needed to press and dispense the cream.The product is incomplete and I cannot use it properly.I tried to request a replacement or a refund through the system, but it didn’t allow me to complete the request",
    "tags": [
-    "skin_reaction",
-    "delivery_authenticity"
+    "Opakowanie / pompka"
    ]
   },
   {
    "r": 1,
-   "t": "Produkt wadliwy - kupuj gdzie indziej!!. Zwykle fantastyczny produkt. Ta butelka z pompką od Amazona wyglądała dobrze i autentycznie, ale po użyciu była pełna czegoś, co wyglądało jak woda z pozostałościami kremu. Nie wiesz, czy manipulacje, wadliwe, stare zapasy? Nie ryzykuj – to bardzo niepokojące. Amazon uprzejmie natychmiast przyznał zwrot pieniędzy. Kup ten wspaniały produkt gdzie indziej",
+   "t": "Beware: Formula was updated and it made everything worse.. Just wanted to make everyone aware of this situation: Aderma decided to update the formula with no explanation. If you try to buy this cream you know get 'Exomega Control' (and this is not a shipment error, I have tried in multiple stores both in person and online). The product is different, the ingredients are different. I had been using the old formula for the last 5 years and it was my salvation against eczema. Like many, this was the only cream that controlled it. Not being able to find the old formula actually caused me some flare ups and the new formula just does not feel the same way and cannot be applied as constantly as the old one as it is more oily. I really hope Aderma changes their mind and keeps the old one available as well, many of us count on that. Moreover we (the clients) should not give them a pass just because their old product was the best cream ever.I am attaching pictures of the ingredients on both (I kept an old bottle) for you to make your own judgement",
    "tags": [
-    "itch_relief",
-    "packaging"
+    "Skóra atopowa / egzema",
+    "Opakowanie / pompka",
+    "Skład"
    ]
   },
   {
    "r": 1,
-   "t": "Natychmiast uszkodziłem sobie skórę. Nigdy nie pisałem recenzji. Użyłam tego balsamu raz i na mojej twarzy i szyi pojawiły się małe czerwone pryszcze. Nigdy nie doświadczyłem czegoś takiego. Nadal zmagam się z wypryskami (ponad 50 małych wyprysków) kilka dni później. Pomyślałem, że powinienem ostrzec innych. Jeśli musisz spróbować, kupuj od renomowanego kupującego",
+   "t": "No es bueno. En lo personal nolo recomiendo ya que ami bebe le empeoro la eczema mas es lo que cuesta el producto",
    "tags": [
-    "skin_reaction"
+    "Skóra atopowa / egzema",
+    "Dla dzieci / niemowląt"
    ]
   },
   {
    "r": 1,
-   "t": "Zwróć artykuł, ponieważ nie przypomina produktów La Roche Possay. Produkt nie przypadł mi do gustu, nie jest wierny innym produktom marki LA Roche Posay, które zakupiłam, nie przypadł mi do gustu, nie wygląda na produkt oryginalny, krem ​​ma bardzo dziwny zapach, choć ogólnie ten produkt nie ma zapachu, ani też nie ma zazwyczaj bardziej płynnej konsystencji",
+   "t": "The new formula makes my eczema worse. I used this product for around 10 years. It used to be my favorite body lotion product, but my skin get irritated by this new formula. As other reviews said, it's more oily, but I don't mind of it. I have serious atopic dermatitis since I was kid, and I found this product helpful many years ago. I relied on this lotion to relieve my rash and dry skin a lot. However, I found this new formula irritate my skin and make it more pain and itching. Sadly to say, I have to find other new brand to try again",
    "tags": [
-    "texture_absorption",
-    "fragrance"
+    "Nawilżenie",
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie"
    ]
   },
   {
    "r": 1,
-   "t": "Reakcja skórna w ciągu 3 dni stosowania.  Proszę zachować szczególną ostrożność!!!. Reakcja na krem ​​wystąpiła już po 3 dniach stosowania.  Sam krem ​​ma okropny, chemiczny zapach.  Nie mogę polecić tego kremu, zwłaszcza jeśli masz wrażliwą skórę.  Wracam do stosowania balsamu do ciała La Roche Posay.  Gdybym mógł dać recenzję zerową, zrobiłbym to",
+   "t": "on the other hand I have a 6 month old baby who suffers from ezcema apply this cream and it has been worse even I present more rash. I ordered the old presentation, which the seller shows when you order the cream, and I receive different presentation that I ordered, I think it is a scam, on the other hand I have a 6 month old baby who suffers from ezcema apply this cream and it has been worse even shepresent more rash, DO NOT WASTE MONEY in this, they pretend to sell the old presentation when it is NOT and the cream is a scam does not work, it is the worst",
    "tags": [
-    "skin_reaction",
-    "fragrance"
+    "Dla dzieci / niemowląt",
+    "Alergia / reakcja"
    ]
   },
   {
    "r": 1,
-   "t": "Nie działał na egzemę. Bazując na opiniach, miałam wielką nadzieję, że ten lek rozwiąże egzemę mojego dziecka, ale okazało się zupełnie odwrotnie.  Jej wysypki robią się czerwone za każdym razem, gdy tego używamy i bardzo piecze.  Stosowałam go jeszcze przez kilka tygodni, jednak ten krem ​​w ogóle nie pomógł.  Mam nadzieję, że uda mi się to zwrócić.  To była strata pieniędzy",
+   "t": "Price increased significantly. I like the product, but the price has increased significantly in a very short period, which is disappointing",
    "tags": [
-    "efficacy_atopic",
-    "skin_reaction",
-    "kids_baby"
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Very bad seller. Wint buy again.. Both this toghether with the lotin. Item arrived damaged. Needed them for my baby who was 2 months old after he suffered from a skin rush. To return item i had to send them email and then i received the form. Or send it at my cost wich was unacceptable as it has arrived damaged. Seller was very ruth. My baby had bad collic at the time coudnt even go out for walks and the all the fuss she made. Had to wait for it to get to them and only  then have another sent out. I have never had such a experience before",
+   "tags": [
+    "Dla dzieci / niemowląt"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Aderma Exomega Emollient Cream was the most PERFECT cream to control my eczema over the last few .... Aderma Exomega Emollient Cream was the most PERFECT cream to control my eczema over the last few years!! Very sadly, they have changed the formula recently and now call it Exomega \"Control\". Unfortunately it has lost its magic and I can no longer recommend this product. Being a lifelong eczema patient, I am dreading having to find an alternative cream. Most of the positive reviews will probably date back to the previous product, just to make you aware",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Did not work for eczema. Based on the reviews, I was very hopeful that this would resolve my child's eczema, but this did quite the opposite.  Her rashes turn red every time we use this, and it stings quite a lot.  I continued using it for a few weeks, but this cream has not helped at all.  I hope I can return this.  It was a waste of money",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Dla dzieci / niemowląt",
+    "Skuteczność / efekty",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "not good for eczema. this made me break out really bad, i was literally covered in eczema on my whole entire body. Definitely don't recommend it for people with super sensitive skin. I am also going through steroid induced eczema..so this didn't help my situation whatsoever",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Not the same as old ones and new doesnt work the same. Wrong description and they have changed ingredients and it does NOT work anymore and the price went up. I am in big trouble trying to find the old ones",
+   "tags": [
+    "Cena / pojemność",
+    "Skład"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Item arrived damaged. I received the item with the cap completely broken and am terribly disappointed as I use it for my baby. Am trashing this item as I dont find it safe to use for my kid",
+   "tags": [
+    "Dla dzieci / niemowląt",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Decepcionante. La compramos porque la recomendó la pediatra para la piel de mi bebé y al usarla por un tiempo vimos que provocó granitos en su piel, al revisarla la pediatra nos comentó que la crema era la que le generaba los granitos y mejor la cambiamos, probablemente cambiaron la fórmula y por eso ya no es tan efectiva",
+   "tags": [
+    "Konsystencja",
+    "Dla dzieci / niemowląt"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Formula has changed :(. Why have you changed the formula??? It was perfect and thick, lasted all night on my toddler's super dry skin. Now it's just watery and not enough",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Wouldn't recommend. Left my skin very greasy & I broke me out in little spots. I am now using this up as a foot cream, waste of money",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Cambiaron la formula original. Ya no hace lo que hacia antes, desde finales de 2023 cambiaron la formula, ahora solo empeora ala situacion de la piel",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "One Star. After applying allergy to my baby",
+   "tags": [
+    "Dla dzieci / niemowląt",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ha llegado roto. N me ha llegado exactamente la misma crema pero si otro tipo de la misma gama, además el frascoha llegado roto, está claro que el embalaje era insuficiente",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "One Star. Didn't do much for my eczema",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "No me gustó. La crema es muy grasosa, te deja brillosa la cara y a mí me ardió al aplicarla",
+   "tags": [
+    "Wchłanianie / tłustość",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Desafortunada compra. El producto está en mal estado.La entrega fue rápida y buena de eso no hay queja.La crema esta rancia, tiene mal olor",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "No es lo mismo. No estoy segura si cambiaron la fórmula o me mandaron un producto pirata. Desde el color, el olor y la textura es diferente. La comparé lado a lado con una botella antigua",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Super crema!. Per la mia piccola che soffre di dermatite atopica è davvero top!!!!",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Crema. Crema molto idratante e antisecchezza",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Per la pelle atopica è perfetta. Ottima crema",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Buona crema per pelle atopica, corposa ma efficace. Ho acquistato questa ADerma Exomega Control crema 400 ml per mia figlia, che ha la pelle atopica e la notte tende spesso a grattarsi fino a irritarsi. Dopo aver provato diverse creme, ho deciso di darle una possibilità leggendo le buone recensioni, e devo dire che finora mi ha convinta abbastanza.La crema ha una texture morbida e piacevole, si stende facilmente e non lascia la pelle unta. Già dopo qualche giorno di utilizzo ho notato che il prurito notturno è diminuito e mia figlia riesce a dormire più tranquilla. Anche le zone più secche e arrossate sembrano più idratate e calme.La composizione è corposa, ma si stende bene e lascia una sensazione di protezione senza ungere troppo. Mi piace anche il fatto che arrivi sigillata con la pellicola protettiva, segno di buona igiene, e soprattutto il tappo erogatore, che trovo comodissimo: evita sprechi e mantiene il prodotto pulito.Do 4 stelle perché non è  molto che sto provando questa crema,ma per ora mi sembra davvero un buon prodotto.Consegna veloce",
+   "tags": [
+    "Nawilżenie",
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Mai più pelle secca. Finalmente ho trovato il prodotto ideale per la mia pelle, usandolo costantemente ho risolto i problemi di pelle secca. Lo consiglio a chi ha il mio stesso problema",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Ottima crema idratante. Ottimo.Lo uso da molti anni perchè è un prodotto molto idratante",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottima crema per pelli delicate. Già conosco il prodotto acquistato in precedenza in farmacia. Utlizzato come idratante e anti prurito per il corpo e per irritazione da pannoloni su persona anziana.Ottimo prodotto acquistato con un' ottima offerta!",
+   "tags": [
+    "Nawilżenie",
+    "Świąd",
+    "Kojenie / podrażnienie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottimo. Ottimo",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Ok. Da provare",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Veramente efficace. da usare per il prurito notturno. Mi ha aiutata molto",
+   "tags": [
+    "Świąd",
+    "Skuteczność / efekty"
    ]
   },
   {
    "r": 2,
-   "t": "STRZEŻ SIĘ, jeśli masz suchą lub wrażliwą skórę. Wiązałam z tym kremem duże nadzieje, widziałam go w internecie i kupiłam ze względu na zaufanie do marki La Roche Posay, ale to zdecydowanie nie dla mnie. Nie zrozumcie mnie źle, to dobry krem ​​nawilżający i ze wszystkich, które wypróbowałam, zdecydowanie daje najbardziej błyszczący połysk. Ale z pewnością są z tym problemy. Kiedy tego dnia nałożyłem go po raz pierwszy, zdałem sobie sprawę, że powoduje lekkie szczypanie wokół oczu, coś, czego nigdy wcześniej nie czułem, a kiedy przespałem z nim całą noc, obudziłem się z wypryskami na całej skórze, a zwłaszcza na brodzie, swędziało, zaczerwieniało i bolało, co wskazywało na to, że coś niszczy moją barierę skórną. Nie jestem pewien, czy to aktywny składnik, czy może inny preparat niż ten, który widziałem w Internecie, ale po prostu nie jest on odpowiedni dla mojej suchej skóry i nie poleciłbym go więc każdy taki jak ja. Na marginesie, ale wartość tego jest okropna. 14 funtów za coś, co wydaje się tubą podróżną, jest szalone. 3/10 niestety",
+   "t": "Confezione esterna integra ma dentro tappo rotto. Il flacone aveva il tappo rotto",
    "tags": [
-    "hydration",
-    "itch_relief",
-    "skin_reaction",
-    "formula_change"
+    "Opakowanie / pompka"
    ]
   },
   {
    "r": 2,
-   "t": "Nowa formuła. Należy pamiętać, że większość tych recenzji nie jest obecnie aktualna, ponieważ formuła uległa zmianie. Od roku znowu mam problemy ze skórą i tylko zastanawiam się, czy może to być spowodowane zmianą receptury...?! Kupiłem zapas starego preparatu i dopiero mniej więcej o tej porze w zeszłym roku, kiedy musiałem kupić więcej, odkryłem zmianę w składnikach, a ponieważ moja egzema pojawia się w postaci plastrów, nie występowało to u mnie, może to być ten nowy przepis „kontrolny”",
+   "t": "Prodotto buono ma pessimo il contenitore. Non capisco perché questa crema che è un buon prodotto venga messa in un contenitore che sotto è sempre tagliato e sembra che il contenitore sia “scoppiato” e dall’erogatore fa sempre difficoltà ad uscire la crema questo fa sì che gran parte del prodotto NON venga utilizzato a meno che non si tagli la confezione per travasarla, non capisco è da anni che la uso e ho sempre riscontrato questo problema e mi sono anche stufata",
    "tags": [
-    "efficacy_atopic",
-    "formula_change"
+    "Konsystencja",
+    "Opakowanie / pompka"
    ]
   },
   {
    "r": 2,
-   "t": "Niestety, efekt był odwrotny. Kupiony został dla starszej osoby, która cierpi na silne swędzenie spowodowane odwodnieniem, niestety przyniósł odwrotny skutek: po rozsmarowaniu go na nogach i plecach nie spaliśmy całą noc, bo swędzenie nasilało się... uspokoiło się już po zmyciu. Szkoda, bo wydawało się naprawdę pożywne, ale chyba niezbyt delikatne. Dlatego polecam go jako środek nawilżający, ale nie należy polegać na jego „uspokajających” właściwościach w przypadku swędzenia",
+   "t": "Forse non l’ho capita. C’è scritto sull’ etichetta che è efficace nel trattamento della dermatite atopica. Beh, da questo punto di vista non ho notato nessun miglioramento. Nessuno. Poi si certo... idratare idrata... Forse non l’ho capita, per adesso per me è no",
    "tags": [
-    "hydration",
-    "itch_relief"
+    "Skóra atopowa / egzema",
+    "Skuteczność / efekty"
    ]
   },
   {
    "r": 2,
-   "t": "Niestety, efekt był odwrotny. Kupiony został dla starszej osoby, która cierpi na silne swędzenie spowodowane odwodnieniem, niestety przyniósł odwrotny skutek: po rozsmarowaniu go na nogach i plecach nie spaliśmy całą noc, bo swędzenie nasilało się... uspokoiło się już po zmyciu. Szkoda, bo wydawało się naprawdę pożywne, ale chyba niezbyt delikatne. Dlatego polecam go jako środek nawilżający, ale nie należy polegać na jego „uspokajających” właściwościach w przypadku swędzenia",
+   "t": "Prodotto abbastanza buono, pompetta da migliorare. Metà prodotto va perso, ilDispenser non è pratico e aspira fino a metà prodotto. Peccato",
    "tags": [
-    "hydration",
-    "itch_relief"
+    "Opakowanie / pompka"
    ]
   },
   {
    "r": 2,
-   "t": "Dobry produkt, ale okropne opakowanie. Nie rozumiem po co ten krem, który jest dobrym produktem, umieszczony w pojemniczku, który zawsze jest podcięty od spodu i mam wrażenie, że pojemnik \"wybuchł\" i krem ​​zawsze ma trudności z wydostaniem się z dozownika. Oznacza to, że duża część produktu NIE jest używana, chyba że opakowanie zostanie przycięte w celu przeniesienia. Nie rozumiem. Używam go od lat i zawsze spotykałem się z tym problemem i też mi się nudzi.",
+   "t": "New formula. Please note that the majority of these reviews now do not stand as the formula has changed. I have been having problems with my skin again for the last year and am only just questioning that it may be down to the change in formula....?! I had a stock of the old formula bought and it was only around this time last year when I had to buy more that I discovered the change in ingredients, and as my exzema comes in patches it didn't occcur to me it may be this new \"control\" recipe",
    "tags": [
-    "packaging"
+    "Skład"
    ]
   },
   {
    "r": 2,
-   "t": "Zły krem ​​w tej samej butelce. Dziwi mnie fakt, że to nie jest ten sam krem, co ten w tej samej buteleczce. Niestety nie ma tej samej jakości i właściwości. Różnicę, którą widać na buteleczce to: „Szybko się wchłania, szybko się wchłania”. Dużo lepszy jest ten, który nie wchłania się szybko. Możesz użyć innego koloru. Jest to zatem przypadkowy zły zakup wynikający ze złego oznakowania produktu",
+   "t": "Greasy. It was too greasy for me",
    "tags": [
-    "texture_absorption"
+    "Wchłanianie / tłustość"
    ]
   },
   {
    "r": 2,
-   "t": "Paczka nie została zapieczętowana!. Wczoraj otrzymałem przedmiot i tuba nie była zapieczętowana. Kiedy otworzyłam zakrętkę, wyglądało to tak, jakby ktoś już wcześniej próbował go używać i nie było żadnej plomby. Sam krem ​​na razie wydaje się w porządku, nie nawilża jakoś super, ale radzi sobie lepiej niż balsam nawilżający Cetaphil, którego używałam wcześniej. To niewielka ilość jak za tę cenę, a za taką cenę spodziewałam się otrzymać zapieczętowany produkt!",
+   "t": "buena pero deja un olor a metalico. es buena crema pero lo malo deja a uno con olor a metalico",
    "tags": [
-    "hydration",
-    "packaging",
-    "delivery_authenticity"
+    "Zapach",
+    "Konsystencja"
    ]
   },
   {
    "r": 2,
-   "t": "Dużo pozostałości. Bardzo chciałam polubić ten produkt, bo jestem fanką innych produktów tej marki, ale ten krem ​​nawilżający to dla mnie duże nie.. Chwilę po nałożeniu zaczyna się mechacić i zbijać. Nawet po „wyschnięciu”, jeśli przetrę palcem twarz, duża część kremu nawilżającego po prostu złuszcza się i zostaje pozostałość. Dlatego nie można go stosować pod makijaż. Całkiem rozczarowujące",
+   "t": "Bien pero..... Es un producto muy normalillo para un precio  excesivo.Muy caro",
    "tags": [
-    "hydration"
+    "Cena / pojemność"
    ]
   },
   {
    "r": 2,
-   "t": "Zdecydowanie dobry krem, kiepskie opakowanie/dozownik. Nie miałam jeszcze okazji przetestować kremu, gdyż ułamała się pompka dozująca na górze. Wygląda na to, że mogło się to zdarzyć podczas transportu, bo butelka nie była wyściełana i miała dużo luzów w pudełku. Szkoda, chętnie wypróbowałabym go na neurodermit mojego dziecka",
+   "t": "i don't know really. expensive, not sure if it works on my daughter's face",
    "tags": [
-    "packaging",
-    "kids_baby"
+    "Cena / pojemność",
+    "Skuteczność / efekty"
    ]
   },
   {
-   "r": 2,
-   "t": "Zawiedziony. Po przeczytaniu recenzji stwierdziłam, czemu nie. Przy moich problemach skórnych myślałam, że ten krem ​​w końcu pozbędzie się moich zmartwień, ale nie, nie nawilża wystarczająco i nie regeneruje bariery ochronnej skóry. Nawodnienie nie jest wystarczająco głębokie i niewystarczająco skuteczne. Jedynym plusem jest lista składników.",
+   "r": 1,
+   "t": "Prodotto alterato odore di plastica. Prodotto alterato, odore di plastica e crema grumosa. Non sono certa che sia originale",
    "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "formula_change"
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ottima per dermatite. Da luglio ho iniziato avere fessurazioni sulle mani e eczemi vari causati dal sapone. Ho provato più di un prodotto ma  avevo sempre bisogno della crema al cortisone e se la interrompevo ricominciava tutto da capo. Poi con questa crema (continuando a usare cortisone per qualche settimana e smettendo quando tutte le fessurazioni e le piaghette sembrabano essere sparite) la mia pelle sta meglio, solo qualche prurito ogni tanto. Ho fatto fuori un barattolo di crema in un mese (la metto almeno tre volte al giorno) però sembra funzionare.La consistenza è leggera, poco siliconica e non ha praticamente odore.Recensione modificata settembre 2025Ho usato questa crema per anni, ne avevo sempre una di scorta. Mi dispiace dire che hanno modificato la formula. Non mi sembra sia cambiato l' inci ma adesso la consistenza è diversa (meno senza più gelosa) e non si assorbe allo stesso modo (fa una patina molto siliconica e idrata meno). Credo che abbiamo diminuito le componenti idratanti e aumentato acqua e siliconi. Non che sia un problema l' uso del silicone in cosmetica, anche in quella \"farmacologica, ma non mi piace sulla pelle e preferisco cose più idratanti. Questa è la mia esperienza, per altri potrebbe essere comunque un ottimo prodotto",
+   "tags": [
+    "Nawilżenie",
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Semplicissima crema. Niente di particolare , il prurito c è e rimane non lo attenua minimamente, anzi forse peggiora la situazione , non fa miracoli.Le recensioni che si trovano sono molto positive io non sono dello stesso avviso , si scrive che non unge alla faccia la mattina dopo al risveglio le mani sono ancora unte , bisogna lavare più volte per liberarsene ,soldi buttati la peggiore in assoluto non consiglio vivamente acquisto",
+   "tags": [
+    "Świąd",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Appena consegnato. Appena consegnato dal corriere. Aperto l'involucro, la confezione esterna del prodotto era tutta accartocciata, una volta prelevato il tubo, quest'ultimo non aveva alcun sigillo di plastica che ne determina la nuova confezione. Per quello che ne so io, può essere stata già aperta e utilizzata. Essendo un prodotto anche per allergici, trovo tutto questo davvero poco serio",
+   "tags": [
+    "Opakowanie / pompka",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Negativo ho buttato i soldi!. Arrivato nei tempi,preso e buttato,in quanto arrivato schiacciato e tutto il prodotto fuoriuscito,era impossibile fare una restituzione,senza parole,buttato 17 euro!!!",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Puzza. L’odore certamente non dei migliori. Ho fatto il reso",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "NON COMPRATELA!. Prodotto arrivato con la scatola rotta e attaccata con lo scotch. Crema che profuma di sapone! Sicuramente posso dire che non è il prodotto originale avendolo già comprato altre volte in farmacia!! Ho fatto il reso!",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Product pump is opened. Product  pump is completly opened but the packing out ouside is ok",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Defective pump action. I have bought this Aveeno moisturiser twice and I should have learnt from the first order!The pump action stopped working on both purchases so I was unable to get more than half of the product out. Incredibly annoying",
+   "tags": [
+    "Nawilżenie",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Fake product. Fake product",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Stinks. Why is no one talking about how disgusting this smells?? It’s smells like fishy lash glue or hair glue. Horrible. I got out of the shower and put this on and was like what on earth is that smell!!!! I even asked my boyfriend to come and smell it and he agreed it smells awful. I had to get back in the shower and wash it off",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Never again. I had high hopes for Aveeno Dermexa, thinking it would soothe my sensitive skin. Instead, it made things worse—intense itching, discomfort, and confusion. I genuinely thought I had developed a skin fungus because the irritation was so bad. Turns out, it was this cream all along.It’s marketed as gentle and suitable for eczema-prone skin, but for me, it was anything but. I’m not alone—many users report similar reactions, including burning, itching, and flare-ups.Some even suspect ingredients like dimethicone or colloidal oatmeal, which contains nickel, may trigger allergic responses in sensitive individualsThe cream is still sitting in my bin. I didn’t even want to give it away—just left it for the bin guys to take. That’s how bad it was. If your skin is reactive or prone to allergies, be cautious. What’s supposed to help might just make things worse",
+   "tags": [
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie",
+    "Skład"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Cream is amazing IF you can get to it!!!. The cream is amazing for my psoriasis, however the dispenser is awful!  Works perfectly to begin with but by the time you get to half a bottle you can no longer get the cream out.  I ended up adding water to it to loosen the cream, but that only works once, after that if you try the same trick again you ruin the product.  If you’re buying this, the large dispenser is a false economy, as you have to throw half the cream away as you can’t get the cream out!!!!Rating this 1 star purely based on the dispenser",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Opakowanie / pompka",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Beware of Artificial Aveeno. Aveeno is an excellent product. However, the cream I received this time is an artificial product. Please check authenticity of the product  and seller. Image in Amazon and delivered product is different. So uploaded the image for reference",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "of no value if you have eczema. worthless, burns my skin like everything else",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Not suggested. I asked for refund since the product is bad and can't stop itching. I did the online searching which said they changed the formulas in the UK. I ended up order the one from US Amazon which works well",
+   "tags": [
+    "Świąd",
+    "Konsystencja",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Quality compromised after new packaging!!. QUALITY HAS BECOME CHEAP!! Not GOOD ANYMORE...TOO WATERY NO MUCH  EFFECT",
+   "tags": [
+    "Cena / pojemność",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Horrible smell.. Why did you choose this product over others?:I don't exactly know what is that smell - like rubbing alcohol or ? but I feel I am doing more damage to my skin when I apply this because of the revolting smell",
+   "tags": [
+    "Zapach",
+    "Skład"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Not sure it's the real product!",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Aveeno Dermexa. This one had a bit of a weird odour",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Lotion leaked insids the packaging. Damaged, not sure if this was already used as the lotion leaked and dont think its safe to use it on my child",
+   "tags": [
+    "Opakowanie / pompka",
+    "Dla dzieci / niemowląt"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Strong chemical odour / allergic reaction. Was using this for quite a while now on a daily basis so had it on the subscription and it was all fine untill the most recent batch came in and there was something wrong with it - it smelt chemically instead oatly and when was put on face it instantly induced horrible allergic reaction. First got read, itchy and burning and then swollen like stung by bees. Should get compensation for that but tried to get a refund and didn't receive it therefore one star... Avoid",
+   "tags": [
+    "Świąd",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Broken pump on receipt. The cream has been fine, but sadly it arrived with a broken pump. Not ideal, especially disappointing for such an expensive product",
+   "tags": [
+    "Cena / pojemność",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Opened. I received it open",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Made it worse. What started as mild eczema became extremely bad infected eczema after just one use!",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bad. Bad",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Did not suit my skin so gave to away. Disliked it completely",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Awful. Skin feels even more ichy and drier. There is a disgusting sticky feeling. Very expensive - product does not work at all",
+   "tags": [
+    "Wchłanianie / tłustość",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Terrible reaction. We were recommended this as me and my son react to everything else we’ve tried. Unfortunately this is no exception. The itching is so intense after using it, we have to use antihistamine and it effects our sleep as we still itch. 😩",
+   "tags": [
+    "Świąd",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Faulty product- buy elsewhere!!. Usually a fantastic product. This pump bottle from Amazon looked fine and authentic but when used was just full of what looked like water with residue of cream. Don’t know if tampered with, faulty, old stock? Don’t risk it - very concerning . Amazon kindly issued refund immediately. Buy this wonderful product elsewhere",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "New pump is appalling. The new pump is terrible - I can't even get a single drop out of the bottle. No issues at all with the old design.Absolutely dreadful update",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "The pump stopped working. The pump of the cream stopped working and when I approached within 30 days I was told I am not eligible to return",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Made my Psoriasis worse !. Always used Cetraben or Diprobase, thought I would give Aveeno a go. After a week of using my Psoriasis seemed worse. Gone back to Cetraben, much better. Not recommended if a Psoriasis sufferer",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Disappointed. After using the balm and seeing great results I thought the emollient would also be great. Unfortunately, ot didn't work on my sons skin at all",
+   "tags": [
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Aveeno 500 Dermexa. The aveeno cream was open and label tampered with",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Pump dispenser not working. Pump dispenser not working",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "1st bottle the plunger didn't work, replaced by broken plunger in 2nd bottle",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "just simple cream. before Aveeno was better",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Unsealed box received. The box was not sealed which make you suspect on the authenticity of the product",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Old stock. Old stock don’t buy expiry date very near",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "One Star. Was in this condition returning",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Ottimo per lenire la pelle iperreattiva. Aveeno è sempre una garanzia di qualità! Questa crema nello specifico dona sollievo e idratazione anche alle pelli più sensibili.  Ha una buona corpositá quindi non ne serve tanta per l'uso quotidiano permettendo ai flacone di durare a lungo.  Il profumo è gradevole e quasi impercettibile",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottimo. E' una pasta per bambini ma la uso per eritema, varie esplosioni allergiche cutanee, rossori solari. Funziona benissimo",
+   "tags": [
+    "Dla dzieci / niemowląt",
+    "Skuteczność / efekty",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Meravigliosa!. Dopo mesi di disidrosi alle mani e nessun miglioramento con altre creme, questa è stata una svolta. Già dopo pochi giorni la pelle è guarita. Finalmente le mie mani stanno bene. Mai più senza!",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Efficace. Ottima per idratazione e riduzione del prurito. Peccato che unge e viene poco assorbita",
+   "tags": [
+    "Świąd",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Consiglio. Ottima consistenzaNon ha profumoFa il suo dovere",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Finalmente la crema giusta. Ottima crema reidratante per pelle secca e pruriginosa .Senza profumo totalmente..quindi comunque perfetta.Adatta per chi come me soffre di dermatite",
+   "tags": [
+    "Nawilżenie",
+    "Skóra atopowa / egzema",
+    "Konsystencja"
    ]
   },
   {
    "r": 3,
-   "t": "Działa drażniąco i okluzyjnie na moją atopową skórę. Moja skóra jest z definicji atopowa: od dzieciństwa skłonna do zapaleń, łuszczycy i zaczerwienień. Teoretycznie krem ​​ten powinien być dla mnie idealny, niestety tak nie jest. Raz nałożony, nawet oszczędnie, trudno się wchłania i pozostawia skórę lekko tłustą. Jest to dla mnie druzgocące, ponieważ podczas gdy istniejące już podrażnienie się pogłębia, jestem też pokryta czerwonymi kropkami w zgięciach ramion, za kolanami i na wysokości obojczyków. Sprawdziłem inci i wykluczyłem możliwość, że jest to reakcja alergiczna na składnik. Uważam, że ten krem ​​jest bardziej odpowiedni dla osób, które mają atopowe zapalenie skóry w połączeniu z suchą skórą lub skórą ze skłonnością do zgrubień. U mnie niestety wcale nie jest dobrze. Wrócę do klasycznego balsamu do ciała Aveeno, który nigdy nie sprawiał mi takich problemów",
+   "t": "Effetto irritante ed occlusivo sulla mia pelle atopica. La mia pelle è atopica per definizione: sin dall'infanzia incline a dermatite, psoriasi e rossori. In linea teorica questa crema dovrebbe essere perfetta per me, purtroppo non è così.Una volta applicata, anche con la dovuta parsimonia, si assorbe con difficoltà e lascia la pelle leggermente grassa. Ciò risulta devastante su di me perché mentre le irritazioni che già ci sono peggiorano, mi ricopro anche di puntini rossi nell'incavo delle braccia, dietro le ginocchia e all'altezza delle clavicole.Ho controllato l'inci ed escludo che si tratti di una reazione allergica ad un componente.Credo che questa crema sia maggiormente indicata per chi ha dermatite atopica in combinazione con pelle secca o prona a ispessimenti. Per me purtroppo non va affatto bene. Tornerò alla lozione corpo classica Aveeno che non mi ha mai causato questi problemi",
    "tags": [
-    "efficacy_atopic",
-    "skin_reaction",
-    "texture_absorption",
-    "formula_change"
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie",
+    "Wchłanianie / tłustość",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Aveeno una garanzia. Si certo! Aveeno è una firma di alta qualità e una tradizione che dura da tanti anni. Lo uso da anni e mi trovo molto bene. Prodotto consigliato",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "unica pecca, troppo cremosa lascia la pelle appiccicosa. l'ho utilizzata per tutto, favolosa davvero.lenisce la pelle in maniera spettacolare, cura desquamazioni e mi ha risolto i problemi di cute secca.consiglio vivamente, un flacone grande dura tantissimo e non è facile da trasportare per le dimensioni, consiglio un flacone più piccolo se deve essere usato da viaggio",
+   "tags": [
+    "Wchłanianie / tłustość",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Consegnato con beccuccio rotto e scatola parzialmente aperta. Arrivato con scatola parzialmente aperta e beccuccio rotto",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Contiene PARAFFINA!!!!. Lo sapevate che negli ingredienti di questo prodotto c'è la PARAFFINA, che deriva dalla raffinazione del petrolio e e che è cancerogena???? Io l'ho acquistato ma non lo uso di sicuro!!! Fate attenzione!!!",
+   "tags": [
+    "Skład"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "the seller is defaulting on ordered vs delivered quantity. i love the product but have a serious concern about the delivered quantity of the product being half of what was ordered and paid for both the times that it was bought",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Wrong product display. Product is good but quantity is only 200 ml please note it is not 400 ml . Do not get carried away by image display as 400 ml",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "المنتج مطلوب ولاكن لم يتم توفيره. طلبته له شهر كامل ولم يتم توفيره ولم يتم استرجاعه او استبداله",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Crème pour peau sensible. Le,paquet est arriver la crème geler et la,pompe ne fonctionne pas et pas moyens de ouvrir le couvert",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "To greasy. way to greasy",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Doesn't do what it says on the tin. My previous body moisturiser is out of stock and this sounded like a good replacement.  But unfortunately it isn't.  I really wanted to like this product, but I don't find soothes itching particularly well, and I find it really greasy.  It also has a faintly medicinal smell which I find unpleasant.  I won't be buying it again",
+   "tags": [
+    "Nawilżenie",
+    "Świąd",
+    "Kojenie / podrażnienie",
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Very frustrating! Faulty air pump",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "expiration date removed. The expiration date was removed. I will not use the product knowing this is certainly expired",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Skin Reaction within 3 days of use.  Please be very careful!!!. I had a reaction to the cream within 3 days of use .  The cream itself has an awful chemical smell.  I cannot recommend this cream, especially if you have sensative skin.  I am reverting back to the use of La Roche Posay body lotion.  If I could give a Zero Stars reviews I would",
+   "tags": [
+    "Zapach",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Was unaware it contains a known skin  irritant. This really irritated  my very dry skin.  I didn’t realize it contained citrimonium bromide which upon doing research on the ingredient, I found it can cause skin irritation and allergic reactions. Not sure why it’s added but I’m paying closer attention to ingredients from now on",
+   "tags": [
+    "Nawilżenie",
+    "Kojenie / podrażnienie",
+    "Skład",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Broken Bottle. Delivered with bottle broken and product everywhere- can’t really return. What to do?",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Greasy. Leaves greasy feeling and shine in your face",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Smells Bad. You might think you’re saving by buying it cheaper here but you end up throwing the whole thing because of its awful smell",
+   "tags": [
+    "Zapach",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "This is how mine arrived",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Not as good as expected.. Didn’t work for me, causing the skin on my face to come up in an itchy irritated rash. Disappointing",
+   "tags": [
+    "Świąd",
+    "Kojenie / podrażnienie",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Photo non cobforme. Huile la ante non présente comme sur la photo",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Nourishing , repair,  soothes your skin immediately ♥️. I have dry skin, and when winter comes, my skin starts to get itchy. Sometimes the itchiness is so bad that I can’t stop myself from scratching until it bleeds. I’ve tried many types of products, but nothing was working.I saw one of my friends who had the same problem and she's using this product so I did some research and checked it on Amazon. It wasn’t very expensive, so I ordered it. Today the package arrived. I opened it and tried it right away.It’s lightweight, and the cream melts easily into the skin. I can feel a refreshing and cooling sensation, and I don’t feel any itching on my legs anymore. It’s definitely worth keeping",
+   "tags": [
+    "Nawilżenie",
+    "Świąd",
+    "Kojenie / podrażnienie",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottima. Buonissima crema corposa e super assorbente ottima per chi ha la pelle secchissima",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Buona crema, ma richiede costanza. Recensisco questa crema con quattro stelle, basandomi sulla mia esperienza nell'utilizzarla per la psoriasi disidrosica alle mani, su prescrizione del dermatologo.La crema si presenta come una soluzione adeguata per chi soffre di questa condizione cutanea. Una delle caratteristiche positive è la sua consistenza non unta, il che la rende piacevole da applicare senza lasciare residui sgradevoli. La confezione da 400 ml è abbastanza generosa e il prodotto si assorbe rapidamente, permettendomi di tornare alle normali attività quotidiane senza dover aspettare troppo.Tuttavia, devo ammettere che la sua efficacia sembra dipendere dalla costanza nell'applicazione. Nelle fasi in cui ho utilizzato la crema regolarmente, ho notato un miglioramento della pelle, con piccolo sollievo dai fastidi della psoriasi disidrosica.In conclusione, Uriage Xemose è una buona crema emolliente per la psoriasi disidrosica, ma è fondamentale utilizzarla con regolarità per ottenere i massimi benefici. La mia esperienza potrebbe essere migliorata con una maggiore dedizione nell'applicazione del prodotto",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Konsystencja",
+    "Opakowanie / pompka",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Crema corpo. Ottimo!!!",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Prodotto ottimo. Il prodotto è ottimo per la dermatite di mia figlia.Inodore e giusta consistenza.Il prodotto, che viene usato solo per viso, collo e mani, dura all’incirca 6 mesi",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottimo acquisto. Sono molto soddisfatta di questa crema che utilizzo dopo doccia o a volte anche come doposole e devo dire che lascia la pelle vellutata chiaramente senza profumo veramente molto molto morbida",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Uriage crema corpo. Uriage ha risolto il problema della pelle secca in tutta la casa, è un prodotto ottimo consigliato dal dermatologo. Mai più senza!!!",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Buono. Per pelle secca va benissimo",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "buon prodotto, prescritto dal mio medico",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "mi pare buono anche per la dermatite.... soffro un pò di dermatite e ogni tanto ho provato delle creme DS con risultati più o meno discreti...usando questo ho notato che i risultati erano simili, in alcuni casi migliori...Non lo uso sempre, ma quando mi torna ne metto un pò e fa il suo dovere...Per chi soffre di dermatite lo consiglio...Poi ovviamente non a tutti darò lo stesso risultato, però per me è valido",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Does not hydrate its sticky. Sticky does not go deep its a surface cream not bying this again",
+   "tags": [
+    "Nawilżenie",
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Not good. Not worth for this money!",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "New formulation. Made me itchy and red. New formulation",
+   "tags": [
+    "Świąd"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Gras et cher, n’a pas appaisé les démangeaisons. Assez graisseux, ne pénètre pas comme indiqué! Pas si pire, mais très cher",
+   "tags": [
+    "Świąd",
+    "Wchłanianie / tłustość",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Bof bof. Livraison raide cette . Mais la compo est pas ouf . Je suis déçu",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "To greasy. Doesn't absorb into skin",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Déçue. Après avoir lu les avis, je me suis dis pourquoi pas. Avec mes problèmes de peau je pensais que cette crème allait  enfin me débarrasser de mes soucis, et bien non, elle n'est pas assez hydratante et elle ne régénère pas la barrière de protection de la peau. L'hydratation n'est pas assez profonde est pas assez efficace. Seul avantage, la liste des ingrédients",
+   "tags": [
+    "Nawilżenie",
+    "Skład",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Ne me soulage pas. Ne marche pas sur moiLes irritations ne sont pas du tout apaisées…dommage pour mon cas",
+   "tags": [
+    "Kojenie / podrażnienie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Didn’t work. Didn’t relieve skin irritations gave it away to friend",
+   "tags": [
+    "Kojenie / podrażnienie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Déçu. Très gras mais ne soulage pas mon eczéma",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Delusione. Non la ricomprerò, sono rimasta delusissima..la crema lascia una patina fastidiosa sulle mani...ci sono nelercato altre creme molto più economiche di qualità migliore!",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Arrivati solo 2 pezzi. Il prodotto è ottimo ma do una stella perchè avevo ordinato questa confezione da 3 e ne mancava uno! Non ho potuto farci niente",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Crema mani inutile. Crema non efficace per le mani secche e screpolate. Ma la caratteristica peggiore è la sensazione di aver infilato le mani in una torta. Odore sgradevole",
+   "tags": [
+    "Nawilżenie",
+    "Zapach",
+    "Konsystencja",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Non e' vero che e' senza profumo. Non e' vero che e' senza profumo",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Inutile. Pensavo che da un brand di farmacia come questo ci fossero almeno un po di risultati, invece non mi ha tolto la secchezza delle mani neppure appena messo ..sono quasi meglio alcune creme commerciali da supermercato..totalmente inutile",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Cattivo odore. Ho comprato tante creme della rilastil ,ma purtroppo questa delle mani che ho regalato a Natale a mia sorella è uscita con un cattivo odore .L’ha dovuta buttare ,puzzava proprio.Sono rimasta delusa",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ricevuti solo 2 di 3. Ricevuti solo 2 di 3",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Crema mani. Ho comprato diverse volte questo articolo sia in farmacia che su Amazon. Questa volta ho comprato 4 tubetti ne ho aperti 3 e hanno un odore sgradevole di pesce . Solitamente questa crema profuma di zucchero filato",
+   "tags": [
+    "Zapach",
+    "Konsystencja",
+    "Cena / pojemność",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Conservati male. Probabilmente sono andati a male tutti e 6 hanno un odore terribile, sono anni che utilizzo questa crema e conosco bene il suo profumo. C'è qualcosa che non va, pensavo fosse solo uno il problema poi due... Ma hanno tutti lo stesso odore sgradevole!",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Odore terribile. La prima volta che l’ho acquistata mi era piaciuta tantissimo, tanto da ricomprarla nuovamente. Ma purtroppo questa volta puzza terribilmente, sembra andata a male. Mi spiace perché ho aspettato troppo tempo per restituirla, ma devo buttarla perché ha un odore nauseabondo!",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Aspettative Deluse. La consistenza della crema mi ha ricordato quella di un \"silicone bianco\", piuttosto densa e difficile da assorbire. Questa caratteristica ha reso l'applicazione meno piacevole di quanto mi aspettassi, lasciando una sensazione sgradevole sulle mani per un tempo prolungato.Contrariamente alle indicazioni, la crema non si è assorbita facilmente, costringendomi a sfregare le mani ripetutamente nel tentativo di ridurre la sensazione appiccicosa e pesante che lasciava. Questo ha reso l'uso del prodotto meno pratico, specialmente durante il giorno quando è necessario un rapido assorbimento per poter riprendere le attività quotidiane senza disagio.Inoltre, la mia principale preoccupazione, ovvero l'efficacia del prodotto, non è stata affrontata come speravo. Nonostante un uso regolare seguendo le indicazioni fornite - applicando la crema al mattino e alla sera, e più volte al giorno in presenza di screpolature - non ho notato miglioramenti significativi nella condizione della mia pelle. Le promesse di ripristinare i livelli di idratazione e reintegrare la funzionalità della barriera idrolipidica non si sono concretizzate, lasciandomi con le mani ancora secche e la ricerca di un trattamento alternativo.In conclusione, nonostante il prezzo accessibile di €3,90, la crema mani Rilastil Xerolact non ha soddisfatto le mie esigenze. La consistenza pesante e difficile da assorbire, unita all'inefficacia nel trattare la secchezza e le screpolature delle mani, mi porta a non raccomandare questo prodotto a chi cerca un sollievo efficace e confortevole per la pelle sensibile e secca",
+   "tags": [
+    "Nawilżenie",
+    "Wchłanianie / tłustość",
+    "Konsystencja",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "non compratela. carino l’odore, ma non funziona per le mani secche o con tagli, è da giorni che continuo ad applicarla eppure le mie mani restano secchissime e rosse. Si assorbe troppo facilmente nonostante la consistenza molto densa",
+   "tags": [
+    "Nawilżenie",
+    "Zapach",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Pessimo prodotto. Non serve a nulla",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Pessimo. Odore pessimo, probabilmente scaduto. Acquistato anche da un’amica, il suo non presentava lo stesso difetto",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Prodotto senza scatola..... Prodotto ottimo.....ma senza scatola....ti arriva tutto ammaccato",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Odore di pesce. Tutto bene la spedizione amazon, ma il prodotto pur arrivando mi sigillato ha un odore di pesce nauseabondo! Amazon mi ha rimborsato senza reso e l'ho gettato! Pessima",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Pessima. Pessima",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "crema che puzza. questa crema mani puzza terribilmente di pesce avariato....mi sarà stato venduto un fake???",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "L ho restituita. Comprata per la seconda volta ma questa volta aveva un odore sgradevole",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Puzza. Non riesco a tenerla, non so se è normale ma ha un odore di pesce",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Maleodorante. Ha un odore sgradevole",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Crema andata a male. La crema puzza di pesce marcio",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Sconsiglio. Odore orrendo! Consiglio solo a chi è anosmico",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Sembrano già aperte. L esterno è tutto sporco non si sa di cosa",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Non soddisfacente.. Non soddisfatto.Dalle recensioni sembrava un ottimo prodotto: io non ho trovato alcun beneficio. Le mani mi sono rimaste screpolate e secche. Può dipendere anche dalla mia pelle, ma non mi sento di consigliarla",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Puzza!. Ho già provato questa crema in passato e non aveva un cattivo odore, quella arrivata invece è impossibile da utilizzare",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Una normalissima crema idratante e niente più. Soffro di una importante screpolatura delle mani prevalentemente nella zona dita / polpastrelli. Dopo una settimana di utilizzo, intenso, mattina e sera anche con guanti etc.  trovo questa crema appena sufficiente, niente di speciale; sicuramente una normale crema idratante ma di ricostruzione assolutamente nemmeno l’ombra",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It is not like a cream, too solid with a bad smell. Not recommended",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Crema mani. Arrivata dopo giorni dall'acquisto e mancava un tubetto! Pessimo servizio",
+   "tags": [
+    "Konsystencja",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Delusione. Non appiccica e si assorbe subito. Questo è molto gradito.Il profumo a me piace moltissimoMa come idratazione purtroppo non è un gran che. Ne metto abbastanza proprio perchè non idrata moltoQuindi mi durerà una settimana.Proverò altroSono sconcertata da chi dice che è fantastica. sono rimasta molto delusa",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Inutile. Non serve assolutamente a niente, dopo cinque minuti dall'applicazione si sente l'esigenza di usarla di nuovo in quanto l'idratazione è pari a zero, ho addirittura avvertito la sensazione di indurimento della pelle del palmo delle mani... per cui decisamente BOCCIATA!!!",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "No. Rimane fastidiosa sulle mani e non c’è nessun miglioramento , nonostante il “nome” una qualsiasi blanda sottomarca sarebbe più efficace",
+   "tags": [
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Il corriere ha sbagliato cassetta della posta!. Pacco lasciato nella cassetta sbagliata (quella del vicino).A parte questo la crema è sempre impeccabile già ripresa e la riprenderò",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Pagati 2 ma ne è arrivato 1 solo. Durante l'acquisto il numero minimo di pezzi era 2.. il pacco è arrivato oggi e, a fronte di due pezzi pagati ne ho ricevuto 1 solamente!",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "non soddisfacente. non soddisfa le aspettative",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Non risulta riparatrice come la cera di Cupra mani con una differenza che costa 03 volte in piu'.. Nulla mi e' piaciuto, delusa al 100%",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Delusione. Delusione prodotto medio",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "non mi piace l'odore. resta un pò appiccicoso e l'odore non è particolarmente buono",
+   "tags": [
+    "Zapach",
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "La crema è da 30 ml. La crema è da 30mlVergogna",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Decepción. Cuando pensaba que había encontrado mi crema de manos, me llega un nuevo tubo que nada tiene que ver con la crema que había utilizado siempre. Huele mal (como a vainilla mezclada con petroleo), su textura es desagradable así como la sensación que deja en la piel.Esta crema era capaz de repararme las manos como ninguna otra, en pocas aplicaciones me las dejaba suaves y hidratadas. No se si han cambiado la formulación o a qué se debe pero no hace absolutamente nada en mi piel. Muy decepcionada",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ya no es lo que era. Era mi crema de manos favorita por cómo me dejaba las manos y por cómo olía, pero en los últimos 3 pedidos me ha llegado con mal olor… Después de abrirla y echármela, a los segundos desprende un olor horrible.Le he dado más de una oportunidad pero nada, me ha pasado lo mismo una vez tras otra… :(Amazon ha gestionado la devolución y reembolso sin problemas",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Olor muy desagradable. No sé si he recibido un producto en mal estado, realmente está precintado y la textura está bien, pero el olor es horrible.Imposible de poner en las manos y soportar el olor. Se va a la basura directamente :(",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Olor inaguantable. Yo no sé si me llego estropeado o qué, pero me huele a pescado pasado. No me lo pongo por el mal olor. No entiendo a la gente que dice que no tiene perfume",
+   "tags": [
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Mani morbide e protette, anche nei momenti più difficili. Da quando ho scoperto la Rilastil Xerolact Crema Mani Riparatrice, è diventata un alleato indispensabile nella mia routine quotidiana. Ho la pelle delle mani particolarmente secca, soprattutto nei mesi freddi, e spesso soffro di fastidiose screpolature e irritazioni.Questa crema si assorbe abbastanza rapidamente e non lascia la sensazione di unto, cosa che apprezzo molto perché posso subito riprendere le attività senza fastidio. La consistenza è densa ma cremosa, il profumo è delicato e non invasivo.Dopo poche applicazioni ho notato un miglioramento evidente: la pelle è più morbida, elastica e soprattutto meno soggetta a irritazioni. La crema aiuta a riparare la barriera cutanea, proteggendo le mani dagli agenti esterni aggressivi come il freddo e i detergenti.Uso la crema più volte al giorno, specialmente dopo aver lavato le mani o prima di andare a dormire. Mi piace anche la confezione con il pratico tubetto che consente di dosare bene il prodotto senza sprechi.In sintesi, la consiglio a chi ha le mani secche, rovinate o semplicemente a chi vuole prevenire i danni della pelle mantenendola idratata e protetta. Un prodotto efficace e affidabile, che vale ogni centesimo",
+   "tags": [
+    "Nawilżenie",
+    "Kojenie / podrażnienie",
+    "Konsystencja",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Crema per le mani secche. Crema molto buona, ne basta poco assorbe velocemente e non unge. Profumo dolce di vaniglia, svanisce in fretta. Ho pelle secca e sensibile, però basta mettere questa crema prima di dormire e il giorno dopo ho le mani più  idratati. Formato piccolo molto comodo per avere sempre con sé",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Quasi perfetta!. Scoperta per caso mentre cercavo disperatamente un prodotto adatto alla mia dermatite irritativa da contatto, che mi causa polpastrelli fessurati e, anche quando le ferite guariscono, lascia la pelle secca e ruvida, al punto da impigliarsi nei tessuti.Avevo letto ottime opinioni sulla sua capacità di rendere la pelle liscia e levigata, e devo dire che ha superato di gran lunga le mie aspettative.È una delle creme più confortevoli e “coccola” che abbia mai provato: la texture è davvero piacevole, si assorbe rapidamente senza lasciare residui e dona subito una sensazione di pelle morbida, compatta, liscia e ben idratata. Si percepisce chiaramente che è un prodotto che fa bene alla pelle. Dopo una sola applicazione mi ha cambiato la pelle.Il profumo è delicato, leggermente vanigliato, quasi zuccherino, ma molto leggero e per nulla invadente.Inoltre, il formato da 30 ml è perfetto: pratico, economico e ideale da portare sempre con sé per riapplicarla durante la giornata. Ed è concepita proprio per essere applicata più volte.Purtroppo non è riparatrice della barriera e quindi se le mani sono parecchio danneggiate dovete comunque affiancarla a un buon trattamento notturno più strong. Ma è ottima perché nutre e idrata ed è lenitiva. Per me un \"mai più senza!\"",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie",
+    "Konsystencja",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Crema mani della vita. Trovare la crema mani perfetta è un’impresa tutt’altro che banale. Spesso ci si ritrova a dover scegliere tra formule leggerissime che svaniscono dopo cinque minuti o pastoni untuosi che impediscono di toccare lo smartphone o la tastiera del computer per la successiva mezz'ora. Dopo tre settimane di test costante, si è rivelata una piacevole eccezione, dimostrando che è possibile unire nutrimento profondo e rapidità di assorbimento in un unico prodotto.Al tatto la consistenza si presenta ricca, quasi come un burro leggero, ma non appena viene massaggiata sulla pelle si fonde all'istante. L'assorbimento richiede circa sessanta secondi, un lasso di tempo brevissimo in cui si avverte una sensazione di sollievo immediato. Passato il primo minuto, la pelle risulta completamente opaca, morbida e non unta, permettendo di tornare subito alle proprie attività senza lasciare fastidiose impronte oleose in giro.Comodissima da portare ovunque! L'ho consigliata a tutti e fatta comprare a tutti, non se ne può fare a meno mai!",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "RILASTIL UNA GARANZIA DA SEMPRE. Crema mani eccellente. Nonostante sia molto ricca e riparatrice, si assorbe bene massaggiando un minimo e non lascia quella fastidiosa sensazione appiccicosa. La uso soprattutto la sera e al mattino le mani sono come nuove, lisce e idratate. Il profumo è neutro e delicato, tipico dei prodotti farmaceutici di alta qualità. Vale ogni centesimo",
+   "tags": [
+    "Wchłanianie / tłustość",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottimo prodotto per le mani. Ho sempre cercato una crema mani che nutrisse efficacemente la pelle e contribuisse a prevenire la grave secchezza, in particolare durante i mesi invernali, senza risultare eccessivamente untuosa. Desideravo un prodotto che potesse essere applicato sia la sera che prima di uscire, senza lasciare una sensazione sgradevole. Dopo numerose ricerche e acquisti insoddisfacenti, ho provato la crema Rilastil con il 20% di burro di Karité e ne sono rimasta estremamente soddisfatta. La applico senza problemi anche dopo aver lavato le mani o prima di uscire; nutre in profondità e previene la grave secchezza che in passato mi causava anche piccole lesioni. Si distribuisce facilmente, si assorbe rapidamente e non lascia le mani unte. La profumazione è molto gradevole, sebbene questo possa rappresentare un limite per chi preferisce prodotti inodori. Il prezzo è accessibile, sia per il formato da 30 ml che per quello da 100 ml. Continuo ad acquistarla ed utilizzarla quotidianamente e la consiglio vivamente",
+   "tags": [
+    "Nawilżenie",
+    "Zapach",
+    "Konsystencja",
+    "Cena / pojemność"
    ]
   },
   {
    "r": 3,
-   "t": "Spodziewałem się więcej po marce. Mimo, że bardzo lubię tę markę, to moim zdaniem ten krem ​​nie spełnia swojego zadania. Na chwilę obecną nawilża, ale niedługo potem skóra znów wydaje się sucha i napięta. Jedyny plus to cudowny zapach",
+   "t": "Dal marchio mi aspettavo di più. Per quanto ami il marchio, secondo me questa crema non fa il suo dovere.Idrata al momento ma poco dopo la pelle riappare asciutta e tira.Unico vantaggio, il profumo buonissimo",
    "tags": [
-    "hydration",
-    "fragrance"
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fantastica. Ho comprato un tubetto in farmacia l'inverno scorso e da allora no posso farne a meno. Così ho approfittato del prezzo in promozione per fare scorta. L' uso dappertutto ormai no solo alle mani. Sono ottimi anche per piedi, ginocchia, gomiti... È davvero riparatrice per la pelle molto secca. è una crema molto densa va massaggiata per  bene ma comunque s'assorbono velocemente",
+   "tags": [
+    "Konsystencja",
+    "Cena / pojemność",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Buonissima. Ottimo prodotto. Rende la pelle delle.mani morbida e ripara le screpolature. Buonissimo profumo!! Quasi di zucchero filato",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "La migliore. La mia crema mani preferita. Ottima la consistenza e poi il profumo è spaziale",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nulla di straordinario. Una crema che non vale molto di altre in commercio in vendita nei supermercati",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Sembra silicone. La stendi sul viso e rimane lì. L'unico prodotto di questa casa farmaceutica che per ora non mi è piaciuto affatto. Ha una consistenza siliconica, sembra di mettere sul viso uno strato di silicone edilizio quello che si usa durante le ristrutturazioni.. non dà una sensazione di idratazione ma di soffocamento della pelle. La la texture è collosa gelatinosa e non assorbe, rimane esattamente dove la metti creando uno spessore non traspirante per la pelle che ovviamente non reagisce bene. Non la ricomprerei e non la consiglio",
+   "tags": [
+    "Konsystencja",
+    "Skład"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Brutto x me. Di quello che cosa non mi va mi ha marcato la pelle",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Pessima qualità. Pessima. La crema non si assorbe correttamente e crea un film in faccia che poi si stacca a pezzetti, pensavo mi si stesse spellando la faccia ma poi ho visto che era la crema. Avevo preso una crema solare per il viso dello stesso brand che aveva lo stesso problema, ma almeno lì c’è da dire che è un problema abbastanza comune con le creme solari a protezione alta, ma su una crema idratante è assolutamente inaccettabile. Metto definitivamente una croce sopra ai prodotti di questo marchio",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Errata descrizione. Descrizione principale del prodotto fuorviante, si possono scegliere 2 creme con fini diversi ( pelle grassa o pelle secca), la descrizione veritiera però è riportata più giù, rendo perché è ingannevole",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Prodotto non sigillato. La confezione non era sigillata, cosa essenziale per una cremaConfezione esterna rovinata",
+   "tags": [
+    "Konsystencja",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "It is not a product for sensible skin.. Ho acquistato questo prodotto perché ho la pelle sensibile con rosacea. Ha generato maggiore arrossamento e bruciore. Non c'è coerenza prezzo qualità",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "منتهى الصلاحية. وصل منتهى الصلاحية",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "AVOID!!!!!. Absolutely awful, I am convinced this is a fake. I had been searching for a moisturiser that would be safe for my skin as I have MCAS, being as this one was labelled ‘allergy UK approved’ I decided this would be fine. I couldn’t have been more wrong. The instant I put this on my face the stinging started, my eyes started watering, and my nose running. The smell was disgusting, like deep heat spray, not how I imagine a moisturising cream should smell. It also came unsealed; another factor as to why I believe this is a fake. About 5 minutes after application I just couldn’t take the stinging and burning and washed it off, I then broke out in extremely painful hives all on my cheeks and down my neck. AVOID this if you have allergies! It is not allergy safe!",
+   "tags": [
+    "Nawilżenie",
+    "Zapach",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "be careful when buying. this was my first time using this cream. after my first try my face started showing reactions. noticed some redness. still wanted to give it a few more chances but at the end of a week, i ended upwith lots of little pimples unfortunately, especially around my chin and between my eyebrows! I have a mixed type skin but I rarely had acne in the last few years. Completely stopped using this now. Hoped it would be good for my sensitive skin but was not a match sadly",
+   "tags": [
+    "Kojenie / podrażnienie",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I tried both the Rich and the sensitive. I gave it some time before I reviewed because I wanted to be sure that I really disliked it before I said anything. I really don't understand what all the fuss is about this product. I don't find it even remotely hydrating enough for my skin in either the rich or sensitive. The ingredients aren't great either they're okay but not enough of the good stuff to give my skin any glow/ good results. I also go through this far too fast for the price.  I ended up switching back to a product that gives me that glow, and I can see results with for half the price and it contains way better ingredients. I don't know if my expectations were too high because I've heard such great things. But I'm very disappointed with what I paid and the results I got. Now I have to work hard to get the hydration back in my skin because this fell flat for me. I used this for 3 months for context. Going back to Marcelle for those ladies wondering",
+   "tags": [
+    "Nawilżenie",
+    "Świąd",
+    "Cena / pojemność",
+    "Skład"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "What You See Is Not What You Get. I’ve bought this product three times, and none of them came with probiotics as shown in the picture. I don’t know what’s going on. I’m really disappointed",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Ineffective, overpriced, overhyped. I bought this on the recommendation of many people online who said it was good for sensitive skin. I developed spots of psoriasis on my face and reluctantly bought the expensive combo of this moisturizer with the Toleraine facial cleanser and I can confidently say this moisturizer is garbage. I have to use two large pea sized drops to cover my whole face and it's dried out within an hour. A few hours later and my psoriasis is flaking. For comparison, Aveeno Eczema Care lasts all day and I never get any dryness or flaking with it. This tiny tube cost 30 bucks and works worse than stuff you can buy for under $10. If people on Reddit or other social media convinced you to buy this overpriced crap, do yourself a favour and buy something else instead",
+   "tags": [
+    "Nawilżenie",
+    "Skóra atopowa / egzema",
+    "Cena / pojemność",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Product is not sealed. It arrived NOT SEALED. It’s 2026. All skincare products are/should be sealed for customer protection. Not sure who’s to blame for this. La Roche Posay should know better",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Not worth it. Made my face bumpy asf",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "La Roche-Posay Crème hydratante pour le visage. Cette crème ne m'a pas hydrater pantoute, mais plutôt déshydrater",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Gave me a RASH. Everything about this product SHOULD have been compatible with my skin. Unfortunately I broke out all over my face everywhere it touched. I gave it took a Benadryl and washed it off. I tried it once more 48hrs later but it gave me a terrible rash again. I’m even wondering if it’s a legitimate product from this brand as it arrived without a seal",
+   "tags": [
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Opened product. Both times I purchased the product arrived without the sale and I’m very hesitant to use it",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Bote vacío. He usado esta crema un par de veces, hace unas semanas la compré por última vez y resulta que al ir usando el bote me doy cuenta de que no trae la cantidad que debería, viene el bote medio vacío",
+   "tags": [
+    "Konsystencja",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ha bon!?!?. J’ai acheté cette crème pour la première fois en pharmacie et elle était parfaite pour mon visage (rosacée). Ensuite je l’ai acheté sur Amazon et elle me brûle le visage. Au prix que ça coûte je ne rachèterai plus de cosmétique / soin de peau en ligne",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Broke my skin on immediately. I have never written a review. I used this lotion one time and my skin broke out into small red pimples all over my face and neck. I have never experienced anything like this. I’m still dealing with the breakout (50+ small pimples) days later. I figured I should warn others.Buy from a reputable buyer if you must try",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Does not absorb!. I really truly wanted to enjoy this product, especially with all the wonderful reviews. However, I am greatly disappointed. First, I was surprised when it would sting my face upon application since La Roche-Posay is known as a sensitive skin holy grail. Second, it just never absorbed? I would put it on, rub it in and then within an hour, it would start pilling off of my face. It did not hydrate my skin in the slightest and I have been using it in the morning and evening for over a week, hoping something would change. Considering the price, the reviews, and the ingredient list, I am deeply unimpressed. Truly a waste of money. The only thing I can say about it that people may like is that it is truly, 100% scentless, otherwise it's a terrible product",
+   "tags": [
+    "Nawilżenie",
+    "Zapach",
+    "Wchłanianie / tłustość",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Not effective. I usually love the products from this brand but this one in particular wasn’t good for me",
+   "tags": [
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "No me gustó. A mi no me funcionó no me humecto",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Travel /sample size... Waste of money. I bought a very large bottle for $10 more then this travel sample size of the same thing. What a rip off.. I don't even have a printer so I can't return. Just wasted $30 for absolutely nothing",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Not for sensitive / reactive skin. had allergic reaction",
+   "tags": [
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "bad delivery. No plastic cover on the top of the tube and product was only 1/2 of whole volume!",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "I think this one’s a dupe, don’t recommend to buy. The same cream I bought in the store was thick and creamy, really nice quality moisturizer. This one online was not, the consistency felt cheap and watery. I do not trust buying this again",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Immediate break out. This product instantly made me break out in red patches and small white heads - I do not suffer from acne",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Damaged and opened box! Very disappointed. When I received my order, the box was damaged and already opened.. very disappointed. I would like one that hasn’t been opened and tampered with please",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Dont buy!. dont buy this product! it is very very small like a sample size, and it makes you break out it feels very sticky and is overall just not worth it",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Acne. Really wanted to love this and was so excited to start using it after reading the reviews. But after 2 days I broke out in multiple clusters of very severe, painful cystic acne. My skin had been making so much progress so this was upsetting",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Breakout. Unable to use lot of breakout",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Opened package. I received this product not sealed and the packaging open. Not happy with this",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Ouvert. Mon colis était ouvert comme ça dans la boite de livraison et la crème aussi !!!!",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Do not buy. Gave my face a chemical burn!!! And I do not have sensitive skin or have never had an issue with new skin care products",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "This box come opened",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "AVOID ! NOT GOOD. AVOID ! NOT GOOD",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Doesn’t work. They lied to you the product is not what it seems to be",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Don’t bother. It pills",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Sensitive? No. My part of skin that isn't even sensitive and can handle anything... the first lotion ever in my 31 yrs my skin has ever reacted and gone red from... bizarre",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "This cream is great but not shipped yet, order placed nov 24. This cream is great but not shipped yet, order placed nov 24",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Non hydratant. Il pèle comme pas possible et il hydrate pas , je ne recommande pas",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Very good. Easy to apply. Not greasy. Noticed a difference to my skin after a few days. Less red and a lot softer",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Not hydrating at all. Doesn’t do much and doesn’t hydrate",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Burning. Burning skin after application. I don’t have sensitive skin. Imagine if you do",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Sivilce. Sivilce yaptı iki gece kullandım suratım mahvoldu üts de kaydı var ama aglıcam cok kotu",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Disappointed with the size. One star for how small this is for the price!! Its very tiny",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Not good for highly sensitive skin. I bought this for my face as I have extremely sensitive, dry skin, with eczema flares especially around my lips and eyes. This, unfortunately stings a lot and I really wouldn’t recommend it despite there being minimal ingredients and perfume :(",
+   "tags": [
+    "Nawilżenie",
+    "Skóra atopowa / egzema",
+    "Skład"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "May not be legitimate. This product arrived unsealed. It burns badlyDo not buy this from Amazon",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Arrived on time, but does not seem to be legit. Product gave me pimples instantly, not sure if allergy or just did not match to my skin",
+   "tags": [
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "pills and leaves waxy residue. Moisturizes, but leaves this gross pilling and waxy residue. Agree with a previous 1-star reviewer. Total waste of money. Do yourself a favor--save your money and try CeraVe",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "NO ME GUSTÓ. No me gusta porque se siente pesada en la piel y se hace el efecto borrador, no la volvería a comprar",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Terrible to your skin. Dries skin out and causes irritation",
+   "tags": [
+    "Kojenie / podrażnienie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "コスパ悪. マスクによる肌荒れに悩み購入しました。刺激がなく、無難な使い心地ですが、なんせコスパが悪い。リピなしです。もう少し容量が多い、もしくは安ければ使用し続けてもよかったです。",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Fatal. Mi mujer tiene la piel hiperactiva y con esta crema pues se ve que no iba a ser menos.Así que le ha quemado la cara y el quemazón le llega hasta los ojos",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Bote medio vacio. Me gusta el priducto mucho, ya lo compre una vez anteriormente, pero volvi a comprarlo y venia medio vacio y eso no me gusta nada",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "No me gusto. Me irritó la piel, en cuanto me la puse me irritó y la quería Justo para la contrario lo he intentado varías veces y siempre pasa lo mismo. La marca me gusta pero esta crema no",
+   "tags": [
+    "Kojenie / podrażnienie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Patlak çıktı. Kargodan paylak çıktı, iade zamanı",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Pelle migliorata dopo una settimana di utilizzo. ✅ I punti di forza• Idratazione duratura (fino a 48 h): grazie alla presenza di glicerina, la crema trattiene efficacemente l’acqua nella pelle, mantenendola morbida e idratata a lungo.  ￼• Azione lenitiva e protettiva: la formula contiene ceramidi e acqua termale di La Roche-Posay, noti per calmare irritazioni, rossori e sensazioni di “pelle che tira”, aiutando a ripristinare e rafforzare la barriera cutanea.  ￼• Adatta a pelli sensibili e reattive: è senza profumo, senza alcol, non comedogena, con tollerabilità dermatologica elevata — anche testata su bambini e neonati.  ￼• Texture leggera e confortevole: si assorbe rapidamente e lascia la pelle morbida, liscia e protetta senza ungere — ottima anche come base quotidiana prima del trucco o da usare mattina e sera.  ￼⚠️ Possibili limiti o aspetti da considerare• Se la tua pelle è molto secca o in inverno con clima freddo, la versione “Sensitive Creme” potrebbe risultare un po’ leggera e potresti desiderare una crema ancora più ricca.• La protezione contro sole, inquinamento o fattori esterni aggressivi è minima — serve sempre un’adeguata protezione solare durante il giorno se esci.• Alcune formule delicate come questa potrebbero non bastare per pelli con problematiche molto specifiche (es. couperose, dermatite severa) senza un supporto aggiuntivo (sieri, trattamenti più intensi).📍 Impressione complessivaLa Roche-Posay Toleriane Sensitive è una crema viso che fa bene ciò che promette: idrata, lenisce, protegge e comforta la pelle sensibile o reattiva. È ideale come crema quotidiana per chi cerca un prodotto semplice, efficace e sicuro — particolarmente se la pelle tende a irritarsi, tirare o arrossarsi. Se vuoi una cura delicata e affidabile per viso e collo, senza fragranze o ingredienti aggressivi: questa crema è una scelta azzeccata",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie",
+    "Konsystencja",
+    "Skład"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Buon prodotto. Ottima crema giorno e notte utilizzata dopo altri 2 prodotti lascia la pelle idratata al punto giusto, texture media",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "ottimo prodotto. crema viso adatta pelle sensibile con barriera cutanea alterata",
+   "tags": [
+    "Konsystencja"
    ]
   },
   {
    "r": 4,
-   "t": "Tak nawilżające, że Sahara poprosiła o przepis. 🌵😂. Dermatolog polecił mi go do zwalczania bardzo suchej skóry i zapobiegania pojawianiu się plam słonecznych, przy jednoczesnym utrzymaniu zdrowej bariery skórnej. Po kilku tygodniach użytkowania mogę powiedzieć, że na stałe zagościł w łazience. Konsystencja prawdziwej odżywki: bogata, ale nie ciężka. Łatwo się rozprowadza, dość szybko się wchłania, a przede wszystkim nie pozostawia tej irytującej lepkości, która sprawia, że ​​wyglądamy jak świeżo panierowany kotlet. 😅Formuła zawiera naprawdę wysoki poziom: masło shea, gliceryna, niacynamid i składniki mające na celu przywrócenie równowagi mikrobiomu skóry. W tłumaczeniu na angielski: skóra pozostaje miękka, elastyczna i znacznie bardziej komfortowa nawet następnego dnia. W najbardziej suchych obszarach zauważalna jest poprawa, a uczucie ściągnięcia skóry znika niemal natychmiast. 💪✨👉Spodobało mi się również to, że nie ma intensywnego zapachu, więc sprawdzi się również dla osób o wrażliwej skórze lub skłonnych do podrażnień. To jeden z tych produktów, który nie zachwyca tropikalnymi koktajlowymi zapachami, ale konkretnymi rezultatami.👉🚨Jedyne co mnie nie przekonuje to zamknięcie tuby. To oczywiście działa, ale nadal wolę klasyczną zakrętkę: daje mi poczucie większej solidności i praktyczności. Ta otwartość przypomina mi niektórych polityków... wydaje się nowoczesna, ale czasami sprawia, że ​​żałujemy starego systemu. 😂 Ostatecznie jest to krem, który kosztuje więcej niż przeciętnie, ale jakość widać już od pierwszej aplikacji. Jeśli masz skórę suchą, wrażliwą lub skłonną do atopii, to moim zdaniem jest to jeden z tych produktów, po który naprawdę warto sięgnąć. 👍🧴✅PRO* Głębokie i długotrwałe nawilżenie.* Bogata formuła z niacynamidem, masłem shea i gliceryną, doskonała również dla wrażliwej skóry.* Szybko zmniejsza suchość, swędzenie i uczucie ściągnięcia. ⚠️WADY* Cena nie do końca tania.* Zamknięcie tuby mnie nie przekonuje: wolę klasyczną zakręcaną czapkę.* Jeśli przesadzicie z ilością, latem może być nieco bogatszy. Jednak jeden z najlepszych dermatologicznych kremów do ciała, jakie próbowałam. Jeśli Twoja skóra jest bardziej sucha niż poczucie humoru poborcy opłat z Urzędu Skarbowego, ten naprawdę potrafi ją przywrócić na właściwe tory. 😄🧴",
+   "t": "Crema sensitive. Crema adatta a pelli delicate e sensibili, non unge e si assorbe facilmente, non profumata",
    "tags": [
-    "hydration",
-    "itch_relief",
-    "skin_reaction",
-    "texture_absorption"
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Crema Toleriane Sensitive!. Buona crema idratante per pelli sensibili, lascia la pelle del viso idratata e morbida.. ne basta poca ed è piacevole da massaggiare sul viso, soprattutto sul contorno occhi.. consiglio!",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottima!. Ottima crema giorno, si assorbe facilmente e non ha nessuna profumaziona",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Adatto a una pelle sensibile. Ottimo prodotto",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Acne prone skin friendly.. Very new to this brand and products. My skin is very sensitive and has been a pain to match the right creams and serums and face washes to prevent any outbreak. This has been amazing so far! Love love love. Very acne prone skin friendly!!",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "ottimo. la sto usando solo da una settimana ma vedo già dei miglioramenti , ne avevo sentito già parlare bene e confermo tutto ciò che viene detto, anche se il prodotto è piccolo basta una piccola quantità al giorno",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Buono. Buono",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Crema la roche posay. La confezione della crema è arrivata schiacciata e molto probabilmente già aperta. Non so dare una valutazione sul prodotto, di solito i prodotti la roche posay sono buoni",
+   "tags": [
+    "Konsystencja",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Non consigliato. Problemi di assorbimento, la crema lascia un grosso residuo che a metà giorno diventa una patina che letteralmente si sbriciola sulla pelle. Effetto estremamente non cosmetico e mal gestibile, specialmente per chi lo dovesse usare insieme a fondotinta. Idratazione ok.Prezzo osceno per la dimensione.Passato a Cerave",
+   "tags": [
+    "Konsystencja",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Niente di che. È una crema molto leggera, non particolarmente idratante. Buona tolleranza cutanea ma non la ricomprerei",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Ottima crema. Fantastica idrata ma m non unge",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Disappointed - probably good for most people. Its really smooth, feels good when I first put it on but my allergies still flared up",
+   "tags": [
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Your buying a name, not a superior product. Total ripoff, you're paying top dollar for a cream with the same ingredients as the basics. Not impressed",
+   "tags": [
+    "Skład"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "STEER CLEAR if you dry or sensitive skin. I had high hopes for this cream, i’ve seen it online and purchased due to my trust in the la roche posay brand but this really isn’t for me.Don’t get me wrong, this is a fine moisturizer and out of all of the ones i’ve tried it definitely gives that glossy sheen the most. But there are definitely problems.When i first put it on in the day i realised it had a light sting around my eyes, something that i’ve never felt before and when i slept overnight with it i woke up with bumps all over my skin and especially my chin, it was itchy red and sore, tell tale signs of something destroying my skin barrier.Im not sure its an active ingredient or maybe a different formulation form what i’ve seen online but it this just isn’t the one for my dry skin and i wouldn’t recommend it so anyone such as myself.An aside but the value of this is terrible £14 for what seems like a travel tube is insane.3/10 unfortunately",
+   "tags": [
+    "Nawilżenie",
+    "Świąd",
+    "Opakowanie / pompka",
+    "Skład"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Small. I like it, but it's sooo small, it is travel size you'd bring on your carry on. Hoping it's worth it only day two using it",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Caused me breakouts. This might be a bit unpopular review. My skin is dry it also breaksout. I love the moisturizer feels on my skin but next day i get acne here and there on my face. I know there products are good. But this one is not for me",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Face moisturizer. It bothered my eyes",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Acne break out. I discontinued using because it broke me out of acne",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Make sure it's good for you. It's a gd name and for some but not me. I found it made my skin breakout and red with the facial wash as well. Tried it for first time and now I know it's not gd for me. Expensive lesson but it happens",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Used to love.. Was a fav of mine. Price jumped from 22.50 to 30$ within 2 months in Canada. Product seems different. Skin isn’t absorbing it like it used to. Touch my face I notice it’s pilling. Doesn’t seem to absorb. Was great initially, but skin seems to rebel after a short time. Too bad!",
+   "tags": [
+    "Wchłanianie / tłustość",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "It isnt for sensitive skin. It irritated my skin, Save yourself the time and money, and buy E45 cream instead",
+   "tags": [
+    "Kojenie / podrażnienie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Would not buy again. I bought this cream after reading all the reviews. I have very sensitive dry skin. This cream still made my skin go red when I applied it and it didn’t really help me with my dry skin. I personally would not buy again",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Wanted to love it but didn’t work out. I REALLY wanted to like this. It was rated excellent on the “Yuka” app and I loved the consistency of the product, but it unfortunately made me break out in a rash on my face and neck despite it being for sensitive skin",
+   "tags": [
+    "Konsystencja",
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "The package was not sealed!. I received the item yesterday and the tube was no sealed. When I opened the cap, it looks like someone tried to use it before and there was no seal.The cream itself seems alright so far, it's not super moisturizing but it is doing a better job than the Cetaphil hydrating lotion I was using before. It's a small amount for this price, and for this price I was expecting to receive a sealed product!",
+   "tags": [
+    "Nawilżenie",
+    "Cena / pojemność",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Lots of Residue. I really wanted to like this product because I am a fan of other products from this brand, but this moisturizer is a big no for me.Moments after putting it on, it's pilling and balling up. Even after it \"dries\", if I wipe a finger across my face, so much of the moisturizer just peels off into residue. Therefore it is impossible to use under makeup.Quite disappointing",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Quantity. The package is too small",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Disappointed. I was really disappointed with this cream. I bought it because it was supposed to be safe for Rosacea but it made my Rosacea worse, and made me break out in tiny bumps. The tube is also so small and expensive, and a little doesn't go very far. It was not worth the hype for me",
+   "tags": [
+    "Cena / pojemność",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Too small and barely moisturizing. This item is a very small tube and it leaves a weird texture on skin, almost sticky like. I heard good things about another product of theirs but this one is over priced and not as good as expected. It also did not make my skin feeling soft or moist. Disappointed, espcially for the price",
+   "tags": [
+    "Nawilżenie",
+    "Wchłanianie / tłustość",
+    "Konsystencja",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Too expensive for the size. For how small it is, definitely not worth the price",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Pills. The only product I use prior to the cream is the serum in the same line. As soon as I apply the cream it pills a lot. Was using dr jart + previously on top of the serum with no pilling, so it has to be the cream. Super disappointed",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Has high hopes. Had high hopes for this product but as others have mentioned it seems to sit on top of my skin and rubs off and causes pilling if I touch my face at all. Could be that it doesn’t interact well with my other skincare products and makeup, so it doesn’t work for me",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Price keeps going up.... Love this moisturizer but they keep raising the price and it just doesn't make sense for me to keep buying it anymore... (current price is 27.50 on amazon and phramacy but I used to be able to get it at 21.99 here)",
+   "tags": [
+    "Nawilżenie",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Crema con caja aplastada. La caja venía toda aplastada",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "disappointed.. For my sensitive and difficult skin, this product was recommended. Still, when I used it after prepping my skin an hour later it still sits on top of my skin and rubs off similar to a layer of skin.Hopefully others will do better",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Disappointed. I wanted to love this moisturizer so badly because of the reviews and ratings. Anytime I use this, my face burns and i have to run out to get some cold breeze on my face. I have a sensitive skin and was hoping this will be it. I am so sorry but this is a no no for me",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Not safe for sensitive skin. It triggers allergies when I applied it to my face. Will never buy it again",
+   "tags": [
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Came opened and box damaged. The actual box the tube comes in was pretty damaged and opened clearly. No idea if the moisturizer itself was messed with, no way of knowing. Not confident it wasn't",
+   "tags": [
+    "Nawilżenie",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "It dried out my skin. Really bizarre, I love their products but this one despite glycine ingredient seemed to dry my skin out more. Returned",
+   "tags": [
+    "Skład"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Trop petit. Cher pour rien !",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Broke me out. Moisturizer broke me out.  YMMV",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "No fue apto para mí piel sensible seca. No me sirvió y soy de piel sensible, solo aumento la rojez en mi cara y más granitos",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "SO TINY. The moisturizer is okay but come on. $20+ for something they size of my finger????",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "package open at arrival. Upon receiving this product the box was already open, and the tube itself wasn't sealed either",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "It did not work for me. Not enough moisture, the skin feels dry. Also not worth the money, it lasted 3weeks only. Wont buy again",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "Venía sin precinto y se salió la crema. Venía sin precinto y se salió la crema",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 2,
+   "t": "No viene sellada la caja.. No viene sellada la caja y eso me hace desconfiar del producto",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Dudo si es original",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Confezione inutilizzabile. Arrivato regolarmente, ma la crema è talmente densa che non esce dalla confezione con il dispenser. Praticamente inutilizzabile",
+   "tags": [
+    "Konsystencja",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Crema già aperta. Non bene. Arrivata la crema già aperta senza confezione .. vista la scadenza a sei mesi ho parecchi dubbi sul prodotto. Si tratta forse di un precedente reso? Bah",
+   "tags": [
+    "Konsystencja",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Erogatore mancante. Beccuccio dell’erogatore mancante, ovviamente la crema é impossibile da utilizzare, essendo molto densa l’erogatore è indispensabile",
+   "tags": [
+    "Konsystencja",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Difetto. Articolo consegnato in ritardo e senza coperchio",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Non funziona. Come dicono anche altre recensioni il beccuccio del flacone si rompe con facilità. Anche il mio si è rotto subito.Inoltre, soffro di dermatite atopica e sto applicando questo prodotto mattina e sera da un mese, a volte anche più volte al giorno e non sto riscontrando neanche il minimo miglioramento. Anzi, le zone sono sempre rosse e screpolate e sembrano peggiorare.Forse per chi funziona non soffre di vera dermatite atopica",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Pensavo meglio. È troppo grassa lascia la pelle molto inta",
+   "tags": [
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Imballaggio assente. Mi è arrivata senza un adeguato imballaggio e con il beccuccio rotto, avrei dato 5 stelle perché la crema è ottima per la dermatite atopica",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Danneggiato. Il prodotto è buono ma è arrivato danneggiato",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Tubetto di crema aperto e senza confezione. Il tubetto di crema è arrivato aperto e senza confezione",
+   "tags": [
+    "Konsystencja",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Prodotto manomesso. Prodotto già aperto e manomesso. Pessimi. Veramente pessimi",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Dosatore difettoso. Arrivato in tempi brevi",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Inodore. Uso questa crema da anni, niente da dire diventa indispensabile una volta che la conosci,  ho sbagliato solo non fare l'acquisto su amazon",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Prodotto arrivato rotto. Devo dare una stella per come viene consegnato il prodotto. La crema l’ho acquistata altre volte ed è un ottimo prodotto, naturalmente se si può usare, è già due volte che arriva rotto, credo proprio che non lo acquisterò più",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Prodotto ok, arrivato con il beccuccio rotto. il prodotto è arrivato con il beccuccio rotto, il che ne ha reso impossibile l'utilizzo.Ho dovuto travasarlo in un altro contenitore",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Che non è la crema originale. Comunque sono rimasta delusa della crema lipikar non è l'originale quello che mi hanno consegnato ieri io sono 15 anni che lo uso e lo conosco bene 😔",
+   "tags": [
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "زائف. المنتج مش زى اللى فى الصوره وكمان بعمل ارجاع مش بينفذوا الارجاعموقع سئ بجد",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Unsure if not stored properly, or a fake product.. The product seems to be not stored properly. The bottle looks brownish as if it was left on shelf for a very long period of time",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Unsealed or Opened Product. Product arrived with no seal or packaging. I’m unsure if it’s brand new or not. I don’t feel comfortable using it",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "There was no seal.. No seal in the tube. Don’t trust the product delivered",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Be very careful.. Made it much worse. Day 3 I woke to find this product had accelerated the issue and my skin was so much worse than ever before",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Formula Changed. They changed the formula and it's no longer friendly for roseca prone skin",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Fake looking. Underwhelmed!! Product has no seal, the bottle and print look fake. I’ve never bought a la roche posay product with no seal!!!!Waste of money",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Cap missing. Cap missing",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Arrived opened. It wasn’t sealed when it arrived. I don’t feel like using it on my son’s skin because it was for him. I know it’s a great product but sadly need to return it",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "No me ha funcionado para el picor. Según me habían recomendado y había leído aquí, ayudaba con la picazón de la piel. No ha sido así. Hidrata, pero no alivia. Con lo cara que es, no puedo darle más de 1 estrella. Para solo hidratar, podría haberme comprado otra más económica",
+   "tags": [
+    "Świąd",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Nee. Hilft mir überhaupt nicht und hinterlässt einen Film",
+   "tags": [
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottimo prodotto.. Ottimo prodotto, adatto anche alle pelli problematiche. E' una crema nutriente, piuttosto grassa e senza profumo. Risolve i problemi di dermatite atopica di mio figlio (due anni). Il costo è giustificato, oltre che dalla qualità del prodotto, dalla quantità",
+   "tags": [
+    "Skóra atopowa / egzema",
+    "Wchłanianie / tłustość",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Crema meravigliosa!. Prodotto efficace e delicato. Ottimo per le zone più secche come gomiti e ginocchia, lascia la pelle morbida e confortevole tutto il giorno. Profumo leggero e texture piacevole",
+   "tags": [
+    "Nawilżenie",
+    "Konsystencja",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It has healing properties if you have very dry sensitive skin like mine then this is your best bet. Very nice cream, it absorbs finely into the skin , it also stopped the itching in my skin . Just the best , I don’t regret buying it",
+   "tags": [
+    "Świąd",
+    "Wchłanianie / tłustość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "BEST CREMA EVER. ormai da anni la mia crema di fiducia, non posso vivere senza. Il 90% delle volte l'acquisto su Amazon perchè la trovo a come minimo 10 euro in meno rispetto che in negozio",
+   "tags": [
+    "Konsystencja"
    ]
   },
   {
    "r": 4,
-   "t": "Tak nawilżające, że Sahara poprosiła o przepis. 🌵😂. Dermatolog polecił mi go do zwalczania bardzo suchej skóry i zapobiegania pojawianiu się plam słonecznych, przy jednoczesnym utrzymaniu zdrowej bariery skórnej. Po kilku tygodniach użytkowania mogę powiedzieć, że na stałe zagościł w łazience. Konsystencja prawdziwej odżywki: bogata, ale nie ciężka. Łatwo się rozprowadza, dość szybko się wchłania, a przede wszystkim nie pozostawia tej irytującej lepkości, która sprawia, że ​​wyglądamy jak świeżo panierowany kotlet. 😅Formuła zawiera naprawdę wysoki poziom: masło shea, gliceryna, niacynamid i składniki mające na celu przywrócenie równowagi mikrobiomu skóry. W tłumaczeniu na angielski: skóra pozostaje miękka, elastyczna i znacznie bardziej komfortowa nawet następnego dnia. W najbardziej suchych obszarach zauważalna jest poprawa, a uczucie ściągnięcia skóry znika niemal natychmiast. 💪✨👉Spodobało mi się również to, że nie ma intensywnego zapachu, więc sprawdzi się również dla osób o wrażliwej skórze lub skłonnych do podrażnień. To jeden z tych produktów, który nie zachwyca tropikalnymi koktajlowymi zapachami, ale konkretnymi rezultatami.👉🚨Jedyne co mnie nie przekonuje to zamknięcie tuby. To oczywiście działa, ale nadal wolę klasyczną zakrętkę: daje mi poczucie większej solidności i praktyczności. Ta otwartość przypomina mi niektórych polityków... wydaje się nowoczesna, ale czasami sprawia, że ​​żałujemy starego systemu. 😂 Ostatecznie jest to krem, który kosztuje więcej niż przeciętnie, ale jakość widać już od pierwszej aplikacji. Jeśli masz skórę suchą, wrażliwą lub skłonną do atopii, to moim zdaniem jest to jeden z tych produktów, po który naprawdę warto sięgnąć. 👍🧴✅PRO* Głębokie i długotrwałe nawilżenie.* Bogata formuła z niacynamidem, masłem shea i gliceryną, doskonała również dla wrażliwej skóry.* Szybko zmniejsza suchość, swędzenie i uczucie ściągnięcia. ⚠️WADY* Cena nie do końca tania.* Zamknięcie tuby mnie nie przekonuje: wolę klasyczną zakręcaną czapkę.* Jeśli przesadzicie z ilością, latem może być nieco bogatszy. Jednak jeden z najlepszych dermatologicznych kremów do ciała, jakie próbowałam. Jeśli Twoja skóra jest bardziej sucha niż poczucie humoru poborcy opłat z Urzędu Skarbowego, ten naprawdę potrafi ją przywrócić na właściwe tory. 😄🧴",
+   "t": "Talmente idratante che il deserto del Sahara ha chiesto la ricetta. 🌵😂. Il mio dermatologo me l’ha consigliata per contrastare la pelle molto secca e aiutare a prevenire la comparsa delle macchie solari mantenendo la barriera cutanea in salute. Dopo alcune settimane di utilizzo posso dire che è diventata una presenza fissa in bagno.La consistenza è quella di un vero balsamo: ricca ma non pesante. Si spalma facilmente, si assorbe abbastanza in fretta e, soprattutto, non lascia quella fastidiosa sensazione di colla che ti fa sembrare una cotoletta appena impanata. 😅La formulazione è davvero di alto livello: burro di karité, glicerina, niacinamide e ingredienti studiati per riequilibrare il microbioma cutaneo. Tradotto in italiano: la pelle rimane morbida, elastica e molto più confortevole anche il giorno successivo. Le zone più secche migliorano visibilmente e quella sensazione di pelle che tira sparisce quasi subito. 💪✨👉Mi è piaciuto anche il fatto che sia senza profumo intenso, quindi va bene pure per chi ha la pelle sensibile o tende ad irritarsi facilmente. È uno di quei prodotti che non cercano di stupirti con fragranze da cocktail tropicale, ma con risultati concreti.👉🚨L’unica cosa che non mi convince è la chiusura del tubetto. Funziona, per carità, ma continuo a preferire il classico tappo a vite: mi dà una sensazione di maggiore robustezza e praticità. Questa apertura mi ricorda certi politici… sembra moderna, ma ogni tanto ti fa rimpiangere il vecchio sistema. 😂In definitiva è una crema che costa più della media, ma la qualità si percepisce fin dalla prima applicazione. Se avete pelle secca, sensibile o con tendenza atopica, secondo me è uno di quei prodotti che vale davvero la pena provare. 👍🧴✅PRO* Idratazione profonda e di lunga durata.* Formula ricca con niacinamide, burro di karité e glicerina, ottima anche per pelli sensibili.* Riduce rapidamente secchezza, prurito e sensazione di pelle che tira.⚠️CONTRO* Prezzo non proprio economico.* La chiusura del tubetto non mi entusiasma: preferisco il classico tappo avvitato.* Se si esagera con la quantità può risultare un po’ ricca durante l’estate.Comunque una delle migliori creme corpo dermatologiche che abbia provato.Se la vostra pelle è più secca del senso dell’umorismo di un casellante dell’Agenzia delle Entrate, questa riesce davvero a rimetterla in sesto. 😄🧴",
    "tags": [
-    "hydration",
-    "itch_relief",
-    "skin_reaction",
-    "texture_absorption"
+    "Nawilżenie",
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie"
    ]
   },
   {
-   "r": 4,
-   "t": "Prawie idealnie!. Odkryty przez przypadek, gdy desperacko poszukiwałem produktu odpowiedniego na moje kontaktowe zapalenie skóry z podrażnienia, które powoduje pękanie palców, a nawet gdy rany się goją, skóra pozostaje sucha i szorstka, aż do zaczepienia o tkanki. Czytałam doskonałe opinie na temat jego zdolności do wygładzania i wygładzenia skóry i muszę przyznać, że zdecydowanie przerósł moje oczekiwania. To jeden z najwygodniejszych i „rozpieszczających” kremów, jakie kiedykolwiek próbowałam: konsystencja jest naprawdę przyjemna, tak. Szybko się wchłania, nie pozostawiając śladów i natychmiast pozostawia skórę miękką, zwartą, gładką i dobrze nawilżoną. Wyraźnie widać, że jest to produkt dobry dla skóry. Już po jednej aplikacji odmienił moją skórę. Zapach jest delikatny, lekko waniliowy, prawie słodki, ale bardzo lekki i wcale nie nachalny. Co więcej, format 30 ml jest idealny: praktyczny, ekonomiczny i idealny do noszenia przy sobie w celu ponownej aplikacji w ciągu dnia. Jest przeznaczony do wielokrotnego stosowania. Niestety nie naprawia bariery ochronnej, dlatego w przypadku bardzo zniszczonych dłoni należy połączyć go z dobrą, mocniejszą kuracją na noc. Ale jest doskonały, bo odżywia, nawilża i działa kojąco. Dla mnie „nigdy więcej bez tego!”",
+   "r": 5,
+   "t": "Assolutamente si! Anche per bimbi piccoli. La Roche è sempre una garanzia di successo. Utilizzo diversi loro prodotti da anni e non ne sono mai delusa, anzi. Uso questa crema tutti i giorni sulle gambe del mio bambino di 18 mesi poiché soffre di dermatite atopica, non grave. Stanchi di dovergli applicare il cortisone dall'età di 3 mesi e altri olii blasonati assolutamente non risolutivi, abbiamo provato questa crema e... miracolo: pelle mordiba, idratata e senza più croste. Il bambino ogni tanto si gratta ancora, ma molto meno di prima, anzi quasi per niente. Quando l'altro nostro figlio di 4 mesi ha la pelle del corpo secca, in particolare le gambette, gliela mettiamo anche a lui e rimane idratato tutto il giorno. Apprezzo molto anche la profumazione, delicatissima e gradevole",
    "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief",
-    "skin_reaction"
+    "Skóra atopowa / egzema",
+    "Konsystencja",
+    "Cena / pojemność",
+    "Dla dzieci / niemowląt"
    ]
   },
   {
-   "r": 4,
-   "t": "Dobry krem, ale wymaga konsystencji. Oceniam ten krem ​​z czterema gwiazdkami, na podstawie mojego doświadczenia w stosowaniu go na łuszczycę dyshydrotyczną dłoni, na receptę od dermatologa. Krem stanowi odpowiednie rozwiązanie dla osób cierpiących na tę chorobę skóry. Zaletą jest jego nietłusta konsystencja, która sprawia, że ​​nakłada się go przyjemnie i nie pozostawia nieprzyjemnych śladów. Butelka o pojemności 400 ml jest dość pojemna, a produkt szybko się wchłania, dzięki czemu mogę wrócić do codziennych zajęć bez konieczności zbyt długiego czekania. Trzeba jednak przyznać, że jego skuteczność wydaje się zależeć od konsekwencji w stosowaniu. W fazach regularnego stosowania kremu zauważyłam poprawę stanu skóry, z niewielką ulgą w dolegliwościach związanych z łuszczycą dyshydrotyczną. Podsumowując, Uriage Xemose to dobry krem ​​zmiękczający na łuszczycę dyshydrotyczną, jednak dla uzyskania maksymalnych korzyści konieczne jest jego regularne stosowanie. Moje doświadczenie mogłoby zostać ulepszone dzięki większemu zaangażowaniu w stosowanie produktu",
+   "r": 5,
+   "t": "La perfezione nell'efficacia. Questo balsamo crema per me è la salvezza dalla dermatite e dai funghi della pelle. Toglie prurito, ed equilibria il microbiota cutaneo",
    "tags": [
-    "efficacy_atopic",
-    "texture_absorption",
-    "formula_change",
-    "packaging"
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Konsystencja",
+    "Skuteczność / efekty"
    ]
   },
   {
-   "r": 4,
-   "t": "Dobry krem ​​do skóry atopowej, treściwy, ale skuteczny. Kupiłam ten krem ​​ADerma Exomega Control 400 ml dla mojej córki, która ma skórę atopową i często ma tendencję do drapania się w nocy aż do podrażnienia. Po wypróbowaniu kilku kremów, po przeczytaniu dobrych recenzji, zdecydowałam się dać mu szansę i muszę przyznać, że jak na razie mnie to wystarczająco przekonało. Krem ma miękką i przyjemną konsystencję, łatwo się rozprowadza i nie pozostawia tłustej warstwy na skórze. Już po kilku dniach stosowania zauważyłam, że nocne swędzenie ustąpiło, a córka może spać spokojniej. Nawet najbardziej suche i zaczerwienione miejsca wydają się bardziej nawilżone i spokojne. Kompozycja jest treściwa, ale dobrze się rozprowadza i pozostawia uczucie ochrony, nie będąc przy tym zbyt tłustym. Podoba mi się również to, że jest zapakowany w folię ochronną, co jest oznaką dobrej higieny, a przede wszystkim zakrętka dozująca, która moim zdaniem jest bardzo wygodna: pozwala uniknąć marnotrawstwa i utrzymuje produkt w czystości. Daję 4 gwiazdki, bo nie testuję tego kremu zbyt długo, ale na razie wydaje mi się, że jest to naprawdę dobry produkt. Szybka dostawa",
+   "r": 5,
+   "t": "idratante e nutriente. Si assorbe rapidamente senza lasciare residui grassi, lascia la pelle morbida e idratata a lungo . Perfetta anche per pelli delicate o soggette a secchezza intensa. Dopo l’applicazione la pelle risulta visibilmente più confortevole e nutrita per tutta la giornata",
    "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief",
-    "skin_reaction"
+    "Nawilżenie",
+    "Wchłanianie / tłustość"
    ]
   },
   {
-   "r": 4,
-   "t": "jedyna wada, zbyt kremowy, pozostawia lepką skórę. Używałem go do wszystkiego, jest naprawdę fantastyczny. W spektakularny sposób koi skórę, leczy łuszczenie się i rozwiązał moje problemy z suchą skórą. Gorąco polecam, duża butelka starcza na długo i ze względu na swój rozmiar nie jest łatwa do przenoszenia, polecam mniejszą butelkę, jeśli ma być używana w podróży",
+   "r": 5,
+   "t": "Nessun profumo. Già solo per il fatto che non ha profumo è un buon segno !",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Ottima. Ottima",
+   "tags": []
+  },
+  {
+   "r": 2,
+   "t": "Nessun sollievo per il prurito da dermatite. Non mi da’ alcun sollievo alla dermatite anche se capisco che sia un’ottima crema per il corpo",
    "tags": [
-    "texture_absorption",
-    "packaging"
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Konsystencja"
    ]
   },
   {
-   "r": 4,
-   "t": "Wrażliwy krem. Krem odpowiedni do skóry delikatnej i wrażliwej, nietłusty i łatwo wchłaniający się, bezzapachowy",
+   "r": 2,
+   "t": "Purtroppo ha fatto l’effetto contrario. È stato acquistato per una persona anziana che accusa, a causa della disidratazione tantissimo prurito, purtroppo ha fatto l’effetto contrario: dopo averlo spalmato su gambe e schiena siamo stati una intera notte in piedi a causa del prurito peggiorato…si è calmato solo lavandolo via. Peccato perché sembrava davvero nutriente ma probabilmente poco delicata. Consiglio perciò come idratante ma non fare affidamento al potere di “sedativo” del prurito",
    "tags": [
-    "texture_absorption",
-    "fragrance"
+    "Nawilżenie",
+    "Świąd",
+    "Kojenie / podrażnienie"
    ]
   },
   {
-   "r": 4,
-   "t": "Skuteczny. Doskonały do ​​nawilżenia i zmniejszenia swędzenia. Szkoda, że ​​jest tłusty i słabo się wchłania",
+   "r": 2,
+   "t": "El bote es incómodo. El eco bote es incómodo. La crema es bastante grasa, pero no se extiende muy bien. Prefiero otra marca para pieles atópica",
    "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief",
-    "texture_absorption"
+    "Skóra atopowa / egzema",
+    "Wchłanianie / tłustość",
+    "Konsystencja"
    ]
   },
   {
-   "r": 4,
-   "t": "Krem La Roche Posay. Doskonały krem, odpowiedni dla skóry wrażliwej",
+   "r": 1,
+   "t": "Rotto. Il prodotto sarà anche buono ma mi è arrivato rotto e ho letto altre recensioni simili",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Prodotto arrivato con miscelatore rotto. Articolo arrivato con miscelatore del prodotto rotto",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Non capiti più. Il prodotto è arrivato senza il DISPENSER..  non capisco come sia stato possibile inviare un prodotto in questo stato",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "missing top. the bottle arrived with no squeeze top",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "منتج وصل مكسور. وصلني المنتج مكسور مااعرف كيف استخدمه",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Got a rash. Worst product I have ever used got a terrible rash",
+   "tags": [
+    "Alergia / reakcja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Quality of the product. There is no safety cover and freshness proof",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Orijinal mi ?. Etiketler yırtılmış, kabı yıpranmış. Orjinal mi değil mi belli değil",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Pompa bozuk. Rezillik pompası çalışmıyor iade direk",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Regresar artículo por no parecerse a los productos La Roche Possay. No me gustó el producto, no es fiel a otros productos de la marca LA Roche Posay que he adquirido, no me gustó no parece un producto original, tiene un olor muy raro la crema, cuando en general este producto no tiene aroma, ni es la consistencia que es mas liquida por lo regular",
+   "tags": [
+    "Zapach",
+    "Konsystencja"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Unsealed product!. Product for baby was open. This is unacceptable!! I am afraid to use this on my baby! I spent a lot of money for nothing! This is not safe! I want my money back!",
+   "tags": [
+    "Dla dzieci / niemowląt"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Health Risk. The product arrived in terrible condition; it looks like a knock-off. The label is poorly attached, the images are scratched, and the packaging looks dirty. I'll have to waste my money and throw this away. I bought it for my 6-week-old baby's skin, and obviously, I can't use it on him. Don't buy it; it's a health risk",
+   "tags": [
+    "Opakowanie / pompka",
+    "Dla dzieci / niemowląt"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Causing skin irritation. I have sensitive skin and was looking for a new body lotion that can help with flare ups, oil-free, and that is lightweight. Been using this for close to a week and I’m noticing many sudden bumps appearing on my skin as well as a few rashes. I bought the lightweight version thinking it would have a thinner consistency what’s so ever, but it’s just like the original one. Do not recommend this and will stop using it. It’s also causing my skin to itch and for its price, it’s not worth it and did not reach my expectations",
+   "tags": [
+    "Świąd",
+    "Kojenie / podrażnienie",
+    "Konsystencja",
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Great Product- Poor Service from Amazon. Nothing wrong with the product- I actually love this. My experience has been terrible because of lack of service from amazon. My partner and I have ordered this several times and almost every single time they have sent me a different version of this. It is extremely frustrating having to go through the return process over and over again",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "not for eczema. its not for eczema at sll",
+   "tags": [
+    "Skóra atopowa / egzema"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Not real product. This was not the real product in the bottle the colour, texture was not the same DONT BUY IT FRAUD FRAUD FRAUD",
+   "tags": [
+    "Konsystencja",
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "No pump. Item arrived with no pump",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Not good. Not for me. i have dry skin and this cream doesn't work at all",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "No proper packaging. It didn’t come in a box as normally it does and it wasn’t wrapped. It had some product missing, I’m not sure if it’s actually real",
+   "tags": [
+    "Opakowanie / pompka"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Produit non conforme. Ce produit n'est pas celui que je rechercher",
+   "tags": [
+    "Cena / pojemność"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "Mal estado del producto. Mal estado, dosificado roto",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Impressões. O conteúdo deste em específico não é igual ao que sempre comprei, não vi resultado nenhum após a aplicação do mesmo, acredito que seja uma réplica do original, não indico e nem compro mais ele por aqui",
+   "tags": [
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 1,
+   "t": "No viene en su caja original, con lo cual deja muchas dudas de que sea un producto original. único que no me ha gustado no viene en una caja viene en un una bolsa de plástico se supone que tiene que venir en su caja original?",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Rezalet. Bunca para veriyoruz. Sorun yaşamamak için özellikle amazon satıcısından aldım. Pompa bozuk, hatta pompa orijinal değil. Koskoca kremi pompasız kullan kullanabilirsen",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Bir tanesinin kapağı paramparça olmuştu.. Öncelikle ürünü çocuğum için doğduğundan beri kullanıyorum ve memnunum ancak bu siparişte Amazon gönderirken dikkatsiz ve beceriksiz bir paketleme yapmıştı. Üzücü",
+   "tags": []
+  },
+  {
+   "r": 1,
+   "t": "Péssimo, faltando a válvula. Não fiquei satisfeita porque o hidratante veio sem a válvula",
+   "tags": [
+    "Nawilżenie"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ottima. È una delle creme per il corpo migliori che abbia mai utilizzato. La uso da tempo e tiene la pelle liscia e perfettamente idratata",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Mi ha salvato la pelle (letteralmente). Ho scoperto Lipikar quasi per caso, e devo dire che è stata una vera svolta. Dopo una brutta reazione a una crema anti-age che mi aveva irritato il viso, avevo la pelle arrossata, sensibile e molto secca. Nel giro di una settimana, applicandola con costanza, la situazione è completamente cambiata: la pelle si è calmata, è tornata morbida, liscia e visibilmente più sana.La cosa che mi ha colpito di più è la capacità di idratare in profondità senza ungere. Si assorbe bene, lascia una sensazione di comfort immediato e, cosa fondamentale, non mi ha dato alcun tipo di fastidio, nemmeno su pelle già compromessa.Nata come crema corpo, ma sul viso (almeno nel mio caso) ha funzionato benissimo. È diventata un punto fermo della mia routine, soprattutto nei momenti in cui la pelle ha bisogno di essere “rimessa in ordine”.Rapporto qualità-prezzo eccellente. Promossa a pieni voti",
+   "tags": [
+    "Kojenie / podrażnienie",
+    "Konsystencja",
+    "Cena / pojemność",
+    "Skuteczność / efekty"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Per pelle molto secca e sensibile. Ottimo prodotto lo consiglio  rende la pelle  e morbida e ben idratata",
    "tags": []
   },
   {
    "r": 4,
-   "t": "dobry produkt, przepisany przez mojego lekarza",
-   "tags": []
-  },
-  {
-   "r": 4,
-   "t": "Dobry. Jest świetny dla suchej skóry",
-   "tags": []
-  },
-  {
-   "r": 4,
-   "t": "Dobra. Muszę spróbować",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Poprawa skóry już po tygodniu stosowania. ✅ Mocne strony • Długotrwałe nawilżenie (aż do 48 godzin): dzięki obecności gliceryny krem ​​skutecznie zatrzymuje wodę w skórze, utrzymując ją miękką i nawilżoną przez długi czas.  ￼• Działanie łagodzące i ochronne: formuła zawiera ceramidy i wodę termalną La Roche-Posay, znaną z łagodzenia podrażnień, zaczerwienień i uczucia „napiętej skóry”, pomagając odbudować i wzmocnić barierę ochronną skóry.  ￼• Odpowiedni dla skóry wrażliwej i reaktywnej: jest bezzapachowy, bezalkoholowy, nie zatyka porów, ma wysoką tolerancję dermatologiczną – testowany także na dzieciach i noworodkach.  ￼• Lekka i wygodna konsystencja: szybko się wchłania i pozostawia skórę miękką, gładką i chronioną, ale nie tłustą – doskonale sprawdza się również jako codzienna baza pod makijaż lub do stosowania rano i wieczorem.  ￼⚠️ Możliwe ograniczenia lub aspekty do rozważenia • Jeśli Twoja skóra jest bardzo sucha lub zimą panuje zimny klimat, wersja „Sensitive Creme” może być nieco lekka i możesz potrzebować jeszcze bogatszego kremu. • Ochrona przed słońcem, zanieczyszczeniami lub agresywnymi czynnikami zewnętrznymi jest minimalna — zawsze potrzebujesz odpowiedniej ochrony przeciwsłonecznej w ciągu dnia, jeśli wychodzisz. • Niektóre takie delikatne formuły mogą nie wystarczyć w przypadku skóry z bardzo specyficznymi problemami (np. trądzik różowaty, ciężkie zapalenie skóry) bez dodatkowego wsparcia (serum, bardziej intensywne zabiegi).📍 Ogólne wrażenieLa Roche-Posay Toleriane Sensitive to krem do twarzy, który dobrze robi to, co obiecuje: nawilża, łagodzi, chroni i zapewnia komfort wrażliwej lub reaktywnej skórze. Idealnie sprawdzi się jako krem ​​na dzień dla osób poszukujących prostego, skutecznego i bezpiecznego produktu – szczególnie jeśli ich skóra ma tendencję do podrażnień, napięcia i zaczerwienień. Jeśli zależy Ci na delikatnej i niezawodnej pielęgnacji twarzy i szyi, bez substancji zapachowych i agresywnych składników: ten krem ​​będzie dobrym wyborem",
+   "t": "Crema la roche-posay. Ottima crema, adatta a pelli sensibili",
    "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief",
-    "skin_reaction"
+    "Konsystencja"
    ]
   },
   {
    "r": 5,
-   "t": "Miękkie i chronione dłonie, nawet w najtrudniejszych chwilach. Odkąd odkryłam Regenerujący krem ​​do rąk Rilastil Xerolact, stał się on niezastąpionym sprzymierzeńcem w mojej codziennej pielęgnacji. Mam szczególnie suchą skórę na dłoniach, szczególnie w zimnych miesiącach, i często cierpię na irytujące pierzchnięcia i podrażnienia. Krem dość szybko się wchłania i nie pozostawia tłustej warstwy, co bardzo cenię, bo mogę od razu i bez uczucia dyskomfortu wrócić do aktywności. Konsystencja jest gęsta, ale kremowa, zapach delikatny i nieinwazyjny. Już po kilku zastosowaniach zauważyłam wyraźną poprawę: skóra jest bardziej miękka, bardziej elastyczna i przede wszystkim mniej podatna na podrażnienia. Krem pomaga naprawić barierę ochronną skóry, chroniąc dłonie przed agresywnymi czynnikami zewnętrznymi, takimi jak zimno i detergenty. Krem stosuję kilka razy dziennie, szczególnie po umyciu rąk lub przed snem. Podoba mi się również opakowanie z praktyczną tubą, która pozwala dobrze dozować produkt i nie marnować go. Podsumowując, polecam go osobom o suchych, zniszczonych dłoniach lub po prostu tym, którzy chcą zapobiec uszkodzeniom skóry, zapewniając jej nawilżenie i ochronę. Skuteczny i niezawodny produkt, warty każdej wydanej złotówki",
+   "t": "Perfetta per pelli sensibili e secche. Perfetta per chi come me ha pelle sensibile e dermatite. È idratante, non brucia e non unge",
    "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "skin_reaction",
-    "texture_absorption"
+    "Nawilżenie",
+    "Skóra atopowa / egzema"
    ]
   },
   {
    "r": 5,
-   "t": "Krem do rąk życia. Znalezienie idealnego kremu do rąk nie jest zadaniem trywialnym. Często musimy wybierać pomiędzy bardzo lekkimi formułami, które znikają po pięciu minutach, a tłustymi pastami, które uniemożliwiają nam dotykanie smartfona lub klawiatury komputera przez kolejne pół godziny. Po trzech tygodniach ciągłych testów okazał się przyjemnym wyjątkiem, pokazując, że w jednym produkcie można połączyć głębokie odżywienie i szybkie wchłanianie. Konsystencja jest bogata w dotyku, prawie jak lekkie masło, ale po wmasowaniu w skórę natychmiast się topi. Wchłanianie trwa około sześćdziesięciu sekund i jest to bardzo krótki okres czasu, w którym odczuwa się natychmiastowe uczucie ulgi. Już po pierwszej minucie skóra staje się całkowicie matowa, miękka i nietłusta, dzięki czemu można od razu wrócić do zajęć, nie pozostawiając wokół siebie irytujących tłustych śladów. Bardzo wygodny do zabrania ze sobą wszędzie! Poleciłem go każdemu i sprawiłem, że każdy go kupił, nie można się bez niego obejść!",
-   "tags": [
-    "hydration",
-    "texture_absorption",
-    "formula_change"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Świetny produkt do rąk. Zawsze szukałam kremu do rąk, który skutecznie odżywi skórę i zapobiegnie silnemu wysuszeniu, szczególnie w miesiącach zimowych, nie powodując przy tym nadmiernego natłuszczenia. Zależało mi na produkcie, który można nakładać zarówno wieczorem, jak i przed wyjściem, nie pozostawiając przy tym nieprzyjemnego uczucia. Po licznych poszukiwaniach i nieudanych zakupach wypróbowałam krem ​​Rilastil z 20% masłem Shea i byłam bardzo zadowolona. Stosuję go bez problemu nawet po umyciu rąk czy przed wyjściem; Głęboko odżywia i zapobiega silnemu wysuszeniu, które w przeszłości powodowało nawet niewielkie zmiany. Łatwo się rozprowadza, szybko się wchłania i nie pozostawia tłustej warstwy na dłoniach. Zapach jest bardzo przyjemny, choć dla osób preferujących produkty bezzapachowe może to stanowić ograniczenie. Cena jest przystępna, zarówno dla formatu 30 ml, jak i 100 ml. Kupuję i używam codziennie, gorąco polecam",
-   "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "texture_absorption",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Uratował moją skórę (dosłownie). Lipikar odkryłam niemal przez przypadek i muszę przyznać, że był to prawdziwy punkt zwrotny. Po złej reakcji na krem ​​przeciwstarzeniowy, który podrażniał moją twarz, moja skóra była zaczerwieniona, wrażliwa i bardzo sucha. W ciągu tygodnia przy konsekwentnym stosowaniu sytuacja uległa całkowitej zmianie: skóra uspokoiła się, stała się miękka, gładka i widocznie zdrowsza. To, co mnie najbardziej uderzyło, to zdolność do głębokiego nawilżenia bez tłustego efektu. Dobrze się wchłania, pozostawia natychmiastowe uczucie komfortu i co ważne, nie spowodował żadnego dyskomfortu, nawet na już zniszczonej skórze. Urodzony jako krem ​​do ciała, ale na twarz (przynajmniej w moim przypadku) spisał się bardzo dobrze. Na stałe zagościł w mojej pielęgnacji, szczególnie w okresach, kiedy trzeba „uporządkować” skórę. Doskonały stosunek jakości do ceny. Zaliczony z pełnymi ocenami",
-   "tags": [
-    "hydration",
-    "skin_reaction",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Gwarancja dla bardzo suchej skóry i atopowego zapalenia skóry. Mam bardzo suchą skórę, która często mnie swędzi (właściwie kiedyś mnie swędziała, bo tym kremem sobie z tym poradziłam) i ze skłonnością do atopowego zapalenia skóry. Dzięki temu kremowi, bardzo odżywczemu i bezzapachowemu, czuję się świetnie. Tworzy barierę na skórze, nie powodując uczucia dyskomfortu. Stosuję go również na twarz, ze względu na moją skłonność do wyprysków na powiekach. Latem na zmianę stosuję wersję AP+M LIGHT, a zimą na twarz normalną wersję AP+M, bardziej odżywczą i natłuszczającą. Próbowałam wielu kremów, ale ten jest dla mnie najlepszy, bez wazeliny/wazeliny, które często znajdują się w kremach na atopowe zapalenie skóry. Bycie bezzapachowym, szczególnie w wersji nielekkiej, może nie być zbyt przyjemne dla zapachu. Wersja light jest pod tym względem znacznie lepsza i przyjemniejsza. Ale wtedy nie ma perfum. Mimo, że jest „tłusty”, dobrze się wchłania",
-   "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Absolutnie tak! Nawet dla małych dzieci. La Roche to zawsze gwarancja sukcesu. Używam kilku ich produktów od lat i nigdy się nie zawiodłem, wręcz przeciwnie. Stosuję ten krem ​​codziennie na nóżki mojego 18-miesięcznego dziecka, które cierpi na atopowe zapalenie skóry, które nie jest groźne. Mając dość podawania mu kortyzonu od 3 miesiąca życia i innych znanych i całkowicie nieskutecznych olejków, spróbowaliśmy tego kremu i... cud: miękka, nawilżona skóra, bez strupów. Dziecko nadal od czasu do czasu się drapie, ale znacznie rzadziej niż wcześniej, a właściwie prawie wcale. Kiedy nasz drugi 4-miesięczny synek ma suchą skórę na ciele, zwłaszcza na małych nóżkach, nakładamy ją również na niego i dzięki temu pozostaje nawilżony przez cały dzień. Bardzo podoba mi się również zapach, bardzo delikatny i przyjemny",
-   "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Absolutnie tak! Nawet dla małych dzieci. La Roche to zawsze gwarancja sukcesu. Używam kilku ich produktów od lat i nigdy się nie zawiodłem, wręcz przeciwnie. Stosuję ten krem ​​codziennie na nóżki mojego 18-miesięcznego dziecka, które cierpi na atopowe zapalenie skóry, które nie jest groźne. Mając dość podawania mu kortyzonu od 3 miesiąca życia i innych znanych i całkowicie nieskutecznych olejków, spróbowaliśmy tego kremu i... cud: miękka, nawilżona skóra, bez strupów. Dziecko nadal od czasu do czasu się drapie, ale znacznie rzadziej niż wcześniej, a właściwie prawie wcale. Kiedy nasz drugi 4-miesięczny synek ma suchą skórę na ciele, zwłaszcza na małych nóżkach, nakładamy ją również na niego i dzięki temu pozostaje nawilżony przez cały dzień. Bardzo podoba mi się również zapach, bardzo delikatny i przyjemny",
-   "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Odżywia, regeneruje, natychmiast łagodzi skórę ♥️. Mam suchą skórę, a kiedy nadchodzi zima, zaczyna mnie swędzieć. Czasami swędzenie jest tak silne, że nie mogę się powstrzymać od drapania, aż do krwi. Próbowałem wielu rodzajów produktów, ale nic nie działało. Widziałem jedną z moich znajomych, która miała ten sam problem i ona używa tego produktu, więc poszukałem trochę i sprawdziłem to na Amazon. Nie było to zbyt drogie, więc zamówiłem. Dzisiaj paczka dotarła. Otworzyłam i od razu wypróbowałam. Jest lekki, a krem ​​łatwo wtapia się w skórę. Czuję uczucie odświeżenia i chłodu, nie odczuwam już swędzenia nóg. Zdecydowanie warto to zachować",
-   "tags": [
-    "hydration",
-    "itch_relief"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Myślę, że jest też dobry na zapalenie skóry.... Cierpię trochę na zapalenie skóry i od czasu do czasu próbuję kremów DS z mniej lub bardziej przyzwoitym skutkiem... Stosując go zauważyłem, że rezultaty były podobne, w niektórych przypadkach lepsze... Nie zawsze go używam, ale kiedy wraca, nakładam go i spełnia swoje zadanie... Polecam osobom cierpiącym na zapalenie skóry... Wtedy oczywiście nie każdemu dam taki sam efekt, ale dla mnie to się sprawdza",
-   "tags": [
-    "efficacy_atopic"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Fantastyczny. Kupiłam tubkę w aptece zeszłej zimy i od tamtej pory nie mogę się bez niej obejść. Skorzystałam więc z promocyjnej ceny i zrobiłam sobie zapasy. Używam go teraz wszędzie, nie tylko do rąk. Świetnie sprawdzają się także na stopach, kolanach, łokciach... Działa regenerująco na bardzo suchą skórę. Jest to bardzo gęsty krem, trzeba go dobrze wmasować, ale szybko się wchłania",
-   "tags": [
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "ZAWSZE UDZIELAM GWARANCJI. Świetny krem ​​do rąk. Chociaż jest bardzo bogaty i regenerujący, dobrze się wchłania przy minimalnym masowaniu i nie pozostawia irytującego uczucia lepkości. Stosuję go szczególnie wieczorem, a rano dłonie są jak nowe, gładkie i nawilżone. Zapach jest neutralny i delikatny, typowy dla wysokiej jakości produktów farmaceutycznych. Warte każdego grosza",
-   "tags": [
-    "hydration",
-    "texture_absorption",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Doskonały do ​​łagodzenia nadreaktywnej skóry. Aveeno to zawsze gwarancja jakości! Krem ten przynosi ulgę i nawilżenie nawet najbardziej wrażliwej skórze.  Ma dobrą konsystencję, więc nie potrzeba wiele do codziennego użytku, dzięki czemu butelki wystarczą na długo.  Zapach jest przyjemny i prawie niewyczuwalny",
-   "tags": [
-    "hydration",
-    "itch_relief",
-    "texture_absorption",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Suchy krem ​​do rąk. Bardzo dobry krem, wystarczy niewielka ilość, szybko się wchłania i nie jest tłusty. Słodki zapach wanilii, szybko zanika. Mam suchą i wrażliwą skórę, ale wystarczy nałożyć ten krem ​​przed snem, a następnego dnia moje dłonie są bardziej nawilżone. Mały format bardzo wygodny, aby mieć go zawsze przy sobie",
-   "tags": [
-    "hydration",
-    "texture_absorption",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "nawilżające i odżywcze. Szybko się wchłania, nie pozostawiając tłustej warstwy, pozostawiając skórę miękką i nawilżoną przez długi czas. Idealny również dla skóry delikatnej lub skóry narażonej na intensywne przesuszenie. Po zastosowaniu skóra jest wyraźnie bardziej komfortowa i odżywiona przez cały dzień",
-   "tags": [
-    "hydration",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "nawilżające i odżywcze. Szybko się wchłania, nie pozostawiając tłustej warstwy, pozostawiając skórę miękką i nawilżoną przez długi czas. Idealny również dla skóry delikatnej lub skóry narażonej na intensywne przesuszenie. Po zastosowaniu skóra jest wyraźnie bardziej komfortowa i odżywiona przez cały dzień",
-   "tags": [
-    "hydration",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Znakomity produkt. Znakomity produkt, odpowiedni także dla skóry problematycznej. Jest to krem ​​odżywczy, raczej tłusty i bezzapachowy. Rozwiązuje problemy mojego synka (dwuletniego) z atopowym zapaleniem skóry. Koszt jest uzasadniony nie tylko jakością produktu, ale także ilością",
-   "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "texture_absorption",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Znakomity produkt. Znakomity produkt, odpowiedni także dla skóry problematycznej. Jest to krem ​​odżywczy, raczej tłusty i bezzapachowy. Rozwiązuje problemy mojego synka (dwuletniego) z atopowym zapaleniem skóry. Koszt jest uzasadniony nie tylko jakością produktu, ale także ilością",
-   "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "texture_absorption",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Przyjazny dla skóry skłonnej do trądziku. To nowość w tej marce i produktach. Moja skóra jest bardzo wrażliwa i trudno było mi dobrać odpowiednie kremy, serum i płyny do mycia twarzy, aby zapobiec wybuchowi epidemii. To było jak dotąd niesamowite! Miłość, miłość, miłość. Bardzo przyjazny dla skóry skłonnej do trądziku!!",
+   "t": "prodotto buono come da catalogo. Prodotto buono. Servizio di consegna molto scarso.L'ordine è stato fatto il 22/05/2026, la consegna è stata fatta 08/06/2026",
    "tags": []
   },
   {
    "r": 5,
-   "t": "Doskonały krem ​​do delikatnej skóry. Znam już produkt zakupiony wcześniej w aptece. Stosowany jako środek nawilżający i przeciw swędzeniu ciała oraz przy podrażnieniach spowodowanych pieluszkami u osób starszych. Doskonały produkt zakupiony w doskonałej ofercie!",
+   "t": "Una garanzia per pelle secchissima e con dermatite atopica. Ho la pelle secchissima, che spesso mi da’ mi prurito (anzi, mi dava prurito, perché con questa crema ho risolto) e con tendenza a dermatite atopica. Con questa crema, molto nutriente e senza profumo, mi trovo benissimo. Crea proprio una barriera sulla pelle, senza dare fastidio. La uso anche sul viso, per via di tendenza all’eczema sulle palpebre. Alterno la versione AP+M LIGHT d’estate e sul viso a quella normale AP+M, più nutriente e grassa, d’inverno. Ho provato molte creme, ma questa è la migliore per me, senza petrolati/vaselina che spesso si trovano nelle creme per dermatite atopica. Essendo senza profumo, soprattutto la versione non light potrebbe risultare non gradevolissima all’olfatto. La versione light sotto questo aspetto è molto meglio e risulta gradevole. Ma d’altronde non ci sono profumi. Nonostante sia “grassa”, si assorbe bene",
    "tags": [
-    "hydration",
-    "itch_relief",
-    "skin_reaction"
+    "Nawilżenie",
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Wchłanianie / tłustość"
    ]
   },
   {
    "r": 5,
-   "t": "Ma właściwości lecznicze, jeśli masz bardzo suchą i wrażliwą skórę, tak jak moja, to jest to najlepszy wybór. Bardzo fajny krem, dobrze się wchłania, ustąpił też swędzeniu skóry. Po prostu najlepszy, nie żałuję zakupu",
+   "t": "calmante lenitiva e idratante. crema perfetta per pelli atopiche, aiuta moltissimo mantenendo la pelle morbida e idratata a lungo, calmante del prurito, la consiglio",
    "tags": [
-    "itch_relief",
-    "texture_absorption"
+    "Nawilżenie",
+    "Świąd",
+    "Skóra atopowa / egzema",
+    "Kojenie / podrażnienie"
    ]
   },
   {
    "r": 5,
-   "t": "Ma właściwości lecznicze, jeśli masz bardzo suchą i wrażliwą skórę, tak jak moja, to jest to najlepszy wybór. Bardzo fajny krem, dobrze się wchłania, ustąpił też swędzeniu skóry. Po prostu najlepszy, nie żałuję zakupu",
-   "tags": [
-    "itch_relief",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Optymalny. Stosuję dopiero tydzień, ale już widzę poprawę, słyszałam już o nim dobre rzeczy i potwierdzam wszystko, co mówią, nawet jeśli produkt jest niewielki, wystarczy niewielka ilość dziennie",
+   "t": "perfetto. una garanzia",
    "tags": []
   },
   {
    "r": 5,
-   "t": "Toleriane Krem wrażliwy!. Dobry krem ​​nawilżający do skóry wrażliwej, pozostawia skórę twarzy nawilżoną i miękką.. wystarczy odrobina i przyjemnie jest masować twarz, szczególnie okolice oczu.. polecam!",
+   "t": "CREMA. OK",
    "tags": [
-    "hydration"
+    "Konsystencja"
    ]
   },
   {
-   "r": 5,
-   "t": "Doskonały zakup. Jestem bardzo zadowolony z tego kremu, którego używam po prysznicu, a czasem nawet po opalaniu i muszę powiedzieć, że pozostawia skórę wyraźnie aksamitną bez perfum, naprawdę bardzo, bardzo miękką",
+   "r": 2,
+   "t": "riecht nicht gut. Produkt riecht sehr schlecht, der Geruch bleibt auch auf der Haut.Erwartet habe ich ein Produkt ohne Parfum, aber das es dann so schlecht riecht habe ich nicht gedacht",
    "tags": [
-    "fragrance"
+    "Zapach"
    ]
   },
   {
-   "r": 5,
-   "t": "Wspaniały!. Po miesiącach dyshydrozy dłoni i braku poprawy po zastosowaniu innych kremów, nadszedł punkt zwrotny. Już po kilku dniach skóra się zagoiła. W końcu moje ręce są w porządku. Nigdy więcej bez tego!",
+   "r": 2,
+   "t": "Falsche Creme in gleicher Flasche. Ich finde es verwirrend das das nicht dieselbe Creme ist wie die die in der genau selben Flasche ist. Hat leider nicht die gleiche Qualität und Eigenschaften. Der auf der Flasche erkennbare unterschied ist: \"zieht schnell ein, absorption rapide\" Die die nicht schnell einzieht ist viel besser. Mann könnte ja eine andere Farbe verwenden. So ist es ein versehentlicher Fehlkauf wegen schlechter Produkt kennzeichnung",
    "tags": [
-    "efficacy_atopic"
+    "Cena / pojemność"
    ]
   },
   {
-   "r": 5,
-   "t": "Cudowny krem!. Produkt skuteczny i delikatny. Doskonały do ​​suchych miejsc, takich jak łokcie i kolana, pozostawia skórę miękką i wygodną przez cały dzień. Lekki zapach i przyjemna konsystencja",
+   "r": 2,
+   "t": "Greasy feeling. It is greasy and not absorbed well by skin",
    "tags": [
-    "efficacy_atopic",
-    "texture_absorption",
-    "fragrance"
+    "Wchłanianie / tłustość"
    ]
   },
   {
-   "r": 5,
-   "t": "Cudowny krem!. Produkt skuteczny i delikatny. Doskonały do ​​suchych miejsc, takich jak łokcie i kolana, pozostawia skórę miękką i wygodną przez cały dzień. Lekki zapach i przyjemna konsystencja",
+   "r": 2,
+   "t": "Bestimmt eine gute Creme, miserable Verpackung / Spender. Creme konnte ich bisher nicht wirklich testen, denn der Pumpspender ist oben abgebrochen. Es sieht so aus als wenn das ggf. Beim Transport passiert ist, denn die Flasche war nicht gepolstert und hatte reichlich Spiel im Karton. Sehr schade, ich hätte sie gerne gegen die Neurodermitis bei meinem Baby ausprobiert",
    "tags": [
-    "efficacy_atopic",
-    "texture_absorption",
-    "fragrance"
+    "Skóra atopowa / egzema",
+    "Opakowanie / pompka",
+    "Dla dzieci / niemowląt"
    ]
   },
   {
-   "r": 5,
-   "t": "NAJLEPSZY KREM EVER. Mój zaufany krem ​​od lat, bez którego nie mogę żyć. W 90% przypadków kupuję na Amazonie, ponieważ znajduję go za co najmniej 10 euro taniej niż w sklepie",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "NAJLEPSZY KREM EVER. Mój zaufany krem ​​od lat, bez którego nie mogę żyć. W 90% przypadków kupuję na Amazonie, ponieważ znajduję go za co najmniej 10 euro taniej niż w sklepie",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Nigdy więcej suchej skóry. W końcu znalazłam idealny produkt dla mojej skóry, stosując go stale rozwiązałam problemy z suchą skórą. Polecam każdemu kto ma ten sam problem co ja",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Doskonały produkt. Produkt jest doskonały na zapalenie skóry mojej córki. Bezzapachowy i o odpowiedniej konsystencji. Produkt stosowany wyłącznie na twarz, szyję i dłonie wystarcza na około 6 miesięcy",
+   "r": 2,
+   "t": "La Roche Lipidarcre. Produkt ok.Aber die Pumpe ist leider nicht funktionsfähig.Bei meinem Schwiegersohn dasselbe Problem",
    "tags": [
-    "efficacy_atopic",
-    "texture_absorption",
-    "fragrance",
-    "kids_baby"
+    "Opakowanie / pompka"
    ]
   },
   {
-   "r": 5,
-   "t": "Wreszcie odpowiedni krem. Doskonały krem ​​nawilżający do skóry suchej i swędzącej. Całkowicie bezzapachowy.. więc nadal idealny. Odpowiedni dla osób takich jak ja, które cierpią na zapalenie skóry",
+   "r": 2,
+   "t": "Creme diferente. Estou achando bem estranho. Esse tem um cheiro e uma textura diferente do que sempre comprei. Minha filha tem dermatite grave, estou com medo de passar e ser uma réplica. Até a embalagem, não parece a original o da direita é o antigo, vejam a diferença",
    "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief",
-    "fragrance"
+    "Skóra atopowa / egzema",
+    "Konsystencja"
    ]
   },
   {
-   "r": 5,
-   "t": "Mieli gwarancję. Tak, z pewnością! Aveeno to znak rozpoznawczy wysokiej jakości i tradycja, która trwa od wielu lat. Używam go od lat i jestem z niego bardzo zadowolony. Polecany produkt",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Perfekcja w skuteczności. Dla mnie ten krem-balsam jest wybawieniem od zapalenia skóry i grzybicy skóry. Likwiduje swędzenie i równoważy mikroflorę skóry",
+   "r": 2,
+   "t": "A textura do produto está diferente. Já tinha usado esse produto antes, esse que entregou está com a textura diferente, como se estivesse misturado com alguma coisa. Está mais diluído. Não sei se é original",
    "tags": [
-    "efficacy_atopic",
-    "itch_relief"
+    "Konsystencja"
    ]
-  },
-  {
-   "r": 5,
-   "t": "Perfekcja w skuteczności. Dla mnie ten krem-balsam jest wybawieniem od zapalenia skóry i grzybicy skóry. Likwiduje swędzenie i równoważy mikroflorę skóry",
-   "tags": [
-    "efficacy_atopic",
-    "itch_relief"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "uspokajające, kojące i nawilżające. idealny krem ​​do skóry atopowej, bardzo pomaga, utrzymuje skórę miękką i nawilżoną przez długi czas, łagodzi swędzenie, polecam",
-   "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "itch_relief"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "dobry produkt, zgodny z katalogiem. Dobry produkt. Bardzo słaba obsługa dostawy. Zamówienie zostało złożone 22.05.2026, dostawa została zrealizowana 08.06.2026",
-   "tags": [
-    "delivery_authenticity"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Uriage krem ​​do ciała. Uriage rozwiązał problem suchej skóry w całym domu, jest to doskonały produkt polecany przez dermatologa. Nigdy więcej bez tego!!!",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Doskonały. Jest to jeden z najlepszych kremów do ciała jakie kiedykolwiek używałam. Używam go już od jakiegoś czasu i zapewnia, że ​​moja skóra jest gładka i doskonale nawilżona",
-   "tags": [
-    "hydration"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Bardzo dobry. Doskonały produkt. Uelastycznia skórę dłoni i naprawia pęknięcia. Bardzo dobre perfumy!! Prawie jak wata cukrowa",
-   "tags": [
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Dobry produkt. Znakomity krem ​​na dzień i na noc stosowany po 2 innych produktach pozostawia skórę doskonale nawilżoną, o średniej konsystencji",
-   "tags": [
-    "hydration",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Idealny dla skóry wrażliwej i suchej. Idealny dla osób takich jak ja, które mają wrażliwą skórę i zapalenie skóry. Jest nawilżający, nie piecze i nie jest tłusty",
-   "tags": [
-    "efficacy_atopic",
-    "hydration",
-    "skin_reaction",
-    "texture_absorption"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Optymalny. Jest to pasta dla dzieci, ale ja stosuję ją na rumień, różne wybuchy alergiczne skóry, oparzenia słoneczne. To działa świetnie",
-   "tags": [
-    "skin_reaction",
-    "kids_baby"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Do skóry bardzo suchej i wrażliwej. Świetny produkt, polecam, skóra staje się miękka i dobrze nawilżona",
-   "tags": [
-    "hydration"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Najlepsze. Mój ulubiony krem ​​do rąk. Konsystencja jest doskonała, a zapach niezwykły",
-   "tags": [
-    "texture_absorption",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Doskonały. Pyszny, treściwy i superchłonny krem, doskonały dla osób o bardzo suchej skórze",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Doskonały środek nawilżający. Doskonały. Używam go od wielu lat, ponieważ jest to produkt bardzo nawilżający",
-   "tags": [
-    "hydration"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Super krem!. Dla mojej małej dziewczynki, która cierpi na atopowe zapalenie skóry, to naprawdę rewelacja!!!!",
-   "tags": [
-    "efficacy_atopic"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Doskonały!. Doskonały krem ​​na dzień, łatwo się wchłania i nie ma zapachu",
-   "tags": [
-    "texture_absorption",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "doskonały produkt. krem do twarzy odpowiedni dla skóry wrażliwej ze zmienioną barierą ochronną skóry",
-   "tags": [
-    "hydration"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Żadnych perfum. Już samo to, że nie ma zapachu, jest dobrym znakiem!",
-   "tags": [
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Żadnych perfum. Już samo to, że nie ma zapachu, jest dobrym znakiem!",
-   "tags": [
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Naprawdę skuteczne. do stosowania przy nocnym swędzeniu. Bardzo mi to pomogło",
-   "tags": [
-    "efficacy_atopic",
-    "itch_relief"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Radzić. Doskonała konsystencja. Nie ma zapachu. Robi swoje",
-   "tags": [
-    "texture_absorption",
-    "fragrance"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Jest idealny dla skóry atopowej. Doskonały krem",
-   "tags": [
-    "efficacy_atopic"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Odpowiedni dla skóry wrażliwej. Doskonały produkt",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Krem. Bardzo nawilżający i przeciwdziałający wysuszeniu krem",
-   "tags": [
-    "hydration"
-   ]
-  },
-  {
-   "r": 5,
-   "t": "Krem do ciała. Optymalny!!!",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Doskonały. gwarancja",
-   "tags": []
-  },
-  {
-   "r": 5,
-   "t": "Optymalny. Optymalny",
-   "tags": []
   }
  ]
 }

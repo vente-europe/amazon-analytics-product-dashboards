@@ -570,7 +570,7 @@ DATA CONTRACT — window._TAB_DATA shape:
     });
     document.getElementById('urvResultCount').textContent = 'Showing ' + filtered.length + ' of ' + reviews.length + ' reviews';
     var html = '';
-    var limit = Math.min(filtered.length, 200);
+    var limit = Math.min(filtered.length, 1000);
     for (var i = 0; i < limit; i++) {
       var r = filtered[i];
       var starHtml = '<span style="color:' + STAR_COLORS[r.r] + ';font-weight:700">' + r.r + '★</span>';
@@ -580,7 +580,7 @@ DATA CONTRACT — window._TAB_DATA shape:
       html += '<tr><td>' + starHtml + '</td><td><div class="review-text">' + (r.t || '').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</div>' +
         (tagsHtml ? '<div style="margin-top:4px">' + tagsHtml + '</div>' : '') + '</td></tr>';
     }
-    if (filtered.length > 200) html += '<tr><td colspan="2" style="text-align:center;color:#64748b;font-size:.72rem;padding:12px">Showing first 200 of ' + filtered.length + '. Use filters to narrow.</td></tr>';
+    if (filtered.length > 1000) html += '<tr><td colspan="2" style="text-align:center;color:#64748b;font-size:.72rem;padding:12px">Showing first 1000 of ' + filtered.length + '. Use filters/search to reach the rest.</td></tr>';
     document.getElementById('urvReviewBody').innerHTML = html;
   }
   document.getElementById('urvFilterRating').addEventListener('change', urvFilter);
