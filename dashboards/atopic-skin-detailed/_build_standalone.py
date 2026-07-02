@@ -44,14 +44,10 @@ PRODUCT_TITLE = 'Atopic Skin — Detailed (DE, FR, IT, ES)'
 DASHBOARD_H2  = 'Atopic Skin — Analiza szczegółowa'
 DASHBOARD_SUB = 'Rynki: Niemcy · Francja · Włochy · Hiszpania · Dane: Helium 10 X-Ray + analiza recenzji (VOC) + Marketing Deep-Dive'
 
-# Per-country X-Ray Google Sheets (top-right header buttons, like the multi-market
-# convention). Reused from the topline; '#' placeholder if a sheet is missing.
-XRAY_LINKS = {
-    'DE': 'https://docs.google.com/spreadsheets/d/1_i9_eaJUx9YhG0XFUOWb97YEn_Jj79U6wqcapMYK9Yw/edit?gid=1649983910#gid=1649983910',
-    'FR': 'https://docs.google.com/spreadsheets/d/1fD-QisOAi2_GUpHItXgeUu2bN19iti9w0KrtbOP51Jc/edit?gid=2058240202#gid=2058240202',
-    'IT': 'https://docs.google.com/spreadsheets/d/1coY3TXsKNt-z_ruNg5Krdm-UPNywG5wIwep9XqZFlOo/edit?gid=1574144490#gid=1574144490',
-    'ES': 'https://docs.google.com/spreadsheets/d/1u-S0NnaPOJB2qh0KSvxOum4bvQt5Ydrp7-VPNngGvKI/edit?gid=1593778489#gid=1593778489',
-}
+# Single top-right header button -> the ONE combined master X-Ray Google Sheet
+# (all markets + Marketplace + Segment columns). Team edits here; download it back
+# over data/x-ray/Atopic-Skin-Detailed-ALL-markets.csv and rebuild to apply.
+MASTER_XRAY_URL = 'https://docs.google.com/spreadsheets/d/1byI65DKowRHXKCWB7ypX5_PacCiGfESFiysUEECVbvI/edit?usp=drive_link'
 
 # ── Countries (order by market size) ────────────────────────────────────────
 COUNTRIES = [
@@ -754,14 +750,12 @@ buildSegmentPills();
 </html>
 '''
 
-# Per-country X-Ray buttons for the top header (DE · FR · IT · ES)
+# Single master X-Ray button for the top header
 _XRAY_SVG = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">'
              '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>'
              '<polyline points="14 2 14 8 20 8"/></svg>')
-XRAY_BUTTONS = ''.join(
-    '<a class="ad-xray-btn" href="{href}" target="_blank" rel="noopener">{svg}{code} X-Ray</a>'.format(
-        href=XRAY_LINKS.get(c['code'], '#'), svg=_XRAY_SVG, code=c['code'])
-    for c in COUNTRIES)
+XRAY_BUTTONS = ('<a class="ad-xray-btn" href="{href}" target="_blank" rel="noopener">'
+                '{svg}Edytuj X-Ray (wszystkie rynki)</a>').format(href=MASTER_XRAY_URL, svg=_XRAY_SVG)
 
 html = HTML.replace('{{TITLE}}', PRODUCT_TITLE)
 html = html.replace('{{DASHBOARD_H2}}', DASHBOARD_H2)
