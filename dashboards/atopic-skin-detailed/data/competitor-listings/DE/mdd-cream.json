@@ -10,13 +10,11 @@
    "img": "https://m.media-amazon.com/images/I/61lg2nKtAFL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61lg2nKtAFL.jpg",
-    "https://m.media-amazon.com/images/I/31-Tqx8juTL.jpg",
-    "https://m.media-amazon.com/images/I/31-Tqx8juTL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71u4vCB5zHL.jpg",
-    "https://m.media-amazon.com/images/I/41EKrXLDCGL.jpg",
-    "https://m.media-amazon.com/images/I/41EKrXLDCGL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/811DE74LOoL.jpg",
-    "https://m.media-amazon.com/images/I/51WPtFKMVrL.jpg"
+    "https://m.media-amazon.com/images/I/61qUyskF2QL.jpg",
+    "https://m.media-amazon.com/images/I/61KlUbp8MbL.jpg",
+    "https://m.media-amazon.com/images/I/61tmsjSOFaL.jpg"
    ],
    "bullets": [
     "Die Wundsalbe wurde für die Bedürfnisse geschädigter und irritierter Haut von Gesicht, Körper und Lippen entwickelt. Dexpanthenol wirkt regenerierend und beruhigend, Madecassoside fördert die Zellerneuerung und Tribioma bringt das Mikrobiom der Haut ins Gleichgewicht. Auch für Baby- und Kinderhaut.",
@@ -35,13 +33,13 @@
      "T",
      "BP"
     ],
-    "dla_dzieci": [
-     "BP"
-    ],
     "kojacy": [
      "BP"
     ],
     "odzywczy": [
+     "BP"
+    ],
+    "dla_dzieci": [
      "BP"
     ],
     "naturalny": [
@@ -62,13 +60,13 @@
    "img": "https://m.media-amazon.com/images/I/41lmeQYcLrL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/41lmeQYcLrL.jpg",
-    "https://m.media-amazon.com/images/I/31Ijc27t7+L.jpg",
-    "https://m.media-amazon.com/images/I/31Ijc27t7+L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61jYRhPc+eL.jpg",
-    "https://m.media-amazon.com/images/I/41A2s11TICL.jpg",
-    "https://m.media-amazon.com/images/I/41A2s11TICL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61GhmP8JfjL.jpg",
-    "https://m.media-amazon.com/images/I/41C3Tpv1atL.jpg"
+    "https://m.media-amazon.com/images/I/61zIgG8WF5L.jpg",
+    "https://m.media-amazon.com/images/I/61by6I3bjtL.jpg",
+    "https://m.media-amazon.com/images/I/61Buf5ClxzL.jpg",
+    "https://m.media-amazon.com/images/I/61Axx9AVLBL.jpg",
+    "https://m.media-amazon.com/images/I/61A1yT758hL.jpg"
    ],
    "bullets": [
     "LIPIKAR Baume Light AP+M von La Roche Posay ist eine schnell einziehende Bodylotion für trockene und zu Neurodermitis neigende Haut. Sie mildert Juckreiz und Spannungsgefühle und beruhigt die Haut.",
@@ -86,6 +84,19 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "bez_zapachu": [
+     "T"
+    ],
+    "swiad": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
     "skora_atopowa": [
      "T",
      "BP"
@@ -93,20 +104,7 @@
     "odzywczy": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "bez_zapachu": [
-     "T"
-    ],
     "nawilzenie": [
-     "BP"
-    ],
-    "kojacy": [
-     "BP"
-    ],
-    "swiad": [
      "BP"
     ],
     "dla_dzieci": [
@@ -126,13 +124,12 @@
    "img": "https://m.media-amazon.com/images/I/61YDmQy6soL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61YDmQy6soL.jpg",
-    "https://m.media-amazon.com/images/I/312-BtaffPL.jpg",
-    "https://m.media-amazon.com/images/I/312-BtaffPL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61ZghfvkXQL.jpg",
-    "https://m.media-amazon.com/images/I/31i55hJC0LL.jpg",
-    "https://m.media-amazon.com/images/I/31i55hJC0LL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71X+2a8s4kL.jpg",
-    "https://m.media-amazon.com/images/I/41jWT-CvqNL.jpg"
+    "https://m.media-amazon.com/images/I/715G7r78ilL.jpg",
+    "https://m.media-amazon.com/images/I/71PdUxodElL.jpg",
+    "https://m.media-amazon.com/images/I/71wmAaPIl6L.jpg",
+    "https://m.media-amazon.com/images/I/81p2U1NThpL.jpg"
    ],
    "bullets": [
     "Feuchtigkeitsspendende und leichte Bodylotion mit kontrollierter Wirkstoff-Freisetzung zur ganztägigen Feuchtigkeitsversorgung und Stärkung der Hautbarriere für trockene bis sehr trockene Haut bei Erwachsenen und Kindern.",
@@ -149,27 +146,27 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T"
-    ],
-    "bariera": [
-     "BP"
-    ],
     "wchlanianie": [
-     "BP"
-    ],
-    "dermatologiczny": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
+    "skora_atopowa": [
+     "T"
+    ],
     "nawilzenie": [
      "T",
      "BP"
     ],
     "dla_dzieci": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -186,13 +183,13 @@
    "img": "https://m.media-amazon.com/images/I/811R5oWSjsL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/811R5oWSjsL.jpg",
-    "https://m.media-amazon.com/images/I/51fnnC6diKL.jpg",
-    "https://m.media-amazon.com/images/I/51fnnC6diKL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81RF7FcHcaL.jpg",
-    "https://m.media-amazon.com/images/I/51DHGN-pmOL.jpg",
-    "https://m.media-amazon.com/images/I/51DHGN-pmOL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81tpcAfzYzL.jpg",
-    "https://m.media-amazon.com/images/I/51N+7DpF6nL.jpg"
+    "https://m.media-amazon.com/images/I/71SADg+JpoL.jpg",
+    "https://m.media-amazon.com/images/I/71T5swlRprL.jpg",
+    "https://m.media-amazon.com/images/I/71jpSngubpL.jpg",
+    "https://m.media-amazon.com/images/I/715wLJM74ZL.jpg",
+    "https://m.media-amazon.com/images/I/81nukARwHYL.jpg"
    ],
    "bullets": [
     "Hauterneuernde und hochkonzentrierte Pflegecreme für Gesicht, Körper und Hände, Tiefenwirksame Feuchtigkeitscreme speziell für sehr trockene und raue Haut",
@@ -213,15 +210,15 @@
      "T",
      "BP"
     ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
     "nawilzenie": [
      "T",
      "BP"
     ],
     "wchlanianie": [
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
      "BP"
     ]
    },
@@ -238,13 +235,13 @@
    "img": "https://m.media-amazon.com/images/I/71ea4mQlpTL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71ea4mQlpTL.jpg",
-    "https://m.media-amazon.com/images/I/31KDky7zc9L.jpg",
-    "https://m.media-amazon.com/images/I/31KDky7zc9L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71vwMJ26UIL.jpg",
-    "https://m.media-amazon.com/images/I/41hCinrzQPL.jpg",
-    "https://m.media-amazon.com/images/I/41hCinrzQPL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71QzXmQ0GoL.jpg",
-    "https://m.media-amazon.com/images/I/41XBNqpBlyL.jpg"
+    "https://m.media-amazon.com/images/I/71CC0gfi4GL.jpg",
+    "https://m.media-amazon.com/images/I/81fBIBduzIL.jpg",
+    "https://m.media-amazon.com/images/I/813z0wkRxeL.jpg",
+    "https://m.media-amazon.com/images/I/8184eyOSTIL.jpg",
+    "https://m.media-amazon.com/images/I/81l3qWGvsDL.jpg"
    ],
    "bullets": [
     "Reichhaltige Körperpflege mit kontrollierter Wirkstoff-Freisetzung zur ganztägigen Feuchtigkeitsversorgung für trockene bis sehr trockene Haut bei Erwachsenen und Kindern. Auch für zu Neurodermitis neigende Haut.",
@@ -261,21 +258,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
     "wchlanianie": [
-     "BP"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
-    "dermatologiczny": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
      "BP"
     ],
     "nawilzenie": [
@@ -283,6 +277,9 @@
      "BP"
     ],
     "dla_dzieci": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -299,13 +296,11 @@
    "img": "https://m.media-amazon.com/images/I/81gpa6C36jL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/81gpa6C36jL.jpg",
-    "https://m.media-amazon.com/images/I/41+eLEW8EnL.jpg",
-    "https://m.media-amazon.com/images/I/41+eLEW8EnL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/611zeR0w3PL.jpg",
-    "https://m.media-amazon.com/images/I/41BBSS4p+tL.jpg",
-    "https://m.media-amazon.com/images/I/41BBSS4p+tL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61tw9+QczZL.jpg",
-    "https://m.media-amazon.com/images/I/413RYiC2w5L.jpg"
+    "https://m.media-amazon.com/images/I/71BLOjfYkkL.jpg",
+    "https://m.media-amazon.com/images/I/61CTDomB0nL.jpg",
+    "https://m.media-amazon.com/images/I/71X3Z4AAJML.jpg"
    ],
    "bullets": [
     "Sorion wurde speziell zur intensiven Pflege akut und chronisch gereizter Haut sowie zur unterstützenden Hautpflege bei Juckreiz, Rötungen, Entzündungen und Hautirritationen entwickelt",
@@ -323,11 +318,11 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
+    "swiad": [
      "T",
      "BP"
     ],
-    "dermatologiczny": [
+    "naturalny": [
      "BP"
     ],
     "cena_pojemnosc": [
@@ -337,11 +332,11 @@
     "kojacy": [
      "BP"
     ],
-    "swiad": [
+    "odzywczy": [
      "T",
      "BP"
     ],
-    "naturalny": [
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -358,13 +353,13 @@
    "img": "https://m.media-amazon.com/images/I/71vgyRjmhkL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71vgyRjmhkL.jpg",
-    "https://m.media-amazon.com/images/I/51zbshl4TpL.jpg",
-    "https://m.media-amazon.com/images/I/51zbshl4TpL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71M5Da8YgBL.jpg",
-    "https://m.media-amazon.com/images/I/413gxBqVm9L.jpg",
-    "https://m.media-amazon.com/images/I/413gxBqVm9L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/810Ex+9rLSL.jpg",
-    "https://m.media-amazon.com/images/I/41QAg7SxXiL.jpg"
+    "https://m.media-amazon.com/images/I/71hJqNxxOgL.jpg",
+    "https://m.media-amazon.com/images/I/71gsvpEDI+L.jpg",
+    "https://m.media-amazon.com/images/I/81JubDMrEDL.jpg",
+    "https://m.media-amazon.com/images/I/712W0e5DlpL.jpg",
+    "https://m.media-amazon.com/images/I/81ELKwV6qFL.jpg"
    ],
    "bullets": [
     "FEUCHTIGKEITSCREME FÜR TROCKENE, EMPFINDLICHE HAUT: Reichhaltige, nicht fettende Feuchtigkeitscreme. Nicht komedogen. Ohne Parfüm. Von dermatologischen Experten entwickelt.",
@@ -383,27 +378,27 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bariera": [
-     "BP"
-    ],
     "wchlanianie": [
      "BP"
     ],
-    "odzywczy": [
-     "BP"
-    ],
-    "dermatologiczny": [
+    "naturalny": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
+    "odzywczy": [
+     "BP"
+    ],
     "nawilzenie": [
      "T",
      "BP"
     ],
-    "naturalny": [
+    "bariera": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -420,13 +415,13 @@
    "img": "https://m.media-amazon.com/images/I/71KX5HBOqmL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71KX5HBOqmL.jpg",
-    "https://m.media-amazon.com/images/I/51gqXtDQ8sL.jpg",
-    "https://m.media-amazon.com/images/I/51gqXtDQ8sL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71wwhQG9CML.jpg",
-    "https://m.media-amazon.com/images/I/514i6l0pohL.jpg",
-    "https://m.media-amazon.com/images/I/514i6l0pohL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71Ku8exgVdL.jpg",
-    "https://m.media-amazon.com/images/I/41of+OAekLL.jpg"
+    "https://m.media-amazon.com/images/I/71MP0f8VM0L.jpg",
+    "https://m.media-amazon.com/images/I/71zlY8mZnQL.jpg",
+    "https://m.media-amazon.com/images/I/81mmQ29CSqL.jpg",
+    "https://m.media-amazon.com/images/I/71Nz7lv98ZL.jpg",
+    "https://m.media-amazon.com/images/I/71Mg0T1WUKL.jpg"
    ],
    "bullets": [
     "Regenerierende Wundpflegecreme speziell für empfindliche und zu Neurodermitis neigende Haut, Gegen Juckreiz, Rötungen und Trockenheit",
@@ -446,33 +441,33 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
+    "swiad": [
      "T",
-     "BP"
-    ],
-    "bariera": [
      "BP"
     ],
     "wchlanianie": [
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "nawilzenie": [
-     "BP"
-    ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "swiad": [
+    "skora_atopowa": [
      "T",
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ]
    },
@@ -489,13 +484,13 @@
    "img": "https://m.media-amazon.com/images/I/51HXMkWyHUL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51HXMkWyHUL.jpg",
-    "https://m.media-amazon.com/images/I/319SB3qFq8L.jpg",
-    "https://m.media-amazon.com/images/I/319SB3qFq8L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61MG0yBxxIL.jpg",
-    "https://m.media-amazon.com/images/I/41ft8RLCOML.jpg",
-    "https://m.media-amazon.com/images/I/41ft8RLCOML._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71m-kv-FhPL.jpg",
-    "https://m.media-amazon.com/images/I/51cYniLVFOL.jpg"
+    "https://m.media-amazon.com/images/I/51wYSko9qFL.jpg",
+    "https://m.media-amazon.com/images/I/61Y9mFZ3FQL.jpg",
+    "https://m.media-amazon.com/images/I/61xBSaLtdUL.jpg",
+    "https://m.media-amazon.com/images/I/61mL1yaOTVL.jpg",
+    "https://m.media-amazon.com/images/I/718qJHWevHL.jpg"
    ],
    "bullets": [
     "Feuchtigkeitsspendende, schnell einziehende Creme ohne Duftstoffe. Hinterlässt ein angenehm weiches Hautgefühl.",
@@ -515,19 +510,19 @@
      "T",
      "BP"
     ],
-    "nawilzenie": [
-     "BP"
+    "kojacy": [
+     "T"
     ],
     "bez_zapachu": [
      "BP"
     ],
-    "kojacy": [
+    "odzywczy": [
      "T"
+    ],
+    "nawilzenie": [
+     "BP"
     ],
     "swiad": [
-     "T"
-    ],
-    "odzywczy": [
      "T"
     ],
     "naturalny": [
@@ -547,13 +542,12 @@
    "img": "https://m.media-amazon.com/images/I/613NuWl9+nL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/613NuWl9+nL.jpg",
-    "https://m.media-amazon.com/images/I/317tWI1m4oL.jpg",
-    "https://m.media-amazon.com/images/I/317tWI1m4oL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71E6HR60MGL.jpg",
-    "https://m.media-amazon.com/images/I/41+nFuhyeeL.jpg",
-    "https://m.media-amazon.com/images/I/41+nFuhyeeL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81SExiptwLL.jpg",
-    "https://m.media-amazon.com/images/I/51xI5vwChTL.jpg"
+    "https://m.media-amazon.com/images/I/91MUtfyo9fL.jpg",
+    "https://m.media-amazon.com/images/I/71b7OpbIM6L.jpg",
+    "https://m.media-amazon.com/images/I/71gKT6uXZnL.jpg",
+    "https://m.media-amazon.com/images/I/716OsHQx-1L.jpg"
    ],
    "bullets": [
     "Die Gesichtscreme mit probiotischem Sphingobioma, Neurosensine und Thermalwasser beruhigt die Haut, wirkt Rötungen entgegen und spendet 48 h intensive Feuchtigkeit. Duftstoff- und alkoholfrei – daher ideal für empfindliche Haut.",
@@ -571,13 +565,13 @@
     "cena_pojemnosc": [
      "T"
     ],
+    "kojacy": [
+     "BP"
+    ],
     "bez_zapachu": [
      "T"
     ],
     "nawilzenie": [
-     "BP"
-    ],
-    "kojacy": [
      "BP"
     ],
     "naturalny": [
@@ -598,13 +592,13 @@
    "img": "https://m.media-amazon.com/images/I/51jzMorS7rL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51jzMorS7rL.jpg",
-    "https://m.media-amazon.com/images/I/41QGviY4txL.jpg",
-    "https://m.media-amazon.com/images/I/41QGviY4txL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61zLWGYdhcL.jpg",
-    "https://m.media-amazon.com/images/I/41zCT0JqndL.jpg",
-    "https://m.media-amazon.com/images/I/41zCT0JqndL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61RloY1DESL.jpg",
-    "https://m.media-amazon.com/images/I/41J+yBphqBL.jpg"
+    "https://m.media-amazon.com/images/I/51WCwzQ-pTL.jpg",
+    "https://m.media-amazon.com/images/I/51Khw46QETL.jpg",
+    "https://m.media-amazon.com/images/I/61r6LiF+rEL.jpg",
+    "https://m.media-amazon.com/images/I/51648oNOtwL.jpg",
+    "https://m.media-amazon.com/images/I/51BVjCVOzlL.jpg"
    ],
    "bullets": [
     "Reichhaltige Körperpflege mit kontrollierter Wirkstoff-Freisetzung zur Feuchtigkeitsversorgung den ganzen Tage lang, Geeignet für trockene bis sehr trockene Haut bei Erwachsenen und Kindern und auch für zu Neurodermitis neigende Haut",
@@ -625,7 +619,23 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "wchlanianie": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "BP"
+    ],
     "skora_atopowa": [
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
      "BP"
     ],
     "dla_dzieci": [
@@ -634,23 +644,7 @@
     "bariera": [
      "BP"
     ],
-    "wchlanianie": [
-     "BP"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
     "dermatologiczny": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "naturalny": [
      "BP"
     ]
    },
@@ -667,13 +661,11 @@
    "img": "https://m.media-amazon.com/images/I/61bIwDuN4xL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61bIwDuN4xL.jpg",
-    "https://m.media-amazon.com/images/I/41Mo2E8pKkL.jpg",
-    "https://m.media-amazon.com/images/I/41Mo2E8pKkL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71lE4meWsaL.jpg",
-    "https://m.media-amazon.com/images/I/41VcHFBk0cL.jpg",
-    "https://m.media-amazon.com/images/I/41VcHFBk0cL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71ibGj62SJL.jpg",
-    "https://m.media-amazon.com/images/I/41e+Wkz3GSL.jpg"
+    "https://m.media-amazon.com/images/I/611ohbOFoQL.jpg",
+    "https://m.media-amazon.com/images/I/61CvdxjiFPL.jpg",
+    "https://m.media-amazon.com/images/I/71Rh0EWyjVL.jpg"
    ],
    "bullets": [
     "hochwertige medizinische Hautpflege",
@@ -690,23 +682,23 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T"
+    ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "cena_pojemnosc": [
+    "odzywczy": [
      "T",
      "BP"
     ],
     "nawilzenie": [
      "T"
-    ],
-    "kojacy": [
-     "T"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
     ]
    },
    "price": 18.31,

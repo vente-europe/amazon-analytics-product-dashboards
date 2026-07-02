@@ -10,13 +10,12 @@
    "img": "https://m.media-amazon.com/images/I/51K1t2jvhKL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51K1t2jvhKL.jpg",
-    "https://m.media-amazon.com/images/I/31wZ2z7QpYL.jpg",
-    "https://m.media-amazon.com/images/I/31wZ2z7QpYL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61S4zmYPSNL.jpg",
-    "https://m.media-amazon.com/images/I/41p1AQnIbnL.jpg",
-    "https://m.media-amazon.com/images/I/41p1AQnIbnL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/717me2nCICL.jpg",
-    "https://m.media-amazon.com/images/I/51Ws5Wf2sqL.jpg"
+    "https://m.media-amazon.com/images/I/61dR6J7TGvL.jpg",
+    "https://m.media-amazon.com/images/I/81HX0wTDgaL.jpg",
+    "https://m.media-amazon.com/images/I/81nH4Nga+hL.jpg",
+    "https://m.media-amazon.com/images/I/81RDKExPTkL.jpg"
    ],
    "bullets": [
     "HUILE POUR VERGETURES ET CICATRICES : Avec l’huile concentrée Cica, apaisez votre peau, atténuez visiblement les vergetures et cicatrices déjà existantes, et prévenez l’apparition de nouvelles vergetures. Ce soin ultra-riche permet également de nourrir et d’hydrater la peau pendant 24h. Sa texture bien-être, au fini non gras et non collant, pénètre facilement la peau. Associée à son parfum aux notes délicates de feuilles de figuier et de jasmin, elle assure un confort d'utilisation optimal.",
@@ -35,28 +34,28 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dla_dzieci": [
-     "BP"
-    ],
     "wchlanianie": [
      "T",
      "BP"
     ],
-    "dermatologiczny": [
+    "swiad": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
     ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "swiad": [
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -91,19 +90,19 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
     "skora_atopowa": [
      "BP"
     ],
     "odzywczy": [
      "BP"
     ],
-    "dla_dzieci": [
+    "nawilzenie": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "nawilzenie": [
+    "dla_dzieci": [
      "BP"
     ]
    },

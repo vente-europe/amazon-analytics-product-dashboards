@@ -7,16 +7,15 @@
    "asin": "B0DGH2CDK4",
    "brand": "Aveeno",
    "title": "Aveeno Skin Relief Körperöl-Spray – mit Haferöl und Jojobaöl, spendet langanhaltende Feuchtigkeit, stärkt die Hautschutzbarriere und verbessert die Elastizität bei sehr trockener, empfindlicher Haut",
-   "img": "https://m.media-amazon.com/images/I/31NQN2UmApL.jpg",
+   "img": "https://m.media-amazon.com/images/I/71uHTx7cPYL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/31NQN2UmApL.jpg",
-    "https://m.media-amazon.com/images/I/31NQN2UmApL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71uHTx7cPYL.jpg",
-    "https://m.media-amazon.com/images/I/41Qe59ErZKL.jpg",
-    "https://m.media-amazon.com/images/I/41Qe59ErZKL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81O05MMA69L.jpg",
-    "https://m.media-amazon.com/images/I/41p83Jm0zNL.jpg",
-    "https://m.media-amazon.com/images/I/41p83Jm0zNL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/71hv7uLqJYL.jpg",
+    "https://m.media-amazon.com/images/I/71qv27Z1-BL.jpg",
+    "https://m.media-amazon.com/images/I/714aWJsA2qL.jpg",
+    "https://m.media-amazon.com/images/I/71SvRjNeQmL.jpg",
+    "https://m.media-amazon.com/images/I/71W3kxKifxL.jpg"
    ],
    "bullets": [
     "Pflege für die Haut – Das Skin Relief Körperöl-Spray von Aveeno versorgt selbst sehr trockene, empfindliche Haut mit intensiver &amp; langanhaltender Feuchtigkeit und pflegt die Haut nachhaltig.",
@@ -33,21 +32,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
     "cena_pojemnosc": [
      "BP"
     ],
     "odzywczy": [
      "BP"
     ],
-    "naturalny": [
+    "nawilzenie": [
+     "T",
      "BP"
     ],
     "bariera": [
      "T",
+     "BP"
+    ],
+    "naturalny": [
      "BP"
     ]
    },
@@ -64,13 +63,13 @@
    "img": "https://m.media-amazon.com/images/I/61IbwyrBLJL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61IbwyrBLJL.jpg",
-    "https://m.media-amazon.com/images/I/61IbwyrBLJL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71o4rsFsSWL.jpg",
-    "https://m.media-amazon.com/images/I/410XAJY9RhL.jpg",
-    "https://m.media-amazon.com/images/I/410XAJY9RhL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71EhDWp8kuL.jpg",
-    "https://m.media-amazon.com/images/I/41SriA69O5L.jpg",
-    "https://m.media-amazon.com/images/I/41SriA69O5L._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/81MVMETZ6dL.jpg",
+    "https://m.media-amazon.com/images/I/71DsT5GmM5L.jpg",
+    "https://m.media-amazon.com/images/I/61NB-vFU6FL.jpg",
+    "https://m.media-amazon.com/images/I/71EPYzhVsxL.jpg",
+    "https://m.media-amazon.com/images/I/61jcH+vWdOL.jpg"
    ],
    "bullets": [
     "QUALITÄT: 100% reines 100ml Nachtkerzen-Hautöl, kaltgepresst und naturbelassen. Durch die Kaltpressung bleiben alle wertvollen Inhaltsstoffe im Nachtkerzenöl enthalten. Unser Nachtkerzen Pflegeöl ist frei von Zusatz- und Konservierungsstoffen.",
@@ -110,13 +109,13 @@
    "img": "https://m.media-amazon.com/images/I/61xfTy4lRaL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61xfTy4lRaL.jpg",
-    "https://m.media-amazon.com/images/I/418XjV3ydWL.jpg",
-    "https://m.media-amazon.com/images/I/418XjV3ydWL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71HcRyYewaL.jpg",
-    "https://m.media-amazon.com/images/I/41sOt8H2P1L.jpg",
-    "https://m.media-amazon.com/images/I/41sOt8H2P1L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61jn0DDA-EL.jpg",
-    "https://m.media-amazon.com/images/I/41PRc3gMsLL.jpg"
+    "https://m.media-amazon.com/images/I/71JceEinEQL.jpg",
+    "https://m.media-amazon.com/images/I/61I6CFOjpXL.jpg",
+    "https://m.media-amazon.com/images/I/619ghPV5KoL.jpg",
+    "https://m.media-amazon.com/images/I/51x0i0+BVXL.jpg",
+    "https://m.media-amazon.com/images/I/61dgT2EpuyL.jpg"
    ],
    "bullets": [
     "Für ein sanftes Hautgefühl: Unparfümierte Intensivpflege für sensible Haut die Hautirritationen mindert und beruhigt. Zur Entfernung von Augen-Make-up geeignet",
@@ -134,17 +133,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
+    "naturalny": [
      "T",
      "BP"
     ],
-    "dermatologiczny": [
+    "cena_pojemnosc": [
+     "T",
      "BP"
     ],
     "kojacy": [
      "BP"
     ],
-    "cena_pojemnosc": [
+    "skora_atopowa": [
      "T",
      "BP"
     ],
@@ -152,8 +152,7 @@
      "T",
      "BP"
     ],
-    "naturalny": [
-     "T",
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -170,13 +169,11 @@
    "img": "https://m.media-amazon.com/images/I/41kz0qKvzSL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/41kz0qKvzSL.jpg",
-    "https://m.media-amazon.com/images/I/315vU2c0afL.jpg",
-    "https://m.media-amazon.com/images/I/315vU2c0afL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/51rl+XY7hML.jpg",
-    "https://m.media-amazon.com/images/I/41bvjTu8N4L.jpg",
-    "https://m.media-amazon.com/images/I/41bvjTu8N4L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/619xfWDkSHL.jpg",
-    "https://m.media-amazon.com/images/I/413bcf521DL.jpg"
+    "https://m.media-amazon.com/images/I/51doLHtd98L.jpg",
+    "https://m.media-amazon.com/images/I/610l-ekYFmL.jpg",
+    "https://m.media-amazon.com/images/I/51FL3ZSTUbL.jpg"
    ],
    "bullets": [
     "hochwertige medizinische Hautpflege",
@@ -191,14 +188,14 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
     "naturalny": [
      "T"
     ],
     "odzywczy": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
      "BP"
     ]
    },
@@ -212,16 +209,16 @@
    "asin": "B07GRX1P9V",
    "brand": "Satin Naturel",
    "title": "Satin Naturel Bio Hagebuttenöl 100 ml – 100% reines, kaltgepresstes Rosa Canina – Gesichtsöl, Körperöl, Massageöl & Haaröl – Wildrosenöl zur Pflege trockener Haut mit Anti-Falten-Wirkung",
-   "img": "https://m.media-amazon.com/images/I/41ILYiKSURL.jpg",
+   "img": "https://m.media-amazon.com/images/I/71WJCIdWV5L.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/41ILYiKSURL.jpg",
-    "https://m.media-amazon.com/images/I/41ILYiKSURL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71WJCIdWV5L.jpg",
-    "https://m.media-amazon.com/images/I/41i5JKAR5bL.jpg",
-    "https://m.media-amazon.com/images/I/41i5JKAR5bL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71lcxL+mQ8L.jpg",
-    "https://m.media-amazon.com/images/I/41iq3UQ-thL.jpg",
-    "https://m.media-amazon.com/images/I/41iq3UQ-thL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/71-62+jVW4L.jpg",
+    "https://m.media-amazon.com/images/I/71hVLSj4KeL.jpg",
+    "https://m.media-amazon.com/images/I/819gsqU2XmL.jpg",
+    "https://m.media-amazon.com/images/I/71ZfMcNAdTL.jpg",
+    "https://m.media-amazon.com/images/I/71dzpeCTZyL.jpg",
+    "https://m.media-amazon.com/images/I/71HOw1VJBCL.jpg"
    ],
    "bullets": [
     "🍃 TÄGLICHE ANTI-AGING & SCHÖNHEITSPFLEGE – Unser 100% reines Wildrosenöl ist ein Naturwunder, es perfektioniert Deinen Teint und lässt Deine Haut strahlen. Mit seinem großen Reichtum an Nährstoffen versorgt es Deine Haut, Haare und Nägel rundum und verjüngt und kräftigt sie.",
@@ -237,11 +234,11 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T",
+     "BP"
+    ],
+    "skora_atopowa": [
      "BP"
     ],
     "odzywczy": [
@@ -266,13 +263,11 @@
    "img": "https://m.media-amazon.com/images/I/719qEho0YHL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/719qEho0YHL.jpg",
-    "https://m.media-amazon.com/images/I/4194H7bpY1L.jpg",
-    "https://m.media-amazon.com/images/I/4194H7bpY1L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71P01CccLPL.jpg",
-    "https://m.media-amazon.com/images/I/51IagH5vcxL.jpg",
-    "https://m.media-amazon.com/images/I/51IagH5vcxL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/719vapjEl0L.jpg",
-    "https://m.media-amazon.com/images/I/51ZKEAApFmL.jpg"
+    "https://m.media-amazon.com/images/I/713jtIusGHL.jpg",
+    "https://m.media-amazon.com/images/I/713owVcxxML.jpg",
+    "https://m.media-amazon.com/images/I/81JBRMYoMLL.jpg"
    ],
    "bullets": [
     "frei öl-Effekt: Das Körperöl bewahrt die Feuchtigkeit, wirkt rückfettend und stärkt den Lipidfilm der Haut, beruhigt und unterstützt die natürliche Entwicklung gesunder Haut, schützt vor Wundwerden im Windelbereich.",
@@ -292,29 +287,29 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
     "bez_zapachu": [
      "T",
      "BP"
     ],
-    "kojacy": [
-     "BP"
-    ],
-    "nawilzenie": [
+    "naturalny": [
+     "T",
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
+    "kojacy": [
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
     "odzywczy": [
      "BP"
     ],
-    "naturalny": [
-     "T",
+    "nawilzenie": [
      "BP"
     ],
     "dla_dzieci": [
@@ -335,13 +330,9 @@
    "img": "https://m.media-amazon.com/images/I/71-JES2Jz7L.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71-JES2Jz7L.jpg",
-    "https://m.media-amazon.com/images/I/41waoOehVeL.jpg",
-    "https://m.media-amazon.com/images/I/41waoOehVeL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71r668FnLmL.jpg",
-    "https://m.media-amazon.com/images/I/412uYWDpafL.jpg",
-    "https://m.media-amazon.com/images/I/412uYWDpafL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71PTpf0BdVL.jpg",
-    "https://m.media-amazon.com/images/I/41C2O0fgq-L.jpg"
+    "https://m.media-amazon.com/images/I/61-hhRkRsfL.jpg"
    ],
    "bullets": [
     "ZARTE BABYHAUT – Das PaediProtect Pflegeöl enthält ausschließlich hochwertige Inhaltsstoffe und wurde speziell für die anspruchsvolle Baby-Haut entwickelt. Es eignet sich optimal zur milden Hautpflege, der schonenden Reinigung im Windelbereich oder der sanften Babymassage.",
@@ -360,28 +351,28 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
+    "naturalny": [
+     "T"
     ],
     "cena_pojemnosc": [
      "T",
+     "BP"
+    ],
+    "skora_atopowa": [
      "BP"
     ],
     "odzywczy": [
      "T",
      "BP"
     ],
-    "naturalny": [
-     "T"
+    "nawilzenie": [
+     "BP"
     ],
     "dla_dzieci": [
      "T",
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -455,10 +446,20 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
+    "swiad": [
+     "BP"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
      "BP"
     ],
     "kojacy": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
      "T",
      "BP"
     ],
@@ -466,23 +467,13 @@
      "T",
      "BP"
     ],
-    "swiad": [
+    "dla_dzieci": [
      "BP"
     ],
     "bez_dodatkow": [
      "BP"
     ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "BP"
-    ],
-    "wchlanianie": [
-     "BP"
-    ],
-    "dla_dzieci": [
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -521,21 +512,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T"
-    ],
-    "nawilzenie": [
-     "T",
+    "naturalny": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
+    "skora_atopowa": [
+     "T"
+    ],
     "odzywczy": [
      "BP"
     ],
-    "naturalny": [
+    "nawilzenie": [
+     "T",
      "BP"
     ],
     "dla_dzieci": [
@@ -578,21 +569,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T"
-    ],
-    "nawilzenie": [
-     "T",
+    "naturalny": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
+    "skora_atopowa": [
+     "T"
+    ],
     "odzywczy": [
      "BP"
     ],
-    "naturalny": [
+    "nawilzenie": [
+     "T",
      "BP"
     ],
     "dla_dzieci": [

@@ -10,13 +10,12 @@
    "img": "https://m.media-amazon.com/images/I/7135DSnMj+L.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/7135DSnMj+L.jpg",
-    "https://m.media-amazon.com/images/I/41jr8+gYzPL.jpg",
-    "https://m.media-amazon.com/images/I/41jr8+gYzPL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71Io-aP15oL.jpg",
-    "https://m.media-amazon.com/images/I/51QZ+VmhlXL.jpg",
-    "https://m.media-amazon.com/images/I/51QZ+VmhlXL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81evnRPrOzL.jpg",
-    "https://m.media-amazon.com/images/I/51fU5IC7h4L.jpg"
+    "https://m.media-amazon.com/images/I/71wMxkarkfL.jpg",
+    "https://m.media-amazon.com/images/I/71tmcrC4T3L.jpg",
+    "https://m.media-amazon.com/images/I/71I9SwpiLOL.jpg",
+    "https://m.media-amazon.com/images/I/715oCpdP-nL.jpg"
    ],
    "bullets": [
     "Hydratation longue durée : Infusée avec 92 % de mucine d'escargot (également appelée filtrat de sécrétion d'escargot), cette crème crée une barrière hydratante pour repulper, hydrater et apaiser la peau.Cette crème multi-solutions quotidienne glisse sur la peau et ravive l'éclat de la peau.",
@@ -36,16 +35,19 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
+    "naturalny": [
      "BP"
     ],
-    "naturalny": [
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "kojacy": [
      "BP"
     ],
     "hipoalergiczny": [
      "BP"
     ],
-    "kojacy": [
+    "odzywczy": [
      "BP"
     ],
     "nawilzenie": [
@@ -55,10 +57,7 @@
     "bariera": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "odzywczy": [
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -75,13 +74,12 @@
    "img": "https://m.media-amazon.com/images/I/61jbaHLVoWL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61jbaHLVoWL.jpg",
-    "https://m.media-amazon.com/images/I/41i3UcrwDBL.jpg",
-    "https://m.media-amazon.com/images/I/41i3UcrwDBL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/51GZuR4ZhNL.jpg",
-    "https://m.media-amazon.com/images/I/31R5V197EvL.jpg",
-    "https://m.media-amazon.com/images/I/31R5V197EvL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81ZS5J-yDjL.jpg",
-    "https://m.media-amazon.com/images/I/51YL+RhfPKL.jpg"
+    "https://m.media-amazon.com/images/I/71MOcF8z9qL.jpg",
+    "https://m.media-amazon.com/images/I/81T3ihmnIAL.jpg",
+    "https://m.media-amazon.com/images/I/81MriOQFQpL.jpg",
+    "https://m.media-amazon.com/images/I/71ACywEtSyL.jpg"
    ],
    "bullets": [
     "CRÈME ULTRA-HYDRATANTE POUR TOUTE LA FAMILLE : Avec l’Ultra Hydratant Lait Corps de Topicrem, hydratez, nourrissez et protégez votre peau. Adapté à toute la famille, il permet d’obtenir une peau douce, souple et hydratée pour 48h. Sa texture lait onctueuse, non grasse et non collante, pénètre instantanément la peau. Associée à son parfum aux notes de nénuphar, de muguet et de cèdre, elle assure un confort d’application maximum.",
@@ -102,7 +100,10 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "odzywczy": [
      "BP"
     ],
     "nawilzenie": [
@@ -115,10 +116,7 @@
     "wchlanianie": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "odzywczy": [
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -135,13 +133,12 @@
    "img": "https://m.media-amazon.com/images/I/51QkB6sSWBL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51QkB6sSWBL.jpg",
-    "https://m.media-amazon.com/images/I/31pBaFauiTL.jpg",
-    "https://m.media-amazon.com/images/I/31pBaFauiTL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/51GZuR4ZhNL.jpg",
-    "https://m.media-amazon.com/images/I/31R5V197EvL.jpg",
-    "https://m.media-amazon.com/images/I/31R5V197EvL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81Wk1YHXe4L.jpg",
-    "https://m.media-amazon.com/images/I/41qJjD7dsPL.jpg"
+    "https://m.media-amazon.com/images/I/71VtSwCsg0L.jpg",
+    "https://m.media-amazon.com/images/I/71lRlB7iGrL.jpg",
+    "https://m.media-amazon.com/images/I/71tG516WPYL.jpg",
+    "https://m.media-amazon.com/images/I/71QrmKMmanL.jpg"
    ],
    "bullets": [
     "CRÈME ULTRA-HYDRATANTE POUR TOUTE LA FAMILLE : Avec l’Ultra Hydratant Lait Corps de Topicrem, hydratez, nourrissez et protégez votre peau. Adapté à toute la famille, il permet d’obtenir une peau douce, souple et hydratée pour 48h. Sa texture lait onctueuse, non grasse et non collante, pénètre instantanément la peau. Associée à son parfum aux notes de nénuphar, de muguet et de cèdre, elle assure un confort d’application maximum.",
@@ -159,7 +156,10 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "odzywczy": [
      "BP"
     ],
     "nawilzenie": [
@@ -172,10 +172,7 @@
     "wchlanianie": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "odzywczy": [
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -192,13 +189,11 @@
    "img": "https://m.media-amazon.com/images/I/61FnrTTAMJL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61FnrTTAMJL.jpg",
-    "https://m.media-amazon.com/images/I/31yy3BJpeqL.jpg",
-    "https://m.media-amazon.com/images/I/31yy3BJpeqL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71AqtGIA2gL.jpg",
-    "https://m.media-amazon.com/images/I/51DDWgo04PL.jpg",
-    "https://m.media-amazon.com/images/I/51DDWgo04PL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71pwDxskmKL.jpg",
-    "https://m.media-amazon.com/images/I/41oMkTAN-IL.jpg"
+    "https://m.media-amazon.com/images/I/61EAykA68uL.jpg",
+    "https://m.media-amazon.com/images/I/619y744H8gL.jpg",
+    "https://m.media-amazon.com/images/I/71qQMHz4GEL.jpg"
    ],
    "bullets": [
     "Hydrate et répare intensément : Enrichie en glycérine et huiles végétales, elle offre une hydratation profonde et une réparation efficace des peaux extra-sèches ou à tendance atopique.",
@@ -220,11 +215,18 @@
     "swiad": [
      "BP"
     ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "kojacy": [
+     "BP"
+    ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "kojacy": [
+    "odzywczy": [
+     "T",
      "BP"
     ],
     "nawilzenie": [
@@ -232,13 +234,6 @@
      "BP"
     ],
     "dla_dzieci": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "odzywczy": [
-     "T",
      "BP"
     ]
    },
@@ -255,13 +250,12 @@
    "img": "https://m.media-amazon.com/images/I/51sBe8myOhL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51sBe8myOhL.jpg",
-    "https://m.media-amazon.com/images/I/316pkG2dGzL.jpg",
-    "https://m.media-amazon.com/images/I/316pkG2dGzL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71f9tyd5k3L.jpg",
-    "https://m.media-amazon.com/images/I/41x6a-eWnpL.jpg",
-    "https://m.media-amazon.com/images/I/41x6a-eWnpL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81uKFXsXeXL.jpg",
-    "https://m.media-amazon.com/images/I/41rDSP020gL.jpg"
+    "https://m.media-amazon.com/images/I/71TWKCw4jGL.jpg",
+    "https://m.media-amazon.com/images/I/7114jnAjOYL.jpg",
+    "https://m.media-amazon.com/images/I/81nRwR1asuL.jpg",
+    "https://m.media-amazon.com/images/I/81oX8WGrqZL.jpg"
    ],
    "bullets": [
     "NOURRIT, APAISE, PROTÈGE : Conçu pour le bien-être de votre peau, DA Baume Émollient de Topicrem relipide, nourrit et apaise les peaux sensibles très sèches et atopiques. Ce soin apaisant corps et visage apporte 24h d'hydratation et atténue les grattages et les irritations, pour une peau apaisée au quotidien. Sa texture agréable et onctueuse, au fini non gras et non collant, pénètre rapidement la peau pour un confort d’utilisation maximum.",
@@ -284,27 +278,27 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
-     "BP"
-    ],
     "bez_zapachu": [
-     "BP"
-    ],
-    "naturalny": [
      "BP"
     ],
     "wchlanianie": [
      "BP"
     ],
-    "hipoalergiczny": [
+    "naturalny": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "kojacy": [
+     "T",
      "BP"
     ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "kojacy": [
-     "T",
+    "hipoalergiczny": [
      "BP"
     ],
     "nawilzenie": [
@@ -318,8 +312,8 @@
     "bariera": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "dermatologiczny": [
+     "BP"
     ]
    },
    "price": 12.79,
@@ -335,13 +329,12 @@
    "img": "https://m.media-amazon.com/images/I/71-cqkCWtBL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71-cqkCWtBL.jpg",
-    "https://m.media-amazon.com/images/I/41hn3gNaOyL.jpg",
-    "https://m.media-amazon.com/images/I/41hn3gNaOyL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71UZANg3o2L.jpg",
-    "https://m.media-amazon.com/images/I/41BkMuqJUdL.jpg",
-    "https://m.media-amazon.com/images/I/41BkMuqJUdL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/711zQTQ6-3L.jpg",
-    "https://m.media-amazon.com/images/I/41VQQL+gD4L.jpg"
+    "https://m.media-amazon.com/images/I/71OytYkfUzL.jpg",
+    "https://m.media-amazon.com/images/I/717QNxPOPzL.jpg",
+    "https://m.media-amazon.com/images/I/61XqvwqyNhL.jpg",
+    "https://m.media-amazon.com/images/I/81S0Ndozx8L.jpg"
    ],
    "bullets": [
     "Hydratation intense 24h : Crème concentrée à 40% de glycérine pour offrir un soulagement immédiat et une hydratation durable pendant 24 heures, idéale pour les mains très sèches et gercées.",
@@ -357,18 +350,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
     "odzywczy": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ]
    },
@@ -385,13 +378,13 @@
    "img": "https://m.media-amazon.com/images/I/618m9lYZopL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/618m9lYZopL.jpg",
-    "https://m.media-amazon.com/images/I/31CXlPjsrEL.jpg",
-    "https://m.media-amazon.com/images/I/31CXlPjsrEL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71YdqawSWeL.jpg",
-    "https://m.media-amazon.com/images/I/41Ri4nF9G0L.jpg",
-    "https://m.media-amazon.com/images/I/41Ri4nF9G0L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71P6tJi-oOL.jpg",
-    "https://m.media-amazon.com/images/I/51RrRAkMlEL.jpg"
+    "https://m.media-amazon.com/images/I/81r-DclNrZL.jpg",
+    "https://m.media-amazon.com/images/I/71ylMHSOK3L.jpg",
+    "https://m.media-amazon.com/images/I/71T5YfjySiL.jpg",
+    "https://m.media-amazon.com/images/I/71Wz1A9PvAL.jpg",
+    "https://m.media-amazon.com/images/I/81kY2iYQjiL.jpg"
    ],
    "bullets": [
     "Le Baume Hydratant Cicabiafine hydrate pendant 24h les peaux fragiles et très sèches, pour une peau plus souple et plus confortable.",
@@ -408,7 +401,15 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
     "kojacy": [
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
      "BP"
     ],
     "nawilzenie": [
@@ -416,14 +417,6 @@
      "BP"
     ],
     "bariera": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
      "BP"
     ]
    },
@@ -440,13 +433,13 @@
    "img": "https://m.media-amazon.com/images/I/61AOUDboWXL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61AOUDboWXL.jpg",
-    "https://m.media-amazon.com/images/I/31JiN5B1ztL.jpg",
-    "https://m.media-amazon.com/images/I/31JiN5B1ztL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71lQlzHZqfL.jpg",
-    "https://m.media-amazon.com/images/I/41tyDrWiUWL.jpg",
-    "https://m.media-amazon.com/images/I/41tyDrWiUWL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71EgyVsl6vL.jpg",
-    "https://m.media-amazon.com/images/I/411EoEemkZL.jpg"
+    "https://m.media-amazon.com/images/I/71E0J6GPGyL.jpg",
+    "https://m.media-amazon.com/images/I/61St99bJgyL.jpg",
+    "https://m.media-amazon.com/images/I/71A7b64s2PL.jpg",
+    "https://m.media-amazon.com/images/I/71HMwWxKNPL.jpg",
+    "https://m.media-amazon.com/images/I/71l9Wavqk0L.jpg"
    ],
    "bullets": [
     "Ingrédients actifs – Le soin corps hydratant contient 12 % de glycérine et de vitamine E qui hydratent et soulagent instantanément les peaux extra-sèches et rugueuses",
@@ -466,19 +459,19 @@
     "wchlanianie": [
      "BP"
     ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
     "odzywczy": [
      "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ]
    },
@@ -495,13 +488,11 @@
    "img": "https://m.media-amazon.com/images/I/619sxgPv8hL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/619sxgPv8hL.jpg",
-    "https://m.media-amazon.com/images/I/41QKz34k79L.jpg",
-    "https://m.media-amazon.com/images/I/41QKz34k79L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71DysiByI7L.jpg",
-    "https://m.media-amazon.com/images/I/4105b84wK2L.jpg",
-    "https://m.media-amazon.com/images/I/4105b84wK2L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61nxxV8dgQL.jpg",
-    "https://m.media-amazon.com/images/I/412dSiuKFJL.jpg"
+    "https://m.media-amazon.com/images/I/61d+ARzkeoL.jpg",
+    "https://m.media-amazon.com/images/I/71zCai2xfrL.jpg",
+    "https://m.media-amazon.com/images/I/61BDwlK9q3L.jpg"
    ],
    "bullets": [
     "SOIN CORPS EFFET SOLEIL POUR PEAUX CLAIRES : Ce lait hydratant est spécifiquement formulé pour sublimer les peaux claires et sèches. Sa texture légère, non grasse et non collante pénètre instantanément, offrant une application sensorielle et confortable qui permet de s'habiller immédiatement après le soin.",
@@ -521,16 +512,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
+    "wchlanianie": [
      "BP"
     ],
     "naturalny": [
      "BP"
     ],
-    "wchlanianie": [
+    "cena_pojemnosc": [
+     "T",
      "BP"
     ],
     "hipoalergiczny": [
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
      "BP"
     ],
     "nawilzenie": [
@@ -539,12 +535,7 @@
     "bariera": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -561,13 +552,12 @@
    "img": "https://m.media-amazon.com/images/I/61rwJYiLHVL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61rwJYiLHVL.jpg",
-    "https://m.media-amazon.com/images/I/310YTNX0kPL.jpg",
-    "https://m.media-amazon.com/images/I/310YTNX0kPL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71L8fhHFCEL.jpg",
-    "https://m.media-amazon.com/images/I/41d29CBcvYL.jpg",
-    "https://m.media-amazon.com/images/I/41d29CBcvYL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71GJSPh9xxL.jpg",
-    "https://m.media-amazon.com/images/I/41mOjpgKkYL.jpg"
+    "https://m.media-amazon.com/images/I/717TN3Hv13L.jpg",
+    "https://m.media-amazon.com/images/I/81BhLOQtyLL.jpg",
+    "https://m.media-amazon.com/images/I/815k1R9Yh4L.jpg",
+    "https://m.media-amazon.com/images/I/71h+rR5xP1L.jpg"
    ],
    "bullets": [
     "BAUME RELIPIDANT POUR PEAUX SÈCHES À ATOPIQUES : Le Topialyse Baume Protect+ de SVR est un soin intensif conçu pour apaiser, réparer et protéger les peaux sèches, sensibles et sujettes à l'eczéma atopique. Sa formule haute tolérance convient à toute la famille, dès la naissance.",
@@ -591,30 +581,30 @@
     "swiad": [
      "BP"
     ],
-    "dermatologiczny": [
+    "wchlanianie": [
      "BP"
     ],
     "naturalny": [
      "T",
      "BP"
     ],
-    "wchlanianie": [
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "kojacy": [
      "BP"
     ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "kojacy": [
+    "odzywczy": [
      "BP"
     ],
     "bariera": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "odzywczy": [
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -631,13 +621,13 @@
    "img": "https://m.media-amazon.com/images/I/51j19A6MGZL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51j19A6MGZL.jpg",
-    "https://m.media-amazon.com/images/I/312seTSfF7L.jpg",
-    "https://m.media-amazon.com/images/I/312seTSfF7L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71W9m-FyRML.jpg",
-    "https://m.media-amazon.com/images/I/51o2OOrOxRL.jpg",
-    "https://m.media-amazon.com/images/I/51o2OOrOxRL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61D-wNEHa-L.jpg",
-    "https://m.media-amazon.com/images/I/41vMjhmlU5L.jpg"
+    "https://m.media-amazon.com/images/I/61kylCdpeOL.jpg",
+    "https://m.media-amazon.com/images/I/717yhRQcnrL.jpg",
+    "https://m.media-amazon.com/images/I/71BRcniGW0L.jpg",
+    "https://m.media-amazon.com/images/I/81WdGw8nGYL.jpg",
+    "https://m.media-amazon.com/images/I/71oQIOo7uOL.jpg"
    ],
    "bullets": [
     "Le baume qui traite les peaux sèches ou sujettes à l’eczéma atopique : apaisant et réparateur, il restaure et augmente la sensation de confort, augmentant durablement la résistance de la peau",
@@ -661,17 +651,21 @@
     "swiad": [
      "T"
     ],
-    "dermatologiczny": [
-     "T"
-    ],
     "naturalny": [
      "T"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "kojacy": [
+     "BP"
     ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "kojacy": [
+    "odzywczy": [
+     "T",
      "BP"
     ],
     "dla_dzieci": [
@@ -680,12 +674,8 @@
     "bariera": [
      "BP"
     ],
-    "cena_pojemnosc": [
+    "dermatologiczny": [
      "T"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
     ]
    },
    "price": 23.5,
@@ -700,9 +690,7 @@
    "title": "La Roche-Posay, Lipikar Baume AP+MAX Relipidant Triple Réparation, Soulagement 72H, Anti-Démangeaisons, Anti-grattage, Au Beurre de Karité, Idéal pour les Peaux Sèches à Tendance Atopique, 400 ml",
    "img": "https://m.media-amazon.com/images/I/51B+kMOJRML.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/51B+kMOJRML.jpg",
-    "https://m.media-amazon.com/images/I/31a4i5vK8NL.jpg",
-    "https://m.media-amazon.com/images/I/31a4i5vK8NL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/51B+kMOJRML.jpg"
    ],
    "bullets": [
     "LA ROCHE-POSAY Lipikar Baume AP+MAX Baume relipidant triple réparation, soulagement 72h de la peau sèche. Anti-démangeaisons et anti-grattage. Apaise, nourrit et restore la barrière cutanée. Meilleure qualité de vie jour et nuit. Tolérance optimale, convient dès la naissance*, convient aux personnes sous traitement anti-cancéreux. Peaux sèches avec tendances à l'eczéma atopique.",
@@ -725,27 +713,27 @@
      "T",
      "BP"
     ],
+    "wchlanianie": [
+     "BP"
+    ],
     "naturalny": [
      "BP"
     ],
-    "wchlanianie": [
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "kojacy": [
      "BP"
     ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "kojacy": [
+    "odzywczy": [
+     "T",
      "BP"
     ],
     "bariera": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "odzywczy": [
-     "T",
      "BP"
     ]
    },

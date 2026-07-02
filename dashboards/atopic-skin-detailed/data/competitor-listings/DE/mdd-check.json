@@ -1,96 +1,106 @@
 {
  "totalCompetitors": 12,
  "marketplace": "amazon.de",
+ "avgClaims": 3.0,
  "competitors": [
   {
    "asin": "B003JSEGNC",
    "brand": "La Roche-Posay",
    "title": "La Roche Posay Effaclar Schäumendes Reinigungsgel für zu Akne neigende, fettige Haut, Reinigt und beruhigt, Mit Phylobioma und Zink, 400 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/41VNeAx7oZL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/41VNeAx7oZL.jpg",
-    "https://m.media-amazon.com/images/I/41VNeAx7oZL._SL75_.jpg",
+   "img": "https://m.media-amazon.com/images/I/71uT3swhjrL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/71uT3swhjrL.jpg",
-    "https://m.media-amazon.com/images/I/51theSgp6EL.jpg",
-    "https://m.media-amazon.com/images/I/51theSgp6EL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81G4mBU+x7L.jpg",
-    "https://m.media-amazon.com/images/I/41jaP3UkqwL.jpg",
-    "https://m.media-amazon.com/images/I/41jaP3UkqwL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/71zbERoeEWL.jpg",
+    "https://m.media-amazon.com/images/I/81j+GANrS-L.jpg",
+    "https://m.media-amazon.com/images/I/81L-2qg28vL.jpg",
+    "https://m.media-amazon.com/images/I/61crVJjk2iL.jpg",
+    "https://m.media-amazon.com/images/I/71zNjGM1CDL.jpg",
+    "https://m.media-amazon.com/images/I/71iu7EocVXL.jpg"
    ],
-   "themes": [
-    "kojacy",
-    "naturalny",
-    "cena_pojemnosc"
-   ],
-   "price": 13.91,
-   "rating": 4.6,
-   "reviews": 45456,
-   "bsr": 19,
-   "rev30d": 178369,
    "bullets": [
     "Reinigt sanft und effektiv, befreit die Haut von überschüssigem Talg und hinterlässt ein sauberes, erfrischtes Hautgefühl. Die Formel mit beruhigendem Thermalwasser verhindert Irritationen und eignet sich für empfindliche Haut.",
     "Beugt neuen Mitessern und Pickeln vor. Glättet das Hautbild. Reguliert Talg und korrigiert Unreinheiten.",
     "Morgens und/oder abends Haut warm anfeuchten. Gel auf T-Zone und Hals einmassieren. Mit kaltem Wasser abspülen."
    ],
-   "description": ""
+   "themes": [
+    "kojacy",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "naturalny": [
+     "T"
+    ]
+   },
+   "price": 13.91,
+   "rating": 4.6,
+   "reviews": 45456,
+   "rev30": 178369,
+   "archival": false
   },
   {
    "asin": "B0B7RQ46LD",
    "brand": "CeraVe",
    "title": "CERAVE porentiefe Reinigung Gel 236 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/51PLQTTTo7L.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/51PLQTTTo7L.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/51PLQTTTo7L.jpg",
-    "https://m.media-amazon.com/images/I/315gTu47PrL.jpg",
-    "https://m.media-amazon.com/images/I/315gTu47PrL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61cbyfssjPL.jpg",
-    "https://m.media-amazon.com/images/I/41RXBYGrP0L.jpg",
-    "https://m.media-amazon.com/images/I/41RXBYGrP0L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/51Xo+XupcbL.jpg",
-    "https://m.media-amazon.com/images/I/41J2MWVtdQL.jpg"
+    "https://m.media-amazon.com/images/I/51p+Mm+qcLL.jpg",
+    "https://m.media-amazon.com/images/I/61ksMKc32SL.jpg",
+    "https://m.media-amazon.com/images/I/61FwtWRlHtL.jpg",
+    "https://m.media-amazon.com/images/I/615OmvtIxJL.jpg",
+    "https://m.media-amazon.com/images/I/61r-BcuCZAL.jpg"
    ],
-   "themes": [
-    "kojacy",
-    "cena_pojemnosc"
-   ],
-   "price": 10.95,
-   "rating": 4.5,
-   "reviews": 31090,
-   "bsr": 5,
-   "rev30d": 175105,
    "bullets": [
     "Porentiefe Reinigung für empfindliche und zu Akne neigende Haut. Mildert Unreinheiten und befreit die Haut von überschüssigem Talg und abgestorbenen Hautzellen, um der Neubildung von Pickelmalen vorzubeugen.",
     "Für fettige und zu Akne neigende Haut geeignet. Wirkt hautberuhigend. Nicht austrocknend und nicht-komedogen.",
     "Sanft in das feuchte Gesicht einmassieren, Augenpartie aussparen. Anschließend mit lauwarmem Wasser abspülen."
    ],
-   "description": ""
+   "themes": [
+    "kojacy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ]
+   },
+   "price": 10.95,
+   "rating": 4.5,
+   "reviews": 31090,
+   "rev30": 175105,
+   "archival": false
   },
   {
    "asin": "B07BYPW7LZ",
    "brand": "KANZY",
    "title": "Kanzy Jojobaöl Kaltgepresst 100% Reines Gold, 120ml für Haut, Haare und Nägel, Gesichtsöl und Körperöl, Vegan & Hexanfrei, Jojobaöl, Anti-Falten, Natürliche Intensiv Feuchtigkeitspflege",
-   "mainImage": "https://m.media-amazon.com/images/I/51p2piuFXSL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/51p2piuFXSL.jpg",
-    "https://m.media-amazon.com/images/I/51p2piuFXSL._SL75_.jpg",
+   "img": "https://m.media-amazon.com/images/I/71KUbTeCjJL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/71KUbTeCjJL.jpg",
-    "https://m.media-amazon.com/images/I/51vRp6KSXqL.jpg",
-    "https://m.media-amazon.com/images/I/51vRp6KSXqL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81uTLsLXOPL.jpg",
-    "https://m.media-amazon.com/images/I/41ox-T0nnxL.jpg",
-    "https://m.media-amazon.com/images/I/41ox-T0nnxL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/71-Kh1lz9jL.jpg",
+    "https://m.media-amazon.com/images/I/81jIfYt8DRL.jpg",
+    "https://m.media-amazon.com/images/I/71smJq24hHL.jpg",
+    "https://m.media-amazon.com/images/I/81NantfuOcL.jpg",
+    "https://m.media-amazon.com/images/I/81qXxuYXv4L.jpg",
+    "https://m.media-amazon.com/images/I/71tS7wwpiIL.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "price": 9.93,
-   "rating": 0.0,
-   "reviews": 0,
-   "bsr": 9,
-   "rev30d": 47572,
    "bullets": [
     "Feuchtigketeitspflege: Kanzy Jojobaöl ist ein ausgezeichneter Feuchtigkeitsspender, es ist tiefenpflegend und fühlt sich dennoch leicht auf der Haut an. Ideale öl für Haarpflege, Hautpflege, Nagelpflege, der in Massageöl mischungen",
     "Rein Und Natürlich: Vitamine A, B & E fördern die Straffheit, Feuchtigkeitsaufnahme & Elastizität Deiner Haut. Perfektes Öl für trockenes Haare und trockene Haut. In einer 120ml flasche mit Pipettenaufsatz",
@@ -98,33 +108,49 @@
     "Verwendung: Jojoba wird als Zutat in Feuchtigkeitscreme, Lippenstift, Make-up, Reinigungsprodukten und in Gesichts-, Hand- und Körperlotionen verwendet. Jojoba wird direkt angewendet, um Hautunreinheiten, Falten, Antialterung und Augenringe zu reduzieren",
     "Qualitätssicherung: Wir schätzen jeden einzelnen Kunden. Wenn Sie mit unserem nicht zufrieden sind, können Sie sich gerne an uns wenden jojobaöl"
    ],
-   "description": "Kanzy Jojobaöl"
+   "themes": [
+    "nawilzenie",
+    "naturalny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 9.93,
+   "rating": 0.0,
+   "reviews": 0,
+   "rev30": 47572,
+   "archival": false
   },
   {
    "asin": "B00KWCQHZ8",
    "brand": "Bio-Oil",
    "title": "Bi-Oil Hautpflege-Öl | Spezielles Hautpflegeprodukt | Hilft bei Dehnungsstreifen und Narben | Hilft bei trockener Haut und bei ungleichmäßiger Hauttönung | 125 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/31hkYinpUqL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/31hkYinpUqL.jpg",
-    "https://m.media-amazon.com/images/I/31hkYinpUqL._SL75_.jpg",
+   "img": "https://m.media-amazon.com/images/I/61eZ758cYQL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/61eZ758cYQL.jpg",
-    "https://m.media-amazon.com/images/I/51OilFyA8+L.jpg",
-    "https://m.media-amazon.com/images/I/51OilFyA8+L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71WsGKnUfDL.jpg",
-    "https://m.media-amazon.com/images/I/51OIIA-jyeL.jpg",
-    "https://m.media-amazon.com/images/I/51OIIA-jyeL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/71q7i3POLCL.jpg",
+    "https://m.media-amazon.com/images/I/61DdBcfDm-L.jpg",
+    "https://m.media-amazon.com/images/I/71sR5WZeJ1L.jpg",
+    "https://m.media-amazon.com/images/I/71zuUo32-iL.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "price": 12.56,
-   "rating": 4.5,
-   "reviews": 12757,
-   "bsr": 437,
-   "rev30d": 31792,
    "bullets": [
     "Hilft das Hautbild bei alten und neuen Narben sowie Dehnungsstreifen & bei Pigmentstörungen zu verbessern",
     "Versorgt trockene Haut mit Feuchtigkeit. Struktur, Spannung sowie das Aussehen reifer Haut werden verbessert",
@@ -132,22 +158,49 @@
     "Mit wertvollen Inhaltsstoffen wie Vitamin A, Ringelblumenextrakt, pflanzlichen Ölen von Lavendel und Rosmarin sowie dem Öl der römischen Kamille",
     "Geeignet für die tägliche Pflege von reifer und trockener Haut"
    ],
-   "description": ""
+   "themes": [
+    "nawilzenie",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ]
+   },
+   "price": 12.56,
+   "rating": 4.5,
+   "reviews": 12757,
+   "rev30": 31792,
+   "archival": false
   },
   {
    "asin": "B0CRSJ46YD",
    "brand": "CeraVe",
    "title": "CeraVe Schäumendes Reinigungsgel für Gesicht und Körper, Normale bis fettige Haut, Mit Hyaluron und 3 essenziellen Ceramiden, 1 x 562 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/51g5iT018ML.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/51g5iT018ML.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/51g5iT018ML.jpg",
-    "https://m.media-amazon.com/images/I/31xIaOvLrrL.jpg",
-    "https://m.media-amazon.com/images/I/31xIaOvLrrL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/51SCecmrETL.jpg",
-    "https://m.media-amazon.com/images/I/41jg6ncES0L.jpg",
-    "https://m.media-amazon.com/images/I/41jg6ncES0L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/51i9vUHi--L.jpg",
-    "https://m.media-amazon.com/images/I/41f8tqCfVFL.jpg"
+    "https://m.media-amazon.com/images/I/51hQYj67uFL.jpg",
+    "https://m.media-amazon.com/images/I/61Izxx2NC4L.jpg",
+    "https://m.media-amazon.com/images/I/61iVU3pETbL.jpg",
+    "https://m.media-amazon.com/images/I/61MlTCOrJYL.jpg",
+    "https://m.media-amazon.com/images/I/51rcaYNhVkL.jpg"
+   ],
+   "bullets": [
+    "Schäumendes Reinigungsgel mit kontrollierter Wirkstoff-Freisetzung zur ganztägigen Feuchtigkeitsversorgung für normale bis ölige Haut. Pflegt, reinigt, spendet Feuchtigkeit und stärkt die Hautbarriere.",
+    "Dermatologisch getestete, nicht-komedogene Formel mit 3 essenziellen Ceramiden pflanzlichen Ursprungs. Ohne Parfum.",
+    "Morgens, abends und nach Bedarf auf angefeuchtete Haut auftragen, sanft einmassieren und gründlich abspülen."
    ],
    "themes": [
     "nawilzenie",
@@ -155,42 +208,42 @@
     "dermatologiczny",
     "cena_pojemnosc"
    ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ]
+   },
    "price": 18.29,
    "rating": 4.6,
    "reviews": 101254,
-   "bsr": 135,
-   "rev30d": 28665,
-   "bullets": [
-    "Schäumendes Reinigungsgel mit kontrollierter Wirkstoff-Freisetzung zur ganztägigen Feuchtigkeitsversorgung für normale bis ölige Haut. Pflegt, reinigt, spendet Feuchtigkeit und stärkt die Hautbarriere.",
-    "Dermatologisch getestete, nicht-komedogene Formel mit 3 essenziellen Ceramiden pflanzlichen Ursprungs. Ohne Parfum.",
-    "Morgens, abends und nach Bedarf auf angefeuchtete Haut auftragen, sanft einmassieren und gründlich abspülen."
-   ],
-   "description": ""
+   "rev30": 28665,
+   "archival": false
   },
   {
    "asin": "B01LYTJSQ5",
    "brand": "frei öl",
    "title": "frei öl FigurÖl mit Anti Cellulite Effekt, Körperöl für sensible & alle Hauttypen, strafft und festigt die Haut, Apothekerqualität, vegan, 125 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/41AmOYUnI-L.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/41AmOYUnI-L.jpg",
-    "https://m.media-amazon.com/images/I/41AmOYUnI-L._SL75_.jpg",
+   "img": "https://m.media-amazon.com/images/I/71e1ReL770L.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/71e1ReL770L.jpg",
-    "https://m.media-amazon.com/images/I/31nAVWCD7lL.jpg",
-    "https://m.media-amazon.com/images/I/31nAVWCD7lL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61zPJjRzw5L.jpg",
-    "https://m.media-amazon.com/images/I/31x65xpnvcL.jpg",
-    "https://m.media-amazon.com/images/I/31x65xpnvcL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/61WJ6mtX9EL.jpg",
+    "https://m.media-amazon.com/images/I/71yKYpm04FL.jpg",
+    "https://m.media-amazon.com/images/I/61XI4NYiiBL.jpg",
+    "https://m.media-amazon.com/images/I/71EKhpwAXNL.jpg",
+    "https://m.media-amazon.com/images/I/81bC6LFYLwL.jpg",
+    "https://m.media-amazon.com/images/I/51wkW2w3BRL.jpg"
    ],
-   "themes": [
-    "naturalny",
-    "cena_pojemnosc"
-   ],
-   "price": 13.38,
-   "rating": 4.5,
-   "reviews": 2391,
-   "bsr": 946,
-   "rev30d": 26714,
    "bullets": [
     "frei öl-Effekt: 3 in 1 - Strafft, glättet, reduziert Cellulite: Strafft und festigt mit dem Extrakt der weißen Lupine. Glättet die Haut mit Vitamin E, Anti-Cellulite-Effekt: Klatschmohnsamen-Extrakt aktiviert den Fettabbau 10x effektiver als Koffein. Mit Duft nach Rose und Magnolie.",
     "WERTVOLLE INHALTSSTOFFE: Besondere Ölkomposition mit hochwirksamen Inhaltsstoffen wie weiße Lupine, Haferöl, Klatschmohnsamenextrakt, Sheaöl und Vitamin E.",
@@ -198,32 +251,38 @@
     "FÜR EINE STRAFFERE SILHOUETTE: Das aktivierende Hautöl enthält wertvolle Omega-Fettsäuren und Mohnsamen-Extrakt wodurch das Körperöl straffend wirkt und die Silhouette festigt. Der Ideale Begleiter während der Rückbildung nach der Schwangerschaft.",
     "OHNE: Unsere Körperöle beinhalten kein Alkohol, Farbstoffe, Konservierungsmittel, Mikroplastik*, Mineralöle (Paraffine), PEG/PEG-Derivate, Silikone. *Rezeptur ohne Mikroplastik gemäß Definition Umweltbundesamt (2020)"
    ],
-   "description": ""
+   "themes": [
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "naturalny": [
+     "T"
+    ]
+   },
+   "price": 13.38,
+   "rating": 4.5,
+   "reviews": 2391,
+   "rev30": 26714,
+   "archival": false
   },
   {
    "asin": "B00IFZEBSE",
    "brand": "Sorion",
    "title": "Sorion Krem Repair – w przypadku łuszczycy, atopowego zapalenia skóry, suchej skóry i egzemy, do intensywnej pielęgnacji skóry, 60 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/41uHLey55QL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/41uHLey55QL.jpg",
-    "https://m.media-amazon.com/images/I/41uHLey55QL._SL75_.jpg",
+   "img": "https://m.media-amazon.com/images/I/715B3MZAeTL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/715B3MZAeTL.jpg",
-    "https://m.media-amazon.com/images/I/41HNPXd2ocL.jpg",
-    "https://m.media-amazon.com/images/I/41HNPXd2ocL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61RnXJ0JoSL.jpg",
-    "https://m.media-amazon.com/images/I/416WJk1Pg4L.jpg",
-    "https://m.media-amazon.com/images/I/416WJk1Pg4L._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/61xR39iLpEL.jpg",
+    "https://m.media-amazon.com/images/I/71p6wf3EfbL.jpg",
+    "https://m.media-amazon.com/images/I/71wFWgjZ8UL.jpg",
+    "https://m.media-amazon.com/images/I/613eXhm9buL.jpg"
    ],
-   "themes": [
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "price": 19.08,
-   "rating": 4.3,
-   "reviews": 14420,
-   "bsr": 225,
-   "rev30d": 22368,
    "bullets": [
     "hochwertige medizinische Hautpflege",
     "für empfindliche Haut",
@@ -231,61 +290,67 @@
     "Dermokosmetik aus der Apotheke (PZN: 10132866)",
     "Hersteller: Ruehe Healthcare GmbH, Deutschland"
    ],
-   "description": ""
+   "themes": [
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 19.08,
+   "rating": 4.3,
+   "reviews": 14420,
+   "rev30": 22368,
+   "archival": false
   },
   {
    "asin": "B00R0LU78W",
    "brand": "La Roche-Posay",
    "title": "La Roche-Posay Rosaliac Reinigungs-Gel mit Mizellen-Technologie, 195 ml Gel",
-   "mainImage": "https://m.media-amazon.com/images/I/51zgmpmJMfL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/51zgmpmJMfL.jpg",
-    "https://m.media-amazon.com/images/I/319YLPZQnHL.jpg",
-    "https://m.media-amazon.com/images/I/319YLPZQnHL._SL75_.jpg"
+   "img": "https://m.media-amazon.com/images/I/51zgmpmJMfL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51zgmpmJMfL.jpg"
    ],
-   "themes": [
-    "cena_pojemnosc"
-   ],
-   "price": 15.65,
-   "rating": 4.7,
-   "reviews": 744,
-   "bsr": 1400,
-   "rev30d": 20853,
    "bullets": [
     "La Roche Posay Gesichtsreiniger mit Mizellen-Technologie für gründliches Reinigen und Abschminken – ohne Abspülen! Tenside in Mizellen-Struktur umhüllen Schmutzpartikel und lösen sie sanft von der Haut.",
     "Sanfte, aber effektive Reinigung der Gesichtshaut. Entfernt Schmutzpartikel, Talg und Make-up-Reste ohne Reiben.",
     "Täglich morgens und/oder abends mit Wattepad oder Fingerspitzen auf Gesicht, Hals, Dekolleté auftragen. Abwischen."
    ],
-   "description": ""
+   "themes": [
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 15.65,
+   "rating": 4.7,
+   "reviews": 744,
+   "rev30": 20853,
+   "archival": false
   },
   {
    "asin": "B007MCXGO6",
    "brand": "Naissance",
    "title": "Naissance Natürliches Süßes Mandelöl (Nr. 215) 1 Liter – Vegan, Gentechnikfrei – Ideal zur Haar– und Körperpflege, für Aromatherapie und als Basisöl für Massageöle",
-   "mainImage": "https://m.media-amazon.com/images/I/71PcxQ1+gZL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/71PcxQ1+gZL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/71PcxQ1+gZL.jpg",
-    "https://m.media-amazon.com/images/I/41UTIvuoAZL.jpg",
-    "https://m.media-amazon.com/images/I/41UTIvuoAZL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71f4CEbi-XL.jpg",
-    "https://m.media-amazon.com/images/I/51dwpeLPCUL.jpg",
-    "https://m.media-amazon.com/images/I/51dwpeLPCUL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71vESkDOnnL.jpg",
-    "https://m.media-amazon.com/images/I/41PiBnezu0L.jpg"
+    "https://m.media-amazon.com/images/I/81GusuHvGHL.jpg",
+    "https://m.media-amazon.com/images/I/71PC8VzbhNL.jpg",
+    "https://m.media-amazon.com/images/I/71dJZ0y6ECL.jpg",
+    "https://m.media-amazon.com/images/I/91zne770VML.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "kojacy",
-    "bez_zapachu",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "price": 12.42,
-   "rating": 4.6,
-   "reviews": 48190,
-   "bsr": 329,
-   "rev30d": 20623,
    "bullets": [
     "🌱 NATÜRLICHES SÜSSES MANDELÖL; Ohne künstliche Konservierungs-, Farb- oder Duftstoffe; frei von Chemikalien, Zusatzstoffen und Alkohol",
     "🌱 NACHHALTIGE GEWINNUNG MIT ABFÜLLUNG IN GROßBRITANNIEN; Das nährende parfümfreie Trägeröl stammt aus den USA; das Öl wird aus den reifen Samen des Mandelbaums gepresst und raffiniert",
@@ -294,53 +359,97 @@
     "🌱 VIELSEITIGER NATÜRLICHER INHALTSSTOFF; Mandelöl eignet sich für Haut, Haare, Nägel, Gesicht, Massage, Aromatherapie, und für selbstgemachte Schönheitsprodukte",
     "Dieses Naturprodukt ist nicht nur nährstoffreich für die Haut, sondern kann auch als Salatdressing und zum Kochen verwendet werden"
    ],
-   "description": "Süßes Mandelöl eignet sich hervorragend als Feuchtigkeitspflege am ganzen Körper. Es pflegt die Haut und lässt sie strahlend und gesund aussehen. Das beruhigende süße Mandelöl ist reich an Fettsäuren, vor allem an Omega-9, und enthält das natürliche Antioxidans Vitamin E.<br><br> <b>Massage:</b> Das Öl ist perfekt zur puren Anwendung geeignet, kann aber zur Herstellung von Massageölen auch mit ätherischen Ölen kombiniert werden. Wärmende, würzige, wohltuende Massageölmischung: 2 Tropfen Zimtrinde (Nr. 188), 15 Tropfen Orange süß (Nr. 105) und 2 Tropfen Gewürznelke (Nr. 183) auf 100ml Basisöl <br><br> <b>Hautpflege:</b> Seine leichte Textur löst Schmutz und Make-up, die Haut bleibt sauber, weich und mit Feuchtigkeit versorgt.<br><br> <b>Haarpflege:</b> Nährt und pflegt das Haar. Für eine intensiv feuchtigkeitsspendende Haarmaske Mandelöl mit Kokosöl (Nr. 203) mischen. In die Haare und Kopfhaut einmassieren, 1h einwirken lassen, dann wie gewohnt waschen. Top Tipp: Shampoo auf das trockene Haar auftragen und ein wenig aufschäumen bevor du Wasser hinzugibst. So lässt sich das Öl leichter ausspülen.<br><br> <b>Beauty Hack:</b> Mandelöl mit einer Wimpernbürste auf Wimpern und Augenbrauen"
+   "themes": [
+    "kojacy",
+    "bez_zapachu",
+    "naturalny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "bez_zapachu": [
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 12.42,
+   "rating": 4.6,
+   "reviews": 48190,
+   "rev30": 20623,
+   "archival": false
   },
   {
    "asin": "B0DG8WX9ZK",
    "brand": "CeraVe",
    "title": "CeraVe Creme-zu-Schaum Reinigung, Feuchtigkeitsspendende Reinigungscreme, Für normale bis trockene Haut, Entfernt Schmutz und Make-up, Mit Hyaluron und Ceramiden, 473 ml",
-   "mainImage": "https://m.media-amazon.com/images/I/61y+Y0We6mL.jpg",
-   "images": [
+   "img": "https://m.media-amazon.com/images/I/61y+Y0We6mL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/61y+Y0We6mL.jpg",
-    "https://m.media-amazon.com/images/I/41Wopz+WE7L.jpg",
-    "https://m.media-amazon.com/images/I/41Wopz+WE7L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61xHlzLWm0L.jpg",
-    "https://m.media-amazon.com/images/I/41b+safgcxL.jpg",
-    "https://m.media-amazon.com/images/I/41b+safgcxL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61riyIn3lxL.jpg",
-    "https://m.media-amazon.com/images/I/41qZrpV+a6L.jpg"
+    "https://m.media-amazon.com/images/I/616OuK4UfuL.jpg",
+    "https://m.media-amazon.com/images/I/815htTemcuL.jpg",
+    "https://m.media-amazon.com/images/I/714aqODHArL.jpg",
+    "https://m.media-amazon.com/images/I/71Nld8R323L.jpg",
+    "https://m.media-amazon.com/images/I/61hUtefFhAL.jpg"
    ],
-   "themes": [
-    "nawilzenie",
-    "cena_pojemnosc"
-   ],
-   "price": 16.39,
-   "rating": 4.5,
-   "reviews": 8733,
-   "bsr": 1066,
-   "rev30d": 19878,
    "bullets": [
     "Die feuchtigkeitsspendende Creme-zu-Schaum Reinigung von CeraVe ist eine Reinigungscreme für normale bis trockene Haut. Die Creme verwandelt sich beim Auftragen in einen weichen Schaum, welcher sanft Make-up und Schmutz entfernt.",
     "Effektive Reinigungscreme, die wirksam Verunreinigungen und Make-up entfernt und dabei Feuchtigkeit spendet.",
     "Die Creme bei Bedarf auf das Gesicht auftragen. Sie verwandelt sich bei Kontakt mit Wasser in einen weichen Schaum."
    ],
-   "description": ""
+   "themes": [
+    "nawilzenie",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 16.39,
+   "rating": 4.5,
+   "reviews": 8733,
+   "rev30": 19878,
+   "archival": false
   },
   {
    "asin": "B07BYMJMJZ",
    "brand": "KANZY",
    "title": "Kanzy Hagebuttenöl Kaltgepresst 100% Rein 120ml Rosehip Oil Wildrosenöl für Haut Haare Nägel Gesichtsöl Körperöl Vegan Hexanfreies Hagebuttenkernöl Anti-Aging Anti-Falten Natürlich",
-   "mainImage": "https://m.media-amazon.com/images/I/51jpV8xcKlL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/51jpV8xcKlL.jpg",
-    "https://m.media-amazon.com/images/I/51jpV8xcKlL._SL75_.jpg",
+   "img": "https://m.media-amazon.com/images/I/81kvJ-wzhlL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/81kvJ-wzhlL.jpg",
-    "https://m.media-amazon.com/images/I/41ZYTxLWZHL.jpg",
-    "https://m.media-amazon.com/images/I/41ZYTxLWZHL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71qNORvyD4L.jpg",
-    "https://m.media-amazon.com/images/I/51YqVsjHSNL.jpg",
-    "https://m.media-amazon.com/images/I/51YqVsjHSNL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/81ooFx88yOL.jpg",
+    "https://m.media-amazon.com/images/I/81maC78b5yL.jpg",
+    "https://m.media-amazon.com/images/I/71LstCBQ7CL.jpg",
+    "https://m.media-amazon.com/images/I/71gi4jOW4bL.jpg"
+   ],
+   "bullets": [
+    "Reines Hagebuttenöl wird kaltgepresst und für höchste Qualität nicht raffiniert. Dies ist stärker und reich an Vitamin C und E, dem Hautvitamin. Geht tief, um Gesicht und Haut zu beruhigen und zu heilen",
+    "Natürliches Feuchtigkeitsmittel für trockene, strapazierte und müde Haut. Verleiht Ihnen ein gesundes, jüngeres Aussehen. Am besten als Trägeröl in Kombination mit Seren, Tonern, Körperöl, Badeöl, Shampoo, Conditioner und vielem mehr",
+    "Reduziert Falten auf Natürliche Weise für ein jüngeres Aussehen. Verwöhnen Sie Ihre Haut, Haare und Nägel mit einem wunderbaren Geschenk von Mutter Natur. Leicht und nicht fettend. Das Öl ist natürlich reich an essentiellen Omega 3, 6, 9 und Pro Vitamin A, C, E",
+    "Empfohlen für Haut und Haar Es enthält die Feuchtigkeit, Vitamine und die verjüngende Ernährung, die Haut und Haar benötigen, um jünger, gesünder und lebendiger auszusehen",
+    "Premiumqualität Kanzy bietet 100 % reines Hagebuttenkernöl, vegan und frei von Tierversuchen. Unser Rosenöl spendet Feuchtigkeit, fühlt sich seidig an und hat einen zarten Duft. Es reduziert Dehnungsstreifen und Narben für eine glatte, erfrischte Haut."
    ],
    "themes": [
     "nawilzenie",
@@ -349,474 +458,327 @@
     "wchlanianie",
     "cena_pojemnosc"
    ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ]
+   },
    "price": 8.49,
    "rating": 4.5,
    "reviews": 34328,
-   "bsr": 10,
-   "rev30d": 19439,
-   "bullets": [
-    "Reines Hagebuttenöl wird kaltgepresst und für höchste Qualität nicht raffiniert. Dies ist stärker und reich an Vitamin C und E, dem Hautvitamin. Geht tief, um Gesicht und Haut zu beruhigen und zu heilen",
-    "Natürliches Feuchtigkeitsmittel für trockene, strapazierte und müde Haut. Verleiht Ihnen ein gesundes, jüngeres Aussehen. Am besten als Trägeröl in Kombination mit Seren, Tonern, Körperöl, Badeöl, Shampoo, Conditioner und vielem mehr",
-    "Reduziert Falten auf Natürliche Weise für ein jüngeres Aussehen. Verwöhnen Sie Ihre Haut, Haare und Nägel mit einem wunderbaren Geschenk von Mutter Natur. Leicht und nicht fettend. Das Öl ist natürlich reich an essentiellen Omega 3, 6, 9 und Pro Vitamin A, C, E",
-    "Empfohlen für Haut und Haar Es enthält die Feuchtigkeit, Vitamine und die verjüngende Ernährung, die Haut und Haar benötigen, um jünger, gesünder und lebendiger auszusehen",
-    "Premiumqualität Kanzy bietet 100 % reines Hagebuttenkernöl, vegan und frei von Tierversuchen. Unser Rosenöl spendet Feuchtigkeit, fühlt sich seidig an und hat einen zarten Duft. Es reduziert Dehnungsstreifen und Narben für eine glatte, erfrischte Haut."
-   ],
-   "description": "Kanzy Jojobaöl Hagebuttenöl"
+   "rev30": 19439,
+   "archival": false
   },
   {
    "asin": "B00E67IZLE",
    "brand": "Excipial",
    "title": "EXCIPIAL Protect Hand-Schutzcreme, 500 ml Creme",
-   "mainImage": "https://m.media-amazon.com/images/I/31D86nxiBgL.jpg",
-   "images": [
-    "https://m.media-amazon.com/images/I/31D86nxiBgL.jpg",
-    "https://m.media-amazon.com/images/I/31D86nxiBgL._SL75_.jpg",
+   "img": "https://m.media-amazon.com/images/I/61HfnXd2ZQL.jpg",
+   "imgs": [
     "https://m.media-amazon.com/images/I/61HfnXd2ZQL.jpg",
-    "https://m.media-amazon.com/images/I/51h9rQJTw2L.jpg",
-    "https://m.media-amazon.com/images/I/51h9rQJTw2L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81PXJDig9VL.jpg",
-    "https://m.media-amazon.com/images/I/41WhwO5HdwL.jpg",
-    "https://m.media-amazon.com/images/I/41WhwO5HdwL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/61qUUW6pkGL.jpg",
+    "https://m.media-amazon.com/images/I/71FizF-ZGzL.jpg",
+    "https://m.media-amazon.com/images/I/51AoB8Uf-4L.jpg",
+    "https://m.media-amazon.com/images/I/71TMGILhGZL.jpg",
+    "https://m.media-amazon.com/images/I/71unm4KRRVL.jpg"
    ],
-   "themes": [
-    "bez_zapachu",
-    "wchlanianie",
-    "cena_pojemnosc"
-   ],
-   "price": 20.65,
-   "rating": 4.5,
-   "reviews": 486,
-   "bsr": 3532,
-   "rev30d": 19043,
    "bullets": [
     "Schützende Handcreme für arbeitende und strapazierte Hände",
     "Schützt u. a. vor Wasser, Seifen und Reinigungsmitteln",
     "Zieht schnell ein",
     "Ohne Duftstoffe"
    ],
-   "description": ""
+   "themes": [
+    "bez_zapachu",
+    "wchlanianie",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "bez_zapachu": [
+     "BP"
+    ]
+   },
+   "price": 20.65,
+   "rating": 4.5,
+   "reviews": 486,
+   "rev30": 19043,
+   "archival": false
   }
  ],
- "claimsMatrix": {
-  "themes": [
-   {
-    "id": "nawilzenie",
-    "label": "Nawilżenie"
-   },
-   {
-    "id": "kojacy",
-    "label": "Kojący / łagodzący"
-   },
-   {
-    "id": "bariera",
-    "label": "Odbudowa bariery"
-   },
-   {
-    "id": "bez_zapachu",
-    "label": "Bez zapachu / perfum"
-   },
-   {
-    "id": "dermatologiczny",
-    "label": "Dermatologicznie testowany"
-   },
-   {
-    "id": "naturalny",
-    "label": "Naturalny / wegański"
-   },
-   {
-    "id": "wchlanianie",
-    "label": "Szybkie wchłanianie"
-   },
-   {
-    "id": "odzywczy",
-    "label": "Odżywczy / regenerujący"
-   },
-   {
-    "id": "cena_pojemnosc",
-    "label": "Ekonomiczny / duża pojemność"
-   }
-  ],
-  "rows": [
-   {
-    "brand": "La Roche-Posay",
-    "asin": "B003JSEGNC",
-    "cells": [
-     false,
-     true,
-     false,
-     false,
-     false,
-     true,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "CeraVe",
-    "asin": "B0B7RQ46LD",
-    "cells": [
-     false,
-     true,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "KANZY",
-    "asin": "B07BYPW7LZ",
-    "cells": [
-     true,
-     false,
-     false,
-     false,
-     false,
-     true,
-     false,
-     true,
-     true
-    ]
-   },
-   {
-    "brand": "Bio-Oil",
-    "asin": "B00KWCQHZ8",
-    "cells": [
-     true,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     true,
-     true
-    ]
-   },
-   {
-    "brand": "CeraVe",
-    "asin": "B0CRSJ46YD",
-    "cells": [
-     true,
-     false,
-     true,
-     false,
-     true,
-     false,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "frei öl",
-    "asin": "B01LYTJSQ5",
-    "cells": [
-     false,
-     false,
-     false,
-     false,
-     false,
-     true,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "Sorion",
-    "asin": "B00IFZEBSE",
-    "cells": [
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     true,
-     true
-    ]
-   },
-   {
-    "brand": "La Roche-Posay",
-    "asin": "B00R0LU78W",
-    "cells": [
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "Naissance",
-    "asin": "B007MCXGO6",
-    "cells": [
-     true,
-     true,
-     false,
-     true,
-     false,
-     true,
-     false,
-     true,
-     true
-    ]
-   },
-   {
-    "brand": "CeraVe",
-    "asin": "B0DG8WX9ZK",
-    "cells": [
-     true,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "KANZY",
-    "asin": "B07BYMJMJZ",
-    "cells": [
-     true,
-     true,
-     false,
-     false,
-     false,
-     true,
-     true,
-     false,
-     true
-    ]
-   },
-   {
-    "brand": "Excipial",
-    "asin": "B00E67IZLE",
-    "cells": [
-     false,
-     false,
-     false,
-     true,
-     false,
-     false,
-     true,
-     false,
-     true
-    ]
-   }
-  ]
- },
- "claimsSummary": [
+ "themes": [
   {
+   "key": "nawilzenie",
+   "label": "Nawilżenie"
+  },
+  {
+   "key": "kojacy",
+   "label": "Kojący / łagodzący"
+  },
+  {
+   "key": "bariera",
+   "label": "Odbudowa bariery"
+  },
+  {
+   "key": "bez_zapachu",
+   "label": "Bez zapachu / perfum"
+  },
+  {
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany"
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański"
+  },
+  {
+   "key": "wchlanianie",
+   "label": "Szybkie wchłanianie"
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący"
+  },
+  {
+   "key": "cena_pojemnosc",
+   "label": "Ekonomiczny / duża pojemność"
+  }
+ ],
+ "adoption": [
+  {
+   "key": "cena_pojemnosc",
    "label": "Ekonomiczny / duża pojemność",
    "count": 12,
-   "pct": 100,
-   "topBrands": [
-    "La Roche-Posay",
-    "CeraVe",
-    "KANZY"
-   ]
+   "pct": 100
   },
   {
+   "key": "nawilzenie",
    "label": "Nawilżenie",
-   "count": 6,
-   "pct": 50,
-   "topBrands": [
-    "KANZY",
-    "Bio-Oil",
-    "CeraVe"
-   ]
+   "count": 5,
+   "pct": 42
   },
   {
+   "key": "naturalny",
    "label": "Naturalny / wegański",
    "count": 5,
-   "pct": 42,
-   "topBrands": [
-    "La Roche-Posay",
-    "KANZY",
-    "frei öl"
-   ]
+   "pct": 42
   },
   {
+   "key": "kojacy",
    "label": "Kojący / łagodzący",
    "count": 4,
-   "pct": 33,
-   "topBrands": [
-    "La Roche-Posay",
-    "CeraVe",
-    "Naissance"
-   ]
+   "pct": 33
   },
   {
+   "key": "odzywczy",
    "label": "Odżywczy / regenerujący",
    "count": 4,
-   "pct": 33,
-   "topBrands": [
-    "KANZY",
-    "Bio-Oil",
-    "Sorion"
-   ]
+   "pct": 33
   },
   {
+   "key": "bez_zapachu",
    "label": "Bez zapachu / perfum",
    "count": 2,
-   "pct": 17,
-   "topBrands": [
-    "Naissance",
-    "Excipial"
-   ]
+   "pct": 17
   },
   {
+   "key": "wchlanianie",
    "label": "Szybkie wchłanianie",
    "count": 2,
-   "pct": 17,
-   "topBrands": [
-    "KANZY",
-    "Excipial"
-   ]
+   "pct": 17
   },
   {
+   "key": "bariera",
    "label": "Odbudowa bariery",
    "count": 1,
-   "pct": 8,
-   "topBrands": [
-    "CeraVe"
-   ]
+   "pct": 8
   },
   {
+   "key": "dermatologiczny",
    "label": "Dermatologicznie testowany",
    "count": 1,
-   "pct": 8,
-   "topBrands": [
-    "CeraVe"
-   ]
+   "pct": 8
   }
  ],
  "vocGap": [
   {
    "vocTopic": "Wysuszenie i uszkodzenie bariery skórnej",
-   "customerConcernPct": "26.0%",
-   "addressedByCount": 1,
-   "addressedByBrands": [
+   "vocPct": 26.0,
+   "theme": "Odbudowa bariery",
+   "addressed": 1,
+   "total": 12,
+   "pct": 8,
+   "sev": "MED",
+   "brands": [
     "CeraVe"
-   ],
-   "gapSeverity": "MEDIUM",
-   "whitespace": "true"
+   ]
   },
   {
    "vocTopic": "Wypryski i pogorszenie trądziku",
-   "customerConcernPct": "22.0%",
-   "addressedByCount": 0,
-   "addressedByBrands": [],
-   "gapSeverity": "HIGH",
-   "whitespace": "true"
+   "vocPct": 22.0,
+   "theme": "",
+   "addressed": 0,
+   "total": 12,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
   },
   {
    "vocTopic": "Podrażnienie, pieczenie i reakcje oczu",
-   "customerConcernPct": "18.0%",
-   "addressedByCount": 4,
-   "addressedByBrands": [
+   "vocPct": 18.0,
+   "theme": "Kojący / łagodzący",
+   "addressed": 4,
+   "total": 12,
+   "pct": 33,
+   "sev": "LOW",
+   "brands": [
     "La Roche-Posay",
     "CeraVe",
-    "Naissance"
-   ],
-   "gapSeverity": "LOW",
-   "whitespace": "false"
+    "Naissance",
+    "KANZY"
+   ]
   },
   {
    "vocTopic": "Mylący opis olejów (rozcieńczone, nie 100%)",
-   "customerConcernPct": "16.0%",
-   "addressedByCount": 0,
-   "addressedByBrands": [],
-   "gapSeverity": "HIGH",
-   "whitespace": "true"
+   "vocPct": 16.0,
+   "theme": "",
+   "addressed": 0,
+   "total": 12,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
   },
   {
    "vocTopic": "Podejrzenie podróbki / zmiany formuły",
-   "customerConcernPct": "14.0%",
-   "addressedByCount": 2,
-   "addressedByBrands": [
+   "vocPct": 14.0,
+   "theme": "Bez zapachu / perfum",
+   "addressed": 2,
+   "total": 12,
+   "pct": 17,
+   "sev": "MED",
+   "brands": [
     "Naissance",
     "Excipial"
-   ],
-   "gapSeverity": "MEDIUM",
-   "whitespace": "true"
+   ]
   },
   {
    "vocTopic": "Zjełczały / nieprzyjemny zapach oleju",
-   "customerConcernPct": "12.0%",
-   "addressedByCount": 2,
-   "addressedByBrands": [
+   "vocPct": 12.0,
+   "theme": "Bez zapachu / perfum",
+   "addressed": 2,
+   "total": 12,
+   "pct": 17,
+   "sev": "MED",
+   "brands": [
     "Naissance",
     "Excipial"
-   ],
-   "gapSeverity": "MEDIUM",
-   "whitespace": "true"
+   ]
   }
  ],
- "whitespaceOpportunities": [
+ "whitespace": [
   {
-   "opportunity": "Bez zapachu / perfum",
-   "rationale": "Tylko 2/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
-   "evidence": "Obecne marki: Naissance, Excipial"
+   "label": "Bez zapachu / perfum",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "opportunity": "Szybkie wchłanianie",
-   "rationale": "Tylko 2/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
-   "evidence": "Obecne marki: KANZY, Excipial"
+   "label": "Szybkie wchłanianie",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "opportunity": "Odbudowa bariery",
-   "rationale": "Tylko 1/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
-   "evidence": "Obecne marki: CeraVe"
+   "label": "Odbudowa bariery",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "opportunity": "Dermatologicznie testowany",
-   "rationale": "Tylko 1/12 konkurentów deklaruje ten temat w listingu — przestrzeń do wyróżnienia.",
-   "evidence": "Obecne marki: CeraVe"
+   "label": "Dermatologicznie testowany",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   }
  ],
  "saturation": [
   {
    "label": "Ekonomiczny / duża pojemność",
-   "saturationPct": "100%",
-   "advice": "Standard kategorii (table-stakes) — traktuj jako wymóg, nie wyróżnik."
+   "pct": 100,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
+  },
+  {
+   "label": "Nawilżenie",
+   "pct": 42,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Naturalny / wegański",
+   "pct": 42,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "pct": 33,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Odżywczy / regenerujący",
+   "pct": 33,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Bez zapachu / perfum",
+   "pct": 17,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Szybkie wchłanianie",
+   "pct": 17,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Odbudowa bariery",
+   "pct": 8,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Dermatologicznie testowany",
+   "pct": 8,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   }
  ],
- "strategicRecommendations": [
+ "recs": [
   {
-   "type": "Luka VOC↔listing",
-   "badgeBg": "#fee2e2",
-   "badgeColor": "#991b1b",
-   "finding": "Klienci skarżą się na: Wypryski i pogorszenie trądziku, Mylący opis olejów (rozcieńczone, nie 100%), a żaden czołowy konkurent tego nie adresuje w treści listingu.",
-   "implication": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
+   "type": "Messaging",
+   "finding": "Negatywy VOC dotyczą: Wypryski i pogorszenie trądziku, Mylący opis olejów (rozcieńczone, nie 100%) — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
   },
   {
-   "type": "Białe plamy",
-   "badgeBg": "#fef3c7",
-   "badgeColor": "#92400e",
-   "finding": "Nisko wysycone tematy: Bez zapachu / perfum, Szybkie wchłanianie, Odbudowa bariery, Dermatologicznie testowany.",
-   "implication": "Jeśli produkt spełnia te cechy — wyeksponuj je, bo konkurencja tego nie robi."
+   "type": "Pozycjonowanie",
+   "finding": "Nisko wysycone claimy: Bez zapachu / perfum, Szybkie wchłanianie, Odbudowa bariery, Dermatologicznie testowany.",
+   "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
   },
   {
-   "type": "Parytet",
-   "badgeBg": "#dcfce7",
-   "badgeColor": "#166534",
-   "finding": "Nasycone deklaracje: Ekonomiczny / duża pojemność.",
-   "implication": "Musisz je mieć, ale nie licz na wyróżnienie — poświęć im minimum miejsca."
+   "type": "Produkt",
+   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność.",
+   "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]
 }

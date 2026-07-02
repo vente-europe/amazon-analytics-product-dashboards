@@ -10,13 +10,13 @@
    "img": "https://m.media-amazon.com/images/I/61ZacSsVcaL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61ZacSsVcaL.jpg",
-    "https://m.media-amazon.com/images/I/41mYMylLLzL.jpg",
-    "https://m.media-amazon.com/images/I/41mYMylLLzL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71h0V-cOolL.jpg",
-    "https://m.media-amazon.com/images/I/41pYsPIzXrL.jpg",
-    "https://m.media-amazon.com/images/I/41pYsPIzXrL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/51nUE2thEHL.jpg",
-    "https://m.media-amazon.com/images/I/4127JmCO71L.jpg"
+    "https://m.media-amazon.com/images/I/61pbYzEpCdL.jpg",
+    "https://m.media-amazon.com/images/I/51iLliTezSL.jpg",
+    "https://m.media-amazon.com/images/I/71gsbTFnzqL.jpg",
+    "https://m.media-amazon.com/images/I/61xQ7OdOxqL.jpg",
+    "https://m.media-amazon.com/images/I/81LtHyRcGzL.jpg"
    ],
    "bullets": [
     "Limpia la piel y respeta el manto hidrolipídico gracias a su pH fisiológico.",
@@ -46,9 +46,7 @@
    "title": "La Roche Posay, Lipikar Gel de Ducha Fisiológico Relipidizante, Con Niacinamida y Manteca de Karité, Sin Jabón Ni Parabenos, Para Piel Sensible y Seca, 1L",
    "img": "https://m.media-amazon.com/images/I/51hTwyHSmAL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/51hTwyHSmAL.jpg",
-    "https://m.media-amazon.com/images/I/41et06n066L.jpg",
-    "https://m.media-amazon.com/images/I/41et06n066L._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/51hTwyHSmAL.jpg"
    ],
    "bullets": [
     "Gel de ducha para la higiene diaria de toda la familia. Nutre y limpia suavemente, por lo que es adecuado para zonas íntimas. Con Niacinamida y Manteca de Karité. Para todo tipo de pieles, especialmente las sensibles y secas.",
@@ -76,13 +74,12 @@
    "img": "https://m.media-amazon.com/images/I/71ARYOCHBCL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71ARYOCHBCL.jpg",
-    "https://m.media-amazon.com/images/I/41rNzSfzNrL.jpg",
-    "https://m.media-amazon.com/images/I/41rNzSfzNrL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71NmJ-rLpML.jpg",
-    "https://m.media-amazon.com/images/I/41xynaUP7YL.jpg",
-    "https://m.media-amazon.com/images/I/41xynaUP7YL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71y8YIEtAkL.jpg",
-    "https://m.media-amazon.com/images/I/51qq8JzRHxL.jpg"
+    "https://m.media-amazon.com/images/I/81RemI9sLJL.jpg",
+    "https://m.media-amazon.com/images/I/61ayO1pMltL.jpg",
+    "https://m.media-amazon.com/images/I/71MHOB+Lr3L.jpg",
+    "https://m.media-amazon.com/images/I/71ehM2zybOL.jpg"
    ],
    "bullets": [
     "Limpiador en Aceite Espumoso Hidratante que nutre la piel y elimina la suciedad y el exceso de sebo. Con Aceite de Escualano​, ceramidas, Ácido Hialurónico y Tecnología MVE. Para pieles normales y secas con tendencia atópica.",
@@ -98,6 +95,12 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "bez_zapachu": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
     "kojacy": [
      "BP"
     ],
@@ -105,17 +108,11 @@
      "T",
      "BP"
     ],
-    "bez_zapachu": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ],
     "nawilzenie": [
      "T",
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -131,9 +128,7 @@
    "title": "CeraVe - Limpiador en Aceite Espumoso Hidratante, Ideal para Pieles Normales a Muy Secas con Tendencia Atópica, Para Rostro y Cuerpo, Limpia e Hidrata, Enriquecido con Ácido Hialurónico, 236 ml",
    "img": "https://m.media-amazon.com/images/I/51xAIwj5PTL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/51xAIwj5PTL.jpg",
-    "https://m.media-amazon.com/images/I/41xtNP82PeL.jpg",
-    "https://m.media-amazon.com/images/I/41xtNP82PeL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/51xAIwj5PTL.jpg"
    ],
    "bullets": [
     "limpiador multifunción"
@@ -166,9 +161,7 @@
    "title": "La Roche Posay, Toleriane Dermo Limpiador Desmaquillante Facial, Limpieza Diaria Sin Irritación, Para Rostro y Contorno de Ojos, Con Glicerina, Hipoalergénico, Para Pieles Muy Sensibles, 400ml",
    "img": "https://m.media-amazon.com/images/I/51sJ+JP0hTL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/51sJ+JP0hTL.jpg",
-    "https://m.media-amazon.com/images/I/31jtBwrYTWL.jpg",
-    "https://m.media-amazon.com/images/I/31jtBwrYTWL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/51sJ+JP0hTL.jpg"
    ],
    "bullets": [
     "El Toleriane Dermo Limpiador de La Roche-Posay permite una limpieza suave y respetuosa para aquellas pieles más sensibles, fragilizadas e intolerantes. Elimina el maquillaje y limpia el rostro y la zona del contorno de los ojos sin riesgo de irritación."
@@ -178,10 +171,10 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "hipoalergiczny": [
+    "cena_pojemnosc": [
      "T"
     ],
-    "cena_pojemnosc": [
+    "hipoalergiczny": [
      "T"
     ]
    },
@@ -198,13 +191,13 @@
    "img": "https://m.media-amazon.com/images/I/6133NaX-UmL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/6133NaX-UmL.jpg",
-    "https://m.media-amazon.com/images/I/31DifSihr2L.jpg",
-    "https://m.media-amazon.com/images/I/31DifSihr2L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71oL7IDMZFL.jpg",
-    "https://m.media-amazon.com/images/I/41rbmHWYB8L.jpg",
-    "https://m.media-amazon.com/images/I/41rbmHWYB8L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71Q87iwfe5L.jpg",
-    "https://m.media-amazon.com/images/I/41pdmRz2Y3L.jpg"
+    "https://m.media-amazon.com/images/I/81CK03clC7L.jpg",
+    "https://m.media-amazon.com/images/I/81MijrJNozL.jpg",
+    "https://m.media-amazon.com/images/I/81gQUQoiceL.jpg",
+    "https://m.media-amazon.com/images/I/71O-9FXkaGL.jpg",
+    "https://m.media-amazon.com/images/I/81iiD-qhUZL.jpg"
    ],
    "bullets": [
     "Limpia, calma y suaviza la piel con tendencia al enrojecimiento.",
@@ -218,14 +211,14 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "swiad": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "kojacy": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "swiad": [
+     "BP"
     ]
    },
    "price": 14.45,
@@ -241,13 +234,12 @@
    "img": "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
-    "https://m.media-amazon.com/images/I/31AP1YOGrvL.jpg",
-    "https://m.media-amazon.com/images/I/31AP1YOGrvL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/7175c2d7bQL.jpg",
-    "https://m.media-amazon.com/images/I/31gxSnb7HEL.jpg",
-    "https://m.media-amazon.com/images/I/31gxSnb7HEL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71bTNlpXu4L.jpg",
-    "https://m.media-amazon.com/images/I/41n3XOAzosL.jpg"
+    "https://m.media-amazon.com/images/I/719Modu1yGL.jpg",
+    "https://m.media-amazon.com/images/I/71jlqzaXutL.jpg",
+    "https://m.media-amazon.com/images/I/71AcTIqe3DL.jpg",
+    "https://m.media-amazon.com/images/I/71qcDgtnbZL.jpg"
    ],
    "bullets": [
     "XEROLACT ACEITE LIMPIADOR PROTECTOR. Es un aceite de ducha hidratante y antipicor, que limpia suavemente mientras protege la barrera cutánea. Formulado para piel muy seca o con tendencia atópica, apto para bebés, niños y adultos.",
@@ -267,8 +259,12 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bariera": [
+    "swiad": [
+     "T",
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ],
     "kojacy": [
      "BP"
@@ -280,7 +276,7 @@
     "hipoalergiczny": [
      "BP"
     ],
-    "swiad": [
+    "nawilzenie": [
      "T",
      "BP"
     ],
@@ -288,11 +284,7 @@
      "T",
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "nawilzenie": [
-     "T",
+    "bariera": [
      "BP"
     ]
    },
@@ -309,13 +301,9 @@
    "img": "https://m.media-amazon.com/images/I/61OLF+j6BbL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61OLF+j6BbL.jpg",
-    "https://m.media-amazon.com/images/I/312pmccS7xL.jpg",
-    "https://m.media-amazon.com/images/I/312pmccS7xL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71MtA2KUgAL.jpg",
-    "https://m.media-amazon.com/images/I/410pGMdx-qL.jpg",
-    "https://m.media-amazon.com/images/I/410pGMdx-qL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71kYVsJjYyL.jpg",
-    "https://m.media-amazon.com/images/I/41UK0zJ7jIL.jpg"
+    "https://m.media-amazon.com/images/I/713Y-e8nDeL.jpg"
    ],
    "bullets": [
     "\"Sebamed Emulsión sin Jabón 1L\" es un gel de baño para el uso diario, ideal para las pieles sensibles.",
@@ -330,13 +318,13 @@
     "naturalny"
    ],
    "themeSrc": {
-    "bariera": [
-     "BP"
-    ],
     "kojacy": [
      "BP"
     ],
     "naturalny": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ]
    },
@@ -353,13 +341,12 @@
    "img": "https://m.media-amazon.com/images/I/61k9nAMR4fL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61k9nAMR4fL.jpg",
-    "https://m.media-amazon.com/images/I/31u3+UlxY6L.jpg",
-    "https://m.media-amazon.com/images/I/31u3+UlxY6L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71vLD7jmtaL.jpg",
-    "https://m.media-amazon.com/images/I/41mmW77yYWL.jpg",
-    "https://m.media-amazon.com/images/I/41mmW77yYWL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71TGqH2ptdL.jpg",
-    "https://m.media-amazon.com/images/I/41XLWfRc1WL.jpg"
+    "https://m.media-amazon.com/images/I/71E7STu06GL.jpg",
+    "https://m.media-amazon.com/images/I/61bXnpXi0oL.jpg",
+    "https://m.media-amazon.com/images/I/61bNFNQUwQL.jpg",
+    "https://m.media-amazon.com/images/I/61neseZLBoL.jpg"
    ],
    "bullets": [
     "Gel terapéutico - hidrata y suaviza la piel gracias a su fórmula concentrada en aceite de Árbol de té (melaleuca alternifolia), un aceite esencial con demostradas propiedades antisépticas, ideal para pieles irritadas e inflamadas. Sensación de limpieza y frescor durante todo el día",
@@ -374,11 +361,11 @@
     "naturalny"
    ],
    "themeSrc": {
-    "swiad": [
-     "T",
+    "kojacy": [
      "BP"
     ],
-    "kojacy": [
+    "swiad": [
+     "T",
      "BP"
     ],
     "naturalny": [
@@ -398,13 +385,9 @@
    "img": "https://m.media-amazon.com/images/I/51NCQX2vanL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51NCQX2vanL.jpg",
-    "https://m.media-amazon.com/images/I/21ipED4byqL.jpg",
-    "https://m.media-amazon.com/images/I/21ipED4byqL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71eLBwn9ItL.jpg",
-    "https://m.media-amazon.com/images/I/31zE2WTcsTL.jpg",
-    "https://m.media-amazon.com/images/I/31zE2WTcsTL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71vadREY5wL.jpg",
-    "https://m.media-amazon.com/images/I/31VBI9xZoYL.jpg"
+    "https://m.media-amazon.com/images/I/71+KzPIjrkL.jpg"
    ],
    "bullets": [
     "Espuma limpiadora Gentle Cleansing Mousse Sensilis con ácido hialurónico y vitamina B5, que limpia suavemente pieles sensibles reactivas, hidrata y calma sin resecar ni alterar la barrera cutánea",
@@ -419,14 +402,11 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bariera": [
-     "BP"
-    ],
-    "kojacy": [
+    "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "cena_pojemnosc": [
+    "kojacy": [
      "T",
      "BP"
     ],
@@ -435,6 +415,9 @@
     ],
     "nawilzenie": [
      "T"
+    ],
+    "bariera": [
+     "BP"
     ]
    },
    "price": 10.75,
@@ -450,13 +433,11 @@
    "img": "https://m.media-amazon.com/images/I/71ZkJ9+sRYL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71ZkJ9+sRYL.jpg",
-    "https://m.media-amazon.com/images/I/41soki3D3oL.jpg",
-    "https://m.media-amazon.com/images/I/41soki3D3oL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61-d5jXZcHL.jpg",
-    "https://m.media-amazon.com/images/I/41kTPuwJqZL.jpg",
-    "https://m.media-amazon.com/images/I/41kTPuwJqZL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71+NVmwIq8L.jpg",
-    "https://m.media-amazon.com/images/I/41NdxS58OaL.jpg"
+    "https://m.media-amazon.com/images/I/71zwi62k9mL.jpg",
+    "https://m.media-amazon.com/images/I/71TH6VGc6pL.jpg",
+    "https://m.media-amazon.com/images/I/71j4aSoRrfL.jpg"
    ],
    "bullets": [
     "GEL DE DUCHA REPARADOR. limpia suavemente mientras hidrata nutre y repara la piel muy seca o extra seca ayudando a aliviar picores irritaciones y sensación de tirantez desde la primera ducha",
@@ -472,14 +453,14 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "swiad": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "bariera": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "swiad": [
+     "BP"
     ],
     "naturalny": [
      "BP"
@@ -498,13 +479,13 @@
    "img": "https://m.media-amazon.com/images/I/61WxWK0CmML.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61WxWK0CmML.jpg",
-    "https://m.media-amazon.com/images/I/41GpllHHmAL.jpg",
-    "https://m.media-amazon.com/images/I/41GpllHHmAL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81GmmQPKYsL.jpg",
-    "https://m.media-amazon.com/images/I/51Hmwg3uE9L.jpg",
-    "https://m.media-amazon.com/images/I/51Hmwg3uE9L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/618eIxpkSHL.jpg",
-    "https://m.media-amazon.com/images/I/41RaoLEWOiL.jpg"
+    "https://m.media-amazon.com/images/I/71iJGI9paGL.jpg",
+    "https://m.media-amazon.com/images/I/61801JiSC1L.jpg",
+    "https://m.media-amazon.com/images/I/71UNIaOdSXL.jpg",
+    "https://m.media-amazon.com/images/I/716WR51GmeL.jpg",
+    "https://m.media-amazon.com/images/I/71nHAyt5XVL.jpg"
    ],
    "bullets": [
     "Contiene Niacinamida calmante y manteca de karité reponer lípidos para ayudar a restaurar la barrera cutánea",
@@ -519,18 +500,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bariera": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
     "skora_atopowa": [
      "T"
+    ],
+    "bariera": [
+     "BP"
     ]
    },
    "price": 13.5,

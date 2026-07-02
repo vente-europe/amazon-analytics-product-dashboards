@@ -10,13 +10,8 @@
    "img": "https://m.media-amazon.com/images/I/61TP-hpUQPL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61TP-hpUQPL.jpg",
-    "https://m.media-amazon.com/images/I/319XfJj5VKL.jpg",
-    "https://m.media-amazon.com/images/I/319XfJj5VKL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61caiFfw5jL.jpg",
-    "https://m.media-amazon.com/images/I/31kRHDeiCuL.jpg",
-    "https://m.media-amazon.com/images/I/31kRHDeiCuL._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/51O-t+dwx5L.jpg",
-    "https://m.media-amazon.com/images/I/21bQ3DXg1jL.jpg"
+    "https://m.media-amazon.com/images/I/51O-t+dwx5L.jpg"
    ],
    "bullets": [
     "Marca: Rilastil",
@@ -45,13 +40,8 @@
    "img": "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
-    "https://m.media-amazon.com/images/I/31AP1YOGrvL.jpg",
-    "https://m.media-amazon.com/images/I/31AP1YOGrvL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61P2pKMvlcL.jpg",
-    "https://m.media-amazon.com/images/I/31UR9EF9TEL.jpg",
-    "https://m.media-amazon.com/images/I/31UR9EF9TEL._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/51-ehb79m4L.jpg",
-    "https://m.media-amazon.com/images/I/21H-VowbqqL.jpg"
+    "https://m.media-amazon.com/images/I/51-ehb79m4L.jpg"
    ],
    "bullets": [
     "XEROLACT Olio detergente viso e corpo protettivo anti-irritazioni.",
@@ -69,15 +59,11 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dla_dzieci": [
-     "T",
-     "BP"
-    ],
     "swiad": [
      "BP"
     ],
-    "bariera": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "skora_atopowa": [
      "T",
@@ -87,8 +73,12 @@
      "T",
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "dla_dzieci": [
+     "T",
+     "BP"
+    ],
+    "bariera": [
+     "BP"
     ]
    },
    "price": 15.49,
@@ -103,9 +93,7 @@
    "title": "La Roche-Posay Lipikar, Olio Detergente AP+, Per Pelli Secche a Tendenza Eczema Atopico, Antiinfiammatorio e Anti-prurito, Arricchito con Aqua Posae Filiformis e Niacinamide, 1L.",
    "img": "https://m.media-amazon.com/images/I/51cgRDTF18L.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/51cgRDTF18L.jpg",
-    "https://m.media-amazon.com/images/I/41LT+wC3O2L.jpg",
-    "https://m.media-amazon.com/images/I/41LT+wC3O2L._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/51cgRDTF18L.jpg"
    ],
    "bullets": [
     "La Roche Posay Lipikar Cleansing Oil B1L"
@@ -119,10 +107,10 @@
     "cena_pojemnosc": [
      "BP"
     ],
-    "swiad": [
+    "skora_atopowa": [
      "T"
     ],
-    "skora_atopowa": [
+    "swiad": [
      "T"
     ]
    },
@@ -139,13 +127,11 @@
    "img": "https://m.media-amazon.com/images/I/51ryP2yFnOL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51ryP2yFnOL.jpg",
-    "https://m.media-amazon.com/images/I/31AYTARi-gL.jpg",
-    "https://m.media-amazon.com/images/I/31AYTARi-gL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/41NZt8PzJ-L.jpg",
-    "https://m.media-amazon.com/images/I/31+zfwv4c4L.jpg",
-    "https://m.media-amazon.com/images/I/31+zfwv4c4L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/5169ZrXQ5WL.jpg",
-    "https://m.media-amazon.com/images/I/317cUx26-IL.jpg"
+    "https://m.media-amazon.com/images/I/51GPLI20RxL.jpg",
+    "https://m.media-amazon.com/images/I/51hiybJsEXL.jpg",
+    "https://m.media-amazon.com/images/I/51UuySOxpCL.jpg"
    ],
    "bullets": [
     "- Prodotto 2 in 1: deterge e rimuove il trucco da occhi e viso in un semplice gesto. - Ipoallergenico. - Texture idratante e leggera."
@@ -160,15 +146,15 @@
     "cena_pojemnosc": [
      "T"
     ],
+    "kojacy": [
+     "T"
+    ],
     "hipoalergiczny": [
      "BP"
     ],
     "nawilzenie": [
      "T",
      "BP"
-    ],
-    "kojacy": [
-     "T"
     ]
    },
    "price": 19.78,
@@ -184,13 +170,12 @@
    "img": "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
-    "https://m.media-amazon.com/images/I/315rFQ1H79L.jpg",
-    "https://m.media-amazon.com/images/I/315rFQ1H79L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71I3dig7MJL.jpg",
-    "https://m.media-amazon.com/images/I/41FcaO8DF8L.jpg",
-    "https://m.media-amazon.com/images/I/41FcaO8DF8L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71aFKgkyxCL.jpg",
-    "https://m.media-amazon.com/images/I/41BLl+AjFXL.jpg"
+    "https://m.media-amazon.com/images/I/71xdR08es9L.jpg",
+    "https://m.media-amazon.com/images/I/61TfMmtnQqL.jpg",
+    "https://m.media-amazon.com/images/I/81uYqUDpHLL.jpg",
+    "https://m.media-amazon.com/images/I/91NtdCjo5QL.jpg"
    ],
    "bullets": [
     "Olio doccia per tutta la famiglia: con il suo intenso potere nutriente, deterge e lenisce le irritazioni. Lascia inoltre la pelle idratata e confortevole",
@@ -207,12 +192,8 @@
     "odzywczy"
    ],
    "themeSrc": {
-    "bariera": [
-     "BP"
-    ],
-    "naturalny": [
-     "T",
-     "BP"
+    "kojacy": [
+     "T"
     ],
     "odzywczy": [
      "BP"
@@ -220,8 +201,12 @@
     "nawilzenie": [
      "BP"
     ],
-    "kojacy": [
-     "T"
+    "bariera": [
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
     ]
    },
    "price": 21.6,
@@ -234,10 +219,8 @@
    "asin": "B00V4PHBO8",
    "brand": "La Roche-Posay",
    "title": "La Roche-Posay Lipikar, Gel Detergente Lenitivo Per Viso e Corpo, Per Pelli Sensibili e Secche, Pelle Idratata ed Effetto Anti-Secchezza, Con Niacinamide e Burro di Karité, Surgras, 400 ml",
-   "img": "https://m.media-amazon.com/images/I/416pp3OZK9L.jpg",
+   "img": "https://m.media-amazon.com/images/I/71zx97IMt-L.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/416pp3OZK9L.jpg",
-    "https://m.media-amazon.com/images/I/416pp3OZK9L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71zx97IMt-L.jpg"
    ],
    "bullets": [
@@ -252,11 +235,11 @@
     "cena_pojemnosc": [
      "T"
     ],
-    "dla_dzieci": [
-     "BP"
-    ],
     "kojacy": [
      "T",
+     "BP"
+    ],
+    "dla_dzieci": [
      "BP"
     ]
    },
@@ -272,9 +255,7 @@
    "title": "La Roche-Posay Lipikar, Gel Doccia Lenitivo Protettivo, Per Pelli Sensibili e Secche, Pelle Delicatamente Detersa e Idratata, Arricchito con Niacinamide e Burro di Karité, 1L",
    "img": "https://m.media-amazon.com/images/I/41u4Z19QpfL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/41u4Z19QpfL.jpg",
-    "https://m.media-amazon.com/images/I/31PF33HwH1L.jpg",
-    "https://m.media-amazon.com/images/I/31PF33HwH1L._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/41u4Z19QpfL.jpg"
    ],
    "bullets": [
     "La Roche Posay Lipikar wash Gel B1+"
@@ -300,13 +281,12 @@
    "img": "https://m.media-amazon.com/images/I/61YtrGHYAKL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61YtrGHYAKL.jpg",
-    "https://m.media-amazon.com/images/I/31in+TCKBWL.jpg",
-    "https://m.media-amazon.com/images/I/31in+TCKBWL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81IO5UPjlzL.jpg",
-    "https://m.media-amazon.com/images/I/51O1STKE4YL.jpg",
-    "https://m.media-amazon.com/images/I/51O1STKE4YL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71r3p6mmehL.jpg",
-    "https://m.media-amazon.com/images/I/41ZcK+oma1L.jpg"
+    "https://m.media-amazon.com/images/I/71UbODHLTKL.jpg",
+    "https://m.media-amazon.com/images/I/71IGCaDmeML.jpg",
+    "https://m.media-amazon.com/images/I/71wsBoH8HtL.jpg",
+    "https://m.media-amazon.com/images/I/71ZLlatVoYL.jpg"
    ],
    "bullets": [
     "Detersione quotidiana – Questo bagno doccia clinicamente testato, formulato con Avena Colloidale Prebiotica, deterge e idrata la pelle secca donando una sensazione di pulito e freschezza",
@@ -326,14 +306,14 @@
      "T",
      "BP"
     ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
     "bariera": [
      "BP"
     ],
     "naturalny": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
      "T",
      "BP"
     ]
@@ -351,13 +331,13 @@
    "img": "https://m.media-amazon.com/images/I/61Y4L6OHm2L.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61Y4L6OHm2L.jpg",
-    "https://m.media-amazon.com/images/I/41PRYyrHcAL.jpg",
-    "https://m.media-amazon.com/images/I/41PRYyrHcAL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61cVK-QnDdL.jpg",
-    "https://m.media-amazon.com/images/I/41A9p16wM6L.jpg",
-    "https://m.media-amazon.com/images/I/41A9p16wM6L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61qrNBgmD1L.jpg",
-    "https://m.media-amazon.com/images/I/41FSJxmbwVL.jpg"
+    "https://m.media-amazon.com/images/I/61ZIXPKbvyL.jpg",
+    "https://m.media-amazon.com/images/I/6199wVPiqPL.jpg",
+    "https://m.media-amazon.com/images/I/71MW5HZmfKL.jpg",
+    "https://m.media-amazon.com/images/I/71wYkL0ZeVL.jpg",
+    "https://m.media-amazon.com/images/I/612lp4ztxEL.jpg"
    ],
    "bullets": [
     "Sollievo immediato – Il detergente corpo deterge delicatamente ed efficacemente e ricostruisce la barriera protettiva della pelle mentre combatte la secchezza cutanea e previene il prurito",
@@ -378,22 +358,13 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dla_dzieci": [
+    "bez_zapachu": [
      "BP"
     ],
     "swiad": [
      "BP"
     ],
-    "bez_zapachu": [
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ],
-    "skora_atopowa": [
+    "naturalny": [
      "T",
      "BP"
     ],
@@ -401,12 +372,21 @@
      "T",
      "BP"
     ],
-    "naturalny": [
+    "kojacy": [
      "T",
      "BP"
     ],
-    "kojacy": [
+    "skora_atopowa": [
      "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -423,13 +403,11 @@
    "img": "https://m.media-amazon.com/images/I/71xO5T86AKL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71xO5T86AKL.jpg",
-    "https://m.media-amazon.com/images/I/41dLhyu+6lL.jpg",
-    "https://m.media-amazon.com/images/I/41dLhyu+6lL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/517qQZUGs0L.jpg",
-    "https://m.media-amazon.com/images/I/31vZ2JK9KML.jpg",
-    "https://m.media-amazon.com/images/I/31vZ2JK9KML._SL75_.jpg",
     "https://m.media-amazon.com/images/I/51fgCqKCXkL.jpg",
-    "https://m.media-amazon.com/images/I/41ZvpuRKA-L.jpg"
+    "https://m.media-amazon.com/images/I/51TRFLPg6XL.jpg",
+    "https://m.media-amazon.com/images/I/51KxjpNDXCL.jpg",
+    "https://m.media-amazon.com/images/I/614gVLXeyCL.jpg"
    ],
    "bullets": [
     "3 ceramidi essenziali (1, 3 e 6-II) per ripristinare la barriera protettiva della pelle",
@@ -450,14 +428,14 @@
     "hipoalergiczny": [
      "BP"
     ],
-    "naturalny": [
-     "BP"
-    ],
     "bez_zapachu": [
      "BP"
     ],
     "bariera": [
      "T",
+     "BP"
+    ],
+    "naturalny": [
      "BP"
     ]
    },
@@ -471,16 +449,16 @@
    "asin": "B09D8SW19S",
    "brand": "SVR",
    "title": "SVR Topialyse - Olio lavante, 1 l",
-   "img": "https://m.media-amazon.com/images/I/31Cis8lpwSL.jpg",
+   "img": "https://m.media-amazon.com/images/I/61pEzoLLLyL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/31Cis8lpwSL.jpg",
-    "https://m.media-amazon.com/images/I/31Cis8lpwSL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61pEzoLLLyL.jpg",
-    "https://m.media-amazon.com/images/I/415dsGvFQsL.jpg",
-    "https://m.media-amazon.com/images/I/415dsGvFQsL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81xjgsmL4qL.jpg",
-    "https://m.media-amazon.com/images/I/51nBa6JiMbL.jpg",
-    "https://m.media-amazon.com/images/I/51nBa6JiMbL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/91-+85VouNL.jpg",
+    "https://m.media-amazon.com/images/I/81otm8rs7kL.jpg",
+    "https://m.media-amazon.com/images/I/813Z16nDv+L.jpg",
+    "https://m.media-amazon.com/images/I/81Ssa37-N4L.jpg",
+    "https://m.media-amazon.com/images/I/81OYzl+IR+L.jpg",
+    "https://m.media-amazon.com/images/I/81ujADo3DoL.jpg"
    ],
    "bullets": [
     "Olio-detergente anti prurito. Pelli da secche ad atopiche. senza sapone. formula biodegradabile. Ipoallergenico.",
@@ -499,16 +477,16 @@
     "cena_pojemnosc": [
      "BP"
     ],
-    "swiad": [
+    "skora_atopowa": [
      "BP"
     ],
     "hipoalergiczny": [
      "BP"
     ],
-    "naturalny": [
+    "swiad": [
      "BP"
     ],
-    "skora_atopowa": [
+    "naturalny": [
      "BP"
     ]
    },
@@ -525,13 +503,10 @@
    "img": "https://m.media-amazon.com/images/I/61-82aGH87L.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61-82aGH87L.jpg",
-    "https://m.media-amazon.com/images/I/31qryMohJ+L.jpg",
-    "https://m.media-amazon.com/images/I/31qryMohJ+L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71Mmbr3mITL.jpg",
-    "https://m.media-amazon.com/images/I/41oXP9wQncL.jpg",
-    "https://m.media-amazon.com/images/I/41oXP9wQncL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71kXBwpib-L.jpg",
-    "https://m.media-amazon.com/images/I/41ANE6XSiSL.jpg"
+    "https://m.media-amazon.com/images/I/71PqI0AcILL.jpg",
+    "https://m.media-amazon.com/images/I/71fSnYs0PSL.jpg"
    ],
    "bullets": [
     "Gli ingredienti chiave molto dolci detergono delicatamente ed in profondità la pelle sensibile ed intollerante",
@@ -549,14 +524,14 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
     "naturalny": [
      "BP"
     ],
     "dermatologiczny": [
      "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
     ],
     "nawilzenie": [
      "BP"

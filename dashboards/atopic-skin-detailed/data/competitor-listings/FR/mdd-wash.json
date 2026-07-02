@@ -10,13 +10,13 @@
    "img": "https://m.media-amazon.com/images/I/517+j47c8uL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/517+j47c8uL.jpg",
-    "https://m.media-amazon.com/images/I/41chzXOk7RL.jpg",
-    "https://m.media-amazon.com/images/I/41chzXOk7RL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61S23cIlfcL.jpg",
-    "https://m.media-amazon.com/images/I/41kn9uVvBiL.jpg",
-    "https://m.media-amazon.com/images/I/41kn9uVvBiL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61SgooeklfL.jpg",
-    "https://m.media-amazon.com/images/I/41+noKIVvXL.jpg"
+    "https://m.media-amazon.com/images/I/61AxX+sl3nL.jpg",
+    "https://m.media-amazon.com/images/I/61yR90KDgCL.jpg",
+    "https://m.media-amazon.com/images/I/51DdXCI2zWL.jpg",
+    "https://m.media-amazon.com/images/I/71nzrl2rUkL.jpg",
+    "https://m.media-amazon.com/images/I/61o+64GBV0L.jpg"
    ],
    "bullets": [
     "NETTOIE LA PEAU ET RESTAURE LA BARRIÈRE CUTANÉE : Apaisante et respectueuse de la peau, l'huile de douche CeraVe pour peaux sèches et atopiques nettoie en douceur et restaure la barrière cutanée naturelle tout en hydratant et nourrissant la peau.",
@@ -38,7 +38,30 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "bez_zapachu": [
+     "BP"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "kojacy": [
+     "T",
+     "BP"
+    ],
     "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "nawilzenie": [
      "T",
      "BP"
     ],
@@ -46,30 +69,7 @@
      "T",
      "BP"
     ],
-    "wchlanianie": [
-     "BP"
-    ],
-    "bez_zapachu": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ],
-    "kojacy": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
     "dermatologiczny": [
-     "BP"
-    ],
-    "odzywczy": [
      "BP"
     ]
    },
@@ -86,13 +86,11 @@
    "img": "https://m.media-amazon.com/images/I/616VBTp3TaL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/616VBTp3TaL.jpg",
-    "https://m.media-amazon.com/images/I/31CvfyUADXL.jpg",
-    "https://m.media-amazon.com/images/I/31CvfyUADXL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/91-8tcMiCDL.jpg",
-    "https://m.media-amazon.com/images/I/51Pv9AV6kUL.jpg",
-    "https://m.media-amazon.com/images/I/51Pv9AV6kUL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71a5SfqpBTL.jpg",
-    "https://m.media-amazon.com/images/I/513L9fXA5bL.jpg"
+    "https://m.media-amazon.com/images/I/81zkFPJFe4L.jpg",
+    "https://m.media-amazon.com/images/I/810+wZmLghL.jpg",
+    "https://m.media-amazon.com/images/I/71MbNFu1BkL.jpg"
    ],
    "bullets": [
     "HUILE NETTOYANTE RELIPIDANTE POUR PEAUX SÈCHES À ATOPIQUES : Topialyse Huile Lavante de SVR est une huile nettoyante douce, idéale pour les peaux sèches, sensibles et sujettes à l'eczéma atopique. Elle nettoie sans agresser, apaise les irritations et protège la barrière cutanée dès la première utilisation.",
@@ -111,13 +109,6 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
     "swiad": [
      "BP"
     ],
@@ -125,13 +116,20 @@
      "T",
      "BP"
     ],
-    "kojacy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T"
     ],
+    "kojacy": [
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
     "nawilzenie": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ]
    },
@@ -148,11 +146,7 @@
    "img": "https://m.media-amazon.com/images/I/61daTKrs1TL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61daTKrs1TL.jpg",
-    "https://m.media-amazon.com/images/I/41vPhTjnVnL.jpg",
-    "https://m.media-amazon.com/images/I/41vPhTjnVnL._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/81SHd5kgw7L.jpg",
-    "https://m.media-amazon.com/images/I/41aI3CA-lgL.jpg",
-    "https://m.media-amazon.com/images/I/41aI3CA-lgL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/81SHd5kgw7L.jpg"
    ],
    "bullets": [
     "NETTOIE, NOURRIT, PROTÈGE : Conçue pour le bien-être de votre peau, l’huile de douche Ultra-Hydratant de Topicrem permet de nettoyer la peau en douceur, de la nourrir et de la protéger des tiraillements. Adapté pour les peaux sensibles, ce soin visage et corps apporte hydratation, confort et douceur pour un véritable moment de bien-être. Sa texture fondante et délicatement parfumée assure un confort d’application maximum pour toute la famille.",
@@ -180,10 +174,10 @@
      "T",
      "BP"
     ],
-    "dermatologiczny": [
+    "naturalny": [
      "BP"
     ],
-    "naturalny": [
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -197,16 +191,15 @@
    "asin": "B098SRZ72Z",
    "brand": "Cicabiafine",
    "title": "Cicabiafine – Douche Baume Nourrissant (flacon de 1 L) – Soin lavant hydratant pour peaux très sèches – Nettoie en douceur sans agresser dès 3 ans",
-   "img": "https://m.media-amazon.com/images/I/31ini5XFUZL.jpg",
+   "img": "https://m.media-amazon.com/images/I/61Zt7i7DBLL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/31ini5XFUZL.jpg",
-    "https://m.media-amazon.com/images/I/31ini5XFUZL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61Zt7i7DBLL.jpg",
-    "https://m.media-amazon.com/images/I/41SYXGvKmTL.jpg",
-    "https://m.media-amazon.com/images/I/41SYXGvKmTL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71nM9KCgqDL.jpg",
-    "https://m.media-amazon.com/images/I/51sovjB3HtL.jpg",
-    "https://m.media-amazon.com/images/I/51sovjB3HtL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/71hdZrQNZGL.jpg",
+    "https://m.media-amazon.com/images/I/71w+DQ5QiAL.jpg",
+    "https://m.media-amazon.com/images/I/71AC0F+gPGL.jpg",
+    "https://m.media-amazon.com/images/I/71b5QnNqebL.jpg",
+    "https://m.media-amazon.com/images/I/71pjLtGLMNL.jpg"
    ],
    "bullets": [
     "Conçue pour les peaux fragiles et très sèches dès l’âge de 3 ans, notre Douche Baume nettoie la peau en douceur, sans l'agresser.",
@@ -222,18 +215,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bariera": [
+    "cena_pojemnosc": [
      "BP"
     ],
-    "cena_pojemnosc": [
+    "odzywczy": [
+     "T",
      "BP"
     ],
     "nawilzenie": [
      "T",
      "BP"
     ],
-    "odzywczy": [
-     "T",
+    "bariera": [
      "BP"
     ]
    },
@@ -250,13 +243,11 @@
    "img": "https://m.media-amazon.com/images/I/61DTTmjWcSL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61DTTmjWcSL.jpg",
-    "https://m.media-amazon.com/images/I/31Jx+5sVnAL.jpg",
-    "https://m.media-amazon.com/images/I/31Jx+5sVnAL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81SQF1KXGIL.jpg",
-    "https://m.media-amazon.com/images/I/41XB2NufPVL.jpg",
-    "https://m.media-amazon.com/images/I/41XB2NufPVL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81bkIZWLnEL.jpg",
-    "https://m.media-amazon.com/images/I/41fYiWdHVqL.jpg"
+    "https://m.media-amazon.com/images/I/81iX8WP6-RL.jpg",
+    "https://m.media-amazon.com/images/I/81sBLEIvVgL.jpg",
+    "https://m.media-amazon.com/images/I/71MbNFu1BkL.jpg"
    ],
    "bullets": [
     "NETTOYANT DOUX POUR PEAUX SÈCHES ET SENSIBLES : Le Topialyse Gel Lavant de SVR est un gel nettoyant sans savon, formulé pour nettoyer en douceur les peaux sèches et sensibles. Sa base lavante douce respecte le film hydrolipidique de la peau, réduisant ainsi les sensations de tiraillement et d'inconfort.",
@@ -290,13 +281,13 @@
    "img": "https://m.media-amazon.com/images/I/51B4U+DMxRL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51B4U+DMxRL.jpg",
-    "https://m.media-amazon.com/images/I/31aghgsqFkL.jpg",
-    "https://m.media-amazon.com/images/I/31aghgsqFkL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71EmT4qTAaL.jpg",
-    "https://m.media-amazon.com/images/I/41iO7vyAREL.jpg",
-    "https://m.media-amazon.com/images/I/41iO7vyAREL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71esWPmY3-L.jpg",
-    "https://m.media-amazon.com/images/I/41pi+SmkuFL.jpg"
+    "https://m.media-amazon.com/images/I/71FVs9NQPiL.jpg",
+    "https://m.media-amazon.com/images/I/71n8GjdnxQL.jpg",
+    "https://m.media-amazon.com/images/I/71ALx50om6L.jpg",
+    "https://m.media-amazon.com/images/I/71zy9he2UBL.jpg",
+    "https://m.media-amazon.com/images/I/71z8d81mCVL.jpg"
    ],
    "bullets": [
     "Gel 2 en 1 nettoyant et anti-imperfections. Le gel moussant se transforme en mousse légère pour nettoyer efficacement le visage ou le corps, tout en aidant à purifier la peau, diminuer les boutons, réduire l'excès de sébum dès la 1ère utilisation.",
@@ -313,17 +304,17 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "kojacy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T"
     ],
-    "nawilzenie": [
+    "kojacy": [
      "BP"
     ],
     "bez_zapachu": [
      "T",
+     "BP"
+    ],
+    "nawilzenie": [
      "BP"
     ],
     "dermatologiczny": [
@@ -343,13 +334,13 @@
    "img": "https://m.media-amazon.com/images/I/71l+57wTwlL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71l+57wTwlL.jpg",
-    "https://m.media-amazon.com/images/I/419KpmqRI0L.jpg",
-    "https://m.media-amazon.com/images/I/419KpmqRI0L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81QCEtnkUML.jpg",
-    "https://m.media-amazon.com/images/I/51vMH8m5DsL.jpg",
-    "https://m.media-amazon.com/images/I/51vMH8m5DsL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81fl-Q8-RYL.jpg",
-    "https://m.media-amazon.com/images/I/41onkkQsQdL.jpg"
+    "https://m.media-amazon.com/images/I/91NRUKAYQKL.jpg",
+    "https://m.media-amazon.com/images/I/81BV296ueNL.jpg",
+    "https://m.media-amazon.com/images/I/814TSC2XxEL.jpg",
+    "https://m.media-amazon.com/images/I/81PK3NgN-rL.jpg",
+    "https://m.media-amazon.com/images/I/71qtjZwOf7L.jpg"
    ],
    "bullets": [
     "POUR LES PEAUX SUJETTES À L’ECZÉMA ATOPIQUE* : Notre huile de douche anti-démangeaisons et anti-irritations Derma Thérapie est spécialement formulée pour les peaux sujettes à l’eczéma atopique afin de réduire les irritations après seulement 3 jours d'utilisation. Convient aux enfants dès 3 ans.",
@@ -372,21 +363,7 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
     "bez_zapachu": [
-     "BP"
-    ],
-    "dla_dzieci": [
-     "BP"
-    ],
-    "hipoalergiczny": [
-     "T",
      "BP"
     ],
     "swiad": [
@@ -399,7 +376,21 @@
     "cena_pojemnosc": [
      "T"
     ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "hipoalergiczny": [
+     "T",
+     "BP"
+    ],
     "nawilzenie": [
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ],
     "dermatologiczny": [
@@ -419,13 +410,12 @@
    "img": "https://m.media-amazon.com/images/I/61fCtKDNuxL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61fCtKDNuxL.jpg",
-    "https://m.media-amazon.com/images/I/31PKEFC3Q5L.jpg",
-    "https://m.media-amazon.com/images/I/31PKEFC3Q5L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61RhShW9aDL.jpg",
-    "https://m.media-amazon.com/images/I/31Qzmhe2PPL.jpg",
-    "https://m.media-amazon.com/images/I/31Qzmhe2PPL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71XRdPaCodL.jpg",
-    "https://m.media-amazon.com/images/I/41y46LmjqzL.jpg"
+    "https://m.media-amazon.com/images/I/71TiDoMhdfL.jpg",
+    "https://m.media-amazon.com/images/I/71GvIfGIr4L.jpg",
+    "https://m.media-amazon.com/images/I/61P+b11pPOL.jpg",
+    "https://m.media-amazon.com/images/I/71Ady+a8u5L.jpg"
    ],
    "bullets": [
     "Le gel douche Dove Hydratant nettoie en douceur pour une peau instantanément douce et lisse.",
@@ -448,11 +438,11 @@
      "T",
      "BP"
     ],
-    "dermatologiczny": [
-     "T",
+    "naturalny": [
      "BP"
     ],
-    "naturalny": [
+    "dermatologiczny": [
+     "T",
      "BP"
     ]
    },
@@ -469,13 +459,13 @@
    "img": "https://m.media-amazon.com/images/I/61t2I6YBQeL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61t2I6YBQeL.jpg",
-    "https://m.media-amazon.com/images/I/31qPRgfebjL.jpg",
-    "https://m.media-amazon.com/images/I/31qPRgfebjL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71-BI2Gl-fL.jpg",
-    "https://m.media-amazon.com/images/I/41+txHq5PQL.jpg",
-    "https://m.media-amazon.com/images/I/41+txHq5PQL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/91qNecilBzL.jpg",
-    "https://m.media-amazon.com/images/I/51+C2WBN4YL.jpg"
+    "https://m.media-amazon.com/images/I/914Nsqur3rL.jpg",
+    "https://m.media-amazon.com/images/I/71KOtxAWlwL.jpg",
+    "https://m.media-amazon.com/images/I/81lnFA1i-BL.jpg",
+    "https://m.media-amazon.com/images/I/81apqLyX-zL.jpg",
+    "https://m.media-amazon.com/images/I/71wZGdXV5QL.jpg"
    ],
    "bullets": [
     "HUILE DE DOUCHE PEAU SÈCHE OU A TENDANCE ATOPIQUE : Nettoie délicatement la peau sans la dessécher, relipide intensément et apaise immédiatement les sensations d’inconfort. Cette huile lavante transforme la douche en un soin nourrissant adapté aux peaux sèches ou à tendance atopique.",
@@ -496,14 +486,6 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "T",
-     "BP"
-    ],
     "bez_zapachu": [
      "T",
      "BP"
@@ -511,20 +493,28 @@
     "swiad": [
      "BP"
     ],
+    "cena_pojemnosc": [
+     "T"
+    ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
     ],
     "nawilzenie": [
      "BP"
     ],
-    "dermatologiczny": [
+    "bariera": [
+     "T",
      "BP"
     ],
-    "odzywczy": [
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -541,13 +531,13 @@
    "img": "https://m.media-amazon.com/images/I/61nu9ybSj2L.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61nu9ybSj2L.jpg",
-    "https://m.media-amazon.com/images/I/31LUsmK+edL.jpg",
-    "https://m.media-amazon.com/images/I/31LUsmK+edL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71Vy0cu8zfL.jpg",
-    "https://m.media-amazon.com/images/I/41eay+q6fOL.jpg",
-    "https://m.media-amazon.com/images/I/41eay+q6fOL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/818IzPJcynL.jpg",
-    "https://m.media-amazon.com/images/I/41QYv9b9TuL.jpg"
+    "https://m.media-amazon.com/images/I/91qNecilBzL.jpg",
+    "https://m.media-amazon.com/images/I/9119tBmFbmL.jpg",
+    "https://m.media-amazon.com/images/I/814MBXqCAQL.jpg",
+    "https://m.media-amazon.com/images/I/81HYyVR+XML.jpg",
+    "https://m.media-amazon.com/images/I/71lgiPSdWEL.jpg"
    ],
    "bullets": [
     "HUILE DE DOUCHE PEAU SÈCHE OU A TENDANCE ATOPIQUE : Nettoie délicatement la peau sans la dessécher, relipide intensément et apaise immédiatement les sensations d’inconfort. Cette huile lavante transforme la douche en un soin nourrissant adapté aux peaux sèches ou à tendance atopique.",
@@ -567,14 +557,6 @@
     "odzywczy"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "T",
-     "BP"
-    ],
     "bez_zapachu": [
      "T",
      "BP"
@@ -586,13 +568,21 @@
      "T",
      "BP"
     ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "dermatologiczny": [
+    "skora_atopowa": [
+     "T",
      "BP"
     ],
     "odzywczy": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "bariera": [
+     "T",
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -606,16 +596,15 @@
    "asin": "B0FJXTWD8H",
    "brand": "La Roche-Posay",
    "title": "La Roche-Posay | Lipikar Huile Lavante AP+ Huile de douche | Nettoie en douceur | Anti-irritations | Pour peaux normales, sèches & atopiques | Dès la naissance | 400ml + éco-recharge de 400ml",
-   "img": "https://m.media-amazon.com/images/I/41tP7Z3XBHL.jpg",
+   "img": "https://m.media-amazon.com/images/I/71+frT9j2XL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/41tP7Z3XBHL.jpg",
-    "https://m.media-amazon.com/images/I/41tP7Z3XBHL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71+frT9j2XL.jpg",
-    "https://m.media-amazon.com/images/I/416JNGWDSpL.jpg",
-    "https://m.media-amazon.com/images/I/416JNGWDSpL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71p4JdwDuqL.jpg",
-    "https://m.media-amazon.com/images/I/51gL2gwPUZL.jpg",
-    "https://m.media-amazon.com/images/I/51gL2gwPUZL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/81V10Y2dDSL.jpg",
+    "https://m.media-amazon.com/images/I/71ps1ecORTL.jpg",
+    "https://m.media-amazon.com/images/I/71U6XqLUQUL.jpg",
+    "https://m.media-amazon.com/images/I/71-t5ShsnsL.jpg",
+    "https://m.media-amazon.com/images/I/81DhNj+ILoL.jpg"
    ],
    "bullets": [
     "HUILE LAVANTE LIPIKAR AP+ AVEC ECO-RECHARGE 400ML | Huile de douche légèrement parfumée, spécialement formulée pour les peaux normales, sèches et à tendance atopique. Enrichie en beurre de karité, niacinamide et Aqua Posæ Filiformis, elle nourrit intensément, préserve l’équilibre du microbiome cutané et apaise les sensations de démangeaisons pour un confort durable. Livrée avec son éco-recharge produite avec 73 % de plastique en moins que le format classique, elle allie performance, praticité et engagement pour la planète.",
@@ -635,30 +624,30 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "dla_dzieci": [
-     "BP"
-    ],
     "swiad": [
      "BP"
     ],
     "naturalny": [
      "BP"
     ],
-    "kojacy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "dermatologiczny": [
+    "kojacy": [
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
      "BP"
     ],
     "odzywczy": [
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -675,11 +664,7 @@
    "img": "https://m.media-amazon.com/images/I/71NCI03jdgL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71NCI03jdgL.jpg",
-    "https://m.media-amazon.com/images/I/41ZistY3y7L.jpg",
-    "https://m.media-amazon.com/images/I/41ZistY3y7L._SL75_.jpg",
-    "https://m.media-amazon.com/images/I/612j1ihnuVL.jpg",
-    "https://m.media-amazon.com/images/I/41iNz8N3oIL.jpg",
-    "https://m.media-amazon.com/images/I/41iNz8N3oIL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/612j1ihnuVL.jpg"
    ],
    "bullets": [],
    "themes": [

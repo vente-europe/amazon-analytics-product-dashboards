@@ -10,13 +10,11 @@
    "img": "https://m.media-amazon.com/images/I/717YSirVXbL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/717YSirVXbL.jpg",
-    "https://m.media-amazon.com/images/I/41x02DGe8bL.jpg",
-    "https://m.media-amazon.com/images/I/41x02DGe8bL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/813oVYV2N-L.jpg",
-    "https://m.media-amazon.com/images/I/51od2Z6f+RL.jpg",
-    "https://m.media-amazon.com/images/I/51od2Z6f+RL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/7101nRbCakL.jpg",
-    "https://m.media-amazon.com/images/I/41CTd78qWRL.jpg"
+    "https://m.media-amazon.com/images/I/81MrzHWFmHL.jpg",
+    "https://m.media-amazon.com/images/I/81SLL0bBxoL.jpg",
+    "https://m.media-amazon.com/images/I/71zELoy-UEL.jpg"
    ],
    "bullets": [
     "❗️OLOR CARACTERÍSTICO ACEITE OLIVA OZONIZADO: Huele a Rancio debido a la oxidación con ozono y oxigeno de los ácidos grasos insaturados, de hay sus extraordinarios beneficios y resultados. OXIGENACIÓN NATURAL Sus propiedades antimicrobianas cicatrizantes promueve la regeneración celular efectiva para afecciones piel atópica psoriasis dermatitis atopica",
@@ -33,18 +31,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
     "naturalny": [
      "T",
      "BP"
     ],
-    "odzywczy": [
-     "T",
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "skora_atopowa": [
+     "BP"
+    ],
+    "odzywczy": [
+     "T",
      "BP"
     ],
     "nawilzenie": [
@@ -88,11 +86,9 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bez_dodatkow": [
+    "swiad": [
+     "T",
      "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
     ],
     "wchlanianie": [
      "BP"
@@ -100,25 +96,27 @@
     "naturalny": [
      "BP"
     ],
-    "kojacy": [
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "odzywczy": [
+    "cena_pojemnosc": [
      "T"
     ],
-    "swiad": [
-     "T",
+    "kojacy": [
      "BP"
     ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
+    "odzywczy": [
+     "T"
+    ],
     "nawilzenie": [
      "T",
+     "BP"
+    ],
+    "bez_dodatkow": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ]
    },
@@ -135,13 +133,13 @@
    "img": "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
-    "https://m.media-amazon.com/images/I/314We34iTNL.jpg",
-    "https://m.media-amazon.com/images/I/314We34iTNL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
-    "https://m.media-amazon.com/images/I/51F0bHXY+mL.jpg",
-    "https://m.media-amazon.com/images/I/51F0bHXY+mL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
-    "https://m.media-amazon.com/images/I/416ZF1Sl15L.jpg"
+    "https://m.media-amazon.com/images/I/71Mvn08yp8L.jpg",
+    "https://m.media-amazon.com/images/I/71k4r4P0fXL.jpg",
+    "https://m.media-amazon.com/images/I/71lpjRsgAGL.jpg",
+    "https://m.media-amazon.com/images/I/81l1mfbPj+L.jpg",
+    "https://m.media-amazon.com/images/I/611psootG5L.jpg"
    ],
    "bullets": [
     "Mima tu piel durante el embarazo con nuestro aceite de almendras dulces, especialmente formulado para hidratar la piel, ayudando a reducir y prevenir la apariencia de las estrias del embarazo. Perfecto para hidratar la piel después de la ducha. Brinda el mismo cuidado delicado a la piel sensible de tu bebé.",
@@ -164,6 +162,9 @@
     "skora_atopowa": [
      "T"
     ],
+    "nawilzenie": [
+     "T"
+    ],
     "dla_dzieci": [
      "T",
      "BP"
@@ -171,9 +172,6 @@
     "naturalny": [
      "T",
      "BP"
-    ],
-    "nawilzenie": [
-     "T"
     ]
    },
    "price": 16.5,
@@ -189,13 +187,13 @@
    "img": "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
-    "https://m.media-amazon.com/images/I/4136EcoEF0L.jpg",
-    "https://m.media-amazon.com/images/I/4136EcoEF0L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
-    "https://m.media-amazon.com/images/I/51F0bHXY+mL.jpg",
-    "https://m.media-amazon.com/images/I/51F0bHXY+mL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
-    "https://m.media-amazon.com/images/I/416ZF1Sl15L.jpg"
+    "https://m.media-amazon.com/images/I/81l1mfbPj+L.jpg",
+    "https://m.media-amazon.com/images/I/71k4r4P0fXL.jpg",
+    "https://m.media-amazon.com/images/I/71Mvn08yp8L.jpg",
+    "https://m.media-amazon.com/images/I/71lpjRsgAGL.jpg",
+    "https://m.media-amazon.com/images/I/91K-hcDzzDL.jpg"
    ],
    "bullets": [
     "Mima tu piel durante el embarazo con nuestro aceite de almendras dulces, especialmente formulado para hidratar la piel, ayudando a reducir y prevenir la apariencia de las estrias del embarazo. Perfecto para hidratar la piel después de la ducha. Brinda el mismo cuidado delicado a la piel sensible de tu bebé.",
@@ -218,6 +216,9 @@
     "skora_atopowa": [
      "T"
     ],
+    "nawilzenie": [
+     "T"
+    ],
     "dla_dzieci": [
      "T",
      "BP"
@@ -225,9 +226,6 @@
     "naturalny": [
      "T",
      "BP"
-    ],
-    "nawilzenie": [
-     "T"
     ]
    },
    "price": 48.88,
@@ -243,13 +241,13 @@
    "img": "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
-    "https://m.media-amazon.com/images/I/311ZfpK1KTL.jpg",
-    "https://m.media-amazon.com/images/I/311ZfpK1KTL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61Y4CzrF2EL.jpg",
-    "https://m.media-amazon.com/images/I/41347Z8nQPL.jpg",
-    "https://m.media-amazon.com/images/I/41347Z8nQPL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71HTsginguL.jpg",
-    "https://m.media-amazon.com/images/I/51QifDoYOmL.jpg"
+    "https://m.media-amazon.com/images/I/71xkPk6O+OL.jpg",
+    "https://m.media-amazon.com/images/I/71+4BL+u0QL.jpg",
+    "https://m.media-amazon.com/images/I/71A-qeMC3ML.jpg",
+    "https://m.media-amazon.com/images/I/91K-hcDzzDL.jpg",
+    "https://m.media-amazon.com/images/I/61NcG52kXHL.jpg"
    ],
    "bullets": [
     "Mima tu piel durante el embarazo con nuestro aceite de almendras dulces, especialmente formulado para hidratar la piel, ayudando a reducir y prevenir la apariencia de las estrias del embarazo. Perfecto para hidratar la piel después de la ducha. Brinda el mismo cuidado delicado a la piel sensible de tu bebé.",
@@ -272,6 +270,9 @@
     "skora_atopowa": [
      "T"
     ],
+    "nawilzenie": [
+     "T"
+    ],
     "dla_dzieci": [
      "T",
      "BP"
@@ -279,9 +280,6 @@
     "naturalny": [
      "T",
      "BP"
-    ],
-    "nawilzenie": [
-     "T"
     ]
    },
    "price": 13.34,
@@ -297,13 +295,11 @@
    "img": "https://m.media-amazon.com/images/I/71iDtSK7TkL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71iDtSK7TkL.jpg",
-    "https://m.media-amazon.com/images/I/414rYKicPyL.jpg",
-    "https://m.media-amazon.com/images/I/414rYKicPyL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81Fz2A+ITmL.jpg",
-    "https://m.media-amazon.com/images/I/41WysJBtiIL.jpg",
-    "https://m.media-amazon.com/images/I/41WysJBtiIL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71uwTVwEsOS.jpg",
-    "https://m.media-amazon.com/images/I/41fGN938LCS.jpg"
+    "https://m.media-amazon.com/images/I/71R+d1u7HHS.jpg",
+    "https://m.media-amazon.com/images/I/51YVLfwrl8S.jpg",
+    "https://m.media-amazon.com/images/I/81tLlYFfPwS.jpg"
    ],
    "bullets": [
     "Le informazioni seguenti si applicano a ciascuna unità della confezione",
@@ -318,12 +314,12 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
     "skora_atopowa": [
      "T",
      "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
     ]
    },
    "price": 9.5,

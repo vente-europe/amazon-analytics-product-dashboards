@@ -81,6 +81,45 @@ def load_listing(code, asin):
 def img_url(im):
     return im.get('url') if isinstance(im, dict) else im
 
+
+def distinct_images(images):
+    """One URL per Amazon image VARIANT (MAIN, PT01, PT02, ...), largest size.
+
+    SP-API lists the SAME photo several times by size (2000 / 500 / 75 px), and
+    each size gets a DIFFERENT image id (…/I/<id>.jpg) — so URL/id de-dup can't
+    collapse them and every picture renders 2-3x. The stable per-photo key is the
+    `variant` field. Group by variant, keep the biggest (area) URL per variant,
+    return MAIN first then PT01, PT02, ... — i.e. the actual gallery, once each.
+    """
+    groups, order, fallback = {}, [], []
+    for im in images or []:
+        if not isinstance(im, dict):
+            u = img_url(im)
+            if u:
+                fallback.append(u)
+            continue
+        u = im.get('url')
+        if not u:
+            continue
+        var = im.get('variant')
+        if not var:
+            fallback.append(u)
+            continue
+        area = (im.get('width') or 0) * (im.get('height') or 0)
+        if var not in groups:
+            groups[var] = (area, u)
+            order.append(var)
+        elif area > groups[var][0]:
+            groups[var] = (area, u)
+    ordered_vars = sorted(order, key=lambda v: (0,) if v == 'MAIN' else (1, v))
+    urls = [groups[v][1] for v in ordered_vars]
+    seen = set(urls)
+    for u in fallback:  # keep any variant-less extras, de-duped by exact URL
+        if u not in seen:
+            urls.append(u)
+            seen.add(u)
+    return urls
+
 def claims_in(text):
     """set of theme ids whose local-language keywords appear in `text`."""
     t = (text or '').lower()
@@ -107,12 +146,8 @@ def build(code, seg):
         bullets = [b for b in (lst.get('bullet_points') or []) if b]
         desc = lst.get('description') or ''
         title = lst.get('title') or ''
-        imgs = [img_url(im) for im in (lst.get('images') or []) if img_url(im)]
-        main = None
-        for im in (lst.get('images') or []):
-            if isinstance(im, dict) and im.get('variant') == 'MAIN':
-                main = im.get('url'); break
-        if not main and imgs: main = imgs[0]
+        imgs = distinct_images(lst.get('images'))   # one URL per variant, largest size
+        main = imgs[0] if imgs else None             # MAIN variant is first
         t_claims = claims_in(title)
         b_claims = claims_in(' '.join(bullets))
         allc = t_claims | b_claims
@@ -218,9 +253,12 @@ def build(code, seg):
     print(f'  {code}/{seg}: mdd-{slug}.json ({n} comp, {len(themes_out)} claims, {len(voc_gap)} VOC-gap, {len(whitespace)} whitespace)')
 
 def all_buckets():
+    # Gate on LOCAL reviews (they were moved here from atopic-skin-topline); build a
+    # bucket if it has either a local review set OR a local voc.json.
     for code in ['DE','FR','IT','ES']:
         for seg in ['Check','Cream','Oil','Wash']:
-            if glob.glob(os.path.join(SRC, 'reviews', code, seg, '*.json')):
+            d = os.path.join(BASE, 'reviews', code, seg)
+            if glob.glob(os.path.join(d, '*.json')) or os.path.exists(os.path.join(d, 'voc.json')):
                 build(code, seg)
 
 if __name__ == '__main__':

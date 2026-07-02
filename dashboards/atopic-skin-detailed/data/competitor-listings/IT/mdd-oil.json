@@ -10,13 +10,13 @@
    "img": "https://m.media-amazon.com/images/I/51jRO6rmTWL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51jRO6rmTWL.jpg",
-    "https://m.media-amazon.com/images/I/31J9uDO9qTL.jpg",
-    "https://m.media-amazon.com/images/I/31J9uDO9qTL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71hai-pcD4L.jpg",
-    "https://m.media-amazon.com/images/I/41QFP9I4+IL.jpg",
-    "https://m.media-amazon.com/images/I/41QFP9I4+IL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61ZmRWA+bXL.jpg",
-    "https://m.media-amazon.com/images/I/31MlLKOsaZL.jpg"
+    "https://m.media-amazon.com/images/I/61oBTE+-ckL.jpg",
+    "https://m.media-amazon.com/images/I/61LFYQYOscL.jpg",
+    "https://m.media-amazon.com/images/I/61M-m7uABzL.jpg",
+    "https://m.media-amazon.com/images/I/61nvSCVzr5L.jpg",
+    "https://m.media-amazon.com/images/I/71HRMH9P8BL.jpg"
    ],
    "bullets": [
     "✅ A COSA SERVE: Calmilene Olio Secco Spray ad azione nutriente, liporestitutiva, elasticizzante è indicato per l'idratazione quotidiana della pelle secca, molto secca, sensibile, arrossata con tendenza ad irritazioni, atopia, dermatiti, e psoriasi. La sua formula di olio viso e corpo multi-azione a idratazione intensa. Contribuisce a rendere la pelle idratata e più elastica.",
@@ -35,26 +35,26 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "kojacy": [
-     "T",
+    "wchlanianie": [
      "BP"
     ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "odzywczy": [
+    "naturalny": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
     ],
-    "wchlanianie": [
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "nawilzenie": [
      "BP"
     ],
     "dermatologiczny": [
-     "BP"
-    ],
-    "naturalny": [
      "BP"
     ]
    },
@@ -71,13 +71,13 @@
    "img": "https://m.media-amazon.com/images/I/619P04wokmL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/619P04wokmL.jpg",
-    "https://m.media-amazon.com/images/I/314ZusleKHL.jpg",
-    "https://m.media-amazon.com/images/I/314ZusleKHL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71Ya9gPjfpL.jpg",
-    "https://m.media-amazon.com/images/I/41v9I+Wh3GL.jpg",
-    "https://m.media-amazon.com/images/I/41v9I+Wh3GL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71GzK7rSGxL.jpg",
-    "https://m.media-amazon.com/images/I/51QH3qO9WOL.jpg"
+    "https://m.media-amazon.com/images/I/71eVEOCmSXL.jpg",
+    "https://m.media-amazon.com/images/I/71gT7MLNThL.jpg",
+    "https://m.media-amazon.com/images/I/71Tuhwszu3L.jpg",
+    "https://m.media-amazon.com/images/I/71FHyEI3B-L.jpg",
+    "https://m.media-amazon.com/images/I/81n+VwhU2jL.jpg"
    ],
    "bullets": [
     "Olio idratante corpo – Quest'olio corpo, dermatologicamente testato, nutre intensamente la pelle molto secca e sensibile, rendendola più liscia e uniforme in una sola settimana",
@@ -95,10 +95,7 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "hipoalergiczny": [
-     "BP"
-    ],
-    "nawilzenie": [
+    "naturalny": [
      "T",
      "BP"
     ],
@@ -106,14 +103,17 @@
      "T",
      "BP"
     ],
-    "dermatologiczny": [
+    "hipoalergiczny": [
+     "BP"
+    ],
+    "nawilzenie": [
      "T",
      "BP"
     ],
     "bariera": [
      "BP"
     ],
-    "naturalny": [
+    "dermatologiczny": [
      "T",
      "BP"
     ]
@@ -131,13 +131,13 @@
    "img": "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
-    "https://m.media-amazon.com/images/I/4136EcoEF0L.jpg",
-    "https://m.media-amazon.com/images/I/4136EcoEF0L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
-    "https://m.media-amazon.com/images/I/51F0bHXY+mL.jpg",
-    "https://m.media-amazon.com/images/I/51F0bHXY+mL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
-    "https://m.media-amazon.com/images/I/416ZF1Sl15L.jpg"
+    "https://m.media-amazon.com/images/I/81l1mfbPj+L.jpg",
+    "https://m.media-amazon.com/images/I/71k4r4P0fXL.jpg",
+    "https://m.media-amazon.com/images/I/71Mvn08yp8L.jpg",
+    "https://m.media-amazon.com/images/I/71lpjRsgAGL.jpg",
+    "https://m.media-amazon.com/images/I/91K-hcDzzDL.jpg"
    ],
    "bullets": [
     "Coccola la tua pelle durante la gravidanza con il nostro olio di mandorle dolci, appositamente formulato per idratare la pelle e aiutare a ridurre e prevenire la comparsa delle smagliature tipiche della gravidanza. Perfetto per idratare la pelle dopo la doccia. Offre la stessa cura delicata alla pelle sensibile del tuo bambino.",
@@ -160,16 +160,16 @@
     "skora_atopowa": [
      "T"
     ],
-    "naturalny": [
-     "T",
-     "BP"
+    "nawilzenie": [
+     "T"
     ],
     "dla_dzieci": [
      "T",
      "BP"
     ],
-    "nawilzenie": [
-     "T"
+    "naturalny": [
+     "T",
+     "BP"
     ]
    },
    "price": 52.42,
@@ -185,13 +185,13 @@
    "img": "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
-    "https://m.media-amazon.com/images/I/314We34iTNL.jpg",
-    "https://m.media-amazon.com/images/I/314We34iTNL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
-    "https://m.media-amazon.com/images/I/51F0bHXY+mL.jpg",
-    "https://m.media-amazon.com/images/I/51F0bHXY+mL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
-    "https://m.media-amazon.com/images/I/416ZF1Sl15L.jpg"
+    "https://m.media-amazon.com/images/I/71Mvn08yp8L.jpg",
+    "https://m.media-amazon.com/images/I/71k4r4P0fXL.jpg",
+    "https://m.media-amazon.com/images/I/71lpjRsgAGL.jpg",
+    "https://m.media-amazon.com/images/I/81l1mfbPj+L.jpg",
+    "https://m.media-amazon.com/images/I/611psootG5L.jpg"
    ],
    "bullets": [
     "Coccola la tua pelle durante la gravidanza con il nostro olio di mandorle dolci, appositamente formulato per idratare la pelle e aiutare a ridurre e prevenire la comparsa delle smagliature tipiche della gravidanza. Perfetto per idratare la pelle dopo la doccia. Offre la stessa cura delicata alla pelle sensibile del tuo bambino.",
@@ -214,16 +214,16 @@
     "skora_atopowa": [
      "T"
     ],
-    "naturalny": [
-     "T",
-     "BP"
+    "nawilzenie": [
+     "T"
     ],
     "dla_dzieci": [
      "T",
      "BP"
     ],
-    "nawilzenie": [
-     "T"
+    "naturalny": [
+     "T",
+     "BP"
     ]
    },
    "price": 16.46,
@@ -239,13 +239,13 @@
    "img": "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
-    "https://m.media-amazon.com/images/I/311ZfpK1KTL.jpg",
-    "https://m.media-amazon.com/images/I/311ZfpK1KTL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61Y4CzrF2EL.jpg",
-    "https://m.media-amazon.com/images/I/41347Z8nQPL.jpg",
-    "https://m.media-amazon.com/images/I/41347Z8nQPL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71HTsginguL.jpg",
-    "https://m.media-amazon.com/images/I/51QifDoYOmL.jpg"
+    "https://m.media-amazon.com/images/I/71xkPk6O+OL.jpg",
+    "https://m.media-amazon.com/images/I/71+4BL+u0QL.jpg",
+    "https://m.media-amazon.com/images/I/71A-qeMC3ML.jpg",
+    "https://m.media-amazon.com/images/I/91K-hcDzzDL.jpg",
+    "https://m.media-amazon.com/images/I/61NcG52kXHL.jpg"
    ],
    "bullets": [
     "Coccola la tua pelle durante la gravidanza con il nostro olio di mandorle dolci, appositamente formulato per idratare la pelle e aiutare a ridurre e prevenire la comparsa delle smagliature tipiche della gravidanza. Perfetto per idratare la pelle dopo la doccia. Offre la stessa cura delicata alla pelle sensibile del tuo bambino.",
@@ -268,16 +268,16 @@
     "skora_atopowa": [
      "T"
     ],
-    "naturalny": [
-     "T",
-     "BP"
+    "nawilzenie": [
+     "T"
     ],
     "dla_dzieci": [
      "T",
      "BP"
     ],
-    "nawilzenie": [
-     "T"
+    "naturalny": [
+     "T",
+     "BP"
     ]
    },
    "price": 19.89,

@@ -10,13 +10,12 @@
    "img": "https://m.media-amazon.com/images/I/61Nxo8mqIBL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61Nxo8mqIBL.jpg",
-    "https://m.media-amazon.com/images/I/417+zfhRXYL.jpg",
-    "https://m.media-amazon.com/images/I/417+zfhRXYL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61odWmzrvBL.jpg",
-    "https://m.media-amazon.com/images/I/41CsEcUSQzL.jpg",
-    "https://m.media-amazon.com/images/I/41CsEcUSQzL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71l-jsfE8JL.jpg",
-    "https://m.media-amazon.com/images/I/518gy8esljL.jpg"
+    "https://m.media-amazon.com/images/I/71Crj0YHiqL.jpg",
+    "https://m.media-amazon.com/images/I/61xy-ioTjXL.jpg",
+    "https://m.media-amazon.com/images/I/613hTitt5GL.jpg",
+    "https://m.media-amazon.com/images/I/61LV0WuSw3L.jpg"
    ],
    "bullets": [
     "Fórmula Noruega: La loción corporal CICA de Neutrogena contiene un 10% de glicerina y Centella Asiática, un potente antioxidante conocido por sus propiedades reparadoras",
@@ -56,13 +55,12 @@
    "img": "https://m.media-amazon.com/images/I/61J5r5t+SfL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61J5r5t+SfL.jpg",
-    "https://m.media-amazon.com/images/I/312aKoUUajL.jpg",
-    "https://m.media-amazon.com/images/I/312aKoUUajL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71zpokcF0sL.jpg",
-    "https://m.media-amazon.com/images/I/41v5nxZaCBL.jpg",
-    "https://m.media-amazon.com/images/I/41v5nxZaCBL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71sMmwWUcXL.jpg",
-    "https://m.media-amazon.com/images/I/41LUgBmlgxL.jpg"
+    "https://m.media-amazon.com/images/I/71pIpTuadPL.jpg",
+    "https://m.media-amazon.com/images/I/81lWtJuObeL.jpg",
+    "https://m.media-amazon.com/images/I/71BvT68NBVL.jpg",
+    "https://m.media-amazon.com/images/I/71F358qqYIL.jpg"
    ],
    "bullets": [
     "CREMA PIELES ATÓPICAS: Bepanthol SensiControl Crema Emoliente cuida a diario de tu piel sensible y con tendencia atópica manteniéndola libre de brotes durante al menos 3 meses",
@@ -81,27 +79,27 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
-     "BP"
-    ],
     "naturalny": [
-     "BP"
-    ],
-    "dla_dzieci": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
     ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
     "bariera": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -118,13 +116,13 @@
    "img": "https://m.media-amazon.com/images/I/61auJKXDwQL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61auJKXDwQL.jpg",
-    "https://m.media-amazon.com/images/I/31zsbtsBA+L.jpg",
-    "https://m.media-amazon.com/images/I/31zsbtsBA+L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61jj2wp7gKL.jpg",
-    "https://m.media-amazon.com/images/I/31uw0LJ4F4L.jpg",
-    "https://m.media-amazon.com/images/I/31uw0LJ4F4L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/615UQzNnJAL.jpg",
-    "https://m.media-amazon.com/images/I/31MiAJH99gL.jpg"
+    "https://m.media-amazon.com/images/I/61RU4qPf1tL.jpg",
+    "https://m.media-amazon.com/images/I/61KF9LFcDJL.jpg",
+    "https://m.media-amazon.com/images/I/71bRInBvgIL.jpg",
+    "https://m.media-amazon.com/images/I/61-2FJnwTvL.jpg",
+    "https://m.media-amazon.com/images/I/61G4xZ-V+tL.jpg"
    ],
    "bullets": [
     "CREMA HIDRATANTE: Talquistina Hidratante de uso diario especialmente desarrollada para el cuidado diario de las pieles con picor ya que proporciona un cuidado y una hidratación de larga duración. Hidrata y calma el picor en la piel",
@@ -143,15 +141,15 @@
     "cena_pojemnosc": [
      "T"
     ],
-    "swiad": [
-     "T",
-     "BP"
-    ],
     "kojacy": [
      "T",
      "BP"
     ],
     "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
      "T",
      "BP"
     ]
@@ -169,13 +167,13 @@
    "img": "https://m.media-amazon.com/images/I/51KFDzNEIyL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/51KFDzNEIyL.jpg",
-    "https://m.media-amazon.com/images/I/31Q0EAW3MNL.jpg",
-    "https://m.media-amazon.com/images/I/31Q0EAW3MNL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61cTA81QhuL.jpg",
-    "https://m.media-amazon.com/images/I/31hHZmNSSGL.jpg",
-    "https://m.media-amazon.com/images/I/31hHZmNSSGL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71V6cXo4IXL.jpg",
-    "https://m.media-amazon.com/images/I/51osReowiXL.jpg"
+    "https://m.media-amazon.com/images/I/710rFqVMleL.jpg",
+    "https://m.media-amazon.com/images/I/71k0kDlgBqL.jpg",
+    "https://m.media-amazon.com/images/I/71aK+7dlXfL.jpg",
+    "https://m.media-amazon.com/images/I/71rg7Mj8GqL.jpg",
+    "https://m.media-amazon.com/images/I/81406GpQfHL.jpg"
    ],
    "bullets": [
     "Crema reparadora intensiva para las pieles secas, agrietadas y dañadas. Perfecta para cara y cuerpo, proporciona hidratación, calma y protege la piel de agresiones externas y el desecamiento cutáneo",
@@ -196,19 +194,19 @@
     "cena_pojemnosc": [
      "T"
     ],
-    "wchlanianie": [
+    "kojacy": [
      "BP"
     ],
-    "dermatologiczny": [
+    "odzywczy": [
+     "BP"
+    ],
+    "wchlanianie": [
      "BP"
     ],
     "naturalny": [
      "BP"
     ],
-    "kojacy": [
-     "BP"
-    ],
-    "odzywczy": [
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -225,13 +223,13 @@
    "img": "https://m.media-amazon.com/images/I/71h2z6fN5NL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71h2z6fN5NL.jpg",
-    "https://m.media-amazon.com/images/I/41sMmAlqkiL.jpg",
-    "https://m.media-amazon.com/images/I/41sMmAlqkiL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61r5v1Hud6L.jpg",
-    "https://m.media-amazon.com/images/I/61r5v1Hud6L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71Yi20mXMcL.jpg",
-    "https://m.media-amazon.com/images/I/51SG89upMQL.jpg",
-    "https://m.media-amazon.com/images/I/51SG89upMQL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/71gA7YsnB2L.jpg",
+    "https://m.media-amazon.com/images/I/71kn0jyphkL.jpg",
+    "https://m.media-amazon.com/images/I/71pb4VFNAzL.jpg",
+    "https://m.media-amazon.com/images/I/71XDHBDJ6PL.jpg",
+    "https://m.media-amazon.com/images/I/61acwvYjUaL.jpg"
    ],
    "bullets": [
     "Crema Antimicótica: Actúa sobre las causas fundamentales del pie de atleta, la tiña inguinal y la tiña con potentes agentes antimicóticos. Penetra profundamente en las capas de la piel para detener el crecimiento de hongos y prevenir su reaparición.",
@@ -247,19 +245,19 @@
     "wchlanianie"
    ],
    "themeSrc": {
-    "wchlanianie": [
-     "BP"
-    ],
-    "swiad": [
-     "T",
-     "BP"
-    ],
     "kojacy": [
      "T",
      "BP"
     ],
     "skora_atopowa": [
      "T"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "swiad": [
+     "T",
+     "BP"
     ]
    },
    "price": 11.99,
@@ -275,13 +273,12 @@
    "img": "https://m.media-amazon.com/images/I/71YWNssUnzL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71YWNssUnzL.jpg",
-    "https://m.media-amazon.com/images/I/31NkmyYgqhL.jpg",
-    "https://m.media-amazon.com/images/I/31NkmyYgqhL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71NXRNsf-yL.jpg",
-    "https://m.media-amazon.com/images/I/41XU-YdR03L.jpg",
-    "https://m.media-amazon.com/images/I/41XU-YdR03L._SL75_.jpg",
     "https://m.media-amazon.com/images/I/716hu0GqdsL.jpg",
-    "https://m.media-amazon.com/images/I/41V1bf4preL.jpg"
+    "https://m.media-amazon.com/images/I/71yxTM+XiiL.jpg",
+    "https://m.media-amazon.com/images/I/61+VXSCRYZL.jpg",
+    "https://m.media-amazon.com/images/I/71pXjpn3jEL.jpg",
+    "https://m.media-amazon.com/images/I/61lf6dJAsaL.jpg"
    ],
    "bullets": [
     "Bepanthol Pomada Protectora es una crema protectora que protege diferentes afecciones cutáneas, regenera la piel, proporciona una elevada hidratación y actúa de barrera extra en zonas específicas",
@@ -297,9 +294,6 @@
     "odzywczy"
    ],
    "themeSrc": {
-    "naturalny": [
-     "BP"
-    ],
     "odzywczy": [
      "T",
      "BP"
@@ -308,6 +302,9 @@
      "T"
     ],
     "bariera": [
+     "BP"
+    ],
+    "naturalny": [
      "BP"
     ]
    },
@@ -321,10 +318,8 @@
    "asin": "B0098G931Y",
    "brand": "Hengulus",
    "title": "Crema Dexeryl, 500 g",
-   "img": "https://m.media-amazon.com/images/I/31IQMVmEjlL.jpg",
+   "img": "https://m.media-amazon.com/images/I/61L+5+7R4ML.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/31IQMVmEjlL.jpg",
-    "https://m.media-amazon.com/images/I/31IQMVmEjlL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61L+5+7R4ML.jpg"
    ],
    "bullets": [
@@ -346,9 +341,7 @@
    "title": "CeraVe Creme Hidratante Intensivo Para Pele Seca a Muito Seca 340 ml",
    "img": "https://m.media-amazon.com/images/I/516g-JSN04L.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/516g-JSN04L.jpg",
-    "https://m.media-amazon.com/images/I/31wFcGHB-rL.jpg",
-    "https://m.media-amazon.com/images/I/31wFcGHB-rL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/516g-JSN04L.jpg"
    ],
    "bullets": [
     "Crema hidratante rica con un 5 % de Hydro-Urea para una hidratación intensiva y continua de la barrera cutánea.",
@@ -367,16 +360,13 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
-     "BP"
-    ],
-    "naturalny": [
+    "bez_zapachu": [
      "BP"
     ],
     "wchlanianie": [
      "BP"
     ],
-    "bez_zapachu": [
+    "naturalny": [
      "BP"
     ],
     "cena_pojemnosc": [
@@ -387,6 +377,9 @@
      "BP"
     ],
     "bariera": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -403,13 +396,12 @@
    "img": "https://m.media-amazon.com/images/I/71sbJifqclL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/71sbJifqclL.jpg",
-    "https://m.media-amazon.com/images/I/41zZkTufcFL.jpg",
-    "https://m.media-amazon.com/images/I/41zZkTufcFL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/719DmglIErL.jpg",
-    "https://m.media-amazon.com/images/I/41DSS195vML.jpg",
-    "https://m.media-amazon.com/images/I/41DSS195vML._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81EIzFzxGIL.jpg",
-    "https://m.media-amazon.com/images/I/51DFSmgEBPL.jpg"
+    "https://m.media-amazon.com/images/I/71pk5pHfksL.jpg",
+    "https://m.media-amazon.com/images/I/81hwcA3nafL.jpg",
+    "https://m.media-amazon.com/images/I/81nIHokHhbL.jpg",
+    "https://m.media-amazon.com/images/I/71ZnOd+KUfL.jpg"
    ],
    "bullets": [
     "Crema hidratante facial reparadora de día formulada para pieles muy secas y sensibles",
@@ -426,12 +418,6 @@
     "odzywczy"
    ],
    "themeSrc": {
-    "dermatologiczny": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ],
     "odzywczy": [
      "BP"
     ],
@@ -440,6 +426,12 @@
      "BP"
     ],
     "bariera": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -456,13 +448,13 @@
    "img": "https://m.media-amazon.com/images/I/31rizWCPpPL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/31rizWCPpPL.jpg",
-    "https://m.media-amazon.com/images/I/31rizWCPpPL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61+-A1vbxnL.jpg",
-    "https://m.media-amazon.com/images/I/41igLhLN7OL.jpg",
-    "https://m.media-amazon.com/images/I/41igLhLN7OL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/61rfK5wZUeL.jpg",
-    "https://m.media-amazon.com/images/I/31xC9dsKXlL.jpg",
-    "https://m.media-amazon.com/images/I/31xC9dsKXlL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/51TGmqflRyL.jpg",
+    "https://m.media-amazon.com/images/I/51F4eISOO-L.jpg",
+    "https://m.media-amazon.com/images/I/51xYycRf2pL.jpg",
+    "https://m.media-amazon.com/images/I/61hepgBzryL.jpg",
+    "https://m.media-amazon.com/images/I/51VBywawNRL.jpg"
    ],
    "bullets": [
     "Agentes reparadores de la barrera cutánea: Manteca de karité, aceite de almendras y aceite de jojoba. Agentes calmantes: Extracto de avena, caléndula y aloe vera. Prebióticos: Reequilibran la microbiota."
@@ -476,23 +468,23 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "naturalny": [
-     "T",
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T"
     ],
     "kojacy": [
      "BP"
     ],
-    "nawilzenie": [
-     "T"
-    ],
     "skora_atopowa": [
      "T"
     ],
+    "nawilzenie": [
+     "T"
+    ],
     "bariera": [
+     "BP"
+    ],
+    "naturalny": [
+     "T",
      "BP"
     ]
    },
@@ -509,13 +501,11 @@
    "img": "https://m.media-amazon.com/images/I/61ERqQaqZGL.jpg",
    "imgs": [
     "https://m.media-amazon.com/images/I/61ERqQaqZGL.jpg",
-    "https://m.media-amazon.com/images/I/31TKtxZ2QnL.jpg",
-    "https://m.media-amazon.com/images/I/31TKtxZ2QnL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81pXTqXftCL.jpg",
-    "https://m.media-amazon.com/images/I/51SfUgogfaL.jpg",
-    "https://m.media-amazon.com/images/I/51SfUgogfaL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/81ucO0kbzZL.jpg",
-    "https://m.media-amazon.com/images/I/51KPS8folVL.jpg"
+    "https://m.media-amazon.com/images/I/81fqvMIoYnL.jpg",
+    "https://m.media-amazon.com/images/I/81Q8yGNU6VL.jpg",
+    "https://m.media-amazon.com/images/I/71y5bBzV9zL.jpg"
    ],
    "bullets": [
     "CREMA CORPORAL HIDRATANTE: Hidratación inmediata y duradera, hasta 48 horas. Protege frente a la sequedad recurrente, para toda la familia.",
@@ -535,23 +525,20 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
+    "bez_zapachu": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
      "BP"
     ],
     "naturalny": [
      "BP"
     ],
-    "kojacy": [
-     "BP"
-    ],
-    "bez_zapachu": [
-     "T",
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T"
     ],
-    "swiad": [
+    "kojacy": [
      "BP"
     ],
     "odzywczy": [
@@ -559,6 +546,9 @@
     ],
     "nawilzenie": [
      "T",
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ]
    },
@@ -572,16 +562,15 @@
    "asin": "B00E0LU2ZS",
    "brand": "BEPANTHOL",
    "title": "Bepanthol Pomada Protectora Hidratante, Protege y Regenera la Piel Seca, Irritada o Sensibilizada por Factores Externos, 30 g",
-   "img": "https://m.media-amazon.com/images/I/31mXoIW0krL.jpg",
+   "img": "https://m.media-amazon.com/images/I/71ovA7gsvyL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/31mXoIW0krL.jpg",
-    "https://m.media-amazon.com/images/I/31mXoIW0krL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71ovA7gsvyL.jpg",
-    "https://m.media-amazon.com/images/I/41xs1E05ZVL.jpg",
-    "https://m.media-amazon.com/images/I/41xs1E05ZVL._SL75_.jpg",
     "https://m.media-amazon.com/images/I/71lod372gwL.jpg",
-    "https://m.media-amazon.com/images/I/41LA7k25HsL.jpg",
-    "https://m.media-amazon.com/images/I/41LA7k25HsL._SL75_.jpg"
+    "https://m.media-amazon.com/images/I/719TDw1DJCL.jpg",
+    "https://m.media-amazon.com/images/I/71yxTM+XiiL.jpg",
+    "https://m.media-amazon.com/images/I/61+VXSCRYZL.jpg",
+    "https://m.media-amazon.com/images/I/71pXjpn3jEL.jpg",
+    "https://m.media-amazon.com/images/I/61lf6dJAsaL.jpg"
    ],
    "bullets": [
     "Bepanthol Pomada Protectora es una crema protectora que protege diferentes afecciones cutáneas, regenera la piel, proporciona una elevada hidratación y actúa de barrera extra en zonas específicas",
@@ -597,9 +586,6 @@
     "odzywczy"
    ],
    "themeSrc": {
-    "naturalny": [
-     "BP"
-    ],
     "odzywczy": [
      "T",
      "BP"
@@ -608,6 +594,9 @@
      "T"
     ],
     "bariera": [
+     "BP"
+    ],
+    "naturalny": [
      "BP"
     ]
    },
