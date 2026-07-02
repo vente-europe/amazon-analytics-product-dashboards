@@ -262,7 +262,11 @@
     // For dashboards rendered as a self-contained HTML file, load it in an iframe
     // and skip the templates/data pipeline entirely.
     if (entry.template === 'standalone') {
-      var src = 'dashboards/' + entry.id + '/' + (entry.file || 'index.html');
+      // Cache-buster: append a token computed ONCE per hub page-load. Each fresh
+      // load of the hub fetches the latest deployed dashboard (no stale iframe after
+      // a redeploy), while switching between dashboards within a session stays cached.
+      if (!window.__HUB_V__) window.__HUB_V__ = String(Date.now());
+      var src = 'dashboards/' + entry.id + '/' + (entry.file || 'index.html') + '?v=' + window.__HUB_V__;
       container.innerHTML = '<iframe src="' + src + '" style="width:100%;height:calc(100vh - 0px);border:0;display:block"></iframe>';
       document.getElementById('sidebar').classList.remove('open');
       return;
