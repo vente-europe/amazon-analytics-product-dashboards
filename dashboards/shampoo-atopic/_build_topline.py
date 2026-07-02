@@ -30,7 +30,8 @@ MARKETS = [
     {'code': 'IT', 'name': 'Italy',           'flag': '🇮🇹', 'color': '#7c3aed', 'cur': '€'},
     {'code': 'ES', 'name': 'Spain',           'flag': '🇪🇸', 'color': '#d97706', 'cur': '€'},
 ]
-XRAY_LINKS = {'DE': '#', 'UK': '#', 'FR': '#', 'IT': '#', 'ES': '#'}
+# Single master Google Sheet holding all 5 markets (Marketplace column) — team edits/reassigns segments here.
+XRAY_MASTER_LINK = 'https://docs.google.com/spreadsheets/d/15CkAQ9TgH4_Q1yPj8pEUtJgEXQMBgoAdC9Vmuw0vFtc/edit?usp=drive_link'
 
 
 def numv(v):
@@ -117,7 +118,6 @@ CODES = '/'.join(m['code'] for m in MARKETS)
 payload = {
     'markets': [{
         'code': m['code'], 'name': m['name'], 'flag': m['flag'], 'color': m['color'], 'cur': m['cur'],
-        'xray': XRAY_LINKS.get(m['code'], '#'),
         **{k: market_data[m['code']][k] for k in ('asins', 'rev12m', 'units12m', 'brands', 'avg_price')},
         'items': market_data[m['code']]['items'][:20],
         'topBrands': sorted(
@@ -132,6 +132,7 @@ payload = {
     'topBrands': [{'brand': b, 'rev12m': v['rev12m'], 'units12m': v['units12m']}
                   for b, v in top_brands[:12]],
     'fx': GBP_TO_EUR,
+    'xrayMaster': XRAY_MASTER_LINK,
 }
 DATA_JSON = json.dumps(payload, ensure_ascii=False)
 
@@ -259,8 +260,8 @@ document.getElementById('subline').innerHTML =
   D.markets.map(m=>m.flag+' '+m.name).join(' · ')
   + ' &nbsp;|&nbsp; Source: Helium 10 X-Ray (30d × 12 = 12M) &nbsp;|&nbsp; Claim-segmented · ASIN-level · UK £→€ '+D.fx;
 
-document.getElementById('xrayBtns').innerHTML = D.markets.map(m=>
-  `<a href="${m.xray}" target="_blank">${m.flag} ${m.code} X-Ray</a>`).join('');
+document.getElementById('xrayBtns').innerHTML =
+  `<a href="${D.xrayMaster}" target="_blank">📄 Edit X-Ray data</a>`;
 
 const kpis = [
   {lbl:'Total Market (12M)', val:fmtM(D.totals.rev12m), note:'Irritated / Atopic shampoos, €'},
