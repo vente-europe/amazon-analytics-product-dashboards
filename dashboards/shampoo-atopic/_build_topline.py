@@ -198,25 +198,26 @@ tbody tr:hover{background:#f8fafc}
   <div class="kpis" id="kpis"></div>
 
   <div class="method">
-    <b>How this market is sized — claim-segmented, ASIN-level.</b>
-    Each market's Helium 10 X-Ray exports were merged and de-duplicated by ASIN, then every surviving listing's
-    <i>title + bullet copy</i> was read (via the Amazon product API) to keep <b>only genuine shampoos</b> whose
-    claims address sensitive / dry / irritated / itchy / atopic / eczema / psoriasis / seborrhoeic scalp — the
-    <b>Irritated&nbsp;/&nbsp;Atopic</b> segment. Conditioners, masks, serums, 2-in-1s, sets, pet shampoos and purely
-    cosmetic shampoos were excluded. Market size = sum of each kept ASIN's revenue, as a 12-month projection
-    (30-day snapshot&nbsp;×&nbsp;12). All figures in&nbsp;€; <b>UK £ converted to € at __FX__</b> (mid-market, 2026-06-30).
-    <span class="pl">PL: Rynek liczony na poziomie ASIN — tylko szampony (po przeczytaniu tytułu i bulletów przez API), których obietnice dotyczą skóry wrażliwej/atopowej/podrażnionej. Projekcja 12M = snapshot 30 dni × 12. Wszystko w €; UK £→€ po kursie __FX__.</span>
+    <b>Jak liczony jest ten rynek — segmentacja po obietnicach, na poziomie ASIN.</b>
+    Eksporty Helium 10 X-Ray z każdego rynku zostały połączone i odduplikowane po ASIN, a następnie dla każdego
+    listingu przeczytano <i>tytuł + treść bulletów</i> (przez Amazon product API), aby zostawić
+    <b>tylko prawdziwe szampony</b>, których obietnice dotyczą skóry wrażliwej / suchej / podrażnionej / swędzącej /
+    atopowej / z egzemą / łuszczycą / łojotokowym zapaleniem skóry głowy — segment
+    <b>Irritated&nbsp;/&nbsp;Atopic</b>. Odżywki, maski, sera, produkty 2-w-1, zestawy, szampony dla zwierząt oraz
+    czysto kosmetyczne szampony zostały wykluczone. Wielkość rynku = suma przychodu każdego zachowanego ASIN,
+    jako projekcja 12-miesięczna (snapshot 30 dni&nbsp;×&nbsp;12). Wszystkie wartości w&nbsp;€;
+    <b>UK £ przeliczone na € po kursie __FX__</b> (mid-market, 2026-06-30).
   </div>
 
   <div class="grid2">
     <div class="card">
       <h2>Revenue by Market (12M)</h2>
-      <div class="desc">Irritated / Atopic shampoo revenue, 12-month projection (€)</div>
+      <div class="desc">Przychód szamponów Irritated / Atopic, projekcja 12-miesięczna (€)</div>
       <div class="chart-box"><canvas id="revBar"></canvas></div>
     </div>
     <div class="card">
       <h2>Market Share by Revenue (12M)</h2>
-      <div class="desc">Share of total EU Irritated / Atopic shampoo revenue</div>
+      <div class="desc">Udział w całkowitym przychodzie szamponów Irritated / Atopic w UE</div>
       <div class="chart-box"><canvas id="revPie"></canvas></div>
     </div>
   </div>
@@ -224,25 +225,25 @@ tbody tr:hover{background:#f8fafc}
   <div class="grid2">
     <div class="card">
       <h2>Units by Market (12M)</h2>
-      <div class="desc">Units sold, 12-month projection</div>
+      <div class="desc">Sprzedane sztuki, projekcja 12-miesięczna</div>
       <div class="chart-box"><canvas id="unitsBar"></canvas></div>
     </div>
     <div class="card">
       <h2>Top Brands — EU Pooled (12M Revenue)</h2>
-      <div class="desc">All markets combined, top 12 brands (€)</div>
+      <div class="desc">Wszystkie rynki razem, top 12 marek (€)</div>
       <div class="chart-box"><canvas id="brandBar"></canvas></div>
     </div>
   </div>
 
   <div class="card">
     <h2>Market Summary</h2>
-    <div class="desc">One row per market — Irritated / Atopic shampoos only</div>
+    <div class="desc">Jeden wiersz na rynek — tylko szampony Irritated / Atopic</div>
     <table id="summaryTbl"></table>
   </div>
 
   <div class="card">
     <h2>Top 20 Products per Market</h2>
-    <div class="desc">Ranked by 12M revenue (€). Click a country to switch.</div>
+    <div class="desc">Uszeregowane wg przychodu 12M (€). Kliknij kraj, aby przełączyć.</div>
     <div class="pills" id="prodPills"></div>
     <div class="scroll"><table id="prodTbl"></table></div>
   </div>
@@ -258,17 +259,17 @@ const cmap = {}; D.markets.forEach(m=>cmap[m.code]=m.color);
 
 document.getElementById('subline').innerHTML =
   D.markets.map(m=>m.flag+' '+m.name).join(' · ')
-  + ' &nbsp;|&nbsp; Source: Helium 10 X-Ray (30d × 12 = 12M) &nbsp;|&nbsp; Claim-segmented · ASIN-level · UK £→€ '+D.fx;
+  + ' &nbsp;|&nbsp; Źródło: Helium 10 X-Ray (30 dni × 12 = 12M) &nbsp;|&nbsp; Segmentacja po obietnicach · poziom ASIN · UK £→€ '+D.fx;
 
 document.getElementById('xrayBtns').innerHTML =
   `<a href="${D.xrayMaster}" target="_blank">📄 Edit X-Ray data</a>`;
 
 const kpis = [
-  {lbl:'Total Market (12M)', val:fmtM(D.totals.rev12m), note:'Irritated / Atopic shampoos, €'},
-  {lbl:'Units (12M)', val:fmtI(D.totals.units12m), note:'projected'},
-  {lbl:'Products (ASINs)', val:fmtI(D.totals.asins), note:'segmented shampoos'},
+  {lbl:'Total Market (12M)', val:fmtM(D.totals.rev12m), note:'Szampony Irritated / Atopic, €'},
+  {lbl:'Units (12M)', val:fmtI(D.totals.units12m), note:'projekcja'},
+  {lbl:'Products (ASINs)', val:fmtI(D.totals.asins), note:'szampony po segmentacji'},
   {lbl:'Markets', val:D.totals.nMarkets, note:D.totals.codes},
-  {lbl:'Brands', val:D.totals.brands, note:'across all markets'},
+  {lbl:'Brands', val:D.totals.brands, note:'we wszystkich rynkach'},
 ];
 document.getElementById('kpis').innerHTML = kpis.map(k=>
   `<div class="kpi"><div class="lbl">${k.lbl}</div><div class="val">${k.val}</div><div class="note">${k.note}</div></div>`).join('');
