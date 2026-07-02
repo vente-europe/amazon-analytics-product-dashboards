@@ -1,0 +1,2490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dermo Products (Atopic / Sensitive Skin) — International Markets (12M)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f1f5f9;color:#1e293b;font-size:13px}
+header{background:#0f2942;color:#fff;padding:18px 32px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+header .titles h1{font-size:1.1rem;font-weight:700;letter-spacing:.01em;margin-bottom:4px}
+header .titles span{font-size:.75rem;color:#94a3b8}
+.xray-btn-row{display:flex;gap:8px;flex-wrap:wrap}
+.xray-btn{background:#16a34a;color:#fff;padding:8px 14px;border-radius:6px;font-size:.76rem;font-weight:600;text-decoration:none;white-space:nowrap;display:inline-flex;align-items:center;gap:6px;box-shadow:0 1px 3px rgba(0,0,0,.2);transition:background .15s}
+.xray-btn:hover{background:#15803d}
+.xray-btn svg{width:14px;height:14px}
+.main{max-width:1200px;margin:0 auto;padding:28px 24px}
+.kpi-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:24px}
+.kpi{background:#fff;border-radius:8px;padding:14px 18px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.kpi-v{font-size:1.25rem;font-weight:700;color:#0f2942;line-height:1.2}
+.kpi-l{font-size:.68rem;color:#64748b;margin-top:5px;text-transform:uppercase;letter-spacing:.05em}
+.charts-row{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-bottom:24px}
+.card{background:#fff;border-radius:8px;padding:18px 20px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px}
+.card h3{font-size:.83rem;font-weight:600;color:#475569;margin-bottom:16px}
+.chart-wrap{position:relative;height:300px}
+table{width:100%;border-collapse:collapse}
+th{background:#f8fafc;text-align:left;padding:8px 10px;font-weight:600;color:#475569;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:2px solid #e2e8f0}
+td{padding:7px 10px;border-bottom:1px solid #f1f5f9;font-size:.82rem}
+tr:hover td{background:#f8fafc}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;flex-shrink:0}
+.note{font-size:.7rem;color:#64748b;margin-top:18px;padding:10px 13px;background:#f8fafc;border-radius:6px;border-left:2px solid #cbd5e1;line-height:1.6}
+.total-row td{font-weight:700;color:#0f2942;background:#f8fafc;border-top:2px solid #e2e8f0}
+.heatmap td.hm{text-align:center;font-size:.78rem;font-weight:600;padding:10px 8px;min-width:70px}
+.heatmap td.hm-total{text-align:center;font-size:.78rem;font-weight:700;padding:10px 8px;min-width:70px;border-left:2px solid #e2e8f0;background:#f8fafc;color:#0f2942}
+.heatmap .seg-label{font-weight:600;color:#1e293b;padding:10px 12px;white-space:nowrap}
+.heatmap .total-row td{font-weight:700;border-top:2px solid #e2e8f0;background:#f8fafc;color:#0f2942}
+/* Executive summary block — 3 kolumny insight cardów, collapsible */
+.summary{background:#fff;border-radius:8px;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:14px;border-left:4px solid #0f2942;overflow:hidden}
+.summary > summary, .kw-block > summary{cursor:pointer;padding:14px 22px;font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;list-style:none;display:flex;align-items:center;gap:10px;user-select:none;transition:background .15s}
+.summary > summary:hover, .kw-block > summary:hover{background:#f8fafc}
+.summary > summary::-webkit-details-marker, .kw-block > summary::-webkit-details-marker{display:none}
+.summary > summary::before, .kw-block > summary::before{content:'▸';display:inline-block;transition:transform .2s;font-size:.9rem;color:#64748b;width:14px}
+.summary[open] > summary::before, .kw-block[open] > summary::before{transform:rotate(90deg)}
+.summary > summary .hint, .kw-block > summary .hint{font-size:.66rem;font-weight:500;color:#94a3b8;text-transform:none;letter-spacing:0;margin-left:auto;font-style:italic}
+.summary-inner{padding:2px 22px 18px}
+.summary h2{display:none}
+.summary-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.summary-col h3{font-size:.7rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #f1f5f9}
+.summary-col p{font-size:.82rem;line-height:1.55;color:#334155;margin-bottom:8px}
+.summary-col p:last-child{margin-bottom:0}
+.summary-col strong{color:#0f2942}
+.summary-col .big{font-size:1.15rem;font-weight:700;color:#0f2942;display:block;margin-bottom:2px}
+.summary-col .small{font-size:.72rem;color:#64748b;margin-top:4px;font-style:italic}
+@media (max-width: 980px) { .summary-cols { grid-template-columns: 1fr; gap: 16px; } }
+/* Keywords block — collapsible */
+.kw-block{background:#fff;border-radius:8px;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:22px;border-left:4px solid #16a34a;overflow:hidden}
+.kw-block h2{display:none}
+.kw-inner{padding:2px 22px 18px}
+.kw-inner .kw-intro{font-size:.78rem;color:#475569;line-height:1.5;margin-bottom:14px}
+.kw-cols{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.kw-market{border:1px solid #e2e8f0;border-radius:6px;padding:12px 14px;background:#fafafa}
+.kw-market-header{font-size:.78rem;font-weight:700;color:#0f2942;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;gap:6px}
+.kw-group{margin-bottom:10px}
+.kw-group:last-child{margin-bottom:0}
+.kw-group-label{font-size:.68rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-bottom:4px}
+.kw-list{font-size:.72rem;color:#334155;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+.kw-list code{display:block;background:#f1f5f9;padding:3px 7px;border-radius:3px;margin:2px 0;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.7rem;color:#0f2942}
+@media (max-width: 980px) { .kw-cols { grid-template-columns: 1fr 1fr; gap: 14px; } }
+@media (max-width: 600px) { .kw-cols { grid-template-columns: 1fr; } }
+/* Top products block */
+.tp-block{background:#fff;border-radius:8px;padding:18px 22px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px;border-left:4px solid #7c3aed}
+.tp-block h2{font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.tp-block h2::before{content:'';display:inline-block;width:22px;height:2px;background:#7c3aed}
+.tp-block .tp-intro{font-size:.75rem;color:#475569;line-height:1.5;margin-bottom:14px}
+.tp-pills{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+.tp-pills .label{font-size:.7rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-right:4px}
+.tp-pill{padding:7px 14px;border:2px solid #cbd5e1;background:#fff;border-radius:18px;cursor:pointer;font-size:.75rem;font-weight:600;color:#475569;transition:all .15s}
+.tp-pill:hover{border-color:#94a3b8;color:#1e293b}
+.tp-pill.active{background:#0f2942;border-color:#0f2942;color:#fff}
+.tp-seg-title{font-size:.78rem;font-weight:700;color:#0f2942;margin:18px 0 8px;display:flex;align-items:center;gap:8px;padding-bottom:4px;border-bottom:1px solid #e2e8f0}
+.tp-seg-title .badge{font-size:.62rem;background:#f1f5f9;color:#475569;padding:2px 8px;border-radius:10px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.tp-table{width:100%;border-collapse:collapse;font-size:.74rem}
+.tp-table th{background:#f8fafc;text-align:left;padding:7px 8px;font-weight:600;color:#475569;font-size:.66rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:2px solid #e2e8f0;cursor:pointer;user-select:none}
+.tp-table th.sortable:hover{background:#f1f5f9}
+.tp-table th.sortable::after{content:' ⇅';color:#cbd5e1;font-size:.7rem}
+.tp-table th.sort-asc::after{content:' ▲';color:#0f2942}
+.tp-table th.sort-desc::after{content:' ▼';color:#0f2942}
+.tp-table td{padding:7px 8px;border-bottom:1px solid #f1f5f9;vertical-align:top}
+.tp-table tr:hover td{background:#f8fafc}
+.tp-table td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tp-table td.title{max-width:380px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tp-table td.asin a{display:inline-flex;align-items:center;gap:3px;background:#dbeafe;color:#1d4ed8;padding:2px 7px;border-radius:3px;font-size:.68rem;font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:600;text-decoration:none;transition:background .12s}
+.tp-table td.asin a:hover{background:#bfdbfe;text-decoration:underline}
+.tp-table td.asin a::after{content:'↗';font-size:.65rem;opacity:.7}
+.tp-advanced{margin-top:20px;padding-top:18px;border-top:1px dashed #e2e8f0}
+.tp-advanced summary{cursor:pointer;font-size:.75rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.04em;padding:6px 0;list-style:none;display:flex;align-items:center;gap:8px}
+.tp-advanced summary::-webkit-details-marker{display:none}
+.tp-advanced summary::before{content:'▸';display:inline-block;transition:transform .2s;font-size:.9rem;color:#94a3b8}
+.tp-advanced[open] summary::before{transform:rotate(90deg)}
+.tp-advanced summary:hover{color:#0f2942}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="titles">
+    <h1>Dermo Products (Atopic / Sensitive Skin) &mdash; International Markets</h1>
+    <span>12-Month Projection (30-day &times; 12) &nbsp;|&nbsp; Data: Helium 10 X-Ray (2026-04-15)</span>
+  </div>
+  <div class="xray-btn-row">
+    <a class="xray-btn" href="https://docs.google.com/spreadsheets/d/1_i9_eaJUx9YhG0XFUOWb97YEn_Jj79U6wqcapMYK9Yw/edit?gid=1649983910#gid=1649983910" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      DE X-Ray
+    </a>
+    <a class="xray-btn" href="https://docs.google.com/spreadsheets/d/1coY3TXsKNt-z_ruNg5Krdm-UPNywG5wIwep9XqZFlOo/edit?gid=1574144490#gid=1574144490" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      IT X-Ray
+    </a>
+    <a class="xray-btn" href="https://docs.google.com/spreadsheets/d/1fD-QisOAi2_GUpHItXgeUu2bN19iti9w0KrtbOP51Jc/edit?gid=2058240202#gid=2058240202" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      FR X-Ray
+    </a>
+    <a class="xray-btn" href="https://docs.google.com/spreadsheets/d/1u-S0NnaPOJB2qh0KSvxOum4bvQt5Ydrp7-VPNngGvKI/edit?gid=1593778489#gid=1593778489" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      ES X-Ray
+    </a>
+  </div>
+</header>
+
+<div class="main">
+
+  <!-- KPI Row -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-v">&euro;49.0M</div>
+      <div class="kpi-l">Total 12M Revenue (Cream + Wash + Oil)</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">3,644,748</div>
+      <div class="kpi-l">Total 12M Units Sold (all segments)</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">4 Markets</div>
+      <div class="kpi-l">DE &bull; FR &bull; IT &bull; ES</div>
+    </div>
+  </div>
+
+  <!-- Executive summary — automatycznie generowany z danych -->
+  <details class="summary">
+    <summary>Podsumowanie &mdash; kluczowe wnioski (12M) <span class="hint">kliknij żeby rozwinąć</span></summary>
+    <div class="summary-inner">
+    <div class="summary-cols">
+
+      <div class="summary-col">
+        <h3>Rynki</h3>
+        <p>Zdecydowanym liderem kategorii są <strong>Niemcy</strong>, które generują <strong>€24.1 mln</strong> rocznego przychodu i odpowiadają za <strong>49%</strong> całego rynku europejskiego (DE+FR+IT+ES). To ponad <strong>1.9-krotnie</strong> więcej niż drugi największy rynek.</p>
+        <p>Pełna hierarchia: <strong>Niemcy</strong> (€24.1 mln), następnie <strong>Włochy</strong> (€13.0 mln), <strong>Francja</strong> (€6.0 mln) i na końcu <strong>Hiszpania</strong> (€5.9 mln). Rynek niemiecki jest dojrzały i rozdrobniony, natomiast we Włoszech obserwujemy najwyższy średni przychód przypadający na jeden produkt — co oznacza mniej graczy, ale silniejsze pozycje każdego z nich.</p>
+      </div>
+
+      <div class="summary-col">
+        <h3>Segmenty (forma produktu)</h3>
+        <p>Krem jest niekwestionowanym liderem kategorii z udziałem <strong>72%</strong> w przychodzie (<strong>€35.2 mln</strong>). Przy średniej cenie <strong>€14</strong> za sztukę jest to klasyczny segment premium, kierowany głównie do osób zmagających się ze skórą atopową, suchą lub podrażnioną.</p>
+        <p>Produkty do mycia (<strong>Wash</strong> — żele, emulsje, olejki pod prysznic) stanowią solidne drugie miejsce z <strong>27%</strong> udziału (€13.2 mln, średnia cena €13). Olejki do ciała (<strong>Oil</strong>) to natomiast wąska nisza — zaledwie <strong>1.1%</strong> rynku, głównie obecna w Niemczech. Łącznie po filtrze ≥€1 000/30 dni w analizie znalazło się <strong>472</strong> produktów w czterech krajach.</p>
+      </div>
+
+      <div class="summary-col">
+        <h3>Konkurencja i ceny</h3>
+        <p>Kategoria jest umiarkowanie rozproszona — trzy największe marki odpowiadają łącznie za <strong>37%</strong> całego przychodu. Liderem jest <strong>La Roche-Posay</strong> z udziałem <strong>23%</strong> (€11.0 mln rocznie). W całej niszy aktywnie działa <strong>132</strong> unikalnych marek, ale każdy rynek ma swoją odrębną hierarchię — co widać w tabeli cieplnej marek poniżej.</p>
+        <p>Średnia cena produktu w kategorii wynosi <strong>€13</strong> za sztukę, co potwierdza premium charakter segmentu. Dominują marki o pozycjonowaniu aptecznym i dermatologicznym (La Roche-Posay, Eucerin, Bioderma, Avène, CeraVe), a także silne marki lokalne w poszczególnych krajach.</p>
+      </div>
+
+    </div>
+    </div>
+  </details>
+
+  <!-- Keywords used per marketplace -->
+  <details class="kw-block">
+    <summary>Słowa kluczowe użyte w analizie <span class="hint">kliknij żeby rozwinąć</span></summary>
+    <div class="kw-inner">
+    <p class="kw-intro">Dla każdego z czterech rynków wykonano 12 osobnych przeszukiwań w narzędziu Helium 10 X-Ray &mdash; po <strong>4 słowa kluczowe dla każdej z trzech form produktu</strong> (Cream / Wash / Oil). Wyniki zostały zmerge'owane per rynek, odduplikowane po ASIN i odfiltrowane do produktów z przychodem ≥€1 000 w ciągu ostatnich 30 dni. Poniżej pełna lista fraz &mdash; pozwala to zweryfikować, czy nie pominęliśmy żadnego istotnego kąta wyszukiwania.</p>
+    <div class="kw-cols">
+
+      <div class="kw-market">
+        <div class="kw-market-header">🇩🇪 Niemcy (DE)</div>
+        <div class="kw-group">
+          <div class="kw-group-label">Cream</div>
+          <div class="kw-list">
+            <code>creme neurodermitis</code>
+            <code>creme atopische haut</code>
+            <code>pflegecreme trockene empfindliche haut</code>
+            <code>ekzem creme körper</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Wash</div>
+          <div class="kw-list">
+            <code>waschlotion neurodermitis</code>
+            <code>duschöl atopische haut</code>
+            <code>waschsyndet empfindliche haut</code>
+            <code>reinigungsöl trockene haut</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Oil</div>
+          <div class="kw-list">
+            <code>körperöl neurodermitis</code>
+            <code>pflegeöl atopische haut</code>
+            <code>hautöl trockene empfindliche haut</code>
+            <code>körperöl ekzem</code>
+          </div>
+        </div>
+      </div>
+
+      <div class="kw-market">
+        <div class="kw-market-header">🇫🇷 Francja (FR)</div>
+        <div class="kw-group">
+          <div class="kw-group-label">Cream</div>
+          <div class="kw-list">
+            <code>crème peau atopique</code>
+            <code>crème peau sèche irritée</code>
+            <code>crème émolliente</code>
+            <code>crème dermatite atopique</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Wash</div>
+          <div class="kw-list">
+            <code>gel lavant peau atopique</code>
+            <code>huile lavante peau atopique</code>
+            <code>nettoyant surgras</code>
+            <code>syndet peau atopique</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Oil</div>
+          <div class="kw-list">
+            <code>huile corps peau sèche</code>
+            <code>huile peau atopique</code>
+            <code>huile corps dermatologique</code>
+            <code>huile apaisante corps</code>
+          </div>
+        </div>
+      </div>
+
+      <div class="kw-market">
+        <div class="kw-market-header">🇮🇹 Włochy (IT)</div>
+        <div class="kw-group">
+          <div class="kw-group-label">Cream</div>
+          <div class="kw-list">
+            <code>crema pelle atopica</code>
+            <code>crema pelle secca sensibile</code>
+            <code>crema emolliente</code>
+            <code>crema dermatite atopica</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Wash</div>
+          <div class="kw-list">
+            <code>detergente pelle atopica</code>
+            <code>bagno doccia pelle atopica</code>
+            <code>olio detergente corpo</code>
+            <code>sapone pelle atopica</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Oil</div>
+          <div class="kw-list">
+            <code>olio pelle atopica</code>
+            <code>olio corpo pelle secca</code>
+            <code>olio doccia pelle secca</code>
+            <code>olio emolliente corpo</code>
+          </div>
+        </div>
+      </div>
+
+      <div class="kw-market">
+        <div class="kw-market-header">🇪🇸 Hiszpania (ES)</div>
+        <div class="kw-group">
+          <div class="kw-group-label">Cream</div>
+          <div class="kw-list">
+            <code>crema piel atópica</code>
+            <code>crema piel seca irritada</code>
+            <code>crema emoliente</code>
+            <code>crema dermatitis atópica</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Wash</div>
+          <div class="kw-list">
+            <code>gel limpiador piel atópica</code>
+            <code>gel baño piel atópica</code>
+            <code>aceite limpiador corporal</code>
+            <code>syndet piel atópica</code>
+          </div>
+        </div>
+        <div class="kw-group">
+          <div class="kw-group-label">Oil</div>
+          <div class="kw-list">
+            <code>aceite piel atópica</code>
+            <code>aceite corporal piel seca</code>
+            <code>aceite emoliente corporal</code>
+            <code>aceite ducha piel seca</code>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </details>
+
+  <!-- Charts -->
+  <div class="charts-row">
+    <div class="card" style="margin:0">
+      <h3>Revenue by Marketplace &mdash; 12M (&euro;)</h3>
+      <div class="chart-wrap"><canvas id="barChart"></canvas></div>
+    </div>
+    <div class="card" style="margin:0">
+      <h3>Unit Share by Marketplace &mdash; 12M</h3>
+      <div class="chart-wrap"><canvas id="pieChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Units Table -->
+  <div class="card">
+    <h3>Units &amp; Revenue by Marketplace &mdash; 12M</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Marketplace</th>
+          <th>Currency</th>
+          <th style="text-align:right">30-Day Units</th>
+          <th style="text-align:right">Multiplier</th>
+          <th style="text-align:right">12M Units (est.)</th>
+          <th style="text-align:right">12M Revenue &euro;</th>
+          <th style="text-align:right">Share</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="dot" style="background:#2563eb"></span>🇩🇪 Germany (DE)</td>
+          <td>EUR</td>
+          <td class="num">143,600</td>
+          <td class="num">12×</td>
+          <td class="num">1,723,200</td>
+          <td class="num">&euro;24,148,074</td>
+          <td class="num">49.3%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#7c3aed"></span>🇮🇹 Italy (IT)</td>
+          <td>EUR</td>
+          <td class="num">78,843</td>
+          <td class="num">12×</td>
+          <td class="num">946,116</td>
+          <td class="num">&euro;12,985,773</td>
+          <td class="num">26.5%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#0891b2"></span>🇫🇷 France (FR)</td>
+          <td>EUR</td>
+          <td class="num">45,836</td>
+          <td class="num">12×</td>
+          <td class="num">550,032</td>
+          <td class="num">&euro;6,003,295</td>
+          <td class="num">12.2%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#d97706"></span>🇪🇸 Spain (ES)</td>
+          <td>EUR</td>
+          <td class="num">35,450</td>
+          <td class="num">12×</td>
+          <td class="num">425,400</td>
+          <td class="num">&euro;5,875,671</td>
+          <td class="num">12.0%</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="2"><strong>Total</strong></td>
+          <td class="num">303,729</td>
+          <td class="num">—</td>
+          <td class="num">3,644,748</td>
+          <td class="num">&euro;49,012,813</td>
+          <td class="num">100%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Brand Share Pie Charts -->
+  <div class="charts-row">
+    <div class="card" style="margin:0">
+      <h3>Brand Share by Revenue &mdash; 12M</h3>
+      <div class="chart-wrap" style="height:340px"><canvas id="brandRevPie"></canvas></div>
+    </div>
+    <div class="card" style="margin:0">
+      <h3>Brand Share by Units &mdash; 12M</h3>
+      <div class="chart-wrap" style="height:340px"><canvas id="brandUnitsPie"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Brand Revenue Heatmap: Brand × Marketplace -->
+  <div class="card">
+    <h3>Revenue by Brand &amp; Marketplace &mdash; 12M (&euro;)</h3>
+    <table class="heatmap" id="brandRevHeatmap">
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th class="num">DE</th><th class="num">IT</th><th class="num">FR</th><th class="num">ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div style="margin-top:10px;font-size:.68rem;color:#64748b">Top 10 marek po łącznym revenue + Other. Zielone komórki = brand dominuje na tym rynku.</div>
+  </div>
+
+  <!-- Brand Units Heatmap: Brand × Marketplace -->
+  <div class="card">
+    <h3>Units by Brand &amp; Marketplace &mdash; 12M</h3>
+    <table class="heatmap" id="brandUnitsHeatmap">
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th class="num">DE</th><th class="num">IT</th><th class="num">FR</th><th class="num">ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <!-- Segment Share Pie Charts -->
+  <div class="charts-row">
+    <div class="card" style="margin:0">
+      <h3>Revenue Share by Segment &mdash; 12M (&euro;)</h3>
+      <div class="chart-wrap"><canvas id="segRevPie"></canvas></div>
+    </div>
+    <div class="card" style="margin:0">
+      <h3>Unit Share by Segment &mdash; 12M</h3>
+      <div class="chart-wrap"><canvas id="segUnitsPie"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Revenue Heatmap: Segment × Marketplace -->
+  <div class="card">
+    <h3>Revenue by Segment &amp; Marketplace &mdash; 12M (&euro;)</h3>
+    <table class="heatmap" id="revHeatmap">
+      <thead>
+        <tr>
+          <th>Segment</th>
+          <th class="num">DE</th><th class="num">IT</th><th class="num">FR</th><th class="num">ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div style="margin-top:10px;display:flex;align-items:center;gap:6px;font-size:.68rem;color:#64748b">
+      <span>Low</span>
+      <div style="display:flex;gap:1px">
+        <span style="width:18px;height:10px;background:#eff6ff;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#bfdbfe;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#93c5fd;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#3b82f6;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#1d4ed8;border-radius:2px;display:inline-block"></span>
+      </div>
+      <span>High</span>
+    </div>
+  </div>
+
+  <!-- Units Heatmap: Segment × Marketplace -->
+  <div class="card">
+    <h3>Units by Segment &amp; Marketplace &mdash; 12M</h3>
+    <table class="heatmap" id="unitsHeatmap">
+      <thead>
+        <tr>
+          <th>Segment</th>
+          <th class="num">DE</th><th class="num">IT</th><th class="num">FR</th><th class="num">ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Total</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div style="margin-top:10px;display:flex;align-items:center;gap:6px;font-size:.68rem;color:#64748b">
+      <span>Low</span>
+      <div style="display:flex;gap:1px">
+        <span style="width:18px;height:10px;background:#eff6ff;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#bfdbfe;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#93c5fd;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#3b82f6;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#1d4ed8;border-radius:2px;display:inline-block"></span>
+      </div>
+      <span>High</span>
+    </div>
+  </div>
+
+  <!-- Top 10 produktów per segment per rynek -->
+  <div class="tp-block">
+    <h2>Top 10 produktów per segment per rynek</h2>
+    <p class="tp-intro">Wybierz rynek pigułką poniżej, żeby zobaczyć 10 najlepiej sprzedających się produktów w każdym z 3 segmentów (Cream / Wash / Oil), posortowane po przychodzie 30-dniowym. Klikaj nagłówki kolumn żeby zmienić sortowanie. Na dole sekcji pełny widok zaawansowany — wszystkie 120 produktów z filtrami (do cross-market comparison).</p>
+
+    <div class="tp-pills">
+      <span class="label">Rynek:</span>
+      <button class="tp-pill active" data-mkt="DE">🇩🇪 DE</button>
+      <button class="tp-pill" data-mkt="IT">🇮🇹 IT</button>
+      <button class="tp-pill" data-mkt="FR">🇫🇷 FR</button>
+      <button class="tp-pill" data-mkt="ES">🇪🇸 ES</button>
+    </div>
+
+    <div id="tpTables"></div>
+
+    <!-- Advanced: wszystkie rynki razem z filtrami -->
+    <details class="tp-advanced">
+      <summary>🔍 Widok zaawansowany — wszystkie 120 produktów z filtrami</summary>
+      <div class="tp-intro" style="margin-top:10px">Filtruj po rynku i segmencie, sortuj dowolną kolumną. Przydatne do porównywania produktów cross-market.</div>
+      <div class="tp-pills">
+        <span class="label">Rynek:</span>
+        <button class="tp-pill active" data-adv-mkt="All">All</button>
+        <button class="tp-pill" data-adv-mkt="DE">DE</button>
+        <button class="tp-pill" data-adv-mkt="IT">IT</button>
+        <button class="tp-pill" data-adv-mkt="FR">FR</button>
+        <button class="tp-pill" data-adv-mkt="ES">ES</button>
+      </div>
+      <div class="tp-pills">
+        <span class="label">Segment:</span>
+        <button class="tp-pill active" data-adv-seg="All">All</button>
+        <button class="tp-pill" data-adv-seg="Cream">Cream</button>
+        <button class="tp-pill" data-adv-seg="Wash">Wash</button>
+        <button class="tp-pill" data-adv-seg="Oil">Oil</button>
+      </div>
+      <div id="tpAdvTable"></div>
+    </details>
+  </div>
+
+  <div class="note">
+    <strong>Źródło danych:</strong> Helium 10 X-Ray &mdash; snapshot 30-dniowy (2026-04-15), dane zmerge'owane i odduplikowane per rynek, odfiltrowane do produktów z przychodem &ge;&euro;1 000 w ciągu ostatnich 30 dni. Metryki 30-dniowe zostały przeskalowane na 12 miesięcy przez prosty mnożnik ×12 (bez korekty sezonowości).
+    <br><br>
+    <strong>Segmentacja:</strong> każdy produkt dostał etykietę na podstawie jego listingu SP-API (tytuł + bullet points + opis). W agregacji dashboardu uwzględniamy wyłącznie trzy kategorie formy: <strong>Cream</strong> (kremy, balsamy, lotiony, maści), <strong>Wash</strong> (żele, emulsje i olejki do mycia, także pod prysznic) oraz <strong>Oil</strong> (olejki do pielęgnacji ciała). Dwie pozostałe etykiety są celowo wyłączone z liczb powyżej:
+    <br><br>
+    &bull; <strong>&bdquo;Check&rdquo;</strong> &mdash; produkty, których listing zawiera wprawdzie sygnały niszy dermo (sucha / atopowa / podrażniona skóra), ale nie zawiera wyraźnego słowa kluczowego określającego formę w tytule, LUB produkty, gdzie w ogóle nie ma mocnego sygnału skóry atopowej — czyli klasyczne kremy na suchą skórę od masowych marek jak Nivea, Vaseline czy Palmer's, które są kierowane do zdrowej, lecz przesuszonej skóry, a nie do skóry atopowej. Te wiersze są flagowane do ręcznej weryfikacji przez zespół, żeby nie zanieczyszczały obrazu niszy.
+    <br><br>
+    &bull; <strong>&bdquo;Other&rdquo;</strong> &mdash; produkty, które jednoznacznie leżą poza zakresem analizy: szampony dla zwierząt, balsamy do ust, kosmetyki do włosów i skóry głowy, kremy przeciwsłoneczne (SPF), dezodoranty i produkty anti-age. Nawet jeśli zawierają frazy typu &bdquo;wrażliwa skóra&rdquo;, nie pasują do żadnego z trzech segmentów kategorii dermo-pielęgnacyjnej dla skóry atopowej.
+    <br><br>
+    <strong>Rynki w analizie:</strong> Niemcy (słowo kluczowe: Neurodermitis), Francja (peau atopique), Włochy (pelle atopica), Hiszpania (piel atópica). Wielka Brytania nie jest częścią tej analizy.
+  </div>
+
+</div>
+
+<script>
+Chart.register(ChartDataLabels);
+
+const LABELS = ["DE", "IT", "FR", "ES"];
+const REVENUE = [24148074, 12985773, 6003295, 5875671];
+const UNITS = [1723200, 946116, 550032, 425400];
+const COLORS = ["#2563eb", "#7c3aed", "#0891b2", "#d97706"];
+
+// Bar chart — Revenue by Marketplace
+new Chart(document.getElementById('barChart'), {
+  type: 'bar',
+  data: { labels: LABELS, datasets: [{ data: REVENUE, backgroundColor: COLORS, borderRadius: 4, borderSkipped: false }] },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => ' €' + ctx.parsed.y.toLocaleString('en-EU',{maximumFractionDigits:0}) } },
+      datalabels: {
+        anchor:'end', align:'end',
+        formatter: v => '€' + (v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K'),
+        font:{size:11,weight:'600'}, color:'#1e293b'
+      }
+    },
+    layout: { padding: { top: 22 } },
+    scales: {
+      x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+      y: { grid: { color: '#e2e8f0' }, ticks: { callback: v => '€' + (v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K') } }
+    }
+  }
+});
+
+// Doughnut — Unit share by Marketplace
+new Chart(document.getElementById('pieChart'), {
+  type: 'doughnut',
+  data: { labels: LABELS, datasets: [{ data: UNITS, backgroundColor: COLORS, borderWidth: 2, borderColor: '#fff' }] },
+  options: {
+    responsive: true, maintainAspectRatio: false, cutout: '52%',
+    plugins: {
+      legend: {
+        position:'bottom',
+        labels: {
+          font:{size:11}, padding:10, boxWidth:12, boxHeight:12,
+          generateLabels: chart => {
+            const total = UNITS.reduce((a,b)=>a+b,0);
+            return LABELS.map((label,i) => {
+              const pct = (UNITS[i]/total*100).toFixed(1);
+              return { text: label + '  ' + pct + '%', fillStyle: COLORS[i], strokeStyle: COLORS[i], lineWidth:0, index:i, hidden:false };
+            });
+          }
+        }
+      },
+      tooltip: { callbacks: { label: ctx => { const pct=(ctx.parsed/UNITS.reduce((a,b)=>a+b,0)*100).toFixed(1); return ' '+ctx.parsed.toLocaleString()+' units ('+pct+'%)'; } } },
+      datalabels: {
+        display: ctx => (ctx.dataset.data[ctx.dataIndex] / UNITS.reduce((a,b)=>a+b,0)) > 0.05,
+        formatter: v => (v/UNITS.reduce((a,b)=>a+b,0)*100).toFixed(1) + '%',
+        color: '#fff', font: { size: 11, weight: '700' }
+      }
+    }
+  }
+});
+
+// === Brand pies (top 12 + Other, across all 4 markets combined) ===
+const BRAND_REV_LABELS  = ["La Roche-Posay", "CeraVe", "Eucerin", "Mixa", "Rilastil", "Cetaphil", "Bioderma", "Topicrem", "Uriage", "SVR", "DEXERYL", "Dermovitamina", "Other (120)"];
+const BRAND_REV_VALUES  = [11047515, 4446533, 2531554, 2469945, 2451705, 1511971, 1272221, 1177220, 1153930, 1052783, 1032903, 916780, 17947748];
+const BRAND_UNITS_LABELS = ["La Roche-Posay", "CeraVe", "Mixa", "Rilastil", "Eucerin", "Sebamed", "Cetaphil", "Topicrem", "Dermovitamina", "SVR", "Neutrogena", "DEXERYL", "Other (120)"];
+const BRAND_UNITS_VALUES = [670608, 350076, 334320, 201276, 136980, 124308, 99072, 98172, 83436, 72768, 69504, 64728, 1339500];
+const BRAND_COLORS = ["#2563eb", "#dc2626", "#0891b2", "#d97706", "#7c3aed", "#16a34a", "#db2777", "#0284c7", "#ca8a04", "#059669", "#4f46e5", "#be123c", "#94a3b8"];
+
+function brandPie(id, labels, values, fmtVal) {
+  const total = values.reduce((a,b)=>a+b,0);
+  new Chart(document.getElementById(id), {
+    type: 'doughnut',
+    data: { labels: labels, datasets: [{ data: values, backgroundColor: BRAND_COLORS, borderWidth: 2, borderColor: '#fff' }] },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '52%',
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: {
+            font:{size:10}, padding:6, boxWidth:10, boxHeight:10,
+            generateLabels: chart => labels.map((label,i) => {
+              const pct = (values[i]/total*100).toFixed(1);
+              return { text: label + '  ' + pct + '%', fillStyle: BRAND_COLORS[i % BRAND_COLORS.length], strokeStyle: BRAND_COLORS[i % BRAND_COLORS.length], lineWidth:0, index:i, hidden:false };
+            })
+          }
+        },
+        tooltip: { callbacks: { label: ctx => { const pct=(ctx.parsed/total*100).toFixed(1); return ' '+fmtVal(ctx.parsed)+' ('+pct+'%)'; } } },
+        datalabels: {
+          display: ctx => (ctx.dataset.data[ctx.dataIndex]/total) > 0.03,
+          formatter: v => (v/total*100).toFixed(1)+'%',
+          color: '#fff', font: { size: 10, weight: '700' }
+        }
+      }
+    }
+  });
+}
+brandPie('brandRevPie',   BRAND_REV_LABELS,   BRAND_REV_VALUES,   v => '€'+(v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K'));
+brandPie('brandUnitsPie', BRAND_UNITS_LABELS, BRAND_UNITS_VALUES, v => v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(1)+'K');
+
+// === Heatmap data: Segment × Marketplace ===
+const SEG_DATA = {
+  "Cream": {
+    "rev": [
+      20082917,
+      7886671,
+      3797308,
+      3457156
+    ],
+    "units": [
+      1373304,
+      625968,
+      335736,
+      251460
+    ]
+  },
+  "Wash": {
+    "rev": [
+      3749955,
+      5022873,
+      2103752,
+      2367875
+    ],
+    "units": [
+      326232,
+      314856,
+      204024,
+      171444
+    ]
+  },
+  "Oil": {
+    "rev": [
+      315201,
+      76230,
+      102234,
+      50636
+    ],
+    "units": [
+      23664,
+      5292,
+      10272,
+      2496
+    ]
+  }
+};
+const SEG_NAMES = ["Cream", "Wash", "Oil"];
+const SEG_COLORS = ["#2563eb", "#16a34a", "#d97706"];
+const HM_COLORS = ['#eff6ff','#bfdbfe','#93c5fd','#3b82f6','#1d4ed8'];
+const HM_TEXT   = ['#1e40af','#1e40af','#1e3a5f','#ffffff','#ffffff'];
+
+function hmColor(val, max) {
+  if (val === 0) return { bg: '#f8fafc', fg: '#94a3b8' };
+  const idx = Math.min(4, Math.floor((val / max) * 4.99));
+  return { bg: HM_COLORS[idx], fg: HM_TEXT[idx] };
+}
+function fmtRev(v) {
+  if (v === 0) return '—';
+  if (v >= 1e6) return '€' + (v/1e6).toFixed(1) + 'M';
+  return '€' + (v/1e3).toFixed(0) + 'K';
+}
+function fmtUnits(v) {
+  if (v === 0) return '—';
+  if (v >= 1e6) return (v/1e6).toFixed(1) + 'M';
+  return (v/1e3).toFixed(1) + 'K';
+}
+
+function buildHeatmap(tableId, field, fmtFn) {
+  const tbody = document.querySelector('#' + tableId + ' tbody');
+  let allVals = [];
+  SEG_NAMES.forEach(s => SEG_DATA[s][field].forEach(v => { if (v > 0) allVals.push(v); }));
+  const maxVal = allVals.length ? Math.max(...allVals) : 1;
+
+  SEG_NAMES.forEach(seg => {
+    const vals = SEG_DATA[seg][field];
+    const total = vals.reduce((a,b)=>a+b,0);
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td class="seg-label">' + seg + '</td>';
+    vals.forEach(v => {
+      const c = hmColor(v, maxVal);
+      tr.innerHTML += '<td class="hm" style="background:'+c.bg+';color:'+c.fg+'">'+fmtFn(v)+'</td>';
+    });
+    tr.innerHTML += '<td class="hm-total">' + fmtFn(total) + '</td>';
+    tbody.appendChild(tr);
+  });
+
+  // Total row
+  const nCols = LABELS.length;
+  const totals = Array(nCols).fill(0).map((_,i) => SEG_NAMES.reduce((s,seg)=>s+SEG_DATA[seg][field][i],0));
+  const grandTotal = totals.reduce((a,b)=>a+b,0);
+  const tr = document.createElement('tr');
+  tr.className = 'total-row';
+  tr.innerHTML = '<td class="seg-label">Total</td>';
+  totals.forEach(v => { tr.innerHTML += '<td class="hm" style="background:#f8fafc;color:#0f2942">'+fmtFn(v)+'</td>'; });
+  tr.innerHTML += '<td class="hm-total">' + fmtFn(grandTotal) + '</td>';
+  tbody.appendChild(tr);
+}
+buildHeatmap('revHeatmap', 'rev', fmtRev);
+buildHeatmap('unitsHeatmap', 'units', fmtUnits);
+
+// === Brand × Marketplace heatmaps ===
+const BRAND_HM_DATA = {
+  "La Roche-Posay": {
+    "rev": [
+      6047875,
+      4059227,
+      278358,
+      662055
+    ],
+    "units": [
+      343980,
+      276072,
+      9924,
+      40632
+    ]
+  },
+  "CeraVe": {
+    "rev": [
+      3064891,
+      439164,
+      389805,
+      552673
+    ],
+    "units": [
+      255672,
+      23052,
+      28932,
+      42420
+    ]
+  },
+  "Eucerin": {
+    "rev": [
+      1805571,
+      707901,
+      0,
+      18082
+    ],
+    "units": [
+      92712,
+      43092,
+      0,
+      1176
+    ]
+  },
+  "Mixa": {
+    "rev": [
+      1726278,
+      272934,
+      354224,
+      116509
+    ],
+    "units": [
+      223548,
+      38100,
+      55344,
+      17328
+    ]
+  },
+  "Rilastil": {
+    "rev": [
+      20790,
+      2208294,
+      0,
+      222621
+    ],
+    "units": [
+      1164,
+      185148,
+      0,
+      14964
+    ]
+  },
+  "Cetaphil": {
+    "rev": [
+      1223749,
+      119537,
+      0,
+      168685
+    ],
+    "units": [
+      63312,
+      22104,
+      0,
+      13656
+    ]
+  },
+  "Bioderma": {
+    "rev": [
+      661827,
+      445149,
+      128739,
+      36506
+    ],
+    "units": [
+      30744,
+      22080,
+      5928,
+      2604
+    ]
+  },
+  "Topicrem": {
+    "rev": [
+      2696,
+      0,
+      1174524,
+      0
+    ],
+    "units": [
+      168,
+      0,
+      98004,
+      0
+    ]
+  },
+  "Uriage": {
+    "rev": [
+      222176,
+      558067,
+      223430,
+      150257
+    ],
+    "units": [
+      11532,
+      27612,
+      15456,
+      9336
+    ]
+  },
+  "SVR": {
+    "rev": [
+      9879,
+      282218,
+      752753,
+      7933
+    ],
+    "units": [
+      444,
+      19584,
+      52416,
+      324
+    ]
+  },
+  "Other (122)": {
+    "rev": [
+      9362341,
+      3893283,
+      2701461,
+      3940346
+    ],
+    "units": [
+      699924,
+      289272,
+      284028,
+      282960
+    ]
+  }
+};
+const BRAND_HM_ORDER = ["La Roche-Posay", "CeraVe", "Eucerin", "Mixa", "Rilastil", "Cetaphil", "Bioderma", "Topicrem", "Uriage", "SVR", "Other (122)"];
+function buildBrandHeatmap(tableId, field, fmtFn) {
+  const tbody = document.querySelector('#' + tableId + ' tbody');
+  let allVals = [];
+  BRAND_HM_ORDER.forEach(b => BRAND_HM_DATA[b][field].forEach(v => { if (v > 0) allVals.push(v); }));
+  const maxVal = allVals.length ? Math.max(...allVals) : 1;
+  BRAND_HM_ORDER.forEach(brand => {
+    const vals = BRAND_HM_DATA[brand][field];
+    const total = vals.reduce((a,b)=>a+b,0);
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td class="seg-label">' + brand + '</td>';
+    vals.forEach(v => {
+      const c = hmColor(v, maxVal);
+      tr.innerHTML += '<td class="hm" style="background:'+c.bg+';color:'+c.fg+'">'+fmtFn(v)+'</td>';
+    });
+    tr.innerHTML += '<td class="hm-total">' + fmtFn(total) + '</td>';
+    tbody.appendChild(tr);
+  });
+  const nCols = LABELS.length;
+  const totals = Array(nCols).fill(0).map((_,i) => BRAND_HM_ORDER.reduce((s,b)=>s+BRAND_HM_DATA[b][field][i],0));
+  const grandTotal = totals.reduce((a,b)=>a+b,0);
+  const tr = document.createElement('tr');
+  tr.className = 'total-row';
+  tr.innerHTML = '<td class="seg-label">Total</td>';
+  totals.forEach(v => { tr.innerHTML += '<td class="hm" style="background:#f8fafc;color:#0f2942">'+fmtFn(v)+'</td>'; });
+  tr.innerHTML += '<td class="hm-total">' + fmtFn(grandTotal) + '</td>';
+  tbody.appendChild(tr);
+}
+buildBrandHeatmap('brandRevHeatmap',   'rev',   fmtRev);
+buildBrandHeatmap('brandUnitsHeatmap', 'units', fmtUnits);
+
+// === Segment pie charts ===
+const SEG_REV_TOTALS = SEG_NAMES.map(s => SEG_DATA[s].rev.reduce((a,b)=>a+b,0));
+const SEG_UNIT_TOTALS = SEG_NAMES.map(s => SEG_DATA[s].units.reduce((a,b)=>a+b,0));
+
+function segPie(id, data, fmtVal) {
+  const total = data.reduce((a,b)=>a+b,0);
+  new Chart(document.getElementById(id), {
+    type: 'doughnut',
+    data: { labels: SEG_NAMES, datasets: [{ data, backgroundColor: SEG_COLORS, borderWidth: 2, borderColor: '#fff' }] },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '52%',
+      plugins: {
+        legend: {
+          position:'bottom',
+          labels: {
+            font:{size:11}, padding:10, boxWidth:12, boxHeight:12,
+            generateLabels: chart => SEG_NAMES.map((label,i) => {
+              const pct = (data[i]/total*100).toFixed(1);
+              return { text: label+'  '+pct+'%', fillStyle: SEG_COLORS[i], strokeStyle: SEG_COLORS[i], lineWidth:0, index:i, hidden:false };
+            })
+          }
+        },
+        tooltip: { callbacks: { label: ctx => { const pct=(ctx.parsed/total*100).toFixed(1); return ' '+fmtVal(ctx.parsed)+' ('+pct+'%)'; } } },
+        datalabels: {
+          display: ctx => (ctx.dataset.data[ctx.dataIndex]/total) > 0.05,
+          formatter: v => (v/total*100).toFixed(1)+'%',
+          color: '#fff', font: { size: 11, weight: '700' }
+        }
+      }
+    }
+  });
+}
+segPie('segRevPie', SEG_REV_TOTALS, v => '€'+(v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K'));
+segPie('segUnitsPie', SEG_UNIT_TOTALS, v => v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(1)+'K');
+
+// === Top Products Tables ===
+const TOP_PRODUCTS = {
+  "DE": {
+    "Cream": [
+      {
+        "asin": "B0BJFLVCZK",
+        "brand": "La Roche-Posay",
+        "title": "La Roche Posay Repairing Cream for Body, Face and Lips, for Sensitive Skin, with Dexpanthenol and Tribioma, Reduces Tension and Redness, Cicaplast Baume B5+, 100 ml",
+        "price": 16.79,
+        "rev30d": 194734,
+        "rev12m": 2336813,
+        "units30d": 12678,
+        "units12m": 152136,
+        "rating": 4.7,
+        "reviews": 4164,
+        "bsr": 18
+      },
+      {
+        "asin": "B09V542XVS",
+        "brand": "La Roche-Posay",
+        "title": "La Roche-Posay Lipikar Baume Light AP+M, Replenishing Lotion for Neurodermatitis and Dry Skin, Quick Absorption, No Fragrances, for Babies from 3 Months, Children and Adults, 400 m",
+        "price": 23.99,
+        "rev30d": 79050,
+        "rev12m": 948605,
+        "units30d": 2973,
+        "units12m": 35676,
+        "rating": 4.7,
+        "reviews": 1871,
+        "bsr": 1093
+      },
+      {
+        "asin": "B07CG2TD9F",
+        "brand": "CeraVe",
+        "title": "Cerave moisturising lotion, 236 ml",
+        "price": 10.48,
+        "rev30d": 78977,
+        "rev12m": 947726,
+        "units30d": 7543,
+        "units12m": 90516,
+        "rating": 4.6,
+        "reviews": 44258,
+        "bsr": 49
+      },
+      {
+        "asin": "B09V8JNGD4",
+        "brand": "Mixa",
+        "title": "Mixa Cream for Dry and Cracked Skin, Moisturiser for the Body, Hands and Face, with Urea and Niacinamide, Urea Cica Repair + Skin Renewing Cream, 1 x 400 ml",
+        "price": 6.68,
+        "rev30d": 69553,
+        "rev12m": 834641,
+        "units30d": 8097,
+        "units12m": 97164,
+        "rating": 4.5,
+        "reviews": 7323,
+        "bsr": 41
+      },
+      {
+        "asin": "B07C5VMJPW",
+        "brand": "CeraVe",
+        "title": "Cerave - Moisturizer for dry to very dry skin - 177 ml",
+        "price": 10.3,
+        "rev30d": 66515,
+        "rev12m": 798182,
+        "units30d": 6052,
+        "units12m": 72624,
+        "rating": 4.5,
+        "reviews": 18996,
+        "bsr": 104
+      },
+      {
+        "asin": "B074D5ZKX9",
+        "brand": "Sorion",
+        "title": "Sorion cream - also suitable for skin care in cases of psoriasis and eczema With coconut oil, Neem, Rubia Cordifolia, Turmeric and Wrightia tinctoria.",
+        "price": 30.63,
+        "rev30d": 54545,
+        "rev12m": 654540,
+        "units30d": 1781,
+        "units12m": 21372,
+        "rating": 4.3,
+        "reviews": 14420,
+        "bsr": 227
+      },
+      {
+        "asin": "B003IO05U0",
+        "brand": "Cetaphil",
+        "title": "CETAPHIL Moisturising Cream, 453 g, For Dry, Sensitive Skin, Intensively Moisturises 48 Hours and Strengthens Resistance, With Vitamin B3, Sunflower Oil, Packaging May Vary",
+        "price": 17.09,
+        "rev30d": 52825,
+        "rev12m": 633905,
+        "units30d": 2506,
+        "units12m": 30072,
+        "rating": 4.7,
+        "reviews": 1801,
+        "bsr": 336
+      },
+      {
+        "asin": "B0BPSWK6Y5",
+        "brand": "Mixa",
+        "title": "Mixa Panthenol Skin Soothing Cream with Panthenol, Care Cream for Dry, Sensitive and Neurodermatitis-Prone Skin, Wound Healing Cream for Redness and Itching, Panthenol Comfort, 400",
+        "price": 5.82,
+        "rev30d": 48620,
+        "rev12m": 583446,
+        "units30d": 6491,
+        "units12m": 77892,
+        "rating": 4.6,
+        "reviews": 2121,
+        "bsr": 92
+      },
+      {
+        "asin": "B09DPFXM6C",
+        "brand": "La Roche-Posay",
+        "title": "La Roche Posay Regenerating Eye Cream for Allergy-Prone Eye Areas, Soothes Redness and Itching, with Niacinamide, Neurosensins and Sphingobioma, Toleriane Dermallergo Eyes, 20 ml",
+        "price": 19.99,
+        "rev30d": 42394,
+        "rev12m": 508729,
+        "units30d": 2124,
+        "units12m": 25488,
+        "rating": 4.5,
+        "reviews": 1606,
+        "bsr": 606
+      },
+      {
+        "asin": "B09DPGJC3B",
+        "brand": "La Roche-Posay",
+        "title": "La Roche Posay Face Cream, for Allergy-Prone Skin, Reduces Redness, with Sphingobioma and Neurosensine, Fragrance-Free and Alcohol-Free, Dermallergo Cream, Toleriane, 40 ml",
+        "price": 21.58,
+        "rev30d": 41934,
+        "rev12m": 503210,
+        "units30d": 1956,
+        "units12m": 23472,
+        "rating": 4.7,
+        "reviews": 2397,
+        "bsr": 5380
+      }
+    ],
+    "Wash": [
+      {
+        "asin": "B0DL8Y8N4G",
+        "brand": "ANUA",
+        "title": "Anua Heartleaf Pore Cleansing Oil, Cleansing Oil Face, Pore Cleanser, Sebum Care, Suitable for All Skin Types, Gently Melting Texture, Makeup Remover, Korean Skincare (200 ml)",
+        "price": 13.99,
+        "rev30d": 64242,
+        "rev12m": 770902,
+        "units30d": 3903,
+        "units12m": 46836,
+        "rating": 4.4,
+        "reviews": 1162,
+        "bsr": 265
+      },
+      {
+        "asin": "B00ZY65OSI",
+        "brand": "Bioderma",
+        "title": "BIODERMA Atoderm Shower Oil - Soothing and Irritation-Relieving Cleansing - Instant Wellbeing and 24 Hours Moisturising - Sensitive, Very Dry to Irritated Skin - Pump Bottle 1 L",
+        "price": 17.43,
+        "rev30d": 25521,
+        "rev12m": 306257,
+        "units30d": 1265,
+        "units12m": 15180,
+        "rating": 4.7,
+        "reviews": 30203,
+        "bsr": 1215
+      },
+      {
+        "asin": "B0967LDZ7R",
+        "brand": "CeraVe",
+        "title": "CeraVe Feuchtigkeitsspendendes Reinigungsöl, Intensive und langanhaltende Feuchtigkeit für normale bis sehr trockene Haut, Reinigung für Körper und Gesicht, mit 3 essenziellen Cera",
+        "price": 15.25,
+        "rev30d": 24907,
+        "rev12m": 298882,
+        "units30d": 1628,
+        "units12m": 19536,
+        "rating": 4.6,
+        "reviews": 10232,
+        "bsr": 775
+      },
+      {
+        "asin": "B07C5XD33D",
+        "brand": "CeraVe",
+        "title": "CeraVe Schäumendes Reinigungsgel für Gesicht und Körper, Feuchtigkeitsspendend und hautstärkend, Für normale bis fettige Haut, Mit Hyaluron und 3 essenziellen Ceramiden",
+        "price": 16.98,
+        "rev30d": 24294,
+        "rev12m": 291523,
+        "units30d": 1569,
+        "units12m": 18828,
+        "rating": 4.6,
+        "reviews": 101254,
+        "bsr": 135
+      },
+      {
+        "asin": "B0BYQ45N7W",
+        "brand": "The Ordinary",
+        "title": "The Ordinary Glucoside Foaming Cleanser, Mild Foaming Face Wash for All Skin Types, Including Sensitive Skin, 150 ml",
+        "price": 10.5,
+        "rev30d": 23303,
+        "rev12m": 279631,
+        "units30d": 2039,
+        "units12m": 24468,
+        "rating": 4.7,
+        "reviews": 2507,
+        "bsr": 874
+      },
+      {
+        "asin": "B0DJPB34JN",
+        "brand": "La Roche-Posay",
+        "title": "La Roche-Posay Lipikar Shower and Bath Oil AP+ Replenishing Shower Gel - Bath Oil for Itchy, Dry and Sensitive Skin 1L",
+        "price": 17.79,
+        "rev30d": 20239,
+        "rev12m": 242874,
+        "units30d": 767,
+        "units12m": 9204,
+        "rating": 4.7,
+        "reviews": 496,
+        "bsr": 2052
+      },
+      {
+        "asin": "B0FJFD8HDX",
+        "brand": "Sebamed",
+        "title": "SEBAMED Fresh Shower 400 ml, Shower Gel for Sensitive and Stressed Skin, Long-Lasting Fresh Feeling, Moisturises the Skin with Amino Acids and Allantoin, for Men and Women",
+        "price": 3.77,
+        "rev30d": 18517,
+        "rev12m": 222208,
+        "units30d": 3939,
+        "units12m": 47268,
+        "rating": 4.8,
+        "reviews": 169,
+        "bsr": 173
+      },
+      {
+        "asin": "B07PTZFT38",
+        "brand": "Weleda",
+        "title": "WELEDA Organic Clarifying Wash Gel - Deep Pore Natural Cosmetics Anti Pimples Face Cleansing for Blemished Skin Face Care Fights Pimples / Blackheads & Reduces Excess Sebum (Vegan,",
+        "price": 5.43,
+        "rev30d": 8110,
+        "rev12m": 97317,
+        "units30d": 1113,
+        "units12m": 13356,
+        "rating": 4.5,
+        "reviews": 1460,
+        "bsr": 2249
+      },
+      {
+        "asin": "B0FB3JRY23",
+        "brand": "Sebamed",
+        "title": "Sebamed Soap-free wash emulsion refill bag, 400 ml, soap-free cleansing for sensitive skin, strengthens the skin barrier, suitable for hand, face and body cleansing",
+        "price": 3.74,
+        "rev30d": 7725,
+        "rev12m": 92694,
+        "units30d": 1740,
+        "units12m": 20880,
+        "rating": 4.7,
+        "reviews": 154,
+        "bsr": 752
+      },
+      {
+        "asin": "B0FJ88C598",
+        "brand": "Sebamed",
+        "title": "SEBAMED Sea Salt Shower 400 ml, Shower Gel for Men and Women, with Original Dead Sea Salt, Soap-free Cleansing for Sensitive and Dry Skin",
+        "price": 3.77,
+        "rev30d": 7458,
+        "rev12m": 89499,
+        "units30d": 1102,
+        "units12m": 13224,
+        "rating": 4.7,
+        "reviews": 138,
+        "bsr": 722
+      }
+    ],
+    "Oil": [
+      {
+        "asin": "B0DGH2CDK4",
+        "brand": "Aveeno",
+        "title": "Aveeno Skin Relief Body Oil Spray - With Oat Oil and Jojoba Oil, Provides Long-Lasting Moisture, Strengthens the Skin Protection Barrier and Improves Elasticity for Very Dry, Sensi",
+        "price": 11.12,
+        "rev30d": 11831,
+        "rev12m": 141973,
+        "units30d": 952,
+        "units12m": 11424,
+        "rating": 4.3,
+        "reviews": 278,
+        "bsr": 906
+      },
+      {
+        "asin": "B07B4ZXYTJ",
+        "brand": "KRÄUTERLAND N A T U R - Ö L M Ü H L E",
+        "title": "Organic skin oil, 100 ml, cold pressed, 100 % natural, for face and body care, massage oil, against wrinkles, dry skin and anti-ageing.",
+        "price": 14.86,
+        "rev30d": 4660,
+        "rev12m": 55914,
+        "units30d": 293,
+        "units12m": 3516,
+        "rating": 4.6,
+        "reviews": 406,
+        "bsr": 7662
+      },
+      {
+        "asin": "B003LDMVNM",
+        "brand": "Weleda",
+        "title": "Weleda Organic Almond Soothing Face Oil (1 x 50 ml)",
+        "price": 11.43,
+        "rev30d": 4500,
+        "rev12m": 53997,
+        "units30d": 338,
+        "units12m": 4056,
+        "rating": 4.4,
+        "reviews": 834,
+        "bsr": 6613
+      },
+      {
+        "asin": "B0C8BWL2ZV",
+        "brand": "Bioderma",
+        "title": "BIODERMA Atoderm 2-in-1 Oil for Normal to Dry Skin, 150 ml Oil",
+        "price": 24.58,
+        "rev30d": 1822,
+        "rev12m": 21860,
+        "units30d": 78,
+        "units12m": 936,
+        "rating": 4.4,
+        "reviews": 201,
+        "bsr": 31011
+      },
+      {
+        "asin": "B07GRX1P9V",
+        "brand": "Satin Naturel",
+        "title": "Satin Naturel Organic Rosehip Oil 100 ml - 100% Pure Cold Pressed Pink Canina - Face Oil, Body Oil, Massage Oil & Hair Oil - Wild Rose Oil for Dry Skin Care with Anti-Wrinkle Effec",
+        "price": 19.99,
+        "rev30d": 1359,
+        "rev12m": 16306,
+        "units30d": 69,
+        "units12m": 828,
+        "rating": 4.4,
+        "reviews": 3601,
+        "bsr": 2936
+      },
+      {
+        "asin": "B076CRBXCN",
+        "brand": "frei öl",
+        "title": "frei öl BabyÖl 140 ml",
+        "price": 8.39,
+        "rev30d": 1231,
+        "rev12m": 14768,
+        "units30d": 127,
+        "units12m": 1524,
+        "rating": 4.6,
+        "reviews": 359,
+        "bsr": 3404
+      },
+      {
+        "asin": "B07M8B7LTY",
+        "brand": "PaediProtect",
+        "title": "PAEDIPROTECT Care Oil for Babies & Children, 200 ml, Baby Oil with Almond Oil for Young Skin, Body Oil for Mild Skin Care and Cleaning in the Nappy Area, Skin Oil without Perfume a",
+        "price": 3.32,
+        "rev30d": 315,
+        "rev12m": 3785,
+        "units30d": 80,
+        "units12m": 960,
+        "rating": 4.5,
+        "reviews": 335,
+        "bsr": 1464
+      },
+      {
+        "asin": "B00E4ZU020",
+        "brand": "Befelka",
+        "title": "Hautöl, 50 ml oil",
+        "price": 11.31,
+        "rev30d": 226,
+        "rev12m": 2715,
+        "units30d": 17,
+        "units12m": 204,
+        "rating": 4.3,
+        "reviews": 92,
+        "bsr": 84399
+      },
+      {
+        "asin": "B0B5B2HG2W",
+        "brand": "Topicrem",
+        "title": "Topicrem - CICA+ Concentrated Oil for Stretch Marks and Scars - Steamed, Helps Prevent, Soothes, Moisturises 24 Hours - Face & Body Care for Sensitive Skin - Non",
+        "price": 14.44,
+        "rev30d": 225,
+        "rev12m": 2696,
+        "units30d": 14,
+        "units12m": 168,
+        "rating": 4.5,
+        "reviews": 580,
+        "bsr": 47966
+      },
+      {
+        "asin": "B09MFKXBFX",
+        "brand": "Oïléna",
+        "title": "Almond Oil for Skin (Body and Face) and Hair, Anti Streaks in Pregnancy, for Atopic Skin and Baby, Massage Oil, Moisturising. Rich in Vitamin E. 100% Pure - 5000 ml 5 L",
+        "price": 41.17,
+        "rev30d": 73,
+        "rev12m": 871,
+        "units30d": 2,
+        "units12m": 24,
+        "rating": 4.4,
+        "reviews": 36,
+        "bsr": 112842
+      }
+    ]
+  },
+  "IT": {
+    "Cream": [
+      {
+        "asin": "B00ST2GSRK",
+        "brand": "La Roche-Posay",
+        "title": "La Roche-Posay Cicaplast Baume B5+, Balsamo Viso e Corpo Riparatore, Adatto a Pelli Secche e Sensibili, Azione Anti-rossore, Effetto Lenitivo, Formula con Tribioma e Prodotti Corre",
+        "price": 9.0,
+        "rev30d": 87466,
+        "rev12m": 1049586,
+        "units30d": 9718,
+        "units12m": 116616,
+        "rating": 4.6,
+        "reviews": 19153,
+        "bsr": 8
+      },
+      {
+        "asin": "B09V542XVS",
+        "brand": "La Roche-Posay",
+        "title": "La Roche-Posay Lipikar Baume AP+M Light, Gentle Body Treatment, Suitable for Atopic Skin, Repairing, Ultra-Moisturizing Result, Formula with Shea Butter, Niacinamide, 400 ml",
+        "price": 26.9,
+        "rev30d": 43172,
+        "rev12m": 518070,
+        "units30d": 1598,
+        "units12m": 19176,
+        "rating": 4.7,
+        "reviews": 1877,
+        "bsr": 2718
+      },
+      {
+        "asin": "B07942ZQBT",
+        "brand": "La Roche-Posay",
+        "title": "La Roche-Posay Toleriane Sensitive Moisturizing Face Cream, Suitable for Sensitive Skin, Soothing Action, Up to 48H Hydration, Formula with Glycerin, Vitamin B3, Ceramide, Thermal ",
+        "price": 15.9,
+        "rev30d": 35507,
+        "rev12m": 426081,
+        "units30d": 2235,
+        "units12m": 26820,
+        "rating": 4.6,
+        "reviews": 4424,
+        "bsr": 209
+      },
+      {
+        "asin": "B09LD6YBMJ",
+        "brand": "Rilastil",
+        "title": "Rilastil Stretch Mark Oil, Soothing and Protective with Sweet Almond Oils, Balsamine Rose, All Skin Types, Pack of 100 ml",
+        "price": 10.43,
+        "rev30d": 28609,
+        "rev12m": 343307,
+        "units30d": 1877,
+        "units12m": 22524,
+        "rating": 4.6,
+        "reviews": 980,
+        "bsr": 422
+      },
+      {
+        "asin": "B00D3HQUH4",
+        "brand": "MOST",
+        "title": "MOST - 2s Cream with Salicylic Acid and Sulphur, Face and Body Cream Controls Redness and Itching, Attenuates Stress Breakouts, Indicated for Sebaceous Skin, Rosacea, Seborrheic De",
+        "price": 16.39,
+        "rev30d": 26075,
+        "rev12m": 312899,
+        "units30d": 1304,
+        "units12m": 15648,
+        "rating": 4.3,
+        "reviews": 1648,
+        "bsr": 849
+      },
+      {
+        "asin": "B0FHQ1Z14S",
+        "brand": "CeraVe",
+        "title": "CeraVe Intensive Moisturising Cream for Very Dry Skin and Itchy Feeling, Soothing Action and Immediate Relief, 3 Essential Ceramides and 5% Hydro-Urea, 340 g",
+        "price": 21.5,
+        "rev30d": 22618,
+        "rev12m": 271418,
+        "units30d": 1151,
+        "units12m": 13812,
+        "rating": 4.4,
+        "reviews": 120,
+        "bsr": 805
+      },
+      {
+        "asin": "B08PHCW2DX",
+        "brand": "La Roche-Posay",
+        "title": "La Roche-Posay, Lipikar, Baume AP+M Relipidante Anti-Irritazioni, Nutre e Lenisce, Arricchito con Niacinamide e Burro di Karitè e Glicerina, Per Pelle Secca Tendente all'Eczema Ato",
+        "price": 21.47,
+        "rev30d": 20239,
+        "rev12m": 242865,
+        "units30d": 904,
+        "units12m": 10848,
+        "rating": 4.7,
+        "reviews": 2517,
+        "bsr": 1151
+      },
+      {
+        "asin": "B07MYQ2JZ4",
+        "brand": "BioNike",
+        "title": "Bionike Triderm A.D. Emollient Body Cream for Atopic Skin, Moisturizing and Repairing Action, Counteracts Dryness and Irritation, Gives Softness to Skin, 400 ml",
+        "price": 17.16,
+        "rev30d": 19657,
+        "rev12m": 235886,
+        "units30d": 918,
+        "units12m": 11016,
+        "rating": 4.6,
+        "reviews": 747,
+        "bsr": 951
+      },
+      {
+        "asin": "B09JZVT78L",
+        "brand": "Dermovitamina",
+        "title": "Dermovitamina Calmilene Extreme Eyelid Cream – Eye Contour Dry and Reactive Skin – Moisturizing Eye Contour Cream – With Vitamin E, Probiotics and Hyaluronic Acid – Fast Absorption",
+        "price": 15.42,
+        "rev30d": 18101,
+        "rev12m": 217212,
+        "units30d": 1626,
+        "units12m": 19512,
+        "rating": 4.5,
+        "reviews": 638,
+        "bsr": 461
+      },
+      {
+        "asin": "B07JDLL4LP",
+        "brand": "Uriage",
+        "title": "URIAGE XÉMOSE C8+ Anti-Itch Body Cream for Dry Skin with Atopic Tendency | Soothes from the first application, 48 hour anti-recurrence action. Nourishing Face and Body Balm I Fragr",
+        "price": 26.2,
+        "rev30d": 17869,
+        "rev12m": 214427,
+        "units30d": 755,
+        "units12m": 9060,
+        "rating": 4.5,
+        "reviews": 1496,
+        "bsr": 1381
+      }
+    ],
+    "Wash": [
+      {
+        "asin": "B0CBKDC7JY",
+        "brand": "Rilastil",
+        "title": "Rilastil Xerolact Dry Skin Protective Cleansing Oil, Special Price, 1000 ml",
+        "price": 15.49,
+        "rev30d": 55021,
+        "rev12m": 660257,
+        "units30d": 3416,
+        "units12m": 40992,
+        "rating": 4.6,
+        "reviews": 166,
+        "bsr": 302
+      },
+      {
+        "asin": "B0DVM1G1B3",
+        "brand": "Rilastil",
+        "title": "Rilastil Xerolact Olio Detergente Viso e Corpo per Neonati, Bambini e Adulti, Idratante, Relipidante, per Pelli Secche, Irritate e con Tendenza Atopica",
+        "price": 15.49,
+        "rev30d": 41295,
+        "rev12m": 495539,
+        "units30d": 2341,
+        "units12m": 28092,
+        "rating": 4.6,
+        "reviews": 3262,
+        "bsr": 130
+      },
+      {
+        "asin": "B0DJPB34JN",
+        "brand": "La Roche-Posay",
+        "title": "La Roche-Posay Lipikar AP+ Cleansing Oil, for Dry Skin with Atopic Eczema Tendency, Anti-Inflammatory and Anti-Itching, Enriched with Aqua Posae Filiformis and Niacinamide, 1L",
+        "price": 23.9,
+        "rev30d": 37757,
+        "rev12m": 453083,
+        "units30d": 1581,
+        "units12m": 18972,
+        "rating": 4.6,
+        "reviews": 511,
+        "bsr": 384
+      },
+      {
+        "asin": "B0052EM8L8",
+        "brand": "La Roche-Posay",
+        "title": "La Roche Posay Toleriane Cleansing and Makeup Remover Fluid for Sensitive and Reactive Skin, Deep Cleansed Skin and Soothing Skin, Reduced Irritations and Redness, with Hydrating G",
+        "price": 19.78,
+        "rev30d": 30537,
+        "rev12m": 366439,
+        "units30d": 1503,
+        "units12m": 18036,
+        "rating": 4.4,
+        "reviews": 2924,
+        "bsr": 569
+      },
+      {
+        "asin": "B00ZY65OSI",
+        "brand": "Bioderma",
+        "title": "BIODERMA Atoderm Shower Oil - Soothing and Anti-Irritation Cleanser - Instant Comfort and Hydration for 24 Hours - Sensitive Skin from Very Dry to Irritated - Pump Bottle 1 Litre",
+        "price": 21.6,
+        "rev30d": 29735,
+        "rev12m": 356825,
+        "units30d": 1508,
+        "units12m": 18096,
+        "rating": 4.6,
+        "reviews": 30194,
+        "bsr": 543
+      },
+      {
+        "asin": "B00V4PHBO8",
+        "brand": "La Roche-Posay",
+        "title": "La Roche-Posay Lipikar Soothing Cleansing Gel for Face and Body, for Sensitive and Dry Skin, Hydrated Skin and Anti-Dryness, with Niacinamide and Shea Butter, Surgras, 400 ml",
+        "price": 10.42,
+        "rev30d": 26499,
+        "rev12m": 317983,
+        "units30d": 2239,
+        "units12m": 26868,
+        "rating": 4.7,
+        "reviews": 2267,
+        "bsr": 167
+      },
+      {
+        "asin": "B0DJPBRNDF",
+        "brand": "La Roche-Posay",
+        "title": "La Roche-Posay Lipikar Soothing Protective Shower Gel for Sensitive and Dry Skin, Gently Cleansed and Hydrated Skin, Enriched with Niacinamide and Shea Butter, 1L",
+        "price": 16.09,
+        "rev30d": 20930,
+        "rev12m": 251158,
+        "units30d": 1201,
+        "units12m": 14412,
+        "rating": 4.7,
+        "reviews": 511,
+        "bsr": 619
+      },
+      {
+        "asin": "B075JNGSQW",
+        "brand": "Aveeno",
+        "title": "Aveeno Daily Moisturising Body Cleanser, Moisturizing Body Wash with Gentle Fragrance, Shower Gel for Normal to Dry Skin, Prebiotic Colloidal Oat Shower Bath, 500 ml",
+        "price": 5.01,
+        "rev30d": 16549,
+        "rev12m": 198588,
+        "units30d": 1839,
+        "units12m": 22068,
+        "rating": 4.6,
+        "reviews": 1449,
+        "bsr": 179
+      },
+      {
+        "asin": "B07CJDK8D8",
+        "brand": "Eucerin",
+        "title": "Eucerin Atopi Control Soothing Cleansing Oil 400ml, Body Cleansing Oil for Daily Use, Shower Oil with 60% Natural Oils for Dry, Irritated and Atopic Dermatitis Skin",
+        "price": 13.11,
+        "rev30d": 15491,
+        "rev12m": 185895,
+        "units30d": 969,
+        "units12m": 11628,
+        "rating": 4.6,
+        "reviews": 644,
+        "bsr": 942
+      },
+      {
+        "asin": "B0CRSJ46YD",
+        "brand": "CeraVe",
+        "title": "CeraVe Cleansing Foam, Face & Body Foam, Normal to Oily Skin, Impurity Free Skin, Strengthened Skin Barrier with Essential Ceramides, Hyaluronic Acid and Niacinamide, 545ml",
+        "price": 16.62,
+        "rev30d": 13979,
+        "rev12m": 167746,
+        "units30d": 770,
+        "units12m": 9240,
+        "rating": 4.7,
+        "reviews": 2496,
+        "bsr": 518
+      }
+    ],
+    "Oil": [
+      {
+        "asin": "B07HBGV2MF",
+        "brand": "Dermovitamina",
+        "title": "Calmilene Dry Oil Spray 200 ml – Spray with Body and Face Oil – For Sensitive Skin and Dermatitis – 5 Functional Oils – Rich in Omega 3, Omega 6, Ceramide and Vitamin E – Dermovita",
+        "price": 15.42,
+        "rev30d": 3772,
+        "rev12m": 45267,
+        "units30d": 293,
+        "units12m": 3516,
+        "rating": 4.4,
+        "reviews": 352,
+        "bsr": 2465
+      },
+      {
+        "asin": "B0DR8VV2H1",
+        "brand": "Aveeno",
+        "title": "Aveeno Skin Relief Body Oil Spray, Body Oil Moisturizing Dry and Sensitive Skin, Body Oil Dermatologically Tested with Natural Origin Ingredients and Oats and Jojoba Oils, 200ml",
+        "price": 10.5,
+        "rev30d": 1790,
+        "rev12m": 21479,
+        "units30d": 121,
+        "units12m": 1452,
+        "rating": 4.3,
+        "reviews": 154,
+        "bsr": 2192
+      },
+      {
+        "asin": "B09MFKXBFX",
+        "brand": "Oïléna",
+        "title": "Almond Oil Skin (Body and Face) and Hair, Anti Stretch Marks Pregnancy, Atopic Skin and Children, Professional Massage Oil, Moisturizing and Rich Vitamin E. 100% Natural and Pure –",
+        "price": 52.42,
+        "rev30d": 382,
+        "rev12m": 4586,
+        "units30d": 7,
+        "units12m": 84,
+        "rating": 4.4,
+        "reviews": 23,
+        "bsr": 88814
+      },
+      {
+        "asin": "B07VR7Z936",
+        "brand": "Oïléna",
+        "title": "Almond Oil Skin (Body and Face) and Hair, Anti Stretch Marks Pregnancy, Atopic Skin and Children, Professional Massage Oil, Moisturizing and Rich Vitamin E. 100% Natural and Pure –",
+        "price": 16.46,
+        "rev30d": 370,
+        "rev12m": 4438,
+        "units30d": 18,
+        "units12m": 216,
+        "rating": 4.4,
+        "reviews": 460,
+        "bsr": 61705
+      },
+      {
+        "asin": "B0CSYNGW6H",
+        "brand": "Oïléna",
+        "title": "Almond Oil Skin (Body and Face) and Hair, Anti Stretch Marks Pregnancy, Atopic Skin and Children, Professional Massage Oil, Moisturizing and Rich Vitamin E. 100% Natural and Pure –",
+        "price": 19.89,
+        "rev30d": 38,
+        "rev12m": 460,
+        "units30d": 2,
+        "units12m": 24,
+        "rating": 4.6,
+        "reviews": 11,
+        "bsr": 127730
+      }
+    ]
+  },
+  "FR": {
+    "Cream": [
+      {
+        "asin": "B01LEJ5MSK",
+        "brand": "COSRX",
+        "title": "COSRX Advanced Snail 92% All In One Cream 100ml | Moisturizing Cream with Snail Slime | For Anti Wrinkle Acne Skin & Dry Skin Day Care Women | Korean Korean Skincare",
+        "price": 16.96,
+        "rev30d": 33639,
+        "rev12m": 403671,
+        "units30d": 1985,
+        "units12m": 23820,
+        "rating": 4.4,
+        "reviews": 58119,
+        "bsr": 277
+      },
+      {
+        "asin": "B00CA58DJ8",
+        "brand": "Topicrem",
+        "title": "Topicrem - Ultra Moisturizing Body Lotion - Moisturizes 48h, Relipid, Protects the Skin - Smooth Texture, Delicate Odour - Moisturizing Cream for Sensitive Skin - Made in France - ",
+        "price": 19.99,
+        "rev30d": 29589,
+        "rev12m": 355067,
+        "units30d": 1497,
+        "units12m": 17964,
+        "rating": 4.6,
+        "reviews": 3113,
+        "bsr": 292
+      },
+      {
+        "asin": "B00AT0Y1U6",
+        "brand": "Topicrem",
+        "title": "Topicrem - Ultra Moisturizing Body Lotion - Moisturizes 48 hours, Relipid, Protects the Skin - Smooth Texture, Delicate Odour - Moisturizing Cream for Sensitive Skin - Made in Fran",
+        "price": 10.67,
+        "rev30d": 19596,
+        "rev12m": 235154,
+        "units30d": 1935,
+        "units12m": 23220,
+        "rating": 4.6,
+        "reviews": 4305,
+        "bsr": 194
+      },
+      {
+        "asin": "B0052EBJF4",
+        "brand": "Cicabiafine",
+        "title": "Cicabiafine – Nourishing Anti-Irritation Cream (200 ml tube) – Moisturizing cream for extra-dry skin with atopic tendency – Repairing enriched with glycerin",
+        "price": 12.79,
+        "rev30d": 14431,
+        "rev12m": 173175,
+        "units30d": 1138,
+        "units12m": 13656,
+        "rating": 4.6,
+        "reviews": 1153,
+        "bsr": 751
+      },
+      {
+        "asin": "B00PAUP3J8",
+        "brand": "Topicrem",
+        "title": "Topicrem - DA Balm Emollient - Moisturizing Cream, Relipid, Nourishes & Soothes - Face and Body Care for Sensitive, Dry, Atopic Skin, Babies, Children & Adults - Made in France - 5",
+        "price": 12.79,
+        "rev30d": 13741,
+        "rev12m": 164896,
+        "units30d": 1143,
+        "units12m": 13716,
+        "rating": 4.5,
+        "reviews": 2234,
+        "bsr": 201
+      },
+      {
+        "asin": "B07F1B2TJX",
+        "brand": "Neutrogena",
+        "title": "Neutrogena – L'Originale Norwegian Formula Concentrated Hand Cream (2 x 50 ml tubes) – Moisturizing cream for very dry and chapped hands – Immediate relief and 24 h hydration",
+        "price": 9.13,
+        "rev30d": 12933,
+        "rev12m": 155196,
+        "units30d": 1719,
+        "units12m": 20628,
+        "rating": 4.6,
+        "reviews": 1226,
+        "bsr": 523
+      },
+      {
+        "asin": "B0052ED0FG",
+        "brand": "Cicabiafine",
+        "title": "Cicabiafine Baume Hydratant Anti-Dessèchement, Pour Peaux très Sèches à Irritées, Flacon pompe de 400 ml",
+        "price": 14.89,
+        "rev30d": 10750,
+        "rev12m": 129003,
+        "units30d": 859,
+        "units12m": 10308,
+        "rating": 4.7,
+        "reviews": 811,
+        "bsr": 1453
+      },
+      {
+        "asin": "B0CZRN24YX",
+        "brand": "NIVEA",
+        "title": "NIVEA Repair Balm Face, Body & Hands Very Dry Skin (1 x 400ml), Vitamin E & Glycerin Cream for Extra Dry Rough Skin, 72H Moisturizing Body Care",
+        "price": 5.85,
+        "rev30d": 9677,
+        "rev12m": 116127,
+        "units30d": 1642,
+        "units12m": 19704,
+        "rating": 4.6,
+        "reviews": 553,
+        "bsr": 345
+      },
+      {
+        "asin": "B0GHPPFBP9",
+        "brand": "Mixa",
+        "title": "MIXA - Self Tanning - Nourishing Body Lotion Sun Effect - Progressive Golden Tan 24H - Shea Butter & Apricot Oil - Light Skin - 250 ml",
+        "price": 6.59,
+        "rev30d": 6813,
+        "rev12m": 81761,
+        "units30d": 972,
+        "units12m": 11664,
+        "rating": 4.4,
+        "reviews": 40,
+        "bsr": 11
+      },
+      {
+        "asin": "B09MGD4YG9",
+        "brand": "SVR",
+        "title": "SVR - Topialyse Protect+ Balm - 48H anti-irritation relief balm - For dry to atopic skin - AD ceramides, vegetable oils, prebiotics - 400 ml",
+        "price": 23.47,
+        "rev30d": 6720,
+        "rev12m": 80641,
+        "units30d": 348,
+        "units12m": 4176,
+        "rating": 4.7,
+        "reviews": 710,
+        "bsr": 4115
+      }
+    ],
+    "Wash": [
+      {
+        "asin": "B0967LDZ7R",
+        "brand": "CeraVe",
+        "title": "CeraVe - Moisturising Foaming Cleansing Oil - Moisturizes and Soothes Without Altering the Skin Barrier - Ceramides, Triglycerides, Squalane - Normal to Very Dry, Atopic Prone Skin",
+        "price": 11.9,
+        "rev30d": 26217,
+        "rev12m": 314601,
+        "units30d": 2220,
+        "units12m": 26640,
+        "rating": 4.6,
+        "reviews": 6153,
+        "bsr": 240
+      },
+      {
+        "asin": "B09D8SW19S",
+        "brand": "SVR",
+        "title": "SVR - Topialysis Cleansing Oil - 24H Anti-Scratch Relipidant Cleansing Oil - For dry to atopic skin - Omega 3-6-9, Niacinamide, Prebiotics - 1000ml",
+        "price": 20.9,
+        "rev30d": 16121,
+        "rev12m": 193456,
+        "units30d": 823,
+        "units12m": 9876,
+        "rating": 4.6,
+        "reviews": 1514,
+        "bsr": 818
+      },
+      {
+        "asin": "B0CBCLCTCT",
+        "brand": "Topicrem",
+        "title": "Topicrem - Ultra-Hydratant, Huile de Douche - Nettoie, Nourrit, Protège - Gel Douche Visage et Corps pour Peaux Sensibles, Sèches, Bébés, Enfants et Adultes - Fabrication Française",
+        "price": 9.89,
+        "rev30d": 15279,
+        "rev12m": 183354,
+        "units30d": 1736,
+        "units12m": 20832,
+        "rating": 4.5,
+        "reviews": 407,
+        "bsr": 438
+      },
+      {
+        "asin": "B098SRZ72Z",
+        "brand": "Cicabiafine",
+        "title": "Cicabiafine – Nourishing Shower Balm (1 L bottle) – Moisturizing cleansing care for very dry skin – Gently cleanses without aggression from 3 years old",
+        "price": 10.99,
+        "rev30d": 14581,
+        "rev12m": 174968,
+        "units30d": 1413,
+        "units12m": 16956,
+        "rating": 4.5,
+        "reviews": 859,
+        "bsr": 650
+      },
+      {
+        "asin": "B09FYL3CMY",
+        "brand": "SVR",
+        "title": "SVR - Topialysis Gel Lavant - Gentle protective anti-drying cleanser - For dry and sensitive skin - Vegetable glycerin, Omega 3-6-9-1 Liters",
+        "price": 12.9,
+        "rev30d": 13781,
+        "rev12m": 165373,
+        "units30d": 1418,
+        "units12m": 17016,
+        "rating": 4.5,
+        "reviews": 1406,
+        "bsr": 450
+      },
+      {
+        "asin": "B0FQV35VVG",
+        "brand": "DEXERYL",
+        "title": "DEXECLEAR by DEXERYL Anti-Blemish Foaming Gel, 2-in-1: Cleans & Reduces Pimples - Salicylic Acid - Soap Free, Fragrance Free - Face & Body - Acne-prone Oily Skin, 400 ml",
+        "price": 12.99,
+        "rev30d": 12613,
+        "rev12m": 151358,
+        "units30d": 972,
+        "units12m": 11664,
+        "rating": 4.5,
+        "reviews": 123,
+        "bsr": 556
+      },
+      {
+        "asin": "B0DZDBXPXW",
+        "brand": "Sanex",
+        "title": "SANEX - Derma Therapie - Anti-itch and anti-irritation shower oil - Shower gel - Skin prone to atopic eczema - hypoallergenic - amino acid complex - 425 ML",
+        "price": 4.6,
+        "rev30d": 7593,
+        "rev12m": 91121,
+        "units30d": 1654,
+        "units12m": 19848,
+        "rating": 4.4,
+        "reviews": 267,
+        "bsr": 117
+      },
+      {
+        "asin": "B0D1CVD3PL",
+        "brand": "Dove",
+        "title": "DOVE - Shower Gel - Moisturizing Essential - Gently cleanses and softens the skin - Dermatologically tested - 0% Sulfate (promo pack of 2 x 450 ml)",
+        "price": 6.5,
+        "rev30d": 7119,
+        "rev12m": 85430,
+        "units30d": 1116,
+        "units12m": 13392,
+        "rating": 4.6,
+        "reviews": 589,
+        "bsr": 318
+      },
+      {
+        "asin": "B0CTC4RF1N",
+        "brand": "DEXERYL",
+        "title": "DEXERYL - Soothing Shower Oil - Cleanses & Relipides the skin from birth - Preserves the skin barrier - Very dry or atopic skin - Soap, Fragrance Free - 500 ml",
+        "price": 12.69,
+        "rev30d": 5536,
+        "rev12m": 66427,
+        "units30d": 437,
+        "units12m": 5244,
+        "rating": 4.3,
+        "reviews": 42,
+        "bsr": 1034
+      },
+      {
+        "asin": "B0G48SK26Y",
+        "brand": "DEXERYL",
+        "title": "DEXERYL - Soothing Shower Oil - Cleanses & Relipides the skin from birth - Preserves the skin barrier - Very dry or atopic skin - Soap, Fragrance Free - 1L",
+        "price": 17.28,
+        "rev30d": 4561,
+        "rev12m": 54734,
+        "units30d": 272,
+        "units12m": 3264,
+        "rating": 4.3,
+        "reviews": 42,
+        "bsr": 1034
+      }
+    ],
+    "Oil": [
+      {
+        "asin": "B0B5B2HG2W",
+        "brand": "Topicrem",
+        "title": "Topicrem - CICA+, Stretch Marks and Scars Concentrated Oil - Attenuated, Helps Prevent, Soothes, Moisturizes 24h - Face and Body Care for Sensitive Skin - Non Greasy, Non Sticky Fi",
+        "price": 9.98,
+        "rev30d": 8294,
+        "rev12m": 99533,
+        "units30d": 810,
+        "units12m": 9720,
+        "rating": 4.5,
+        "reviews": 537,
+        "bsr": 827
+      },
+      {
+        "asin": "B0060OU7F8",
+        "brand": "Mercurochrome",
+        "title": "MERCUROCHROME - Refined Sweet Almond Oil - Softening and Nourishing - 100 ml",
+        "price": 5.23,
+        "rev30d": 225,
+        "rev12m": 2701,
+        "units30d": 46,
+        "units12m": 552,
+        "rating": 4.7,
+        "reviews": 362,
+        "bsr": 17356
+      }
+    ]
+  },
+  "ES": {
+    "Cream": [
+      {
+        "asin": "B0D1GK2ZKB",
+        "brand": "Neutrogena",
+        "title": "Neutrogena Norwegian Formula CICA Intense Repair Body Lotion for Dry Skin (Pack of 2 x 750ml) Repairing Body Moisturizer with Centella Asiatica",
+        "price": 15.29,
+        "rev30d": 56324,
+        "rev12m": 675889,
+        "units30d": 3884,
+        "units12m": 46608,
+        "rating": 4.7,
+        "reviews": 743,
+        "bsr": 109
+      },
+      {
+        "asin": "B087XGVFL1",
+        "brand": "BEPANTOL DERMA",
+        "title": "Atopic Skin Moisturizing Cream - Bepanthol SensiControl Daily Emollient Cream with Pro-Vitamin B5 - Promotes Deep and Lasting Hydration for Healthy and Protected Skin - 400ml",
+        "price": 19.5,
+        "rev30d": 32456,
+        "rev12m": 389468,
+        "units30d": 1575,
+        "units12m": 18900,
+        "rating": 4.6,
+        "reviews": 1435,
+        "bsr": 274
+      },
+      {
+        "asin": "B0BJFP4VYY",
+        "brand": "TALQUISTINA",
+        "title": "TALQUISTINA - Moisturizing Cream 400 ml, for Itchy Skin, Daily Use, Long-Lasting Hydration, Protects and Soothes Dryness, Suitable for Sensitive Skin.",
+        "price": 23.08,
+        "rev30d": 23001,
+        "rev12m": 276014,
+        "units30d": 1059,
+        "units12m": 12708,
+        "rating": 4.6,
+        "reviews": 776,
+        "bsr": 515
+      },
+      {
+        "asin": "B00A3M1TIW",
+        "brand": "Weleda",
+        "title": "Weleda - Skin Food Original, Repair Cream, Nourishes and Hydrates, with Sunflower and Almond Oil, Calendula, Wild Thought and Chamomile, for Very Dry and Cracked Skin -75ml",
+        "price": 9.6,
+        "rev30d": 15686,
+        "rev12m": 188228,
+        "units30d": 1612,
+        "units12m": 19344,
+        "rating": 4.6,
+        "reviews": 4359,
+        "bsr": 168
+      },
+      {
+        "asin": "B0FRSZ94RH",
+        "brand": "HNYGS-EU",
+        "title": "Antifungal Cream 30 g, To Relieve Itchy Jock Skin, Eczema, Effective Treatment of Athlete's Feet, Soothes Itching, Cream to Relieve Skin Itch in Adults",
+        "price": 11.99,
+        "rev30d": 13563,
+        "rev12m": 162754,
+        "units30d": 1132,
+        "units12m": 13584,
+        "rating": 4.4,
+        "reviews": 34,
+        "bsr": 397
+      },
+      {
+        "asin": "B00E0JG2FY",
+        "brand": "BEPANTHOL",
+        "title": "Bepanthol Moisturizing Protective Ointment, Protects and Regenerates Dry, Irritated or Sensitized Skin by External Factors, 100 g",
+        "price": 14.5,
+        "rev30d": 12779,
+        "rev12m": 153352,
+        "units30d": 944,
+        "units12m": 11328,
+        "rating": 4.7,
+        "reviews": 1116,
+        "bsr": 613
+      },
+      {
+        "asin": "B0098G931Y",
+        "brand": "Hengulus",
+        "title": "Dexeryl Cream, 500 g",
+        "price": 15.99,
+        "rev30d": 11120,
+        "rev12m": 133446,
+        "units30d": 723,
+        "units12m": 8676,
+        "rating": 4.6,
+        "reviews": 1364,
+        "bsr": 3118
+      },
+      {
+        "asin": "B0FHQ1Z14S",
+        "brand": "CeraVe",
+        "title": "CeraVe Intensive Moisturizing Creme For Dry Dry Skin 340ml",
+        "price": 20.4,
+        "rev30d": 10712,
+        "rev12m": 128545,
+        "units30d": 533,
+        "units12m": 6396,
+        "rating": 4.6,
+        "reviews": 117,
+        "bsr": 2135
+      },
+      {
+        "asin": "B097H85186",
+        "brand": "BEPANTHOL",
+        "title": "Bepanthol Derma Repair Day Moisturizing Face Cream, Very Dry and Sensitive Skin, 50 Milliliters",
+        "price": 20.39,
+        "rev30d": 10016,
+        "rev12m": 120194,
+        "units30d": 492,
+        "units12m": 5904,
+        "rating": 4.6,
+        "reviews": 349,
+        "bsr": 1304
+      },
+      {
+        "asin": "B0DRKGHCM3",
+        "brand": "Green Cornerss Care",
+        "title": "GREEN CORNERSS CARE - Oat Moisturizing Cream | 280ml | Suitable for Skin with Atopic Dermatitis | With Prebiotics | 99% Natural | Perfect for the Whole Family, Suitable for Childre",
+        "price": 19.89,
+        "rev30d": 9936,
+        "rev12m": 119237,
+        "units30d": 500,
+        "units12m": 6000,
+        "rating": 4.7,
+        "reviews": 110,
+        "bsr": 2898
+      }
+    ],
+    "Wash": [
+      {
+        "asin": "B09BBH8B78",
+        "brand": "ISDIN",
+        "title": "ISDIN Germisdin Aloe Vera Body Hygiene and Hands, Body Wash Formulated with Antiseptic Agents, Recommended for Dry Skin",
+        "price": 26.38,
+        "rev30d": 20598,
+        "rev12m": 247174,
+        "units30d": 781,
+        "units12m": 9372,
+        "rating": 4.6,
+        "reviews": 2178,
+        "bsr": 518
+      },
+      {
+        "asin": "B0DJPBRNDF",
+        "brand": "La Roche-Posay",
+        "title": "La Roche Posay, Lipikar Physiological Shower Gel Relipidizing, With Niacinamide and Shea Butter, Soap and Paraben Free, for Sensitive and Dry Skin, 1L",
+        "price": 14.49,
+        "rev30d": 18576,
+        "rev12m": 222907,
+        "units30d": 1290,
+        "units12m": 15480,
+        "rating": 4.6,
+        "reviews": 2765,
+        "bsr": 332
+      },
+      {
+        "asin": "B0967LDZ7R",
+        "brand": "CeraVe",
+        "title": "CeraVe Limpiador en Aceite Espumoso Hidratante, Para Pieles Normales a Muy Secas con Tendencia Atópica, Para Rostro y Cuerpo, Limpia e Hidrata, Enriquecido con Ácido Hialurónico, 4",
+        "price": 15.2,
+        "rev30d": 18141,
+        "rev12m": 217696,
+        "units30d": 1199,
+        "units12m": 14388,
+        "rating": 4.6,
+        "reviews": 10161,
+        "bsr": 153
+      },
+      {
+        "asin": "B09CCJD53W",
+        "brand": "CeraVe",
+        "title": "CeraVe Limpiador en Aceite Espumoso Hidratante, Para Pieles Normales a Muy Secas con Tendencia Atópica, Para Rostro y Cuerpo, Limpia e Hidrata, Enriquecido con Ácido Hialurónico, 4",
+        "price": 13.92,
+        "rev30d": 14443,
+        "rev12m": 173317,
+        "units30d": 1628,
+        "units12m": 19536,
+        "rating": 4.6,
+        "reviews": 10161,
+        "bsr": 219
+      },
+      {
+        "asin": "B0052EM8L8",
+        "brand": "La Roche-Posay",
+        "title": "La Roche Posay, Toleriane Dermo Facial Cleanser, Daily Cleansing Without Irritation, For Face and Eye Contour, With Glycerin, Hypoallergenic, For Very Sensitive Skin, 400 ml",
+        "price": 17.92,
+        "rev30d": 12343,
+        "rev12m": 148112,
+        "units30d": 723,
+        "units12m": 8676,
+        "rating": 4.3,
+        "reviews": 5525,
+        "bsr": 999
+      },
+      {
+        "asin": "B082Y8TYSP",
+        "brand": "Cetaphil",
+        "title": "CETAPHIL PRO REDNESS Control Facial Cleansing Foam, for Skin with Rosacea and Redness Tendency, 236ML",
+        "price": 14.45,
+        "rev30d": 11097,
+        "rev12m": 133162,
+        "units30d": 792,
+        "units12m": 9504,
+        "rating": 4.5,
+        "reviews": 189,
+        "bsr": 653
+      },
+      {
+        "asin": "B0DVM1G1B3",
+        "brand": "Rilastil",
+        "title": "Rilastil - Xerolact Protective Cleansing Oil for Very Dry or Atopic Skin, Anti-Itch Moisturizing Shower Gel with Rice and Almond Oil, Suitable for Babies, Children and Adults - 100",
+        "price": 12.72,
+        "rev30d": 9733,
+        "rev12m": 116794,
+        "units30d": 774,
+        "units12m": 9288,
+        "rating": 4.6,
+        "reviews": 421,
+        "bsr": 722
+      },
+      {
+        "asin": "B07DMSPFF5",
+        "brand": "Sebamed",
+        "title": "Sebamed Soap-Free Emulsion",
+        "price": 16.28,
+        "rev30d": 6495,
+        "rev12m": 77945,
+        "units30d": 486,
+        "units12m": 5832,
+        "rating": 4.6,
+        "reviews": 667,
+        "bsr": 932
+      },
+      {
+        "asin": "B01N7ISSWU",
+        "brand": "YOFFEE",
+        "title": "Yoffee Anti-Bacterial Wash – Sanitizing Shower Gel – Antibacterial Soap with Tea Tree Oil and Coconut – Prevents, Removes and Prevents Bacteria-Relieves Itches, Irritations and Inf",
+        "price": 19.9,
+        "rev30d": 6362,
+        "rev12m": 76341,
+        "units30d": 320,
+        "units12m": 3840,
+        "rating": 4.4,
+        "reviews": 790,
+        "bsr": 2037
+      },
+      {
+        "asin": "B09FFFV1XX",
+        "brand": "Sensilis",
+        "title": "Sensilis - Gentle Cleansing Mousse, Espuma Limpiadora Facial sin Jabón, Hidrata, Calma y Protege de la Polución, con Ácido Hialurónico y Prebióticos, para Pieles Sensibles",
+        "price": 10.75,
+        "rev30d": 6236,
+        "rev12m": 74826,
+        "units30d": 568,
+        "units12m": 6816,
+        "rating": 4.4,
+        "reviews": 738,
+        "bsr": 611
+      }
+    ],
+    "Oil": [
+      {
+        "asin": "B0789JCK2Q",
+        "brand": "OZONO D´OR",
+        "title": "Ozonated oil 100 ml (Organic Extra Virgin Olive). Moisturizing and regenerating the skin effective in pathologies such as: irritations, ulcers, varicose veins, stretch marks, burns",
+        "price": 19.9,
+        "rev30d": 2558,
+        "rev12m": 30692,
+        "units30d": 128,
+        "units12m": 1536,
+        "rating": 4.6,
+        "reviews": 203,
+        "bsr": 4867
+      },
+      {
+        "asin": "B09Q8RXY94",
+        "brand": "LABORATORIOS BABE",
+        "title": "BABÉ LABORATORIES - Oil Balm 500ml | Moisturizing and Nourishing Body Cream for Dry and Atopic Skin | With Prebiotics, Probiotics and Omega | Itch Relief and Repair | Body Cream",
+        "price": 16.53,
+        "rev30d": 1492,
+        "rev12m": 17909,
+        "units30d": 73,
+        "units12m": 876,
+        "rating": 4.3,
+        "reviews": 72,
+        "bsr": 13147
+      },
+      {
+        "asin": "B07VR7Z936",
+        "brand": "Oïléna",
+        "title": "Almond Oil, Body, Facia, Hair, Anti Stretch Pregnancy, Atopic Skin and Baby, Professional Massage Oil, Moisturizing and Rich in Vitamin E, 100% Natural, Pure, 1000 ml 1 L",
+        "price": 16.5,
+        "rev30d": 94,
+        "rev12m": 1123,
+        "units30d": 5,
+        "units12m": 60,
+        "rating": 4.5,
+        "reviews": 471,
+        "bsr": 54336
+      },
+      {
+        "asin": "B09MFKXBFX",
+        "brand": "Oïléna",
+        "title": "Almond Oil Skin (Body and Facial) and Hair, Anti Stretch Pregnancy, Atopic Skin and Drink, Professional Massage Oil. Moisturizing and Rich in Vitamin E. 100% Natural and Pure - 500",
+        "price": 48.88,
+        "rev30d": 59,
+        "rev12m": 705,
+        "units30d": 1,
+        "units12m": 12,
+        "rating": 4.3,
+        "reviews": 26,
+        "bsr": 89646
+      },
+      {
+        "asin": "B0CSYNGW6H",
+        "brand": "Oïléna",
+        "title": "Almond Oil Skin (Body and Facial) and Hair, Anti Stretch Pregnancy, Atopic Skin and Drink, Professional Massage Oil. Moisturizing and Rich in Vitamin E. 100% Natural and Pure - 250",
+        "price": 13.34,
+        "rev30d": 17,
+        "rev12m": 207,
+        "units30d": 1,
+        "units12m": 12,
+        "rating": 4.6,
+        "reviews": 12,
+        "bsr": 119023
+      },
+      {
+        "asin": "B0F13FCTWQ",
+        "brand": "Instituto Español",
+        "title": "Atopic Skin Oil Gel, 300 ml (Pack of 2)",
+        "price": 9.5,
+        "rev30d": 0,
+        "rev12m": 0,
+        "units30d": 0,
+        "units12m": 0,
+        "rating": 4.2,
+        "reviews": 937,
+        "bsr": 651
+      }
+    ]
+  }
+};
+const TOP_PRODUCTS_FLAT = [{"asin": "B0BJFLVCZK", "brand": "La Roche-Posay", "title": "La Roche Posay Repairing Cream for Body, Face and Lips, for Sensitive Skin, with Dexpanthenol and Tribioma, Reduces Tension and Redness, Cicaplast Baume B5+, 100 ml", "price": 16.79, "rev30d": 194734, "rev12m": 2336813, "units30d": 12678, "units12m": 152136, "rating": 4.7, "reviews": 4164, "bsr": 18, "market": "DE", "segment": "Cream"}, {"asin": "B09V542XVS", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar Baume Light AP+M, Replenishing Lotion for Neurodermatitis and Dry Skin, Quick Absorption, No Fragrances, for Babies from 3 Months, Children and Adults, 400 m", "price": 23.99, "rev30d": 79050, "rev12m": 948605, "units30d": 2973, "units12m": 35676, "rating": 4.7, "reviews": 1871, "bsr": 1093, "market": "DE", "segment": "Cream"}, {"asin": "B07CG2TD9F", "brand": "CeraVe", "title": "Cerave moisturising lotion, 236 ml", "price": 10.48, "rev30d": 78977, "rev12m": 947726, "units30d": 7543, "units12m": 90516, "rating": 4.6, "reviews": 44258, "bsr": 49, "market": "DE", "segment": "Cream"}, {"asin": "B09V8JNGD4", "brand": "Mixa", "title": "Mixa Cream for Dry and Cracked Skin, Moisturiser for the Body, Hands and Face, with Urea and Niacinamide, Urea Cica Repair + Skin Renewing Cream, 1 x 400 ml", "price": 6.68, "rev30d": 69553, "rev12m": 834641, "units30d": 8097, "units12m": 97164, "rating": 4.5, "reviews": 7323, "bsr": 41, "market": "DE", "segment": "Cream"}, {"asin": "B07C5VMJPW", "brand": "CeraVe", "title": "Cerave - Moisturizer for dry to very dry skin - 177 ml", "price": 10.3, "rev30d": 66515, "rev12m": 798182, "units30d": 6052, "units12m": 72624, "rating": 4.5, "reviews": 18996, "bsr": 104, "market": "DE", "segment": "Cream"}, {"asin": "B074D5ZKX9", "brand": "Sorion", "title": "Sorion cream - also suitable for skin care in cases of psoriasis and eczema With coconut oil, Neem, Rubia Cordifolia, Turmeric and Wrightia tinctoria.", "price": 30.63, "rev30d": 54545, "rev12m": 654540, "units30d": 1781, "units12m": 21372, "rating": 4.3, "reviews": 14420, "bsr": 227, "market": "DE", "segment": "Cream"}, {"asin": "B003IO05U0", "brand": "Cetaphil", "title": "CETAPHIL Moisturising Cream, 453 g, For Dry, Sensitive Skin, Intensively Moisturises 48 Hours and Strengthens Resistance, With Vitamin B3, Sunflower Oil, Packaging May Vary", "price": 17.09, "rev30d": 52825, "rev12m": 633905, "units30d": 2506, "units12m": 30072, "rating": 4.7, "reviews": 1801, "bsr": 336, "market": "DE", "segment": "Cream"}, {"asin": "B0BPSWK6Y5", "brand": "Mixa", "title": "Mixa Panthenol Skin Soothing Cream with Panthenol, Care Cream for Dry, Sensitive and Neurodermatitis-Prone Skin, Wound Healing Cream for Redness and Itching, Panthenol Comfort, 400", "price": 5.82, "rev30d": 48620, "rev12m": 583446, "units30d": 6491, "units12m": 77892, "rating": 4.6, "reviews": 2121, "bsr": 92, "market": "DE", "segment": "Cream"}, {"asin": "B09DPFXM6C", "brand": "La Roche-Posay", "title": "La Roche Posay Regenerating Eye Cream for Allergy-Prone Eye Areas, Soothes Redness and Itching, with Niacinamide, Neurosensins and Sphingobioma, Toleriane Dermallergo Eyes, 20 ml", "price": 19.99, "rev30d": 42394, "rev12m": 508729, "units30d": 2124, "units12m": 25488, "rating": 4.5, "reviews": 1606, "bsr": 606, "market": "DE", "segment": "Cream"}, {"asin": "B09DPGJC3B", "brand": "La Roche-Posay", "title": "La Roche Posay Face Cream, for Allergy-Prone Skin, Reduces Redness, with Sphingobioma and Neurosensine, Fragrance-Free and Alcohol-Free, Dermallergo Cream, Toleriane, 40 ml", "price": 21.58, "rev30d": 41934, "rev12m": 503210, "units30d": 1956, "units12m": 23472, "rating": 4.7, "reviews": 2397, "bsr": 5380, "market": "DE", "segment": "Cream"}, {"asin": "B0DL8Y8N4G", "brand": "ANUA", "title": "Anua Heartleaf Pore Cleansing Oil, Cleansing Oil Face, Pore Cleanser, Sebum Care, Suitable for All Skin Types, Gently Melting Texture, Makeup Remover, Korean Skincare (200 ml)", "price": 13.99, "rev30d": 64242, "rev12m": 770902, "units30d": 3903, "units12m": 46836, "rating": 4.4, "reviews": 1162, "bsr": 265, "market": "DE", "segment": "Wash"}, {"asin": "B00ZY65OSI", "brand": "Bioderma", "title": "BIODERMA Atoderm Shower Oil - Soothing and Irritation-Relieving Cleansing - Instant Wellbeing and 24 Hours Moisturising - Sensitive, Very Dry to Irritated Skin - Pump Bottle 1 L", "price": 17.43, "rev30d": 25521, "rev12m": 306257, "units30d": 1265, "units12m": 15180, "rating": 4.7, "reviews": 30203, "bsr": 1215, "market": "DE", "segment": "Wash"}, {"asin": "B0967LDZ7R", "brand": "CeraVe", "title": "CeraVe Feuchtigkeitsspendendes Reinigungsöl, Intensive und langanhaltende Feuchtigkeit für normale bis sehr trockene Haut, Reinigung für Körper und Gesicht, mit 3 essenziellen Cera", "price": 15.25, "rev30d": 24907, "rev12m": 298882, "units30d": 1628, "units12m": 19536, "rating": 4.6, "reviews": 10232, "bsr": 775, "market": "DE", "segment": "Wash"}, {"asin": "B07C5XD33D", "brand": "CeraVe", "title": "CeraVe Schäumendes Reinigungsgel für Gesicht und Körper, Feuchtigkeitsspendend und hautstärkend, Für normale bis fettige Haut, Mit Hyaluron und 3 essenziellen Ceramiden", "price": 16.98, "rev30d": 24294, "rev12m": 291523, "units30d": 1569, "units12m": 18828, "rating": 4.6, "reviews": 101254, "bsr": 135, "market": "DE", "segment": "Wash"}, {"asin": "B0BYQ45N7W", "brand": "The Ordinary", "title": "The Ordinary Glucoside Foaming Cleanser, Mild Foaming Face Wash for All Skin Types, Including Sensitive Skin, 150 ml", "price": 10.5, "rev30d": 23303, "rev12m": 279631, "units30d": 2039, "units12m": 24468, "rating": 4.7, "reviews": 2507, "bsr": 874, "market": "DE", "segment": "Wash"}, {"asin": "B0DJPB34JN", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar Shower and Bath Oil AP+ Replenishing Shower Gel - Bath Oil for Itchy, Dry and Sensitive Skin 1L", "price": 17.79, "rev30d": 20239, "rev12m": 242874, "units30d": 767, "units12m": 9204, "rating": 4.7, "reviews": 496, "bsr": 2052, "market": "DE", "segment": "Wash"}, {"asin": "B0FJFD8HDX", "brand": "Sebamed", "title": "SEBAMED Fresh Shower 400 ml, Shower Gel for Sensitive and Stressed Skin, Long-Lasting Fresh Feeling, Moisturises the Skin with Amino Acids and Allantoin, for Men and Women", "price": 3.77, "rev30d": 18517, "rev12m": 222208, "units30d": 3939, "units12m": 47268, "rating": 4.8, "reviews": 169, "bsr": 173, "market": "DE", "segment": "Wash"}, {"asin": "B07PTZFT38", "brand": "Weleda", "title": "WELEDA Organic Clarifying Wash Gel - Deep Pore Natural Cosmetics Anti Pimples Face Cleansing for Blemished Skin Face Care Fights Pimples / Blackheads & Reduces Excess Sebum (Vegan,", "price": 5.43, "rev30d": 8110, "rev12m": 97317, "units30d": 1113, "units12m": 13356, "rating": 4.5, "reviews": 1460, "bsr": 2249, "market": "DE", "segment": "Wash"}, {"asin": "B0FB3JRY23", "brand": "Sebamed", "title": "Sebamed Soap-free wash emulsion refill bag, 400 ml, soap-free cleansing for sensitive skin, strengthens the skin barrier, suitable for hand, face and body cleansing", "price": 3.74, "rev30d": 7725, "rev12m": 92694, "units30d": 1740, "units12m": 20880, "rating": 4.7, "reviews": 154, "bsr": 752, "market": "DE", "segment": "Wash"}, {"asin": "B0FJ88C598", "brand": "Sebamed", "title": "SEBAMED Sea Salt Shower 400 ml, Shower Gel for Men and Women, with Original Dead Sea Salt, Soap-free Cleansing for Sensitive and Dry Skin", "price": 3.77, "rev30d": 7458, "rev12m": 89499, "units30d": 1102, "units12m": 13224, "rating": 4.7, "reviews": 138, "bsr": 722, "market": "DE", "segment": "Wash"}, {"asin": "B0DGH2CDK4", "brand": "Aveeno", "title": "Aveeno Skin Relief Body Oil Spray - With Oat Oil and Jojoba Oil, Provides Long-Lasting Moisture, Strengthens the Skin Protection Barrier and Improves Elasticity for Very Dry, Sensi", "price": 11.12, "rev30d": 11831, "rev12m": 141973, "units30d": 952, "units12m": 11424, "rating": 4.3, "reviews": 278, "bsr": 906, "market": "DE", "segment": "Oil"}, {"asin": "B07B4ZXYTJ", "brand": "KRÄUTERLAND N A T U R - Ö L M Ü H L E", "title": "Organic skin oil, 100 ml, cold pressed, 100 % natural, for face and body care, massage oil, against wrinkles, dry skin and anti-ageing.", "price": 14.86, "rev30d": 4660, "rev12m": 55914, "units30d": 293, "units12m": 3516, "rating": 4.6, "reviews": 406, "bsr": 7662, "market": "DE", "segment": "Oil"}, {"asin": "B003LDMVNM", "brand": "Weleda", "title": "Weleda Organic Almond Soothing Face Oil (1 x 50 ml)", "price": 11.43, "rev30d": 4500, "rev12m": 53997, "units30d": 338, "units12m": 4056, "rating": 4.4, "reviews": 834, "bsr": 6613, "market": "DE", "segment": "Oil"}, {"asin": "B0C8BWL2ZV", "brand": "Bioderma", "title": "BIODERMA Atoderm 2-in-1 Oil for Normal to Dry Skin, 150 ml Oil", "price": 24.58, "rev30d": 1822, "rev12m": 21860, "units30d": 78, "units12m": 936, "rating": 4.4, "reviews": 201, "bsr": 31011, "market": "DE", "segment": "Oil"}, {"asin": "B07GRX1P9V", "brand": "Satin Naturel", "title": "Satin Naturel Organic Rosehip Oil 100 ml - 100% Pure Cold Pressed Pink Canina - Face Oil, Body Oil, Massage Oil & Hair Oil - Wild Rose Oil for Dry Skin Care with Anti-Wrinkle Effec", "price": 19.99, "rev30d": 1359, "rev12m": 16306, "units30d": 69, "units12m": 828, "rating": 4.4, "reviews": 3601, "bsr": 2936, "market": "DE", "segment": "Oil"}, {"asin": "B076CRBXCN", "brand": "frei öl", "title": "frei öl BabyÖl 140 ml", "price": 8.39, "rev30d": 1231, "rev12m": 14768, "units30d": 127, "units12m": 1524, "rating": 4.6, "reviews": 359, "bsr": 3404, "market": "DE", "segment": "Oil"}, {"asin": "B07M8B7LTY", "brand": "PaediProtect", "title": "PAEDIPROTECT Care Oil for Babies & Children, 200 ml, Baby Oil with Almond Oil for Young Skin, Body Oil for Mild Skin Care and Cleaning in the Nappy Area, Skin Oil without Perfume a", "price": 3.32, "rev30d": 315, "rev12m": 3785, "units30d": 80, "units12m": 960, "rating": 4.5, "reviews": 335, "bsr": 1464, "market": "DE", "segment": "Oil"}, {"asin": "B00E4ZU020", "brand": "Befelka", "title": "Hautöl, 50 ml oil", "price": 11.31, "rev30d": 226, "rev12m": 2715, "units30d": 17, "units12m": 204, "rating": 4.3, "reviews": 92, "bsr": 84399, "market": "DE", "segment": "Oil"}, {"asin": "B0B5B2HG2W", "brand": "Topicrem", "title": "Topicrem - CICA+ Concentrated Oil for Stretch Marks and Scars - Steamed, Helps Prevent, Soothes, Moisturises 24 Hours - Face & Body Care for Sensitive Skin - Non", "price": 14.44, "rev30d": 225, "rev12m": 2696, "units30d": 14, "units12m": 168, "rating": 4.5, "reviews": 580, "bsr": 47966, "market": "DE", "segment": "Oil"}, {"asin": "B09MFKXBFX", "brand": "Oïléna", "title": "Almond Oil for Skin (Body and Face) and Hair, Anti Streaks in Pregnancy, for Atopic Skin and Baby, Massage Oil, Moisturising. Rich in Vitamin E. 100% Pure - 5000 ml 5 L", "price": 41.17, "rev30d": 73, "rev12m": 871, "units30d": 2, "units12m": 24, "rating": 4.4, "reviews": 36, "bsr": 112842, "market": "DE", "segment": "Oil"}, {"asin": "B00ST2GSRK", "brand": "La Roche-Posay", "title": "La Roche-Posay Cicaplast Baume B5+, Balsamo Viso e Corpo Riparatore, Adatto a Pelli Secche e Sensibili, Azione Anti-rossore, Effetto Lenitivo, Formula con Tribioma e Prodotti Corre", "price": 9.0, "rev30d": 87466, "rev12m": 1049586, "units30d": 9718, "units12m": 116616, "rating": 4.6, "reviews": 19153, "bsr": 8, "market": "IT", "segment": "Cream"}, {"asin": "B09V542XVS", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar Baume AP+M Light, Gentle Body Treatment, Suitable for Atopic Skin, Repairing, Ultra-Moisturizing Result, Formula with Shea Butter, Niacinamide, 400 ml", "price": 26.9, "rev30d": 43172, "rev12m": 518070, "units30d": 1598, "units12m": 19176, "rating": 4.7, "reviews": 1877, "bsr": 2718, "market": "IT", "segment": "Cream"}, {"asin": "B07942ZQBT", "brand": "La Roche-Posay", "title": "La Roche-Posay Toleriane Sensitive Moisturizing Face Cream, Suitable for Sensitive Skin, Soothing Action, Up to 48H Hydration, Formula with Glycerin, Vitamin B3, Ceramide, Thermal ", "price": 15.9, "rev30d": 35507, "rev12m": 426081, "units30d": 2235, "units12m": 26820, "rating": 4.6, "reviews": 4424, "bsr": 209, "market": "IT", "segment": "Cream"}, {"asin": "B09LD6YBMJ", "brand": "Rilastil", "title": "Rilastil Stretch Mark Oil, Soothing and Protective with Sweet Almond Oils, Balsamine Rose, All Skin Types, Pack of 100 ml", "price": 10.43, "rev30d": 28609, "rev12m": 343307, "units30d": 1877, "units12m": 22524, "rating": 4.6, "reviews": 980, "bsr": 422, "market": "IT", "segment": "Cream"}, {"asin": "B00D3HQUH4", "brand": "MOST", "title": "MOST - 2s Cream with Salicylic Acid and Sulphur, Face and Body Cream Controls Redness and Itching, Attenuates Stress Breakouts, Indicated for Sebaceous Skin, Rosacea, Seborrheic De", "price": 16.39, "rev30d": 26075, "rev12m": 312899, "units30d": 1304, "units12m": 15648, "rating": 4.3, "reviews": 1648, "bsr": 849, "market": "IT", "segment": "Cream"}, {"asin": "B0FHQ1Z14S", "brand": "CeraVe", "title": "CeraVe Intensive Moisturising Cream for Very Dry Skin and Itchy Feeling, Soothing Action and Immediate Relief, 3 Essential Ceramides and 5% Hydro-Urea, 340 g", "price": 21.5, "rev30d": 22618, "rev12m": 271418, "units30d": 1151, "units12m": 13812, "rating": 4.4, "reviews": 120, "bsr": 805, "market": "IT", "segment": "Cream"}, {"asin": "B08PHCW2DX", "brand": "La Roche-Posay", "title": "La Roche-Posay, Lipikar, Baume AP+M Relipidante Anti-Irritazioni, Nutre e Lenisce, Arricchito con Niacinamide e Burro di Karitè e Glicerina, Per Pelle Secca Tendente all'Eczema Ato", "price": 21.47, "rev30d": 20239, "rev12m": 242865, "units30d": 904, "units12m": 10848, "rating": 4.7, "reviews": 2517, "bsr": 1151, "market": "IT", "segment": "Cream"}, {"asin": "B07MYQ2JZ4", "brand": "BioNike", "title": "Bionike Triderm A.D. Emollient Body Cream for Atopic Skin, Moisturizing and Repairing Action, Counteracts Dryness and Irritation, Gives Softness to Skin, 400 ml", "price": 17.16, "rev30d": 19657, "rev12m": 235886, "units30d": 918, "units12m": 11016, "rating": 4.6, "reviews": 747, "bsr": 951, "market": "IT", "segment": "Cream"}, {"asin": "B09JZVT78L", "brand": "Dermovitamina", "title": "Dermovitamina Calmilene Extreme Eyelid Cream – Eye Contour Dry and Reactive Skin – Moisturizing Eye Contour Cream – With Vitamin E, Probiotics and Hyaluronic Acid – Fast Absorption", "price": 15.42, "rev30d": 18101, "rev12m": 217212, "units30d": 1626, "units12m": 19512, "rating": 4.5, "reviews": 638, "bsr": 461, "market": "IT", "segment": "Cream"}, {"asin": "B07JDLL4LP", "brand": "Uriage", "title": "URIAGE XÉMOSE C8+ Anti-Itch Body Cream for Dry Skin with Atopic Tendency | Soothes from the first application, 48 hour anti-recurrence action. Nourishing Face and Body Balm I Fragr", "price": 26.2, "rev30d": 17869, "rev12m": 214427, "units30d": 755, "units12m": 9060, "rating": 4.5, "reviews": 1496, "bsr": 1381, "market": "IT", "segment": "Cream"}, {"asin": "B0CBKDC7JY", "brand": "Rilastil", "title": "Rilastil Xerolact Dry Skin Protective Cleansing Oil, Special Price, 1000 ml", "price": 15.49, "rev30d": 55021, "rev12m": 660257, "units30d": 3416, "units12m": 40992, "rating": 4.6, "reviews": 166, "bsr": 302, "market": "IT", "segment": "Wash"}, {"asin": "B0DVM1G1B3", "brand": "Rilastil", "title": "Rilastil Xerolact Olio Detergente Viso e Corpo per Neonati, Bambini e Adulti, Idratante, Relipidante, per Pelli Secche, Irritate e con Tendenza Atopica", "price": 15.49, "rev30d": 41295, "rev12m": 495539, "units30d": 2341, "units12m": 28092, "rating": 4.6, "reviews": 3262, "bsr": 130, "market": "IT", "segment": "Wash"}, {"asin": "B0DJPB34JN", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar AP+ Cleansing Oil, for Dry Skin with Atopic Eczema Tendency, Anti-Inflammatory and Anti-Itching, Enriched with Aqua Posae Filiformis and Niacinamide, 1L", "price": 23.9, "rev30d": 37757, "rev12m": 453083, "units30d": 1581, "units12m": 18972, "rating": 4.6, "reviews": 511, "bsr": 384, "market": "IT", "segment": "Wash"}, {"asin": "B0052EM8L8", "brand": "La Roche-Posay", "title": "La Roche Posay Toleriane Cleansing and Makeup Remover Fluid for Sensitive and Reactive Skin, Deep Cleansed Skin and Soothing Skin, Reduced Irritations and Redness, with Hydrating G", "price": 19.78, "rev30d": 30537, "rev12m": 366439, "units30d": 1503, "units12m": 18036, "rating": 4.4, "reviews": 2924, "bsr": 569, "market": "IT", "segment": "Wash"}, {"asin": "B00ZY65OSI", "brand": "Bioderma", "title": "BIODERMA Atoderm Shower Oil - Soothing and Anti-Irritation Cleanser - Instant Comfort and Hydration for 24 Hours - Sensitive Skin from Very Dry to Irritated - Pump Bottle 1 Litre", "price": 21.6, "rev30d": 29735, "rev12m": 356825, "units30d": 1508, "units12m": 18096, "rating": 4.6, "reviews": 30194, "bsr": 543, "market": "IT", "segment": "Wash"}, {"asin": "B00V4PHBO8", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar Soothing Cleansing Gel for Face and Body, for Sensitive and Dry Skin, Hydrated Skin and Anti-Dryness, with Niacinamide and Shea Butter, Surgras, 400 ml", "price": 10.42, "rev30d": 26499, "rev12m": 317983, "units30d": 2239, "units12m": 26868, "rating": 4.7, "reviews": 2267, "bsr": 167, "market": "IT", "segment": "Wash"}, {"asin": "B0DJPBRNDF", "brand": "La Roche-Posay", "title": "La Roche-Posay Lipikar Soothing Protective Shower Gel for Sensitive and Dry Skin, Gently Cleansed and Hydrated Skin, Enriched with Niacinamide and Shea Butter, 1L", "price": 16.09, "rev30d": 20930, "rev12m": 251158, "units30d": 1201, "units12m": 14412, "rating": 4.7, "reviews": 511, "bsr": 619, "market": "IT", "segment": "Wash"}, {"asin": "B075JNGSQW", "brand": "Aveeno", "title": "Aveeno Daily Moisturising Body Cleanser, Moisturizing Body Wash with Gentle Fragrance, Shower Gel for Normal to Dry Skin, Prebiotic Colloidal Oat Shower Bath, 500 ml", "price": 5.01, "rev30d": 16549, "rev12m": 198588, "units30d": 1839, "units12m": 22068, "rating": 4.6, "reviews": 1449, "bsr": 179, "market": "IT", "segment": "Wash"}, {"asin": "B07CJDK8D8", "brand": "Eucerin", "title": "Eucerin Atopi Control Soothing Cleansing Oil 400ml, Body Cleansing Oil for Daily Use, Shower Oil with 60% Natural Oils for Dry, Irritated and Atopic Dermatitis Skin", "price": 13.11, "rev30d": 15491, "rev12m": 185895, "units30d": 969, "units12m": 11628, "rating": 4.6, "reviews": 644, "bsr": 942, "market": "IT", "segment": "Wash"}, {"asin": "B0CRSJ46YD", "brand": "CeraVe", "title": "CeraVe Cleansing Foam, Face & Body Foam, Normal to Oily Skin, Impurity Free Skin, Strengthened Skin Barrier with Essential Ceramides, Hyaluronic Acid and Niacinamide, 545ml", "price": 16.62, "rev30d": 13979, "rev12m": 167746, "units30d": 770, "units12m": 9240, "rating": 4.7, "reviews": 2496, "bsr": 518, "market": "IT", "segment": "Wash"}, {"asin": "B07HBGV2MF", "brand": "Dermovitamina", "title": "Calmilene Dry Oil Spray 200 ml – Spray with Body and Face Oil – For Sensitive Skin and Dermatitis – 5 Functional Oils – Rich in Omega 3, Omega 6, Ceramide and Vitamin E – Dermovita", "price": 15.42, "rev30d": 3772, "rev12m": 45267, "units30d": 293, "units12m": 3516, "rating": 4.4, "reviews": 352, "bsr": 2465, "market": "IT", "segment": "Oil"}, {"asin": "B0DR8VV2H1", "brand": "Aveeno", "title": "Aveeno Skin Relief Body Oil Spray, Body Oil Moisturizing Dry and Sensitive Skin, Body Oil Dermatologically Tested with Natural Origin Ingredients and Oats and Jojoba Oils, 200ml", "price": 10.5, "rev30d": 1790, "rev12m": 21479, "units30d": 121, "units12m": 1452, "rating": 4.3, "reviews": 154, "bsr": 2192, "market": "IT", "segment": "Oil"}, {"asin": "B09MFKXBFX", "brand": "Oïléna", "title": "Almond Oil Skin (Body and Face) and Hair, Anti Stretch Marks Pregnancy, Atopic Skin and Children, Professional Massage Oil, Moisturizing and Rich Vitamin E. 100% Natural and Pure –", "price": 52.42, "rev30d": 382, "rev12m": 4586, "units30d": 7, "units12m": 84, "rating": 4.4, "reviews": 23, "bsr": 88814, "market": "IT", "segment": "Oil"}, {"asin": "B07VR7Z936", "brand": "Oïléna", "title": "Almond Oil Skin (Body and Face) and Hair, Anti Stretch Marks Pregnancy, Atopic Skin and Children, Professional Massage Oil, Moisturizing and Rich Vitamin E. 100% Natural and Pure –", "price": 16.46, "rev30d": 370, "rev12m": 4438, "units30d": 18, "units12m": 216, "rating": 4.4, "reviews": 460, "bsr": 61705, "market": "IT", "segment": "Oil"}, {"asin": "B0CSYNGW6H", "brand": "Oïléna", "title": "Almond Oil Skin (Body and Face) and Hair, Anti Stretch Marks Pregnancy, Atopic Skin and Children, Professional Massage Oil, Moisturizing and Rich Vitamin E. 100% Natural and Pure –", "price": 19.89, "rev30d": 38, "rev12m": 460, "units30d": 2, "units12m": 24, "rating": 4.6, "reviews": 11, "bsr": 127730, "market": "IT", "segment": "Oil"}, {"asin": "B01LEJ5MSK", "brand": "COSRX", "title": "COSRX Advanced Snail 92% All In One Cream 100ml | Moisturizing Cream with Snail Slime | For Anti Wrinkle Acne Skin & Dry Skin Day Care Women | Korean Korean Skincare", "price": 16.96, "rev30d": 33639, "rev12m": 403671, "units30d": 1985, "units12m": 23820, "rating": 4.4, "reviews": 58119, "bsr": 277, "market": "FR", "segment": "Cream"}, {"asin": "B00CA58DJ8", "brand": "Topicrem", "title": "Topicrem - Ultra Moisturizing Body Lotion - Moisturizes 48h, Relipid, Protects the Skin - Smooth Texture, Delicate Odour - Moisturizing Cream for Sensitive Skin - Made in France - ", "price": 19.99, "rev30d": 29589, "rev12m": 355067, "units30d": 1497, "units12m": 17964, "rating": 4.6, "reviews": 3113, "bsr": 292, "market": "FR", "segment": "Cream"}, {"asin": "B00AT0Y1U6", "brand": "Topicrem", "title": "Topicrem - Ultra Moisturizing Body Lotion - Moisturizes 48 hours, Relipid, Protects the Skin - Smooth Texture, Delicate Odour - Moisturizing Cream for Sensitive Skin - Made in Fran", "price": 10.67, "rev30d": 19596, "rev12m": 235154, "units30d": 1935, "units12m": 23220, "rating": 4.6, "reviews": 4305, "bsr": 194, "market": "FR", "segment": "Cream"}, {"asin": "B0052EBJF4", "brand": "Cicabiafine", "title": "Cicabiafine – Nourishing Anti-Irritation Cream (200 ml tube) – Moisturizing cream for extra-dry skin with atopic tendency – Repairing enriched with glycerin", "price": 12.79, "rev30d": 14431, "rev12m": 173175, "units30d": 1138, "units12m": 13656, "rating": 4.6, "reviews": 1153, "bsr": 751, "market": "FR", "segment": "Cream"}, {"asin": "B00PAUP3J8", "brand": "Topicrem", "title": "Topicrem - DA Balm Emollient - Moisturizing Cream, Relipid, Nourishes & Soothes - Face and Body Care for Sensitive, Dry, Atopic Skin, Babies, Children & Adults - Made in France - 5", "price": 12.79, "rev30d": 13741, "rev12m": 164896, "units30d": 1143, "units12m": 13716, "rating": 4.5, "reviews": 2234, "bsr": 201, "market": "FR", "segment": "Cream"}, {"asin": "B07F1B2TJX", "brand": "Neutrogena", "title": "Neutrogena – L'Originale Norwegian Formula Concentrated Hand Cream (2 x 50 ml tubes) – Moisturizing cream for very dry and chapped hands – Immediate relief and 24 h hydration", "price": 9.13, "rev30d": 12933, "rev12m": 155196, "units30d": 1719, "units12m": 20628, "rating": 4.6, "reviews": 1226, "bsr": 523, "market": "FR", "segment": "Cream"}, {"asin": "B0052ED0FG", "brand": "Cicabiafine", "title": "Cicabiafine Baume Hydratant Anti-Dessèchement, Pour Peaux très Sèches à Irritées, Flacon pompe de 400 ml", "price": 14.89, "rev30d": 10750, "rev12m": 129003, "units30d": 859, "units12m": 10308, "rating": 4.7, "reviews": 811, "bsr": 1453, "market": "FR", "segment": "Cream"}, {"asin": "B0CZRN24YX", "brand": "NIVEA", "title": "NIVEA Repair Balm Face, Body & Hands Very Dry Skin (1 x 400ml), Vitamin E & Glycerin Cream for Extra Dry Rough Skin, 72H Moisturizing Body Care", "price": 5.85, "rev30d": 9677, "rev12m": 116127, "units30d": 1642, "units12m": 19704, "rating": 4.6, "reviews": 553, "bsr": 345, "market": "FR", "segment": "Cream"}, {"asin": "B0GHPPFBP9", "brand": "Mixa", "title": "MIXA - Self Tanning - Nourishing Body Lotion Sun Effect - Progressive Golden Tan 24H - Shea Butter & Apricot Oil - Light Skin - 250 ml", "price": 6.59, "rev30d": 6813, "rev12m": 81761, "units30d": 972, "units12m": 11664, "rating": 4.4, "reviews": 40, "bsr": 11, "market": "FR", "segment": "Cream"}, {"asin": "B09MGD4YG9", "brand": "SVR", "title": "SVR - Topialyse Protect+ Balm - 48H anti-irritation relief balm - For dry to atopic skin - AD ceramides, vegetable oils, prebiotics - 400 ml", "price": 23.47, "rev30d": 6720, "rev12m": 80641, "units30d": 348, "units12m": 4176, "rating": 4.7, "reviews": 710, "bsr": 4115, "market": "FR", "segment": "Cream"}, {"asin": "B0967LDZ7R", "brand": "CeraVe", "title": "CeraVe - Moisturising Foaming Cleansing Oil - Moisturizes and Soothes Without Altering the Skin Barrier - Ceramides, Triglycerides, Squalane - Normal to Very Dry, Atopic Prone Skin", "price": 11.9, "rev30d": 26217, "rev12m": 314601, "units30d": 2220, "units12m": 26640, "rating": 4.6, "reviews": 6153, "bsr": 240, "market": "FR", "segment": "Wash"}, {"asin": "B09D8SW19S", "brand": "SVR", "title": "SVR - Topialysis Cleansing Oil - 24H Anti-Scratch Relipidant Cleansing Oil - For dry to atopic skin - Omega 3-6-9, Niacinamide, Prebiotics - 1000ml", "price": 20.9, "rev30d": 16121, "rev12m": 193456, "units30d": 823, "units12m": 9876, "rating": 4.6, "reviews": 1514, "bsr": 818, "market": "FR", "segment": "Wash"}, {"asin": "B0CBCLCTCT", "brand": "Topicrem", "title": "Topicrem - Ultra-Hydratant, Huile de Douche - Nettoie, Nourrit, Protège - Gel Douche Visage et Corps pour Peaux Sensibles, Sèches, Bébés, Enfants et Adultes - Fabrication Française", "price": 9.89, "rev30d": 15279, "rev12m": 183354, "units30d": 1736, "units12m": 20832, "rating": 4.5, "reviews": 407, "bsr": 438, "market": "FR", "segment": "Wash"}, {"asin": "B098SRZ72Z", "brand": "Cicabiafine", "title": "Cicabiafine – Nourishing Shower Balm (1 L bottle) – Moisturizing cleansing care for very dry skin – Gently cleanses without aggression from 3 years old", "price": 10.99, "rev30d": 14581, "rev12m": 174968, "units30d": 1413, "units12m": 16956, "rating": 4.5, "reviews": 859, "bsr": 650, "market": "FR", "segment": "Wash"}, {"asin": "B09FYL3CMY", "brand": "SVR", "title": "SVR - Topialysis Gel Lavant - Gentle protective anti-drying cleanser - For dry and sensitive skin - Vegetable glycerin, Omega 3-6-9-1 Liters", "price": 12.9, "rev30d": 13781, "rev12m": 165373, "units30d": 1418, "units12m": 17016, "rating": 4.5, "reviews": 1406, "bsr": 450, "market": "FR", "segment": "Wash"}, {"asin": "B0FQV35VVG", "brand": "DEXERYL", "title": "DEXECLEAR by DEXERYL Anti-Blemish Foaming Gel, 2-in-1: Cleans & Reduces Pimples - Salicylic Acid - Soap Free, Fragrance Free - Face & Body - Acne-prone Oily Skin, 400 ml", "price": 12.99, "rev30d": 12613, "rev12m": 151358, "units30d": 972, "units12m": 11664, "rating": 4.5, "reviews": 123, "bsr": 556, "market": "FR", "segment": "Wash"}, {"asin": "B0DZDBXPXW", "brand": "Sanex", "title": "SANEX - Derma Therapie - Anti-itch and anti-irritation shower oil - Shower gel - Skin prone to atopic eczema - hypoallergenic - amino acid complex - 425 ML", "price": 4.6, "rev30d": 7593, "rev12m": 91121, "units30d": 1654, "units12m": 19848, "rating": 4.4, "reviews": 267, "bsr": 117, "market": "FR", "segment": "Wash"}, {"asin": "B0D1CVD3PL", "brand": "Dove", "title": "DOVE - Shower Gel - Moisturizing Essential - Gently cleanses and softens the skin - Dermatologically tested - 0% Sulfate (promo pack of 2 x 450 ml)", "price": 6.5, "rev30d": 7119, "rev12m": 85430, "units30d": 1116, "units12m": 13392, "rating": 4.6, "reviews": 589, "bsr": 318, "market": "FR", "segment": "Wash"}, {"asin": "B0CTC4RF1N", "brand": "DEXERYL", "title": "DEXERYL - Soothing Shower Oil - Cleanses & Relipides the skin from birth - Preserves the skin barrier - Very dry or atopic skin - Soap, Fragrance Free - 500 ml", "price": 12.69, "rev30d": 5536, "rev12m": 66427, "units30d": 437, "units12m": 5244, "rating": 4.3, "reviews": 42, "bsr": 1034, "market": "FR", "segment": "Wash"}, {"asin": "B0G48SK26Y", "brand": "DEXERYL", "title": "DEXERYL - Soothing Shower Oil - Cleanses & Relipides the skin from birth - Preserves the skin barrier - Very dry or atopic skin - Soap, Fragrance Free - 1L", "price": 17.28, "rev30d": 4561, "rev12m": 54734, "units30d": 272, "units12m": 3264, "rating": 4.3, "reviews": 42, "bsr": 1034, "market": "FR", "segment": "Wash"}, {"asin": "B0B5B2HG2W", "brand": "Topicrem", "title": "Topicrem - CICA+, Stretch Marks and Scars Concentrated Oil - Attenuated, Helps Prevent, Soothes, Moisturizes 24h - Face and Body Care for Sensitive Skin - Non Greasy, Non Sticky Fi", "price": 9.98, "rev30d": 8294, "rev12m": 99533, "units30d": 810, "units12m": 9720, "rating": 4.5, "reviews": 537, "bsr": 827, "market": "FR", "segment": "Oil"}, {"asin": "B0060OU7F8", "brand": "Mercurochrome", "title": "MERCUROCHROME - Refined Sweet Almond Oil - Softening and Nourishing - 100 ml", "price": 5.23, "rev30d": 225, "rev12m": 2701, "units30d": 46, "units12m": 552, "rating": 4.7, "reviews": 362, "bsr": 17356, "market": "FR", "segment": "Oil"}, {"asin": "B0D1GK2ZKB", "brand": "Neutrogena", "title": "Neutrogena Norwegian Formula CICA Intense Repair Body Lotion for Dry Skin (Pack of 2 x 750ml) Repairing Body Moisturizer with Centella Asiatica", "price": 15.29, "rev30d": 56324, "rev12m": 675889, "units30d": 3884, "units12m": 46608, "rating": 4.7, "reviews": 743, "bsr": 109, "market": "ES", "segment": "Cream"}, {"asin": "B087XGVFL1", "brand": "BEPANTOL DERMA", "title": "Atopic Skin Moisturizing Cream - Bepanthol SensiControl Daily Emollient Cream with Pro-Vitamin B5 - Promotes Deep and Lasting Hydration for Healthy and Protected Skin - 400ml", "price": 19.5, "rev30d": 32456, "rev12m": 389468, "units30d": 1575, "units12m": 18900, "rating": 4.6, "reviews": 1435, "bsr": 274, "market": "ES", "segment": "Cream"}, {"asin": "B0BJFP4VYY", "brand": "TALQUISTINA", "title": "TALQUISTINA - Moisturizing Cream 400 ml, for Itchy Skin, Daily Use, Long-Lasting Hydration, Protects and Soothes Dryness, Suitable for Sensitive Skin.", "price": 23.08, "rev30d": 23001, "rev12m": 276014, "units30d": 1059, "units12m": 12708, "rating": 4.6, "reviews": 776, "bsr": 515, "market": "ES", "segment": "Cream"}, {"asin": "B00A3M1TIW", "brand": "Weleda", "title": "Weleda - Skin Food Original, Repair Cream, Nourishes and Hydrates, with Sunflower and Almond Oil, Calendula, Wild Thought and Chamomile, for Very Dry and Cracked Skin -75ml", "price": 9.6, "rev30d": 15686, "rev12m": 188228, "units30d": 1612, "units12m": 19344, "rating": 4.6, "reviews": 4359, "bsr": 168, "market": "ES", "segment": "Cream"}, {"asin": "B0FRSZ94RH", "brand": "HNYGS-EU", "title": "Antifungal Cream 30 g, To Relieve Itchy Jock Skin, Eczema, Effective Treatment of Athlete's Feet, Soothes Itching, Cream to Relieve Skin Itch in Adults", "price": 11.99, "rev30d": 13563, "rev12m": 162754, "units30d": 1132, "units12m": 13584, "rating": 4.4, "reviews": 34, "bsr": 397, "market": "ES", "segment": "Cream"}, {"asin": "B00E0JG2FY", "brand": "BEPANTHOL", "title": "Bepanthol Moisturizing Protective Ointment, Protects and Regenerates Dry, Irritated or Sensitized Skin by External Factors, 100 g", "price": 14.5, "rev30d": 12779, "rev12m": 153352, "units30d": 944, "units12m": 11328, "rating": 4.7, "reviews": 1116, "bsr": 613, "market": "ES", "segment": "Cream"}, {"asin": "B0098G931Y", "brand": "Hengulus", "title": "Dexeryl Cream, 500 g", "price": 15.99, "rev30d": 11120, "rev12m": 133446, "units30d": 723, "units12m": 8676, "rating": 4.6, "reviews": 1364, "bsr": 3118, "market": "ES", "segment": "Cream"}, {"asin": "B0FHQ1Z14S", "brand": "CeraVe", "title": "CeraVe Intensive Moisturizing Creme For Dry Dry Skin 340ml", "price": 20.4, "rev30d": 10712, "rev12m": 128545, "units30d": 533, "units12m": 6396, "rating": 4.6, "reviews": 117, "bsr": 2135, "market": "ES", "segment": "Cream"}, {"asin": "B097H85186", "brand": "BEPANTHOL", "title": "Bepanthol Derma Repair Day Moisturizing Face Cream, Very Dry and Sensitive Skin, 50 Milliliters", "price": 20.39, "rev30d": 10016, "rev12m": 120194, "units30d": 492, "units12m": 5904, "rating": 4.6, "reviews": 349, "bsr": 1304, "market": "ES", "segment": "Cream"}, {"asin": "B0DRKGHCM3", "brand": "Green Cornerss Care", "title": "GREEN CORNERSS CARE - Oat Moisturizing Cream | 280ml | Suitable for Skin with Atopic Dermatitis | With Prebiotics | 99% Natural | Perfect for the Whole Family, Suitable for Childre", "price": 19.89, "rev30d": 9936, "rev12m": 119237, "units30d": 500, "units12m": 6000, "rating": 4.7, "reviews": 110, "bsr": 2898, "market": "ES", "segment": "Cream"}, {"asin": "B09BBH8B78", "brand": "ISDIN", "title": "ISDIN Germisdin Aloe Vera Body Hygiene and Hands, Body Wash Formulated with Antiseptic Agents, Recommended for Dry Skin", "price": 26.38, "rev30d": 20598, "rev12m": 247174, "units30d": 781, "units12m": 9372, "rating": 4.6, "reviews": 2178, "bsr": 518, "market": "ES", "segment": "Wash"}, {"asin": "B0DJPBRNDF", "brand": "La Roche-Posay", "title": "La Roche Posay, Lipikar Physiological Shower Gel Relipidizing, With Niacinamide and Shea Butter, Soap and Paraben Free, for Sensitive and Dry Skin, 1L", "price": 14.49, "rev30d": 18576, "rev12m": 222907, "units30d": 1290, "units12m": 15480, "rating": 4.6, "reviews": 2765, "bsr": 332, "market": "ES", "segment": "Wash"}, {"asin": "B0967LDZ7R", "brand": "CeraVe", "title": "CeraVe Limpiador en Aceite Espumoso Hidratante, Para Pieles Normales a Muy Secas con Tendencia Atópica, Para Rostro y Cuerpo, Limpia e Hidrata, Enriquecido con Ácido Hialurónico, 4", "price": 15.2, "rev30d": 18141, "rev12m": 217696, "units30d": 1199, "units12m": 14388, "rating": 4.6, "reviews": 10161, "bsr": 153, "market": "ES", "segment": "Wash"}, {"asin": "B09CCJD53W", "brand": "CeraVe", "title": "CeraVe Limpiador en Aceite Espumoso Hidratante, Para Pieles Normales a Muy Secas con Tendencia Atópica, Para Rostro y Cuerpo, Limpia e Hidrata, Enriquecido con Ácido Hialurónico, 4", "price": 13.92, "rev30d": 14443, "rev12m": 173317, "units30d": 1628, "units12m": 19536, "rating": 4.6, "reviews": 10161, "bsr": 219, "market": "ES", "segment": "Wash"}, {"asin": "B0052EM8L8", "brand": "La Roche-Posay", "title": "La Roche Posay, Toleriane Dermo Facial Cleanser, Daily Cleansing Without Irritation, For Face and Eye Contour, With Glycerin, Hypoallergenic, For Very Sensitive Skin, 400 ml", "price": 17.92, "rev30d": 12343, "rev12m": 148112, "units30d": 723, "units12m": 8676, "rating": 4.3, "reviews": 5525, "bsr": 999, "market": "ES", "segment": "Wash"}, {"asin": "B082Y8TYSP", "brand": "Cetaphil", "title": "CETAPHIL PRO REDNESS Control Facial Cleansing Foam, for Skin with Rosacea and Redness Tendency, 236ML", "price": 14.45, "rev30d": 11097, "rev12m": 133162, "units30d": 792, "units12m": 9504, "rating": 4.5, "reviews": 189, "bsr": 653, "market": "ES", "segment": "Wash"}, {"asin": "B0DVM1G1B3", "brand": "Rilastil", "title": "Rilastil - Xerolact Protective Cleansing Oil for Very Dry or Atopic Skin, Anti-Itch Moisturizing Shower Gel with Rice and Almond Oil, Suitable for Babies, Children and Adults - 100", "price": 12.72, "rev30d": 9733, "rev12m": 116794, "units30d": 774, "units12m": 9288, "rating": 4.6, "reviews": 421, "bsr": 722, "market": "ES", "segment": "Wash"}, {"asin": "B07DMSPFF5", "brand": "Sebamed", "title": "Sebamed Soap-Free Emulsion", "price": 16.28, "rev30d": 6495, "rev12m": 77945, "units30d": 486, "units12m": 5832, "rating": 4.6, "reviews": 667, "bsr": 932, "market": "ES", "segment": "Wash"}, {"asin": "B01N7ISSWU", "brand": "YOFFEE", "title": "Yoffee Anti-Bacterial Wash – Sanitizing Shower Gel – Antibacterial Soap with Tea Tree Oil and Coconut – Prevents, Removes and Prevents Bacteria-Relieves Itches, Irritations and Inf", "price": 19.9, "rev30d": 6362, "rev12m": 76341, "units30d": 320, "units12m": 3840, "rating": 4.4, "reviews": 790, "bsr": 2037, "market": "ES", "segment": "Wash"}, {"asin": "B09FFFV1XX", "brand": "Sensilis", "title": "Sensilis - Gentle Cleansing Mousse, Espuma Limpiadora Facial sin Jabón, Hidrata, Calma y Protege de la Polución, con Ácido Hialurónico y Prebióticos, para Pieles Sensibles", "price": 10.75, "rev30d": 6236, "rev12m": 74826, "units30d": 568, "units12m": 6816, "rating": 4.4, "reviews": 738, "bsr": 611, "market": "ES", "segment": "Wash"}, {"asin": "B0789JCK2Q", "brand": "OZONO D´OR", "title": "Ozonated oil 100 ml (Organic Extra Virgin Olive). Moisturizing and regenerating the skin effective in pathologies such as: irritations, ulcers, varicose veins, stretch marks, burns", "price": 19.9, "rev30d": 2558, "rev12m": 30692, "units30d": 128, "units12m": 1536, "rating": 4.6, "reviews": 203, "bsr": 4867, "market": "ES", "segment": "Oil"}, {"asin": "B09Q8RXY94", "brand": "LABORATORIOS BABE", "title": "BABÉ LABORATORIES - Oil Balm 500ml | Moisturizing and Nourishing Body Cream for Dry and Atopic Skin | With Prebiotics, Probiotics and Omega | Itch Relief and Repair | Body Cream", "price": 16.53, "rev30d": 1492, "rev12m": 17909, "units30d": 73, "units12m": 876, "rating": 4.3, "reviews": 72, "bsr": 13147, "market": "ES", "segment": "Oil"}, {"asin": "B07VR7Z936", "brand": "Oïléna", "title": "Almond Oil, Body, Facia, Hair, Anti Stretch Pregnancy, Atopic Skin and Baby, Professional Massage Oil, Moisturizing and Rich in Vitamin E, 100% Natural, Pure, 1000 ml 1 L", "price": 16.5, "rev30d": 94, "rev12m": 1123, "units30d": 5, "units12m": 60, "rating": 4.5, "reviews": 471, "bsr": 54336, "market": "ES", "segment": "Oil"}, {"asin": "B09MFKXBFX", "brand": "Oïléna", "title": "Almond Oil Skin (Body and Facial) and Hair, Anti Stretch Pregnancy, Atopic Skin and Drink, Professional Massage Oil. Moisturizing and Rich in Vitamin E. 100% Natural and Pure - 500", "price": 48.88, "rev30d": 59, "rev12m": 705, "units30d": 1, "units12m": 12, "rating": 4.3, "reviews": 26, "bsr": 89646, "market": "ES", "segment": "Oil"}, {"asin": "B0CSYNGW6H", "brand": "Oïléna", "title": "Almond Oil Skin (Body and Facial) and Hair, Anti Stretch Pregnancy, Atopic Skin and Drink, Professional Massage Oil. Moisturizing and Rich in Vitamin E. 100% Natural and Pure - 250", "price": 13.34, "rev30d": 17, "rev12m": 207, "units30d": 1, "units12m": 12, "rating": 4.6, "reviews": 12, "bsr": 119023, "market": "ES", "segment": "Oil"}, {"asin": "B0F13FCTWQ", "brand": "Instituto Español", "title": "Atopic Skin Oil Gel, 300 ml (Pack of 2)", "price": 9.5, "rev30d": 0, "rev12m": 0, "units30d": 0, "units12m": 0, "rating": 4.2, "reviews": 937, "bsr": 651, "market": "ES", "segment": "Oil"}];
+const TP_MKT_CODES = ["DE", "IT", "FR", "ES"];
+const TP_SEGMENTS = ['Cream','Wash','Oil'];
+
+function fmtMoneyInt(v) { return '€' + Math.round(v).toLocaleString('en-EU'); }
+function fmtInt(v) { return Math.round(v).toLocaleString('en-EU'); }
+function escHtml(s) { return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]); }
+// Mapa rynek → domena Amazon (dla klikalnych ASIN-ów)
+const AMAZON_DOMAIN = { DE: 'de', FR: 'fr', IT: 'it', ES: 'es' };
+function asinLink(asin, marketCode) {
+  const dom = AMAZON_DOMAIN[marketCode] || 'de';
+  return '<a href="https://www.amazon.' + dom + '/dp/' + encodeURIComponent(asin) + '" target="_blank" rel="noopener">' + escHtml(asin) + '</a>';
+}
+
+// Kolumny tabeli top 10 (główny widok per rynek)
+const TP_COLS = [
+  {key:'rank',    label:'#',        num:true,  w:'32px'},
+  {key:'asin',    label:'ASIN',     num:false, w:'110px'},
+  {key:'brand',   label:'Brand',    num:false, w:'120px'},
+  {key:'title',   label:'Title',    num:false, w:'auto', cls:'title'},
+  {key:'price',   label:'Price',    num:true,  fmt:v=>'€'+v.toFixed(2)},
+  {key:'rev30d',  label:'Rev 30d',  num:true,  fmt:fmtMoneyInt},
+  {key:'rev12m',  label:'Rev 12M',  num:true,  fmt:fmtMoneyInt},
+  {key:'units30d',label:'Units 30d',num:true,  fmt:fmtInt},
+  {key:'units12m',label:'Units 12M',num:true,  fmt:fmtInt},
+  {key:'reviews', label:'Reviews',  num:true,  fmt:fmtInt},
+];
+
+function buildTopTable(products, containerId, segLabel, includeMarketCol, fixedMarketCode) {
+  // Sort state per table (stored on element)
+  const cols = includeMarketCol ? [{key:'market',label:'Mkt',num:false,w:'42px'}, {key:'segment',label:'Seg',num:false,w:'58px'}, ...TP_COLS.slice(1)] : TP_COLS;
+  let sortKey = includeMarketCol ? 'rev30d' : 'rev30d';
+  let sortDir = 'desc';
+  const rows = products.map((p, i) => ({ ...p, rank: i + 1 }));
+
+  function render() {
+    rows.sort((a, b) => {
+      const va = a[sortKey]; const vb = b[sortKey];
+      const na = (typeof va === 'number'); const nb = (typeof vb === 'number');
+      if (na && nb) return sortDir === 'asc' ? va - vb : vb - va;
+      return sortDir === 'asc' ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
+    });
+    // Re-rank after sort
+    rows.forEach((r, i) => r.rank = i + 1);
+    let html = '<table class="tp-table"><thead><tr>';
+    cols.forEach(c => {
+      const cls = c.num ? 'num' : '';
+      const sortCls = (c.key === sortKey) ? (sortDir === 'asc' ? 'sortable sort-asc' : 'sortable sort-desc') : 'sortable';
+      html += '<th class="' + cls + ' ' + sortCls + '" data-k="' + c.key + '"' + (c.w ? ' style="width:' + c.w + '"' : '') + '>' + c.label + '</th>';
+    });
+    html += '</tr></thead><tbody>';
+    rows.forEach(r => {
+      html += '<tr>';
+      cols.forEach(c => {
+        let cls = c.num ? 'num' : (c.cls || '');
+        let val = r[c.key];
+        if (c.key === 'asin') {
+          const mkt = fixedMarketCode || r.market || TP_MKT_CODES[0];
+          val = asinLink(val, mkt);
+          cls = 'asin';
+        }
+        else if (c.key === 'title') val = escHtml(val);
+        else if (c.key === 'brand') val = escHtml(val);
+        else if (c.fmt) val = c.fmt(val || 0);
+        else val = escHtml(val);
+        html += '<td class="' + cls + '"' + (c.key === 'title' ? ' title="' + escHtml(r.title) + '"' : '') + '>' + val + '</td>';
+      });
+      html += '</tr>';
+    });
+    html += '</tbody></table>';
+    const container = document.getElementById(containerId);
+    container.innerHTML = html;
+    container.querySelectorAll('th.sortable').forEach(th => {
+      th.onclick = () => {
+        const k = th.dataset.k;
+        if (sortKey === k) sortDir = (sortDir === 'asc' ? 'desc' : 'asc');
+        else { sortKey = k; sortDir = 'desc'; }
+        render();
+      };
+    });
+  }
+  render();
+}
+
+// === Main view: 3 sections per selected market ===
+let currentMarket = TP_MKT_CODES[0];
+function renderTopTablesForMarket(code) {
+  currentMarket = code;
+  const wrap = document.getElementById('tpTables');
+  let html = '';
+  TP_SEGMENTS.forEach((seg, i) => {
+    const n = (TOP_PRODUCTS[code] && TOP_PRODUCTS[code][seg]) ? TOP_PRODUCTS[code][seg].length : 0;
+    html += '<div class="tp-seg-title">' + seg + ' <span class="badge">' + n + ' produktów</span></div>';
+    html += '<div id="tpTable_' + seg + '"></div>';
+  });
+  wrap.innerHTML = html;
+  TP_SEGMENTS.forEach(seg => {
+    const prods = (TOP_PRODUCTS[code] && TOP_PRODUCTS[code][seg]) || [];
+    if (prods.length === 0) {
+      document.getElementById('tpTable_' + seg).innerHTML = '<p style="font-size:.74rem;color:#94a3b8;padding:8px 0">Brak produktów w tej kategorii dla ' + code + '.</p>';
+    } else {
+      buildTopTable(prods, 'tpTable_' + seg, seg, false, code);
+    }
+  });
+}
+document.querySelectorAll('.tp-pill[data-mkt]').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.tp-pill[data-mkt]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderTopTablesForMarket(btn.dataset.mkt);
+  };
+});
+renderTopTablesForMarket(TP_MKT_CODES[0]);
+
+// === Advanced view: all 120 products with filters ===
+let advMkt = 'All';
+let advSeg = 'All';
+function renderAdvancedTable() {
+  let filtered = TOP_PRODUCTS_FLAT.slice();
+  if (advMkt !== 'All') filtered = filtered.filter(p => p.market === advMkt);
+  if (advSeg !== 'All') filtered = filtered.filter(p => p.segment === advSeg);
+  if (filtered.length === 0) {
+    document.getElementById('tpAdvTable').innerHTML = '<p style="font-size:.74rem;color:#94a3b8;padding:8px 0">Brak produktów dla wybranego filtra.</p>';
+  } else {
+    buildTopTable(filtered, 'tpAdvTable', 'Advanced', true);
+  }
+}
+document.querySelectorAll('.tp-pill[data-adv-mkt]').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.tp-pill[data-adv-mkt]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    advMkt = btn.dataset.advMkt;
+    renderAdvancedTable();
+  };
+});
+document.querySelectorAll('.tp-pill[data-adv-seg]').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.tp-pill[data-adv-seg]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    advSeg = btn.dataset.advSeg;
+    renderAdvancedTable();
+  };
+});
+renderAdvancedTable();
+</script>
+</body>
+</html>

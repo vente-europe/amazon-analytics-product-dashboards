@@ -179,6 +179,20 @@ No A+/Brand-Story compare — SP-API does not expose that data.
 
   function asinLink(asin){ return '<a class="asin" href="https://www.amazon.' + tld + '/dp/' + esc(asin) + '" target="_blank" rel="noopener">' + esc(asin) + '</a>'; }
 
+  // Amazon serves the same photo at several sizes (…/I/<id>.jpg, …/I/<id>._SL75_.jpg).
+  // Collapse to the distinct images the seller actually uses, keyed by the <id> after
+  // /I/, and keep the full-size URL (drop the ._SL/_AC thumbnail variants).
+  function imgId(u){ var m = /\/I\/([^.]+)/.exec(String(u || '')); return m ? m[1] : String(u || ''); }
+  function uniqImgs(list){
+    var at = {}, out = [];
+    (list || []).filter(Boolean).forEach(function(u){
+      var id = imgId(u);
+      if (at[id] === undefined){ at[id] = out.length; out.push(u); }
+      else if (/\._[A-Z]/.test(out[at[id]]) && !/\._[A-Z]/.test(u)) out[at[id]] = u; // prefer full-size
+    });
+    return out;
+  }
+
   // ─── Build HTML ─────────────────────────────────────────────────────────
   var h = '<div id="u-mdd-root">';
   h += '<h2 style="margin-bottom:12px">Marketing Deep-Dive' + (segment ? ' · ' + esc(segment) : '') + (countryName ? ' · ' + esc(countryName) : '') + '</h2>';
@@ -220,7 +234,7 @@ No A+/Brand-Story compare — SP-API does not expose that data.
   h += '<p class="tfoot" style="margin:8px 0 12px">Komplety zdjęć z listingów wszystkich analizowanych konkurentów — jeden wiersz na produkt, przewijaj w bok.</p>';
   h += '<div>';
   C.forEach(function(c){
-    var all = [c.img].concat(c.imgs || []).filter(Boolean);
+    var all = uniqImgs([c.img].concat(c.imgs || []));
     h += '<div class="img-row"><div class="ir-brand">' + esc(c.brand) + asinLink(c.asin) + '</div>';
     h += (all.length ? all.map(function(u){ return '<img loading="lazy" src="' + esc(u) + '">'; }).join('') : '<span class="tfoot">brak zdjęć</span>');
     h += '</div>';
@@ -344,7 +358,8 @@ No A+/Brand-Story compare — SP-API does not expose that data.
       m += '<div class="dt">' + esc(c.brand) + ' · ' + asinLink(c.asin) + '</div>';
       m += '<div class="dthemes">' + (thLabels || '<span class="tfoot">brak otagowanych claimów</span>') + '</div>';
       m += (c.bullets && c.bullets.length ? '<ul>' + c.bullets.map(function(b){ return '<li>' + esc(b) + '</li>'; }).join('') + '</ul>' : '<p class="tfoot">Listing bez bullet points.</p>');
-      m += (c.imgs && c.imgs.length ? '<div class="thumbs">' + c.imgs.map(function(u){ return '<img loading="lazy" src="' + esc(u) + '">'; }).join('') + '</div>' : '');
+      var dThumbs = uniqImgs([c.img].concat(c.imgs || []));
+      m += (dThumbs.length ? '<div class="thumbs">' + dThumbs.map(function(u){ return '<img loading="lazy" src="' + esc(u) + '">'; }).join('') + '</div>' : '');
       detail.innerHTML = m;
       detail.style.display = '';
       detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });

@@ -29,7 +29,11 @@ except Exception:
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 CONSOLE = os.path.abspath(os.path.join(BASE, '..', '..'))          # .../Console
-TOPLINE_HTML = os.path.join(CONSOLE, 'dashboards', 'atopic-skin-topline', 'index.html')
+# Tab 1 (Rynek) is generated FROM THIS dashboard's own (current) X-Ray via
+# _build_rynek.py — the reworked segmentation + added oils, NOT the stale
+# atopic-skin-topline build. See _build_rynek.py. Regenerated on every build below.
+RYNEK_HTML   = os.path.join(BASE, '_rynek_topline.html')
+TOPLINE_HTML = RYNEK_HTML
 VOC_TPL  = os.path.join(CONSOLE, 'templates', 'tabs', 'u-reviews-voc', 'template.html')
 MDD_TPL  = os.path.join(BASE, 'templates', 'tabs', 'u-marketing-deep-dive', 'template.html')  # dashboard-local szelki-style MDD
 MS_TPL   = os.path.join(BASE, 'templates', 'tabs', 'market-structure', 'template.html')       # dashboard-local Polish Market Structure
@@ -183,6 +187,16 @@ DEFAULT_SEG = default_segment(DEFAULT_COUNTRY)
 
 
 # ── Extract Tab 1 (topline) style + body ────────────────────────────────────
+def build_rynek():
+    """Regenerate _rynek_topline.html from this dashboard's own X-Ray (Tab 1)."""
+    import subprocess
+    r = subprocess.run([sys.executable, os.path.join(BASE, '_build_rynek.py')],
+                       capture_output=True, text=True, encoding='utf-8')
+    if r.returncode != 0:
+        raise SystemExit('Rynek (Tab 1) build failed:\n' + (r.stderr or r.stdout))
+    print('Rynek (Tab 1) rebuilt from local X-Ray -> _rynek_topline.html')
+
+
 def extract_topline():
     with open(TOPLINE_HTML, encoding='utf-8') as f:
         html = f.read()
@@ -193,6 +207,7 @@ def extract_topline():
     return topline_css, topline_body
 
 
+build_rynek()
 TOPLINE_CSS, TOPLINE_BODY = extract_topline()
 
 
@@ -704,6 +719,13 @@ html = html.replace('/*<<ENGINE>>*/', ENGINE_JS)
 html = html.replace('/*<<VOC_FN>>*/', VOC_FN)
 html = html.replace('/*<<MDD_FN>>*/', MDD_FN)
 html = html.replace('/*<<MS_FN>>*/', MS_FN)
+
+# House style: no long dashes anywhere in the rendered dashboard. One pass over the
+# final HTML normalizes Tab 1 (Rynek), every template's UI chrome, and the inlined
+# VOC / MDD / structure data. Covers literal chars AND HTML entities (the Rynek
+# body uses &mdash;/&ndash;). All -> plain hyphen.
+for _d in ('—', '–', '―', '&mdash;', '&ndash;', '&#8212;', '&#8211;', '&#x2014;', '&#x2013;'):
+    html = html.replace(_d, '-')
 
 out = os.path.join(BASE, 'index.html')
 with open(out, 'w', encoding='utf-8') as f:

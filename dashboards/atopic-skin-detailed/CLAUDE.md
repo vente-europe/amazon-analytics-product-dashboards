@@ -19,12 +19,21 @@ A **3-tab standalone** for the "Atopic Skin" dermo category across 4 EU markets
 
 ## How Tab 1 works (important)
 
-The build script reads `../atopic-skin-topline/index.html`, extracts its `<style>`
-block and its `<body>` inner content, and pastes both **verbatim** into
-`#panel-market`. The topline's own inline `<script>` (with its baked-in chart
-data) renders the Chart.js charts. Because `#panel-market` is the default-active
-(visible) panel at load, the charts size correctly. **To refresh Tab 1, rebuild
-`atopic-skin-topline` first, then rebuild this dashboard.**
+**Tab 1 is generated FROM THIS dashboard's own X-Ray** (updated 2026-07-02).
+`_build_standalone.py` runs `_build_rynek.py` first, which reuses
+`../atopic-skin-topline/_build_topline.py` **verbatim as the layout source of
+truth** but redirects it (via two string replacements) to read the *detailed*
+`data/x-ray/{CODE}/Dermo-Products-{CODE}.csv` and write `_rynek_topline.html`
+here. The main build then extracts that file's `<style>` + `<body>` and pastes
+both into `#panel-market`; its inline `<script>` renders the Chart.js charts
+(default-active panel, so charts size correctly).
+
+**Why the fork:** the sibling `atopic-skin-topline` dashboard is on an OLDER
+X-Ray (pre atopic-only-oil reclassification) and Tom asked to keep it untouched
+while the detailed dashboard reflects the reworked segmentation + added oils.
+So Tab 1's financials now match Tabs 2–4. **`atopic-skin-topline` is never read
+or written by this build** (only its `_build_topline.py` is read as a template).
+**To refresh Tab 1, just rebuild this dashboard** — it regenerates automatically.
 
 ## Data file locations
 
@@ -32,7 +41,7 @@ data) renders the Chart.js charts. Because `#panel-market` is the default-active
 |------|------|-------|
 | VOC | `reviews/{CODE}/{Segment}/voc.json` | `u-reviews-voc` contract (POLISH content) |
 | MDD | `data/competitor-listings/{CODE}/mdd-{slug}.json` (`slug = segment.lower()`) | `u-marketing-deep-dive` contract (POLISH content) |
-| X-Ray (Tab 1 only, via atopic-skin-topline) | `data/x-ray/{CODE}/Dermo-Products-{CODE}.csv` | Helium 10 X-Ray |
+| X-Ray (Tab 1 Rynek + Tab 2 Struktura, this dashboard's own copy) | `data/x-ray/{CODE}/Dermo-Products-{CODE}.csv` | Helium 10 X-Ray |
 
 - `SEGMENTS_BY_COUNTRY` is **auto-detected** by scanning `reviews/{CODE}/`
   subfolders (so it grows as buckets are added). Fallback defaults:
