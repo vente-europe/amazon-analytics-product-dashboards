@@ -4294,7 +4294,10 @@ function renderMarketStructure(D, root){
     var topBrandShare = topBrand && totalSegRev > 0 ? (brandMap[topBrand] / totalSegRev * 100) : 0;
     var pv = function(x){ return totalSegRev > 0 ? (x / totalSegRev * 100).toFixed(1) : '0.0'; };
 
+    var totalSegUnits = (seg.units12m != null) ? seg.units12m : products.reduce(function(a, p){ return a + (p.units12m || 0); }, 0);
     s += '<div class="kpis">';
+    s += '<div class="kpi"><div class="kpi-v">' + totalSegUnits.toLocaleString('pl-PL') + '</div><div class="kpi-l">Jednostki sprzedane (12M)</div></div>';
+    s += '<div class="kpi"><div class="kpi-v">' + DataEngine.fmtMoney(totalSegRev, cur) + '</div><div class="kpi-l">Przychód (12M)</div></div>';
     s += '<div class="kpi"><div class="kpi-v">' + top1Share.toFixed(1) + '%</div><div class="kpi-l">Udział przychodu - Top 1 ASIN</div></div>';
     s += '<div class="kpi"><div class="kpi-v">' + pv(top3Rev) + '%</div><div class="kpi-l">Udział przychodu - Top 3 ASIN</div></div>';
     s += '<div class="kpi"><div class="kpi-v">' + pv(top5Rev) + '%</div><div class="kpi-l">Udział przychodu - Top 5 ASIN</div></div>';
