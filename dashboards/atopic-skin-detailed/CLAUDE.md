@@ -2,6 +2,37 @@
 
 > Standalone detailed dashboard. Living document — update after every change.
 
+## 2026-07-08 — UK added as a 5th market (Rynek + Struktura rynku)
+
+New market **UK** under `data/x-ray/UK/`. Eight raw Helium_10 exports were merged →
+`data/x-ray/UK/Dermo-Products-UK.csv` (dedup by highest `ASIN Revenue`, prices in `£`,
+`Segment` after `ASIN`, `≥£1,000/30d` floor). **Tom re-segmented the final file into the
+standard `Cream / Wash / Oil` taxonomy** (matching DE/FR/IT/ES) — **104 ASINs**
+(Cream 82 / Wash 11 / Oil 11). *(The earlier `_uk_classify.py` Bath Emulsion / Bath Oil
+split is superseded; the file on disk is the source of truth.)*
+
+**Where UK shows:**
+- **Rynek (cross-market topline):** UK is the **5th market**, £ converted to € at
+  `GBP_EUR = 1.17` (in `_build_rynek.py`, adjustable). UK ≈ €28M/12M — the largest market;
+  new category total ≈ **€77.3M/12M**. Injected into the shared topline **without touching**
+  `_build_topline.py` / the sibling `atopic-skin-topline` (string-replacement injections in
+  `_build_rynek.py`, each guarded by an exact-match assert): append UK to `MARKETS`, £→€ on
+  `rev`/`price`, a no-op `Bath Emulsion→Wash / Bath Oil→Oil` remap (defensive), dynamic market
+  count + top-products pills, and note/summary text fixes.
+- **Struktura rynku:** UK shown per-country in **£** via `amazon.co.uk` links
+  (`CURRENCY_BY_COUNTRY['UK']='£'`, `TLD_BY_COUNTRY['UK']='co.uk'`).
+- **VOC + Marketing Deep-Dive:** **no UK data** → UK is hidden from those tabs' country pills
+  (`VOC_COUNTRY_CODES = ['DE','FR','IT','ES']`; `setTab` falls back off UK when entering VOC/MDD).
+
+**Build knobs** (in `_build_standalone.py`): `COUNTRIES` (UK added), `STRUCT_SEGMENTS`,
+`CURRENCY_BY_COUNTRY`, `TLD_BY_COUNTRY`, `VOC_COUNTRY_CODES`, bundle keys `currencyByCountry` /
+`tldByCountry` / `vocCountries`, JS `SEG_LABELS` / `MS_SEG_ORDER`, per-tab `countryCodesForTab()`.
+
+Working scripts (dashboard-local `_uk_*`): `_uk_fetch_listings.py` (DataForSEO
+`merchant/amazon/asin/live/advanced`, `language_code='en_GB'`, bullets in `description`;
+hit `40200 Payment Required` after 66/203) and `_uk_classify.py` (the superseded
+Bath-Emulsion/Bath-Oil classifier — kept for reference).
+
 ## What this is
 
 A **3-tab standalone** for the "Atopic Skin" dermo category across 4 EU markets

@@ -50,12 +50,23 @@ DASHBOARD_SUB = 'Rynki: Niemcy · Francja · Włochy · Hiszpania · Dane: Heliu
 MASTER_XRAY_URL = 'https://docs.google.com/spreadsheets/d/1byI65DKowRHXKCWB7ypX5_PacCiGfESFiysUEECVbvI/edit?usp=drive_link'
 
 # ── Countries (order by market size) ────────────────────────────────────────
+# UK is a 5th market: Struktura rynku shows it in £ with its own segment names
+# (Cream / Bath Emulsion / Bath Oil). VOC + MDD have no UK data, so UK is hidden
+# from those tabs' country pills (see vocCountries). The cross-market Rynek topline
+# includes UK converted £->€ (handled in _build_rynek.py).
 COUNTRIES = [
     {'code': 'DE', 'name': 'Niemcy',    'flag': '\U0001F1E9\U0001F1EA'},
     {'code': 'FR', 'name': 'Francja',   'flag': '\U0001F1EB\U0001F1F7'},
     {'code': 'IT', 'name': 'Włochy',    'flag': '\U0001F1EE\U0001F1F9'},
     {'code': 'ES', 'name': 'Hiszpania', 'flag': '\U0001F1EA\U0001F1F8'},
+    {'code': 'UK', 'name': 'Wielka Brytania', 'flag': '\U0001F1EC\U0001F1E7'},
 ]
+
+# Per-country currency + Amazon TLD (UK = £ / amazon.co.uk). VOC/MDD data exists
+# only for the 4 Eurozone markets — UK is excluded from those country pills.
+CURRENCY_BY_COUNTRY = {'DE': '€', 'FR': '€', 'IT': '€', 'ES': '€', 'UK': '£'}
+TLD_BY_COUNTRY      = {'DE': 'de', 'FR': 'fr', 'IT': 'it', 'ES': 'es', 'UK': 'co.uk'}
+VOC_COUNTRY_CODES   = ['DE', 'FR', 'IT', 'ES']
 
 # Segments shown in the dashboard. Check (holding bucket) is EXCLUDED.
 # Oil is now included (atopic-only oil set with VOC + szelki-style MDD).
@@ -144,7 +155,9 @@ for c in COUNTRIES:
 # ── Market Structure: per-country products from X-Ray (Cream/Wash/Oil only) ──
 # 12M projection = 30d sales × 12 (no per-ASIN sales history in this project,
 # same flat multiplier the atopic-skin-topline Rynek tab uses). Revenue = units × price.
-STRUCT_SEGMENTS = ['Cream', 'Wash', 'Oil']
+# Includes UK's own segment names (Bath Emulsion / Bath Oil); each country only
+# contains the segments actually present in its X-Ray.
+STRUCT_SEGMENTS = ['Cream', 'Wash', 'Oil', 'Bath Emulsion', 'Bath Oil']
 
 
 def _pnum(val):
@@ -488,6 +501,9 @@ bundle = {
     'defaultCountry': DEFAULT_COUNTRY,
     'defaultSegment': DEFAULT_SEG,
     'currency': '€',
+    'currencyByCountry': CURRENCY_BY_COUNTRY,
+    'tldByCountry': TLD_BY_COUNTRY,
+    'vocCountries': VOC_COUNTRY_CODES,
     'voc': voc_data,
     'mdd': mdd_data,
     'structure': structure_data,
@@ -600,9 +616,10 @@ HTML = r'''<!DOCTYPE html>
 <script>
 var D = /*<<BUNDLE>>*/;
 
-var SEG_LABELS = { Check: 'Sprawdzenie', Cream: 'Krem', Wash: 'Mycie', Oil: 'Olejek' };
+var SEG_LABELS = { Check: 'Sprawdzenie', Cream: 'Krem', Wash: 'Mycie', Oil: 'Olejek',
+  'Bath Emulsion': 'Emulsja do kąpieli', 'Bath Oil': 'Olejek do kąpieli' };
 function segLabel(s){ return SEG_LABELS[s] || s; }
-var MS_SEG_ORDER = ['Cream', 'Wash', 'Oil'];
+var MS_SEG_ORDER = ['Cream', 'Wash', 'Oil', 'Bath Emulsion', 'Bath Oil'];
 
 var state = { tab: 'market', country: D.defaultCountry, segment: D.defaultSegment };
 
@@ -610,10 +627,16 @@ var state = { tab: 'market', country: D.defaultCountry, segment: D.defaultSegmen
 /*<<MDD_FN>>*/
 /*<<MS_FN>>*/
 
+// Structure shows all markets (incl. UK); VOC/MDD only the markets with data.
+function countryCodesForTab(){
+  return (state.tab === 'structure') ? D.countries.map(function(c){ return c.code; }) : (D.vocCountries || D.countries.map(function(c){ return c.code; }));
+}
+
 function buildCountryPills(){
   var host = document.getElementById('ad-country-pills');
   host.innerHTML = '';
-  D.countries.forEach(function(c){
+  var codes = countryCodesForTab();
+  D.countries.filter(function(c){ return codes.indexOf(c.code) > -1; }).forEach(function(c){
     var b = document.createElement('button');
     b.className = 'ad-pill ad-country-pill' + (c.code === state.country ? ' active' : '');
     b.dataset.country = c.code;
@@ -660,7 +683,7 @@ function scopeBucket(bucket, extra){
   out.countryName = out.countryName || c.name;
   out.countryCode = out.countryCode || c.code;
   out.segmentName = out.segmentName || segLabel(state.segment);
-  out.currency = out.currency || D.currency;
+  out.currency = out.currency || (D.currencyByCountry && D.currencyByCountry[state.country]) || D.currency;
   if (extra) for (var k2 in extra) out[k2] = extra[k2];
   return out;
 }
@@ -709,9 +732,9 @@ function renderStructure(){
   var c = countryMeta(state.country);
   renderMarketStructure({
     segments: segs,
-    currency: D.currency,
+    currency: (D.currencyByCountry && D.currencyByCountry[state.country]) || D.currency,
     countryName: c.name,
-    tld: String(state.country).toLowerCase()
+    tld: (D.tldByCountry && D.tldByCountry[state.country]) || String(state.country).toLowerCase()
   }, root);
 }
 
@@ -728,12 +751,20 @@ function setTab(tab){
   document.getElementById('panel-structure').classList.toggle('active', tab === 'structure');
   document.getElementById('panel-voc').classList.toggle('active', tab === 'voc');
   document.getElementById('panel-mdd').classList.toggle('active', tab === 'mdd');
+  // VOC/MDD have no UK data — if UK was selected on Structure, fall back to default.
+  if ((tab === 'voc' || tab === 'mdd') && (D.vocCountries || []).indexOf(state.country) === -1){
+    state.country = D.defaultCountry;
+    var segs = D.segmentsByCountry[state.country] || [];
+    if (segs.indexOf(state.segment) === -1) state.segment = segs.indexOf('Cream') > -1 ? 'Cream' : (segs[0] || '');
+  }
   // Country pills show on Structure/VOC/MDD; the shared Segment pills only on
   // VOC/MDD (Market Structure has its own Cream/Wash/Oil sub-tabs inside).
   var showCountry = (tab === 'structure' || tab === 'voc' || tab === 'mdd');
   var showSeg = (tab === 'voc' || tab === 'mdd');
   document.getElementById('ad-country-row').classList.toggle('hidden', !showCountry);
   document.getElementById('ad-segment-row').classList.toggle('hidden', !showSeg);
+  buildCountryPills();   // list differs per tab (Structure incl. UK, VOC/MDD excl.)
+  buildSegmentPills();
   renderActive();
 }
 
