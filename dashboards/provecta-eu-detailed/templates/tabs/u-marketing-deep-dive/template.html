@@ -1,0 +1,374 @@
+<!-- u-marketing-deep-dive tab template · atopic-skin-detailed (szelki-style)
+==============================================================================
+Marketing Deep-Dive tab — visual design ported from
+Milosz-Console/dashboards/szelki-detailed (renderMdd). Renders ONE bucket
+(one country × one segment). The caller scopes window._TAB_DATA to the right
+mdd-{segment}.json BEFORE this template's <script> runs. All labels POLISH.
+
+INTEGRATION (do not change these two statement forms — the build script
+_build_standalone.py -> to_named_renderer strips them and passes D + root as
+function params, producing renderMarketingDeepDive(D, root)):
+    var D = window._TAB_DATA;
+    var root = document.getElementById('u-mdd-tab-root');
+
+DATA CONTRACT — see _MDD_SCHEMA.md (szelki-style single bucket):
+{
+  totalCompetitors, marketplace, avgClaims, currency?,
+  countryName?, countryCode?, segmentName?,          // set by scopeBucket
+  competitors: [{ asin, brand, title, img, imgs[], bullets[], themes[],
+                  themeSrc:{key:["T"|"BP"]}, price, rating, reviews, rev30,
+                  archival }],
+  themes:     [{ key, label }],                       // matrix columns
+  adoption:   [{ key, label, count, pct }],           // sorted desc by count
+  vocGap:     [{ vocTopic, vocPct, theme, addressed, total, pct, sev, brands[] }],
+  whitespace: [{ label, pct, why }],
+  saturation: [{ label, pct, advice }],
+  recs:       [{ type, finding, impl }]
+}
+No A+/Brand-Story compare — SP-API does not expose that data.
+============================================================================== -->
+
+<style>
+  /* === Marketing Deep-Dive styles — self-contained, scoped to #u-mdd-root === */
+  #u-mdd-root { font-size:13px; color:#1e293b; }
+  #u-mdd-root .card{background:#fff;border-radius:8px;padding:18px 20px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:20px}
+  #u-mdd-root .card h3{font-size:.85rem;font-weight:600;color:#475569;margin-bottom:14px}
+  #u-mdd-root table{width:100%;border-collapse:collapse}
+  #u-mdd-root th{background:#f8fafc;text-align:left;padding:8px 10px;font-weight:600;color:#475569;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:2px solid #e2e8f0;cursor:pointer;user-select:none;white-space:nowrap}
+  #u-mdd-root th .arr{color:#94a3b8;font-size:.62rem;margin-left:3px}
+  #u-mdd-root th.num,#u-mdd-root td.num{text-align:right;font-variant-numeric:tabular-nums}
+  #u-mdd-root td{padding:7px 10px;border-bottom:1px solid #f1f5f9;font-size:.8rem}
+  #u-mdd-root tr:hover td{background:#f8fafc}
+  #u-mdd-root .badge{display:inline-block;padding:2px 9px;border-radius:10px;font-size:.7rem;font-weight:700;color:#fff;white-space:nowrap}
+  #u-mdd-root a.asin{color:#2563eb;font-weight:600;text-decoration:none;font-variant-numeric:tabular-nums}
+  #u-mdd-root a.asin:hover{text-decoration:underline}
+  #u-mdd-root .tfoot{font-size:.68rem;color:#64748b;margin-top:10px;line-height:1.5}
+  #u-mdd-root .note{font-size:.7rem;color:#64748b;margin-top:6px;padding:10px 13px;background:#f8fafc;border-radius:6px;border-left:2px solid #cbd5e1;line-height:1.6}
+  #u-mdd-root .narr{font-size:.78rem;color:#475569;line-height:1.6;margin-bottom:12px;padding:9px 12px;background:#f8fafc;border-radius:6px}
+  #u-mdd-root .voc-note{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:1px solid #fbbf24;border-left:4px solid #f59e0b;border-radius:8px;padding:13px 16px;margin-bottom:18px;font-size:.78rem;color:#78350f;line-height:1.65}
+  #u-mdd-root .voc-note b{color:#92400e}
+  #u-mdd-root .neg-card{border-left:4px solid #dc2626}
+  #u-mdd-root .kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:20px}
+  #u-mdd-root .kpi{background:#fff;border-radius:8px;padding:14px 18px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+  #u-mdd-root .kpi-v{font-size:1.2rem;font-weight:700;color:#0f2942;line-height:1.2}
+  #u-mdd-root .kpi-l{font-size:.66rem;color:#64748b;margin-top:5px;text-transform:uppercase;letter-spacing:.05em}
+  #u-mdd-root .charts-row{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:20px}
+  #u-mdd-root .charts-row .card{margin:0}
+  #u-mdd-root .sbadge{display:inline-block;padding:2px 9px;border-radius:10px;font-size:.66rem;font-weight:700;white-space:nowrap}
+  #u-mdd-root .pctcell{display:flex;align-items:center;gap:8px;justify-content:flex-end}
+  #u-mdd-root .pctbar{height:8px;border-radius:4px;background:#3b82f6;min-width:2px}
+  #u-mdd-root .pctnum{font-variant-numeric:tabular-nums;font-weight:600;min-width:46px;text-align:right}
+  /* MDD-specific */
+  #u-mdd-root .mdd-intro{background:#eff6ff;border:1px solid #bfdbfe;border-left:4px solid #2563eb;border-radius:8px;padding:12px 16px;margin:0 0 16px;font-size:.82rem;line-height:1.55;color:#1e3a5f}
+  #u-mdd-root .comp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:12px}
+  #u-mdd-root .comp-card{border:1px solid #e2e8f0;border-radius:8px;padding:10px;cursor:pointer;background:#fff;transition:box-shadow .15s,border-color .15s}
+  #u-mdd-root .comp-card:hover{box-shadow:0 2px 8px rgba(0,0,0,.1);border-color:#94a3b8}
+  #u-mdd-root .comp-card.sel{border-color:#0f2942;box-shadow:0 0 0 2px #0f294233}
+  #u-mdd-root .comp-card img{width:100%;height:120px;object-fit:contain;margin-bottom:7px;background:#fff}
+  #u-mdd-root .comp-card .cb{font-size:.72rem;font-weight:700;color:#0f2942}
+  #u-mdd-root .comp-card .ct{font-size:.66rem;color:#64748b;line-height:1.35;height:2.7em;overflow:hidden;margin:3px 0}
+  #u-mdd-root .comp-card .cm{font-size:.66rem;color:#475569;display:flex;justify-content:space-between;margin-top:4px}
+  #u-mdd-root .comp-card .cc{font-size:.62rem;color:#94a3b8;margin-top:3px}
+  #u-mdd-root .comp-card .arch{font-size:.58rem;color:#b45309;background:#fef3c7;border-radius:6px;padding:1px 6px;display:inline-block;margin-top:3px}
+  #u-mdd-root .u-mdd-detail{margin-top:14px;border:1px solid #e2e8f0;border-radius:8px;padding:14px;background:#f8fafc}
+  #u-mdd-root .u-mdd-detail .dt{font-weight:700;color:#0f2942;font-size:.82rem;margin-bottom:8px}
+  #u-mdd-root .u-mdd-detail ul{margin:0 0 10px 18px;font-size:.74rem;color:#475569;line-height:1.55}
+  #u-mdd-root .u-mdd-detail .thumbs{display:flex;gap:8px;flex-wrap:wrap}
+  #u-mdd-root .u-mdd-detail .thumbs img{width:74px;height:74px;object-fit:contain;border:1px solid #e2e8f0;border-radius:6px;background:#fff}
+  #u-mdd-root .u-mdd-detail .dthemes{margin-bottom:9px}
+  #u-mdd-root table.matrix th{font-size:.62rem;padding:6px 6px;white-space:normal;min-width:64px;text-align:center}
+  #u-mdd-root table.matrix th:first-child{text-align:left;min-width:120px}
+  #u-mdd-root table.matrix td{text-align:center;font-size:.78rem;padding:5px 6px}
+  #u-mdd-root table.matrix td:first-child{text-align:left;font-weight:600;color:#0f2942;white-space:nowrap}
+  #u-mdd-root table.matrix td.y{font-weight:700;white-space:nowrap}
+  #u-mdd-root table.matrix td.n{color:#cbd5e1}
+  #u-mdd-root table.matrix th:not(:first-child),#u-mdd-root table.matrix td:not(:first-child){border-left:1px solid #d8dee8}
+  #u-mdd-root table.matrix th:nth-child(even):not(:first-child),#u-mdd-root table.matrix td:nth-child(even):not(:first-child){background:#eef2f7}
+  #u-mdd-root table.matrix tr:hover td{background:#fffbe6}
+  #u-mdd-root .srcb{display:inline-block;font-size:.56rem;font-weight:800;padding:1px 4px;border-radius:3px;margin:0 1px;line-height:1.35;vertical-align:middle}
+  #u-mdd-root .srcb.t{background:#dbeafe;color:#1d4ed8}
+  #u-mdd-root .srcb.bp{background:#dcfce7;color:#15803d}
+  #u-mdd-root .srcb.ap{background:#fef3c7;color:#b45309}
+  #u-mdd-root .sev{display:inline-block;padding:2px 10px;border-radius:10px;font-size:.66rem;font-weight:800}
+  #u-mdd-root .sev.HIGH{background:#fee2e2;color:#b91c1c}
+  #u-mdd-root .sev.MED{background:#fef3c7;color:#b45309}
+  #u-mdd-root .sev.LOW{background:#dcfce7;color:#15803d}
+  #u-mdd-root .ws-item{border-left:3px solid #16a34a;background:#f0fdf4;border-radius:6px;padding:9px 12px;margin-bottom:8px}
+  #u-mdd-root .ws-item .wl{font-weight:700;color:#0f2942;font-size:.78rem}
+  #u-mdd-root .ws-item .ww{font-size:.7rem;color:#475569;margin-top:2px}
+  #u-mdd-root .imgcmp>summary{cursor:pointer;font-size:.85rem;font-weight:600;color:#475569;list-style:none;user-select:none}
+  #u-mdd-root .imgcmp>summary::-webkit-details-marker{display:none}
+  #u-mdd-root .imgcmp>summary::before{content:'\25B8';display:inline-block;margin-right:8px;color:#94a3b8;transition:transform .15s}
+  #u-mdd-root .imgcmp[open]>summary::before{transform:rotate(90deg)}
+  #u-mdd-root .imgcmp>summary .hint{font-size:.7rem;font-weight:500;color:#94a3b8;font-style:italic}
+  #u-mdd-root .img-row{display:flex;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid #f1f5f9;overflow-x:auto}
+  #u-mdd-root .img-row .ir-brand{flex:0 0 130px;font-size:.72rem;font-weight:700;color:#0f2942;line-height:1.3}
+  #u-mdd-root .img-row .ir-brand a{display:block;font-size:.62rem;font-weight:600}
+  #u-mdd-root .img-row img{height:104px;width:104px;object-fit:contain;border:1px solid #e2e8f0;border-radius:6px;background:#fff;flex:0 0 auto}
+  #u-mdd-root .bull-row{padding:10px 0;border-bottom:1px solid #f1f5f9}
+  #u-mdd-root .bull-row .ir-brand{font-size:.78rem;font-weight:700;color:#0f2942;line-height:1.3;margin-bottom:5px}
+  #u-mdd-root .bull-row .ir-brand a{font-size:.64rem;font-weight:600;margin-left:8px}
+  #u-mdd-root .bull-list{margin:0;padding-left:18px}
+  #u-mdd-root .bull-list li{font-size:.74rem;color:#475569;line-height:1.45;margin:2px 0}
+  #u-mdd-root .ad-empty{color:#64748b;font-size:.85rem;padding:20px}
+  @media(max-width:900px){#u-mdd-root .charts-row{grid-template-columns:1fr}#u-mdd-root .kpi-row{grid-template-columns:repeat(2,1fr)}}
+</style>
+
+<div id="u-mdd-tab-root"></div>
+
+<script>
+(function(){
+  var D = window._TAB_DATA;
+  var root = document.getElementById('u-mdd-tab-root');
+  if (!D) { root.innerHTML = '<div class="ad-empty">Brak danych Marketing Deep-Dive dla tego rynku/segmentu.</div>'; return; }
+
+  // ─── inline helpers (self-contained) ───────────────────────────────────
+  function esc(s){ return String(s == null ? '' : s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;'); }
+  var cur = D.currency || '€';
+  function fmtI(v){ return Math.round(+v || 0).toLocaleString('pl-PL'); }
+  function fmtM(v){ v = +v || 0; return cur + (v >= 1e6 ? (v/1e6).toFixed(1) + 'M' : v >= 1e3 ? (v/1e3).toFixed(0) + 'K' : Math.round(v)); }
+  var TYPE_COLORS = {
+    'Produkt':'#fef3c7;color:#b45309',
+    'Messaging':'#dbeafe;color:#1d4ed8',
+    'Pozycjonowanie':'#ede9fe;color:#6d28d9',
+    'Packaging':'#dcfce7;color:#15803d'
+  };
+  function sbadge(t){ var c = TYPE_COLORS[t] || '#f1f5f9;color:#475569'; return '<span class="sbadge" style="background:' + c + '">' + esc(t) + '</span>'; }
+  function makeSortable(table){
+    var headers = table.querySelectorAll('th');
+    headers.forEach(function(th, i){
+      th.onclick = function(){
+        var tbody = table.querySelector('tbody');
+        var rows = Array.prototype.slice.call(tbody.querySelectorAll('tr'));
+        var desc = th.dataset.sorted !== 'desc';
+        headers.forEach(function(h){ h.dataset.sorted = ''; var a = h.querySelector('.arr'); if (a) a.textContent = '↕'; });
+        th.dataset.sorted = desc ? 'desc' : 'asc';
+        var ar = th.querySelector('.arr'); if (ar) ar.textContent = desc ? '↓' : '↑';
+        rows.sort(function(a, b){
+          var av = a.children[i].dataset.v, bv = b.children[i].dataset.v;
+          var an = parseFloat(av), bn = parseFloat(bv);
+          var cmp = (!isNaN(an) && !isNaN(bn)) ? an - bn : String(av).localeCompare(String(bv), 'pl');
+          return desc ? -cmp : cmp;
+        });
+        rows.forEach(function(r){ tbody.appendChild(r); });
+      };
+    });
+  }
+
+  // ─── Identity / scope ───────────────────────────────────────────────────
+  var countryName = D.countryName || '';
+  var segment     = D.segmentName || '';
+  var marketplace = D.marketplace || (D.countryCode ? 'amazon.' + String(D.countryCode).toLowerCase() : '');
+  var tld = (marketplace ? marketplace.replace(/^amazon\./, '') : (D.countryCode ? String(D.countryCode).toLowerCase() : 'de'));
+
+  var C = D.competitors || [];
+  var n = C.length;
+  if (!n) { root.innerHTML = '<div class="ad-empty">Brak danych Marketing Deep-Dive dla tego rynku/segmentu.</div>'; return; }
+
+  var themes    = D.themes || [];
+  var adoption  = D.adoption || [];
+  var vocGap    = D.vocGap || [];
+  var whitespace= D.whitespace || [];
+  var saturation= D.saturation || [];
+  var recs      = D.recs || [];
+  var topClaim  = adoption[0] || { label: '—', pct: 0 };
+  var nHigh     = vocGap.filter(function(g){ return g.sev === 'HIGH'; }).length;
+  var avgClaims = (D.avgClaims != null) ? D.avgClaims : '—';
+  var SRCCLS    = { 'T':'t', 'BP':'bp', 'A+':'ap' };
+  var SEV_PL    = { HIGH:'Pilna', MED:'Średnia', LOW:'Niska' };
+
+  function asinLink(asin){ return '<a class="asin" href="https://www.amazon.' + tld + '/dp/' + esc(asin) + '" target="_blank" rel="noopener">' + esc(asin) + '</a>'; }
+
+  // Amazon serves the same photo at several sizes (…/I/<id>.jpg, …/I/<id>._SL75_.jpg).
+  // Collapse to the distinct images the seller actually uses, keyed by the <id> after
+  // /I/, and keep the full-size URL (drop the ._SL/_AC thumbnail variants).
+  function imgId(u){ var m = /\/I\/([^.]+)/.exec(String(u || '')); return m ? m[1] : String(u || ''); }
+  function uniqImgs(list){
+    var at = {}, out = [];
+    (list || []).filter(Boolean).forEach(function(u){
+      var id = imgId(u);
+      if (at[id] === undefined){ at[id] = out.length; out.push(u); }
+      else if (/\._[A-Z]/.test(out[at[id]]) && !/\._[A-Z]/.test(u)) out[at[id]] = u; // prefer full-size
+    });
+    return out;
+  }
+
+  // ─── Build HTML ─────────────────────────────────────────────────────────
+  var h = '<div id="u-mdd-root">';
+  h += '<h2 style="margin-bottom:12px">Marketing Deep-Dive' + (segment ? ' · ' + esc(segment) : '') + (countryName ? ' · ' + esc(countryName) : '') + '</h2>';
+
+  // 0. intro paragraph
+  h += '<div class="mdd-intro"><b>Skąd ta lista konkurentów?</b> Analizujemy <b>' + n + ' najlepiej sprzedających się produktów</b> w tym segmencie' + (marketplace ? ' na <b>' + esc(marketplace) + '</b>' : '') + ' (top wg przychodu z ostatnich 30 dni w danych X-Ray). Listingi (tytuł, bullet points, zdjęcia) pobrane z Amazon SP-API. Deklaracje marketingowe (claimy) są otagowane wzorcami językowymi i skrzyżowane z realnymi negatywami z zakładki „Recenzje (VOC)".</div>';
+
+  // 1. KPI strip
+  h += '<div class="kpi-row">';
+  h += '<div class="kpi"><div class="kpi-v">' + n + '</div><div class="kpi-l">Analizowani konkurenci' + (D.countryCode ? ' (' + esc(D.countryCode) + ')' : '') + '</div></div>';
+  h += '<div class="kpi"><div class="kpi-v">' + esc(avgClaims) + '</div><div class="kpi-l">Śr. deklaracji / listing</div></div>';
+  h += '<div class="kpi"><div class="kpi-v" style="font-size:.92rem">' + esc(topClaim.label) + '</div><div class="kpi-l">Najczęstszy claim (' + (+(topClaim.pct || 0)).toFixed(0) + '%)</div></div>';
+  h += '<div class="kpi"><div class="kpi-v" style="color:' + (nHigh ? '#dc2626' : '#16a34a') + '">' + nHigh + '</div><div class="kpi-l">Pilne luki — ból klienta, którego konkurencja nie adresuje</div></div>';
+  h += '</div>';
+
+  // 2. Competitor card grid + inline detail panel
+  h += '<div class="card">';
+  h += '<h3>Konkurenci · ' + (countryName ? esc(countryName) + ' ' : '') + '(' + n + ')</h3>';
+  h += '<div class="voc-note"><b>Jak korzystać z tej sekcji:</b> kliknij dowolny produkt, a pod siatką rozwinie się jego karta z <b>bullet pointami</b> (w języku oryginalnym rynku), otagowanymi <b>claimami</b> oraz <b>kompletem zdjęć z listingu</b> — możesz szybko podejrzeć, jak konkurent komunikuje i pokazuje produkt.</div>';
+  h += '<div class="comp-grid" id="u-mdd-grid">';
+  C.forEach(function(c, i){
+    h += '<div class="comp-card" data-i="' + i + '">';
+    h += (c.img ? '<img loading="lazy" src="' + esc(c.img) + '" alt="">' : '<div style="height:120px;display:flex;align-items:center;justify-content:center;color:#cbd5e1">brak zdjęcia</div>');
+    h += '<div class="cb">' + esc(c.brand) + '</div>';
+    h += '<div class="ct">' + esc(c.title) + '</div>';
+    h += '<div class="cm"><span>' + (c.price ? cur + (+c.price).toFixed(2) : '—') + '</span><span>' + (c.rating ? (+c.rating).toFixed(1) + '★' : '') + '</span></div>';
+    h += '<div class="cm"><span>' + (c.reviews ? fmtI(c.reviews) + ' opinii' : '') + '</span><span>' + (c.rev30 ? fmtM(c.rev30) + '/30d' : '') + '</span></div>';
+    h += '<div class="cc">' + (c.themes ? c.themes.length : 0) + ' claimów</div>';
+    h += (c.archival ? '<div class="arch">poniżej progu sprzedaży</div>' : '');
+    h += '</div>';
+  });
+  h += '</div>';
+  h += '<div id="u-mdd-detail" class="u-mdd-detail" style="display:none"></div>';
+  h += '</div>';
+
+  // 3. Collapsible image compare
+  h += '<details class="card imgcmp" id="u-mdd-imgcmp">';
+  h += '<summary>Szybkie porównanie zdjęć <span class="hint">(dla inspiracji)</span></summary>';
+  h += '<p class="tfoot" style="margin:8px 0 12px">Komplety zdjęć z listingów wszystkich analizowanych konkurentów — jeden wiersz na produkt, przewijaj w bok.</p>';
+  h += '<div>';
+  C.forEach(function(c){
+    var all = uniqImgs([c.img].concat(c.imgs || []));
+    h += '<div class="img-row"><div class="ir-brand">' + esc(c.brand) + asinLink(c.asin) + '</div>';
+    h += (all.length ? all.map(function(u){ return '<img loading="lazy" src="' + esc(u) + '">'; }).join('') : '<span class="tfoot">brak zdjęć</span>');
+    h += '</div>';
+  });
+  h += '</div></details>';
+
+  // 4. Collapsible bullet compare
+  h += '<details class="card imgcmp" id="u-mdd-bullcmp">';
+  h += '<summary>Szybkie porównanie bullet points <span class="hint">(dla inspiracji)</span></summary>';
+  h += '<p class="tfoot" style="margin:8px 0 12px">Bullet points z listingów wszystkich analizowanych konkurentów — jeden blok na produkt, w języku oryginalnym rynku.</p>';
+  h += '<div>';
+  C.forEach(function(c){
+    h += '<div class="bull-row"><div class="ir-brand">' + esc(c.brand) + asinLink(c.asin) + '</div>';
+    h += (c.bullets && c.bullets.length ? '<ul class="bull-list">' + c.bullets.map(function(b){ return '<li>' + esc(b) + '</li>'; }).join('') + '</ul>' : '<span class="tfoot">brak bullet points na listingu</span>');
+    h += '</div>';
+  });
+  h += '</div></details>';
+
+  // 5. Adoption table (sortable)
+  h += '<div class="card"><h3>Adopcja claimów — co komunikuje konkurencja</h3>';
+  h += '<table id="u-mdd-adopt"><thead><tr>';
+  h += '<th style="width:30%">Claim <span class="arr">↕</span></th>';
+  h += '<th class="num" style="width:14%">Konkurentów <span class="arr">↕</span></th>';
+  h += '<th class="num" style="width:20%">Adopcja <span class="arr">↕</span></th>';
+  h += '<th>Marki (top) <span class="arr">↕</span></th>';
+  h += '</tr></thead><tbody>';
+  adoption.forEach(function(a){
+    var brands = C.filter(function(c){ return (c.themes || []).indexOf(a.key) >= 0; }).slice(0, 5).map(function(c){ return c.brand; }).join(', ');
+    h += '<tr>';
+    h += '<td data-v="' + esc(a.label) + '" style="font-weight:600;color:#0f2942">' + esc(a.label) + '</td>';
+    h += '<td class="num" data-v="' + (+a.count || 0) + '">' + (+a.count || 0) + ' / ' + n + '</td>';
+    h += '<td class="num" data-v="' + (+a.pct || 0) + '"><span class="pctcell"><span class="pctbar" style="width:' + Math.max(2, (+a.pct || 0) * 0.7) + 'px"></span><span class="pctnum">' + (+(a.pct || 0)).toFixed(0) + '%</span></span></td>';
+    h += '<td style="color:#64748b;font-size:.72rem" data-v="' + esc(brands) + '">' + esc(brands) + '</td>';
+    h += '</tr>';
+  });
+  h += '</tbody></table></div>';
+
+  // 6. Claims matrix
+  h += '<div class="card"><h3>Macierz claimów</h3>';
+  h += '<p class="narr">Każda komórka pokazuje, <strong>gdzie</strong> konkurent komunikuje dany claim: <span class="srcb t">T</span> tytuł · <span class="srcb bp">BP</span> bullet points. Im więcej miejsc, tym ważniejszy ten claim dla marki — powtarza go w całym listingu, nie tylko raz.</p>';
+  h += '<div style="overflow-x:auto"><table class="matrix" id="u-mdd-matrix"><thead><tr><th>Marka</th>';
+  themes.forEach(function(t){ h += '<th>' + esc(t.label) + '</th>'; });
+  h += '</tr></thead><tbody>';
+  C.forEach(function(c){
+    h += '<tr><td>' + esc(c.brand) + '</td>';
+    themes.forEach(function(t){
+      var src = (c.themeSrc && c.themeSrc[t.key]) || [];
+      h += src.length
+        ? '<td class="y">' + src.map(function(s){ return '<span class="srcb ' + (SRCCLS[s] || 'ap') + '">' + esc(s) + '</span>'; }).join('') + '</td>'
+        : '<td class="n">·</td>';
+    });
+    h += '</tr>';
+  });
+  h += '</tbody></table></div>';
+  h += '<div class="tfoot">Tagowanie wzorcami językowymi (tytuł + bullet points). „·" = claim nieobecny.</div></div>';
+
+  // 7. VOC ↔ claims gap table
+  h += '<div class="card neg-card"><h3>Luki: ból klienta (VOC) vs komunikacja konkurencji</h3>';
+  h += '<div class="narr">Każdy wiersz łączy <strong>realny negatyw z zakładki „Recenzje (VOC)"</strong> (% negatywnych opinii) z claimem konkurencji, który go adresuje.';
+  h += '<div style="margin-top:8px;padding:9px 12px;background:#fff;border:1px solid #fcd34d;border-left:4px solid #f59e0b;border-radius:6px"><strong>Uwaga — „Pilność" mówi o LUCE, nie o tym jak częsty jest ból.</strong> Zależy od kolumny <strong>„Adresuje"</strong> (ilu konkurentów porusza temat), a <strong>nie</strong> od % negatywów:';
+  h += '<ul style="margin:6px 0 4px 18px;padding:0"><li><strong>🔴 Pilna</strong> — &lt;25% konkurentów to adresuje → biała plama</li><li><strong>🟡 Średnia</strong> — 25–60% adresuje</li><li><strong>🟢 Niska</strong> — ≥60% adresuje → temat nasycony</li></ul></div></div>';
+  h += '<table id="u-mdd-gap"><thead><tr>';
+  h += '<th>Ból klienta (z VOC)</th><th class="num" style="width:12%">% negatywów</th><th style="width:20%">Claim adresujący</th><th class="num" style="width:13%">Adresuje</th><th style="width:10%">Pilność</th><th>Kto komunikuje</th>';
+  h += '</tr></thead><tbody>';
+  vocGap.forEach(function(g){
+    h += '<tr>';
+    h += '<td style="font-weight:600;color:#0f2942">' + esc(g.vocTopic) + '</td>';
+    h += '<td class="num">' + (+(g.vocPct || 0)).toFixed(1) + '%</td>';
+    h += '<td style="color:#475569">' + (g.theme ? esc(g.theme) : '—') + '</td>';
+    h += '<td class="num">' + (+g.addressed || 0) + ' / ' + (+g.total || 0) + ' (' + (+g.pct || 0) + '%)</td>';
+    h += '<td><span class="sev ' + esc(g.sev) + '">' + (SEV_PL[g.sev] || esc(g.sev)) + '</span></td>';
+    h += '<td style="color:#64748b;font-size:.72rem">' + ((g.brands && g.brands.length) ? esc(g.brands.join(', ')) : '—') + '</td>';
+    h += '</tr>';
+  });
+  h += '</tbody></table>';
+  h += '<p class="tfoot">Gdy <b>Claim adresujący</b> / <b>Kto komunikuje</b> pokazuje „-", dany ból nie pasuje do żadnego ze śledzonych claimów (śledzimy claimy o <b>składzie i działaniu</b> produktu - np. nawilżenie, kojenie, bez zapachu - a nie o opakowaniu czy plombie). Taki wiersz ma wtedy z definicji <b>0/N</b> i status <b>Pilna</b>: to realna bolączka klientów, której <b>żaden konkurent nie adresuje</b> w listingu = potencjalna biała plama do zajęcia.</p>';
+  h += '</div>';
+
+  // 8. Whitespace + saturation (side by side)
+  h += '<div class="charts-row">';
+  h += '<div class="card"><h3>Białe plamy (whitespace)</h3><p class="narr">Claimy, które komunikuje <strong>mniej niż 30% konkurentów</strong> — puste miejsca do zajęcia.</p><div>';
+  h += (whitespace.length
+    ? whitespace.map(function(w){ return '<div class="ws-item"><div class="wl">' + esc(w.label) + ' <span style="color:#16a34a;font-weight:800">' + (+w.pct || 0) + '%</span></div><div class="ww">' + esc(w.why) + '</div></div>'; }).join('')
+    : '<p class="tfoot">Brak wyraźnych białych plam — wszystkie claimy mają już zauważalną adopcję.</p>');
+  h += '</div></div>';
+  h += '<div class="card"><h3>Nasycenie claimów — jak się wyróżnić</h3><p class="narr">Pełna mapa <strong>wszystkich</strong> claimów: ≥70% = obowiązkowy (wyróżnisz się tylko dowodem), 30-70% = potrzebny konkret, &lt;30% = biała plama.</p>';
+  h += '<table id="u-mdd-sat"><thead><tr><th style="width:28%">Claim</th><th class="num" style="width:14%">Nasycenie</th><th>Jak się wyróżnić</th></tr></thead><tbody>';
+  saturation.forEach(function(s){
+    h += '<tr><td style="font-weight:600;color:#0f2942">' + esc(s.label) + '</td><td class="num">' + (+s.pct || 0) + '%</td><td style="color:#475569;font-size:.74rem">' + esc(s.advice) + '</td></tr>';
+  });
+  h += '</tbody></table></div>';
+  h += '</div>';
+
+  // 9. Strategic recommendations
+  h += '<div class="card"><h3>Rekomendacje strategiczne</h3>';
+  h += '<table id="u-mdd-recs"><thead><tr><th style="width:14%">Typ analizy</th><th>Ustalenie (z danych)</th><th style="width:34%">Implikacja strategiczna</th></tr></thead><tbody>';
+  recs.forEach(function(r){
+    h += '<tr><td>' + sbadge(r.type) + '</td><td style="color:#475569">' + esc(r.finding) + '</td><td style="font-weight:600;color:#0f2942">' + esc(r.impl) + '</td></tr>';
+  });
+  h += '</tbody></table></div>';
+
+  // 10. Methodology note
+  h += '<div class="note"><strong>Metodologia MDD:</strong> analizowani są konkurenci z topu sprzedaży w tym segmencie (top wg przychodu 30d z danych X-Ray)' + (D.countryCode ? ' na rynku ' + esc(D.countryCode) : '') + '. Listingi (tytuł, bullet points, opis, zdjęcia) pobrane z Amazon SP-API. Claimy tagowane wzorcami językowymi. Analiza luk krzyżuje realne negatywy z zakładki „Recenzje (VOC)" z claimami konkurencji. Produkty z plakietką „poniżej progu sprzedaży" nie przeszły filtra przychodu, ale są pokazane dla pełnego obrazu.</div>';
+
+  h += '</div>'; // end #u-mdd-root
+  root.innerHTML = h;
+
+  // ─── Card click → inline detail toggle ─────────────────────────────────
+  var sel = -1;
+  var detail = root.querySelector('#u-mdd-detail');
+  root.querySelectorAll('.comp-card').forEach(function(card){
+    card.onclick = function(){
+      var i = +card.dataset.i;
+      root.querySelectorAll('.comp-card').forEach(function(x){ x.classList.remove('sel'); });
+      if (sel === i) { sel = -1; detail.style.display = 'none'; return; }
+      sel = i; card.classList.add('sel');
+      var c = C[i];
+      var thLabels = (c.themes || []).map(function(k){
+        var t = themes.find(function(x){ return x.key === k; });
+        return t ? '<span class="sbadge" style="background:#dbeafe;color:#1d4ed8;margin-right:5px">' + esc(t.label) + '</span>' : '';
+      }).join('');
+      var m = '';
+      m += '<div class="dt">' + esc(c.brand) + ' · ' + asinLink(c.asin) + '</div>';
+      m += '<div class="dthemes">' + (thLabels || '<span class="tfoot">brak otagowanych claimów</span>') + '</div>';
+      m += (c.bullets && c.bullets.length ? '<ul>' + c.bullets.map(function(b){ return '<li>' + esc(b) + '</li>'; }).join('') + '</ul>' : '<p class="tfoot">Listing bez bullet points.</p>');
+      var dThumbs = uniqImgs([c.img].concat(c.imgs || []));
+      m += (dThumbs.length ? '<div class="thumbs">' + dThumbs.map(function(u){ return '<img loading="lazy" src="' + esc(u) + '">'; }).join('') + '</div>' : '');
+      detail.innerHTML = m;
+      detail.style.display = '';
+      detail.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    };
+  });
+
+  // ─── Sortable adoption table ───────────────────────────────────────────
+  makeSortable(root.querySelector('#u-mdd-adopt'));
+})();
+</script>

@@ -64,6 +64,13 @@
       "file": "index.html"
     },
     {
+      "id": "provecta-eu-detailed",
+      "title": "Provecta EU — Detailed (FR, DE, UK, IT, ES)",
+      "group": "detailed",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
       "id": "moth-topline",
       "title": "Moth Control (UK, DE, FR, IT, ES)",
       "group": "topline",

@@ -1,0 +1,1493 @@
+{
+ "avgRating": 4.21,
+ "productCount": 81,
+ "totalReviews": 123,
+ "cpSummary": "Kupujący to <b>brytyjskie gospodarstwa domowe pod aktywną presją szkodników</b>: letnie inwazje much i muszek owocówek w kuchniach, gniazda os w ogrodach, szopach i murach, plus mrówki i insekty biegające. To praktyczni, wrażliwi na cenę klienci - wielu przeszło z Raida i innych marek premium po rozczarowaniu, a część chroni dzieci, zwierzęta lub domowników z fobią. <b>Zastrzeżenie:</b> scrape objął wyłącznie recenzje 4-5 gwiazdek (123 łącznie, zero 1-3 gwiazdek), więc ten profil odzwierciedla tylko zadowolonych klientów.",
+ "cpWho": {
+  "labels": [
+   "Walczący z muchami / owocówkami",
+   "Domy z gniazdem os",
+   "Problemy z insektami biegającymi (chrząszcze, wołki, stonogi)",
+   "Domy z dziećmi lub zwierzętami",
+   "Inwazje mrówek",
+   "Kupujący z awersją do pająków"
+  ],
+  "pos": [
+   52,
+   23,
+   9,
+   8,
+   6,
+   5
+  ],
+  "neg": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "cpWhen": {
+  "labels": [
+   "Nagła aktywna inwazja",
+   "Lato / sezon upałów",
+   "Ciągłe / powtarzane użycie",
+   "Profilaktyczne traktowanie obwodowe",
+   "Wieczorem lub o zmierzchu (zabieg na gniazdo)"
+  ],
+  "pos": [
+   16,
+   10,
+   7,
+   6,
+   5
+  ],
+  "neg": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "cpWhere": {
+  "labels": [
+   "Ogród / konstrukcje zewnętrzne",
+   "Salon / sypialnie",
+   "Kuchnia",
+   "Szopa / strych / okapy / mur",
+   "Kosze / śmietniki"
+  ],
+  "pos": [
+   14,
+   12,
+   10,
+   9,
+   4
+  ],
+  "neg": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "cpWhat": {
+  "labels": [
+   "Skuteczność / szybkość zabijania",
+   "Zapach / wietrzenie",
+   "Jakość rozpylania / piana / dysza",
+   "Cena / wartość",
+   "Bezpieczeństwo (zwierzęta, żywność, opary)"
+  ],
+  "pos": [
+   95,
+   18,
+   16,
+   13,
+   10
+  ],
+  "neg": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "usageScenarios": [
+  {
+   "label": "Zwalczanie much i owocówek w domu",
+   "reason": "Tępienie much, muszek owocówek, ziemiórek i much kanalizacyjnych w kuchniach i salonach, często w upały",
+   "pct": "43.3%"
+  },
+  {
+   "label": "Niszczenie gniazd os proszkiem",
+   "reason": "Wdmuchiwanie proszku w wejścia gniazd (kratki wentylacyjne, szopy, gniazda w ziemi, okapy), żeby osy wniosły go do środka i kolonia zginęła przez noc",
+   "pct": "19.2%"
+  },
+  {
+   "label": "Rezydualne traktowanie powierzchni / bariera",
+   "reason": "Opryskiwanie parapetów, moskitier, listew i całych pokoi, a potem pozostawienie osadu, który dalej zabija przy kontakcie",
+   "pct": "8.3%"
+  },
+  {
+   "label": "Zwalczanie insektów biegających",
+   "reason": "Chrząszcze dywanowe, wołki, stonogi, roztocza pleśniowe i wije traktowane wzdłuż szczelin, listew i zaatakowanych zapasów",
+   "pct": "7.5%"
+  },
+  {
+   "label": "Zwalczanie inwazji mrówek",
+   "reason": "Zatrzymywanie sezonowych ścieżek mrówek i gniazd mrówek uskrzydlonych pojawiających się w domu, także za sprzętami",
+   "pct": "5.0%"
+  },
+  {
+   "label": "Sanityzacja koszy i śmietników",
+   "reason": "Opryskiwanie koszy zewnętrznych i na bioodpady, żeby zabić muchy i larwy u samego źródła",
+   "pct": "3.3%"
+  }
+ ],
+ "csSummary": "<b>Ważne zastrzeżenie do danych: scrape z UK zawiera wyłącznie recenzje 4-5 gwiazdek (123 recenzje, średnia 4.8, zero uchwyconych ocen 1-3), więc negatywna strona sentymentu jest strukturalnie niedoreprezentowana i nie da się jej skwantyfikować.</b> W tej wyłącznie pozytywnej próbce sentyment jest entuzjastyczny: kupujący opisują natychmiastowe działanie na muchy i likwidację gniazd os przez noc, często po porażce znanych marek i pułapek. Krytyka, która się pojawia, jest zaszyta w recenzjach 4-5 gwiazdek i skupia się na sprzętowej stronie aerozolu i wrażeniach sensorycznych: pienisty lub pryskający strumień, zacinające się lub wadliwe dysze oraz mocny zapach wymuszający wietrzenie.",
+ "negativeTopics": [
+  {
+   "label": "Pienisty, mokry strumień zamiast drobnej mgiełki",
+   "reason": "Krytyka wyciągnięta ze skądinąd pozytywnych recenzji 4-5 gwiazdek (brak recenzji 1-3 w scrapie): aerozol często wychodzi jako piana lub mokre bryzgi, które zostawiają osad i ograniczają zasięg",
+   "pct": "7.5%",
+   "bullets": [
+    "Piana porównywana do pasty do mebli, po użyciu trzeba przetrzeć powierzchnie",
+    "Trzeba mocno wstrząsać i pryskać krótkimi naciśnięciami, żeby uniknąć mokrych bryzgów piany",
+    "Krótki zasięg strumienia utrudnia trafienie owadów w locie",
+    "Może zostawić widoczny biały nalot lub film, gdy pryska się zbyt blisko powierzchni"
+   ],
+   "quotes": [
+    "Strumień przeważnie nie jest drobny. Muszę wstrząsać i pryskać krótko, żeby nie wyszły duże mokre bryzgi piany. Nie jest idealnie.",
+    "Jedyny minus: robi pianę, jak przy pastowaniu mebli, i nie pryska daleko",
+    "wygląda na to, że przy każdym pryśnięciu wychodzi jakaś pienista maź, co nie jest szczególnie dobre"
+   ]
+  },
+  {
+   "label": "Wady dyszy i zaworu",
+   "reason": "Krytyka wyciągnięta z pozytywnych recenzji 4-5 gwiazdek: zacinające się, cieknące lub martwe przyciski, puszki plujące lub przestające działać oraz nieopisana plastikowa blokada dyszy",
+   "pct": "5.0%",
+   "bullets": [
+    "Głowice rozpylające się zacinają, a płyn wycieka górą",
+    "Niektóre puszki plują, przestają działać w połowie albo nie działają wcale",
+    "Kupujący ratują się przekładaniem przycisku z puszki innej marki",
+    "Transportowa blokada dyszy (plastikowy pasek) nie jest wyjaśniona w instrukcji"
+   ],
+   "quotes": [
+    "Zabija robaki szybko, ale końcówka ciągle się zacina i płyn wycieka górą razem ze strumieniem",
+    "Niestety pierwsze 3 puszki bardziej pluły, niż pryskały :(",
+    "jeden spray zużył się cały, drugi przestał działać, a trzeci nie zadziałał ani razu. Więcej nie kupię"
+   ]
+  },
+  {
+   "label": "Mocny zapach, pokój trzeba wywietrzyć",
+   "reason": "Krytyka wyciągnięta z pozytywnych recenzji 4-5 gwiazdek: wyczuwalny chemiczny zapach oznacza, że pokój trzeba zamknąć i wywietrzyć, a niektórzy wchodzą tam w masce",
+   "pct": "8.3%",
+   "bullets": [
+    "Kilku kupujących pisze, że pokój naprawdę śmierdzi i musi być dobrze wywietrzony",
+    "Rada: zamknąć pokój, dać oparom opaść i przewietrzyć przed powrotem",
+    "Zalecana ostrożność przy zwierzętach, żywności i wdychaniu sprayu",
+    "Inni uważają zapach za łagodniejszy niż u konkurencji, więc odczucia się różnią"
+   ],
+   "quotes": [
+    "Ten spray ma mocny zapach, więc pokój musi być bardzo dobrze wywietrzony, naprawdę śmierdzi",
+    "Śmierdzi okropnie, ale robi robotę w mgnieniu oka",
+    "potem trzeba pokój odwietrzyć, bo niedobrze tym oddychać"
+   ]
+  },
+  {
+   "label": "Luki w skuteczności na niektóre szkodniki",
+   "reason": "Krytyka wyciągnięta z pozytywnych recenzji 4-5 gwiazdek: działa na większość owadów, ale zawodzi na dużych pająkach i pchłach, a czasem trzeba pryskać kilka razy",
+   "pct": "4.2%",
+   "bullets": [
+    "Nie zabija niezawodnie dużych pająków",
+    "Na pchły słabszy, niż kupujący liczyli",
+    "Niektóre owady latające wymagają więcej niż jednego bezpośredniego trafienia",
+    "Jeden lojalny użytkownik żałuje, że nie działa też na owocówki (zależnie od wariantu produktu)"
+   ],
+   "quotes": [
+    "jedyne co, to słabo działa na duże pająki",
+    "To niestety nie zadziałało tak dobrze, jak bym chciała",
+    "nie jest tak zabójczy ani tak szybki jak niektóre inne spraye, których używałem"
+   ]
+  },
+  {
+   "label": "Drobne zastrzeżenia do ceny",
+   "reason": "Krytyka wyciągnięta z pozytywnych recenzji 4-5 gwiazdek: niewielka mniejszość uważa puszkę za odrobinę za drogą jak na rozmiar, choć i tak ją poleca",
+   "pct": "1.7%",
+   "bullets": [
+    "Opisywany jako odrobinę za drogi jak na to, czym jest",
+    "Postrzegany jako trochę drogi, mimo że działa lepiej niż konkurencja"
+   ],
+   "quotes": [
+    "Choć trochę drogi jak na to, czym jest, ten środek jest naprawdę dobry",
+    "po prostu odrobinę za drogie jak na to, czym są"
+   ]
+  }
+ ],
+ "positiveTopics": [
+  {
+   "label": "Natychmiastowe działanie, zabija w sekundy",
+   "reason": "Dominujący wątek pochwał: muchy, osy i mole padają martwe niemal od razu po krótkim pryśnięciu",
+   "pct": "35.0%",
+   "bullets": [
+    "Owady spadają z powietrza natychmiast po 1-sekundowym pryśnięciu",
+    "Całe pokoje much wyczyszczone jedną małą aplikacją",
+    "Działa na muchy, mole, osy, ziemiórki, meszki i nie tylko",
+    "Kupujący przeciwstawiają go sprayom, które owady tylko ogłuszają"
+   ],
+   "quotes": [
+    "Prysnąłem odrobinę w powietrze i wszystkie spadły martwe natychmiast",
+    "Gdy pryskasz na owada, czy to mucha, mól czy cokolwiek, owad natychmiast spada i zdycha",
+    "Każda mucha, którą widziałem, dostawała krótki strzał i od razu spadała na podłogę, martwa w kilka sekund"
+   ]
+  },
+  {
+   "label": "Likwiduje całe gniazda os przez noc",
+   "reason": "Format proszku raz za razem chwalony za zabicie całego gniazda jedną aplikacją, także gniazd ukrytych i podziemnych",
+   "pct": "19.2%",
+   "bullets": [
+    "Osy same wnoszą proszek do gniazda i kolonia ginie w ciągu godzin lub dni",
+    "Działa na gniazda niewidoczne i nieosiągalne bezpośrednio (kratki wentylacyjne, podłogi, szopy)",
+    "Zwykle wystarcza jedna aplikacja o zmierzchu",
+    "Skuteczny tam, gdzie pianki zawiodły po wielu próbach"
+   ],
+   "quotes": [
+    "Rano przed domem leżała sterta os, a gniazdo przestało być aktywne",
+    "Jedna aplikacja w miejsce, gdzie widzieliśmy, jak wlatują i wylatują, i po sprawie!",
+    "2 godziny później z 6 os na minutę wlatujących i wylatujących zrobiło się zero. Niesamowita rzecz"
+   ]
+  },
+  {
+   "label": "Bije znane marki",
+   "reason": "Kupujący raz za razem piszą, że jest lepszy od Raida i innych znanych, droższych sprayów, które ledwo działały",
+   "pct": "9.2%",
+   "bullets": [
+    "Bezpośrednie porównania: lepszy niż Raid i wiodąca marka pierwszego wyboru",
+    "Marki premium opisywane jako jedynie ogłuszające muchy, a ten je zabija",
+    "Postrzegany jako mocniejszy, mimo że kosztuje od połowy do ćwierci ich ceny",
+    "Nawróceni po pierwszej puszce zostają lojalni wobec marki"
+   ],
+   "quotes": [
+    "Kupiłem Raida, ale jest do niczego. Ten Zero In ZER905 Total Insect Killer jest bardzo skuteczny",
+    "ma dużo mocniejszego kopa i jest bardziej uniwersalny",
+    "Jest lepszy niż te 4 razy droższe"
+   ]
+  },
+  {
+   "label": "Dobry stosunek jakości do ceny",
+   "reason": "Dobra cena na tle alternatyw z supermarketu, a jedna puszka starcza na wiele zabiegów",
+   "pct": "10.8%",
+   "bullets": [
+    "Tańszy od wiodących marek, a działa lepiej",
+    "Jedna puszka wystarcza na kilka dużych pokoi lub kilka gniazd",
+    "Małe ilości na aplikację czynią go ekonomicznym",
+    "Często podsumowywany jako świetna wartość plus szybka dostawa"
+   ],
+   "quotes": [
+    "Naprawdę świetny stosunek jakości do ceny. Bardzo łatwy w użyciu i naprawdę skuteczny!",
+    "Starcza na długo i działa szybko, więc też dobra wartość",
+    "Robi robotę w całkiem dobrej cenie"
+   ]
+  },
+  {
+   "label": "Działa, gdy wszystko inne zawiodło",
+   "reason": "Pozycjonowany jako ostatnia deska ratunku, która wreszcie zadziałała po porażce pułapek, lepów, domowych sposobów i innych sprayów",
+   "pct": "8.3%",
+   "bullets": [
+    "Wygrywa z lepami na muchy, pułapkami płynowymi i lampami UV, które nie dawały nic",
+    "Skuteczny po porażce octu, olejku miętowego i innych naturalnych metod",
+    "Rozwiązuje uporczywe inwazje much kanalizacyjnych i owocówek w kilka dni",
+    "Oszczędza koszt wzywania profesjonalnej dezynsekcji"
+   ],
+   "quotes": [
+    "Używałam pułapek i czego tam jeszcze, próbując po dobroci, ale nic nie działało haha. Ten środek czyni cuda",
+    "Próbowałem żółtych lepów na muchy i uznałem je za bezużyteczne",
+    "Próbowałam wszystkiego na moje muchy kanalizacyjne i to jedyna rzecz, która działa"
+   ]
+  },
+  {
+   "label": "Trwała ochrona rezydualna",
+   "reason": "Pryśnięcie i pozostawienie na parapetach, moskitierach i listwach zabija owady jeszcze przez wiele dni po aplikacji",
+   "pct": "6.7%",
+   "bullets": [
+    "Parapety pełne martwych much dzień po jednym zabiegu",
+    "Osad zabija jeszcze do trzech dni później bez ponownej aplikacji",
+    "Używany jako bariera na moskitierach i punktach wejścia",
+    "Działa podwójnie: jako spray natychmiastowy i traktowanie powierzchni do pozostawienia"
+   ],
+   "quotes": [
+    "Pod koniec dnia mój parapet był dosłownie zasłany martwymi muchami!",
+    "spray działał jeszcze do trzech dni później",
+    "Zabija natychmiast, gdy pryskasz na owady, albo można nim spryskać pokój dla trwałej ochrony"
+   ]
+  }
+ ],
+ "negativeInsights": [
+  {
+   "type": "Zastrzeżenie do danych",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Scrape z UK objął wyłącznie recenzje 4-5 gwiazdek (zero 1-3), więc wszystkie negatywne wątki to krytyka wyciągnięta z pozytywnych recenzji, a prawdziwy obraz negatywnych ocen pozostaje nieznany.",
+   "implication": "Nie porównywać wskaźników negatywów UK z innymi rynkami na tym zbiorze; przed wyciąganiem wniosków o przyczynach porażek i zwrotów ponowić scrape z pokryciem ocen 1-3."
+  },
+  {
+   "type": "Sprzętowa strona aerozolu",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Nawet zadowoleni klienci raz za razem zgłaszają pienisty lub plujący strumień, zacinające się lub martwe dysze oraz nieopisaną transportową blokadę dyszy; jeden kupujący trafił na 3 wadliwe puszki, inny przełożył przycisk z puszki konkurencji.",
+   "implication": "Kontrola jakości zaworów i przycisków plus czytelne instrukcje 'mocno wstrząśnij' i zdejmowania blokady na puszce i w listingu to poprawki o największej dźwigni; wady sprzętowe to najbardziej prawdopodobny ukryty motor niewidocznych w scrapie recenzji 1-gwiazdkowych."
+  },
+  {
+   "type": "Doświadczenie zapachowe",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Opinie o zapachu są spolaryzowane: dla jednych łagodny i przyjemny, inni piszą, że pokój naprawdę śmierdzi i trzeba go wietrzyć, z ostrzeżeniami o zwierzętach, żywności i wdychaniu.",
+   "implication": "Ustawić oczekiwania w listingu (wietrzyć, przykryć żywność, odizolować zwierzęta), a deklarację niskiego zapachu rozważyć tylko wtedy, gdy formulacja realnie ją potwierdza; niezarządzone zaskoczenie zapachem grozi negatywnymi recenzjami."
+  },
+  {
+   "type": "Granice pokrycia szkodników",
+   "badgeBg": "#fee2e2",
+   "badgeColor": "#991b1b",
+   "finding": "Kupujący zgłaszają słabe wyniki na dużych pająkach i pchłach mimo pozycjonowania 'total insect killer', a niektóre owady latające wymagają powtórnych bezpośrednich trafień.",
+   "implication": "Doprecyzować w listingu skuteczność na poszczególne szkodniki, żeby zapobiec rozjazdowi oczekiwań; deklaracja 'total', która zawodzi na pająkach lub pchłach, zaprasza krytyczne recenzje dokładnie z tych zastosowań."
+  }
+ ],
+ "positiveInsights": [
+  {
+   "type": "Szybkość jako główne USP",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Natychmiastowe działanie to najczęściej powtarzana pochwała: owady padają martwe w sekundy po 1-sekundowym pryśnięciu, a całe pokoje są czyszczone przez noc.",
+   "implication": "Otworzyć copy listingu i grafiki szybkością zabijania (muchy padają w sekundy); to korzyść, którą klienci weryfikują najpierw i najczęściej cytują w recenzjach."
+  },
+  {
+   "type": "Proszek na osy jako scenariusz-bohater",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Proszek niszczący gniazda generuje najbardziej emocjonalne rekomendacje: jedna aplikacja o zmierzchu zabija całe gniazda przez noc, także nieosiągalne podziemne i w szczelinach murów, po porażce pianek.",
+   "implication": "Sprzedawać proszek wokół historii 'całe gniazdo przez noc' z instrukcją aplikacji (zmierzch, otwory wejściowe, osy same wnoszą proszek do środka); to konwertuje zdesperowanych kupujących o wysokiej intencji."
+  },
+  {
+   "type": "Pretendent kontra Raid",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Stały strumień recenzji przedstawia produkt jako mocniejszy od Raida i marek premium za ułamek ceny, często po tym, jak tamte owady tylko ogłuszały.",
+   "implication": "Pozycjonowanie oparte na porównaniu (działa tam, gdzie zawodzą wielkie marki, bez wymieniania konkurencji w copy) pasuje do tego, jak już mówią zadowoleni kupujący, i wspiera cenę zbliżoną do premium."
+  },
+  {
+   "type": "Konwersja ostatniej deski ratunku",
+   "badgeBg": "#dcfce7",
+   "badgeColor": "#166534",
+   "finding": "Wielu kupujących trafia tu po porażce pułapek, lepów i domowych sposobów, a potem zostaje stałymi klientami, którzy robią zapasy i kupują markę ponad rok.",
+   "implication": "Celować w słowa kluczowe i treści wokół zawiedzionych alternatyw (pułapki na owocówki nie działają, pianka na osy zawiodła), żeby przechwycić kupujących o wysokiej intencji w ich momencie desperacji."
+  }
+ ],
+ "buyersMotivation": [
+  {
+   "label": "Nagła aktywna inwazja",
+   "reason": "Plagi much, owocówek, gniazda os lub mrówki już w domu wymagają natychmiastowego działania",
+   "pct": "33.3%"
+  },
+  {
+   "label": "Wcześniejsze metody zawiodły",
+   "reason": "Pułapki, lepy, naturalne sposoby i konkurencyjne spraye nie zadziałały, więc kupujący sięgają po ten produkt",
+   "pct": "8.3%"
+  },
+  {
+   "label": "Tańszy niż wiodące marki",
+   "reason": "Wybierany zamiast Raida i sprayów premium kosztujących 2-4 razy więcej przy słabszych wynikach",
+   "pct": "7.5%"
+  },
+  {
+   "label": "Ochrona dzieci, zwierząt i domowników z fobią",
+   "reason": "Wnuki pożądlone przez osy, alergie na jad, fobie owadzie i miejsca zabaw dzieci napędzają zakup",
+   "pct": "6.7%"
+  },
+  {
+   "label": "Pozytywne recenzje i research przed zakupem",
+   "reason": "Kupujący najpierw czytają recenzje i wybrali produkt, bo uchodził za taki, który naprawdę działa",
+   "pct": "5.0%"
+  },
+  {
+   "label": "Powtórny zakup / robienie zapasów",
+   "reason": "Obecni użytkownicy dokupują od ponad roku, trzymają zapasowe puszki i deklarują, że to odtąd ich jedyny spray",
+   "pct": "5.0%"
+  }
+ ],
+ "customerExpectations": [
+  {
+   "label": "Zabija przy kontakcie w kilka sekund",
+   "reason": "Owady mają padać natychmiast po krótkim pryśnięciu, a nie tylko zostać ogłuszone",
+   "pct": "30.0%"
+  },
+  {
+   "label": "Jeden zabieg likwiduje całe gniazdo",
+   "reason": "Od proszku na osy oczekuje się eliminacji całej kolonii przez noc po jednej aplikacji o zmierzchu",
+   "pct": "15.0%"
+  },
+  {
+   "label": "Znośny zapach, bezpieczny przy zwierzętach i żywności",
+   "reason": "Zapach musi szybko się ulatniać, a użycie musi być wykonalne w domach ze zwierzętami, dziećmi i otwartą kuchnią",
+   "pct": "13.3%"
+  },
+  {
+   "label": "Jedna puszka na wszystkie rodzaje owadów",
+   "reason": "Etykieta 'total insect killer' buduje oczekiwanie, że pokryje jednakowo muchy, osy, mrówki, pająki i insekty biegające",
+   "pct": "10.0%"
+  },
+  {
+   "label": "Drobna mgiełka, bez piany i bałaganu",
+   "reason": "Aerozol powinien dawać czystą mgiełkę o dalekim zasięgu, bez bryzgów piany, osadu i wad dyszy",
+   "pct": "9.2%"
+  },
+  {
+   "label": "Trwała ochrona rezydualna",
+   "reason": "Potraktowane powierzchnie powinny zabijać owady jeszcze przez wiele dni, żeby inwazja nie wróciła",
+   "pct": "6.7%"
+  }
+ ],
+ "themeFilters": [
+  {
+   "id": "Skuteczność",
+   "label": "Skuteczność"
+  },
+  {
+   "id": "Brak efektu / szkodniki wracają",
+   "label": "Brak efektu / szkodniki wracają"
+  },
+  {
+   "id": "Szybkość działania",
+   "label": "Szybkość działania"
+  },
+  {
+   "id": "Zapach",
+   "label": "Zapach"
+  },
+  {
+   "id": "Bezpieczeństwo (dzieci/zwierzęta)",
+   "label": "Bezpieczeństwo (dzieci/zwierzęta)"
+  },
+  {
+   "id": "Aplikacja / wygoda użycia",
+   "label": "Aplikacja / wygoda użycia"
+  },
+  {
+   "id": "Plamy / osad",
+   "label": "Plamy / osad"
+  },
+  {
+   "id": "Opakowanie / wycieki",
+   "label": "Opakowanie / wycieki"
+  },
+  {
+   "id": "Cena / wartość",
+   "label": "Cena / wartość"
+  },
+  {
+   "id": "Mrówki",
+   "label": "Mrówki"
+  },
+  {
+   "id": "Pluskwy / roztocza",
+   "label": "Pluskwy / roztocza"
+  },
+  {
+   "id": "Muchy / mole / osy",
+   "label": "Muchy / mole / osy"
+  },
+  {
+   "id": "Pchły / kleszcze",
+   "label": "Pchły / kleszcze"
+  },
+  {
+   "id": "Karaluchy / owady biegające",
+   "label": "Karaluchy / owady biegające"
+  }
+ ],
+ "tagStyles": {
+  "Skuteczność": "pill-amber",
+  "Brak efektu / szkodniki wracają": "pill-red",
+  "Szybkość działania": "pill-blue",
+  "Zapach": "pill-orange",
+  "Bezpieczeństwo (dzieci/zwierzęta)": "pill-red",
+  "Aplikacja / wygoda użycia": "pill-amber",
+  "Plamy / osad": "pill-purple",
+  "Opakowanie / wycieki": "pill-purple",
+  "Cena / wartość": "pill-orange",
+  "Mrówki": "pill-blue",
+  "Pluskwy / roztocza": "pill-red",
+  "Muchy / mole / osy": "pill-blue",
+  "Pchły / kleszcze": "pill-amber",
+  "Karaluchy / owady biegające": "pill-purple"
+ },
+ "reviews": [
+  {
+   "r": 5,
+   "t": "Effective Insect Killer.. Very effective and low odour insect killer , good value for money. ( Unfortunately nozzle on spray was not spraying correctly so had to swap with old aerosol can )\n\nnigelfrancis",
+   "tags": [
+    "Skuteczność",
+    "Zapach",
+    "Aplikacja / wygoda użycia",
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Best ever. Brilliant , drops everything flying about no matter how big or small , finally one that works\n\njillian norris",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Kills ants as well. Have used this insect killer for years as U can use it for several thoes\n\nmavrick92",
+   "tags": [
+    "Mrówki"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Best buy for dealing with unwanted insects. This inspect spray kills all the flys and ants\n\nAhsan",
+   "tags": [
+    "Mrówki",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Did the job. Did the job\n\nOSVALDO",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Killed. Very good\n\nHelena",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Very good. Very good , easy to spray and works instantly great prudoct for the price\n\nMoonbeam",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective for underground nests. This is fantastic and the only thing that sorted an underground wasps nest. It was underneath a storage unit where we keep the lawnmower, so couldn't get the mower out without being attacked. Please ensure you are dealing with wasps before using as we do not want to kill bees under any circumstances!!! I bought the Zero in foam cans at first but the foam disappeared after a few minutes and after 6 attempts the wasps were still coming in and out.I then tried this powder and waited until evening when the wasps were less active and plucked up the courage to squeeze out a pile of powder right at the entrance hole to the nest. By morning there was a pile of wasps outside and the nest was no longer active. The wasps had been taking the powder into the nest on their bodies and wings and it killed the entire nest overnight. Highly recommended . It would not work for nests that are high up as you have to get up very close. And don't use when it's windy. I cleared up any leftover/excess powder afterwards as I did not wish to harm any other insects or creatures, please do the same",
+   "tags": [
+    "Skuteczność",
+    "Brak efektu / szkodniki wracają",
+    "Szybkość działania",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "👏. Good stuff!\n\nMrs JKW",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Did the job. Need a good airing afterwards\n\nmerchman 2",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "good item. eco friendly, good price good item fast delivery\n\nJohn, Shropshire",
+   "tags": [
+    "Szybkość działania",
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Killed a wasp nest very effectively. This powder certainly kills wasps effectively and is to be recommended. I had to add a flexible tube to the end of the nozzle so that I could blow powder into the gaps in the brick mortar, just under the soffit boards of the garage, where they were building a nest. I practiced how to do it away from the wasps to begin with but it was quick to spray in the end, late one evening. By next morning only a few wasps were flying around, clearly not sure what to do as they could detect something was wrong. All activity ceased after a couple of days. I didn't enjoy killing the nest like this but there's still plenty of powder left should it be needed again, so definitely worth the money.\n\nKaren",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Aplikacja / wygoda użycia",
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fast, easy and very effective.. Fantastic. I'm mildly allergic to wasp stings so a nest in my compost heap was the stuff of nightmares. But with this, a few quick puffs into a few holes and by the next day; peace! So easy. Not convinced, I then dug at the heap and out fell waspzilla (the queen) and the last few dying drones. Did not have to see the nest to kill it which was perfect for me. The wasps took the powder in with them and did the job for me, and no angry wasps to deal with in the process. Im keeping stocked up with this stuff from now on. Goes a long way, and works quickly so good value too.\n\ncmr",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fabulous! don't hesitate to buy it. I was invaded by ants with wings, google told me that they could be carpenter ants or termites.\nI tried my best to use all natural methods: Peppermint oil, cayenne pepper, vinegar, and baking powder.\nAt one point after using one of these methods, I came into the kitchen to find lots of them, and what appeared to be the queen. It was as if they had arranged a conference saying \"Hey lads where shall we go now\"\nI was starting to find them in the living room too.\nI did some research and chose this product. It's amazing! a huge difference straight away and not an ant in sight within a few hours.\nI thought I would have to get professionals in, at a cost I couldn't afford.\nDon't hesitate, this works.\nI held back from writing a review for a couple of days to see if it was a false alarm. It isn't! Not an ant in sight.\nHighly recommended",
+   "tags": [
+    "Skuteczność",
+    "Mrówki",
+    "Pluskwy / roztocza"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Great protect very effective.. Amazing product, does what is says in quick effect. Great size, i was able to spray every corner of my room + windows inside and outside and have more than half a bottle left. I can finaly open my windows without having to be scarejumped by spiders crawling all over.\n\nIffat Jamil",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Opakowanie / wycieki",
+    "Karaluchy / owady biegające"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "recommend. good cover all type of insects,",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Prayers Answered. Ohhh my good Lord, for years I have had a phobia of anything flying around me, and with me having Asperger's syndrome and I'm Autistic so it's so difficult for me to deal with horrible things flying around me annoying me, my prayers have been answered by finding this stuff one spray and bye bye fly, daddy long leg wasps. I most definitely will be continuing to use this spray as my insect killer. I'm one happy Bunny",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Eliminated hidden wasps nest in shed. Had wasps in the shed but couldn't enter to find the nest. Taped up the door with duct tape and sprayed a little of this in the small entrances left behind. Went from 2-3 wasps flying in every 5 seconds or so, to almost none within 2 hours. 2 days later I went in and cleared the nest out without seeing any alive. Great stuff..\n\nMR G T JOHNSTON",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Brilliant!. Wow! This stuff is amazing. Had a big wasp nest in our bush,now don't get me wrong,I hate killing creatures ect but my grandkids were stung several times by then so had to act. Puffed a bit into the bush and around the entrance and honestly sorted them in minutes. Really effective powder and 100% recommend.\n\npromoter1999",
+   "tags": [
+    "Skuteczność",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Easy to use and worked in 1 application. Wasps nest in tree trunk at bottom of garden. Followed instructions and went armed with this at dusk. One application to the area we had seen them come in and out of and that was it! Excellent easy to use and priced product\n\nKevinA",
+   "tags": [
+    "Skuteczność",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Aplikacja / wygoda użycia",
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Worked well on a wasp nest. Had a ground wasp nest and puffed this around the entrances and within a few days they were no more. Clearly worked well in this instance despite not being directly applied and relying on the wasp tracking it into the nest so pleased with the product\n\nHubUK",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Buy This. Don't waste money on sprays etc. Works great, massive bottle. Used it to deal with 4 large nests and still some left.\n\nEasy to squeeze and spray the powder a good couple of meters.\n\nWorks very fast and effectively. Don't waste money on spray etc just buy this.\n\nKev",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Opakowanie / wycieki"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Quick and cheap.. Had a nest in the brick work. Getting in under the eves. Tried a long range spray foam which did nothing. Tried this powder and with a few puffs, 2 hours later 6 wasps per minute going in and out turned in to zero per minute. Incredible stuff.\n\nlisalightweight",
+   "tags": [
+    "Szybkość działania",
+    "Cena / wartość",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Really effective and much better than the more well know brands. I think this may possibly be more expensive than the leading 'go to' brand, but it packs a much meaner punch and is more versatile. It can be used as an instant spray on target solution as well as a leave on spray to cover surfaces which then kill on contact. I read Somewhere that it can also be used a room fogger but I haven't looked into that properly. I was getting flies by the dozen in my kitchen last year and coukdnt get any long lasting relief from the pests, but this year I sprayed my kitchen windowsill with this and left it to do it's magic. At the end of the day , my windowsill was literally covered with dead flies! A Quick wipe with a damp cloth easily removed them and even though I didn't reapply, the next day there were more casualties scattered over the windowsill. Any flies I've seen buzzing around got a quick blast and dropped to the floor instantly, dead in seconds. Fab product. It would be even better if the product was safe to use around plants in the greenhouse too, but it's strong stuff so i doubt it could be, though I haven't checked",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Aplikacja / wygoda użycia"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very effective!. I can't believe how effective this was.\nWe had a wasp nest under the floor and they were entering/exiting through the airbrick.\nI covered the airbrick in the powder and within two hours I couldn't hear a single buzzing. It's been almost a week now and the nest is definitely dead",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works. Really good. Used on a wasps nest and worked first time. Anotye brand on here that came in a 3 pack didn't work at all on the same nest\n\nDavid P",
+   "tags": [
+    "Skuteczność",
+    "Brak efektu / szkodniki wracają",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "The most effective powder against wasps that I have found.. Excellent. I had tried treating wasp nests myself before with a different brand, and it was utterly useless. This, in combination with a new long-handled puffer device, allowed me to get rid of a problem nest on the first attempt.\n\nMrs. P. A. Barton",
+   "tags": [
+    "Skuteczność",
+    "Brak efektu / szkodniki wracają",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It really works well. Put this in the entrance of where the wasps were going and less than 24 hours later they had all gone\n\nLady P",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Still the best wasp/nest killer I know of. Even their own other products don't beat this one. This one does it best.\n\nI don't like killing nature, never feels good (guilt), however children come first. When a nest with stinging flying creatures invades our living spaces, we must do what is needed. If we could communicate with said creatures and tell them to keep away from us and not grow their nest too large then we wouldn't have an issue and could live together in harmony, however nature is always at conflict in one way or another, but in this war we humans can win with the right tools, althought these sprays are slighly toxic, for emergency use these do their job perfectly",
+   "tags": [
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Puff and go. One good puff between the garden sleepers and the next day no sign of wasps. Excellent product\n\nrobbie0",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It just works. This worked very effectively on first use in eaves behind guttering, wasps were gone mooring after application. Previously tried a foam which didn't do anything.\n\nBarbara Jones",
+   "tags": [
+    "Skuteczność",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Aplikacja / wygoda użycia",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Impressed!. Does the trick! Tried other options that failed. Hubby placed the powder 10pm 'ish and in the morning the wasps had taken the powder into the nest and that it was it!\n\nCarol gadsby",
+   "tags": [
+    "Cena / wartość",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works well. Best spray I've ever used kills flies instantly\n\nAlex\n5.0 out of 5 stars\nReviewed in the United Kingdom on 21 January 2025\nSize Name: 1 x 300 mlVerified Purchase\nThis insect killer is highly effective and long-lasting. The odour dissipates quickly, which is a big plus, and it has significantly reduced my fly problem. Kills instantly when sprayed on insects or can be sprayed around the room for lasting protection.\n\nHowever, be cautious when spraying near surfaces, as it can leave a visible white powder if applied too closely.\n\nOverall, a great product that works well!",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Zapach",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Keeps you safe!. Why did you choose this product over others?:\nSaves me from bugs, made me feel safe when a centipede was on the loose (no centipede's or bugs were harmed in this review)",
+   "tags": [
+    "Bezpieczeństwo (dzieci/zwierzęta)"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Great product. We used this twice for a wasps nest in the loft and it worked so would highly recommend this prodct\n\nJohtika Makwana",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Insect spray. It's easy to use and does the job\n\nPhil",
+   "tags": [
+    "Aplikacja / wygoda użycia"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works well. Very effective against a wasp nest - 1 treatment was sufficient\n\nphil ham,ilton",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective and easy to use.. Stayed near wasp and it killed wasps very quickly. Easy to use and very effective.\n\nMayday",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Aplikacja / wygoda użycia",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It works. This product is fantastic and does the job. I had tried everything to get rid if my drain flies and this is the only thing thing that works. After 1 spray attempt they were gone. I honestly couldn't believe how quickly and efficient it worked. So problem sorted thank you",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Kills everything !. Well it does a good job.. was plagued by fruit flies.. which Raid and other sprays did not seem to do much to. This little spray wiped them out. You do need to give it a good shake as it is prone to coming out in a less than fine spray if you dont",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "As expected. Surprisingly does not have a strong smell. Seems to work well. I was plagued with weevils in my kitchen, which I finally tracked down to a bag of bird seed which also contained dried insects…must have been eggs too. They have not returned, so I'm sure it's effective. The insecticide is meant to cover the whole range of common household insect type pests. Will find out with ants and flies next year. I didn't really need 2 canisters",
+   "tags": [
+    "Skuteczność",
+    "Zapach",
+    "Mrówki",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "WORKS ON FRUITFLIES.. I tried yellow sticky flytraps and found them useless, one spray of this in the waste bin and the fruit flies declined I have not fired it since but after a week they are almost gone . The only thing is the lock system on the can nozzle which is a tiny connecting strip of plastic that needs to be cut through with a craft knife . this enables the plunger to be depressed. This takes five seconds to do it but there is NOTHING IN THE INSTRUCTIONS and it took me 20 minutes to work it out",
+   "tags": [
+    "Skuteczność",
+    "Brak efektu / szkodniki wracają",
+    "Aplikacja / wygoda użycia",
+    "Plamy / osad"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Amazing. I bought this due to having a issue with carpet Beatles due to living in a older home I moved all furniture cleaned and then sprayed this around the skirting and any little cracks ect I would think they would come from and it's worked amazing I have only found 1 dead so far since spraying and none live it does come out a fine foam but leave it 10 mins and it drys clear don't hold to close to area either of it's thick foam but 100% would recommend 1 can did me a large bedroom and a large livingroom",
+   "tags": [
+    "Skuteczność",
+    "Bezpieczeństwo (dzieci/zwierzęta)"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good. Good and works takes about 48 hours to take full effect.\n\nC. Marshall",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good Product. Good Product, \"Does What It Says On The Tin\".\n\nMrs Claire L Grant",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Gets rid of wasps!. Great product, got rid of the wasps in our gutter pipes\n\nAndrea",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fantastic stuff. Had a recent problem with fruit flies due to the heat. My regular main brand spray was twice the price, so thought I'd give this a try based on the positive reviews. So glad I did. Works so much better on fruit flies than what I was using. There's a smell but not so toxic you feel like you need to reach for a gas mask while using. Just shut the door so the flies couldn't escape and 30 mins later, little or no smell in the room, just dead flies. Seriously impressed…. (I need to get out more)!\n\nJayne hayward",
+   "tags": [
+    "Skuteczność",
+    "Zapach",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent for what I needed it for. I read the reviews for this before buying, and the main complaint was that it left a foam, and was not effective at killing flies in the air. However, I was looking for something to spray into and onto my outdoor bin because in the heat, flies had got in, maggots were hatching, and all in all it was disgusting, and I wanted to something to eradicate that. This spray was amazing for that! I covered the inside, outside and the bags in my bin, and every time I opened it to put another bag in, I sprayed again, and et voila! It worked, all the flies were gone in a couple of days. Exactly what I needed",
+   "tags": [
+    "Skuteczność",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Huge fruit fly infestation in kitchen.... gone!. This stuff is magic. I sprayed it in my kitchen and left it for a while to work its magic while I went out. I came back, wiped everything down and cleaned up the flies and I've not seen a single fruit fly since. I have pets and I sprayed it in the kitchen, it was fine for anyone who is wondering. Just gotta wipe everything down after and make sure you don't leave anything like pets food bowls out when you spray. I'd recommend this to anyone, honestly. I was using traps and all sorts, trying to be peaceful about it but nothing worked haha. This stuff works wonders",
+   "tags": [
+    "Skuteczność",
+    "Brak efektu / szkodniki wracają",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Amazing.. Though a tad expensive for what it is this stuff is really good. Had a problem with flies always landing on my child's climbing frame and slide. Tried so many methods to move them on and stop them landing including re staining the wood. They just never went away for long. So resorted to this. Though it says for indoor, I sprayed it around the area and onto the wooden parts and they flew away and havnt returned!! I'm so pleased my child can now enjoy using the climbing frame again without having to constantly jump around to make them fly away.\n\nalan jones",
+   "tags": [
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Plamy / osad",
+    "Cena / wartość",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "GR8 product, service and price. gr8 product, price and service\n\nJKC",
+   "tags": [
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Excellent. Excellent product\n\nPrivate",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Love The Summer But Hate The Bugs?. If yes, this is the spray for you. It kills everything. Spiders, flies, moths, everything. You can just spray a room overnight and the next day when you check the room, every living insect will be dead. But you must fumigate the room afterwards, as it's not good to breathe it in. Highly recommend it for insects which are very hard to kill.\n\nGreat item!",
+   "tags": [
+    "Szybkość działania",
+    "Muchy / mole / osy",
+    "Karaluchy / owady biegające"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Great item!. Item arrived safely and efficiently. Great quality and value for money. Item does the job. I would recommend this item and Seller to anyone. I am happy with my purchase",
+   "tags": [
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Opakowanie / wycieki",
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "It does exactly what it says. Looking for a fly spray is a bit of a nightmare with so many advertised. Tend to be wary of customer reviews so just picked this one purely at random. Delighted, I am pestered by tiny little beasties which drive me nuts flying round and round in circles usually near a glass lampshade which which is not even switched on. Plus all the other misc flies which come in through patio door. I found it needed only a 1 second spray in quite a large lounge to kill them in a matter of only a few seconds.........it really works",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Does not kill flies and mosquitos.. Good!\n\nI. P. Gearing",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Does the job at a relatively good price. Bought as a last resort, I have some non-toxic fly papers too which do the job on all but the most recalcitrant flies , as I am not a big fan of insecticides until I have to use them. We have been bothered by hornets in the past and so that preference has been put aside before. This works well, has a reasonable reach on the jet, the design of the top keeps your fingers away from the chemicals and it doesn't require excessive spraying to work. Have to say feeling good about this choice over the more highly priced branded solutions",
+   "tags": [
+    "Skuteczność",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Cena / wartość",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Value for money. All insects just dtop and die",
+   "tags": [
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "This actually works almost immediately!.. For some time I have noticed that the usual fly spray purchased in the supermarket had started to become ineffective and needed repeated spraying to little effect. This product was listed as a product that actually worked and it is extremely effective as it has 2 ingredients. I think the flies must have developed an immunity over the years",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Absolutely brilliant.. The negative reviews for this product are bizarre - they describe it as a 'foam' (it ISN'T - it's a mist) and they say it's not effective (it's the MOST effective fly spray I've ever used). If you spray it hard and fast AT the flies, it's 100%% effective. Also, it smells less like chemicals and more like herbs/plants - it's a strange musky scent, but it doesn't linger as long as conventional chemical-smelling fly sprays. I think it's a brilliant product that absolutely does what it says on the tin",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Zapach",
+    "Mrówki"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Work absolutely well! I am very satisfied. Work absolutely well! I am very satisfied",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "This products is absolutely brilliant. Shock & horror !!!\nI discovered to my horror an \"winged big Ants Nest\" coming up through the floor behind my cooker.\nNote: MAKE SURE THE COOKER IS PULLED OUT - AND SWITCHED OFF -HIGHLY FLAMMABLE\nUSE IN ACCORDANCE WITH MANUFACTURERS INSTRUCTIONS\n\nI bought TOTAL insect killer, this has a high level of solvent & kills immediately got rid of the infestation over night, spayed again periodically & in early hours of the morning.\nHave not seen any in over a week... Would be highly recommend\n\nRay_Bizkit",
+   "tags": [
+    "Szybkość działania",
+    "Aplikacja / wygoda użycia",
+    "Mrówki"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "value. good",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Best fly spay ever purchased. This is best spay ive ever used kill em within seconds... Does leave a white foam residue. Like furniture polidh if thry on ur tv so wipe as soon u srpayed.. This is better than the ones 4x more money.. Will be only. Spray i buy from now on.. Also no massive perfumey smell is very mild doesnt choke u out like most of them do\nBrilliant for price DEFINITELY RECOMEND THIS PRODUCT....\n\nnath",
+   "tags": [
+    "Zapach",
+    "Plamy / osad",
+    "Cena / wartość",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works very well. There is a strong smell to this spray so you need to make sure the room is very well ventilated it really stinks. However it works really well we came back off holiday to find about a hundred flies buzzing against the kitchen window I sprayed a small amount in the air they all fell down dead instantly they weren't moving around suffering they was dead in less than a second. We got it delivered within a couple of hours with prime",
+   "tags": [
+    "Skuteczność",
+    "Brak efektu / szkodniki wracają",
+    "Szybkość działania",
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Total incect killer. This total incect killer is brilliant because it kills them dead ! ! ! Would recommend to family and friends and everyone else",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "It works. It works\n\nKS",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Instant and Efficient. In the warm weather, and having a lot of grassland around our home, our house was plagued with insects - primarily flies. We were having 5/6 a day flying in and we got sick of it, so we bought this spray. When you spray the insect, whether it's a fly, a moth, or whatever, the insect immediately drops and dies. It's easy to use & I'm very pleased with this product.\n\nEssex Girl",
+   "tags": [
+    "Szybkość działania",
+    "Aplikacja / wygoda użycia",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good news - no flies. After a plague of flies consequence of disastrous kitchen plumbing - I am pleased with the effectiveness of this spray - i used it like a bomb - two days ago - heavily spraying rooms and closing doors for the day. Most effective - although as i write this I have just seen a teeny little fly from the corner of my eye.... maybe a second treatment will finish off the strays ...\n\nCarl",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Seems to have done the job.. Seems to have done the job!\n\nLibby",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Highly recommend!. Really great value for money. So easy to use and really effective! I didn't wash the residue away as I have an on going problem with flies, especially in this heatwave, and the spray was still effective up to three days later.\nProbably takes about 10-15 seconds for the bugs to die.\nThe scent isn't the best but what can you expect? Not the worst repellent smell ever though!",
+   "tags": [
+    "Skuteczność",
+    "Zapach",
+    "Aplikacja / wygoda użycia",
+    "Plamy / osad"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fly's all gone. Arrived on time well packaged. Item as described easy to use would recommend\n\nBeFreeAll",
+   "tags": [
+    "Aplikacja / wygoda użycia",
+    "Opakowanie / wycieki",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Very impressive. Worked really well on the weaves. They had infested our bird food and were all over the place. Can highly recommend this. No more wevals.\n\nJim B",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Does what it's designed to do - gets rid of pests. With the heatwaves and the way councils don't empty bins often enough any more, you get times when you just need a bottle of this. Doesn't smell too bad, works well, although sometimes it's hard to spray it any kind of distance. Even works on those annoying little flies that can appear when a houseplant isn't well!",
+   "tags": [
+    "Skuteczność",
+    "Zapach",
+    "Opakowanie / wycieki",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "would defiantly purchase again. would defiantly purchase again\n\nRamblingMan",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Finally something that actually kills the flys....... It seems to have been a bad year for fly's and we have tried loads of different methods, sprays, lights, catchers but this actually works and we have seen a reduction in fly's since we started using it. I think the other products were just knocking them out rather than killing them as we would have just as many fly's the next day, will be stocking up!",
+   "tags": [
+    "Skuteczność",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Cena / wartość",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Knocks 'em cold. A 1 second blast in an average room will kill all flying insects and those nasty spiders that have started coming in. It's a powerful fly and creepy-crawlie killer, but keep food and drinkables well covered and avoid breathing in.\n\nI bought Raid, but it's NBG. This stuff, Zero In ZER905 Total Insect Killer is very effective.\n\nStan Watt",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy",
+    "Karaluchy / owady biegające"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Ace. I love this product as it does do what it says on the tine. I would be even happier if it killed fruit flies.\n\nLorly Mcclure",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Arrived safely!!!. Killing irritating little fruit flies!!!\n\nAndrew",
+   "tags": [
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Opakowanie / wycieki",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Effective over time. Does what it is meant to do. Took a few days of blasting the kitchen to finally get rid of the little bleeders. A second wave of pestsage occurred after day 2-3. But keep at it. I did and now there isn't any at all. Scent is OK. Just smelt like I'd done a bit of polishing.\n\nKay",
+   "tags": [
+    "Skuteczność",
+    "Zapach"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Worked well. Was desperate to get rid of flies so tried this despite some bad reviews. I sprayed this directly towards the flies (trying to cover them) and they dropped almost instantly. Gave the can a good shake and the stuff sprays as a fine misty foam, haven't had any problems with it being messy\n\nMelissa",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "5 stars. I really wish I had bought this product first! I've used a few things to try to get rid of our fruit fly infestation, and nothing worked, until this spray! I've only used it once and havent seen any flies since. I'm not sure why there are negative reviews on this (older version of the product maybe?) but this product has been a lifesaver and I'll definitely buy it again if needed",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fly killer. Works well and does not have a very strong smell",
+   "tags": [
+    "Skuteczność",
+    "Zapach",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Works well. Good product, works well , good price and fast delivery",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Killed fruit flies infestation. The stickers didn't work but this spray got rid of the fruit flies in my kitchen. Spray and lock your door for one hour. I did put on a mask for protection",
+   "tags": [
+    "Brak efektu / szkodniki wracają",
+    "Muchy / mole / osy",
+    "Pchły / kleszcze"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Fly killer. Like would recommend this fly k iller\n\nBevels F",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Multi insect killer. Works on all flying insects(wasps, flies, ants.)",
+   "tags": [
+    "Skuteczność",
+    "Mrówki",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Is really very good !. I tried different products before, but I was disappointed. This one is as a foam. I sprayed to the flies and them falls on the floor . Also after 10-15 minutes the flies falls on the floor . Is very very good product and I recommend as the best !",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good. Goo\n\nKath",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Passable. Good for occasional flies\n\nSm Williams",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Killed all the fruit flies in the food waste bin !!. Had trouble with fruit flies. Sprayed some into the food waste bin and the next day there were none left alive in there and since then we have had far fewer numbers re-emerging in our kitchen. Seemed to work great !!!\n\nEriona\n5.0 out of 5 stars\nReviewed in the United Kingdom on 4 November 2024\nSize Name: 1 x 300 mlVerified Purchase\n\n\nPhyllis hulme",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Great. I brought this because I had a lot of small flys around my indoor plants. I put it on kitchen towel by the plants and it worked.\n\nHayley strudwick",
+   "tags": [
+    "Skuteczność",
+    "Mrówki",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Great spray. Great spray and kills everything and more than a normal shop brought fly spray, very strong and leave a strong smell so room needs to be shut and left to de fume, but apart from that great spray, just a little too expensive for what they are",
+   "tags": [
+    "Zapach",
+    "Cena / wartość",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Great product. Does what is says on the tin, but, strong smell so not good to use near pets or water. Ok if your careful\n\nlkgreenwell",
+   "tags": [
+    "Zapach",
+    "Bezpieczeństwo (dzieci/zwierzęta)"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Good value - if you shake the can!. I thought I'd take a chance, as this is a lot cheaper than some alternatives, despite some hostile reviews\nIt is very effective against midges, and is a proper spray under considerable pressure. I can only assume that complaints of \"foam\" have neglected to shake the can!\n\nJerrynoble50",
+   "tags": [
+    "Skuteczność",
+    "Cena / wartość",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Bad drivers attitude. I disliked the drivers attitude I'm house bound due to a medical condition and can hardly walk the driver saw me put it on the stairs about four steps down and smugly said sorry I can't hand it to you ? Funny the others drivers do\n\nJennymerle",
+   "tags": []
+  },
+  {
+   "r": 5,
+   "t": "Life saver. I had an invasion of fruit flies. Ordered this which arrived promptly the next day. Sprayed kitchen and wheneve Ihave spotted a fruit fly. Within 2 days no more flies . Very good for house flies as well",
+   "tags": [
+    "Opakowanie / wycieki",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 5,
+   "t": "Kills 'em dead. Wasted my money on liquid traps for an unexplained fruit fly infestation (no idea where they came from), when I should have just gone for this spray to begin with. Smells awful, but does the trick in no time.\n\nRK",
+   "tags": [
+    "Zapach",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Does the job, though foams at the nozzle. This seems to do the job as expected, though is not as deadly or as quickly effective as some of the other sprays I have used. Furthermore, it seems that there is foamy effluvia that comes out whenever you spray with it, which is not particularly good. It does do the job however, which is why I got it, though it could be better.\n\nIf my opinion changes or experience informs me differently over time, I will update this review, as I do with all my others.\n\nI only purchase items I need, so when I do provide a review, it is based on actual experience with the product and so it is a true reflection of my experience with the item and I would like to think it is comparable to other customers in a similar situation to myself. I am not obligated to give a positive review and in several cases have not done so. I am not affiliated with the company from which I purchased it, so have no vested interest in their opinions.\n\nPlease give this review a like if you find it helpful, thank you for reading",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Aplikacja / wygoda użycia"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Top hard to press down.. I found it difficult to press the lid to get it to spray, once it is working it did the job. There a bit of a smell so best to not get too close.\n\nsuzette",
+   "tags": [
+    "Skuteczność",
+    "Zapach"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Killer. Buy for someone because there can't use strong product. And it good for that.\n\nAmazon Customer",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Great. It works perfectly, did the exact job i bought it for. Great\n\nAaron Law",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Effective, job done!. Large nest within a raised bed- Applied once daily over the course of 4 days.\nMost were nuked upon first application although to end the hatching cycle additional was applied.\nWhen you apply the powder, leave the area swiftly as they'll be raging mad and disorientated.\n\nMaza",
+   "tags": [
+    "Skuteczność",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Aplikacja / wygoda użycia"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Kills them. Good\n\njacfly",
+   "tags": [
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Foamy and wet, works on insects. Spray is not fine most of the time. I have to shake and short press each spray to not get large wet foam spurts. Not ideal. Effective on insects. Smell is ok and not over powering. I bought three cans. Will see how I get on before I decide if to buy again. Tip to get flying insect out of house with doors and windows wide open, is to say \"OUTTT\" and wave hands towards opening. It works 80% of the time.\nUPDATE: so one spray was used completely, one stopped working although, the third never works once. Will not buy again",
+   "tags": [
+    "Skuteczność",
+    "Zapach",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Really good. Worked great thank you\n\nJames Lyons",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Works. Works well killed the nest within a day",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Doesn't smell the best but effective spray. I bought this as I have an ant problem every summer, it worked great for stopping the ants (along with other remedies like white vinegar to clean their pheromone trails). Additionally, i bave mesh in my windows and spray this on it to repel anything that might be able to get inside, it seems to work well for that! This has worked on killing all kinds of insects that get in though (I.e. mosquitos, fruit flies, gnats, ants, etc), the only thing is it doesn't really work for large spiders which is unfortunate as I'm terrified of spiders and can't get close enough to trap them",
+   "tags": [
+    "Skuteczność",
+    "Zapach",
+    "Mrówki",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "It works. My sis in law bought fly killer from a very famous store here that originated from USA, she paid a high price for a certain amount of aerosol cans, we were thinking the fly's seemed to swim along the stuff, they certainly don't die with it, laugh themselves to death maybe, I bought 3pack of these, and they work pretty fast,",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Cena / wartość",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "WORKS WELL much Better than raid. Does what it says on the can\n\nVicki Hemingway",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Works well. Works but makes ur mouth numb\n\nStarTrix",
+   "tags": [
+    "Skuteczność"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Insect killer. There is a huge amount of ivy on in my garden, growing up high and over the back wall. I don't want to cut it down as it gives some privacy in the garden, but it has attracted dozens and dozens of wasps and they need to be gone.\n\nI used one can in one go! This spray had them dropping like, well, flies. It's strong and powerful stuff, it works very quickly and is extremely effective",
+   "tags": [
+    "Skuteczność",
+    "Szybkość działania",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Kills flies.. I live next to a very busy dog park, and in the summer we get lots of flies coming in from the park. I used this brand for the first time and I'm impressed. It does the job well, and, although it does have an odour, it's not as strong as some of the other brands. Only downside is, it produces foam, like using furniture polish, and doesn't spray far. Aside from that, it's good, does what I bought it for",
+   "tags": [
+    "Zapach",
+    "Bezpieczeństwo (dzieci/zwierzęta)",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "War winning!. I am winning the war! The little sods come buzzing around and evade my trying to swat them. NO MORE!\n\nBit tricky to hit them, takes a couple of sprays, or some of them have gas masks and resist the near misses, but a good solid hit and the buzzing little thugs are going down.\n\nJust remember to clean up the corpses",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Seems to be effective on mould mites. Unfortunately first 3 cans were all a bit splutter rather than spray :(",
+   "tags": [
+    "Skuteczność",
+    "Pluskwy / roztocza"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Woodlice do not like this!. It doesn't always spray properly but when it does the woodlice hate it!!",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Good value for money. Smell pleasant not to strong effective spray\n\nYvonne Heckendorf",
+   "tags": [
+    "Skuteczność",
+    "Zapach",
+    "Cena / wartość"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Kills flys. It makes a mess. But works",
+   "tags": [
+    "Skuteczność",
+    "Muchy / mole / osy"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Seems to work so far.. Used is closed rooms and seems to affect all manner of bugs.\n\nAgnes",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "A London. Does the job. Been buying this product for more than a year now and will continue to purchase",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Flea spray. This sadly didn't work as well as I would've liked",
+   "tags": [
+    "Brak efektu / szkodniki wracają",
+    "Pchły / kleszcze"
+   ]
+  },
+  {
+   "r": 4,
+   "t": "Does the job.. Does the job\n\nJude Faulkner",
+   "tags": []
+  },
+  {
+   "r": 4,
+   "t": "Kills bugs fast but sprayer end keeps sticking. Kills bugs fast but sprayer end keeps sticking and liquid oozes out of top as well as spray. I bought two tins and both have same issue. I ended up changing the spray top for a one off another brand fly killer can",
+   "tags": [
+    "Szybkość działania",
+    "Muchy / mole / osy",
+    "Pchły / kleszcze"
+   ]
+  }
+ ]
+}

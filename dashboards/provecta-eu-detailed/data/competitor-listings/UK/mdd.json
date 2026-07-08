@@ -1,0 +1,951 @@
+{
+ "totalCompetitors": 12,
+ "marketplace": "amazon.co.uk",
+ "avgClaims": 5.1,
+ "competitors": [
+  {
+   "asin": "B08W5FH16R",
+   "brand": "Ratkil",
+   "title": "Insectokil Smoke Bombs (Pack of 4) Mini Smoke Bomb Foggers For Effective Control Of All Flying And Crawling Insects",
+   "img": "https://m.media-amazon.com/images/I/912U5Kz+Q-L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/912U5Kz+Q-L.jpg",
+    "https://m.media-amazon.com/images/I/81ElCZyGTmL.jpg",
+    "https://m.media-amazon.com/images/I/816JhY6yDXL.jpg",
+    "https://m.media-amazon.com/images/I/81-fwnSPU8L.jpg",
+    "https://m.media-amazon.com/images/I/91DjwprYvJL.jpg"
+   ],
+   "bullets": [
+    "KILLS ALL FLYING & CRAWLING INSECTS: Each Insectokil smoke bomb has a proven coverage of 120metres squared. The fumigators Create a fine, penetrating mist that reaches deep into the cracks and crevices to kill the insects both in and out of sight.",
+    "HEALTH & SAFETY APPROVED: InsectoKil uses Permethrin to kill insects in your home and workplaces. This product is HSE approved. Light the smoke bomb, place it on a heat proof surface and leave the room for up to 2 Hours.",
+    "SIMPLE, NON-STAINING & EASY TO USE: Simply light the non-sparking wick and smoke fumes will begin to work their way into all the nooks and crannies killing all flying and crawling insects in the treated area. Once treatment is complete, open doors and windows to ventilate thoroughly.",
+    "FLEA SMOKE BOMBS FOR THE HOME: Fleas are tough pests to get completely eradicate. They can be particularly challenging to get rid of due to their resilient eggs, making our smoke bombs a crucial part of your comprehensive pest control strategy.",
+    "WHERE TO USE: Use in enclosed spaces such as bedrooms, apartments, attics, basements, barns, cellars, cabins, campers, crawl spaces, garages, homes, households, sheds, storage areas and trailers."
+   ],
+   "themes": [
+    "long_lasting",
+    "kills_eliminates",
+    "no_residue",
+    "easy_use",
+    "value_size"
+   ],
+   "themeSrc": {
+    "value_size": [
+     "T"
+    ],
+    "kills_eliminates": [
+     "BP"
+    ],
+    "easy_use": [
+     "BP"
+    ],
+    "no_residue": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ]
+   },
+   "price": 23.11,
+   "rating": 3.9,
+   "reviews": 7171,
+   "rev30": 32199,
+   "archival": false
+  },
+  {
+   "asin": "B007XR7AHO",
+   "brand": "Raid",
+   "title": "Raid Ant & Cockroach Killer, Insect Killer For Indoor Use, Long Lasting Protection for the Home, Pack of 6 (6 x 300ml)",
+   "img": "https://m.media-amazon.com/images/I/815a+lbkIEL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/815a+lbkIEL.jpg",
+    "https://m.media-amazon.com/images/I/91-K5NNK+WL.jpg",
+    "https://m.media-amazon.com/images/I/61pM2eUfOnL.jpg",
+    "https://m.media-amazon.com/images/I/71vvEs6OxUL.jpg",
+    "https://m.media-amazon.com/images/I/61l5q8C8cmL.jpg",
+    "https://m.media-amazon.com/images/I/71P+b8wGrDL.jpg",
+    "https://m.media-amazon.com/images/I/81YJLTWeyDL.jpg"
+   ],
+   "bullets": [
+    "Bug spray that kills crawling insects fast",
+    "Protects against ant, cockroach and spider infestations",
+    "Effective insect killer for indoor use"
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "indoor_outdoor",
+    "value_size"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "value_size": [
+     "T"
+    ],
+    "long_lasting": [
+     "T"
+    ],
+    "indoor_outdoor": [
+     "T",
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ]
+   },
+   "price": 27.61,
+   "rating": 4.7,
+   "reviews": 728,
+   "rev30": 13300,
+   "archival": false
+  },
+  {
+   "asin": "B096T6KRM1",
+   "brand": "ECOPEST",
+   "title": "Bed Bug Glue Traps – 12 Pack | Sticky Pest Control Trap and Bed Bug Killer | Adhesive Crawling Insect Interceptors, Trap, Monitor, and Detector for Treatment of Bed Bugs and Other Indoor Pests",
+   "img": "https://m.media-amazon.com/images/I/8162Z7kt7TL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/8162Z7kt7TL.jpg",
+    "https://m.media-amazon.com/images/I/71K0f4G6QwL.jpg",
+    "https://m.media-amazon.com/images/I/71EeJxmr5ML.jpg",
+    "https://m.media-amazon.com/images/I/71hhDxJJysL.jpg",
+    "https://m.media-amazon.com/images/I/71fXopnpeIL.jpg",
+    "https://m.media-amazon.com/images/I/71Bz1-PGcPL.jpg",
+    "https://m.media-amazon.com/images/I/715lp1TjhhL.jpg",
+    "https://m.media-amazon.com/images/I/81PlUEZ50FL.jpg"
+   ],
+   "bullets": [
+    "SLEEP EASY! 24/7 BEDBUG DETECTION AND PROTECTION — Easily monitor your problem 24/7 and rest easy knowing that your bed and furniture will remain bed bug free. Detect the presence of unwanted pests with the Bed Bug Glue Traps.",
+    "TRAP BED BUGS WHERE THEY ARE KNOWN TO TRAVEL — Lures and traps for bed bugs and other crawling indoor flying insects. These discreet glue traps catch bedbugs where they are known to travel. Sleep easy and let the traps do the work!",
+    "FOR USE NEAR BEDS, FURNITURE, AND WALLS — In addition to use in homes and apartments, the Bed Bug Glue Traps can be used in hotels, hostels, dormitories, hospitals, nursing homes, and other residences.",
+    "ECO-FRIENDLY AND NON-TOXIC — Non-toxic, home, family, and pet safe. Avoid the need to bring harmful chemicals into your home. These discrete, transparent traps will get the job done without putting your family or the environment at risk.",
+    "100% SATISFACTION GUARANTEE — We’re confident you will be happy with your purchase. We only sell the highest quality, premium pest control products, and we stand by the craftsmanship that goes into the design of each of our insect traps. If you’re not 100% satisfied, we will refund your order in full—no questions asked. Click BUY NOW and get started today!"
+   ],
+   "themes": [
+    "kills_eliminates",
+    "safe_kids_pets",
+    "indoor_outdoor",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "T"
+    ],
+    "natural_eco": [
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "T",
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ]
+   },
+   "price": 15.6,
+   "rating": 4.0,
+   "reviews": 1898,
+   "rev30": 9760,
+   "archival": false
+  },
+  {
+   "asin": "B0BW9PGK6G",
+   "brand": "Quebec",
+   "title": "Quebec Ant Killer Powder 500g– Powerful Crawling Insect Killer Dust – Kills Ants, Cockroaches, Woodlice & Earwigs – Indoor & Outdoor Pest Control",
+   "img": "https://m.media-amazon.com/images/I/61KLRmFVefL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61KLRmFVefL.jpg",
+    "https://m.media-amazon.com/images/I/81C24cnWYkL.jpg",
+    "https://m.media-amazon.com/images/I/81e96Y4fwxL.jpg",
+    "https://m.media-amazon.com/images/I/81uFSQWuqaL.jpg",
+    "https://m.media-amazon.com/images/I/81ycbPrGR8L.jpg",
+    "https://m.media-amazon.com/images/I/81EtcpHmzqL.jpg",
+    "https://m.media-amazon.com/images/I/818CPsEJluL.jpg"
+   ],
+   "bullets": [
+    "USES: Our ant killer powder for destroying ants is a simple solution against ants and insect pests in or around your home, kitchen, bathroom, rooms, closet and drawers. This powerful insect killer powder works as a natural repellent for ants, spider, flea, tick, moth, and bug control, helping protect clothes and clothing storage. It acts as a ready and steady defence against pests, making it one of the strongest and most effective pest expert solutions for indoor or outdoor house and garden use.",
+    "VERSATILITY: To provide a cleaner environment and keep it hygienic, this ant killing powder works effectively indoors and outdoor, including home, back garden, greenhouse, office, apartment, kitchen, wardrobe and storage areas. It is effective against black ants, red ants, carpenter ants, fire ants, bugs and other insects.",
+    "DESTROY ANTS: The innovative ant killer powder bait strongly attracts ants and insects and carries the poison bait back to the colony, spreading it through the nest to destroy the entire colony including larvae and eggs. This powerful killing solution works deeper than normal sprays or speay treatments, helping eliminate ants, bugs, fleas, ticks and spiders effectively inside household rooms, carpets, bedding and furniture.",
+    "PROVIDE BETTER SOLUTION: Compared with sprays and other liquid solutions in the market, ant killing powder can be used in a more flexible way. They distribute poison baits throughout the ant colony. The nest is then destroyed without a trace. Complements well with insect traps and natural repellents.",
+    "LONG-LASTING: This long lasting ant killer powder uses reliable technology to provide protection for up to 6 months, helping defend your home, garden, wardrobe, carpets, bedding and clothes from ants and other insects such as moths, fleas, ticks and bugs. Once ants take the bait back to the nest, activity usually stops within a few days. Ideal for indoor and outdoor pest defence, keeping rooms, storage areas and clothing safe even when ordinary sprays fade away."
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "safe_kids_pets",
+    "indoor_outdoor",
+    "barrier_prevent",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "indoor_outdoor": [
+     "T",
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "barrier_prevent": [
+     "BP"
+    ],
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "natural_eco": [
+     "BP"
+    ]
+   },
+   "price": 10.39,
+   "rating": 4.4,
+   "reviews": 671,
+   "rev30": 9360,
+   "archival": false
+  },
+  {
+   "asin": "B077G22YYQ",
+   "brand": "Zero In",
+   "title": "Zero In Ultra Power Household Pest Killer Spray 600ml – Kills Fleas, Bed Bugs, Clothes Moths & Crawling Insects on Contact – Long-Lasting Professional Strength Insecticide for Home Use",
+   "img": "https://m.media-amazon.com/images/I/51ZqpkjzygL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51ZqpkjzygL.jpg",
+    "https://m.media-amazon.com/images/I/61Pnw2lpX1L.jpg",
+    "https://m.media-amazon.com/images/I/71jDr6GnDCL.jpg",
+    "https://m.media-amazon.com/images/I/71rI9RbFW1L.jpg",
+    "https://m.media-amazon.com/images/I/61LPJ7SJkSL.jpg",
+    "https://m.media-amazon.com/images/I/71D9fXR5BpL.jpg",
+    "https://m.media-amazon.com/images/I/61vt4Sm0sEL.jpg"
+   ],
+   "bullets": [
+    "KILLS ON CONTACT – Fast-acting professional-strength aerosol that eliminates fleas, bed bugs, clothes moths, cockroaches, earwigs, woodlice, silverfish and other household insect pests instantly upon application.",
+    "LONG-LASTING PROTECTION – Provides residual surface treatment that continues to work after application, helping to prevent re-infestation in treated areas when not exposed to direct sunlight.",
+    "HOME & COMMERCIAL USE – Suitable for use in bedrooms, kitchens, living areas, B&Bs, holiday lets, hotels, restaurants and commercial premises. Ideal for treating storage areas, drawers, cupboards and soft furnishings.",
+    "PROFESSIONAL TRIGGER AEROSOL – Easy-to-use 600ml trigger-grip spray can delivers a controlled, even application from a distance of 20-25cm. A 5-second burst treats approximately 5 square metres.",
+    "DIRECTIONS FOR USE – Shake well before use. Spray lightly from 20-25cm distance. Leave treated surface to dry. For flying moths, spray directly or close doors/windows and spray 4-5 second bursts into the room. Ventilate after 10 minutes."
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "barrier_prevent",
+    "professional"
+   ],
+   "themeSrc": {
+    "professional": [
+     "T",
+     "BP"
+    ],
+    "barrier_prevent": [
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 11.53,
+   "rating": 4.3,
+   "reviews": 1029,
+   "rev30": 8364,
+   "archival": false
+  },
+  {
+   "asin": "B0BQ3DGXQP",
+   "brand": "Super Ninja",
+   "title": "Super Ninja Cockroach Traps for Indoors – 12 Pack, Cockroach Control for Indoor Infestation, Safe & Toxin-Free Trap with Food Attractant, Nature-Friendly Pest Solution for Home, Garage & Shed",
+   "img": "https://m.media-amazon.com/images/I/81Y3mIaPWxL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/81Y3mIaPWxL.jpg",
+    "https://m.media-amazon.com/images/I/91Y7grUS8fL.jpg",
+    "https://m.media-amazon.com/images/I/912WaT3CYWL.jpg",
+    "https://m.media-amazon.com/images/I/81zwJQ67COL.jpg",
+    "https://m.media-amazon.com/images/I/81+fCBuAmtL.jpg",
+    "https://m.media-amazon.com/images/I/81JmKFppZML.jpg",
+    "https://m.media-amazon.com/images/I/91NMxYK6IaL.jpg"
+   ],
+   "bullets": [
+    "Kills Cockroaches Fast, Where They Hide: Super Ninja cockroach traps are engineered with a potent food-based attractant embedded in ultra-sticky glue, drawing in cockroaches from kitchens, bathrooms, garages, and other hotspots—delivering powerful results within days.",
+    "Toxin-Free & Safe for Indoor Use: Designed for peace of mind, these roach traps contain no toxic chemicals or strong odours. Perfect for use in homes with children, pets, or sensitive individuals—safe, silent, and stress-free infestation protection",
+    "Up to 3 Months of Continuous Protection: This super strong cockroach killer remains active for weeks, offering uninterrupted defense from cockroach invasions. Whether used behind appliances or under sinks, they keep quietly capturing pests until full—no need for constant monitoring.",
+    "Effortless Setup, No Mess or Fuss: Simply unfold, peel off the protective strip, and place the glue trap in areas where roaches are seen. No sprays, no batteries, and no complicated assembly—just a discreet and reliable solution for every room.",
+    "Eco-Conscious, Fully Recycled Design: Crafted from recycled paper and responsibly packaged, these traps combine pest control with sustainability. After use, dispose of them with your normal waste, helping to protect your home and the planet."
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "safe_kids_pets",
+    "indoor_outdoor"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "T",
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ]
+   },
+   "price": 13.34,
+   "rating": 4.1,
+   "reviews": 2289,
+   "rev30": 7729,
+   "archival": false
+  },
+  {
+   "asin": "B08XMH66MZ",
+   "brand": "Dethlac",
+   "title": "Dethlac Ant Killer Spray 2 x 250ml | Kills Ants, Woodlice, Cockroaches & Crawling Insects | Insect Killer Indoor & Outdoor Use | Invisible Weatherproof Lacquer Barrier | Trusted Since 1959",
+   "img": "https://m.media-amazon.com/images/I/716cxEmUE-L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/716cxEmUE-L.jpg",
+    "https://m.media-amazon.com/images/I/81TJcpVKE8L.jpg",
+    "https://m.media-amazon.com/images/I/81RACONChzL.jpg",
+    "https://m.media-amazon.com/images/I/81AXxEZP0tL.jpg",
+    "https://m.media-amazon.com/images/I/71XPZ3mW4TL.jpg",
+    "https://m.media-amazon.com/images/I/81YQkYWV2uL.jpg",
+    "https://m.media-amazon.com/images/I/71cDxFJftSL.jpg",
+    "https://m.media-amazon.com/images/I/81BE0jRKiqL.jpg"
+   ],
+   "bullets": [
+    "The Original Dethlac Ant Killer Spray – Since 1959, Dethlac has been delivering powerful results. It forms a tough, invisible lacquer that creates a long-lasting barrier to crawling insects. You won’t see it, but the results speak for themselves. Invisible barrier. Visible results!",
+    "Eliminate Crawling Insects Effectively - Dethlac Spray targets Ants, Woodlice, Cockroaches, Silverfish, and other crawling insects with a powerful lacquerer-based formula, creating a long-lasting residual barrier to prevent and kill crawling insects within a few hours of coming into contact with the treated surface. Perfect for use along insect trails, entry points, and nesting areas for effective ant control.",
+    "Indoor & Outdoor Protection – Our Insecticide spray is pet safe and effective for use in homes, gardens, garages, sheds, patios, and other common trouble spots. Whether indoors or out, it provides a reliable barrier wherever crawling insects are found!",
+    "Weatherproof Barrier – Dethlac ant spray invisible lacquer keeps working through rain, mopping and heavy foot traffic, delivering months of protection from a single application. Ideal for outdoor surfaces and high-traffic areas, spray once, stay protected.",
+    "Pinpoint Accuracy, Zero Mess – The precision aerosol nozzle targets skirting boards, door frames, windowsills and tight crevices exactly where ants enter, with no drips or over spray. Apply quickly and confidently in any room.",
+    "Trusted for Over 60 Years – A trusted household name since 1959, Dethlac has been a go-to solution for generations, providing effective pest control and peace of mind to homeowners worldwide. Depend on Dethlac to keep your home pest-free, year after year."
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "safe_kids_pets",
+    "indoor_outdoor",
+    "barrier_prevent"
+   ],
+   "themeSrc": {
+    "indoor_outdoor": [
+     "T",
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "barrier_prevent": [
+     "T",
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ]
+   },
+   "price": 14.5,
+   "rating": 4.4,
+   "reviews": 6069,
+   "rev30": 7668,
+   "archival": false
+  },
+  {
+   "asin": "B0DGTL42L7",
+   "brand": "Zero In",
+   "title": "Zero In® Silverfish & Crawling Insect Killer - 500ml, Instant, Long Lasting, Non-Staining, Odourless Silverfish and Crawling Insect Treatment and Repellent for the Home",
+   "img": "https://m.media-amazon.com/images/I/51Xmez4N3LL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51Xmez4N3LL.jpg",
+    "https://m.media-amazon.com/images/I/71BDhmtRODL.jpg",
+    "https://m.media-amazon.com/images/I/81rZIaZXIRL.jpg",
+    "https://m.media-amazon.com/images/I/7147yhfIW0L.jpg",
+    "https://m.media-amazon.com/images/I/71jCnPUeSfL.jpg",
+    "https://m.media-amazon.com/images/I/619G5JPPmyL.jpg",
+    "https://m.media-amazon.com/images/I/41GhO5-ov-L.jpg"
+   ],
+   "bullets": [
+    "INSTANT ACTION: The fast-acting formula begins working immediately upon contact, quickly eliminating silverfish and other crawling insects",
+    "LONG-LASTING PROTECTION: Provides extended protection by forming a barrier that repels insects long after application, treats 20m2 and is effective for up to 12 weeks",
+    "NON-STAINING: Water-based formulation that is safe for use on a variety of surfaces, including carpets, upholstery, and wood. Won’t leave unsightly stains or residue",
+    "ODOURLESS FORMULA: Enjoy a pest-free home without the distraction of strong chemical smells. The formula is virtually odourless, ensuring a more pleasant environment",
+    "DUAL ACTION: Works as both a treatment and a repellent, tackling existing infestations and preventing future ones"
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "odourless",
+    "safe_kids_pets",
+    "no_residue",
+    "barrier_prevent"
+   ],
+   "themeSrc": {
+    "no_residue": [
+     "T",
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "barrier_prevent": [
+     "T",
+     "BP"
+    ],
+    "fast_action": [
+     "T",
+     "BP"
+    ],
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "odourless": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 5.77,
+   "rating": 4.2,
+   "reviews": 143,
+   "rev30": 6018,
+   "archival": false
+  },
+  {
+   "asin": "B0F2JG15DW",
+   "brand": "Pure Source Nutrition",
+   "title": "Diatomaceous Earth Powder Bucket Duster Pest Control Natural Insecticide Powder Bed Bug Killer, Mites Flea & Tick, Ant Killer, Crawling Insect Solution Non-Toxic DE Feed Grade (5kg)",
+   "img": "https://m.media-amazon.com/images/I/81iIeMVsnHL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/81iIeMVsnHL.jpg",
+    "https://m.media-amazon.com/images/I/81STp5EN97L.jpg",
+    "https://m.media-amazon.com/images/I/61Vn6apyrLL.jpg",
+    "https://m.media-amazon.com/images/I/6195OEfhHLL.jpg",
+    "https://m.media-amazon.com/images/I/71XcbjDQp5L.jpg",
+    "https://m.media-amazon.com/images/I/71eRF8vywSL.jpg",
+    "https://m.media-amazon.com/images/I/71yPnap5Z0L.jpg",
+    "https://m.media-amazon.com/images/I/61TI51GoktL.jpg"
+   ],
+   "bullets": [
+    "𝐕𝐞𝐫𝐬𝐚𝐭𝐢𝐥𝐞 𝐏𝐞𝐬𝐭 𝐂𝐨𝐧𝐭𝐫𝐨𝐥:Our diatomaceous earth (DE) powder is highly effective against a wide range of pests, including ants, bed bugs, fleas, ticks, cockroaches, silverfish, moths, beetles, and more. Whether you're dealing with a minor infestation or a major pest problem, DE provides a reliable solution for both crawling and flying insects.",
+    "𝐍𝐚𝐭𝐮𝐫𝐚𝐥 𝐚𝐧𝐝 𝐍𝐨𝐧-𝐓𝐨𝐱𝐢𝐜: Made from the fossilized remains of diatoms, a type of hard-shelled algae, our DE powder is completely natural and free from harmful chemicals. It is safe for use around children and pets, making it an ideal choice for households seeking an eco-friendly and non-toxic pest control method.",
+    "𝐏𝐡𝐲𝐬𝐢𝐜𝐚𝐥 𝐌𝐞𝐜𝐡𝐚𝐧𝐢𝐬𝐦: Unlike chemical insecticides, DE works through a physical process. The fine powder particles resemble tiny shards of glass that damage the insect's exoskeleton, causing dehydration and death. This ensures that insects cannot develop resistance to DE, providing long-lasting and effective pest control.",
+    "𝐌𝐮𝐥𝐭𝐢𝐩𝐥𝐞 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐌𝐞𝐭𝐡𝐨𝐝𝐬: DE can be applied in various ways to suit your needs. Sprinkle the powder directly from the container onto areas of insect activity, focusing on voids, cracks, and crevices where pests hide. For larger areas, mix DE with water to create a surface spray. Directly treating nests will result in faster control, making DE a versatile and adaptable solution for any pest problem.",
+    "𝐄𝐜𝐨-𝐅𝐫𝐢𝐞𝐧𝐝𝐥𝐲 𝐚𝐧𝐝 𝐒𝐚𝐟𝐞: Our DE powder is not only effective but also environmentally friendly. It can be used in a variety of settings, including homes, hospitals, animal housing, farms, food storage areas, and more. Always read and comply with the product label to ensure safe and effective use. DE is a slow-acting solution, so for best results, use it in conjunction with other pest control products."
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "safe_kids_pets",
+    "wide_spectrum",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "safe_kids_pets": [
+     "T",
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "kills_eliminates": [
+     "T"
+    ],
+    "wide_spectrum": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "natural_eco": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 19.64,
+   "rating": 4.3,
+   "reviews": 263,
+   "rev30": 5977,
+   "archival": false
+  },
+  {
+   "asin": "B087H5BN7Z",
+   "brand": "Raid",
+   "title": "300ml Ant & Cockroach Intant Killer Spray (2) (2)",
+   "img": "https://m.media-amazon.com/images/I/61QUXv68AfL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61QUXv68AfL.jpg"
+   ],
+   "bullets": [
+    "300ml Ant & Cockroach Intant Killer Spray",
+    "product type: PESTICIDE",
+    "brand: Raid",
+    "color: Red"
+   ],
+   "themes": [
+    "kills_eliminates"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 10.52,
+   "rating": 4.5,
+   "reviews": 740,
+   "rev30": 5369,
+   "archival": false
+  },
+  {
+   "asin": "B078PQ8LDC",
+   "brand": "Entopest",
+   "title": "Entopest - 1Kg Diatomaceous Earth Powder - Ant killer, flea killer, insect killer, bed bug killer, silverfish killer, Pests Control for Crawling Insects, Pest Organic Non-Toxic",
+   "img": "https://m.media-amazon.com/images/I/81Bv5kLZJYL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/81Bv5kLZJYL.jpg",
+    "https://m.media-amazon.com/images/I/91QFRpHnoPL.jpg",
+    "https://m.media-amazon.com/images/I/91y-7ZglirL.jpg",
+    "https://m.media-amazon.com/images/I/91ZqirORm0L.jpg",
+    "https://m.media-amazon.com/images/I/41kMo4-Ja8L.jpg"
+   ],
+   "bullets": [
+    "NON-TOXIC INSECT TREATMENT - Entopest insect-grade diatomaceous earth is an organic powder used to treat crawling and flying insects. Once applied, the product offers a safe treatment method for many insects, including bed bugs, ants and moths. The powder is harmless to humans and can be used safely around children and pets",
+    "HOW DOES IT WORK - Diatomaceous earth is a naturally-mined, mineral product of fossilized remains of diatoms, a type of hard-shelled algae. When crushed to a fine powder, the particles resemble shards of broken glass, which damage the outy wax surface of the insect's exoskeleton. This process has no resistance and will kill the insect after contact",
+    "UNIVERSAL CONTROL - Diatomaceous earth can be used for a wide range of insect pests including cockroaches, bed bugs, booklice, fleas, ticks, red mite, crickets, ants, moths, beetles, casual intruders, and flies in and around public and municipal buildings, hospitals, animal housing, farms, food storage, refuse tips, slaughterhouses, and manure heaps",
+    "APPLICATION METHODS - The product can be used directly from the container or, if preferred, diluted with water to create a surface spray. For best results, diatomaceous earth should be applied finely within areas of insect activity, focusing on voids, cracks and crevices. Direct treatments of nests will result in faster control",
+    "IMPORTANT INFORMATION - This product is insect-grade and not meant for human consumption. Diatomaceous earth is not a fast-acting solution for insect control. Treatments can take significantly longer than insecticide alternatives; for best results, use in conjunction with other control products. Always read and comply with the product label"
+   ],
+   "themes": [
+    "fast_action",
+    "kills_eliminates",
+    "safe_kids_pets",
+    "wide_spectrum",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "safe_kids_pets": [
+     "T",
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "wide_spectrum": [
+     "BP"
+    ],
+    "natural_eco": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 16.17,
+   "rating": 4.4,
+   "reviews": 1055,
+   "rev30": 5003,
+   "archival": false
+  },
+  {
+   "asin": "B0DQ5YX7H2",
+   "brand": "NOPE!",
+   "title": "NOPE! Flea Smoke Bombs for The Home (14g) | 6x8m Coverage | Non-Staining | for All Flying & Crawling Insects | for Bedrooms, Living Rooms, Garages",
+   "img": "https://m.media-amazon.com/images/I/71yHVzheEhL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71yHVzheEhL.jpg",
+    "https://m.media-amazon.com/images/I/71YqSehEAJL.jpg",
+    "https://m.media-amazon.com/images/I/61bQNg+rmEL.jpg",
+    "https://m.media-amazon.com/images/I/61Z422x3fbL.jpg",
+    "https://m.media-amazon.com/images/I/91OAblh9nFL.jpg",
+    "https://m.media-amazon.com/images/I/81Uca7c9MwL.jpg"
+   ],
+   "bullets": [
+    "SAY GOODBYE TO FLEAS | 1 Large Non-Staining Flea Bomb for the Home | 120m3 / 6x8m Coverage for One and Done Large Room Treatment | Pro Strength Flea Treatment for Safe Home Use",
+    "PRACTICAL PEST CONTROL | Close All Windows, Light The Smoke Bomb on a Heat-Resistant Surface, Leave the Room and Securely Shut Door | Ventilate Room After 2 Hours and Throw Away Container | Do Not Use Near Pets",
+    "USE ANYWHERE IN HOME AND SHEDS | Effective Flea Treatment for Living Rooms, Bedrooms, Lofts, Basements, Barns, Cellars. Use in Sheds, Storage Areas, Greenhouses, Trailers and Caravans | Reaches Areas Pest Sprays Can’t",
+    "12 WEEK RESIDUAL ACTION | Treats Surfaces with Residual Action to Keep Away Crawling Insects like Bed Bugs & Silverfish | Carry out treatment every 3 weeks if infestation persists |",
+    "TREAT HARD-TO-REACH SPACES | Light Fine Mist Effortlessly Reaches Behind and Under Furniture, Skirting Boards and Cracks | Kills Flying & Crawling Insects: Adult Fleas, Larvae and Eggs | Kills Bed Bugs, Moths, Flies, Carpet Beetles, Silverfish, and more"
+   ],
+   "themes": [
+    "long_lasting",
+    "kills_eliminates",
+    "safe_kids_pets",
+    "no_residue",
+    "barrier_prevent"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "no_residue": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "barrier_prevent": [
+     "BP"
+    ]
+   },
+   "price": 10.17,
+   "rating": 4.1,
+   "reviews": 226,
+   "rev30": 4767,
+   "archival": false
+  }
+ ],
+ "themes": [
+  {
+   "key": "fast_action",
+   "label": "Szybkie działanie"
+  },
+  {
+   "key": "long_lasting",
+   "label": "Długotrwała ochrona"
+  },
+  {
+   "key": "kills_eliminates",
+   "label": "Zabija / eliminuje"
+  },
+  {
+   "key": "odourless",
+   "label": "Bezzapachowy / niska woń"
+  },
+  {
+   "key": "safe_kids_pets",
+   "label": "Bezpieczny dla dzieci i zwierząt"
+  },
+  {
+   "key": "indoor_outdoor",
+   "label": "Do wnętrz i na zewnątrz"
+  },
+  {
+   "key": "no_residue",
+   "label": "Bez plam / osadu"
+  },
+  {
+   "key": "easy_use",
+   "label": "Łatwa aplikacja / gotowy do użycia"
+  },
+  {
+   "key": "wide_spectrum",
+   "label": "Na wiele owadów / szerokie spektrum"
+  },
+  {
+   "key": "barrier_prevent",
+   "label": "Bariera / prewencja"
+  },
+  {
+   "key": "professional",
+   "label": "Klasa profesjonalna"
+  },
+  {
+   "key": "natural_eco",
+   "label": "Naturalny / eko"
+  },
+  {
+   "key": "value_size",
+   "label": "Ekonomiczny / duże opakowanie"
+  }
+ ],
+ "adoption": [
+  {
+   "key": "kills_eliminates",
+   "label": "Zabija / eliminuje",
+   "count": 12,
+   "pct": 100
+  },
+  {
+   "key": "long_lasting",
+   "label": "Długotrwała ochrona",
+   "count": 9,
+   "pct": 75
+  },
+  {
+   "key": "fast_action",
+   "label": "Szybkie działanie",
+   "count": 8,
+   "pct": 67
+  },
+  {
+   "key": "safe_kids_pets",
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "count": 8,
+   "pct": 67
+  },
+  {
+   "key": "indoor_outdoor",
+   "label": "Do wnętrz i na zewnątrz",
+   "count": 5,
+   "pct": 42
+  },
+  {
+   "key": "barrier_prevent",
+   "label": "Bariera / prewencja",
+   "count": 5,
+   "pct": 42
+  },
+  {
+   "key": "natural_eco",
+   "label": "Naturalny / eko",
+   "count": 4,
+   "pct": 33
+  },
+  {
+   "key": "no_residue",
+   "label": "Bez plam / osadu",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "wide_spectrum",
+   "label": "Na wiele owadów / szerokie spektrum",
+   "count": 2,
+   "pct": 17
+  },
+  {
+   "key": "value_size",
+   "label": "Ekonomiczny / duże opakowanie",
+   "count": 2,
+   "pct": 17
+  },
+  {
+   "key": "odourless",
+   "label": "Bezzapachowy / niska woń",
+   "count": 1,
+   "pct": 8
+  },
+  {
+   "key": "easy_use",
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "count": 1,
+   "pct": 8
+  },
+  {
+   "key": "professional",
+   "label": "Klasa profesjonalna",
+   "count": 1,
+   "pct": 8
+  }
+ ],
+ "vocGap": [
+  {
+   "vocTopic": "Pienisty, mokry strumień zamiast drobnej mgiełki",
+   "vocPct": 7.5,
+   "theme": "Bez plam / osadu",
+   "addressed": 3,
+   "total": 12,
+   "pct": 25,
+   "sev": "MED",
+   "brands": [
+    "Ratkil",
+    "Zero In",
+    "NOPE!"
+   ]
+  },
+  {
+   "vocTopic": "Wady dyszy i zaworu",
+   "vocPct": 5.0,
+   "theme": "Łatwa aplikacja / gotowy do użycia",
+   "addressed": 1,
+   "total": 12,
+   "pct": 8,
+   "sev": "MED",
+   "brands": [
+    "Ratkil"
+   ]
+  },
+  {
+   "vocTopic": "Mocny zapach, pokój trzeba wywietrzyć",
+   "vocPct": 8.3,
+   "theme": "Bezzapachowy / niska woń",
+   "addressed": 1,
+   "total": 12,
+   "pct": 8,
+   "sev": "MED",
+   "brands": [
+    "Zero In"
+   ]
+  },
+  {
+   "vocTopic": "Luki w skuteczności na niektóre szkodniki",
+   "vocPct": 4.2,
+   "theme": "",
+   "addressed": 0,
+   "total": 12,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
+  },
+  {
+   "vocTopic": "Drobne zastrzeżenia do ceny",
+   "vocPct": 1.7,
+   "theme": "Ekonomiczny / duże opakowanie",
+   "addressed": 2,
+   "total": 12,
+   "pct": 17,
+   "sev": "MED",
+   "brands": [
+    "Ratkil",
+    "Raid"
+   ]
+  }
+ ],
+ "whitespace": [
+  {
+   "label": "Bez plam / osadu",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Na wiele owadów / szerokie spektrum",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Ekonomiczny / duże opakowanie",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Bezzapachowy / niska woń",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Klasa profesjonalna",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  }
+ ],
+ "saturation": [
+  {
+   "label": "Zabija / eliminuje",
+   "pct": 100,
+   "advice": "Claim obowiązkowy (>=70%) - musisz go mieć; wyróżnij się dowodem/konkretem."
+  },
+  {
+   "label": "Długotrwała ochrona",
+   "pct": 75,
+   "advice": "Claim obowiązkowy (>=70%) - musisz go mieć; wyróżnij się dowodem/konkretem."
+  },
+  {
+   "label": "Szybkie działanie",
+   "pct": 67,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "pct": 67,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Do wnętrz i na zewnątrz",
+   "pct": 42,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Bariera / prewencja",
+   "pct": 42,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Naturalny / eko",
+   "pct": 33,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Bez plam / osadu",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Na wiele owadów / szerokie spektrum",
+   "pct": 17,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Ekonomiczny / duże opakowanie",
+   "pct": 17,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Bezzapachowy / niska woń",
+   "pct": 8,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "pct": 8,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Klasa profesjonalna",
+   "pct": 8,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  }
+ ],
+ "recs": [
+  {
+   "type": "Messaging",
+   "finding": "Negatywy VOC dotyczą: Luki w skuteczności na niektóre szkodniki - a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "impl": "Zaadresuj te obawy wprost w tytule i bulletach - natychmiastowa przewaga komunikacyjna."
+  },
+  {
+   "type": "Pozycjonowanie",
+   "finding": "Nisko wysycone claimy: Bez plam / osadu, Na wiele owadów / szerokie spektrum, Ekonomiczny / duże opakowanie, Bezzapachowy / niska woń.",
+   "impl": "Jeśli produkt spełnia te cechy - wyeksponuj je; konkurencja tego nie robi."
+  },
+  {
+   "type": "Produkt",
+   "finding": "Nasycone (obowiązkowe) claimy: Zabija / eliminuje, Długotrwała ochrona.",
+   "impl": "To parytet kategorii - musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
+  }
+ ]
+}

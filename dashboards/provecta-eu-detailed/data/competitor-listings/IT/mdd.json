@@ -1,0 +1,868 @@
+{
+ "totalCompetitors": 12,
+ "marketplace": "amazon.it",
+ "avgClaims": 4.1,
+ "competitors": [
+  {
+   "asin": "B088B5H3KH",
+   "brand": "PROTECT HOME",
+   "title": "Protect Home Fastion Gel Scarafaggi, Insetticida gel pronto all’uso, Veleno scarafaggi, Efficace Elimina l’intera colonia in breve tempo, Azione per ingestione. Ambienti interni. 20g",
+   "img": "https://m.media-amazon.com/images/I/71x5vsuES2L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71x5vsuES2L.jpg",
+    "https://m.media-amazon.com/images/I/71ONQv3dpyL.jpg",
+    "https://m.media-amazon.com/images/I/81DzrKARLBL.jpg",
+    "https://m.media-amazon.com/images/I/71Fml3RfnEL.jpg",
+    "https://m.media-amazon.com/images/I/71shZqSJ0YL.jpg"
+   ],
+   "bullets": [
+    "ELIMINA DEFINITIVAMENTE GLI SCARAFAGGI – Grazie alla sua innovazione di gel di ultima generazione a base di imidacloprid, è l’alleato ideale per la tua casa per eliminare tutti i tipi di scarafaggi, eliminando l’intera colonia",
+    "RAPIDA AZIONE ABBATTENTE E LUNGA DURATA D’AZIONE – Formulazione è in grado di controllare la popolazione di scarafaggi entro 1 settimana dall’applicazione. Inoltre protegge la casa fino a 3 mesi dall’applicazione",
+    "FORMULAZIONE PROFESSIONALE – Formulazione con un forte potere attrattivo per risolvere il problema nel breve tempo. Di colore neutro chiaro è ideale per applicazioni discrete",
+    "FACILE DA USARE – Prodotto pratico per il consumatore, è possibile applicarlo anche su superfici verticali grazie alla sua elevata densità. Inoltre, è possibile soggiornare nel locali durante il trattamento",
+    "DOSAGGIO: applicare 3 gocce ogni metro quadro di superficie nei luoghi dove si nascondono gli scarafaggi (fessure, angoli nascosti, dietro i mobili, nel bagno e nelle vicinanze dei servizi igienici e in cucina nelle vicinanze dei lavandini)"
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "easy_use",
+    "barrier_prevent",
+    "professional"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "barrier_prevent": [
+     "BP"
+    ],
+    "easy_use": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "professional": [
+     "BP"
+    ],
+    "fast_action": [
+     "T"
+    ]
+   },
+   "price": 15.45,
+   "rating": 4.6,
+   "reviews": 2594,
+   "rev30": 24147,
+   "archival": false
+  },
+  {
+   "asin": "B0BQ3DGXQP",
+   "brand": "Super Ninja",
+   "title": "Super Ninja Trappole per Scarafaggi – 12 Pezzi con Colla e Attrattivo, Non Tossiche, Contro Scarafaggi e Blatte, Sicure per la Disinfestazione di Casa, Cantina, Garage, in Cartone Riciclato",
+   "img": "https://m.media-amazon.com/images/I/91rNwUCETyL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/91rNwUCETyL.jpg",
+    "https://m.media-amazon.com/images/I/91Fq45ZtVML.jpg",
+    "https://m.media-amazon.com/images/I/91sBbMkQcxL.jpg",
+    "https://m.media-amazon.com/images/I/81TEMfpTBwL.jpg",
+    "https://m.media-amazon.com/images/I/814Mrv4nBgL.jpg",
+    "https://m.media-amazon.com/images/I/81CCqrHjTAL.jpg",
+    "https://m.media-amazon.com/images/I/91fWW1EQyWL.jpg",
+    "https://m.media-amazon.com/images/I/81EfKbPB1jL.jpg"
+   ],
+   "bullets": [
+    "Efficaci contro scarafaggi e blatte: Le trappole Super Ninja richiamano e bloccano rapidamente gli insetti grazie a un potente attrattivo alimentare associato a un collante molto efficace. Ideali per la disinfestazione della casa da scarafaggi e blatte. Utilizzabile in cucina, bagno, garage o cantina.",
+    "Non tossiche e sicure per tutta la famiglia: Senza sostanze chimiche e completamente inodore, questa trappola per scarafaggi è sicura da usare anche in presenza di bambini e animali domestici. Una protezione anti scarafaggi discreta e affidabile ideale per ogni angolo della casa.",
+    "Protezione continua fino a 3 mesi: Ogni trappola resta attiva per settimane o finché completamente satura. Perfette per chi cerca una soluzione contro gli scarafaggi che duri nel tempo, senza bisogno di controlli o sostituzioni frequenti.",
+    "Facili da usare, pronte in pochi semplici passi: Basta aprire la confezione, rimuovere la pellicola protettiva e posizionare la trappola dove vi è attività infestante. Niente spray o strumenti complicati. Una soluzione anti scarafaggi semplice ed efficace.",
+    "Ecologiche e completamente riciclabili: Realizzate con cartone riciclato, le nostre trappole per blatte rappresentanoun metodo intelligente e mirato per controllare gli scarafaggi ed effettuare una disinfestazione della casa nel rispetto dell’ambiente."
+   ],
+   "themes": [
+    "long_lasting",
+    "odourless",
+    "safe_kids_pets"
+   ],
+   "themeSrc": {
+    "odourless": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ]
+   },
+   "price": 12.9,
+   "rating": 3.9,
+   "reviews": 2363,
+   "rev30": 13253,
+   "archival": false
+  },
+  {
+   "asin": "B0G7LQZ55Q",
+   "brand": "WILD SOLUTION",
+   "title": "Pest Whisperer 2.0 - Repellente Ultrasuoni per Topi Professionale - Repellente Topi e Ratti - Dissuasori per Topi - Anti Scarafaggi, Formiche - Potenza Combinata 20W - Non Tossico - 2 Unità",
+   "img": "https://m.media-amazon.com/images/I/71GCJlmtkrL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71GCJlmtkrL.jpg",
+    "https://m.media-amazon.com/images/I/71GG1R7hzxL.jpg",
+    "https://m.media-amazon.com/images/I/81i6myXV88L.jpg",
+    "https://m.media-amazon.com/images/I/716kirmDKpL.jpg",
+    "https://m.media-amazon.com/images/I/71Ot9dkGMRL.jpg",
+    "https://m.media-amazon.com/images/I/81cEhN+4KZL.jpg",
+    "https://m.media-amazon.com/images/I/91kbbblOK7L.jpg",
+    "https://m.media-amazon.com/images/I/71XjiBBAdYL.jpg"
+   ],
+   "bullets": [
+    "🧠 SMART-CHIP DI ULTIMA GENERAZIONE 🧠: Pest Whisperer 2.0 è un dissuasore per topi ed insetti con doppio chip intelligente: genera frequenze alternate per evitare l’assuefazione e funziona come repellente per topi efficace contro ratti, ragni, blatte e altri infestanti. Niente veleni, niente sostanze tossiche: solo tecnologia ad ultrasuoni.",
+    "💪 POTENZA COMBINATA 20W (10W+10W) 💪: Grazie alla potenza combinata, è l'ultrasuoni per topi da interno più potente e rapido. Usando 2 dispositivi insieme, i risultati arrivano fino a 2 volte più velocemente rispetto a un classico allontana topi, con miglioramenti visibili già dopo 3–4 settimane di utilizzo continuativo.",
+    "🏠 IDEALE PER INTERNI + COPERTURA FINO A 120 m² 🏠: Ogni unità copre fino a 120 m² ed è progettata per funzionare al meglio come dissuasore topi ultrasuoni in ambienti chiusi come case, garage, cantine, magazzini, hotel, ristoranti e uffici. Per risultati reali: evita ostacoli come muri, mobili, tende, tappeti ed installa 1 dispositivo per stanza. Gli ultrasuoni non attraversano le pareti.",
+    "👪 SICURO, NON UCCIDE, ZERO TRAPPOLE 👪: Un dissuasore topi ultrasuoni che protegge senza spray, veleno o trappole. Le onde ultrasoniche non sono udibili da persone e non disturbano l’ambiente domestico: un modo pulito per allontanare topi e insetti senza massacri e senza rischi inutili. Consumo ridotto: circa 15€ l’anno.",
+    "✔ ASSISTENZA ITALIANA ✔: Supporto tecnico in italiano 24/7 per aiutarti a posizionare correttamente il tuo scaccia topi ultrasuoni, potenziare l’effetto del dispositivo e rispondere ad ogni tua domanda nel minor tempo possibile."
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "indoor_outdoor",
+    "barrier_prevent",
+    "professional"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "professional": [
+     "T"
+    ],
+    "indoor_outdoor": [
+     "BP"
+    ],
+    "barrier_prevent": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 29.99,
+   "rating": 5.0,
+   "reviews": 32,
+   "rev30": 11122,
+   "archival": false
+  },
+  {
+   "asin": "B0BT21BJ28",
+   "brand": "Baygon",
+   "title": "Baygon Spray con Cannuccia Extra Precision, Efficace contro Scarafaggi e Formiche, Protezione Continua fino a 4 Settimane, 3x Bombole da 400 ml",
+   "img": "https://m.media-amazon.com/images/I/71QbvEwrMoL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71QbvEwrMoL.jpg",
+    "https://m.media-amazon.com/images/I/61MvdDcbzrL.jpg",
+    "https://m.media-amazon.com/images/I/61NQR9FJb0L.jpg",
+    "https://m.media-amazon.com/images/I/81OqbQdhaiL.jpg",
+    "https://m.media-amazon.com/images/I/71QWMP9y+0L.jpg",
+    "https://m.media-amazon.com/images/I/71UQ7Z+B6sL.jpg"
+   ],
+   "bullets": [
+    "AZIONE RAPIDA: elimina scarafaggi, formiche e altre tipologie di insetti strisciani rapidamente, tramite spruzzo diretto;",
+    "PROTEZIONE DI LUNGA DURATA: assicura una protezione continua che dura fino a 4 settimane;",
+    "MODALITA' D'USO: spruzzare il prodotto dirigendo il getto direttamente sugli insetti, oppure dove passano o si annidano: lungo i margini del pavimento, gli infissi di porte e finestre, nelle crepe, vicino alla spazzatura, sotto i mobili;",
+    "AZIONE PRECISA E MIRATA: La cannuccia snodabile offre una maggiore precisione, permette di puntare direttamente il getto contro l'insetto, eliminandolo rapidamente",
+    "PROTEGGI LA TUA CASA DAGLI INSETTI STRISCIANTI CON LA LINEA DI PRODOTTI BAYGON: visita il Brand Store di Baygon per scoprire la nostra linea di prodotti e proteggere te e i tuoi cari da insetti indesiderati;",
+    "FORMATO CONVENIENZA: La confezione contiene 3 bombole per aiutarti a proteggere i tuoi ambienti per tutta l'estate;"
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "wide_spectrum",
+    "barrier_prevent",
+    "value_size"
+   ],
+   "themeSrc": {
+    "value_size": [
+     "BP"
+    ],
+    "kills_eliminates": [
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "wide_spectrum": [
+     "BP"
+    ],
+    "long_lasting": [
+     "T",
+     "BP"
+    ],
+    "barrier_prevent": [
+     "BP"
+    ]
+   },
+   "price": 19.99,
+   "rating": 4.6,
+   "reviews": 429,
+   "rev30": 8731,
+   "archival": false
+  },
+  {
+   "asin": "B00JDKSQRM",
+   "brand": "vebi",
+   "title": "Insetticida Concentrato Contro Insetti Striscianti e Volanti, Azione Tecnologica Microincapsulazione, 100% Made in Italy - 1 litro",
+   "img": "https://m.media-amazon.com/images/I/51mApxwPseL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51mApxwPseL.jpg",
+    "https://m.media-amazon.com/images/I/514yW24sSDL.jpg",
+    "https://m.media-amazon.com/images/I/51MqOwYzkEL.jpg",
+    "https://m.media-amazon.com/images/I/51bmBGXVuOL.jpg",
+    "https://m.media-amazon.com/images/I/51iwoe-mnQL.jpg",
+    "https://m.media-amazon.com/images/I/51EFhM2BlnL.jpg",
+    "https://m.media-amazon.com/images/I/61+QHzMM1JL.jpg"
+   ],
+   "bullets": [
+    "INSETTICIDA CONCENTRATO: insetticida Draker 10.2 microincapsulato contro insetti volanti e striscianti. Il prodotto è efficace contro la maggior parte degli insetti molesti: blatte, scorpioni, formiche, pulci, ragni, cimici, zecche, acari. Ideale anche contro gli insetti volanti come mosche, tafani, zanzare, moscerini, vespe",
+    "PRODOTTO INNOVATIVO: l'insetticida Draker 10.2 unisce un'azione immediata e una prolungata nel tempo grazie alla tecnica di microincapsulazione. I principi attivi sono in parte liberi e in parte racchiusi in microcapsule, rivestite da un sottile filo polimetrico di origine naturale, per la una maggiore protezione (tetrametrina e Cipermetrina)",
+    "EFFICACIA GARANTITA: rilascio graduale dei principi attivi che garantisce un'efficacia per almeno 2-3 settimane",
+    "USO INTERNO: applicare con pompa a spruzzo su battiscopa, angoli, fessure, retro dei mobili, ecc.",
+    "USO ESTERNO: applicare su muri, finestre, davanzali, siepi. Non contiene solventi, è inodore, non macchia (testarlo prima dell’utilizzo su superfici delicate)"
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "odourless",
+    "indoor_outdoor",
+    "wide_spectrum",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "odourless": [
+     "BP"
+    ],
+    "wide_spectrum": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "natural_eco": [
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ]
+   },
+   "price": 47.9,
+   "rating": 4.4,
+   "reviews": 1428,
+   "rev30": 6946,
+   "archival": false
+  },
+  {
+   "asin": "B08P5J66SP",
+   "brand": "PROTECT HOME",
+   "title": "Protect Home Fastion Gel Scarafaggi, Insetticida gel pronto all’uso, Veleno scarafaggi, Efficace Elimina l’intera colonia in breve tempo, Azione per ingestione. Ambienti interni. 5g",
+   "img": "https://m.media-amazon.com/images/I/71yR+WwQWRL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71yR+WwQWRL.jpg",
+    "https://m.media-amazon.com/images/I/71nbfQQU-0L.jpg",
+    "https://m.media-amazon.com/images/I/812amNQWtNL.jpg",
+    "https://m.media-amazon.com/images/I/71Fml3RfnEL.jpg",
+    "https://m.media-amazon.com/images/I/71shZqSJ0YL.jpg"
+   ],
+   "bullets": [
+    "ELIMINA DEFINITIVAMENTE GLI SCARAFAGGI – Grazie alla sua innovazione di gel di ultima generazione a base di imidacloprid, è l’alleato ideale per la tua casa per eliminare tutti i tipi di scarafaggi, eliminando l’intera colonia",
+    "RAPIDA AZIONE ABBATTENTE E LUNGA DURATA D’AZIONE – Formulazione è in grado di controllare la popolazione di scarafaggi entro 1 settimana dall’applicazione. Inoltre protegge la casa fino a 3 mesi dall’applicazione",
+    "FORMULAZIONE PROFESSIONALE – Formulazione con un forte potere attrattivo per risolvere il problema nel breve tempo. Di colore neutro chiaro è ideale per applicazioni discrete",
+    "FACILE DA USARE – Prodotto pratico per il consumatore, è possibile applicarlo anche su superfici verticali grazie alla sua elevata densità. Inoltre, è possibile soggiornare nel locali durante il trattamento",
+    "DOSAGGIO: applicare 3 gocce ogni metro quadro di superficie nei luoghi dove si nascondono gli scarafaggi (fessure, angoli nascosti, dietro i mobili, nel bagno e nelle vicinanze dei servizi igienici e in cucina nelle vicinanze dei lavandini)"
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "kills_eliminates",
+    "easy_use",
+    "barrier_prevent",
+    "professional"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "barrier_prevent": [
+     "BP"
+    ],
+    "easy_use": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "professional": [
+     "BP"
+    ],
+    "fast_action": [
+     "T"
+    ]
+   },
+   "price": 11.12,
+   "rating": 4.6,
+   "reviews": 2594,
+   "rev30": 6136,
+   "archival": false
+  },
+  {
+   "asin": "B00IEE3ICG",
+   "brand": "CIFO",
+   "title": "CIFO Nephorin - Insetticida Formiche Scarafaggi Ragni Vespe e Altri Insetti, Triplice Azione Snidante, Abbattente e Residuale, Ideale per Disinfestare Ambienti Domestici e Civili, Made in Italy, 500ml",
+   "img": "https://m.media-amazon.com/images/I/61LUlj9G4iL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61LUlj9G4iL.jpg",
+    "https://m.media-amazon.com/images/I/8127c3bx8sL.jpg",
+    "https://m.media-amazon.com/images/I/81JPegZcUHL.jpg",
+    "https://m.media-amazon.com/images/I/81Z5ufbTzBL.jpg",
+    "https://m.media-amazon.com/images/I/71MSBbenp7L.jpg",
+    "https://m.media-amazon.com/images/I/71hC3yeOcgL.jpg"
+   ],
+   "bullets": [
+    "INSETTICIDA EFFICACE CONTRO TUTTI GLI INSETTI: Cifo Nephorin è un insetticida pronto all’uso in emulsione acquosa, con triplice azione snidante, abbattente e residuale. È efficace contro blatte, formiche, pulci, zecche, mosche, zanzare, tarli, acari e molti altri insetti, sia per contatto che per ingestione",
+    "AZIONE COMPLETA SU TUTTI GLI STADI DI SVILUPPO DEGLI INSETTI: La sua formula agisce su insetti in ogni fase di sviluppo, comprese uova, larve e adulti. Non presenta fenomeni di assuefazione, garantendo una protezione duratura e continua contro infestazioni",
+    "ADATTO PER AMBIENTI DOMESTICI E CIVILI: Nephorin può essere utilizzato in ogni periodo dell’anno, applicandolo su pareti, pavimenti, fessure, battiscopa e in ambienti come cucine, cantine, depositi, cucce per animali e altri spazi domestici e civili",
+    "FACILE APPLICAZIONE CON NEBULIZZATORE: Il prodotto è disponibile in confezione da 500 ml con nebulizzatore integrato, per un'applicazione mirata e facile in qualsiasi ambiente. È un presidio medico-chirurgico registrato al Ministero della Salute (n. 16569) per una protezione sicura e certificata. Attenzione: la data stampata sul flacone si riferisce al lotto di produzione. Il prodotto ha una validità di 2 anni dalla data di produzione",
+    "CIFO, QUALITÀ E INNOVAZIONE AL SERVIZIO DELLE PIANTE: Fondata a Bologna, Cifo è leader nella produzione di concimi e formulati per giardinaggio e agricoltura. Con i suoi 60 anni di esperienza, si distingue per la qualità dei suoi prodotti, supportati da un'intensa attività di ricerca e da impianti produttivi all'avanguardia"
+   ],
+   "themes": [
+    "wide_spectrum"
+   ],
+   "themeSrc": {
+    "wide_spectrum": [
+     "BP"
+    ]
+   },
+   "price": 13.55,
+   "rating": 4.6,
+   "reviews": 2061,
+   "rev30": 6111,
+   "archival": false
+  },
+  {
+   "asin": "B010V72NGU",
+   "brand": "ARIKON",
+   "title": "CIPEX 10E INSETTICIDA ADULTICIDA LIQUIDO A BASE DI CIPERMETRINA lt.1 INSETTI VOLANTI E STRISCIANTI ZANZARE",
+   "img": "https://m.media-amazon.com/images/I/718RBWVE6dL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/718RBWVE6dL.jpg",
+    "https://m.media-amazon.com/images/I/718RBWVE6dL.jpg",
+    "https://m.media-amazon.com/images/I/714B2IjC46L.jpg",
+    "https://m.media-amazon.com/images/I/51Lazj5RXPL.jpg"
+   ],
+   "bullets": [
+    "CIPEX 10E INSETTICIDA ADULTICIDA LIQUIDO A BASE DI CIPERMETRINA",
+    "Lt.1",
+    "NB: sulla confezione è riportato il lotto di produzione e NON la data di scadenza: il prodotto ha scadenza 2 anni dalla data di produzione come riportato anche in etichetta prodotto."
+   ],
+   "themes": [
+    "wide_spectrum"
+   ],
+   "themeSrc": {
+    "wide_spectrum": [
+     "T"
+    ]
+   },
+   "price": 22.9,
+   "rating": 4.3,
+   "reviews": 1964,
+   "rev30": 5990,
+   "archival": false
+  },
+  {
+   "asin": "B0CJVL8M41",
+   "brand": "VAPE",
+   "title": "Vape Esca Scarafaggi Esche Insetticide Disinfestazione Blatte Cimici e Scarafaggi Efficacia 3 Mesi - 6 Esche",
+   "img": "https://m.media-amazon.com/images/I/81i0sTLB2yL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/81i0sTLB2yL.jpg",
+    "https://m.media-amazon.com/images/I/81g+XHsFlTL.jpg",
+    "https://m.media-amazon.com/images/I/71hJ1AnArCL.jpg"
+   ],
+   "bullets": [
+    "Il kit contiene: 3 confezioni di Vape Esca Scarafaggi da 2 esche ognuna",
+    "Insetticida formulato come gel pronto all'uso",
+    "L'esca agisce per contatto e ingestione, il prodotto contiene sostanze alimentari e additivi che attirano l'insetto",
+    "Si ottiene l'eliminazione dell'intera popolazione di blatte dopo circa 5 o 6 giorni dall'applicazione",
+    "Ogni esca ha una durata di 3 mesi circa, non trasuda, non macchia e non si secca"
+   ],
+   "themes": [
+    "long_lasting",
+    "kills_eliminates",
+    "easy_use"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "easy_use": [
+     "BP"
+    ],
+    "long_lasting": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 15.0,
+   "rating": 4.5,
+   "reviews": 464,
+   "rev30": 5979,
+   "archival": false
+  },
+  {
+   "asin": "B00KVI7VT4",
+   "brand": "COPYR",
+   "title": "Copyr Cipertrin 10 Plus - Insetticida Antizanzare, Formiche, Scarafaggi e Altri Insetti Striscianti, 1L x 1 Pezzo - Concentrato Emulsionabile Inodore con Cipermetrina, Effetto Residuale (1 Lt)",
+   "img": "https://m.media-amazon.com/images/I/61aVRM+n73L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61aVRM+n73L.jpg"
+   ],
+   "bullets": [
+    "CONTROLLO RAPIDO DI INSETTI STRISCIANTI E ZANZARA TIGRE: Cipertrin 10 plus è efficace contro la maggior parte degli insetti molesti o dannosi del settore domestico, civile e industriale, quali la zanzara tigre, scarafaggi e formiche",
+    "CONCENTRATO EMULSIONABILE: La Cipermetrina conferisce al formulato un rapido effetto abbattente al quale si aggiunge un potere residuale che dura fino a 4 settimane",
+    "VERSATILITÀ D’APPLICAZIONE: Per uso in agglomerati urbani, viali e parchi cittadini, aree suburbane, villaggi turistici, campeggi, abitazioni, edifici privati e pubblici (ospedali, alberghi, scuole, negozi, cinema, caserme, ecc.), mezzi di trasporto (autobus, trucks, treni, navi), aree industriali, depositi rifiuti, industrie tessili e della carta",
+    "PER INDUSTRIE ALIMENTARI E FABBRICATI RURALI: CIPERTRIN 10 PLUS si può impiegare anche in fabbricati rurali, stalle, concimaie, ripari e ricoveri di animali domestici, cucine, bar, ristoranti, mense aziendali, industrie alimentari (latterie, caseifici, macellerie, depositi e silos vuoti, tabacchifici)",
+    "COPYR, INNOVAZIONE E RESPONSABILITÀ ETICA DA OLTRE 60 ANNI: Sin dalla nascita della nostra azienda proponiamo l’impiego di insetticidi a base di Piretro con una sensibilità sui temi dell’ecologia in anticipo sui tempi. Da oltre 60 anni sviluppiamo soluzioni di derivazione naturale, efficaci e con un elevato profilo di sicurezza per i diversi mercati in cui operiamo"
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "odourless",
+    "safe_kids_pets",
+    "wide_spectrum",
+    "professional",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "professional": [
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "odourless": [
+     "T"
+    ],
+    "wide_spectrum": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "natural_eco": [
+     "BP"
+    ]
+   },
+   "price": 19.99,
+   "rating": 4.3,
+   "reviews": 1567,
+   "rev30": 5959,
+   "archival": false
+  },
+  {
+   "asin": "B008CFT81M",
+   "brand": "ZIG - ZAG",
+   "title": "Zig Zag, Insetticida, Habitat, Multinsetto, Inodore, Ideale Per Cimici, Mosche, Zanzare, Scarafaggi, Formiche, Zecche, Prodotto A Lento Rilascio, Ml 500, Bianco, ‎6.8 x 6.8 x 6.8 cm; 10 grammi",
+   "img": "https://m.media-amazon.com/images/I/515S-OCETJL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/515S-OCETJL.jpg",
+    "https://m.media-amazon.com/images/I/51A7wkjAolL.jpg",
+    "https://m.media-amazon.com/images/I/61Etst4rZJL.jpg",
+    "https://m.media-amazon.com/images/I/51YPAiyf1pL.jpg",
+    "https://m.media-amazon.com/images/I/51wp3dQLPlL.jpg",
+    "https://m.media-amazon.com/images/I/414yaSlPx8L.jpg"
+   ],
+   "bullets": [
+    "Habitat Insetticida liquido Multinsetto Inodore a lunga persistenza garantita dalla microincapsulazione che permette il lento rilascio del principio attivo, in erogatore a pompetta (NO GAS)",
+    "Habitat Insetticida liquido Multinsetto è indicato contro scarafaggi, zecche, cimici, pulci, acari, formiche, tarli, mosche e zanzare",
+    "Grazie alla sua formulazione e all'erogatore no gas che consentono di non diffondere il prodotto in aria ma anzi di depositarlo solo dove viene erogato, Zig Zag Habitat Microincapsulato 500 ml può essere applicato in case popolate da bambini e animali domestici",
+    "Rispetta l'ambiente: è un prodotto a base acqua, non contiene solventi organici (ritenuti altamente inquinanti).",
+    "Non usare in ambienti frequentati da felini"
+   ],
+   "themes": [
+    "odourless",
+    "safe_kids_pets",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "odourless": [
+     "T",
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "natural_eco": [
+     "BP"
+    ]
+   },
+   "price": 4.9,
+   "rating": 4.3,
+   "reviews": 2161,
+   "rev30": 5415,
+   "archival": false
+  },
+  {
+   "asin": "B07T9G1PY3",
+   "brand": "BLEULINE",
+   "title": "DEADYNA lt.5 INSETTICIDA LIQUIDO PIRETROIDE CON CIPERMETRINA E TETRAMETRINA DISINFESTAZIONI INSETTI ZANZARE MOSCHE E INSETTI STRISCIANTI",
+   "img": "https://m.media-amazon.com/images/I/41LW2n8AUcL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/41LW2n8AUcL.jpg",
+    "https://m.media-amazon.com/images/I/51+usIX8vIL.jpg",
+    "https://m.media-amazon.com/images/I/71aDYSdU4sL.jpg",
+    "https://m.media-amazon.com/images/I/71iz3fZ5nFL.jpg",
+    "https://m.media-amazon.com/images/I/41LW2n8AUcL.jpg"
+   ],
+   "bullets": [
+    "DEADYNA è un formulato in microemulsione acquosa contenente l’associazione di due piretroidi sintetici, Cipermetrina e Tetrametrina, che conferiscono rispettivamente ottima persistenza e velocissima capacità letale.",
+    "Tanica lt.5 Avvertenze: il colore della confezione può variare (foto meramente indicativa) NB: sulla confezione è riportato il lotto di produzione e NON la data di scadenza: il prodotto ha scadenza 2 anni dalla data di produzione come riportato anche in etichetta prodotto.",
+    "Si usa miscelato in acqua al momento dell’impiego e distribuito con pompe a pressione manuali o atomizzatori a motore.",
+    "Contro insetti volanti e striscianti: zecche, cimice asiatica, insetti volanti quali zanzare, zanzara tigre, mosche, vespe e striscianti quali blatte di grandi dimensioni, formiche, cimice asiatica, zecca."
+   ],
+   "themes": [
+    "wide_spectrum"
+   ],
+   "themeSrc": {
+    "wide_spectrum": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 80.0,
+   "rating": 4.3,
+   "reviews": 69,
+   "rev30": 4930,
+   "archival": false
+  }
+ ],
+ "themes": [
+  {
+   "key": "fast_action",
+   "label": "Szybkie działanie"
+  },
+  {
+   "key": "long_lasting",
+   "label": "Długotrwała ochrona"
+  },
+  {
+   "key": "kills_eliminates",
+   "label": "Zabija / eliminuje"
+  },
+  {
+   "key": "odourless",
+   "label": "Bezzapachowy / niska woń"
+  },
+  {
+   "key": "safe_kids_pets",
+   "label": "Bezpieczny dla dzieci i zwierząt"
+  },
+  {
+   "key": "indoor_outdoor",
+   "label": "Do wnętrz i na zewnątrz"
+  },
+  {
+   "key": "easy_use",
+   "label": "Łatwa aplikacja / gotowy do użycia"
+  },
+  {
+   "key": "wide_spectrum",
+   "label": "Na wiele owadów / szerokie spektrum"
+  },
+  {
+   "key": "barrier_prevent",
+   "label": "Bariera / prewencja"
+  },
+  {
+   "key": "professional",
+   "label": "Klasa profesjonalna"
+  },
+  {
+   "key": "natural_eco",
+   "label": "Naturalny / eko"
+  },
+  {
+   "key": "value_size",
+   "label": "Ekonomiczny / duże opakowanie"
+  }
+ ],
+ "adoption": [
+  {
+   "key": "long_lasting",
+   "label": "Długotrwała ochrona",
+   "count": 8,
+   "pct": 67
+  },
+  {
+   "key": "fast_action",
+   "label": "Szybkie działanie",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "wide_spectrum",
+   "label": "Na wiele owadów / szerokie spektrum",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "kills_eliminates",
+   "label": "Zabija / eliminuje",
+   "count": 5,
+   "pct": 42
+  },
+  {
+   "key": "odourless",
+   "label": "Bezzapachowy / niska woń",
+   "count": 4,
+   "pct": 33
+  },
+  {
+   "key": "barrier_prevent",
+   "label": "Bariera / prewencja",
+   "count": 4,
+   "pct": 33
+  },
+  {
+   "key": "professional",
+   "label": "Klasa profesjonalna",
+   "count": 4,
+   "pct": 33
+  },
+  {
+   "key": "safe_kids_pets",
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "easy_use",
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "natural_eco",
+   "label": "Naturalny / eko",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "indoor_outdoor",
+   "label": "Do wnętrz i na zewnątrz",
+   "count": 2,
+   "pct": 17
+  },
+  {
+   "key": "value_size",
+   "label": "Ekonomiczny / duże opakowanie",
+   "count": 1,
+   "pct": 8
+  }
+ ],
+ "vocGap": [
+  {
+   "vocTopic": "Pułapki nie wabią i nie łapią karaluchów",
+   "vocPct": 33.0,
+   "theme": "Zabija / eliminuje",
+   "addressed": 5,
+   "total": 12,
+   "pct": 42,
+   "sev": "LOW",
+   "brands": [
+    "PROTECT HOME",
+    "WILD SOLUTION",
+    "Baygon",
+    "VAPE"
+   ]
+  },
+  {
+   "vocTopic": "Efekt odstraszania znika po godzinach lub dniach",
+   "vocPct": 24.0,
+   "theme": "Bariera / prewencja",
+   "addressed": 4,
+   "total": 12,
+   "pct": 33,
+   "sev": "LOW",
+   "brands": [
+    "PROTECT HOME",
+    "WILD SOLUTION",
+    "Baygon"
+   ]
+  },
+  {
+   "vocTopic": "Przyszedł pusty, wyciekły lub niekompletny",
+   "vocPct": 13.0,
+   "theme": "Łatwa aplikacja / gotowy do użycia",
+   "addressed": 3,
+   "total": 12,
+   "pct": 25,
+   "sev": "MED",
+   "brands": [
+    "PROTECT HOME",
+    "VAPE"
+   ]
+  },
+  {
+   "vocTopic": "Za mało produktu jak na tę cenę",
+   "vocPct": 13.0,
+   "theme": "Łatwa aplikacja / gotowy do użycia",
+   "addressed": 3,
+   "total": 12,
+   "pct": 25,
+   "sev": "MED",
+   "brands": [
+    "PROTECT HOME",
+    "VAPE"
+   ]
+  },
+  {
+   "vocTopic": "Brakujący lub wyczerpany atraktant",
+   "vocPct": 9.0,
+   "theme": "Bezzapachowy / niska woń",
+   "addressed": 4,
+   "total": 12,
+   "pct": 33,
+   "sev": "LOW",
+   "brands": [
+    "Super Ninja",
+    "vebi",
+    "COPYR",
+    "ZIG - ZAG"
+   ]
+  },
+  {
+   "vocTopic": "Pułapki łapią pożyteczne zwierzęta niedocelowe",
+   "vocPct": 7.0,
+   "theme": "Bezpieczny dla dzieci i zwierząt",
+   "addressed": 3,
+   "total": 12,
+   "pct": 25,
+   "sev": "MED",
+   "brands": [
+    "Super Ninja",
+    "COPYR",
+    "ZIG - ZAG"
+   ]
+  }
+ ],
+ "whitespace": [
+  {
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Naturalny / eko",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Do wnętrz i na zewnątrz",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Ekonomiczny / duże opakowanie",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  }
+ ],
+ "saturation": [
+  {
+   "label": "Długotrwała ochrona",
+   "pct": 67,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Szybkie działanie",
+   "pct": 50,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Na wiele owadów / szerokie spektrum",
+   "pct": 50,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Zabija / eliminuje",
+   "pct": 42,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Bezzapachowy / niska woń",
+   "pct": 33,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Bariera / prewencja",
+   "pct": 33,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Klasa profesjonalna",
+   "pct": 33,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Naturalny / eko",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Do wnętrz i na zewnątrz",
+   "pct": 17,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Ekonomiczny / duże opakowanie",
+   "pct": 8,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  }
+ ],
+ "recs": [
+  {
+   "type": "Pozycjonowanie",
+   "finding": "Nisko wysycone claimy: Bezpieczny dla dzieci i zwierząt, Łatwa aplikacja / gotowy do użycia, Naturalny / eko, Do wnętrz i na zewnątrz.",
+   "impl": "Jeśli produkt spełnia te cechy - wyeksponuj je; konkurencja tego nie robi."
+  }
+ ]
+}

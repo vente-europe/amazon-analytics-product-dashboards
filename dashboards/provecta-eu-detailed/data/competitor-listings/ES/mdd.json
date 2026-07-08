@@ -1,0 +1,796 @@
+{
+ "totalCompetitors": 12,
+ "marketplace": "amazon.es",
+ "avgClaims": 3.2,
+ "competitors": [
+  {
+   "asin": "B08D246QL2",
+   "brand": "Catchmaster",
+   "title": "Catchmaster 100i – Trampas para Cucarachas 30 Piezas – Trampas Cucarachas Adhesivas de máxima Calidad – Sin Veneno ni Biocidas – Seguras para Niños y Mascotas – Adhesivo Natural",
+   "img": "https://m.media-amazon.com/images/I/71krquFNMmL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71krquFNMmL.jpg",
+    "https://m.media-amazon.com/images/I/814rKUGQYML.jpg",
+    "https://m.media-amazon.com/images/I/81yLbE3ZArL.jpg",
+    "https://m.media-amazon.com/images/I/81-3ov2+yPL.jpg",
+    "https://m.media-amazon.com/images/I/81+cyTeLr0L.jpg",
+    "https://m.media-amazon.com/images/I/71SXzicuTkL.jpg",
+    "https://m.media-amazon.com/images/I/71Exx1Jn4vL.jpg",
+    "https://m.media-amazon.com/images/I/71jQ-z1o-ML.jpg"
+   ],
+   "bullets": [
+    "🌱 TRAMPA ADHESIVA SIN TOXINAS NI BIOCIDAS - Con cebo en la superficie adhesiva y más atractiva que otras trampas cucarachas. Instálate en tu propia casa sin preocupaciones y duerme tranquilo.",
+    "✅ FÁCIL DE USAR - Basta con arrancar según las instrucciones, doblar y colocar. Atrapa rápida y fácilmente las cucarachas profesional. Sin veneno, sin riesgo para la familia.",
+    "⚡️UNIVERSAL - Utilizando diferentes cebos como jamón, salchichas, frutos secos y fruta, se pueden capturar diversas plagas e insectos con la misma trampa.",
+    "🇺🇸 FABRICADO EN LOS EE.UU.: Las trampas para cucarachas Catchmaster 100i fue diseñada para profesionales y ahora está disponible para usted. Hecho de cartón duradero y sin pesticidas.",
+    "⭐️ MEJOR SERVICIO AL CLIENTE - Siempre estamos disponibles en español para cualquier pregunta. Con una gran experiencia en el control de plagas, estaremos encantados de ayudarle."
+   ],
+   "themes": [
+    "safe_kids_pets",
+    "easy_use",
+    "wide_spectrum",
+    "professional",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "easy_use": [
+     "BP"
+    ],
+    "wide_spectrum": [
+     "BP"
+    ],
+    "natural_eco": [
+     "T"
+    ],
+    "professional": [
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "T"
+    ]
+   },
+   "price": 17.99,
+   "rating": 4.4,
+   "reviews": 3964,
+   "rev30": 37617,
+   "archival": false
+  },
+  {
+   "asin": "B08CC9JM62",
+   "brand": "ECOGEL",
+   "title": "NOVAR ECOGEL Jeringuilla contra cucarachas | Eficacia Profesional| Elimina 50 cucarachas con una Sola Gota, insectos | 10 gr Ecopack",
+   "img": "https://m.media-amazon.com/images/I/71ZXi9cMK2L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71ZXi9cMK2L.jpg",
+    "https://m.media-amazon.com/images/I/71pHr6gd3GL.jpg",
+    "https://m.media-amazon.com/images/I/71Bn5+NWsRL.jpg",
+    "https://m.media-amazon.com/images/I/71Tyhjv-oKL.jpg"
+   ],
+   "bullets": [
+    "Sistema De Jeringa Para Cucarachas Novar 4300 Ecogel Con Cebo Insecticida En Forma De Gel",
+    "Marca: Ecogel",
+    "Tipo de producto: pesticida"
+   ],
+   "themes": [
+    "kills_eliminates",
+    "professional"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "T"
+    ],
+    "professional": [
+     "T"
+    ]
+   },
+   "price": 7.3,
+   "rating": 4.5,
+   "reviews": 4015,
+   "rev30": 14303,
+   "archival": false
+  },
+  {
+   "asin": "B0FN11ZG3X",
+   "brand": "REPELIX ARMOUR",
+   "title": "REPELIX ARMOUR Repelente ultrasónico de plagas para Interiores – Pack de 2 – Cubre 140m² por Dispositivo – 3 Modos – Repele Ratones, Ratas, arañas, Mosquitos, Hormigas, Insectos y Moscas",
+   "img": "https://m.media-amazon.com/images/I/71n+ft6fvbL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71n+ft6fvbL.jpg",
+    "https://m.media-amazon.com/images/I/81EiFJpCamL.jpg",
+    "https://m.media-amazon.com/images/I/71hf-r+XDfL.jpg",
+    "https://m.media-amazon.com/images/I/81IwjjdeokL.jpg",
+    "https://m.media-amazon.com/images/I/81XOChccdJL.jpg",
+    "https://m.media-amazon.com/images/I/81YxnvusdXL.jpg",
+    "https://m.media-amazon.com/images/I/81CCSLUFY2L.jpg"
+   ],
+   "bullets": [
+    "✅ SOLUCIÓN ECONÓMICA: ¿Problemas con ratones, ratas o insectos? Este repelente ultrasónico de plagas es una solución segura y sin químicos contra ratones, roedores e insectos para enchufar. Proteja su hogar sin toxinas ni costosos servicios de control de plagas – inofensivo para humanos y mascotas.",
+    "❗ NOTA SOBRE LA SENSIBILIDAD AL SONIDO: Las frecuencias ultrasónicas suelen ser inaudibles para la mayoría de las personas y mascotas. Sin embargo, quienes tienen un oído más sensible pueden notar el sonido, incluso en el modo 1 (el más silencioso). Si el sonido le resulta molesto, intente cambiar a un modo inferior o colocar el dispositivo más lejos de las zonas donde pase tiempo o en otro enchufe.",
+    "✅ PROTECCIÓN INTERIOR: Cada dispositivo cubre 80–140 metros cuadrados, protegiendo dormitorios, cocinas, salones o sótanos. Actuando como repelente de arañas, repelente de moscas interior y repelente de mosquitos enchufable, protege contra hormigas, moscas, cucarachas, mosquitos y más. Use un dispositivo por habitación.",
+    "✅ CÓMO FUNCIONA: Con tres modos de funcionamiento, el dispositivo se adapta a sus necesidades. En la primera semana, las plagas pueden parecer más activas al estar perturbadas, pero en 2–4 semanas verá una clara reducción de roedores, arañas y otros insectos.",
+    "✅ PROMESA DE FELICIDAD 100 %: Respaldado por nuestra garantía: si no queda completamente satisfecho, le reembolsamos de inmediato el precio total de su compra."
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "safe_kids_pets",
+    "indoor_outdoor",
+    "barrier_prevent"
+   ],
+   "themeSrc": {
+    "fast_action": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "T",
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "barrier_prevent": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 36.99,
+   "rating": 4.2,
+   "reviews": 694,
+   "rev30": 14001,
+   "archival": false
+  },
+  {
+   "asin": "B08F7JHXJX",
+   "brand": "Catchmaster",
+   "title": "Catchmaster 100i – Trampas para Cucarachas 300 Piezas – Adhesivas sin Veneno ni Biocidas – Seguras para Niños y Mascotas – Adhesivo Natural",
+   "img": "https://m.media-amazon.com/images/I/81fsy5qbpHL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/81fsy5qbpHL.jpg",
+    "https://m.media-amazon.com/images/I/81yLrwAW6UL.jpg",
+    "https://m.media-amazon.com/images/I/81cKInY9ceL.jpg",
+    "https://m.media-amazon.com/images/I/81rOlNAvKCL.jpg",
+    "https://m.media-amazon.com/images/I/81qqXlzCwML.jpg",
+    "https://m.media-amazon.com/images/I/710xkRukHnL.jpg",
+    "https://m.media-amazon.com/images/I/81Gp4owKZgL.jpg",
+    "https://m.media-amazon.com/images/I/71jQ-z1o-ML.jpg"
+   ],
+   "bullets": [
+    "🌱 TRAMPA ADHESIVA SIN TOXINAS NI BIOCIDAS - Con cebo en la superficie adhesiva y más atractiva que otras trampas. Instálate en tu propia casa sin preocupaciones y duerme tranquilo.",
+    "✅ FÁCIL DE USAR - Basta con arrancar según las instrucciones, doblar y colocar. Atrapa rápida y fácilmente las cucarachas. Sin veneno, sin riesgo para la familia.",
+    "⚡️ UNIVERSAL - Utilizando diferentes cebos como jamón, salchichas, frutos secos y fruta, se pueden capturar diversas plagas e insectos con la misma trampa.",
+    "🇺🇸 FABRICADO EN LOS EE.UU.: La trampa pegajosa para cucarachas Catchmaster 100i fue diseñada para profesionales y ahora está disponible para usted. Hecho de cartón duradero y sin pesticidas.",
+    "⭐️ MEJOR SERVICIO AL CLIENTE - Siempre estamos disponibles en español para cualquier pregunta. Con una gran experiencia en el control de plagas, estaremos encantados de ayudarle."
+   ],
+   "themes": [
+    "safe_kids_pets",
+    "easy_use",
+    "wide_spectrum",
+    "professional",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "easy_use": [
+     "BP"
+    ],
+    "wide_spectrum": [
+     "BP"
+    ],
+    "natural_eco": [
+     "T"
+    ],
+    "professional": [
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "T"
+    ]
+   },
+   "price": 139.0,
+   "rating": 4.4,
+   "reviews": 3964,
+   "rev30": 12591,
+   "archival": false
+  },
+  {
+   "asin": "B00J4JNBBI",
+   "brand": "Preben",
+   "title": "Preben 230080 Laca insecticida Rastreros, Transparente, 6.5x29.5x6.5 cm, El embalaje puede variar",
+   "img": "https://m.media-amazon.com/images/I/61mnxWt00ML.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61mnxWt00ML.jpg"
+   ],
+   "bullets": [
+    "Efecto inmediato",
+    "Duración prolongada",
+    "Aerosol fácil de usar",
+    "Uso en interior y exterior"
+   ],
+   "themes": [
+    "fast_action",
+    "indoor_outdoor",
+    "easy_use",
+    "wide_spectrum"
+   ],
+   "themeSrc": {
+    "indoor_outdoor": [
+     "BP"
+    ],
+    "easy_use": [
+     "BP"
+    ],
+    "wide_spectrum": [
+     "T"
+    ],
+    "fast_action": [
+     "BP"
+    ]
+   },
+   "price": 11.0,
+   "rating": 4.5,
+   "reviews": 1532,
+   "rev30": 9481,
+   "archival": false
+  },
+  {
+   "asin": "B0FG3492FM",
+   "brand": "Remi Hogar",
+   "title": "Remi Hogar Insecticida Concentrado CYP 10 PLUS | 9,3% Cipermetrina | Cucarachas, Hormigas, Mosquitos, Arañas, Pulgas, Garrapatas | Ácaro Rojo | Insectos Voladores y Rastreros | Uso Exterior | 250 ml",
+   "img": "https://m.media-amazon.com/images/I/41j1a40F4XL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/41j1a40F4XL.jpg",
+    "https://m.media-amazon.com/images/I/61wljcs8R8L.jpg",
+    "https://m.media-amazon.com/images/I/61EoY3jK9QL.jpg",
+    "https://m.media-amazon.com/images/I/61XSPYyP2lL.jpg",
+    "https://m.media-amazon.com/images/I/61AaUA1HvsL.jpg",
+    "https://m.media-amazon.com/images/I/61-iiHxfoIL.jpg",
+    "https://m.media-amazon.com/images/I/61hrfWGzcNL.jpg",
+    "https://m.media-amazon.com/images/I/61cSyWtsDhL.jpg"
+   ],
+   "bullets": [
+    "Alta eficacia con cipermetrina 9,3%: elimina insectos voladores y rastreros desde la primera aplicación.",
+    "Amplio espectro de acción: combate cucarachas, mosquitos, pulgas, garrapatas, ácaros y más.",
+    "Uso exterior profesional: perfecto para jardines, patios, terrazas y áreas ganaderas.",
+    "Fácil de aplicar: diluir en agua y pulverizar en suelos, paredes, plantas o techos.",
+    "Efecto duradero: hasta 5 semanas de protección activa contra plagas.",
+    "Seguro tras secado: no daña plantas ni supone riesgo para animales domésticos."
+   ],
+   "themes": [
+    "long_lasting",
+    "kills_eliminates",
+    "indoor_outdoor",
+    "wide_spectrum",
+    "professional"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "wide_spectrum": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "T",
+     "BP"
+    ],
+    "professional": [
+     "BP"
+    ]
+   },
+   "price": 20.88,
+   "rating": 4.1,
+   "reviews": 53,
+   "rev30": 5965,
+   "archival": false
+  },
+  {
+   "asin": "B0F7RVDH9C",
+   "brand": "Novokill",
+   "title": "Novokill Roach Gel PRO 2x10g – Gel mata Cucarachas con Jeringuilla – Anticucarachas para eliminar Plaga – Acción Prolongada hasta 4 Semanas",
+   "img": "https://m.media-amazon.com/images/I/71dbcAJr1pL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71dbcAJr1pL.jpg",
+    "https://m.media-amazon.com/images/I/81UsmUMcxkL.jpg",
+    "https://m.media-amazon.com/images/I/71Yv18JKFDL.jpg",
+    "https://m.media-amazon.com/images/I/71ZD58mRcaL.jpg",
+    "https://m.media-amazon.com/images/I/71cYfsEz6GL.jpg",
+    "https://m.media-amazon.com/images/I/81mn8KYMczL.jpg",
+    "https://m.media-amazon.com/images/I/81wW9Q43ngL.jpg",
+    "https://m.media-amazon.com/images/I/71PZM9sOVjL.jpg"
+   ],
+   "bullets": [
+    "EFICACIA INMEDIATA – Este gel cucarachas actúa con efecto retardado: las cucarachas lo llevan al nido, eliminando eficazmente la colonia desde dentro.",
+    "ACCIÓN DURADERA GARANTIZADA – El gel mata cucarachas mantiene su eficacia hasta 4 semanas. Para infestaciones persistentes, repetir el tratamiento tras 4 semanas.",
+    "APLICACIÓN PRECISA – La jeringuilla cucarachas permite aplicar el gel fácilmente en grietas, rincones o detrás de electrodomésticos sin desperdicio de producto.",
+    "FORMULACIÓN POTENTE – Contiene Bitrex. Ideal para uso doméstico. Solución cucarachas perfecta para cocinas, baños y zonas difíciles. El gel se adhiere a superficies horizontales y verticales.",
+    "Nº de autorización ES/APP(NA)-2017-18-00449 Utilice los biocidas de forma segura. Lea siempre la etiqueta y la información sobre el biocida antes de usarlo."
+   ],
+   "themes": [
+    "long_lasting",
+    "kills_eliminates"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 17.99,
+   "rating": 4.5,
+   "reviews": 62,
+   "rev30": 5950,
+   "archival": false
+  },
+  {
+   "asin": "B0DQDHVJHW",
+   "brand": "VITALX",
+   "title": "VITALX® SÚPER Pack de 51 Piezas TRAMPAS CUCARACHAS + Olor a Cereza | Trampa ULTRADHESIVA | Anti Cucarachas | Lo Mejor para Eliminar Cucarachas | Trampa Insectos Profesional | Anti Insectos",
+   "img": "https://m.media-amazon.com/images/I/71HOaa2tw1L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71HOaa2tw1L.jpg",
+    "https://m.media-amazon.com/images/I/61sYD+BmiYL.jpg",
+    "https://m.media-amazon.com/images/I/71+U806twoL.jpg",
+    "https://m.media-amazon.com/images/I/71m3X2PfBnL.jpg",
+    "https://m.media-amazon.com/images/I/61Q-b5X5eHL.jpg",
+    "https://m.media-amazon.com/images/I/71iA8Ks3WvL.jpg"
+   ],
+   "bullets": [
+    "✅ TRAMPAS CUCARACHAS | NO TÓXICO: Sin químicos agresivos, venenos ni ácido bórico, estas trampas para cucarachas son seguras para tu familia y mascotas. Proporcionan un método limpio y eficaz para controlar plagas sin comprometer la salud de los tuyos.",
+    "🪳 SÚPER EFICAZ: Con un diseño mejorado un 10% más grande, estas trampas ofrecen mayor capacidad de captura para cucarachas, pececillos de plata y otros insectos pequeños. Ideales para eliminar cucarachas incluso en áreas de difícil acceso.",
+    "📖 FÁCIL DE MONTAR CON INSTRUCCIONES: Incluye un manual práctico que te guía paso a paso para colocar las trampas correctamente, garantizando un control de plagas rápido, sencillo y eficiente sin complicaciones.",
+    "📦 PACK SÚPER COMPLETO: Este set incluye 51 trampas adhesivas, suficientes para cubrir múltiples áreas de tu hogar, como la cocina, baño, desagües o detrás de muebles, ayudándote a mantener cada rincón protegido contra plagas.",
+    "🏠 SEGURO PARA TU HOGAR: Un método efectivo y no invasivo que garantiza espacios libres de cucarachas y otros insectos sin poner en riesgo a tu familia. Perfecto para mantener un ambiente limpio, higiénico y saludable"
+   ],
+   "themes": [
+    "kills_eliminates",
+    "safe_kids_pets",
+    "professional"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "professional": [
+     "T"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ]
+   },
+   "price": 16.99,
+   "rating": 4.4,
+   "reviews": 193,
+   "rev30": 5902,
+   "archival": false
+  },
+  {
+   "asin": "B083BRZ3K9",
+   "brand": "BACTERISAN",
+   "title": "BACTERISAN Cucanor B 750ml | Spray Insecticida de acción fulminante contra todo tipo de insectos rastreros y voladores (hormigas, chinches, pulgas, avispas y especialmente cucarachas).",
+   "img": "https://m.media-amazon.com/images/I/616Faf31ImL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/616Faf31ImL.jpg",
+    "https://m.media-amazon.com/images/I/81Jaw+n4pSL.jpg",
+    "https://m.media-amazon.com/images/I/91PIMhe93mL.jpg",
+    "https://m.media-amazon.com/images/I/81PQK4RjhrL.jpg",
+    "https://m.media-amazon.com/images/I/81kaaiNErJL.jpg"
+   ],
+   "bullets": [
+    "Insecticida listo al uso de amplio espectro que combina la acción de dos insecticidas piretroides de gran actividad, Cipermetrina y Tetrametrina, y el sinergizante Butóxido de Piperonilo.",
+    "Producto autorizado para su uso en tejidos",
+    "Para una eliminación instantánea pulverice sobre los insectos durante 3 - 5 segundos",
+    "No mancha las superficies",
+    "Este producto es Apto para su uso por el público en general. Nº registro: o D.G.S.P.: 17-30-01519. Utilice los biocidas de forma segura. Lea siempre la etiqueta y la información sobre el biocida antes de utilizarlo."
+   ],
+   "themes": [
+    "fast_action",
+    "kills_eliminates",
+    "wide_spectrum"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "wide_spectrum": [
+     "T"
+    ],
+    "fast_action": [
+     "BP"
+    ]
+   },
+   "price": 13.5,
+   "rating": 4.4,
+   "reviews": 441,
+   "rev30": 5047,
+   "archival": false
+  },
+  {
+   "asin": "B00IW8YY8G",
+   "brand": "Cucal",
+   "title": "Cucal Insecticida Trampa Cucarachas Doble Cebo, 6 Unidades",
+   "img": "https://m.media-amazon.com/images/I/71cy9vcPE6L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71cy9vcPE6L.jpg",
+    "https://m.media-amazon.com/images/I/81diKW2Ap4L.jpg",
+    "https://m.media-amazon.com/images/I/71g-N4Oz+hL.jpg",
+    "https://m.media-amazon.com/images/I/81I0VWA2uVL.jpg",
+    "https://m.media-amazon.com/images/I/81TIQWCa9sL.jpg"
+   ],
+   "bullets": [
+    "Cucal Insecticida trampa para cucarachas con doble cebo proporciona seguridad y tranquilidad para tu hogar",
+    "La trampa doble cebo contra cucarachas de Cucal contiene un atrayente alimenticio con insecticida que elimina por completo las cucarachas",
+    "La nueva fórmula de la trampa de doble cebo contra cucarachas de Cucal mantiene su eficacia del primer al último día durante 3 meses",
+    "Proporciona un efecto dominó que erradica la colonia y el nido con la trampa de doble cebo contra cucarachas de Cucal",
+    "La trampa de doble cebo contra cucarachas de Cucal está registrada en el Ministerio de Sanidad"
+   ],
+   "themes": [
+    "long_lasting",
+    "kills_eliminates"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ]
+   },
+   "price": 5.25,
+   "rating": 4.3,
+   "reviews": 1085,
+   "rev30": 4917,
+   "archival": false
+  },
+  {
+   "asin": "B09BDF1KRD",
+   "brand": "ECOGEL",
+   "title": "NOVAR ECOGEL Jeringuilla contra cucarachas | Eficacia Profesional| Elimina 50 cucarachas con una Sola Gota, insectos | 10 gr Ecopack (ECOGEL)",
+   "img": "https://m.media-amazon.com/images/I/71tik+k0fFL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71tik+k0fFL.jpg",
+    "https://m.media-amazon.com/images/I/71pHr6gd3GL.jpg",
+    "https://m.media-amazon.com/images/I/71Bn5+NWsRL.jpg",
+    "https://m.media-amazon.com/images/I/81nA1L9qUDL.jpg",
+    "https://m.media-amazon.com/images/I/71UbfQrAHlL.jpg",
+    "https://m.media-amazon.com/images/I/71mSVjiFnzL.jpg"
+   ],
+   "bullets": [
+    "Capacidad: 10 gramos. Su preciso sistema aplicador jeringuilla le permite acceder donde no llegan otros cebos. Contiene Bitrex, una sustancia amarga que lo hace inapetente para persona y animales de compañía.",
+    "Ecogel es un práctico y eficaz sistema de erradicación de cucarachas. Cuenta con un sistema de jeringuilla que permite de forma precisa, acceder a cualquier lugar para poder eliminar toda la colonia.",
+    "Ecogel resume un cebo muy sabrosos plástico con enorme fuerza de atracción para todos los tipos de cucarachas.",
+    "Utilice los biocidas con cuidado antes de utilizarlo, leer y información del producto. Producto para uso doméstico, con fórmula profesional.Ecogel Cucarachas es un producto de nueva generación que respeta el medioambiente. Contaminación ambiental = 0",
+    "Ecogel Cucarachas es el sistema más eficaz para eliminar el problema de las cucarachas, ya que contiene un potente cebo fresco en forma de gel insecticida extremadamente apetente y letal para cualquier tipo de cucarachas."
+   ],
+   "themes": [
+    "kills_eliminates",
+    "professional"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "professional": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 7.44,
+   "rating": 4.5,
+   "reviews": 4015,
+   "rev30": 4610,
+   "archival": false
+  },
+  {
+   "asin": "B07T324X7Q",
+   "brand": "PROTECT HOME",
+   "title": "Protect Home - Insecticida Descarga Total, automático, antiguo Solfac, 150ml (Pack 6 unidades)",
+   "img": "https://m.media-amazon.com/images/I/81kb1pvS3kL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/81kb1pvS3kL.jpg"
+   ],
+   "bullets": [
+    "Eficaz frente a insectos rastreros y voladores"
+   ],
+   "themes": [
+    "wide_spectrum"
+   ],
+   "themeSrc": {
+    "wide_spectrum": [
+     "BP"
+    ]
+   },
+   "price": 39.99,
+   "rating": 4.0,
+   "reviews": 1631,
+   "rev30": 3885,
+   "archival": false
+  }
+ ],
+ "themes": [
+  {
+   "key": "fast_action",
+   "label": "Szybkie działanie"
+  },
+  {
+   "key": "long_lasting",
+   "label": "Długotrwała ochrona"
+  },
+  {
+   "key": "kills_eliminates",
+   "label": "Zabija / eliminuje"
+  },
+  {
+   "key": "safe_kids_pets",
+   "label": "Bezpieczny dla dzieci i zwierząt"
+  },
+  {
+   "key": "indoor_outdoor",
+   "label": "Do wnętrz i na zewnątrz"
+  },
+  {
+   "key": "easy_use",
+   "label": "Łatwa aplikacja / gotowy do użycia"
+  },
+  {
+   "key": "wide_spectrum",
+   "label": "Na wiele owadów / szerokie spektrum"
+  },
+  {
+   "key": "barrier_prevent",
+   "label": "Bariera / prewencja"
+  },
+  {
+   "key": "professional",
+   "label": "Klasa profesjonalna"
+  },
+  {
+   "key": "natural_eco",
+   "label": "Naturalny / eko"
+  }
+ ],
+ "adoption": [
+  {
+   "key": "kills_eliminates",
+   "label": "Zabija / eliminuje",
+   "count": 7,
+   "pct": 58
+  },
+  {
+   "key": "wide_spectrum",
+   "label": "Na wiele owadów / szerokie spektrum",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "professional",
+   "label": "Klasa profesjonalna",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "long_lasting",
+   "label": "Długotrwała ochrona",
+   "count": 4,
+   "pct": 33
+  },
+  {
+   "key": "safe_kids_pets",
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "count": 4,
+   "pct": 33
+  },
+  {
+   "key": "fast_action",
+   "label": "Szybkie działanie",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "indoor_outdoor",
+   "label": "Do wnętrz i na zewnątrz",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "easy_use",
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "natural_eco",
+   "label": "Naturalny / eko",
+   "count": 2,
+   "pct": 17
+  },
+  {
+   "key": "barrier_prevent",
+   "label": "Bariera / prewencja",
+   "count": 1,
+   "pct": 8
+  }
+ ],
+ "vocGap": [
+  {
+   "vocTopic": "Brak połowu: szkodniki ignorują lub opuszczają pułapkę",
+   "vocPct": 37.0,
+   "theme": "",
+   "addressed": 0,
+   "total": 12,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
+  },
+  {
+   "vocTopic": "Żel lub spray nie zabija i nie ogranicza plagi",
+   "vocPct": 24.0,
+   "theme": "Zabija / eliminuje",
+   "addressed": 7,
+   "total": 12,
+   "pct": 58,
+   "sev": "LOW",
+   "brands": [
+    "ECOGEL",
+    "Remi Hogar",
+    "Novokill",
+    "VITALX",
+    "BACTERISAN"
+   ]
+  },
+  {
+   "vocTopic": "Efekt znika po kilku dniach, wbrew reklamie",
+   "vocPct": 14.0,
+   "theme": "Długotrwała ochrona",
+   "addressed": 4,
+   "total": 12,
+   "pct": 33,
+   "sev": "LOW",
+   "brands": [
+    "REPELIX ARMOUR",
+    "Remi Hogar",
+    "Novokill",
+    "Cucal"
+   ]
+  },
+  {
+   "vocTopic": "Klejący bałagan i uciążliwe składanie",
+   "vocPct": 10.0,
+   "theme": "Łatwa aplikacja / gotowy do użycia",
+   "addressed": 3,
+   "total": 12,
+   "pct": 25,
+   "sev": "MED",
+   "brands": [
+    "Catchmaster",
+    "Preben"
+   ]
+  },
+  {
+   "vocTopic": "Nieprzyjemny zapach w domu",
+   "vocPct": 9.0,
+   "theme": "Bezzapachowy / niska woń",
+   "addressed": 0,
+   "total": 12,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
+  },
+  {
+   "vocTopic": "Pułapki łapią pożyteczne zwierzęta",
+   "vocPct": 7.0,
+   "theme": "Bezpieczny dla dzieci i zwierząt",
+   "addressed": 4,
+   "total": 12,
+   "pct": 33,
+   "sev": "LOW",
+   "brands": [
+    "Catchmaster",
+    "REPELIX ARMOUR",
+    "VITALX"
+   ]
+  }
+ ],
+ "whitespace": [
+  {
+   "label": "Szybkie działanie",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Do wnętrz i na zewnątrz",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Naturalny / eko",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Bariera / prewencja",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  }
+ ],
+ "saturation": [
+  {
+   "label": "Zabija / eliminuje",
+   "pct": 58,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Na wiele owadów / szerokie spektrum",
+   "pct": 50,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Klasa profesjonalna",
+   "pct": 50,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Długotrwała ochrona",
+   "pct": 33,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "pct": 33,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Szybkie działanie",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Do wnętrz i na zewnątrz",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Naturalny / eko",
+   "pct": 17,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Bariera / prewencja",
+   "pct": 8,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  }
+ ],
+ "recs": [
+  {
+   "type": "Messaging",
+   "finding": "Negatywy VOC dotyczą: Brak połowu: szkodniki ignorują lub opuszczają pułapkę, Nieprzyjemny zapach w domu - a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "impl": "Zaadresuj te obawy wprost w tytule i bulletach - natychmiastowa przewaga komunikacyjna."
+  },
+  {
+   "type": "Pozycjonowanie",
+   "finding": "Nisko wysycone claimy: Szybkie działanie, Do wnętrz i na zewnątrz, Łatwa aplikacja / gotowy do użycia, Naturalny / eko.",
+   "impl": "Jeśli produkt spełnia te cechy - wyeksponuj je; konkurencja tego nie robi."
+  }
+ ]
+}

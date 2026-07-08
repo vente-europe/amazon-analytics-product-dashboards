@@ -1,0 +1,883 @@
+{
+ "totalCompetitors": 12,
+ "marketplace": "amazon.fr",
+ "avgClaims": 3.8,
+ "competitors": [
+  {
+   "asin": "B0CGDWW6BX",
+   "brand": "ATAQ",
+   "title": "ATAQ - Gel Appât 10g Anti Cafards Puissant Professionnelle - Blattes - Insecticide - Éradicateur Efficace - Élimine Rapidement les Cafards – Formule professionnelle - résultat rapide",
+   "img": "https://m.media-amazon.com/images/I/61Sj-5wYLeL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61Sj-5wYLeL.jpg",
+    "https://m.media-amazon.com/images/I/81OHLNhPhlL.jpg",
+    "https://m.media-amazon.com/images/I/81jBvTUJbeL.jpg",
+    "https://m.media-amazon.com/images/I/81kapg-5XdL.jpg",
+    "https://m.media-amazon.com/images/I/81QGTMEQm6L.jpg",
+    "https://m.media-amazon.com/images/I/81lzglz3dOL.jpg",
+    "https://m.media-amazon.com/images/I/811lo5OaSBL.jpg",
+    "https://m.media-amazon.com/images/I/71HiBOqLONL.jpg"
+   ],
+   "bullets": [
+    "✅ ULTRA EFFICACE : Solution radicale dans la lutte contre les cafards et blattes. La seringue de gel ATAQ 10g est prête à l’emploi. Sa formule professionnelle et innovante est drastique: Une seule application suffit!",
+    "✅ UTILISATION FACILE: grâce à son applicateur, le gel peut s’appliquer dans toutes les zones difficilement accessibles(les cafards aiment se réfugier dans les endroits/ interstices sombres et humides). Grâce au poussoir intégré vous contrôlez la quantité à appliquer.",
+    "✅TRAITEMENT PUISSANT ET DURABLE : le gel anti cafard ATAQ a été spécialement conçu pour éliminer toute la colonie à tous les stades de développement et éviter ainsi de nouvelles infestations. Il agit comme appât pour attirer les cafards qui contamineront les autres.",
+    "✅USAGE DOMESTIQUE: Sans odeur et non nocif pour nos amis les animaux ( chiens , chats …), le gel ATAQ est sans danger pour vos compagnons domestiques.Il a été conçu pour un usage en intérieur et en extérieur.",
+    "✅ PRODUIT GARANTI : ATAQ est une marque française. Les produits de la marque ATAQ sont fabriqués en Europe , sont testés en laboratoire et leur efficacité est prouvée. Nous restons à votre disposition pour toute question ou information sur l’usage du produit.",
+    "✅ Attention : Utiliser les produits biocides avec précaution. Avant toute utilisation, lisez l'étiquette et les informations sur le produit.",
+    "✅ CONSEIL D'UTILISATION : Appliquer quelques gouttes de gel spécifiquement dans les crevasses, crevasses et zones à traiter. Bien refermer le produit après utilisation."
+   ],
+   "themes": [
+    "fast_action",
+    "kills_eliminates",
+    "odourless",
+    "safe_kids_pets",
+    "indoor_outdoor",
+    "professional"
+   ],
+   "themeSrc": {
+    "professional": [
+     "T",
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "fast_action": [
+     "T"
+    ],
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "odourless": [
+     "BP"
+    ]
+   },
+   "price": 16.99,
+   "rating": 4.3,
+   "reviews": 904,
+   "rev30": 33836,
+   "archival": false
+  },
+  {
+   "asin": "B01JYS4W2K",
+   "brand": "Beaphar",
+   "title": "Beaphar – Spray & Diffuseur Automatique Insecticide Habitat – Tue Les Insectes Volants, rampants, Les œufs et Larves – Permet de Traiter 80 m² – Action Longue durée jusqu'à 6 Mois – Flacon 250 ML",
+   "img": "https://m.media-amazon.com/images/I/61qkvQ6zfOL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61qkvQ6zfOL.jpg"
+   ],
+   "bullets": [
+    "MAISON SANS PARASTITES : Perméthrine, Butoxyde de Pipéronyle, (S)-Méthoprène et Géraniol tuent et repoussent les insectes volants et rampants, les œufs et les larves dans la maison ou la voiture.",
+    "ACTION LONGUE DURÉE : Combinant l'utilisation manuelle et la diffusion automatique, ce Spray et Diffuseur permet de traiter une surface de 80 m². Efficace immédiatement, et jusqu'à 6 mois.",
+    "UTILISATION : Vaporisez le produit comme un spray classique ou enclenchez la diffusion automatique en pressant la languette jusqu'à ce qu'elle reste bloquée. Sortez 3h avant d'aérer la pièce traitée.",
+    "COMPOSITION : La Perméthrine tue les insectes immédiatement, le Butoxyde de Pipéronyle augmente son action, le (S)-Méthoprène bloque la croissance des œufs et larves, Géraniol a vertus insecticides",
+    "NOS ANIMAUX SONT AUSSI NOTRE FAMILLE : Pour préserver le bien-être de nos compagnons, Beaphar donne accès à des soins et des produits de qualité à prix abordables à tous les propriétaires d’animaux."
+   ],
+   "themes": [
+    "long_lasting",
+    "wide_spectrum"
+   ],
+   "themeSrc": {
+    "wide_spectrum": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 13.49,
+   "rating": 4.3,
+   "reviews": 9334,
+   "rev30": 17978,
+   "archival": false
+  },
+  {
+   "asin": "B0DPM4CTD5",
+   "brand": "FEBCAT Catch",
+   "title": "Lot de 48 Pièges à Cafards, Produit Anti Cafard Vert, Attrape-Cafards Efficace Contre Les Cafards",
+   "img": "https://m.media-amazon.com/images/I/81i1jKkXPGL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/81i1jKkXPGL.jpg",
+    "https://m.media-amazon.com/images/I/71zLQBedECL.jpg",
+    "https://m.media-amazon.com/images/I/71Ses7anldL.jpg",
+    "https://m.media-amazon.com/images/I/7100gbIFHRL.jpg",
+    "https://m.media-amazon.com/images/I/71BcXeradwL.jpg",
+    "https://m.media-amazon.com/images/I/71UCR5b0aDL.jpg",
+    "https://m.media-amazon.com/images/I/71bFc-IzeTL.jpg"
+   ],
+   "bullets": [
+    "Écologique et sans danger:Fabriqué en carton imprimé coloré avec colle anti-cafards ultra-puissante, ce piège utilise une méthode 100% physique, sans produits chimiques toxiques. Idéal pour les maisons avec enfants ou animaux",
+    "Adhésif haute performance:La colle spéciale non-sèche capture immédiatement les cafards dès leur contact avec la surface, empêchant toute évasion grâce à sa puissance durable",
+    "Utilisation simplissime:Dépliez le piège prêt-à-utiliser et placez-le dans les zones stratégiques (cuisine, salle de bain, placards). Aucune préparation ni appât requis",
+    "Design discret et ludique:Les motifs cartoonesques verts atténuent l'aspect désagréable des pièges classiques tout en attirant les cafards par leurs contrastes visuels",
+    "Économique et polyvalent:Lot de 48 plaques Pièges à Cafards pour une protection longue durée. Adapté aux habitations, restaurants, ou entrepôts nécessitant une solution anti-nuisibles fiable"
+   ],
+   "themes": [
+    "long_lasting",
+    "safe_kids_pets",
+    "value_size"
+   ],
+   "themeSrc": {
+    "value_size": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ]
+   },
+   "price": 18.49,
+   "rating": 4.2,
+   "reviews": 448,
+   "rev30": 13877,
+   "archival": false
+  },
+  {
+   "asin": "B00BH1O3HM",
+   "brand": "Beaphar",
+   "title": "Beaphar – Mini-diffuseur Automatique Insecticide Habitat – Tue Les Insectes Volants, rampants, Les œufs et Larves – Permet de Traiter 25 m² – Action Longue durée jusqu'à 6 Mois – Flacon 75 ML",
+   "img": "https://m.media-amazon.com/images/I/71A6Sy1NHdL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71A6Sy1NHdL.jpg"
+   ],
+   "bullets": [
+    "MAISON SANS PARASTITES : Perméthrine, Butoxyde de Pipéronyle, (S)-Méthoprène et Géraniol tuent et repoussent les insectes volants et rampants, les œufs et les larves dans la maison ou la voiture.",
+    "ACTION LONGUE DURÉE : Ce mini-diffuseur automatique Habitat permet de traiter une surface de 25 m². Efficace immédiatement, l'action répulsive de ce fogger se prolonge jusqu'à 6 mois.",
+    "CONSEILS D'UTILISATION : Enclenchez la diffusion automatique du diffuseur en pressant la languette jusqu'à ce qu'elle reste bloquée. Sortez et attendez 3h avant d'aérer la pièce traitée.",
+    "COMPOSITION : La Perméthrine tue les insectes immédiatement, le Butoxyde de Pipéronyle augmente son action, le (S)-Méthoprène bloque la croissance des œufs et larves, Géraniol a vertus insecticides",
+    "NOS ANIMAUX SONT AUSSI NOTRE FAMILLE : Pour préserver le bien-être de nos compagnons, Beaphar donne accès à des soins et des produits de qualité à prix abordables à tous les propriétaires d’animaux."
+   ],
+   "themes": [
+    "long_lasting",
+    "wide_spectrum"
+   ],
+   "themeSrc": {
+    "wide_spectrum": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 8.79,
+   "rating": 4.3,
+   "reviews": 9334,
+   "rev30": 9879,
+   "archival": false
+  },
+  {
+   "asin": "B0CHBJC1KZ",
+   "brand": "ATAQ",
+   "title": "ATAQ - Pack de 2 Gel Appât 10g Anti Cafards Puissant Professionnelle - Blattes - Insecticide - Éradicateur Efficace - Élimine Rapidement les Cafards – Formule professionnelle - résultat rapide",
+   "img": "https://m.media-amazon.com/images/I/51yEQHAVDbL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51yEQHAVDbL.jpg",
+    "https://m.media-amazon.com/images/I/81OHLNhPhlL.jpg",
+    "https://m.media-amazon.com/images/I/81jBvTUJbeL.jpg",
+    "https://m.media-amazon.com/images/I/81kapg-5XdL.jpg",
+    "https://m.media-amazon.com/images/I/81QGTMEQm6L.jpg",
+    "https://m.media-amazon.com/images/I/81lzglz3dOL.jpg",
+    "https://m.media-amazon.com/images/I/811lo5OaSBL.jpg",
+    "https://m.media-amazon.com/images/I/71HiBOqLONL.jpg"
+   ],
+   "bullets": [
+    "✅ ULTRA EFFICACE : Solution radicale dans la lutte contre les cafards et blattes. La seringue de gel ATAQ 10g est prête à l’emploi. Sa formule professionnelle et innovante est drastique: Une seule application suffit!",
+    "✅ UTILISATION FACILE: grâce à son applicateur, le gel peut s’appliquer dans toutes les zones difficilement accessibles(les cafards aiment se réfugier dans les endroits/ interstices sombres et humides). Grâce au poussoir intégré vous contrôlez la quantité à appliquer.",
+    "✅TRAITEMENT PUISSANT ET DURABLE : le gel anti cafard ATAQ a été spécialement conçu pour éliminer toute la colonie à tous les stades de développement et éviter ainsi de nouvelles infestations. Il agit comme appât pour attirer les cafards qui contamineront les autres.",
+    "✅USAGE DOMESTIQUE: Sans odeur et non nocif pour nos amis les animaux ( chiens , chats …), le gel ATAQ est sans danger pour vos compagnons domestiques.Il a été conçu pour un usage en intérieur et en extérieur.",
+    "✅ PRODUIT GARANTI : ATAQ est une marque française. Les produits de la marque ATAQ sont fabriqués en Europe , sont testés en laboratoire et leur efficacité est prouvée. Nous restons à votre disposition pour toute question ou information sur l’usage du produit.",
+    "✅ Attention : Utiliser les produits biocides avec précaution. Avant toute utilisation, lisez l'étiquette et les informations sur le produit.",
+    "✅ CONSEIL D'UTILISATION : Appliquer quelques gouttes de gel spécifiquement dans les crevasses, crevasses et zones à traiter. Bien refermer le produit après utilisation."
+   ],
+   "themes": [
+    "fast_action",
+    "kills_eliminates",
+    "odourless",
+    "safe_kids_pets",
+    "indoor_outdoor",
+    "professional"
+   ],
+   "themeSrc": {
+    "professional": [
+     "T",
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "BP"
+    ],
+    "safe_kids_pets": [
+     "BP"
+    ],
+    "fast_action": [
+     "T"
+    ],
+    "kills_eliminates": [
+     "T",
+     "BP"
+    ],
+    "odourless": [
+     "BP"
+    ]
+   },
+   "price": 25.99,
+   "rating": 4.0,
+   "reviews": 345,
+   "rev30": 9643,
+   "archival": false
+  },
+  {
+   "asin": "B073QPX26L",
+   "brand": "Barrière à Insectes",
+   "title": "BARRIERE A INSECTES Vaporisateur contre les Insectes Rampants, Volants, Acariens, Prêt à l'emploi, 1 L, BARSEC1000N",
+   "img": "https://m.media-amazon.com/images/I/61UZtTO7qjL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61UZtTO7qjL.jpg",
+    "https://m.media-amazon.com/images/I/61Keor47kjL.jpg",
+    "https://m.media-amazon.com/images/I/71PXpOj5OGL.jpg",
+    "https://m.media-amazon.com/images/I/61L3bZdtLNL.jpg",
+    "https://m.media-amazon.com/images/I/61RR7f5QieL.jpg",
+    "https://m.media-amazon.com/images/I/7192uf1OEcL.jpg"
+   ],
+   "bullets": [
+    "Vaporisateur prêt à l’emploi pour une protection de la maison et de ses extérieurs contre l’invasion d’insectes volants (mouches, moustiques, guêpes, taons, punaises, mites…), rampants (araignées, fourmis, poux, puces, cafards, blattes…) et acariens, responsables d’allergies",
+    "Effet barrière efficace: action choc curative et préventive longue durée (jusqu’à 3 mois) grâce à sa formule micro-encapsulée, Odeur résiduelle possible sur la surface traitée",
+    "Utilisable sur la plupart des surfaces : bois, stratifié, PVC, textiles, toile, tissus d’ameublement, matériaux décoratifs brillants ou satinés, sauf sur plexiglas",
+    "Composition : 0,05 % Lambda-Cyhalothrine Micro-encapsulée + 0,01% d-Tétramethrine",
+    "Ne pas pulvériser sur une surface susceptible d’être en contact avec des aliments et boissons y compris ceux pour animaux"
+   ],
+   "themes": [
+    "long_lasting",
+    "indoor_outdoor",
+    "easy_use",
+    "wide_spectrum",
+    "barrier_prevent"
+   ],
+   "themeSrc": {
+    "easy_use": [
+     "T"
+    ],
+    "wide_spectrum": [
+     "T",
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "BP"
+    ],
+    "barrier_prevent": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 7.89,
+   "rating": 0.0,
+   "reviews": 0,
+   "rev30": 9517,
+   "archival": false
+  },
+  {
+   "asin": "B07FQQPTTZ",
+   "brand": "CATCH",
+   "title": "Catch - Gel Anti cafards 10 GR, SERINGUE Insecticide LOT DE 3",
+   "img": "https://m.media-amazon.com/images/I/71XGpcR6bEL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71XGpcR6bEL.jpg",
+    "https://m.media-amazon.com/images/I/61Y5EifZo6L.jpg",
+    "https://m.media-amazon.com/images/I/71B81fOyeAL.jpg"
+   ],
+   "bullets": [
+    "Lot de 2 seringues",
+    "JEMYGINS Cravate Etroite Soie Homme 6cm Taille Medium rouge",
+    "CRAVATE",
+    "[ Multicolore ], Rouge",
+    "m"
+   ],
+   "themes": [
+    "value_size"
+   ],
+   "themeSrc": {
+    "value_size": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 23.99,
+   "rating": 4.4,
+   "reviews": 1437,
+   "rev30": 9494,
+   "archival": false
+  },
+  {
+   "asin": "B06XPL7S67",
+   "brand": "Barrière à Insectes",
+   "title": "BARRIERE A INSECTES Spécial Fourmis et autres rampants, Prêt à l'emploi, 750 ml, BARFOPRET",
+   "img": "https://m.media-amazon.com/images/I/615f8wAjV0L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/615f8wAjV0L.jpg",
+    "https://m.media-amazon.com/images/I/71M0j5kd+nL.jpg",
+    "https://m.media-amazon.com/images/I/61lzJ8TmBSL.jpg",
+    "https://m.media-amazon.com/images/I/61iyWoUTUjL.jpg",
+    "https://m.media-amazon.com/images/I/61HcgQrG9QL.jpg",
+    "https://m.media-amazon.com/images/I/71IBT0l8j8L.jpg"
+   ],
+   "bullets": [
+    "Pulvérisateur prêt à l’emploi pour une protection aux abords de la maison (terrasses et balcons) contre l’invasion de fourmis, cafards, blattes, perce-oreilles, punaises et poissons d’argent",
+    "Effet barrière efficace: action choc curative et préventive longue durée (jusqu’à 3 mois) grâce à sa formule micro-encapsulée, Odeur résiduelle possible sur la surface traitée",
+    "Utilisable sur la plupart des surfaces : bois, stratifié, PVC, textiles, toile, tissus d’ameublement, matériaux décoratifs brillants ou satinés, sauf sur plexiglas",
+    "Utilisation rapide et simple: agiter avant emploi, pulvériser sur lieux de passage d’insectes, (10 pulvérisations par mètre linéaire), placards, poubelles…, Laisser sécher et aérer",
+    "Contenu: 1 x Pulvérisateur anti-fourmis, 750 ml, BARRIERE A INSECTES, Dimensions (L x P x H): 7, 2 x 7, 2 x 26, 5 cm, BARFOPRET"
+   ],
+   "themes": [
+    "fast_action",
+    "long_lasting",
+    "easy_use",
+    "wide_spectrum",
+    "barrier_prevent"
+   ],
+   "themeSrc": {
+    "easy_use": [
+     "T"
+    ],
+    "wide_spectrum": [
+     "T"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "long_lasting": [
+     "BP"
+    ],
+    "barrier_prevent": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 8.9,
+   "rating": 4.4,
+   "reviews": 1397,
+   "rev30": 8910,
+   "archival": false
+  },
+  {
+   "asin": "B07KZG6Y6C",
+   "brand": "K.PRO",
+   "title": "K.PRO Fumigateur spécial infestation tous insectes 10g",
+   "img": "https://m.media-amazon.com/images/I/81pDAJR8O7L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/81pDAJR8O7L.jpg",
+    "https://m.media-amazon.com/images/I/71NdQIW7glL.jpg",
+    "https://m.media-amazon.com/images/I/71xXaG7ypXL.jpg",
+    "https://m.media-amazon.com/images/I/71oHhaOuDVL.jpg",
+    "https://m.media-amazon.com/images/I/718HMJ3Z-fL.jpg",
+    "https://m.media-amazon.com/images/I/71fL74bX0NL.jpg",
+    "https://m.media-amazon.com/images/I/81LX5HJNF+L.jpg"
+   ],
+   "bullets": [
+    "ERADIQUE TOUS LES INSECTES : le fumigateur insecticide K.PRO élimine les insectes volants (guêpes, mouches, mites, moustiques, taons, frelons) et les rampants (cafards, blattes, puces*, punaises de lit*...)",
+    "TRAITE AUSSI LES TEXTILES ET MATERIELS : le fumigateur peut être utilisé pour traiter les bureaux, il est sans risque pour le matériel informatique et électrique. Son action traite également les tissus, moquettes, tapis et vêtements.",
+    "ACTION COMPLETE : la fumée insecticide émise par le fumigateur se répand dans les cavités et orifices grâce à son principe hydro-réactif (sans propulseur, sans combustion). Résultat : une action totale jusque dans les zones peu accessibles",
+    "MODE D'EMPLOI : Fermez portes et fenêtres de la pièce à traiter et ouvrir placards et tiroirs. Versez de l'eau dans le gobelet jusqu'au niveau indiqué. Déposez la capsule au contact de l'eau, face rouge vers le haut.",
+    "K.PRO PROPOSE DES SOLUTIONS ANTI-NUISIBLES EFFICACES POUR LES PARTICULIERS ET LES PROFESSIONNELS. Une expertise française alliant efficacité, sécurité et qualité pour une protection durable de vos espaces."
+   ],
+   "themes": [
+    "kills_eliminates",
+    "wide_spectrum",
+    "professional"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "wide_spectrum": [
+     "T",
+     "BP"
+    ],
+    "professional": [
+     "BP"
+    ]
+   },
+   "price": 30.68,
+   "rating": 3.8,
+   "reviews": 1420,
+   "rev30": 7763,
+   "archival": false
+  },
+  {
+   "asin": "B07FR64ZPR",
+   "brand": "K.PRO",
+   "title": "K.PRO Terre de diatomée 100g",
+   "img": "https://m.media-amazon.com/images/I/71JC883+g1L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71JC883+g1L.jpg",
+    "https://m.media-amazon.com/images/I/71OM6k5njKL.jpg",
+    "https://m.media-amazon.com/images/I/613BUVtLOXL.jpg",
+    "https://m.media-amazon.com/images/I/71HpE8ml2FL.jpg",
+    "https://m.media-amazon.com/images/I/71ZYmH3BwmL.jpg",
+    "https://m.media-amazon.com/images/I/81B5AXXlpHL.jpg",
+    "https://m.media-amazon.com/images/I/81j0sxJ-IQL.jpg"
+   ],
+   "bullets": [
+    "ACTION IMMÉDIATE ET DURABLE : Élimine punaises de lit, fourmis, cafards, blattes et puces dès le contact. Protection continue et efficace. Agit à tous les stades de développement (œufs, larves, adultes) par effet rasoir et déshydratation complète.",
+    "FORMULE 100% NATURELLE : Poudre minérale issue de fossiles d'algues microscopiques. Action mécanique pure sans produits chimiques. Les insectes se couvrent de poudre par leurs mouvements, ce qui entraîne leur dessèchement et leur mort rapide.",
+    "FORMAT PRATIQUE 100G : Pot compact pour traitement ciblé et précis. Traite jusqu'à 100m linéaire, parfait pour petites surfaces ou traitement d'appoint. Application facile dans fissures, pieds de lit, plinthes. Usage curatif ou préventif, intérieur et extérieur.",
+    "MODE D'EMPLOI SIMPLE : Créer une barrière de 1 à 3 cm sur chemins empruntés par insectes (plinthes, entrées, fissures). Utiliser 7g/m linéaire. Pour poux rouges, appliquer dans poulailler vide. Attendre 7 jours minimum entre deux applications.",
+    "K.PRO est une marque française experte de la lutte contre les nuisibles depuis 1964. Elle développe des solutions biocides efficaces et conformes, conçues pour offrir une protection durable des habitations et des espaces extérieurs, dans le respect des exigences réglementaires."
+   ],
+   "themes": [
+    "fast_action",
+    "kills_eliminates",
+    "indoor_outdoor",
+    "barrier_prevent",
+    "natural_eco"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ],
+    "natural_eco": [
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "BP"
+    ],
+    "barrier_prevent": [
+     "BP"
+    ]
+   },
+   "price": 10.9,
+   "rating": 4.2,
+   "reviews": 949,
+   "rev30": 7475,
+   "archival": false
+  },
+  {
+   "asin": "B0FT177DYL",
+   "brand": "M.Cafard",
+   "title": "Magnum Gel anti cafard efficace - Traitement professionnel en seringue - Produit contre cafards et blattes",
+   "img": "https://m.media-amazon.com/images/I/51i0YimACoL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51i0YimACoL.jpg"
+   ],
+   "bullets": [
+    "FORMULE PRÉCISE: Gel insecticide en seringue pour un contrôle ciblé des insectes nuisibles avec un applicateur de haute précision",
+    "APPLICATION FACILE: Format seringue ergonomique permettant une distribution contrôlée et précise du produit",
+    "USAGE PRATIQUE: Système d'application innovant qui permet d'atteindre les zones difficiles d'accès",
+    "CONCEPTION SÉCURISÉE: Seringue avec système de fermeture sécurisé pour un stockage en toute sécurité",
+    "TRAITEMENT EFFICACE: Solution professionnelle pour le traitement des zones infestées avec une application ponctuelle",
+    "\"Utiliser les produits biocides avec précaution. Avant toute utilisation, lisez l'étiquette et les informations sur le produit\""
+   ],
+   "themes": [
+    "professional"
+   ],
+   "themeSrc": {
+    "professional": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 29.0,
+   "rating": 4.3,
+   "reviews": 24,
+   "rev30": 7220,
+   "archival": false
+  },
+  {
+   "asin": "B08NF85D2W",
+   "brand": "PROTECT EXPERT",
+   "title": "PROTECT EXPERT Fumigène Anti Insectes Volants & Rampants - 25m²",
+   "img": "https://m.media-amazon.com/images/I/71O7Ux5UeGL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71O7Ux5UeGL.jpg",
+    "https://m.media-amazon.com/images/I/618fFLSVUWL.jpg",
+    "https://m.media-amazon.com/images/I/71KfK+8dJQS.jpg",
+    "https://m.media-amazon.com/images/I/719Ayk8DLbS.jpg",
+    "https://m.media-amazon.com/images/I/81Qw+xHjTIS.jpg",
+    "https://m.media-amazon.com/images/I/81CYxNFNH2S.jpg",
+    "https://m.media-amazon.com/images/I/81NQzWIgmlS.jpg",
+    "https://m.media-amazon.com/images/I/81MAmD8kMWS.jpg"
+   ],
+   "bullets": [
+    "ÉLIMINE TOUS LES INSECTES VOLANTS & RAMPANTS Action choc contre cafards, blattes, puces, punaises de lit, acariens, fourmis, mites, mouches, moustiques et autres insectes nuisibles présents dans l’habitat.",
+    "ACTION TOTALE PAR FUMIGATION Le fumigène diffuse un brouillard insecticide qui pénètre les moindres recoins : fissures, plinthes, dessous de meubles et zones inaccessibles aux traitements classiques.",
+    "TRAITEMENT DES INFESTATIONS Spécialement conçu pour les situations d’infestation avérée. Efficace en un seul traitement pour assainir rapidement les pièces contaminées.",
+    "GRANDE SURFACE TRAITÉE 1 fumigène de 10 g traite jusqu’à 25 m² / 65 m³ pour les insectes rampants et jusqu’à 50 m² / 130 m³ pour les insectes volants.",
+    "SANS ODEUR NI DÉPÔTS VISIBLES Ne laisse aucune trace après aération. Utilisation en intérieur, facile et rapide, sans résidus gênants."
+   ],
+   "themes": [
+    "fast_action",
+    "kills_eliminates",
+    "odourless",
+    "indoor_outdoor",
+    "no_residue",
+    "wide_spectrum"
+   ],
+   "themeSrc": {
+    "kills_eliminates": [
+     "BP"
+    ],
+    "odourless": [
+     "BP"
+    ],
+    "wide_spectrum": [
+     "T",
+     "BP"
+    ],
+    "no_residue": [
+     "BP"
+    ],
+    "indoor_outdoor": [
+     "BP"
+    ],
+    "fast_action": [
+     "BP"
+    ]
+   },
+   "price": 15.65,
+   "rating": 3.8,
+   "reviews": 1062,
+   "rev30": 6906,
+   "archival": false
+  }
+ ],
+ "themes": [
+  {
+   "key": "fast_action",
+   "label": "Szybkie działanie"
+  },
+  {
+   "key": "long_lasting",
+   "label": "Długotrwała ochrona"
+  },
+  {
+   "key": "kills_eliminates",
+   "label": "Zabija / eliminuje"
+  },
+  {
+   "key": "odourless",
+   "label": "Bezzapachowy / niska woń"
+  },
+  {
+   "key": "safe_kids_pets",
+   "label": "Bezpieczny dla dzieci i zwierząt"
+  },
+  {
+   "key": "indoor_outdoor",
+   "label": "Do wnętrz i na zewnątrz"
+  },
+  {
+   "key": "no_residue",
+   "label": "Bez plam / osadu"
+  },
+  {
+   "key": "easy_use",
+   "label": "Łatwa aplikacja / gotowy do użycia"
+  },
+  {
+   "key": "wide_spectrum",
+   "label": "Na wiele owadów / szerokie spektrum"
+  },
+  {
+   "key": "barrier_prevent",
+   "label": "Bariera / prewencja"
+  },
+  {
+   "key": "professional",
+   "label": "Klasa profesjonalna"
+  },
+  {
+   "key": "natural_eco",
+   "label": "Naturalny / eko"
+  },
+  {
+   "key": "value_size",
+   "label": "Ekonomiczny / duże opakowanie"
+  }
+ ],
+ "adoption": [
+  {
+   "key": "wide_spectrum",
+   "label": "Na wiele owadów / szerokie spektrum",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "fast_action",
+   "label": "Szybkie działanie",
+   "count": 5,
+   "pct": 42
+  },
+  {
+   "key": "long_lasting",
+   "label": "Długotrwała ochrona",
+   "count": 5,
+   "pct": 42
+  },
+  {
+   "key": "kills_eliminates",
+   "label": "Zabija / eliminuje",
+   "count": 5,
+   "pct": 42
+  },
+  {
+   "key": "indoor_outdoor",
+   "label": "Do wnętrz i na zewnątrz",
+   "count": 5,
+   "pct": 42
+  },
+  {
+   "key": "professional",
+   "label": "Klasa profesjonalna",
+   "count": 4,
+   "pct": 33
+  },
+  {
+   "key": "odourless",
+   "label": "Bezzapachowy / niska woń",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "safe_kids_pets",
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "barrier_prevent",
+   "label": "Bariera / prewencja",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "easy_use",
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "count": 2,
+   "pct": 17
+  },
+  {
+   "key": "value_size",
+   "label": "Ekonomiczny / duże opakowanie",
+   "count": 2,
+   "pct": 17
+  },
+  {
+   "key": "no_residue",
+   "label": "Bez plam / osadu",
+   "count": 1,
+   "pct": 8
+  },
+  {
+   "key": "natural_eco",
+   "label": "Naturalny / eko",
+   "count": 1,
+   "pct": 8
+  }
+ ],
+ "vocGap": [
+  {
+   "vocTopic": "Nie zlikwidował inwazji",
+   "vocPct": 57.0,
+   "theme": "Zabija / eliminuje",
+   "addressed": 5,
+   "total": 12,
+   "pct": 42,
+   "sev": "LOW",
+   "brands": [
+    "ATAQ",
+    "K.PRO",
+    "PROTECT EXPERT"
+   ]
+  },
+  {
+   "vocTopic": "Efekt znika po dniach, nie miesiącach",
+   "vocPct": 14.0,
+   "theme": "Bariera / prewencja",
+   "addressed": 3,
+   "total": 12,
+   "pct": 25,
+   "sev": "MED",
+   "brands": [
+    "Barrière à Insectes",
+    "K.PRO"
+   ]
+  },
+  {
+   "vocTopic": "Wady konstrukcji i obsługi pułapek",
+   "vocPct": 14.0,
+   "theme": "Łatwa aplikacja / gotowy do użycia",
+   "addressed": 2,
+   "total": 12,
+   "pct": 17,
+   "sev": "MED",
+   "brands": [
+    "Barrière à Insectes"
+   ]
+  },
+  {
+   "vocTopic": "Skutki zdrowotne i toksyczność",
+   "vocPct": 13.0,
+   "theme": "Bezzapachowy / niska woń",
+   "addressed": 3,
+   "total": 12,
+   "pct": 25,
+   "sev": "MED",
+   "brands": [
+    "ATAQ",
+    "PROTECT EXPERT"
+   ]
+  },
+  {
+   "vocTopic": "Tłusty, śliski osad",
+   "vocPct": 11.0,
+   "theme": "Bez plam / osadu",
+   "addressed": 1,
+   "total": 12,
+   "pct": 8,
+   "sev": "MED",
+   "brands": [
+    "PROTECT EXPERT"
+   ]
+  },
+  {
+   "vocTopic": "Słaba opłacalność i podwyżki cen",
+   "vocPct": 11.0,
+   "theme": "Ekonomiczny / duże opakowanie",
+   "addressed": 2,
+   "total": 12,
+   "pct": 17,
+   "sev": "MED",
+   "brands": [
+    "FEBCAT Catch",
+    "CATCH"
+   ]
+  }
+ ],
+ "whitespace": [
+  {
+   "label": "Bezzapachowy / niska woń",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Bariera / prewencja",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Ekonomiczny / duże opakowanie",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Bez plam / osadu",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Naturalny / eko",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim - przestrzeń do wyróżnienia."
+  }
+ ],
+ "saturation": [
+  {
+   "label": "Na wiele owadów / szerokie spektrum",
+   "pct": 50,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Szybkie działanie",
+   "pct": 42,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Długotrwała ochrona",
+   "pct": 42,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Zabija / eliminuje",
+   "pct": 42,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Do wnętrz i na zewnątrz",
+   "pct": 42,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Klasa profesjonalna",
+   "pct": 33,
+   "advice": "Wysycenie średnie - komunikuj z konkretem (substancja czynna, potwierdzony czas działania), nie ogólnikiem."
+  },
+  {
+   "label": "Bezzapachowy / niska woń",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Bezpieczny dla dzieci i zwierząt",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Bariera / prewencja",
+   "pct": 25,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Łatwa aplikacja / gotowy do użycia",
+   "pct": 17,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Ekonomiczny / duże opakowanie",
+   "pct": 17,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Bez plam / osadu",
+   "pct": 8,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Naturalny / eko",
+   "pct": 8,
+   "advice": "Biała plama (<30%) - okazja do wyróżnienia, jeśli produkt to spełnia."
+  }
+ ],
+ "recs": [
+  {
+   "type": "Pozycjonowanie",
+   "finding": "Nisko wysycone claimy: Bezzapachowy / niska woń, Bezpieczny dla dzieci i zwierząt, Bariera / prewencja, Łatwa aplikacja / gotowy do użycia.",
+   "impl": "Jeśli produkt spełnia te cechy - wyeksponuj je; konkurencja tego nie robi."
+  }
+ ]
+}
