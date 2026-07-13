@@ -83,6 +83,13 @@
       "group": "topline",
       "template": "standalone",
       "file": "index.html"
+    },
+    {
+      "id": "sales-potential-forecast",
+      "title": "Sales Potential Forecast (5Y)",
+      "group": "forecast",
+      "template": "standalone",
+      "file": "index.html"
     }
   ]
 }

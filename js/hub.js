@@ -34,6 +34,7 @@
     var nav = document.getElementById('sidebarNav');
     var topline = config.dashboards.filter(function(d) { return d.group === 'topline'; });
     var detailed = config.dashboards.filter(function(d) { return d.group === 'detailed'; });
+    var forecast = config.dashboards.filter(function(d) { return d.group === 'forecast'; });
     var html = '';
 
     if (topline.length > 0) {
@@ -54,6 +55,15 @@
       html += '</div>';
     }
 
+    if (forecast.length > 0) {
+      html += '<div class="sidebar-group">';
+      html += '<div class="sidebar-group-title">Forecast</div>';
+      forecast.forEach(function(d) {
+        html += sidebarButton(d);
+      });
+      html += '</div>';
+    }
+
     nav.innerHTML = html;
 
     // Attach click handlers
@@ -65,7 +75,7 @@
   }
 
   function sidebarButton(d) {
-    var dotColor = d.group === 'topline' ? '#2563eb' : '#16a34a';
+    var dotColor = d.group === 'topline' ? '#2563eb' : d.group === 'forecast' ? '#d97706' : '#16a34a';
     return '<button class="sidebar-item" data-id="' + d.id + '">' +
       '<span class="sidebar-item-dot" style="background:' + dotColor + '"></span>' +
       '<span class="sidebar-item-label">' + d.title + '</span>' +

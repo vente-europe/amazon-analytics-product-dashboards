@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prognoza potencjału sprzedaży — Amazon</title>
+<style>
+  :root{
+    --bg:#f4f7fc; --panel:#ffffff; --panel2:#f7f9fd; --line:#e5eaf2;
+    --ink:#1e2a3d; --muted:#7a8698; --accent:#2f6bff;
+    --play-bg:#fff6da; --play-bd:#f2c14e; --play-ink:#7a5b00;
+    --lock-bg:#eef1f6; --lock-bd:#dde3ec; --lock-ink:#7e8aa0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,Segoe UI,Roboto,Arial,sans-serif;padding:22px}
+  h1{font-size:21px;margin:0 0 4px;font-weight:800}
+  .sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+  .grid{display:grid;grid-template-columns:1.05fr 1fr;gap:18px;align-items:start}
+  @media(max-width:1000px){.grid{grid-template-columns:1fr}}
+  .lev-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+  @media(max-width:1000px){.lev-grid{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:16px;box-shadow:0 2px 10px rgba(31,43,61,.05)}
+  .card h2{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin:0 0 10px;font-weight:700}
+  .row{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:5px 0}
+  .row label{color:var(--ink);flex:1;font-size:13px}
+  .row .hint{color:var(--muted);font-size:11px;font-weight:400}
+  .inp{display:flex;align-items:center;gap:6px}
+  .ico{font-size:12px;width:14px;text-align:center}
+  input[type=number],input[type=text],select{width:116px;border-radius:8px;padding:7px 9px;text-align:right;font-size:13px;font-weight:700;border:1.5px solid var(--lock-bd);background:#fff;color:var(--ink)}
+  select{text-align:left;font-weight:600}
+  input:focus,select:focus{outline:2px solid var(--accent);outline-offset:1px}
+  input.play,select.play{background:var(--play-bg);border-color:var(--play-bd);color:var(--play-ink);cursor:text}
+  input.play:hover,select.play:hover{border-color:#e0a92a}
+  input.lock{background:var(--lock-bg);border-color:var(--lock-bd);color:var(--lock-ink);cursor:not-allowed;font-weight:600}
+  input.lock:hover{border-color:#e07a7a;background:#fdeeee;color:#c0392b}
+  .calc{background:var(--panel2)}
+  .calc .row{border-top:1px solid var(--line);padding:7px 0}
+  .calc .val{width:120px;text-align:right;font-weight:800;font-variant-numeric:tabular-nums}
+  .sec{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin:14px 0 4px;border-bottom:1px solid var(--line);padding-bottom:3px;font-weight:600}
+  .exp{font-size:11.5px;color:#55617a;background:#f2f6fd;border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:8px;padding:8px 11px;margin:6px 0 10px;line-height:1.55}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:6px}
+  table.fc{width:100%;border-collapse:collapse;margin-top:6px;font-variant-numeric:tabular-nums}
+  table.fc th,table.fc td{padding:8px 9px;text-align:right;border-top:1px solid var(--line);font-size:13px}
+  table.fc th:first-child,table.fc td:first-child{text-align:left;color:var(--muted)}
+  table.fc thead th{color:var(--accent);font-size:11px;text-transform:uppercase;border:0}
+  table.fc tbody td{font-weight:700}
+  .selcol{background:#eef4ff}
+  canvas{width:100%;height:170px;margin-top:8px}
+  .bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+  button{background:var(--accent);color:#fff;border:0;border-radius:9px;padding:9px 14px;font-weight:700;cursor:pointer}
+  button:hover{filter:brightness(1.06)}
+  button.ghost{background:#fff;border:1.5px solid var(--line);color:var(--ink)}
+  .pos{color:#128a41}.neg{color:#c9342f}.warn{color:#b5820e}
+  .note{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.5}
+  .tog{padding:5px 12px;font-size:12px;border-radius:20px;border:1.5px solid var(--line);background:#fff;color:var(--muted);cursor:pointer;font-weight:700}
+  .tog.on{color:#fff;border-color:transparent}
+  #chTip{position:fixed;pointer-events:none;display:none;background:#1e2a3d;color:#fff;padding:8px 11px;border-radius:9px;font-size:12px;line-height:1.55;box-shadow:0 6px 18px rgba(0,0,0,.22);z-index:50;font-weight:700}
+  #chTip .m{color:#9db4ff;font-size:11px;margin-bottom:3px;font-weight:600}
+  #chTip .u{color:#8fbcff}#chTip .r{color:#6ee0a0}#chTip .p{color:#f5b968}
+  #chart{cursor:crosshair}
+  .fctbl table{border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums;white-space:nowrap;width:100%}
+  .fctbl th,.fctbl td{padding:6px 10px;text-align:right;border-bottom:1px solid var(--line)}
+  .fctbl thead th{color:var(--accent);font-size:11px;position:sticky;top:0;background:#fff;z-index:2}
+  .mt-lab{text-align:left!important;position:sticky;left:0;background:#fff;font-weight:600;color:var(--ink);min-width:190px;box-shadow:1px 0 0 var(--line);z-index:1}
+  .mt-strong td{font-weight:800}
+  .mt-sep td{background:#eef4ff;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.05em;padding:4px 10px}
+  .mt-sep .mt-lab{background:#eef4ff}
+  .mt-sum{position:sticky;background:#eef4ff;font-weight:800;text-align:right!important;white-space:nowrap;min-width:80px;font-size:11px}
+  .mt-sum.cy5{right:0}
+  .mt-sum.cy4{right:80px}
+  .mt-sum.cy3{right:160px}
+  .mt-sum.cy2{right:240px}
+  .mt-sum.cy1{right:320px;box-shadow:-2px 0 0 var(--line)}
+  #scenTable tr.yoyrow td{font-style:italic;background:#f6f9ff;font-size:12px;border-bottom:1px solid var(--line)}
+  body.collapse-y3 .y3,body.collapse-y4 .y4,body.collapse-y5 .y5{display:none}
+  .yrbar{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin:0 0 9px}
+  .yrbtn{cursor:pointer;user-select:none;display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;border:1.5px solid var(--line);border-radius:8px;padding:5px 12px;transition:background .12s}
+  .yrtri{font-size:17px;line-height:1;display:inline-block}
+  .yrbtn.collapsed{color:#a52f2f;background:#fdeeee;border-color:#eaa3a3}
+  .yrbtn.collapsed:hover{background:#fadede}
+  .yrbtn.collapsed .yrtri{color:#d94b4b}
+  .yrbtn.expanded{color:#1f7a44;background:#eafaf0;border-color:#8fd3aa}
+  .yrbtn.expanded:hover{background:#dbf5e6}
+  .yrbtn.expanded .yrtri{color:#2ea864}
+  #scenTable tr.yoyrow td:first-child{color:var(--muted)}
+  .scen-hd{font-weight:700;font-size:11px;color:var(--accent);margin:12px 0 2px;text-transform:uppercase;letter-spacing:.04em}
+  .scen-hd.sc-cons{color:#b5372b;border-left:3px solid #d94b4b;padding-left:7px;background:rgba(217,75,75,.07)}
+  .scen-hd.sc-base{color:#9c6410;border-left:3px solid #e0952a;padding-left:7px;background:rgba(224,149,42,.11)}
+  .scen-hd.sc-opt{color:#1c7a43;border-left:3px solid #2ea864;padding-left:7px;background:rgba(46,168,100,.09)}
+  .scen-sum{margin:4px 0 8px}
+  .ph-bar{position:relative;display:flex;height:22px;border-radius:5px;overflow:hidden;font-size:9.5px;font-weight:700;color:#fff;line-height:22px;border:1px solid rgba(0,0,0,.08)}
+  .ph-seg{display:flex;align-items:center;justify-content:center;white-space:nowrap;overflow:hidden;min-width:0}
+  .ph-seg.ph-l{background:#d94b4b}.ph-seg.ph-g{background:#e0952a}.ph-seg.ph-m{background:#2ea864}
+  .ph-marker{position:absolute;top:0;bottom:0;width:2px;background:#111;box-shadow:0 0 0 1px rgba(255,255,255,.75)}
+  .ph-cap{font-size:10px;color:var(--muted);margin-top:2px}
+  .row.ph-launch,.row.ph-growth,.row.ph-mature{padding-left:8px;border-radius:6px}
+  .row.ph-launch{box-shadow:inset 3px 0 0 #d94b4b;background:rgba(217,75,75,.10)}.row.ph-launch>label{color:#b5372b;font-weight:600}
+  .row.ph-growth{box-shadow:inset 3px 0 0 #e0952a;background:rgba(224,149,42,.13)}.row.ph-growth>label{color:#9c6410;font-weight:600}
+  .row.ph-mature{box-shadow:inset 3px 0 0 #2ea864;background:rgba(46,168,100,.11)}.row.ph-mature>label{color:#1c7a43;font-weight:600}
+  h2.fc-cons{border-left:4px solid #d94b4b;padding-left:8px}
+  h2.fc-base{border-left:4px solid #e0952a;padding-left:8px}
+  h2.fc-opt{border-left:4px solid #2ea864;padding-left:8px}
+  #scenTable th.tc-cons{color:#b5372b}#scenTable th.tc-base{color:#9c6410}#scenTable th.tc-opt{color:#1c7a43}
+  #cmTable tr.cm-row td{font-weight:600;background:#eef3fb}
+  #cmTable tr.cm-row.cm-good td{background:rgba(46,168,100,.15)}
+  #cmTable tr.cm-row.cm-bad td{background:rgba(217,75,75,.13)}
+  #cmTable tr.cm-row:hover td{background:#e4ecf9}
+  #cmTable tr.cm-tot td{border-top:1px solid var(--line);color:var(--muted)}
+  #cmTable tr.cm-tot:first-of-type td{border-top:2px solid var(--line)}
+  .fctbl thead th.mt-sum{color:var(--accent);z-index:3}
+  .fctbl tbody td.mt-sum{z-index:1}
+  .mt-reach{box-shadow:inset 0 0 0 100px rgba(240,193,80,0.32)}
+  .fctbl thead th.mt-reach{color:#7a5b00}
+  .cm-sub td,td.cm-sub{color:var(--muted);font-weight:400}
+  td.cm-sub{padding-left:22px}
+  .keyleg{display:flex;gap:16px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap;margin:2px 2px 14px}
+  .chip{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--ink)}
+  .sw{width:14px;height:14px;border-radius:4px;border:1.5px solid}
+  .sw.play{background:var(--play-bg);border-color:var(--play-bd)}
+  .sw.lock{background:var(--lock-bg);border-color:var(--lock-bd)}
+</style>
+</head>
+<body>
+<div class="bar">
+  <div>
+    <h1>Prognoza potencjału sprzedaży — Amazon</h1>
+    <div class="sub">Dane z Twoich Google Sheets · liczenie w dashboardzie. Ceny <b>net</b>, kwoty w <b>€</b>. „Reset do arkusza" wraca do wartości z pliku.</div>
+  </div>
+</div>
+
+<div class="card" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+  <b style="font-size:13px">Produkt:</b>
+  <select id="productSel" style="width:220px" onchange="onProductPick()"></select>
+  <span class="hint">lub CSV URL:</span>
+  <input type="text" id="csvUrl" placeholder="https://docs.google.com/.../pub?output=csv" style="width:280px;text-align:left">
+  <button onclick="loadFromUrl($('csvUrl').value)">Wczytaj z arkusza</button>
+  <button class="ghost" onclick="resetToSheet()">Reset do arkusza</button>
+  <span id="loadStatus" class="hint"></span>
+</div>
+
+<div class="keyleg">
+  <span class="chip"><span class="sw play"></span>✎ Pole do zabawy — możesz zmieniać</span>
+  <span class="chip"><span class="sw lock"></span>🔒 Zablokowane — wyliczenie z Twojego arkusza (X-Ray). Najedź = czerwone.</span>
+</div>
+
+
+<div class="grid">
+  <!-- LEFT: INPUTS -->
+  <div>
+    <div class="card">
+      <h2>1 · Unit economics (net). Edytuj żółte pola</h2>
+      <div class="exp">Startowe liczby z Twojego arkusza, ale <b>edytowalne</b> — zespół gra ceną, PPC, kosztami i robi predykcje. „Reset do arkusza" cofa do oryginału. Nie zmienia pliku.</div>
+      <div class="row"><label>Marketplace <span class="hint">kod (DE/FR/IT/ES/UK) → ustala VAT</span></label><div class="inp"><input type="text" id="marketplace"></div></div>
+      <div class="row"><label>Cena sprzedaży (gross, z VAT)</label><div class="inp"><input type="number" id="priceGross" step="0.01"></div></div>
+      <div class="row"><label>Cena sprzedaży (net)</label><div class="inp"><input type="number" id="price" step="0.01"></div></div>
+      <div class="row"><label>VAT (%) <span class="hint">auto z marketplace, ale edytowalne</span></label><div class="inp"><input type="number" id="vat" step="1"></div></div>
+      <div class="sec">Koszty / szt</div>
+      <div class="row"><label>COGS (koszt produkcji)</label><div class="inp"><input type="number" id="cogs" step="0.01"></div></div>
+      <div class="row"><label>Inbound Shipping <span class="hint">transport do magazynu Amazona /szt (zwykle 0,10–0,50 €)</span></label><div class="inp"><input type="number" id="inbound" step="0.01"></div></div>
+      <div class="row"><label>Referral Fee (%) <span class="hint">prowizja kategorii, zwykle 15%</span></label><div class="inp"><input type="number" id="referralPct" step="0.1"></div></div>
+      <div class="row"><label>FBA Fee <span class="hint">z tabeli <a href="https://vente-europe.github.io/unit-economics-calculator/" target="_blank" rel="noopener" style="color:var(--accent)">kalkulatora FBA</a></span></label><div class="inp"><input type="number" id="fba" step="0.01"></div></div>
+      <div class="row"><label>Storage Fee</label><div class="inp"><input type="number" id="storage" step="0.01"></div></div>
+      <div class="row"><label>Other Costs</label><div class="inp"><input type="number" id="other" step="0.01"></div></div>
+      <div class="row"><label>TACOS dojrzały (%) <span class="hint">z arkusza, edytowalne ✎</span></label><div class="inp"><input type="number" id="tacosMature" step="0.5"></div></div>
+      <div class="note"><b>TACOS dojrzały służy tu wyłącznie do oceny profitowości produktu w fazie dojrzałej</b> (struktura ceny, CM3, ROI). TACOS napędzający projekcję ustawiasz osobno w „Dźwignie prognozy → Docelowy TACOS".</div>
+    </div>
+
+    <div class="card">
+      <h2 style="cursor:pointer;user-select:none" onclick="toggleVol()"><span id="volCaret">▸</span> 2 · Wolumen — dwie metody (A + B) <span class="hint" style="font-weight:400">(poglądowo — kliknij, by rozwinąć)</span></h2>
+      <div id="volBody" style="display:none">
+      <div class="exp"><b>Po co to jest:</b> szacujemy, ile sztuk realnie sprzedamy, na dwa niezależne sposoby i porównujemy. Jeśli obie metody dają zbliżony wynik → wysoka pewność. Jeśli się rozjeżdżają → sygnał ryzyka.</div>
+
+      <div class="sec">Metoda A · kotwica na konkurentach</div>
+      <div class="exp"><b>Anchor (kotwica)</b> = realny konkurent z X-Ray o podobnym produkcie i cenie. Bierzemy do <b>10</b> takich i patrzymy na ich miesięczną sprzedaż — to <b>najtwardsza dana rynkowa</b>: pokazuje, ile sprzedaje produkt taki jak nasz. Puste pola są pomijane (liczy się mediana z wypełnionych). Anchory 🔒 (dane z X-Ray); <b>capture factor ✎</b> to Twoje założenie — wpływa na BASE.</div>
+      <div class="row"><label>Anchor 1 <span class="hint">konkurent 1</span></label><div class="inp"><input type="number" id="a1"></div></div>
+      <div class="row"><label>Anchor 2</label><div class="inp"><input type="number" id="a2"></div></div>
+      <div class="row"><label>Anchor 3</label><div class="inp"><input type="number" id="a3"></div></div>
+      <div class="row"><label>Anchor 4</label><div class="inp"><input type="number" id="a4"></div></div>
+      <div class="row"><label>Anchor 5</label><div class="inp"><input type="number" id="a5"></div></div>
+      <div class="row"><label>Anchor 6</label><div class="inp"><input type="number" id="a6"></div></div>
+      <div class="row"><label>Anchor 7</label><div class="inp"><input type="number" id="a7"></div></div>
+      <div class="row"><label>Anchor 8</label><div class="inp"><input type="number" id="a8"></div></div>
+      <div class="row"><label>Anchor 9</label><div class="inp"><input type="number" id="a9"></div></div>
+      <div class="row"><label>Anchor 10</label><div class="inp"><input type="number" id="a10"></div></div>
+      <div class="row"><label>Capture factor <span class="hint">docelowy % mediany (dojrzały, nie startowy); zwykle 0,4–0,8 — słaby start robi rampa</span></label><div class="inp"><input type="number" id="capture" step="0.01"></div></div>
+
+      <div class="sec">Metoda B · udział w niszy</div>
+      <div class="exp"><b>Kontrola rynku (domyślnie waga ~38%):</b> cała roczna sprzedaż niszy z X-Ray × realny udział, jaki możemy zdobyć. Trzyma prognozę przy realiach rynku — jej waga w BASE ściąga wynik, jeśli kotwica A jest zbyt optymistyczna wobec wielkości niszy. Nisza (szt) 🔒 z X-Ray; <b>docelowy udział ✎</b> to Twoje założenie.</div>
+      <div class="row"><label>Roczna sprzedaż całej niszy (szt) <span class="hint">suma porównywalnych ASIN × 12 (X-Ray)</span></label><div class="inp"><input type="number" id="niche"></div></div>
+      <div class="row"><label>Docelowy udział <span class="hint">rozdrobniony 2–5%, skoncentrowany 0,5–2% (np. 0.03)</span></label><div class="inp"><input type="number" id="share" step="0.001"></div></div>
+      <div class="row"><label>Udział top-3 ASIN-ów <span class="hint">koncentracja rynku</span></label><div class="inp"><input type="number" id="top3" step="0.01"></div></div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- RIGHT: OUTPUTS -->
+  <div>
+    <div class="card calc">
+      <h2>Unit economics — wynik (CM1 / CM2 / CM3 na sztukę)</h2>
+      <table class="fc" id="cmTable">
+        <thead><tr><th>Poziom</th><th>Wartość / szt</th><th>Marża</th></tr></thead>
+        <tbody>
+          <tr><td>Cena sprzedaży (net)</td><td id="cm-rev">—</td><td>100%</td></tr>
+          <tr class="cm-d1"><td class="cm-sub">− COGS (produkcja)</td><td class="cm-sub" id="cm-cogs">—</td><td></td></tr>
+          <tr class="cm-d1"><td class="cm-sub">− Inbound Shipping</td><td class="cm-sub" id="cm-inb">—</td><td></td></tr>
+          <tr class="cm-row"><td><b>CM1</b> — po koszcie produktu <span class="hint" style="font-weight:400">Typowa dla Amazona: 70-90%</span></td><td id="cm1">—</td><td id="cm1p">—</td></tr>
+          <tr class="cm-d2"><td class="cm-sub">− Referral Fee</td><td class="cm-sub" id="cm-ref">—</td><td></td></tr>
+          <tr class="cm-d2"><td class="cm-sub">− FBA Fee</td><td class="cm-sub" id="cm-fba">—</td><td></td></tr>
+          <tr class="cm-d2"><td class="cm-sub">− Storage Fee</td><td class="cm-sub" id="cm-stor">—</td><td></td></tr>
+          <tr class="cm-d2"><td class="cm-sub">− Other Costs</td><td class="cm-sub" id="cm-oth">—</td><td></td></tr>
+          <tr class="cm-row"><td><b>CM2</b> — po opłatach Amazon <span class="hint" style="font-weight:400">Typowa dla Amazona: 35-45%</span></td><td id="cm2">—</td><td id="cm2p">—</td></tr>
+          <tr class="cm-d3"><td class="cm-sub">− PPC / TACOS dojrzały</td><td class="cm-sub" id="cm-ppc">—</td><td></td></tr>
+          <tr class="cm-row"><td><b>CM3</b> — po reklamie = zysk netto <span class="hint" style="font-weight:400">Typowa dla Amazona: 20-30%</span></td><td id="cm3">—</td><td id="cm3p">—</td></tr>
+          <tr class="cm-tot"><td>Total Costs / szt</td><td id="o-total">—</td><td></td></tr>
+          <tr class="cm-tot"><td><b>ROI</b></td><td id="o-roi">—</td><td></td></tr>
+          <tr class="cm-tot"><td>Break-even Price <span class="hint" style="font-weight:400">Net Profit = 0</span></td><td id="o-be">—</td><td></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <h2>3 · Dźwignie prognozy</h2>
+  <div class="exp">Sprzedaż w czasie = <b>dwie warstwy</b>. (1) <b>Rynek rośnie</b> → sufit (BASE) się podnosi. (2) <b>Penetracja</b> → od słabego startu (np. 25% BASE w mies. 1) pniemy się do 100% w zadanym miesiącu dojrzałości. ✎</div>
+  <div class="lev-grid">
+    <div>
+      <div class="sec">Warstwa 1 · wzrost rynku</div>
+      <div class="row"><label>Wzrost rynku (% / rok) <span class="hint">trend kategorii + ekspansja Amazona; zwykle 5–12%</span></label><div class="inp"><input type="number" id="mktGrowth" step="0.5"></div></div>
+      <div class="sec">Warstwa 2 · penetracja (start rampy)</div>
+      <div class="row"><label>Penetracja w mies. 1 <span class="hint">% dojrzałej sprzedaży na starcie; np. 0.25 = 25% (wspólne)</span></label><div class="inp"><input type="number" id="penStart" step="0.05"></div></div>
+      <div class="sec">Reklama — udział PPC + docelowy TACOS (napędza projekcję)</div>
+      <div class="exp" style="font-size:.86em">Ustawiasz <b>udział sprzedaży przez PPC</b> (maleje w fazach, przedział rozłożony po równo na miesiące fazy) i <b>docelowy TACOS</b> (mies. 1 = break-even, schodzi do celu na początku Mature). <b>ACOS = TACOS ÷ udział PPC</b> — liczony sam, pokazany jako wynikowy w tabelach niżej. Organiczna sprzedaż = darmowy profit.</div>
+      <div class="row ph-launch"><label>Udział PPC Launch — start (%)</label><div class="inp"><input type="number" id="ppcLaunchStart" step="5"></div></div>
+      <div class="row ph-launch"><label>Udział PPC Launch — koniec (%)</label><div class="inp"><input type="number" id="ppcLaunchEnd" step="5"></div></div>
+      <div class="row ph-growth"><label>Udział PPC Growth — start (%)</label><div class="inp"><input type="number" id="ppcGrowthStart" step="5"></div></div>
+      <div class="row ph-growth"><label>Udział PPC Growth — koniec (%)</label><div class="inp"><input type="number" id="ppcGrowthEnd" step="5"></div></div>
+      <div class="row ph-mature"><label>Udział PPC Mature — start (%)</label><div class="inp"><input type="number" id="ppcMatureStart" step="5"></div></div>
+      <div class="row ph-mature"><label>Udział PPC Mature — koniec (%)</label><div class="inp"><input type="number" id="ppcMatureEnd" step="1"></div></div>
+      <div class="row"><label>Docelowy TACOS (%) <span class="hint">dojrzały; mies. 1 = break-even, schodzi do celu na początku Mature</span></label><div class="inp"><input type="number" id="tacosTarget" step="1"></div></div>
+    </div>
+    <div>
+      <div class="sec">Długości faz — per scenariusz (ustawiasz ręcznie)</div>
+      <div class="exp" style="font-size:.86em">3 scenariusze — jak długo trwa każda faza. <b>Konserwatywny i Optymistyczny startują od wartości Bazowego</b> (z arkusza) — zmień je ręcznie, by rozjechać scenariusze. Benchmark TACOS bez zmian.</div>
+      <div class="scen-hd sc-base">Bazowy — główna prognoza</div>
+      <div class="row"><label>Koniec Launch (mies.)</label><div class="inp"><input type="number" id="baseLaunchEnd" step="1"></div></div>
+      <div class="row"><label>Koniec Growth (mies.)</label><div class="inp"><input type="number" id="baseGrowthEnd" step="1"></div></div>
+      <div class="row"><label>Pełna dojrzałość (mies.)</label><div class="inp"><input type="number" id="basePenMonth" step="1"></div></div>
+      <div class="scen-sum" id="sum-base"></div>
+      <div class="scen-hd sc-cons">Konserwatywny — wolniejszy</div>
+      <div class="row"><label>Koniec Launch (mies.)</label><div class="inp"><input type="number" id="consLaunchEnd" step="1"></div></div>
+      <div class="row"><label>Koniec Growth (mies.)</label><div class="inp"><input type="number" id="consGrowthEnd" step="1"></div></div>
+      <div class="row"><label>Pełna dojrzałość (mies.)</label><div class="inp"><input type="number" id="consPenMonth" step="1"></div></div>
+      <div class="scen-sum" id="sum-cons"></div>
+      <div class="scen-hd sc-opt">Optymistyczny — szybszy</div>
+      <div class="row"><label>Koniec Launch (mies.)</label><div class="inp"><input type="number" id="optLaunchEnd" step="1"></div></div>
+      <div class="row"><label>Koniec Growth (mies.)</label><div class="inp"><input type="number" id="optGrowthEnd" step="1"></div></div>
+      <div class="row"><label>Pełna dojrzałość (mies.)</label><div class="inp"><input type="number" id="optPenMonth" step="1"></div></div>
+      <div class="scen-sum" id="sum-opt"></div>
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+    <div class="card calc">
+      <h2>Wolumen — wynik (metody A + B)</h2>
+      <div class="row"><label>Metoda A (kotwica)</label><div class="val" id="o-mA">—</div></div>
+      <div class="row"><label>Metoda B (udział rynku)</label><div class="val" id="o-mB">—</div></div>
+      <div class="row"><label><b>BASE — średnia ważona (szt/mies)</b></label><div class="val" id="o-base">—</div></div>
+      <div class="row"><label>Rozrzut metod <span class="hint">pewność</span></label><div class="val" id="o-spread">—</div></div>
+      <div class="note">Logika (SOP): <b>BASE = średnia ważona dwóch metod — A kotwica (60%) + B kontrola rynku (40%)</b>. Waga A:B = 3:2 (A to najtwardsza dana, więc dominuje). Wagi renormalizują się, gdy metoda jest pusta (np. brak niszy → sama A). Outliery wywalasz na bramce QA (RUNBOOK) <b>zanim</b> tu trafią. Rozrzut = sygnał pewności (metody zbieżne = wysoka).</div>
+    </div>
+
+    <div class="card calc">
+      <h2 class="fc-base">Prognoza — scenariusz Bazowy</h2>
+      <table class="fc">
+        <thead><tr><th>Okres</th><th>Sztuki</th><th>Przychód</th><th>Reklama (PPC)</th><th>Zysk*</th></tr></thead>
+        <tbody id="fc-body"></tbody>
+      </table>
+      <div id="chToggles" style="display:flex;gap:6px;margin-top:12px;flex-wrap:wrap"></div>
+      <canvas id="chart" width="600" height="170"></canvas>
+      <div class="note">Wykres i tabela = <b>scenariusz Bazowy</b>. Słupki = sprzedaż w danym miesiącu. Rośnie <b>co miesiąc</b> z dwóch warstw: penetracja (rampa do BASE) + wzrost rynku. Tabela wyżej = sprzedaż rok po roku (Rok 1…5, każdy rok osobno). Przełączniki wybierają serie (Sztuki / Przychód € / Zysk € / Reklama €). <br>*Zysk liczony per miesiąc z <b>TACOS wg faz</b> (Launch→Growth→Mature) — dlatego zysk w rampie niższy, potem rośnie.</div>
+    </div>
+</div>
+
+<div class="card fctbl">
+  <h2 class="fc-base">Forecast — 60 miesięcy (5 lat) — Bazowy (dokument P&amp;L)</h2>
+  <div class="yrbar"><span class="hint">Kolumny lat:</span><div class="yrbtn yr-3" onclick="toggleYr(3)"></div><div class="yrbtn yr-4" onclick="toggleYr(4)"></div><div class="yrbtn yr-5" onclick="toggleYr(5)"></div></div>
+  <div style="overflow-x:auto;border:1px solid var(--line);border-radius:10px">
+    <table id="monthTable"></table>
+  </div>
+  <div class="note">Wartości = <b>scenariusz Bazowy</b> (Konserwatywny i Optymistyczny w zwijanych tabelach niżej). Sprzedaż rośnie co miesiąc z <b>dwóch warstw</b>: rynek puchnie (wzrost rynku ×) i penetracja pnie się do BASE (rampa). <b>TACOS schodzi wg faz</b> (Launch → Growth → Mature, długości ustawiasz per scenariusz) → dlatego <b>marża i ROI rosną w czasie</b>. Wiersz „Faza" pokazuje, w której fazie jest dany miesiąc (Launch=czerwony, Growth=pomarańczowy, Mature=zielony). Koszty na czerwono ze znakiem −. Przewiń w prawo po dalsze miesiące (M1–M60). Na końcu <b>Σ Rok 1…5</b> = suma sztuk/€ w danym roku (każdy rok osobno, <b>nie narastająco</b>) — widoczne też przy zwiniętych latach. <b>Kolumna na żółto</b> = miesiąc pełnej dojrzałości (penetracja 100%); przesuwa się z polem „Pełna dojrzałość".</div>
+</div>
+
+<div class="card fctbl">
+  <h2 class="fc-cons" style="cursor:pointer;user-select:none" onclick="toggleFc('Cons')"><span id="fcConsCaret">▸</span> Forecast 60-mies. (5 lat) — Konserwatywny (wolniejszy) <span class="hint" style="font-weight:400">(kliknij, by rozwinąć)</span></h2>
+  <div id="fcConsBody" style="display:none"><div class="yrbar"><span class="hint">Kolumny lat:</span><div class="yrbtn yr-3" onclick="toggleYr(3)"></div><div class="yrbtn yr-4" onclick="toggleYr(4)"></div><div class="yrbtn yr-5" onclick="toggleYr(5)"></div></div><div style="overflow-x:auto;border:1px solid var(--line);border-radius:10px"><table id="monthTableCons"></table></div></div>
+</div>
+
+<div class="card fctbl">
+  <h2 class="fc-opt" style="cursor:pointer;user-select:none" onclick="toggleFc('Opt')"><span id="fcOptCaret">▸</span> Forecast 60-mies. (5 lat) — Optymistyczny (szybszy) <span class="hint" style="font-weight:400">(kliknij, by rozwinąć)</span></h2>
+  <div id="fcOptBody" style="display:none"><div class="yrbar"><span class="hint">Kolumny lat:</span><div class="yrbtn yr-3" onclick="toggleYr(3)"></div><div class="yrbtn yr-4" onclick="toggleYr(4)"></div><div class="yrbtn yr-5" onclick="toggleYr(5)"></div></div><div style="overflow-x:auto;border:1px solid var(--line);border-radius:10px"><table id="monthTableOpt"></table></div></div>
+</div>
+
+<!-- 3 SCENARIUSZE (na dole, zwijane) -->
+<div class="card">
+  <h2 style="cursor:pointer;user-select:none" onclick="toggleScen()"><span id="scenCaret">▸</span> Porównanie scenariuszy — Rok 1–5 (5 lat) <span class="hint" style="font-weight:400">(kliknij, by rozwinąć)</span></h2>
+  <div id="scenBody" style="display:none">
+    <table class="fc" id="scenTable"></table>
+    <div class="note">Trzy warianty różnią się <b>tempem</b> (długości faz w „Dźwignie"), nie mnożnikiem — <b>BASE ten sam</b>, różni się droga do niego. <b>Konserwatywny</b> = wolniejszy · <b>Bazowy</b> = główny · <b>Optymistyczny</b> = szybszy. Wiersze = <b>Rok 1–5</b> (Rok 1 = M1–12, … Rok 5 = M49–60) + <b>Σ 5 lat</b>. Po pełnej dojrzałości (penetracja 100%) sprzedaż rośnie już tylko <b>wzrostem rynku</b> (% / rok), a marża jest stabilna. Wyróżniona kolumna = <b>Bazowy</b>.</div>
+  </div>
+</div>
+
+<div id="chTip"></div>
+
+<script>
+const BASELINE = {
+  marketplace:'DE', priceGross:26.18, price:22, vat:19, cogs:2, inbound:0.2, referralPct:15, fba:2.3, storage:0.2, other:0.1,
+  a1:300, a2:350, a3:420, a4:280, a5:500, a6:null, a7:null, a8:null, a9:null, a10:null, capture:0.45,
+  niche:60000, share:0.03, top3:0.6,
+  mktGrowth:8,
+  penStart:0.25,
+  tacosMature:8,
+  ppcLaunchStart:90, ppcLaunchEnd:60, ppcGrowthStart:60, ppcGrowthEnd:40, ppcMatureStart:40, ppcMatureEnd:35,
+  tacosTarget:20,
+  baseLaunchEnd:6, baseGrowthEnd:18, basePenMonth:12,
+  consLaunchEnd:9, consGrowthEnd:24, consPenMonth:18,
+  optLaunchEnd:3, optGrowthEnd:12, optPenMonth:8
+};
+const IDS = Object.keys(BASELINE);
+const PLAYABLE = ['priceGross','price','vat','cogs','inbound','referralPct','fba','storage','other',
+  'capture','share','mktGrowth',
+  'penStart',
+  'tacosMature','ppcLaunchStart','ppcLaunchEnd','ppcGrowthStart','ppcGrowthEnd','ppcMatureStart','ppcMatureEnd','tacosTarget',
+  'baseLaunchEnd','baseGrowthEnd','basePenMonth',
+  'consLaunchEnd','consGrowthEnd','consPenMonth',
+  'optLaunchEnd','optGrowthEnd','optPenMonth'];
+const $ = id => document.getElementById(id);
+function toggleVol(){ const b=$('volBody'), c=$('volCaret'); const open=b.style.display==='none'; b.style.display=open?'block':'none'; c.textContent=open?'▾':'▸'; }
+function toggleScen(){ const b=$('scenBody'), c=$('scenCaret'); const open=b.style.display==='none'; b.style.display=open?'block':'none'; c.textContent=open?'▾':'▸'; }
+function toggleFc(k){ const b=$('fc'+k+'Body'), c=$('fc'+k+'Caret'); const open=b.style.display==='none'; b.style.display=open?'block':'none'; c.textContent=open?'▾':'▸'; }
+// niezależne zwijanie kolumn Rok 3 / 4 / 5 (M25–36 / 37–48 / 49–60); Σ 60 zostaje widoczna zawsze
+const YR_MO={3:'M25–36',4:'M37–48',5:'M49–60'};
+function syncYrBtns(){ [3,4,5].forEach(y=>{ const on=document.body.classList.contains('collapse-y'+y);
+  document.querySelectorAll('.yr-'+y).forEach(b=>{
+    b.innerHTML=`<span class="yrtri">${on?'▼':'▶'}</span>Rok ${y} <span style="font-weight:400;opacity:.75">(${YR_MO[y]})</span>`;
+    b.classList.toggle('collapsed',on); b.classList.toggle('expanded',!on); }); }); }
+function toggleYr(y){ document.body.classList.toggle('collapse-y'+y); syncYrBtns(); }
+function toggleCM(g){ const rows=document.querySelectorAll('#cmTable .'+g); if(!rows.length)return; const show=rows[0].style.display==='none'; rows.forEach(r=>r.style.display=show?'table-row':'none'); const c=$('car-'+g); if(c)c.textContent=show?'▾':'▸'; }
+const num = id => { const v = parseFloat($(id).value); return isNaN(v) ? null : v; };
+const money = n => n==null?'—':n.toLocaleString('pl-PL',{minimumFractionDigits:2,maximumFractionDigits:2})+' €';
+const int = n => n==null?'—':Math.round(n).toLocaleString('pl-PL');
+const eur = n => n==null?'—':Math.round(n).toLocaleString('pl-PL')+' €';
+const pct = n => n==null?'—':(n*100).toLocaleString('pl-PL',{maximumFractionDigits:1})+'%';
+function median(arr){const a=arr.filter(x=>x!=null&&isFinite(x)).sort((x,y)=>x-y);if(!a.length)return null;const m=Math.floor(a.length/2);return a.length%2?a[m]:(a[m-1]+a[m])/2;}
+
+// === Cena: gross ↔ net; VAT z marketplace (auto, edytowalne live) ===
+// Decyzja Toma: VAT ustala WYŁĄCZNIE marketplace (B3). Ręczny VAT z arkusza (B7) ignorowany.
+const EU_VAT = {DE:19, FR:20, IT:22, ES:21, UK:20, PL:23, NL:21, BE:21, SE:25};
+function marketCode(v){ v=(v||'').toString().trim().toLowerCase();
+  if(v.includes('co.uk')||v.endsWith('.uk')||v==='uk') return 'UK';
+  const suf=v.split(/[.\s\/]/).filter(Boolean).pop()||v;
+  const c=suf.slice(0,2).toUpperCase();
+  return EU_VAT[c]!=null?c:null; }
+function syncNetFromGross(){ const g=num('priceGross'), vat=num('vat')||0; if(g!=null)$('price').value=(g/(1+vat/100)).toFixed(2); }
+function syncGrossFromNet(){ const n=num('price'), vat=num('vat')||0; if(n!=null)$('priceGross').value=(n*(1+vat/100)).toFixed(2); }
+function applyMarketVat(){ const c=marketCode($('marketplace')?$('marketplace').value:''); if(c&&EU_VAT[c]!=null)$('vat').value=EU_VAT[c]; syncNetFromGross(); }
+// Kierunek synchronizacji zależy od tego, które pole zmieniono (gross = kotwica).
+function syncPrices(id){ if(id==='priceGross'||id==='vat')syncNetFromGross(); else if(id==='price')syncGrossFromNet(); else if(id==='marketplace')applyMarketVat(); }
+
+const SERIES=[{k:'units',label:'Sztuki',color:'#2f6bff'},{k:'rev',label:'Przychód €',color:'#12a150'},{k:'prof',label:'Zysk €',color:'#e08a1e'},{k:'ppc',label:'Reklama €',color:'#d94b4b'}];
+let CH={units:[],rev:[],prof:[]};
+const CHV={units:true,rev:false,prof:false,ppc:false};
+
+// === KONFIG: produkty → opublikowany CSV URL (File→Share→Publish to web→CSV) ===
+const PRODUCTS = [
+  {name:'Electric Trap (DE)', url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vTOT3seMHzrShBF6_D8VtufchyDGmU4RukchXjXOxjS4msgKxEoiecroCHFd5fi5Hkwdu2DYRLydIxe/pub?output=csv'},
+  {name:'Allergoff Cream (DE)', url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vSDo_KlCP59503sYx8f4DhQPDNlm8QAqZPSSqNdxNP3aG65VtFtIgIwcRWGejzWx1uGkXKbjajRpnQm/pub?output=csv'},
+];
+// Snapshot danych z arkuszy — używany jako fallback, gdy fetch nie działa (np. otwarcie przez file://).
+// Po zmianie danych w Google Sheet zaktualizuj tu, ALBO otwórz dashboard przez http (serwer/hosting) — wtedy ciągnie live.
+const EMBEDDED = {
+  'Electric Trap (DE)': {marketplace:'DE',priceGross:22,cogs:2,inbound:0.2,referralPct:15,fba:2.3,storage:0.2,other:0.1,a1:2400,a2:2600,a3:1200,a4:950,a5:650,capture:0.45,niche:194000,share:0.06,top3:0.39,penStart:0.25,mktGrowth:8,tacosMature:8,baseLaunchEnd:6,baseGrowthEnd:18,basePenMonth:12},
+  'Allergoff Cream (DE)': {marketplace:'DE',priceGross:22,cogs:2,inbound:0.2,referralPct:15,fba:2.3,storage:0.2,other:0.1,a1:2400,a2:2600,a3:1200,a4:950,a5:650,capture:0.45,niche:194000,share:0.06,top3:0.39,penStart:0.25,mktGrowth:8,tacosMature:8,baseLaunchEnd:6,baseGrowthEnd:18,basePenMonth:12},
+};
+let sheetBaseline = null;
+
+function setVals(o){ IDS.forEach(id=>{ if(o[id]===undefined)return; const el=$(id); if(el) el.value=(o[id]===''||o[id]==null)?'':o[id]; }); }
+function resetToSheet(){ setVals(sheetBaseline||BASELINE); applyMarketVat(); compute(); }
+
+// Rampa start→cel z gładkim S (smoothstep), osiąga cel w miesiącu reachM, potem płasko.
+function rampTo(s,t,reachM,m){ if(s==null||t==null)return null; const R=Math.max(reachM||1,1);
+  if(m>=R)return t; const p=(m-1)/Math.max(R-1,1); const e=p*p*(3-2*p); return s+(t-s)*e; }
+// Zbiera dźwignie prognozy z pól.
+function baseGlobals(){ return {
+  penS:num('penStart'),
+  ppcLS:num('ppcLaunchStart'), ppcLE:num('ppcLaunchEnd'),
+  ppcGS:num('ppcGrowthStart'), ppcGE:num('ppcGrowthEnd'),
+  ppcMS:num('ppcMatureStart'), ppcME:num('ppcMatureEnd'),
+  tacT:num('tacosTarget'),
+  mkt:num('mktGrowth')||0 }; }
+// Scenariusz = TEMPO: własne długości faz (Launch/Growth) + miesiąc pełnej dojrzałości (penM).
+function scenLevers(pfx){ const L=baseGlobals();
+  L.stLE=Math.max(num(pfx+'LaunchEnd')||6,1);
+  L.stGE=Math.max(num(pfx+'GrowthEnd')||18, L.stLE+1);
+  L.penM=Math.max(num(pfx+'PenMonth')||12,1);
+  return L; }
+// Liniowy odcinek: od vA (mies. a) do vB (mies. b), płasko poza [a,b].
+function rampSeg(a,b,vA,vB,m){ if(vA==null||vB==null)return null; if(m<=a)return vA; if(m>=b)return vB; return vA+(vB-vA)*(m-a)/(b-a); }
+// Udział sprzedaży przez PPC — przedział per faza, rozłożony po równo na miesiące fazy (zwraca ułamek 0-1).
+function ppcShare(L,m){ const le=L.stLE, ge=Math.max(L.stGE,le+1); let v;
+  if(m<=le) v=rampSeg(1,le,L.ppcLS,L.ppcLE,m);
+  else if(m<=ge) v=rampSeg(le+1,ge,L.ppcGS,L.ppcGE,m);
+  else v=rampSeg(ge+1,Math.max(ge+6,24),L.ppcMS,L.ppcME,m);
+  return v==null?null:v/100; }
+// TACOS na projekcję (ułamek): mies. 1 = break-even (udziałPPC_start × be), schodzi do docelowego TACOS
+// na początku Mature (koniec Growth). ACOS liczony osobno jako TACOS ÷ udział PPC.
+function tacosStage(L,m,be){ const ge=Math.max(L.stGE,L.stLE+1), t=(L.tacT==null?null:L.tacT/100);
+  if(be==null||t==null)return null;
+  const psL=(L.ppcLS!=null)?L.ppcLS/100:1;   // udział PPC na starcie
+  const launchTac=psL*be;                     // TACOS startowy = ACOS break-even × udział PPC startowy
+  return rampSeg(1,ge,launchTac,t,m); }
+function stageName(L,m){ return m<=L.stLE?'Launch':(m<=L.stGE?'Growth':'Mature'); }
+// Warstwa 1: sufit rośnie z rynkiem. Warstwa 2: penetracja rośnie od penStart do 100% w miesiącu penM.
+function marketMult(L,m){ return Math.pow(1+(L.mkt||0)/100,(m-1)/12); }
+function penetration(L,m){ return (L.penS!=null)?rampTo(L.penS,1,L.penM,m):null; }
+// sztuki(m) = baseMature × wzrost_rynku(m) × penetracja(m)
+function scenMonthly(mature,L){ const a=[]; if(mature==null)return a;
+  for(let m=1;m<=60;m++){ const p=penetration(L,m); a.push(p==null?0:mature*marketMult(L,m)*p); } return a; }
+// zysk(m): reklama = TACOS×cena na sztukę (TACOS to koszt reklamy jako % przychodu). profit/szt = CM2 − TACOS×cena.
+function profitMonthly(unitsArr,L,price,fixedUnit){ const cm2=price-fixedUnit, be=price>0?cm2/price:null;
+  return unitsArr.map((u,i)=>{ const m=i+1; const tac=tacosStage(L,m,be);
+    const adU=(tac!=null)?tac*price:0; return u*(cm2-adU); }); }
+function sumK(arr,k){ return arr.length?arr.slice(0,k).reduce((a,b)=>a+b,0):null; }
+// suma sztuk/€ w danym roku y (1-5): miesiące (y-1)*12+1 .. y*12
+function sumYear(arr,y){ if(!arr.length)return null; let s=0; for(let m=(y-1)*12;m<y*12&&m<arr.length;m++)s+=arr[m]||0; return s; }
+
+function compute(){
+  // unit economics
+  const price=num('price'), vat=num('vat')||0;
+  const cogs=num('cogs')||0, inbound=num('inbound')||0, refPct=num('referralPct')||0,
+        fba=num('fba')||0, storage=num('storage')||0, ppcPct=num('tacosMature')||0, other=num('other')||0;
+  let gross=null,referral=null,ppc=null,total=null,net=null,margin=null,roi=null,be=null;
+  if(price!=null){
+    gross=price*(1+vat/100); referral=gross*refPct/100; ppc=price*ppcPct/100;
+    total=cogs+inbound+referral+fba+storage+ppc+other;
+    net=price-total; margin=price>0?net/price:null; roi=total>0?net/total:null;
+    be=(refPct+ppcPct)<100?total/(1-(refPct+ppcPct)/100):null;
+  }
+  // Panel wyniku = wodospad CM. Total/ROI/Break-even to linie poza wodospadem.
+  $('o-total').textContent=money(total);
+  { const e=$('o-roi'); e.textContent=pct(roi); e.className=(roi==null?'':roi>1?'pos':roi>=0.5?'warn':'neg'); }
+  $('o-be').textContent=money(be);
+  { const setT=(id,v)=>{const e=$(id);if(e)e.textContent=v;};
+    if(price!=null){ const cm1=price-cogs-inbound, cm2=cm1-referral-fba-storage-other, cm3=cm2-ppc;
+      setT('cm-rev',money(price));
+      const m1=price>0?cm1/price:null, m2=price>0?cm2/price:null, m3=price>0?cm3/price:null;
+      setT('cm1',money(cm1)); setT('cm1p',pct(m1));
+      setT('cm2',money(cm2)); setT('cm2p',pct(m2));
+      setT('cm3',money(cm3)); setT('cm3p',pct(m3));
+      // marża zielona, gdy w sugerowanym przedziale lub wyżej (dolna granica), inaczej czerwona
+      const mark=(id,mg,thr)=>{const e=$(id); if(e) e.className=(mg==null?'':mg>=thr?'pos':'neg');};
+      mark('cm1p',m1,0.70); mark('cm2p',m2,0.35); mark('cm3p',m3,0.20);
+      // tło wiersza CM: zielone gdy marża w przedziale (dolna granica) lub wyżej, inaczej czerwone
+      const markRow=(id,mg,thr)=>{const e=$(id); if(!e)return; const tr=e.closest('tr'); if(!tr)return; tr.classList.remove('cm-good','cm-bad'); if(mg!=null) tr.classList.add(mg>=thr?'cm-good':'cm-bad');};
+      markRow('cm1',m1,0.70); markRow('cm2',m2,0.35); markRow('cm3',m3,0.20);
+      const e3=$('cm3'); if(e3) e3.className=(cm3>=0?'pos':'neg');
+      setT('cm-cogs',money(-cogs)); setT('cm-inb',money(-inbound));
+      setT('cm-ref',money(-referral)); setT('cm-fba',money(-fba)); setT('cm-stor',money(-storage));
+      setT('cm-ppc',money(-ppc)); setT('cm-oth',money(-other));
+    } else { ['cm-rev','cm1','cm1p','cm2','cm2p','cm3','cm3p','cm-cogs','cm-inb','cm-ref','cm-fba','cm-stor','cm-ppc','cm-oth'].forEach(id=>setT(id,'—')); ['cm1p','cm2p','cm3p','cm3'].forEach(id=>{const e=$(id);if(e)e.className='';}); ['cm1','cm2','cm3'].forEach(id=>{const e=$(id);if(e){const tr=e.closest('tr');if(tr)tr.classList.remove('cm-good','cm-bad');}}); } }
+
+  // triangulation
+  const med=median([num('a1'),num('a2'),num('a3'),num('a4'),num('a5'),num('a6'),num('a7'),num('a8'),num('a9'),num('a10')]), cap=num('capture');
+  const mA=(med!=null&&cap!=null)?med*cap:null;
+  const niche=num('niche'), share=num('share');
+  const mB=(niche!=null&&share!=null)?niche*share/12:null;
+  // SOP: średnia ważona dwóch metod — A = kotwica (3), B = kontrola rynku (2) → 60% / 40%.
+  // Wagi renormalizowane, gdy metoda pusta (np. brak niszy → sama A). Outliery wywala bramka QA (RUNBOOK).
+  const W={A:0.6,B:0.4};
+  const wparts=[[mA,W.A],[mB,W.B]].filter(p=>p[0]!=null&&isFinite(p[0]));
+  let base=null, wsum=0;
+  if(wparts.length){
+    wsum=wparts.reduce((s,p)=>s+p[1],0);
+    base=wparts.reduce((s,p)=>s+p[0]*p[1],0)/wsum;
+  }
+  const effW=w=>wsum>0?w/wsum:0;
+  const methods=[mA,mB].filter(x=>x!=null&&isFinite(x));
+  const spread=(base&&base>0&&methods.length>1)?(Math.max(...methods)-Math.min(...methods))/base:null;
+  const wtag=(m,w)=>m==null?'—':int(m)+' · waga '+Math.round(effW(w)*100)+'%';
+  $('o-mA').textContent=wtag(mA,W.A);
+  $('o-mB').textContent=wtag(mB,W.B);
+  $('o-base').textContent=int(base);
+  $('o-spread').textContent=pct(spread);
+
+  // scenarios — różnią się TEMPEM (długości faz + rampa), nie mnożnikiem. BASE ten sam we wszystkich.
+  const scenDefs=[
+    {k:'cons',label:'Konserwatywny',pfx:'cons'},
+    {k:'base',label:'Bazowy',pfx:'base'},
+    {k:'opt', label:'Optymistyczny',pfx:'opt'}];
+  const rev=u=>(u!=null&&price!=null)?u*price:null;
+  const fxU={cogs,inbound,referral,fba,storage,other};
+  const fixedUnit=(price!=null)?cogs+inbound+referral+fba+storage+other:null;
+  const nicheMo=(niche!=null?niche/12:null);
+  const perScen=scenDefs.map(s=>{
+    const L=scenLevers(s.pfx);
+    const mth=scenMonthly(base,L);
+    const pm=(price!=null&&fixedUnit!=null)?profitMonthly(mth,L,price,fixedUnit):[];
+    const uY=[1,2,3,4,5].map(y=>sumYear(mth,y));
+    const rY=uY.map(u=>rev(u));
+    const pY=pm.length?[1,2,3,4,5].map(y=>sumYear(pm,y)):[null,null,null,null,null];
+    return {...s,L,uY,rY,pY,mth,pm};
+  });
+  // podsumowanie faz per scenariusz — mini-oś czasu (kolory jak fazy w tabeli)
+  perScen.forEach(s=>{ const el=$('sum-'+s.k); if(!el)return;
+    const T=60, le=Math.min(s.L.stLE,T), ge=Math.min(s.L.stGE,T), pm=Math.min(s.L.penM,T);
+    const wL=le/T*100, wG=Math.max(0,ge-le)/T*100, wM=Math.max(0,T-ge)/T*100;
+    el.innerHTML=
+      `<div class="ph-bar">`+
+      `<div class="ph-seg ph-l" style="width:${wL}%">L 1–${le}</div>`+
+      `<div class="ph-seg ph-g" style="width:${wG}%">G ${le+1}–${ge}</div>`+
+      `<div class="ph-seg ph-m" style="width:${wM}%">M ${ge+1}+</div>`+
+      `<div class="ph-marker" style="left:${pm/T*100}%" title="100% BASE w M${s.L.penM}"></div>`+
+      `</div>`+
+      `<div class="ph-cap">▏ pełna dojrzałość (100% BASE): <b>M${s.L.penM}</b></div>`; });
+  const yrLbl=['Rok 1 (M1–12)','Rok 2 (M13–24)','Rok 3 (M25–36)','Rok 4 (M37–48)','Rok 5 (M49–60)'];
+  const sum5=a=>a.reduce((x,y)=>x+((y!=null&&isFinite(y))?y:0),0);
+
+  // dolna tabela porównania — kolumna Bazowy wyróżniona; wiersze = Rok 1–5 + Σ 5 lat
+  const head='<thead><tr><th></th>'+perScen.map(s=>`<th class="tc-${s.k} ${s.k==='base'?'selcol':''}">${s.label}</th>`).join('')+'</tr></thead>';
+  const line=(lbl,f,cls)=>`<tr class="${cls||''}"><td>${lbl}</td>`+perScen.map(s=>`<td class="${s.k==='base'?'selcol':''}">${f(s)}</td>`).join('')+'</tr>';
+  $('scenTable').innerHTML=head+'<tbody>'+
+    yrLbl.map((lbl,i)=>line('Sztuki — '+lbl,s=>int(s.uY[i]))).join('')+
+    line('Sztuki — Σ 5 lat',s=>int(sum5(s.uY)),'yoyrow')+
+    yrLbl.map((lbl,i)=>line('Przychód — '+lbl,s=>eur(s.rY[i]))).join('')+
+    line('Przychód — Σ 5 lat',s=>eur(sum5(s.rY)),'yoyrow')+
+    yrLbl.map((lbl,i)=>line('Zysk — '+lbl,s=>eur(s.pY[i]))).join('')+
+    line('Zysk — Σ 5 lat',s=>eur(sum5(s.pY)),'yoyrow')+'</tbody>';
+
+  // główna prognoza = Bazowy; Konserwatywny/Optymistyczny w zwijanych tabelach
+  const baseS=perScen.find(s=>s.k==='base'), consS=perScen.find(s=>s.k==='cons'), optS=perScen.find(s=>s.k==='opt');
+  const beA=(price!=null&&price>0&&fixedUnit!=null)?(price-fixedUnit)/price:null;
+  const adM=baseS.mth.map((u,i)=>{ const m=i+1; const tac=tacosStage(baseS.L,m,beA); return (tac!=null)?u*tac*price:0; });
+  // panel = sprzedaż rok po roku (Rok 1…5), każdy rok osobno — NIE narastająco
+  $('fc-body').innerHTML=[1,2,3,4,5].map(y=>{ const u=sumYear(baseS.mth,y), p=baseS.pm.length?sumYear(baseS.pm,y):null;
+    return `<tr><td>Rok ${y}</td><td>${int(u)}</td><td>${eur(rev(u))}</td><td style="color:#b53838">${eur(sumYear(adM,y))}</td><td class="${p==null?'':p>=0?'pos':'neg'}">${eur(p)}</td></tr>`; }).join('');
+  CH.units=baseS.mth.slice();
+  CH.rev=(price!=null)?baseS.mth.map(u=>u*price):[];
+  CH.prof=baseS.pm.length?baseS.pm.slice():[];
+  CH.ppc=adM.slice();
+  renderChart();
+  buildMonthTable(baseS.mth, price, fxU, baseS.L, nicheMo, 'monthTable', true);
+  buildMonthTable(consS.mth, price, fxU, consS.L, nicheMo, 'monthTableCons', true);
+  buildMonthTable(optS.mth,  price, fxU, optS.L,  nicheMo, 'monthTableOpt', true);
+}
+
+function initChartToggles(){
+  $('chToggles').innerHTML=SERIES.map(s=>
+    `<button class="tog${CHV[s.k]?' on':''}" style="${CHV[s.k]?'background:'+s.color+';border-color:'+s.color:''}" onclick="toggleSeries('${s.k}')">${s.label}</button>`).join('');
+}
+function toggleSeries(k){ CHV[k]=!CHV[k]; initChartToggles(); renderChart(); }
+
+function renderChart(){
+  const c=$('chart'),ctx=c.getContext('2d');
+  const W=c.width=(c.clientWidth||600)*2, H=c.height=340;
+  ctx.clearRect(0,0,W,H);
+  const pad=36, slot=(W-pad*2)/60;
+  ctx.strokeStyle='#e5eaf2';ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(pad,H-pad);ctx.lineTo(W-pad,H-pad);ctx.stroke();
+  ctx.fillStyle='#7a8698';ctx.font='19px sans-serif';
+  [1,12,24,36,48,60].forEach(m=>ctx.fillText('M'+m,pad+(m-1)*slot,H-9));
+  const shown=SERIES.filter(s=>CHV[s.k]&&CH[s.k]&&CH[s.k].length);
+  if(!shown.length)return;
+  let max=0; shown.forEach(s=>{const mx=Math.max(...CH[s.k]);if(mx>max)max=mx;}); max=max*1.12||1;
+  const n=shown.length, gap=slot*0.22, bw=(slot-gap)/n;
+  for(let i=0;i<60;i++){
+    shown.forEach((s,j)=>{ const v=CH[s.k][i]||0, h=(v/max)*(H-pad*2);
+      ctx.fillStyle=s.color; ctx.fillRect(pad+i*slot+gap/2+j*bw, H-pad-h, Math.max(bw-1.5,1), h); });
+  }
+}
+
+function mCell(v,t){ if(t==='text')return (v==null||v==='')?'—':String(v);
+  if(v==null||!isFinite(v))return '—';
+  if(t==='int')return Math.round(v).toLocaleString('pl-PL');
+  if(t==='pct')return (v*100).toLocaleString('pl-PL',{maximumFractionDigits:1})+'%';
+  if(t==='pct2')return (v*100).toLocaleString('pl-PL',{maximumFractionDigits:2})+'%';
+  if(t==='mult')return '×'+v.toLocaleString('pl-PL',{minimumFractionDigits:2,maximumFractionDigits:2});
+  return Math.round(v).toLocaleString('pl-PL')+' €'; }
+
+function buildMonthTable(units,price,fx,L,nicheMo,tid,full){
+  const T=$(tid||'monthTable'); if(!T)return;
+  if(!units.length||price==null){ T.innerHTML='<tbody><tr><td class="mt-lab">Uzupełnij dane…</td></tr></tbody>'; return; }
+  const M=units.length;
+  const reachM=Math.min(M, Math.max(1, Math.round(L.penM||12)));
+  const fixed=fx.cogs+fx.inbound+fx.referral+fx.fba+fx.storage+fx.other, cm2=price-fixed, be=price>0?cm2/price:null;
+  // dźwignie per miesiąc
+  const psM=[],acM=[],tacM=[],penM=[],mktM=[],adUM=[],netUM=[],margM=[],roiM=[],phaseM=[];
+  for(let i=0;i<M;i++){ const m=i+1;
+    const ps=ppcShare(L,m), tac=tacosStage(L,m,be);
+    psM.push(ps); tacM.push(tac);
+    acM.push((tac!=null&&ps!=null&&ps>0)?tac/ps:null);   // ACOS wynikowy = TACOS ÷ udział PPC
+    const adU=(tac!=null)?tac*price:0; adUM.push(adU);
+    phaseM.push(stageName(L,m));
+    penM.push(penetration(L,m));
+    mktM.push(marketMult(L,m));
+    const nu=cm2-adU; netUM.push(nu);
+    const tot=fixed+adU;
+    margM.push(price>0?nu/price:null); roiM.push(tot>0?nu/tot:null);
+  }
+  const rows=[
+    {l:'Sprzedaż',t:'money',tone:'g',v:units.map(u=>u*price)},
+    {l:'Sztuki',t:'int',tone:'g',v:units.slice()},
+    {l:'Reklama (PPC)',t:'money',tone:'r',v:units.map((u,i)=>-u*adUM[i])},
+    {l:'Referral fee',t:'money',tone:'r',v:units.map(u=>-u*fx.referral)},
+    {l:'FBA fee',t:'money',tone:'r',v:units.map(u=>-u*fx.fba)},
+    {l:'Storage',t:'money',tone:'r',v:units.map(u=>-u*fx.storage)},
+    {l:'COGS',t:'money',tone:'r',v:units.map(u=>-u*fx.cogs)},
+    {l:'Inbound',t:'money',tone:'r',v:units.map(u=>-u*fx.inbound)},
+    {l:'Other',t:'money',tone:'r',v:units.map(u=>-u*fx.other)},
+    {l:'Zysk netto',t:'money',tone:'g',v:units.map((u,i)=>u*netUM[i]),strong:1},
+    {l:'Marża',t:'pct',tone:'g',v:margM.slice()},
+    {l:'ROI',t:'pct',tone:'g',v:roiM.slice()},
+    {sep:1},
+    {l:'Faza (Launch/Growth/Mature)',t:'text',phase:1,v:phaseM.slice()},
+  ];
+  if(full){ rows.push(
+    {l:'Sprzedaż PPC (%)',t:'pct',tone:'r',v:psM.slice()},
+    {l:'Sprzedaż organiczna (%)',t:'pct',tone:'g',v:psM.map(x=>x==null?null:1-x)},
+    {l:'TACOS (docelowy → napędza projekcję)',t:'pct',tone:'r',v:tacM.slice()},
+    {l:'ACOS (wynikowy = TACOS ÷ udział PPC)',t:'pct',tone:'r',v:acM.slice()} ); }
+  rows.push(
+    {l:'Penetracja (do celu)',t:'pct',tone:'g',v:penM.slice()},
+    {l:'Wzrost rynku (×)',t:'mult',tone:'g',v:mktM.slice()},
+    {l:'Udział rynku (efekt.)',t:'pct2',tone:'g',v:units.map((u,i)=>nicheMo?u/(nicheMo*mktM[i]):null)}
+  );
+  let html='<thead><tr><th class="mt-lab">Parametr / miesiąc</th>';
+  for(let i=1;i<=M;i++){ const cl=`${i===reachM?'mt-reach ':''}${i>24?'y'+Math.ceil(i/12):''}`.trim(); html+=`<th${cl?` class="${cl}"`:''}${i===reachM?' title="Miesiąc osiągnięcia BASE — pełna dojrzałość (penetracja 100%)"':''}>M${i}</th>`; }
+  html+=[1,2,3,4,5].map(y=>`<th class="mt-sum cy${y}">Σ Rok ${y}</th>`).join('');
+  html+='</tr></thead><tbody>';
+  rows.forEach(r=>{
+    if(r.sep){ let sc=''; for(let i=1;i<=M;i++){ const cl=`${i===reachM?'mt-reach ':''}${i>24?'y'+Math.ceil(i/12):''}`.trim(); sc+='<td'+(cl?` class="${cl}"`:'')+'></td>'; } html+=`<tr class="mt-sep"><td class="mt-lab">— dźwignie (jak rosną w czasie) —</td>${sc}${[1,2,3,4,5].map(y=>`<td class="mt-sum cy${y}"></td>`).join('')}</tr>`; return; }
+    const nums=r.v.filter(x=>x!=null&&isFinite(x)).map(Math.abs);
+    const mn=nums.length?Math.min(...nums):0, mx=nums.length?Math.max(...nums):0;
+    html+=`<tr${r.strong?' class="mt-strong"':''}><td class="mt-lab">${r.l}</td>`;
+    r.v.forEach((v,idx)=>{ let bg='';
+      if(r.phase){ bg = v==='Launch'?'background:rgba(217,75,75,0.30)':v==='Growth'?'background:rgba(240,150,40,0.34)':v==='Mature'?'background:rgba(31,157,85,0.28)':''; }
+      else if(v!=null&&isFinite(v)&&mx>mn){ const t=(Math.abs(v)-mn)/(mx-mn), a=(0.08+t*0.40).toFixed(2);
+        bg=r.tone==='r'?`background:rgba(217,75,75,${a})`:`background:rgba(31,157,85,${a})`; }
+      const col=r.tone==='r'?'color:#b53838;':'';
+      html+=`<td class="${(idx+1)===reachM?'mt-reach ':''}${(idx+1)>24?'y'+Math.ceil((idx+1)/12):''}" style="${bg};${col}">${mCell(v,r.t)}</td>`; });
+    if(r.t==='money'||r.t==='int'){
+      // suma danego roku (nie narastająco): rok y = miesiące (y-1)*12 .. y*12
+      const ysum=y=>r.v.slice((y-1)*12,y*12).reduce((a,b)=>a+((b!=null&&isFinite(b))?b:0),0);
+      const col=r.tone==='r'?'color:#b53838;':'';
+      html+=[1,2,3,4,5].map(y=>`<td class="mt-sum cy${y}" style="${col}">${mCell(ysum(y),r.t)}</td>`).join('');
+    } else {
+      html+=[1,2,3,4,5].map(y=>`<td class="mt-sum cy${y}">—</td>`).join('');
+    }
+    html+='</tr>';
+  });
+  T.innerHTML=html+'</tbody>';
+}
+
+function applyLockStyles(){
+  IDS.forEach(id=>{ const el=$(id); if(!el)return; const wrap=el.closest('.inp');
+    const ico=document.createElement('span'); ico.className='ico';
+    if(PLAYABLE.includes(id)){ el.classList.add('play'); ico.textContent='✎'; ico.style.color='#e0a92a'; }
+    else { el.classList.add('lock'); el.readOnly=true; if(el.tagName==='SELECT')el.disabled=true; ico.textContent='🔒'; ico.title='Zablokowane — dane z arkusza'; }
+    if(wrap) wrap.insertBefore(ico, el);
+  });
+}
+
+function parseCSV(txt){
+  const rows=[]; txt=txt.replace(/\r/g,'');
+  txt.split('\n').forEach(line=>{ const f=[]; let cur='',q=false;
+    for(let i=0;i<line.length;i++){const c=line[i];
+      if(q){ if(c=='"'){ if(line[i+1]=='"'){cur+='"';i++;} else q=false; } else cur+=c; }
+      else { if(c=='"')q=true; else if(c==','){f.push(cur);cur='';} else cur+=c; } }
+    f.push(cur); rows.push(f); });
+  return rows;
+}
+function useData(data, hits){ data=data||{};
+  const merged={...BASELINE, ...data};
+  // Arkusz trzyma tylko scenariusz Bazowy. Konserwatywny i Optymistyczny startują od Bazowego,
+  // a oglądający dashboard różnicuje je ręcznie.
+  ['LaunchEnd','GrowthEnd','PenMonth'].forEach(k=>{
+    if(data['cons'+k]===undefined) merged['cons'+k]=merged['base'+k];
+    if(data['opt'+k]===undefined)  merged['opt'+k] =merged['base'+k];
+  });
+  setVals(merged); sheetBaseline={...merged}; applyMarketVat(); compute(); }
+function loadFromUrl(url, fallback){
+  url=(url||'').trim(); const st=$('loadStatus');
+  if(!url){ st.textContent='Podaj CSV URL albo wybierz produkt.'; return; }
+  st.textContent='Wczytuję…';
+  const bust=url+(url.includes('?')?'&':'?')+'_='+Date.now();
+  fetch(bust,{cache:'no-store'}).then(r=>{ if(!r.ok)throw new Error(r.status); return r.text(); })
+  .then(txt=>{ const rows=parseCSV(txt); const data={}; let hits=0;
+    rows.forEach(f=>{ const key=(f[3]||'').trim(), val=(f[1]||'').trim();
+      if(key && IDS.includes(key)){ data[key]=val; hits++; } });
+    if(!hits) throw new Error('0 pól');
+    useData(data); st.textContent='✓ Wczytano '+hits+' pól z arkusza (live).';
+  }).catch(e=>{ if(fallback){ useData(fallback); st.textContent='✓ Dane wbudowane (offline — fetch nie działa na file://). Live po otwarciu przez http/hosting.'; } else { st.textContent='Błąd ('+e.message+'). Otwórz przez http (serwer/hosting) — file:// blokuje pobieranie z Google.'; } });
+}
+function onProductPick(){ const sel=$('productSel'), url=sel.value; const name=sel.options[sel.selectedIndex]?sel.options[sel.selectedIndex].text:''; if(url){ $('csvUrl').value=url; loadFromUrl(url, EMBEDDED[name]); } }
+function initProducts(){ $('productSel').innerHTML='<option value="">— wybierz produkt —</option>'+PRODUCTS.map(p=>`<option value="${p.url}">${p.name}</option>`).join(''); }
+
+function chartTip(e){
+  const c=$('chart'), rect=c.getBoundingClientRect(), tip=$('chTip');
+  const padCSS=18, slotCSS=(rect.width-padCSS*2)/60;
+  const i=Math.floor((e.clientX-rect.left-padCSS)/slotCSS);
+  if(i<0||i>59||!CH.units.length){ tip.style.display='none'; return; }
+  let html=`<div class="m">Miesiąc ${i+1}</div><div class="u">Sztuki: ${int(CH.units[i])}</div>`;
+  if(CH.rev.length) html+=`<div class="r">Przychód: ${eur(CH.rev[i])}</div>`;
+  if(CH.ppc&&CH.ppc.length) html+=`<div class="r" style="color:#e58a8a">Reklama: ${eur(CH.ppc[i])}</div>`;
+  if(CH.prof.length) html+=`<div class="p">Zysk: ${eur(CH.prof[i])}</div>`;
+  tip.innerHTML=html; tip.style.display='block';
+  let lx=e.clientX+14; if(lx>window.innerWidth-160) lx=e.clientX-150;
+  tip.style.left=lx+'px'; tip.style.top=(e.clientY+14)+'px';
+}
+
+document.addEventListener('input',e=>{ syncPrices(e.target&&e.target.id); compute(); });
+document.addEventListener('change',e=>{ syncPrices(e.target&&e.target.id); compute(); });
+initProducts(); initChartToggles(); applyLockStyles();
+document.body.classList.add('collapse-y3','collapse-y4','collapse-y5'); syncYrBtns();
+setVals(BASELINE); applyMarketVat(); compute();
+window.addEventListener('resize',renderChart);
+$('chart').addEventListener('mousemove',chartTip);
+$('chart').addEventListener('mouseleave',()=>$('chTip').style.display='none');
+</script>
+</body>
+</html>
