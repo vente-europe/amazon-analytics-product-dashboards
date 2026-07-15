@@ -36,13 +36,6 @@
       "file": "index.html"
     },
     {
-      "id": "WASP-VOC",
-      "title": "Wasp VOC",
-      "group": "detailed",
-      "template": "standalone",
-      "file": "index.html"
-    },
-    {
       "id": "wasp-us",
       "title": "WASP (US)",
       "group": "detailed",
