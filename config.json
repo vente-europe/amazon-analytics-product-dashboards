@@ -43,6 +43,13 @@
       "file": "index.html"
     },
     {
+      "id": "wasp-us",
+      "title": "WASP (US)",
+      "group": "detailed",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
       "id": "shampoo-atopic",
       "title": "Shampoo — Atopic (DE, UK, FR, IT, ES)",
       "group": "topline",
