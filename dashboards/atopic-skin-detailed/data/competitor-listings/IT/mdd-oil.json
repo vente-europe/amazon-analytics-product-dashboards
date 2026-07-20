@@ -35,14 +35,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "naturalny": [
      "BP"
     ],
     "dermatologiczny": [
      "BP"
     ],
-    "naturalny": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "nawilzenie": [
      "BP"
@@ -50,12 +54,8 @@
     "wchlanianie": [
      "BP"
     ],
-    "kojacy": [
-     "T",
+    "odzywczy": [
      "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
     ]
    },
    "price": 15.42,
@@ -95,14 +95,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "hipoalergiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
     "dermatologiczny": [
      "T",
      "BP"
     ],
-    "bariera": [
-     "BP"
-    ],
-    "naturalny": [
+    "cena_pojemnosc": [
      "T",
      "BP"
     ],
@@ -110,11 +114,7 @@
      "T",
      "BP"
     ],
-    "hipoalergiczny": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
+    "bariera": [
      "BP"
     ]
    },
@@ -154,22 +154,22 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T"
+    "dla_dzieci": [
+     "T",
+     "BP"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "dla_dzieci": [
+    "naturalny": [
      "T",
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
     ],
-    "naturalny": [
-     "T",
-     "BP"
+    "nawilzenie": [
+     "T"
     ]
    },
    "price": 52.42,
@@ -208,22 +208,22 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T"
+    "dla_dzieci": [
+     "T",
+     "BP"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "dla_dzieci": [
+    "naturalny": [
      "T",
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
     ],
-    "naturalny": [
-     "T",
-     "BP"
+    "nawilzenie": [
+     "T"
     ]
    },
    "price": 16.46,
@@ -262,22 +262,22 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T"
+    "dla_dzieci": [
+     "T",
+     "BP"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "dla_dzieci": [
+    "naturalny": [
      "T",
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
     ],
-    "naturalny": [
-     "T",
-     "BP"
+    "nawilzenie": [
+     "T"
     ]
    },
    "price": 19.89,
@@ -423,7 +423,7 @@
    "addressed": 0,
    "total": 5,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -455,7 +455,7 @@
    "addressed": 0,
    "total": 5,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -556,7 +556,7 @@
  "recs": [
   {
    "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Brak skuteczności na rozstępy i blizny, Reakcje skórne, świąd i alergia, Opakowanie, brak plomby i podróbki — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "finding": "Negatywy VOC dotyczą: Reakcje skórne, świąd i alergia, Cena i nieprzyjemny zapach — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
    "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
   },
   {

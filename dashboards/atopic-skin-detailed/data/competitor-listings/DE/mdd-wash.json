@@ -30,21 +30,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T",
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
      "BP"
     ],
     "odzywczy": [
-     "BP"
-    ],
-    "dermatologiczny": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "naturalny": [
+    "nawilzenie": [
+     "T",
      "BP"
     ]
    },
@@ -82,20 +82,20 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T"
-    ],
     "dla_dzieci": [
      "T"
     ],
-    "nawilzenie": [
-     "BP"
+    "skora_atopowa": [
+     "T"
     ],
     "bez_zapachu": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
+    ],
+    "nawilzenie": [
+     "BP"
     ]
    },
    "price": 10.83,
@@ -169,11 +169,11 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
-     "BP"
-    ],
     "swiad": [
      "T"
+    ],
+    "odzywczy": [
+     "BP"
     ],
     "cena_pojemnosc": [
      "T"
@@ -248,6 +248,10 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "swiad": [
+     "T",
+     "BP"
+    ],
     "skora_atopowa": [
      "T",
      "BP"
@@ -255,16 +259,12 @@
     "kojacy": [
      "T"
     ],
+    "naturalny": [
+     "T"
+    ],
     "cena_pojemnosc": [
      "T",
      "BP"
-    ],
-    "swiad": [
-     "T",
-     "BP"
-    ],
-    "naturalny": [
-     "T"
     ]
    },
    "price": 11.56,
@@ -386,7 +386,7 @@
    "addressed": 0,
    "total": 6,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -434,7 +434,7 @@
    "addressed": 0,
    "total": 6,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -444,7 +444,7 @@
    "addressed": 0,
    "total": 6,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   }
  ],
@@ -513,11 +513,6 @@
   }
  ],
  "recs": [
-  {
-   "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Wypryski i trądzik, Nie olejek, tylko pieniący żel, Problemy z wysyłką i opakowaniem — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
-   "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
-  },
   {
    "type": "Pozycjonowanie",
    "finding": "Nisko wysycone claimy: Bez zapachu / perfum, Dermatologicznie testowany.",

@@ -34,17 +34,6 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "wchlanianie": [
-     "T",
-     "BP"
-    ],
     "dla_dzieci": [
      "BP"
     ],
@@ -52,10 +41,21 @@
      "T",
      "BP"
     ],
+    "dermatologiczny": [
+     "BP"
+    ],
     "cena_pojemnosc": [
      "T"
     ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
     "swiad": [
+     "BP"
+    ],
+    "wchlanianie": [
+     "T",
      "BP"
     ]
    },
@@ -90,20 +90,20 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "BP"
-    ],
-    "odzywczy": [
+    "dla_dzieci": [
      "BP"
     ],
     "skora_atopowa": [
      "BP"
     ],
-    "dla_dzieci": [
+    "odzywczy": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
+    ],
+    "nawilzenie": [
+     "BP"
     ]
    },
    "price": 5.23,
@@ -225,7 +225,7 @@
    "addressed": 0,
    "total": 2,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -269,7 +269,7 @@
    "addressed": 0,
    "total": 2,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   }
  ],
@@ -324,7 +324,7 @@
  "recs": [
   {
    "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Zapach zbyt mocny i nieprzyjemny, Brak skuteczności na rozstępy i blizny, Obawy o skład i bezpieczeństwo w ciąży — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "finding": "Negatywy VOC dotyczą: Zapach zbyt mocny i nieprzyjemny, Obawy o skład i bezpieczeństwo w ciąży — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
    "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
   },
   {

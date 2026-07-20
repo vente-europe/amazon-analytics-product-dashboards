@@ -38,7 +38,12 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T",
      "BP"
     ],
     "bez_zapachu": [
@@ -47,30 +52,25 @@
     "dermatologiczny": [
      "BP"
     ],
-    "bariera": [
-     "T",
-     "BP"
-    ],
     "naturalny": [
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ],
     "nawilzenie": [
      "T",
      "BP"
     ],
-    "skora_atopowa": [
+    "bariera": [
      "T",
      "BP"
     ],
     "wchlanianie": [
      "BP"
     ],
-    "kojacy": [
-     "T",
+    "odzywczy": [
      "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
     ]
    },
    "price": 11.9,
@@ -109,27 +109,27 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bariera": [
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
      "BP"
     ],
     "naturalny": [
      "T",
      "BP"
     ],
-    "skora_atopowa": [
-     "T",
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "nawilzenie": [
      "BP"
     ],
-    "kojacy": [
+    "swiad": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "swiad": [
+    "bariera": [
      "BP"
     ]
    },
@@ -163,10 +163,6 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
     "dla_dzieci": [
      "T",
      "BP"
@@ -174,10 +170,14 @@
     "dermatologiczny": [
      "BP"
     ],
+    "naturalny": [
+     "BP"
+    ],
     "cena_pojemnosc": [
      "T"
     ],
-    "naturalny": [
+    "nawilzenie": [
+     "T",
      "BP"
     ]
    },
@@ -215,18 +215,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T",
+    "bariera": [
      "BP"
     ],
     "odzywczy": [
      "T",
      "BP"
     ],
-    "bariera": [
+    "cena_pojemnosc": [
      "BP"
     ],
-    "cena_pojemnosc": [
+    "nawilzenie": [
+     "T",
      "BP"
     ]
    },
@@ -261,10 +261,10 @@
     "kojacy"
    ],
    "themeSrc": {
-    "nawilzenie": [
+    "kojacy": [
      "BP"
     ],
-    "kojacy": [
+    "nawilzenie": [
      "BP"
     ]
    },
@@ -304,21 +304,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
+    "kojacy": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ],
     "bez_zapachu": [
      "T",
      "BP"
     ],
-    "dermatologiczny": [
-     "BP"
-    ],
-    "kojacy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T"
+    ],
+    "nawilzenie": [
+     "BP"
     ]
    },
    "price": 12.99,
@@ -363,37 +363,37 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bez_zapachu": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "naturalny": [
+    "dla_dzieci": [
      "BP"
     ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "dla_dzieci": [
-     "BP"
-    ],
     "hipoalergiczny": [
      "T",
+     "BP"
+    ],
+    "bez_zapachu": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
     ],
+    "nawilzenie": [
+     "BP"
+    ],
     "swiad": [
      "T",
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ]
    },
@@ -431,8 +431,7 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T",
+    "naturalny": [
      "BP"
     ],
     "dermatologiczny": [
@@ -442,7 +441,8 @@
     "cena_pojemnosc": [
      "T"
     ],
-    "naturalny": [
+    "nawilzenie": [
+     "T",
      "BP"
     ]
    },
@@ -486,7 +486,12 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T",
      "BP"
     ],
     "bez_zapachu": [
@@ -496,25 +501,20 @@
     "dermatologiczny": [
      "BP"
     ],
-    "bariera": [
-     "T",
-     "BP"
-    ],
-    "skora_atopowa": [
-     "T",
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "nawilzenie": [
      "BP"
     ],
-    "kojacy": [
+    "swiad": [
+     "BP"
+    ],
+    "bariera": [
      "T",
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "swiad": [
+    "odzywczy": [
      "BP"
     ]
    },
@@ -557,7 +557,12 @@
     "odzywczy"
    ],
    "themeSrc": {
-    "odzywczy": [
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T",
      "BP"
     ],
     "bez_zapachu": [
@@ -567,22 +572,17 @@
     "dermatologiczny": [
      "BP"
     ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "swiad": [
+     "BP"
+    ],
     "bariera": [
      "T",
      "BP"
     ],
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "kojacy": [
-     "T",
-     "BP"
-    ],
-    "swiad": [
+    "odzywczy": [
      "BP"
     ]
    },
@@ -624,7 +624,14 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
+    "dla_dzieci": [
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
      "BP"
     ],
     "dermatologiczny": [
@@ -633,21 +640,14 @@
     "naturalny": [
      "BP"
     ],
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "dla_dzieci": [
-     "BP"
-    ],
-    "kojacy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
     "swiad": [
+     "BP"
+    ],
+    "odzywczy": [
      "BP"
     ]
    },
@@ -672,10 +672,10 @@
     "kojacy"
    ],
    "themeSrc": {
-    "nawilzenie": [
+    "kojacy": [
      "T"
     ],
-    "kojacy": [
+    "nawilzenie": [
      "T"
     ]
    },
@@ -860,7 +860,7 @@
    "addressed": 0,
    "total": 12,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -884,7 +884,7 @@
    "addressed": 0,
    "total": 12,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -985,7 +985,7 @@
  "recs": [
   {
    "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Uszkodzone opakowanie i wadliwa pompka, Słaba piana i konsystencja, Skład i zmiana formuły — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "finding": "Negatywy VOC dotyczą: Skład i zmiana formuły — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
    "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
   },
   {

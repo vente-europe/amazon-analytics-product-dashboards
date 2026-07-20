@@ -93,6 +93,9 @@ No A+/Brand-Story compare — SP-API does not expose that data.
   #u-mdd-root .sev.HIGH{background:#fee2e2;color:#b91c1c}
   #u-mdd-root .sev.MED{background:#fef3c7;color:#b45309}
   #u-mdd-root .sev.LOW{background:#dcfce7;color:#15803d}
+  /* Ból spoza słownika claimów (opakowanie, cena, rozjazd oczekiwań). Nie jest
+     luką w komunikacji konkurencji, więc celowo szary, nie czerwony. */
+  #u-mdd-root .sev.OUT_OF_SCOPE{background:#f1f5f9;color:#64748b;font-weight:700}
   #u-mdd-root .ws-item{border-left:3px solid #16a34a;background:#f0fdf4;border-radius:6px;padding:9px 12px;margin-bottom:8px}
   #u-mdd-root .ws-item .wl{font-weight:700;color:#0f2942;font-size:.78rem}
   #u-mdd-root .ws-item .ww{font-size:.7rem;color:#475569;margin-top:2px}
@@ -175,7 +178,7 @@ No A+/Brand-Story compare — SP-API does not expose that data.
   var nHigh     = vocGap.filter(function(g){ return g.sev === 'HIGH'; }).length;
   var avgClaims = (D.avgClaims != null) ? D.avgClaims : '—';
   var SRCCLS    = { 'T':'t', 'BP':'bp', 'A+':'ap' };
-  var SEV_PL    = { HIGH:'Pilna', MED:'Średnia', LOW:'Niska' };
+  var SEV_PL    = { HIGH:'Pilna', MED:'Średnia', LOW:'Niska', OUT_OF_SCOPE:'Poza claimami' };
 
   function asinLink(asin){ return '<a class="asin" href="https://www.amazon.' + tld + '/dp/' + esc(asin) + '" target="_blank" rel="noopener">' + esc(asin) + '</a>'; }
 
@@ -310,7 +313,8 @@ No A+/Brand-Story compare — SP-API does not expose that data.
     h += '</tr>';
   });
   h += '</tbody></table>';
-  h += '<p class="tfoot">Gdy <b>Claim adresujący</b> / <b>Kto komunikuje</b> pokazuje „-", dany ból nie pasuje do żadnego ze śledzonych claimów (śledzimy claimy o <b>składzie i działaniu</b> produktu - np. nawilżenie, kojenie, bez zapachu - a nie o opakowaniu czy plombie). Taki wiersz ma wtedy z definicji <b>0/N</b> i status <b>Pilna</b>: to realna bolączka klientów, której <b>żaden konkurent nie adresuje</b> w listingu = potencjalna biała plama do zajęcia.</p>';
+  h += '<p class="tfoot"><b>Pilna</b> = claim istnieje w naszym słowniku, ale <b>żaden konkurent go nie komunikuje</b> w tytule ani bulletach. To realna biała plama do zajęcia.<br>' +
+       '<b>Poza claimami</b> = ból nie pasuje do żadnego śledzonego claimu, bo śledzimy wyłącznie deklaracje o <b>składzie i działaniu</b> (nawilżenie, kojenie, bez zapachu). Skargi na opakowanie, dostawę, cenę czy rozjazd oczekiwań nigdy nie mogą tu dostać wyniku powyżej zera, więc <b>nie są luką w komunikacji konkurencji</b> - to sygnał do poprawy produktu, opakowania lub obietnicy na listingu. Wiersz zostaje w tabeli, bo klienci o tym mówią, ale nie udaje białej plamy.</p>';
   h += '</div>';
 
   // 8. Whitespace + saturation (side by side)

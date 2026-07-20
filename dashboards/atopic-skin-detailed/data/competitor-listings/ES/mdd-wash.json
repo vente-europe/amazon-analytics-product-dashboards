@@ -95,16 +95,6 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bez_zapachu": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
     "skora_atopowa": [
      "T",
      "BP"
@@ -112,8 +102,18 @@
     "kojacy": [
      "BP"
     ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "bez_zapachu": [
+     "BP"
+    ],
     "cena_pojemnosc": [
      "T"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
     ]
    },
    "price": 15.2,
@@ -139,13 +139,13 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
+    "cena_pojemnosc": [
      "T"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "cena_pojemnosc": [
+    "nawilzenie": [
      "T"
     ]
    },
@@ -181,18 +181,18 @@
     "naturalny"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T"
-    ],
-    "bez_zapachu": [
-     "BP"
-    ],
     "bariera": [
      "BP"
     ],
     "naturalny": [
      "T",
      "BP"
+    ],
+    "bez_zapachu": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
     ]
    },
    "price": 9.49,
@@ -217,10 +217,10 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "hipoalergiczny": [
+    "cena_pojemnosc": [
      "T"
     ],
-    "cena_pojemnosc": [
+    "hipoalergiczny": [
      "T"
     ]
    },
@@ -260,11 +260,11 @@
     "swiad": [
      "BP"
     ],
-    "kojacy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T"
+    ],
+    "kojacy": [
+     "BP"
     ]
    },
    "price": 14.45,
@@ -297,13 +297,13 @@
     "naturalny"
    ],
    "themeSrc": {
+    "kojacy": [
+     "BP"
+    ],
     "bariera": [
      "BP"
     ],
     "naturalny": [
-     "BP"
-    ],
-    "kojacy": [
      "BP"
     ]
    },
@@ -337,22 +337,22 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T"
+    "kojacy": [
+     "T",
+     "BP"
     ],
     "skora_atopowa": [
      "BP"
     ],
-    "kojacy": [
-     "T",
+    "bariera": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "bariera": [
-     "BP"
+    "nawilzenie": [
+     "T"
     ]
    },
    "price": 10.75,
@@ -396,11 +396,11 @@
      "T",
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
     "bariera": [
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 13.5,
@@ -438,11 +438,11 @@
     "swiad": [
      "BP"
     ],
-    "kojacy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T"
+    ],
+    "kojacy": [
+     "BP"
     ]
    },
    "price": 11.94,
@@ -476,6 +476,12 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "swiad": [
+     "BP"
+    ],
+    "bez_dodatkow": [
+     "BP"
+    ],
     "skora_atopowa": [
      "T",
      "BP"
@@ -485,12 +491,6 @@
     ],
     "cena_pojemnosc": [
      "T"
-    ],
-    "bez_dodatkow": [
-     "BP"
-    ],
-    "swiad": [
-     "BP"
     ]
    },
    "price": 2.9,
@@ -622,7 +622,7 @@
    "addressed": 0,
    "total": 12,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -632,7 +632,7 @@
    "addressed": 0,
    "total": 12,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -785,11 +785,6 @@
   }
  ],
  "recs": [
-  {
-   "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Uszkodzone / przeciekające opakowanie, Wadliwy / uciążliwy dozownik — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
-   "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
-  },
   {
    "type": "Pozycjonowanie",
    "finding": "Nisko wysycone claimy: Bez zapachu / perfum, Naturalny / wegański, Hipoalergiczny, Dermatologicznie testowany.",

@@ -32,11 +32,11 @@
     "kojacy": [
      "BP"
     ],
-    "cena_pojemnosc": [
+    "naturalny": [
      "T",
      "BP"
     ],
-    "naturalny": [
+    "cena_pojemnosc": [
      "T",
      "BP"
     ]
@@ -77,12 +77,12 @@
      "T",
      "BP"
     ],
+    "naturalny": [
+     "T"
+    ],
     "cena_pojemnosc": [
      "T",
      "BP"
-    ],
-    "naturalny": [
-     "T"
     ]
    },
    "price": 0,
@@ -122,21 +122,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "bez_zapachu": [
+    "kojacy": [
      "BP"
     ],
     "naturalny": [
      "T",
      "BP"
     ],
-    "kojacy": [
+    "bez_zapachu": [
      "BP"
     ],
     "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
      "T",
      "BP"
     ]
@@ -177,21 +177,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "bez_zapachu": [
+    "kojacy": [
      "BP"
     ],
     "naturalny": [
      "T",
      "BP"
     ],
-    "kojacy": [
+    "bez_zapachu": [
      "BP"
     ],
     "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "odzywczy": [
      "T",
      "BP"
     ]
@@ -232,21 +232,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
+    "kojacy": [
+     "BP"
+    ],
+    "naturalny": [
      "T",
      "BP"
     ],
     "bez_zapachu": [
      "BP"
     ],
-    "kojacy": [
+    "odzywczy": [
+     "T",
      "BP"
     ],
     "cena_pojemnosc": [
-     "BP"
-    ],
-    "naturalny": [
-     "T",
      "BP"
     ]
    },
@@ -284,21 +284,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
+    "kojacy": [
+     "BP"
+    ],
+    "naturalny": [
+     "T",
      "BP"
     ],
     "wchlanianie": [
-     "BP"
-    ],
-    "kojacy": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "naturalny": [
-     "T",
+    "nawilzenie": [
      "BP"
     ]
    },
@@ -333,11 +333,11 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "kojacy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T",
+     "BP"
+    ],
+    "kojacy": [
      "BP"
     ]
    },
@@ -374,17 +374,17 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
+    "bariera": [
      "BP"
     ],
     "dermatologiczny": [
      "BP"
     ],
-    "bariera": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T",
+     "BP"
+    ],
+    "nawilzenie": [
      "BP"
     ]
    },
@@ -509,7 +509,7 @@
    "addressed": 0,
    "total": 8,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -535,7 +535,7 @@
    "addressed": 0,
    "total": 8,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -633,11 +633,6 @@
   }
  ],
  "recs": [
-  {
-   "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Wypryski i pogorszenie trądziku, Mylący opis olejów (rozcieńczone, nie 100%) — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
-   "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
-  },
   {
    "type": "Pozycjonowanie",
    "finding": "Nisko wysycone claimy: Nawilżenie, Odbudowa bariery, Dermatologicznie testowany, Szybkie wchłanianie.",

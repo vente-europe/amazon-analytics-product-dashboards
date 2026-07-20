@@ -59,10 +59,7 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bariera": [
-     "BP"
-    ],
-    "nawilzenie": [
+    "dla_dzieci": [
      "T",
      "BP"
     ],
@@ -70,14 +67,17 @@
      "T",
      "BP"
     ],
-    "dla_dzieci": [
-     "T",
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T"
     ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
     "swiad": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ]
    },
@@ -104,14 +104,14 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
-     "T"
-    ],
     "swiad": [
      "T"
     ],
     "cena_pojemnosc": [
      "BP"
+    ],
+    "skora_atopowa": [
+     "T"
     ]
    },
    "price": 23.9,
@@ -143,18 +143,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T",
-     "BP"
+    "kojacy": [
+     "T"
     ],
     "hipoalergiczny": [
      "BP"
     ],
-    "kojacy": [
-     "T"
-    ],
     "cena_pojemnosc": [
      "T"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
     ]
    },
    "price": 19.78,
@@ -192,12 +192,6 @@
     "odzywczy"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "BP"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
     "kojacy": [
      "T"
     ],
@@ -206,6 +200,12 @@
     ],
     "naturalny": [
      "T",
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "nawilzenie": [
      "BP"
     ]
    },
@@ -235,12 +235,12 @@
     "dla_dzieci": [
      "BP"
     ],
+    "cena_pojemnosc": [
+     "T"
+    ],
     "kojacy": [
      "T",
      "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
     ]
    },
    "price": 10.42,
@@ -302,18 +302,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T",
+    "bariera": [
      "BP"
     ],
-    "bariera": [
+    "naturalny": [
+     "T",
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "naturalny": [
+    "nawilzenie": [
      "T",
      "BP"
     ]
@@ -358,28 +358,25 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bez_zapachu": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "naturalny": [
-     "T",
+    "dla_dzieci": [
      "BP"
     ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "dla_dzieci": [
-     "BP"
-    ],
     "kojacy": [
      "T",
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "bez_zapachu": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ],
     "cena_pojemnosc": [
@@ -387,6 +384,9 @@
      "BP"
     ],
     "swiad": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ]
    },
@@ -422,21 +422,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bez_zapachu": [
+    "bariera": [
+     "T",
      "BP"
     ],
     "hipoalergiczny": [
      "BP"
     ],
-    "bariera": [
-     "T",
+    "naturalny": [
+     "BP"
+    ],
+    "bez_zapachu": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
-    ],
-    "naturalny": [
-     "BP"
     ]
    },
    "price": 16.62,
@@ -474,19 +474,19 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "swiad": [
+     "BP"
+    ],
     "skora_atopowa": [
      "BP"
     ],
     "hipoalergiczny": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "BP"
-    ],
-    "swiad": [
-     "BP"
-    ],
     "naturalny": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
      "BP"
     ]
    },
@@ -524,17 +524,17 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "dermatologiczny": [
      "BP"
     ],
-    "naturalny": [
+    "nawilzenie": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "naturalny": [
+     "BP"
     ]
    },
    "price": 24.5,
@@ -676,7 +676,7 @@
    "addressed": 0,
    "total": 12,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -702,7 +702,7 @@
    "addressed": 0,
    "total": 12,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -835,7 +835,7 @@
  "recs": [
   {
    "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Uszkodzone opakowanie / pęknięty dozownik, Słaba moc oczyszczania / nie zmywa makijażu, Cena / siarczany i skład — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "finding": "Negatywy VOC dotyczą: Cena / siarczany i skład — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
    "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
   },
   {

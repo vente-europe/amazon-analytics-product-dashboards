@@ -199,7 +199,20 @@ def build(code, seg):
                     if match[0] in c['themes'] and c['brand'] not in brands:
                         brands.append(c['brand'])
             pct = round(addressed / n * 100) if n else 0
-            sev = 'HIGH' if addressed == 0 else ('MED' if addressed <= max(1, n * 0.25) else 'LOW')
+            # addressed == 0 has TWO causes and they mean opposite things:
+            #   (a) a theme matched but no competitor communicates it -> real gap, HIGH
+            #   (b) no theme matched at all, because THEMES only covers composition
+            #       and action (nawilżenie, kojenie, bez zapachu). Pains about
+            #       packaging, delivery, price or expectation mismatch can never
+            #       score above 0, so flagging them HIGH is a guaranteed false
+            #       alarm. Those get OUT_OF_SCOPE instead. (Found 2026-07-20 via
+            #       a "leaking pipette" row sitting at Pilna in DE/Oil.)
+            if not match:
+                sev = 'OUT_OF_SCOPE'
+            elif addressed == 0:
+                sev = 'HIGH'
+            else:
+                sev = 'MED' if addressed <= max(1, n * 0.25) else 'LOW'
             voc_gap.append({
                 'vocTopic': nt.get('label', ''), 'vocPct': numv(nt.get('pct')),
                 'theme': match[1] if match else '',

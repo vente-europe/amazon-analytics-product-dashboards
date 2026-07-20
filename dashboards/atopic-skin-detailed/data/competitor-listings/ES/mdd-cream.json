@@ -34,28 +34,28 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
+    "dla_dzieci": [
      "BP"
     ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "dla_dzieci": [
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "bariera": [
+     "BP"
     ]
    },
    "price": 19.5,
@@ -93,7 +93,7 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
+    "swiad": [
      "T",
      "BP"
     ],
@@ -104,7 +104,7 @@
     "cena_pojemnosc": [
      "T"
     ],
-    "swiad": [
+    "nawilzenie": [
      "T",
      "BP"
     ]
@@ -146,23 +146,23 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "kojacy": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
     "wchlanianie": [
      "BP"
     ],
     "odzywczy": [
      "BP"
     ],
-    "dermatologiczny": [
-     "BP"
-    ],
-    "kojacy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
      "T"
-    ],
-    "naturalny": [
-     "BP"
     ]
    },
    "price": 9.6,
@@ -200,18 +200,18 @@
     "wchlanianie"
    ],
    "themeSrc": {
+    "swiad": [
+     "T",
+     "BP"
+    ],
     "skora_atopowa": [
      "T"
-    ],
-    "wchlanianie": [
-     "BP"
     ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "swiad": [
-     "T",
+    "wchlanianie": [
      "BP"
     ]
    },
@@ -267,27 +267,27 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "bez_zapachu": [
+    "naturalny": [
      "BP"
     ],
     "dermatologiczny": [
      "BP"
     ],
-    "bariera": [
+    "bez_zapachu": [
      "BP"
     ],
-    "naturalny": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "nawilzenie": [
      "T",
      "BP"
     ],
-    "wchlanianie": [
+    "bariera": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "wchlanianie": [
+     "BP"
     ]
    },
    "price": 20.4,
@@ -323,24 +323,24 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "nawilzenie": [
-     "T"
-    ],
     "skora_atopowa": [
-     "T"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
      "T"
     ],
     "kojacy": [
      "BP"
     ],
+    "bariera": [
+     "BP"
+    ],
     "naturalny": [
      "T",
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "nawilzenie": [
+     "T"
     ]
    },
    "price": 19.89,
@@ -380,7 +380,7 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
+    "kojacy": [
      "BP"
     ],
     "bez_zapachu": [
@@ -393,17 +393,17 @@
     "naturalny": [
      "BP"
     ],
+    "cena_pojemnosc": [
+     "T"
+    ],
     "nawilzenie": [
      "T",
      "BP"
     ],
-    "kojacy": [
+    "swiad": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "swiad": [
+    "odzywczy": [
      "BP"
     ]
    },
@@ -479,39 +479,39 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "odzywczy": [
-     "BP"
-    ],
-    "bez_zapachu": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "naturalny": [
-     "T",
-     "BP"
-    ],
     "skora_atopowa": [
      "T",
-     "BP"
-    ],
-    "nawilzenie": [
      "BP"
     ],
     "kojacy": [
      "T",
      "BP"
     ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "bez_zapachu": [
+     "T",
+     "BP"
+    ],
     "cena_pojemnosc": [
      "T"
     ],
-    "bez_dodatkow": [
+    "nawilzenie": [
      "BP"
     ],
     "swiad": [
      "T",
+     "BP"
+    ],
+    "bez_dodatkow": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "odzywczy": [
      "BP"
     ]
    },
@@ -557,43 +557,43 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "dla_dzieci": [
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "hipoalergiczny": [
+     "BP"
+    ],
     "bez_zapachu": [
      "BP"
     ],
     "dermatologiczny": [
      "BP"
     ],
-    "bariera": [
-     "T",
-     "BP"
-    ],
     "naturalny": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T"
-    ],
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "dla_dzieci": [
-     "BP"
-    ],
-    "wchlanianie": [
-     "BP"
-    ],
-    "hipoalergiczny": [
-     "BP"
-    ],
-    "kojacy": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
     ],
+    "nawilzenie": [
+     "T"
+    ],
     "swiad": [
      "T",
+     "BP"
+    ],
+    "bariera": [
+     "T",
+     "BP"
+    ],
+    "wchlanianie": [
      "BP"
     ]
    },
@@ -631,11 +631,15 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "skora_atopowa": [
+    "swiad": [
      "T",
      "BP"
     ],
     "dla_dzieci": [
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
      "BP"
     ],
     "bariera": [
@@ -643,10 +647,6 @@
     ],
     "cena_pojemnosc": [
      "T"
-    ],
-    "swiad": [
-     "T",
-     "BP"
     ]
    },
    "price": 7.99,
@@ -854,7 +854,7 @@
    "addressed": 0,
    "total": 12,
    "pct": 0,
-   "sev": "HIGH",
+   "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
@@ -981,11 +981,6 @@
   }
  ],
  "recs": [
-  {
-   "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Problemy z opakowaniem i plombą — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
-   "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
-  },
   {
    "type": "Pozycjonowanie",
    "finding": "Nisko wysycone claimy: Dla dzieci / niemowląt, Odżywczy / regenerujący, Hipoalergiczny, Bez parabenów / SLS.",
