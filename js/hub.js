@@ -76,7 +76,8 @@
 
   function sidebarButton(d) {
     var dotColor = d.group === 'topline' ? '#2563eb' : d.group === 'forecast' ? '#d97706' : '#16a34a';
-    return '<button class="sidebar-item" data-id="' + d.id + '">' +
+    var legacyClass = d.legacy ? ' legacy' : '';
+    return '<button class="sidebar-item' + legacyClass + '" data-id="' + d.id + '">' +
       '<span class="sidebar-item-dot" style="background:' + dotColor + '"></span>' +
       '<span class="sidebar-item-label">' + d.title + '</span>' +
       '<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>' +
@@ -276,7 +277,10 @@
       // load of the hub fetches the latest deployed dashboard (no stale iframe after
       // a redeploy), while switching between dashboards within a session stays cached.
       if (!window.__HUB_V__) window.__HUB_V__ = String(Date.now());
-      var src = 'dashboards/' + entry.id + '/' + (entry.file || 'index.html') + '?v=' + window.__HUB_V__;
+      // External standalone: entry.url points at an already-deployed dashboard
+      // (e.g. an old standalone on its own GitHub Pages repo) — iframe it directly.
+      var base = entry.url || ('dashboards/' + entry.id + '/' + (entry.file || 'index.html'));
+      var src = base + (base.indexOf('?') === -1 ? '?' : '&') + 'v=' + window.__HUB_V__;
       container.innerHTML = '<iframe src="' + src + '" style="width:100%;height:calc(100vh - 0px);border:0;display:block"></iframe>';
       document.getElementById('sidebar').classList.remove('open');
       return;

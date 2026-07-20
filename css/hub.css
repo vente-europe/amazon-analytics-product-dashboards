@@ -107,6 +107,21 @@ body {
   font-weight: 600;
 }
 
+/* Legacy standalone dashboards (old builds hosted outside the hub pipeline) */
+.sidebar-item.legacy {
+  background: #fdf2f8;
+}
+
+.sidebar-item.legacy:hover {
+  background: #fce7f3;
+  color: #1e293b;
+}
+
+.sidebar-item.legacy.active {
+  background: #fce7f3;
+  color: #be185d;
+}
+
 .sidebar-item-dot {
   width: 7px;
   height: 7px;

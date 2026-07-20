@@ -68,7 +68,24 @@
       "title": "Provecta EU — Detailed (FR, DE, UK, IT, ES)",
       "group": "detailed",
       "template": "standalone",
-      "file": "index.html"
+      "file": "index.html",
+      "legacy": true
+    },
+    {
+      "id": "ectopet-eu-topline",
+      "title": "Ectopet — EU Markets Top Line",
+      "group": "detailed",
+      "template": "standalone",
+      "url": "https://vente-europe.github.io/ectopet-eu-topline/",
+      "legacy": true
+    },
+    {
+      "id": "dergall-eu-topline",
+      "title": "Dergall — EU Top Line",
+      "group": "detailed",
+      "template": "standalone",
+      "url": "https://vente-europe.github.io/dergall-eu-topline/",
+      "legacy": true
     },
     {
       "id": "moth-topline",
