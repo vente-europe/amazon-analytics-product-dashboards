@@ -1,77 +1,28 @@
 {
- "totalCompetitors": 6,
+ "totalCompetitors": 10,
  "marketplace": "amazon.es",
- "avgClaims": 5.3,
+ "avgClaims": 4.1,
  "competitors": [
   {
-   "asin": "B0789JCK2Q",
-   "brand": "OZONO D´OR",
-   "title": "OZONO D'OR. Aceite Ozonizado 100 ml (Oliva Virgen Extra Ecológico). Hidratante y Regenerante de la piel eficaz en patologías como: irritaciones, úlceras, varices, estrías, quemaduras, etc.",
-   "img": "https://m.media-amazon.com/images/I/717YSirVXbL.jpg",
+   "asin": "B0DVM1G1B3",
+   "brand": "Rilastil",
+   "title": "Rilastil - Xerolact Aceite Limpiador Protector para Piel Muy Seca o Atópica, Gel de Ducha Hidratante Antipicor con Aceite de Arroz y Almendras, Apto para Bebés, Niños y Adultos - 1000 ml",
+   "img": "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/717YSirVXbL.jpg",
-    "https://m.media-amazon.com/images/I/813oVYV2N-L.jpg",
-    "https://m.media-amazon.com/images/I/7101nRbCakL.jpg",
-    "https://m.media-amazon.com/images/I/81MrzHWFmHL.jpg",
-    "https://m.media-amazon.com/images/I/81SLL0bBxoL.jpg",
-    "https://m.media-amazon.com/images/I/71zELoy-UEL.jpg"
+    "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
+    "https://m.media-amazon.com/images/I/7175c2d7bQL.jpg",
+    "https://m.media-amazon.com/images/I/71bTNlpXu4L.jpg",
+    "https://m.media-amazon.com/images/I/719Modu1yGL.jpg",
+    "https://m.media-amazon.com/images/I/71jlqzaXutL.jpg",
+    "https://m.media-amazon.com/images/I/71AcTIqe3DL.jpg",
+    "https://m.media-amazon.com/images/I/71qcDgtnbZL.jpg"
    ],
    "bullets": [
-    "❗️OLOR CARACTERÍSTICO ACEITE OLIVA OZONIZADO: Huele a Rancio debido a la oxidación con ozono y oxigeno de los ácidos grasos insaturados, de hay sus extraordinarios beneficios y resultados. OXIGENACIÓN NATURAL Sus propiedades antimicrobianas cicatrizantes promueve la regeneración celular efectiva para afecciones piel atópica psoriasis dermatitis atopica",
-    "REAVIVA TU CONFIANZA ¿Te sientes cohibido por tus afecciones cutáneas? ¡No más! el ozono te brinda la seguridad y la confianza para mostrar tu piel con orgullo",
-    "PROTECCIÓN Y DESINTOXICACIÓN El aceite corporal ozonizado es capaz de destruir virus bacterias y hongos protege tu piel de infecciones ¡Luce una piel radiante y saludable!",
-    "PREVIENE Y ELIMINA LAS ESTRIAS EMBARAZO El aceite ozonizado es hidratante mejora la circulación sanguínea y la producción de colágeno y elastina en la piel",
-    "GARANTÍA SATISFACCIÓN Si no estás satisfecho incluso si lo has consumido te devolvemos tu dinero Compra sin riesgos y disfruta de sus beneficios para tu piel"
-   ],
-   "themes": [
-    "nawilzenie",
-    "skora_atopowa",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "naturalny": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "skora_atopowa": [
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ]
-   },
-   "price": 19.9,
-   "rating": 4.6,
-   "reviews": 203,
-   "rev30": 2558,
-   "archival": false
-  },
-  {
-   "asin": "B09Q8RXY94",
-   "brand": "LABORATORIOS BABE",
-   "title": "LABORATORIOS BABÉ - Bálsamo en Aceite 500 ml | Crema Corporal Hidratante y Nutritiva para Piel Seca y Atópica | Con Prebióticos, Probióticos y Omega | Alivio del Picor y Reparación | Crema Corporal",
-   "img": "https://m.media-amazon.com/images/I/41WhhL9TCiL._AC_SL1000_.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/41WhhL9TCiL._AC_SL1000_.jpg",
-    "https://m.media-amazon.com/images/I/51rDPnvYRFL._AC_SL1000_.jpg",
-    "https://m.media-amazon.com/images/I/51PM8F3npfL._AC_SL1000_.jpg"
-   ],
-   "bullets": [
-    "🧴 INNOVADORA TRANSFORMACIÓN EN ACEITE - El bálsamo en aceite de Laboratorios Babé es una crema corporal hidratante con una textura única que se transforma en aceite al contacto con la piel. Esta fórmula rica en aceites naturales ofrece una experiencia de uso única y placentera, proporcionando hidratación profunda y una sensación de suavidad inmediata.",
-    "🌟 HIDRATACIÓN Y NUTRICIÓN INTENSIVAS - Este bálsamo está enriquecido con activos prebióticos y probióticos que refuerzan la barrera cutánea, evitando la pérdida de agua y la sequedad. Ideal para piel seca y piel atópica, nutre, repara y calma, ofreciendo un alivio duradero de la tirantez y el picor. Es una excelente crema hidratante corporal piel seca para el uso diario.",
-    "🌿 COMPONENTES BENEFICIOSOS - La loción corporal de Laboratorios Babé incluye ingredientes clave como prebiótico 1%, factor de hidratación natural 1%, vitamina F 1%, aceite de Inca Inchi, aceite de chía, ceramidas y probiótico. Estos componentes trabajan juntos para proporcionar una crema corporal natural que mejora la elasticidad de la piel y la protege de agresiones externas.",
-    "👋 APLICACIÓN FÁCIL Y EFICAZ - Para obtener los mejores resultados, aplica esta crema hidratante corporal tantas veces como sea necesario en las zonas secas mediante un suave masaje. Su textura se transforma rápidamente en un aceite seco, no pegajoso, que se absorbe fácilmente. Este bálsamo es ideal para quienes buscan una crema corporal sin parabenos y apta para todo tipo de pieles.",
-    "🌞 CONFORT Y SUAVIDAD INMEDIATOS - Experimenta una sensación de confort inmediata con este bálsamo en aceite que proporciona hidratación y nutrición profundas. Especialmente indicado para piel muy seca, combate la sequedad y restaura la barrera cutánea, dejando la piel suave y protegida. Este bálsamo hidratante es perfecto para mantener la piel saludable y radiante, sin distinción de género, enfocado en satisfacer las necesidades específicas de cualquier tipo de piel."
+    "XEROLACT ACEITE LIMPIADOR PROTECTOR. Es un aceite de ducha hidratante y antipicor, que limpia suavemente mientras protege la barrera cutánea. Formulado para piel muy seca o con tendencia atópica, apto para bebés, niños y adultos.",
+    "PIEL LIMPIA, HIDRATADA Y CALMADA. Limpia con delicadeza, hidrata hasta 24 h y reduce el enrojecimiento y el picor. Ideal para pieles que requieren un cuidado especial, devuelve confort y alivio desde la ducha",
+    "INGREDIENTES SELECCIONADOS. Contiene aceite de salvado de arroz, aceite de almendras dulces, lactato de sodio, extracto de Schisandra chinensis y niacinamida. Formulado sin derivados del trigo, testado en cinco metales pesados, hipoalergénico y oftalmológicamente testado",
+    "FÓRMULA EFICAZ Y PROTECTORA. Aceite de baño con gran poder emoliente e hidratante, que respeta la barrera cutánea y alivia la sensación de tirantez o escozor. Su uso diario para piel seca o atópica favorece el bienestar de la piel, tanto en bebés como en adultos",
+    "MODO DE USO. Aplicar durante la ducha sobre la piel húmeda, distribuir suavemente y aclarar. Puede utilizarse diariamente como limpiador habitual para pieles secas o atópicas"
    ],
    "themes": [
     "nawilzenie",
@@ -79,213 +30,405 @@
     "kojacy",
     "swiad",
     "bariera",
-    "bez_dodatkow",
-    "naturalny",
-    "wchlanianie",
-    "odzywczy",
+    "dla_dzieci",
+    "hipoalergiczny",
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "swiad": [
+    "bariera": [
+     "BP"
+    ],
+    "nawilzenie": [
      "T",
      "BP"
     ],
-    "wchlanianie": [
+    "skora_atopowa": [
+     "T",
      "BP"
     ],
-    "naturalny": [
+    "dla_dzieci": [
+     "T",
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "hipoalergiczny": [
+     "BP"
     ],
     "kojacy": [
      "BP"
     ],
-    "skora_atopowa": [
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "swiad": [
      "T",
+     "BP"
+    ]
+   },
+   "price": 12.72,
+   "rating": 4.6,
+   "reviews": 421,
+   "rev30": 9733,
+   "archival": false
+  },
+  {
+   "asin": "B000V3MI60",
+   "brand": "Eucerin",
+   "title": "Eucerin pH5 Oleogel de ducha (400 ml), aceite limpiador corporal con aceites naturales para una limpieza diaria suave y nutritiva, aceite para ducha para toda la familia, piel seca y sensible",
+   "img": "https://m.media-amazon.com/images/I/61TRy3ypc7L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61TRy3ypc7L.jpg",
+    "https://m.media-amazon.com/images/I/61BNKlytk1L.jpg",
+    "https://m.media-amazon.com/images/I/71qVQbADXYL.jpg",
+    "https://m.media-amazon.com/images/I/618-uwDD8oL.jpg",
+    "https://m.media-amazon.com/images/I/61UhjU0NV8L.jpg",
+    "https://m.media-amazon.com/images/I/71dTX3l+aFL.jpg",
+    "https://m.media-amazon.com/images/I/71MKEDup5iL.jpg"
+   ],
+   "bullets": [
+    "Limpia y nutre – El aceite corporal hidratante, apto para uso diario y lavados frecuentes, limpia y nutre suavemente la piel y le aporta bienestar al tiempo que protege su microbioma natural",
+    "pH5 – Este aceite facial y corporal pertenece a la gama Eucerin pH5, formulada para las necesidades de la piel seca, sensible y propensa al enrojecimiento, y para proteger contra la sequedad cutánea",
+    "pH Balance System – Este gel de ducha cuenta con Tampón Citrato pH5, 53% de aceites naturales y Dexpantenol, que restablece el pH y refuerza sus defensas naturales a la vez que hidrata a fondo",
+    "Eficacia Eucerin – La fórmula nutritiva clínica y dermatológicamente probada con aceites esenciales, crea una espuma limpiadora que ayuda a estabilizar el pH cutáneo idóneo e hidrata de forma natural",
+    "Contenido del envío – Eucerin pH5 Oleogel de ducha, aceite limpiador facial y corporal, gel de baño sin jabón alcalino y ligeramente perfumado para adultos y niños, 400 ml; número de artículo: 63122"
+   ],
+   "themes": [
+    "nawilzenie",
+    "dla_dzieci",
+    "dermatologiczny",
+    "naturalny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 10.19,
+   "rating": 4.5,
+   "reviews": 204,
+   "rev30": 5671,
+   "archival": false
+  },
+  {
+   "asin": "B0CXTMQ54T",
+   "brand": "PARAVOSTRA",
+   "title": "Aceite limpiador Atoderm | Hidratación y Confort Inmediato | Nutre intensamente | Limpia, Lipidiza y Calma las Irritaciones | Muy buena tolerancia | Juego de 2x1L",
+   "img": "https://m.media-amazon.com/images/I/71NCI03jdgL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71NCI03jdgL.jpg",
+    "https://m.media-amazon.com/images/I/612j1ihnuVL.jpg"
+   ],
+   "bullets": [],
+   "themes": [
+    "kojacy"
+   ],
+   "themeSrc": {
+    "kojacy": [
+     "T"
+    ]
+   },
+   "price": 39.41,
+   "rating": 4.8,
+   "reviews": 136,
+   "rev30": 4995,
+   "archival": false
+  },
+  {
+   "asin": "B00ZY65OSI",
+   "brand": "Bioderma",
+   "title": "BIODERMA Atoderm Aceite de Ducha - Limpiador Calmante y Antirritante - Confort Inmediato e Hidratación Durante 24 Horas - Pieles Sensibles, Muy Secas o Irritadas - Envase con Dosificador de 1 l",
+   "img": "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
+    "https://m.media-amazon.com/images/I/71I3dig7MJL.jpg",
+    "https://m.media-amazon.com/images/I/71aFKgkyxCL.jpg",
+    "https://m.media-amazon.com/images/I/71xdR08es9L.jpg",
+    "https://m.media-amazon.com/images/I/61TfMmtnQqL.jpg",
+    "https://m.media-amazon.com/images/I/81uYqUDpHLL.jpg",
+    "https://m.media-amazon.com/images/I/91NtdCjo5QL.jpg"
+   ],
+   "bullets": [
+    "Aceite de ducha nutritivo para toda la familia: limpia con suavidad, alivia la irritación y deja la piel hidratada, aportando una agradable sensación de confort incluso en pieles muy secas",
+    "Eficacia probada: la piel está un 26% más hidratada tras 27 días y el 80% de las personas notan una suavidad inmediata con sensación de confort",
+    "Una fórmula de doble acción: agentes relipidantes e hidratantes que nutren la piel, y un complejo patentado (Skin Barrier Therapy) que limita la entrada de bacterias como el estafilococo dorado",
+    "Modo de uso: una o dos veces al día, en la ducha o el baño, aplicar sobre la piel húmeda y enjuagar - complementar con un tratamiento Atoderm",
+    "Buena tolerancia cutánea y ocular: Bioderma es una marca basada en la ecobiología, principio clave del enfoque NAOS, que respeta el ecosistema de la piel y ayuda a conservar tu salud a largo plazo"
+   ],
+   "themes": [
+    "nawilzenie",
+    "kojacy",
+    "bariera",
+    "naturalny",
+    "odzywczy"
+   ],
+   "themeSrc": {
+    "nawilzenie": [
      "BP"
     ],
     "odzywczy": [
+     "BP"
+    ],
+    "kojacy": [
      "T"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "bez_dodatkow": [
-     "BP"
     ],
     "bariera": [
      "BP"
-    ]
-   },
-   "price": 16.53,
-   "rating": 4.3,
-   "reviews": 72,
-   "rev30": 1492,
-   "archival": false
-  },
-  {
-   "asin": "B07VR7Z936",
-   "brand": "Oïléna",
-   "title": "Aceite de Almendras, Corporal, Facia, Cabello, Anti Estrias Embarazo, Piel Atopica y Bebe, Aceite de Masaje Profesional. Hidratante y Rico en Vitamina E, 100% Natural, Puro, 1000 ml 1 L",
-   "img": "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/51xfOLoDqpL.jpg",
-    "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
-    "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
-    "https://m.media-amazon.com/images/I/71Mvn08yp8L.jpg",
-    "https://m.media-amazon.com/images/I/71k4r4P0fXL.jpg",
-    "https://m.media-amazon.com/images/I/71lpjRsgAGL.jpg",
-    "https://m.media-amazon.com/images/I/81l1mfbPj+L.jpg",
-    "https://m.media-amazon.com/images/I/611psootG5L.jpg"
-   ],
-   "bullets": [
-    "Mima tu piel durante el embarazo con nuestro aceite de almendras dulces, especialmente formulado para hidratar la piel, ayudando a reducir y prevenir la apariencia de las estrias del embarazo. Perfecto para hidratar la piel después de la ducha. Brinda el mismo cuidado delicado a la piel sensible de tu bebé.",
-    "Repara y fortalece tu cabello y barba con nuestro aceite de almendras premium, conocido por su rico contenido de vitamina E. Di adiós al cabello seco y dañado, ya que nuestro aceite de almendras promueve el brillo, reduce las puntas abiertas y mejora la salud general del cabello y la barba.",
-    "Rejuvenece tu piel y logra un cutis radiante con las propiedades antienvejecimiento de nuestro aceite de almendras. No sólo combate las líneas finas y arrugas mientras hidratas tu piel, sino que actúa como desmaquillante natural sin dañar tu piel y la deja limpia, tersa y firme. ¡También los labios!",
-    "Base de aceites esenciales (aceite portador) y de otros productos para la creación de cosmetica casera. Su versatilidad lo convierte en el favorito de los terapeutas de masaje. El aceite de almendras se puede aplicar en la piel del cliente en masajes corporales para facilitar movimientos suaves y ayudar a que las manos del terapeuta se deslicen sin esfuerzo.",
-    "Envase con bloqueo de rayos ultravioleta. Protege el contenido del producto y conserva su calidad. Dosificador que facilita la cantidad adecuada. Agradable al tacto y deslizamiento perfecto. Inodoro. Prensado en frio. Cunde muchísimo. 100% Natural. 100% Puro. Apuesta por lo mejor."
-   ],
-   "themes": [
-    "nawilzenie",
-    "skora_atopowa",
-    "dla_dzieci",
-    "naturalny",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "skora_atopowa": [
-     "T"
-    ],
-    "nawilzenie": [
-     "T"
-    ],
-    "dla_dzieci": [
-     "T",
-     "BP"
     ],
     "naturalny": [
      "T",
      "BP"
     ]
    },
-   "price": 16.5,
+   "price": 18.12,
+   "rating": 4.7,
+   "reviews": 30183,
+   "rev30": 1920,
+   "archival": false
+  },
+  {
+   "asin": "B07NPVNYZM",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay Aceite de Ducha, Relipidizante, Anti-irritaciones, Hidrata y Calma, Enriquecido con Manteca de Karité, Para Pieles Secas y Atópicas, Lipikar AP+, 750 ml",
+   "img": "https://m.media-amazon.com/images/I/71vtEc4zcEL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71vtEc4zcEL.jpg",
+    "https://m.media-amazon.com/images/I/71B842071aL.jpg",
+    "https://m.media-amazon.com/images/I/61ncFIFYRtL.jpg",
+    "https://m.media-amazon.com/images/I/61RxrbRu88L.jpg",
+    "https://m.media-amazon.com/images/I/61oSOHH3UsL.jpg",
+    "https://m.media-amazon.com/images/I/71Vvv7mp4FL.jpg",
+    "https://m.media-amazon.com/images/I/71csBFyDVwL.jpg",
+    "https://m.media-amazon.com/images/I/71tsGWEysZL.jpg"
+   ],
+   "bullets": [
+    "Aceite de Ducha La Roche Posay Lipikar (750 ml)"
+   ],
+   "themes": [
+    "skora_atopowa",
+    "kojacy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "skora_atopowa": [
+     "T"
+    ],
+    "kojacy": [
+     "T"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 18.95,
+   "rating": 4.7,
+   "reviews": 970,
+   "rev30": 1369,
+   "archival": false
+  },
+  {
+   "asin": "B0BLC6972T",
+   "brand": "DEXERYL",
+   "title": "DEXERYL Reinigungsöl sanfte Reinigung bei trockener Haut, 500 ml Aceite",
+   "img": "https://m.media-amazon.com/images/I/51LlRcuTwCL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51LlRcuTwCL.jpg",
+    "https://m.media-amazon.com/images/I/71chWuNRfKL.jpg",
+    "https://m.media-amazon.com/images/I/71RGTXkUq3L.jpg",
+    "https://m.media-amazon.com/images/I/812c29xvJ5L.jpg",
+    "https://m.media-amazon.com/images/I/71NT97+hcoL.jpg",
+    "https://m.media-amazon.com/images/I/71-fbSnW3mL.jpg"
+   ],
+   "bullets": [
+    "cuidado médico de la piel de alta calidad",
+    "para limpiar la piel",
+    "Aceite para uso en la piel",
+    "Dermocosméticos de la Farmacia (PZN: 17899513)",
+    "Fabricante: Pierre Fabre Pharma GmbH, Deutschland"
+   ],
+   "themes": [
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ]
+   },
+   "price": 15.19,
    "rating": 4.5,
-   "reviews": 471,
-   "rev30": 94,
+   "reviews": 378,
+   "rev30": 1240,
    "archival": false
   },
   {
-   "asin": "B09MFKXBFX",
-   "brand": "Oïléna",
-   "title": "Aceite de Almendras Piel (Corporal y Facial) y Cabello, Anti Estrias Embarazo, Piel Atopica y Bebe, Aceite de Masaje Profesional. Hidratante y Rico en Vitamina E. 100% Natural y Puro - 5000 ml 5 L",
-   "img": "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
+   "asin": "B0041MIP1E",
+   "brand": "LABORATORIOS BABE",
+   "title": "LABORATORIOS BABÉ - Jabón de Aceite Pediátrico 200ml | Gel Bebé Piel Atópica y Muy Seca | Jabón Pediátrico para un Cuidado Especial | Calma la Piel y Alivia la Sequedad",
+   "img": "https://m.media-amazon.com/images/I/515dVrmryYL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/71aXMI-wGtL.jpg",
-    "https://m.media-amazon.com/images/I/81wxcGyKOWL.jpg",
-    "https://m.media-amazon.com/images/I/71MLtNwt2BL.jpg",
-    "https://m.media-amazon.com/images/I/81l1mfbPj+L.jpg",
-    "https://m.media-amazon.com/images/I/71k4r4P0fXL.jpg",
-    "https://m.media-amazon.com/images/I/71Mvn08yp8L.jpg",
-    "https://m.media-amazon.com/images/I/71lpjRsgAGL.jpg",
-    "https://m.media-amazon.com/images/I/91K-hcDzzDL.jpg"
+    "https://m.media-amazon.com/images/I/515dVrmryYL.jpg",
+    "https://m.media-amazon.com/images/I/51ZGLHxH6JL.jpg",
+    "https://m.media-amazon.com/images/I/613AO1lcS-L.jpg",
+    "https://m.media-amazon.com/images/I/61oBdCf1S2L.jpg"
    ],
    "bullets": [
-    "Mima tu piel durante el embarazo con nuestro aceite de almendras dulces, especialmente formulado para hidratar la piel, ayudando a reducir y prevenir la apariencia de las estrias del embarazo. Perfecto para hidratar la piel después de la ducha. Brinda el mismo cuidado delicado a la piel sensible de tu bebé.",
-    "Repara y fortalece tu cabello y barba con nuestro aceite de almendras premium, conocido por su rico contenido de vitamina E. Di adiós al cabello seco y dañado, ya que nuestro aceite de almendras promueve el brillo, reduce las puntas abiertas y mejora la salud general del cabello y la barba.",
-    "Rejuvenece tu piel y logra un cutis radiante con las propiedades antienvejecimiento de nuestro aceite de almendras. No sólo combate las líneas finas y arrugas mientras hidratas tu piel, sino que actúa como desmaquillante natural sin dañar tu piel y la deja limpia, tersa y firme. ¡También los labios!",
-    "Base de aceites esenciales (aceite portador) y de otros productos para la creación de cosmetica casera. Su versatilidad lo convierte en el favorito de los terapeutas de masaje. El aceite de almendras se puede aplicar en la piel del cliente en masajes corporales para facilitar movimientos suaves y ayudar a que las manos del terapeuta se deslicen sin esfuerzo.",
-    "Envase con bloqueo de rayos ultravioleta. Protege el contenido del producto y conserva su calidad. Dosificador que facilita la cantidad adecuada. Agradable al tacto y deslizamiento perfecto. Inodoro. Prensado en frio. Cunde muchísimo. 100% Natural. 100% Puro. Apuesta por lo mejor."
+    "🛁 HIDRATACIÓN Y NUTRICIÓN - Este jabón pediátrico de aceite es más que un simple jabón de bebé; es un gel de baño de bebé para piel atópica diseñado con la finalidad de nutrir intensamente. Su fórmula con 10% de aceite de aguacate y omegas esencialmente hidrata y suaviza la piel delicada del bebé.",
+    "🌿 ACEITES DE ORIGEN NATURAL Y SEGURO - Como un auténtico jabón para bebé con aceites de origen natural, está libre de ingredientes agresivos, lo que lo hace ideal para bebés desde recién nacidos. Este jabón pediátrico es perfecto para el uso diario en bebés con piel sensible o atópica.",
+    "👶 CONFORT INMEDIATO - Este gel de bebé para piel atópica ayuda a reducir el picor y la inflamación gracias a su textura oleosa que calma la piel al instante, ofreciendo una sensación de confort sin precedentes en cada baño.",
+    "💧 APLICACIÓN SENCILLA - Aplique el gel de baño para bebé especializado en piel delicada sobre la piel humedecida del pequeño y posteriormente enjuague suavemente. Su fórmula de fácil aclarado deja la piel limpia y suave, sin residuos grasos, manteniendo la piel de tu bebé protegida y nutrida.",
+    "🧴 USO COMBINADO - Para obtener resultados óptimos, use este jabón de niño junto con la Crema Emoliente Pediátrica de Laboratorios Babé. Este gel pediátrico complementa a la perfección el tratamiento para cuidar la piel atópica del bebé."
    ],
    "themes": [
-    "nawilzenie",
     "skora_atopowa",
+    "kojacy",
+    "swiad",
     "dla_dzieci",
     "naturalny",
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
+    "naturalny": [
+     "BP"
     ],
     "skora_atopowa": [
-     "T"
-    ],
-    "nawilzenie": [
-     "T"
+     "T",
+     "BP"
     ],
     "dla_dzieci": [
      "T",
      "BP"
     ],
-    "naturalny": [
+    "kojacy": [
      "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "swiad": [
      "BP"
     ]
    },
-   "price": 48.88,
+   "price": 8.02,
    "rating": 4.3,
-   "reviews": 26,
-   "rev30": 59,
+   "reviews": 217,
+   "rev30": 359,
    "archival": false
   },
   {
-   "asin": "B0CSYNGW6H",
-   "brand": "Oïléna",
-   "title": "Aceite de Almendras Piel (Corporal y Facial) y Cabello, Anti Estrias Embarazo, Piel Atopica y Bebe, Aceite de Masaje Profesional. Hidratante y Rico en Vitamina E. 100% Natural y Puro - 250 ml",
-   "img": "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
+   "asin": "B00FXRFGFO",
+   "brand": "Eucerin",
+   "title": "Eucerin - Atopicontrol aceite limpiador 20% Omega 400 ml",
+   "img": "https://m.media-amazon.com/images/I/513Jwx46tzL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/61BSt1nBJ8L.jpg",
-    "https://m.media-amazon.com/images/I/61Y4CzrF2EL.jpg",
-    "https://m.media-amazon.com/images/I/71HTsginguL.jpg",
-    "https://m.media-amazon.com/images/I/71xkPk6O+OL.jpg",
-    "https://m.media-amazon.com/images/I/71+4BL+u0QL.jpg",
-    "https://m.media-amazon.com/images/I/71A-qeMC3ML.jpg",
-    "https://m.media-amazon.com/images/I/91K-hcDzzDL.jpg",
-    "https://m.media-amazon.com/images/I/61NcG52kXHL.jpg"
+    "https://m.media-amazon.com/images/I/513Jwx46tzL.jpg",
+    "https://m.media-amazon.com/images/I/51-ZTnYWblL.jpg",
+    "https://m.media-amazon.com/images/I/51KRTfilQOL.jpg",
+    "https://m.media-amazon.com/images/I/61TemVcLPYL.jpg",
+    "https://m.media-amazon.com/images/I/412qM9WnpdL.jpg",
+    "https://m.media-amazon.com/images/I/51rSmnkAISL.jpg",
+    "https://m.media-amazon.com/images/I/61EJuwuJSVL.jpg",
+    "https://m.media-amazon.com/images/I/51FjBakVttL.jpg"
    ],
    "bullets": [
-    "Mima tu piel durante el embarazo con nuestro aceite de almendras dulces, especialmente formulado para hidratar la piel, ayudando a reducir y prevenir la apariencia de las estrias del embarazo. Perfecto para hidratar la piel después de la ducha. Brinda el mismo cuidado delicado a la piel sensible de tu bebé.",
-    "Repara y fortalece tu cabello y barba con nuestro aceite de almendras premium, conocido por su rico contenido de vitamina E. Di adiós al cabello seco y dañado, ya que nuestro aceite de almendras promueve el brillo, reduce las puntas abiertas y mejora la salud general del cabello y la barba.",
-    "Rejuvenece tu piel y logra un cutis radiante con las propiedades antienvejecimiento de nuestro aceite de almendras. No sólo combate las líneas finas y arrugas mientras hidratas tu piel, sino que actúa como desmaquillante natural sin dañar tu piel y la deja limpia, tersa y firme. ¡También los labios!",
-    "Base de aceites esenciales (aceite portador) y de otros productos para la creación de cosmetica casera. Su versatilidad lo convierte en el favorito de los terapeutas de masaje. El aceite de almendras se puede aplicar en la piel del cliente en masajes corporales para facilitar movimientos suaves y ayudar a que las manos del terapeuta se deslicen sin esfuerzo.",
-    "Envase con bloqueo de rayos ultravioleta. Protege el contenido del producto y conserva su calidad. Dosificador que facilita la cantidad adecuada. Agradable al tacto y deslizamiento perfecto. Inodoro. Prensado en frio. Cunde muchísimo. 100% Natural. 100% Puro. Apuesta por lo mejor."
+    "Cosméticos para mujer Eucerin",
+    "Aceite corporal hidratante",
+    "Atopicontrol Aceite Limpiador 20% Omega 400ml Eucerin Mujer Cosméticos Mujer Eucerin 400 mililitros"
    ],
    "themes": [
     "nawilzenie",
     "skora_atopowa",
-    "dla_dzieci",
-    "naturalny",
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
     "skora_atopowa": [
-     "T"
-    ],
-    "nawilzenie": [
-     "T"
-    ],
-    "dla_dzieci": [
      "T",
      "BP"
     ],
-    "naturalny": [
+    "nawilzenie": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
      "T",
      "BP"
     ]
    },
-   "price": 13.34,
-   "rating": 4.6,
-   "reviews": 12,
-   "rev30": 17,
+   "price": 18.78,
+   "rating": 4.5,
+   "reviews": 162,
+   "rev30": 43,
+   "archival": false
+  },
+  {
+   "asin": "B0DGFHSB6G",
+   "brand": "Ziaja",
+   "title": "Aceite de Baño y Ducha Suavizante, Fórmula Dermatológica para Piel Atópica, 270 ml de ZIAJA MED",
+   "img": "https://m.media-amazon.com/images/I/51DqoZEEXPL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51DqoZEEXPL.jpg",
+    "https://m.media-amazon.com/images/I/71wHsHuVFuL.jpg"
+   ],
+   "bullets": [
+    "FÓRMULA DERMATOLÓGICA: Diseñada específicamente para pieles atópicas propensas a la irritación y picazón severa, con ingredientes suaves y calmantes.",
+    "PROPIEDADES HIDRATANTES: Contiene aceite de girasol y vitamina E que ayudan a prevenir la sequedad y reducir la aspereza de la piel.",
+    "USO VERSÁTIL: Adecuado para rostro y cuerpo, puede utilizarse tanto en la ducha como en el baño, ideal para toda la familia.",
+    "MODO DE EMPLEO: Para ducha, aplicar una pequeña cantidad y enjuagar. Para baño, verter 2-3 tazas en agua tibia.",
+    "CONTENIDO Y PRESENTACIÓN: Envase de 270 ml con fórmula suavizante que limpia delicadamente sin irritar la piel."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "dermatologiczny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "dermatologiczny": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
+     "BP"
+    ]
+   },
+   "price": 6.6,
+   "rating": 5.0,
+   "reviews": 2,
+   "rev30": 16,
    "archival": false
   },
   {
@@ -314,12 +457,12 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
     "skora_atopowa": [
      "T",
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 9.5,
@@ -355,16 +498,16 @@
    "label": "Dla dzieci / niemowląt"
   },
   {
-   "key": "bez_dodatkow",
-   "label": "Bez parabenów / SLS"
+   "key": "hipoalergiczny",
+   "label": "Hipoalergiczny"
+  },
+  {
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany"
   },
   {
    "key": "naturalny",
    "label": "Naturalny / wegański"
-  },
-  {
-   "key": "wchlanianie",
-   "label": "Szybkie wchłanianie"
   },
   {
    "key": "odzywczy",
@@ -377,70 +520,70 @@
  ],
  "adoption": [
   {
+   "key": "cena_pojemnosc",
+   "label": "Ekonomiczny / duża pojemność",
+   "count": 8,
+   "pct": 80
+  },
+  {
    "key": "skora_atopowa",
    "label": "Skóra atopowa / egzema",
    "count": 6,
-   "pct": 100
+   "pct": 60
   },
   {
-   "key": "cena_pojemnosc",
-   "label": "Ekonomiczny / duża pojemność",
+   "key": "kojacy",
+   "label": "Kojący / łagodzący",
    "count": 6,
-   "pct": 100
+   "pct": 60
   },
   {
    "key": "nawilzenie",
    "label": "Nawilżenie",
    "count": 5,
-   "pct": 83
+   "pct": 50
   },
   {
-   "key": "naturalny",
-   "label": "Naturalny / wegański",
-   "count": 5,
-   "pct": 83
+   "key": "swiad",
+   "label": "Redukcja świądu",
+   "count": 3,
+   "pct": 30
   },
   {
    "key": "dla_dzieci",
    "label": "Dla dzieci / niemowląt",
    "count": 3,
-   "pct": 50
+   "pct": 30
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański",
+   "count": 3,
+   "pct": 30
+  },
+  {
+   "key": "bariera",
+   "label": "Odbudowa bariery",
+   "count": 2,
+   "pct": 20
+  },
+  {
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany",
+   "count": 2,
+   "pct": 20
   },
   {
    "key": "odzywczy",
    "label": "Odżywczy / regenerujący",
    "count": 2,
-   "pct": 33
+   "pct": 20
   },
   {
-   "key": "kojacy",
-   "label": "Kojący / łagodzący",
+   "key": "hipoalergiczny",
+   "label": "Hipoalergiczny",
    "count": 1,
-   "pct": 17
-  },
-  {
-   "key": "swiad",
-   "label": "Redukcja świądu",
-   "count": 1,
-   "pct": 17
-  },
-  {
-   "key": "bariera",
-   "label": "Odbudowa bariery",
-   "count": 1,
-   "pct": 17
-  },
-  {
-   "key": "bez_dodatkow",
-   "label": "Bez parabenów / SLS",
-   "count": 1,
-   "pct": 17
-  },
-  {
-   "key": "wchlanianie",
-   "label": "Szybkie wchłanianie",
-   "count": 1,
-   "pct": 17
+   "pct": 10
   }
  ],
  "vocGap": [
@@ -449,7 +592,7 @@
    "vocPct": 40.0,
    "theme": "Bez zapachu / perfum",
    "addressed": 0,
-   "total": 6,
+   "total": 10,
    "pct": 0,
    "sev": "HIGH",
    "brands": []
@@ -459,7 +602,7 @@
    "vocPct": 26.0,
    "theme": "",
    "addressed": 0,
-   "total": 6,
+   "total": 10,
    "pct": 0,
    "sev": "HIGH",
    "brands": []
@@ -469,7 +612,7 @@
    "vocPct": 18.0,
    "theme": "",
    "addressed": 0,
-   "total": 6,
+   "total": 10,
    "pct": 0,
    "sev": "HIGH",
    "brands": []
@@ -478,23 +621,25 @@
    "vocTopic": "Tłustość, słabe wchłanianie i brak piany",
    "vocPct": 15.0,
    "theme": "Szybkie wchłanianie",
-   "addressed": 1,
-   "total": 6,
-   "pct": 17,
-   "sev": "MED",
-   "brands": [
-    "LABORATORIOS BABE"
-   ]
+   "addressed": 0,
+   "total": 10,
+   "pct": 0,
+   "sev": "HIGH",
+   "brands": []
   },
   {
    "vocTopic": "Podrażnienia i reakcje skórne",
    "vocPct": 10.0,
    "theme": "Kojący / łagodzący",
-   "addressed": 1,
-   "total": 6,
-   "pct": 17,
-   "sev": "MED",
+   "addressed": 6,
+   "total": 10,
+   "pct": 60,
+   "sev": "LOW",
    "brands": [
+    "Rilastil",
+    "PARAVOSTRA",
+    "Bioderma",
+    "La Roche-Posay",
     "LABORATORIOS BABE"
    ]
   },
@@ -502,99 +647,95 @@
    "vocTopic": "Cena i zaniżona pojemność",
    "vocPct": 12.0,
    "theme": "Ekonomiczny / duża pojemność",
-   "addressed": 6,
-   "total": 6,
-   "pct": 100,
+   "addressed": 8,
+   "total": 10,
+   "pct": 80,
    "sev": "LOW",
    "brands": [
-    "OZONO D´OR",
-    "LABORATORIOS BABE",
-    "Oïléna",
-    "Instituto Español"
+    "Rilastil",
+    "Eucerin",
+    "La Roche-Posay",
+    "DEXERYL",
+    "LABORATORIOS BABE"
    ]
   }
  ],
  "whitespace": [
   {
-   "label": "Kojący / łagodzący",
-   "pct": 17,
-   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Redukcja świądu",
-   "pct": 17,
-   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
    "label": "Odbudowa bariery",
-   "pct": 17,
-   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "pct": 20,
+   "why": "Tylko 2/10 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "label": "Bez parabenów / SLS",
-   "pct": 17,
-   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "label": "Dermatologicznie testowany",
+   "pct": 20,
+   "why": "Tylko 2/10 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "label": "Szybkie wchłanianie",
-   "pct": 17,
-   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "label": "Odżywczy / regenerujący",
+   "pct": 20,
+   "why": "Tylko 2/10 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Hipoalergiczny",
+   "pct": 10,
+   "why": "Tylko 1/10 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   }
  ],
  "saturation": [
   {
-   "label": "Skóra atopowa / egzema",
-   "pct": 100,
-   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
-  },
-  {
    "label": "Ekonomiczny / duża pojemność",
-   "pct": 100,
+   "pct": 80,
    "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
-   "label": "Nawilżenie",
-   "pct": 83,
-   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
-  },
-  {
-   "label": "Naturalny / wegański",
-   "pct": 83,
-   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
-  },
-  {
-   "label": "Dla dzieci / niemowląt",
-   "pct": 50,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Odżywczy / regenerujący",
-   "pct": 33,
+   "label": "Skóra atopowa / egzema",
+   "pct": 60,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Kojący / łagodzący",
-   "pct": 17,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+   "pct": 60,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Nawilżenie",
+   "pct": 50,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Redukcja świądu",
-   "pct": 17,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+   "pct": 30,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Dla dzieci / niemowląt",
+   "pct": 30,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Naturalny / wegański",
+   "pct": 30,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Odbudowa bariery",
-   "pct": 17,
+   "pct": 20,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
-   "label": "Bez parabenów / SLS",
-   "pct": 17,
+   "label": "Dermatologicznie testowany",
+   "pct": 20,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
-   "label": "Szybkie wchłanianie",
-   "pct": 17,
+   "label": "Odżywczy / regenerujący",
+   "pct": 20,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Hipoalergiczny",
+   "pct": 10,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   }
  ],
@@ -606,12 +747,12 @@
   },
   {
    "type": "Pozycjonowanie",
-   "finding": "Nisko wysycone claimy: Kojący / łagodzący, Redukcja świądu, Odbudowa bariery, Bez parabenów / SLS.",
+   "finding": "Nisko wysycone claimy: Odbudowa bariery, Dermatologicznie testowany, Odżywczy / regenerujący, Hipoalergiczny.",
    "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
   },
   {
    "type": "Produkt",
-   "finding": "Nasycone (obowiązkowe) claimy: Skóra atopowa / egzema, Ekonomiczny / duża pojemność, Nawilżenie, Naturalny / wegański.",
+   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność.",
    "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]

@@ -1,7 +1,7 @@
 {
  "totalCompetitors": 12,
  "marketplace": "amazon.de",
- "avgClaims": 6.5,
+ "avgClaims": 6.2,
  "competitors": [
   {
    "asin": "B0BJFLVCZK",
@@ -29,17 +29,17 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "kojacy": [
+    "dla_dzieci": [
      "BP"
     ],
     "odzywczy": [
      "BP"
     ],
-    "dla_dzieci": [
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
      "BP"
     ],
     "naturalny": [
@@ -84,31 +84,31 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "odzywczy": [
+     "BP"
+    ],
     "bez_zapachu": [
      "T"
     ],
-    "swiad": [
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "T"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "kojacy": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "kojacy": [
+    "swiad": [
      "BP"
-    ],
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "dla_dzieci": [
-     "T"
     ]
    },
    "price": 23.99,
@@ -146,27 +146,27 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "wchlanianie": [
+    "dermatologiczny": [
      "BP"
     ],
-    "cena_pojemnosc": [
+    "bariera": [
+     "BP"
+    ],
+    "nawilzenie": [
      "T",
      "BP"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "nawilzenie": [
-     "T",
+    "wchlanianie": [
      "BP"
     ],
     "dla_dzieci": [
      "BP"
     ],
-    "bariera": [
-     "BP"
-    ],
-    "dermatologiczny": [
+    "cena_pojemnosc": [
+     "T",
      "BP"
     ]
    },
@@ -174,58 +174,6 @@
    "rating": 4.6,
    "reviews": 44258,
    "rev30": 78977,
-   "archival": false
-  },
-  {
-   "asin": "B09V8JNGD4",
-   "brand": "Mixa",
-   "title": "Mixa Creme für trockene und rissige Haut, Feuchtigkeitspflege für den Körper, Hände und Gesicht, Mit Urea und Niacinamide, Urea Cica Repair + Hauterneuernde Creme, 1 x 400 ml",
-   "img": "https://m.media-amazon.com/images/I/811R5oWSjsL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/811R5oWSjsL.jpg",
-    "https://m.media-amazon.com/images/I/81RF7FcHcaL.jpg",
-    "https://m.media-amazon.com/images/I/81tpcAfzYzL.jpg",
-    "https://m.media-amazon.com/images/I/71SADg+JpoL.jpg",
-    "https://m.media-amazon.com/images/I/71T5swlRprL.jpg",
-    "https://m.media-amazon.com/images/I/71jpSngubpL.jpg",
-    "https://m.media-amazon.com/images/I/715wLJM74ZL.jpg",
-    "https://m.media-amazon.com/images/I/81nukARwHYL.jpg"
-   ],
-   "bullets": [
-    "Hauterneuernde und hochkonzentrierte Pflegecreme für Gesicht, Körper und Hände, Tiefenwirksame Feuchtigkeitscreme speziell für sehr trockene und raue Haut",
-    "Wirkung: Intensiv feuchtigkeitsspendend und pflegend, Anregung der Hauterneuerung und Schutz vor Hautirritationen, Mehr Geschmeidigkeit und reduzierte Spannungsgefühle",
-    "Anwendung: Auftragen bei Bedarf auf die zuvor gereinigte Haut, Sanftes Einmassieren auf Körper, Gesicht und Hänge, Aussparen der Augenpartie",
-    "Schnell einziehende und nicht fettende Formel mit 10% Urea und Niacinamide für intensive Pflege und ein geschmeidiges, gesundes Hautgefühl",
-    "Lieferumfang: 1 x Mixa Urea Cica Repair+ Hauterneuernde Creme für Gesicht, Körper und Hände, 400 ml",
-    "Bitte beachten Sie, dass die Verpackung variieren kann"
-   ],
-   "themes": [
-    "nawilzenie",
-    "wchlanianie",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "wchlanianie": [
-     "BP"
-    ]
-   },
-   "price": 6.68,
-   "rating": 4.5,
-   "reviews": 7323,
-   "rev30": 69553,
    "archival": false
   },
   {
@@ -258,10 +206,13 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "wchlanianie": [
+    "odzywczy": [
      "BP"
     ],
-    "cena_pojemnosc": [
+    "dermatologiczny": [
+     "BP"
+    ],
+    "nawilzenie": [
      "T",
      "BP"
     ],
@@ -269,17 +220,14 @@
      "T",
      "BP"
     ],
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
+    "wchlanianie": [
      "BP"
     ],
     "dla_dzieci": [
      "BP"
     ],
-    "dermatologiczny": [
+    "cena_pojemnosc": [
+     "T",
      "BP"
     ]
    },
@@ -318,25 +266,25 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "swiad": [
+    "odzywczy": [
      "T",
      "BP"
     ],
+    "dermatologiczny": [
+     "BP"
+    ],
     "naturalny": [
+     "BP"
+    ],
+    "kojacy": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "kojacy": [
-     "BP"
-    ],
-    "odzywczy": [
+    "swiad": [
      "T",
-     "BP"
-    ],
-    "dermatologiczny": [
      "BP"
     ]
    },
@@ -344,68 +292,6 @@
    "rating": 4.3,
    "reviews": 14420,
    "rev30": 54545,
-   "archival": false
-  },
-  {
-   "asin": "B003IO05U0",
-   "brand": "Cetaphil",
-   "title": "CETAPHIL Feuchtigkeitscreme, 453g, Für trockene, empfindliche Haut, Spendet intensiv 48h Feuchtigkeit und stärkt die Widerstandskraft, Mit Vitamin B3, Sonnenblumenöl, Verpackung kann variieren",
-   "img": "https://m.media-amazon.com/images/I/71vgyRjmhkL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/71vgyRjmhkL.jpg",
-    "https://m.media-amazon.com/images/I/71M5Da8YgBL.jpg",
-    "https://m.media-amazon.com/images/I/810Ex+9rLSL.jpg",
-    "https://m.media-amazon.com/images/I/71hJqNxxOgL.jpg",
-    "https://m.media-amazon.com/images/I/71gsvpEDI+L.jpg",
-    "https://m.media-amazon.com/images/I/81JubDMrEDL.jpg",
-    "https://m.media-amazon.com/images/I/712W0e5DlpL.jpg",
-    "https://m.media-amazon.com/images/I/81ELKwV6qFL.jpg"
-   ],
-   "bullets": [
-    "FEUCHTIGKEITSCREME FÜR TROCKENE, EMPFINDLICHE HAUT: Reichhaltige, nicht fettende Feuchtigkeitscreme. Nicht komedogen. Ohne Parfüm. Von dermatologischen Experten entwickelt.",
-    "REGENERIERENDE 48H-FEUCHTIGKEITSPFLEGE: Die reichhaltige Feuchtigkeitscreme spendet 48 Stunden intensive Feuchtigkeit, schützt die Haut zuverlässig vor Trockenheit und stärkt ihre Widerstandskraft.",
-    "STÄRKUNG DER HAUTBARRIERE SCHON NACH 3 TAGEN: komplette Wiederherstellung der natürlichen Barrierefunktion nach 1 Woche (Klinische Studie an 50 Frauen mit empfindlicher Haut; unveröffentlichte Daten (2017)):",
-    "WERTVOLLE INHALTSSTOFFE HELFEN DIE WIDERSTANDSFÄHIGKEIT EMPFINDLICHER HAUT ZU VERBESSERN: Versorgt die Haut mit Vitamin B3, Provitamin B5, Sonnenblumenöl, Mandelöl und feuchtigkeitsspendendem Glycerin.",
-    "CETAPHIL SCHÜTZT NACHWEISLICH GEGEN DIE 5 ANZEICHEN EMPFINDLICHER HAUT: Geschwächte Hautbarriere, Trockenheit, Rauheit, Irritationen und Spannungsgefühl. Von dermatologischen Experten entwickelt."
-   ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "dermatologiczny",
-    "naturalny",
-    "wchlanianie",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "wchlanianie": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ]
-   },
-   "price": 17.09,
-   "rating": 4.7,
-   "reviews": 1801,
-   "rev30": 52825,
    "archival": false
   },
   {
@@ -441,33 +327,33 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "swiad": [
+    "odzywczy": [
      "T",
      "BP"
     ],
-    "wchlanianie": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "kojacy": [
-     "T",
+    "bariera": [
      "BP"
     ],
     "skora_atopowa": [
      "T",
      "BP"
     ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
     "nawilzenie": [
      "BP"
     ],
-    "bariera": [
+    "wchlanianie": [
+     "BP"
+    ],
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
+     "T",
      "BP"
     ]
    },
@@ -506,20 +392,20 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "kojacy": [
-     "T"
-    ],
-    "bez_zapachu": [
+    "nawilzenie": [
      "BP"
     ],
     "odzywczy": [
      "T"
     ],
-    "nawilzenie": [
+    "bez_zapachu": [
+     "BP"
+    ],
+    "kojacy": [
+     "T"
+    ],
+    "cena_pojemnosc": [
+     "T",
      "BP"
     ],
     "swiad": [
@@ -562,17 +448,17 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "kojacy": [
+    "nawilzenie": [
      "BP"
     ],
     "bez_zapachu": [
      "T"
     ],
-    "nawilzenie": [
+    "kojacy": [
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ],
     "naturalny": [
      "T",
@@ -619,19 +505,16 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "wchlanianie": [
+    "odzywczy": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ],
     "naturalny": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "BP"
-    ],
-    "skora_atopowa": [
-     "BP"
-    ],
-    "odzywczy": [
      "BP"
     ],
     "nawilzenie": [
@@ -641,10 +524,13 @@
     "dla_dzieci": [
      "BP"
     ],
-    "bariera": [
+    "skora_atopowa": [
      "BP"
     ],
-    "dermatologiczny": [
+    "wchlanianie": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
      "BP"
     ]
    },
@@ -682,29 +568,118 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
+    "nawilzenie": [
+     "T"
+    ],
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
      "T",
      "BP"
     ],
     "kojacy": [
      "T"
     ],
-    "skora_atopowa": [
+    "cena_pojemnosc": [
      "T",
      "BP"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "T"
     ]
    },
    "price": 18.31,
    "rating": 4.6,
    "reviews": 743,
    "rev30": 34997,
+   "archival": false
+  },
+  {
+   "asin": "B00ST2GSRK",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay Reparierende Wundsalbe für geschädigte, irritierte Haut, Für Körper, Gesicht und Lippen, Mit Dexpanthenol, Tribioma und Thermalwasser, Cicaplast Baume B5+, 40 ml",
+   "img": "https://m.media-amazon.com/images/I/61QrwyZDC4L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61QrwyZDC4L.jpg",
+    "https://m.media-amazon.com/images/I/81lUhmNHTeL.jpg",
+    "https://m.media-amazon.com/images/I/71Ludkf2stL.jpg",
+    "https://m.media-amazon.com/images/I/71ubpOQH80L.jpg",
+    "https://m.media-amazon.com/images/I/81UxsqlY9cL.jpg",
+    "https://m.media-amazon.com/images/I/71lny6aZPPL.jpg",
+    "https://m.media-amazon.com/images/I/71Gc9r9CFSL.jpg",
+    "https://m.media-amazon.com/images/I/81l0TUabrEL.jpg"
+   ],
+   "bullets": [
+    "Die Creme repariert die Haut, mildert Narben und unterstützt ihr Mikrobiom. Die besonders sanfte Formel mit den Wirkstoffen Dexpanthenol (Vitamin B5), Madecassoside, Tribioma und Thermalwasser regeneriert, beruhigt und fördert die Zellerneuerung. Die Creme eignet sich auch für zarte Babyhaut.",
+    "Mildert die Anzeichen von Spannungsgefühlen oder Rötungen und sorgt so für ein angenehmeres sowie gepflegtes Hautgefühl. Fettet nicht und hinterlässt keine weißen Rückstände.",
+    "Die Wundsalbe kann bei verschiedenen Hautreizungen am Körper, im Gesicht und an den Lippen bei Erwachsenen, Kindern und Babys angewendet werden. Die Salbe auf die gereinigte und trockene Haut (z.B. mit CICAPLAST B5 Lavant) sanft auf der entsprechenden Stelle verteilen und leicht einmassieren."
+   ],
+   "themes": [
+    "kojacy",
+    "dla_dzieci",
+    "naturalny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "dla_dzieci": [
+     "BP"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 7.88,
+   "rating": 4.7,
+   "reviews": 20622,
+   "rev30": 30760,
+   "archival": false
+  },
+  {
+   "asin": "B008KL09BG",
+   "brand": "DEXERYL",
+   "title": "DEXERYL Pflegecreme 500 g",
+   "img": "https://m.media-amazon.com/images/I/51tMuhLqAWL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51tMuhLqAWL.jpg",
+    "https://m.media-amazon.com/images/I/71xWVq8zd1L.jpg",
+    "https://m.media-amazon.com/images/I/71oMROWkX3L.jpg",
+    "https://m.media-amazon.com/images/I/71K4ga3+QTL.jpg",
+    "https://m.media-amazon.com/images/I/71ruB6WailL.jpg",
+    "https://m.media-amazon.com/images/I/71zEEopW2LL.jpg",
+    "https://m.media-amazon.com/images/I/71-fbSnW3mL.jpg",
+    "https://m.media-amazon.com/images/I/71NVDc66CoL.jpg"
+   ],
+   "bullets": [
+    "PZN-18747739",
+    "500 g Creme",
+    "freiverkäuflich"
+   ],
+   "themes": [
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "odzywczy": [
+     "T"
+    ],
+    "cena_pojemnosc": [
+     "BP"
+    ]
+   },
+   "price": 19.76,
+   "rating": 4.7,
+   "reviews": 3109,
+   "rev30": 30694,
    "archival": false
   }
  ],
@@ -766,26 +741,32 @@
    "pct": 100
   },
   {
-   "key": "nawilzenie",
-   "label": "Nawilżenie",
-   "count": 10,
-   "pct": 83
-  },
-  {
    "key": "odzywczy",
    "label": "Odżywczy / regenerujący",
    "count": 10,
    "pct": 83
   },
   {
+   "key": "nawilzenie",
+   "label": "Nawilżenie",
+   "count": 8,
+   "pct": 67
+  },
+  {
    "key": "kojacy",
    "label": "Kojący / łagodzący",
-   "count": 7,
-   "pct": 58
+   "count": 8,
+   "pct": 67
   },
   {
    "key": "skora_atopowa",
    "label": "Skóra atopowa / egzema",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "dla_dzieci",
+   "label": "Dla dzieci / niemowląt",
    "count": 6,
    "pct": 50
   },
@@ -796,34 +777,28 @@
    "pct": 50
   },
   {
-   "key": "wchlanianie",
-   "label": "Szybkie wchłanianie",
-   "count": 6,
-   "pct": 50
-  },
-  {
-   "key": "dla_dzieci",
-   "label": "Dla dzieci / niemowląt",
-   "count": 5,
-   "pct": 42
-  },
-  {
-   "key": "dermatologiczny",
-   "label": "Dermatologicznie testowany",
-   "count": 5,
-   "pct": 42
-  },
-  {
    "key": "swiad",
    "label": "Redukcja świądu",
    "count": 4,
    "pct": 33
   },
   {
-   "key": "bariera",
-   "label": "Odbudowa bariery",
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany",
    "count": 4,
    "pct": 33
+  },
+  {
+   "key": "wchlanianie",
+   "label": "Szybkie wchłanianie",
+   "count": 4,
+   "pct": 33
+  },
+  {
+   "key": "bariera",
+   "label": "Odbudowa bariery",
+   "count": 3,
+   "pct": 25
   },
   {
    "key": "bez_zapachu",
@@ -861,14 +836,13 @@
    "vocTopic": "Tłusty film i słabe wchłanianie",
    "vocPct": 18.0,
    "theme": "Szybkie wchłanianie",
-   "addressed": 6,
+   "addressed": 4,
    "total": 12,
-   "pct": 50,
+   "pct": 33,
    "sev": "LOW",
    "brands": [
     "CeraVe",
-    "Mixa",
-    "Cetaphil"
+    "Mixa"
    ]
   },
   {
@@ -892,9 +866,9 @@
    "brands": [
     "La Roche-Posay",
     "CeraVe",
-    "Mixa",
     "Sorion",
-    "Cetaphil"
+    "Mixa",
+    "Eucerin"
    ]
   },
   {
@@ -912,6 +886,11 @@
  ],
  "whitespace": [
   {
+   "label": "Odbudowa bariery",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
    "label": "Bez zapachu / perfum",
    "pct": 25,
    "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
@@ -924,22 +903,27 @@
    "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
-   "label": "Nawilżenie",
-   "pct": 83,
-   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
-  },
-  {
    "label": "Odżywczy / regenerujący",
    "pct": 83,
    "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
+   "label": "Nawilżenie",
+   "pct": 67,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
    "label": "Kojący / łagodzący",
-   "pct": 58,
+   "pct": 67,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Skóra atopowa / egzema",
+   "pct": 50,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Dla dzieci / niemowląt",
    "pct": 50,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
@@ -949,29 +933,24 @@
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Szybkie wchłanianie",
-   "pct": 50,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Dla dzieci / niemowląt",
-   "pct": 42,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Dermatologicznie testowany",
-   "pct": 42,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
    "label": "Redukcja świądu",
    "pct": 33,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Odbudowa bariery",
+   "label": "Dermatologicznie testowany",
    "pct": 33,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Szybkie wchłanianie",
+   "pct": 33,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Odbudowa bariery",
+   "pct": 25,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
    "label": "Bez zapachu / perfum",
@@ -987,12 +966,12 @@
   },
   {
    "type": "Pozycjonowanie",
-   "finding": "Nisko wysycone claimy: Bez zapachu / perfum.",
+   "finding": "Nisko wysycone claimy: Odbudowa bariery, Bez zapachu / perfum.",
    "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
   },
   {
    "type": "Produkt",
-   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność, Nawilżenie, Odżywczy / regenerujący.",
+   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność, Odżywczy / regenerujący.",
    "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]

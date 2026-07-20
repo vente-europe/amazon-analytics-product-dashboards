@@ -1,307 +1,8 @@
 {
- "totalCompetitors": 12,
+ "totalCompetitors": 6,
  "marketplace": "amazon.de",
- "avgClaims": 4.9,
+ "avgClaims": 4.0,
  "competitors": [
-  {
-   "asin": "B0DL8Y8N4G",
-   "brand": "ANUA",
-   "title": "Anua Heartleaf Pore Cleansing Oil, Reinigungsöl Gesicht, Porenreiniger, Sebum-Pflege, geeignet für alle Hauttypen, sanft schmelzende Textur, Makeup Remover, korean skincare (200ml)",
-   "img": "https://m.media-amazon.com/images/I/61nHrsCJT1L.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/61nHrsCJT1L.jpg",
-    "https://m.media-amazon.com/images/I/61pU1ufrA1L.jpg",
-    "https://m.media-amazon.com/images/I/71Jp0J+kGfL.jpg",
-    "https://m.media-amazon.com/images/I/81wPPO1o4vL.jpg",
-    "https://m.media-amazon.com/images/I/711nzQC6tyL.jpg",
-    "https://m.media-amazon.com/images/I/71D404D34VL.jpg",
-    "https://m.media-amazon.com/images/I/81mbQbxahVL.jpg",
-    "https://m.media-amazon.com/images/I/71d62+xEbgL.jpg"
-   ],
-   "bullets": [
-    "[Tiefenreinigung] Entfernt Makeup effektiv. Dieses leichte Reinigungsöl löst Sebum, Unreinheiten*, Sonnenschutz und Makeup in nur einem Schritt und hilft, eine saubere Grundlage für einen glatten Glass-Skin-Look zu schaffen – ohne fettige Rückstände.",
-    "[Porenpflege] Klinische Tests zeigen eine Veränderung der Talgmenge um 22,8 %*, was zu einem klar wirkenden Teint und einem verbesserten Hautbild im Laufe der Zeit beitragen kann. Formuliert mit Heartleaf-Extrakt, um die Haut zu beruhigen und nach der Reinigung ein angenehmes Hautgefühl zu bewahren.",
-    "[Für alle Hauttypen geeignet] Hypoallergen- und Nicht-Irritations-Tests bestätigen die Eignung für alle Hauttypen. Besonders sanft zu empfindlicher * und zu unreinheitsanfäliger Haut. Ideal für alle, die einen einfachen, reizarmen Reiniger bevorzugen – auch für die Anwendung im Nasen- und Wangenbereich bei sanfter Anwendung und gründlichem Abspülen.",
-    "[Augenkomfort] Für eine sichere Anwendung im Augenbereich entwickelt – ohne Brennen oder Augenreizungen. Ein Augenreiztest* wurde durchgeführt, ebenso wie ein Nicht-komedogenitäts-Test*, um Hautkomfort und Sicherheit zu unterstützen.",
-    "[Double-Cleanse-Routine] Emulgiert schnell mit Wasser und sorgt für ein sauberes, leichtes Finish ohne rutschige Rückstände. ① Das Reinigunsöi auf trockene Haut auftragen und 1–2 Minuten sanft einmassieren, um Make-up und Unreinheiten zu lösen. ② Eine kleine Menge Wasser hinzufügen, um das Öl zu emulgieren, sodass die Formel Talg und Ablagerungen lösen kann. ③ Gründlich mit lauwarmem Wasser abspülen. ④ Anschließend einen wasserbasierten Reiniger verwenden, um die Double-Cleanse-Routine abzuschließen – für ein frisches und ausgeglichenes Hautgefühl."
-   ],
-   "themes": [
-    "kojacy",
-    "hipoalergiczny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "kojacy": [
-     "BP"
-    ],
-    "hipoalergiczny": [
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ]
-   },
-   "price": 13.99,
-   "rating": 4.4,
-   "reviews": 1162,
-   "rev30": 64242,
-   "archival": false
-  },
-  {
-   "asin": "B00ZY65OSI",
-   "brand": "Bioderma",
-   "title": "BIODERMA Atoderm Duschöl - beruhigende und reizlindernde Reinigung - sofortiges Wohlbefinden und 24 Stunden Feuchtigkeitsversorgung - empfindliche, sehr trockene bis irritierte Haut - Pumpflasche 1 l",
-   "img": "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
-    "https://m.media-amazon.com/images/I/71I3dig7MJL.jpg",
-    "https://m.media-amazon.com/images/I/71aFKgkyxCL.jpg",
-    "https://m.media-amazon.com/images/I/71xdR08es9L.jpg",
-    "https://m.media-amazon.com/images/I/61TfMmtnQqL.jpg",
-    "https://m.media-amazon.com/images/I/81uYqUDpHLL.jpg",
-    "https://m.media-amazon.com/images/I/91NtdCjo5QL.jpg"
-   ],
-   "bullets": [
-    "Das Duschöl für die ganze Familie: Mit seiner intensiv pflegenden Wirkung reinigt es die Haut und lindert Irritationen - versorgt die Haut zudem mit Feuchtigkeit und bietet ein angenehmes Gefühl",
-    "Nachgewiesene Wirksamkeit: Die Haut ist nach 27 Tagen um 26 % mehr mit Feuchtigkeit versorgt und 80 % der Anwenderinnen fanden ihre Haut sofort weicher und fühlten sich sofort besser",
-    "Eine Formel mit doppelter Wirkung: Ihre rückfettenden, feuchtigkeitsspendenden Wirkstoffe versorgen die Haut mit Nährstoffen und der Skin Barrier Therapy Komplex begrenzt den Zugang von Bakterien",
-    "Anwendung: Ein- bis zweimal täglich zum Duschen oder Baden auf die nasse Haut auftragen und abspülen - mit einer Atoderm Pflege ergänzen",
-    "Gute Haut- und Augenverträglichkeit: Bioderma ist eine auf Ökobiologie basierende Marke, die im Mittelpunkt des NAOS-Ansatzes steht - respektiert das Ökosystem Ihrer Haut und bewahrt Ihre Gesundheit"
-   ],
-   "themes": [
-    "nawilzenie",
-    "kojacy",
-    "bariera",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "naturalny": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "kojacy": [
-     "T"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ]
-   },
-   "price": 17.43,
-   "rating": 4.7,
-   "reviews": 30203,
-   "rev30": 25521,
-   "archival": false
-  },
-  {
-   "asin": "B0967LDZ7R",
-   "brand": "CeraVe",
-   "title": "CeraVe Feuchtigkeitsspendendes Reinigungsöl, Intensive und langanhaltende Feuchtigkeit für normale bis sehr trockene Haut, Reinigung für Körper und Gesicht, mit 3 essenziellen Ceramiden, 473 ml",
-   "img": "https://m.media-amazon.com/images/I/51mYBrdKYkL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/51mYBrdKYkL.jpg",
-    "https://m.media-amazon.com/images/I/61dzICUpKNL.jpg",
-    "https://m.media-amazon.com/images/I/612Tb1Wp9IL.jpg",
-    "https://m.media-amazon.com/images/I/61rKUxaUUrL.jpg",
-    "https://m.media-amazon.com/images/I/51VOcCjnBGL.jpg",
-    "https://m.media-amazon.com/images/I/51WxA2UGMuL.jpg"
-   ],
-   "bullets": [
-    "Feuchtigkeitsspendendes Anti-Austrocknung Reinigungsöl. Entfernt Make-up rückstandslos. Von Dermatologen getestet und für alle Hauttypen geeignet. Reinigt schonend und sanft ohne Hautreizungen und stärkt die Hautschutzbarriere.",
-    "Verträglich für trockene, zu Allergien neigende Haut und empfindliche Babyhaut. Ohne Parabene und Parfum.",
-    "Morgens und/oder abends auf leicht angefeuchteter Haut sanft aufschäumen. Mit lauwarmem Wasser abwaschen."
-   ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "dla_dzieci",
-    "dermatologiczny",
-    "bez_dodatkow",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "dla_dzieci": [
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "bez_dodatkow": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ]
-   },
-   "price": 15.25,
-   "rating": 4.6,
-   "reviews": 10232,
-   "rev30": 24907,
-   "archival": false
-  },
-  {
-   "asin": "B07C5XD33D",
-   "brand": "CeraVe",
-   "title": "CeraVe Schäumendes Reinigungsgel, Sanftes Waschgel zum Entfernen von Verschmutzungen, Talg und Makeup, Feuchtigkeitsspendend, mit Niacinamid, Hyaluron und Ceramiden, 473 ml",
-   "img": "https://m.media-amazon.com/images/I/51bpB2xMIrL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/51bpB2xMIrL.jpg",
-    "https://m.media-amazon.com/images/I/514qbLDYiyL.jpg",
-    "https://m.media-amazon.com/images/I/51zjhI1sH+L.jpg",
-    "https://m.media-amazon.com/images/I/51UAXVIy1DL.jpg",
-    "https://m.media-amazon.com/images/I/61lFt0dQWEL.jpg",
-    "https://m.media-amazon.com/images/I/61dB-ogtAAL.jpg",
-    "https://m.media-amazon.com/images/I/61XHSA4nVML.jpg",
-    "https://m.media-amazon.com/images/I/61MlTCOrJYL.jpg"
-   ],
-   "bullets": [
-    "Das Schäumende Reinigungsgel von CeraVe befreit fettige Haut zuverlässig von überschüssigem Talg, Make-up und Schmutz. Zudem spendet es Feuchtigkeit und fördert den Aufbau der natürlichen Hautschutzbarriere.",
-    "Reinigt sanft und befreit die Haut von Schmutz, spendet ihr Feuchtigkeit und kommt ganz ohne Parfüm aus.",
-    "Morgens und abends mit etwas Wasser in den Handflächen aufschäumen und auf die Haut auftragen und einmassieren."
-   ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "naturalny",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ]
-   },
-   "price": 16.98,
-   "rating": 4.6,
-   "reviews": 101254,
-   "rev30": 24294,
-   "archival": false
-  },
-  {
-   "asin": "B0BYQ45N7W",
-   "brand": "The Ordinary",
-   "title": "The Ordinary Glucoside Foaming Cleanser, Mildes, schäumendes Gesichtswaschgel für alle Hauttypen, einschließlich empfindlicher Haut, 150ml",
-   "img": "https://m.media-amazon.com/images/I/41uPO7xf-qL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/41uPO7xf-qL.jpg",
-    "https://m.media-amazon.com/images/I/51ekw3ajXkL.jpg",
-    "https://m.media-amazon.com/images/I/61kEJcyodCL.jpg",
-    "https://m.media-amazon.com/images/I/617S0kSEzCL.jpg",
-    "https://m.media-amazon.com/images/I/61FT3PN43cL.jpg",
-    "https://m.media-amazon.com/images/I/619HWshXAWL.jpg"
-   ],
-   "bullets": [
-    "SANFTER SCHÄUMENDER REINIGER: Entfernt effektiv Schmutz und Umweltverunreinigungen und bewahrt gleichzeitig die Feuchtigkeitsbarriere der Haut.",
-    "GEEIGNET FÜR: Der Glucoside Foaming Cleanser ist klinisch erwiesen für Babys geeignet und schont die Hautbarriere selbst empfindlichster Haut.",
-    "PFLANZLICHE TENSIDE: Enthält Decylglucosid und Coco-Glucosid, um die Haut zu reinigen, ohne sie auszutrocknen.",
-    "VERBESSERT DIE HAUTKLARHEIT UND -STRUKTUR: Bei regelmäßiger Anwendung sieht die Haut klarer, strukturierter, strahlender und geschmeidiger aus.",
-    "EINFACHE ANWENDUNG: Auf das nasse Gesicht einmassieren und mit warmem Wasser abspülen, um die Haut zu reinigen."
-   ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "dla_dzieci",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "dla_dzieci": [
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ]
-   },
-   "price": 10.5,
-   "rating": 4.7,
-   "reviews": 2507,
-   "rev30": 23303,
-   "archival": false
-  },
-  {
-   "asin": "B0DJPB34JN",
-   "brand": "La Roche-Posay",
-   "title": "La Roche-Posay Lipikar Dusch- und Badeöl AP+ Rückfettendes Duschgel - Badeöl für juckende, trockene und empfindliche Haut 1L",
-   "img": "https://m.media-amazon.com/images/I/516Q-7YP6ML.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/516Q-7YP6ML.jpg"
-   ],
-   "bullets": [
-    "Duschöl für das tägliche Duschen oder Baden emulgiert mit Wasser und bildet einen Schutzfilm auf der Haut",
-    "Reinigt sanft, wirkt hautberuhigend und mindert Spannungsgefühle",
-    "Für Babys, Kinder und Erwachsene geeignet - Ohne Alkohol. pH-hautneutral",
-    "Niacinamid mildert den Juckreiz und hilft, die Hautschutzbarriere zu reparieren und die Haut zu stärken",
-    "Sheabutter pflegt die Haut und macht sie weicher und geschmeidiger"
-   ],
-   "themes": [
-    "kojacy",
-    "swiad",
-    "bariera",
-    "dla_dzieci"
-   ],
-   "themeSrc": {
-    "kojacy": [
-     "BP"
-    ],
-    "dla_dzieci": [
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "swiad": [
-     "T",
-     "BP"
-    ]
-   },
-   "price": 17.79,
-   "rating": 4.7,
-   "reviews": 496,
-   "rev30": 20239,
-   "archival": false
-  },
   {
    "asin": "B0FJFD8HDX",
    "brand": "Sebamed",
@@ -329,21 +30,21 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
+    "nawilzenie": [
      "T",
      "BP"
     ],
     "odzywczy": [
      "BP"
     ],
-    "nawilzenie": [
+    "dermatologiczny": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
      "T",
      "BP"
     ],
     "naturalny": [
-     "BP"
-    ],
-    "dermatologiczny": [
      "BP"
     ]
    },
@@ -351,219 +52,6 @@
    "rating": 4.8,
    "reviews": 169,
    "rev30": 18517,
-   "archival": false
-  },
-  {
-   "asin": "B07PTZFT38",
-   "brand": "Weleda",
-   "title": "WELEDA Bio Klärendes Waschgel - porentiefe Naturkosmetik Anti Pickel Gesichtsreinigung für unreine Haut. Gesichtspflege bekämpft Pickel / Mitesser & reduziert überschüssigen Talg (vegan, 100ml)",
-   "img": "https://m.media-amazon.com/images/I/61-pP4etK4L.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/61-pP4etK4L.jpg",
-    "https://m.media-amazon.com/images/I/71dVnl+A2FL.jpg",
-    "https://m.media-amazon.com/images/I/81iwaCsIqjL.jpg",
-    "https://m.media-amazon.com/images/I/81toxyHwZ4L.jpg",
-    "https://m.media-amazon.com/images/I/81mK6Vxx8DL.jpg",
-    "https://m.media-amazon.com/images/I/715qObQpQpL.jpg",
-    "https://m.media-amazon.com/images/I/71wneCcYzRL.jpg"
-   ],
-   "bullets": [
-    "PORENTIEFE REINGUNG: Das antibakterielle WELEDA Waschgel reinigt sanft und porentief mit einem Auszug aus Weidenrinden und Süßholzwurzel sowie einem Destillat aus Hamamelis. Es kann auch als Make Up Entferner verwendet werden",
-    "REDUZIERT PICKEL & MITESSER: Die erfrischende Gesichtspflege reduziert überschüssigen Talg und Hautglanz wirksam, beugt Hautunreinheiten vor und spendet der Haut Feuchtigkeit, ohne sie auszutrocknen. Kamille, Lavendel & Pfefferminze verleihen der Gesichtsreinigung einen belebenden Duft",
-    "HILFT BEI UNREINER HAUT: Die natürliche Gesichtsreinigung kann morgens und abends mit Wasser auftragen und anschließend abgespült werden und eignet sich für alle Hauttypen. Das Gel sorgt für ein reines und ebenmäßiges Hautbild und ist nicht komedogen",
-    "HÖCHSTE WELEDA QUALITÄT: Das natürliche Reinigungsgel ist vegan und frei von synthetischen Duftstoffen, Farbstoffen und Konservierungsstoffen, Mikroplastik Inhaltsstoffen sowie Rohstoffen auf Mineralölbasis. Die Hautverträglichkeit ist dermatologisch bestätigt",
-    "LIEFERUMFANG: 1x WELEDA Bio Klärendes Waschgel zur täglichen Gesichtspflege und Gesichtsreinigung. Erfrischendes Naturkosmetik Unisex Reinigungsgel für Frauen und Männer"
-   ],
-   "themes": [
-    "nawilzenie",
-    "dermatologiczny",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "naturalny": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ]
-   },
-   "price": 5.43,
-   "rating": 4.5,
-   "reviews": 1460,
-   "rev30": 8110,
-   "archival": false
-  },
-  {
-   "asin": "B0FB3JRY23",
-   "brand": "Sebamed",
-   "title": "Sebamed seifenfreie Waschemulsion Nachfüllbeutel 400 ml, seifenfreie Reinigung für empfindliche Haut, stärkt die Hautbarriere, zur Hand-, Gesichts- und Körperreinigung geeignet",
-   "img": "https://m.media-amazon.com/images/I/7103d0-SPtL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/7103d0-SPtL.jpg",
-    "https://m.media-amazon.com/images/I/41MsfA9JX6L.jpg",
-    "https://m.media-amazon.com/images/I/41ieZ0893CL.jpg",
-    "https://m.media-amazon.com/images/I/51nDuHftpfL.jpg"
-   ],
-   "bullets": [
-    "MILDE REINIGUNG: Ein Reinigungskomplex mit besonders milden Waschaktivsubstanzen reinigt die empfindliche Haut und hilft, die Haut vor Reizung und Austrocknung zu schützen. Ein Pflegekomplex mit Pentavitin und Panthenol gleicht Feuchtigkeitsverlust aus",
-    "GUT FÜR DIE UMWELT: 70% weniger Kunststoff und 85% weniger Abfallvolumen bezogen auf eine 400 ml Originalflasche bei vollständig entleerten und zusammengerollten Beutel",
-    "FÜR GESUNDE HAUT: Der pH-Wert 5,5 von sebamed stärkt die Funktion des natürlichen Hautschutzmantels auch gegen schädliche Umwelteinflüsse und trägt zur Gesunderhaltung der Haut bei",
-    "STABLISIERT DAS HAUTMIKROBIOM: Die Mikroorganismen der Haut leben in einem gut eingespielten ökologischen Gleichgewicht. Sebamed Produktemit ihren schonenden Rezepturen, milden Inhaltsstoffen und dem pH-Wert 5,5 helfen, die Artenvielfalt und Vitalität dieses hauteigenen Ökosystems auf natürliche Weise zu erhalten und zu stabilisieren",
-    "QUALITÄT MADE IN GERMANY: Unsere Produkte werden in Deutschland entwickelt, getestet und hergestellt. Die Qualität ist durch ausgewählte Rohstoffe und kontrollierte Fertigungsprozesse garantiert. Sebamed Produkte sind in über 400 Studien dermatologisch-klinisch getestet",
-    "DERMATOLOGISCH-KLINISCH BESTÄTIGT: Sebamed Produkte helfen, den natürlichen Hautschutzmantel zu stabilisieren und die Haut widerstandsfähiger gegen Umweltreize zu machen. Die Verträglichkeit und Pflegewirkung sind dermatologisch-klinisch geprüft und bestätigt. Dadurch trägt diese Pflegeserie nachweislich dazu bei, das Risiko für Hautreaktionen spürbar zu vermindern",
-    "UNSER UMWELTVERSPRECHEN: 0 % Mikroplastik 0 % Silikone 0 % PEG, VEGAN"
-   ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "dermatologiczny",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "bariera": [
-     "T"
-    ],
-    "naturalny": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ]
-   },
-   "price": 3.74,
-   "rating": 4.7,
-   "reviews": 154,
-   "rev30": 7725,
-   "archival": false
-  },
-  {
-   "asin": "B0FJ88C598",
-   "brand": "Sebamed",
-   "title": "SEBAMED Meersalz Dusche 400 ml, Duschgel für Männer und Frauen, mit original totem Meersalz, seifenfreie Reinigung für empfindliche und trockene Haut",
-   "img": "https://m.media-amazon.com/images/I/41uinl-VlwL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/41uinl-VlwL.jpg",
-    "https://m.media-amazon.com/images/I/41MsfA9JX6L.jpg",
-    "https://m.media-amazon.com/images/I/41ieZ0893CL.jpg",
-    "https://m.media-amazon.com/images/I/51nDuHftpfL.jpg"
-   ],
-   "bullets": [
-    "MIT ORIGINAL TOTEM MEERSALZ: Das Besondere an der sebamed Meersalz Dusche ist ihr Gehalt von 3 % Totes Meer Salz. Meersalz mit seinen lindernden und regenerierenden Eigenschaften ist dafür bekannt das Hautbild nachhaltig zu verbessern und macht damit die Körperpflege zu einem unvergleichlichen Wohlfühl-Ritual für trockene und empfindliche Haut",
-    "FÜR TROCKENE UND EMPFINDLICHE HAUT: Die milde Pflegeformel der sebamed Meersalz Dusche mit original Totes Meer Salz Mineralien eignet sich für die Reinigung der trockenen und empfindlichen Haut, reinigt seifenfrei, stabilisiert die Feuchtigkeitsbalance der Haut, entspannt die Haut und verleiht ein gesundes Frischegefühl.",
-    "PH 5,5 FÜR GESUNDE HAUT: Der pH-Wert 5,5 von sebamed stärkt die Funktion des natürlichen Hautschutzmantels auch gegen schädliche Umwelteinflüsse und trägt zur Gesunderhaltung der Haut bei",
-    "STABLISIERT DAS HAUTMIKROBIOM: Die Mikroorganismen der Haut leben in einem gut eingespielten ökologischen Gleichgewicht. Sebamed Produkte mit ihren schonenden Rezepturen, milden Inhaltsstoffen und dem pH-Wert 5,5 helfen, die Artenvielfalt und Vitalität dieses hauteigenen Ökosystems auf natürliche Weise zu erhalten und zu stabilisieren",
-    "QUALITÄT MADE IN GERMANY: Unsere Produkte werden in Deutschland entwickelt, getestet und hergestellt. Die Qualität ist durch ausgewählte Rohstoffe und kontrollierte Fertigungsprozesse garantiert. Sebamed Produkte sind in über 400 Studien dermatologisch-klinisch getestet. 0 % Mikroplastik 0 % Silikone, 0% PEG, Vegan",
-    "DERMATOLOGISCH-KLINISCH BESTÄTIGT: Sebamed Produkte helfen, den natürlichen Hautschutzmantel zu stabilisieren und die Haut widerstandsfähiger gegen Umweltreize zu machen. Die Verträglichkeit und Pflegewirkung sind dermatologisch-klinisch geprüft und bestätigt. Dadurch trägt diese Pflegeserie nachweislich dazu bei, das Risiko für Hautreaktionen spürbar zu vermindern"
-   ],
-   "themes": [
-    "nawilzenie",
-    "dermatologiczny",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ]
-   },
-   "price": 3.77,
-   "rating": 4.7,
-   "reviews": 138,
-   "rev30": 7458,
-   "archival": false
-  },
-  {
-   "asin": "B01N5K834V",
-   "brand": "ma:nyo",
-   "title": "ma:nyo Reines Reinigungsöl Korean Gesichtsreinigungsmittel, Mitesser schmelzend, tägliche Make-up-Entfernung mit Arganöl, für Frauen Koreanische Hautpflege 6,7 fl oz",
-   "img": "https://m.media-amazon.com/images/I/61GfWBNBkXL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/61GfWBNBkXL.jpg",
-    "https://m.media-amazon.com/images/I/713fvwZ+0xL.jpg",
-    "https://m.media-amazon.com/images/I/61bzhp1ADjL.jpg",
-    "https://m.media-amazon.com/images/I/71qGwJqKl6L.jpg",
-    "https://m.media-amazon.com/images/I/61VqVj4FgUL.jpg",
-    "https://m.media-amazon.com/images/I/71a5HI2nWRL.jpg",
-    "https://m.media-amazon.com/images/I/6131LxLOHoL.jpg",
-    "https://m.media-amazon.com/images/I/716H4tx1EJL.jpg"
-   ],
-   "bullets": [
-    "[WAS ES WIRKT]: Leistungsstarke Reinigung – Nicht reizend, basierend auf Complete Natural & Clean-Inhaltsstoffen, die auf Make-up, Sonnenschutz und Talgentfernung abzielen.",
-    "[HAUPTVORTEILE]: Effektive Mitesserbehandlung mit sanftem, aber kraftvollem Reinigungsöl, um Unreinheiten ohne Hautirritationen zu entfernen.",
-    "[INHALTSSTOFFE, DIE IHRE HAUT LIEBEN WIRD]: Argankernöl – vollgepackt mit Vitamin E, reich an Antioxidantien, entzündungshemmenden, feuchtigkeitsspendenden, beruhigenden Eigenschaften. Zusätzlich 14 pflanzliche Öle, um die Haut zu nähren und den Feuchtigkeits- und pH-Wert der Haut in Schach zu halten.",
-    "[VERTRAUEN VON MA:NYO]: 2,38 Millionen verkaufte Einheiten! (2021.05). Direkt aus Korea hergestellt und importiert.",
-    "[MA:NYO'S STORY]: Erstellt auf der Grundlage des Konzepts, hautfreundliche Inhaltsstoffe für die Hautpflege anzuwenden. Wir haben uns der Herstellung sicherer, reiner und sauberer Schönheitsprodukte für alle verschrieben."
-   ],
-   "themes": [
-    "nawilzenie",
-    "kojacy",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "kojacy": [
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ]
-   },
-   "price": 18.9,
-   "rating": 4.5,
-   "reviews": 6319,
-   "rev30": 7335,
    "archival": false
   },
   {
@@ -594,19 +82,19 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
     "skora_atopowa": [
      "T"
     ],
-    "bez_zapachu": [
-     "BP"
+    "dla_dzieci": [
+     "T"
     ],
     "nawilzenie": [
      "BP"
     ],
-    "dla_dzieci": [
+    "bez_zapachu": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
      "T"
     ]
    },
@@ -614,6 +102,175 @@
    "rating": 4.6,
    "reviews": 10232,
    "rev30": 7145,
+   "archival": false
+  },
+  {
+   "asin": "B00V4PHBO8",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay Lipikar Gel Lavant, Hautberuhigendes, sanftes Duschgel für trockene, empfindliche Haut, Mit Niacinamid, Zur täglichen Reinigung, 400 ml",
+   "img": "https://m.media-amazon.com/images/I/71VNlYW5XzL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71VNlYW5XzL.jpg"
+   ],
+   "bullets": [
+    "Sanftes Waschgel für die ganze Familie, das selbst empfindliche Haut am ganzen Körper bei der täglichen Reinigung beruhigt, schützt und ihren Wiederaufbau unterstützt. Auch für die empfindliche Haut/Kopfhaut von Babys geeignet.",
+    "Für die tägliche Reinigung unter der Dusche. Brennt nicht in den Augen und ist auch für Säuglinge/Kinder geeignet.",
+    "Haselnussgroße Menge auf die angefeuchtete Haut aufmassieren, gut abspülen. Kontakt mit Augen vermeiden."
+   ],
+   "themes": [
+    "kojacy",
+    "dla_dzieci",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "dla_dzieci": [
+     "BP"
+    ],
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 11.5,
+   "rating": 4.8,
+   "reviews": 3169,
+   "rev30": 6327,
+   "archival": false
+  },
+  {
+   "asin": "B07Q272CWN",
+   "brand": "Cetaphil",
+   "title": "Cetaphil Pro Itch Control Waschlotion, 295 ml Lotion",
+   "img": "https://m.media-amazon.com/images/I/61nqe943+EL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61nqe943+EL.jpg",
+    "https://m.media-amazon.com/images/I/917zZSEqmlL.jpg",
+    "https://m.media-amazon.com/images/I/719tJSs6JcL.jpg",
+    "https://m.media-amazon.com/images/I/71D-4GS1EKL.jpg",
+    "https://m.media-amazon.com/images/I/918rlTzitSL.jpg",
+    "https://m.media-amazon.com/images/I/81nhB2bTFlL.jpg",
+    "https://m.media-amazon.com/images/I/81n875G+qbL.jpg",
+    "https://m.media-amazon.com/images/I/81L1LcvHQ9L.jpg"
+   ],
+   "bullets": [
+    "hochwertige medizinische Hautpflege",
+    "für empfindliche Haut",
+    "Lotion zum Auftragen auf die Haut",
+    "Dermokosmetik aus der Apotheke (PZN: 14168163)",
+    "Hersteller: Galderma Laboratorium GmbH, Deutschland"
+   ],
+   "themes": [
+    "swiad",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "odzywczy": [
+     "BP"
+    ],
+    "swiad": [
+     "T"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ]
+   },
+   "price": 13.18,
+   "rating": 4.6,
+   "reviews": 252,
+   "rev30": 5380,
+   "archival": false
+  },
+  {
+   "asin": "B002WDQ2DM",
+   "brand": "EUBOS",
+   "title": "EUBOS Kinder HAUT RUHE Waschgel, 125 ml Gel",
+   "img": "https://m.media-amazon.com/images/I/61d8EuBNzBL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61d8EuBNzBL.jpg",
+    "https://m.media-amazon.com/images/I/610PCcfrQYL.jpg",
+    "https://m.media-amazon.com/images/I/61LAlqv-i7L.jpg",
+    "https://m.media-amazon.com/images/I/71Ws8chf2PL.jpg",
+    "https://m.media-amazon.com/images/I/61FLT424s5L.jpg",
+    "https://m.media-amazon.com/images/I/71l0FFvGEyL.jpg",
+    "https://m.media-amazon.com/images/I/71LILKP8EVL.jpg",
+    "https://m.media-amazon.com/images/I/617w-dE1b7L.jpg"
+   ],
+   "bullets": [
+    "hochwertige medizinische Hautpflege",
+    "für empfindliche Haut",
+    "Gel zum Auftragen auf die Haut",
+    "Produkt zur Körperpflege aus der Apotheke (PZN: 06728984)",
+    "Hersteller: Dr. Hobein (Nachf.) GmbH med. Hautpflege, Deutschland"
+   ],
+   "themes": [
+    "dla_dzieci",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "dla_dzieci": [
+     "T"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ]
+   },
+   "price": 10.45,
+   "rating": 4.6,
+   "reviews": 186,
+   "rev30": 2187,
+   "archival": false
+  },
+  {
+   "asin": "B00EXVBBTQ",
+   "brand": "InfectoPharm",
+   "title": "NEURODERM Mandelölbad, 200 ml – Medizinisches Badeöl für trockene Haut und zur Behandlung bei Neurodermitis, Schuppenflechte & Juckreiz | Hautberuhigender Badezusatz mit natürlichem Mandelöl",
+   "img": "https://m.media-amazon.com/images/I/714L7cdu+sL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/714L7cdu+sL.jpg"
+   ],
+   "bullets": [
+    "NEURODERM MANDELÖLBAD: Das Ölbad wird angewendet zur unterstützenden Behandlung von Hauterkrankungen mit trockener, juckender Haut, z. B. bei Neurodermitis, Schuppenflechte, Fischschuppenkrankheit, Altershaut mit Juckreiz, Windelekzem und Waschekzem."
+   ],
+   "themes": [
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "naturalny",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
+     "T",
+     "BP"
+    ],
+    "naturalny": [
+     "T"
+    ]
+   },
+   "price": 11.56,
+   "rating": 4.7,
+   "reviews": 339,
+   "rev30": 28,
    "archival": false
   }
  ],
@@ -635,10 +292,6 @@
    "label": "Redukcja świądu"
   },
   {
-   "key": "bariera",
-   "label": "Odbudowa bariery"
-  },
-  {
    "key": "bez_zapachu",
    "label": "Bez zapachu / perfum"
   },
@@ -647,16 +300,8 @@
    "label": "Dla dzieci / niemowląt"
   },
   {
-   "key": "hipoalergiczny",
-   "label": "Hipoalergiczny"
-  },
-  {
    "key": "dermatologiczny",
    "label": "Dermatologicznie testowany"
-  },
-  {
-   "key": "bez_dodatkow",
-   "label": "Bez parabenów / SLS"
   },
   {
    "key": "naturalny",
@@ -675,80 +320,62 @@
   {
    "key": "cena_pojemnosc",
    "label": "Ekonomiczny / duża pojemność",
-   "count": 11,
-   "pct": 92
-  },
-  {
-   "key": "nawilzenie",
-   "label": "Nawilżenie",
-   "count": 10,
-   "pct": 83
-  },
-  {
-   "key": "naturalny",
-   "label": "Naturalny / wegański",
-   "count": 7,
-   "pct": 58
-  },
-  {
-   "key": "odzywczy",
-   "label": "Odżywczy / regenerujący",
-   "count": 7,
-   "pct": 58
-  },
-  {
-   "key": "bariera",
-   "label": "Odbudowa bariery",
    "count": 6,
-   "pct": 50
-  },
-  {
-   "key": "dermatologiczny",
-   "label": "Dermatologicznie testowany",
-   "count": 5,
-   "pct": 42
-  },
-  {
-   "key": "kojacy",
-   "label": "Kojący / łagodzący",
-   "count": 4,
-   "pct": 33
+   "pct": 100
   },
   {
    "key": "dla_dzieci",
    "label": "Dla dzieci / niemowląt",
-   "count": 4,
+   "count": 3,
+   "pct": 50
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący",
+   "count": 3,
+   "pct": 50
+  },
+  {
+   "key": "nawilzenie",
+   "label": "Nawilżenie",
+   "count": 2,
    "pct": 33
   },
   {
    "key": "skora_atopowa",
    "label": "Skóra atopowa / egzema",
-   "count": 1,
-   "pct": 8
+   "count": 2,
+   "pct": 33
+  },
+  {
+   "key": "kojacy",
+   "label": "Kojący / łagodzący",
+   "count": 2,
+   "pct": 33
   },
   {
    "key": "swiad",
    "label": "Redukcja świądu",
-   "count": 1,
-   "pct": 8
+   "count": 2,
+   "pct": 33
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański",
+   "count": 2,
+   "pct": 33
   },
   {
    "key": "bez_zapachu",
    "label": "Bez zapachu / perfum",
    "count": 1,
-   "pct": 8
+   "pct": 17
   },
   {
-   "key": "hipoalergiczny",
-   "label": "Hipoalergiczny",
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany",
    "count": 1,
-   "pct": 8
-  },
-  {
-   "key": "bez_dodatkow",
-   "label": "Bez parabenów / SLS",
-   "count": 1,
-   "pct": 8
+   "pct": 17
   }
  ],
  "vocGap": [
@@ -757,7 +384,7 @@
    "vocPct": 26.0,
    "theme": "",
    "addressed": 0,
-   "total": 12,
+   "total": 6,
    "pct": 0,
    "sev": "HIGH",
    "brands": []
@@ -766,16 +393,13 @@
    "vocTopic": "Wysuszenie zamiast nawilżenia",
    "vocPct": 22.0,
    "theme": "Nawilżenie",
-   "addressed": 10,
-   "total": 12,
-   "pct": 83,
+   "addressed": 2,
+   "total": 6,
+   "pct": 33,
    "sev": "LOW",
    "brands": [
-    "Bioderma",
-    "CeraVe",
-    "The Ordinary",
     "Sebamed",
-    "Weleda"
+    "CeraVe"
    ]
   },
   {
@@ -783,8 +407,8 @@
    "vocPct": 20.0,
    "theme": "Bez zapachu / perfum",
    "addressed": 1,
-   "total": 12,
-   "pct": 8,
+   "total": 6,
+   "pct": 17,
    "sev": "MED",
    "brands": [
     "CeraVe"
@@ -794,12 +418,13 @@
    "vocTopic": "Reakcje skórne i podrażnienia",
    "vocPct": 14.0,
    "theme": "Skóra atopowa / egzema",
-   "addressed": 1,
-   "total": 12,
-   "pct": 8,
-   "sev": "MED",
+   "addressed": 2,
+   "total": 6,
+   "pct": 33,
+   "sev": "LOW",
    "brands": [
-    "CeraVe"
+    "CeraVe",
+    "InfectoPharm"
    ]
   },
   {
@@ -807,7 +432,7 @@
    "vocPct": 10.0,
    "theme": "",
    "addressed": 0,
-   "total": 12,
+   "total": 6,
    "pct": 0,
    "sev": "HIGH",
    "brands": []
@@ -817,7 +442,7 @@
    "vocPct": 8.0,
    "theme": "",
    "addressed": 0,
-   "total": 12,
+   "total": 6,
    "pct": 0,
    "sev": "HIGH",
    "brands": []
@@ -825,60 +450,40 @@
  ],
  "whitespace": [
   {
-   "label": "Skóra atopowa / egzema",
-   "pct": 8,
-   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Redukcja świądu",
-   "pct": 8,
-   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
    "label": "Bez zapachu / perfum",
-   "pct": 8,
-   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "pct": 17,
+   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "label": "Hipoalergiczny",
-   "pct": 8,
-   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Bez parabenów / SLS",
-   "pct": 8,
-   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "label": "Dermatologicznie testowany",
+   "pct": 17,
+   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   }
  ],
  "saturation": [
   {
    "label": "Ekonomiczny / duża pojemność",
-   "pct": 92,
+   "pct": 100,
    "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
-   "label": "Nawilżenie",
-   "pct": 83,
-   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
-  },
-  {
-   "label": "Naturalny / wegański",
-   "pct": 58,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Odżywczy / regenerujący",
-   "pct": 58,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Odbudowa bariery",
+   "label": "Dla dzieci / niemowląt",
    "pct": 50,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Dermatologicznie testowany",
-   "pct": 42,
+   "label": "Odżywczy / regenerujący",
+   "pct": 50,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Nawilżenie",
+   "pct": 33,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Skóra atopowa / egzema",
+   "pct": 33,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
@@ -887,33 +492,23 @@
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Dla dzieci / niemowląt",
+   "label": "Redukcja świądu",
    "pct": 33,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Skóra atopowa / egzema",
-   "pct": 8,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
-  },
-  {
-   "label": "Redukcja świądu",
-   "pct": 8,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+   "label": "Naturalny / wegański",
+   "pct": 33,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Bez zapachu / perfum",
-   "pct": 8,
+   "pct": 17,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
-   "label": "Hipoalergiczny",
-   "pct": 8,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
-  },
-  {
-   "label": "Bez parabenów / SLS",
-   "pct": 8,
+   "label": "Dermatologicznie testowany",
+   "pct": 17,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   }
  ],
@@ -925,12 +520,12 @@
   },
   {
    "type": "Pozycjonowanie",
-   "finding": "Nisko wysycone claimy: Skóra atopowa / egzema, Redukcja świądu, Bez zapachu / perfum, Hipoalergiczny.",
+   "finding": "Nisko wysycone claimy: Bez zapachu / perfum, Dermatologicznie testowany.",
    "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
   },
   {
    "type": "Produkt",
-   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność, Nawilżenie.",
+   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność.",
    "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]

@@ -35,27 +35,27 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "wchlanianie": [
+    "odzywczy": [
+     "BP"
+    ],
+    "dermatologiczny": [
      "BP"
     ],
     "naturalny": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "nawilzenie": [
+     "BP"
+    ],
+    "wchlanianie": [
+     "BP"
     ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 15.42,
@@ -95,25 +95,25 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "naturalny": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "hipoalergiczny": [
-     "BP"
-    ],
-    "nawilzenie": [
+    "dermatologiczny": [
      "T",
      "BP"
     ],
     "bariera": [
      "BP"
     ],
-    "dermatologiczny": [
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "hipoalergiczny": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
      "T",
      "BP"
     ]
@@ -154,18 +154,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
+    "nawilzenie": [
      "T"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "nawilzenie": [
-     "T"
-    ],
     "dla_dzieci": [
      "T",
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ],
     "naturalny": [
      "T",
@@ -208,18 +208,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
+    "nawilzenie": [
      "T"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "nawilzenie": [
-     "T"
-    ],
     "dla_dzieci": [
      "T",
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ],
     "naturalny": [
      "T",
@@ -262,18 +262,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
+    "nawilzenie": [
      "T"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "nawilzenie": [
-     "T"
-    ],
     "dla_dzieci": [
      "T",
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ],
     "naturalny": [
      "T",

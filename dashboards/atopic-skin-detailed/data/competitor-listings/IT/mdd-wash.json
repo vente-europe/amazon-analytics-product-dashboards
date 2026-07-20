@@ -59,17 +59,14 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "swiad": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "skora_atopowa": [
-     "T",
+    "bariera": [
      "BP"
     ],
     "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
      "T",
      "BP"
     ],
@@ -77,7 +74,10 @@
      "T",
      "BP"
     ],
-    "bariera": [
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "swiad": [
      "BP"
     ]
    },
@@ -104,14 +104,14 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "BP"
-    ],
     "skora_atopowa": [
      "T"
     ],
     "swiad": [
      "T"
+    ],
+    "cena_pojemnosc": [
+     "BP"
     ]
    },
    "price": 23.9,
@@ -143,18 +143,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "kojacy": [
-     "T"
+    "nawilzenie": [
+     "T",
+     "BP"
     ],
     "hipoalergiczny": [
      "BP"
     ],
-    "nawilzenie": [
-     "T",
-     "BP"
+    "kojacy": [
+     "T"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 19.78,
@@ -192,14 +192,14 @@
     "odzywczy"
    ],
    "themeSrc": {
-    "kojacy": [
-     "T"
+    "nawilzenie": [
+     "BP"
     ],
     "odzywczy": [
      "BP"
     ],
-    "nawilzenie": [
-     "BP"
+    "kojacy": [
+     "T"
     ],
     "bariera": [
      "BP"
@@ -232,15 +232,15 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
+    "dla_dzieci": [
+     "BP"
     ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "dla_dzieci": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 10.42,
@@ -302,15 +302,15 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
     "nawilzenie": [
      "T",
      "BP"
     ],
     "bariera": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
      "BP"
     ],
     "naturalny": [
@@ -361,18 +361,13 @@
     "bez_zapachu": [
      "BP"
     ],
-    "swiad": [
+    "dermatologiczny": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ],
     "naturalny": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "kojacy": [
      "T",
      "BP"
     ],
@@ -383,10 +378,15 @@
     "dla_dzieci": [
      "BP"
     ],
-    "bariera": [
+    "kojacy": [
+     "T",
      "BP"
     ],
-    "dermatologiczny": [
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
      "BP"
     ]
    },
@@ -422,18 +422,18 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "hipoalergiczny": [
+    "bez_zapachu": [
      "BP"
     ],
-    "bez_zapachu": [
+    "hipoalergiczny": [
      "BP"
     ],
     "bariera": [
      "T",
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ],
     "naturalny": [
      "BP"
@@ -474,13 +474,13 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "BP"
-    ],
     "skora_atopowa": [
      "BP"
     ],
     "hipoalergiczny": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
      "BP"
     ],
     "swiad": [
@@ -524,17 +524,17 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "naturalny": [
+    "nawilzenie": [
      "BP"
     ],
     "dermatologiczny": [
      "BP"
     ],
-    "nawilzenie": [
+    "naturalny": [
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 24.5,

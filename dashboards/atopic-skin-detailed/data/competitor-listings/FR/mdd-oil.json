@@ -34,28 +34,28 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "wchlanianie": [
-     "T",
-     "BP"
-    ],
-    "swiad": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "kojacy": [
-     "T",
+    "dermatologiczny": [
      "BP"
     ],
     "nawilzenie": [
      "T",
      "BP"
     ],
+    "wchlanianie": [
+     "T",
+     "BP"
+    ],
     "dla_dzieci": [
      "BP"
     ],
-    "dermatologiczny": [
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "swiad": [
      "BP"
     ]
    },
@@ -90,20 +90,20 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "skora_atopowa": [
+    "nawilzenie": [
      "BP"
     ],
     "odzywczy": [
      "BP"
     ],
-    "nawilzenie": [
+    "skora_atopowa": [
      "BP"
     ],
     "dla_dzieci": [
      "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 5.23,

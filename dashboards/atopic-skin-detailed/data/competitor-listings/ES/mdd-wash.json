@@ -1,7 +1,7 @@
 {
  "totalCompetitors": 12,
  "marketplace": "amazon.es",
- "avgClaims": 3.6,
+ "avgClaims": 3.3,
  "competitors": [
   {
    "asin": "B09BBH8B78",
@@ -98,22 +98,22 @@
     "bez_zapachu": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "kojacy": [
-     "BP"
-    ],
-    "skora_atopowa": [
-     "T",
+    "dermatologiczny": [
      "BP"
     ],
     "nawilzenie": [
      "T",
      "BP"
     ],
-    "dermatologiczny": [
+    "skora_atopowa": [
+     "T",
      "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 15.2,
@@ -139,13 +139,13 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
+    "nawilzenie": [
      "T"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "nawilzenie": [
+    "cena_pojemnosc": [
      "T"
     ]
    },
@@ -153,6 +153,52 @@
    "rating": 4.6,
    "reviews": 10161,
    "rev30": 14443,
+   "archival": false
+  },
+  {
+   "asin": "B0DVLS23YF",
+   "brand": "CeraVe",
+   "title": "CeraVe Recambio de Limpiador Hidratante, Para Piel Normal a Seca, Limpia, Hidrata y Equilibria, Enriquecido Con Ceramidas Esenciales y Ácido Hialurónico, Apto para Rostro y Cuerpo",
+   "img": "https://m.media-amazon.com/images/I/516fYiEJMdL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/516fYiEJMdL.jpg",
+    "https://m.media-amazon.com/images/I/51Q52bVVETL.jpg",
+    "https://m.media-amazon.com/images/I/515NNzYJlDL.jpg",
+    "https://m.media-amazon.com/images/I/51jl4OKJVGL.jpg",
+    "https://m.media-amazon.com/images/I/613iSR-92TL.jpg",
+    "https://m.media-amazon.com/images/I/61-e5mz811L.jpg",
+    "https://m.media-amazon.com/images/I/61HYG2vB4fL.jpg"
+   ],
+   "bullets": [
+    "Gel limpiador para rostro y cuerpo que limpia suavemente e hidrata la piel sin alterar su barrera natural. Con Ácido Hialurónico, 3 ceramidas esenciales y Tecnología MVE. Para piel normal a seca. Desarrollado con dermatólogos.",
+    "Piel limpia, fresca e hidratada durante 24h, sin sensación de tirantez ni sequedad. No comedogénico, sin perfume.",
+    "Masajear el gel sobre la piel húmeda. Dejar reposar 30 segundos y aclarar. Complementar con otros productos CeraVe."
+   ],
+   "themes": [
+    "nawilzenie",
+    "bariera",
+    "bez_zapachu",
+    "naturalny"
+   ],
+   "themeSrc": {
+    "nawilzenie": [
+     "T"
+    ],
+    "bez_zapachu": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 9.49,
+   "rating": 4.6,
+   "reviews": 37943,
+   "rev30": 13189,
    "archival": false
   },
   {
@@ -171,10 +217,10 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
+    "hipoalergiczny": [
      "T"
     ],
-    "hipoalergiczny": [
+    "cena_pojemnosc": [
      "T"
     ]
    },
@@ -211,87 +257,20 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
+    "swiad": [
+     "BP"
     ],
     "kojacy": [
      "BP"
     ],
-    "swiad": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 14.45,
    "rating": 4.5,
    "reviews": 189,
    "rev30": 11097,
-   "archival": false
-  },
-  {
-   "asin": "B0DVM1G1B3",
-   "brand": "Rilastil",
-   "title": "Rilastil - Xerolact Aceite Limpiador Protector para Piel Muy Seca o Atópica, Gel de Ducha Hidratante Antipicor con Aceite de Arroz y Almendras, Apto para Bebés, Niños y Adultos - 1000 ml",
-   "img": "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
-    "https://m.media-amazon.com/images/I/7175c2d7bQL.jpg",
-    "https://m.media-amazon.com/images/I/71bTNlpXu4L.jpg",
-    "https://m.media-amazon.com/images/I/719Modu1yGL.jpg",
-    "https://m.media-amazon.com/images/I/71jlqzaXutL.jpg",
-    "https://m.media-amazon.com/images/I/71AcTIqe3DL.jpg",
-    "https://m.media-amazon.com/images/I/71qcDgtnbZL.jpg"
-   ],
-   "bullets": [
-    "XEROLACT ACEITE LIMPIADOR PROTECTOR. Es un aceite de ducha hidratante y antipicor, que limpia suavemente mientras protege la barrera cutánea. Formulado para piel muy seca o con tendencia atópica, apto para bebés, niños y adultos.",
-    "PIEL LIMPIA, HIDRATADA Y CALMADA. Limpia con delicadeza, hidrata hasta 24 h y reduce el enrojecimiento y el picor. Ideal para pieles que requieren un cuidado especial, devuelve confort y alivio desde la ducha",
-    "INGREDIENTES SELECCIONADOS. Contiene aceite de salvado de arroz, aceite de almendras dulces, lactato de sodio, extracto de Schisandra chinensis y niacinamida. Formulado sin derivados del trigo, testado en cinco metales pesados, hipoalergénico y oftalmológicamente testado",
-    "FÓRMULA EFICAZ Y PROTECTORA. Aceite de baño con gran poder emoliente e hidratante, que respeta la barrera cutánea y alivia la sensación de tirantez o escozor. Su uso diario para piel seca o atópica favorece el bienestar de la piel, tanto en bebés como en adultos",
-    "MODO DE USO. Aplicar durante la ducha sobre la piel húmeda, distribuir suavemente y aclarar. Puede utilizarse diariamente como limpiador habitual para pieles secas o atópicas"
-   ],
-   "themes": [
-    "nawilzenie",
-    "skora_atopowa",
-    "kojacy",
-    "swiad",
-    "bariera",
-    "dla_dzieci",
-    "hipoalergiczny",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "swiad": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "kojacy": [
-     "BP"
-    ],
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "hipoalergiczny": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "dla_dzieci": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ]
-   },
-   "price": 12.72,
-   "rating": 4.6,
-   "reviews": 421,
-   "rev30": 9733,
    "archival": false
   },
   {
@@ -318,13 +297,13 @@
     "naturalny"
    ],
    "themeSrc": {
-    "kojacy": [
+    "bariera": [
      "BP"
     ],
     "naturalny": [
      "BP"
     ],
-    "bariera": [
+    "kojacy": [
      "BP"
     ]
    },
@@ -332,50 +311,6 @@
    "rating": 4.6,
    "reviews": 667,
    "rev30": 6495,
-   "archival": false
-  },
-  {
-   "asin": "B01N7ISSWU",
-   "brand": "YOFFEE",
-   "title": "Yoffee Gel de Ducha Desinfectante - Jabon Antibacteriano con Aceite de Árbol del Té y Coco -Previene, Elimina y Evita Bacterias-Alivia Picores, Irritaciones e Inflamaciones",
-   "img": "https://m.media-amazon.com/images/I/61k9nAMR4fL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/61k9nAMR4fL.jpg",
-    "https://m.media-amazon.com/images/I/71vLD7jmtaL.jpg",
-    "https://m.media-amazon.com/images/I/71TGqH2ptdL.jpg",
-    "https://m.media-amazon.com/images/I/71E7STu06GL.jpg",
-    "https://m.media-amazon.com/images/I/61bXnpXi0oL.jpg",
-    "https://m.media-amazon.com/images/I/61bNFNQUwQL.jpg",
-    "https://m.media-amazon.com/images/I/61neseZLBoL.jpg"
-   ],
-   "bullets": [
-    "Gel terapéutico - hidrata y suaviza la piel gracias a su fórmula concentrada en aceite de Árbol de té (melaleuca alternifolia), un aceite esencial con demostradas propiedades antisépticas, ideal para pieles irritadas e inflamadas. Sensación de limpieza y frescor durante todo el día",
-    "Antimicótico con ingredientes naturales - Cuidadosamente seleccionados para combatir, eliminar y prevenir la reaparición de todo tipo de problemas bacterianos. Contiene aceites de ricino, jojoba, árbol de té, coco y eucalipto",
-    "Elimina los fuertes olores corporales - Gracias a su refrescante perfume y a las propiedades de la menta. Nuestra fórmula es perfecta para combatir los malos olores convirtiéndolo en un excelente gel antibacterial",
-    "Múltiples beneficios - Limpia profundamente la piel, elimina bacterias, hidrata y calma picores e incomodidades. Apto para tratar la irritación de pieles mixtas, grasas o secas",
-    "Calidad de marca: fabricada con en España - Fabricado bajo los más altos y estrictos controles de calidad. Vegano y libre de crueldad animal"
-   ],
-   "themes": [
-    "kojacy",
-    "swiad",
-    "naturalny"
-   ],
-   "themeSrc": {
-    "kojacy": [
-     "BP"
-    ],
-    "swiad": [
-     "T",
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ]
-   },
-   "price": 19.9,
-   "rating": 4.4,
-   "reviews": 790,
-   "rev30": 6362,
    "archival": false
   },
   {
@@ -402,19 +337,19 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
+    "nawilzenie": [
+     "T"
+    ],
+    "skora_atopowa": [
      "BP"
     ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "skora_atopowa": [
+    "cena_pojemnosc": [
+     "T",
      "BP"
-    ],
-    "nawilzenie": [
-     "T"
     ],
     "bariera": [
      "BP"
@@ -424,52 +359,6 @@
    "rating": 4.4,
    "reviews": 738,
    "rev30": 6236,
-   "archival": false
-  },
-  {
-   "asin": "B0BYDZ4H9V",
-   "brand": "Lactovit",
-   "title": "Lactovit - Gel de Ducha Reparador Lactourea, Hidrata, Nutre y Repara, Piel Fuerte y Joven, Textura Cremosa, con Protein Calcium y Lactourea, para Pieles Muy Secas o Extra Secas - Juego de 6 x 550 ml",
-   "img": "https://m.media-amazon.com/images/I/71ZkJ9+sRYL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/71ZkJ9+sRYL.jpg",
-    "https://m.media-amazon.com/images/I/61-d5jXZcHL.jpg",
-    "https://m.media-amazon.com/images/I/71+NVmwIq8L.jpg",
-    "https://m.media-amazon.com/images/I/71zwi62k9mL.jpg",
-    "https://m.media-amazon.com/images/I/71TH6VGc6pL.jpg",
-    "https://m.media-amazon.com/images/I/71j4aSoRrfL.jpg"
-   ],
-   "bullets": [
-    "GEL DE DUCHA REPARADOR. limpia suavemente mientras hidrata nutre y repara la piel muy seca o extra seca ayudando a aliviar picores irritaciones y sensación de tirantez desde la primera ducha",
-    "LACTOUREA Y UREA PROLACTIC10. fórmula avanzada con urea que impulsa la reparación cutánea y refuerza la barrera natural de la piel aportando confort duradero",
-    "HIDRATACIÓN INTENSIVA DIARIA. aporta la dosis diaria de hidratación y reparación necesaria para mantener la piel más flexible resistente y visiblemente cuidada con el uso continuado",
-    "TEXTURA CREMOSA CONFORT. su espuma rica y envolvente limpia sin resecar dejando una sensación sedosa inmediata y una piel suave luminosa y protegida tras cada uso",
-    "COMPROMISO LACTOVIT: En Lactovit creemos en un cuidado responsable que empieza en tu piel. Por eso formulamos con activos 100 % naturales de la leche para nutrir y proteger, con fórmulas altamente biodegradables. Además, mejoramos la reciclabilidad de nuestros envases para cuidar de ti y del planeta."
-   ],
-   "themes": [
-    "swiad",
-    "bariera",
-    "naturalny",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "swiad": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ]
-   },
-   "price": 15.36,
-   "rating": 4.5,
-   "reviews": 1438,
-   "rev30": 5949,
    "archival": false
   },
   {
@@ -500,14 +389,14 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
+    "skora_atopowa": [
      "T"
     ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "skora_atopowa": [
+    "cena_pojemnosc": [
      "T"
     ],
     "bariera": [
@@ -518,6 +407,96 @@
    "rating": 4.7,
    "reviews": 1372,
    "rev30": 5560,
+   "archival": false
+  },
+  {
+   "asin": "B005EHV85A",
+   "brand": "ISDIN",
+   "title": "ISDIN Psorisdin Gel Baño 500 ml",
+   "img": "https://m.media-amazon.com/images/I/61WHZ2j44IL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61WHZ2j44IL.jpg",
+    "https://m.media-amazon.com/images/I/71tFnuRt5ZL.jpg",
+    "https://m.media-amazon.com/images/I/71KrKOSdq4L.jpg",
+    "https://m.media-amazon.com/images/I/718Xn625C9L.jpg",
+    "https://m.media-amazon.com/images/I/712ZJDaNzhL.jpg",
+    "https://m.media-amazon.com/images/I/71znYMyZHIL.jpg",
+    "https://m.media-amazon.com/images/I/717aNQe2umL.jpg"
+   ],
+   "bullets": [
+    "Ayuda a aliviar y a calmar el picor por la acción de laureth-9",
+    "Mantiene la piel limpia",
+    "Con tecnología antipicazón",
+    "Protege, hidrata y suaviza la piel"
+   ],
+   "themes": [
+    "kojacy",
+    "swiad",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "swiad": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ]
+   },
+   "price": 11.94,
+   "rating": 4.4,
+   "reviews": 998,
+   "rev30": 4605,
+   "archival": false
+  },
+  {
+   "asin": "B09RR229FY",
+   "brand": "Avena Kinesia",
+   "title": "Avena Kinesia - Oleo Gel de Ducha Sin Jabón para Piel Extra Seca y Atópica, 750 ml",
+   "img": "https://m.media-amazon.com/images/I/61u-ERakcyL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61u-ERakcyL.jpg",
+    "https://m.media-amazon.com/images/I/61npWfcfE9L.jpg",
+    "https://m.media-amazon.com/images/I/617TDt0ysuL.jpg"
+   ],
+   "bullets": [
+    "Fabuloso gel desarrollado para nutrir y calmar la piel extra seca y atópica",
+    "El gel limpia, nutre e hidrata tu piel proporcionando mayor suavidad y un aspecto más saludable",
+    "Producto diseñado junto a dermatólogos para la higiene diaria y el cuidado respetuoso de la piel",
+    "El aceite de avena es el ingrediente principal ya que su alto contenido en B-Glucanos nutre, hidrata y repara la piel en profundidad, al mismo tiempo que alivia y calma los picores",
+    "Fórmula sin jabón, baja en sulfatos y sin parabenos"
+   ],
+   "themes": [
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "bez_dodatkow",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "bez_dodatkow": [
+     "BP"
+    ],
+    "swiad": [
+     "BP"
+    ]
+   },
+   "price": 2.9,
+   "rating": 4.5,
+   "reviews": 617,
+   "rev30": 3854,
    "archival": false
   }
  ],
@@ -547,16 +526,16 @@
    "label": "Bez zapachu / perfum"
   },
   {
-   "key": "dla_dzieci",
-   "label": "Dla dzieci / niemowląt"
-  },
-  {
    "key": "hipoalergiczny",
    "label": "Hipoalergiczny"
   },
   {
    "key": "dermatologiczny",
    "label": "Dermatologicznie testowany"
+  },
+  {
+   "key": "bez_dodatkow",
+   "label": "Bez parabenów / SLS"
   },
   {
    "key": "naturalny",
@@ -587,50 +566,50 @@
    "pct": 42
   },
   {
-   "key": "swiad",
-   "label": "Redukcja świądu",
-   "count": 5,
-   "pct": 42
-  },
-  {
-   "key": "bariera",
-   "label": "Odbudowa bariery",
-   "count": 5,
-   "pct": 42
-  },
-  {
    "key": "nawilzenie",
    "label": "Nawilżenie",
    "count": 4,
    "pct": 33
   },
   {
-   "key": "naturalny",
-   "label": "Naturalny / wegański",
-   "count": 3,
-   "pct": 25
+   "key": "swiad",
+   "label": "Redukcja świądu",
+   "count": 4,
+   "pct": 33
   },
   {
-   "key": "hipoalergiczny",
-   "label": "Hipoalergiczny",
-   "count": 2,
-   "pct": 17
+   "key": "bariera",
+   "label": "Odbudowa bariery",
+   "count": 4,
+   "pct": 33
   },
   {
    "key": "bez_zapachu",
    "label": "Bez zapachu / perfum",
-   "count": 1,
-   "pct": 8
+   "count": 2,
+   "pct": 17
   },
   {
-   "key": "dla_dzieci",
-   "label": "Dla dzieci / niemowląt",
+   "key": "naturalny",
+   "label": "Naturalny / wegański",
+   "count": 2,
+   "pct": 17
+  },
+  {
+   "key": "hipoalergiczny",
+   "label": "Hipoalergiczny",
    "count": 1,
    "pct": 8
   },
   {
    "key": "dermatologiczny",
    "label": "Dermatologicznie testowany",
+   "count": 1,
+   "pct": 8
+  },
+  {
+   "key": "bez_dodatkow",
+   "label": "Bez parabenów / SLS",
    "count": 1,
    "pct": 8
   }
@@ -668,8 +647,8 @@
     "CeraVe",
     "La Roche-Posay",
     "Cetaphil",
-    "Rilastil",
-    "Sensilis"
+    "Sensilis",
+    "ISDIN"
    ]
   },
   {
@@ -684,8 +663,8 @@
     "La Roche-Posay",
     "CeraVe",
     "Cetaphil",
-    "Rilastil",
-    "Sebamed"
+    "Sebamed",
+    "Sensilis"
    ]
   },
   {
@@ -700,8 +679,8 @@
     "La Roche-Posay",
     "CeraVe",
     "Cetaphil",
-    "Rilastil",
-    "Sebamed"
+    "Sebamed",
+    "Sensilis"
    ]
   },
   {
@@ -716,34 +695,34 @@
     "CeraVe",
     "La Roche-Posay",
     "Cetaphil",
-    "Rilastil",
-    "Sensilis"
+    "Sensilis",
+    "ISDIN"
    ]
   }
  ],
  "whitespace": [
   {
-   "label": "Naturalny / wegański",
-   "pct": 25,
-   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Hipoalergiczny",
+   "label": "Bez zapachu / perfum",
    "pct": 17,
    "why": "Tylko 2/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "label": "Bez zapachu / perfum",
-   "pct": 8,
-   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "label": "Naturalny / wegański",
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "label": "Dla dzieci / niemowląt",
+   "label": "Hipoalergiczny",
    "pct": 8,
    "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
    "label": "Dermatologicznie testowany",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Bez parabenów / SLS",
    "pct": 8,
    "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   }
@@ -765,42 +744,42 @@
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Redukcja świądu",
-   "pct": 42,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Odbudowa bariery",
-   "pct": 42,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
    "label": "Nawilżenie",
    "pct": 33,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Naturalny / wegański",
-   "pct": 25,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+   "label": "Redukcja świądu",
+   "pct": 33,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Hipoalergiczny",
+   "label": "Odbudowa bariery",
+   "pct": 33,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Bez zapachu / perfum",
    "pct": 17,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
-   "label": "Bez zapachu / perfum",
-   "pct": 8,
+   "label": "Naturalny / wegański",
+   "pct": 17,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
-   "label": "Dla dzieci / niemowląt",
+   "label": "Hipoalergiczny",
    "pct": 8,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
    "label": "Dermatologicznie testowany",
+   "pct": 8,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Bez parabenów / SLS",
    "pct": 8,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   }
@@ -813,7 +792,7 @@
   },
   {
    "type": "Pozycjonowanie",
-   "finding": "Nisko wysycone claimy: Naturalny / wegański, Hipoalergiczny, Bez zapachu / perfum, Dla dzieci / niemowląt.",
+   "finding": "Nisko wysycone claimy: Bez zapachu / perfum, Naturalny / wegański, Hipoalergiczny, Dermatologicznie testowany.",
    "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
   }
  ]

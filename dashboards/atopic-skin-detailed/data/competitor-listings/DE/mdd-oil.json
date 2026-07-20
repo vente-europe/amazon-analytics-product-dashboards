@@ -1,600 +1,706 @@
 {
- "totalCompetitors": 11,
+ "totalCompetitors": 12,
  "marketplace": "amazon.de",
- "avgClaims": 5.3,
+ "avgClaims": 6.8,
  "competitors": [
   {
-   "asin": "B0DGH2CDK4",
-   "brand": "Aveeno",
-   "title": "Aveeno Skin Relief Körperöl-Spray – mit Haferöl und Jojobaöl, spendet langanhaltende Feuchtigkeit, stärkt die Hautschutzbarriere und verbessert die Elastizität bei sehr trockener, empfindlicher Haut",
-   "img": "https://m.media-amazon.com/images/I/71uHTx7cPYL.jpg",
+   "asin": "B00ZY65OSI",
+   "brand": "Bioderma",
+   "title": "BIODERMA Atoderm Duschöl - beruhigende und reizlindernde Reinigung - sofortiges Wohlbefinden und 24 Stunden Feuchtigkeitsversorgung - empfindliche, sehr trockene bis irritierte Haut - Pumpflasche 1 l",
+   "img": "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/71uHTx7cPYL.jpg",
-    "https://m.media-amazon.com/images/I/81O05MMA69L.jpg",
-    "https://m.media-amazon.com/images/I/71hv7uLqJYL.jpg",
-    "https://m.media-amazon.com/images/I/71qv27Z1-BL.jpg",
-    "https://m.media-amazon.com/images/I/714aWJsA2qL.jpg",
-    "https://m.media-amazon.com/images/I/71SvRjNeQmL.jpg",
-    "https://m.media-amazon.com/images/I/71W3kxKifxL.jpg"
+    "https://m.media-amazon.com/images/I/615ZenpkpGL.jpg",
+    "https://m.media-amazon.com/images/I/71I3dig7MJL.jpg",
+    "https://m.media-amazon.com/images/I/71aFKgkyxCL.jpg",
+    "https://m.media-amazon.com/images/I/71xdR08es9L.jpg",
+    "https://m.media-amazon.com/images/I/61TfMmtnQqL.jpg",
+    "https://m.media-amazon.com/images/I/81uYqUDpHLL.jpg",
+    "https://m.media-amazon.com/images/I/91NtdCjo5QL.jpg"
    ],
    "bullets": [
-    "Pflege für die Haut – Das Skin Relief Körperöl-Spray von Aveeno versorgt selbst sehr trockene, empfindliche Haut mit intensiver &amp; langanhaltender Feuchtigkeit und pflegt die Haut nachhaltig.",
-    "Reich an Lipiden &amp; Fettsäuren – Das Hautpflege Körperöl-Spray enthält Inhaltsstoffe, die reich an Lipiden und Fettsäuren sind und dabei helfen, die Hautschutzbarriere wiederherzustellen.",
-    "Mit pflegendem Haferöl &amp; Jojobaöl – Das feuchtigkeitsspendende Körperöl-Spray mit reichhaltigem Haferöl &amp; pflegendem Jojobaöl verbessert die Hautelastizität und sorgt für eine gleichmäßige Hautstruktur.",
-    "Für sehr trockene, empfindliche Haut – Das Körperöl-Spray für die Pflege des Körpers bei besonders trockener, empfindlicher Haut stärkt die natürliche Hautschutzbarriere und schützt die Haut vor äußeren Einflüssen.",
-    "Lieferumfang – 1 x 200 ml Aveeno Skin Relief Körperöl-Spray, Body Oil &amp; Körperöl-Spray in recycelter Flasche* (*Flasche aus 50% recyceltem Plastik)"
+    "Das Duschöl für die ganze Familie: Mit seiner intensiv pflegenden Wirkung reinigt es die Haut und lindert Irritationen - versorgt die Haut zudem mit Feuchtigkeit und bietet ein angenehmes Gefühl",
+    "Nachgewiesene Wirksamkeit: Die Haut ist nach 27 Tagen um 26 % mehr mit Feuchtigkeit versorgt und 80 % der Anwenderinnen fanden ihre Haut sofort weicher und fühlten sich sofort besser",
+    "Eine Formel mit doppelter Wirkung: Ihre rückfettenden, feuchtigkeitsspendenden Wirkstoffe versorgen die Haut mit Nährstoffen und der Skin Barrier Therapy Komplex begrenzt den Zugang von Bakterien",
+    "Anwendung: Ein- bis zweimal täglich zum Duschen oder Baden auf die nasse Haut auftragen und abspülen - mit einer Atoderm Pflege ergänzen",
+    "Gute Haut- und Augenverträglichkeit: Bioderma ist eine auf Ökobiologie basierende Marke, die im Mittelpunkt des NAOS-Ansatzes steht - respektiert das Ökosystem Ihrer Haut und bewahrt Ihre Gesundheit"
    ],
    "themes": [
     "nawilzenie",
+    "kojacy",
     "bariera",
     "naturalny",
     "odzywczy",
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "BP"
-    ],
     "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
      "BP"
     ],
     "bariera": [
-     "T",
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ]
-   },
-   "price": 11.12,
-   "rating": 4.3,
-   "reviews": 278,
-   "rev30": 11831,
-   "archival": false
-  },
-  {
-   "asin": "B07B4ZXYTJ",
-   "brand": "KRÄUTERLAND N A T U R - Ö L M Ü H L E",
-   "title": "Kräuterland Nachtkerzenöl, Bio Hautöl Nachtkerze, 100ml, kaltgepresst - 100% naturreines Nachtkerzensamenöl für Haut und Haare - in Premium Qualität",
-   "img": "https://m.media-amazon.com/images/I/61IbwyrBLJL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/61IbwyrBLJL.jpg",
-    "https://m.media-amazon.com/images/I/71o4rsFsSWL.jpg",
-    "https://m.media-amazon.com/images/I/71EhDWp8kuL.jpg",
-    "https://m.media-amazon.com/images/I/81MVMETZ6dL.jpg",
-    "https://m.media-amazon.com/images/I/71DsT5GmM5L.jpg",
-    "https://m.media-amazon.com/images/I/61NB-vFU6FL.jpg",
-    "https://m.media-amazon.com/images/I/71EPYzhVsxL.jpg",
-    "https://m.media-amazon.com/images/I/61jcH+vWdOL.jpg"
-   ],
-   "bullets": [
-    "QUALITÄT: 100% reines 100ml Nachtkerzen-Hautöl, kaltgepresst und naturbelassen. Durch die Kaltpressung bleiben alle wertvollen Inhaltsstoffe im Nachtkerzenöl enthalten. Unser Nachtkerzen Pflegeöl ist frei von Zusatz- und Konservierungsstoffen.",
-    "WERTVOLL: Nachtkerzenöl ist reich an essentiellen Fettsäuren, den Omega-Ölen. Durch die Kaltpressung bleiben alle wertvollen Inhaltsstoffe im Nachtkerzenöl enthalten. Das Nachtkerzen-Öl ist frei von Zusatz- und Konservierungsstoffen",
-    "VERWENDUNG: Nachtkerzen Hautöl eignet sich für trockene, gereizte und empfindliche Haut. Außerdem kann es ideal als Massageöl verwendet werden.",
-    "OHNE ZUSATZSTOFFE: Unser Bio Nachtkerzen-Öl ist 100% rein , kaltgepresst und es sind keine Konservierungs- oder sonstigen Zusatzstoffe enthalten. Für ein reines Gewissen bei der Pflege trockener, gereizter und empfindlicher Haut.",
-    "ÜBER UNS: Wir, die Kräuterland Ölmühle, sind anerkannte Spezialisten für die Herstellung von hochwertigen Premium-Qualitäts-Ölen sowie hochwertigen Nahrungsergänzungsmittel. Mit unserer über 10jährigen Erfahrung gehören wir zu den ältesten Ölmühlen Deutschlands. Unsere Erfahrung garantiert Ihnen ein Premium-Produkt mit einem hervorragenden Preis-Leistungsverhältnis. Empfehlen Sie uns bitte weiter. Vielen Dank!"
-   ],
-   "themes": [
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
      "BP"
     ],
     "naturalny": [
      "T",
-     "BP"
-    ]
-   },
-   "price": 14.86,
-   "rating": 4.6,
-   "reviews": 406,
-   "rev30": 4660,
-   "archival": false
-  },
-  {
-   "asin": "B003LDMVNM",
-   "brand": "Weleda",
-   "title": "WELEDA Bio Mandel Sensitiv Gesichtsöl, intensives Naturkosmetik Bio Pflegeöl gegen unreine Haut, Hautirritationen und zur Make-up Entfernung, für Neurodermitiker geeignet (1 x 50 ml)",
-   "img": "https://m.media-amazon.com/images/I/61xfTy4lRaL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/61xfTy4lRaL.jpg",
-    "https://m.media-amazon.com/images/I/71HcRyYewaL.jpg",
-    "https://m.media-amazon.com/images/I/61jn0DDA-EL.jpg",
-    "https://m.media-amazon.com/images/I/71JceEinEQL.jpg",
-    "https://m.media-amazon.com/images/I/61I6CFOjpXL.jpg",
-    "https://m.media-amazon.com/images/I/619ghPV5KoL.jpg",
-    "https://m.media-amazon.com/images/I/51x0i0+BVXL.jpg",
-    "https://m.media-amazon.com/images/I/61dgT2EpuyL.jpg"
-   ],
-   "bullets": [
-    "Für ein sanftes Hautgefühl: Unparfümierte Intensivpflege für sensible Haut die Hautirritationen mindert und beruhigt. Zur Entfernung von Augen-Make-up geeignet",
-    "Ideal für die tägliche Pflege: Als Intensivpflege oder alternativ zur Creme auf die noch feuchte Haut auftragen. Zur täglichen Pflege oder zum Schutz bei Kälte als Alternative zur Creme verwenden",
-    "Mindert Hautirritationen: Die verwöhnende Intensivpflege stärkt die Schutzfunktion der Haut und harmonisiert die Haut nachhaltig. Sie mildert Hautirritationen und sorgt für ein glattes und samtiges Hautgefühl",
-    "Höchste WELEDA Qualität: Unparfümiert. Frei von synthetischen Duft-, Farb- und Konservierungsstoffen sowie Rohstoffen auf Mineralölbasis. Vegan. Hautverträglichkeit dermatologisch bestätigt. Für Neurodermitiker geeignet",
-    "Lieferumfang: 1 x WELEDA Mandel wohltuendes Gesichtsöl für Männer und Frauen"
-   ],
-   "themes": [
-    "skora_atopowa",
-    "kojacy",
-    "dermatologiczny",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "naturalny": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "kojacy": [
-     "BP"
-    ],
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ]
-   },
-   "price": 11.43,
-   "rating": 4.4,
-   "reviews": 834,
-   "rev30": 4500,
-   "archival": false
-  },
-  {
-   "asin": "B0C8BWL2ZV",
-   "brand": "Bioderma",
-   "title": "BIODERMA Atoderm 2in1 Öl für normale bis trockene Haut, 150 ml Öl",
-   "img": "https://m.media-amazon.com/images/I/41kz0qKvzSL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/41kz0qKvzSL.jpg",
-    "https://m.media-amazon.com/images/I/51rl+XY7hML.jpg",
-    "https://m.media-amazon.com/images/I/619xfWDkSHL.jpg",
-    "https://m.media-amazon.com/images/I/51doLHtd98L.jpg",
-    "https://m.media-amazon.com/images/I/610l-ekYFmL.jpg",
-    "https://m.media-amazon.com/images/I/51FL3ZSTUbL.jpg"
-   ],
-   "bullets": [
-    "hochwertige medizinische Hautpflege",
-    "zur Pflege der Haut",
-    "Öl zur Anwendung auf der Haut",
-    "Dermokosmetik aus der Apotheke (PZN: 20184686)",
-    "Hersteller: NAOS Deutschland GmbH, Deutschland"
-   ],
-   "themes": [
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "naturalny": [
-     "T"
-    ],
-    "odzywczy": [
-     "BP"
-    ]
-   },
-   "price": 24.58,
-   "rating": 4.4,
-   "reviews": 201,
-   "rev30": 1822,
-   "archival": false
-  },
-  {
-   "asin": "B07GRX1P9V",
-   "brand": "Satin Naturel",
-   "title": "Satin Naturel Bio Hagebuttenöl 100 ml – 100% reines, kaltgepresstes Rosa Canina – Gesichtsöl, Körperöl, Massageöl & Haaröl – Wildrosenöl zur Pflege trockener Haut mit Anti-Falten-Wirkung",
-   "img": "https://m.media-amazon.com/images/I/71WJCIdWV5L.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/71WJCIdWV5L.jpg",
-    "https://m.media-amazon.com/images/I/71lcxL+mQ8L.jpg",
-    "https://m.media-amazon.com/images/I/71-62+jVW4L.jpg",
-    "https://m.media-amazon.com/images/I/71hVLSj4KeL.jpg",
-    "https://m.media-amazon.com/images/I/819gsqU2XmL.jpg",
-    "https://m.media-amazon.com/images/I/71ZfMcNAdTL.jpg",
-    "https://m.media-amazon.com/images/I/71dzpeCTZyL.jpg",
-    "https://m.media-amazon.com/images/I/71HOw1VJBCL.jpg"
-   ],
-   "bullets": [
-    "🍃 TÄGLICHE ANTI-AGING & SCHÖNHEITSPFLEGE – Unser 100% reines Wildrosenöl ist ein Naturwunder, es perfektioniert Deinen Teint und lässt Deine Haut strahlen. Mit seinem großen Reichtum an Nährstoffen versorgt es Deine Haut, Haare und Nägel rundum und verjüngt und kräftigt sie.",
-    "🍃 NATURWUNDER HAGEBUTTENÖL – Hagebuttenöl ist eines der effektivsten natürlichen Schönheitsmittel für Dich. Es besteht aus einem Reichtum aus den Vitaminen A, C, E und ungesättigten Fettsäuren. Die Vitamine bauen Deine Haut auf und erneuern sie. Die ungesättigten Fettsäuren wirken antioxidativ und schützen Deine Haut vor freien Radikalen.",
-    "🍃 ALLESKÖNNER – Hagebuttenkernöl kann nicht nur als Gesichtspflege eingesetzt werden, sondern auch als Haaröl für die Haare und als After-Shave. Zudem wirkt es in der Körperpflege effektiv gegen Neurodermitis, Cellulitis, Narben und Schwangerschaftsstreifen. Es kann zudem als Bartöl eingesetzt werden für einen seidigen & kräftigen Bart.",
-    "🍃 WERTVOLLES & HANDVERLESENES REINES BIO HAGEBUTTENÖL – Unser kaltgepresstes Bio Hagebuttenöl ist aus bio-zertifizierter Landwirtschaft in Spanien. Gewonnen wird es aus den Kernen der in Europa heimischen Wildrose Rosa Canina. Unser Bio Hagebutten wird aus handverlesen Hagebutten hergestellt. Die Reinheit unseres Öls wird durch keinerlei Zusatzstoffe getrübt. Zudem kommt es in einer Lichtschutz Glasflasche, damit die Nährstoffe & Vitamine geschützt bleiben.",
-    "🍃 GELD ZURÜCK GARANTIE – Wir sind erst zufrieden, wenn Du zufrieden bist! Sollte das Produkt nicht Deinen Erwartungen entsprechen, melde Dich einfach bei uns. Wir finden eine Lösung."
-   ],
-   "themes": [
-    "skora_atopowa",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "skora_atopowa": [
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "naturalny": [
-     "T",
-     "BP"
-    ]
-   },
-   "price": 19.99,
-   "rating": 4.4,
-   "reviews": 3601,
-   "rev30": 1359,
-   "archival": false
-  },
-  {
-   "asin": "B076CRBXCN",
-   "brand": "frei öl",
-   "title": "frei öl BabyÖl, essbar, 100% natürliche Inhaltsstoffe; begleitend bei Neurodermitis (Babys, Kinder, Erwachsene), parfümfrei, schützt vor Wundwerden, von Hebammen empfohlen, vegan, 140 ml",
-   "img": "https://m.media-amazon.com/images/I/719qEho0YHL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/719qEho0YHL.jpg",
-    "https://m.media-amazon.com/images/I/71P01CccLPL.jpg",
-    "https://m.media-amazon.com/images/I/719vapjEl0L.jpg",
-    "https://m.media-amazon.com/images/I/713jtIusGHL.jpg",
-    "https://m.media-amazon.com/images/I/713owVcxxML.jpg",
-    "https://m.media-amazon.com/images/I/81JBRMYoMLL.jpg"
-   ],
-   "bullets": [
-    "frei öl-Effekt: Das Körperöl bewahrt die Feuchtigkeit, wirkt rückfettend und stärkt den Lipidfilm der Haut, beruhigt und unterstützt die natürliche Entwicklung gesunder Haut, schützt vor Wundwerden im Windelbereich.",
-    "WIRKSAMKEIT: Das BabyÖl lässt sich leicht verteilen, pflegt behutsam mit Vitamin E die schutzbedürftige Babyhaut und beruhigt strapazierte Bereiche (z. B. Windel- oder Milchschorfbereich).",
-    "BESONDERHEIT: Das parfümfreie BabyÖl schützt, pflegt und beruhigt sensible Babyhaut. Ideal auch als begleitende Pflege bei Neurodermitis. Versehentliches Verschlucken des BabyÖls ist unbedenklich. Sanfte Hautpflege für Babys.",
-    "ANWENDUNG: Babypflege/Massage: Nach dem Baden oder Waschen und bei Bedarf auftragen und sanft einmassieren. Windelbereich: Bei jedem Wickeln den Windelbereich mit BabyÖl reinigen.",
-    "OHNE: Alkohol, Ätherische Öle, Farbstoffe, Gluten, Konservierungsmittel, Mikroplastik*, Mineralöle (Paraffine), Parfüm, PEG/PEG-Derivate, Silikone, Weizenproteine. *Rezeptur ohne Mikroplastik gemäß Definition Umweltbundesamt (2020)."
-   ],
-   "themes": [
-    "nawilzenie",
-    "skora_atopowa",
-    "kojacy",
-    "bez_zapachu",
-    "dla_dzieci",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "bez_zapachu": [
-     "T",
-     "BP"
-    ],
-    "naturalny": [
-     "T",
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "kojacy": [
-     "BP"
-    ],
-    "skora_atopowa": [
-     "T",
-     "BP"
-    ],
-    "odzywczy": [
      "BP"
     ],
     "nawilzenie": [
-     "BP"
-    ],
-    "dla_dzieci": [
      "T",
      "BP"
-    ]
-   },
-   "price": 8.39,
-   "rating": 4.6,
-   "reviews": 359,
-   "rev30": 1231,
-   "archival": false
-  },
-  {
-   "asin": "B07M8B7LTY",
-   "brand": "PaediProtect",
-   "title": "PAEDIPROTECT Pflegeöl für Babys & Kinder 200 ml, Babyöl mit Mandelöl für junge Haut, Körperöl zur milden Hautpflege und Reinigung im Windelbereich, Hautöl ohne Parfüm & Mikroplastik, vegan",
-   "img": "https://m.media-amazon.com/images/I/71-JES2Jz7L.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/71-JES2Jz7L.jpg",
-    "https://m.media-amazon.com/images/I/71r668FnLmL.jpg",
-    "https://m.media-amazon.com/images/I/71PTpf0BdVL.jpg",
-    "https://m.media-amazon.com/images/I/61-hhRkRsfL.jpg"
-   ],
-   "bullets": [
-    "ZARTE BABYHAUT – Das PaediProtect Pflegeöl enthält ausschließlich hochwertige Inhaltsstoffe und wurde speziell für die anspruchsvolle Baby-Haut entwickelt. Es eignet sich optimal zur milden Hautpflege, der schonenden Reinigung im Windelbereich oder der sanften Babymassage.",
-    "MIT HAGEBUTTENKERNÖL – Ob bei der Behandlung von Narben, Pigmentflecken oder trockener Haut - die Wirkungsweisen des Hagebuttenkernöls sind sehr vielfältig. Zudem fördert die darin enthaltene Transretinolsäure die Collagenproduktion, wodurch die Fähigkeit der Haut, Feuchtigkeit zu speichern, unterstützt wird.",
-    "MANDEL- & NACHTKERZENÖL – Das Nachtkerzenöl eignet sich bestens für die Anwendung an schuppiger und leicht entzündlicher Haut. Wie das Mandelöl wirkt es Hautrauigkeit entgegen. Darüber hinaus werden die hautregenerierenden Prozesse gefördert.",
-    "GESUNDE EXTRAKTE – Malve, Reis & Hamamelis haben reizlindernde Wirkung. Werden insbesondere bei entzündlichen Hautzuständen eingesetzt. Das PaediProtect Pflegeöl kann daher bei zu Akne- und Neurodermitis neigender Haut unterstützend wirken.",
-    "MADE IN GERMANY – PAEDIPROTECT Produkte werden in Deutschland von Experten entwickelt und hergestellt. Unsere Formulierungen werden fortlaufend auf Wirkung und Verträglichkeit durch unabhängige dermatologische Institute geprüft."
-   ],
-   "themes": [
-    "nawilzenie",
-    "skora_atopowa",
-    "dla_dzieci",
-    "dermatologiczny",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "naturalny": [
+    ],
+    "kojacy": [
      "T"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
-    ],
-    "skora_atopowa": [
-     "BP"
-    ],
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "BP"
-    ],
-    "dla_dzieci": [
-     "T",
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
     ]
    },
-   "price": 3.32,
-   "rating": 4.5,
-   "reviews": 335,
-   "rev30": 315,
+   "price": 17.43,
+   "rating": 4.7,
+   "reviews": 30203,
+   "rev30": 25521,
    "archival": false
   },
   {
-   "asin": "B00E4ZU020",
-   "brand": "Befelka",
-   "title": "Hautöl 50 ml",
-   "img": "https://m.media-amazon.com/images/I/71GKqcuRkbS._SL1500_.jpg",
+   "asin": "B0967LDZ7R",
+   "brand": "CeraVe",
+   "title": "CeraVe Feuchtigkeitsspendendes Reinigungsöl, Intensive und langanhaltende Feuchtigkeit für normale bis sehr trockene Haut, Reinigung für Körper und Gesicht, mit 3 essenziellen Ceramiden, 473 ml",
+   "img": "https://m.media-amazon.com/images/I/51mYBrdKYkL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/71GKqcuRkbS._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81QoS9H8ZeS._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81KFpnDge1S._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71pD7079RkS._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81h15aoCYRS._SL1500_.jpg"
+    "https://m.media-amazon.com/images/I/51mYBrdKYkL.jpg",
+    "https://m.media-amazon.com/images/I/61dzICUpKNL.jpg",
+    "https://m.media-amazon.com/images/I/612Tb1Wp9IL.jpg",
+    "https://m.media-amazon.com/images/I/61rKUxaUUrL.jpg",
+    "https://m.media-amazon.com/images/I/51VOcCjnBGL.jpg",
+    "https://m.media-amazon.com/images/I/51WxA2UGMuL.jpg"
    ],
    "bullets": [
-    "PZN-02889650",
-    "50 ml Öl",
-    "freiverkäuflich"
-   ],
-   "themes": [
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ]
-   },
-   "price": 11.31,
-   "rating": 4.3,
-   "reviews": 92,
-   "rev30": 226,
-   "archival": false
-  },
-  {
-   "asin": "B0B5B2HG2W",
-   "brand": "Topicrem",
-   "title": "Topicrem - CICA+, Konzentriertes Öl für Dehnungsstreifen und Narben – gedämpft, hilft vorzubeugen, beruhigt, spendet 24 Stunden Feuchtigkeit – Gesichts- und Körperpflege für empfindliche Haut – nicht",
-   "img": "https://m.media-amazon.com/images/I/51K1t2jvhKL._SL1080_.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/51K1t2jvhKL._SL1080_.jpg",
-    "https://m.media-amazon.com/images/I/61S4zmYPSNL._SL1340_.jpg",
-    "https://m.media-amazon.com/images/I/717me2nCICL._SL1340_.jpg",
-    "https://m.media-amazon.com/images/I/61dR6J7TGvL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81HX0wTDgaL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81nH4Nga+hL._SL1500_.jpg"
-   ],
-   "bullets": [
-    "Öl für Dehnungsstreifen und Narben: Mit Cica-Konzentrat beruhigen Sie Ihre Haut, mildern Sie die bereits vorhandenen Dehnungsstreifen und Narben sichtbar und beugen Sie neue Dehnungsstreifen vor. Diese ultra-reichhaltige Pflege ermöglicht auch die Pflege und Feuchtigkeitsversorgung der Haut für 24 Stunden. Die angenehme Textur mit nicht fettendem und nicht klebendem Finish, zieht leicht in die Haut ein. Zusammen mit seinem Duft mit zarten Noten von Feigenblättern und Jasmin sorgt er für einen optimalen Tragekomfort.",
-    "Sichtbare Resultate: Diese Hautpflege hilft dabei, Narben sichtbar zu mildern (100 %*) zu verringern, ihre Dicke (-59 %**) zu reduzieren und Dehnungsstreifen sichtbar zu reduzieren. Für ein optimales Ergebnis glätten und dehnen Sie das Öl vorsichtig in Narbenrichtung. Für eine reifere Narbe legen Sie mehr auf und rollen Sie sie auf. Bei Dehnungsstreifen in kreisenden Bewegungen an Bauch, Brust und Po, und von unten nach oben auf die Beine.",
-    "Geeignet für empfindliche Haut: dermatologisch getestet, dieses Öl ist für empfindliche Haut von Erwachsenen und Kindern geeignet. Es kann auch bei schwangeren oder stillenden Frauen verwendet werden. Hergestellt in Frankreich und ohne Parabene. Seine Textur mit nicht fettendem Finish und dem zarten Duft macht es zu einem sehr beruhigenden Produkt, das für den täglichen Gebrauch geeignet ist.",
-    "Inhaltsstoffe: Dieses konzentrierte Öl wird aus Maracuja-Konzentrat formuliert, reich an Omega 6, das die Haut umstrukturiert und neu modelliert, um Narben und Dehnungsstreifen zu mildern und Süßmandelöl reich an Omega 9, das die Haut weich macht. Es enthält auch Kamelinöl, das die Haut beruhigt und das Gefühl von Unwohlsein und Juckreiz beruhigt.",
-    "Für das Wohlbefinden Ihrer Haut: Gehen Sie Effizienz, Sicherheit und Komfort mit Topicrem. Wir entwickeln und fertigen unsere Produkte in Frankreich in enger Zusammenarbeit mit Gesundheitsspezialisten. Durch konzentrierte Wirkstoffe zielen unsere Formeln auf ein perfektes Gleichgewicht zwischen Effizienz und hoher Verträglichkeit für alle empfindlichen Hauttypen. Topicrem ist eine dermatologische Marke von Mayoly Spindler, französisches und unabhängiges Familienlabor."
+    "Feuchtigkeitsspendendes Anti-Austrocknung Reinigungsöl. Entfernt Make-up rückstandslos. Von Dermatologen getestet und für alle Hauttypen geeignet. Reinigt schonend und sanft ohne Hautreizungen und stärkt die Hautschutzbarriere.",
+    "Verträglich für trockene, zu Allergien neigende Haut und empfindliche Babyhaut. Ohne Parabene und Parfum.",
+    "Morgens und/oder abends auf leicht angefeuchteter Haut sanft aufschäumen. Mit lauwarmem Wasser abwaschen."
    ],
    "themes": [
     "nawilzenie",
-    "kojacy",
-    "swiad",
+    "bariera",
     "dla_dzieci",
     "dermatologiczny",
     "bez_dodatkow",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "dermatologiczny": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "bez_dodatkow": [
+     "BP"
+    ]
+   },
+   "price": 15.25,
+   "rating": 4.6,
+   "reviews": 10232,
+   "rev30": 24907,
+   "archival": false
+  },
+  {
+   "asin": "B0DJPB34JN",
+   "brand": "La Roche-Posay",
+   "title": "La Roche-Posay Lipikar Dusch- und Badeöl AP+ Rückfettendes Duschgel - Badeöl für juckende, trockene und empfindliche Haut 1L",
+   "img": "https://m.media-amazon.com/images/I/516Q-7YP6ML.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/516Q-7YP6ML.jpg"
+   ],
+   "bullets": [
+    "Duschöl für das tägliche Duschen oder Baden emulgiert mit Wasser und bildet einen Schutzfilm auf der Haut",
+    "Reinigt sanft, wirkt hautberuhigend und mindert Spannungsgefühle",
+    "Für Babys, Kinder und Erwachsene geeignet - Ohne Alkohol. pH-hautneutral",
+    "Niacinamid mildert den Juckreiz und hilft, die Hautschutzbarriere zu reparieren und die Haut zu stärken",
+    "Sheabutter pflegt die Haut und macht sie weicher und geschmeidiger"
+   ],
+   "themes": [
+    "kojacy",
+    "swiad",
+    "bariera",
+    "dla_dzieci"
+   ],
+   "themeSrc": {
+    "dla_dzieci": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "swiad": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 17.79,
+   "rating": 4.7,
+   "reviews": 496,
+   "rev30": 20239,
+   "archival": false
+  },
+  {
+   "asin": "B0752S69DK",
+   "brand": "Uriage",
+   "title": "Uriage Duschöl Seifenfrei mit Glycerin 25% - 2in1: Reinigtsanft & spendet Feuchtigkeit - für die ganze Familie - Gesicht & Körper - Seifenfrei, Physiologischer pH-Wert, empfindliche Haut - 1L",
+   "img": "https://m.media-amazon.com/images/I/7100O6bjE-L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/7100O6bjE-L.jpg",
+    "https://m.media-amazon.com/images/I/71fXGDtMn1L.jpg",
+    "https://m.media-amazon.com/images/I/81OR64AOv7L.jpg",
+    "https://m.media-amazon.com/images/I/81tbuKiYYgL.jpg",
+    "https://m.media-amazon.com/images/I/71FNTpLlnjL.jpg",
+    "https://m.media-amazon.com/images/I/713EPu+3wML.jpg",
+    "https://m.media-amazon.com/images/I/81TrtKaG8gL.jpg",
+    "https://m.media-amazon.com/images/I/61-hZYal+sL.jpg"
+   ],
+   "bullets": [
+    "2-IN-1-DUSCHÖL: Das 2-in-1 schäumende Duschgel, das sich beim Kontakt mit der Haut in eine ölige Textur verwandelt, reinigt bis in die Tiefe und pflegt dabei die Haut. Seine seifenfreie Zusammensetzung mit physiologischem pH-Wert bietet eine sanfte Pflege für die ganze Familie und ist sogar für trockene oder empfindliche Haut geeignet. Die hochverträgliche Formulierung schützt das empfindliche Gleichgewicht der Haut. Fürs Gesicht und den Körper geeignet.",
+    "SANFTE REINIGUNG: Erfahren Sie eine sanfte Reinigung mit Uriage Cleansing Oil. Der feine Schaum reinigt die Haut zart und bewahrt ihr natürliches Gleichgewicht, während er eine sanfte Schutzschicht hinterlässt. Geeignet für alle Hauttypen, einschließlich empfindlicher Haut",
+    "SICHER & FÜR ALLE GEEIGNET: Geeignet für die ganze Familie, einschließlich Erwachsener, Kinder und Babys. Ideal für den täglichen Gebrauch. Die seifenfreie Formel ist unter augenärztlicher und dermatologischer Kontrolle getestet, um optimale Sicherheit und Wirksamkeit zu gewährleisten",
+    "SICHERHEIT: mit Dermatologen entwickelt, dermatologisch getestet - augenärztlich getestet - für empfindliche Haut geeignet - seifenfrei - physiologischer pH-Wert (5,5) - hochverträglich",
+    "VOR DERMATOLOGEN EMPFOHLENE MARKE: Uriage-Produkte werden in Zusammenarbeit mit Dermatologen entwickelt und umfassen eine große Auswahl an hochverträglichen Hautpflegeprodukten, die für verschiedene Hauttypen – darunter besonders trockene, empfindliche, reife, fettige und zu Akne neigende Haut – geeignet sind. So sprechen die Produkte Personen aller Altersgruppen an."
+   ],
+   "themes": [
+    "nawilzenie",
+    "dla_dzieci",
+    "dermatologiczny",
+    "naturalny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "nawilzenie": [
+     "T"
+    ],
+    "odzywczy": [
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ]
+   },
+   "price": 14.73,
+   "rating": 4.6,
+   "reviews": 3124,
+   "rev30": 5818,
+   "archival": false
+  },
+  {
+   "asin": "B07Q6FG1T6",
+   "brand": "La Roche-Posay",
+   "title": "La Roche-Posay Lipikar Dusch- & Badeöl AP+, Rückfettendes Dusch- und Badeöl bei sehr trockener und zu Neurodermitis neigender Haut, Juckreizmildernd, Hautberuhigend und Feuchtigkeitsspendend, 400 ml",
+   "img": "https://m.media-amazon.com/images/I/712wWJdi+dL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/712wWJdi+dL.jpg"
+   ],
+   "bullets": [
+    "Das juckreizmildernde LIPIKAR Dusch- und Badeöl AP+ von La Roche-Posay ist speziell auf die Bedürfnisse sehr trockener oder zu Neurodermitis neigender Haut abgestimmt.",
+    "Duschöl für das tägliche Duschen oder Baden emulgiert mit Wasser und bildet einen Schutzfilm auf der Haut",
+    "Als Duschöl: Einige Tropfen in die Handfläche geben und auf der zuvor angefeuchteten Haut verteilen. Als Badezusatz: Beim Einlaufen des Badewassers den Inhalt von 2-3 Verschlusskappen dazugeben. Behutsam abspülen. Abtrocknen ohne zu reiben. Schäumt nicht. Vorsicht, die Badewanne kann rutschig werden!"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "nawilzenie": [
+     "T"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 20.54,
+   "rating": 4.7,
+   "reviews": 2649,
+   "rev30": 4786,
+   "archival": false
+  },
+  {
+   "asin": "B0CHJZSFJY",
+   "brand": "Eucerin",
+   "title": "Eucerin pH5 Dusch-Reinigungsöl, 1 l, Reinigungsöl für den Körper mit natürlichen Ölen für eine sanfte tägliche Reinigung, Olivenöl für trockene und empfindliche Haut für die ganze Familie",
+   "img": "https://m.media-amazon.com/images/I/31qTQ+yrqPL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/31qTQ+yrqPL.jpg"
+   ],
+   "bullets": [
+    "Reinigung und Pflege – Das tägliche und häufige Waschen geeignete Körperreiniger reinigt sanft und spendet der Haut Nährstoffe und Wohlbefinden und schützt gleichzeitig ihr natürliches Mikrobiom",
+    "pH5 – Das Duschöl ist Teil der Eucerin pH5 Reihe, speziell für die Bedürfnisse trockener, empfindlicher und zu Rötungen neigender Haut und zum Schutz vor trockener Haut",
+    "pH Balance System - Das pH-Balance-System mit pH5 Citrat-Pads, 53% natürlichen Ölen und Dexpanthenol des Duschöls stellt den pH-Wert der Haut wieder her und stärkt die natürlichen Abwehrkräfte und spendet gleichzeitig Feuchtigkeit",
+    "Sicherheit Eucerin – Die klinisch und dermatologisch getestete Formel von Eucerin Duschöl schafft einen weichen Schaum, der die Haut auf natürliche Weise beruhigt und mit Feuchtigkeit versorgt und ihr sofort Komfort verleiht",
+    "LIEFERUMFANG - Eucerin pH5 Duschöl, Duschöl für Erwachsene und Kinder ohne alkalische und leicht parfümierte Seife, 1er Pack (1 x 1 l, Artikelnummer: 63119)"
+   ],
+   "themes": [
+    "nawilzenie",
+    "kojacy",
+    "dla_dzieci",
+    "dermatologiczny",
+    "naturalny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "odzywczy": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "naturalny": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "BP"
+    ]
+   },
+   "price": 21.26,
+   "rating": 4.6,
+   "reviews": 250,
+   "rev30": 4294,
+   "archival": false
+  },
+  {
+   "asin": "B00P9YV0Z6",
+   "brand": "Uriage",
+   "title": "Uriage Xémose Reinigungsberuhigendes Öl 1L - Gesichts- & Körperwaschmittel für trockene Haut, neigend zu Neurodermitis - Reinigt, pflegt & bietet langanhaltenden Komfort - Seifenfrei",
+   "img": "https://m.media-amazon.com/images/I/71KTsnhUrPL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71KTsnhUrPL.jpg",
+    "https://m.media-amazon.com/images/I/81lx63XQV6L.jpg",
+    "https://m.media-amazon.com/images/I/81L0yqkBTYL.jpg",
+    "https://m.media-amazon.com/images/I/713dBjs+b6L.jpg",
+    "https://m.media-amazon.com/images/I/71g01NkcGrL.jpg",
+    "https://m.media-amazon.com/images/I/71jVH9IFqvL.jpg",
+    "https://m.media-amazon.com/images/I/81Efm-08iuL.jpg",
+    "https://m.media-amazon.com/images/I/81eFLyB5drL.jpg"
+   ],
+   "bullets": [
+    "DUSCHÖL FÜR SEHR TROCKENE HAUT: Duschgel für empfindliche, sehr trockene, juckende und zu atopischem Ekzem neigende Haut. Das Duschöl reinigt, lindert Juckreiz* und bietet lang anhaltenden Komfort. Das leicht schäumende, pflegende Gel, das sich beim Kontakt mit der Haut in eine ölige Textur verwandelt, hat eine praktische Pumpfunktion und ist für die ganze Familie geeignet.",
+    "ULTRA-BERUHIGENDE FORMULIERUNG: Das parfümfreie Reinigungsöl fürs Gesicht und den Körper mit GLYCERIN (19 %) und Sheabutterextrakt spendet der Haut Feuchtigkeit und hinterlässt einen nicht fettenden Schutzfilm auf der Haut. Durch einen exklusiven patentierten Komplex schützt das Öl die Haut vor Umwelteinflüssen. Die Haut wird gereinigt und beruhigt: -75 % Spannungsgefühl**. Das Duschöl ist mit zu 100 % reinem & natürlichem Uriage Thermalwasser angereichert, das alle Hauttypen weicher macht und beruhigt.",
+    "SICHERHEIT: für Krebspatienten geeignet – parfümfrei – seifenfrei – ohne Konservierungsstoffe - physiologischer pH-Wert (5,5)",
+    "VOR DERMATOLOGEN EMPFOHLENE MARKE: Uriage-Produkte werden in Zusammenarbeit mit Dermatologen entwickelt und umfassen eine große Auswahl an hochverträglichen Hautpflegeprodukten, die für verschiedene Hauttypen – darunter besonders trockene, empfindliche, reife, fettige und zu Akne neigende Haut – geeignet sind. So sprechen die Produkte Personen aller Altersgruppen an.",
+    "WISSENSCHAFT DER DREIFACH-BARRIERE-REPARATUR VON URIAGE Ein Pionierkonzept im Dienste der Hautgesundheit *aufgrund von trockener Haut **Klinische Studie unter dermatologischer Kontrolle an 30 Freiwilligen mit Xerose, Bewertung nach 30 Tagen. Klinische Scores."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "bariera",
+    "bez_zapachu",
+    "dermatologiczny",
+    "naturalny",
     "wchlanianie",
     "odzywczy",
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "swiad": [
+    "odzywczy": [
+     "BP"
+    ],
+    "bez_zapachu": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
      "BP"
     ],
     "wchlanianie": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
      "BP"
     ],
     "kojacy": [
      "T",
      "BP"
     ],
+    "cena_pojemnosc": [
+     "BP"
+    ],
+    "swiad": [
+     "BP"
+    ]
+   },
+   "price": 18.48,
+   "rating": 4.5,
+   "reviews": 1937,
+   "rev30": 3335,
+   "archival": false
+  },
+  {
+   "asin": "B07CJDK8D8",
+   "brand": "Eucerin",
+   "title": "Eucerin AtopiControl Beruhigendes Dusch- und Badeöl 400 ml, Pflegeöl für die tägliche Reinigung bei sehr trockener, atopischer Haut, Hautpflege mit 60% natürlichen Ölen lindert Juckreiz",
+   "img": "https://m.media-amazon.com/images/I/61AMXVgOGKL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61AMXVgOGKL.jpg",
+    "https://m.media-amazon.com/images/I/71RfFfU+rQL.jpg",
+    "https://m.media-amazon.com/images/I/71oswCxsFZL.jpg",
+    "https://m.media-amazon.com/images/I/61Qe7tTWeXL.jpg",
+    "https://m.media-amazon.com/images/I/61lw7zyjlNL.jpg",
+    "https://m.media-amazon.com/images/I/61AnJHfyxuL.jpg"
+   ],
+   "bullets": [
+    "hochwertige medizinische Hautpflege",
+    "für empfindliche Haut",
+    "Gel zur Anwendung auf der Haut",
+    "Dermokosmetik aus der Apotheke (PZN: 08454775)",
+    "Hersteller: Beiersdorf AG Eucerin, Deutschland"
+   ],
+   "themes": [
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "naturalny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "skora_atopowa": [
+     "T"
+    ],
     "odzywczy": [
      "T",
+     "BP"
+    ],
+    "kojacy": [
+     "T"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
+     "T"
+    ],
+    "naturalny": [
+     "T"
+    ]
+   },
+   "price": 14.5,
+   "rating": 4.5,
+   "reviews": 540,
+   "rev30": 2973,
+   "archival": false
+  },
+  {
+   "asin": "B0BLC6972T",
+   "brand": "DEXERYL",
+   "title": "DEXERYL Reinigungsöl: Zur täglichen Reinigung von Körper und Gesicht, für trockene und zu Neurodermitis neigende Haut, 1 x 500 ml",
+   "img": "https://m.media-amazon.com/images/I/51LlRcuTwCL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/51LlRcuTwCL.jpg",
+    "https://m.media-amazon.com/images/I/71chWuNRfKL.jpg",
+    "https://m.media-amazon.com/images/I/71RGTXkUq3L.jpg",
+    "https://m.media-amazon.com/images/I/812c29xvJ5L.jpg",
+    "https://m.media-amazon.com/images/I/71NT97+hcoL.jpg",
+    "https://m.media-amazon.com/images/I/71-fbSnW3mL.jpg"
+   ],
+   "bullets": [
+    "SANFTE REINIGUNG: Das Dexeryl Reinigungsöl enthält vier speziell ausgewählte reinigende Substanzen, die eine sanfte Reinigung ermöglichen und dadurch die natürliche Hautbarriere schützen",
+    "INTENSIVE FEUCHTIGKEIT: Die ölig-sanfte und flüssige Textur ist angenehm in der Anwendung und spendet zusätzlich intensive Feuchtigkeit, wodurch das Dexeryl Reinigungsöl pflegend wirkt",
+    "FÜR NEURODERMITIS GEEIGNET: Durch die seifenfreie und hypoallergene Formulierung ist das Produkt speziell an die Anforderungen einer trockenen und zu Neurodermitis neigenden Haut angepasst",
+    "JUCKREIZLINDERND: Der durch Hauttrockenheit hervorgerufene Juckreiz wird bereits nach 15 Tagen vollständig reduziert",
+    "ANWENDUNG: Durch die gute Verträglichkeit ist eine Anwendung auch für die empfindliche Haut von Säuglingen und Kleinkindern bereits ab der Geburt möglich",
+    "PZN: 17899513"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "swiad",
+    "bariera",
+    "dla_dzieci",
+    "hipoalergiczny",
+    "naturalny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "odzywczy": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "hipoalergiczny": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
+     "BP"
+    ]
+   },
+   "price": 17.73,
+   "rating": 4.7,
+   "reviews": 377,
+   "rev30": 1762,
+   "archival": false
+  },
+  {
+   "asin": "B0DVM1G1B3",
+   "brand": "Rilastil",
+   "title": "Rilastil Xerolact Gesichts- und Körperöl für Babys, Kinder und Erwachsene, feuchtigkeitsspendend, relipidisierend, für trockene, gereizte und atopische Haut, 1000 ml",
+   "img": "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61qoRmZRZTL.jpg",
+    "https://m.media-amazon.com/images/I/7175c2d7bQL.jpg",
+    "https://m.media-amazon.com/images/I/71bTNlpXu4L.jpg",
+    "https://m.media-amazon.com/images/I/719Modu1yGL.jpg",
+    "https://m.media-amazon.com/images/I/71jlqzaXutL.jpg",
+    "https://m.media-amazon.com/images/I/71AcTIqe3DL.jpg",
+    "https://m.media-amazon.com/images/I/71qcDgtnbZL.jpg"
+   ],
+   "bullets": [
+    "XEROLACT Pflegeöl für Gesicht und Körper gegen Hautirritationen",
+    "Wirkung: Reinigt sanft die Haut von Gesicht und Körper, verleiht der Haut Komfort. Dank des feuchtigkeitsspendend-relipidenden Komplexes fördert es die Wiederherstellung der Barrierefunktion und gibt der Haut Feuchtigkeit zurück",
+    "Formel Dank des feuchtigkeitsspendenden Relipidationskomplexes fördert es die Wiederherstellung der Barrierenfunktion und gibt der Haut Feuchtigkeit zurück.",
+    "Zerbrechliche, atopische Haut, die zu Juckreiz und starker Trockenheit neigt. Geeignet für Säuglinge, Kinder und Erwachsene. Formuliert, um das Risiko von Brennen in den Augen zu reduzieren.",
+    "Anwendung: Auf nasse Haut auftragen und sanft einmassieren, wie ein normales Reinigungsmittel. Für das Badezimmer das Äquivalent von 5 Sprühstößen beim Befüllen der Wanne gießen."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "swiad",
+    "bariera",
+    "dla_dzieci",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "odzywczy": [
+     "BP"
+    ],
+    "bariera": [
      "BP"
     ],
     "nawilzenie": [
      "T",
      "BP"
     ],
-    "dla_dzieci": [
+    "skora_atopowa": [
+     "T",
      "BP"
     ],
-    "bez_dodatkow": [
+    "dla_dzieci": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "swiad": [
+     "BP"
+    ]
+   },
+   "price": 14.83,
+   "rating": 4.6,
+   "reviews": 503,
+   "rev30": 1733,
+   "archival": false
+  },
+  {
+   "asin": "B06XXWTV3H",
+   "brand": "Uriage",
+   "title": "Uriage Xemose Beruhigendes Duschöl für Trockene, zu Atopie Neigende Haut - Beruhigt. Mild Schäumendes, Nährendes Gel-in-Öl - Gesicht & Körper - Parfüm- & Seifenfrei - Physiologischer pH-Wert - 500ml",
+   "img": "https://m.media-amazon.com/images/I/71H2h7cq2pL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71H2h7cq2pL.jpg",
+    "https://m.media-amazon.com/images/I/81lx63XQV6L.jpg",
+    "https://m.media-amazon.com/images/I/81L0yqkBTYL.jpg",
+    "https://m.media-amazon.com/images/I/713dBjs+b6L.jpg",
+    "https://m.media-amazon.com/images/I/71g01NkcGrL.jpg",
+    "https://m.media-amazon.com/images/I/71jVH9IFqvL.jpg",
+    "https://m.media-amazon.com/images/I/81Efm-08iuL.jpg",
+    "https://m.media-amazon.com/images/I/81soxKfFARL.jpg"
+   ],
+   "bullets": [
+    "DUSCHÖL FÜR SEHR TROCKENE HAUT: Duschgel für empfindliche, sehr trockene, juckende und zu atopischem Ekzem neigende Haut. Das Duschöl reinigt, lindert Juckreiz* und bietet lang anhaltenden Komfort. Das leicht schäumende, pflegende Gel, das sich beim Kontakt mit der Haut in eine ölige Textur verwandelt, hat eine praktische Pumpfunktion und ist für die ganze Familie geeignet.",
+    "ULTRA-BERUHIGENDE FORMEL: Angereichert mit Glycerin, Sheabutter und Thermalwasser spendet es Feuchtigkeit und schützt die Haut vor äußeren Einflüssen. -75% weniger Spannungsgefühl (klinische Studie unter dermatologischer Kontrolle an 30 Probanden mit Xerosen nach 30 Tagen).",
+    "SICHERHEIT: für Krebspatienten geeignet – parfümfrei – seifenfrei – ohne Konservierungsstoffe - physiologischer pH-Wert (5,5)",
+    "VOR DERMATOLOGEN EMPFOHLENE MARKE: Uriage-Produkte werden in Zusammenarbeit mit Dermatologen entwickelt und umfassen eine große Auswahl an hochverträglichen Hautpflegeprodukten, die für verschiedene Hauttypen – darunter besonders trockene, empfindliche, reife, fettige und zu Akne neigende Haut – geeignet sind. So sprechen die Produkte Personen aller Altersgruppen an.",
+    "WISSENSCHAFT DER DREIFACH-BARRIERE-REPARATUR VON URIAGE Ein Pionierkonzept im Dienste der Hautgesundheit *aufgrund von trockener Haut **Klinische Studie unter dermatologischer Kontrolle an 30 Freiwilligen mit Xerose, Bewertung nach 30 Tagen. Klinische Scores."
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "bariera",
+    "bez_zapachu",
+    "dermatologiczny",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "odzywczy": [
+     "T",
+     "BP"
+    ],
+    "bez_zapachu": [
      "BP"
     ],
     "dermatologiczny": [
      "BP"
-    ]
-   },
-   "price": 14.44,
-   "rating": 4.5,
-   "reviews": 580,
-   "rev30": 225,
-   "archival": false
-  },
-  {
-   "asin": "B09MFKXBFX",
-   "brand": "Oïléna",
-   "title": "Mandelöl für Haut (Körper und Gesicht) und Haare, Anti Streifen in der Schwangerschaft, für Atopische Haut und Baby, Massageöl. Feuchtigkeitsspendend. Reich an Vitamin E. 100% Rein - 5000 ml 5 L",
-   "img": "https://m.media-amazon.com/images/I/71aXMI-wGtL._AC_SL1500_.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/71aXMI-wGtL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81wxcGyKOWL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71MLtNwt2BL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81l1mfbPj+L._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71k4r4P0fXL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71Mvn08yp8L._AC_SL1500_.jpg"
-   ],
-   "bullets": [
-    "Verwöhne deine Haut während der Schwangerschaft mit unserem süßen Mandelöl, speziell entwickelt, um die Haut zu hydratisieren und das Erscheinungsbild von Schwangerschaftsstreifen zu reduzieren und zu verhindern. Perfekt, um die Haut nach dem Duschen zu pflegen. Bietet die gleiche sanfte Pflege für die empfindliche Haut deines Babys.",
-    "Repariere und stärke deine Haare und Bart mit unserem Premium-Mandelöl, bekannt für seinen hohen Gehalt an Vitamin E. Sage ade zu trockenem und geschädigtem Haar, da unser Mandelöl den Glanz fördert, Spliss reduziert und die allgemeine Gesundheit von Haaren und Bart verbessert.",
-    "Verjünge deine Haut und erziele einen strahlenden Teint mit den Anti-Aging-Eigenschaften unseres Mandelöls. Es bekämpft nicht nur feine Linien und Falten beim Befeuchten deiner Haut, sondern wirkt auch als natürlicher Make-up-Entferner, der deine Haut sauber, glatt und straff hinterlässt. Auch für die Lippen!",
-    "Basis aus ätherischen Ölen (Trägeröl) und anderen Produkten zur Herstellung von hausgemachter Kosmetik. Durch seine Vielseitigkeit ist es der Favorit von Massage-Therapeuten. Mandelöl kann auf die Haut des Kunden bei Ganzkörpermassagen aufgetragen werden, um sanfte Bewegungen zu erleichtern und den Therapeuten beim Gleiten zu unterstützen.",
-    "Verpackung mit UV-Sperrfunktion. Schützt den Inhalt des Produkts und bewahrt seine Qualität. Dosierer, der die richtige Menge erleichtert. Angenehm im Griff und perfekte Gleitfähigkeit. Geruchlos. Kaltgepresst. Sehr ergiebig. 100% Natürlich. 100% Rein. Setze auf das Beste."
-   ],
-   "themes": [
-    "nawilzenie",
-    "skora_atopowa",
-    "dla_dzieci",
-    "naturalny",
-    "odzywczy",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "naturalny": [
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "skora_atopowa": [
+     "BP"
+    ],
+    "kojacy": [
+     "T",
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "skora_atopowa": [
-     "T"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "dla_dzieci": [
-     "T",
+    "swiad": [
      "BP"
     ]
    },
-   "price": 41.17,
-   "rating": 4.4,
-   "reviews": 36,
-   "rev30": 73,
+   "price": 16.25,
+   "rating": 4.5,
+   "reviews": 1936,
+   "rev30": 1445,
    "archival": false
   },
   {
-   "asin": "B07VR7Z936",
-   "brand": "Oïléna",
-   "title": "Mandelöl für Haut (Körper und Gesicht) und Haare, Anti Streifen in der Schwangerschaft, für Atopische Haut und Baby, Massageöl. Feuchtigkeitsspendend. Reich an Vitamin E. 100% Rein - 1000 ml 1 L | 100% Rein, Reich an Vitamin E, Anti Streifen in der Schwangerschaft, Für Atopische Haut und Baby, Feuchtigkeitsspendend",
-   "img": "https://m.media-amazon.com/images/I/51xfOLoDqpL._SL1080_.jpg",
+   "asin": "B0DGFHSB6G",
+   "brand": "Ziaja",
+   "title": "ZIAJA MED Weichspülendes Bad- und Duschöl, Dermatologische Formel für atopische Haut, 270 ml",
+   "img": "https://m.media-amazon.com/images/I/51DqoZEEXPL.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/51xfOLoDqpL._SL1080_.jpg",
-    "https://m.media-amazon.com/images/I/81wxcGyKOWL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71MLtNwt2BL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71Mvn08yp8L._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71k4r4P0fXL._SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71lpjRsgAGL._SL1500_.jpg"
+    "https://m.media-amazon.com/images/I/51DqoZEEXPL.jpg",
+    "https://m.media-amazon.com/images/I/71wHsHuVFuL.jpg"
    ],
    "bullets": [
-    "Verwöhne deine Haut während der Schwangerschaft mit unserem süßen Mandelöl, speziell entwickelt, um die Haut zu hydratisieren und das Erscheinungsbild von Schwangerschaftsstreifen zu reduzieren und zu verhindern. Perfekt, um die Haut nach dem Duschen zu pflegen. Bietet die gleiche sanfte Pflege für die empfindliche Haut deines Babys.",
-    "Repariere und stärke deine Haare und Bart mit unserem Premium-Mandelöl, bekannt für seinen hohen Gehalt an Vitamin E. Sage ade zu trockenem und geschädigtem Haar, da unser Mandelöl den Glanz fördert, Spliss reduziert und die allgemeine Gesundheit von Haaren und Bart verbessert.",
-    "Verjünge deine Haut und erziele einen strahlenden Teint mit den Anti-Aging-Eigenschaften unseres Mandelöls. Es bekämpft nicht nur feine Linien und Falten beim Befeuchten deiner Haut, sondern wirkt auch als natürlicher Make-up-Entferner, der deine Haut sauber, glatt und straff hinterlässt. Auch für die Lippen!",
-    "Basis aus ätherischen Ölen (Trägeröl) und anderen Produkten zur Herstellung von hausgemachter Kosmetik. Durch seine Vielseitigkeit ist es der Favorit von Massage-Therapeuten. Mandelöl kann auf die Haut des Kunden bei Ganzkörpermassagen aufgetragen werden, um sanfte Bewegungen zu erleichtern und den Therapeuten beim Gleiten zu unterstützen.",
-    "Verpackung mit UV-Sperrfunktion. Schützt den Inhalt des Produkts und bewahrt seine Qualität. Dosierer, der die richtige Menge erleichtert. Angenehm im Griff und perfekte Gleitfähigkeit. Geruchlos. Kaltgepresst. Sehr ergiebig. 100% Natürlich. 100% Rein. Setze auf das Beste."
+    "Dermatologische Formel: Speziell für atopische Haut, die zu Reizungen und starkem Juckreiz neigt, mit milden und beruhigenden Inhaltsstoffen.",
+    "Feuchtigkeitsspendende Eigenschaften: Enthält Sonnenblumenöl und Vitamin E, die helfen, Trockenheit zu verhindern und raue Haut zu reduzieren.",
+    "Vielseitige Verwendung: Geeignet für Gesicht und Körper, kann sowohl in der Dusche als auch im Bad verwendet werden, ideal für die ganze Familie.",
+    "Anwendung: Zum Duschen eine kleine Menge auftragen und abspülen. Zum Baden 2-3 Tassen in warmes Wasser gießen.",
+    "Inhalt und Präsentation: Packung mit 270 ml mit weichmachender Formel, die sanft reinigt, ohne die Haut zu reizen."
    ],
    "themes": [
     "nawilzenie",
     "skora_atopowa",
-    "dla_dzieci",
-    "naturalny",
-    "odzywczy",
+    "kojacy",
+    "swiad",
+    "dermatologiczny",
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "naturalny": [
+    "dermatologiczny": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "kojacy": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
     ],
-    "skora_atopowa": [
-     "T"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "dla_dzieci": [
-     "T",
+    "swiad": [
      "BP"
     ]
    },
-   "price": 15.96,
-   "rating": 4.5,
-   "reviews": 460,
-   "rev30": 26,
+   "price": 7.31,
+   "rating": 5.0,
+   "reviews": 2,
+   "rev30": 54,
    "archival": false
   }
  ],
@@ -628,6 +734,10 @@
    "label": "Dla dzieci / niemowląt"
   },
   {
+   "key": "hipoalergiczny",
+   "label": "Hipoalergiczny"
+  },
+  {
    "key": "dermatologiczny",
    "label": "Dermatologicznie testowany"
   },
@@ -657,79 +767,85 @@
    "key": "cena_pojemnosc",
    "label": "Ekonomiczny / duża pojemność",
    "count": 11,
-   "pct": 100
-  },
-  {
-   "key": "odzywczy",
-   "label": "Odżywczy / regenerujący",
-   "count": 10,
-   "pct": 91
-  },
-  {
-   "key": "naturalny",
-   "label": "Naturalny / wegański",
-   "count": 9,
-   "pct": 82
+   "pct": 92
   },
   {
    "key": "nawilzenie",
    "label": "Nawilżenie",
-   "count": 6,
-   "pct": 55
-  },
-  {
-   "key": "skora_atopowa",
-   "label": "Skóra atopowa / egzema",
-   "count": 6,
-   "pct": 55
-  },
-  {
-   "key": "dla_dzieci",
-   "label": "Dla dzieci / niemowląt",
-   "count": 5,
-   "pct": 45
+   "count": 10,
+   "pct": 83
   },
   {
    "key": "kojacy",
    "label": "Kojący / łagodzący",
-   "count": 3,
-   "pct": 27
-  },
-  {
-   "key": "dermatologiczny",
-   "label": "Dermatologicznie testowany",
-   "count": 3,
-   "pct": 27
+   "count": 8,
+   "pct": 67
   },
   {
    "key": "swiad",
    "label": "Redukcja świądu",
-   "count": 1,
-   "pct": 9
+   "count": 8,
+   "pct": 67
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący",
+   "count": 8,
+   "pct": 67
+  },
+  {
+   "key": "skora_atopowa",
+   "label": "Skóra atopowa / egzema",
+   "count": 7,
+   "pct": 58
   },
   {
    "key": "bariera",
    "label": "Odbudowa bariery",
-   "count": 1,
-   "pct": 9
+   "count": 7,
+   "pct": 58
+  },
+  {
+   "key": "dla_dzieci",
+   "label": "Dla dzieci / niemowląt",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "dermatologiczny",
+   "label": "Dermatologicznie testowany",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański",
+   "count": 6,
+   "pct": 50
   },
   {
    "key": "bez_zapachu",
    "label": "Bez zapachu / perfum",
+   "count": 2,
+   "pct": 17
+  },
+  {
+   "key": "hipoalergiczny",
+   "label": "Hipoalergiczny",
    "count": 1,
-   "pct": 9
+   "pct": 8
   },
   {
    "key": "bez_dodatkow",
    "label": "Bez parabenów / SLS",
    "count": 1,
-   "pct": 9
+   "pct": 8
   },
   {
    "key": "wchlanianie",
    "label": "Szybkie wchłanianie",
    "count": 1,
-   "pct": 9
+   "pct": 8
   }
  ],
  "vocGap": [
@@ -737,12 +853,12 @@
    "vocTopic": "Zjełczały / nieprzyjemny zapach",
    "vocPct": 27.0,
    "theme": "Bez zapachu / perfum",
-   "addressed": 1,
-   "total": 11,
-   "pct": 9,
+   "addressed": 2,
+   "total": 12,
+   "pct": 17,
    "sev": "MED",
    "brands": [
-    "frei öl"
+    "Uriage"
    ]
   },
   {
@@ -750,11 +866,11 @@
    "vocPct": 20.0,
    "theme": "Szybkie wchłanianie",
    "addressed": 1,
-   "total": 11,
-   "pct": 9,
+   "total": 12,
+   "pct": 8,
    "sev": "MED",
    "brands": [
-    "Topicrem"
+    "Uriage"
    ]
   },
   {
@@ -762,7 +878,7 @@
    "vocPct": 16.0,
    "theme": "",
    "addressed": 0,
-   "total": 11,
+   "total": 12,
    "pct": 0,
    "sev": "HIGH",
    "brands": []
@@ -771,159 +887,151 @@
    "vocTopic": "Wątpliwa jakość i czystość oleju",
    "vocPct": 14.0,
    "theme": "Bez zapachu / perfum",
-   "addressed": 1,
-   "total": 11,
-   "pct": 9,
+   "addressed": 2,
+   "total": 12,
+   "pct": 17,
    "sev": "MED",
    "brands": [
-    "frei öl"
+    "Uriage"
    ]
   },
   {
    "vocTopic": "Reakcje skórne i wypryski",
    "vocPct": 12.0,
    "theme": "Hipoalergiczny",
-   "addressed": 0,
-   "total": 11,
-   "pct": 0,
-   "sev": "HIGH",
-   "brands": []
+   "addressed": 1,
+   "total": 12,
+   "pct": 8,
+   "sev": "MED",
+   "brands": [
+    "DEXERYL"
+   ]
   },
   {
    "vocTopic": "Mylące deklaracje i cena",
    "vocPct": 11.0,
    "theme": "Ekonomiczny / duża pojemność",
    "addressed": 11,
-   "total": 11,
-   "pct": 100,
+   "total": 12,
+   "pct": 92,
    "sev": "LOW",
    "brands": [
-    "Aveeno",
-    "KRÄUTERLAND N A T U R - Ö L M Ü H L E",
-    "Weleda",
     "Bioderma",
-    "Satin Naturel"
+    "CeraVe",
+    "Uriage",
+    "La Roche-Posay",
+    "Eucerin"
    ]
   }
  ],
  "whitespace": [
   {
-   "label": "Kojący / łagodzący",
-   "pct": 27,
-   "why": "Tylko 3/11 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Dermatologicznie testowany",
-   "pct": 27,
-   "why": "Tylko 3/11 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Redukcja świądu",
-   "pct": 9,
-   "why": "Tylko 1/11 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Odbudowa bariery",
-   "pct": 9,
-   "why": "Tylko 1/11 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
    "label": "Bez zapachu / perfum",
-   "pct": 9,
-   "why": "Tylko 1/11 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "pct": 17,
+   "why": "Tylko 2/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Hipoalergiczny",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
    "label": "Bez parabenów / SLS",
-   "pct": 9,
-   "why": "Tylko 1/11 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
    "label": "Szybkie wchłanianie",
-   "pct": 9,
-   "why": "Tylko 1/11 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   }
  ],
  "saturation": [
   {
    "label": "Ekonomiczny / duża pojemność",
-   "pct": 100,
-   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
-  },
-  {
-   "label": "Odżywczy / regenerujący",
-   "pct": 91,
-   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
-  },
-  {
-   "label": "Naturalny / wegański",
-   "pct": 82,
+   "pct": 92,
    "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
    "label": "Nawilżenie",
-   "pct": 55,
+   "pct": 83,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "pct": 67,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Redukcja świądu",
+   "pct": 67,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Odżywczy / regenerujący",
+   "pct": 67,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Skóra atopowa / egzema",
-   "pct": 55,
+   "pct": 58,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Odbudowa bariery",
+   "pct": 58,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Dla dzieci / niemowląt",
-   "pct": 45,
+   "pct": 50,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Kojący / łagodzący",
-   "pct": 27,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
-  },
-  {
    "label": "Dermatologicznie testowany",
-   "pct": 27,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+   "pct": 50,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Redukcja świądu",
-   "pct": 9,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
-  },
-  {
-   "label": "Odbudowa bariery",
-   "pct": 9,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+   "label": "Naturalny / wegański",
+   "pct": 50,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Bez zapachu / perfum",
-   "pct": 9,
+   "pct": 17,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Hipoalergiczny",
+   "pct": 8,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
    "label": "Bez parabenów / SLS",
-   "pct": 9,
+   "pct": 8,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
    "label": "Szybkie wchłanianie",
-   "pct": 9,
+   "pct": 8,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   }
  ],
  "recs": [
   {
    "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Nieszczelna pipeta / opakowanie, Reakcje skórne i wypryski — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "finding": "Negatywy VOC dotyczą: Nieszczelna pipeta / opakowanie — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
    "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
   },
   {
    "type": "Pozycjonowanie",
-   "finding": "Nisko wysycone claimy: Kojący / łagodzący, Dermatologicznie testowany, Redukcja świądu, Odbudowa bariery.",
+   "finding": "Nisko wysycone claimy: Bez zapachu / perfum, Hipoalergiczny, Bez parabenów / SLS, Szybkie wchłanianie.",
    "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
   },
   {
    "type": "Produkt",
-   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność, Odżywczy / regenerujący, Naturalny / wegański.",
+   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność, Nawilżenie.",
    "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]

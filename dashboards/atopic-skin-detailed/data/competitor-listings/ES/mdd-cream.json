@@ -1,53 +1,8 @@
 {
  "totalCompetitors": 12,
  "marketplace": "amazon.es",
- "avgClaims": 4.8,
+ "avgClaims": 5.8,
  "competitors": [
-  {
-   "asin": "B0D1GK2ZKB",
-   "brand": "Neutrogena",
-   "title": "Neutrogena Fórmula Noruega Loción Corporal CICA Reparación intensa para piel seca (Pack de 2 x 750 ml), crema hidratante corporal reparadora con centella asiática",
-   "img": "https://m.media-amazon.com/images/I/61Nxo8mqIBL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/61Nxo8mqIBL.jpg",
-    "https://m.media-amazon.com/images/I/61odWmzrvBL.jpg",
-    "https://m.media-amazon.com/images/I/71l-jsfE8JL.jpg",
-    "https://m.media-amazon.com/images/I/71Crj0YHiqL.jpg",
-    "https://m.media-amazon.com/images/I/61xy-ioTjXL.jpg",
-    "https://m.media-amazon.com/images/I/613hTitt5GL.jpg",
-    "https://m.media-amazon.com/images/I/61LV0WuSw3L.jpg"
-   ],
-   "bullets": [
-    "Fórmula Noruega: La loción corporal CICA de Neutrogena contiene un 10% de glicerina y Centella Asiática, un potente antioxidante conocido por sus propiedades reparadoras",
-    "Reparación intensa: Esta crema corporal para piel muy seca aporta 4 beneficios en 1: alivia, repara, fortalece y protege la barrera cutánea de la sequedad desde el primer uso",
-    "Se funde con la piel: Gracias a su textura no grasa, esta loción Neutrogena corporal reparadora se funde con la piel para que puedas vestirte inmediatamente",
-    "Desarrollada con dermatólogos y probada clínicamente. La fórmula de esta crema Neutrogena alivia e repara intensamente la barrera cutánea desde el primer uso y la mantiene hidratada durante 72 horas",
-    "Envase reciclable: Tanto el dosificador como las botellas de 750 ml de esta crema hidratante corporal son 100% reciclables y están fabricados con un 50% de plástico reciclado**"
-   ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "cena_pojemnosc"
-   ],
-   "themeSrc": {
-    "cena_pojemnosc": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ]
-   },
-   "price": 15.29,
-   "rating": 4.7,
-   "reviews": 743,
-   "rev30": 56324,
-   "archival": false
-  },
   {
    "asin": "B087XGVFL1",
    "brand": "BEPANTOL DERMA",
@@ -79,28 +34,28 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "naturalny": [
+    "dermatologiczny": [
      "BP"
     ],
-    "cena_pojemnosc": [
-     "T"
+    "bariera": [
+     "BP"
     ],
-    "skora_atopowa": [
-     "T",
+    "naturalny": [
      "BP"
     ],
     "nawilzenie": [
      "T",
      "BP"
     ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
     "dla_dzieci": [
      "BP"
     ],
-    "bariera": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 19.5,
@@ -138,16 +93,16 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
+    "nawilzenie": [
+     "T",
+     "BP"
     ],
     "kojacy": [
      "T",
      "BP"
     ],
-    "nawilzenie": [
-     "T",
-     "BP"
+    "cena_pojemnosc": [
+     "T"
     ],
     "swiad": [
      "T",
@@ -191,22 +146,22 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "kojacy": [
+    "wchlanianie": [
      "BP"
     ],
     "odzywczy": [
      "BP"
     ],
-    "wchlanianie": [
+    "dermatologiczny": [
      "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ],
     "naturalny": [
-     "BP"
-    ],
-    "dermatologiczny": [
      "BP"
     ]
    },
@@ -245,14 +200,14 @@
     "wchlanianie"
    ],
    "themeSrc": {
-    "kojacy": [
-     "T",
-     "BP"
-    ],
     "skora_atopowa": [
      "T"
     ],
     "wchlanianie": [
+     "BP"
+    ],
+    "kojacy": [
+     "T",
      "BP"
     ],
     "swiad": [
@@ -264,54 +219,6 @@
    "rating": 4.4,
    "reviews": 34,
    "rev30": 13563,
-   "archival": false
-  },
-  {
-   "asin": "B00E0JG2FY",
-   "brand": "BEPANTHOL",
-   "title": "Bepanthol Pomada Protectora Hidratante, Protege y Regenera la Piel Seca, Irritada o Sensibilizada por Factores Externos, 100 g",
-   "img": "https://m.media-amazon.com/images/I/71YWNssUnzL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/71YWNssUnzL.jpg",
-    "https://m.media-amazon.com/images/I/71NXRNsf-yL.jpg",
-    "https://m.media-amazon.com/images/I/716hu0GqdsL.jpg",
-    "https://m.media-amazon.com/images/I/71yxTM+XiiL.jpg",
-    "https://m.media-amazon.com/images/I/61+VXSCRYZL.jpg",
-    "https://m.media-amazon.com/images/I/71pXjpn3jEL.jpg",
-    "https://m.media-amazon.com/images/I/61lf6dJAsaL.jpg"
-   ],
-   "bullets": [
-    "Bepanthol Pomada Protectora es una crema protectora que protege diferentes afecciones cutáneas, regenera la piel, proporciona una elevada hidratación y actúa de barrera extra en zonas específicas",
-    "Su contenido lipídico forma una barrera protectora que evita la deshidratación y aísla de sustancias irritantes y el Pantenol (provitamina B5) favorece la regeneración natural de la piel",
-    "Favorece la regeneración natural de la piel con tendencia a la irritación o sensibilización por factores externos como irritaciones, rojeces, escoceduras o grietas",
-    "Aplicar una abundante capa sobre la piel limpia y seca en la zona afectada y extender la pomada con un suave masaje",
-    "Esta crema protectora apta para toda la familia no contiene perfume, ni colorantes, ni conservantes y puede utilizarse con tanta frecuencia como sea necesario"
-   ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "naturalny",
-    "odzywczy"
-   ],
-   "themeSrc": {
-    "odzywczy": [
-     "T",
-     "BP"
-    ],
-    "nawilzenie": [
-     "T"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ]
-   },
-   "price": 14.5,
-   "rating": 4.7,
-   "reviews": 1116,
-   "rev30": 12779,
    "archival": false
   },
   {
@@ -363,82 +270,30 @@
     "bez_zapachu": [
      "BP"
     ],
-    "wchlanianie": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "nawilzenie": [
-     "T",
+    "dermatologiczny": [
      "BP"
     ],
     "bariera": [
      "BP"
     ],
-    "dermatologiczny": [
+    "naturalny": [
      "BP"
+    ],
+    "nawilzenie": [
+     "T",
+     "BP"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
     ]
    },
    "price": 20.4,
    "rating": 4.6,
    "reviews": 117,
    "rev30": 10712,
-   "archival": false
-  },
-  {
-   "asin": "B097H85186",
-   "brand": "BEPANTHOL",
-   "title": "Bepanthol Derma Reparadora Crema Facial Hidratante De Día, Piel Muy Seca Y Sensible, 50 Mililitros",
-   "img": "https://m.media-amazon.com/images/I/71sbJifqclL.jpg",
-   "imgs": [
-    "https://m.media-amazon.com/images/I/71sbJifqclL.jpg",
-    "https://m.media-amazon.com/images/I/719DmglIErL.jpg",
-    "https://m.media-amazon.com/images/I/81EIzFzxGIL.jpg",
-    "https://m.media-amazon.com/images/I/71pk5pHfksL.jpg",
-    "https://m.media-amazon.com/images/I/81hwcA3nafL.jpg",
-    "https://m.media-amazon.com/images/I/81nIHokHhbL.jpg",
-    "https://m.media-amazon.com/images/I/71ZnOd+KUfL.jpg"
-   ],
-   "bullets": [
-    "Crema hidratante facial reparadora de día formulada para pieles muy secas y sensibles",
-    "Textura enriquecida, no grasa que fortalece la barrera de la piel",
-    "Fórmula enriquecida con el innovador Repair Complex, que actúa directamente en la raíz de la sequedad para un cambio profundo y duradero",
-    "Reduce la tirantez y protege frente a la sequedad recurrente; Aplicar diariamente sobre el rostro limpio",
-    "90% ingredientes naturales; Dermatológicamente testado; No perfumado y sin colorantes"
-   ],
-   "themes": [
-    "nawilzenie",
-    "bariera",
-    "dermatologiczny",
-    "naturalny",
-    "odzywczy"
-   ],
-   "themeSrc": {
-    "odzywczy": [
-     "BP"
-    ],
-    "nawilzenie": [
-     "T",
-     "BP"
-    ],
-    "bariera": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ],
-    "dermatologiczny": [
-     "BP"
-    ]
-   },
-   "price": 20.39,
-   "rating": 4.6,
-   "reviews": 349,
-   "rev30": 10016,
    "archival": false
   },
   {
@@ -468,19 +323,19 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "cena_pojemnosc": [
+    "nawilzenie": [
      "T"
-    ],
-    "kojacy": [
-     "BP"
     ],
     "skora_atopowa": [
      "T"
     ],
-    "nawilzenie": [
+    "bariera": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
      "T"
     ],
-    "bariera": [
+    "kojacy": [
      "BP"
     ],
     "naturalny": [
@@ -525,30 +380,30 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "odzywczy": [
+     "BP"
+    ],
     "bez_zapachu": [
      "T",
      "BP"
     ],
-    "swiad": [
+    "dermatologiczny": [
      "BP"
     ],
     "naturalny": [
-     "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
-    ],
-    "kojacy": [
-     "BP"
-    ],
-    "odzywczy": [
      "BP"
     ],
     "nawilzenie": [
      "T",
      "BP"
     ],
-    "dermatologiczny": [
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "swiad": [
      "BP"
     ]
    },
@@ -559,51 +414,245 @@
    "archival": false
   },
   {
-   "asin": "B00E0LU2ZS",
-   "brand": "BEPANTHOL",
-   "title": "Bepanthol Pomada Protectora Hidratante, Protege y Regenera la Piel Seca, Irritada o Sensibilizada por Factores Externos, 30 g",
-   "img": "https://m.media-amazon.com/images/I/71ovA7gsvyL.jpg",
+   "asin": "B0CHK3H7V1",
+   "brand": "ISDIN",
+   "title": "ISDIN Psorisdin Emollient, Loción diaria, hidrata, elimina escamas y reduce las rojeces de la piel de personas con psoriasis, 400ml",
+   "img": "https://m.media-amazon.com/images/I/61MPkriw93L.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/71ovA7gsvyL.jpg",
-    "https://m.media-amazon.com/images/I/71lod372gwL.jpg",
-    "https://m.media-amazon.com/images/I/719TDw1DJCL.jpg",
-    "https://m.media-amazon.com/images/I/71yxTM+XiiL.jpg",
-    "https://m.media-amazon.com/images/I/61+VXSCRYZL.jpg",
-    "https://m.media-amazon.com/images/I/71pXjpn3jEL.jpg",
-    "https://m.media-amazon.com/images/I/61lf6dJAsaL.jpg"
+    "https://m.media-amazon.com/images/I/61MPkriw93L.jpg",
+    "https://m.media-amazon.com/images/I/71GxET-0lOL.jpg",
+    "https://m.media-amazon.com/images/I/71kpB+Ii0HL.jpg",
+    "https://m.media-amazon.com/images/I/71jBQQg+9gL.jpg",
+    "https://m.media-amazon.com/images/I/71DOM2YhK-L.jpg",
+    "https://m.media-amazon.com/images/I/71MpO3tSKCL.jpg",
+    "https://m.media-amazon.com/images/I/71romxy3ErL.jpg",
+    "https://m.media-amazon.com/images/I/71AXSsOPd2L.jpg"
    ],
    "bullets": [
-    "Bepanthol Pomada Protectora es una crema protectora que protege diferentes afecciones cutáneas, regenera la piel, proporciona una elevada hidratación y actúa de barrera extra en zonas específicas",
-    "Su contenido lipídico forma una barrera protectora que evita la deshidratación y aísla de sustancias irritantes y el Pantenol (provitamina B5) favorece la regeneración natural de la piel",
-    "Favorece la regeneración natural de la piel con tendencia a la irritación o sensibilización por factores externos como irritaciones, rojeces, escoceduras o grietas",
-    "Aplicar una abundante capa sobre la piel limpia y seca en la zona afectada y extender la pomada con un suave masaje",
-    "Esta crema protectora apta para toda la familia no contiene perfume, ni colorantes, ni conservantes y puede utilizarse con tanta frecuencia como sea necesario"
+    "Loción diaria que hidrata, elimina escamas y reduce las rojeces de la Piel de Personas con Psoriasis"
+   ],
+   "themes": [
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ]
+   },
+   "price": 23.55,
+   "rating": 4.3,
+   "reviews": 565,
+   "rev30": 6775,
+   "archival": false
+  },
+  {
+   "asin": "B07JDLL4LP",
+   "brand": "Uriage",
+   "title": "Uriage Xemose C8+ Bálsamo Relipidizante Anti-Picor 500ml - Nutre, Repara, Calma - Piel Muy Seca, Tendencia Eczema Atópico - 8Ceramidas Biomiméticas, 10% Manteca de Karité - Rostro, Cuerpo, Sin Perfume",
+   "img": "https://m.media-amazon.com/images/I/61A6-pcTF0L.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61A6-pcTF0L.jpg",
+    "https://m.media-amazon.com/images/I/81E2z3I7RWL.jpg",
+    "https://m.media-amazon.com/images/I/917uCqoXtdL.jpg",
+    "https://m.media-amazon.com/images/I/71886oubS+L.jpg",
+    "https://m.media-amazon.com/images/I/711ikJc-WHL.jpg",
+    "https://m.media-amazon.com/images/I/71P9ntLzL1L.jpg",
+    "https://m.media-amazon.com/images/I/81uT1Qe02pL.jpg"
+   ],
+   "bullets": [
+    "LOCIÓN CORPORAL PARA LA PIEL SECA CON TENDENCIA AL ECZEMA ATÓPICO: Hidratante corporal que calma desde la primera aplicación y proporciona una acción anti-reaparición de 48 horas*. Apto para toda la familia (incluso recién nacidos) con piel seca con tendencia al eczema atópico.",
+    "CREMA CORPORAL HIDRATANTE Y CALMANTE DE LARGA DURACIÓN: Crema anti-picor sin perfume recomendada por dermatólogos con una textura de bálsamo en aceite, ultra-nutritiva. Deja una película protectora no pegajosa para un confort duradero. Se puede usar en la cara y el cuerpo. No es necesario esperar para vestirse.",
+    "INNOVACIÓN MICROBIOME PATENTED TECHNOLOGY: Fórmula exclusiva con 4 patentes y manteca de karité ultra-nutritiva (10%). Loción corporal para la sequedad severa de la piel que refuerza la defensa de la barrera del microbioma x3**. Calma inmediatamente la sensación de picor y proporciona hidratación y confort duraderos. Enriquecido con ceramidas para fortalecer la barrera cutánea.",
+    "SEGURIDAD: Apto para pacientes oncológicos - Alta tolerancia - Sin perfume- Sin parabenos",
+    "MARCA RECOMENDADA POR DERMATÓLOGOS: Los productos de Uriage, desarrollados en colaboración con dermatólogos, ofrecen una amplia gama de cuidados para la piel de alta tolerancia adecuada para distintos tipos de piel, incluyendo piel extra seca, sensible, madura, grasa y propensa al acné, dirigidos a personas de todas las edades."
    ],
    "themes": [
     "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
     "bariera",
+    "bez_zapachu",
+    "bez_dodatkow",
     "naturalny",
-    "odzywczy"
+    "odzywczy",
+    "cena_pojemnosc"
    ],
    "themeSrc": {
     "odzywczy": [
-     "T",
      "BP"
     ],
-    "nawilzenie": [
-     "T"
+    "bez_zapachu": [
+     "T",
+     "BP"
     ],
     "bariera": [
      "BP"
     ],
     "naturalny": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "nawilzenie": [
+     "BP"
+    ],
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "bez_dodatkow": [
+     "BP"
+    ],
+    "swiad": [
+     "T",
      "BP"
     ]
    },
-   "price": 8.99,
+   "price": 18.9,
+   "rating": 4.5,
+   "reviews": 1475,
+   "rev30": 6468,
+   "archival": false
+  },
+  {
+   "asin": "B08R1FQWKH",
+   "brand": "Rilastil",
+   "title": "Rilastil - Xerolact PB Bálsamo Hidratante, Anti-Irritaciones con Prebióticos, para Piel Seca Frágil o Atópica, Alivia Picor, Nutre Intensamente y Repara la Barrera Cutánea - 400 ml",
+   "img": "https://m.media-amazon.com/images/I/517XkiRGwjL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/517XkiRGwjL.jpg",
+    "https://m.media-amazon.com/images/I/51aBcUn1VJL.jpg",
+    "https://m.media-amazon.com/images/I/51xdmjz27dL.jpg",
+    "https://m.media-amazon.com/images/I/51plXVRJiaL.jpg",
+    "https://m.media-amazon.com/images/I/51FJiBakZeL.jpg",
+    "https://m.media-amazon.com/images/I/61IrTMceQxL.jpg",
+    "https://m.media-amazon.com/images/I/61g6z0q19OL.jpg"
+   ],
+   "bullets": [
+    "XEROLACT PB BÁLSAMO. Es un bálsamo corporal de hidratación prolongada y acción anti-picor, diseñado para pieles secas, frágiles o con tendencia atópica. Calma inmediatamente el picor, nutre y protege, contribuyendo a mantener el equilibrio de la microbiota cutánea",
+    "CONFORT Y ALIVIO DURADEROS. Proporciona una hidratación continuada de hasta 48 horas, alivia la sensación de picor corporal y favorece el bienestar de la piel seca o atópica. Ideal para uso diario por toda la familia, ayuda a restablecer el confort cutáneo tras la limpieza",
+    "INGREDIENTES SELECCIONADOS. Formulado con el complejo Skin Barrier Self Defense con prebiótico + postbiótico, que apoya la barrera cutánea. Hipoalergénico, sin perfume, sin derivados del trigo, testado en cinco metales pesados y adecuado para toda la familia",
+    "FÓRMULA EFICAZ Y PROTECTORA. Bálsamo dermatológicamente testado que combina nutrición, hidratación y protección para pieles vulnerables o con tendencia atópica. Su textura rica penetra y deja una sensación de alivio inmediato, sin apelmazar. Recomendado como segundo paso en la rutina corporal tras la limpieza con Xerolact Aceite de Ducha o Gel de Ducha",
+    "MODO DE USO. Aplicar 1 o 2 veces al día sobre piel limpia y seca. Extender mediante masaje hasta su completa absorción. Puede utilizarse en bebés, niños y adultos"
+   ],
+   "themes": [
+    "nawilzenie",
+    "skora_atopowa",
+    "kojacy",
+    "swiad",
+    "bariera",
+    "bez_zapachu",
+    "dla_dzieci",
+    "hipoalergiczny",
+    "dermatologiczny",
+    "naturalny",
+    "wchlanianie",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "bez_zapachu": [
+     "BP"
+    ],
+    "dermatologiczny": [
+     "BP"
+    ],
+    "bariera": [
+     "T",
+     "BP"
+    ],
+    "naturalny": [
+     "BP"
+    ],
+    "nawilzenie": [
+     "T"
+    ],
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "wchlanianie": [
+     "BP"
+    ],
+    "hipoalergiczny": [
+     "BP"
+    ],
+    "kojacy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "swiad": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 17.49,
    "rating": 4.6,
-   "reviews": 1215,
-   "rev30": 6663,
+   "reviews": 1362,
+   "rev30": 6461,
+   "archival": false
+  },
+  {
+   "asin": "B01FFST6UG",
+   "brand": "Dermaveel",
+   "title": "Heel - Dermaveel Crema para la Dermatitis Atópica, con Ectoína, Extracto de Corteza de Avellano y Crema Lamelar, Alivia el Picor, Reduce la Inflamación e Hidrata - 30 ml",
+   "img": "https://m.media-amazon.com/images/I/41htbWnwFTL.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/41htbWnwFTL.jpg",
+    "https://m.media-amazon.com/images/I/61IgylnXXKL.jpg",
+    "https://m.media-amazon.com/images/I/61Y-rz9FzQL.jpg",
+    "https://m.media-amazon.com/images/I/71t0fl-Mx1L.jpg",
+    "https://m.media-amazon.com/images/I/717EP3tmR5L.jpg",
+    "https://m.media-amazon.com/images/I/61Dc-evdQQL.jpg"
+   ],
+   "bullets": [
+    "🧴 Crema diseñada para el cuidado de la piel con tendencia atópica, sensible y reactiva.",
+    "🛡️ Formulada con ectoína, extracto de corteza de avellano y crema lamelar para apoyar la función barrera de la piel.",
+    "🌿 Ayuda a aliviar el picor y a reducir la sensación de incomodidad cutánea en piel irritada.",
+    "👨‍👩‍👧 Apta para adultos, niños y bebés, indicada para el cuidado diario de piel delicada.",
+    "🇪🇺 Dispositivo médico desarrollado por Heel y fabricado bajo estándares europeos de calidad."
+   ],
+   "themes": [
+    "skora_atopowa",
+    "swiad",
+    "bariera",
+    "dla_dzieci",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "skora_atopowa": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ],
+    "bariera": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T"
+    ],
+    "swiad": [
+     "T",
+     "BP"
+    ]
+   },
+   "price": 7.99,
+   "rating": 4.5,
+   "reviews": 369,
+   "rev30": 5219,
    "archival": false
   }
  ],
@@ -637,8 +686,16 @@
    "label": "Dla dzieci / niemowląt"
   },
   {
+   "key": "hipoalergiczny",
+   "label": "Hipoalergiczny"
+  },
+  {
    "key": "dermatologiczny",
    "label": "Dermatologicznie testowany"
+  },
+  {
+   "key": "bez_dodatkow",
+   "label": "Bez parabenów / SLS"
   },
   {
    "key": "naturalny",
@@ -659,34 +716,46 @@
  ],
  "adoption": [
   {
-   "key": "nawilzenie",
-   "label": "Nawilżenie",
-   "count": 9,
-   "pct": 75
-  },
-  {
-   "key": "naturalny",
-   "label": "Naturalny / wegański",
-   "count": 8,
-   "pct": 67
-  },
-  {
-   "key": "bariera",
-   "label": "Odbudowa bariery",
-   "count": 7,
-   "pct": 58
-  },
-  {
    "key": "cena_pojemnosc",
    "label": "Ekonomiczny / duża pojemność",
+   "count": 10,
+   "pct": 83
+  },
+  {
+   "key": "nawilzenie",
+   "label": "Nawilżenie",
    "count": 7,
    "pct": 58
   },
   {
    "key": "kojacy",
    "label": "Kojący / łagodzący",
-   "count": 5,
-   "pct": 42
+   "count": 7,
+   "pct": 58
+  },
+  {
+   "key": "naturalny",
+   "label": "Naturalny / wegański",
+   "count": 7,
+   "pct": 58
+  },
+  {
+   "key": "skora_atopowa",
+   "label": "Skóra atopowa / egzema",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "swiad",
+   "label": "Redukcja świądu",
+   "count": 6,
+   "pct": 50
+  },
+  {
+   "key": "bariera",
+   "label": "Odbudowa bariery",
+   "count": 6,
+   "pct": 50
   },
   {
    "key": "dermatologiczny",
@@ -695,38 +764,38 @@
    "pct": 42
   },
   {
-   "key": "odzywczy",
-   "label": "Odżywczy / regenerujący",
-   "count": 5,
-   "pct": 42
-  },
-  {
-   "key": "skora_atopowa",
-   "label": "Skóra atopowa / egzema",
-   "count": 3,
-   "pct": 25
-  },
-  {
-   "key": "swiad",
-   "label": "Redukcja świądu",
-   "count": 3,
-   "pct": 25
+   "key": "bez_zapachu",
+   "label": "Bez zapachu / perfum",
+   "count": 4,
+   "pct": 33
   },
   {
    "key": "wchlanianie",
    "label": "Szybkie wchłanianie",
-   "count": 3,
-   "pct": 25
-  },
-  {
-   "key": "bez_zapachu",
-   "label": "Bez zapachu / perfum",
-   "count": 2,
-   "pct": 17
+   "count": 4,
+   "pct": 33
   },
   {
    "key": "dla_dzieci",
    "label": "Dla dzieci / niemowląt",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący",
+   "count": 3,
+   "pct": 25
+  },
+  {
+   "key": "hipoalergiczny",
+   "label": "Hipoalergiczny",
+   "count": 1,
+   "pct": 8
+  },
+  {
+   "key": "bez_dodatkow",
+   "label": "Bez parabenów / SLS",
    "count": 1,
    "pct": 8
   }
@@ -736,41 +805,46 @@
    "vocTopic": "Za gęsty i tłusty",
    "vocPct": 26.0,
    "theme": "Szybkie wchłanianie",
-   "addressed": 3,
+   "addressed": 4,
    "total": 12,
-   "pct": 25,
-   "sev": "MED",
+   "pct": 33,
+   "sev": "LOW",
    "brands": [
     "Weleda",
     "HNYGS-EU",
-    "CeraVe"
+    "CeraVe",
+    "Rilastil"
    ]
   },
   {
    "vocTopic": "Nieprzyjemny zapach",
    "vocPct": 18.0,
    "theme": "Bez zapachu / perfum",
-   "addressed": 2,
+   "addressed": 4,
    "total": 12,
-   "pct": 17,
-   "sev": "MED",
+   "pct": 33,
+   "sev": "LOW",
    "brands": [
     "CeraVe",
-    "BEPANTHOL"
+    "BEPANTHOL",
+    "Uriage",
+    "Rilastil"
    ]
   },
   {
    "vocTopic": "Brak ulgi / pogorszenie skóry atopowej",
    "vocPct": 17.0,
    "theme": "Skóra atopowa / egzema",
-   "addressed": 3,
+   "addressed": 6,
    "total": 12,
-   "pct": 25,
-   "sev": "MED",
+   "pct": 50,
+   "sev": "LOW",
    "brands": [
     "BEPANTOL DERMA",
     "HNYGS-EU",
-    "Green Cornerss Care"
+    "Green Cornerss Care",
+    "Uriage",
+    "Rilastil"
    ]
   },
   {
@@ -787,80 +861,87 @@
    "vocTopic": "Mylący rozmiar / cena / reklama",
    "vocPct": 13.0,
    "theme": "Ekonomiczny / duża pojemność",
-   "addressed": 7,
+   "addressed": 10,
    "total": 12,
-   "pct": 58,
+   "pct": 83,
    "sev": "LOW",
    "brands": [
-    "Neutrogena",
     "BEPANTOL DERMA",
     "TALQUISTINA",
     "Weleda",
-    "CeraVe"
+    "CeraVe",
+    "Green Cornerss Care"
    ]
   },
   {
    "vocTopic": "Wątpliwy lub agresywny skład",
    "vocPct": 10.0,
    "theme": "Bez parabenów / SLS",
-   "addressed": 0,
+   "addressed": 1,
    "total": 12,
-   "pct": 0,
-   "sev": "HIGH",
-   "brands": []
+   "pct": 8,
+   "sev": "MED",
+   "brands": [
+    "Uriage"
+   ]
   }
  ],
  "whitespace": [
   {
-   "label": "Skóra atopowa / egzema",
-   "pct": 25,
-   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Redukcja świądu",
-   "pct": 25,
-   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Szybkie wchłanianie",
-   "pct": 25,
-   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
-   "label": "Bez zapachu / perfum",
-   "pct": 17,
-   "why": "Tylko 2/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
-  },
-  {
    "label": "Dla dzieci / niemowląt",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Odżywczy / regenerujący",
+   "pct": 25,
+   "why": "Tylko 3/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Hipoalergiczny",
+   "pct": 8,
+   "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Bez parabenów / SLS",
    "pct": 8,
    "why": "Tylko 1/12 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   }
  ],
  "saturation": [
   {
-   "label": "Nawilżenie",
-   "pct": 75,
+   "label": "Ekonomiczny / duża pojemność",
+   "pct": 83,
    "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
   },
   {
-   "label": "Naturalny / wegański",
-   "pct": 67,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Odbudowa bariery",
-   "pct": 58,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Ekonomiczny / duża pojemność",
+   "label": "Nawilżenie",
    "pct": 58,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Kojący / łagodzący",
-   "pct": 42,
+   "pct": 58,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Naturalny / wegański",
+   "pct": 58,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Skóra atopowa / egzema",
+   "pct": 50,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Redukcja świądu",
+   "pct": 50,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
+  },
+  {
+   "label": "Odbudowa bariery",
+   "pct": 50,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
@@ -869,32 +950,32 @@
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Odżywczy / regenerujący",
-   "pct": 42,
+   "label": "Bez zapachu / perfum",
+   "pct": 33,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Skóra atopowa / egzema",
-   "pct": 25,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
-  },
-  {
-   "label": "Redukcja świądu",
-   "pct": 25,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
-  },
-  {
    "label": "Szybkie wchłanianie",
-   "pct": 25,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
-  },
-  {
-   "label": "Bez zapachu / perfum",
-   "pct": 17,
-   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+   "pct": 33,
+   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Dla dzieci / niemowląt",
+   "pct": 25,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Odżywczy / regenerujący",
+   "pct": 25,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Hipoalergiczny",
+   "pct": 8,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Bez parabenów / SLS",
    "pct": 8,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   }
@@ -902,17 +983,17 @@
  "recs": [
   {
    "type": "Messaging",
-   "finding": "Negatywy VOC dotyczą: Problemy z opakowaniem i plombą, Wątpliwy lub agresywny skład — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
+   "finding": "Negatywy VOC dotyczą: Problemy z opakowaniem i plombą — a żaden czołowy konkurent nie adresuje tego w tytule/bulletach.",
    "impl": "Zaadresuj te obawy wprost w tytule i bulletach — natychmiastowa przewaga komunikacyjna."
   },
   {
    "type": "Pozycjonowanie",
-   "finding": "Nisko wysycone claimy: Skóra atopowa / egzema, Redukcja świądu, Szybkie wchłanianie, Bez zapachu / perfum.",
+   "finding": "Nisko wysycone claimy: Dla dzieci / niemowląt, Odżywczy / regenerujący, Hipoalergiczny, Bez parabenów / SLS.",
    "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
   },
   {
    "type": "Produkt",
-   "finding": "Nasycone (obowiązkowe) claimy: Nawilżenie.",
+   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność.",
    "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]

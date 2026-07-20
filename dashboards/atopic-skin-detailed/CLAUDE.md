@@ -74,6 +74,47 @@ tab bar — same shape as the anti-fungus dashboard. The tab bar (`.ad-tabs`) is
 sticky below it. `extract_topline()` strips the topline's own `<header>` so Tab 1
 does not show a second header.
 
+## 2026-07-20 — the combined master is now ACTUALLY used (it wasn't)
+
+The round-trip below was designed correctly but **never executed**. `_split_master_xray.py`
+matched the master by exact filename, while Google Sheets downloads it with the tab name
+appended (`Atopic-Skin-Detailed-ALL-markets - Atopic-Skin-Detailed-ALL-markets.csv`). The
+lookup missed, the split printed `master not found`, and the build fell through to the
+stale per-country files **without failing**. Everything shipped from those files instead.
+
+Fixed in `_split_master_xray.py`:
+- **glob** for `Atopic-Skin-Detailed-ALL-markets*.csv` (ignores `.bak`), so the Sheets
+  download filename works untouched
+- **per-line encoding fallback** (UTF-8 -> cp1252): the master is genuinely mixed — older
+  rows are cp1252/mojibake, newly appended rows clean UTF-8. A plain UTF-8 read raises.
+- **dedupe by ASIN** within a marketplace, first occurrence wins (DE had `B00V4PHBO8` twice)
+- **UK added to `CODES`**; markets absent from the master leave their per-country file
+  untouched and say so in the log
+- **missing master = hard error**, never a silent fallback
+
+**The per-country files are derived artefacts — never hand-edit them.** The next build
+overwrites them from the master. That is exactly how the drift happened: DE/UK were edited
+per-country while the master moved separately.
+
+What changed on first real split (per-country files had been stale):
+| Market | Before | After | Note |
+|---|---|---|---|
+| DE | 145 | 144 | dup `B00V4PHBO8` dropped; `B0BDDNK31J` (bedrop Propolis, Cream) absent from master -> Cream 106 -> 105 |
+| ES | 196 | 127 | 52 of the removed are `Check`/`Other` (never rendered); 25 segments reclassified, master is the newer call (shower oils `Wash` -> `Oil`) |
+| FR / IT | 166 / 233 | unchanged | identical |
+| UK | 103 | untouched | **not in the master** — still the one market outside the single source of truth |
+
+DE segment totals after the split (30d x 12): Cream 105 ASIN / 1 095 000 szt / EUR 16.5M ·
+Wash 14 / 82 152 / EUR 0.68M · Oil 25 / 67 896 / EUR 1.09M.
+
+**UK stays out of the master — Tom's decision, 2026-07-20.** UK (103 ASINs) keeps living in
+`data/x-ray/UK/Dermo-Products-UK.csv` and is the one hand-maintained per-country file. The
+split detects its absence, leaves the file alone, and logs it every run. So "the combined
+master is the single source of truth" holds for **DE / FR / IT / ES**; UK is the deliberate
+exception. If UK is ever added to the master (`Marketplace = UK`), the split picks it up
+automatically and starts overwriting that file — no code change needed, but any hand edits
+made in the meantime would be lost.
+
 ## X-Ray: single source of truth (combined master)
 
 The editable master is **`data/x-ray/Atopic-Skin-Detailed-ALL-markets.csv`** (873
