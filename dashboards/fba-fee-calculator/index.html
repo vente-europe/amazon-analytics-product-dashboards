@@ -88,6 +88,13 @@
   }
 
   .market-select select:focus { border-color: var(--accent); }
+  .lp-suggest { margin-top: 8px; padding: 8px 10px; border-radius: 6px; line-height: 1.5; }
+  .lp-suggest.ok { background: #ecfdf5; border: 1px solid #6ee7b7; color: #065f46; }
+  .lp-suggest.no { background: #f8fafc; border: 1px solid #cbd5e1; color: #475569; }
+  .lp-suggest.warn-box { background: #fff7ed; border: 1px solid #fdba74; color: #9a3412; }
+  .lp-btn { margin-left: 8px; padding: 3px 10px; border: 1px solid #059669; background: #059669;
+            color: #fff; border-radius: 5px; font-size: 12px; cursor: pointer; }
+  .lp-btn:hover { background: #047857; }
 
   .program-toggle .toggle-group { min-width: 200px; }
 
@@ -687,6 +694,13 @@
         <button id="progLowprice" onclick="setProgram('lowprice')">Niskocenowy</button>
       </div>
     </div>
+    <div class="market-select" id="lpCategoryField" style="display:none;">
+      <label for="lpCategory">Kategoria (limit Low-Price)</label>
+      <select id="lpCategory" onchange="calc()">
+        <option value="general" selected>Ogólna — limit €20 / £20</option>
+        <option value="restricted">Uroda, zdrowie, higiena · spożywcze · książki · biuro · kuchnia · B2B — limit €12 / £11</option>
+      </select>
+    </div>
   </div>
 
   <div class="presets">
@@ -1110,6 +1124,15 @@ const MARKET_META = {
 };
 // Low-Price eligibility price cap (incl. VAT per Amazon) — general categories.
 const EU_LOWPRICE_CAP = { UK:20, DE:20, FR:20, IT:20, ES:20 };
+// UWAGA (rate card str. 5): wybrane kategorie maja NIZSZY prog kwalifikacji —
+// Uroda/Zdrowie/Higiena; B2B/przemysl/nauka; biuro; spozywcze i delikatesy; ksiazki;
+// akcesoria do urzadzen Amazon; kuchnia. Dla nich limit to 11 GBP / 12 EUR.
+const EU_LOWPRICE_CAP_RESTRICTED = { UK:11, DE:12, FR:12, IT:12, ES:12 };
+function lowPriceCap(){
+  const sel = document.getElementById('lpCategory');
+  const restricted = sel && sel.value === 'restricted';
+  return (restricted ? EU_LOWPRICE_CAP_RESTRICTED : EU_LOWPRICE_CAP)[currentMarket];
+}
 // Standard VAT rates (%). Reduced rates apply to some categories (food/books/health) — field is editable.
 const EU_VAT = { DE:19, FR:20, IT:22, ES:21, UK:20 };
 
@@ -1887,9 +1910,41 @@ function computeEuFba(dimL, dimW, dimH, weight, price) {
   const fmtKg = (kg) => kg < 1 ? (kg * 1000).toFixed(0) + ' g' : kg.toFixed(2) + ' kg';
 
   let noteHTML = '';
+  const cap = lowPriceCap();
+  const catRestricted = document.getElementById('lpCategory') && document.getElementById('lpCategory').value === 'restricted';
+  const catLbl = catRestricted ? 'kategorie o obnizonym limicie' : 'kategorie ogólne';
   const capNote = currentProgram === 'lowprice'
-    ? `<div>Low-Price dotyczy produktów w cenie <strong>≤ ${sym}${EU_LOWPRICE_CAP[currentMarket]}</strong> z VAT (kategorie ogólne).</div>`
+    ? `<div>Low-Price dotyczy produktów w cenie <strong>≤ ${sym}${cap}</strong> z VAT (${catLbl}).</div>`
     : '';
+
+  // === Sugestia Low-Price ===
+  // Warunki kwalifikacji (rate card str. 5): cena BRUTTO (z VAT) <= limit kategorii
+  // ORAZ produkt miesci sie w zasiegu Low-Price (koperty lub Mala paczka <= 400 g).
+  // Liczymy obie taryfy i pokazujemy roznice; nie przelaczamy nic automatycznie.
+  const gross = v('grossPrice');
+  const lpRes = euFee(dimL, dimW, dimH, weight, currentMarket, 'lowprice');
+  const stdRes = euFee(dimL, dimW, dimH, weight, currentMarket, 'standard');
+  const lpAvailable = lpRes.tier !== 'oversize';
+  let lpHTML = '';
+
+  if (currentProgram === 'standard' && lpAvailable && stdRes.tier !== 'oversize') {
+    const save = stdRes.fee - lpRes.fee;
+    if (save > 0.001) {
+      if (gross !== null && gross > 0 && gross <= cap) {
+        lpHTML = `<div class="lp-suggest ok">💡 <strong>Kwalifikuje się do programu Niskocenowego</strong> (cena brutto ${sym}${gross.toFixed(2)} ≤ ${sym}${cap}).
+          Opłata FBA spadłaby z <strong>${sym}${stdRes.fee.toFixed(2)}</strong> do <strong>${sym}${lpRes.fee.toFixed(2)}</strong> — oszczędność <strong>${sym}${save.toFixed(2)}/szt.</strong>
+          <button type="button" class="lp-btn" onclick="setProgram('lowprice')">Przełącz na Niskocenowy</button></div>`;
+      } else if (gross !== null && gross > cap) {
+        lpHTML = `<div class="lp-suggest no">ℹ️ Program Niskocenowy dałby <strong>${sym}${lpRes.fee.toFixed(2)}</strong> zamiast ${sym}${stdRes.fee.toFixed(2)}
+          (−${sym}${save.toFixed(2)}/szt.), ale cena brutto ${sym}${gross.toFixed(2)} przekracza limit <strong>${sym}${cap}</strong> dla wybranej kategorii.</div>`;
+      }
+    }
+  } else if (currentProgram === 'lowprice' && gross !== null && gross > cap) {
+    lpHTML = `<div class="lp-suggest warn-box">⚠ Cena brutto ${sym}${gross.toFixed(2)} przekracza limit Low-Price <strong>${sym}${cap}</strong> dla wybranej kategorii —
+      te stawki najprawdopodobniej nie będą naliczone. Przełącz na Standard albo obniż cenę.</div>`;
+  } else if (currentProgram === 'lowprice' && !lpAvailable) {
+    lpHTML = `<div class="lp-suggest warn-box">⚠ Produkt wykracza poza zasięg Low-Price (maks. Mała paczka ≤ 400 g).</div>`;
+  }
 
   if (res.tier === 'oversize') {
     document.getElementById('detectedTier').textContent = 'PONADGABARYT';
@@ -1917,6 +1972,7 @@ function computeEuFba(dimL, dimW, dimH, weight, price) {
     noteHTML = driverNote + capNote;
   }
 
+  noteHTML += lpHTML;
   noteHTML += `<div style="margin-top:4px;">Uwaga: Amazon dolicza <strong>+1,5% dopłaty paliwowej i logistycznej</strong> do opłat za wysyłkę od 17 kwietnia 2026 — zweryfikuj z fakturą.</div>`;
   euNoteEl.innerHTML = noteHTML;
   euNoteEl.style.display = 'block';
@@ -1932,6 +1988,7 @@ function onMarketChange() {
 
   // Show/hide market-specific UI
   document.getElementById('programToggle').style.display = meta.eu ? 'block' : 'none';
+  document.getElementById('lpCategoryField').style.display = meta.eu ? 'block' : 'none';
   document.getElementById('priceTierField').style.display = meta.eu ? 'none' : 'block';
   document.getElementById('proximitySection').style.display = meta.eu ? 'none' : 'block';
   document.getElementById('euProximitySection').style.display = meta.eu ? 'block' : 'none';
