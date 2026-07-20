@@ -1,57 +1,44 @@
 {
- "totalCompetitors": 6,
+ "totalCompetitors": 9,
  "marketplace": "amazon.de",
- "avgClaims": 4.0,
+ "avgClaims": 3.8,
  "competitors": [
   {
-   "asin": "B0FJFD8HDX",
-   "brand": "Sebamed",
-   "title": "SEBAMED Frische Dusche 400 ml, Duschgel für empfindliche und strapazierte Haut, langanhaltendes Frischegefühl, versorgt die Haut mit Feuchtigkeit durch Aminosäuren und Allantoin, für Männer und Frauen",
-   "img": "https://m.media-amazon.com/images/I/41cd1yKwqFL.jpg",
+   "asin": "B0DJPBRNDF",
+   "brand": "La Roche-Posay",
+   "title": "La Roche-Posay Lipikar Gel Lavant, Hautberuhigendes, sanftes Duschgel für trockene, empfindliche Haut, Mit Niacinamid, Zur täglichen Reinigung",
+   "img": "https://m.media-amazon.com/images/I/61oDbV01DdL._SL1500_.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/41cd1yKwqFL.jpg",
-    "https://m.media-amazon.com/images/I/41MsfA9JX6L.jpg",
-    "https://m.media-amazon.com/images/I/41ieZ0893CL.jpg",
-    "https://m.media-amazon.com/images/I/51nDuHftpfL.jpg"
+    "https://m.media-amazon.com/images/I/61oDbV01DdL._SL1500_.jpg"
    ],
    "bullets": [
-    "ERFRISCHT, PFLEGT, FEUCHTIGKEITSSPENDEND: Das Duschgel hilft, die empfindliche Haut vor dem Austrocknen zu schützen und wirkt erfrischend sowie pflegend. Der Aktivkomplex mit hauteigenen Aminosäuren, Milchsäure und Allantoin versorgt die Haut mit Feuchtigkeit",
-    "PH 5,5 FÜR GESUNDE HAUT: Der pH-Wert 5,5 von sebamed stärkt die Funktion des natürlichen Hautschutzmantels auch gegen schädliche Umwelteinflüsse und trägt zur Gesunderhaltung der Haut bei",
-    "STABLISIERT DAS HAUTMIKROBIOM: Die Mikroorganismen der Haut leben in einem gut eingespielten ökologischen Gleichgewicht. Sebamed Produkte mit ihren schonenden Rezepturen, milden Inhaltsstoffen und dem pH-Wert 5,5 helfen, die Artenvielfalt und Vitalität dieses hauteigenen Ökosystems auf natürliche Weise zu erhalten und zu stabilisieren",
-    "QUALITÄT MADE IN GERMANY: Unsere Produkte werden in Deutschland entwickelt, getestet und hergestellt. Die Qualität ist durch ausgewählte Rohstoffe und kontrollierte Fertigungsprozesse garantiert. Sebamed Produkte sind in über 400 Studien dermatologisch-klinisch getestet",
-    "DERMATOLOGISCH-KLINISCH BESTÄTIGT: Sebamed Produkte helfen, den natürlichen Hautschutzmantel zu stabilisieren und die Haut widerstandsfähiger gegen Umweltreize zu machen. Die Verträglichkeit und Pflegewirkung sind dermatologisch-klinisch geprüft und bestätigt. Dadurch trägt diese Pflegeserie nachweislich dazu bei, das Risiko für Hautreaktionen spürbar zu vermindern",
-    "UNSER UMWELTVERSPRECHEN: 0 % Mikroplastik 0 % Silikone, Vegan"
+    "Hautberuhigendes Duschgel für die tägliche Reinigung unter der Dusche",
+    "Auch für Säuglinge und Kinder geeignet",
+    "Niacinamid: Wirkt hautberuhigend.",
+    "Karitébutter: Pflegt die Haut und macht sie weicher und geschmeidiger.",
+    "Die besonders milde Fomel von Lipikar Gel Lavant brennt nicht in den Augen und ist für die ganze Familie geeignet."
    ],
    "themes": [
-    "nawilzenie",
-    "dermatologiczny",
-    "naturalny",
-    "odzywczy",
+    "kojacy",
+    "dla_dzieci",
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dermatologiczny": [
-     "BP"
-    ],
-    "naturalny": [
-     "BP"
-    ],
-    "odzywczy": [
-     "BP"
-    ],
     "cena_pojemnosc": [
+     "BP"
+    ],
+    "kojacy": [
      "T",
      "BP"
     ],
-    "nawilzenie": [
-     "T",
+    "dla_dzieci": [
      "BP"
     ]
    },
-   "price": 3.77,
+   "price": 21.0,
    "rating": 4.8,
-   "reviews": 169,
-   "rev30": 18517,
+   "reviews": 3169,
+   "rev30": 12533,
    "archival": false
   },
   {
@@ -82,20 +69,20 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dla_dzieci": [
-     "T"
-    ],
-    "skora_atopowa": [
-     "T"
-    ],
     "bez_zapachu": [
      "BP"
     ],
     "cena_pojemnosc": [
      "T"
     ],
+    "skora_atopowa": [
+     "T"
+    ],
     "nawilzenie": [
      "BP"
+    ],
+    "dla_dzieci": [
+     "T"
     ]
    },
    "price": 10.83,
@@ -123,15 +110,15 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dla_dzieci": [
-     "BP"
-    ],
     "kojacy": [
      "T",
      "BP"
     ],
     "cena_pojemnosc": [
      "T",
+     "BP"
+    ],
+    "dla_dzieci": [
      "BP"
     ]
    },
@@ -169,20 +156,57 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
+    "cena_pojemnosc": [
+     "T"
+    ],
     "swiad": [
      "T"
     ],
     "odzywczy": [
      "BP"
-    ],
-    "cena_pojemnosc": [
-     "T"
     ]
    },
    "price": 13.18,
    "rating": 4.6,
    "reviews": 252,
    "rev30": 5380,
+   "archival": false
+  },
+  {
+   "asin": "B00V4PB09K",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay Lipikar Gel Lavant, Hautberuhigendes, sanftes Duschgel für trockene, empfindliche Haut, Mit Niacinamid, Zur täglichen Reinigung, 750 ml",
+   "img": "https://m.media-amazon.com/images/I/71rt-rM4JhL._SL1500_.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/71rt-rM4JhL._SL1500_.jpg"
+   ],
+   "bullets": [
+    "Sanftes Waschgel für die ganze Familie, das selbst empfindliche Haut am ganzen Körper bei der täglichen Reinigung beruhigt, schützt und ihren Wiederaufbau unterstützt. Auch für die empfindliche Haut/Kopfhaut von Babys geeignet.",
+    "Für die tägliche Reinigung unter der Dusche. Brennt nicht in den Augen und ist auch für Säuglinge/Kinder geeignet.",
+    "Haselnussgroße Menge auf die angefeuchtete Haut aufmassieren, gut abspülen. Kontakt mit Augen vermeiden."
+   ],
+   "themes": [
+    "kojacy",
+    "dla_dzieci",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ]
+   },
+   "price": 16.9,
+   "rating": 4.7,
+   "reviews": 1417,
+   "rev30": 2495,
    "archival": false
   },
   {
@@ -213,13 +237,13 @@
     "cena_pojemnosc"
    ],
    "themeSrc": {
-    "dla_dzieci": [
+    "cena_pojemnosc": [
      "T"
     ],
     "odzywczy": [
      "BP"
     ],
-    "cena_pojemnosc": [
+    "dla_dzieci": [
      "T"
     ]
    },
@@ -230,47 +254,132 @@
    "archival": false
   },
   {
-   "asin": "B00EXVBBTQ",
-   "brand": "InfectoPharm",
-   "title": "NEURODERM Mandelölbad, 200 ml – Medizinisches Badeöl für trockene Haut und zur Behandlung bei Neurodermitis, Schuppenflechte & Juckreiz | Hautberuhigender Badezusatz mit natürlichem Mandelöl",
-   "img": "https://m.media-amazon.com/images/I/714L7cdu+sL.jpg",
+   "asin": "B0F1G26TNK",
+   "brand": "La Roche-Posay",
+   "title": "La Roche-Posay Lipikar Gel Lavant, Hautberuhigendes, sanftes Duschgel für trockene, empfindliche Haut, Mit Niacinamid, Zur täglichen Reinigung",
+   "img": "https://m.media-amazon.com/images/I/71rG5xWZ6NL._SL1500_.jpg",
    "imgs": [
-    "https://m.media-amazon.com/images/I/714L7cdu+sL.jpg"
+    "https://m.media-amazon.com/images/I/71rG5xWZ6NL._SL1500_.jpg"
    ],
    "bullets": [
-    "NEURODERM MANDELÖLBAD: Das Ölbad wird angewendet zur unterstützenden Behandlung von Hauterkrankungen mit trockener, juckender Haut, z. B. bei Neurodermitis, Schuppenflechte, Fischschuppenkrankheit, Altershaut mit Juckreiz, Windelekzem und Waschekzem."
+    "Sanftes Waschgel für die ganze Familie, das selbst empfindliche Haut am ganzen Körper bei der täglichen Reinigung beruhigt, schützt und ihren Wiederaufbau unterstützt. Auch für die empfindliche Haut/Kopfhaut von Babys geeignet.",
+    "Für die tägliche Reinigung unter der Dusche. Brennt nicht in den Augen und ist auch für Säuglinge/Kinder geeignet.",
+    "Haselnussgroße Menge auf die angefeuchtete Haut aufmassieren, gut abspülen. Kontakt mit Augen vermeiden."
+   ],
+   "themes": [
+    "kojacy",
+    "dla_dzieci",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "cena_pojemnosc": [
+     "BP"
+    ],
+    "kojacy": [
+     "T",
+     "BP"
+    ],
+    "dla_dzieci": [
+     "BP"
+    ]
+   },
+   "price": 10.5,
+   "rating": 4.7,
+   "reviews": 184,
+   "rev30": 1956,
+   "archival": false
+  },
+  {
+   "asin": "B00J3Y9YZG",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay Rückfettendes Duschgel für extrem trockene, zu Neurodermitis neigende Haut, Auch für Babys und Kinder, Mit Niacinamid und Aqua Posae Filiformis, Lipikar Syndet AP+, 200 ml",
+   "img": "https://m.media-amazon.com/images/I/61hUOxl3uaL._SL1500_.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61hUOxl3uaL._SL1500_.jpg"
+   ],
+   "bullets": [
+    "Pflegende Duschcreme",
+    "La Roche Posay Lipikar Syndet SYNDET AP+ Duschcreme 200 ml",
+    "La Roche Posay"
+   ],
+   "themes": [
+    "skora_atopowa",
+    "dla_dzieci",
+    "odzywczy",
+    "cena_pojemnosc"
+   ],
+   "themeSrc": {
+    "odzywczy": [
+     "BP"
+    ],
+    "cena_pojemnosc": [
+     "T",
+     "BP"
+    ],
+    "skora_atopowa": [
+     "T"
+    ],
+    "dla_dzieci": [
+     "T"
+    ]
+   },
+   "price": 13.39,
+   "rating": 4.7,
+   "reviews": 204,
+   "rev30": 1783,
+   "archival": false
+  },
+  {
+   "asin": "B08M5DXF9Z",
+   "brand": "La Roche-Posay",
+   "title": "La Roche Posay Lipikar Syndet AP+ Rückfettendes Duschgel für extrem trockene, zu Neurodermitis neigende Haut, Auch für Babys und Kinder, Mit Niacinamid und Aqua Posae Filiformis, Nachfüllpack 400 ml",
+   "img": "https://m.media-amazon.com/images/I/61QEXc5qTOL._SL1500_.jpg",
+   "imgs": [
+    "https://m.media-amazon.com/images/I/61QEXc5qTOL._SL1500_.jpg"
+   ],
+   "bullets": [
+    "Angereichert mit Niacinamid und dem Wirkstoff Aqua Posae Filiformis lindert LIPIKAR Syndet AP+ den Juckreiz bereits unter der Dusche. Die in der Formulierung enthaltene Sheabutter pflegt empfindliche Haut zusätzlich. Die rückfettende Eigenschaft wirkt hautberuhigend und juckreizlindernd.",
+    "Die Duschcreme ohne Duftstoffe und Seife mildert Juckreiz und akute Trockenheit schon beim Duschen. Die Haut wird beruhigt und fühlt sich geschmeidig und gesund an.",
+    "Das Nachfüllpack in die leere Duschgel-Flasche (400 ml) umfüllen. Eine haselnussgroße Menge auf der angefeuchteten Haut verteilen. Sanft einmassieren und gut abspülen. Nach der Reinigung eignet sich der Körperbalsam LIPIKAR Baume AP+M als ergänzende Pflege. Für Säuglinge, Kinder und Erwachsene."
    ],
    "themes": [
     "skora_atopowa",
     "kojacy",
     "swiad",
-    "naturalny",
+    "bez_zapachu",
+    "dla_dzieci",
+    "odzywczy",
     "cena_pojemnosc"
    ],
    "themeSrc": {
     "swiad": [
-     "T",
+     "BP"
+    ],
+    "bez_zapachu": [
      "BP"
     ],
     "skora_atopowa": [
-     "T",
-     "BP"
+     "T"
     ],
     "kojacy": [
-     "T"
+     "BP"
     ],
-    "naturalny": [
-     "T"
+    "odzywczy": [
+     "BP"
     ],
     "cena_pojemnosc": [
      "T",
      "BP"
+    ],
+    "dla_dzieci": [
+     "T",
+     "BP"
     ]
    },
-   "price": 11.56,
-   "rating": 4.7,
-   "reviews": 339,
-   "rev30": 28,
+   "price": 13.22,
+   "rating": 4.6,
+   "reviews": 506,
+   "rev30": 1244,
    "archival": false
   }
  ],
@@ -300,14 +409,6 @@
    "label": "Dla dzieci / niemowląt"
   },
   {
-   "key": "dermatologiczny",
-   "label": "Dermatologicznie testowany"
-  },
-  {
-   "key": "naturalny",
-   "label": "Naturalny / wegański"
-  },
-  {
    "key": "odzywczy",
    "label": "Odżywczy / regenerujący"
   },
@@ -320,129 +421,121 @@
   {
    "key": "cena_pojemnosc",
    "label": "Ekonomiczny / duża pojemność",
-   "count": 6,
+   "count": 9,
    "pct": 100
   },
   {
    "key": "dla_dzieci",
    "label": "Dla dzieci / niemowląt",
-   "count": 3,
-   "pct": 50
-  },
-  {
-   "key": "odzywczy",
-   "label": "Odżywczy / regenerujący",
-   "count": 3,
-   "pct": 50
-  },
-  {
-   "key": "nawilzenie",
-   "label": "Nawilżenie",
-   "count": 2,
-   "pct": 33
-  },
-  {
-   "key": "skora_atopowa",
-   "label": "Skóra atopowa / egzema",
-   "count": 2,
-   "pct": 33
+   "count": 8,
+   "pct": 89
   },
   {
    "key": "kojacy",
    "label": "Kojący / łagodzący",
-   "count": 2,
+   "count": 5,
+   "pct": 56
+  },
+  {
+   "key": "odzywczy",
+   "label": "Odżywczy / regenerujący",
+   "count": 4,
+   "pct": 44
+  },
+  {
+   "key": "skora_atopowa",
+   "label": "Skóra atopowa / egzema",
+   "count": 3,
    "pct": 33
   },
   {
    "key": "swiad",
    "label": "Redukcja świądu",
    "count": 2,
-   "pct": 33
-  },
-  {
-   "key": "naturalny",
-   "label": "Naturalny / wegański",
-   "count": 2,
-   "pct": 33
+   "pct": 22
   },
   {
    "key": "bez_zapachu",
    "label": "Bez zapachu / perfum",
-   "count": 1,
-   "pct": 17
+   "count": 2,
+   "pct": 22
   },
   {
-   "key": "dermatologiczny",
-   "label": "Dermatologicznie testowany",
+   "key": "nawilzenie",
+   "label": "Nawilżenie",
    "count": 1,
-   "pct": 17
+   "pct": 11
   }
  ],
  "vocGap": [
   {
-   "vocTopic": "Wypryski i trądzik",
-   "vocPct": 26.0,
+   "vocTopic": "Podrażnienia, świąd i pieczenie oczu",
+   "vocPct": 15.8,
+   "theme": "Kojący / łagodzący",
+   "addressed": 5,
+   "total": 9,
+   "pct": 56,
+   "sev": "LOW",
+   "brands": [
+    "La Roche-Posay"
+   ]
+  },
+  {
+   "vocTopic": "Uszkodzone opakowanie, wyciek i zepsuty dozownik",
+   "vocPct": 15.0,
    "theme": "",
    "addressed": 0,
-   "total": 6,
+   "total": 9,
    "pct": 0,
    "sev": "OUT_OF_SCOPE",
    "brands": []
   },
   {
-   "vocTopic": "Wysuszenie zamiast nawilżenia",
-   "vocPct": 22.0,
+   "vocTopic": "Wysusza i ściąga zamiast nawilżać",
+   "vocPct": 13.3,
    "theme": "Nawilżenie",
-   "addressed": 2,
-   "total": 6,
-   "pct": 33,
-   "sev": "LOW",
-   "brands": [
-    "Sebamed",
-    "CeraVe"
-   ]
-  },
-  {
-   "vocTopic": "Zbyt intensywny zapach",
-   "vocPct": 20.0,
-   "theme": "Bez zapachu / perfum",
    "addressed": 1,
-   "total": 6,
-   "pct": 17,
+   "total": 9,
+   "pct": 11,
    "sev": "MED",
    "brands": [
     "CeraVe"
    ]
   },
   {
-   "vocTopic": "Reakcje skórne i podrażnienia",
-   "vocPct": 14.0,
-   "theme": "Skóra atopowa / egzema",
+   "vocTopic": "Zapach zbyt intensywny albo nieprzyjemny",
+   "vocPct": 11.7,
+   "theme": "Bez zapachu / perfum",
    "addressed": 2,
-   "total": 6,
-   "pct": 33,
-   "sev": "LOW",
+   "total": 9,
+   "pct": 22,
+   "sev": "MED",
    "brands": [
     "CeraVe",
-    "InfectoPharm"
+    "La Roche-Posay"
    ]
   },
   {
-   "vocTopic": "Nie olejek, tylko pieniący żel",
-   "vocPct": 10.0,
-   "theme": "",
-   "addressed": 0,
-   "total": 6,
-   "pct": 0,
-   "sev": "OUT_OF_SCOPE",
-   "brands": []
+   "vocTopic": "Cena i pojemność bez pokrycia",
+   "vocPct": 8.3,
+   "theme": "Ekonomiczny / duża pojemność",
+   "addressed": 9,
+   "total": 9,
+   "pct": 100,
+   "sev": "LOW",
+   "brands": [
+    "La Roche-Posay",
+    "CeraVe",
+    "Cetaphil",
+    "EUBOS"
+   ]
   },
   {
-   "vocTopic": "Problemy z wysyłką i opakowaniem",
-   "vocPct": 8.0,
+   "vocTopic": "Za mało piany, zbyt wodnista konsystencja",
+   "vocPct": 5.8,
    "theme": "",
    "addressed": 0,
-   "total": 6,
+   "total": 9,
    "pct": 0,
    "sev": "OUT_OF_SCOPE",
    "brands": []
@@ -450,14 +543,19 @@
  ],
  "whitespace": [
   {
-   "label": "Bez zapachu / perfum",
-   "pct": 17,
-   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "label": "Redukcja świądu",
+   "pct": 22,
+   "why": "Tylko 2/9 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   },
   {
-   "label": "Dermatologicznie testowany",
-   "pct": 17,
-   "why": "Tylko 1/6 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+   "label": "Bez zapachu / perfum",
+   "pct": 22,
+   "why": "Tylko 2/9 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
+  },
+  {
+   "label": "Nawilżenie",
+   "pct": 11,
+   "why": "Tylko 1/9 konkurentów komunikuje ten claim — przestrzeń do wyróżnienia."
   }
  ],
  "saturation": [
@@ -468,17 +566,17 @@
   },
   {
    "label": "Dla dzieci / niemowląt",
-   "pct": 50,
+   "pct": 89,
+   "advice": "Claim obowiązkowy (≥70%) — musisz go mieć; wyróżnij się dowodem/konkretem."
+  },
+  {
+   "label": "Kojący / łagodzący",
+   "pct": 56,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
    "label": "Odżywczy / regenerujący",
-   "pct": 50,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Nawilżenie",
-   "pct": 33,
+   "pct": 44,
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
@@ -487,40 +585,30 @@
    "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
   },
   {
-   "label": "Kojący / łagodzący",
-   "pct": 33,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
    "label": "Redukcja świądu",
-   "pct": 33,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Naturalny / wegański",
-   "pct": 33,
-   "advice": "Wysycenie średnie — komunikuj z konkretem (składnik, badanie), nie ogólnikiem."
-  },
-  {
-   "label": "Bez zapachu / perfum",
-   "pct": 17,
+   "pct": 22,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   },
   {
-   "label": "Dermatologicznie testowany",
-   "pct": 17,
+   "label": "Bez zapachu / perfum",
+   "pct": 22,
+   "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
+  },
+  {
+   "label": "Nawilżenie",
+   "pct": 11,
    "advice": "Biała plama (<30%) — okazja do wyróżnienia, jeśli produkt to spełnia."
   }
  ],
  "recs": [
   {
    "type": "Pozycjonowanie",
-   "finding": "Nisko wysycone claimy: Bez zapachu / perfum, Dermatologicznie testowany.",
+   "finding": "Nisko wysycone claimy: Redukcja świądu, Bez zapachu / perfum, Nawilżenie.",
    "impl": "Jeśli produkt spełnia te cechy — wyeksponuj je; konkurencja tego nie robi."
   },
   {
    "type": "Produkt",
-   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność.",
+   "finding": "Nasycone (obowiązkowe) claimy: Ekonomiczny / duża pojemność, Dla dzieci / niemowląt.",
    "impl": "To parytet kategorii — musisz je mieć, ale wyróżnij się dowodem, nie samą obecnością."
   }
  ]

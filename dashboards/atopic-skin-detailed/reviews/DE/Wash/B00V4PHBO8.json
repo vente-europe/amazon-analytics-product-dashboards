@@ -1,170 +1,842 @@
 [
-  {
-    "title": "Kırık",
-    "date": "Bewertet in der Türkei am 17. Dezember 2025",
-    "rating": 1,
-    "review": "Kapağı hem kırık hem de kırık parça içindeyok, yani bu şekilde gönderilmiş, koyan arkadaş bakmadı mı hiç? Diğer ürünler sağlamken bu duş jeli böyle! Onun dışında ürün çok güzel"
-  },
-  {
-    "title": "Beware: Highly Scented",
-    "date": "Bewertet in Kanada am 25. Mai 2026",
-    "rating": 1,
-    "review": "BEWARE:  This product is  highly scented. The artificial scent lingers long after rinsing fully.  I did not expect this from Laroche-Posay.  Unusable to me."
-  },
-  {
-    "title": "non mi piace il profumo",
-    "date": "Bewertet in Italien am 8. Mai 2026",
-    "rating": 1,
-    "review": "il profumo mi sembra troppo intenso, simile al dopobarba. non è dotato di scatola propria e non è in un sacchetto"
-  },
-  {
-    "title": "Gel de ducha",
-    "date": "Bewertet in Spanien am 27. Juni 2026",
-    "rating": 1,
-    "review": "La calidad del producto es excelente.. pero el dosificador llegó roto."
-  },
-  {
-    "title": "No lo veo adecuado para niños",
-    "date": "Bewertet in Spanien am 1. Mai 2026",
-    "rating": 1,
-    "review": "Lo compré para mi hija de 4años con piel atopica  y no le funcionó lastimosamente, le causó irritación a su piel y eczemas lo tendremos que gastar mi marido y yo"
-  },
-  {
-    "title": "No merece la pena.",
-    "date": "Bewertet in Spanien am 2. April 2026",
-    "rating": 1,
-    "review": "Caro para lo que es. No merece la pena."
-  },
-  {
-    "title": "Mal",
-    "date": "Bewertet in Spanien am 16. Februar 2026",
-    "rating": 1,
-    "review": "Viene roto el dosificador, no trae la parte de arriba, falta"
-  },
-  {
-    "title": "Estoy decepcionado con el estado en que llegó mi paquete.",
-    "date": "Bewertet in Spanien am 4. November 2025",
-    "rating": 1,
-    "review": "Este paquete llegó muy dañado y ya no se puede usar. El cartón de leche contiene gel de ducha, pero la leche ya no se puede consumir porque el envase del gel de ducha estaba roto."
-  },
-  {
-    "title": "Perplessa",
-    "date": "Bewertet in Italien am 24. November 2025",
-    "rating": 1,
-    "review": "Lo avrei ricomprato ma nel giro di una settimana aumentato del 40%."
-  },
-  {
-    "title": "Uffa",
-    "date": "Bewertet in Italien am 5. November 2025",
-    "rating": 1,
-    "review": "È arrivato senza il beccuccio dispenser"
-  },
-  {
-    "title": "Información falsa",
-    "date": "Bewertet in Spanien am 10. Januar 2026",
-    "rating": 1,
-    "review": "Publicidad engañosa. Lleva perfume."
-  },
-  {
-    "title": "Confezione inutilizzabile e danneggiata",
-    "date": "Bewertet in Italien am 11. Juli 2025",
-    "rating": 1,
-    "review": "Il prodotto è arrivato danneggiato senza il dosatore. Inutilizzabile in questo modo."
-  },
-  {
-    "title": "Way Too Expensive",
-    "date": "Bewertet in Kanada am 4. August 2023",
-    "rating": 1,
-    "review": "I like the product however I paid $3.00 more for the 750ml than what I just received which is only 400 ml"
-  },
-  {
-    "title": "Poca espuma y limpia regular",
-    "date": "Bewertet in Spanien am 4. Mai 2025",
-    "rating": 1,
-    "review": "No me gusta! Nada de espuma y limpia regular para mi gusto."
-  },
-  {
-    "title": "Not fragrance free",
-    "date": "Bewertet in Kanada am 6. November 2022",
-    "rating": 1,
-    "review": "Too strong fragrance"
-  },
-  {
-    "title": "Tutto rovesciato",
-    "date": "Bewertet in Italien am 18. März 2025",
-    "rating": 1,
-    "review": "Scatola tutta rovesciata dal prodotto"
-  },
-  {
-    "title": "Damaged",
-    "date": "Bewertet in Kanada am 1. Dezember 2021",
-    "rating": 1,
-    "review": "Cant say what this product is like.  Was broken upon receipt"
-  },
-  {
-    "title": "Gel",
-    "date": "Bewertet in Italien am 10. Oktober 2019",
-    "rating": 1,
-    "review": "Arrivato senza sigillo.. aperto"
-  },
-  {
-    "title": "tolles Produkt",
-    "date": "Bewertet in Deutschland am 22. März 2026",
-    "rating": 5,
-    "review": "Ich benutze La Roche-Posay Lipikar Gel und bin zufrieden.Das Gel ist sehr mild und reinigt die Haut sanft, ohne sie auszutrocknen. Es eignet sich gut für empfindliche Haut und für die tägliche Anwendung.Ich kann es empfehlen"
-  },
-  {
-    "title": "Gutes Produkt guter Preis",
-    "date": "Bewertet in Deutschland am 27. Mai 2026",
-    "rating": 5,
-    "review": "Wenn man empfindliche Haut hat, ist das das beste Produkt. Was man sich kaufen kann, kann ich nur empfehlen zum duschen perfekt"
-  },
-  {
-    "title": "Top",
-    "date": "Bewertet in Deutschland am 21. April 2026",
-    "rating": 5,
-    "review": "Bin mit dem Duschgel sehr zufrieden .Toller Duft schäumt auch gut kein Trockenheitsgefühl.Was am meisten für mich zählt ist die Verträglichkeit.Habe sehr empfindliche Hypersensive Haut.Benutze daher auch viele Produkte von La.Ro.Po.mit gutem Ergebnis.Sehr zu empfehlen"
-  },
-  {
-    "title": "Sehr gut 👍",
-    "date": "Bewertet in Deutschland am 10. Juni 2026",
-    "rating": 5,
-    "review": "Sehr gutes Produkt"
-  },
-  {
-    "title": "Ok",
-    "date": "Bewertet in Deutschland am 7. Juni 2026",
-    "rating": 5,
-    "review": "Dieses Produkt eignet sich gut für zu Rötungen und Trockenheit neigende Haut."
-  },
-  {
-    "title": "Gel lavant",
-    "date": "Bewertet in Deutschland am 8. Mai 2026",
-    "rating": 4,
-    "review": "Leichtes Reinigungsgel. 👍"
-  },
-  {
-    "title": "Great",
-    "date": "Bewertet in Deutschland am 18. Januar 2026",
-    "rating": 5,
-    "review": "Perfect for sensitive skin if you don't like too many irritating chemicals. Some beneficial ingredients included, pleasant gentle scent, doesn't dry out the skin. My favorite shower gel at a reasonable price for this size."
-  },
-  {
-    "title": "Super Produkt",
-    "date": "Bewertet in Deutschland am 4. März 2026",
-    "rating": 5,
-    "review": "Super ergiebig, riecht sehr gut und angenehm auf der Haut"
-  },
-  {
-    "title": "Awesome thanks",
-    "date": "Bewertet in Deutschland am 13. Mai 2026",
-    "rating": 5,
-    "review": "Very true to what they say. Awesome product"
-  },
-  {
-    "title": "Sehr gut",
-    "date": "Bewertet in Deutschland am 13. Mai 2026",
-    "rating": 5,
-    "review": "Gefählt mir sehr"
-  }
+ {
+  "title": "La Roche Posay für den Körper ♥️",
+  "date": "2026-07-13",
+  "rating": 5.0,
+  "review": "Verwende es schon viele Jahre es fühlt sich sehr angehnem auf der Haut. Empfehle es zu 100% weiter."
+ },
+ {
+  "title": "Ok",
+  "date": "2026-06-07",
+  "rating": 5.0,
+  "review": "Dieses Produkt eignet sich gut für zu Rötungen und Trockenheit neigende Haut."
+ },
+ {
+  "title": "Sehr gut",
+  "date": "2026-05-13",
+  "rating": 5.0,
+  "review": "Gefählt mir sehr"
+ },
+ {
+  "title": "Gel lavant",
+  "date": "2026-05-08",
+  "rating": 4.0,
+  "review": "Leichtes Reinigungsgel. 👍"
+ },
+ {
+  "title": "Top",
+  "date": "2026-04-21",
+  "rating": 5.0,
+  "review": "Bin mit dem Duschgel sehr zufrieden .Toller Duft schäumt auch gut kein Trockenheitsgefühl. Was am meisten für mich zählt ist die Verträglichkeit.Habe sehr empfindliche Hypersensive Haut. Benutze daher auch viele Produkte von La.Ro.Po.mit gutem Ergebnis.Sehr zu empfehlen"
+ },
+ {
+  "title": "Duschgel für empfindliche Haut",
+  "date": "2026-04-11",
+  "rating": 5.0,
+  "review": "Angenehmes Duschgel für empfindliche Haut. Ich vertrage es sehr gut und nehme es täglich. Die Haut wird nicht ausgetrocknet."
+ },
+ {
+  "title": "Super Produkt",
+  "date": "2026-03-04",
+  "rating": 5.0,
+  "review": "Super ergiebig, riecht sehr gut und angenehm auf der Haut"
+ },
+ {
+  "title": "Very nice",
+  "date": "2026-02-25",
+  "rating": 5.0,
+  "review": "Good for sensitive skin"
+ },
+ {
+  "title": "Top Duschgel",
+  "date": "2026-01-20",
+  "rating": 5.0,
+  "review": "Super Duschgel"
+ },
+ {
+  "title": ".",
+  "date": "2026-01-20",
+  "rating": 5.0,
+  "review": "sehr gut"
+ },
+ {
+  "title": "Top",
+  "date": "2026-01-20",
+  "rating": 5.0,
+  "review": "Bestes Gel, sehr zufrieden"
+ },
+ {
+  "title": "Good",
+  "date": "2025-12-23",
+  "rating": 4.0,
+  "review": "Very good"
+ },
+ {
+  "title": "Hautverträglichkeit sehrgut",
+  "date": "2025-12-10",
+  "rating": 5.0,
+  "review": "Das Duschgel ist angenehm auf der Haut ! Sehr Günstiger Preis"
+ },
+ {
+  "title": "Nicht unparfümiert",
+  "date": "2025-11-12",
+  "rating": 3.0,
+  "review": "Ich wollte ein unparfümiertes Duschgel aber dieses ist es nicht."
+ },
+ {
+  "title": "Perfect",
+  "date": "2025-11-02",
+  "rating": 5.0,
+  "review": "Very good product, smell is very pleasant also."
+ },
+ {
+  "title": "Sehr schön",
+  "date": "2025-10-16",
+  "rating": 5.0,
+  "review": "Schön"
+ },
+ {
+  "title": "Schnelle Lieferung",
+  "date": "2025-10-10",
+  "rating": 5.0,
+  "review": "Gefällt meiner Frau"
+ },
+ {
+  "title": "Duschgel",
+  "date": "2025-07-24",
+  "rating": 5.0,
+  "review": "Sehr gutes PRODUKT wurde ich wieder kaufen"
+ },
+ {
+  "title": "Tolles Produkt",
+  "date": "2025-07-22",
+  "rating": 5.0,
+  "review": "Feines Gel mit elegantem Duft, sehr ausgiebig."
+ },
+ {
+  "title": "gutes Duschgel",
+  "date": "2025-07-14",
+  "rating": 5.0,
+  "review": "angenehmer Duft, gibt der Haut was sie braucht"
+ },
+ {
+  "title": "Top Reiniger",
+  "date": "2025-07-05",
+  "rating": 5.0,
+  "review": "Ich benutzte es schon seit längerem und bin sehr zufrieden mit der Reinigung."
+ },
+ {
+  "title": "Top",
+  "date": "2024-06-29",
+  "rating": 5.0,
+  "review": "Hilft mir meine Haut zu reinigen . Leichte Anwendung, gut verträglich. 👍🏽"
+ },
+ {
+  "title": "Orta",
+  "date": "2024-06-25",
+  "rating": 3.0,
+  "review": "Tavsiye edilebilir."
+ },
+ {
+  "title": ".",
+  "date": "2023-12-18",
+  "rating": 5.0,
+  "review": "Sehr zufrieden"
+ },
+ {
+  "title": "Benutzen",
+  "date": "2023-10-26",
+  "rating": 5.0,
+  "review": "Das beste Duschgel was ich kenne.....naja bin Baujahr 1971 hab schon das ein oder andere mal geduscht....aber davon bin ich wirklich überzeugt"
+ },
+ {
+  "title": "Macht gut sauber",
+  "date": "2023-07-05",
+  "rating": 5.0,
+  "review": "Ich liebe dieses Reinigungsgel. Es reinigt gründlich und macht ein angenehmes Hautgefühl."
+ },
+ {
+  "title": "Für (meine ) sensible Haut bestens geeignet !!",
+  "date": "2023-06-11",
+  "rating": 5.0,
+  "review": "Für (meine ) sensible Haut bestens geeignet ."
+ },
+ {
+  "title": "wie immer Alles Gut",
+  "date": "2023-05-06",
+  "rating": 5.0,
+  "review": "alles top"
+ },
+ {
+  "title": "Bin sehr zufrieden",
+  "date": "2023-02-21",
+  "rating": 5.0,
+  "review": "Es hat einen angenehmen Duft und die Haut danach fühlt sich sehr gut an."
+ },
+ {
+  "title": "Ok",
+  "date": "2022-10-17",
+  "rating": 5.0,
+  "review": "Ok"
+ },
+ {
+  "title": "Top gesichtsteiniger...",
+  "date": "2022-07-28",
+  "rating": 5.0,
+  "review": "Benutze es für das Gesicht, trocknet nicht aus, brennt nicht und bekommt allesgut runter."
+ },
+ {
+  "title": "Perfekt",
+  "date": "2022-03-04",
+  "rating": 5.0,
+  "review": "Gewohnte Qualität, gute preis"
+ },
+ {
+  "title": "Super!",
+  "date": "2021-11-19",
+  "rating": 5.0,
+  "review": "Super!"
+ },
+ {
+  "title": "It does a good job but the picture is inaccurate",
+  "date": "2021-06-16",
+  "rating": 4.0,
+  "review": "This is designed for the shower but the product uses a pump, which makes it very inconvenient. I bought it specifically because the photo shows a pop cap that would allow me to pour it into my hand. Overall, it does an adequate job but I don't think that value is there."
+ },
+ {
+  "title": "sehr gut",
+  "date": "2021-02-05",
+  "rating": 5.0,
+  "review": "schnelle Lieferung, top Produkt"
+ },
+ {
+  "title": "Super",
+  "date": "2020-12-19",
+  "rating": 4.0,
+  "review": "Ich reinige morgens und abends mein Gesicht mit dem Produkt und meine sensible und doch ölige Haut reagiert super auf das Gel. Reinigt sehr sanft und hinterlässt keine Hautirritationen. Ich bin zufrieden!"
+ },
+ {
+  "title": "Your sensitive skin will love this",
+  "date": "2020-09-15",
+  "rating": 5.0,
+  "review": "Your sensitive skin will love this, good for dry skin. Good product."
+ },
+ {
+  "title": "Wie erwartet gut!",
+  "date": "2019-03-08",
+  "rating": 5.0,
+  "review": "gut das sagt der Name schin"
+ },
+ {
+  "title": "Delusione totale",
+  "date": "2026-07-09",
+  "rating": 1.0,
+  "review": "Uno degli innumerevoli prodotti acquistati durante la gravidanza, dopo aver letto che non aveva un odore forte ed era delicato ( premetto che ogni prodotto profumato mi provocava una forte nausea ) delusa perché tutt’oggi non riesco ad utilizzarlo per via della profumazione che è tutt’altro che delicata e mi secca tantissimo la pelle. Peccato perché è un buon marchio oltre che costoso ."
+ },
+ {
+  "title": "No irrita",
+  "date": "2026-07-09",
+  "rating": 4.0,
+  "review": "Me gusta"
+ },
+ {
+  "title": "Detergente La Roche-Posay",
+  "date": "2026-07-09",
+  "rating": 5.0,
+  "review": "Ottimo detergente per il corpo, delicato che mantiene la ph naturale del corpo. Ne basta veramente poco."
+ },
+ {
+  "title": "Great product",
+  "date": "2026-07-09",
+  "rating": 5.0,
+  "review": "Great product"
+ },
+ {
+  "title": "Ottimo prodotto",
+  "date": "2026-07-09",
+  "rating": 5.0,
+  "review": "Non posso farne a meno. Consigliata da mia figlia, l'ho trovato da subito un perfetto alleato per la mia pulizia."
+ },
+ {
+  "title": "Ottimo",
+  "date": "2026-07-04",
+  "rating": 5.0,
+  "review": "Fantastico. Delicato ed efficace ad un prezzo onesto"
+ },
+ {
+  "title": "PERFETTO",
+  "date": "2026-07-03",
+  "rating": 5.0,
+  "review": "Lo uso da anni e mi trovo benissimo per eliminare il trucco. Io prima passo il latte detergente della stessa marca con un dischetto e poi mi lavo il viso. La pelle resta morbida. Amo questi prodotti e su Amazon li prendo a prezzo più conveniente rispetto ai negozi o farmacie"
+ },
+ {
+  "title": "Il non plus ultra",
+  "date": "2026-07-01",
+  "rating": 5.0,
+  "review": "L unico bagno doccia per cui sono disposto a spendere qualcosa in più.La fragranza è fresca e avvolgente, una cura per corpo e olfatto.Il marchio poi è una garanzia assoluta.Consigliatissimo"
+ },
+ {
+  "title": "Ottimo prodotto",
+  "date": "2026-06-30",
+  "rating": 5.0,
+  "review": "Deterge in modo delicato, lascia la pelle morbida. Ottimo prodotto. Ottimo rapporto qualità prezzo"
+ },
+ {
+  "title": "Ottimo detergente",
+  "date": "2026-06-27",
+  "rating": 5.0,
+  "review": "Per me un prodotto ottimo che va bene per tutta la famiglia e anche per chi ha la pelle più delicata."
+ },
+ {
+  "title": "Ottimo",
+  "date": "2026-06-25",
+  "rating": 4.0,
+  "review": "Un nome una garanzia ad un prezzo minore che in farmacia"
+ },
+ {
+  "title": "Qualità: il meglio, non delude mai",
+  "date": "2026-06-20",
+  "rating": 5.0,
+  "review": "La vita. Utilissimo per me che ho la pelle molto sensibile che sono passata dopo mesi a finalmente lavarmi in più col sapone delle mani, ma con.m questo buonissimo sapone. Mi trovo benissimo e subito dopo applico anche la cremine idratante. La boccetta è enorme, sicché è veramente dura tanto tempo"
+ },
+ {
+  "title": "Consigliato",
+  "date": "2026-06-18",
+  "rating": 5.0,
+  "review": "Comprato per lavare il viso, l’ho trovato un ottimo detergente per la pelle sensibile. Profumo gradevole"
+ },
+ {
+  "title": "Es un gran gel de baño",
+  "date": "2026-06-16",
+  "rating": 5.0,
+  "review": "Es el mejor gel que hemos usado en casa. Me gusta mucho el perfume leve que tiene y deja la piel suave. Válido para la cara. Producto de mucha calidad."
+ },
+ {
+  "title": "Buen producto",
+  "date": "2021-03-19",
+  "rating": 4.0,
+  "review": "Buen producto"
+ },
+ {
+  "title": "Buon detergente doccia, ma non per il viso",
+  "date": "2026-06-06",
+  "rating": 4.0,
+  "review": "Molto buono e ad un prezzo impossibile da trovare in farmacia..buon profumo, ottimo gel doccia ma eliminerei l’indicazione per viso e corpo in descrizione, sul viso lo trovo troppo aggressivo"
+ },
+ {
+  "title": "Ottimo",
+  "date": "2026-06-05",
+  "rating": 4.0,
+  "review": "Ottimo detergente per pelli sensibili e secche. Ha una consistenza piacevole, deterge delicatamente senza irritare e lascia la pelle morbida e ben idratata. Dopo l’utilizzo non avverto quella fastidiosa sensazione di pelle che tira, anzi la pelle rimane confortevole per molte ore. Il formato da 400 ml è pratico e dura a lungo. Un prodotto di qualità che consiglio a chi cerca un detergente efficace ma delicato per uso quotidiano."
+ },
+ {
+  "title": "Ottimo prodotto",
+  "date": "2026-05-31",
+  "rating": 5.0,
+  "review": "Lo utilizzo per lavare il viso, per la doccia e per lavare i capelli. Lascia la pelle e il cuoio capelluto morbidi e i capelli puliti"
+ },
+ {
+  "title": "Delicato, idratante e perfetto per uso quotidiano",
+  "date": "2026-05-29",
+  "rating": 5.0,
+  "review": "Ho acquistato questo detergente e devo dire che mi ha colpito molto positivamente. È un prodotto davvero delicato sulla pelle, ideale soprattutto per chi ha pelle sensibile o tende a seccarsi facilmente. Dopo l’utilizzo lascia una sensazione di pulito ma senza quella fastidiosa sensazione di pelle che tira. La texture è piacevole e basta una piccola quantità per detergere bene sia viso che corpo, quindi dura anche nel tempo. Quello che ho apprezzato di più è l’effetto idratante: già durante la doccia si percepisce che la pelle rimane più morbida e nutrita. Nel complesso è un prodotto di qualità, perfetto per un utilizzo quotidiano e adatto a tutta la famiglia."
+ },
+ {
+  "title": "Buonnoooo",
+  "date": "2026-05-26",
+  "rating": 5.0,
+  "review": "Top"
+ },
+ {
+  "title": "Beware: Highly Scented",
+  "date": "2026-05-25",
+  "rating": 1.0,
+  "review": "BEWARE: This product is highly scented. The artificial scent lingers long after rinsing fully. I did not expect this from Laroche-Posay. Unusable to me."
+ },
+ {
+  "title": "Detergente viso",
+  "date": "2026-05-24",
+  "rating": 5.0,
+  "review": "Sono ormai un’anno che lo uso ed è fantastico Deterge e lascia il viso morbido ed idratato Inoltre la manteca la roche è sempre una garanzia Ve lo consiglio ❤️"
+ },
+ {
+  "title": "Despite the product title and description, his does NOT come as a bundle with the refill",
+  "date": "2026-05-15",
+  "rating": 3.0,
+  "review": "Despite the product title and description, his does NOT come as a bundle with the refill. I like the body wash but annoyed it didn’t come with the refill."
+ },
+ {
+  "title": "non mi piace il profumo",
+  "date": "2026-05-08",
+  "rating": 1.0,
+  "review": "il profumo mi sembra troppo intenso, simile al dopobarba. non è dotato di scatola propria e non è in un sacchetto"
+ },
+ {
+  "title": "Kapak",
+  "date": "2026-04-25",
+  "rating": 4.0,
+  "review": "Daha önce de almıştım da bunun kapağının mavisi daha koyu sanki, umarım orjinaldir."
+ },
+ {
+  "title": "DELICATO, NON DELICATISSIMO!",
+  "date": "2026-04-09",
+  "rating": 4.0,
+  "review": "Premetto che ho la pelle molto delicata, che con un sapone normale tirerebbe per una settimana. Questo è abbastanza buono, come tutta la linea, ma non è che la senta grassa."
+ },
+ {
+  "title": "Molto buono",
+  "date": "2026-03-19",
+  "rating": 4.0,
+  "review": "Sto usando da un po’ e nel complesso mi sta piacendo davvero. Pulisce bene senza essere aggressivo e lascia la pelle morbida, senza quella sensazione fastidiosa di secchezza che mi è capitata con altri prodotti. Fa una schiuma leggera ma efficace, quindi ne basta poco ogni volta. La cosa che ho apprezzato di più è che non mi ha dato irritazioni, anche usandolo tutti i giorni. Ha anche un profumo molto delicato che non rimane troppo sulla pelle, cosa che per me è un punto a favore. Forse non è il prodotto più “forte” in assoluto, ma proprio per questo lo trovo adatto all’uso quotidiano, soprattutto se si ha la pelle un po’ sensibile. Nel complesso direi che è una scelta sicura e affidabile."
+ },
+ {
+  "title": "Buono",
+  "date": "2026-03-17",
+  "rating": 4.0,
+  "review": "Ottimo veramente, consiglio di usarne meno di un pump perché per pelle come la mia che tende ad arrossarsi facilmente e anche a seccarsi, troppo tende a peggiorare la situazione però lo sto usando come vi ho consigliato e sinceramente mi sento la pelle pulita e nutrita"
+ },
+ {
+  "title": "Pensavo meglio",
+  "date": "2026-03-15",
+  "rating": 3.0,
+  "review": "Buono,ma avendo pelle secca ,a me lascia cmq dopo il suo utilizzo sensazione di pelle che tira!Se hai la pelle particolarmente secca nn lo consiglio"
+ },
+ {
+  "title": "Detersione ideale per chi ha la pelle secca",
+  "date": "2026-03-07",
+  "rating": 4.0,
+  "review": "Buon prodotto per lavare il viso lascia la Pelle idratata e norbida"
+ },
+ {
+  "title": "Terrible!!!",
+  "date": "2026-01-22",
+  "rating": 1.0,
+  "review": "Recibí el producto con el dispensador roto y la botella muy maltratada y rallada (la porción faltante rota no viene en la caja, lo que indica que fue premeditadamente empaquetado roto)."
+ },
+ {
+  "title": "Sicuramente un ottimo prodotto ma non per me",
+  "date": "2026-01-20",
+  "rating": 3.0,
+  "review": "L'ho restituito"
+ },
+ {
+  "title": "A little overpriced",
+  "date": "2026-01-14",
+  "rating": 3.0,
+  "review": "It smells nice, looks nice but equals significantly cheaper alternative like Same."
+ },
+ {
+  "title": "Buono",
+  "date": "2025-12-24",
+  "rating": 3.0,
+  "review": "Ho usato dei migliori 50/50 fa il suo"
+ },
+ {
+  "title": "Buona ma con profumazione",
+  "date": "2025-12-19",
+  "rating": 3.0,
+  "review": "Va bene ma ha profumazione che solitamente non si trova su prodotti per pelli sensibili"
+ },
+ {
+  "title": "A bit thin",
+  "date": "2025-12-19",
+  "rating": 4.0,
+  "review": "I use this because it's very gentle, but I feel like the solution is a bit thin. It doesn't go very far."
+ },
+ {
+  "title": "Kırık",
+  "date": "2025-12-17",
+  "rating": 1.0,
+  "review": "Kapağı hem kırık hem de kırık parça içinde yok, yani bu şekilde gönderilmiş, koyan arkadaş bakmadı mı hiç? Diğer ürünler sağlamken bu duş jeli böyle! Onun dışında ürün çok güzel"
+ },
+ {
+  "title": "Buono",
+  "date": "2025-11-30",
+  "rating": 3.0,
+  "review": "Ottimo prodotto, facile da utilizzare e ha un buonissimo odore."
+ },
+ {
+  "title": "Perplessa",
+  "date": "2025-11-24",
+  "rating": 1.0,
+  "review": "Lo avrei ricomprato ma nel giro di una settimana aumentato del 40%."
+ },
+ {
+  "title": "Prodotto ottimo",
+  "date": "2025-11-12",
+  "rating": 2.0,
+  "review": "Peccato sia arrivato con il tappo rotto…."
+ },
+ {
+  "title": "Non soddisfatta",
+  "date": "2025-11-08",
+  "rating": 2.0,
+  "review": "Pelle idratata ed effetto anti secchezza nella descrizione.... Ma in realtà secca molto la pelle ...."
+ },
+ {
+  "title": "Uffa",
+  "date": "2025-11-05",
+  "rating": 1.0,
+  "review": "È arrivato senza il beccuccio dispenser"
+ },
+ {
+  "title": "Detergente viso per pelli problematiche e non …",
+  "date": "2025-10-07",
+  "rating": 3.0,
+  "review": "Non mi piace granché , onestamente preso per la pelle secca , solitamente faccio uso di prodotti ecobio e mi aspettavo da questo prodotto qualcosa di piu e invece si è rivelato poco idratante , brucia gli occhi , quindi a chi dice di usarlo anche per i bambini , vi prego no! Strucca ma non benissimo , non credo che lo ricomprerò più !"
+ },
+ {
+  "title": "Consiglio",
+  "date": "2025-10-04",
+  "rating": 4.0,
+  "review": "Ottimo prodotto con prezzo vantaggioso su Amazon"
+ },
+ {
+  "title": "☺️",
+  "date": "2025-10-03",
+  "rating": 4.0,
+  "review": "Ottimo, lo uso per il viso , collo e ascelle. Soddisfatto"
+ },
+ {
+  "title": "Detergente gel",
+  "date": "2025-09-16",
+  "rating": 4.0,
+  "review": "Profumazione gradevole e non secca la pelle. Trovo che sia un prodotto medio buono."
+ },
+ {
+  "title": "Collaudato",
+  "date": "2025-09-09",
+  "rating": 4.0,
+  "review": "Per il prezzo il prodotto è ottimo, in famiglia lo usiamo tutti. Forse per chi ha la pelle del viso un po’ secca il prodotto tende ad essere un po’ aggressivo se usato più di una volta al giorno."
+ },
+ {
+  "title": "Mah?",
+  "date": "2025-09-03",
+  "rating": 2.0,
+  "review": "niente di che, non deterge particolarmente bene e non lascia neppure un profumo particolarmente buono."
+ },
+ {
+  "title": "Soddisfatta",
+  "date": "2025-09-03",
+  "rating": 4.0,
+  "review": "Vedi recensioni precedenti"
+ },
+ {
+  "title": "La roche posay",
+  "date": "2025-08-31",
+  "rating": 3.0,
+  "review": "Mi lascia la pelle secca che tira . Non lo consiglio a chi ha la pelle secca"
+ },
+ {
+  "title": "Ne vale la pena",
+  "date": "2025-08-27",
+  "rating": 4.0,
+  "review": "Veramente un buon prodotto"
+ },
+ {
+  "title": "Dosatore rotto",
+  "date": "2025-08-21",
+  "rating": 3.0,
+  "review": "Ho acquistato due confezioni di questo gel ma una confezione ha il dosatore rotto e non è nemmeno presente il pezzo mancante"
+ },
+ {
+  "title": "buono",
+  "date": "2025-08-20",
+  "rating": 4.0,
+  "review": "un buon detergente, dimensioni molto buone ma lascia un po’ la pelle secca.."
+ },
+ {
+  "title": "Detergente delicato ma efficace",
+  "date": "2025-07-27",
+  "rating": 4.0,
+  "review": "Ho comprato questo detergente per cambiare dal mio solito e devo dire che mi sto trovando davvero bene, dopo aver lavato il viso non sento minimamente la pelle tirare e ciò è un bene; l'unica cosa che trovo \"fastidiosa\" è la profumazione che pur essendo gradevole preferisco i detergenti privi di odore. (Aggiungo come dettaglio che ho una pelle molto sensibile e mista)."
+ },
+ {
+  "title": "Good",
+  "date": "2025-07-27",
+  "rating": 4.0,
+  "review": "The scent is soft and calming, and it hydrates without drying the skin. Great for sensitive and dry skin, and it leaves the body feeling smooth after a shower. Light formula, no irritation."
+ },
+ {
+  "title": "Confezione inutilizzabile e danneggiata",
+  "date": "2025-07-11",
+  "rating": 1.0,
+  "review": "Il prodotto è arrivato danneggiato senza il dosatore. Inutilizzabile in questo modo."
+ },
+ {
+  "title": "Buon prodotto ma imballaggio scadente",
+  "date": "2025-06-21",
+  "rating": 3.0,
+  "review": "Ottimo detergente ma da rivedere sulla consegna, arrivato con l erogatore rotto."
+ },
+ {
+  "title": "Llego sin sello de seguridad",
+  "date": "2025-06-18",
+  "rating": 4.0,
+  "review": "Llevo mínimo 3 botellas de este jabón y me encanta, le cae muy bien a mi piel, es de los pocos que no me provocan brotes, pero en esta ocasión llego sin sello de seguridad, eso me preocupa, lo estaré usando unas semanas y actualizaré después mi comentario."
+ },
+ {
+  "title": "Buon",
+  "date": "2025-06-08",
+  "rating": 4.0,
+  "review": "Buon detergente non aggressivo"
+ },
+ {
+  "title": "C’è di meglio",
+  "date": "2025-06-07",
+  "rating": 4.0,
+  "review": "Sono rimasta un po’ delusa. Rapporto qualità prezzo ottima (preso anche in offerta), ho la pelle molto sensibile e fa il suo dovere. Ma ho anche la pelle secca e pensavo fosse molto più idratante, invece dà l’effetto contrario e la pelle tira un po’. Comunque tutto sommato bene"
+ },
+ {
+  "title": "Bueno! Para después de nadar",
+  "date": "2025-05-28",
+  "rating": 4.0,
+  "review": "Lo compré por que después de la natación mi piel se reseca muchísimo. Llevo unos días usándolo y la resequedad a disminuido bastante! Uso en la cara y el cuerpo, no huele y no arden los ojos. Se retira fácilmente. Lo que no me gusta es que es muy líquido, no hace mucha espuma y tienes que usar más cantidad que otros. Trae una cosita de plástico que bloquea que se derrame, eso es súper práctico para poderlo llevar en la mochila sin que se salga."
+ },
+ {
+  "title": "Ottimo prodotto",
+  "date": "2025-05-12",
+  "rating": 4.0,
+  "review": "Mi piace qualità prezzo ottimo lascia la pelle pulita e morbida la consiglio è profumato ma non è fastidioso il profumo."
+ },
+ {
+  "title": "Zero rispetto",
+  "date": "2025-03-24",
+  "rating": 2.0,
+  "review": "Prodotto è ottimo peccato che imballato malissimo e qualcuno ha rotto il dosatore non posso puntare dito contro corriere ma qualcuno ha rotto"
+ },
+ {
+  "title": "Tutto rovesciato",
+  "date": "2025-03-18",
+  "rating": 1.0,
+  "review": "Scatola tutta rovesciata dal prodotto"
+ },
+ {
+  "title": "Not for me",
+  "date": "2025-01-16",
+  "rating": 4.0,
+  "review": "Good product, but personally, this brand doesn’t suit me as it’s too harsh. It cleanses the skin well, but after use, I sometimes feel a tightness."
+ },
+ {
+  "title": "Buon prodotto",
+  "date": "2024-10-16",
+  "rating": 3.0,
+  "review": "Lo sto usando"
+ },
+ {
+  "title": "Good Quality",
+  "date": "2024-09-30",
+  "rating": 4.0,
+  "review": "good one"
+ },
+ {
+  "title": "👍",
+  "date": "2024-09-14",
+  "rating": 2.0,
+  "review": "Gel pour le corps, je continue avec"
+ },
+ {
+  "title": "Uhmmm",
+  "date": "2024-07-09",
+  "rating": 3.0,
+  "review": "This stuff is okay. Tbh I thought I was buying the la Roche face cleanser!! When I got this I was disappointed but it was my fault, it’s not my go to in the shower. It smells nice but also has a strong chemical smell. It’s meh"
+ },
+ {
+  "title": "Not for sensitive skin",
+  "date": "2024-05-04",
+  "rating": 3.0,
+  "review": "I use organic soaps and wanted to try something different. Unfortunately, it dries out the skin and it's not for me. I'm going back to my soaps!"
+ },
+ {
+  "title": "Producto dañado no venía bien empacado",
+  "date": "2024-01-29",
+  "rating": 3.0,
+  "review": "Esta es la cuarta vez que compro el producto aquí al mismo proveedor y siempre habia llegado en tiempo, forma y el precio. Desgraciadamente esta última vez llegó dañado, no venía protegido con burbujas como otras veces"
+ },
+ {
+  "title": "A decent bodywash, but way way too much perfume",
+  "date": "2023-08-17",
+  "rating": 3.0,
+  "review": "It smells like your grandmothers purse, a thick perfumish floral scent that you need a different soap to help get it off you. Other than that it's ok, no breakouts after using it, but I wont be reordering based on the strong perfume smell"
+ },
+ {
+  "title": "Way Too Expensive",
+  "date": "2023-08-04",
+  "rating": 1.0,
+  "review": "I like the product however I paid $3.00 more for the 750ml than what I just received which is only 400 ml"
+ },
+ {
+  "title": "Top!!!",
+  "date": "2023-02-15",
+  "rating": 4.0,
+  "review": "Top!!!"
+ },
+ {
+  "title": "Nada espectacular",
+  "date": "2022-11-22",
+  "rating": 3.0,
+  "review": "Probé este limpiador debido a que el Effaclar me dejaba la piel muy irritada. Soy piel grasa pero un poco sensible, y este continúa dejando mi piel un poco irritada. No me gusta que tenga fragancia. Dudo volver a comprarlo."
+ },
+ {
+  "title": "Not fragrance free",
+  "date": "2022-11-06",
+  "rating": 1.0,
+  "review": "Too strong fragrance"
+ },
+ {
+  "title": "Gel de limpieza",
+  "date": "2022-10-21",
+  "rating": 4.0,
+  "review": "Limpia excelente y refresca el rostro pero para el tipo de piel que tengo en mi cara en ocasiones siento que me queda un poco reseca la piel"
+ },
+ {
+  "title": "Ottima marca ma profumo inesistente",
+  "date": "2022-09-27",
+  "rating": 3.0,
+  "review": "Buon sapone ma non lascia nessun profumo"
+ },
+ {
+  "title": "Come un sapone",
+  "date": "2022-07-15",
+  "rating": 4.0,
+  "review": "Comodo dispenser ottima la quantità e la qualità, piccolo neo, almeno per me, troppo schiumoso. Profumazione gradevole e fresca"
+ },
+ {
+  "title": "Good for those with skin conditions, your average consumer might not love it",
+  "date": "2022-06-29",
+  "rating": 4.0,
+  "review": "I wouldn’t say it’s my favourite body wash in the world (sorry, but not sorry!), but I think here you are paying a little bit for the brand name and skincare expertise. If that kind of thing is important to you AND you have sensitive skin, this could be a good buy for you. I did find it left my skin less dry than many of my budget brands, I can say that much. However, I’m not a fan of there being scent in here and in particular, the scent was not that nice for me. I didn’t dislike it, but it wasn’t my favourite either. ‘Free’ body washes like this that lack certain nasties, tend to foam less and I found that to be the case here. I used it with a shower pouf and got enough of a lather, but I think if you’re using this without one, you’ll need more gel to spread it well and it’s a bit pricey for that! Whether or not this has bang for it’s buck for you depends. If you prioritise expert skincare all over, or have a condition like eczema, this could be worth it. For me, I liked it, but I wouldn’t find room in my budget for it."
+ },
+ {
+  "title": "Cleans skin well without making it dry",
+  "date": "2022-06-17",
+  "rating": 4.0,
+  "review": "La Roche-Posay Body Wash seems to have good ingredients. It cleans skin well without making it overly dry. It is soap free and Paraban free so especially good for sensitive skin. The only reason that I took off one star is that it is pretty expensive as body wash."
+ },
+ {
+  "title": "Super strong scent, its a no from me.",
+  "date": "2022-06-16",
+  "rating": 2.0,
+  "review": "This is my first time trying a La Roche-Posay body wash, although I have tried some of their other products in the past. I really liked that this product is soap free and paraben free so I was excited to give it a try. This is marketed for sensitive skin I guess this is due to having no soap. However I found that the scent was incredibly perfumed, very strong. I was only able to use this product once because it was so strong it caused me to have some breathing issues and I had to take rescue inhalers for my breathing issues. So unfortunately this did feel nice on my skin, the smell and over powering perfume scent makes this product a no from me."
+ },
+ {
+  "title": "Surprisingly gentle and soothing body wash",
+  "date": "2022-06-14",
+  "rating": 4.0,
+  "review": "I have already loved the LRP Lipikar Balm AP body lotion (along with a number of their sunscreens), so I was fairly certain I would enjoy this as well. I was surprised by the clear look of the body wash though, as that usually signifies your typical surfactant-filled ultra lathering body wash. That is actually not the case here. Yes, this does of course lather a little bit, but it's super gentle and feels hydrating to the skin even though it doesn't look like it would be. I found the scent extremely mild, but I'm also used to using Lush body washes, so you can take that however you'd like to. Overall I think this is a lovely body wash for sensitive skin, and mine did come equipped with a pump which was great."
+ },
+ {
+  "title": "Expensive, but superb product",
+  "date": "2022-06-14",
+  "rating": 4.0,
+  "review": "Amazing how well this actually moisturizes and works on sensitive skin. Expensive but expected for this product segment and the quality here. Recommended to use sparingly rather than a general daily body wash. Great for face and sensitive areas on body. Highly recommended."
+ },
+ {
+  "title": "Excellent",
+  "date": "2022-06-13",
+  "rating": 4.0,
+  "review": "I really like this body wash. Feels so smooth and my skin feels so soft afterwards. You just need a little bit and it goes a long way and I love anything with shea butter. Such a great body wash. I love it."
+ },
+ {
+  "title": "Works great. But way too expensive",
+  "date": "2022-06-02",
+  "rating": 4.0,
+  "review": "I have been using Dove unscented for over a decade now. I always have a hard time to find an alternative. This soap from La Roche Posay seems to do the trick, except with an added scent which is fantastic. Doesn't make my skin all dry and itchy. Only thing is the expensive price tag, which seems outlandish considering it's only liquid. I guess you pay for the name..."
+ },
+ {
+  "title": "High quality body soap for sensitive skin",
+  "date": "2022-05-17",
+  "rating": 4.0,
+  "review": "I've been really happy with this body soap from La Roche Posay. The soap is very clear, with a nice gel like consistency to it. It foams up nicely, meaning you don't need too much of it to cover your whole body. The scent is refreshing while not being overpowering. After using this my skin is left feeling replenished rather than dried out which is nice. If you're looking for a way to treat yourself with a high quality body soap, than this will work for you! If you're low maintenance though and are just looking for a non-drying body soap that maximizes value, you might want to look elsewhere."
+ },
+ {
+  "title": "Damaged",
+  "date": "2021-12-01",
+  "rating": 1.0,
+  "review": "Cant say what this product is like. Was broken upon receipt"
+ },
+ {
+  "title": "Empaque",
+  "date": "2021-05-29",
+  "rating": 4.0,
+  "review": "Todo bien , solo que vino roto la parte donde se abre el producto, y no lo empacaron como debía ser."
+ },
+ {
+  "title": "Lo más importante es que el producto cumpla con lo que se anuncia de él",
+  "date": "2020-12-05",
+  "rating": 4.0,
+  "review": "Por la descripción que se hace del producto,parece ser que es efectivo en pieles atópica, como la mia, de todas formas necesito un poco más de tiempo para comprobar el resultado, y dar una opinión precisa."
+ },
+ {
+  "title": "Probando",
+  "date": "2020-12-05",
+  "rating": 4.0,
+  "review": "Es mucho producto. Lo estoy usando para mí dermatitis, veremos qué tal con el tiempo."
+ },
+ {
+  "title": "Buen producto pero sin caja",
+  "date": "2020-11-15",
+  "rating": 4.0,
+  "review": "Me encanta el producto y llegó rápido. Lo único que no me gustó es que venía sin su caja."
+ },
+ {
+  "title": "Relación calidad-precio",
+  "date": "2020-07-01",
+  "rating": 3.0,
+  "review": "Muy bien! Lástima que siempre que quieres volver a comprar algo Amazon no lo tenga disponible"
+ },
+ {
+  "title": "Soddisfatto",
+  "date": "2020-05-10",
+  "rating": 4.0,
+  "review": "Ho finito il prodotto è ho provato Amazon tutto ok👍"
+ },
+ {
+  "title": "Buen producto, pero no para cualquier tipo de piel",
+  "date": "2020-03-05",
+  "rating": 3.0,
+  "review": "Te deja la piel suave cuando recien te lo hechas, pero despues de unos minutos se pone grasosa"
+ },
+ {
+  "title": "Gel",
+  "date": "2019-10-10",
+  "rating": 1.0,
+  "review": "Arrivato senza sigillo.. aperto"
+ },
+ {
+  "title": "Reseca mucho la piel",
+  "date": "2019-07-28",
+  "rating": 2.0,
+  "review": "Comencé a utilizarlo por un caso de piel sensible, alérgica, de pronto ya no podía utilizar mis productos de siempre, esta marca generalmente me había servido así que compré el gel lavant, pero después de aproximadamente dos semanas utilizándolo he sentido la piel demasiado seca y tirante, con comezón y demasiada resequedad. No creo que valga lo que cuesta, definitivamente buscaré otras opciones."
+ },
+ {
+  "title": "Regular",
+  "date": "2019-06-10",
+  "rating": 3.0,
+  "review": "Realmente no hace mucha espuma y se necesita bastante cantidad para su uso normal."
+ },
+ {
+  "title": "Ottima qualità e quantità",
+  "date": "2019-05-17",
+  "rating": 4.0,
+  "review": "Il prodotto è in un barattolo enorme. Non me lo immaginavo così grande, penso che almeno per 2 mesi sono a posto, usandolo sempre una volta al giorno per struccarmi/idratarmi il viso. Il prodotto ha un odore molto delicato, strucca abbastanza bene. Di solito a me rimangono dei piccoli residui di mascara, che però tolgo facilmente. E' molto importante sciacquare bene altrimenti bruciano gli occhi!"
+ },
+ {
+  "title": "Pelle pulita",
+  "date": "2019-05-16",
+  "rating": 3.0,
+  "review": "Prima volta preso, per ora mi sembra un buon prodotto"
+ },
+ {
+  "title": "Buon sapone per la doccia",
+  "date": "2019-01-06",
+  "rating": 4.0,
+  "review": "Sapone molto delicato senza profumo. Peccato per il prezzo un po’ alto"
+ },
+ {
+  "title": "El envase llegó roto",
+  "date": "2018-07-31",
+  "rating": 2.0,
+  "review": "Es el segundo producto de esta marca que llega con la tapa rota y derramado el producto, Creo que si van a vender productos de segunda deberían advertirlo."
+ }
 ]

@@ -1,0 +1,34 @@
+{
+  "asin": "B00E4ZU020",
+  "title": "Hautöl 50 ml",
+  "brand": "Befelka",
+  "bullet_points": [
+    "PZN-02889650",
+    "50 ml Öl",
+    "freiverkäuflich"
+  ],
+  "description": "PZN-02889650 50 ml Öl freiverkäuflich",
+  "images": [
+    {
+      "variant": "MAIN",
+      "url": "https://m.media-amazon.com/images/I/71GKqcuRkbS._SL1500_.jpg"
+    },
+    {
+      "variant": "PT01",
+      "url": "https://m.media-amazon.com/images/I/81QoS9H8ZeS._SL1500_.jpg"
+    },
+    {
+      "variant": "PT02",
+      "url": "https://m.media-amazon.com/images/I/81KFpnDge1S._SL1500_.jpg"
+    },
+    {
+      "variant": "PT03",
+      "url": "https://m.media-amazon.com/images/I/71pD7079RkS._SL1500_.jpg"
+    },
+    {
+      "variant": "PT04",
+      "url": "https://m.media-amazon.com/images/I/81h15aoCYRS._SL1500_.jpg"
+    }
+  ],
+  "product_type": "SKIN_CARE_OIL"
+}
