@@ -699,11 +699,40 @@ function loadFromUrl(url, fallback){
     rows.forEach(f=>{ const key=(f[3]||'').trim(), val=(f[1]||'').trim();
       if(key && IDS.includes(key)){ data[key]=val; hits++; } });
     if(!hits) throw new Error('0 pól');
+    // Etykieta z arkusza (klucz `label`) nadpisuje nazwe aktualnie wybranej pozycji w dropdownie.
+    const lab=labelFromCsv(txt), sel=$('productSel');
+    if(lab && sel && sel.selectedIndex>0) sel.options[sel.selectedIndex].textContent=lab;
     useData(data); st.textContent='✓ Wczytano '+hits+' pól z arkusza (live).';
   }).catch(e=>{ if(fallback){ useData(fallback); st.textContent='✓ Dane wbudowane (offline — fetch nie działa na file://). Live po otwarciu przez http/hosting.'; } else { st.textContent='Błąd ('+e.message+'). Otwórz przez http (serwer/hosting) — file:// blokuje pobieranie z Google.'; } });
 }
-function onProductPick(){ const sel=$('productSel'), url=sel.value; const name=sel.options[sel.selectedIndex]?sel.options[sel.selectedIndex].text:''; if(url){ $('csvUrl').value=url; loadFromUrl(url, EMBEDDED[name]); } }
-function initProducts(){ $('productSel').innerHTML='<option value="">— wybierz produkt —</option>'+PRODUCTS.map(p=>`<option value="${p.url}">${p.name}</option>`).join(''); }
+function onProductPick(){ const sel=$('productSel'), url=sel.value; const opt=sel.options[sel.selectedIndex];
+  // Fallback EMBEDDED szukamy po data-key (nazwa z PRODUCTS), NIE po widocznym tekscie —
+  // tekst moze byc nadpisany etykieta z arkusza (klucz `label`).
+  const key=opt?(opt.getAttribute('data-key')||opt.text):''; if(url){ $('csvUrl').value=url; loadFromUrl(url, EMBEDDED[key]); } }
+function initProducts(){ $('productSel').innerHTML='<option value="">— wybierz produkt —</option>'+PRODUCTS.map(p=>`<option value="${p.url}" data-key="${p.name}">${p.name}</option>`).join('');
+  refreshLabels(); }
+
+// === Etykiety produktow z arkusza ===
+// Kazdy arkusz moze miec wiersz z kluczem `label` w kolumnie D — wartosc z kolumny B
+// staje sie nazwa widoczna w dropdownie "Produkt". Brak klucza / brak dostepu = zostaje
+// nazwa z PRODUCTS. Dziala tylko po http (file:// blokuje fetch do Google).
+function labelFromCsv(txt){
+  const rows=parseCSV(txt); let out='';
+  rows.forEach(f=>{ if((f[3]||'').trim()==='label'){ const v=(f[1]||'').trim(); if(v) out=v; } });
+  return out;
+}
+function refreshLabels(){
+  const sel=$('productSel'); if(!sel) return;
+  PRODUCTS.forEach(p=>{
+    const bust=p.url+(p.url.includes('?')?'&':'?')+'_='+Date.now();
+    fetch(bust,{cache:'no-store'}).then(r=>{ if(!r.ok)throw new Error(r.status); return r.text(); })
+      .then(txt=>{ const lab=labelFromCsv(txt); if(!lab) return;
+        for(let i=0;i<sel.options.length;i++){
+          if(sel.options[i].getAttribute('data-key')===p.name){ sel.options[i].textContent=lab; break; }
+        }
+      }).catch(()=>{});
+  });
+}
 
 function chartTip(e){
   const c=$('chart'), rect=c.getBoundingClientRect(), tip=$('chTip');
