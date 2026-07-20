@@ -108,6 +108,13 @@
       "group": "forecast",
       "template": "standalone",
       "file": "index.html"
+    },
+    {
+      "id": "fba-fee-calculator",
+      "title": "FBA Fee — Unit Economics",
+      "group": "forecast",
+      "template": "standalone",
+      "file": "index.html"
     }
   ]
 }

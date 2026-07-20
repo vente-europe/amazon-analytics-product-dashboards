@@ -1,0 +1,2335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalkulator Unit Economics — Amazon FBA</title>
+<style>
+  :root {
+    --bg: #f5f7fa;
+    --surface: #ffffff;
+    --surface2: #edf0f5;
+    --border: #d8dde6;
+    --text: #1a1d27;
+    --text-dim: #5f6981;
+    --accent: #2563eb;
+    --accent-dim: #dbeafe;
+    --green: #16a34a;
+    --red: #dc2626;
+    --orange: #d97706;
+    --purple: #7c3aed;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+
+  header {
+    text-align: center;
+    padding: 32px 0 24px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 28px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  header p {
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    margin-top: 6px;
+  }
+
+  .market-bar {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+
+  .market-select label, .program-toggle label {
+    display: block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .market-select select {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 9px 14px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    min-width: 280px;
+  }
+
+  .market-select select:focus { border-color: var(--accent); }
+
+  .program-toggle .toggle-group { min-width: 200px; }
+
+  .presets {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+
+  .presets button {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.15s;
+  }
+
+  .presets button:hover {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  @media (max-width: 700px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .section.full {
+    grid-column: 1 / -1;
+  }
+
+  .section-title {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .field {
+    margin-bottom: 12px;
+  }
+
+  .field label {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    margin-bottom: 4px;
+  }
+
+  .field .input-wrap {
+    position: relative;
+  }
+
+  .field .prefix, .field .suffix {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    pointer-events: none;
+  }
+
+  .field .prefix { left: 10px; }
+  .field .suffix { right: 10px; }
+
+  .field input, .field select {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  .field input:focus, .field select:focus {
+    border-color: var(--accent);
+  }
+
+  .field input.has-prefix { padding-left: 22px; }
+  .field input.has-suffix { padding-right: 40px; }
+
+  .field-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .field-row-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+
+  .detected-info {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 8px;
+    font-size: 0.82rem;
+  }
+
+  .detected-info .label {
+    color: var(--text-dim);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .detected-info .value {
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  .detected-info .value.warn {
+    color: var(--red);
+  }
+
+  .toggle-group {
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .toggle-group button {
+    flex: 1;
+    background: var(--bg);
+    border: none;
+    color: var(--text-dim);
+    padding: 7px 10px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+
+  .toggle-group button.active {
+    background: var(--accent);
+    color: #fff;
+  }
+
+  .results-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  @media (max-width: 700px) {
+    .results-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .result-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .result-card .label {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 4px;
+  }
+
+  .result-card .value {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .result-card .value.positive { color: var(--green); }
+  .result-card .value.negative { color: var(--red); }
+  .result-card .value.neutral  { color: var(--text); }
+
+  .waterfall {
+    margin-top: 16px;
+  }
+
+  .waterfall-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 0.85rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .waterfall-row:first-child {
+    font-weight: 600;
+  }
+
+  .waterfall-row:last-child {
+    border-bottom: none;
+    font-weight: 700;
+    padding-top: 8px;
+    border-top: 2px solid var(--border);
+  }
+
+  .waterfall-row .wr-label { color: var(--text-dim); }
+  .waterfall-row .wr-val { font-variant-numeric: tabular-nums; }
+  .waterfall-row .wr-val.pos { color: var(--green); }
+  .waterfall-row .wr-val.neg { color: var(--red); }
+
+  .cost-bar-container {
+    margin-top: 16px;
+  }
+
+  .cost-bar-container .bar-title {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+
+  .cost-bar {
+    display: flex;
+    height: 28px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--bg);
+  }
+
+  .cost-bar .segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #fff;
+    min-width: 2px;
+    transition: width 0.3s;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .cost-bar-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+  }
+
+  .cost-bar-legend .item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.72rem;
+    color: var(--text-dim);
+  }
+
+  .cost-bar-legend .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+  }
+
+  .oversize-warning {
+    display: none;
+    background: #fef2f2;
+    border: 1px solid var(--red);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-top: 8px;
+    font-size: 0.82rem;
+    color: var(--red);
+  }
+
+  .oversize-warning.show { display: block; }
+
+  .field input.auto-filled {
+    border-color: var(--accent);
+    background: #eff6ff;
+  }
+
+  .section {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+
+  .tier-gauges {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .tier-badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .tier-badge.small-std { background: #dbeafe; color: #1d4ed8; }
+  .tier-badge.large-std { background: #fef3c7; color: #92400e; }
+  .tier-badge.oversize { background: #fee2e2; color: #991b1b; }
+  .tier-badge.none { background: var(--surface2); color: var(--text-dim); }
+
+  .gauge-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .gauge-label {
+    width: 62px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    flex-shrink: 0;
+  }
+
+  .gauge-track {
+    flex: 1;
+    height: 26px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    position: relative;
+    overflow: visible;
+  }
+
+  .gauge-fill {
+    height: 100%;
+    border-radius: 4px 0 0 4px;
+    transition: width 0.3s, background 0.3s;
+    position: relative;
+    z-index: 1;
+    min-width: 2px;
+  }
+
+  .gauge-fill.safe { background: linear-gradient(90deg, #86efac, #22c55e); }
+  .gauge-fill.warn { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
+  .gauge-fill.danger { background: linear-gradient(90deg, #f87171, #ef4444); }
+  .gauge-fill.over { background: linear-gradient(90deg, #ef4444, #dc2626); }
+
+  .gauge-marker {
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    width: 2px;
+    z-index: 2;
+  }
+
+  .gauge-marker.ss-marker { background: #3b82f6; }
+  .gauge-marker.ls-marker { background: #ef4444; }
+
+  .gauge-marker-label {
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.55rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .gauge-marker.ss-marker .gauge-marker-label { color: #3b82f6; }
+  .gauge-marker.ls-marker .gauge-marker-label { color: #ef4444; }
+
+  .gauge-info {
+    width: 120px;
+    flex-shrink: 0;
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    text-align: right;
+    line-height: 1.3;
+  }
+
+  .gauge-info .val-now {
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .gauge-info .delta {
+    font-size: 0.65rem;
+  }
+
+  .gauge-info .delta.safe { color: var(--green); }
+  .gauge-info .delta.warn { color: var(--orange); }
+  .gauge-info .delta.danger { color: var(--red); }
+
+  @media (max-width: 700px) {
+    .gauge-info { width: 90px; font-size: 0.65rem; }
+    .gauge-label { width: 50px; }
+  }
+
+  /* Weight Band Detail */
+  .wb-section {
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+  }
+
+  .wb-title {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .wb-track {
+    position: relative;
+    display: flex;
+    height: 36px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+
+  .wb-band {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.6rem;
+    color: #fff;
+    transition: all 0.2s;
+    border-right: 1px solid rgba(255,255,255,0.3);
+    padding: 0 2px;
+    overflow: hidden;
+    cursor: default;
+  }
+
+  .wb-band:last-child { border-right: none; }
+  .wb-band .wb-fee { font-weight: 700; font-size: 0.65rem; }
+  .wb-band .wb-range { font-size: 0.5rem; opacity: 0.85; }
+
+  .wb-band.past { background: #d1d5db; color: var(--text-dim); }
+  .wb-band.current { background: var(--accent); box-shadow: inset 0 0 0 2px #1d4ed8; }
+  .wb-band.future { background: #93c5fd; color: #1e3a5f; }
+
+  .wb-pointer {
+    position: absolute;
+    top: -8px;
+    transform: translateX(-50%);
+    z-index: 3;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .wb-pointer::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid var(--accent);
+    margin: 0 auto;
+  }
+
+  .wb-savings {
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+
+  .wb-savings .wb-card {
+    flex: 1;
+    min-width: 140px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 0.75rem;
+  }
+
+  .wb-card .wb-card-label {
+    font-size: 0.65rem;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 2px;
+  }
+
+  .wb-card .wb-card-value {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+
+  .wb-card .wb-card-detail {
+    font-size: 0.68rem;
+    color: var(--text-dim);
+    margin-top: 2px;
+  }
+
+  .wb-card .wb-card-driver {
+    font-size: 0.62rem;
+    color: var(--orange);
+    margin-top: 3px;
+    font-weight: 600;
+  }
+
+  .wb-card.save .wb-card-value { color: var(--green); }
+  .wb-card.cost .wb-card-value { color: var(--red); }
+  .wb-card.current .wb-card-value { color: var(--accent); }
+
+  .imperial-display {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 4px;
+    padding: 6px 10px;
+    background: var(--accent-dim);
+    border-radius: 5px;
+    font-size: 0.72rem;
+    color: var(--text-dim);
+  }
+
+  .imperial-display span {
+    font-weight: 600;
+    color: var(--accent);
+  }
+
+  .eu-note {
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    line-height: 1.4;
+  }
+  .eu-note strong { color: var(--text); }
+  .eu-note .warn { color: var(--red); font-weight: 600; }
+
+  .gauge-marker.cap-marker { background: #ef4444; }
+  .gauge-marker.cap-marker .gauge-marker-label { color: #ef4444; }
+
+  .driver-chip {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+  .driver-chip.vol { background: #fef3c7; color: #92400e; }
+  .driver-chip.act { background: #dbeafe; color: #1d4ed8; }
+  #euNextTier strong { color: var(--text); }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>Amazon FBA — Unit Economics</h1>
+    <p id="headerSub">Kalkulator rynku USA &mdash; stawki 2026</p>
+  </header>
+
+  <div class="market-bar">
+    <div class="market-select">
+      <label for="market">Rynek</label>
+      <select id="market" onchange="onMarketChange()">
+        <option value="US">🇺🇸 Stany Zjednoczone (amazon.com)</option>
+        <option value="DE" selected>🇩🇪 Niemcy (amazon.de)</option>
+        <option value="FR">🇫🇷 Francja (amazon.fr)</option>
+        <option value="IT">🇮🇹 Włochy (amazon.it)</option>
+        <option value="ES">🇪🇸 Hiszpania (amazon.es)</option>
+        <option value="UK">🇬🇧 Wielka Brytania (amazon.co.uk)</option>
+      </select>
+    </div>
+    <div class="program-toggle" id="programToggle" style="display:none;">
+      <label>Program FBA</label>
+      <div class="toggle-group">
+        <button id="progStandard" class="active" onclick="setProgram('standard')">Standard</button>
+        <button id="progLowprice" onclick="setProgram('lowprice')">Niskocenowy</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="presets">
+    <button onclick="loadPreset('supplement')">Mały suplement</button>
+    <button onclick="loadPreset('medium')">Średni produkt</button>
+    <button onclick="loadPreset('heavy')">Ciężki produkt</button>
+  </div>
+
+  <div class="grid">
+
+    <!-- REVENUE -->
+    <div class="section">
+      <div class="section-title">Przychód</div>
+
+      <div id="euRevenueFields" style="display:none;">
+        <div class="field-row">
+          <div class="field">
+            <label>Cena Amazon (brutto, z VAT)</label>
+            <div class="input-wrap">
+              <span class="prefix cur-sym">$</span>
+              <input type="number" id="grossPrice" class="has-prefix" placeholder="20.00" step="0.01" min="0" oninput="onGrossInput()">
+            </div>
+          </div>
+          <div class="field">
+            <label>VAT %</label>
+            <div class="input-wrap">
+              <input type="number" id="vatPct" class="has-suffix" placeholder="19" step="0.1" min="0" max="100" oninput="onVatInput()">
+              <span class="suffix">%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field">
+        <label>Cena sprzedaży <span id="netLabelTag" style="display:none;color:var(--accent);">(netto)</span></label>
+        <div class="input-wrap">
+          <span class="prefix cur-sym">$</span>
+          <input type="number" id="sellingPrice" class="has-prefix" placeholder="29.99" step="0.01" min="0" oninput="onNetPriceInput()">
+        </div>
+        <div id="grossHint" style="display:none;font-size:0.7rem;color:var(--text-dim);margin-top:5px;"></div>
+      </div>
+      <div class="field">
+        <label>Liczba sztuk / miesiąc</label>
+        <input type="number" id="unitsSold" placeholder="100" min="0" oninput="calc()">
+      </div>
+    </div>
+
+    <!-- FBA FEE CALCULATOR -->
+    <div class="section">
+      <div class="section-title">Kalkulator opłaty FBA</div>
+      <div class="field-row-3">
+        <div class="field">
+          <label>Długość (cm)</label>
+          <input type="number" id="dimL" placeholder="25" step="0.1" min="0" oninput="calc()">
+        </div>
+        <div class="field">
+          <label>Szerokość (cm)</label>
+          <input type="number" id="dimW" placeholder="18" step="0.1" min="0" oninput="calc()">
+        </div>
+        <div class="field">
+          <label>Wysokość (cm)</label>
+          <input type="number" id="dimH" placeholder="5" step="0.1" min="0" oninput="calc()">
+        </div>
+      </div>
+      <div class="field">
+        <label>Waga (kg)</label>
+        <input type="number" id="weight" placeholder="0.4" step="0.01" min="0" oninput="calc()">
+      </div>
+      <div class="imperial-display" id="imperialDisplay" style="display:none">
+        Po przeliczeniu: <span id="convL">—</span> × <span id="convW">—</span> × <span id="convH">—</span> in &nbsp;|&nbsp; <span id="convWt">—</span> lbs
+      </div>
+      <div class="field" id="priceTierField">
+        <label>Próg cenowy</label>
+        <select id="priceTier" onchange="calc()">
+          <option value="<10">&lt; $10</option>
+          <option value="10-50" selected>$10 – $50</option>
+          <option value=">50">&gt; $50</option>
+        </select>
+      </div>
+
+      <div class="detected-info" id="fbaInfo" style="display:none">
+        <div style="display:flex;gap:16px;flex-wrap:wrap;">
+          <div><span class="label">Próg: </span><span class="value" id="detectedTier">—</span></div>
+          <div><span class="label">Waga wys.: </span><span class="value" id="detectedWeight">—</span></div>
+          <div><span class="label">Opłata FBA: </span><span class="value" id="detectedFee">—</span></div>
+        </div>
+        <div id="weightBandInfo" style="margin-top:6px;font-size:0.72rem;color:var(--text-dim);display:none;"></div>
+      </div>
+      <div class="oversize-warning" id="oversizeWarn">
+        ⚠ Produkt przekracza limity Large Standard — klasyfikacja Oversize. Wpisz opłatę FBA ręcznie poniżej.
+      </div>
+
+      <div class="eu-note" id="euNote" style="display:none;"></div>
+
+    </div>
+
+    <!-- Size Tier Proximity Gauges (US only) -->
+    <div class="section full" id="proximitySection">
+      <div class="section-title">Bliskość progu rozmiaru</div>
+      <div style="margin-bottom:12px;">
+        <span class="tier-badge none" id="tierBadge">Wpisz wymiary powyżej</span>
+        <span style="font-size:0.7rem;color:var(--text-dim);margin-left:8px;">
+          <span style="display:inline-block;width:8px;height:8px;background:#3b82f6;border-radius:2px;vertical-align:middle;"></span> Mały std
+          &nbsp;
+          <span style="display:inline-block;width:8px;height:8px;background:#ef4444;border-radius:2px;vertical-align:middle;"></span> Duży std
+        </span>
+      </div>
+      <div class="tier-gauges" id="tierGauges">
+        <div class="gauge-row">
+          <div class="gauge-label">Długość</div>
+          <div class="gauge-track" id="gaugeTrackL">
+            <div class="gauge-fill safe" id="gaugeFillL" style="width:0%"></div>
+            <div class="gauge-marker ss-marker" id="gaugeSSL"><span class="gauge-marker-label">SS</span></div>
+            <div class="gauge-marker ls-marker" id="gaugeLSL"><span class="gauge-marker-label">LS</span></div>
+          </div>
+          <div class="gauge-info" id="gaugeInfoL">—</div>
+        </div>
+        <div class="gauge-row">
+          <div class="gauge-label">Szerokość</div>
+          <div class="gauge-track" id="gaugeTrackW">
+            <div class="gauge-fill safe" id="gaugeFillW" style="width:0%"></div>
+            <div class="gauge-marker ss-marker" id="gaugeSSW"><span class="gauge-marker-label">SS</span></div>
+            <div class="gauge-marker ls-marker" id="gaugeLSW"><span class="gauge-marker-label">LS</span></div>
+          </div>
+          <div class="gauge-info" id="gaugeInfoW">—</div>
+        </div>
+        <div class="gauge-row">
+          <div class="gauge-label">Wysokość</div>
+          <div class="gauge-track" id="gaugeTrackH">
+            <div class="gauge-fill safe" id="gaugeFillH" style="width:0%"></div>
+            <div class="gauge-marker ss-marker" id="gaugeSSH"><span class="gauge-marker-label">SS</span></div>
+            <div class="gauge-marker ls-marker" id="gaugeLSH"><span class="gauge-marker-label">LS</span></div>
+          </div>
+          <div class="gauge-info" id="gaugeInfoH">—</div>
+        </div>
+        <div class="gauge-row">
+          <div class="gauge-label">Waga</div>
+          <div class="gauge-track" id="gaugeTrackWt">
+            <div class="gauge-fill safe" id="gaugeFillWt" style="width:0%"></div>
+            <div class="gauge-marker ss-marker" id="gaugeSSWt"><span class="gauge-marker-label">SS</span></div>
+            <div class="gauge-marker ls-marker" id="gaugeLSWt"><span class="gauge-marker-label">LS</span></div>
+          </div>
+          <div class="gauge-info" id="gaugeInfoWt">—</div>
+        </div>
+      </div>
+
+      <!-- Weight Band Detail -->
+      <div class="wb-section" id="wbSection" style="display:none">
+        <div class="wb-title">Opłata FBA wg progu wagi <span id="wbTierLabel" style="font-weight:400;text-transform:none;letter-spacing:0;"></span></div>
+        <div style="position:relative;">
+          <div class="wb-track" id="wbTrack"></div>
+        </div>
+        <div class="wb-savings" id="wbSavings"></div>
+      </div>
+    </div>
+
+    <!-- EU Size Tier Proximity (EU markets only) -->
+    <div class="section full" id="euProximitySection" style="display:none;">
+      <div class="section-title">Bliskość progu rozmiaru</div>
+      <div style="margin-bottom:10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+        <span class="tier-badge none" id="euTierBadge">Wpisz wymiary powyżej</span>
+        <span class="driver-chip" id="euDriverChip" style="display:none;"></span>
+      </div>
+      <div id="euGaugeHint" style="font-size:0.72rem;color:var(--text-dim);margin-bottom:12px;">
+        Każdy pasek pokazuje, jak blisko dany wymiar jest do limitu bieżącego progu (czerwona linia). Przekroczysz limit → przechodzisz do wyższego, droższego progu.
+      </div>
+      <div class="tier-gauges" id="euTierGauges">
+        <div class="gauge-row">
+          <div class="gauge-label">Długość</div>
+          <div class="gauge-track"><div class="gauge-fill safe" id="euFillL" style="width:0%"></div><div class="gauge-marker cap-marker" id="euCapL"><span class="gauge-marker-label">limit</span></div></div>
+          <div class="gauge-info" id="euInfoL">—</div>
+        </div>
+        <div class="gauge-row">
+          <div class="gauge-label">Szerokość</div>
+          <div class="gauge-track"><div class="gauge-fill safe" id="euFillW" style="width:0%"></div><div class="gauge-marker cap-marker" id="euCapW"><span class="gauge-marker-label">limit</span></div></div>
+          <div class="gauge-info" id="euInfoW">—</div>
+        </div>
+        <div class="gauge-row">
+          <div class="gauge-label">Wysokość</div>
+          <div class="gauge-track"><div class="gauge-fill safe" id="euFillH" style="width:0%"></div><div class="gauge-marker cap-marker" id="euCapH"><span class="gauge-marker-label">limit</span></div></div>
+          <div class="gauge-info" id="euInfoH">—</div>
+        </div>
+        <div class="gauge-row">
+          <div class="gauge-label" id="euWtLabel">Waga</div>
+          <div class="gauge-track"><div class="gauge-fill safe" id="euFillWt" style="width:0%"></div><div class="gauge-marker cap-marker" id="euCapWt"><span class="gauge-marker-label">limit</span></div></div>
+          <div class="gauge-info" id="euInfoWt">—</div>
+        </div>
+      </div>
+      <div id="euNextTier" style="font-size:0.74rem;color:var(--text-dim);margin-top:12px;padding:8px 12px;background:var(--bg);border:1px solid var(--border);border-radius:6px;"></div>
+
+      <div class="wb-section" id="euWbSection" style="display:none">
+        <div class="wb-title">Opłata FBA wg progu wagi <span id="euWbTierLabel" style="font-weight:400;text-transform:none;letter-spacing:0;"></span></div>
+        <div style="position:relative;">
+          <div class="wb-track" id="euWbTrack"></div>
+        </div>
+        <div class="wb-savings" id="euWbSavings"></div>
+      </div>
+    </div>
+
+    <!-- COSTS -->
+    <div class="section full">
+      <div class="section-title">Koszty</div>
+
+      <div id="euStorageControls" style="display:none;margin-bottom:14px;">
+        <div class="field-row" style="grid-template-columns: 1fr 1fr;">
+          <div class="field">
+            <label>Sezon magazynowania</label>
+            <select id="storageSeason" onchange="onStorageParamChange()">
+              <option value="0" selected>Sty–Wrz (niski)</option>
+              <option value="1">Paź–Gru (szczyt)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Kategoria (magazyn)</label>
+            <select id="storageCategory" onchange="onStorageParamChange()">
+              <option value="standard" selected>Standard (większość kategorii)</option>
+              <option value="apparel">Odzież / obuwie / torby / okulary</option>
+            </select>
+          </div>
+        </div>
+        <div id="storageHint" class="eu-note" style="margin-top:0;"></div>
+      </div>
+
+      <div class="field-row" style="grid-template-columns: repeat(4, 1fr);">
+        <div class="field">
+          <label>COGS / szt.</label>
+          <div class="input-wrap">
+            <span class="prefix cur-sym">$</span>
+            <input type="number" id="cogs" class="has-prefix" placeholder="5.00" step="0.01" min="0" oninput="calc()">
+          </div>
+        </div>
+        <div class="field">
+          <label>Transport do FC</label>
+          <div class="input-wrap">
+            <span class="prefix cur-sym">$</span>
+            <input type="number" id="inbound" class="has-prefix" placeholder="1.20" step="0.01" min="0" oninput="calc()">
+          </div>
+        </div>
+        <div class="field">
+          <label>Prowizja (%)</label>
+          <div class="input-wrap">
+            <input type="number" id="referralPct" class="has-suffix" placeholder="15" step="0.1" min="0" max="100" value="15" oninput="calc()">
+            <span class="suffix">%</span>
+          </div>
+        </div>
+        <div class="field">
+          <label>Opłata FBA</label>
+          <div class="input-wrap">
+            <span class="prefix cur-sym">$</span>
+            <input type="number" id="fbaFee" class="has-prefix" placeholder="auto" step="0.01" min="0" oninput="onFbaFeeManual()">
+          </div>
+        </div>
+      </div>
+      <div class="field-row" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="field">
+          <label>Magazyn / szt. / mies.</label>
+          <div class="input-wrap">
+            <span class="prefix cur-sym">$</span>
+            <input type="number" id="storage" class="has-prefix" placeholder="0.20" step="0.01" min="0" oninput="onStorageManual()">
+          </div>
+        </div>
+        <div class="field">
+          <label>PPC / ACoS</label>
+          <div class="input-wrap">
+            <input type="number" id="ppc" class="has-suffix" placeholder="15" step="0.1" min="0" max="100" oninput="calc()">
+            <span class="suffix">%</span>
+          </div>
+        </div>
+        <div class="field">
+          <label>Inne koszty / szt.</label>
+          <div class="input-wrap">
+            <span class="prefix cur-sym">$</span>
+            <input type="number" id="other" class="has-prefix" placeholder="0.30" step="0.01" min="0" oninput="calc()">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div class="section full">
+      <div class="section-title">Wyniki</div>
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="label">Zysk netto / szt.</div>
+          <div class="value neutral" id="resProfit">—</div>
+        </div>
+        <div class="result-card">
+          <div class="label">Marża</div>
+          <div class="value neutral" id="resMargin">—</div>
+        </div>
+        <div class="result-card">
+          <div class="label">ROI</div>
+          <div class="value neutral" id="resROI">—</div>
+        </div>
+        <div class="result-card">
+          <div class="label">Cena progowa (BEP)</div>
+          <div class="value neutral" id="resBE">—</div>
+        </div>
+        <div class="result-card">
+          <div class="label">Zysk miesięczny</div>
+          <div class="value neutral" id="resMonthly">—</div>
+        </div>
+        <div class="result-card">
+          <div class="label">Koszty razem / szt.</div>
+          <div class="value neutral" id="resTotalCost">—</div>
+        </div>
+      </div>
+
+      <!-- Waterfall -->
+      <div class="waterfall" id="waterfall"></div>
+
+      <!-- Cost breakdown bar -->
+      <div class="cost-bar-container" id="costBarContainer" style="display:none">
+        <div class="bar-title">Struktura kosztów (% ceny sprzedaży)</div>
+        <div class="cost-bar" id="costBar"></div>
+        <div class="cost-bar-legend" id="costBarLegend"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// ==================== FBA FEE DATA ====================
+
+const FBA_SMALL_STANDARD = [
+  { maxOz: 2,  fees: { '<10': [2.29, 2.43], '10-50': [3.06, 3.32], '>50': [3.06, 3.58] } },
+  { maxOz: 4,  fees: { '<10': [2.38, 2.49], '10-50': [3.15, 3.42], '>50': [3.15, 3.68] } },
+  { maxOz: 6,  fees: { '<10': [2.47, 2.56], '10-50': [3.24, 3.45], '>50': [3.24, 3.71] } },
+  { maxOz: 8,  fees: { '<10': [2.56, 2.66], '10-50': [3.33, 3.54], '>50': [3.33, 3.80] } },
+  { maxOz: 10, fees: { '<10': [2.66, 2.77], '10-50': [3.43, 3.68], '>50': [3.43, 3.94] } },
+  { maxOz: 12, fees: { '<10': [2.76, 2.82], '10-50': [3.53, 3.78], '>50': [3.53, 4.04] } },
+  { maxOz: 14, fees: { '<10': [2.83, 2.92], '10-50': [3.60, 3.91], '>50': [3.60, 4.17] } },
+  { maxOz: 16, fees: { '<10': [2.88, 2.95], '10-50': [3.65, 3.96], '>50': [3.65, 4.22] } },
+];
+
+const FBA_LARGE_STANDARD = [
+  { maxOz: 4,  fees: { '<10': [2.91, 2.91], '10-50': [3.68, 3.73], '>50': [3.68, 3.99] } },
+  { maxOz: 8,  fees: { '<10': [3.13, 3.13], '10-50': [3.90, 3.95], '>50': [3.90, 4.21] } },
+  { maxOz: 12, fees: { '<10': [3.38, 3.38], '10-50': [4.15, 4.20], '>50': [4.15, 4.46] } },
+  { maxOz: 16, fees: { '<10': [3.78, 3.78], '10-50': [4.55, 4.60], '>50': [4.55, 4.86] } },
+  { maxLbs: 1.25, fees: { '<10': [4.22, 4.22], '10-50': [4.99, 5.04], '>50': [4.99, 5.30] } },
+  { maxLbs: 1.5,  fees: { '<10': [4.60, 4.60], '10-50': [5.37, 5.42], '>50': [5.37, 5.68] } },
+  { maxLbs: 1.75, fees: { '<10': [4.75, 4.75], '10-50': [5.52, 5.57], '>50': [5.52, 5.83] } },
+  { maxLbs: 2,    fees: { '<10': [5.00, 5.00], '10-50': [5.77, 5.82], '>50': [5.77, 6.08] } },
+  { maxLbs: 2.25, fees: { '<10': [5.10, 5.10], '10-50': [5.87, 5.92], '>50': [5.87, 6.18] } },
+  { maxLbs: 2.5,  fees: { '<10': [5.28, 5.28], '10-50': [6.05, 6.10], '>50': [6.05, 6.36] } },
+  { maxLbs: 2.75, fees: { '<10': [5.44, 5.44], '10-50': [6.21, 6.26], '>50': [6.21, 6.52] } },
+  { maxLbs: 3,    fees: { '<10': [5.85, 5.85], '10-50': [6.62, 6.67], '>50': [6.62, 6.93] } },
+];
+
+const FBA_LARGE_OVER3LB_BASE = {
+  '<10':  [6.15, 6.15],
+  '10-50': [6.92, 6.97],
+  '>50':  [6.92, 7.23],
+};
+
+// ==================== EU FBA FEE DATA (valid from 17 April 2026) ====================
+// Source: Amazon "Tarifübersicht — Gebühren für Europa" (DE rate card PDF).
+// Countries: UK (£), DE (= CEP DE/PL/CZ column), FR, IT, ES (all €). Column order: [UK, DE, FR, IT, ES]
+// Envelopes use ACTUAL weight only. Parcels use max(actual, volumetric) where vol = L*W*H / 5000.
+const EU_STANDARD_ENVELOPE = [
+  { dims:[33,23,2.5], wt:0.020, name:'Light envelope',       fees:[1.83,2.07,2.75,3.23,2.77] },
+  { dims:[33,23,2.5], wt:0.040, name:'Light envelope',       fees:[1.87,2.11,2.76,3.26,2.84] },
+  { dims:[33,23,2.5], wt:0.060, name:'Light envelope',       fees:[1.89,2.13,2.78,3.28,2.87] },
+  { dims:[33,23,2.5], wt:0.080, name:'Light envelope',       fees:[2.07,2.26,3.30,3.39,3.21] },
+  { dims:[33,23,2.5], wt:0.100, name:'Light envelope',       fees:[2.08,2.28,3.32,3.41,3.23] },
+  { dims:[33,23,2.5], wt:0.210, name:'Standard envelope',    fees:[2.10,2.31,3.33,3.45,3.26] },
+  { dims:[33,23,2.5], wt:0.460, name:'Standard envelope',    fees:[2.16,2.42,3.77,3.64,3.45] },
+  { dims:[33,23,4],   wt:0.960, name:'Large envelope',       fees:[2.72,2.78,4.39,3.94,3.60] },
+  { dims:[33,23,6],   wt:0.960, name:'Extra-large envelope', fees:[2.94,3.16,4.72,4.17,3.85] },
+];
+const EU_STANDARD_PARCELS = [
+  { dims:[35,25,12], actualCap:3.9,  name:'Small parcel', bands:[
+      { wt:0.150, fees:[2.91,3.12,4.56,4.13,3.52] },
+      { wt:0.400, fees:[3.00,3.13,5.07,4.54,3.74] },
+      { wt:0.900, fees:[3.04,3.14,5.79,4.95,3.95] },
+      { wt:1.4,   fees:[3.05,3.15,5.87,5.11,4.21] },
+      { wt:1.9,   fees:[3.25,3.17,6.10,5.14,4.27] },
+      { wt:3.9,   fees:[3.27,4.28,7.80,5.16,5.50] },
+  ]},
+  { dims:[45,34,26], actualCap:11.9, name:'Standard parcel', bands:[
+      { wt:0.150, fees:[2.94,3.13,4.58,4.29,3.55] },
+      { wt:0.400, fees:[3.01,3.16,5.22,4.70,3.77] },
+      { wt:0.900, fees:[3.06,3.18,6.01,5.15,3.99] },
+      { wt:1.4,   fees:[3.26,3.67,6.41,5.26,4.85] },
+      { wt:1.9,   fees:[3.48,3.69,6.44,5.29,4.94] },
+      { wt:2.9,   fees:[3.49,4.29,7.08,5.30,4.98] },
+      { wt:3.9,   fees:[3.54,4.83,7.81,5.35,5.53] },
+      { wt:5.9,   fees:[3.56,4.96,8.22,5.38,5.96] },
+      { wt:8.9,   fees:[3.57,5.77,8.84,5.41,7.24] },
+      { wt:11.9,  fees:[3.58,6.39,9.38,6.25,7.85] },
+  ]},
+];
+const EU_LOWPRICE_ENVELOPE = [
+  { dims:[33,23,2.5], wt:0.020, name:'Light envelope',       fees:[1.46,1.61,2.24,2.64,2.15] },
+  { dims:[33,23,2.5], wt:0.040, name:'Light envelope',       fees:[1.50,1.64,2.26,2.65,2.21] },
+  { dims:[33,23,2.5], wt:0.060, name:'Light envelope',       fees:[1.52,1.66,2.27,2.67,2.23] },
+  { dims:[33,23,2.5], wt:0.080, name:'Light envelope',       fees:[1.67,1.80,2.79,2.79,2.55] },
+  { dims:[33,23,2.5], wt:0.100, name:'Light envelope',       fees:[1.70,1.83,2.81,2.81,2.59] },
+  { dims:[33,23,2.5], wt:0.210, name:'Standard envelope',    fees:[1.73,1.86,2.81,2.81,2.61] },
+  { dims:[33,23,2.5], wt:0.460, name:'Standard envelope',    fees:[1.87,2.02,3.31,3.04,2.85] },
+  { dims:[33,23,4],   wt:0.960, name:'Large envelope',       fees:[2.42,2.39,3.96,3.35,3.00] },
+  { dims:[33,23,6],   wt:0.960, name:'Extra-large envelope', fees:[2.65,2.78,4.31,3.59,3.23] },
+];
+const EU_LOWPRICE_PARCELS = [
+  { dims:[35,25,12], actualCap:3.9, name:'Small parcel', useVol:false, bands:[
+      { wt:0.150, fees:[2.67,2.78,4.31,3.59,3.23] },
+      { wt:0.400, fees:[2.70,2.99,4.71,3.91,3.46] },
+  ]},
+];
+
+const EU_CC = { UK:0, DE:1, FR:2, IT:3, ES:4 };
+const MARKET_META = {
+  US: { sym:'$', label:'Rynek USA (amazon.com) &mdash; stawki 2026', eu:false },
+  DE: { sym:'€', label:'Niemcy (amazon.de) &mdash; stawki CEP, od 17 kwietnia 2026', eu:true },
+  FR: { sym:'€', label:'Francja (amazon.fr) &mdash; od 17 kwietnia 2026', eu:true },
+  IT: { sym:'€', label:'Włochy (amazon.it) &mdash; od 17 kwietnia 2026', eu:true },
+  ES: { sym:'€', label:'Hiszpania (amazon.es) &mdash; od 17 kwietnia 2026', eu:true },
+  UK: { sym:'£', label:'Wielka Brytania (amazon.co.uk) &mdash; od 17 kwietnia 2026', eu:true },
+};
+// Low-Price eligibility price cap (incl. VAT per Amazon) — general categories.
+const EU_LOWPRICE_CAP = { UK:20, DE:20, FR:20, IT:20, ES:20 };
+// Standard VAT rates (%). Reduced rates apply to some categories (food/books/health) — field is editable.
+const EU_VAT = { DE:19, FR:20, IT:22, ES:21, UK:20 };
+
+// Monthly storage fees (rate card p.17). EUR markets (DE/FR/IT/ES): €/m³/month.
+// UK: £/ft³/month. Each entry [Jan–Sep, Oct–Dec]. Dangerous goods not modelled here.
+const EU_STORAGE = {
+  eur: { standard:[27.54, 52.20], apparel:[19.99, 29.23], oversize:[21.78, 34.49] },
+  UK:  { standard:[0.76, 1.51],   apparel:[0.62, 0.82],   oversize:[0.55, 0.87]   },
+};
+const M3_TO_FT3 = 35.3147;
+
+// Monthly storage per unit = box volume × rate. Returns {fee, rate, vol, unit, sizeClass, season}.
+function euStorageFee(L, W, H, isOversize) {
+  const isUK = currentMarket === 'UK';
+  const table = isUK ? EU_STORAGE.UK : EU_STORAGE.eur;
+  const season = parseInt(document.getElementById('storageSeason').value, 10) || 0;
+  const cat = document.getElementById('storageCategory').value;
+  const key = isOversize ? 'oversize' : (cat === 'apparel' ? 'apparel' : 'standard');
+  const rate = table[key][season];
+  const volM3 = (L * W * H) / 1e6;
+  const vol = isUK ? volM3 * M3_TO_FT3 : volM3;
+  return { fee: vol * rate, rate, vol, unit: isUK ? 'ft³' : 'm³', sizeClass: key, season };
+}
+
+function euFits(dimsDesc, limitDesc) {
+  return dimsDesc[0] <= limitDesc[0] && dimsDesc[1] <= limitDesc[1] && dimsDesc[2] <= limitDesc[2];
+}
+
+// Returns { tier, shipWeight (kg), fee, driver } or { tier:'oversize', fee:null }
+function euFee(L, W, H, actualKg, market, program) {
+  const dims = [L, W, H].sort((a, b) => b - a);
+  const ci = EU_CC[market];
+  const vol = (L * W * H) / 5000;
+  const envRows = program === 'lowprice' ? EU_LOWPRICE_ENVELOPE : EU_STANDARD_ENVELOPE;
+  const parRows = program === 'lowprice' ? EU_LOWPRICE_PARCELS  : EU_STANDARD_PARCELS;
+
+  for (const r of envRows) {
+    if (euFits(dims, r.dims) && actualKg <= r.wt) {
+      return { tier: r.name, shipWeight: actualKg, fee: r.fees[ci], driver: 'actual', dims: r.dims, isParcel: false };
+    }
+  }
+  for (const p of parRows) {
+    const useVol = p.useVol !== false;
+    if (euFits(dims, p.dims) && actualKg <= p.actualCap) {
+      const ship = useVol ? Math.max(actualKg, vol) : actualKg;
+      for (const b of p.bands) {
+        if (ship <= b.wt) {
+          return { tier: p.name, shipWeight: ship, fee: b.fees[ci], driver: (useVol && vol > actualKg) ? 'volumetric' : 'actual', dims: p.dims, isParcel: true };
+        }
+      }
+    }
+  }
+  return { tier: 'oversize', shipWeight: null, fee: null, driver: null, dims: null, isParcel: false };
+}
+
+// ==================== MARKET STATE ====================
+let currentMarket = 'US';
+let currentProgram = 'standard';
+let storageManualOverride = false;
+
+function curSym() { return MARKET_META[currentMarket].sym; }
+function isEU() { return MARKET_META[currentMarket].eu; }
+
+// ==================== FBA LOGIC ====================
+
+const selectedYear = '2026';
+let fbaFeeManualOverride = false;
+
+function classifyTier(length, width, height, weight_lbs) {
+  const dims = [length, width, height].sort((a, b) => b - a);
+  const L = dims[0], W = dims[1], H = dims[2];
+  const weight_oz = weight_lbs * 16;
+
+  if (weight_oz <= 16 && L <= 15 && W <= 12 && H <= 0.75) {
+    return 'small-standard';
+  }
+  if (weight_lbs <= 20 && L <= 18 && W <= 14 && H <= 8) {
+    return 'large-standard';
+  }
+  return 'oversize';
+}
+
+function calcShippingWeight(length, width, height, weight_lbs, tier) {
+  if (tier === 'small-standard') {
+    return { value: weight_lbs * 16, unit: 'oz' };
+  }
+  if (tier === 'large-standard') {
+    const dimWeight_lbs = (length * width * height) / 139;
+    const shipping_lbs = Math.max(weight_lbs, dimWeight_lbs);
+    return { value: shipping_lbs, unit: 'lbs' };
+  }
+  return null;
+}
+
+function calcOver3lb(shipping_lbs, priceTier, yearIndex) {
+  const base = FBA_LARGE_OVER3LB_BASE[priceTier][yearIndex];
+  const ozAbove3lb = (shipping_lbs - 3) * 16;
+  const intervals = Math.ceil(ozAbove3lb / 4);
+  return base + (intervals * 0.08);
+}
+
+function getFBAFee(tier, shipping_weight_value, tier_unit, priceTier, year) {
+  const yearIndex = year === '2025' ? 0 : 1;
+  if (tier === 'oversize') return null;
+
+  if (tier === 'small-standard') {
+    const oz = shipping_weight_value;
+    const row = FBA_SMALL_STANDARD.find(r => oz <= r.maxOz);
+    if (!row) return null;
+    return row.fees[priceTier][yearIndex];
+  }
+
+  if (tier === 'large-standard') {
+    const shipping_lbs = shipping_weight_value;
+    if (shipping_lbs > 3) {
+      return calcOver3lb(shipping_lbs, priceTier, yearIndex);
+    }
+    const shipping_oz = shipping_lbs * 16;
+    for (const row of FBA_LARGE_STANDARD) {
+      if (row.maxOz && shipping_oz <= row.maxOz) {
+        return row.fees[priceTier][yearIndex];
+      }
+      if (row.maxLbs && shipping_lbs <= row.maxLbs) {
+        return row.fees[priceTier][yearIndex];
+      }
+    }
+  }
+  return null;
+}
+
+// ==================== UI LOGIC ====================
+
+function v(id) {
+  const el = document.getElementById(id);
+  const val = parseFloat(el.value);
+  return isNaN(val) ? null : val;
+}
+
+function updateTierGauges(dimL_in, dimW_in, dimH_in, weight_lbs, tier) {
+  const badge = document.getElementById('tierBadge');
+  const toCm = (inches) => (inches * 2.54).toFixed(1);
+  const toKg = (lbs) => (lbs / 2.20462).toFixed(2);
+
+  // Reset state if no data
+  if (!tier || dimL_in === null) {
+    badge.className = 'tier-badge none';
+    badge.textContent = 'Wpisz wymiary powyżej';
+    ['L','W','H','Wt'].forEach(k => {
+      document.getElementById('gaugeFill' + k).style.width = '0%';
+      document.getElementById('gaugeInfo' + k).innerHTML = '—';
+    });
+    return;
+  }
+
+  // Update badge
+  if (tier === 'small-standard') {
+    badge.className = 'tier-badge small-std';
+    badge.textContent = 'Mały standard';
+  } else if (tier === 'large-standard') {
+    badge.className = 'tier-badge large-std';
+    badge.textContent = 'Duży standard';
+  } else {
+    badge.className = 'tier-badge oversize';
+    badge.textContent = 'Oversize';
+  }
+
+  // Sort dims (L >= W >= H) — same as classifyTier
+  const dims = [dimL_in, dimW_in, dimH_in].sort((a, b) => b - a);
+  const L = dims[0], W = dims[1], H = dims[2];
+
+  // Thresholds in inches & lbs
+  const SS = { L: 15, W: 12, H: 0.75, wt: 1 };   // Small Standard maxes
+  const LS = { L: 18, W: 14, H: 8,    wt: 20 };   // Large Standard maxes
+
+  // Scale max = Large Standard + 20% padding for oversize display
+  const scaleMax = { L: LS.L * 1.25, W: LS.W * 1.25, H: LS.H * 1.25, wt: LS.wt * 1.25 };
+
+  // Gauge configs: [value_in, ssLimit, lsLimit, scaleMax, suffix, convertFn, id]
+  const gauges = [
+    { val: L,          ss: SS.L,  ls: LS.L,  max: scaleMax.L,  unit: 'cm', convert: toCm, id: 'L' },
+    { val: W,          ss: SS.W,  ls: LS.W,  max: scaleMax.W,  unit: 'cm', convert: toCm, id: 'W' },
+    { val: H,          ss: SS.H,  ls: LS.H,  max: scaleMax.H,  unit: 'cm', convert: toCm, id: 'H' },
+    { val: weight_lbs, ss: SS.wt, ls: LS.wt, max: scaleMax.wt, unit: 'kg', convert: toKg, id: 'Wt' },
+  ];
+
+  gauges.forEach(g => {
+    const fill = document.getElementById('gaugeFill' + g.id);
+    const ssMarker = document.getElementById('gaugeSS' + g.id);
+    const lsMarker = document.getElementById('gaugeLS' + g.id);
+    const info = document.getElementById('gaugeInfo' + g.id);
+
+    // Position markers as % of scale
+    const ssPct = (g.ss / g.max) * 100;
+    const lsPct = (g.ls / g.max) * 100;
+    ssMarker.style.left = ssPct + '%';
+    lsMarker.style.left = lsPct + '%';
+
+    // Fill width (clamped to 100%)
+    const fillPct = Math.min((g.val / g.max) * 100, 100);
+    fill.style.width = fillPct + '%';
+
+    // Color based on where the value sits
+    const ratioToLS = g.val / g.ls;
+    const ratioToSS = g.val / g.ss;
+
+    if (g.val > g.ls) {
+      fill.className = 'gauge-fill over';
+    } else if (ratioToLS >= 0.9) {
+      fill.className = 'gauge-fill danger';
+    } else if (g.val > g.ss) {
+      fill.className = 'gauge-fill warn';
+    } else {
+      fill.className = 'gauge-fill safe';
+    }
+
+    // Info text — show current value + delta to relevant boundary
+    const valMetric = g.convert(g.val);
+    let deltaHTML = '';
+
+    if (tier === 'small-standard') {
+      // Show how much room to SS boundary
+      const remaining = g.ss - g.val;
+      const remainMetric = g.convert(Math.abs(remaining));
+      if (remaining > 0) {
+        const pctUsed = (g.val / g.ss) * 100;
+        let cls = 'safe';
+        if (pctUsed >= 90) cls = 'danger';
+        else if (pctUsed >= 70) cls = 'warn';
+        deltaHTML = `<div class="delta ${cls}">${remainMetric} ${g.unit} do LS</div>`;
+      } else {
+        deltaHTML = `<div class="delta danger">przy limicie SS</div>`;
+      }
+    } else if (tier === 'large-standard') {
+      // Show distance to LS boundary
+      const remaining = g.ls - g.val;
+      const remainMetric = g.convert(Math.abs(remaining));
+      if (remaining > 0) {
+        const pctUsed = (g.val / g.ls) * 100;
+        let cls = 'safe';
+        if (pctUsed >= 90) cls = 'danger';
+        else if (pctUsed >= 70) cls = 'warn';
+        deltaHTML = `<div class="delta ${cls}">${remainMetric} ${g.unit} do OS</div>`;
+      } else {
+        deltaHTML = `<div class="delta danger">przy limicie LS</div>`;
+      }
+      // Also note if this dimension is what pushes past SS
+      if (g.val > g.ss) {
+        const overSS = g.convert(g.val - g.ss);
+        deltaHTML += `<div class="delta warn">+${overSS} ${g.unit} ponad SS</div>`;
+      }
+    } else {
+      // Oversize — show how much over LS
+      const over = g.val - g.ls;
+      if (over > 0) {
+        const overMetric = g.convert(over);
+        deltaHTML = `<div class="delta danger">+${overMetric} ${g.unit} ponad LS</div>`;
+      } else {
+        deltaHTML = `<div class="delta safe">w LS</div>`;
+      }
+    }
+
+    info.innerHTML = `<span class="val-now">${valMetric} ${g.unit}</span>${deltaHTML}`;
+  });
+}
+
+function updateWeightBands(tier, shippingWeight, priceTier, actualWeight_lbs, dimWeight_lbs) {
+  const section = document.getElementById('wbSection');
+  const track = document.getElementById('wbTrack');
+  const savings = document.getElementById('wbSavings');
+  const tierLabel = document.getElementById('wbTierLabel');
+  const yearIndex = 1; // 2026
+  const dimDominates = tier === 'large-standard' && dimWeight_lbs !== null && actualWeight_lbs !== null && dimWeight_lbs > actualWeight_lbs;
+
+  if (!tier || tier === 'oversize' || !shippingWeight) {
+    section.style.display = 'none';
+    return;
+  }
+
+  section.style.display = 'block';
+
+  const toKg = (lbs) => (lbs / 2.20462).toFixed(2);
+  const ozToG = (oz) => (oz * 28.3495).toFixed(0);
+  const lbsToG = (lbs) => (lbs * 453.592).toFixed(0);
+
+  // Build ALL bands for current tier (unified in lbs for comparison)
+  let allBands = [];
+  let currentVal; // shipping weight in lbs (always)
+
+  if (tier === 'small-standard') {
+    tierLabel.textContent = '— Mały standard (waga wysyłkowa)';
+    currentVal = shippingWeight.value / 16; // convert oz to lbs for unified comparison
+    let prevOz = 0;
+    FBA_SMALL_STANDARD.forEach(row => {
+      allBands.push({
+        min: prevOz / 16,
+        max: row.maxOz / 16,
+        label: `${prevOz}–${row.maxOz} oz`,
+        metric: `${ozToG(prevOz)}–${ozToG(row.maxOz)} g`,
+        fee: row.fees[priceTier][yearIndex],
+      });
+      prevOz = row.maxOz;
+    });
+  } else if (tier === 'large-standard') {
+    tierLabel.textContent = '— Duży standard (waga wysyłkowa)';
+    currentVal = shippingWeight.value; // already in lbs
+
+    // Sub-3lb bands from table
+    let prevLbs = 0;
+    for (const row of FBA_LARGE_STANDARD) {
+      const maxLbs = row.maxOz ? row.maxOz / 16 : row.maxLbs;
+      const minLbs = prevLbs;
+      const fee = row.fees[priceTier][yearIndex];
+      if (row.maxOz) {
+        allBands.push({
+          min: minLbs, max: maxLbs,
+          label: `${(minLbs*16).toFixed(0)}–${row.maxOz} oz`,
+          metric: `${ozToG(minLbs*16)}–${ozToG(row.maxOz)} g`,
+          fee,
+        });
+      } else {
+        allBands.push({
+          min: minLbs, max: maxLbs,
+          label: `${minLbs}–${maxLbs} lb`,
+          metric: `${toKg(minLbs)}–${toKg(maxLbs)} kg`,
+          fee,
+        });
+      }
+      prevLbs = maxLbs;
+    }
+
+    // 3+ lb bands — fee changes every 4oz = 0.25lb
+    if (currentVal > 2.5) { // show 3+ bands when weight is close or above 3lb
+      const startLb = 3;
+      const endLb = Math.min(Math.max(Math.ceil(currentVal) + 1, 4), 20);
+      for (let q = 0; q < (endLb - startLb) * 4; q++) {
+        const bMin = startLb + q * 0.25;
+        const bMax = bMin + 0.25;
+        if (bMax > 20) break;
+        const fee = calcOver3lb(bMin + 0.001, priceTier, yearIndex);
+        allBands.push({
+          min: bMin, max: bMax,
+          label: `${bMin.toFixed(2)}–${bMax.toFixed(2)} lb`,
+          metric: `${toKg(bMin)}–${toKg(bMax)} kg`,
+          fee,
+        });
+      }
+    }
+  }
+
+  // Find current band index
+  let currentIdx = allBands.findIndex(b => currentVal <= b.max);
+  if (currentIdx === -1) currentIdx = allBands.length - 1;
+
+  // Window: always show 7 bands, centered on current
+  const TOTAL_VISIBLE = 7;
+  const half = Math.floor(TOTAL_VISIBLE / 2);
+  let winStart = currentIdx - half;
+  let winEnd = currentIdx + half;
+  // Clamp and shift to keep TOTAL_VISIBLE bands
+  if (winStart < 0) { winEnd = Math.min(allBands.length - 1, winEnd - winStart); winStart = 0; }
+  if (winEnd >= allBands.length) { winStart = Math.max(0, winStart - (winEnd - allBands.length + 1)); winEnd = allBands.length - 1; }
+  const visibleBands = allBands.slice(winStart, winEnd + 1);
+  const visCurrentIdx = currentIdx - winStart;
+
+  // Render bands
+  let trackHTML = '';
+  visibleBands.forEach((band, i) => {
+    let cls = 'past';
+    if (i === visCurrentIdx) cls = 'current';
+    else if (i > visCurrentIdx) cls = 'future';
+    const flex = i === visCurrentIdx ? 2.5 : 1;
+    trackHTML += `<div class="wb-band ${cls}" style="flex:${flex}" title="${band.label} → $${band.fee.toFixed(2)}">
+      <span class="wb-fee">$${band.fee.toFixed(2)}</span>
+      <span class="wb-range">${band.metric}</span>
+    </div>`;
+  });
+  // Ellipsis indicators
+  if (winStart > 0) {
+    trackHTML = `<div class="wb-band past" style="flex:0.4;font-size:0.7rem;justify-content:center;">…</div>` + trackHTML;
+  }
+  if (winEnd < allBands.length - 1) {
+    trackHTML += `<div class="wb-band future" style="flex:0.4;font-size:0.7rem;justify-content:center;">…</div>`;
+  }
+  track.innerHTML = trackHTML;
+
+  // Savings cards: [cheaper] [current] [next] — current in the middle
+  let savingsHTML = '';
+  const currentBand = allBands[currentIdx];
+
+  // Left: drop to cheaper band
+  if (currentIdx > 0) {
+    const prevBand = allBands[currentIdx - 1];
+    const save = currentBand.fee - prevBand.fee;
+    const weightDrop = currentVal - currentBand.min;
+    const dropG = lbsToG(weightDrop);
+    const dropKg = toKg(weightDrop);
+    let dropLabel;
+    if (dimDominates) {
+      // Dimensional weight drives shipping weight — user needs to reduce dimensions
+      const targetShipLbs = currentBand.min - 0.001;
+      const targetVolume = targetShipLbs * 139;
+      dropLabel = `Decyduje waga wymiarowa — zmniejsz objętość`;
+    } else {
+      dropLabel = weightDrop < 0.01
+        ? `Zmniejsz wagę o < 1 g`
+        : weightDrop < 0.1
+          ? `Zmniejsz wagę o ${dropG} g`
+          : `Zmniejsz wagę o ${dropKg} kg (${weightDrop.toFixed(2)} lb)`;
+    }
+
+    savingsHTML += `<div class="wb-card save">
+      <div class="wb-card-label">Zejdź do tańszego progu</div>
+      <div class="wb-card-value">−$${save.toFixed(2)}</div>
+      <div class="wb-card-detail">${dropLabel} → $${prevBand.fee.toFixed(2)}</div>
+    </div>`;
+  }
+
+  // Center: current band
+  const driverNote = dimDominates
+    ? `<div class="wb-card-driver">📐 Decyduje waga wymiarowa</div>`
+    : (tier === 'large-standard' && actualWeight_lbs !== null && dimWeight_lbs !== null
+      ? `<div class="wb-card-driver">⚖️ Decyduje waga rzeczywista</div>`
+      : '');
+  savingsHTML += `<div class="wb-card current">
+    <div class="wb-card-label">Bieżący próg</div>
+    <div class="wb-card-value">$${currentBand.fee.toFixed(2)}</div>
+    <div class="wb-card-detail">${currentBand.label} (${currentBand.metric})</div>
+    ${driverNote}
+  </div>`;
+
+  // Right: next band cost
+  if (currentIdx < allBands.length - 1) {
+    const nextBand = allBands[currentIdx + 1];
+    const extra = nextBand.fee - currentBand.fee;
+    const headroom = currentBand.max - currentVal;
+    const hrG = lbsToG(headroom);
+    const hrKg = toKg(headroom);
+    let hrLabel;
+    if (dimDominates) {
+      hrLabel = `${hrKg} kg zapasu wagi wys. (wymiarowa)`;
+    } else {
+      hrLabel = headroom < 0.1
+        ? `${hrG} g zapasu`
+        : `${hrKg} kg (${headroom.toFixed(2)} lb) zapasu`;
+    }
+
+    savingsHTML += `<div class="wb-card cost">
+      <div class="wb-card-label">Następny próg kosztuje</div>
+      <div class="wb-card-value">+$${extra.toFixed(2)}</div>
+      <div class="wb-card-detail">${hrLabel}</div>
+    </div>`;
+  }
+
+  savings.innerHTML = savingsHTML;
+}
+
+function getWeightBandInfo(tier, shippingWeight, priceTier) {
+  const yearIndex = 1; // 2026 only
+  const toKg = (lbs) => (lbs / 2.20462).toFixed(2);
+  const ozToKg = (oz) => (oz / 16 / 2.20462).toFixed(2);
+
+  if (tier === 'small-standard') {
+    const oz = shippingWeight.value; // in oz
+    const idx = FBA_SMALL_STANDARD.findIndex(r => oz <= r.maxOz);
+    if (idx === -1) return null;
+    const row = FBA_SMALL_STANDARD[idx];
+    const prevMax = idx > 0 ? FBA_SMALL_STANDARD[idx - 1].maxOz : 0;
+    const currentFee = row.fees[priceTier][yearIndex];
+    const bandLabel = `${prevMax > 0 ? prevMax : 0}–${row.maxOz} oz (${ozToKg(prevMax > 0 ? prevMax : 0)}–${ozToKg(row.maxOz)} kg)`;
+
+    let nextInfo = '';
+    if (idx < FBA_SMALL_STANDARD.length - 1) {
+      const nextRow = FBA_SMALL_STANDARD[idx + 1];
+      const nextFee = nextRow.fees[priceTier][yearIndex];
+      const diff = nextFee - currentFee;
+      const headroom = row.maxOz - oz;
+      nextInfo = ` | Następny próg przy ${row.maxOz} oz (${ozToKg(row.maxOz)} kg) → +$${diff.toFixed(2)} | Zapas: ${headroom.toFixed(1)} oz (${(headroom / 16 / 2.20462).toFixed(2)} kg)`;
+    } else {
+      nextInfo = ' | Najwyższy próg wagi (Mały standard)';
+    }
+
+    return `Próg wagi: <strong>${bandLabel}</strong> → $${currentFee.toFixed(2)}${nextInfo}`;
+  }
+
+  if (tier === 'large-standard') {
+    const lbs = shippingWeight.value; // in lbs
+
+    if (lbs > 3) {
+      const currentFee = calcOver3lb(lbs, priceTier, yearIndex);
+      const intervals = Math.ceil((lbs - 3) * 16 / 4);
+      const nextBoundLbs = 3 + ((intervals * 4) / 16);
+      const headroom = nextBoundLbs - lbs;
+      const nextFee = currentFee + 0.08;
+      return `Próg wagi: <strong>3+ lbs (${toKg(3)}+ kg)</strong> → $${currentFee.toFixed(2)} (baza + ${intervals} × $0.08) | Next +$0.08 at ${nextBoundLbs.toFixed(2)} lbs (${toKg(nextBoundLbs)} kg) | Zapas: ${headroom.toFixed(2)} lbs (${(headroom / 2.20462).toFixed(2)} kg)`;
+    }
+
+    const shipping_oz = lbs * 16;
+    let matchIdx = -1;
+    for (let i = 0; i < FBA_LARGE_STANDARD.length; i++) {
+      const row = FBA_LARGE_STANDARD[i];
+      if (row.maxOz && shipping_oz <= row.maxOz) { matchIdx = i; break; }
+      if (row.maxLbs && lbs <= row.maxLbs) { matchIdx = i; break; }
+    }
+    if (matchIdx === -1) return null;
+
+    const row = FBA_LARGE_STANDARD[matchIdx];
+    const currentFee = row.fees[priceTier][yearIndex];
+    const prevRow = matchIdx > 0 ? FBA_LARGE_STANDARD[matchIdx - 1] : null;
+
+    let bandMin, bandMax, bandMinKg, bandMaxKg;
+    if (row.maxOz) {
+      bandMin = prevRow ? (prevRow.maxOz || (prevRow.maxLbs * 16)) : 0;
+      bandMax = row.maxOz;
+      bandMinKg = (bandMin / 16 / 2.20462).toFixed(2);
+      bandMaxKg = (bandMax / 16 / 2.20462).toFixed(2);
+      const bandLabel = `${bandMin}–${bandMax} oz (${bandMinKg}–${bandMaxKg} kg)`;
+      const headroomOz = bandMax - shipping_oz;
+
+      let nextInfo = '';
+      if (matchIdx < FBA_LARGE_STANDARD.length - 1) {
+        const nextFee = FBA_LARGE_STANDARD[matchIdx + 1].fees[priceTier][yearIndex];
+        const diff = nextFee - currentFee;
+        nextInfo = ` | Następny próg → +$${diff.toFixed(2)} | Zapas: ${headroomOz.toFixed(1)} oz (${(headroomOz / 16 / 2.20462).toFixed(2)} kg)`;
+      }
+      return `Próg wagi: <strong>${bandLabel}</strong> → $${currentFee.toFixed(2)}${nextInfo}`;
+    } else {
+      bandMin = prevRow ? (prevRow.maxLbs || (prevRow.maxOz / 16)) : 0;
+      bandMax = row.maxLbs;
+      bandMinKg = toKg(bandMin);
+      bandMaxKg = toKg(bandMax);
+      const bandLabel = `${bandMin}–${bandMax} lbs (${bandMinKg}–${bandMaxKg} kg)`;
+      const headroomLbs = bandMax - lbs;
+
+      let nextInfo = '';
+      if (matchIdx < FBA_LARGE_STANDARD.length - 1) {
+        const nextFee = FBA_LARGE_STANDARD[matchIdx + 1].fees[priceTier][yearIndex];
+        const diff = nextFee - currentFee;
+        nextInfo = ` | Następny próg → +$${diff.toFixed(2)} | Zapas: ${headroomLbs.toFixed(2)} lbs (${(headroomLbs / 2.20462).toFixed(2)} kg)`;
+      } else {
+        // Next is 3+ lb formula
+        const base3 = FBA_LARGE_OVER3LB_BASE[priceTier][yearIndex];
+        const diff = base3 + 0.08 - currentFee;
+        nextInfo = ` | Następny: wzór 3+ lb → +$${diff.toFixed(2)} | Zapas: ${headroomLbs.toFixed(2)} lbs (${(headroomLbs / 2.20462).toFixed(2)} kg)`;
+      }
+      return `Próg wagi: <strong>${bandLabel}</strong> → $${currentFee.toFixed(2)}${nextInfo}`;
+    }
+  }
+
+  return null;
+}
+
+function onFbaFeeManual() {
+  fbaFeeManualOverride = true;
+  calc();
+}
+
+function autoDetectPriceTier(price) {
+  if (price === null) return;
+  const sel = document.getElementById('priceTier');
+  if (price < 10) sel.value = '<10';
+  else if (price <= 50) sel.value = '10-50';
+  else sel.value = '>50';
+}
+
+function formatUSD(n) {
+  if (n === null || isNaN(n)) return '—';
+  return curSym() + n.toFixed(2);
+}
+
+function formatPct(n) {
+  if (n === null || isNaN(n)) return '—';
+  return n.toFixed(1) + '%';
+}
+
+// EU container tiers for proximity (the size box that, once exceeded, bumps you to the next tier).
+const EU_ZONES = {
+  envelope:         { name:'Envelope',        dims:[33,23,6],  wtCap:0.96, basis:'actual',   next:{ name:'Small parcel',    dims:[35,25,12], wt:3.9 } },
+  'Small parcel':   { name:'Small parcel',    dims:[35,25,12], wtCap:3.9,  basis:'billable', next:{ name:'Standard parcel', dims:[45,34,26], wt:11.9 } },
+  'Standard parcel':{ name:'Standard parcel', dims:[45,34,26], wtCap:11.9, basis:'billable', next:{ name:'Oversize', dims:null, wt:null } },
+};
+const PL_TIER = {
+  'Light envelope':'Lekka koperta','Standard envelope':'Standardowa koperta',
+  'Large envelope':'Duża koperta','Extra-large envelope':'Bardzo duża koperta',
+  'Small parcel':'Mała paczka','Standard parcel':'Standardowa paczka',
+  'Envelope':'Koperta','Oversize':'Ponadgabaryt','oversize':'Ponadgabaryt'
+};
+function plTier(n){ return PL_TIER[n] || n; }
+function euZoneFor(tierName) {
+  if (tierName === 'Small parcel') return EU_ZONES['Small parcel'];
+  if (tierName === 'Standard parcel') return EU_ZONES['Standard parcel'];
+  return EU_ZONES.envelope; // all envelope variants share the envelope zone
+}
+
+function euFmtWt(kg) { return kg < 1 ? (kg * 1000).toFixed(0) + ' g' : kg.toFixed(2) + ' kg'; }
+
+// Build the fee-by-weight-band list for the matched tier.
+function euBandsForTier(res, market) {
+  const ci = EU_CC[market];
+  const envRows = currentProgram === 'lowprice' ? EU_LOWPRICE_ENVELOPE : EU_STANDARD_ENVELOPE;
+  const parRows = currentProgram === 'lowprice' ? EU_LOWPRICE_PARCELS  : EU_STANDARD_PARCELS;
+  let prev = 0; const out = [];
+  if (res.isParcel) {
+    const p = parRows.find(x => x.name === res.tier);
+    if (!p) return out;
+    for (const b of p.bands) { out.push({ min: prev, max: b.wt, fee: b.fees[ci] }); prev = b.wt; }
+  } else {
+    const same = envRows.filter(r => r.dims[0] === res.dims[0] && r.dims[1] === res.dims[1] && r.dims[2] === res.dims[2]);
+    for (const r of same) { out.push({ min: prev, max: r.wt, fee: r.fees[ci] }); prev = r.wt; }
+  }
+  return out;
+}
+
+function euRenderBands(bands, shipWeight, sym, driver, isParcel) {
+  const track = document.getElementById('euWbTrack');
+  const savings = document.getElementById('euWbSavings');
+  const label = document.getElementById('euWbTierLabel');
+  label.textContent = isParcel ? '— waga rozliczeniowa = większa z rzeczywistej / wolumetrycznej' : '— waga rzeczywista';
+  if (!bands.length) { document.getElementById('euWbSection').style.display = 'none'; return; }
+  document.getElementById('euWbSection').style.display = 'block';
+
+  let idx = bands.findIndex(b => shipWeight <= b.max);
+  if (idx === -1) idx = bands.length - 1;
+
+  let html = '';
+  bands.forEach((b, i) => {
+    const cls = i < idx ? 'past' : i === idx ? 'current' : 'future';
+    const flex = i === idx ? 2.2 : 1;
+    html += `<div class="wb-band ${cls}" style="flex:${flex}" title="${euFmtWt(b.min)}–${euFmtWt(b.max)} → ${sym}${b.fee.toFixed(2)}">
+      <span class="wb-fee">${sym}${b.fee.toFixed(2)}</span><span class="wb-range">≤${euFmtWt(b.max)}</span></div>`;
+  });
+  track.innerHTML = html;
+
+  const cur = bands[idx];
+  let s = '';
+  if (idx > 0) {
+    const prev = bands[idx - 1];
+    const save = cur.fee - prev.fee;
+    const drop = shipWeight - cur.min;
+    const dropTxt = driver === 'volumetric' ? 'zmniejsz objętość opakowania' : (drop < 0.1 ? `−${(drop * 1000).toFixed(0)} g` : `−${euFmtWt(drop)}`);
+    if (save > 0.001) {
+      s += `<div class="wb-card save"><div class="wb-card-label">Zejdź do tańszego progu</div>
+        <div class="wb-card-value">−${sym}${save.toFixed(2)}</div>
+        <div class="wb-card-detail">${dropTxt} → ${sym}${prev.fee.toFixed(2)}</div></div>`;
+    }
+  }
+  s += `<div class="wb-card current"><div class="wb-card-label">Bieżący próg</div>
+    <div class="wb-card-value">${sym}${cur.fee.toFixed(2)}</div>
+    <div class="wb-card-detail">≤ ${euFmtWt(cur.max)} (rozliczeniowo ${euFmtWt(shipWeight)})</div>
+    ${driver === 'volumetric' ? '<div class="wb-card-driver">📐 Decyduje waga wolumetryczna</div>' : ''}</div>`;
+  if (idx < bands.length - 1) {
+    const nx = bands[idx + 1];
+    const extra = nx.fee - cur.fee;
+    const head = cur.max - shipWeight;
+    s += `<div class="wb-card cost"><div class="wb-card-label">Następny próg kosztuje</div>
+      <div class="wb-card-value">+${sym}${extra.toFixed(2)}</div>
+      <div class="wb-card-detail">${head < 0.1 ? (head * 1000).toFixed(0) + ' g' : euFmtWt(head)} zapasu</div></div>`;
+  }
+  savings.innerHTML = s;
+}
+
+function euProximityReset() {
+  const badge = document.getElementById('euTierBadge');
+  badge.className = 'tier-badge none';
+  badge.textContent = 'Wpisz wymiary powyżej';
+  document.getElementById('euDriverChip').style.display = 'none';
+  ['L', 'W', 'H', 'Wt'].forEach(k => {
+    document.getElementById('euFill' + k).style.width = '0%';
+    document.getElementById('euInfo' + k).innerHTML = '—';
+  });
+  document.getElementById('euNextTier').innerHTML = '';
+  document.getElementById('euWbSection').style.display = 'none';
+}
+
+function updateEuProximity(L, W, H, actualKg, res) {
+  const badge = document.getElementById('euTierBadge');
+  const chip = document.getElementById('euDriverChip');
+  const vol = (L * W * H) / 5000;
+
+  if (res.tier === 'oversize') {
+    badge.className = 'tier-badge oversize';
+    badge.textContent = 'Ponadgabaryt (opłata ręczna)';
+    chip.style.display = 'none';
+    ['L', 'W', 'H', 'Wt'].forEach(k => {
+      document.getElementById('euFill' + k).style.width = '0%';
+      document.getElementById('euInfo' + k).innerHTML = '—';
+    });
+    document.getElementById('euNextTier').innerHTML = 'Powyżej Standardowej paczki (45×34×26 cm, ≤ 11,9 kg) — to próg oversize. Wpisz opłatę FBA ręcznie z cennika.';
+    document.getElementById('euWbSection').style.display = 'none';
+    return;
+  }
+
+  badge.className = 'tier-badge ' + (res.isParcel ? 'large-std' : 'small-std');
+  badge.textContent = plTier(res.tier);
+  chip.style.display = 'inline-block';
+  if (res.driver === 'volumetric') {
+    chip.className = 'driver-chip vol';
+    chip.textContent = '📐 Decyduje waga wolumetryczna — zmniejsz opakowanie, nie produkt, aby obniżyć opłatę';
+  } else {
+    chip.className = 'driver-chip act';
+    chip.textContent = '⚖️ Decyduje waga rzeczywista';
+  }
+
+  const zone = euZoneFor(res.tier);
+  const dims = [L, W, H].sort((a, b) => b - a);
+  const zdims = [...zone.dims].sort((a, b) => b - a);
+  const billable = zone.basis === 'billable' ? Math.max(actualKg, vol) : actualKg;
+  document.getElementById('euWtLabel').textContent = zone.basis === 'billable' ? 'Waga*' : 'Waga';
+
+  const gauges = [
+    { id: 'L', val: dims[0], cap: zdims[0], unit: 'cm' },
+    { id: 'W', val: dims[1], cap: zdims[1], unit: 'cm' },
+    { id: 'H', val: dims[2], cap: zdims[2], unit: 'cm' },
+    { id: 'Wt', val: billable, cap: zone.wtCap, unit: 'kg' },
+  ];
+  gauges.forEach(g => {
+    const fill = document.getElementById('euFill' + g.id);
+    const cap = document.getElementById('euCap' + g.id);
+    const info = document.getElementById('euInfo' + g.id);
+    const scale = g.cap * 1.15;
+    cap.style.left = (g.cap / scale * 100) + '%';
+    fill.style.width = Math.min(g.val / scale * 100, 100) + '%';
+    const ratio = g.val / g.cap;
+    const cls = ratio >= 0.9 ? 'danger' : ratio >= 0.7 ? 'warn' : 'safe';
+    fill.className = 'gauge-fill ' + cls;
+    const head = Math.max(g.cap - g.val, 0);
+    const headTxt = g.unit === 'kg' ? euFmtWt(head) : head.toFixed(1) + ' cm';
+    const valTxt = g.unit === 'kg' ? euFmtWt(g.val) : g.val.toFixed(1) + ' cm';
+    info.innerHTML = `<span class="val-now">${valTxt}</span><div class="delta ${cls}">${headTxt} do limitu</div>`;
+  });
+
+  const nx = zone.next;
+  const capStr = `${zone.dims[0]}×${zone.dims[1]}×${zone.dims[2]} cm, ≤ ${zone.wtCap} kg`;
+  document.getElementById('euNextTier').innerHTML = nx.dims
+    ? `Limit progu <strong>${plTier(zone.name)}</strong>: ${capStr}. Przekroczysz dowolny wymiar lub wagę → <strong>${plTier(nx.name)}</strong> (${nx.dims[0]}×${nx.dims[1]}×${nx.dims[2]} cm, ≤ ${nx.wt} kg).`
+    : `Limit progu <strong>${plTier(zone.name)}</strong>: ${capStr}. Przekroczysz limit → <strong>Ponadgabaryt</strong> (opłata ręczna).`;
+
+  euRenderBands(euBandsForTier(res, currentMarket), res.shipWeight, curSym(), res.driver, res.isParcel);
+}
+
+function computeEuFba(dimL, dimW, dimH, weight, price) {
+  const fbaInfoEl = document.getElementById('fbaInfo');
+  const oversizeEl = document.getElementById('oversizeWarn');
+  const fbaInput = document.getElementById('fbaFee');
+  const euNoteEl = document.getElementById('euNote');
+  const wbInfo = document.getElementById('weightBandInfo');
+  wbInfo.style.display = 'none';
+
+  if (dimL === null || dimW === null || dimH === null || weight === null) {
+    fbaInfoEl.style.display = 'none';
+    oversizeEl.classList.remove('show');
+    euNoteEl.style.display = 'none';
+    document.getElementById('storageHint').innerHTML = '';
+    euProximityReset();
+    return;
+  }
+
+  const sym = curSym();
+  const res = euFee(dimL, dimW, dimH, weight, currentMarket, currentProgram);
+  const vol = (dimL * dimW * dimH) / 5000;
+  fbaInfoEl.style.display = 'block';
+  updateEuProximity(dimL, dimW, dimH, weight, res);
+
+  // Monthly storage per unit = box volume × €/m³ (or £/ft³) rate
+  const st = euStorageFee(dimL, dimW, dimH, res.tier === 'oversize');
+  const stInput = document.getElementById('storage');
+  if (!storageManualOverride) {
+    stInput.value = st.fee.toFixed(2);
+    stInput.classList.add('auto-filled');
+  }
+  const seasonLbl = st.season === 1 ? 'Paź–Gru' : 'Sty–Wrz';
+  const classLbl = st.sizeClass === 'oversize' ? 'oversize' : (st.sizeClass === 'apparel' ? 'odzież' : 'standard');
+  document.getElementById('storageHint').innerHTML =
+    `Magazyn/mies. (auto): objętość <strong>${st.vol.toFixed(4)} ${st.unit}</strong> × ${sym}${st.rate.toFixed(2)}/${st.unit} (${seasonLbl}, ${classLbl}) = <strong>${sym}${st.fee.toFixed(2)}/szt.</strong>`;
+
+  const fmtKg = (kg) => kg < 1 ? (kg * 1000).toFixed(0) + ' g' : kg.toFixed(2) + ' kg';
+
+  let noteHTML = '';
+  const capNote = currentProgram === 'lowprice'
+    ? `<div>Low-Price dotyczy produktów w cenie <strong>≤ ${sym}${EU_LOWPRICE_CAP[currentMarket]}</strong> z VAT (kategorie ogólne).</div>`
+    : '';
+
+  if (res.tier === 'oversize') {
+    document.getElementById('detectedTier').textContent = 'PONADGABARYT';
+    document.getElementById('detectedTier').className = 'value warn';
+    document.getElementById('detectedWeight').textContent = '—';
+    document.getElementById('detectedFee').textContent = 'Ręcznie';
+    oversizeEl.textContent = currentProgram === 'lowprice'
+      ? '⚠ Poza zakresem Low-Price (maks. Mała paczka ≤ 400 g). Przełącz na Standard lub wpisz opłatę FBA ręcznie.'
+      : '⚠ Powyżej rozmiaru Standardowa paczka (próg oversize). Wpisz opłatę FBA ręcznie z cennika.';
+    oversizeEl.classList.add('show');
+    noteHTML = capNote;
+  } else {
+    oversizeEl.classList.remove('show');
+    document.getElementById('detectedTier').textContent = plTier(res.tier);
+    document.getElementById('detectedTier').className = 'value';
+    document.getElementById('detectedWeight').textContent = fmtKg(res.shipWeight);
+    document.getElementById('detectedFee').textContent = sym + res.fee.toFixed(2);
+    if (!fbaFeeManualOverride) {
+      fbaInput.value = res.fee.toFixed(2);
+      fbaInput.classList.add('auto-filled');
+    }
+    const driverNote = res.driver === 'volumetric'
+      ? `<div class="warn">📐 Waga rozliczeniowa = wolumetryczna ${fmtKg(vol)} (większa niż rzeczywista ${fmtKg(weight)}).</div>`
+      : `<div>Waga rozliczeniowa = rzeczywista ${fmtKg(weight)}${res.tier.includes('parcel') ? ` (volumetric ${fmtKg(vol)})` : ''}.</div>`;
+    noteHTML = driverNote + capNote;
+  }
+
+  noteHTML += `<div style="margin-top:4px;">Uwaga: Amazon dolicza <strong>+1,5% dopłaty paliwowej i logistycznej</strong> do opłat za wysyłkę od 17 kwietnia 2026 — zweryfikuj z fakturą.</div>`;
+  euNoteEl.innerHTML = noteHTML;
+  euNoteEl.style.display = 'block';
+}
+
+function onMarketChange() {
+  currentMarket = document.getElementById('market').value;
+  const meta = MARKET_META[currentMarket];
+  document.getElementById('headerSub').innerHTML = meta.label;
+
+  // Currency symbols on all money inputs
+  document.querySelectorAll('.cur-sym').forEach(el => { el.textContent = meta.sym; });
+
+  // Show/hide market-specific UI
+  document.getElementById('programToggle').style.display = meta.eu ? 'block' : 'none';
+  document.getElementById('priceTierField').style.display = meta.eu ? 'none' : 'block';
+  document.getElementById('proximitySection').style.display = meta.eu ? 'none' : 'block';
+  document.getElementById('euProximitySection').style.display = meta.eu ? 'block' : 'none';
+  document.getElementById('euRevenueFields').style.display = meta.eu ? 'block' : 'none';
+  document.getElementById('netLabelTag').style.display = meta.eu ? 'inline' : 'none';
+  document.getElementById('grossHint').style.display = meta.eu ? 'block' : 'none';
+  document.getElementById('euStorageControls').style.display = meta.eu ? 'block' : 'none';
+  document.getElementById('imperialDisplay').style.display = 'none';
+
+  // EU auto-fills storage from size; US leaves it manual
+  storageManualOverride = false;
+  const stEl = document.getElementById('storage');
+  stEl.classList.remove('auto-filled');
+  if (!meta.eu) document.getElementById('storageHint').innerHTML = '';
+
+  // EU: seed VAT default, derive gross from any existing net price
+  if (meta.eu) {
+    document.getElementById('vatPct').value = EU_VAT[currentMarket];
+    const net = v('sellingPrice');
+    if (net !== null) {
+      document.getElementById('grossPrice').value = (net * (1 + EU_VAT[currentMarket] / 100)).toFixed(2);
+    }
+  }
+
+  // Re-enable auto-fill for the new market
+  fbaFeeManualOverride = false;
+  document.getElementById('fbaFee').classList.remove('auto-filled');
+  calc();
+}
+
+// Price linkage (EU): gross (Amazon) ⇄ net (selling price) via VAT.
+// Setting .value programmatically does NOT fire oninput, so no recursion guard needed.
+function onGrossInput() {
+  const gross = v('grossPrice');
+  const vat = v('vatPct') || 0;
+  if (gross !== null) {
+    document.getElementById('sellingPrice').value = (gross / (1 + vat / 100)).toFixed(2);
+  }
+  calc();
+}
+function onNetPriceInput() {
+  if (isEU()) {
+    const net = v('sellingPrice');
+    const vat = v('vatPct') || 0;
+    if (net !== null) {
+      document.getElementById('grossPrice').value = (net * (1 + vat / 100)).toFixed(2);
+    }
+  }
+  calc();
+}
+function onVatInput() {
+  // VAT change keeps the Amazon (gross) price fixed and re-derives net.
+  const gross = v('grossPrice');
+  const vat = v('vatPct') || 0;
+  if (gross !== null) {
+    document.getElementById('sellingPrice').value = (gross / (1 + vat / 100)).toFixed(2);
+  } else {
+    const net = v('sellingPrice');
+    if (net !== null) document.getElementById('grossPrice').value = (net * (1 + vat / 100)).toFixed(2);
+  }
+  calc();
+}
+
+function onStorageManual() {
+  storageManualOverride = true;
+  document.getElementById('storage').classList.remove('auto-filled');
+  calc();
+}
+// Season/category change re-enables auto storage
+function onStorageParamChange() {
+  storageManualOverride = false;
+  calc();
+}
+
+function setProgram(prog) {
+  currentProgram = prog;
+  document.getElementById('progStandard').classList.toggle('active', prog === 'standard');
+  document.getElementById('progLowprice').classList.toggle('active', prog === 'lowprice');
+  fbaFeeManualOverride = false;
+  document.getElementById('fbaFee').classList.remove('auto-filled');
+  calc();
+}
+
+const COST_COLORS = {
+  'Referral Fee': '#6366f1',
+  'FBA Fee': '#f59e0b',
+  'COGS': '#ef4444',
+  'Inbound': '#10b981',
+  'Storage': '#8b5cf6',
+  'PPC': '#3b82f6',
+  'Other': '#6b7280',
+  'Profit': '#34d399',
+};
+
+function calc() {
+  const price = v('sellingPrice');
+  const units = v('unitsSold');
+  const dimL = v('dimL');
+  const dimW = v('dimW');
+  const dimH = v('dimH');
+  const weight = v('weight');
+  const cogs = v('cogs') || 0;
+  const inbound = v('inbound') || 0;
+  const referralPct = v('referralPct') || 0;
+  const storage = v('storage') || 0;
+  const ppcPct = v('ppc') || 0;
+  const other = v('other') || 0;
+  const priceTier = document.getElementById('priceTier').value;
+
+  const fbaInfoEl = document.getElementById('fbaInfo');
+  const oversizeEl = document.getElementById('oversizeWarn');
+  const fbaInput = document.getElementById('fbaFee');
+
+  if (isEU()) {
+    computeEuFba(dimL, dimW, dimH, weight, price);
+  } else {
+  // Auto-detect price tier from selling price
+  if (price !== null) {
+    autoDetectPriceTier(price);
+  }
+
+  // FBA calculation
+  let tier = null;
+  let shippingWeight = null;
+  let autoFbaFee = null;
+
+  // Convert metric (cm/kg) to imperial (in/lbs) for FBA lookup
+  const dimL_in = dimL !== null ? dimL / 2.54 : null;
+  const dimW_in = dimW !== null ? dimW / 2.54 : null;
+  const dimH_in = dimH !== null ? dimH / 2.54 : null;
+  const weight_lbs = weight !== null ? weight * 2.20462 : null;
+
+  // Show converted imperial values to presenter
+  const impDisp = document.getElementById('imperialDisplay');
+  if (dimL_in !== null || dimW_in !== null || dimH_in !== null || weight_lbs !== null) {
+    impDisp.style.display = 'flex';
+    document.getElementById('convL').textContent = dimL_in !== null ? dimL_in.toFixed(1) : '—';
+    document.getElementById('convW').textContent = dimW_in !== null ? dimW_in.toFixed(1) : '—';
+    document.getElementById('convH').textContent = dimH_in !== null ? dimH_in.toFixed(1) : '—';
+    document.getElementById('convWt').textContent = weight_lbs !== null ? weight_lbs.toFixed(2) : '—';
+  } else {
+    impDisp.style.display = 'none';
+  }
+
+  if (dimL_in !== null && dimW_in !== null && dimH_in !== null && weight_lbs !== null) {
+    tier = classifyTier(dimL_in, dimW_in, dimH_in, weight_lbs);
+    fbaInfoEl.style.display = 'block';
+
+    if (tier === 'oversize') {
+      document.getElementById('detectedTier').textContent = 'PONADGABARYT';
+      document.getElementById('detectedTier').className = 'value warn';
+      document.getElementById('detectedWeight').textContent = '—';
+      document.getElementById('detectedFee').textContent = 'Ręcznie';
+      oversizeEl.textContent = '⚠ Produkt przekracza limity Large Standard — klasyfikacja Oversize. Wpisz opłatę FBA ręcznie poniżej.';
+      oversizeEl.classList.add('show');
+      document.getElementById('weightBandInfo').style.display = 'none';
+    } else {
+      oversizeEl.classList.remove('show');
+      shippingWeight = calcShippingWeight(dimL_in, dimW_in, dimH_in, weight_lbs, tier);
+
+      const tierLabel = tier === 'small-standard' ? 'Mały standard' : 'Duży standard';
+      document.getElementById('detectedTier').textContent = tierLabel;
+      document.getElementById('detectedTier').className = 'value';
+
+      const wtDisplay = shippingWeight.unit === 'oz'
+        ? shippingWeight.value.toFixed(1) + ' oz'
+        : shippingWeight.value.toFixed(2) + ' lbs';
+      document.getElementById('detectedWeight').textContent = wtDisplay;
+
+      const currentPriceTier = document.getElementById('priceTier').value;
+      autoFbaFee = getFBAFee(tier, shippingWeight.value, shippingWeight.unit, currentPriceTier, selectedYear);
+
+      if (autoFbaFee !== null) {
+        document.getElementById('detectedFee').textContent = '$' + autoFbaFee.toFixed(2);
+        if (!fbaFeeManualOverride) {
+          fbaInput.value = autoFbaFee.toFixed(2);
+          fbaInput.classList.add('auto-filled');
+        }
+      } else {
+        document.getElementById('detectedFee').textContent = '—';
+      }
+
+      // Show weight band info
+      const wbInfo = document.getElementById('weightBandInfo');
+      const currentPT = document.getElementById('priceTier').value;
+      const bandHtml = getWeightBandInfo(tier, shippingWeight, currentPT);
+      if (bandHtml) {
+        wbInfo.innerHTML = bandHtml;
+        wbInfo.style.display = 'block';
+      } else {
+        wbInfo.style.display = 'none';
+      }
+    }
+    updateTierGauges(dimL_in, dimW_in, dimH_in, weight_lbs, tier);
+    const currentPriceTier2 = document.getElementById('priceTier').value;
+    const dimWeight_lbs = tier === 'large-standard' ? (dimL_in * dimW_in * dimH_in) / 139 : null;
+    updateWeightBands(tier, shippingWeight, currentPriceTier2, weight_lbs, dimWeight_lbs);
+  } else {
+    fbaInfoEl.style.display = 'none';
+    oversizeEl.classList.remove('show');
+    updateTierGauges(null, null, null, null, null);
+    updateWeightBands(null, null, null, null, null);
+  }
+  } // end US FBA branch
+
+  // Get current FBA fee value (manual or auto)
+  const fbaFee = v('fbaFee') || 0;
+
+  // Calculate results
+  if (price === null || price <= 0) {
+    clearResults();
+    return;
+  }
+
+  // EU: referral fee is charged on the GROSS (VAT-inclusive) price, not net.
+  const vatPct = isEU() ? (v('vatPct') || 0) : 0;
+  let refBase = price; // net for US
+  if (isEU()) {
+    const gross = v('grossPrice');
+    refBase = (gross !== null) ? gross : price * (1 + vatPct / 100);
+    const gh = document.getElementById('grossHint');
+    gh.innerHTML = `Prowizja naliczana od <strong>ceny brutto ${curSym()}${refBase.toFixed(2)}</strong> &nbsp;·&nbsp; na rękę netto ${curSym()}${price.toFixed(2)} (VAT ${vatPct}%).`;
+  }
+
+  const referral_fee = refBase * (referralPct / 100);
+  const ppc = price * (ppcPct / 100);
+  const total_costs = cogs + inbound + referral_fee + fbaFee + storage + ppc + other;
+  const profit = price - total_costs;
+  const margin = (profit / price) * 100;
+  const roi = total_costs > 0 ? (profit / total_costs) * 100 : 0;
+
+  // Break-even net price (referral scales with gross = net×(1+VAT); PPC scales with net)
+  let breakeven;
+  if (isEU()) {
+    const fixed = cogs + inbound + fbaFee + storage + other;
+    const rate = (referralPct / 100) * (1 + vatPct / 100) + (ppcPct / 100);
+    breakeven = rate < 1 ? fixed / (1 - rate) : 0;
+  } else {
+    breakeven = referralPct < 100 ? total_costs / (1 - referralPct / 100) : 0;
+  }
+  const monthly = units !== null ? profit * units : null;
+
+  // Update result cards
+  const profitEl = document.getElementById('resProfit');
+  profitEl.textContent = formatUSD(profit);
+  profitEl.className = 'value ' + (profit >= 0 ? 'positive' : 'negative');
+
+  const marginEl = document.getElementById('resMargin');
+  marginEl.textContent = formatPct(margin);
+  marginEl.className = 'value ' + (margin >= 0 ? 'positive' : 'negative');
+
+  const roiEl = document.getElementById('resROI');
+  roiEl.textContent = formatPct(roi);
+  roiEl.className = 'value ' + (roi >= 0 ? 'positive' : 'negative');
+
+  document.getElementById('resBE').textContent = formatUSD(breakeven);
+  document.getElementById('resBE').className = 'value neutral';
+
+  const monthlyEl = document.getElementById('resMonthly');
+  if (monthly !== null) {
+    monthlyEl.textContent = formatUSD(monthly);
+    monthlyEl.className = 'value ' + (monthly >= 0 ? 'positive' : 'negative');
+  } else {
+    monthlyEl.textContent = '—';
+    monthlyEl.className = 'value neutral';
+  }
+
+  document.getElementById('resTotalCost').textContent = formatUSD(total_costs);
+  document.getElementById('resTotalCost').className = 'value neutral';
+
+  // Waterfall
+  const waterfallData = [
+    { label: 'Cena sprzedaży', value: price, sign: '' },
+    { label: 'Prowizja', value: referral_fee, sign: '−' },
+    { label: 'Opłata FBA', value: fbaFee, sign: '−' },
+    { label: 'COGS', value: cogs, sign: '−' },
+    { label: 'Transport do FC', value: inbound, sign: '−' },
+    { label: 'Magazyn', value: storage, sign: '−' },
+    { label: 'PPC', value: ppc, sign: '−' },
+    { label: 'Inne koszty', value: other, sign: '−' },
+    { label: 'Zysk netto', value: profit, sign: '' },
+  ];
+
+  let wfHTML = '';
+  waterfallData.forEach((row, i) => {
+    const isFirst = i === 0;
+    const isLast = i === waterfallData.length - 1;
+    let cls = '';
+    if (isFirst) cls = 'pos';
+    else if (isLast) cls = row.value >= 0 ? 'pos' : 'neg';
+    else if (row.value > 0) cls = 'neg';
+
+    const prefix = row.sign && row.value > 0 ? row.sign + ' ' : '';
+    wfHTML += `<div class="waterfall-row">
+      <span class="wr-label">${row.label}</span>
+      <span class="wr-val ${cls}">${prefix}${formatUSD(Math.abs(row.value))}</span>
+    </div>`;
+  });
+  document.getElementById('waterfall').innerHTML = wfHTML;
+
+  // Cost breakdown bar
+  const costItems = [
+    { label: 'Prowizja', value: referral_fee, color: COST_COLORS['Referral Fee'] },
+    { label: 'Opłata FBA', value: fbaFee, color: COST_COLORS['FBA Fee'] },
+    { label: 'COGS', value: cogs, color: COST_COLORS['COGS'] },
+    { label: 'Transport', value: inbound, color: COST_COLORS['Inbound'] },
+    { label: 'Magazyn', value: storage, color: COST_COLORS['Storage'] },
+    { label: 'PPC', value: ppc, color: COST_COLORS['PPC'] },
+    { label: 'Inne', value: other, color: COST_COLORS['Other'] },
+    { label: 'Zysk', value: Math.max(0, profit), color: COST_COLORS['Profit'] },
+  ];
+
+  const cbContainer = document.getElementById('costBarContainer');
+  if (price > 0) {
+    cbContainer.style.display = 'block';
+    let barHTML = '';
+    let legendHTML = '';
+    costItems.forEach(item => {
+      const pct = (item.value / price) * 100;
+      if (pct > 0) {
+        barHTML += `<div class="segment" style="width:${pct}%;background:${item.color}" title="${item.label}: ${pct.toFixed(1)}%">${pct >= 6 ? pct.toFixed(0) + '%' : ''}</div>`;
+        legendHTML += `<div class="item"><div class="dot" style="background:${item.color}"></div>${item.label} ${formatUSD(item.value)}</div>`;
+      }
+    });
+    document.getElementById('costBar').innerHTML = barHTML;
+    document.getElementById('costBarLegend').innerHTML = legendHTML;
+  } else {
+    cbContainer.style.display = 'none';
+  }
+}
+
+function clearResults() {
+  ['resProfit', 'resMargin', 'resROI', 'resBE', 'resMonthly', 'resTotalCost'].forEach(id => {
+    const el = document.getElementById(id);
+    el.textContent = '—';
+    el.className = 'value neutral';
+  });
+  document.getElementById('waterfall').innerHTML = '';
+  document.getElementById('costBarContainer').style.display = 'none';
+}
+
+function loadPreset(name) {
+  fbaFeeManualOverride = false;
+  storageManualOverride = false;
+  document.getElementById('fbaFee').classList.remove('auto-filled');
+  document.getElementById('storage').classList.remove('auto-filled');
+
+  const presets = {
+    supplement: {
+      sellingPrice: 24.99, unitsSold: 300,
+      dimL: 12.7, dimW: 7.6, dimH: 1.3, weight: 0.18,
+      cogs: 3.50, inbound: 0.80, referralPct: 15,
+      storage: 0.10, ppc: 15, other: 0.25
+    },
+    medium: {
+      sellingPrice: 34.99, unitsSold: 150,
+      dimL: 25.4, dimW: 17.8, dimH: 7.6, weight: 0.54,
+      cogs: 6.00, inbound: 1.50, referralPct: 15,
+      storage: 0.25, ppc: 20, other: 0.50
+    },
+    heavy: {
+      sellingPrice: 49.99, unitsSold: 80,
+      dimL: 35.6, dimW: 25.4, dimH: 12.7, weight: 1.81,
+      cogs: 10.00, inbound: 2.50, referralPct: 15,
+      storage: 0.40, ppc: 18, other: 0.75
+    },
+  };
+
+  const p = presets[name];
+  if (!p) return;
+
+  document.getElementById('sellingPrice').value = p.sellingPrice;
+  document.getElementById('unitsSold').value = p.unitsSold;
+  document.getElementById('dimL').value = p.dimL;
+  document.getElementById('dimW').value = p.dimW;
+  document.getElementById('dimH').value = p.dimH;
+  document.getElementById('weight').value = p.weight;
+  document.getElementById('cogs').value = p.cogs;
+  document.getElementById('inbound').value = p.inbound;
+  document.getElementById('referralPct').value = p.referralPct;
+  document.getElementById('storage').value = p.storage;
+  document.getElementById('ppc').value = p.ppc;
+  document.getElementById('other').value = p.other;
+  document.getElementById('fbaFee').value = '';
+
+  if (isEU()) {
+    const vat = v('vatPct') || EU_VAT[currentMarket];
+    document.getElementById('grossPrice').value = (p.sellingPrice * (1 + vat / 100)).toFixed(2);
+  }
+
+  calc();
+}
+
+// Init — domyslny rynek DE: onMarketChange() ustawia currentMarket z <select>
+// i przelacza UI na tryb EU (gross+VAT, program FBA, storage, proximity).
+onMarketChange();
+calc();
+</script>
+
+</body>
+</html>
