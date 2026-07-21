@@ -404,12 +404,14 @@ const CHV={units:true,rev:false,prof:false,ppc:false};
 const PRODUCTS = [
   {name:'Electric Trap (DE)', url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vTOT3seMHzrShBF6_D8VtufchyDGmU4RukchXjXOxjS4msgKxEoiecroCHFd5fi5Hkwdu2DYRLydIxe/pub?output=csv'},
   {name:'Allergoff Cream (DE)', url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vSDo_KlCP59503sYx8f4DhQPDNlm8QAqZPSSqNdxNP3aG65VtFtIgIwcRWGejzWx1uGkXKbjajRpnQm/pub?output=csv'},
+  {name:'Allergoff Cream (DE - 75ml)', url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vRpSzv5EM4BHNrLo4k92aAQbTybBGIBZr7oxXI8-kl4R-RM09Ppzb0_lsRQ5nD9yLLYVLPdUDBKw1cD/pub?output=csv'},
 ];
 // Snapshot danych z arkuszy — używany jako fallback, gdy fetch nie działa (np. otwarcie przez file://).
 // Po zmianie danych w Google Sheet zaktualizuj tu, ALBO otwórz dashboard przez http (serwer/hosting) — wtedy ciągnie live.
 const EMBEDDED = {
   'Electric Trap (DE)': {marketplace:'DE',priceGross:22,cogs:2,inbound:0.2,referralPct:15,fba:2.3,storage:0.2,other:0.1,a1:2400,a2:2600,a3:1200,a4:950,a5:650,capture:0.45,niche:194000,share:0.06,top3:0.39,penStart:0.25,mktGrowth:8,tacosMature:8,baseLaunchEnd:6,baseGrowthEnd:18,basePenMonth:12},
   'Allergoff Cream (DE)': {marketplace:'DE',priceGross:22,cogs:2,inbound:0.2,referralPct:15,fba:2.3,storage:0.2,other:0.1,a1:2400,a2:2600,a3:1200,a4:950,a5:650,capture:0.45,niche:194000,share:0.06,top3:0.39,penStart:0.25,mktGrowth:8,tacosMature:8,baseLaunchEnd:6,baseGrowthEnd:18,basePenMonth:12},
+  'Allergoff Cream (DE - 75ml)': {marketplace:'DE',priceGross:9.99,cogs:1.54,inbound:0.1,referralPct:15,fba:2.78,storage:0.01,other:0.1,a1:12678,a2:7543,a3:6491,a4:6052,a5:3765,a6:2973,a7:2557,a8:2315,a9:2124,a10:1956,capture:0.4,niche:1095000,share:0.02,top3:0.29,mktGrowth:8,penStart:0.05,ppcLaunchStart:100,ppcLaunchEnd:80,ppcGrowthStart:80,ppcGrowthEnd:50,ppcMatureStart:50,ppcMatureEnd:40,tacosTarget:20,tacosMature:15,baseLaunchEnd:6,baseGrowthEnd:12,basePenMonth:18,consLaunchEnd:9,consGrowthEnd:18,consPenMonth:24,optLaunchEnd:3,optGrowthEnd:9,optPenMonth:18},
 };
 let sheetBaseline = null;
 
