@@ -105,6 +105,7 @@
   h2.fc-base{border-left:4px solid #e0952a;padding-left:8px}
   h2.fc-opt{border-left:4px solid #2ea864;padding-left:8px}
   #scenTable th.tc-cons{color:#b5372b}#scenTable th.tc-base{color:#9c6410}#scenTable th.tc-opt{color:#1c7a43}
+  #cmTable tr.cm-gap td{padding-top:15px;border-top:2px solid var(--line)}
   #cmTable tr.cm-row td{font-weight:600;background:#eef3fb}
   #cmTable tr.cm-row.cm-good td{background:rgba(46,168,100,.15)}
   #cmTable tr.cm-row.cm-bad td{background:rgba(217,75,75,.13)}
@@ -219,6 +220,7 @@
           <tr class="cm-row"><td><b>CM3</b> — po reklamie = zysk netto <span class="hint" style="font-weight:400">Typowa dla Amazona: 20-30%</span></td><td id="cm3">—</td><td id="cm3p">—</td></tr>
           <tr class="cm-tot"><td>Total Costs / szt</td><td id="o-total">—</td><td></td></tr>
           <tr class="cm-tot"><td><b>ROI</b></td><td id="o-roi">—</td><td></td></tr>
+          <tr class="cm-tot cm-gap"><td>Koszty Amazona <span class="hint" style="font-weight:400">referral + FBA + storage, % ceny netto <span id="o-amzsplit"></span></span></td><td id="o-amz">—</td><td id="o-amzp">—</td></tr>
           <tr class="cm-tot"><td>Break-even Price <b>netto</b> <span class="hint" style="font-weight:400">Net Profit = 0</span></td><td id="o-be">—</td><td id="o-bep">—</td></tr>
           <tr class="cm-tot"><td>Break-even Price <b>brutto</b> <span class="hint" style="font-weight:400">netto x (1 + VAT)</span></td><td id="o-beg">—</td><td></td></tr>
         </tbody>
@@ -481,6 +483,13 @@ function compute(){
   // Panel wyniku = wodospad CM. Total/ROI/Break-even to linie poza wodospadem.
   $('o-total').textContent=money(total);
   { const e=$('o-roi'); e.textContent=pct(roi); e.className=(roi==null?'':roi>1?'pos':roi>=0.5?'warn':'neg'); }
+  { // koszty Amazona (referral + FBA + storage) jako % ceny netto - tylko w tej tabeli
+    const amz=(price!=null)?(referral+fba+storage):null;
+    const e=$('o-amz'), ep=$('o-amzp'), es=$('o-amzsplit');
+    if(e) e.textContent=money(amz);
+    if(ep) ep.textContent=(amz!=null&&price>0)?pct(amz/price):'—';
+    if(es) es.textContent=(price!=null&&price>0)
+      ? '(ref '+pct(referral/price)+' / FBA '+pct(fba/price)+' / storage '+pct(storage/price)+')' : ''; }
   $('o-be').textContent=money(be);
   $('o-beg').textContent=money((be!=null)?be*(1+vat/100):null);
   { // zapas: o ile % cena moze spasc, zanim zejdziemy do progu
