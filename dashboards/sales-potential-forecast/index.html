@@ -277,8 +277,6 @@
       <div class="row"><label>Metoda A (kotwica)</label><div class="val" id="o-mA">—</div></div>
       <div class="row"><label>Metoda B (udział rynku)</label><div class="val" id="o-mB">—</div></div>
       <div class="row"><label><b>BASE — średnia ważona (szt/mies)</b></label><div class="val" id="o-base">—</div></div>
-      <div class="row"><label>Rozrzut metod <span class="hint">pewność</span></label><div class="val" id="o-spread">—</div></div>
-      <div class="note">Logika (SOP): <b>BASE = średnia ważona dwóch metod — A kotwica (60%) + B kontrola rynku (40%)</b>. Waga A:B = 3:2 (A to najtwardsza dana, więc dominuje). Wagi renormalizują się, gdy metoda jest pusta (np. brak niszy → sama A). Outliery wywalasz na bramce QA (RUNBOOK) <b>zanim</b> tu trafią. Rozrzut = sygnał pewności (metody zbieżne = wysoka).</div>
     </div>
 
     <div class="card calc">
@@ -572,7 +570,7 @@ function compute(){
   $('o-mA').textContent=wtag(mA,W.A);
   $('o-mB').textContent=wtag(mB,W.B);
   $('o-base').textContent=int(base);
-  $('o-spread').textContent=pct(spread);
+  { const e=$('o-spread'); if(e) e.textContent=pct(spread); }
 
   // scenarios — różnią się TEMPEM (długości faz + rampa), nie mnożnikiem. BASE ten sam we wszystkich.
   const scenDefs=[
