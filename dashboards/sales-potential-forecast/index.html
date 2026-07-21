@@ -97,6 +97,10 @@
   .row.ph-launch{box-shadow:inset 3px 0 0 #d94b4b;background:rgba(217,75,75,.10)}.row.ph-launch>label{color:#b5372b;font-weight:600}
   .row.ph-growth{box-shadow:inset 3px 0 0 #e0952a;background:rgba(224,149,42,.13)}.row.ph-growth>label{color:#9c6410;font-weight:600}
   .row.ph-mature{box-shadow:inset 3px 0 0 #2ea864;background:rgba(46,168,100,.11)}.row.ph-mature>label{color:#1c7a43;font-weight:600}
+  h3.fcsum-h{font-size:13px;margin:14px 0 6px;padding-left:8px;font-weight:700;text-transform:uppercase;letter-spacing:.03em}
+  h3.fcsum-h.fc-cons{border-left:4px solid #d94b4b;color:#b5372b}
+  h3.fcsum-h.fc-base{border-left:4px solid #e0952a;color:#9c6410}
+  h3.fcsum-h.fc-opt{border-left:4px solid #2ea864;color:#1c7a43}
   h2.fc-cons{border-left:4px solid #d94b4b;padding-left:8px}
   h2.fc-base{border-left:4px solid #e0952a;padding-left:8px}
   h2.fc-opt{border-left:4px solid #2ea864;padding-left:8px}
@@ -274,11 +278,28 @@
     </div>
 
     <div class="card calc">
-      <h2 class="fc-base">Prognoza — scenariusz Bazowy</h2>
-      <table class="fc">
-        <thead><tr><th>Okres</th><th>Sztuki</th><th>Przychód</th><th>Reklama (PPC)</th><th>Zysk*</th></tr></thead>
-        <tbody id="fc-body"></tbody>
-      </table>
+      <h2>Prognoza rok po roku, 3 scenariusze</h2>
+      <h3 class="fcsum-h fc-cons" style="cursor:pointer;user-select:none" onclick="toggleSum('Cons')"><span id="sumConsCaret">▸</span> Konserwatywny</h3>
+      <div id="sumConsBody" style="display:none">
+        <table class="fc">
+          <thead><tr><th>Okres</th><th>Sztuki</th><th>Przychód</th><th>Reklama (PPC)</th><th>Zysk*</th><th>Zysk % (CM3)</th></tr></thead>
+          <tbody id="fc-body-cons"></tbody>
+        </table>
+      </div>
+      <h3 class="fcsum-h fc-base" style="cursor:pointer;user-select:none" onclick="toggleSum('Base')"><span id="sumBaseCaret">▾</span> Bazowy</h3>
+      <div id="sumBaseBody">
+        <table class="fc">
+          <thead><tr><th>Okres</th><th>Sztuki</th><th>Przychód</th><th>Reklama (PPC)</th><th>Zysk*</th><th>Zysk % (CM3)</th></tr></thead>
+          <tbody id="fc-body"></tbody>
+        </table>
+      </div>
+      <h3 class="fcsum-h fc-opt" style="cursor:pointer;user-select:none" onclick="toggleSum('Opt')"><span id="sumOptCaret">▸</span> Optymistyczny</h3>
+      <div id="sumOptBody" style="display:none">
+        <table class="fc">
+          <thead><tr><th>Okres</th><th>Sztuki</th><th>Przychód</th><th>Reklama (PPC)</th><th>Zysk*</th><th>Zysk % (CM3)</th></tr></thead>
+          <tbody id="fc-body-opt"></tbody>
+        </table>
+      </div>
       <div id="chToggles" style="display:flex;gap:6px;margin-top:12px;flex-wrap:wrap"></div>
       <canvas id="chart" width="600" height="170"></canvas>
       <div class="note">Wykres i tabela = <b>scenariusz Bazowy</b>. Słupki = sprzedaż w danym miesiącu. Rośnie <b>co miesiąc</b> z dwóch warstw: penetracja (rampa do BASE) + wzrost rynku. Tabela wyżej = sprzedaż rok po roku (Rok 1…5, każdy rok osobno). Przełączniki wybierają serie (Sztuki / Przychód € / Zysk € / Reklama €). <br>*Zysk liczony per miesiąc z <b>TACOS wg faz</b> (Launch→Growth→Mature) — dlatego zysk w rampie niższy, potem rośnie.</div>
@@ -340,6 +361,7 @@ const PLAYABLE = ['priceGross','price','vat','cogs','inbound','referralPct','fba
 const $ = id => document.getElementById(id);
 function toggleVol(){ const b=$('volBody'), c=$('volCaret'); const open=b.style.display==='none'; b.style.display=open?'block':'none'; c.textContent=open?'▾':'▸'; }
 function toggleScen(){ const b=$('scenBody'), c=$('scenCaret'); const open=b.style.display==='none'; b.style.display=open?'block':'none'; c.textContent=open?'▾':'▸'; }
+function toggleSum(k){ const b=$('sum'+k+'Body'), c=$('sum'+k+'Caret'); const open=b.style.display==='none'; b.style.display=open?'block':'none'; c.textContent=open?'▾':'▸'; }
 function toggleFc(k){ const b=$('fc'+k+'Body'), c=$('fc'+k+'Caret'); const open=b.style.display==='none'; b.style.display=open?'block':'none'; c.textContent=open?'▾':'▸'; }
 // niezależne zwijanie kolumn Rok 3 / 4 / 5 (M25–36 / 37–48 / 49–60); Σ 60 zostaje widoczna zawsze
 const YR_MO={3:'M25–36',4:'M37–48',5:'M49–60'};
@@ -447,7 +469,13 @@ function compute(){
     gross=price*(1+vat/100); referral=gross*refPct/100; ppc=price*ppcPct/100;
     total=cogs+inbound+referral+fba+storage+ppc+other;
     net=price-total; margin=price>0?net/price:null; roi=total>0?net/total:null;
-    be=(refPct+ppcPct)<100?total/(1-(refPct+ppcPct)/100):null;
+    // Break-even = cena netto, przy ktorej CM3 = 0.
+    // Koszty niezalezne od ceny (COGS, inbound, FBA, magazyn, inne) dzielimy przez
+    // (1 - stawki liczone OD CENY). Referral naliczany jest od BRUTTO, wiec jego
+    // efektywna stawka wzgledem ceny netto to refPct*(1+VAT).
+    const fixedNoPrice=cogs+inbound+fba+storage+other;
+    const varRate=refPct*(1+vat/100)/100 + ppcPct/100;
+    be=(varRate<1)?fixedNoPrice/(1-varRate):null;
   }
   // Panel wyniku = wodospad CM. Total/ROI/Break-even to linie poza wodospadem.
   $('o-total').textContent=money(total);
@@ -542,10 +570,20 @@ function compute(){
   // główna prognoza = Bazowy; Konserwatywny/Optymistyczny w zwijanych tabelach
   const baseS=perScen.find(s=>s.k==='base'), consS=perScen.find(s=>s.k==='cons'), optS=perScen.find(s=>s.k==='opt');
   const beA=(price!=null&&price>0&&fixedUnit!=null)?(price-fixedUnit)/price:null;
-  const adM=baseS.mth.map((u,i)=>{ const m=i+1; const tac=tacosStage(baseS.L,m,beA); return (tac!=null)?u*tac*price:0; });
+  const mkAd=(S)=>S.mth.map((u,i)=>{ const tac=tacosStage(S.L,i+1,beA); return (tac!=null)?u*tac*price:0; });
+  // jedna funkcja renderuje podsumowanie roczne dla dowolnego scenariusza
+  const renderFcSum=(S,tbodyId)=>{ const ad=mkAd(S);
+    const el=$(tbodyId); if(el) el.innerHTML=[1,2,3,4,5].map(y=>{
+      const u=sumYear(S.mth,y), r=rev(u), p=S.pm.length?sumYear(S.pm,y):null;
+      const mp=(p!=null&&r!=null&&r>0)?p/r:null;   // Zysk % = CM3 % (TACOS wg faz)
+      return `<tr><td>Rok ${y}</td><td>${int(u)}</td><td>${eur(r)}</td><td style="color:#b53838">${eur(sumYear(ad,y))}</td><td class="${p==null?'':p>=0?'pos':'neg'}">${eur(p)}</td><td class="${mp==null?'':mp>=0?'pos':'neg'}">${pct(mp)}</td></tr>`;
+    }).join('');
+    return ad; };
+  const adM=renderFcSum(baseS,'fc-body');
+  renderFcSum(consS,'fc-body-cons');
+  renderFcSum(optS,'fc-body-opt');
   // panel = sprzedaż rok po roku (Rok 1…5), każdy rok osobno — NIE narastająco
-  $('fc-body').innerHTML=[1,2,3,4,5].map(y=>{ const u=sumYear(baseS.mth,y), p=baseS.pm.length?sumYear(baseS.pm,y):null;
-    return `<tr><td>Rok ${y}</td><td>${int(u)}</td><td>${eur(rev(u))}</td><td style="color:#b53838">${eur(sumYear(adM,y))}</td><td class="${p==null?'':p>=0?'pos':'neg'}">${eur(p)}</td></tr>`; }).join('');
+
   CH.units=baseS.mth.slice();
   CH.rev=(price!=null)?baseS.mth.map(u=>u*price):[];
   CH.prof=baseS.pm.length?baseS.pm.slice():[];
