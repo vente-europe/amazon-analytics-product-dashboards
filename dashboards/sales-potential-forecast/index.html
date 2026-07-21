@@ -163,7 +163,7 @@
       <div class="sec">Koszty / szt</div>
       <div class="row"><label>COGS (koszt produkcji)</label><div class="inp"><input type="number" id="cogs" step="0.01"></div></div>
       <div class="row"><label>Inbound Shipping <span class="hint">transport do magazynu Amazona /szt (zwykle 0,10–0,50 €)</span></label><div class="inp"><input type="number" id="inbound" step="0.01"></div></div>
-      <div class="row"><label>Referral Fee (%) <span class="hint">prowizja kategorii, zwykle 15%</span></label><div class="inp"><input type="number" id="referralPct" step="0.1"></div></div>
+      <div class="row"><label>Referral Fee (%) <span class="hint">prowizja kategorii, zwykle 15%</span><span class="hint" style="display:block;margin-top:3px"><input type="checkbox" id="cosmeticRule" onchange="onCosmeticToggle()" style="vertical-align:middle;margin:0 5px 0 0">kosmetyk: auto 8% / 15% (prog 10 EUR brutto)</span><span class="hint" id="refRuleInfo" style="display:block;font-weight:600"></span></label><div class="inp"><input type="number" id="referralPct" step="0.1"></div></div>
       <div class="row"><label>FBA Fee <span class="hint">z tabeli <a href="https://vente-europe.github.io/unit-economics-calculator/" target="_blank" rel="noopener" style="color:var(--accent)">kalkulatora FBA</a></span></label><div class="inp"><input type="number" id="fba" step="0.01"></div></div>
       <div class="row"><label>Storage Fee</label><div class="inp"><input type="number" id="storage" step="0.01"></div></div>
       <div class="row"><label>Other Costs</label><div class="inp"><input type="number" id="other" step="0.01"></div></div>
@@ -392,6 +392,35 @@ function marketCode(v){ v=(v||'').toString().trim().toLowerCase();
   return EU_VAT[c]!=null?c:null; }
 function syncNetFromGross(){ const g=num('priceGross'), vat=num('vat')||0; if(g!=null)$('price').value=(g/(1+vat/100)).toFixed(2); }
 function syncGrossFromNet(){ const n=num('price'), vat=num('vat')||0; if(n!=null)$('priceGross').value=(n*(1+vat/100)).toFixed(2); }
+// Kosmetyki (Beauty) w EU: referral 8% przy cenie calkowitej do 10 EUR brutto, 15% powyzej.
+// Prog liczony od CENY BRUTTO, bo Amazon liczy prowizje od total sales price (z VAT).
+// Wlacza regule kosmetyczna: klucz `cosmetic` z arkusza ma pierwszenstwo,
+// w przeciwnym razie wykrywamy po nazwie produktu (Allergoff = kosmetyk).
+function setCosmeticFlag(sheetVal, nameHint){
+  const cb=$('cosmeticRule'); if(!cb) return;
+  if(sheetVal!=null) cb.checked=!!sheetVal;
+  else cb.checked=/allergoff/i.test(nameHint||'');
+}
+function cosmeticFromCsv(txt){
+  const rows=parseCSV(txt); let out=null;
+  rows.forEach(f=>{ if((f[3]||'').trim()==='cosmetic'){
+    const v=(f[1]||'').trim().toLowerCase();
+    if(v!=='') out=(v==='1'||v==='tak'||v==='true'||v==='yes'||v==='y');
+  }});
+  return out;
+}
+function applyCosmeticReferral(){
+  const cb=$('cosmeticRule'), el=$('referralPct'), info=$('refRuleInfo');
+  const on=cb && cb.checked, g=num('priceGross');
+  if(el) el.readOnly=!!on;
+  if(el) el.style.background=on?'#f2f4f8':'';
+  if(!on){ if(info) info.textContent=''; return; }
+  if(g==null){ if(info) info.textContent='podaj cene brutto'; return; }
+  const r=(g<=10)?8:15;
+  if(el) el.value=r;
+  if(info) info.textContent='auto '+r+'% · cena brutto '+g.toLocaleString('pl-PL',{minimumFractionDigits:2,maximumFractionDigits:2})+' € '+(g<=10?'(do 10 €)':'(powyzej 10 €)');
+}
+function onCosmeticToggle(){ applyCosmeticReferral(); compute(); }
 function applyMarketVat(){ const c=marketCode($('marketplace')?$('marketplace').value:''); if(c&&EU_VAT[c]!=null)$('vat').value=EU_VAT[c]; syncNetFromGross(); }
 // Kierunek synchronizacji zależy od tego, które pole zmieniono (gross = kotwica).
 function syncPrices(id){ if(id==='priceGross'||id==='vat')syncNetFromGross(); else if(id==='price')syncGrossFromNet(); else if(id==='marketplace')applyMarketVat(); }
@@ -468,6 +497,7 @@ function sumK(arr,k){ return arr.length?arr.slice(0,k).reduce((a,b)=>a+b,0):null
 function sumYear(arr,y){ if(!arr.length)return null; let s=0; for(let m=(y-1)*12;m<y*12&&m<arr.length;m++)s+=arr[m]||0; return s; }
 
 function compute(){
+  applyCosmeticReferral();
   // unit economics
   const price=num('price'), vat=num('vat')||0;
   const cogs=num('cogs')||0, inbound=num('inbound')||0, refPct=num('referralPct')||0,
@@ -760,9 +790,12 @@ function loadFromUrl(url, fallback){
     // Etykieta z arkusza (klucz `label`) nadpisuje nazwe aktualnie wybranej pozycji w dropdownie.
     const lab=labelFromCsv(txt), sel=$('productSel');
     if(lab) PROD_LABEL=lab;
+    setCosmeticFlag(cosmeticFromCsv(txt), lab||(sel&&sel.selectedIndex>0?sel.options[sel.selectedIndex].getAttribute('data-key'):''));
     if(lab && sel && sel.selectedIndex>0) sel.options[sel.selectedIndex].textContent=lab;
     useData(data); st.textContent='✓ Wczytano '+hits+' pól z arkusza (live).';
-  }).catch(e=>{ if(fallback){ useData(fallback); st.textContent='✓ Dane wbudowane (offline — fetch nie działa na file://). Live po otwarciu przez http/hosting.'; } else { st.textContent='Błąd ('+e.message+'). Otwórz przez http (serwer/hosting) — file:// blokuje pobieranie z Google.'; } });
+  }).catch(e=>{ if(fallback){ const sel2=$('productSel');
+      setCosmeticFlag(null, sel2&&sel2.selectedIndex>0?sel2.options[sel2.selectedIndex].getAttribute('data-key'):'');
+      useData(fallback); st.textContent='✓ Dane wbudowane (offline — fetch nie działa na file://). Live po otwarciu przez http/hosting.'; } else { st.textContent='Błąd ('+e.message+'). Otwórz przez http (serwer/hosting) — file:// blokuje pobieranie z Google.'; } });
 }
 function onProductPick(){ PROD_LABEL=''; const sel=$('productSel'), url=sel.value; const opt=sel.options[sel.selectedIndex];
   // Fallback EMBEDDED szukamy po data-key (nazwa z PRODUCTS), NIE po widocznym tekscie —
