@@ -41,7 +41,7 @@
       "group": "detailed",
       "template": "standalone",
       "url": "https://vente-europe.github.io/fruit-fly-trap-DE/",
-      "bg": "#fdf2f8"
+      "legacy": true
     },
     {
       "id": "wasp-us",
