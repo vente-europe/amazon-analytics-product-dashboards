@@ -36,6 +36,14 @@
       "file": "index.html"
     },
     {
+      "id": "fruit-fly-trap-de",
+      "title": "Fruit Fly Trap (DE)",
+      "group": "detailed",
+      "template": "standalone",
+      "url": "https://vente-europe.github.io/fruit-fly-trap-DE/",
+      "bg": "#fdf2f8"
+    },
+    {
       "id": "wasp-us",
       "title": "WASP (US)",
       "group": "detailed",

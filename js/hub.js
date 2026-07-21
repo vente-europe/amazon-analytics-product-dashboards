@@ -268,6 +268,7 @@
 
     emptyState.style.display = 'none';
     container.style.display = 'block';
+    container.style.background = '';
 
     // ── Standalone iframe dashboard ──
     // For dashboards rendered as a self-contained HTML file, load it in an iframe
@@ -281,7 +282,24 @@
       // (e.g. an old standalone on its own GitHub Pages repo) — iframe it directly.
       var base = entry.url || ('dashboards/' + entry.id + '/' + (entry.file || 'index.html'));
       var src = base + (base.indexOf('?') === -1 ? '?' : '&') + 'v=' + window.__HUB_V__;
-      container.innerHTML = '<iframe src="' + src + '" style="width:100%;height:calc(100vh - 0px);border:0;display:block"></iframe>';
+      // Optional per-dashboard background tint (entry.bg). Painted on the container
+      // as a fallback and injected into the iframe document on load — same-origin
+      // dashboards accept it, cross-origin ones silently keep their own styling.
+      var bg = entry.bg || '';
+      container.style.background = bg;
+      container.innerHTML = '<iframe src="' + src + '" style="width:100%;height:calc(100vh - 0px);border:0;display:block;background:' + (bg || 'transparent') + '"></iframe>';
+      if (bg) {
+        var ifr = container.querySelector('iframe');
+        ifr.addEventListener('load', function() {
+          try {
+            var doc = ifr.contentDocument;
+            if (!doc) return;
+            var st = doc.createElement('style');
+            st.textContent = 'html,body{background:' + bg + ' !important}';
+            doc.head.appendChild(st);
+          } catch (e) { /* cross-origin: leave the dashboard as-is */ }
+        });
+      }
       document.getElementById('sidebar').classList.remove('open');
       return;
     }
