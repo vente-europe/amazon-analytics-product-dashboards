@@ -97,6 +97,7 @@
   .row.ph-launch{box-shadow:inset 3px 0 0 #d94b4b;background:rgba(217,75,75,.10)}.row.ph-launch>label{color:#b5372b;font-weight:600}
   .row.ph-growth{box-shadow:inset 3px 0 0 #e0952a;background:rgba(224,149,42,.13)}.row.ph-growth>label{color:#9c6410;font-weight:600}
   .row.ph-mature{box-shadow:inset 3px 0 0 #2ea864;background:rgba(46,168,100,.11)}.row.ph-mature>label{color:#1c7a43;font-weight:600}
+  .fcsum-prod{font-weight:600;color:var(--muted);text-transform:none;letter-spacing:0}
   h3.fcsum-h{font-size:13px;margin:14px 0 6px;padding-left:8px;font-weight:700;text-transform:uppercase;letter-spacing:.03em}
   h3.fcsum-h.fc-cons{border-left:4px solid #d94b4b;color:#b5372b}
   h3.fcsum-h.fc-base{border-left:4px solid #e0952a;color:#9c6410}
@@ -282,21 +283,21 @@
 
     <div class="card calc">
       <h2>Prognoza rok po roku, 3 scenariusze</h2>
-      <h3 class="fcsum-h fc-cons" style="cursor:pointer;user-select:none" onclick="toggleSum('Cons')"><span id="sumConsCaret">▸</span> Konserwatywny</h3>
+      <h3 class="fcsum-h fc-cons" style="cursor:pointer;user-select:none" onclick="toggleSum('Cons')"><span id="sumConsCaret">▸</span> Konserwatywny<span id="sumConsProd" class="fcsum-prod"></span></h3>
       <div id="sumConsBody" style="display:none">
         <table class="fc">
           <thead><tr><th>Okres</th><th>Sztuki</th><th>Przychód</th><th>Reklama (PPC)</th><th>Zysk*</th><th>Zysk % (CM3)</th></tr></thead>
           <tbody id="fc-body-cons"></tbody>
         </table>
       </div>
-      <h3 class="fcsum-h fc-base" style="cursor:pointer;user-select:none" onclick="toggleSum('Base')"><span id="sumBaseCaret">▾</span> Bazowy</h3>
+      <h3 class="fcsum-h fc-base" style="cursor:pointer;user-select:none" onclick="toggleSum('Base')"><span id="sumBaseCaret">▾</span> Bazowy<span id="sumBaseProd" class="fcsum-prod"></span></h3>
       <div id="sumBaseBody">
         <table class="fc">
           <thead><tr><th>Okres</th><th>Sztuki</th><th>Przychód</th><th>Reklama (PPC)</th><th>Zysk*</th><th>Zysk % (CM3)</th></tr></thead>
           <tbody id="fc-body"></tbody>
         </table>
       </div>
-      <h3 class="fcsum-h fc-opt" style="cursor:pointer;user-select:none" onclick="toggleSum('Opt')"><span id="sumOptCaret">▸</span> Optymistyczny</h3>
+      <h3 class="fcsum-h fc-opt" style="cursor:pointer;user-select:none" onclick="toggleSum('Opt')"><span id="sumOptCaret">▸</span> Optymistyczny<span id="sumOptProd" class="fcsum-prod"></span></h3>
       <div id="sumOptBody" style="display:none">
         <table class="fc">
           <thead><tr><th>Okres</th><th>Sztuki</th><th>Przychód</th><th>Reklama (PPC)</th><th>Zysk*</th><th>Zysk % (CM3)</th></tr></thead>
@@ -596,6 +597,7 @@ function compute(){
   const adM=renderFcSum(baseS,'fc-body');
   renderFcSum(consS,'fc-body-cons');
   renderFcSum(optS,'fc-body-opt');
+  applyProdLabel();
   // panel = sprzedaż rok po roku (Rok 1…5), każdy rok osobno — NIE narastająco
 
   CH.units=baseS.mth.slice();
@@ -753,11 +755,12 @@ function loadFromUrl(url, fallback){
     if(!hits) throw new Error('0 pól');
     // Etykieta z arkusza (klucz `label`) nadpisuje nazwe aktualnie wybranej pozycji w dropdownie.
     const lab=labelFromCsv(txt), sel=$('productSel');
+    if(lab) PROD_LABEL=lab;
     if(lab && sel && sel.selectedIndex>0) sel.options[sel.selectedIndex].textContent=lab;
     useData(data); st.textContent='✓ Wczytano '+hits+' pól z arkusza (live).';
   }).catch(e=>{ if(fallback){ useData(fallback); st.textContent='✓ Dane wbudowane (offline — fetch nie działa na file://). Live po otwarciu przez http/hosting.'; } else { st.textContent='Błąd ('+e.message+'). Otwórz przez http (serwer/hosting) — file:// blokuje pobieranie z Google.'; } });
 }
-function onProductPick(){ const sel=$('productSel'), url=sel.value; const opt=sel.options[sel.selectedIndex];
+function onProductPick(){ PROD_LABEL=''; const sel=$('productSel'), url=sel.value; const opt=sel.options[sel.selectedIndex];
   // Fallback EMBEDDED szukamy po data-key (nazwa z PRODUCTS), NIE po widocznym tekscie —
   // tekst moze byc nadpisany etykieta z arkusza (klucz `label`).
   const key=opt?(opt.getAttribute('data-key')||opt.text):''; if(url){ $('csvUrl').value=url; loadFromUrl(url, EMBEDDED[key]); } }
@@ -768,6 +771,18 @@ function initProducts(){ $('productSel').innerHTML='<option value="">— wybierz
 // Kazdy arkusz moze miec wiersz z kluczem `label` w kolumnie D — wartosc z kolumny B
 // staje sie nazwa widoczna w dropdownie "Produkt". Brak klucza / brak dostepu = zostaje
 // nazwa z PRODUCTS. Dziala tylko po http (file:// blokuje fetch do Google).
+let PROD_LABEL='';
+// Nazwa produktu = klucz `label` z arkusza (kolumna B). Fallback: tekst wybranej pozycji w dropdownie.
+function currentProductName(){
+  if(PROD_LABEL) return PROD_LABEL;
+  const sel=$('productSel');
+  if(sel && sel.selectedIndex>0) return (sel.options[sel.selectedIndex].textContent||'').trim();
+  return '';
+}
+function applyProdLabel(){
+  const n=currentProductName();
+  ['Cons','Base','Opt'].forEach(k=>{ const e=$('sum'+k+'Prod'); if(e) e.textContent=n?(' · '+n):''; });
+}
 function labelFromCsv(txt){
   const rows=parseCSV(txt); let out='';
   rows.forEach(f=>{ if((f[3]||'').trim()==='label'){ const v=(f[1]||'').trim(); if(v) out=v; } });
