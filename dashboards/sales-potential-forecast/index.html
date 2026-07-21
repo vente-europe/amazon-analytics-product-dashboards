@@ -219,7 +219,8 @@
           <tr class="cm-row"><td><b>CM3</b> — po reklamie = zysk netto <span class="hint" style="font-weight:400">Typowa dla Amazona: 20-30%</span></td><td id="cm3">—</td><td id="cm3p">—</td></tr>
           <tr class="cm-tot"><td>Total Costs / szt</td><td id="o-total">—</td><td></td></tr>
           <tr class="cm-tot"><td><b>ROI</b></td><td id="o-roi">—</td><td></td></tr>
-          <tr class="cm-tot"><td>Break-even Price <span class="hint" style="font-weight:400">Net Profit = 0</span></td><td id="o-be">—</td><td></td></tr>
+          <tr class="cm-tot"><td>Break-even Price <b>netto</b> <span class="hint" style="font-weight:400">Net Profit = 0</span></td><td id="o-be">—</td><td id="o-bep">—</td></tr>
+          <tr class="cm-tot"><td>Break-even Price <b>brutto</b> <span class="hint" style="font-weight:400">netto x (1 + VAT)</span></td><td id="o-beg">—</td><td></td></tr>
         </tbody>
       </table>
     </div>
@@ -481,6 +482,10 @@ function compute(){
   $('o-total').textContent=money(total);
   { const e=$('o-roi'); e.textContent=pct(roi); e.className=(roi==null?'':roi>1?'pos':roi>=0.5?'warn':'neg'); }
   $('o-be').textContent=money(be);
+  $('o-beg').textContent=money((be!=null)?be*(1+vat/100):null);
+  { // zapas: o ile % cena moze spasc, zanim zejdziemy do progu
+    const e=$('o-bep'); const cush=(be!=null&&price!=null&&price>0)?(price-be)/price:null;
+    if(e){ e.textContent=(cush==null)?'—':('zapas '+pct(cush)); e.className=(cush==null?'':cush>=0.2?'pos':cush>=0?'warn':'neg'); } }
   { const setT=(id,v)=>{const e=$(id);if(e)e.textContent=v;};
     if(price!=null){ const cm1=price-cogs-inbound, cm2=cm1-referral-fba-storage-other, cm3=cm2-ppc;
       setT('cm-rev',money(price));
