@@ -71,7 +71,8 @@
   .mt-sum.cy3{right:160px}
   .mt-sum.cy2{right:240px}
   .mt-sum.cy1{right:320px;box-shadow:-2px 0 0 var(--line)}
-  #scenTable tr.yoyrow td{font-style:italic;background:#f6f9ff;font-size:12px;border-bottom:1px solid var(--line)}
+  #scenTable tbody td{font-weight:400}
+  #scenTable tr.yoyrow td{font-weight:700;background:#eef2f9;font-size:12px;border-top:1px solid var(--line);border-bottom:2px solid var(--line)}
   body.collapse-y3 .y3,body.collapse-y4 .y4,body.collapse-y5 .y5{display:none}
   .yrbar{display:flex;gap:7px;flex-wrap:wrap;align-items:center;margin:0 0 9px}
   .yrbtn{cursor:pointer;user-select:none;display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;border:1.5px solid var(--line);border-radius:8px;padding:5px 12px;transition:background .12s}
@@ -336,7 +337,7 @@
   <h2 style="cursor:pointer;user-select:none" onclick="toggleScen()"><span id="scenCaret">▸</span> Porównanie scenariuszy — Rok 1–5 (5 lat) <span class="hint" style="font-weight:400">(kliknij, by rozwinąć)</span></h2>
   <div id="scenBody" style="display:none">
     <table class="fc" id="scenTable"></table>
-    <div class="note">Trzy warianty różnią się <b>tempem</b> (długości faz w „Dźwignie"), nie mnożnikiem: <b>BASE ten sam</b>, różni się droga do niego. <b>Konserwatywny</b> = wolniejszy · <b>Bazowy</b> = główny · <b>Optymistyczny</b> = szybszy. Wiersze = <b>Rok 1–5</b> (Rok 1 = M1–12, … Rok 5 = M49–60) + <b>Σ 5 lat</b>. Po pełnej dojrzałości (penetracja 100%) sprzedaż rośnie już tylko <b>wzrostem rynku</b> (% / rok), a marża jest stabilna. Wyróżniona kolumna = <b>Bazowy</b>.</div>
+    <div class="note">Trzy warianty różnią się <b>tempem</b> (długości faz w „Dźwignie"), nie mnożnikiem: <b>BASE ten sam</b>, różni się droga do niego. <b>Konserwatywny</b> = wolniejszy/niższy cel · <b>Bazowy</b> = główny · <b>Optymistyczny</b> = szybszy/wyższy cel. Wiersze = <b>Rok 1–5</b> (Rok 1 = M1–12, … Rok 5 = M49–60) + <b>Σ 5 lat</b>. Po pełnej dojrzałości (penetracja 100%) sprzedaż rośnie już tylko <b>wzrostem rynku</b> (% / rok), a marża jest stabilna. Wyróżniona kolumna = <b>Bazowy</b>.</div>
   </div>
 </div>
 
@@ -636,11 +637,11 @@ function compute(){
     line('Capture — start → Rok 5',capTraj)+
     line('Udział w niszy — Rok 5',shareY5,'yoyrow')+
     yrLbl.map((lbl,i)=>line('Sztuki — '+lbl,s=>int(s.uY[i]))).join('')+
-    line('Sztuki — Σ 5 lat',s=>int(sum5(s.uY)),'yoyrow')+
+    line('Sztuki, suma 5 lat (Rok 1–5)',s=>int(sum5(s.uY)),'yoyrow')+
     yrLbl.map((lbl,i)=>line('Przychód — '+lbl,s=>eur(s.rY[i]))).join('')+
-    line('Przychód — Σ 5 lat',s=>eur(sum5(s.rY)),'yoyrow')+
+    line('Przychód, suma 5 lat (Rok 1–5)',s=>eur(sum5(s.rY)),'yoyrow')+
     yrLbl.map((lbl,i)=>line('Zysk — '+lbl,s=>eur(s.pY[i]))).join('')+
-    line('Zysk — Σ 5 lat',s=>eur(sum5(s.pY)),'yoyrow')+'</tbody>';
+    line('Zysk, suma 5 lat (Rok 1–5)',s=>eur(sum5(s.pY)),'yoyrow')+'</tbody>';
 
   // główna prognoza = Bazowy; Konserwatywny/Optymistyczny w zwijanych tabelach
   const baseS=perScen.find(s=>s.k==='base'), consS=perScen.find(s=>s.k==='cons'), optS=perScen.find(s=>s.k==='opt');
