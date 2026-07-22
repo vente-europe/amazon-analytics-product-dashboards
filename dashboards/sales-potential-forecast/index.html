@@ -206,8 +206,9 @@
     <div class="card calc">
       <h2>Unit economics — wynik (CM1 / CM2 / CM3 na sztukę)</h2>
       <table class="fc" id="cmTable">
-        <thead><tr><th>Poziom</th><th>Wartość / szt</th><th>Marża</th></tr></thead>
+        <thead><tr><th>Poziom</th><th>Wartość</th><th>Marża</th></tr></thead>
         <tbody>
+          <tr><td style="color:var(--muted);font-weight:400">Cena sprzedaży (gross, z VAT) <span class="hint" style="font-weight:400">poglądowo</span></td><td style="color:var(--muted);font-weight:400" id="cm-gross">—</td><td></td></tr>
           <tr><td>Cena sprzedaży (net)</td><td id="cm-rev">—</td><td>100%</td></tr>
           <tr class="cm-d1"><td class="cm-sub">− COGS (produkcja)</td><td class="cm-sub" id="cm-cogs">—</td><td></td></tr>
           <tr class="cm-d1"><td class="cm-sub">− Inbound Shipping</td><td class="cm-sub" id="cm-inb">—</td><td></td></tr>
@@ -432,7 +433,6 @@ const CHV={units:true,rev:false,prof:false,ppc:false};
 
 // === KONFIG: produkty → opublikowany CSV URL (File→Share→Publish to web→CSV) ===
 const PRODUCTS = [
-  {name:'Electric Trap (DE)', url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vTOT3seMHzrShBF6_D8VtufchyDGmU4RukchXjXOxjS4msgKxEoiecroCHFd5fi5Hkwdu2DYRLydIxe/pub?output=csv'},
   {name:'Allergoff Cream (DE)', url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vSDo_KlCP59503sYx8f4DhQPDNlm8QAqZPSSqNdxNP3aG65VtFtIgIwcRWGejzWx1uGkXKbjajRpnQm/pub?output=csv'},
   {name:'Allergoff Cream (DE - 75ml)', url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vRpSzv5EM4BHNrLo4k92aAQbTybBGIBZr7oxXI8-kl4R-RM09Ppzb0_lsRQ5nD9yLLYVLPdUDBKw1cD/pub?output=csv'},
   {name:'Allergoff Emulsja', url:'https://docs.google.com/spreadsheets/d/e/2PACX-1vR-YAOXgewxX600xk2t8xuPCg4up_Jk2Q-51jRPp05qktP6-aTYqUjJvRLuNUS0tey1hVKAJY7pshFE/pub?output=csv'},
@@ -442,7 +442,6 @@ const PRODUCTS = [
 // Snapshot danych z arkuszy — używany jako fallback, gdy fetch nie działa (np. otwarcie przez file://).
 // Po zmianie danych w Google Sheet zaktualizuj tu, ALBO otwórz dashboard przez http (serwer/hosting) — wtedy ciągnie live.
 const EMBEDDED = {
-  'Electric Trap (DE)': {marketplace:'DE',priceGross:22,cogs:2,inbound:0.2,referralPct:15,fba:2.3,storage:0.2,other:0.1,a1:2400,a2:2600,a3:1200,a4:950,a5:650,capture:0.45,niche:194000,share:0.06,top3:0.39,penStart:0.25,mktGrowth:8,tacosMature:8,baseLaunchEnd:6,baseGrowthEnd:18,basePenMonth:12},
   'Allergoff Cream (DE)': {marketplace:'DE',priceGross:22,cogs:2,inbound:0.2,referralPct:15,fba:2.3,storage:0.2,other:0.1,a1:2400,a2:2600,a3:1200,a4:950,a5:650,capture:0.45,niche:194000,share:0.06,top3:0.39,penStart:0.25,mktGrowth:8,tacosMature:8,baseLaunchEnd:6,baseGrowthEnd:18,basePenMonth:12},
   'Allergoff Cream (DE - 75ml)': {marketplace:'DE',priceGross:9.99,cogs:1.54,inbound:0.1,referralPct:15,fba:2.78,storage:0.01,other:0.1,a1:12678,a2:7543,a3:6491,a4:6052,a5:3765,a6:2973,a7:2557,a8:2315,a9:2124,a10:1956,capture:0.4,niche:1095000,share:0.02,top3:0.29,mktGrowth:8,penStart:0.05,ppcLaunchStart:100,ppcLaunchEnd:80,ppcGrowthStart:80,ppcGrowthEnd:50,ppcMatureStart:50,ppcMatureEnd:40,tacosTarget:20,tacosMature:15,baseLaunchEnd:6,baseGrowthEnd:12,basePenMonth:18,consLaunchEnd:9,consGrowthEnd:18,consPenMonth:24,optLaunchEnd:3,optGrowthEnd:9,optPenMonth:18},
   'Allergoff Emulsja': {marketplace:'DE',priceGross:18,cogs:3,inbound:0.2,referralPct:15,fba:3.13,storage:0.01,other:0.1,a1:12678,a2:7543,a3:6491,a4:6052,a5:3765,a6:2973,a7:2557,a8:2315,a9:2124,a10:1956,capture:0.4,niche:1095000,share:0.03,top3:0.29,mktGrowth:8,penStart:0.05,ppcLaunchStart:100,ppcLaunchEnd:70,ppcGrowthStart:70,ppcGrowthEnd:50,ppcMatureStart:50,ppcMatureEnd:40,tacosTarget:15,tacosMature:15,baseLaunchEnd:6,baseGrowthEnd:12,basePenMonth:18,consLaunchEnd:9,consGrowthEnd:18,consPenMonth:24,optLaunchEnd:3,optGrowthEnd:9,optPenMonth:18},
@@ -546,7 +545,7 @@ function compute(){
     if(e){ e.textContent=(cush==null)?'—':('zapas '+pct(cush)); e.className=(cush==null?'':cush>=0.2?'pos':cush>=0?'warn':'neg'); } }
   { const setT=(id,v)=>{const e=$(id);if(e)e.textContent=v;};
     if(price!=null){ const cm1=price-cogs-inbound, cm2=cm1-referral-fba-storage-other, cm3=cm2-ppc;
-      setT('cm-rev',money(price));
+      setT('cm-gross',money(gross)); setT('cm-rev',money(price));
       const m1=price>0?cm1/price:null, m2=price>0?cm2/price:null, m3=price>0?cm3/price:null;
       setT('cm1',money(cm1)); setT('cm1p',pct(m1));
       setT('cm2',money(cm2)); setT('cm2p',pct(m2));
@@ -561,7 +560,7 @@ function compute(){
       setT('cm-cogs',money(-cogs)); setT('cm-inb',money(-inbound));
       setT('cm-ref',money(-referral)); setT('cm-fba',money(-fba)); setT('cm-stor',money(-storage));
       setT('cm-ppc',money(-ppc)); setT('cm-oth',money(-other));
-    } else { ['cm-rev','cm1','cm1p','cm2','cm2p','cm3','cm3p','cm-cogs','cm-inb','cm-ref','cm-fba','cm-stor','cm-ppc','cm-oth'].forEach(id=>setT(id,'—')); ['cm1p','cm2p','cm3p','cm3'].forEach(id=>{const e=$(id);if(e)e.className='';}); ['cm1','cm2','cm3'].forEach(id=>{const e=$(id);if(e){const tr=e.closest('tr');if(tr)tr.classList.remove('cm-good','cm-bad');}}); } }
+    } else { ['cm-gross','cm-rev','cm1','cm1p','cm2','cm2p','cm3','cm3p','cm-cogs','cm-inb','cm-ref','cm-fba','cm-stor','cm-ppc','cm-oth'].forEach(id=>setT(id,'—')); ['cm1p','cm2p','cm3p','cm3'].forEach(id=>{const e=$(id);if(e)e.className='';}); ['cm1','cm2','cm3'].forEach(id=>{const e=$(id);if(e){const tr=e.closest('tr');if(tr)tr.classList.remove('cm-good','cm-bad');}}); } }
 
   // triangulation
   const med=median([num('a1'),num('a2'),num('a3'),num('a4'),num('a5'),num('a6'),num('a7'),num('a8'),num('a9'),num('a10')]), cap=num('capture');
