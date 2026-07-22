@@ -242,7 +242,7 @@
       <div class="sec">Warstwa 2 · penetracja (start rampy)</div>
       <div class="row"><label>Penetracja w mies. 1 <span class="hint">% dojrzałej sprzedaży na starcie; np. 0.25 = 25% (wspólne)</span></label><div class="inp"><input type="number" id="penStart" step="0.05"></div></div>
       <div class="sec">Reklama — udział PPC + docelowy TACOS (napędza projekcję)</div>
-      <div class="exp" style="font-size:.86em">Ustawiasz <b>udział sprzedaży przez PPC</b> (maleje w fazach, przedział rozłożony po równo na miesiące fazy) i <b>docelowy TACOS</b> (mies. 1 = break-even, schodzi do celu na początku Mature). <b>ACOS = TACOS ÷ udział PPC</b> — liczony sam, pokazany jako wynikowy w tabelach niżej. Organiczna sprzedaż = darmowy profit.</div>
+      <div class="exp" style="font-size:.86em"><b>Launch = kontrolowany deficyt:</b> mies. 1 to <b>TACOS 100%</b> (reklama = cały przychód netto, tracisz opłaty + COGS na sztukę), potem <b>liniowo do break-even</b> (CM2%) na koniec launchu, gdzie wypada <b>miesiąc break-even</b>. Dalej TACOS schodzi do docelowego. Stratę i kapitał widać w wierszach <b>Zysk netto</b> i <b>Skumulowany cash flow</b> (min = gotówka na launch). Pola „Udział PPC" ustawiają split PPC/organic (do ACOS), nie napędzają już straty. Organiczna sprzedaż = darmowy profit.</div>
       <div class="row ph-launch"><label>Udział PPC Launch — start (%)</label><div class="inp"><input type="number" id="ppcLaunchStart" step="5"></div></div>
       <div class="row ph-launch"><label>Udział PPC Launch — koniec (%)</label><div class="inp"><input type="number" id="ppcLaunchEnd" step="5"></div></div>
       <div class="row ph-growth"><label>Udział PPC Growth — start (%)</label><div class="inp"><input type="number" id="ppcGrowthStart" step="5"></div></div>
@@ -482,11 +482,12 @@ function ppcShare(L,m){ const le=L.stLE, ge=Math.max(L.stGE,le+1); let v;
   return v==null?null:v/100; }
 // TACOS na projekcję (ułamek): mies. 1 = break-even (udziałPPC_start × be), schodzi do docelowego TACOS
 // na początku Mature (koniec Growth). ACOS liczony osobno jako TACOS ÷ udział PPC.
-function tacosStage(L,m,be){ const ge=Math.max(L.stGE,L.stLE+1), t=(L.tacT==null?null:L.tacT/100);
+function tacosStage(L,m,be){ const le=Math.max(L.stLE,1), ge=Math.max(L.stGE,le+1), t=(L.tacT==null?null:L.tacT/100);
   if(be==null||t==null)return null;
-  const psL=(L.ppcLS!=null)?L.ppcLS/100:1;   // udział PPC na starcie
-  const launchTac=psL*be;                     // TACOS startowy = ACOS break-even × udział PPC startowy
-  return rampSeg(1,ge,launchTac,t,m); }
+  // Launch = kontrolowany deficyt: mies. 1 = 100% TACOS (reklama = cały przychód netto, strata = opłaty+COGS/szt),
+  // liniowo do break-even (CM2%) na koniec launchu. Growth→Mature: od break-even do TACOS docelowego.
+  if(m<=le) return rampSeg(1,le,1,be,m);
+  return rampSeg(le,ge,be,t,m); }
 function stageName(L,m){ return m<=L.stLE?'Launch':(m<=L.stGE?'Growth':'Mature'); }
 // Warstwa 1: sufit rośnie z rynkiem. Warstwa 2: penetracja rośnie od penStart do 100% w miesiącu penM.
 function marketMult(L,m){ return Math.pow(1+(L.mkt||0)/100,(m-1)/12); }
@@ -721,6 +722,8 @@ function buildMonthTable(units,price,fx,L,nicheMo,tid,full){
     const tot=fixed+adU;
     margM.push(price>0?nu/price:null); roiM.push(tot>0?nu/tot:null);
   }
+  // Skumulowany cash flow = narastająca suma miesięcznego zysku netto. Minimum = kapitał potrzebny na launch.
+  const profM=units.map((u,i)=>u*netUM[i]); let _run=0; const cumM=profM.map(p=>(_run+=p));
   const rows=[
     {l:'Sprzedaż',t:'money',tone:'g',v:units.map(u=>u*price)},
     {l:'Sztuki',t:'int',tone:'g',v:units.slice()},
@@ -731,7 +734,8 @@ function buildMonthTable(units,price,fx,L,nicheMo,tid,full){
     {l:'COGS',t:'money',tone:'r',v:units.map(u=>-u*fx.cogs)},
     {l:'Inbound',t:'money',tone:'r',v:units.map(u=>-u*fx.inbound)},
     {l:'Other',t:'money',tone:'r',v:units.map(u=>-u*fx.other)},
-    {l:'Zysk netto',t:'money',tone:'g',v:units.map((u,i)=>u*netUM[i]),strong:1},
+    {l:'Zysk netto',t:'money',tone:'g',v:profM.slice(),strong:1},
+    {l:'Skumulowany cash flow (min = kapitał na launch)',t:'money',tone:'g',v:cumM.slice()},
     {l:'Marża',t:'pct',tone:'g',v:margM.slice()},
     {l:'ROI',t:'pct',tone:'g',v:roiM.slice()},
     {sep:1},
