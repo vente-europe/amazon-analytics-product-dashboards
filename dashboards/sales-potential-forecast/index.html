@@ -189,7 +189,7 @@
       <div class="row"><label>Anchor 8</label><div class="inp"><input type="number" id="a8"></div></div>
       <div class="row"><label>Anchor 9</label><div class="inp"><input type="number" id="a9"></div></div>
       <div class="row"><label>Anchor 10</label><div class="inp"><input type="number" id="a10"></div></div>
-      <div class="row"><label>Capture factor <span class="hint">% mediany w stanie dojrzałym ROKU 1 (nie startowy — słaby start robi rampa); rośnie do celu Rok 5 per scenariusz</span></label><div class="inp"><input type="number" id="capture" step="0.01"></div></div>
+      <div class="row"><label>Capture factor <span class="hint">% mediany w stanie dojrzałym (nie startowy: słaby start robi rampa). Buduje rozmiar BASE</span></label><div class="inp"><input type="number" id="capture" step="0.01"></div></div>
 
       <div class="sec">Metoda B · udział w niszy</div>
       <div class="exp"><b>Kontrola rynku (domyślnie waga ~38%):</b> cała roczna sprzedaż niszy z X-Ray × realny udział, jaki możemy zdobyć. Trzyma prognozę przy realiach rynku — jej waga w BASE ściąga wynik, jeśli kotwica A jest zbyt optymistyczna wobec wielkości niszy. Nisza (szt) 🔒 z X-Ray; <b>docelowy udział ✎</b> to Twoje założenie.</div>
@@ -253,24 +253,24 @@
     </div>
     <div>
       <div class="sec">Długości faz — per scenariusz (ustawiasz ręcznie)</div>
-      <div class="exp" style="font-size:.86em">3 scenariusze różnią się <b>tempem</b> (długości faz) <b>oraz punktem docelowym</b> (Capture — cel Rok 5). <b>Start capture jest wspólny</b> (pole „Capture factor" z arkusza) i rośnie do celu Rok 5 po krzywej <b>wyhamowującej</b> — szybciej na początku, potem coraz wolniej. Rampa penetracji nadal odpowiada za słaby start, więc nie ma podwójnego liczenia. Benchmark TACOS bez zmian.</div>
+      <div class="exp" style="font-size:.86em">3 scenariusze różnią się <b>tempem</b> (długości faz) <b>oraz o ile BASE urośnie do Roku 5</b>. Wzrost liczony wprost od BASE (np. 0,2 = +20%, 1,0 = +100%; 0 = BASE płaskie) i narasta po krzywej <b>wyhamowującej</b>: szybciej na początku, potem wolniej. Rampa penetracji nadal odpowiada za słaby start, więc nie ma podwójnego liczenia. Benchmark TACOS bez zmian.</div>
       <div class="scen-hd sc-base">Bazowy — główna prognoza</div>
       <div class="row"><label>Koniec Launch (mies.)</label><div class="inp"><input type="number" id="baseLaunchEnd" step="1"></div></div>
       <div class="row"><label>Koniec Growth (mies.)</label><div class="inp"><input type="number" id="baseGrowthEnd" step="1"></div></div>
       <div class="row"><label>Pełna dojrzałość (mies.)</label><div class="inp"><input type="number" id="basePenMonth" step="1"></div></div>
-      <div class="row"><label>Capture — cel Rok 5 <span class="hint">start bierze z pola „Capture factor"</span></label><div class="inp"><input type="number" id="baseCapY5" step="0.01"></div></div>
+      <div class="row"><label>O ile wzrośnie BASE do Roku 5 <span class="hint">np. 0,2 = +20%; 0 = bez wzrostu</span></label><div class="inp"><input type="number" id="baseCapY5" step="0.01"></div></div>
       <div class="scen-sum" id="sum-base"></div>
       <div class="scen-hd sc-cons">Konserwatywny — wolniejszy</div>
       <div class="row"><label>Koniec Launch (mies.)</label><div class="inp"><input type="number" id="consLaunchEnd" step="1"></div></div>
       <div class="row"><label>Koniec Growth (mies.)</label><div class="inp"><input type="number" id="consGrowthEnd" step="1"></div></div>
       <div class="row"><label>Pełna dojrzałość (mies.)</label><div class="inp"><input type="number" id="consPenMonth" step="1"></div></div>
-      <div class="row"><label>Capture — cel Rok 5 <span class="hint">niższy cel = ostrożniejszy udział</span></label><div class="inp"><input type="number" id="consCapY5" step="0.01"></div></div>
+      <div class="row"><label>O ile wzrośnie BASE do Roku 5 <span class="hint">ostrożnie, np. 0 = bez wzrostu</span></label><div class="inp"><input type="number" id="consCapY5" step="0.01"></div></div>
       <div class="scen-sum" id="sum-cons"></div>
       <div class="scen-hd sc-opt">Optymistyczny — szybszy</div>
       <div class="row"><label>Koniec Launch (mies.)</label><div class="inp"><input type="number" id="optLaunchEnd" step="1"></div></div>
       <div class="row"><label>Koniec Growth (mies.)</label><div class="inp"><input type="number" id="optGrowthEnd" step="1"></div></div>
       <div class="row"><label>Pełna dojrzałość (mies.)</label><div class="inp"><input type="number" id="optPenMonth" step="1"></div></div>
-      <div class="row"><label>Capture — cel Rok 5 <span class="hint">wyższy cel = mocniejsza pozycja w roku 5</span></label><div class="inp"><input type="number" id="optCapY5" step="0.01"></div></div>
+      <div class="row"><label>O ile wzrośnie BASE do Roku 5 <span class="hint">mocniej, np. 0,5 = +50%</span></label><div class="inp"><input type="number" id="optCapY5" step="0.01"></div></div>
       <div class="scen-sum" id="sum-opt"></div>
     </div>
   </div>
@@ -337,7 +337,7 @@
   <h2 style="cursor:pointer;user-select:none" onclick="toggleScen()"><span id="scenCaret">▸</span> Porównanie scenariuszy — Rok 1–5 (5 lat) <span class="hint" style="font-weight:400">(kliknij, by rozwinąć)</span></h2>
   <div id="scenBody" style="display:none">
     <table class="fc" id="scenTable"></table>
-    <div class="note">Trzy warianty różnią się <b>tempem</b> (długości faz w „Dźwignie"), nie mnożnikiem: <b>BASE ten sam</b>, różni się droga do niego. <b>Konserwatywny</b> = wolniejszy/niższy cel · <b>Bazowy</b> = główny · <b>Optymistyczny</b> = szybszy/wyższy cel. Wiersze = <b>Rok 1–5</b> (Rok 1 = M1–12, … Rok 5 = M49–60) + <b>Σ 5 lat</b>. Po pełnej dojrzałości (penetracja 100%) sprzedaż rośnie już tylko <b>wzrostem rynku</b> (% / rok), a marża jest stabilna. Wyróżniona kolumna = <b>Bazowy</b>.</div>
+    <div class="note">Trzy warianty różnią się <b>tempem</b> (długości faz w „Dźwignie"), nie mnożnikiem: <b>BASE ten sam</b>, różni się droga do niego. <b>Konserwatywny</b> = wolniejszy/niższy cel · <b>Bazowy</b> = główny · <b>Optymistyczny</b> = szybszy/wyższy cel. Wiersze = <b>Rok 1–5</b> (Rok 1 = M1–12, … Rok 5 = M49–60) + <b>Σ 5 lat</b>. Po pełnej dojrzałości (penetracja 100%) sprzedaż rośnie <b>wzrostem rynku</b> (% / rok) plus resztą <b>wzrostu BASE do Roku 5</b>; marża jest stabilna. Wyróżniona kolumna = <b>Bazowy</b>.</div>
   </div>
 </div>
 
@@ -353,9 +353,9 @@ const BASELINE = {
   tacosMature:8,
   ppcLaunchStart:90, ppcLaunchEnd:60, ppcGrowthStart:60, ppcGrowthEnd:40, ppcMatureStart:40, ppcMatureEnd:35,
   tacosTarget:20,
-  baseLaunchEnd:6, baseGrowthEnd:18, basePenMonth:12, baseCapY5:0.5,
-  consLaunchEnd:9, consGrowthEnd:24, consPenMonth:18, consCapY5:0.45,
-  optLaunchEnd:3, optGrowthEnd:12, optPenMonth:8, optCapY5:0.6
+  baseLaunchEnd:6, baseGrowthEnd:18, basePenMonth:12, baseCapY5:0.2,
+  consLaunchEnd:9, consGrowthEnd:24, consPenMonth:18, consCapY5:0,
+  optLaunchEnd:3, optGrowthEnd:12, optPenMonth:8, optCapY5:0.5
 };
 const IDS = Object.keys(BASELINE);
 const PLAYABLE = ['priceGross','price','vat','cogs','inbound','referralPct','fba','storage','other',
@@ -491,14 +491,13 @@ function stageName(L,m){ return m<=L.stLE?'Launch':(m<=L.stGE?'Growth':'Mature')
 // Warstwa 1: sufit rośnie z rynkiem. Warstwa 2: penetracja rośnie od penStart do 100% w miesiącu penM.
 function marketMult(L,m){ return Math.pow(1+(L.mkt||0)/100,(m-1)/12); }
 function penetration(L,m){ return (L.penS!=null)?rampTo(L.penS,1,L.penM,m):null; }
-// Warstwa 3: capture rośnie w czasie. Start = pole „Capture factor" (z arkusza) = poziom dojrzały
-// ROKU 1. Cel = „Capture — cel Rok 5" per scenariusz. Krzywa WYHAMOWUJĄCA (ease-out): udział
-// łatwiej rośnie na początku, potem coraz wolniej. Zwraca MNOŻNIK względem startu (1,0 w M1),
-// więc nakłada się na BASE i nie dubluje rampy penetracji (ta odpowiada za słaby start).
-function capMult(L,m){ const cs=num('capture'), ct=L.capY5;
-  if(cs==null||!(cs>0)||ct==null||!isFinite(ct))return 1;
+// Warstwa 3: BASE rośnie po dojrzałości. Dźwignia „O ile wzrośnie BASE do Roku 5" per scenariusz
+// (g: 0,2 = +20%, 1,0 = +100%; 0 = płasko). Krzywa WYHAMOWUJĄCA (ease-out): szybciej na początku,
+// potem wolniej. Zwraca MNOŻNIK względem BASE (1,0 w M1 do 1+g w M60), niezależny od capture factor.
+function capMult(L,m){ const g=L.capY5;
+  if(g==null||!isFinite(g))return 1;
   const p=Math.min(Math.max((m-1)/59,0),1), e=1-Math.pow(1-p,2);
-  return (cs+(ct-cs)*e)/cs; }
+  return 1+g*e; }
 // sztuki(m) = BASE × wzrost_rynku(m) × penetracja(m) × drift_capture(m)
 function scenMonthly(mature,L){ const a=[]; if(mature==null)return a;
   for(let m=1;m<=60;m++){ const p=penetration(L,m); a.push(p==null?0:mature*marketMult(L,m)*p*capMult(L,m)); } return a; }
@@ -624,9 +623,8 @@ function compute(){
   const head='<thead><tr><th></th>'+perScen.map(s=>`<th class="tc-${s.k} ${s.k==='base'?'selcol':''}">${s.label}</th>`).join('')+'</tr></thead>';
   const line=(lbl,f,cls)=>`<tr class="${cls||''}"><td>${lbl}</td>`+perScen.map(s=>`<td class="${s.k==='base'?'selcol':''}">${f(s)}</td>`).join('')+'</tr>';
   // capture: start wspólny (pole „Capture factor", z arkusza) → cel Rok 5 per scenariusz
-  const capStart=num('capture');
-  const capTraj=s=>(capStart!=null&&s.L.capY5!=null&&isFinite(s.L.capY5))
-    ? (Number(capStart).toFixed(2)+' → '+Number(s.L.capY5).toFixed(2)) : '—';
+  const capTraj=s=>(s.L.capY5!=null&&isFinite(s.L.capY5))
+    ? ('+'+Math.round(s.L.capY5*100)+'% do Roku 5') : '—';
   // WYNIK (nie input): udział w niszy w Roku 5 = sztuki Roku 5 ÷ nisza urosła o wzrost rynku
   // (średni mnożnik rynku po M49–60). Test spójności z Metodą B.
   const shareY5=s=>{ if(niche==null||!(niche>0)||s.uY[4]==null)return '—';
@@ -634,7 +632,7 @@ function compute(){
     const nicheY5=niche*(n?mm/n:1);
     return nicheY5>0?pct(s.uY[4]/nicheY5):'—'; };
   $('scenTable').innerHTML=head+'<tbody>'+
-    line('Capture — start → Rok 5',capTraj)+
+    line('Wzrost BASE do Roku 5',capTraj)+
     line('Udział w niszy — Rok 5',shareY5,'yoyrow')+
     yrLbl.map((lbl,i)=>line('Sztuki — '+lbl,s=>int(s.uY[i]))).join('')+
     line('Sztuki, suma 5 lat (Rok 1–5)',s=>int(sum5(s.uY)),'yoyrow')+
