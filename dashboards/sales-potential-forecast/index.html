@@ -107,7 +107,7 @@
   h2.fc-opt{border-left:4px solid #2ea864;padding-left:8px}
   #scenTable th.tc-cons{color:#b5372b}#scenTable th.tc-base{color:#9c6410}#scenTable th.tc-opt{color:#1c7a43}
   #cmTable tr.cm-gap td{padding-top:15px;border-top:2px solid var(--line)}
-  #cmTable tr.cm-row td{font-weight:600;background:#eef3fb}
+  #cmTable tr.cm-row td{font-weight:700;background:#eef3fb}
   #cmTable tr.cm-row.cm-good td{background:rgba(46,168,100,.15)}
   #cmTable tr.cm-row.cm-bad td{background:rgba(217,75,75,.13)}
   #cmTable tr.cm-row:hover td{background:#e4ecf9}
@@ -556,7 +556,8 @@ function compute(){
       // tło wiersza CM: zielone gdy marża w przedziale (dolna granica) lub wyżej, inaczej czerwone
       const markRow=(id,mg,thr)=>{const e=$(id); if(!e)return; const tr=e.closest('tr'); if(!tr)return; tr.classList.remove('cm-good','cm-bad'); if(mg!=null) tr.classList.add(mg>=thr?'cm-good':'cm-bad');};
       markRow('cm1',m1,0.70); markRow('cm2',m2,0.35); markRow('cm3',m3,0.20);
-      const e3=$('cm3'); if(e3) e3.className=(cm3>=0?'pos':'neg');
+      // Wartość € zielona w widełkach (>= dolny widełek), czerwona poniżej — spójnie dla CM1/CM2/CM3
+      mark('cm1',m1,0.70); mark('cm2',m2,0.35); mark('cm3',m3,0.20);
       setT('cm-cogs',money(-cogs)); setT('cm-inb',money(-inbound));
       setT('cm-ref',money(-referral)); setT('cm-fba',money(-fba)); setT('cm-stor',money(-storage));
       setT('cm-ppc',money(-ppc)); setT('cm-oth',money(-other));
