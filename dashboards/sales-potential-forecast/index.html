@@ -222,7 +222,6 @@
           <tr class="cm-d3"><td class="cm-sub">− PPC / TACOS dojrzały</td><td class="cm-sub" id="cm-ppc">—</td><td></td></tr>
           <tr class="cm-row"><td><b>CM3</b> — po reklamie = zysk netto <span class="hint" style="font-weight:400">Typowa dla Amazona: 20-30%</span></td><td id="cm3">—</td><td id="cm3p">—</td></tr>
           <tr class="cm-tot"><td>Total Costs / szt</td><td id="o-total">—</td><td></td></tr>
-          <tr class="cm-tot"><td><b>ROI</b></td><td id="o-roi">—</td><td></td></tr>
           <tr class="cm-tot cm-gap"><td>Koszty Amazona <span class="hint" style="font-weight:400">referral + FBA + storage, % ceny netto <span id="o-amzsplit"></span></span></td><td id="o-amz">—</td><td id="o-amzp">—</td></tr>
           <tr class="cm-tot"><td>Break-even Price <b>netto</b> <span class="hint" style="font-weight:400">Net Profit = 0</span></td><td id="o-be">—</td><td id="o-bep">—</td></tr>
           <tr class="cm-tot"><td>Break-even Price <b>brutto</b> <span class="hint" style="font-weight:400">netto x (1 + VAT)</span></td><td id="o-beg">—</td><td></td></tr>
@@ -531,7 +530,6 @@ function compute(){
   }
   // Panel wyniku = wodospad CM. Total/ROI/Break-even to linie poza wodospadem.
   $('o-total').textContent=money(total);
-  { const e=$('o-roi'); e.textContent=pct(roi); e.className=(roi==null?'':roi>1?'pos':roi>=0.5?'warn':'neg'); }
   { // koszty Amazona (referral + FBA + storage) jako % ceny netto - tylko w tej tabeli
     const amz=(price!=null)?(referral+fba+storage):null;
     const e=$('o-amz'), ep=$('o-amzp'), es=$('o-amzsplit');
