@@ -138,10 +138,12 @@
 <div class="card" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
   <b style="font-size:13px">Produkt:</b>
   <select id="productSel" style="width:220px" onchange="onProductPick()"></select>
+  <span style="display:none">
   <span class="hint">lub CSV URL:</span>
   <input type="text" id="csvUrl" placeholder="https://docs.google.com/.../pub?output=csv" style="width:280px;text-align:left">
   <button onclick="loadFromUrl($('csvUrl').value)">Wczytaj z arkusza</button>
   <button class="ghost" onclick="resetToSheet()">Reset do arkusza</button>
+  </span>
   <span id="loadStatus" class="hint"></span>
 </div>
 
@@ -173,37 +175,15 @@
     </div>
 
     <div class="card">
-      <h2 style="cursor:pointer;user-select:none" onclick="toggleVol()"><span id="volCaret">▸</span> 2 · Wolumen — dwie metody (A + B) <span class="hint" style="font-weight:400">(poglądowo — kliknij, by rozwinąć)</span></h2>
-      <div id="volBody" style="display:none">
-      <div class="exp"><b>Po co to jest:</b> szacujemy, ile sztuk realnie sprzedamy, na dwa niezależne sposoby i porównujemy. Jeśli obie metody dają zbliżony wynik → wysoka pewność. Jeśli się rozjeżdżają → sygnał ryzyka.</div>
-
-      <div class="sec">Metoda A · kotwica na konkurentach</div>
-      <div class="exp"><b>Anchor (kotwica)</b> = realny konkurent z X-Ray o podobnym produkcie i cenie. Bierzemy do <b>10</b> takich i patrzymy na ich miesięczną sprzedaż — to <b>najtwardsza dana rynkowa</b>: pokazuje, ile sprzedaje produkt taki jak nasz. Puste pola są pomijane (liczy się mediana z wypełnionych). Anchory 🔒 (dane z X-Ray); <b>capture factor ✎</b> to Twoje założenie — wpływa na BASE.</div>
-      <div class="row"><label>Anchor 1 <span class="hint">konkurent 1</span></label><div class="inp"><input type="number" id="a1"></div></div>
-      <div class="row"><label>Anchor 2</label><div class="inp"><input type="number" id="a2"></div></div>
-      <div class="row"><label>Anchor 3</label><div class="inp"><input type="number" id="a3"></div></div>
-      <div class="row"><label>Anchor 4</label><div class="inp"><input type="number" id="a4"></div></div>
-      <div class="row"><label>Anchor 5</label><div class="inp"><input type="number" id="a5"></div></div>
-      <div class="row"><label>Anchor 6</label><div class="inp"><input type="number" id="a6"></div></div>
-      <div class="row"><label>Anchor 7</label><div class="inp"><input type="number" id="a7"></div></div>
-      <div class="row"><label>Anchor 8</label><div class="inp"><input type="number" id="a8"></div></div>
-      <div class="row"><label>Anchor 9</label><div class="inp"><input type="number" id="a9"></div></div>
-      <div class="row"><label>Anchor 10</label><div class="inp"><input type="number" id="a10"></div></div>
-      <div class="row"><label>Capture factor <span class="hint">% mediany w stanie dojrzałym (nie startowy: słaby start robi rampa). Buduje rozmiar BASE</span></label><div class="inp"><input type="number" id="capture" step="0.01"></div></div>
-
-      <div class="sec">Metoda B · udział w niszy</div>
-      <div class="exp"><b>Kontrola rynku (domyślnie waga ~38%):</b> cała roczna sprzedaż niszy z X-Ray × realny udział, jaki możemy zdobyć. Trzyma prognozę przy realiach rynku — jej waga w BASE ściąga wynik, jeśli kotwica A jest zbyt optymistyczna wobec wielkości niszy. Nisza (szt) 🔒 z X-Ray; <b>docelowy udział ✎</b> to Twoje założenie.</div>
-      <div class="row"><label>Roczna sprzedaż całej niszy (szt) <span class="hint">suma porównywalnych ASIN × 12 (X-Ray)</span></label><div class="inp"><input type="number" id="niche"></div></div>
-      <div class="row"><label>Docelowy udział <span class="hint">rozdrobniony 2–5%, skoncentrowany 0,5–2% (np. 0.03)</span></label><div class="inp"><input type="number" id="share" step="0.001"></div></div>
-      <div class="row"><label>Udział top-3 ASIN-ów <span class="hint">koncentracja rynku</span></label><div class="inp"><input type="number" id="top3" step="0.01"></div></div>
-
-      <div class="sec">Metoda bezpośrednia <span style="font-weight:400;color:var(--muted)">(opcjonalna — np. muszki)</span></div>
-      <div class="exp">Zaznacz, gdy chcesz podać wynik <b>wprost</b>, z pominięciem mediany (Metoda A) i udziału (Metoda B). BASE = Twoja <b>sprzedaż mies. w Roku 1</b>; wzrost do Roku 5 bierze się z <b>zakresu udziału</b> (np. 5% → 25% = BASE ×5). Scenariusze różni wtedy tylko tempo. Niezaznaczone = klasyczna triangulacja (Allergoff).</div>
-      <div class="row"><label><input type="checkbox" id="directMode" style="width:auto;margin-right:7px"> Użyj metody bezpośredniej</label></div>
-      <div class="row"><label>Sprzedaż mies. Rok 1 (szt) <span class="hint">bezpośredni BASE</span></label><div class="inp"><input type="number" id="dBase"></div></div>
+      <h2>2 · Model udziałowy <span class="hint" style="font-weight:400">startowa sprzedaż + udział rynku Rok 1 → Rok 5</span></h2>
+      <div class="exp">Prognoza opiera się na <b>trzech polach z arkusza</b>: startowa sprzedaż miesięczna w Roku 1 (to jest BASE) oraz udział rynku w Roku 1 i Roku 5 — z ich stosunku liczony jest wzrost BASE do Roku 5 (np. 5% → 25% = BASE ×5). Scenariusze różni tylko tempo dojścia.</div>
+      <div class="row"><label>Startowa sprzedaż mies. Rok 1 (szt) <span class="hint">BASE — z arkusza</span></label><div class="inp"><input type="number" id="dBase"></div></div>
       <div class="row"><label>Udział rynku Rok 1 (%) <span class="hint">np. 5</span></label><div class="inp"><input type="number" id="dShareY1" step="0.5"></div></div>
       <div class="row"><label>Udział rynku Rok 5 (%) <span class="hint">np. 25 → BASE ×5 do Roku 5</span></label><div class="inp"><input type="number" id="dShareY5" step="0.5"></div></div>
 
+      <!-- Metody A i B: dane wczytywane z arkusza, ale NIE uzywane w modelu udzialowym. Ukryte, pola zostaja w DOM. -->
+      <div id="volBody" style="display:none" aria-hidden="true">
+        <input type="number" id="a1"><input type="number" id="a2"><input type="number" id="a3"><input type="number" id="a4"><input type="number" id="a5"><input type="number" id="a6"><input type="number" id="a7"><input type="number" id="a8"><input type="number" id="a9"><input type="number" id="a10"><input type="number" id="capture"><input type="number" id="niche"><input type="number" id="share"><input type="number" id="top3">
       </div>
     </div>
 
@@ -246,7 +226,7 @@
       <div class="sec">Warstwa 1 · wzrost rynku</div>
       <div class="row"><label>Wzrost rynku (% / rok) <span class="hint">trend kategorii + ekspansja Amazona; zwykle 5–12%</span></label><div class="inp"><input type="number" id="mktGrowth" step="0.5"></div></div>
       <div class="sec">Warstwa 2 · penetracja (start rampy)</div>
-      <div class="row"><label>Penetracja w mies. 1 <span class="hint">% dojrzałej sprzedaży na starcie; np. 0.25 = 25% (wspólne)</span></label><div class="inp"><input type="number" id="penStart" step="0.05"></div></div>
+      <div class="row"><label>Penetracja w mies. 1 — % sprzedaży w Y1 <span class="hint">start rampy; rośnie do 100% wartości sprzedaży z M12. np. 0,25 = 25%</span></label><div class="inp"><input type="number" id="penStart" step="0.05"></div></div>
       <div class="sec">Reklama: udział PPC <span style="font-weight:400;color:var(--muted)">(poglądowo, split PPC/organic)</span> · docelowy TACOS (napędza projekcję)</div>
       <div class="exp" style="font-size:.86em"><b>Launch = kontrolowany deficyt:</b> mies. 1 to <b>TACOS 100%</b> (reklama = cały przychód netto, tracisz opłaty + COGS na sztukę), potem <b>liniowo do break-even</b> (CM2%) na koniec launchu, gdzie wypada <b>miesiąc break-even</b>. Dalej TACOS schodzi do docelowego. Stratę i kapitał widać w wierszach <b>Zysk netto</b> i <b>Skumulowany cash flow</b> (min = gotówka na launch). Pola „Udział PPC" ustawiają split PPC/organic (do ACOS), nie napędzają już straty. Organiczna sprzedaż = darmowy profit.</div>
       <div class="row ph-launch"><label>Udział PPC Launch — start (%)</label><div class="inp"><input type="number" id="ppcLaunchStart" step="5"></div></div>
@@ -259,24 +239,24 @@
     </div>
     <div>
       <div class="sec">Długości faz — per scenariusz (ustawiasz ręcznie)</div>
-      <div class="exp" style="font-size:.86em">3 scenariusze różnią się <b>tempem</b> (długości faz) <b>oraz o ile BASE urośnie do Roku 5</b>. Wzrost liczony wprost od BASE (np. 0,2 = +20%, 1,0 = +100%; 0 = BASE płaskie) i narasta po krzywej <b>wyhamowującej</b>: szybciej na początku, potem wolniej. Rampa penetracji nadal odpowiada za słaby start, więc nie ma podwójnego liczenia. Benchmark TACOS bez zmian.</div>
+      <div class="exp" style="font-size:.86em">3 scenariusze różnią się <b>tempem</b>: długości faz Launch/Growth i miesiąc pełnej dojrzałości. Wzrost BASE do Roku 5 jest <b>wspólny</b> — wynika z udziału Rok 1 → Rok 5 (sekcja „Model udziałowy"). Benchmark TACOS bez zmian.</div>
       <div class="scen-hd sc-base">Bazowy — główna prognoza</div>
       <div class="row"><label>Koniec Launch (mies.)</label><div class="inp"><input type="number" id="baseLaunchEnd" step="1"></div></div>
       <div class="row"><label>Koniec Growth (mies.)</label><div class="inp"><input type="number" id="baseGrowthEnd" step="1"></div></div>
       <div class="row"><label>Pełna dojrzałość (mies.)</label><div class="inp"><input type="number" id="basePenMonth" step="1"></div></div>
-      <div class="row"><label>O ile wzrośnie BASE do Roku 5 <span class="hint">np. 0,2 = +20%; 0 = bez wzrostu</span></label><div class="inp"><input type="number" id="baseCapY5" step="0.01"></div></div>
+      <div class="row" style="display:none"><label>O ile wzrośnie BASE do Roku 5 <span class="hint">np. 0,2 = +20%; 0 = bez wzrostu</span></label><div class="inp"><input type="number" id="baseCapY5" step="0.01"></div></div>
       <div class="scen-sum" id="sum-base"></div>
       <div class="scen-hd sc-cons">Konserwatywny — wolniejszy</div>
       <div class="row"><label>Koniec Launch (mies.)</label><div class="inp"><input type="number" id="consLaunchEnd" step="1"></div></div>
       <div class="row"><label>Koniec Growth (mies.)</label><div class="inp"><input type="number" id="consGrowthEnd" step="1"></div></div>
       <div class="row"><label>Pełna dojrzałość (mies.)</label><div class="inp"><input type="number" id="consPenMonth" step="1"></div></div>
-      <div class="row"><label>O ile wzrośnie BASE do Roku 5 <span class="hint">ostrożnie, np. 0 = bez wzrostu</span></label><div class="inp"><input type="number" id="consCapY5" step="0.01"></div></div>
+      <div class="row" style="display:none"><label>O ile wzrośnie BASE do Roku 5 <span class="hint">ostrożnie, np. 0 = bez wzrostu</span></label><div class="inp"><input type="number" id="consCapY5" step="0.01"></div></div>
       <div class="scen-sum" id="sum-cons"></div>
       <div class="scen-hd sc-opt">Optymistyczny — szybszy</div>
       <div class="row"><label>Koniec Launch (mies.)</label><div class="inp"><input type="number" id="optLaunchEnd" step="1"></div></div>
       <div class="row"><label>Koniec Growth (mies.)</label><div class="inp"><input type="number" id="optGrowthEnd" step="1"></div></div>
       <div class="row"><label>Pełna dojrzałość (mies.)</label><div class="inp"><input type="number" id="optPenMonth" step="1"></div></div>
-      <div class="row"><label>O ile wzrośnie BASE do Roku 5 <span class="hint">mocniej, np. 0,5 = +50%</span></label><div class="inp"><input type="number" id="optCapY5" step="0.01"></div></div>
+      <div class="row" style="display:none"><label>O ile wzrośnie BASE do Roku 5 <span class="hint">mocniej, np. 0,5 = +50%</span></label><div class="inp"><input type="number" id="optCapY5" step="0.01"></div></div>
       <div class="scen-sum" id="sum-opt"></div>
     </div>
   </div>
@@ -284,10 +264,10 @@
 
 <div class="grid">
     <div class="card calc">
-      <h2>Wolumen — wynik (metody A + B)</h2>
-      <div class="row"><label>Metoda A (kotwica)</label><div class="val" id="o-mA">—</div></div>
-      <div class="row"><label>Metoda B (udział rynku)</label><div class="val" id="o-mB">—</div></div>
-      <div class="row"><label><b>BASE — średnia ważona (szt/mies)</b></label><div class="val" id="o-base">—</div></div>
+      <h2>Wolumen — BASE</h2>
+      <div class="row" style="display:none"><label>Metoda A (kotwica)</label><div class="val" id="o-mA">—</div></div>
+      <div class="row" style="display:none"><label>Metoda B (udział rynku)</label><div class="val" id="o-mB">—</div></div>
+      <div class="row"><label><b>BASE — startowa sprzedaż mies. (Rok 1)</b></label><div class="val" id="o-base">—</div></div>
     </div>
 
     <div class="card calc">
@@ -462,9 +442,8 @@ const EMBEDDED = {
 };
 let sheetBaseline = null;
 
-// Metoda bezpośrednia jest sterowana Z ARKUSZA (klucze: directMode, dBase, dShareY1, dShareY5).
-// truthy() interpretuje directMode z arkusza (1/tak/true/yes = włączona).
-function truthy(v){ v=(''+v).trim().toLowerCase(); return v==='1'||v==='tak'||v==='true'||v==='yes'||v==='y'; }
+// Model udziałowy (jedyny): BASE = dBase (startowa sprzedaż), wzrost z dShareY1→dShareY5.
+// Dane Metod A/B (anchory, capture, niche, share) zostają w arkuszu, ale NIE są używane.
 
 function setVals(o){ IDS.forEach(id=>{ if(o[id]===undefined)return; const el=$(id); if(el) el.value=(o[id]===''||o[id]==null)?'':o[id]; }); }
 function resetToSheet(){ setVals(sheetBaseline||BASELINE); applyMarketVat(); compute(); }
@@ -485,11 +464,8 @@ function scenLevers(pfx){ const L=baseGlobals();
   L.stLE=Math.max(num(pfx+'LaunchEnd')||6,1);
   L.stGE=Math.max(num(pfx+'GrowthEnd')||18, L.stLE+1);
   L.penM=Math.max(num(pfx+'PenMonth')||12,1);
-  // Wzrost do Roku 5: w metodzie bezpośredniej wspólny dla scenariuszy (z udziału Y1→Y5),
-  // inaczej per-scenariusz z pola „O ile wzrośnie BASE do Roku 5".
-  const cb=$('directMode');
-  if(cb && cb.checked){ const s1=num('dShareY1'), s5=num('dShareY5'); L.capY5=(s1!=null&&s1>0&&s5!=null)?s5/s1-1:0; }
-  else L.capY5=num(pfx+'CapY5');
+  // Wzrost BASE do Roku 5 = wspólny dla scenariuszy, z udziału Y1→Y5 (g = udziałY5/udziałY1 − 1).
+  const s1=num('dShareY1'), s5=num('dShareY5'); L.capY5=(s1!=null&&s1>0&&s5!=null)?s5/s1-1:0;
   return L; }
 // Liniowy odcinek: od vA (mies. a) do vB (mies. b), płasko poza [a,b].
 function rampSeg(a,b,vA,vB,m){ if(vA==null||vB==null)return null; if(m<=a)return vA; if(m>=b)return vB; return vA+(vB-vA)*(m-a)/(b-a); }
@@ -599,24 +575,10 @@ function compute(){
   const effW=w=>wsum>0?w/wsum:0;
   const methods=[mA,mB].filter(x=>x!=null&&isFinite(x));
   const spread=(base&&base>0&&methods.length>1)?(Math.max(...methods)-Math.min(...methods))/base:null;
-  const wtag=(m,w)=>m==null?'—':int(m)+' · waga '+Math.round(effW(w)*100)+'%';
-  // Metoda bezpośrednia (opt-in per produkt): BASE = sprzedaż mies. Rok 1 wprost;
-  // wzrost do Roku 5 z zakresu udziału (obsłużony w scenLevers). Mediana i udział pominięte.
-  const direct = !!($('directMode') && $('directMode').checked);
-  if(direct){ base = num('dBase'); }
-  if(direct){
-    $('o-mA').textContent='pominięte (metoda bezpośrednia)';
-    $('o-mB').textContent='pominięte (metoda bezpośrednia)';
-    $('o-base').textContent=int(base);
-    const e=$('o-spread'); if(e) e.textContent='—';
-  } else {
-    $('o-mA').textContent=wtag(mA,W.A);
-    $('o-mB').textContent=wtag(mB,W.B);
-    $('o-base').textContent=int(base);
-    const e=$('o-spread'); if(e) e.textContent=pct(spread);
-  }
-  { const dimRow=(id,on)=>{const el=$(id); if(el){const r=el.closest('.row'); if(r)r.style.opacity=on?'0.45':'';}};
-    ['capture','share'].forEach(id=>dimRow(id,direct)); }
+  // Model udzialowy jest jedynym modelem: BASE = startowa sprzedaz (dBase).
+  // Metody A/B (mA,mB) policzone wyzej sa IGNOROWANE; wzrost do Roku 5 z udzialu Y1->Y5 (scenLevers).
+  base = num('dBase');
+  $('o-base').textContent=int(base);
 
   // scenarios — różnią się TEMPEM (długości faz + rampa), nie mnożnikiem. BASE ten sam we wszystkich.
   const scenDefs=[
@@ -836,11 +798,7 @@ function useData(data, hits){ data=data||{};
     if(data['cons'+k]===undefined) merged['cons'+k]=merged['base'+k];
     if(data['opt'+k]===undefined)  merged['opt'+k] =merged['base'+k];
   });
-  setVals(merged);
-  // Metoda bezpośrednia: ON gdy arkusz ma directMode=1 (lub gdy sam dBase>0, bez jawnego directMode).
-  { const cb=$('directMode'); if(cb){ const dm=merged.directMode, db=num('dBase');
-      cb.checked=(dm!=null&&(''+dm).trim()!=='')?truthy(dm):(db!=null&&db>0); } }
-  sheetBaseline={...merged}; applyMarketVat(); compute(); }
+  setVals(merged); sheetBaseline={...merged}; applyMarketVat(); compute(); }
 function loadFromUrl(url, fallback){
   url=(url||'').trim(); const st=$('loadStatus');
   if(!url){ st.textContent='Podaj CSV URL albo wybierz produkt.'; return; }
