@@ -197,6 +197,13 @@
       <div class="row"><label>Docelowy udział <span class="hint">rozdrobniony 2–5%, skoncentrowany 0,5–2% (np. 0.03)</span></label><div class="inp"><input type="number" id="share" step="0.001"></div></div>
       <div class="row"><label>Udział top-3 ASIN-ów <span class="hint">koncentracja rynku</span></label><div class="inp"><input type="number" id="top3" step="0.01"></div></div>
 
+      <div class="sec">Metoda bezpośrednia <span style="font-weight:400;color:var(--muted)">(opcjonalna — np. muszki)</span></div>
+      <div class="exp">Zaznacz, gdy chcesz podać wynik <b>wprost</b>, z pominięciem mediany (Metoda A) i udziału (Metoda B). BASE = Twoja <b>sprzedaż mies. w Roku 1</b>; wzrost do Roku 5 bierze się z <b>zakresu udziału</b> (np. 5% → 25% = BASE ×5). Scenariusze różni wtedy tylko tempo. Niezaznaczone = klasyczna triangulacja (Allergoff).</div>
+      <div class="row"><label><input type="checkbox" id="directMode" style="width:auto;margin-right:7px"> Użyj metody bezpośredniej</label></div>
+      <div class="row"><label>Sprzedaż mies. Rok 1 (szt) <span class="hint">bezpośredni BASE</span></label><div class="inp"><input type="number" id="dBase"></div></div>
+      <div class="row"><label>Udział rynku Rok 1 (%) <span class="hint">np. 5</span></label><div class="inp"><input type="number" id="dShareY1" step="0.5"></div></div>
+      <div class="row"><label>Udział rynku Rok 5 (%) <span class="hint">np. 25 → BASE ×5 do Roku 5</span></label><div class="inp"><input type="number" id="dShareY5" step="0.5"></div></div>
+
       </div>
     </div>
 
@@ -346,7 +353,7 @@
 const BASELINE = {
   marketplace:'DE', priceGross:26.18, price:22, vat:19, cogs:2, inbound:0.2, referralPct:15, fba:2.3, storage:0.2, other:0.1,
   a1:300, a2:350, a3:420, a4:280, a5:500, a6:null, a7:null, a8:null, a9:null, a10:null, capture:0.45,
-  niche:60000, share:0.03, top3:0.6,
+  niche:60000, share:0.03, top3:0.6, dBase:null, dShareY1:5, dShareY5:25,
   mktGrowth:8,
   penStart:0.25,
   tacosMature:8,
@@ -358,7 +365,7 @@ const BASELINE = {
 };
 const IDS = Object.keys(BASELINE);
 const PLAYABLE = ['priceGross','price','vat','cogs','inbound','referralPct','fba','storage','other',
-  'capture','share','mktGrowth',
+  'capture','share','dBase','dShareY1','dShareY5','mktGrowth',
   'penStart',
   'tacosMature','ppcLaunchStart','ppcLaunchEnd','ppcGrowthStart','ppcGrowthEnd','ppcMatureStart','ppcMatureEnd','tacosTarget',
   'baseLaunchEnd','baseGrowthEnd','basePenMonth','baseCapY5',
@@ -450,6 +457,19 @@ const EMBEDDED = {
 };
 let sheetBaseline = null;
 
+// Metoda bezpośrednia per produkt — TYLKO na dashboardzie (nie w arkuszach Google Sheets).
+// on:true → BASE = dBase (sprzedaż mies. Rok 1), wzrost z udziału dShareY1→dShareY5; mediana+udział pominięte.
+const DIRECT = {
+  'Fruti fly trap (DE)': {on:true, dBase:3000, dShareY1:5, dShareY5:25},
+};
+let PROD_KEY='';
+function applyDirect(cfg){ const cb=$('directMode'); if(!cb) return;
+  if(cfg){ cb.checked=!!cfg.on;
+    if(cfg.dBase!=null)$('dBase').value=cfg.dBase;
+    if(cfg.dShareY1!=null)$('dShareY1').value=cfg.dShareY1;
+    if(cfg.dShareY5!=null)$('dShareY5').value=cfg.dShareY5;
+  } else cb.checked=false; }
+
 function setVals(o){ IDS.forEach(id=>{ if(o[id]===undefined)return; const el=$(id); if(el) el.value=(o[id]===''||o[id]==null)?'':o[id]; }); }
 function resetToSheet(){ setVals(sheetBaseline||BASELINE); applyMarketVat(); compute(); }
 
@@ -469,7 +489,11 @@ function scenLevers(pfx){ const L=baseGlobals();
   L.stLE=Math.max(num(pfx+'LaunchEnd')||6,1);
   L.stGE=Math.max(num(pfx+'GrowthEnd')||18, L.stLE+1);
   L.penM=Math.max(num(pfx+'PenMonth')||12,1);
-  L.capY5=num(pfx+'CapY5');
+  // Wzrost do Roku 5: w metodzie bezpośredniej wspólny dla scenariuszy (z udziału Y1→Y5),
+  // inaczej per-scenariusz z pola „O ile wzrośnie BASE do Roku 5".
+  const cb=$('directMode');
+  if(cb && cb.checked){ const s1=num('dShareY1'), s5=num('dShareY5'); L.capY5=(s1!=null&&s1>0&&s5!=null)?s5/s1-1:0; }
+  else L.capY5=num(pfx+'CapY5');
   return L; }
 // Liniowy odcinek: od vA (mies. a) do vB (mies. b), płasko poza [a,b].
 function rampSeg(a,b,vA,vB,m){ if(vA==null||vB==null)return null; if(m<=a)return vA; if(m>=b)return vB; return vA+(vB-vA)*(m-a)/(b-a); }
@@ -580,10 +604,23 @@ function compute(){
   const methods=[mA,mB].filter(x=>x!=null&&isFinite(x));
   const spread=(base&&base>0&&methods.length>1)?(Math.max(...methods)-Math.min(...methods))/base:null;
   const wtag=(m,w)=>m==null?'—':int(m)+' · waga '+Math.round(effW(w)*100)+'%';
-  $('o-mA').textContent=wtag(mA,W.A);
-  $('o-mB').textContent=wtag(mB,W.B);
-  $('o-base').textContent=int(base);
-  { const e=$('o-spread'); if(e) e.textContent=pct(spread); }
+  // Metoda bezpośrednia (opt-in per produkt): BASE = sprzedaż mies. Rok 1 wprost;
+  // wzrost do Roku 5 z zakresu udziału (obsłużony w scenLevers). Mediana i udział pominięte.
+  const direct = !!($('directMode') && $('directMode').checked);
+  if(direct){ base = num('dBase'); }
+  if(direct){
+    $('o-mA').textContent='pominięte (metoda bezpośrednia)';
+    $('o-mB').textContent='pominięte (metoda bezpośrednia)';
+    $('o-base').textContent=int(base);
+    const e=$('o-spread'); if(e) e.textContent='—';
+  } else {
+    $('o-mA').textContent=wtag(mA,W.A);
+    $('o-mB').textContent=wtag(mB,W.B);
+    $('o-base').textContent=int(base);
+    const e=$('o-spread'); if(e) e.textContent=pct(spread);
+  }
+  { const dimRow=(id,on)=>{const el=$(id); if(el){const r=el.closest('.row'); if(r)r.style.opacity=on?'0.45':'';}};
+    ['capture','share'].forEach(id=>dimRow(id,direct)); }
 
   // scenarios — różnią się TEMPEM (długości faz + rampa), nie mnożnikiem. BASE ten sam we wszystkich.
   const scenDefs=[
@@ -803,7 +840,7 @@ function useData(data, hits){ data=data||{};
     if(data['cons'+k]===undefined) merged['cons'+k]=merged['base'+k];
     if(data['opt'+k]===undefined)  merged['opt'+k] =merged['base'+k];
   });
-  setVals(merged); sheetBaseline={...merged}; applyMarketVat(); compute(); }
+  setVals(merged); applyDirect(DIRECT[PROD_KEY]); sheetBaseline={...merged}; applyMarketVat(); compute(); }
 function loadFromUrl(url, fallback){
   url=(url||'').trim(); const st=$('loadStatus');
   if(!url){ st.textContent='Podaj CSV URL albo wybierz produkt.'; return; }
@@ -827,7 +864,7 @@ function loadFromUrl(url, fallback){
 function onProductPick(){ PROD_LABEL=''; const sel=$('productSel'), url=sel.value; const opt=sel.options[sel.selectedIndex];
   // Fallback EMBEDDED szukamy po data-key (nazwa z PRODUCTS), NIE po widocznym tekscie —
   // tekst moze byc nadpisany etykieta z arkusza (klucz `label`).
-  const key=opt?(opt.getAttribute('data-key')||opt.text):''; if(url){ $('csvUrl').value=url; loadFromUrl(url, EMBEDDED[key]); } }
+  const key=opt?(opt.getAttribute('data-key')||opt.text):''; PROD_KEY=key; if(url){ $('csvUrl').value=url; loadFromUrl(url, EMBEDDED[key]); } }
 function initProducts(){ $('productSel').innerHTML='<option value="">— wybierz produkt —</option>'+PRODUCTS.map(p=>`<option value="${p.url}" data-key="${p.name}">${p.name}</option>`).join('');
   refreshLabels(); }
 
