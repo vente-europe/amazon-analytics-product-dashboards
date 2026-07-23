@@ -385,10 +385,15 @@ function syncYrBtns(){ [3,4,5].forEach(y=>{ const on=document.body.classList.con
 function toggleYr(y){ document.body.classList.toggle('collapse-y'+y); syncYrBtns(); }
 function toggleCM(g){ const rows=document.querySelectorAll('#cmTable .'+g); if(!rows.length)return; const show=rows[0].style.display==='none'; rows.forEach(r=>r.style.display=show?'table-row':'none'); const c=$('car-'+g); if(c)c.textContent=show?'▾':'▸'; }
 const num = id => { const v = parseFloat($(id).value); return isNaN(v) ? null : v; };
-const money = n => n==null?'—':n.toLocaleString('pl-PL',{minimumFractionDigits:2,maximumFractionDigits:2})+' €';
-const int = n => n==null?'—':Math.round(n).toLocaleString('pl-PL');
-const eur = n => n==null?'—':Math.round(n).toLocaleString('pl-PL')+' €';
-const pct = n => n==null?'—':(n*100).toLocaleString('pl-PL',{maximumFractionDigits:1})+'%';
+// Formatowanie z GWARANTOWANYM separatorem tysiecy (spacja co 3 cyfry, np. 2 300),
+// niezalezne od danych locale ICU przegladarki (pl-PL potrafi nie grupowac). Przecinek dziesietny.
+function grpInt(s){ return s.replace(/\B(?=(\d{3})+(?!\d))/g,' '); }
+function fmtFixed(n,dec){ if(n==null||!isFinite(n))return '—'; const neg=n<0; const s=Math.abs(n).toFixed(dec); const p=s.split('.'); return (neg?'-':'')+grpInt(p[0])+(p[1]?','+p[1]:''); }
+function fmtMax(n,dec){ if(n==null||!isFinite(n))return '—'; const neg=n<0; let s=Math.abs(n).toFixed(dec); if(s.indexOf('.')>=0)s=s.replace(/\.?0+$/,''); const p=s.split('.'); return (neg?'-':'')+grpInt(p[0])+(p[1]?','+p[1]:''); }
+const money = n => n==null?'—':fmtFixed(n,2)+' €';
+const int = n => n==null?'—':fmtFixed(n,0);
+const eur = n => n==null?'—':fmtFixed(n,0)+' €';
+const pct = n => n==null?'—':fmtMax(n*100,1)+'%';
 function median(arr){const a=arr.filter(x=>x!=null&&isFinite(x)).sort((x,y)=>x-y);if(!a.length)return null;const m=Math.floor(a.length/2);return a.length%2?a[m]:(a[m-1]+a[m])/2;}
 
 // === Cena: gross ↔ net; VAT z marketplace (auto, edytowalne live) ===
@@ -427,7 +432,7 @@ function applyCosmeticReferral(){
   if(g==null){ if(info) info.textContent='podaj cene brutto'; return; }
   const r=(g<=10)?8:15;
   if(el) el.value=r;
-  if(info) info.textContent='auto '+r+'% · cena brutto '+g.toLocaleString('pl-PL',{minimumFractionDigits:2,maximumFractionDigits:2})+' € '+(g<=10?'(do 10 €)':'(powyzej 10 €)');
+  if(info) info.textContent='auto '+r+'% · cena brutto '+fmtFixed(g,2)+' € '+(g<=10?'(do 10 €)':'(powyzej 10 €)');
 }
 function onCosmeticToggle(){ applyCosmeticReferral(); compute(); }
 function applyMarketVat(){ const c=marketCode($('marketplace')?$('marketplace').value:''); if(c&&EU_VAT[c]!=null)$('vat').value=EU_VAT[c]; syncNetFromGross(); }
@@ -731,11 +736,11 @@ function renderChart(){
 
 function mCell(v,t){ if(t==='text')return (v==null||v==='')?'—':String(v);
   if(v==null||!isFinite(v))return '—';
-  if(t==='int')return Math.round(v).toLocaleString('pl-PL');
-  if(t==='pct')return (v*100).toLocaleString('pl-PL',{maximumFractionDigits:1})+'%';
-  if(t==='pct2')return (v*100).toLocaleString('pl-PL',{maximumFractionDigits:2})+'%';
-  if(t==='mult')return '×'+v.toLocaleString('pl-PL',{minimumFractionDigits:2,maximumFractionDigits:2});
-  return Math.round(v).toLocaleString('pl-PL')+' €'; }
+  if(t==='int')return fmtFixed(v,0);
+  if(t==='pct')return fmtMax(v*100,1)+'%';
+  if(t==='pct2')return fmtMax(v*100,2)+'%';
+  if(t==='mult')return '×'+fmtFixed(v,2);
+  return fmtFixed(v,0)+' €'; }
 
 function buildMonthTable(units,price,fx,L,nicheMo,tid,full){
   const T=$(tid||'monthTable'); if(!T)return;
