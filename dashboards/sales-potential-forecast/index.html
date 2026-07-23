@@ -353,7 +353,7 @@
 const BASELINE = {
   marketplace:'DE', priceGross:26.18, price:22, vat:19, cogs:2, inbound:0.2, referralPct:15, fba:2.3, storage:0.2, other:0.1,
   a1:300, a2:350, a3:420, a4:280, a5:500, a6:null, a7:null, a8:null, a9:null, a10:null, capture:0.45,
-  niche:60000, share:0.03, top3:0.6, dBase:null, dShareY1:5, dShareY5:25,
+  niche:60000, share:0.03, top3:0.6, dBase:null, dShareY1:null, dShareY5:null,
   mktGrowth:8,
   penStart:0.25,
   tacosMature:8,
@@ -458,22 +458,13 @@ const EMBEDDED = {
   'Allergoff Cream (DE - 75ml)': {marketplace:'DE',priceGross:9.99,cogs:1.54,inbound:0.1,referralPct:15,fba:2.78,storage:0.01,other:0.1,a1:12678,a2:7543,a3:6491,a4:6052,a5:3765,a6:2973,a7:2557,a8:2315,a9:2124,a10:1956,capture:0.4,niche:1095000,share:0.02,top3:0.29,mktGrowth:8,penStart:0.05,ppcLaunchStart:100,ppcLaunchEnd:80,ppcGrowthStart:80,ppcGrowthEnd:50,ppcMatureStart:50,ppcMatureEnd:40,tacosTarget:20,tacosMature:15,baseLaunchEnd:6,baseGrowthEnd:12,basePenMonth:18,consLaunchEnd:9,consGrowthEnd:18,consPenMonth:24,optLaunchEnd:3,optGrowthEnd:9,optPenMonth:18},
   'Allergoff Emulsja': {marketplace:'DE',priceGross:18,cogs:3,inbound:0.2,referralPct:15,fba:3.13,storage:0.01,other:0.1,a1:12678,a2:7543,a3:6491,a4:6052,a5:3765,a6:2973,a7:2557,a8:2315,a9:2124,a10:1956,capture:0.4,niche:1095000,share:0.03,top3:0.29,mktGrowth:8,penStart:0.05,ppcLaunchStart:100,ppcLaunchEnd:70,ppcGrowthStart:70,ppcGrowthEnd:50,ppcMatureStart:50,ppcMatureEnd:40,tacosTarget:15,tacosMature:15,baseLaunchEnd:6,baseGrowthEnd:12,basePenMonth:18,consLaunchEnd:9,consGrowthEnd:18,consPenMonth:24,optLaunchEnd:3,optGrowthEnd:9,optPenMonth:18},
   'Allergoff Olejek': {marketplace:'DE',priceGross:18,cogs:3,inbound:0.2,referralPct:15,fba:3.13,storage:0.01,other:0.1,a1:1628,a2:1265,a3:767,a4:324,a5:250,a6:182,a7:172,a8:170,a9:144,a10:126,capture:0.4,niche:1095000,share:0.03,top3:0.29,mktGrowth:8,penStart:0.05,ppcLaunchStart:100,ppcLaunchEnd:70,ppcGrowthStart:70,ppcGrowthEnd:50,ppcMatureStart:50,ppcMatureEnd:40,tacosTarget:15,tacosMature:15,baseLaunchEnd:6,baseGrowthEnd:12,basePenMonth:18,consLaunchEnd:9,consGrowthEnd:18,consPenMonth:24,optLaunchEnd:3,optGrowthEnd:9,optPenMonth:18},
-  'Fruti fly trap (DE)': {marketplace:'DE',priceGross:18,cogs:3,inbound:0.2,referralPct:15,fba:3.13,storage:0.01,other:0.1,a1:12678,a2:7543,a3:6491,a4:6052,a5:3765,a6:2973,a7:2557,a8:2315,a9:2124,a10:1956,capture:0.4,niche:1095000,share:0.03,top3:0.29,mktGrowth:8,penStart:0.05,ppcLaunchStart:100,ppcLaunchEnd:70,ppcGrowthStart:70,ppcGrowthEnd:50,ppcMatureStart:50,ppcMatureEnd:40,tacosTarget:15,tacosMature:15,baseLaunchEnd:6,baseGrowthEnd:12,basePenMonth:18,consLaunchEnd:9,consGrowthEnd:18,consPenMonth:24,optLaunchEnd:3,optGrowthEnd:9,optPenMonth:18},
+  'Fruti fly trap (DE)': {marketplace:'DE',priceGross:14.99,cogs:0.79,inbound:0.2,referralPct:15,fba:3.13,storage:0.01,other:0.1,a1:19699,a2:11098,a3:2794,a4:1445,a5:1246,a6:884,a7:356,capture:1,niche:186000,share:0.06,top3:0.82,mktGrowth:8,penStart:0.05,ppcLaunchStart:100,ppcLaunchEnd:70,ppcGrowthStart:70,ppcGrowthEnd:50,ppcMatureStart:50,ppcMatureEnd:40,tacosTarget:15,tacosMature:15,baseLaunchEnd:6,baseGrowthEnd:12,basePenMonth:18,consLaunchEnd:9,consGrowthEnd:18,consPenMonth:24,optLaunchEnd:3,optGrowthEnd:9,optPenMonth:18,directMode:1,dBase:3000,dShareY1:5,dShareY5:25},
 };
 let sheetBaseline = null;
 
-// Metoda bezpośrednia per produkt — TYLKO na dashboardzie (nie w arkuszach Google Sheets).
-// on:true → BASE = dBase (sprzedaż mies. Rok 1), wzrost z udziału dShareY1→dShareY5; mediana+udział pominięte.
-const DIRECT = {
-  'Fruti fly trap (DE)': {on:true, dBase:3000, dShareY1:5, dShareY5:25},
-};
-let PROD_KEY='';
-function applyDirect(cfg){ const cb=$('directMode'); if(!cb) return;
-  if(cfg){ cb.checked=!!cfg.on;
-    if(cfg.dBase!=null)$('dBase').value=cfg.dBase;
-    if(cfg.dShareY1!=null)$('dShareY1').value=cfg.dShareY1;
-    if(cfg.dShareY5!=null)$('dShareY5').value=cfg.dShareY5;
-  } else cb.checked=false; }
+// Metoda bezpośrednia jest sterowana Z ARKUSZA (klucze: directMode, dBase, dShareY1, dShareY5).
+// truthy() interpretuje directMode z arkusza (1/tak/true/yes = włączona).
+function truthy(v){ v=(''+v).trim().toLowerCase(); return v==='1'||v==='tak'||v==='true'||v==='yes'||v==='y'; }
 
 function setVals(o){ IDS.forEach(id=>{ if(o[id]===undefined)return; const el=$(id); if(el) el.value=(o[id]===''||o[id]==null)?'':o[id]; }); }
 function resetToSheet(){ setVals(sheetBaseline||BASELINE); applyMarketVat(); compute(); }
@@ -845,7 +836,11 @@ function useData(data, hits){ data=data||{};
     if(data['cons'+k]===undefined) merged['cons'+k]=merged['base'+k];
     if(data['opt'+k]===undefined)  merged['opt'+k] =merged['base'+k];
   });
-  setVals(merged); applyDirect(DIRECT[PROD_KEY]); sheetBaseline={...merged}; applyMarketVat(); compute(); }
+  setVals(merged);
+  // Metoda bezpośrednia: ON gdy arkusz ma directMode=1 (lub gdy sam dBase>0, bez jawnego directMode).
+  { const cb=$('directMode'); if(cb){ const dm=merged.directMode, db=num('dBase');
+      cb.checked=(dm!=null&&(''+dm).trim()!=='')?truthy(dm):(db!=null&&db>0); } }
+  sheetBaseline={...merged}; applyMarketVat(); compute(); }
 function loadFromUrl(url, fallback){
   url=(url||'').trim(); const st=$('loadStatus');
   if(!url){ st.textContent='Podaj CSV URL albo wybierz produkt.'; return; }
@@ -854,7 +849,7 @@ function loadFromUrl(url, fallback){
   fetch(bust,{cache:'no-store'}).then(r=>{ if(!r.ok)throw new Error(r.status); return r.text(); })
   .then(txt=>{ const rows=parseCSV(txt); const data={}; let hits=0;
     rows.forEach(f=>{ const key=(f[3]||'').trim(), val=(f[1]||'').trim();
-      if(key && IDS.includes(key)){ data[key]=val; hits++; } });
+      if(key && (IDS.includes(key)||key==='directMode')){ data[key]=val; hits++; } });
     if(!hits) throw new Error('0 pól');
     // Etykieta z arkusza (klucz `label`) nadpisuje nazwe aktualnie wybranej pozycji w dropdownie.
     const lab=labelFromCsv(txt), sel=$('productSel');
@@ -869,7 +864,7 @@ function loadFromUrl(url, fallback){
 function onProductPick(){ PROD_LABEL=''; const sel=$('productSel'), url=sel.value; const opt=sel.options[sel.selectedIndex];
   // Fallback EMBEDDED szukamy po data-key (nazwa z PRODUCTS), NIE po widocznym tekscie —
   // tekst moze byc nadpisany etykieta z arkusza (klucz `label`).
-  const key=opt?(opt.getAttribute('data-key')||opt.text):''; PROD_KEY=key; if(url){ $('csvUrl').value=url; loadFromUrl(url, EMBEDDED[key]); } }
+  const key=opt?(opt.getAttribute('data-key')||opt.text):''; if(url){ $('csvUrl').value=url; loadFromUrl(url, EMBEDDED[key]); } }
 function initProducts(){ $('productSel').innerHTML='<option value="">— wybierz produkt —</option>'+PRODUCTS.map(p=>`<option value="${p.url}" data-key="${p.name}">${p.name}</option>`).join('');
   refreshLabels(); }
 
