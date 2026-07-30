@@ -1,71 +1,66 @@
 """
-Derives the German fruit-fly-trap monthly seasonality index and writes it to
-data/seasonality-de.json (the committed, build-time input consumed by
-_build_rynek.py).
+Writes data/seasonality-de.json - the German fruit-fly monthly seasonality index
+consumed by _build_rynek.py and _build_structure.py.
 
-Source: the German dashboard's 3-year daily sales history
-    02-Projects/Dashboards/Fruit Fly Trap - DE/Data/sales-units/{ASIN}-sales-3y.csv
-(the same data behind https://vente-europe.github.io/fruit-fly-trap-DE/).
+IMPORTANT (fixed 2026-07-30): the curve is now EXTRACTED VERBATIM from the
+fruit-fly-trap-DE dashboard's own published `seasIdx` array, so it matches that
+dashboard 1:1. The DE dashboard computes the index from only the **4 ASINs with
+full 12-month coverage** (Aeroxon, Novokill x2, PIC) - Super Ninja / ARDAP are
+excluded because their limited CSV history distorts the curve.
 
-Method:
-  * Pool daily `Sales` across all ASINs -> market daily units per date.
-  * Group by calendar month, average the market daily rate per month.
-  * index[m] = month_avg_daily[m] / mean(all 12 month_avg_daily)  (avg month = 1.0)
-  * Seasonal 12M multiplier for a snapshot taken in month M = 12 / index[M].
+An earlier version of this script recomputed the index by pooling ALL 49 ASINs'
+daily sales, which produced a WRONG curve (Jan/Feb came out high instead of as
+troughs). We no longer recompute - we mirror the DE dashboard's authoritative
+array so the two dashboards always agree.
 
-This is a build-time helper: it depends on a sibling project folder that does NOT
-ship to GitHub Pages, so its OUTPUT (seasonality-de.json) is committed and read by
-_build_rynek.py. Re-run only when the German sales history is refreshed.
+Published DE curve (avg month = 1.0): Jan .25 Feb .24 Mar .24 Apr .28 May .44
+Jun .98 Jul 1.79 Aug 2.68 Sep 1.98 Oct 1.41 Nov 1.23 Dec .48
+(peak Aug 2.68, trough Mar/Feb 0.24; July = 1.79 -> 12M multiplier = 12/1.79).
 """
-import csv, glob, json, os, re, sys
-from collections import defaultdict
+import os, re, sys, json
 
 sys.stdout.reconfigure(encoding='utf-8')
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-DE_SALES = os.path.abspath(os.path.join(
-    BASE, '..', '..', '..', 'Dashboards', 'Fruit Fly Trap - DE', 'Data', 'sales-units'))
+DE_INDEX = os.path.abspath(os.path.join(
+    BASE, '..', '..', '..', 'Dashboards', 'Fruit Fly Trap - DE', 'index.html'))
 
-if not os.path.isdir(DE_SALES):
-    raise SystemExit(f'German sales folder not found: {DE_SALES}')
+MONTH_NUM = {'Jan': 1, 'Feb': 2, 'Mar': 3, 'Apr': 4, 'May': 5, 'Jun': 6,
+             'Jul': 7, 'Aug': 8, 'Sep': 9, 'Oct': 10, 'Nov': 11, 'Dec': 12}
 
-day_sum = defaultdict(float)   # 'YYYY-MM-DD' -> market daily units
-files = glob.glob(os.path.join(DE_SALES, '*.csv'))
-for fp in files:
-    with open(fp, encoding='utf-8-sig', newline='') as f:
-        for row in csv.DictReader(f):
-            t = row.get('Time') or ''
-            if not re.match(r'\d{4}-\d{2}-\d{2}', t):
-                continue
-            try:
-                v = float(row.get('Sales') or '')
-            except ValueError:
-                continue
-            day_sum[t[:10]] += v
+if not os.path.exists(DE_INDEX):
+    raise SystemExit(f'DE dashboard index.html not found: {DE_INDEX}')
 
-mon_vals = defaultdict(list)
-for d, v in day_sum.items():
-    mon_vals[int(d[5:7])].append(v)
+html = open(DE_INDEX, encoding='utf-8').read()
 
-mon_avg = {m: (sum(vs) / len(vs)) for m, vs in mon_vals.items()}
-mean_month = sum(mon_avg.values()) / 12.0
-index = {m: round(mon_avg[m] / mean_month, 4) for m in range(1, 13)}
+m_idx = re.search(r'seasIdx\s*=\s*\[([0-9.,\s]+)\]', html)
+m_mon = re.search(r'seasMons\s*=\s*\[([^\]]+)\]', html)
+if not m_idx or not m_mon:
+    raise SystemExit('could not find seasIdx / seasMons arrays in the DE dashboard')
+
+vals = [float(x) for x in m_idx.group(1).split(',') if x.strip()]
+mons = [x.strip().strip("'\"") for x in m_mon.group(1).split(',') if x.strip()]
+if len(vals) != 12 or len(mons) != 12:
+    raise SystemExit(f'expected 12 values/months, got {len(vals)}/{len(mons)}')
+
+index = {}
+for mon, val in zip(mons, vals):
+    index[MONTH_NUM[mon]] = round(val, 4)
+index = {m: index[m] for m in range(1, 13)}
 
 out = {
-    'source': 'German fruit-fly-trap daily sales (02-Projects/Dashboards/Fruit Fly Trap - DE), 49 ASINs, ~2024-03..2026-03',
-    'method': 'market daily units pooled across ASINs, averaged per calendar month, normalized so avg month = 1.0',
+    'source': "fruit-fly-trap-DE dashboard published seasIdx array (Lure segment, "
+              "4 ASINs with full 12M coverage: Aeroxon, Novokill x2, PIC; Super Ninja/ARDAP excluded)",
+    'method': 'extracted verbatim from the DE dashboard index.html so both dashboards agree; avg month = 1.0',
     'note': 'seasonal 12M multiplier for a snapshot in month M = 12 / index[M]',
-    'index': index,               # month (1-12) -> seasonal index (avg month = 1.0)
-    'days_observed': {str(m): len(mon_vals[m]) for m in range(1, 13)},
-    'n_asins': len(files),
+    'index': index,
 }
 
 out_path = os.path.join(BASE, 'data', 'seasonality-de.json')
-with open(out_path, 'w', encoding='utf-8') as f:
-    json.dump(out, f, ensure_ascii=False, indent=2)
+json.dump(out, open(out_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
 
-names = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
-print(f'Wrote {out_path}  ({len(files)} ASINs)')
+names = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+print(f'Wrote {out_path} (extracted from DE dashboard)')
 for m in range(1, 13):
-    print(f'  {names[m-1]}  index={index[m]:.3f}  -> x{12/index[m]:.2f}')
-print(f'\nJuly (export month) multiplier = 12/{index[7]:.3f} = x{12/index[7]:.3f}')
+    print(f'  {names[m-1]}  index={index[m]:.2f}  -> x{12/index[m]:.2f}')
+print(f'\nJuly (export month) multiplier = 12/{index[7]:.2f} = x{12/index[7]:.3f}')

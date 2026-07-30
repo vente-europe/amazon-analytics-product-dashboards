@@ -126,23 +126,27 @@ brands — surfaced as-is in the brand table, worth cleaning at source.
 Applied 2026-07-29. The flat ×12 overstated the year because the X-Ray window
 (July) is fruit-fly high season. Correction:
 
-- `_build_seasonality.py` reads the **fruit-fly-trap-DE** dashboard's 3y daily
-  sales (`02-Projects/Dashboards/Fruit Fly Trap - DE/Data/sales-units/`, 49 ASINs,
-  ~2024-03..2026-03), pools market daily units, averages per calendar month,
-  normalizes to **avg month = 1.0**, and writes `data/seasonality-de.json`
-  (committed — the DE folder does not ship to Pages).
-- `_build_rynek.py` reads that JSON, `EXPORT_MONTH = 7` (July), and sets
-  **multiplier = 12 / index[July] = 12 / 1.519 = ×7.90** (vs flat ×12).
+- `_build_seasonality.py` **extracts the curve verbatim from the fruit-fly-trap-DE
+  dashboard's published `seasIdx` array** (`02-Projects/Dashboards/Fruit Fly Trap - DE/index.html`)
+  and writes `data/seasonality-de.json`, so the two dashboards agree 1:1.
+- **Why not recompute from all ASINs (fixed 2026-07-30):** an earlier version pooled
+  ALL 49 ASINs' daily sales and produced a WRONG curve (Jan/Feb came out high
+  instead of as troughs) — ASINs with only partial-year history distort monthly
+  averages. Seasonality must use **only ASINs with ≥ a full year of data**. The DE
+  dashboard already does this: its index is computed from just **4 full-12M-coverage
+  ASINs** (Aeroxon, Novokill ×2, PIC; Super Ninja/ARDAP excluded). We mirror that.
+- `_build_rynek.py` / `_build_structure.py` read the JSON, `EXPORT_MONTH = 7` (July),
+  and set **multiplier = 12 / index[July] = 12 / 1.79 = ×6.70** (vs flat ×12).
 - Same multiplier applied to **all 4 markets** (all exports share the July window).
-- DE monthly index (avg month = 1.0): Jan 1.09 · Feb 1.16 · Mar 0.47 · Apr 0.44 ·
-  May 0.51 · Jun 0.94 · **Jul 1.52** · Aug 1.80 · Sep 1.39 · Oct 0.94 · Nov 0.98 ·
-  Dec 0.76. Peak Jul-Sep, trough Mar-May.
+- DE monthly index (avg month = 1.0): Jan .25 · Feb .24 · Mar .24 · Apr .28 ·
+  May .44 · Jun .98 · **Jul 1.79** · Aug 2.68 · Sep 1.98 · Oct 1.41 · Nov 1.23 ·
+  Dec .48. Peak **Aug 2.68**, trough Feb/Mar 0.24 (peak/trough ≈ 11×).
 - **Caveat:** the German curve is a proxy for FR/IT/ES/UK; real per-market
   seasonality may differ. Stated in-app in the methodology note.
-- Effect: total 12M revenue €8.12M → **€5.35M**; 12M units 645k → **425k**.
-- To re-derive if DE sales refresh: `python _build_seasonality.py` then
-  `python _build_standalone.py`. To change the export month, edit `EXPORT_MONTH`
-  in `_build_rynek.py`.
+- Effect: total 12M revenue €8.12M (flat ×12) → **€4.49M** (×6.70); 12M units → **357k**.
+- To re-derive: `python _build_standalone.py` (runs `_build_seasonality.py` first,
+  re-extracting from the DE dashboard). To change the export month, edit
+  `EXPORT_MONTH` in `_build_rynek.py` **and** `_build_structure.py`.
 
 ## Data note (2026-07-29 build)
 

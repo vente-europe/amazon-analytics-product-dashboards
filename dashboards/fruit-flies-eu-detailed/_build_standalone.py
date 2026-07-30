@@ -45,6 +45,8 @@ XRAY_LINKS = {'FR': '#', 'IT': '#', 'ES': '#', 'UK': '#'}
 FLAG = {'FR': '\U0001F1EB\U0001F1F7', 'IT': '\U0001F1EE\U0001F1F9', 'ES': '\U0001F1EA\U0001F1F8', 'UK': '\U0001F1EC\U0001F1E7'}
 
 # ── 1-2. Regenerate both tab sources ────────────────────────────────────────
+print('Running _build_seasonality.py ...')
+subprocess.run([sys.executable, os.path.join(BASE, '_build_seasonality.py')], check=True)
 print('Running _build_rynek.py ...')
 subprocess.run([sys.executable, os.path.join(BASE, '_build_rynek.py')], check=True)
 print('Running _build_structure.py ...')

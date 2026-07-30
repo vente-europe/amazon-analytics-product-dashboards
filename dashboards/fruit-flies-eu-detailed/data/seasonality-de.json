@@ -1,34 +1,19 @@
 {
-  "source": "German fruit-fly-trap daily sales (02-Projects/Dashboards/Fruit Fly Trap - DE), 49 ASINs, ~2024-03..2026-03",
-  "method": "market daily units pooled across ASINs, averaged per calendar month, normalized so avg month = 1.0",
+  "source": "fruit-fly-trap-DE dashboard published seasIdx array (Lure segment, 4 ASINs with full 12M coverage: Aeroxon, Novokill x2, PIC; Super Ninja/ARDAP excluded)",
+  "method": "extracted verbatim from the DE dashboard index.html so both dashboards agree; avg month = 1.0",
   "note": "seasonal 12M multiplier for a snapshot in month M = 12 / index[M]",
   "index": {
-    "1": 1.0911,
-    "2": 1.1622,
-    "3": 0.4664,
-    "4": 0.4395,
-    "5": 0.5129,
-    "6": 0.9381,
-    "7": 1.5194,
-    "8": 1.7971,
-    "9": 1.3894,
-    "10": 0.9435,
-    "11": 0.9817,
-    "12": 0.7588
-  },
-  "days_observed": {
-    "1": 62,
-    "2": 56,
-    "3": 62,
-    "4": 60,
-    "5": 62,
-    "6": 60,
-    "7": 62,
-    "8": 62,
-    "9": 60,
-    "10": 62,
-    "11": 60,
-    "12": 62
-  },
-  "n_asins": 49
+    "1": 0.25,
+    "2": 0.24,
+    "3": 0.24,
+    "4": 0.28,
+    "5": 0.44,
+    "6": 0.98,
+    "7": 1.79,
+    "8": 2.68,
+    "9": 1.98,
+    "10": 1.41,
+    "11": 1.23,
+    "12": 0.48
+  }
 }
