@@ -118,6 +118,14 @@
       "file": "index.html"
     },
     {
+      "id": "fruit-fly-trap-eu-topline",
+      "title": "Fruit Fly Trap EU — Top Line (DE, UK, FR, ES, IT, NL)",
+      "group": "topline",
+      "template": "standalone",
+      "url": "https://vente-europe.github.io/Fruit-Fly-Trap-EU-Top-Line/",
+      "legacy": true
+    },
+    {
       "id": "sales-potential-forecast",
       "title": "Sales Potential Forecast (5Y)",
       "group": "forecast",
