@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fruit Flies EU - Rynek (12M)</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f1f5f9;color:#1e293b;font-size:13px}
+header{background:#0f2942;color:#fff;padding:18px 32px;display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+header .titles h1{font-size:1.1rem;font-weight:700;letter-spacing:.01em;margin-bottom:4px}
+header .titles span{font-size:.75rem;color:#94a3b8}
+.main{max-width:1200px;margin:0 auto;padding:28px 24px}
+.kpi-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px}
+.kpi{background:#fff;border-radius:8px;padding:14px 18px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.kpi-v{font-size:1.25rem;font-weight:700;color:#0f2942;line-height:1.2}
+.kpi-l{font-size:.68rem;color:#64748b;margin-top:5px;text-transform:uppercase;letter-spacing:.05em}
+.charts-row{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-bottom:24px}
+.card{background:#fff;border-radius:8px;padding:18px 20px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px}
+.card h3{font-size:.83rem;font-weight:600;color:#475569;margin-bottom:16px}
+.chart-wrap{position:relative;height:300px}
+table{width:100%;border-collapse:collapse}
+th{background:#f8fafc;text-align:left;padding:8px 10px;font-weight:600;color:#475569;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:2px solid #e2e8f0}
+td{padding:7px 10px;border-bottom:1px solid #f1f5f9;font-size:.82rem}
+tr:hover td{background:#f8fafc}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;flex-shrink:0}
+.note{font-size:.7rem;color:#64748b;margin-top:18px;padding:10px 13px;background:#f8fafc;border-radius:6px;border-left:2px solid #cbd5e1;line-height:1.6}
+.total-row td{font-weight:700;color:#0f2942;background:#f8fafc;border-top:2px solid #e2e8f0}
+.heatmap td.hm{text-align:center;font-size:.78rem;font-weight:600;padding:10px 8px;min-width:70px}
+.heatmap td.hm-total{text-align:center;font-size:.78rem;font-weight:700;padding:10px 8px;min-width:70px;border-left:2px solid #e2e8f0;background:#f8fafc;color:#0f2942}
+.heatmap .seg-label{font-weight:600;color:#1e293b;padding:10px 12px;white-space:nowrap}
+.heatmap .total-row td{font-weight:700;border-top:2px solid #e2e8f0;background:#f8fafc;color:#0f2942}
+.summary{background:#fff;border-radius:8px;padding:0;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px;border-left:4px solid #0f2942;overflow:hidden}
+.summary > summary{cursor:pointer;padding:14px 22px;font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;list-style:none;display:flex;align-items:center;gap:10px;user-select:none;transition:background .15s}
+.summary > summary:hover{background:#f8fafc}
+.summary > summary::-webkit-details-marker{display:none}
+.summary > summary::before{content:'▸';display:inline-block;transition:transform .2s;font-size:.9rem;color:#64748b;width:14px}
+.summary[open] > summary::before{transform:rotate(90deg)}
+.summary > summary .hint{font-size:.66rem;font-weight:500;color:#94a3b8;text-transform:none;letter-spacing:0;margin-left:auto;font-style:italic}
+.summary-inner{padding:2px 22px 18px}
+.summary-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.summary-col h3{font-size:.7rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #f1f5f9}
+.summary-col p{font-size:.82rem;line-height:1.55;color:#334155;margin-bottom:8px}
+.summary-col p:last-child{margin-bottom:0}
+.summary-col strong{color:#0f2942}
+@media (max-width: 980px) { .summary-cols { grid-template-columns: 1fr; gap: 16px; } }
+.tp-block{background:#fff;border-radius:8px;padding:18px 22px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:24px;border-left:4px solid #7c3aed}
+.tp-block h2{font-size:.85rem;font-weight:700;color:#0f2942;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.tp-block h2::before{content:'';display:inline-block;width:22px;height:2px;background:#7c3aed}
+.tp-block .tp-intro{font-size:.75rem;color:#475569;line-height:1.5;margin-bottom:14px}
+.tp-pills{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center}
+.tp-pills .label{font-size:.7rem;font-weight:700;color:#64748b;text-transform:uppercase;letter-spacing:.04em;margin-right:4px}
+.tp-pill{padding:7px 14px;border:2px solid #cbd5e1;background:#fff;border-radius:18px;cursor:pointer;font-size:.75rem;font-weight:600;color:#475569;transition:all .15s}
+.tp-pill:hover{border-color:#94a3b8;color:#1e293b}
+.tp-pill.active{background:#0f2942;border-color:#0f2942;color:#fff}
+.tp-search{padding:7px 12px;border:2px solid #cbd5e1;border-radius:18px;font-size:.75rem;color:#1e293b;min-width:220px;outline:none;transition:border-color .15s}
+.tp-search:focus{border-color:#0f2942}
+.tp-table{width:100%;border-collapse:collapse;font-size:.74rem}
+.tp-table th{background:#f8fafc;text-align:left;padding:7px 8px;font-weight:600;color:#475569;font-size:.66rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:2px solid #e2e8f0;cursor:pointer;user-select:none}
+.tp-table th.sortable:hover{background:#f1f5f9}
+.tp-table th.sortable::after{content:' ⇅';color:#cbd5e1;font-size:.7rem}
+.tp-table th.sort-asc::after{content:' ▲';color:#0f2942}
+.tp-table th.sort-desc::after{content:' ▼';color:#0f2942}
+.tp-table td{padding:7px 8px;border-bottom:1px solid #f1f5f9;vertical-align:top}
+.tp-table tr:hover td{background:#f8fafc}
+.tp-table td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.tp-table td.title{max-width:380px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tp-table td.asin a{display:inline-flex;align-items:center;gap:3px;background:#dbeafe;color:#1d4ed8;padding:2px 7px;border-radius:3px;font-size:.68rem;font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:600;text-decoration:none;transition:background .12s}
+.tp-table td.asin a:hover{background:#bfdbfe;text-decoration:underline}
+.tp-table td.asin a::after{content:'↗';font-size:.65rem;opacity:.7}
+.tp-advanced{margin-top:20px;padding-top:18px;border-top:1px dashed #e2e8f0}
+.tp-advanced summary{cursor:pointer;font-size:.75rem;font-weight:700;color:#475569;text-transform:uppercase;letter-spacing:.04em;padding:6px 0;list-style:none;display:flex;align-items:center;gap:8px}
+.tp-advanced summary::-webkit-details-marker{display:none}
+.tp-advanced summary::before{content:'▸';display:inline-block;transition:transform .2s;font-size:.9rem;color:#94a3b8}
+.tp-advanced[open] summary::before{transform:rotate(90deg)}
+.tp-advanced summary:hover{color:#0f2942}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="titles">
+    <h1>Fruit Flies EU &middot; Rynek</h1>
+    <span>Rynki: Francja &middot; Włochy &middot; Hiszpania &middot; Wielka Brytania &middot; Dane: Helium 10 X-Ray (projekcja 30d z sezonowością rynku DE, mnożnik &times;7.90, EUR)</span>
+  </div>
+</header>
+
+<div class="main">
+
+  <!-- KPI Row -->
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-v">&euro;5.3M</div>
+      <div class="kpi-l">Przychód 12M łącznie (EUR)</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">420,918</div>
+      <div class="kpi-l">Sztuki sprzedane 12M łącznie</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">4 rynki</div>
+      <div class="kpi-l">UK &bull; FR &bull; IT &bull; ES</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-v">52</div>
+      <div class="kpi-l">Unikalne ASIN-y (odduplikowane per rynek)</div>
+    </div>
+  </div>
+
+  <!-- Executive summary - auto-generated from data -->
+  <details class="summary">
+    <summary>Podsumowanie - kluczowe wnioski (12M) <span class="hint">kliknij żeby rozwinąć</span></summary>
+    <div class="summary-inner">
+    <div class="summary-cols">
+
+      <div class="summary-col">
+        <h3>Rynki</h3>
+        <p>Liderem kategorii jest <strong>Wielka Brytania</strong> z <strong>€4.39M</strong> prognozowanego rocznego przychodu, co daje <strong>83%</strong> udziału w łącznej wartości 4 rynków i 6.2x wielkości drugiego rynku w kolejności.</p>
+        <p>Pełny ranking (przychód 12M): Wielka Brytania €4.39M (83%), Francja €0.71M (13%), Włochy €0.10M (2%), Hiszpania €0.08M (2%). Łącznie 4 rynki generują <strong>€5.3M</strong> rocznie w ramach <strong>52</strong> analizowanych ASIN-ów.</p>
+      </div>
+
+      <div class="summary-col">
+        <h3>Marki i koncentracja</h3>
+        <p>Kategoria jest <strong>silnie skoncentrowana</strong>: top 3 marki odpowiadają za <strong>94%</strong>, a top 10 marek za <strong>98%</strong> całego przychodu, przy <strong>26</strong> unikalnych markach ogółem.</p>
+        <p>Globalnym liderem jest <strong>Super Ninja</strong> z udziałem <strong>91%</strong> (€4.81M rocznie). Największa marka na każdym rynku: UK: Super Ninja (91%) · FR: Super Ninja (92%) · IT: Super Ninja (99%) · ES: Super Ninja (97%).</p>
+      </div>
+
+      <div class="summary-col">
+        <h3>Ceny i wolumen</h3>
+        <p>Średnia cena sprzedaży w całej kategorii wynosi <strong>€12.56</strong> za sztukę. Średnia cena per rynek: UK €12.63 · FR €11.76 · IT €13.31 · ES €15.56.</p>
+        <p>Łączny prognozowany wolumen to <strong>420,918</strong> sztuk rocznie. Projekcja 12M uwzględnia sezonowość rynku niemieckiego: snapshot z lipca (wysoki sezon, indeks 1.52) przeskalowano mnożnikiem <strong>&times;7.90</strong> zamiast płaskiego &times;12. Dane z UK przeliczono z GBP na EUR po kursie 1.1666; pozostałe rynki rozliczają się natywnie w EUR.</p>
+      </div>
+
+    </div>
+    </div>
+  </details>
+
+  <!-- Charts -->
+  <div class="charts-row">
+    <div class="card" style="margin:0">
+      <h3>Przychód per rynek - 12M (&euro;)</h3>
+      <div class="chart-wrap"><canvas id="barChart"></canvas></div>
+    </div>
+    <div class="card" style="margin:0">
+      <h3>Udział rynków w sztukach - 12M</h3>
+      <div class="chart-wrap"><canvas id="pieChart"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Units Table -->
+  <div class="card">
+    <h3>Sztuki i przychód per rynek - 12M</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Rynek</th>
+          <th>Waluta</th>
+          <th style="text-align:right">ASIN-y</th>
+          <th style="text-align:right">Sztuki 30 dni</th>
+          <th style="text-align:right">Mnożnik</th>
+          <th style="text-align:right">Sztuki 12M (szac.)</th>
+          <th style="text-align:right">Przychód 12M &euro;</th>
+          <th style="text-align:right">Udział</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="dot" style="background:#dc2626"></span>🇬🇧 Wielka Brytania (UK)</td>
+          <td>GBP (x1.1666)</td>
+          <td class="num">22</td>
+          <td class="num">44,044</td>
+          <td class="num">7.90x</td>
+          <td class="num">347,855</td>
+          <td class="num">&euro;4,394,537</td>
+          <td class="num">83.1%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#0891b2"></span>🇫🇷 Francja (FR)</td>
+          <td>EUR</td>
+          <td class="num">17</td>
+          <td class="num">7,612</td>
+          <td class="num">7.90x</td>
+          <td class="num">60,119</td>
+          <td class="num">&euro;706,757</td>
+          <td class="num">13.4%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#7c3aed"></span>🇮🇹 Włochy (IT)</td>
+          <td>EUR</td>
+          <td class="num">8</td>
+          <td class="num">955</td>
+          <td class="num">7.90x</td>
+          <td class="num">7,542</td>
+          <td class="num">&euro;100,411</td>
+          <td class="num">1.9%</td>
+        </tr>
+        <tr>
+          <td><span class="dot" style="background:#d97706"></span>🇪🇸 Hiszpania (ES)</td>
+          <td>EUR</td>
+          <td class="num">5</td>
+          <td class="num">684</td>
+          <td class="num">7.90x</td>
+          <td class="num">5,402</td>
+          <td class="num">&euro;84,077</td>
+          <td class="num">1.6%</td>
+        </tr>
+        <tr class="total-row">
+          <td colspan="2"><strong>Razem</strong></td>
+          <td class="num">52</td>
+          <td class="num">53,295</td>
+          <td class="num">-</td>
+          <td class="num">420,918</td>
+          <td class="num">&euro;5,285,782</td>
+          <td class="num">100%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Brand Share Pie Charts -->
+  <div class="charts-row">
+    <div class="card" style="margin:0">
+      <h3>Udział marek w przychodzie - 12M (&euro;, wszystkie rynki)</h3>
+      <div class="chart-wrap" style="height:340px"><canvas id="brandRevPie"></canvas></div>
+    </div>
+    <div class="card" style="margin:0">
+      <h3>Udział marek w sztukach - 12M (wszystkie rynki)</h3>
+      <div class="chart-wrap" style="height:340px"><canvas id="brandUnitsPie"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Brand Revenue Heatmap: Brand x Marketplace -->
+  <div class="card">
+    <h3>Przychód per marka i rynek - 12M (&euro;)</h3>
+    <table class="heatmap" id="brandRevHeatmap">
+      <thead>
+        <tr>
+          <th>Marka</th>
+          <th class="num">🇬🇧 UK</th><th class="num">🇫🇷 FR</th><th class="num">🇮🇹 IT</th><th class="num">🇪🇸 ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Razem</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div style="margin-top:10px;font-size:.68rem;color:#64748b">Top 12 marek po łącznym przychodzie + Pozostałe. Ciemniejsze komórki = marka dominuje na tym rynku.</div>
+  </div>
+
+  <!-- Brand Units Heatmap: Brand x Marketplace -->
+  <div class="card">
+    <h3>Sztuki per marka i rynek - 12M</h3>
+    <table class="heatmap" id="brandUnitsHeatmap">
+      <thead>
+        <tr>
+          <th>Marka</th>
+          <th class="num">🇬🇧 UK</th><th class="num">🇫🇷 FR</th><th class="num">🇮🇹 IT</th><th class="num">🇪🇸 ES</th>
+          <th class="num" style="border-left:2px solid #e2e8f0">Razem</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div style="margin-top:10px;display:flex;align-items:center;gap:6px;font-size:.68rem;color:#64748b">
+      <span>Nisko</span>
+      <div style="display:flex;gap:1px">
+        <span style="width:18px;height:10px;background:#eff6ff;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#bfdbfe;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#93c5fd;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#3b82f6;border-radius:2px;display:inline-block"></span>
+        <span style="width:18px;height:10px;background:#1d4ed8;border-radius:2px;display:inline-block"></span>
+      </div>
+      <span>Wysoko</span>
+    </div>
+  </div>
+
+  <!-- Top 10 products per market -->
+  <div class="tp-block">
+    <h2>Top 10 produktów per rynek</h2>
+    <p class="tp-intro">Wybierz rynek pigułką poniżej, żeby zobaczyć 10 najlepiej sprzedających się produktów, posortowanych po przychodzie 30-dniowym. Wszystkie ceny i przychody w EUR (dane UK przeliczone z GBP upstream). Klikaj nagłówki kolumn żeby zmienić sortowanie. Na dole sekcji pełny widok zaawansowany - wszystkie 52 produktów z filtrami rynek / marka / słowo kluczowe.</p>
+
+    <div class="tp-pills">
+      <span class="label">Rynek:</span>
+      <button class="tp-pill active" data-mkt="UK">🇬🇧 UK</button>
+      <button class="tp-pill" data-mkt="FR">🇫🇷 FR</button>
+      <button class="tp-pill" data-mkt="IT">🇮🇹 IT</button>
+      <button class="tp-pill" data-mkt="ES">🇪🇸 ES</button>
+      
+    </div>
+
+    <div id="tpTables"></div>
+
+    <!-- Advanced: all products, all markets, with filters -->
+    <details class="tp-advanced">
+      <summary>&#128269; Widok zaawansowany - wszystkie 52 produktów z filtrami</summary>
+      <div class="tp-intro" style="margin-top:10px">Filtruj po rynku albo wpisz markę / słowo kluczowe, sortuj dowolną kolumną. Przydatne do porównywania produktów cross-market.</div>
+      <div class="tp-pills">
+        <span class="label">Rynek:</span>
+        <button class="tp-pill active" data-adv-mkt="All">Wszystkie</button>
+        <button class="tp-pill" data-adv-mkt="UK">UK</button>
+        <button class="tp-pill" data-adv-mkt="FR">FR</button>
+        <button class="tp-pill" data-adv-mkt="IT">IT</button>
+        <button class="tp-pill" data-adv-mkt="ES">ES</button>
+        
+      </div>
+      <div class="tp-pills">
+        <span class="label">Szukaj:</span>
+        <input type="text" id="tpAdvSearch" class="tp-search" placeholder="Marka lub słowo kluczowe...">
+      </div>
+      <div id="tpAdvTable"></div>
+    </details>
+  </div>
+
+  <!-- Methodology -->
+  <div class="note">
+    <strong>Metodologia:</strong> Helium 10 X-Ray - snapshot 30-dniowy per rynek (2026-07-29), przeskalowany na 12 miesięcy z korektą sezonowości. Mnożnik = 12 / indeks_miesiąca, gdzie krzywa sezonowa pochodzi z rynku niemieckiego (dashboard Fruit Fly Trap DE, ~2 lata dziennej sprzedaży, 49 ASIN-ów, zagregowane per miesiąc kalendarzowy, średni miesiąc = 1.0). Eksport przypada na lipiec (indeks 1.52, wysoki sezon much owocowych), więc mnożnik wynosi <strong>&times;7.90</strong> - mniej niż płaskie &times;12, co koryguje zawyżenie wynikające z sezonowego szczytu. Ten sam mnożnik zastosowano do wszystkich 4 rynków (wszystkie eksporty z tego samego okna). Duplikaty usunięte po ASIN w obrębie każdego rynku; wiersze bez ASIN lub bez ceny są wykluczone. Sztuki 30-dniowe oszacowane jako ASIN Revenue podzielony przez cenę katalogową. Przychody i ceny z UK przeliczono z GBP na EUR po kursie 1.1666 na etapie konsolidacji danych; wszystkie wartości podane są w EUR.
+    <br><br>
+    <strong>Uwaga o sezonowości:</strong> krzywa niemiecka to przybliżenie dla FR / IT / ES / UK - realna sezonowość może się różnić między rynkami. Pełna krzywa DE (indeks, średni miesiąc = 1.0): sty 1.09 · lut 1.16 · mar 0.47 · kwi 0.44 · maj 0.51 · cze 0.94 · lip 1.52 · sie 1.80 · wrz 1.39 · paź 0.94 · lis 0.98 · gru 0.76.
+  </div>
+
+</div>
+
+<script>
+Chart.register(ChartDataLabels);
+
+const LABELS = ["🇬🇧 UK", "🇫🇷 FR", "🇮🇹 IT", "🇪🇸 ES"];
+const CODES = ["UK", "FR", "IT", "ES"];
+const REVENUE = [4394537, 706757, 100411, 84077];
+const UNITS = [347855, 60119, 7542, 5402];
+const COLORS = ["#dc2626", "#0891b2", "#7c3aed", "#d97706"];
+
+// Bar chart - Revenue by Marketplace
+new Chart(document.getElementById('barChart'), {
+  type: 'bar',
+  data: { labels: LABELS, datasets: [{ data: REVENUE, backgroundColor: COLORS, borderRadius: 4, borderSkipped: false }] },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { callbacks: { label: ctx => ' €' + ctx.parsed.y.toLocaleString('en-EU',{maximumFractionDigits:0}) } },
+      datalabels: {
+        anchor:'end', align:'end',
+        formatter: v => '€' + (v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K'),
+        font:{size:11,weight:'600'}, color:'#1e293b'
+      }
+    },
+    layout: { padding: { top: 22 } },
+    scales: {
+      x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+      y: { grid: { color: '#e2e8f0' }, ticks: { callback: v => '€' + (v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K') } }
+    }
+  }
+});
+
+// Doughnut - Unit share by Marketplace
+new Chart(document.getElementById('pieChart'), {
+  type: 'doughnut',
+  data: { labels: LABELS, datasets: [{ data: UNITS, backgroundColor: COLORS, borderWidth: 2, borderColor: '#fff' }] },
+  options: {
+    responsive: true, maintainAspectRatio: false, cutout: '52%',
+    plugins: {
+      legend: {
+        position:'bottom',
+        labels: {
+          font:{size:11}, padding:10, boxWidth:12, boxHeight:12,
+          generateLabels: chart => {
+            const total = UNITS.reduce((a,b)=>a+b,0);
+            return LABELS.map((label,i) => {
+              const pct = (UNITS[i]/total*100).toFixed(1);
+              return { text: label + '  ' + pct + '%', fillStyle: COLORS[i], strokeStyle: COLORS[i], lineWidth:0, index:i, hidden:false };
+            });
+          }
+        }
+      },
+      tooltip: { callbacks: { label: ctx => { const pct=(ctx.parsed/UNITS.reduce((a,b)=>a+b,0)*100).toFixed(1); return ' '+ctx.parsed.toLocaleString()+' szt. ('+pct+'%)'; } } },
+      datalabels: {
+        display: ctx => (ctx.dataset.data[ctx.dataIndex] / UNITS.reduce((a,b)=>a+b,0)) > 0.05,
+        formatter: v => (v/UNITS.reduce((a,b)=>a+b,0)*100).toFixed(1) + '%',
+        color: '#fff', font: { size: 11, weight: '700' }
+      }
+    }
+  }
+});
+
+// === Brand pies (top 10 + Other, across all markets combined) ===
+const BRAND_REV_LABELS  = ["Super Ninja", "Catchly", "HIULLEN", "Pest strike", "ENTOEND", "InemzTal", "Entopest", "PestProof", "Mbuaopa", "Zero In", "Pozostałe (16)"];
+const BRAND_REV_VALUES  = [4812874, 99175, 44002, 34716, 30491, 30362, 30169, 29206, 25790, 25470, 123527];
+const BRAND_UNITS_LABELS = ["Super Ninja", "Catchly", "Pest strike", "PestProof", "HIULLEN", "Zero In", "InemzTal", "Entopest", "TaimeiMao", "ENTOEND", "Pozostałe (16)"];
+const BRAND_UNITS_VALUES = [377583, 13458, 3759, 3009, 2804, 2733, 2551, 2393, 2346, 1745, 8536];
+const BRAND_COLORS = ["#2563eb", "#dc2626", "#0891b2", "#d97706", "#7c3aed", "#16a34a", "#db2777", "#0284c7", "#ca8a04", "#059669", "#4f46e5", "#94a3b8"];
+
+function brandPie(id, labels, values, fmtVal) {
+  const total = values.reduce((a,b)=>a+b,0);
+  new Chart(document.getElementById(id), {
+    type: 'doughnut',
+    data: { labels: labels, datasets: [{ data: values, backgroundColor: BRAND_COLORS, borderWidth: 2, borderColor: '#fff' }] },
+    options: {
+      responsive: true, maintainAspectRatio: false, cutout: '52%',
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: {
+            font:{size:10}, padding:6, boxWidth:10, boxHeight:10,
+            generateLabels: chart => labels.map((label,i) => {
+              const pct = (values[i]/total*100).toFixed(1);
+              return { text: label + '  ' + pct + '%', fillStyle: BRAND_COLORS[i % BRAND_COLORS.length], strokeStyle: BRAND_COLORS[i % BRAND_COLORS.length], lineWidth:0, index:i, hidden:false };
+            })
+          }
+        },
+        tooltip: { callbacks: { label: ctx => { const pct=(ctx.parsed/total*100).toFixed(1); return ' '+fmtVal(ctx.parsed)+' ('+pct+'%)'; } } },
+        datalabels: {
+          display: ctx => (ctx.dataset.data[ctx.dataIndex]/total) > 0.03,
+          formatter: v => (v/total*100).toFixed(1)+'%',
+          color: '#fff', font: { size: 10, weight: '700' }
+        }
+      }
+    }
+  });
+}
+brandPie('brandRevPie',   BRAND_REV_LABELS,   BRAND_REV_VALUES,   v => '€'+(v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(0)+'K'));
+brandPie('brandUnitsPie', BRAND_UNITS_LABELS, BRAND_UNITS_VALUES, v => v>=1e6?(v/1e6).toFixed(1)+'M':(v/1e3).toFixed(1)+'K');
+
+// === Brand x Marketplace heatmaps ===
+const HM_COLORS = ['#eff6ff','#bfdbfe','#93c5fd','#3b82f6','#1d4ed8'];
+const HM_TEXT   = ['#1e40af','#1e40af','#1e3a5f','#ffffff','#ffffff'];
+
+function hmColor(val, max) {
+  if (val === 0) return { bg: '#f8fafc', fg: '#94a3b8' };
+  const idx = Math.min(4, Math.floor((val / max) * 4.99));
+  return { bg: HM_COLORS[idx], fg: HM_TEXT[idx] };
+}
+function fmtRev(v) {
+  if (v === 0) return '-';
+  if (v >= 1e6) return '€' + (v/1e6).toFixed(1) + 'M';
+  return '€' + (v/1e3).toFixed(0) + 'K';
+}
+function fmtUnits(v) {
+  if (v === 0) return '-';
+  if (v >= 1e6) return (v/1e6).toFixed(1) + 'M';
+  return (v/1e3).toFixed(1) + 'K';
+}
+
+const BRAND_HM_DATA = {
+  "Super Ninja": {
+    "rev": [
+      3984599,
+      647619,
+      99294,
+      81362
+    ],
+    "units": [
+      310743,
+      54196,
+      7456,
+      5188
+    ]
+  },
+  "Catchly": {
+    "rev": [
+      99175,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      13458,
+      0,
+      0,
+      0
+    ]
+  },
+  "HIULLEN": {
+    "rev": [
+      44002,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      2804,
+      0,
+      0,
+      0
+    ]
+  },
+  "Pest strike": {
+    "rev": [
+      34716,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      3759,
+      0,
+      0,
+      0
+    ]
+  },
+  "ENTOEND": {
+    "rev": [
+      30491,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      1745,
+      0,
+      0,
+      0
+    ]
+  },
+  "InemzTal": {
+    "rev": [
+      30362,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      2551,
+      0,
+      0,
+      0
+    ]
+  },
+  "Entopest": {
+    "rev": [
+      30169,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      2393,
+      0,
+      0,
+      0
+    ]
+  },
+  "PestProof": {
+    "rev": [
+      29206,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      3009,
+      0,
+      0,
+      0
+    ]
+  },
+  "Mbuaopa": {
+    "rev": [
+      25790,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      1050,
+      0,
+      0,
+      0
+    ]
+  },
+  "Zero In": {
+    "rev": [
+      25470,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      2733,
+      0,
+      0,
+      0
+    ]
+  },
+  "TaimeiMao": {
+    "rev": [
+      0,
+      21054,
+      0,
+      0
+    ],
+    "units": [
+      0,
+      2346,
+      0,
+      0
+    ]
+  },
+  "Mineup": {
+    "rev": [
+      20894,
+      0,
+      0,
+      0
+    ],
+    "units": [
+      1311,
+      0,
+      0,
+      0
+    ]
+  },
+  "Pozostałe (14)": {
+    "rev": [
+      39661,
+      38085,
+      1117,
+      2716
+    ],
+    "units": [
+      2298,
+      3577,
+      87,
+      213
+    ]
+  }
+};
+const BRAND_HM_ORDER = ["Super Ninja", "Catchly", "HIULLEN", "Pest strike", "ENTOEND", "InemzTal", "Entopest", "PestProof", "Mbuaopa", "Zero In", "TaimeiMao", "Mineup", "Pozostałe (14)"];
+function buildBrandHeatmap(tableId, field, fmtFn) {
+  const tbody = document.querySelector('#' + tableId + ' tbody');
+  let allVals = [];
+  BRAND_HM_ORDER.forEach(b => BRAND_HM_DATA[b][field].forEach(v => { if (v > 0) allVals.push(v); }));
+  const maxVal = allVals.length ? Math.max(...allVals) : 1;
+  BRAND_HM_ORDER.forEach(brand => {
+    const vals = BRAND_HM_DATA[brand][field];
+    const total = vals.reduce((a,b)=>a+b,0);
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td class="seg-label">' + brand + '</td>';
+    vals.forEach(v => {
+      const c = hmColor(v, maxVal);
+      tr.innerHTML += '<td class="hm" style="background:'+c.bg+';color:'+c.fg+'">'+fmtFn(v)+'</td>';
+    });
+    tr.innerHTML += '<td class="hm-total">' + fmtFn(total) + '</td>';
+    tbody.appendChild(tr);
+  });
+  const nCols = CODES.length;
+  const totals = Array(nCols).fill(0).map((_,i) => BRAND_HM_ORDER.reduce((s,b)=>s+BRAND_HM_DATA[b][field][i],0));
+  const grandTotal = totals.reduce((a,b)=>a+b,0);
+  const tr = document.createElement('tr');
+  tr.className = 'total-row';
+  tr.innerHTML = '<td class="seg-label">Razem</td>';
+  totals.forEach(v => { tr.innerHTML += '<td class="hm" style="background:#f8fafc;color:#0f2942">'+fmtFn(v)+'</td>'; });
+  tr.innerHTML += '<td class="hm-total">' + fmtFn(grandTotal) + '</td>';
+  tbody.appendChild(tr);
+}
+buildBrandHeatmap('brandRevHeatmap',   'rev',   fmtRev);
+buildBrandHeatmap('brandUnitsHeatmap', 'units', fmtUnits);
+
+// === Top Products Tables ===
+const TOP_PRODUCTS = {"UK": [{"asin": "B09SLX6GQS", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 4 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 15.49, "cur": "€", "units30d": 16544, "units12m": 130663, "rev12m": 2023926, "reviews": 17515}, {"asin": "B0963J155G", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 2 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 9.66, "cur": "€", "units30d": 16807, "units12m": 132740, "rev12m": 1282254, "reviews": 22636}, {"asin": "B0DVBKLWTL", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 6 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 21.33, "cur": "€", "units30d": 1736, "units12m": 13711, "rev12m": 292478, "reviews": 22636}, {"asin": "B0C6M6DB5H", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 12 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 36.93, "cur": "€", "units30d": 668, "units12m": 5276, "rev12m": 194860, "reviews": 22636}, {"asin": "B089MB7VFZ", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 1 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 6.74, "cur": "€", "units30d": 3590, "units12m": 28353, "rev12m": 191081, "reviews": 17507}, {"asin": "B0GN89ZP6D", "brand": "Catchly", "title": "Fruit Fly Trap 2 Pack - Highly Effective Fruit Fly Killer for Kitchen & Home, Long-Lasting Up to 3 Weeks, Safe for Children & Pets, Small Size, Strong Results, Designed for Fruit F", "price": 7.37, "cur": "€", "units30d": 1704, "units12m": 13458, "rev12m": 99175, "reviews": 75}, {"asin": "B0GDQYTKD3", "brand": "Pest strike", "title": "Fruit Fly Trap - Fruit Fly Traps Indoor for Home Use with Powerful Attractant - Odor Free, Long Lasting Fly Catcher Safe for Kids and Pets - Easy to Use, Up to 3 Weeks Protection (", "price": 9.23, "cur": "€", "units30d": 476, "units12m": 3759, "rev12m": 34716, "reviews": 32}, {"asin": "B0GSW9S46W", "brand": "ENTOEND", "title": "ENTOEND Fruit Fly Trap - 4 Traps, up to 3 Months' Supply | Ultimate Indoor Fruit Fly Killer for the House and Kitchen | New & Improved, Easy to Use Pre-Baited Bottles | Safe Around", "price": 17.49, "cur": "€", "units30d": 221, "units12m": 1745, "rev12m": 30491, "reviews": 0}, {"asin": "B0H1L3N36N", "brand": "InemzTal", "title": "3 Pack Reusable Fruit Fly Traps indoor With non-slip Sleeve, Non-slip and Discreet, Highly Effective Fruit Fly Trap, Ideal for Home & Kitchen, Glass Design Fruit Fly Catcher", "price": 11.92, "cur": "€", "units30d": 323, "units12m": 2551, "rev12m": 30362, "reviews": 6}, {"asin": "B0CPPL529L", "brand": "Entopest", "title": "ENTOPEST Decorative Fruit Fly Traps for Indoor, Long-Lasting Flies Control - 2 Traps with Natural & Non-Toxic Attractant 40ml - Effective & Safe to Use, Glue Trapper Eco-Catch Inse", "price": 12.62, "cur": "€", "units30d": 303, "units12m": 2393, "rev12m": 30169, "reviews": 29}], "FR": [{"asin": "B09SLX6GQS", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Set of 4 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 14.08, "cur": "€", "units30d": 2635, "units12m": 20811, "rev12m": 292964, "reviews": 12095}, {"asin": "B0963J155G", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Set of 2 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 9.95, "cur": "€", "units30d": 1930, "units12m": 15243, "rev12m": 151648, "reviews": 21183}, {"asin": "B0130J6YGG", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Set of 2 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 8.28, "cur": "€", "units30d": 1846, "units12m": 14580, "rev12m": 120728, "reviews": 1271}, {"asin": "B0DVBKLWTL", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Pack of 6 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 18.25, "cur": "€", "units30d": 304, "units12m": 2401, "rev12m": 43766, "reviews": 1271}, {"asin": "B0C6M6DB5H", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Pack of 12 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 33.28, "cur": "€", "units30d": 147, "units12m": 1161, "rev12m": 38513, "reviews": 12095}, {"asin": "B0CXP6H6P2", "brand": "TaimeiMao", "title": "10 x bait for fly traps, fly traps, fly baits | Fly Trap, Effective Fly Trap, Fruit Fly Traps for Indoor, Home, Kitchen, Outdoor", "price": 8.99, "cur": "€", "units30d": 297, "units12m": 2346, "rev12m": 21054, "reviews": 154}, {"asin": "B0GXG1FFVZ", "brand": "Novokill", "title": "Novokill Fruit Gnatting Bait Refill - 100ml Liquid - Fruit Fly Trap - Fruit Fly Trap - Fruit Fly Trap - Fruit Fly Refill - Natural Fruit Fly Insecticide", "price": 14.99, "cur": "€", "units30d": 150, "units12m": 1185, "rev12m": 17724, "reviews": 386}, {"asin": "B07N9LHN6R", "brand": "K.PRO", "title": "K.PRO Fruit Fly Trap | Eradic fruit flies, vinegar flies, insecticide-free, food attractant, 8 weeks effectiveness", "price": 6.49, "cur": "€", "units30d": 202, "units12m": 1595, "rev12m": 10335, "reviews": 100}, {"asin": "B0DZ2K89C5", "brand": "DONCOO", "title": "Fruit Gnat Trap, 2 x Fly Traps + 2 x 30 ml Bait | Indoor Fly Trap, Anti Gnat for Kitchen, Reusable, Indoor Gnat Catcher", "price": 12.99, "cur": "€", "units30d": 25, "units12m": 197, "rev12m": 2593, "reviews": 12}, {"asin": "B07PN3XFD5", "brand": "PIC", "title": "PIC Fruit Fly Trap, 4 x Glue Fly Catcher with 2 Attractants | Non-toxic and insecticide-free, effective for up to 8 weeks, ideal indoors near food", "price": 13.98, "cur": "€", "units30d": 21, "units12m": 166, "rev12m": 2349, "reviews": 317}], "IT": [{"asin": "B09SLX6GQS", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 4 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks, Suitable for Children and Pets", "price": 16.99, "cur": "€", "units30d": 427, "units12m": 3372, "rev12m": 57297, "reviews": 12291}, {"asin": "B0963J155G", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 2 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks - Suitable for Children and Pets", "price": 8.15, "cur": "€", "units30d": 373, "units12m": 2946, "rev12m": 24037, "reviews": 21119}, {"asin": "B0DVBKLWTL", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 6 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks, Suitable for Children and Pets", "price": 18.02, "cur": "€", "units30d": 39, "units12m": 308, "rev12m": 5615, "reviews": 745}, {"asin": "B0C6M6DB5H", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 12 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks, Suitable for Children and Pets", "price": 32.74, "cur": "€", "units30d": 21, "units12m": 166, "rev12m": 5323, "reviews": 12291}, {"asin": "B0DWYWN4KK", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 2 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks - Suitable for Children and Pets", "price": 8.97, "cur": "€", "units30d": 62, "units12m": 490, "rev12m": 4414, "reviews": 745}, {"asin": "B0DWTR65JD", "brand": "Super Ninja", "title": "Super Ninja Trappola moscerini frutta - 10 trappole adesive per moscerini piante e 2 cattura mosche della frutta, altamente efficaci, adatta a bambini e animali domestici, fino a 3", "price": 14.99, "cur": "€", "units30d": 22, "units12m": 174, "rev12m": 2608, "reviews": 0}, {"asin": "B07PN3XFD5", "brand": "PIC", "title": "PIC Fruit Fly Trap, 4 Traps with 2 Attractives for Kitchen | Natural Non-Toxic Attractant Effective Up to 8 Weeks Against Vinegar Flies and Vinegar Flies for Kitchen", "price": 12.98, "cur": "€", "units30d": 9, "units12m": 71, "rev12m": 895, "reviews": 114}, {"asin": "B0C4V4H131", "brand": "Gardigo", "title": "GARDIGO® Fly Trap 2 Pcs | Fly Killer | Anti Fly | Insect Catcher | 5.5 x 6 cm | House Fly Catch | Fly Traps", "price": 12.9, "cur": "€", "units30d": 2, "units12m": 16, "rev12m": 222, "reviews": 25}], "ES": [{"asin": "B09SLX6GQS", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Traps - Pack of 4, Indoor Fly Trap, Home & Kitchen, Highly Effective Liquid Bait, Up to 3 Weeks Efficacy, Safe for Kids and Pets", "price": 16.99, "cur": "€", "units30d": 417, "units12m": 3293, "rev12m": 55965, "reviews": 12300}, {"asin": "B0DWYPZ2V8", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Traps - Pack of 2, Indoor Fly Trap, Home & Kitchen, Highly Effective Liquid Bait, Up to 3 Weeks Efficacy, Safe for Kids and Pets", "price": 10.99, "cur": "€", "units30d": 135, "units12m": 1066, "rev12m": 11731, "reviews": 739}, {"asin": "B0DVBKLWTL", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Traps - Pack of 6, Indoor Fly Trap, Home & Kitchen, Highly Effective Liquid Bait, Up to 3 Weeks Efficacy, Safe for Kids and Pets", "price": 21.99, "cur": "€", "units30d": 47, "units12m": 371, "rev12m": 8162, "reviews": 739}, {"asin": "B0963J155G", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Traps - Pack of 2, Indoor Fly Trap, Home & Kitchen, Highly Effective Liquid Bait, Up to 3 Weeks Efficacy, Safe for Kids and Pets", "price": 11.99, "cur": "€", "units30d": 58, "units12m": 458, "rev12m": 5504, "reviews": 21103}, {"asin": "B0H26XGYKX", "brand": "#NAME?", "title": "Control Garden Fruit Fly Trap x4 Fruit Guardian Trap | Super Effective Fly Attracting Bait 24 Hours | 100% Natural Formula + Safe Children and Pets | Fruit Bowl, Kitchen, Trash Can", "price": 12.95, "cur": "€", "units30d": 27, "units12m": 213, "rev12m": 2716, "reviews": 12}]};
+const ALL_PRODUCTS = [{"asin": "B09SLX6GQS", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 4 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 15.49, "cur": "€", "units30d": 16544, "units12m": 130663, "rev12m": 2023926, "reviews": 17515, "market": "UK"}, {"asin": "B0963J155G", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 2 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 9.66, "cur": "€", "units30d": 16807, "units12m": 132740, "rev12m": 1282254, "reviews": 22636, "market": "UK"}, {"asin": "B0DVBKLWTL", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 6 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 21.33, "cur": "€", "units30d": 1736, "units12m": 13711, "rev12m": 292478, "reviews": 22636, "market": "UK"}, {"asin": "B0C6M6DB5H", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 12 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 36.93, "cur": "€", "units30d": 668, "units12m": 5276, "rev12m": 194860, "reviews": 22636, "market": "UK"}, {"asin": "B089MB7VFZ", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Trap - 1 pack, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks of Performance per Bottle, Child & Pet Friendly", "price": 6.74, "cur": "€", "units30d": 3590, "units12m": 28353, "rev12m": 191081, "reviews": 17507, "market": "UK"}, {"asin": "B0GN89ZP6D", "brand": "Catchly", "title": "Fruit Fly Trap 2 Pack - Highly Effective Fruit Fly Killer for Kitchen & Home, Long-Lasting Up to 3 Weeks, Safe for Children & Pets, Small Size, Strong Results, Designed for Fruit F", "price": 7.37, "cur": "€", "units30d": 1704, "units12m": 13458, "rev12m": 99175, "reviews": 75, "market": "UK"}, {"asin": "B0GDQYTKD3", "brand": "Pest strike", "title": "Fruit Fly Trap - Fruit Fly Traps Indoor for Home Use with Powerful Attractant - Odor Free, Long Lasting Fly Catcher Safe for Kids and Pets - Easy to Use, Up to 3 Weeks Protection (", "price": 9.23, "cur": "€", "units30d": 476, "units12m": 3759, "rev12m": 34716, "reviews": 32, "market": "UK"}, {"asin": "B0GSW9S46W", "brand": "ENTOEND", "title": "ENTOEND Fruit Fly Trap - 4 Traps, up to 3 Months' Supply | Ultimate Indoor Fruit Fly Killer for the House and Kitchen | New & Improved, Easy to Use Pre-Baited Bottles | Safe Around", "price": 17.49, "cur": "€", "units30d": 221, "units12m": 1745, "rev12m": 30491, "reviews": 0, "market": "UK"}, {"asin": "B0H1L3N36N", "brand": "InemzTal", "title": "3 Pack Reusable Fruit Fly Traps indoor With non-slip Sleeve, Non-slip and Discreet, Highly Effective Fruit Fly Trap, Ideal for Home & Kitchen, Glass Design Fruit Fly Catcher", "price": 11.92, "cur": "€", "units30d": 323, "units12m": 2551, "rev12m": 30362, "reviews": 6, "market": "UK"}, {"asin": "B0CPPL529L", "brand": "Entopest", "title": "ENTOPEST Decorative Fruit Fly Traps for Indoor, Long-Lasting Flies Control - 2 Traps with Natural & Non-Toxic Attractant 40ml - Effective & Safe to Use, Glue Trapper Eco-Catch Inse", "price": 12.62, "cur": "€", "units30d": 303, "units12m": 2393, "rev12m": 30169, "reviews": 29, "market": "UK"}, {"asin": "B0GSVG2883", "brand": "PestProof", "title": "Fruit Fly Trap (2 Pack) 2 in 1 Design with Sticky Fly Trap Indoor, Highly Effective Fruit Fly Traps Indoor for Home Use & Kitchen, Bait & Sticky Traps Included, Fruit Flies Trap, C", "price": 9.71, "cur": "€", "units30d": 381, "units12m": 3009, "rev12m": 29206, "reviews": 53, "market": "UK"}, {"asin": "B0GVHC6DVP", "brand": "Mbuaopa", "title": "8 Pack Fruit Fly Trap, Highly Effective Fruit Fly Killer with Funnel, Fruit Fly Catcher Up to 3 Weeks for Areas with Plants Home and Kitchens for Performance per Bottle for Child E", "price": 24.49, "cur": "€", "units30d": 133, "units12m": 1050, "rev12m": 25790, "reviews": 3, "market": "UK"}, {"asin": "B0DC13BHGX", "brand": "Zero In", "title": "Zero In Fruit Fly Trap - Ready-Baited Indoor Fly Catcher, Apple-Shaped Multi Pack X2 - Non-Toxic, Insect Trap to Attract & Trap Bugs - Suitable for Kitchen & Home Use, Lasts up to ", "price": 9.32, "cur": "€", "units30d": 346, "units12m": 2733, "rev12m": 25470, "reviews": 0, "market": "UK"}, {"asin": "B0GR8MRDR2", "brand": "HIULLEN", "title": "Fruit Fly Trap, 4 Packs Highly Effective Fruit Fly Killer for Home & Kitchen, Fruit Fly Catcher, Up to 3 Weeks for Home Protect Plants Plant", "price": 14.57, "cur": "€", "units30d": 216, "units12m": 1706, "rev12m": 24843, "reviews": 15, "market": "UK"}, {"asin": "B0GQS3LZ8V", "brand": "HIULLEN", "title": "Fruit Fly Trap, 8 Pcs Highly Effective Fruit Fly Killer for Home & Kitchen, Fruit Fly Catcher, Up to 3 Weeks for Kitchen Home, Child And Pet Friendly", "price": 17.49, "cur": "€", "units30d": 139, "units12m": 1098, "rev12m": 19159, "reviews": 6, "market": "UK"}, {"asin": "B0GZSD8G51", "brand": "Mineup", "title": "8 Pcs Fruit Fly Trap, Highly Effective Fruit Fly Killer for Home and Kitchen, Fruit Fly Catcher with Funnel, Instantly Attracts, Up to 3 Weeks, Safe for Children, Pets, Indoor, Out", "price": 16.52, "cur": "€", "units30d": 113, "units12m": 892, "rev12m": 14757, "reviews": 2, "market": "UK"}, {"asin": "B0GRVGS8VL", "brand": "KUWUNG", "title": "KUWUNG 8 Pack Fruit Fly Trap, Highly Effective Fruit Fly Killer for Home & Kitchen, Up to 3 Weeks Indoor of Performance per Bottle, Safe for Children & Pets (8)", "price": 22.15, "cur": "€", "units30d": 82, "units12m": 648, "rev12m": 14363, "reviews": 0, "market": "UK"}, {"asin": "B07PN3XFD5", "brand": "PIC", "title": "PIC Fruit fly trap and vinegar fly trap - 4x Glue Traps with 2 Attractant Containers, Effective Fly traps indoor for home use - Suitable for kitchen - Up to 8 weeks", "price": 12.51, "cur": "€", "units30d": 105, "units12m": 829, "rev12m": 10416, "reviews": 949, "market": "UK"}, {"asin": "B0GTK86396", "brand": "Rppiup", "title": "Fruit Fly Trap, Highly Effective Fruit Fly Killer Safe for Children & Pets, Instantly Attracts & Kills Fly Zapper, Resealable Fruit Flies Trap for Indoor & Outdoor (8 orange)", "price": 19.44, "cur": "€", "units30d": 45, "units12m": 355, "rev12m": 6890, "reviews": 4, "market": "UK"}, {"asin": "B0GWV82B6N", "brand": "XPJBKC", "title": "8 Pack Fruit Fly Trap Indoor, Effective Kitchen Fruit Fly Killer, Yellow | Highly Effective Fruit Fly Traps, Indoor Fly Catcher for Home Kitchen, Reusable Design, Safe Poison-free ", "price": 20.4, "cur": "€", "units30d": 43, "units12m": 340, "rev12m": 6868, "reviews": 6, "market": "UK"}, {"asin": "B0H5TZLP3W", "brand": "Mineup", "title": "4 Pcs Fruit Fly Trap, Highly Effective Fruit Fly Killer for Home and Kitchen, Fruit Fly Catcher with Funnel, Up to 3 Weeks of Performance per Bottle, Safe for Children & Pets", "price": 14.57, "cur": "€", "units30d": 53, "units12m": 419, "rev12m": 6137, "reviews": 0, "market": "UK"}, {"asin": "B07QV27SX3", "brand": "Green Protect", "title": "Green Protect Fruit Fly Trap - Apple Shaped - Pest Free - Eco Friendly - Insecticide Free - Discreet - Long Lasting - Last Upto 4 Weeks - Insect Treatment | Insecticide-free, eco-f", "price": 8.7, "cur": "€", "units30d": 16, "units12m": 126, "rev12m": 1124, "reviews": 24, "market": "UK"}, {"asin": "B09SLX6GQS", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Set of 4 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 14.08, "cur": "€", "units30d": 2635, "units12m": 20811, "rev12m": 292964, "reviews": 12095, "market": "FR"}, {"asin": "B0963J155G", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Set of 2 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 9.95, "cur": "€", "units30d": 1930, "units12m": 15243, "rev12m": 151648, "reviews": 21183, "market": "FR"}, {"asin": "B0130J6YGG", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Set of 2 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 8.28, "cur": "€", "units30d": 1846, "units12m": 14580, "rev12m": 120728, "reviews": 1271, "market": "FR"}, {"asin": "B0DVBKLWTL", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Pack of 6 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 18.25, "cur": "€", "units30d": 304, "units12m": 2401, "rev12m": 43766, "reviews": 1271, "market": "FR"}, {"asin": "B0C6M6DB5H", "brand": "Super Ninja", "title": "Super Ninja Indoor Kitchen Gnat Traps - Pack of 12 Indoor Gnat Catchers for Home, 3 Weeks of Action, Safe for Children and Animals, Not Suitable for Potting Gnats", "price": 33.28, "cur": "€", "units30d": 147, "units12m": 1161, "rev12m": 38513, "reviews": 12095, "market": "FR"}, {"asin": "B0CXP6H6P2", "brand": "TaimeiMao", "title": "10 x bait for fly traps, fly traps, fly baits | Fly Trap, Effective Fly Trap, Fruit Fly Traps for Indoor, Home, Kitchen, Outdoor", "price": 8.99, "cur": "€", "units30d": 297, "units12m": 2346, "rev12m": 21054, "reviews": 154, "market": "FR"}, {"asin": "B0GXG1FFVZ", "brand": "Novokill", "title": "Novokill Fruit Gnatting Bait Refill - 100ml Liquid - Fruit Fly Trap - Fruit Fly Trap - Fruit Fly Trap - Fruit Fly Refill - Natural Fruit Fly Insecticide", "price": 14.99, "cur": "€", "units30d": 150, "units12m": 1185, "rev12m": 17724, "reviews": 386, "market": "FR"}, {"asin": "B07N9LHN6R", "brand": "K.PRO", "title": "K.PRO Fruit Fly Trap | Eradic fruit flies, vinegar flies, insecticide-free, food attractant, 8 weeks effectiveness", "price": 6.49, "cur": "€", "units30d": 202, "units12m": 1595, "rev12m": 10335, "reviews": 100, "market": "FR"}, {"asin": "B0DZ2K89C5", "brand": "DONCOO", "title": "Fruit Gnat Trap, 2 x Fly Traps + 2 x 30 ml Bait | Indoor Fly Trap, Anti Gnat for Kitchen, Reusable, Indoor Gnat Catcher", "price": 12.99, "cur": "€", "units30d": 25, "units12m": 197, "rev12m": 2593, "reviews": 12, "market": "FR"}, {"asin": "B07PN3XFD5", "brand": "PIC", "title": "PIC Fruit Fly Trap, 4 x Glue Fly Catcher with 2 Attractants | Non-toxic and insecticide-free, effective for up to 8 weeks, ideal indoors near food", "price": 13.98, "cur": "€", "units30d": 21, "units12m": 166, "rev12m": 2349, "reviews": 317, "market": "FR"}, {"asin": "B0DY1D64KF", "brand": "Henjunu", "title": "2 Fruit Fly Traps+ 8 Green Insect Traps + 30 ml Bait | Indoor Fruit Flies, Anti Kitchen Gnats, for Flower Pots, Balconies, Yards, Orchards", "price": 9.99, "cur": "€", "units30d": 22, "units12m": 174, "rev12m": 1697, "reviews": 21, "market": "FR"}, {"asin": "B07CHLZQNL", "brand": "Aeroxon", "title": "Aeroxon Fruit Fly Traps for Kitchen - Premium Fruit Fly Trap - Fruit Fly Trap for Kitchen and Indoor - Effective Up to 8 Weeks", "price": 26.99, "cur": "€", "units30d": 4, "units12m": 32, "rev12m": 899, "reviews": 2844, "market": "FR"}, {"asin": "B0H2DDLNWP", "brand": "Novokill", "title": "Novokill 4X Piège Moucherons Fruits + 100ml Appât - Piège Mouche de Fruits Cuisine - Fruit Fly Trap - Réutilisable - Action Longue durée", "price": 23.32, "cur": "€", "units30d": 5, "units12m": 39, "rev12m": 899, "reviews": 1, "market": "FR"}, {"asin": "B0GWMT3CVH", "brand": "Novokill", "title": "Novokill 2 x Fruit Fly Traps for Kitchen - Effective Up to 5 Weeks Per Trap - For Indoor Use - Leak Proof System", "price": 9.99, "cur": "€", "units30d": 8, "units12m": 63, "rev12m": 670, "reviews": 39, "market": "FR"}, {"asin": "B008M9HSK6", "brand": "Aeroxon", "title": "AEROXON - Fly trap and fruit gnats", "price": 7.33, "cur": "€", "units30d": 8, "units12m": 63, "rev12m": 436, "reviews": 144, "market": "FR"}, {"asin": "B0D1BS33VC", "brand": "Riem", "title": "RIEM - Ti-Tox Fruit Fly Trap 1 Trap + 3 Refills - Fruit Fly Trap and Refills - Insecticide Free - Effective up to 12 weeks", "price": 6.25, "cur": "€", "units30d": 8, "units12m": 63, "rev12m": 395, "reviews": 3, "market": "FR"}, {"asin": "B0D6LZKGM9", "brand": "maluttebio", "title": "Pheromone Trap + 1 Bag of Pheromones Mediterranean Fruit Fly - Mediterranean Fruit Anti-Fly Treatment", "price": 24.9, "cur": "€", "units30d": 0, "units12m": 0, "rev12m": 88, "reviews": 4, "market": "FR"}, {"asin": "B09SLX6GQS", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 4 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks, Suitable for Children and Pets", "price": 16.99, "cur": "€", "units30d": 427, "units12m": 3372, "rev12m": 57297, "reviews": 12291, "market": "IT"}, {"asin": "B0963J155G", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 2 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks - Suitable for Children and Pets", "price": 8.15, "cur": "€", "units30d": 373, "units12m": 2946, "rev12m": 24037, "reviews": 21119, "market": "IT"}, {"asin": "B0DVBKLWTL", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 6 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks, Suitable for Children and Pets", "price": 18.02, "cur": "€", "units30d": 39, "units12m": 308, "rev12m": 5615, "reviews": 745, "market": "IT"}, {"asin": "B0C6M6DB5H", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 12 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks, Suitable for Children and Pets", "price": 32.74, "cur": "€", "units30d": 21, "units12m": 166, "rev12m": 5323, "reviews": 12291, "market": "IT"}, {"asin": "B0DWYWN4KK", "brand": "Super Ninja", "title": "Super Ninja Indoor Fruit Fly Trap - 2 Pieces, Fruit Fly Trap Effective for Home and Kitchen, Active Up to 3 Weeks - Suitable for Children and Pets", "price": 8.97, "cur": "€", "units30d": 62, "units12m": 490, "rev12m": 4414, "reviews": 745, "market": "IT"}, {"asin": "B0DWTR65JD", "brand": "Super Ninja", "title": "Super Ninja Trappola moscerini frutta - 10 trappole adesive per moscerini piante e 2 cattura mosche della frutta, altamente efficaci, adatta a bambini e animali domestici, fino a 3", "price": 14.99, "cur": "€", "units30d": 22, "units12m": 174, "rev12m": 2608, "reviews": 0, "market": "IT"}, {"asin": "B07PN3XFD5", "brand": "PIC", "title": "PIC Fruit Fly Trap, 4 Traps with 2 Attractives for Kitchen | Natural Non-Toxic Attractant Effective Up to 8 Weeks Against Vinegar Flies and Vinegar Flies for Kitchen", "price": 12.98, "cur": "€", "units30d": 9, "units12m": 71, "rev12m": 895, "reviews": 114, "market": "IT"}, {"asin": "B0C4V4H131", "brand": "Gardigo", "title": "GARDIGO® Fly Trap 2 Pcs | Fly Killer | Anti Fly | Insect Catcher | 5.5 x 6 cm | House Fly Catch | Fly Traps", "price": 12.9, "cur": "€", "units30d": 2, "units12m": 16, "rev12m": 222, "reviews": 25, "market": "IT"}, {"asin": "B09SLX6GQS", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Traps - Pack of 4, Indoor Fly Trap, Home & Kitchen, Highly Effective Liquid Bait, Up to 3 Weeks Efficacy, Safe for Kids and Pets", "price": 16.99, "cur": "€", "units30d": 417, "units12m": 3293, "rev12m": 55965, "reviews": 12300, "market": "ES"}, {"asin": "B0DWYPZ2V8", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Traps - Pack of 2, Indoor Fly Trap, Home & Kitchen, Highly Effective Liquid Bait, Up to 3 Weeks Efficacy, Safe for Kids and Pets", "price": 10.99, "cur": "€", "units30d": 135, "units12m": 1066, "rev12m": 11731, "reviews": 739, "market": "ES"}, {"asin": "B0DVBKLWTL", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Traps - Pack of 6, Indoor Fly Trap, Home & Kitchen, Highly Effective Liquid Bait, Up to 3 Weeks Efficacy, Safe for Kids and Pets", "price": 21.99, "cur": "€", "units30d": 47, "units12m": 371, "rev12m": 8162, "reviews": 739, "market": "ES"}, {"asin": "B0963J155G", "brand": "Super Ninja", "title": "Super Ninja Fruit Fly Traps - Pack of 2, Indoor Fly Trap, Home & Kitchen, Highly Effective Liquid Bait, Up to 3 Weeks Efficacy, Safe for Kids and Pets", "price": 11.99, "cur": "€", "units30d": 58, "units12m": 458, "rev12m": 5504, "reviews": 21103, "market": "ES"}, {"asin": "B0H26XGYKX", "brand": "#NAME?", "title": "Control Garden Fruit Fly Trap x4 Fruit Guardian Trap | Super Effective Fly Attracting Bait 24 Hours | 100% Natural Formula + Safe Children and Pets | Fruit Bowl, Kitchen, Trash Can", "price": 12.95, "cur": "€", "units30d": 27, "units12m": 213, "rev12m": 2716, "reviews": 12, "market": "ES"}];
+const TP_MKT_CODES = ["UK", "FR", "IT", "ES"];
+
+function fmtMoneyInt(v) { return '€' + Math.round(v).toLocaleString('en-EU'); }
+function fmtInt(v) { return Math.round(v).toLocaleString('en-EU'); }
+function escHtml(s) { return String(s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]); }
+const AMAZON_DOMAIN = {"UK": "co.uk", "FR": "fr", "IT": "it", "ES": "es"};
+function asinLink(asin, marketCode) {
+  const dom = AMAZON_DOMAIN[marketCode] || 'de';
+  return '<a href="https://www.amazon.' + dom + '/dp/' + encodeURIComponent(asin) + '" target="_blank" rel="noopener">' + escHtml(asin) + '</a>';
+}
+
+const TP_COLS = [
+  {key:'rank',    label:'#',        num:true,  w:'32px'},
+  {key:'asin',    label:'ASIN',     num:false, w:'110px'},
+  {key:'brand',   label:'Marka',    num:false, w:'120px'},
+  {key:'title',   label:'Tytuł',    num:false, w:'auto', cls:'title'},
+  {key:'price',   label:'Cena €',   num:true},
+  {key:'units30d',label:'Sztuki 30d',num:true,  fmt:fmtInt},
+  {key:'units12m',label:'Sztuki 12M',num:true,  fmt:fmtInt},
+  {key:'rev12m',  label:'Przychód 12M €', num:true, fmt:fmtMoneyInt},
+  {key:'reviews', label:'Recenzje', num:true,  fmt:fmtInt},
+];
+
+function buildTopTable(products, containerId, includeMarketCol, fixedMarketCode) {
+  const cols = includeMarketCol ? [{key:'market',label:'Rynek',num:false,w:'42px'}, ...TP_COLS.slice(1)] : TP_COLS;
+  let sortKey = includeMarketCol ? 'rev12m' : 'rank';
+  let sortDir = includeMarketCol ? 'desc' : 'asc';
+  const rows = products.map((p, i) => ({ ...p, rank: i + 1 }));
+
+  function render() {
+    rows.sort((a, b) => {
+      const va = a[sortKey]; const vb = b[sortKey];
+      const na = (typeof va === 'number'); const nb = (typeof vb === 'number');
+      if (na && nb) return sortDir === 'asc' ? va - vb : vb - va;
+      return sortDir === 'asc' ? String(va).localeCompare(String(vb)) : String(vb).localeCompare(String(va));
+    });
+    let html = '<table class="tp-table"><thead><tr>';
+    cols.forEach(c => {
+      const cls = c.num ? 'num' : '';
+      const sortCls = (c.key === sortKey) ? (sortDir === 'asc' ? 'sortable sort-asc' : 'sortable sort-desc') : 'sortable';
+      html += '<th class="' + cls + ' ' + sortCls + '" data-k="' + c.key + '"' + (c.w ? ' style="width:' + c.w + '"' : '') + '>' + c.label + '</th>';
+    });
+    html += '</tr></thead><tbody>';
+    rows.forEach(r => {
+      html += '<tr>';
+      cols.forEach(c => {
+        let cls = c.num ? 'num' : (c.cls || '');
+        let val = r[c.key];
+        if (c.key === 'asin') {
+          const mkt = fixedMarketCode || r.market || TP_MKT_CODES[0];
+          val = asinLink(val, mkt);
+          cls = 'asin';
+        }
+        else if (c.key === 'price') val = (r.cur || '€') + Number(val).toFixed(2);
+        else if (c.key === 'title') val = escHtml(val);
+        else if (c.key === 'brand') val = escHtml(val);
+        else if (c.fmt) val = c.fmt(val || 0);
+        else val = escHtml(val);
+        html += '<td class="' + cls + '"' + (c.key === 'title' ? ' title="' + escHtml(r.title) + '"' : '') + '>' + val + '</td>';
+      });
+      html += '</tr>';
+    });
+    html += '</tbody></table>';
+    const container = document.getElementById(containerId);
+    container.innerHTML = html;
+    container.querySelectorAll('th.sortable').forEach(th => {
+      th.onclick = () => {
+        const k = th.dataset.k;
+        if (sortKey === k) sortDir = (sortDir === 'asc' ? 'desc' : 'asc');
+        else { sortKey = k; sortDir = 'desc'; }
+        render();
+      };
+    });
+  }
+  render();
+}
+
+// === Main view: top 10 table for selected market ===
+function renderTopTableForMarket(code) {
+  const prods = TOP_PRODUCTS[code] || [];
+  if (prods.length === 0) {
+    document.getElementById('tpTables').innerHTML = '<p style="font-size:.74rem;color:#94a3b8;padding:8px 0">Brak produktów dla ' + code + '.</p>';
+  } else {
+    buildTopTable(prods, 'tpTables', false, code);
+  }
+}
+document.querySelectorAll('.tp-pill[data-mkt]').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.tp-pill[data-mkt]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderTopTableForMarket(btn.dataset.mkt);
+  };
+});
+renderTopTableForMarket(TP_MKT_CODES[0]);
+
+// === Advanced view: all products with market + keyword filters ===
+let advMkt = 'All';
+let advQuery = '';
+function renderAdvancedTable() {
+  let filtered = ALL_PRODUCTS.slice();
+  if (advMkt !== 'All') filtered = filtered.filter(p => p.market === advMkt);
+  if (advQuery) {
+    const q = advQuery.toLowerCase();
+    filtered = filtered.filter(p => (p.brand || '').toLowerCase().includes(q) || (p.title || '').toLowerCase().includes(q) || (p.asin || '').toLowerCase().includes(q));
+  }
+  if (filtered.length === 0) {
+    document.getElementById('tpAdvTable').innerHTML = '<p style="font-size:.74rem;color:#94a3b8;padding:8px 0">Brak produktów dla wybranego filtra.</p>';
+  } else {
+    buildTopTable(filtered, 'tpAdvTable', true);
+  }
+}
+document.querySelectorAll('.tp-pill[data-adv-mkt]').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.tp-pill[data-adv-mkt]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    advMkt = btn.dataset.advMkt;
+    renderAdvancedTable();
+  };
+});
+document.getElementById('tpAdvSearch').addEventListener('input', e => {
+  advQuery = e.target.value.trim();
+  renderAdvancedTable();
+});
+renderAdvancedTable();
+</script>
+</body>
+</html>

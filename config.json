@@ -36,6 +36,13 @@
       "file": "index.html"
     },
     {
+      "id": "fruit-flies-eu-detailed",
+      "title": "Fruit Flies EU — Detailed (FR, IT, ES, UK)",
+      "group": "detailed",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
       "id": "fruit-fly-trap-de",
       "title": "Fruit Fly Trap (DE)",
       "group": "detailed",
