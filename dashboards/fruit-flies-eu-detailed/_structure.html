@@ -61,14 +61,15 @@
       kpi(k.hhi.toLocaleString('en-EU'), 'HHI - '+conc) +
     '</div>';
 
+    // Brand pies (units + revenue) - directly under the KPI strip, rest pushed down.
+    html += row2(
+      card('Udział marek - jednostki (12M)', canvas('msBrandU', 340)),
+      card('Udział marek - przychód (12M)', canvas('msBrandR', 340)));
+
     // Pack pies
     html += row2(
       card('Udział formatów opakowań - sztuki (12M)', canvas('msPackU')),
       card('Udział formatów opakowań - przychód (12M)', canvas('msPackR')));
-    // Brand pies
-    html += row2(
-      card('Udział marek - sztuki (12M)', canvas('msBrandU', 340)),
-      card('Udział marek - przychód (12M)', canvas('msBrandR', 340)));
     // Brand share within top pack sizes
     var pieCards = D.topPackPies.map(function(tp,i){ return card('Marki w formacie '+tp.pack+'-pak (szt.)', canvas('msTP'+i)); }).join('');
     if (pieCards) html += '<div class="ms2-row3">'+pieCards+'</div>';
