@@ -35,6 +35,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 RYNEK_HTML = os.path.join(BASE, '_rynek_topline.html')
 STRUCT_HTML = os.path.join(BASE, '_structure.html')
 VOC_HTML = os.path.join(BASE, '_voc.html')
+VOC_STICKY_HTML = os.path.join(BASE, '_voc_sticky.html')
 
 # ── Identity ────────────────────────────────────────────────────────────────
 PRODUCT_TITLE = 'Fruit Flies EU - Detailed (FR, IT, ES, UK)'
@@ -53,6 +54,8 @@ print('Running _build_structure.py ...')
 subprocess.run([sys.executable, os.path.join(BASE, '_build_structure.py')], check=True)
 print('Running _build_voc.py ...')
 subprocess.run([sys.executable, os.path.join(BASE, '_build_voc.py')], check=True)
+print('Running _build_voc_sticky.py ...')
+subprocess.run([sys.executable, os.path.join(BASE, '_build_voc_sticky.py')], check=True)
 
 rynek = open(RYNEK_HTML, encoding='utf-8').read()
 m_style = re.search(r'<style>(.*?)</style>', rynek, re.S)
@@ -64,6 +67,7 @@ topline_body = re.sub(r'<header>.*?</header>', '', m_body.group(1), flags=re.S)
 
 structure_body = open(STRUCT_HTML, encoding='utf-8').read()
 voc_body = open(VOC_HTML, encoding='utf-8').read()
+voc_sticky_body = open(VOC_STICKY_HTML, encoding='utf-8').read()
 
 # ── X-Ray buttons (only real links) ─────────────────────────────────────────
 xray_buttons = ''
@@ -159,6 +163,7 @@ HTML = r'''<!DOCTYPE html>
   <button class="ad-tab active" data-tab="market">Rynek</button>
   <button class="ad-tab" data-tab="structure">Struktura rynku</button>
   <button class="ad-tab" data-tab="voc">Recenzje (VOC)</button>
+  <button class="ad-tab" data-tab="voc-sticky">VOC - sticky traps</button>
 </div>
 
 <div class="ad-panel active" id="panel-market">
@@ -173,9 +178,13 @@ HTML = r'''<!DOCTYPE html>
 {{VOC_BODY}}
 </div>
 
+<div class="ad-panel" id="panel-voc-sticky">
+{{VOC_STICKY_BODY}}
+</div>
+
 <script>
 (function(){
-  var structRendered = false, vocRendered = false;
+  var structRendered = false, vocRendered = false, vocStickyRendered = false;
   document.querySelectorAll('.ad-tab').forEach(function(t){
     t.addEventListener('click', function(){
       var tab = t.dataset.tab;
@@ -183,6 +192,7 @@ HTML = r'''<!DOCTYPE html>
       document.getElementById('panel-market').classList.toggle('active', tab === 'market');
       document.getElementById('panel-structure').classList.toggle('active', tab === 'structure');
       document.getElementById('panel-voc').classList.toggle('active', tab === 'voc');
+      document.getElementById('panel-voc-sticky').classList.toggle('active', tab === 'voc-sticky');
       if (tab === 'structure' && !structRendered && window.__structRender) {
         structRendered = true;
         window.__structRender();
@@ -190,6 +200,10 @@ HTML = r'''<!DOCTYPE html>
       if (tab === 'voc' && !vocRendered && window.__vocRender) {
         vocRendered = true;
         window.__vocRender();
+      }
+      if (tab === 'voc-sticky' && !vocStickyRendered && window.__vocStickyRender) {
+        vocStickyRendered = true;
+        window.__vocStickyRender();
       }
     });
   });
@@ -210,6 +224,7 @@ html_out = (HTML
     .replace('{{TOPLINE_BODY}}', topline_body)
     .replace('{{STRUCTURE_BODY}}', structure_body)
     .replace('{{VOC_BODY}}', voc_body)
+    .replace('{{VOC_STICKY_BODY}}', voc_sticky_body)
 )
 
 # Style guard: no em/en dashes in shell text (fragments already sanitized).
