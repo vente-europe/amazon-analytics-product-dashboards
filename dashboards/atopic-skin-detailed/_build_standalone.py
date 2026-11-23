@@ -62,9 +62,14 @@ COUNTRIES = [
     {'code': 'UK', 'name': 'Wielka Brytania', 'flag': '\U0001F1EC\U0001F1E7'},
 ]
 
-# Per-country currency + Amazon TLD (UK = £ / amazon.co.uk). VOC/MDD data exists
+# Per-country currency + Amazon TLD (UK = amazon.co.uk). VOC/MDD data exists
 # only for the 4 Eurozone markets — UK is excluded from those country pills.
-CURRENCY_BY_COUNTRY = {'DE': '€', 'FR': '€', 'IT': '€', 'ES': '€', 'UK': '£'}
+# 2026-11-23: UK shown in € in Struktura rynku (same as Rynek). £ -> € uses the
+# SAME GBP_EUR constant as _build_rynek.py (read from that file, single knob).
+CURRENCY_BY_COUNTRY = {'DE': '€', 'FR': '€', 'IT': '€', 'ES': '€', 'UK': '€'}
+with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '_build_rynek.py'), encoding='utf-8') as _rf:
+    GBP_EUR = float(re.search(r'^GBP_EUR\s*=\s*([0-9.]+)', _rf.read(), re.M).group(1))
+FX_TO_EUR = {'UK': GBP_EUR}
 TLD_BY_COUNTRY      = {'DE': 'de', 'FR': 'fr', 'IT': 'it', 'ES': 'es', 'UK': 'co.uk'}
 VOC_COUNTRY_CODES   = ['DE', 'FR', 'IT', 'ES']
 
@@ -189,6 +194,13 @@ def load_structure(code):
             rev30d = _pnum(r.get('ASIN Revenue'))
             if sales30d == 0 and rev30d > 0 and price > 0:
                 sales30d = round(rev30d / price)
+            if rev30d == 0 and sales30d > 0 and price > 0:
+                rev30d = sales30d * price
+            # 2026-11-23: revenue = H10 ASIN Revenue (30d) x 12, same as Rynek.
+            # Units = H10 ASIN Sales (30d) x 12. Listed price only for display.
+            fx = FX_TO_EUR.get(code, 1.0)
+            price *= fx
+            rev30d *= fx
             units12m = round(sales30d * 12)
             out.append({
                 'asin': asin,
@@ -202,7 +214,7 @@ def load_structure(code):
                 'rating': round(_pnum(r.get('Ratings')), 1),
                 'reviewCount': int(_pnum(r.get('Review Count'))),
                 'units12m': units12m,
-                'revenue12m': round(units12m * price),
+                'revenue12m': round(rev30d * 12),
             })
     return out
 

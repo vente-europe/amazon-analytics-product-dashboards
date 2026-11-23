@@ -214,7 +214,7 @@ makeAllTablesSortable), Chart, ChartDataLabels.
       s += '</tr>';
     });
     s += '</tbody></table></div>';
-    s += '<div class="note">' + seg.name + ' — top ' + Math.min(20, sorted.length) + ' z ' + seg.asins + ' ASIN-ów wg przychodu 12M. Przychód = jednostki 12M × cena z listingu. Projekcja 12M = sprzedaż 30 dni × 12.</div>';
+    s += '<div class="note">' + seg.name + ' — top ' + Math.min(20, sorted.length) + ' z ' + seg.asins + ' ASIN-ów wg przychodu 12M. Przychód 12M = przychód z ostatnich 30 dni × 12, jednostki 12M = sprzedaż 30 dni × 12 (Helium 10). Cena = cena z listingu w dniu eksportu.</div>';
     s += '</div>';
 
     return s;

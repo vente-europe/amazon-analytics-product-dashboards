@@ -2,6 +2,22 @@
 
 > Standalone detailed dashboard. Living document — update after every change.
 
+## 2026-11-23 — Struktura rynku now matches Rynek (UK was off by ~46%)
+
+Tom spotted that UK in **Struktura rynku** (£18.3M) did not match **Rynek** (€26.7M). Two causes:
+1. **Currency** — Struktura showed UK in £, Rynek converts £ -> € at `GBP_EUR`.
+2. **Revenue formula** — Struktura used `units12m × listed price`, Rynek uses `ASIN Revenue × 12`.
+   UK's `Price £` column (export-day price) sits ~20% below H10's 30-day revenue per unit
+   (e.g. Cetraben £8.87 vs £12.41/unit) — likely a promo-time export (not verified). DE gap was only 3.5%.
+
+Fix (Tom's decision): **both tabs use H10 `ASIN Revenue` (30d) × 12** for revenue and
+`ASIN Sales` (30d) × 12 for units; listed price is display-only. UK is shown in **€** in
+Struktura too (`CURRENCY_BY_COUNTRY['UK']='€'`); `_build_standalone.py` reads `GBP_EUR`
+from `_build_rynek.py` by regex, so **there is one FX knob**. Note under Top ASINs updated.
+Verified after rebuild: Struktura = Rynek for all 5 markets (DE 18.7 · UK 26.7 · IT 12.9 · FR 6.0 · ES 4.9 €M).
+Live repo = `C:\Users\tomasz.mickiewicz\Documents\GitHub\amazon-analytics-product-dashboards` (branch `main`) —
+copy changed files there and push; `asistant-buckup` is the working copy only.
+
 ## 2026-07-08 — UK added as a 5th market (Rynek + Struktura rynku)
 
 New market **UK** under `data/x-ray/UK/`. Eight raw Helium_10 exports were merged →
