@@ -13,7 +13,8 @@
   fetchConfig();
 
   function fetchConfig() {
-    fetch('config.json')
+    // no-cache: always revalidate, so a newly added dashboard shows up without Ctrl+F5
+    fetch('config.json', { cache: 'no-cache' })
       .then(function(res) { return res.json(); })
       .then(function(data) {
         config = data;
