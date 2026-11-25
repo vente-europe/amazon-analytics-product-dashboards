@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Allergoff EU — Top Line</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f1f5f9;color:#1e293b;font-size:13px}
+header{background:#0f2942;color:#fff;padding:18px 32px;display:flex;justify-content:space-between;align-items:center}
+header h1{font-size:1.1rem;font-weight:700;letter-spacing:.01em}
+header span{font-size:.75rem;color:#94a3b8}
+.main{max-width:1100px;margin:0 auto;padding:28px 24px}
+.kpi-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:24px}
+.kpi{background:#fff;border-radius:8px;padding:14px 18px;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.kpi-v{font-size:1.25rem;font-weight:700;color:#0f2942;line-height:1.2}
+.kpi-l{font-size:.68rem;color:#64748b;margin-top:5px;text-transform:uppercase;letter-spacing:.05em}
+.charts-row{display:grid;grid-template-columns:1.4fr 1fr;gap:18px;margin-bottom:24px}
+.card{background:#fff;border-radius:8px;padding:18px 20px;box-shadow:0 1px 3px rgba(0,0,0,.07);margin-bottom:18px}
+.card h3{font-size:.83rem;font-weight:600;color:#475569;margin-bottom:16px}
+.chart-wrap{position:relative;height:300px}
+table{width:100%;border-collapse:collapse}
+th{background:#f8fafc;text-align:left;padding:8px 10px;font-weight:600;color:#475569;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;border-bottom:2px solid #e2e8f0}
+td{padding:7px 10px;border-bottom:1px solid #f1f5f9;font-size:.82rem}
+tr:hover td{background:#f8fafc}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;flex-shrink:0}
+.flag{margin-right:6px}
+.note{font-size:.7rem;color:#64748b;margin-top:18px;padding:10px 13px;background:#f8fafc;border-radius:6px;border-left:2px solid #cbd5e1;line-height:1.6}
+.total-row td{font-weight:700;color:#0f2942;background:#f8fafc;border-top:2px solid #e2e8f0}
+@media(max-width:700px){.kpi-row{grid-template-columns:1fr}.charts-row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1 id="clHeader">Allergoff EU — Top Line</h1>
+  <span id="clSubheader"></span>
+</header>
+
+<div class="main">
+  <div class="kpi-row" id="clKpis"></div>
+  <div class="charts-row">
+    <div class="card">
+      <h3 id="clBarTitle"></h3>
+      <div class="chart-wrap"><canvas id="clBarChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3 id="clPieTitle"></h3>
+      <div class="chart-wrap"><canvas id="clPieChart"></canvas></div>
+    </div>
+  </div>
+  <div class="card">
+    <h3 id="clTableTitle"></h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Marketplace</th>
+          <th>Currency</th>
+          <th style="text-align:right">30-Day Units</th>
+          <th style="text-align:right">&times;12</th>
+          <th style="text-align:right">12M Units</th>
+          <th style="text-align:right">12M Revenue &euro;</th>
+          <th style="text-align:right">Share</th>
+        </tr>
+      </thead>
+      <tbody id="clTableBody"></tbody>
+    </table>
+  </div>
+  <div class="charts-row">
+    <div class="card">
+      <h3 id="clBrandRevTitle"></h3>
+      <div class="chart-wrap"><canvas id="clBrandRevChart"></canvas></div>
+    </div>
+    <div class="card">
+      <h3 id="clBrandUnitTitle"></h3>
+      <div class="chart-wrap"><canvas id="clBrandUnitChart"></canvas></div>
+    </div>
+  </div>
+  <div class="note" id="clNote"></div>
+</div>
+
+<script>
+// ╔══════════════════════════════════════════════════════════════════════════════╗
+// ║  CL_DATA — ONLY EDIT THIS BLOCK                                           ║
+// ║  Everything below renders from this data. Do not edit the rendering code.  ║
+// ╚══════════════════════════════════════════════════════════════════════════════╝
+
+var CL_DATA = {
+  "title": "Dust Mite &amp; Textile Sprays — EU Markets  (Allergoff Competitive Landscape)",
+  "subtitle": "12-Month Projection  |  Data: Last 30 Days (Nov 2026)",
+  "barTitle": "Revenue by Marketplace — 12M (€)",
+  "pieTitle": "Unit Share by Marketplace — 12M",
+  "tableTitle": "Units by Marketplace — 12M",
+  "currency": "€",
+  "kpis": [
+    {
+      "value": "€8.1M",
+      "label": "Total 12M Revenue (all markets)"
+    },
+    {
+      "value": "660,876",
+      "label": "Total 12M Units Sold"
+    },
+    {
+      "value": "4 Markets",
+      "label": "FR · ES · DE · IT"
+    }
+  ],
+  "markets": [
+    {
+      "code": "FR",
+      "flag": "🇫🇷",
+      "name": "France (FR)",
+      "color": "#7c3aed",
+      "currency": "EUR",
+      "units30d": 20480,
+      "units12m": 245760,
+      "revenue12m": 3078202
+    },
+    {
+      "code": "ES",
+      "flag": "🇪🇸",
+      "name": "Spain (ES)",
+      "color": "#d97706",
+      "currency": "EUR",
+      "units30d": 15385,
+      "units12m": 184620,
+      "revenue12m": 2005254
+    },
+    {
+      "code": "DE",
+      "flag": "🇩🇪",
+      "name": "Germany (DE)",
+      "color": "#2563eb",
+      "currency": "EUR",
+      "units30d": 9786,
+      "units12m": 117432,
+      "revenue12m": 1718420
+    },
+    {
+      "code": "IT",
+      "flag": "🇮🇹",
+      "name": "Italy (IT)",
+      "color": "#059669",
+      "currency": "EUR",
+      "units30d": 9422,
+      "units12m": 113064,
+      "revenue12m": 1343547
+    }
+  ],
+  "brandRevTitle": "Revenue Share by Brand — 12M (€)",
+  "brandUnitTitle": "Unit Share by Brand — 12M",
+  "brandColors": [
+    "#2563eb",
+    "#dc2626",
+    "#059669",
+    "#d97706",
+    "#7c3aed",
+    "#0891b2",
+    "#be185d",
+    "#65a30d",
+    "#9333ea",
+    "#ea580c",
+    "#94a3b8"
+  ],
+  "brandRevenue": [
+    {
+      "name": "ARDAP",
+      "value": 1327409
+    },
+    {
+      "name": "SANYTOL",
+      "value": 1180851
+    },
+    {
+      "name": "Puressentiel",
+      "value": 910995
+    },
+    {
+      "name": "ARKA",
+      "value": 728220
+    },
+    {
+      "name": "Allergoff (Novokill)",
+      "value": 583613
+    },
+    {
+      "name": "FRONTLINE",
+      "value": 414878
+    },
+    {
+      "name": "SERENI-D",
+      "value": 359109
+    },
+    {
+      "name": "KH-7",
+      "value": 282691
+    },
+    {
+      "name": "Beaphar",
+      "value": 196059
+    },
+    {
+      "name": "Remi Hogar",
+      "value": 185808
+    },
+    {
+      "name": "Other (34)",
+      "value": 1975790
+    }
+  ],
+  "brandUnits": [
+    {
+      "name": "SANYTOL",
+      "value": 99108
+    },
+    {
+      "name": "ARDAP",
+      "value": 86256
+    },
+    {
+      "name": "ARKA",
+      "value": 79440
+    },
+    {
+      "name": "Puressentiel",
+      "value": 64320
+    },
+    {
+      "name": "KH-7",
+      "value": 32724
+    },
+    {
+      "name": "Allergoff (Novokill)",
+      "value": 27504
+    },
+    {
+      "name": "FRONTLINE",
+      "value": 27360
+    },
+    {
+      "name": "Febreze",
+      "value": 22404
+    },
+    {
+      "name": "OUST",
+      "value": 20820
+    },
+    {
+      "name": "Pranarôm",
+      "value": 19356
+    },
+    {
+      "name": "Other (34)",
+      "value": 181584
+    }
+  ],
+  "note": "<strong>Data source:</strong> Helium 10 X-Ray extension — 30-day snapshot exported Nov 2026, one keyword export per marketplace (DE, ES, FR, IT), duplicates removed by ASIN within each marketplace (2).   <strong>Filter:</strong> ASINs below €1,000 ASIN Revenue in the last 30 days removed (93 removed, 76 kept).   <strong>Methodology:</strong> 30-day figures × 12 = annual projection. Units = H10 ASIN Sales, revenue = H10 ASIN Revenue. All four markets in EUR, prices incl. VAT.   Brand “Novokill” in H10 = Allergoff. Revenue figures are category-level (all kept ASINs in each marketplace file summed), no products excluded by relevance."
+};
+
+// ╔══════════════════════════════════════════════════════════════════════════════╗
+// ║  RENDERING ENGINE — DO NOT EDIT BELOW THIS LINE                           ║
+// ╚══════════════════════════════════════════════════════════════════════════════╝
+
+(function clInit() {
+  var D = CL_DATA;
+  var markets = D.markets;
+  var LABELS = markets.map(function(m) { return m.code; });
+  var REVENUE = markets.map(function(m) { return m.revenue12m; });
+  var UNITS = markets.map(function(m) { return m.units12m; });
+  var COLORS = markets.map(function(m) { return m.color; });
+  var totalRev = REVENUE.reduce(function(a, b) { return a + b; }, 0);
+  var totalUnits = UNITS.reduce(function(a, b) { return a + b; }, 0);
+  var totalUnits30d = markets.reduce(function(a, m) { return a + m.units30d; }, 0);
+
+  // ── Header ──
+  document.getElementById('clHeader').innerHTML = D.title;
+  document.getElementById('clSubheader').textContent = D.subtitle;
+
+  // ── Chart titles ──
+  document.getElementById('clBarTitle').textContent = D.barTitle;
+  document.getElementById('clPieTitle').textContent = D.pieTitle;
+  document.getElementById('clTableTitle').textContent = D.tableTitle;
+
+  // ── KPIs ──
+  document.getElementById('clKpis').innerHTML = D.kpis.map(function(k) {
+    return '<div class="kpi"><div class="kpi-v">' + k.value + '</div><div class="kpi-l">' + k.label + '</div></div>';
+  }).join('');
+
+  // ── Table ──
+  var rows = markets.map(function(m) {
+    var share = (m.revenue12m / totalRev * 100).toFixed(1);
+    return '<tr>' +
+      '<td><span class="dot" style="background:' + m.color + '"></span>' + m.flag + ' ' + m.name + '</td>' +
+      '<td>' + m.currency + '</td>' +
+      '<td class="num">' + m.units30d.toLocaleString() + '</td>' +
+      '<td class="num">12×</td>' +
+      '<td class="num">' + m.units12m.toLocaleString() + '</td>' +
+      '<td class="num">' + D.currency + m.revenue12m.toLocaleString() + '</td>' +
+      '<td class="num">' + share + '%</td></tr>';
+  }).join('');
+  rows += '<tr class="total-row"><td colspan="2"><strong>Total</strong></td>' +
+    '<td class="num">' + totalUnits30d.toLocaleString() + '</td>' +
+    '<td class="num">—</td>' +
+    '<td class="num">' + totalUnits.toLocaleString() + '</td>' +
+    '<td class="num">' + D.currency + totalRev.toLocaleString() + '</td>' +
+    '<td class="num">100%</td></tr>';
+  document.getElementById('clTableBody').innerHTML = rows;
+
+  // ── Note ──
+  document.getElementById('clNote').innerHTML = D.note;
+
+  // ── Bar chart ──
+  Chart.register(ChartDataLabels);
+  var cur = D.currency;
+
+  function fmtCur(v) {
+    return v >= 1e6 ? cur + (v / 1e6).toFixed(1) + 'M' : cur + (v / 1e3).toFixed(0) + 'K';
+  }
+
+  new Chart(document.getElementById('clBarChart'), {
+    type: 'bar',
+    data: {
+      labels: LABELS,
+      datasets: [{
+        data: REVENUE,
+        backgroundColor: COLORS,
+        borderRadius: 4,
+        borderSkipped: false
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: { size: 11 }, padding: 10, boxWidth: 12, boxHeight: 12,
+            generateLabels: function() {
+              return LABELS.map(function(label, i) {
+                return {
+                  text: label + '  ' + (REVENUE[i] / totalRev * 100).toFixed(1) + '%',
+                  fillStyle: COLORS[i],
+                  strokeStyle: COLORS[i],
+                  lineWidth: 0,
+                  index: i,
+                  hidden: false
+                };
+              });
+            }
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(ctx) { return ' ' + cur + ctx.parsed.y.toLocaleString('en', { maximumFractionDigits: 0 }); }
+          }
+        },
+        datalabels: {
+          anchor: 'end',
+          align: 'end',
+          formatter: function(v) { return fmtCur(v); },
+          font: { size: 11, weight: '600' },
+          color: '#1e293b'
+        }
+      },
+      layout: { padding: { top: 22 } },
+      scales: {
+        x: { grid: { display: false }, ticks: { font: { size: 12 } } },
+        y: {
+          grid: { color: '#e2e8f0' },
+          ticks: { callback: function(v) { return fmtCur(v); } }
+        }
+      }
+    }
+  });
+
+  // ── Doughnut chart ──
+  new Chart(document.getElementById('clPieChart'), {
+    type: 'doughnut',
+    data: {
+      labels: LABELS,
+      datasets: [{
+        data: UNITS,
+        backgroundColor: COLORS,
+        borderWidth: 2,
+        borderColor: '#fff'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '52%',
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            font: { size: 11 }, padding: 10, boxWidth: 12, boxHeight: 12,
+            generateLabels: function(chart) {
+              return chart.data.labels.map(function(label, i) {
+                var val = chart.data.datasets[0].data[i];
+                var pct = (val / totalUnits * 100).toFixed(1);
+                var small = i >= 3;
+                return {
+                  text: small ? label + '  ' + pct + '%' : label,
+                  fillStyle: COLORS[i],
+                  strokeStyle: COLORS[i],
+                  lineWidth: 0,
+                  index: i,
+                  hidden: false
+                };
+              });
+            }
+          }
+        },
+        tooltip: {
+          callbacks: {
+            label: function(ctx) {
+              var pct = (ctx.parsed / totalUnits * 100).toFixed(1);
+              return ' ' + ctx.parsed.toLocaleString() + ' units (' + pct + '%)';
+            }
+          }
+        },
+        datalabels: {
+          display: function(ctx) { return ctx.dataIndex < 3; },
+          formatter: function(v) {
+            return (v / totalUnits * 100).toFixed(1) + '%';
+          },
+          color: '#fff',
+          font: { size: 11, weight: '700' }
+        }
+      }
+    }
+  });
+  // ── Brand pie charts ──
+  document.getElementById('clBrandRevTitle').textContent = D.brandRevTitle;
+  document.getElementById('clBrandUnitTitle').textContent = D.brandUnitTitle;
+
+  function brandPie(canvasId, items, colors, fmtLabel) {
+    var labels = items.map(function(b) { return b.name; });
+    var values = items.map(function(b) { return b.value; });
+    var total = values.reduce(function(a, b) { return a + b; }, 0);
+    new Chart(document.getElementById(canvasId), {
+      type: 'doughnut',
+      data: {
+        labels: labels,
+        datasets: [{ data: values, backgroundColor: colors.slice(0, items.length), borderWidth: 2, borderColor: '#fff' }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '48%',
+        plugins: {
+          legend: {
+            position: 'bottom',
+            labels: {
+              font: { size: 10 }, padding: 8, boxWidth: 10, boxHeight: 10,
+              generateLabels: function(chart) {
+                return chart.data.labels.map(function(label, i) {
+                  var pct = (chart.data.datasets[0].data[i] / total * 100).toFixed(1);
+                  return { text: label + '  ' + pct + '%', fillStyle: colors[i], strokeStyle: colors[i], lineWidth: 0, index: i, hidden: false };
+                });
+              }
+            }
+          },
+          tooltip: {
+            callbacks: {
+              label: function(ctx) {
+                var pct = (ctx.parsed / total * 100).toFixed(1);
+                return ' ' + fmtLabel(ctx.parsed) + ' (' + pct + '%)';
+              }
+            }
+          },
+          datalabels: {
+            display: function(ctx) { return ctx.dataIndex < 4; },
+            formatter: function(v) { return (v / total * 100).toFixed(1) + '%'; },
+            color: '#fff',
+            font: { size: 10, weight: '700' }
+          }
+        }
+      }
+    });
+  }
+
+  brandPie('clBrandRevChart', D.brandRevenue, D.brandColors, function(v) { return cur + v.toLocaleString('en', { maximumFractionDigits: 0 }); });
+  brandPie('clBrandUnitChart', D.brandUnits, D.brandColors, function(v) { return v.toLocaleString() + ' units'; });
+
+})();
+</script>
+</body>
+</html>

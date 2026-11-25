@@ -118,6 +118,13 @@
       "file": "index.html"
     },
     {
+      "id": "allergoff-eu-topline",
+      "title": "Allergoff EU",
+      "group": "topline",
+      "template": "standalone",
+      "file": "index.html"
+    },
+    {
       "id": "fruit-fly-trap-eu-topline",
       "title": "Fruit Fly Trap EU — Top Line (DE, UK, FR, ES, IT, NL)",
       "group": "topline",
